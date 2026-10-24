@@ -2,6 +2,8 @@
 
 Türkiye'de yaygın olarak kullanılan otomobillerin bilinen kronik sorunlarını
 marka, model ve motor bazında listeleyen, her maddesi kaynaklı JSON veritabanı.
+Kapsam son 10-15 yılın araçlarıdır (yaklaşık 2011 model yılı ve sonrası). Sorunlar,
+kaynaklar destekliyorsa üretim yılına göre kırılır (ör. revizyon öncesi ve sonrası).
 
 > **Uyarı:** Veriler kullanıcı şikâyetleri, forumlar, servis bültenleri ve geri
 > çağırma kampanyaları gibi kamuya açık bilgilerden derlenmiştir ve yalnızca
@@ -18,6 +20,7 @@ marka, model ve motor bazında listeleyen, her maddesi kaynaklı JSON veritaban�
 | `schema/araclar.schema.json` | Veri yapısını tanımlayan JSON Schema (draft 2020-12) |
 | `scripts/dogrula.py` | Veriyi ve kaynak kurallarını doğrulayan betik (yalnızca Python standart kütüphanesi) |
 | `scripts/kaynaklar_md_uret.py` | `KAYNAKLAR.md` dosyasını üretir |
+| `tests/test_dogrula.py` | Doğrulayıcının birim testleri |
 | `KAYNAKLAR.md` | Kullanılan forum ve sitelerin listesi, türleri ve güvenilirlik notları |
 | `DOGRULAMA_RAPORU.md` | Hangi maddelerin doğrulandığı, kaldırıldığı, düzeltildiği ve eklendiği |
 
@@ -30,6 +33,7 @@ marka, model ve motor bazında listeleyen, her maddesi kaynaklı JSON veritaban�
       "marka": "...",
       "model": "...",
       "motor": "...",
+      "uretim_yillari": { "baslangic": 2015, "bitis": 2021 },
       "kronik_sorunlar": [
         {
           "sorun_adi": "...",
@@ -37,7 +41,11 @@ marka, model ve motor bazında listeleyen, her maddesi kaynaklı JSON veritaban�
           "belirtiler": "...",
           "tahmini_km_araligi": "...",
           "risk_seviyesi": "Düşük/Orta/Yüksek",
-          "kaynaklar": ["https://...", "https://..."]
+          "kaynaklar": ["https://...", "https://..."],
+          "donem_kirilimi": [
+            { "baslangic": 2015, "bitis": 2018, "durum": "Yaygın", "not": "..." },
+            { "baslangic": 2019, "bitis": null, "durum": "Seyrek", "not": "..." }
+          ]
         }
       ]
     }
@@ -50,12 +58,14 @@ marka, model ve motor bazında listeleyen, her maddesi kaynaklı JSON veritaban�
 | `marka` | Üretici adı (ör. `Renault`) |
 | `model` | Model adı; kasa kodu ve üretim yılları parantez içinde (ör. `Megane 3 / Fluence (2009-2016)`) |
 | `motor` | Motor adı; motor kodu ve gerekiyorsa şanzıman parantez içinde (ör. `1.5 dCi (K9K, EDC)`) |
+| `uretim_yillari` | Bu model ve motor kombinasyonunun üretim veya Türkiye satış yılları. `bitis` değeri `null` ise üretim sürüyor |
 | `sorun_adi` | Sorunun kısa adı |
 | `etkilenen_parca` | Arızanın kaynaklandığı parça veya sistem |
 | `belirtiler` | Sürücünün fark edebileceği belirtiler, virgülle ayrılmış |
 | `tahmini_km_araligi` | `80.000 - 150.000 km` biçiminde tahmini kilometre aralığı |
 | `risk_seviyesi` | `Düşük`, `Orta` veya `Yüksek` |
 | `kaynaklar` | Sorunu destekleyen sayfaların adresleri (en az iki farklı site) |
+| `donem_kirilimi` | İsteğe bağlı. Sorunun üretim yılına göre durumu; aşağıya bakın |
 
 Risk seviyeleri:
 
@@ -63,6 +73,27 @@ Risk seviyeleri:
 - **Orta:** Onarım gerektiren, ihmal edilirse büyüyebilecek sorunlar.
 - **Yüksek:** Motor/şanzıman hasarına veya aracın yolda kalmasına yol açabilen,
   onarımı pahalı sorunlar.
+
+## Dönem kırılımı
+
+Aynı motor her üretim yılında aynı sorunu yaşamaz: bir revizyon sorunu azaltabilir,
+bir parti sorunu artırabilir. `donem_kirilimi` bu farkı yıl aralıklarıyla gösterir.
+Örneğin Astra K 1.4 Turbo'da piston ve segman kırılması 2015-2018 üretiminde
+`Yaygın`, 2019 sonrasında (yeniden tasarlanan segmanlar ve yeni motor kodlarıyla)
+`Görülebilir` olarak işaretlidir.
+
+| `durum` | Anlamı |
+| --- | --- |
+| `Yaygın` | Kaynaklar bu dönem için sorunu sık ve tekrar eden biçimde bildiriyor |
+| `Görülebilir` | Bildirimler var ama sık değil ya da dönem sınırı net değil |
+| `Seyrek` | Kaynaklar sorunun azaldığını ya da düzeltildiğini yazıyor; risk sıfır demek değildir |
+
+Okurken dikkat edilecekler:
+
+- `durum`, kaynaklardaki bildirim yoğunluğuna dayanan editoryal bir sınıflandırmadır; istatistik değildir.
+- Listelenmeyen yıllar için kaynaklarda ayrı bir bilgi bulunamamıştır. Bu, "sorun yok" anlamına gelmez.
+- Dönemler yıla göre sıralı ve birbiriyle çakışmayan olmalı, aracın `uretim_yillari` aralığı içinde kalmalıdır.
+- Revizyon yıllarını kaynaklar farklı verebilir (ör. 7 mm zincirden 8 mm zincire geçiş). Bu durumda `not` alanında belirtilir; şasi numarasıyla kontrol edin.
 
 ## Kaynak kuralı
 
@@ -82,12 +113,14 @@ Kullanılan sitelerin listesi ve güvenilirlik notları için
 
 ```sh
 python3 scripts/dogrula.py
+python3 -m unittest discover tests
 ```
 
 Betik; zorunlu alanları, tanımsız alanları, risk seviyesi değerlerini,
 kilometre aralığı biçimini (alt sınırın üst sınırdan küçük olması dahil),
-aynı marka/model/motor üçlüsünün tekrar edilmemesini ve kaynak kuralını kontrol
-eder. Hata bulunursa sıfırdan farklı bir çıkış koduyla sonlanır; başarılı
+üretim yıllarını ve dönem kırılımı kurallarını (sıralı, çakışmayan, üretim yılları
+içinde), aynı marka/model/motor üçlüsünün tekrar edilmemesini ve kaynak kuralını
+kontrol eder. Hata bulunursa sıfırdan farklı bir çıkış koduyla sonlanır; başarılı
 çalışmada yalnızca iki siteyle desteklenen (sınırlı doğrulamalı) madde sayısını da yazar.
 
 ## Katkı

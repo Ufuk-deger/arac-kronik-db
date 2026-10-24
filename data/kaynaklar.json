@@ -10,7 +10,14 @@
     "parca-atolye": "Parça üreticisi, parça satıcısı veya atölye rehberi",
     "toplayici": "Başka kaynaklardan derleme yapan site"
   },
-  "dayanak_turleri": ["resmi", "forum", "sikayet", "anket", "dava-haberi", "haber"],
+  "dayanak_turleri": [
+    "resmi",
+    "forum",
+    "sikayet",
+    "anket",
+    "dava-haberi",
+    "haber"
+  ],
   "siteler": {
     "otopark.com": {
       "ad": "OTOPARK.COM Forum",
@@ -467,6 +474,30 @@
       "guven": "düşük",
       "ana_sayfa": "https://www.service4service.co.uk/",
       "not": "Şanzıman onarım atölyesi; Dualogic arızalarını anlatıyor."
+    },
+    "caradisiac.com": {
+      "ad": "Caradisiac",
+      "ulke": "FR",
+      "tur": "editoryal",
+      "guven": "orta",
+      "ana_sayfa": "https://www.caradisiac.com/",
+      "not": "Fransız otomotiv yayını. Güvenilirlik dosyaları ve forum bölümü var."
+    },
+    "gebrauchtwagenberater.de": {
+      "ad": "Gebrauchtwagenberater",
+      "ulke": "DE",
+      "tur": "editoryal",
+      "guven": "düşük",
+      "ana_sayfa": "https://gebrauchtwagenberater.de/",
+      "not": "Almanca ikinci el rehberi (Astra K). Resmî bir Opel belgesi değil."
+    },
+    "autopartspro.co.uk": {
+      "ad": "AutoPartsPro",
+      "ulke": "UK",
+      "tur": "parca-atolye",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.autopartspro.co.uk/",
+      "not": "Parça satıcısının genel arıza yazıları (SEO ağırlıklı); tek başına yeterli sayılmaz."
     }
   }
 }

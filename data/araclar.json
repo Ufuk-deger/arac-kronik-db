@@ -4,6 +4,10 @@
       "marka": "Audi",
       "model": "A4 (B8, 2008-2015)",
       "motor": "1.8 TFSI / 2.0 TFSI (EA888 Gen2)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2015
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Aşırı yağ tüketimi",
@@ -16,6 +20,20 @@
             "https://www.classaction.org/news/2012-2017-audi-models-with-2.0l-turbocharged-engines-plagued-by-piston-defect-class-action-claims",
             "https://forum.donanimhaber.com/kronik-yag-eksiltme-yakma-sorunlari-ve-ureticilerin-olumsuz-yaklasimlarini-toparlayalim--127025783",
             "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2008,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "2009-2011 2.0T için Audi'nin 2013 servis bülteni (TSB 17 13 43) bu yıllarda yağ tüketimini kabul ediyor; şikâyetler en çok bu yıllarda."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2015,
+              "durum": "Görülebilir",
+              "not": "2012-2014 için dava uzlaşmasıyla garanti uzatıldı; AudiWorld'de 2013 ve sonrasında daha az sıklıkla görüldüğü yazılıyor."
+            }
           ]
         },
         {
@@ -28,6 +46,20 @@
             "https://www.audizine.com/forum/showthread.php/712531-THE-Timing-Chain-Tensioner-Failure-Thread",
             "https://www.audiworld.com/forums/a4-b8-platform-discussion-128/timing-chain-issue-a4-b8-5-a-3043467/",
             "https://www.araclo.com/vehicles/audi-a4-sedan-2.0-tfsi/degerlendirmeler/kullanici-sorunlari"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2008,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "İlk B8 motorlarındaki gergi zayıf tasarım olarak anılıyor."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2015,
+              "durum": "Görülebilir",
+              "not": "Forumlarda B8.5 (2012 sonrası) araçlara iyileştirilmiş gergi takıldığı yazılıyor."
+            }
           ]
         },
         {
@@ -61,6 +93,10 @@
       "marka": "BMW",
       "model": "3 Serisi (E90 / F30, 2007-2015)",
       "motor": "320d 2.0 dizel (N47D20)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2015
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Triger zinciri uzaması",
@@ -73,6 +109,20 @@
             "https://otopark.com/forum/threads/320d-520d-motor-zincir-problemi.1092/",
             "https://www.e90post.com/forums/showthread.php?t=791870",
             "https://www.parkers.co.uk/bmw/3-series/touring-2005/used-review/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2007,
+              "bitis": 2009,
+              "durum": "Yaygın",
+              "not": "Ocak 2009'a kadar üretilen krank millerindeki keskin dişli nedeniyle zincir kopması bildirimleri."
+            },
+            {
+              "baslangic": 2010,
+              "bitis": 2015,
+              "durum": "Görülebilir",
+              "not": "Zincir çoğunlukla kopmadan önce ses yapıyor; N47T güncellemesiyle sorunların bir kısmının azaldığı yazılıyor."
+            }
           ]
         },
         {
@@ -93,6 +143,10 @@
       "marka": "BMW",
       "model": "3 Serisi (F30, 2012-2015)",
       "motor": "320i / 328i 2.0 turbo benzin (N20B20)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2015
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Triger zinciri ve plastik kızak arızası",
@@ -135,6 +189,10 @@
       "marka": "Chevrolet",
       "model": "Cruze (2009-2016)",
       "motor": "1.6 benzin (F16D4)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Yağ soğutucusu contası kaçağı",
@@ -177,6 +235,10 @@
       "marka": "Citroen",
       "model": "C-Elysee (2012-2020)",
       "motor": "1.6 HDi / BlueHDi (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2020
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Enjektör arızası ve enjektör dibi kaçağı",
@@ -218,9 +280,57 @@
       ]
     },
     {
+      "marka": "Citroen",
+      "model": "C3 / C4 / C5 Aircross (2019-)",
+      "motor": "1.5 BlueHDi 100/130 (DV5)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Eksantrik zinciri sesi ve kopması (7 mm zincir)",
+          "etkilenen_parca": "Eksantrik mili zinciri (7 mm), gergi ve üst kapak",
+          "belirtiler": "Soğuk çalıştırmada şıkırtı, kam/krank senkron hatası, motorun yeniden çalışmaması, zincir kopması; çok düşük kilometrede de görüldüğü bildiriliyor",
+          "tahmini_km_araligi": "20.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://andcetin.com/15-bluehdi-ecoblue-tdci-zincir-sorunu-59/",
+            "https://www.araclo.com/blog/citroen-c5-aircross-1.5-bluehdi-kronik-sorunlari-eksantrik-zinciri-gercegi-ve-kullanici-yorumlari-2026",
+            "https://www.sikayetvar.com/citroen/c5-aircross/geri-cagirma",
+            "https://www.sikayetvar.com/en/citroen-us/citroen-c-elysee-timing-chain-failure-and-recall-mishandling"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2019,
+              "bitis": 2020,
+              "durum": "Yaygın",
+              "not": "7 mm eksantrik zinciri kullanılan dönem; Stellantis zincir değişimi için kampanya yürütüyor."
+            },
+            {
+              "baslangic": 2021,
+              "bitis": 2022,
+              "durum": "Görülebilir",
+              "not": "8 mm zincire geçiş yılı kaynaklarda 2021 veya 2023 başı olarak veriliyor; şasi numarasıyla kontrol edin."
+            },
+            {
+              "baslangic": 2023,
+              "bitis": null,
+              "durum": "Seyrek",
+              "not": "Güçlendirilmiş 8 mm zincir kullanılıyor; yeni üretimde şikâyet az (veri sınırlı)."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Dacia",
       "model": "Duster (2010-2017)",
       "motor": "1.5 dCi (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2017
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Enjektör arızası",
@@ -250,9 +360,59 @@
       ]
     },
     {
+      "marka": "Dacia",
+      "model": "Duster (2021-2024)",
+      "motor": "1.0 TCe 100 ECO-G (H4Dt)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": 2024
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Turbo wastegate sesi ve arızası",
+          "etkilenen_parca": "Turbo wastegate (atık gaz) valfi ve aktüatörü",
+          "belirtiler": "Gazdan çekilince cızırtı veya zırıltı sesi, turbo değişiminden sonra sesin geri dönmesi, güç dalgalanması",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/dacia/dacia-duster-10-turbo-eco-g-turbo-westgate-arizasi",
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/",
+            "https://www.araclo.com/blog/dacia-sandero-sandero-stepway-satin-alma-rehberi-bakim-kronik-sorunlar-ve-fiyatlar-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Dacia",
+      "model": "Sandero / Sandero Stepway (2021-)",
+      "motor": "1.0 TCe 90/100 (H4Dt)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Turbo wastegate sesi ve arızası",
+          "etkilenen_parca": "Turbo wastegate (atık gaz) valfi ve aktüatörü",
+          "belirtiler": "Gazdan çekilince cızırtı veya zırıltı sesi, turbo değişiminden sonra sesin geri dönmesi, güç dalgalanması",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-sandero-sandero-stepway-satin-alma-rehberi-bakim-kronik-sorunlar-ve-fiyatlar-2026",
+            "https://www.sikayetvar.com/dacia/sandero/stepway",
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Fiat",
       "model": "Egea (2015-)",
       "motor": "1.3 Multijet II (95 HP)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "EGR valfi tıkanması",
@@ -285,7 +445,34 @@
     {
       "marka": "Fiat",
       "model": "Egea (2015-)",
+      "motor": "1.4 Fire 95 HP",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları, yağ buharlaşması (motorda yağ soğutucusu yok)",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı; yağ azaldığında yağ lambası geç yanabiliyor",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://forum.donanimhaber.com/fiat-egea-1-4-benzinli-motorda-yag-yakma-problemi--149223124",
+            "https://www.sikayetvar.com/fiat/fiat-14-fire-yag-eksiltme"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Egea (2015-)",
       "motor": "1.6 Multijet II (120 HP)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Çift kütleli volan arızası",
@@ -329,6 +516,10 @@
       "marka": "Fiat",
       "model": "Linea (2007-2015)",
       "motor": "1.3 Multijet (Dualogic)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2015
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Dualogic hidrolik ünite ve aktüatör arızası",
@@ -386,8 +577,12 @@
     },
     {
       "marka": "Ford",
-      "model": "Fiesta / Focus (2012-2017)",
+      "model": "Fiesta / Focus (2012-2023)",
       "motor": "1.0 EcoBoost",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2023
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Soğutma sistemi kaçağı ve hararet",
@@ -401,6 +596,20 @@
             "https://www.honestjohn.co.uk/forum/post/121115/ford-cmax-1-0",
             "https://andcetin.com/10-ecoboost-motor-sorunlar-44/",
             "https://www.araclo.com/blog/ford-focus-1.0-ecoboost-gtdi-alinir-mi-kronik-sorunlar-performans-ve-kullanici-yorumlari"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2012,
+              "bitis": 2014,
+              "durum": "Yaygın",
+              "not": "Focus Mk3'te Nisan 2012-Mayıs 2014 arası takılan degas hortumu için geri çağırma yapıldı."
+            },
+            {
+              "baslangic": 2015,
+              "bitis": 2016,
+              "durum": "Görülebilir",
+              "not": "Hortum tasarımı değişti ama bazı sahipler kaçağın sürdüğünü bildiriyor."
+            }
           ]
         },
         {
@@ -414,6 +623,26 @@
             "https://www.parkers.co.uk/car-news/ford-wet-belt-issues/",
             "https://andcetin.com/10-ecoboost-motor-sorunlar-44/",
             "https://www.araclo.com/blog/ford-focus-1.0-ecoboost-gtdi-alinir-mi-kronik-sorunlar-performans-ve-kullanici-yorumlari"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2012,
+              "bitis": 2017,
+              "durum": "Yaygın",
+              "not": "Yağ içinde çalışan kauçuk triger kayışı; parçacıklar yağ süzgecini tıkıyor."
+            },
+            {
+              "baslangic": 2018,
+              "bitis": 2020,
+              "durum": "Görülebilir",
+              "not": "Geçiş dönemi: kaynaklar zincire geçişi 2018-2021 arasında farklı yıllarda veriyor, şasi numarasıyla kontrol edin."
+            },
+            {
+              "baslangic": 2021,
+              "bitis": 2023,
+              "durum": "Seyrek",
+              "not": "Zincire geçildi; yağ pompası kayışı yağ içinde kalıyor ama arıza bildirimi az."
+            }
           ]
         }
       ]
@@ -422,6 +651,10 @@
       "marka": "Ford",
       "model": "Focus (2008-2018)",
       "motor": "1.6 TDCi (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2018
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Enjektör pulu kaçağı ve karbonlaşma",
@@ -464,6 +697,10 @@
       "marka": "Ford",
       "model": "Focus 3 (2011-2018)",
       "motor": "1.6 Ti-VCT (Powershift DPS6)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Powershift kavrama silkelemesi ve kavrama yuvası sızıntısı",
@@ -477,6 +714,14 @@
             "https://www.sikayetvar.com/ford/focus/powershift",
             "https://forum.donanimhaber.com/ford-focus-1-6-ti-vct-powershift-ariza-fiyat-hakkinda-bilgi--146762175",
             "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2012,
+              "bitis": 2016,
+              "durum": "Yaygın",
+              "not": "Ford'un servis bülteni ve uzatılmış garanti programı 2012-2016 Focus'u kapsıyor."
+            }
           ]
         },
         {
@@ -495,9 +740,38 @@
       ]
     },
     {
+      "marka": "Ford",
+      "model": "Focus 4 / Kuga 3 (2019-)",
+      "motor": "1.5 EcoBlue 120 (DV5)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Eksantrik zinciri sesi ve kopması (7 mm zincir)",
+          "etkilenen_parca": "Eksantrik mili zinciri (7 mm), gergi ve üst kapak",
+          "belirtiler": "Soğuk çalıştırmada şıkırtı, kam/krank senkron hatası, motorun yeniden çalışmaması, zincir kopması; çok düşük kilometrede de görüldüğü bildiriliyor",
+          "tahmini_km_araligi": "20.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://andcetin.com/15-bluehdi-ecoblue-tdci-zincir-sorunu-59/",
+            "https://www.sikayetvar.com/ford/focus/ecoblue",
+            "https://www.sikayetvar.com/ford/ford-kugada-kronik-eksantrik-zinciri-problemi-ve-yuksek-onarim-maliyeti",
+            "https://www.sikayetvar.com/ford/ford-kuga-riskli-egzantrik-zincir-icin-ucretsiz-cozum-talebi",
+            "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Honda",
       "model": "Civic (FC5, 2016-2021)",
       "motor": "1.5 VTEC Turbo (L15B7)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2021
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Yağa yakıt karışması",
@@ -530,8 +804,37 @@
     },
     {
       "marka": "Honda",
+      "model": "Civic (FC5, 2016-2021)",
+      "motor": "1.6 i-VTEC 125 (CVT)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "CVT şanzıman zinciri uzaması ve kopması",
+          "etkilenen_parca": "CVT şanzıman zinciri",
+          "belirtiler": "Vites geçişlerinde vuruntu, uğultu, ileri aşamada zincir kopması; onarım pahalı, garanti kapsamı dar",
+          "tahmini_km_araligi": "80.000 - 140.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/2016-2021-yillari-arasinda-uretilen-civic-lerde-cvt-sanziman-sorunu.16111/",
+            "https://forum.donanimhaber.com/honda-civic-fc5-rezillik-yeter-artik-honda--125088269-6",
+            "https://www.sikayetvar.com/honda/honda-fc5-sanziman-zinciri-sorunu",
+            "https://www.sikayetvar.com/honda/sanziman-zinciri-kirilmasi-sonrasi-garanti-kapsami-magduriyeti",
+            "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Honda",
       "model": "Civic (FD6, 2006-2011)",
       "motor": "1.6 i-VTEC",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2011
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Arka lastiklerde düzensiz aşınma (2006-2007 üretimde Honda servis bülteni)",
@@ -543,6 +846,14 @@
             "https://www.carcomplaints.com/Honda/Civic/2007/suspension/suspension-rear.shtml",
             "https://www.ammonslaw.com/tire-defects/manufacturer-lawsuits/honda-defect/",
             "https://static.nhtsa.gov/complaints/10779068/10779068-AF0DEE51B0BC02CAE05375E8789808C8.pdf"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2006,
+              "bitis": 2007,
+              "durum": "Görülebilir",
+              "not": "Honda'nın Şubat 2008 servis bülteni (08-001) 2006-2007 model yıllarını kapsıyor."
+            }
           ]
         },
         {
@@ -562,8 +873,99 @@
     },
     {
       "marka": "Hyundai",
+      "model": "Bayon (2021-)",
+      "motor": "1.0 T-GDI 100/120 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "7DCT kuru kavrama titremesi ve kalibrasyon sorunu",
+          "etkilenen_parca": "Kuru kavrama paketi ve şanzıman yazılımı (TCU)",
+          "belirtiler": "1. ve 2. viteste kalkışta sarsıntı, eğimde kararsızlık, geri vitese geçişte vuruntu; yazılım güncellemesiyle azalabiliyor",
+          "tahmini_km_araligi": "10.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
+            "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari",
+            "https://www.sikayetvar.com/hyundai-motor/i20/dct-sanziman",
+            "https://eksisozluk.com/hyundai-i20--1733493?p=81"
+          ]
+        },
+        {
+          "sorun_adi": "Yakıt pompası arızası",
+          "etkilenen_parca": "Yakıt pompası",
+          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın",
+          "tahmini_km_araligi": "20.000 - 60.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
+            "https://www.sikayetvar.com/hyundai-motor/i20/i20-yakit-pompasi",
+            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2021,
+              "bitis": 2023,
+              "durum": "Yaygın",
+              "not": "Bir uzman yazısı arızayı 2020-2023 modellerde sık görülen kronik sorun olarak tanımlıyor."
+            },
+            {
+              "baslangic": 2024,
+              "bitis": null,
+              "durum": "Seyrek",
+              "not": "Bayon'da 2024 makyajıyla büyük oranda çözüldüğü yazılıyor (tek kaynak)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Bayon (2021-)",
+      "motor": "1.4 MPI 100",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yakıt pompası arızası",
+          "etkilenen_parca": "Yakıt pompası",
+          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın",
+          "tahmini_km_araligi": "20.000 - 60.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
+            "https://www.sikayetvar.com/hyundai-motor/i20/i20-yakit-pompasi",
+            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2021,
+              "bitis": 2023,
+              "durum": "Yaygın",
+              "not": "Bir uzman yazısı arızayı 2020-2023 modellerde sık görülen kronik sorun olarak tanımlıyor."
+            },
+            {
+              "baslangic": 2024,
+              "bitis": null,
+              "durum": "Seyrek",
+              "not": "Bayon'da 2024 makyajıyla büyük oranda çözüldüğü yazılıyor (tek kaynak)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "Tucson (TL, 2015-2020)",
       "motor": "1.6 T-GDI (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2020
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "7DCT kalkışta tereddüt ve silkeleme",
@@ -577,6 +979,101 @@
             "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-sanziman-sorunu",
             "https://forum.donanimhaber.com/hyundai-7-dct-sanziman-problemi--123289408",
             "https://www.araclo.com/vehicles/hyundai-tucson-1.6-t-gdi/degerlendirmeler/kullanici-sorunlari"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2016,
+              "bitis": 2017,
+              "durum": "Görülebilir",
+              "not": "Hyundai'nin yazılım güncellemesi (geri çağırma ve servis kampanyası) 2016-2017 Tucson'ları kapsıyor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i20 (BC3, 2020-)",
+      "motor": "1.0 T-GDI 100/120 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "7DCT kuru kavrama titremesi ve kalibrasyon sorunu",
+          "etkilenen_parca": "Kuru kavrama paketi ve şanzıman yazılımı (TCU)",
+          "belirtiler": "1. ve 2. viteste kalkışta sarsıntı, eğimde kararsızlık, geri vitese geçişte vuruntu; yazılım güncellemesiyle azalabiliyor",
+          "tahmini_km_araligi": "10.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
+            "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari",
+            "https://www.sikayetvar.com/hyundai-motor/i20/dct-sanziman",
+            "https://eksisozluk.com/hyundai-i20--1733493?p=81"
+          ]
+        },
+        {
+          "sorun_adi": "Yakıt pompası arızası",
+          "etkilenen_parca": "Yakıt pompası",
+          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın",
+          "tahmini_km_araligi": "20.000 - 60.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
+            "https://www.sikayetvar.com/hyundai-motor/i20/i20-yakit-pompasi",
+            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2020,
+              "bitis": 2022,
+              "durum": "Yaygın",
+              "not": "Bir uzman yazısı arızayı 2020-2023 modellerde sık görülen kronik sorun olarak tanımlıyor."
+            },
+            {
+              "baslangic": 2023,
+              "bitis": null,
+              "durum": "Seyrek",
+              "not": "i20'de 2023 makyajıyla büyük oranda çözüldüğü yazılıyor (tek kaynak)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i20 (BC3, 2020-)",
+      "motor": "1.4 MPI 100",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yakıt pompası arızası",
+          "etkilenen_parca": "Yakıt pompası",
+          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın",
+          "tahmini_km_araligi": "20.000 - 60.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
+            "https://www.sikayetvar.com/hyundai-motor/i20/i20-yakit-pompasi",
+            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2020,
+              "bitis": 2022,
+              "durum": "Yaygın",
+              "not": "Bir uzman yazısı arızayı 2020-2023 modellerde sık görülen kronik sorun olarak tanımlıyor."
+            },
+            {
+              "baslangic": 2023,
+              "bitis": null,
+              "durum": "Seyrek",
+              "not": "i20'de 2023 makyajıyla büyük oranda çözüldüğü yazılıyor (tek kaynak)."
+            }
           ]
         }
       ]
@@ -585,6 +1082,10 @@
       "marka": "Mercedes-Benz",
       "model": "C Serisi (W203 / W204, 2002-2010)",
       "motor": "C180 / C200 Kompressor 1.8 (M271)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2010
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Triger zinciri uzaması ve eksantrik dişlisi aşınması",
@@ -618,6 +1119,10 @@
       "marka": "Mercedes-Benz",
       "model": "C Serisi (W204, 2007-2014)",
       "motor": "C220 / C250 CDI 2.1 (OM651)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2014
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Delphi piezo enjektör arızası",
@@ -629,6 +1134,20 @@
             "https://www.autobild.de/artikel/diesel-probleme-bei-e-klasse-c-klasse-und-glk-988549.html",
             "https://australiancar.reviews/recalls-faults-mercedes-benz-s204-c-class-estate-2008-14/",
             "https://www.germancarforum.com/threads/mercedes-benz-troubles-with-newest-om651-diesel-engine.31035/latest"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2008,
+              "bitis": 2012,
+              "durum": "Yaygın",
+              "not": "Piezo enjektörlü 220/250 CDI sürümlerinde 50.000 km sonrası yüksek arıza oranı."
+            },
+            {
+              "baslangic": 2013,
+              "bitis": 2014,
+              "durum": "Seyrek",
+              "not": "2012 ortasından itibaren piezo yerine solenoid enjektör kullanılmaya başlandı."
+            }
           ]
         },
         {
@@ -648,8 +1167,36 @@
     },
     {
       "marka": "Nissan",
+      "model": "Qashqai (J11, 2014-2020)",
+      "motor": "1.5 dCi 110 (K9K) / 1.6 dCi 130 (R9M)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Turbo basınç hortumu patlaması ve turbo arızası",
+          "etkilenen_parca": "Turbo basınç hortumu, turboşarj ve turbo yağ besleme hattı",
+          "belirtiler": "Güç kaybı, ıslık sesi, hortumun patlaması, turbo yağ sızıntısı",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/qashqai/turbo",
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-15-dci-kronik-turbo-borusu-sorunu-1",
+            "https://www.araclo.com/vehicles/nissan-qashqai-1.5-dci/degerlendirmeler/kullanici-sorunlari",
+            "https://www.araclo.com/blog/nissan-qashqai-1.5-dci-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Nissan",
       "model": "Qashqai (J11, 2014-2021)",
       "motor": "1.2 DIG-T (HRA2DDT, Xtronic)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2021
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Xtronic CVT şanzıman arızası",
@@ -695,6 +1242,10 @@
       "marka": "Opel",
       "model": "Astra H (2004-2010)",
       "motor": "1.6 Twinport (Z16XEP / Z16XER, Easytronic)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2010
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Twinport emme klapesi ve konum sensörü arızası (P1113)",
@@ -739,6 +1290,10 @@
       "marka": "Opel",
       "model": "Astra J (2010-2015)",
       "motor": "1.4 Turbo (A14NET)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "PCV diyaframı ve emme manifoldu kontrol valfi arızası",
@@ -756,9 +1311,118 @@
       ]
     },
     {
+      "marka": "Opel",
+      "model": "Astra K (2015-2021)",
+      "motor": "1.4 Turbo 125/150 (B14XFL/B14XFT, 2019 sonrası D14XFL/D14XFT)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "LSPI kaynaklı piston ve segman kırılması",
+          "etkilenen_parca": "Piston ve yağ sıyırma segmanı (düşük devirde ön ateşleme)",
+          "belirtiler": "Düşük devirde ağır gazda vuruntu, yağ tüketimi artışı, motor sesi, ileri aşamada piston kırılması; otomatik şanzımanlı 150 hp araçlarda daha sık bildiriliyor",
+          "tahmini_km_araligi": "20.000 - 100.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/opel-astra-k-1-4t-piston-kirma-problemi--127795993",
+            "https://otopark.com/forum/threads/astra-k-1-4t-lspi-sorunu-ve-tercih-hakkinda-destek.15652/",
+            "https://andcetin.com/opel-turbo-motor-sorunlar-ve-onlemenin-yollar-46/",
+            "https://www.sikayetvar.com/opel/astra/turbo",
+            "https://gebrauchtwagenberater.de/opel-astra-k-probleme/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2015,
+              "bitis": 2018,
+              "durum": "Yaygın",
+              "not": "B14XFT (150 hp) için en sık bildirilen dönem; forumlarda 2015-2016 üretim en çok korkulan olarak anılıyor."
+            },
+            {
+              "baslangic": 2019,
+              "bitis": 2021,
+              "durum": "Görülebilir",
+              "not": "Alman bir rehbere göre 2018 sonundan itibaren OPF'li D10/D14 motorlarda yağ sıyırma segmanları yeniden tasarlandı ve LSPI riski belirgin düştü; ancak Şikâyetvar'da 2019-2020 araçlarda da piston kırılması bildirimi var."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Corsa D / E (2006-2019)",
+      "motor": "1.3 CDTI 75/95 (Multijet)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri uzaması",
+          "etkilenen_parca": "Triger zinciri ve gergisi",
+          "belirtiler": "Soğuk çalıştırmada metalik zincir sesi, düzensiz çalışma; yağ bakımı geciktirilmiş araçlarda daha sık",
+          "tahmini_km_araligi": "120.000 - 200.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/opel-corsa-1.3-cdti-alinir-mi-kronik-sorunlar-kullanici-yorumlari-ve-ikinci-el-alim-rehberi",
+            "https://forum.donanimhaber.com/corsa-1-3-cdti-multijet-160k-km-titretisim-problemi--134600465"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "208 / 2008 / 308 / 3008 / 5008 (2019-)",
+      "motor": "1.5 BlueHDi 100/130 (DV5)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Eksantrik zinciri sesi ve kopması (7 mm zincir)",
+          "etkilenen_parca": "Eksantrik mili zinciri (7 mm), gergi ve üst kapak",
+          "belirtiler": "Soğuk çalıştırmada şıkırtı, kam/krank senkron hatası, motorun yeniden çalışmaması, zincir kopması; çok düşük kilometrede de görüldüğü bildiriliyor",
+          "tahmini_km_araligi": "20.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://andcetin.com/15-bluehdi-ecoblue-tdci-zincir-sorunu-59/",
+            "https://forum.donanimhaber.com/psa-1-5-dizel-motorlarda-eksantrik-zinciri-problemi--160411525",
+            "https://forum.donanimhaber.com/peugeot-5008-gt-kam-mili-zinciri-kronik-sorunu-sakin-ha-almayin-bu-arabalari--162656345",
+            "https://www.sikayetvar.com/en/peugeot-us/peugeot-3008-developed-timing-chain-noise-far-earlier-than-expected"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2019,
+              "bitis": 2020,
+              "durum": "Yaygın",
+              "not": "7 mm eksantrik zinciri kullanılan dönem; Stellantis zincir değişimi için kampanya yürütüyor."
+            },
+            {
+              "baslangic": 2021,
+              "bitis": 2022,
+              "durum": "Görülebilir",
+              "not": "8 mm zincire geçiş yılı kaynaklarda 2021 veya 2023 başı olarak veriliyor; şasi numarasıyla kontrol edin."
+            },
+            {
+              "baslangic": 2023,
+              "bitis": null,
+              "durum": "Seyrek",
+              "not": "Güçlendirilmiş 8 mm zincir kullanılıyor; yeni üretimde şikâyet az (veri sınırlı)."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Peugeot",
       "model": "301 (2012-)",
       "motor": "1.6 HDi / BlueHDi (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": null
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Enjektör arızası ve enjektör dibi kaçağı",
@@ -803,6 +1467,10 @@
       "marka": "Peugeot",
       "model": "308 / 3008 (2007-2014)",
       "motor": "1.6 THP (EP6)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2014
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Triger zinciri uzaması",
@@ -840,6 +1508,20 @@
             "https://www.araclo.com/vehicles/peugeot-3008-1.6-thp/degerlendirmeler/kullanici-sorunlari",
             "https://www.parkers.co.uk/peugeot/3008/estate/review/",
             "https://forum.donanimhaber.com/thp-yuksek-basinc-pompasi-tamiri--160377560"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2007,
+              "bitis": 2012,
+              "durum": "Görülebilir",
+              "not": "OTOPARK forumunda özellikle 2011-2012 üretimde öne çıkıyor; Parkers erken örneklerde pompa sorunu olduğunu yazıyor."
+            },
+            {
+              "baslangic": 2013,
+              "bitis": 2014,
+              "durum": "Seyrek",
+              "not": "2013 ve sonrasında kronik sayılacak bir pompa sorunu kalmadığı yazılıyor."
+            }
           ]
         }
       ]
@@ -848,6 +1530,10 @@
       "marka": "Peugeot",
       "model": "308 / 3008 / 208 / 2008 (2014-2021)",
       "motor": "1.2 PureTech (EB2)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2021
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Yağ banyolu triger kayışının dağılması",
@@ -879,8 +1565,72 @@
     },
     {
       "marka": "Renault",
+      "model": "Clio 3 / Symbol (2008-2013)",
+      "motor": "1.5 dCi 70/85/90 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Enjektör arızası ve enjektör pulu kaçağı",
+          "etkilenen_parca": "Common-rail enjektörleri ve bakır pulları",
+          "belirtiler": "Düzensiz rölanti, siyah duman, güç kaybı, aşırı yakıt tüketimi, zor çalışma",
+          "tahmini_km_araligi": "80.000 - 180.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/clio-3-kasa-dci-sorunlarini-paylasalim--55918395",
+            "https://forum.donanimhaber.com/clio-3-enjektor-bozuldu--127220018",
+            "https://www.araclo.com/vehicles/renault-clio-1.5-dci/degerlendirmeler/kullanici-sorunlari",
+            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Clio 4 (2013-2019)",
+      "motor": "0.9 TCe 90 (H4Bt)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri ve gergi sesi (ilk üretim)",
+          "etkilenen_parca": "Triger zinciri ve zincir gergisi (yağ kanalı)",
+          "belirtiler": "Soğuk çalıştırmada birkaç saniye süren metalik zincir sesi, düzensiz rölanti",
+          "tahmini_km_araligi": "150.000 - 200.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/clio-iv-0-9-tce-motor-omru--94718396",
+            "https://www.araclo.com/forum/threads/clio-4-0.9-tce-erken-uretimlerde-zincir-sesi-problemi-deneyimlerim-ve-bilgiler"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2013,
+              "bitis": 2014,
+              "durum": "Görülebilir",
+              "not": "İlk üretim Clio 4'lerde zincir sesi daha sık bildiriliyor."
+            },
+            {
+              "baslangic": 2015,
+              "bitis": 2019,
+              "durum": "Seyrek",
+              "not": "Forum kullanıcıları motorun sonradan güncellendiğini ve sorunun büyük oranda çözüldüğünü yazıyor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
       "model": "Clio 4 / Captur (2013-2019)",
       "motor": "1.2 TCe (H5Ft)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2019
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Aşırı yağ tüketimi",
@@ -893,6 +1643,14 @@
             "https://forum.donanimhaber.com/renault-1-2-turbo-edc-yag-eksiltme-problemi--109082025",
             "https://connexionfrance.com/article/French-news/Renault-cars-have-severe-defect-says-consumer-group",
             "https://www.ocu.org/acciones-colectivas/afectados-motor-defectuoso-renault"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2013,
+              "bitis": 2016,
+              "durum": "Yaygın",
+              "not": "Fransız tüketici örgütü UFC-Que Choisir 2012 sonu-2016 ortası üretilen H5F motorlar için uyarı yaptı; Renault kusur olduğunu reddediyor."
+            }
           ]
         },
         {
@@ -911,8 +1669,46 @@
     },
     {
       "marka": "Renault",
+      "model": "Clio 5 (2019-)",
+      "motor": "1.0 TCe 90/100 (H4Dt)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Turbo wastegate sesi ve arızası",
+          "etkilenen_parca": "Turbo wastegate (atık gaz) valfi ve aktüatörü",
+          "belirtiler": "Gazdan çekilince cızırtı veya zırıltı sesi, turbo değişiminden sonra sesin geri dönmesi, güç dalgalanması",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/renault-clio-1.0-tce-nasil-ne-kadar-yakar-alinir-mi-2026-guncel-rehber",
+            "https://www.sikayetvar.com/renault/clio/10-tce",
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+          ]
+        },
+        {
+          "sorun_adi": "Motor takozu yıpranması",
+          "etkilenen_parca": "Motor ve şanzıman takozları (3 silindir titreşimi)",
+          "belirtiler": "Rölantide ve düşük devirde titreşim, vites değişiminde vuruntu",
+          "tahmini_km_araligi": "40.000 - 80.000 km",
+          "risk_seviyesi": "Düşük",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/renault-clio-1.0-tce-nasil-ne-kadar-yakar-alinir-mi-2026-guncel-rehber",
+            "https://www.sikayetvar.com/renault/clio/10-tce"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
       "model": "Megane 3 / Fluence (2009-2016)",
       "motor": "1.5 dCi (K9K, EDC)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Enjektör arızası",
@@ -956,9 +1752,107 @@
       ]
     },
     {
+      "marka": "Renault",
+      "model": "Megane 4 (2016-)",
+      "motor": "1.3 TCe 140 (H5Ht, EDC)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "EDC şanzıman vites geçiş sesi ve kavrama silkelemesi",
+          "etkilenen_parca": "EDC 7 ileri çift kavramalı şanzıman, kavrama ve yazılım",
+          "belirtiler": "3. vitesten 4.'ye geçişte \"vuup\" sesi, kalkışta silkeleme, kavrama kayması",
+          "tahmini_km_araligi": "40.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/megane/megane-4-13",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-537-pannes-renault-megane-4.php",
+            "https://www.caradisiac.com/maxi-fiche-fiabilite-renault-megane-4-un-modele-a-risque-198261.htm",
+            "https://www.araclo.com/blog/renault-megane-1.3-tce-alinir-mi-yakit-tuketimi-ve-kronik-sorunlar"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Megane 4 (2016-)",
+      "motor": "1.5 Blue dCi 95/115 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "AdBlue sistemi arızası ve uyarısı",
+          "etkilenen_parca": "AdBlue sensörü, pompası ve yazılımı",
+          "belirtiler": "Depo doluyken AdBlue uyarısının sönmemesi, \"başlatamama\" uyarısı, motor arıza ikazı",
+          "tahmini_km_araligi": "30.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/megane/adblue",
+            "https://www.araclo.com/blog/renault-megane-1.5-dci-incelemesi-yakit-tuketimi-kronik-sorunlar-ve-sahip-olma-maliyeti",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
+          ]
+        },
+        {
+          "sorun_adi": "DPF tıkanması",
+          "etkilenen_parca": "Dizel partikül filtresi (DPF), EGR valfi",
+          "belirtiler": "DPF uyarısı, güç kısıtlaması, sık rejenerasyon; tıkanmanın kaynağı EGR olabiliyor",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/dpf-belasi-megane-4-yardim--159842205",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/",
+            "https://www.araclo.com/blog/renault-megane-1.5-dci-incelemesi-yakit-tuketimi-kronik-sorunlar-ve-sahip-olma-maliyeti"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia (A5, 2010-2013)",
+      "motor": "1.2 TSI 105 (EA111 CBZB)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri gergisi arızası ve zincir uzaması",
+          "etkilenen_parca": "Triger zinciri ve gergisi",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi, zamanlama hata kodu, ileri aşamada supap hasarı",
+          "tahmini_km_araligi": "100.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
+            "https://otopark.com/forum/threads/skoda-octavia-1-2-tsi-neden-tutulmuyor.10624/",
+            "https://forum.donanimhaber.com/1-2-tsi-kronik-sorun--146815376"
+          ]
+        },
+        {
+          "sorun_adi": "Aşırı yağ tüketimi ve supap yayı kırılması",
+          "etkilenen_parca": "Piston segmanları ve supap yayları",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, tekleme",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
+            "https://otopark.com/forum/threads/skoda-octavia-1-2-tsi-neden-tutulmuyor.10624/",
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Skoda",
       "model": "Octavia (A7, 2013-2020)",
       "motor": "1.4 TSI (EA211, DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2020
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "DSG mekatronik arızası",
@@ -971,6 +1865,14 @@
             "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
             "https://www.sikayetvar.com/skoda/octavia/sanziman",
             "https://www.vwvortex.com/threads/dq200-dsg-in-global-recall-possibly-affects-jetta-hybrid.6858488/page-4"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2013,
+              "bitis": 2020,
+              "durum": "Görülebilir",
+              "not": "İkinci nesil DQ200'de mekatronik arızasının daha az görüldüğü yazılıyor ama BRISKODA'da 2013-2020 Octavia için vakalar var."
+            }
           ]
         },
         {
@@ -1003,6 +1905,10 @@
       "marka": "Toyota",
       "model": "Corolla (E150, 2007-2013)",
       "motor": "1.4 D-4D (1ND-TV)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2013
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Aşırı yağ tüketimi",
@@ -1031,9 +1937,51 @@
       ]
     },
     {
+      "marka": "Toyota",
+      "model": "Corolla (E210, 2019-)",
+      "motor": "1.5 Dynamic Force (M15A-FKS)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Krank ve biyel yatağı sarması",
+          "etkilenen_parca": "Krank mili ve biyel yatakları (yağlama)",
+          "belirtiler": "Motordan gelen vuruntu, tüm arıza ışıklarının yanması, yağ basıncı uyarısı, motor bloğu değişimi; garanti kapsamı tartışmalı",
+          "tahmini_km_araligi": "10.000 - 80.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://andcetin.com/toyota-15-motor-yatak-sarma-riski-69/",
+            "https://otopark.com/forum/threads/toyota-corolla-2021-1-5-m15a-fks-yatak-sarma-sorunu.16189/",
+            "https://www.sikayetvar.com/toyota/corolla/yatak-sarma",
+            "https://www.araclo.com/motorlar/toyota-m15a-1-5/kronik-sorunlar"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2021,
+              "bitis": 2022,
+              "durum": "Yaygın",
+              "not": "Araclo ve forum yazıları sorunu en çok 2021-2022 üretimde görüyor."
+            },
+            {
+              "baslangic": 2023,
+              "bitis": 2025,
+              "durum": "Görülebilir",
+              "not": "2023 ve 2025 model araçlarda da yatak sarması şikâyeti var."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Volkswagen",
       "model": "Golf 6 / Jetta (2008-2013)",
       "motor": "1.4 TSI (EA111, DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2013
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Triger zinciri uzaması ve gergi arızası",
@@ -1060,6 +2008,86 @@
             "https://forum.donanimhaber.com/golf-6-alicam-ama-dsg-sorunu-ne-oldu--38444209",
             "https://www.sikayetvar.com/volkswagen/golf/sanziman",
             "https://www.briskoda.net/forums/topic/444617-7sp-dq200-dsg-failure/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2008,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "İlk nesil DQ200'de mekatronik arızaları yoğun."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2013,
+              "durum": "Görülebilir",
+              "not": "2012'den itibaren ikinci nesil ünitede mekatronik arızası daha az görülüyor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 7 (2012-2019)",
+      "motor": "1.4 TSI 122/140 (EA211)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Devirdaim pompası ve termostat gövdesi kaçağı",
+          "etkilenen_parca": "Plastik gövdeli su pompası ve termostat modülü",
+          "belirtiler": "Antifriz eksilmesi, ısı göstergesinde dalgalanma, park yerinde antifriz damlaması",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/volkswagen-golf-1.4-tsi/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/golf-7-nin-kronik-sorunlari-27-kronik-sorun--139238714-7",
+            "https://www.vwvortex.com/threads/so-frustrated-with-vw-coolant-leak-from-faulty-water-pump-thermostat-housing-for-the-3rd-time.9490590/",
+            "https://www.autopartspro.co.uk/tips-advice/vw-golf-7-water-pump-and-thermostat-housing-leaks-what-owners-need-to-know-3908"
+          ]
+        },
+        {
+          "sorun_adi": "DQ200 kuru kavrama aşınması ve mekatronik arızası",
+          "etkilenen_parca": "DQ200 7 ileri kuru kavrama ve mekatronik ünite",
+          "belirtiler": "Düşük hızda sarsıntı, geç kavrama, vites geçişlerinde vuruntu, şanzımanın acil moda geçmesi",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/1-4-tsi-7-dsg-sorunlari-ve-yorumlari--65393823",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-golf-7-sanziman-sorunu",
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2013,
+              "bitis": 2019,
+              "durum": "Görülebilir",
+              "not": "İkinci nesil DQ200; mekatronik arızası ilk nesle göre daha az ama kavrama aşınması ve arızalar bildiriliyor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 7 (2012-2019)",
+      "motor": "1.6 TDI 90/105/110 (EA189 / EA288)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "EGR valfi ve DPF tıkanması",
+          "etkilenen_parca": "EGR valfi, dizel partikül filtresi (DPF)",
+          "belirtiler": "Motor arıza lambası, çekiş kaybı (yaklaşık 70.000 km civarında bildiriliyor), sık rejenerasyon; temizlik geçici çözüm, kalıcı çözüm valf değişimi olabiliyor",
+          "tahmini_km_araligi": "60.000 - 130.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/volkswagen-golf-1.6-tdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+            "https://otopark.com/forum/threads/golf-1-6-tdi-dpf-problemi.9143/"
           ]
         }
       ]
@@ -1068,6 +2096,10 @@
       "marka": "Volkswagen",
       "model": "Passat (B6, 2005-2010)",
       "motor": "2.0 TDI PD 16V (BKP)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2010
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Yağ pompası tahrik mili aşınması",
@@ -1098,6 +2130,10 @@
       "marka": "Volkswagen",
       "model": "Polo (9N / 6R, 2002-2014)",
       "motor": "1.2 3 silindir (BMD / BME / CGPA)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2014
+      },
       "kronik_sorunlar": [
         {
           "sorun_adi": "Triger zinciri uzaması",
@@ -1108,6 +2144,106 @@
           "kaynaklar": [
             "https://honestjohn.co.uk/volkswagen/polo/2005/",
             "https://picoauto.com/support/viewtopic.php?p=35761"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Polo 6R / 6C (2009-2017)",
+      "motor": "1.2 TSI 90/105/110 (EA111 CBZA/CBZB, sonra EA211 CJZ)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri gergisi arızası ve zincir uzaması",
+          "etkilenen_parca": "Triger zinciri ve gergisi",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi, zamanlama hata kodu, ileri aşamada supap hasarı",
+          "tahmini_km_araligi": "100.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
+            "https://forum.donanimhaber.com/1-2-tsi-kronik-sorun--146815376",
+            "https://forum.donanimhaber.com/polo-1-2-tsi-60-bin-bakimi-kayis-mi-zincir-mi--129852226"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2009,
+              "bitis": 2013,
+              "durum": "Yaygın",
+              "not": "8 supaplı EA111 motorlarda zincir gergisi ve zincir uzaması bilinen sorun."
+            },
+            {
+              "baslangic": 2014,
+              "bitis": 2017,
+              "durum": "Seyrek",
+              "not": "16 supaplı EA211 motorlara geçildi ve triger kayışı kullanılmaya başlandı; sorun büyük oranda çözüldü."
+            }
+          ]
+        },
+        {
+          "sorun_adi": "Aşırı yağ tüketimi ve supap yayı kırılması",
+          "etkilenen_parca": "Piston segmanları ve supap yayları",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, tekleme",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
+            "https://forum.donanimhaber.com/1-2-tsi-kronik-sorun--146815376"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2009,
+              "bitis": 2013,
+              "durum": "Görülebilir",
+              "not": "EA111 8V motorlarda yağ yakma ve supap yayı kırılması anılıyor."
+            },
+            {
+              "baslangic": 2014,
+              "bitis": 2017,
+              "durum": "Seyrek",
+              "not": "EA211'e geçişle yağ eksiltme sorunlarının büyük oranda çözüldüğü yazılıyor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Tiguan (5N, 2008-2016)",
+      "motor": "1.4 TSI 122/150/160 (EA111)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri gergisi arızası",
+          "etkilenen_parca": "Triger zinciri ve gergisi",
+          "belirtiler": "Soğuk çalıştırmada ve düşük devirde zincir sesi, zincir sarkması, zamanlama hata kodu; kaynaklardan biri zincir uzamasının 150.000 km civarında başladığını yazıyor",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/volkswagen-tiguan-alinirmi--126098971",
+            "https://www.sikayetvar.com/volkswagen/tiguan/kronik",
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2008,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "Bir kaynak zincir gerilmesi, piston erimesi ve yağ tüketimini erken üretim CAV kodlu motora bağlıyor (tek kaynak)."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2016,
+              "durum": "Görülebilir",
+              "not": "Forumlar 1.4 TSI'lı Tiguan'larda sorunu 2010-2017 aralığında anıyor; 2016 model araçta zincir sarkması şikâyeti var."
+            }
           ]
         }
       ]

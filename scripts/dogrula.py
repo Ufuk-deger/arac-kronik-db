@@ -18,7 +18,7 @@ KOK = Path(__file__).resolve().parent.parent
 VARSAYILAN_DOSYA = KOK / "data" / "araclar.json"
 KAYIT_DOSYASI = KOK / "data" / "kaynaklar.json"
 
-ARAC_ALANLARI = ("marka", "model", "motor", "kronik_sorunlar")
+ARAC_ALANLARI = ("marka", "model", "motor", "uretim_yillari", "kronik_sorunlar")
 SORUN_ALANLARI = (
     "sorun_adi",
     "etkilenen_parca",
@@ -27,7 +27,11 @@ SORUN_ALANLARI = (
     "risk_seviyesi",
     "kaynaklar",
 )
+ISTEGE_BAGLI_SORUN_ALANLARI = ("donem_kirilimi",)
+KIRILIM_ALANLARI = ("baslangic", "bitis", "durum", "not")
 RISK_SEVIYELERI = ("Düşük", "Orta", "Yüksek")
+KIRILIM_DURUMLARI = ("Yaygın", "Görülebilir", "Seyrek")
+YIL_ARALIGI = (1990, 2100)
 KM_DESENI = re.compile(r"^(\d{1,3}(?:\.\d{3})*) - (\d{1,3}(?:\.\d{3})*) km$")
 EN_AZ_ALAN_ADI = 2
 IKI_PARCALI_UZANTILAR = {"co.uk", "org.uk", "com.au", "com.tr", "org.tr"}
@@ -45,11 +49,11 @@ def alan_adi(url):
     return ".".join(parcalar[-2:])
 
 
-def alanlari_kontrol_et(nesne, beklenen, konum, hatalar):
+def alanlari_kontrol_et(nesne, beklenen, konum, hatalar, istege_bagli=()):
     if not isinstance(nesne, dict):
         hatalar.append(f"{konum}: nesne olmalı")
         return False
-    eksik = [alan for alan in beklenen if alan not in nesne]
+    eksik = [alan for alan in beklenen if alan not in nesne and alan not in istege_bagli]
     fazla = [alan for alan in nesne if alan not in beklenen]
     if eksik:
         hatalar.append(f"{konum}: eksik alan(lar): {', '.join(eksik)}")
@@ -63,6 +67,59 @@ def metin_mi(deger, konum, hatalar):
         hatalar.append(f"{konum}: boş olmayan metin olmalı")
         return False
     return True
+
+
+def yil_mi(deger, konum, hatalar, bos_olabilir=False):
+    if deger is None and bos_olabilir:
+        return True
+    if isinstance(deger, bool) or not isinstance(deger, int) or not YIL_ARALIGI[0] <= deger <= YIL_ARALIGI[1]:
+        hatalar.append(f"{konum}: {YIL_ARALIGI[0]}-{YIL_ARALIGI[1]} arası bir yıl olmalı")
+        return False
+    return True
+
+
+def yil_araligini_dogrula(nesne, konum, hatalar):
+    """baslangic/bitis çiftini denetler; geçerliyse (baslangic, bitis) döndürür."""
+    if not alanlari_kontrol_et(nesne, ("baslangic", "bitis"), konum, hatalar):
+        return None
+    b_ok = yil_mi(nesne["baslangic"], f"{konum}.baslangic", hatalar)
+    e_ok = yil_mi(nesne["bitis"], f"{konum}.bitis", hatalar, bos_olabilir=True)
+    if b_ok and e_ok:
+        if nesne["bitis"] is not None and nesne["bitis"] < nesne["baslangic"]:
+            hatalar.append(f"{konum}: bitiş yılı başlangıç yılından küçük")
+            return None
+        return nesne["baslangic"], nesne["bitis"]
+    return None
+
+
+def kesisir_mi(a, b):
+    """İki (baslangic, bitis|None) aralığı kesişiyor mu?"""
+    a_bitis = a[1] if a[1] is not None else YIL_ARALIGI[1]
+    b_bitis = b[1] if b[1] is not None else YIL_ARALIGI[1]
+    return a[0] <= b_bitis and b[0] <= a_bitis
+
+
+def kirilimi_dogrula(kirilimlar, konum, arac_yillari, hatalar):
+    if not isinstance(kirilimlar, list) or not kirilimlar:
+        hatalar.append(f"{konum}: en az bir dönem içeren dizi olmalı")
+        return
+    onceki = None
+    for i, k in enumerate(kirilimlar):
+        yer = f"{konum}[{i}]"
+        if not alanlari_kontrol_et(k, KIRILIM_ALANLARI, yer, hatalar):
+            continue
+        aralik = yil_araligini_dogrula({"baslangic": k["baslangic"], "bitis": k["bitis"]}, yer, hatalar)
+        if k["durum"] not in KIRILIM_DURUMLARI:
+            hatalar.append(f"{yer}.durum: '{k['durum']}' geçersiz, beklenen: {'/'.join(KIRILIM_DURUMLARI)}")
+        metin_mi(k["not"], f"{yer}.not", hatalar)
+        if not aralik:
+            continue
+        if onceki is not None:
+            if aralik[0] <= (onceki[1] if onceki[1] is not None else YIL_ARALIGI[1]):
+                hatalar.append(f"{yer}: dönemler yıla göre sıralı ve birbiriyle çakışmayan olmalı")
+        onceki = aralik
+        if arac_yillari and not kesisir_mi(aralik, arac_yillari):
+            hatalar.append(f"{yer}: dönem, aracın üretim yılları dışında kalıyor")
 
 
 def kaynaklari_dogrula(kaynaklar, konum, kayit, hatalar):
@@ -96,8 +153,8 @@ def kaynaklari_dogrula(kaynaklar, konum, kayit, hatalar):
     return len(alanlar)
 
 
-def sorunu_dogrula(sorun, konum, kayit, hatalar, sayilar):
-    if not alanlari_kontrol_et(sorun, SORUN_ALANLARI, konum, hatalar):
+def sorunu_dogrula(sorun, konum, kayit, hatalar, sayilar, arac_yillari=None):
+    if not alanlari_kontrol_et(sorun, SORUN_ALANLARI + ISTEGE_BAGLI_SORUN_ALANLARI, konum, hatalar, istege_bagli=ISTEGE_BAGLI_SORUN_ALANLARI):
         return
     for alan in SORUN_ALANLARI[:-1]:
         metin_mi(sorun[alan], f"{konum}.{alan}", hatalar)
@@ -119,6 +176,8 @@ def sorunu_dogrula(sorun, konum, kayit, hatalar, sayilar):
 
     site_sayisi = kaynaklari_dogrula(sorun["kaynaklar"], f"{konum}.kaynaklar", kayit, hatalar)
     sayilar.append(site_sayisi)
+    if "donem_kirilimi" in sorun:
+        kirilimi_dogrula(sorun["donem_kirilimi"], f"{konum}.donem_kirilimi", arac_yillari, hatalar)
 
 
 def dogrula(veri, kayit):
@@ -137,6 +196,7 @@ def dogrula(veri, kayit):
             continue
         for alan in ("marka", "model", "motor"):
             metin_mi(arac[alan], f"{konum}.{alan}", hatalar)
+        arac_yillari = yil_araligini_dogrula(arac["uretim_yillari"], f"{konum}.uretim_yillari", hatalar)
 
         anahtar = (arac["marka"], arac["model"], arac["motor"])
         if anahtar in gorulenler:
@@ -148,7 +208,7 @@ def dogrula(veri, kayit):
             hatalar.append(f"{konum}.kronik_sorunlar: en az bir sorun içeren dizi olmalı")
             continue
         for j, sorun in enumerate(sorunlar):
-            sorunu_dogrula(sorun, f"{konum}.kronik_sorunlar[{j}]", kayit, hatalar, sayilar)
+            sorunu_dogrula(sorun, f"{konum}.kronik_sorunlar[{j}]", kayit, hatalar, sayilar, arac_yillari)
     return hatalar, sayilar
 
 
@@ -171,11 +231,13 @@ def main():
     araclar = veri["arac_listesi"]
     kullanilan = {alan_adi(u) for a in araclar for s in a["kronik_sorunlar"] for u in s["kaynaklar"]}
     sinirli = sum(1 for n in sayilar if n == EN_AZ_ALAN_ADI)
+    kirilimli = sum(1 for a in araclar for s in a["kronik_sorunlar"] if "donem_kirilimi" in s)
     print(
         f"Geçerli: {len(araclar)} araç, {len(sayilar)} kronik sorun, "
         f"{len(kullanilan)} farklı kaynak sitesi."
     )
     print(f"{sinirli} sorun yalnızca {EN_AZ_ALAN_ADI} siteyle destekleniyor (sınırlı doğrulama).")
+    print(f"{kirilimli} sorunda üretim yılına göre dönem kırılımı var.")
     return 0
 
 
