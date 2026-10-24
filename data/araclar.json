@@ -206,16 +206,28 @@
       "kronik_sorunlar": [
         {
           "sorun_adi": "Genleşme kabı çatlağı ve soğutma suyu eksilmesi",
-          "etkilenen_parca": "Plastik genleşme kabı, turbo soğutma o-ringi ve plastik devirdaim pompası",
+          "etkilenen_parca": "Plastik genleşme kabı ve kapağı, plastik devirdaim pompası",
           "belirtiler": "Soğutma suyu seviyesi uyarısı, su eksilmesi, aşırı ısınma uyarısı; genleşme kabı ve kapağı değişimi sorunu her zaman çözmeyebiliyor",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kap, kapak ve bağlantı parçaları plastiktir; motorun yüksek çalışma sıcaklığı ve basıncı altında zamanla gevrekleşip çatlar ya da sızdırır (Carsece, Drivisual). Araclo rehberi kabın belirli aralıklarla yenilenmesini öneriyor; Otopark'ta bir yorum soğutma sisteminin yaklaşık 100 bin km'de 'bıraktığını' yazıyor. Agresif kullanım ve turboyu soğutmadan motoru kapatmak sorunu artırıyor (Drivisual). Su kaybı yalnızca kaptan gelmeyebilir: turbo hattı O-ring'leri, flanş ve motor arkasındaki borular da aynı belirtiyi verir.",
+            "teshis": "Önce 'soğutma sıvısı seviyesi düşük' uyarısı gelir (Drivisual). Forumlarda kaçağı bulmak için aracı kaldırıp kap, kapak, turbo hatları ve motor arkasına giden boruları incelemek öneriliyor; dışarıda belirgin sızıntı olmayabilir, bir kullanıcı yalnızca turboya giren metal boruların üstünde su izi bulmuş. Otopark'taki bir 116i sahibi kapak çevresinden su sıçradığını ve ara sıra 'motor aşırı sıcak' uyarısı aldığını yazıyor. Normal çalışma sıcaklığı için 70-90 °C aralığı anılıyor.",
+            "cozum": "Kaynaklarda tek parça değişiminin çoğu zaman yetmediği tekrar ediyor. Otopark'taki bir F20 116i sahibi önce kap ve kapağı, sonra su flanşı, termostat ve devirdaim pompasını, görünür sorun olmasa da turbo O-ring'lerini değiştirmiş; sorun tam çözülmemiş, başka kap/kapak denemesi aşırı ısınma hatası getirince eski parçalara dönmüş. Başka bir katılımcı benzer vakalarda sonucu radyatör değişiminden aldıklarını yazıyor. Forumlarda termostat, kap ve kapak için orijinal BMW parçası öneriliyor, sahte parça riskine dikkat çekiliyor.",
+            "maliyet": "Kaynaklarda genleşme kabı için net bir TL fiyatı verilmiyor. Bazı kullanıcılar, kaçağın yeri bulunmadan parça değiştirmenin gereksiz masrafa yol açtığını yazıyor.",
+            "onlem": "Carsece 80-100 bin km civarında soğutma hortumlarının ve genleşme tankının birlikte yenilenmesini öneriyor; Araclo'nun bakım tablosu soğutma sıvısını 2 yılda bir ya da 40.000 km'de değiştirmeyi ve genleşme deposunu kontrol etmeyi öneriyor. Turboyu zorlayan kullanımdan sonra motoru hemen kapatmamak da öneriliyor (Drivisual)."
+          },
           "kaynaklar": [
             "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/",
             "https://otopark.com/forum/threads/bmw-n13.5502/",
             "https://otopark.com/forum/threads/f20-116i-su-eksiltme-ve-su-sicakligi-sorunu.15229/",
             "https://otopark.com/forum/threads/f20-acayip-sorunlar.9846/",
-            "https://forum.donanimhaber.com/en-sorunsuz-bmw-motoru-hangisidir--158852837"
+            "https://forum.donanimhaber.com/en-sorunsuz-bmw-motoru-hangisidir--158852837",
+            "https://www.araclo.com/blog/bmw-3-serisi-f30-satin-alma-rehberi-motor-secenekleri-kronik-sorunlar-ve-bakim-maliyetleri-2026",
+            "https://www.araclo.com/blog/bmw-1-serisi-116i-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026",
+            "https://www.carsece.com/bmw-f30-320i-ed-n13-sahiplerinin-kabusu-motoru-elinize-almadan-okumaniz-gereken-5-kritik-uyari-25",
+            "https://www.drivisual.tv/en/news/bmw-n13-engine-common-problems-buying-guide-and-what-to-look-for",
+            "https://otopark.com/forum/threads/n13-motorlarin-kronik-sorunu.7504/"
           ]
         },
         {
@@ -224,10 +236,23 @@
           "belirtiler": "Bakımlar arasında yağ eksilmesi; kaynaklar 10.000 km'de yarım ile bir litre arasını normal sayıyor, fazlasını araştırmayı öneriyor",
           "tahmini_km_araligi": "30.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda tek bir neden yok. En çok anılanlar: PCV (karter havalandırma) diyaframında yırtık (yağ buharı emme tarafına geçip yanıyor, duman yapabiliyor); dış kaçaklar (valf kapağı, turbo yağ hortumu O-ring'leri, supap lastikleri, siklon valfi); bunlar elendikten sonra segman aşınması. Araclo, N13'ün özellikle yüksek devirde kullanıldığında yağ eksiltme eğilimi gösterdiğini yazıyor. Drivisual soğuk çalıştırmada kısa süreli mavi dumanı supap lastiklerine, ivmelenmede mavi dumanı turbo ya da segmanlara bağlıyor.",
+            "teshis": "Eksiltmeyi ölçmek için yağ seviyesini düzenli kaydedin (forumda 1.000 km'lik ölçüm öneriliyor). Sonra dış kaçak taraması: valf kapağı çevresi, yağ filtresi yuvası, turbo yağ hortumları. Drivisual'a göre turbonun giriş borusunu çıkarıp içine parmağı sokunca çamurumsu yağ varsa PCV büyük olasılıkla arızalı; sonraki adım kompresyon testi, turbo ve PCV muayenesi. Bir forum yorumu blok içi eksiltmenin (yağın suya ya da suyun yağa karışması) daha ciddi olduğunu, bu yüzden yağın rengine ve kıvamına bakılmasını söylüyor.",
+            "cozum": "Dış kaçak bulunursa ilgili conta ya da O-ring yenilenir. PCV diyaframı ayrı parça olarak satılıyor; bir forum kullanıcısı PCV'nin tek başına değil valf kapağıyla birlikte değişmesi gerektiğini savunuyor, bir başkası orijinal kapak değişiminden sonra yalnızca 5.000 devir üstünde eksiltme kaldığını yazıyor. Dış kaçak yokken egzozda mavi duman varsa segman aşınması düşünülüyor. Forumlarda LL-01 onaylı yağ (çoğunlukla 5W-30; bazı yorumlarda 0W-30 ya da 5W-40) ve BMW'yi bilen bir serviste kontrol öneriliyor.",
+            "onlem": "Yağ seviyesini düzenli ölçmek; Araclo devirli kullanımda yağ değişim aralığının kısaltılmasını öneriyor. Satın almadan önce Drivisual 12-15 dakikalık test sürüşü öneriyor (yağ basıncı uyarısı motor tam ısınınca çıkabiliyor). Kabul edilebilir eksiltme sınırı kaynaklara göre değişiyor: 1.000 km'de 0,7 L (BMW'nin benzinli motorlar için kabul ettiği sınır olarak aktarılıyor), 5.000 km'de 1 L, 10.000 km'de 0,5-1 L, 12.000 km'de 1 L; Ekşi Sözlük'te servis kılavuzuna atıfla 7.500 km'de 1,5 L yazılmış. Bu değerler resmî belge değil."
+          },
           "kaynaklar": [
             "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/",
             "https://otopark.com/forum/threads/bmw-n13.5502/",
-            "https://forum.donanimhaber.com/en-sorunsuz-bmw-motoru-hangisidir--158852837"
+            "https://forum.donanimhaber.com/en-sorunsuz-bmw-motoru-hangisidir--158852837",
+            "https://www.drivisual.tv/en/news/bmw-n13-engine-oil-consumption-guide",
+            "https://www.araclo.com/blog/bmw-3-serisi-f30-satin-alma-rehberi-motor-secenekleri-kronik-sorunlar-ve-bakim-maliyetleri-2026",
+            "https://www.araclo.com/blog/bmw-1-serisi-116i-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026",
+            "https://otopark.com/forum/threads/bulunamayan-yag-eksiltme.15627/",
+            "https://otopark.com/forum/threads/f20-n13-motor-yagi-hakkinda.15198/",
+            "https://forum.donanimhaber.com/f20-kullanicilari-lutfen-yardim--156457161",
+            "https://eksisozluk.com/n13b16--6326689"
           ]
         },
         {
@@ -236,10 +261,109 @@
           "belirtiler": "Zincir sesi, plastik kılavuzun uyarı vermeden kırılması ve zincirin atlaması; bir usta 200.000 km'yi üst sınır olarak veriyor",
           "tahmini_km_araligi": "120.000 - 200.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Plastik zincir kılavuzları (paletler) motor ısısıyla zamanla gevrekleşip aşınıyor ya da kırılıyor, zincir uzuyor; yağlama yetersizliği ve uzun süreli bakımsızlık süreci hızlandırıyor (Drivisual, Autopartia). Ekşi Sözlük'te bir yorum motorun en önemli kroniğinin palet kaynaklı zincir kırılması olduğunu söylüyor; Otopark'ta bir yorumcu plastik kılavuzun ses vermeden de aşınabileceğini yazıyor.",
+            "teshis": "En sık anılan belirti, soğuk çalıştırmada ilk saniyelerde gelen metalik, dizel benzeri çıtırtı: Carsece 2-3 saniye, Drivisual ilk 30 saniye diyor. Araclo'nun bakım tablosu 80.000 km'den itibaren zincir seti kontrolü öneriyor ve sorunun 100.000 km civarından çıkabileceğini yazıyor; Carsece uzamanın 120 bin km civarında başladığını söylüyor. Her soğuk çalıştırma sesi zincir değildir: DonanımHaber'daki bir N13 konusu, soğuk çalıştırmada wastegate'ten gelen çıngırdamanın yaygın olduğunu ve BMW'nin normal saydığını aktarıyor. Bimmerpost'ta bir 316i N13B16 sahibinin zinciri tolerans dışına çıkmış.",
+            "cozum": "Zincir seti (zincir, gergi, kılavuzlar) değiştirilir. Bimmerpost'ta bir 316i N13B16 sahibi yağ pompası ve üst zincirin birlikte yenilendiğini yazıyor; başka bir kullanıcı zincir değişiminden sonra yeni plastik kılavuzların yerleşmesiyle geçeceğini düşündüğü farklı bir ses duyduğunu aktarıyor (doğrulanmamış). Otopark'ta ses başladıktan sonra 5-10 bin km daha sürmenin zincirle birlikte başka parçaları da yıprattığı uyarısı var; başka bir yorumcu sesli zincirin kopma riski taşımadığını söylüyor (tartışmalı).",
+            "maliyet": "Carsece rehberi triger zinciri setini 25-35 bin TL olarak tahmin ediyor (2024-2025 tahmini, kaynak göstermiyor, tek kaynak). Güncel teklif için N13 deneyimli bir servisten yazılı fiyat alın.",
+            "onlem": "Araclo, ikinci elde zincir seti değişim kaydını sormayı ve yağ değişim aralıklarının kısa tutulup tutulmadığına bakmayı öneriyor. Otopark'ta bir usta 200.000 km'yi üst sınır olarak veriyor, bir başkası 'belli km yok, ses gelince değiştiririz' diyor; bir kullanıcıya göre yetkili servis parçaları ihtiyaca göre değiştiriyor ve zincirin 150.000 km'ye kadar gidebileceğini söylemiş."
+          },
           "kaynaklar": [
             "https://otopark.com/forum/threads/n13-118i-sorunlar-zinciri.10614/",
             "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/",
-            "https://forum.donanimhaber.com/en-sorunsuz-bmw-motoru-hangisidir--158852837"
+            "https://forum.donanimhaber.com/en-sorunsuz-bmw-motoru-hangisidir--158852837",
+            "https://www.araclo.com/blog/bmw-1-serisi-116i-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026",
+            "https://www.carsece.com/bmw-f30-320i-ed-n13-sahiplerinin-kabusu-motoru-elinize-almadan-okumaniz-gereken-5-kritik-uyari-25",
+            "https://www.drivisual.tv/en/news/bmw-n13-engine-common-problems-buying-guide-and-what-to-look-for",
+            "https://autopartia.com/blog/bmw-n13-zincir-seti",
+            "https://eksisozluk.com/n13b16--6326689",
+            "https://otopark.com/forum/threads/bmw-f20-1-16i-agir-bakim-hakkinda.10104/",
+            "https://forum.donanimhaber.com/bmw-n13-cold-start-wastegate-rattle-kismi-cozum--140407526",
+            "https://f30.bimmerpost.com/forums/showthread.php?t=2005868",
+            "https://f20.bimmerpost.com/forums/showthread/2105994/n13-timing-chain-repair"
+          ]
+        },
+        {
+          "sorun_adi": "Turbo soğutma hattı O-ring'i ve motor arkası boru/flanş kaçağı",
+          "etkilenen_parca": "Turbo soğutma suyu giriş/çıkış O-ring'leri ve plastik boruları, motorun arkasındaki T dağıtıcı boru, soğutma suyu flanşı",
+          "belirtiler": "Soğutma suyu sürekli eksilir ama dışarıda belirgin sızıntı görünmeyebilir; turboya giren boruların üstünde su izi, 'soğutma sıvısı düşük' ve aşırı ısınma uyarısı; bazı araçlarda tahrik (güç kısıtlama) uyarısı",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Turbonun giriş/çıkışındaki soğutma suyu O-ring'leri yüksek sıcaklıkta zamanla sertleşip eriyor ya da yırtılıyor; Otopark konularında bu, N13'te su eksiltmenin en sık anılan nedeni. Carsece turbo soğutma borularının ve motor arkasındaki 'T' dağıtıcı borunun da ısıdan gevrekleşip çatlayabileceğini, Autopartia (yedek parça satıcısı) görünmeyen su kaybının çoğunlukla plastik flanş ve termostat gövdesindeki mikro çatlaklardan geldiğini yazıyor.",
+            "teshis": "Kaçak her zaman görünmez: bir yorumcu aracı kaldırıp baktığında hiçbir yerde damlama görmemiş, yalnızca turboya giren metal boruların üst kısmında su izi bulmuş. Başka bir vakada kaçak turbodan değil motor arkasına giden su borularından çıkmış. Turbo hattı kaçağı su eksilmesinin yanında tahrik arızası uyarısına da yol açabiliyor (Otopark tahrik konusu). Hata kodu okutmak ve aracı kaldırıp boruları, O-ring'leri incelemek öneriliyor.",
+            "cozum": "Forum deneyimlerinde O-ring'lerin (gerekirse su flanşının) değiştirilmesi sorunu çözmüş: bir kullanıcı iki O-ring değişimiyle sorunun bittiğini ve işçiliğin düşük olduğunu yazıyor. Kaçağın devirdaim pompası ve boruların değiştirilmesiyle giderildiği vakalar da var (doğrulanmamış). Otopark'ta bir kullanıcı, sorun büyümesin diye su kaçağı başlar başlamaz O-ring'lerin değiştirildiğini anlatıyor.",
+            "maliyet": "Otopark'taki eski paylaşımlarda (yıl belirtilmemiş, birkaç yıl öncesine ait) Borusan'da tek O-ring 19 TL, su flanşı ve turbo O-ring değişimi yaklaşık 700 TL bildirilmiş; bu rakamlar güncel değildir. Kaynaklar parçayı ucuz, işin zor kısmını kaçağın yerini bulmak olarak anlatıyor.",
+            "onlem": "Otopark'ta bir yorumcu 2014 öncesi araçlarda bu boruların kontrol edilmesini, başka kullanıcılar Temmuz 2014 sonrası üretilen motorlarda sorunların daha az olduğunu yazıyor (tek tek kullanıcı yorumları, doğrulanmamış). Carsece 80-100 bin km civarında soğutma hortumları ve genleşme tankının birlikte yenilenmesini öneriyor."
+          },
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/n13-motorlarin-kronik-sorunu.7504/",
+            "https://otopark.com/forum/threads/f20-116i-su-eksiltme-ve-su-sicakligi-sorunu.15229/",
+            "https://otopark.com/forum/threads/bmw-n13-tahrik-problemi.4952/",
+            "https://www.carsece.com/bmw-f30-320i-ed-n13-sahiplerinin-kabusu-motoru-elinize-almadan-okumaniz-gereken-5-kritik-uyari-25",
+            "https://autopartia.com/uzman/bmw-n13-su-eksiltme-sorunu-neden-olur"
+          ]
+        },
+        {
+          "sorun_adi": "Termostat ve soğutma suyu flanşı arızası",
+          "etkilenen_parca": "Termostat ve plastik soğutma suyu flanşı (termostat gövdesi)",
+          "belirtiler": "Motor geç ısınıyor ya da sıcaklık dalgalanıyor, hararet uyarısı, yakıt tüketiminde artış; bazı araçlarda 'motor aşırı ısındı' uyarısı ve güç kısıtlama (koruma modu)",
+          "tahmini_km_araligi": "70.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklar arasında yalnızca Autopartia (yedek parça satıcısı) termostat arızasını N13'ün en yaygın sorunlarından biri sayıyor; Otopark ve DonanımHaber'de tekil vakalar var. Termostat kırılırsa ya da açık kalırsa motor ideal sıcaklığa çıkamıyor, ECU zengin karışım verip tüketimi artırıyor; arızalı termostat ECU'ya yanlış sıcaklık bilgisi vererek gücü kısıtlayan koruma moduna yol açabiliyor (Autopartia). Aynı kaynak, su eksiltmesinin çoğunlukla termostat gövdesi ve plastik flanştaki mikro çatlaklardan geldiğini yazıyor.",
+            "teshis": "Motor geç ısınıyor, hararet göstergesi dengesiz ya da tüketim artmışsa termostat kontrol edilmeli (Autopartia). Otopark'ta bir F30 320iED sahibi termostatın kırıldığını, motor sıcaklığını ayarlayamadığını ve ekranda 'motor aşırı ısındı' uyarısı aldığını yazıyor. Forumlarda termostatın ya hiç açmaması (hararet) ya da hep açık kalması (geç ısınma) olarak iki arıza biçimi anlatılıyor. Dikkat: DonanımHaber'deki bir F30 316i sahibi termostatı birkaç kez değiştirmiş, sorun sonunda radyatördeki küçük bir delikten çıkmış; bir yorumcu termostat ile su eksiltme arasında doğrudan ilişki olmadığını söylüyor.",
+            "cozum": "Termostatın soğutma suyu flanşıyla birlikte değiştirilmesi kaynaklarda öne çıkıyor; Autopartia gibi satıcı sayfalarında termostat ve flanş tek parça olarak listeleniyor. Otopark'taki 116i konusunda kap ve kapaktan sonra flanş, termostat ve devirdaim birlikte değişmiş; bir katılımcı termostat, kap ve kapağın orijinal BMW parçası olmasını öneriyor. Parça değiştirmeden önce su kaybının asıl kaynağını (devirdaim, radyatör, hortum, üst kapak) bulmak gerektiği vurgulanıyor.",
+            "onlem": "Sıcaklık göstergesini ve soğutma suyu seviyesini izlemek; 'motor aşırı ısındı' ya da güç kısıtlama uyarısında sürmeye devam etmeden kontrol ettirmek. Termostat tavsiyesi büyük oranda tek bir parça satıcısının blogundan geliyor; parça değiştirmeden önce hata kodu okutup kaçak ve radyatör kontrolü yaptırmak mantıklı."
+          },
+          "kaynaklar": [
+            "https://autopartia.com/blog/bmw-n13-termostat-arizasi-nasil-anlasilir",
+            "https://autopartia.com/uzman/bmw-n13-motor-koruma-moduna-giriyor-sorunu",
+            "https://otopark.com/forum/threads/n13-motorlarin-kronik-sorunu.7504/",
+            "https://otopark.com/forum/threads/f20-116i-su-eksiltme-ve-su-sicakligi-sorunu.15229/",
+            "https://forum.donanimhaber.com/su-eksiltme-sorunu--133101259"
+          ]
+        },
+        {
+          "sorun_adi": "Yağ kaçağı (valf kapağı, PCV diyaframı, yağ filtresi yuvası)",
+          "etkilenen_parca": "Valf (külbütör) kapağı ve contası, PCV valfi/diyaframı, yağ filtresi yuvası contası, turbo yağ hortumu O-ring'leri",
+          "belirtiler": "Motor üstünde ve altında yağlı yüzeyler, yağ seviyesinin sebepsiz düşmesi; PCV diyaframı yırtıldığında yüksek devirde mavi-beyaz duman ve rölanti dalgalanması",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Rehberler yağ kaçağının en büyük nedeni olarak valf (külbütör) kapağını gösteriyor; Carsece valf kapağı ve yağ soğutucu contalarının kronik sızdırdığını yazıyor. Drivisual PCV valfi arızasını kaçak ve yağ tüketiminin başlıca nedeni sayıyor. Forum yorumlarında diğer kaçak noktaları: yağ filtresi kütüğünün dibindeki conta, turbo yağ hortumu bağlantısındaki O-ring'ler (yüksek performanslı kullanımla ilişkilendirilmiş), supap lastikleri ve siklon valfi. Ekşi Sözlük'te yağ ve su kaçakları en çok gözlenen kronikler arasında sayılıyor.",
+            "teshis": "Kaçak motor üstünde ve altındaki yağlı yüzeylerde aranır. Kaçak görünmüyorsa PCV'ye bakılır: Drivisual turbonun giriş borusunu çıkarıp içine parmağı sokmayı öneriyor, çamurumsu yağ varsa PCV büyük olasılıkla arızalı. Otopark'ta bir kullanıcı PCV diyaframındaki yırtığın yağ buharını emme tarafına gönderip yağ tüketimini artırabileceğini ve yüksek devirde mavi-beyaz duman yapabileceğini yazıyor. Carsece her 60.000 km'de kaçak kontrolü öneriyor.",
+            "cozum": "İlgili conta ya da O-ring yenilenir: valf kapağı contası, yağ filtresi yuvası contası, turbo yağ hortumu O-ring'leri. PCV diyaframı ayrı parça olarak satılıyor; bir forum kullanıcısı PCV'nin tek başına değil valf kapağıyla birlikte değişmesi gerektiğini savunuyor. Bir kullanıcı orijinal kapak değişiminden sonra yalnızca 5.000 devir üstünde eksiltme kaldığını bildiriyor. Forumlarda kaçakların BMW'yi bilen bir serviste kontrol ettirilmesi öneriliyor.",
+            "onlem": "Yağ seviyesini düzenli ölçmek ve kaçakları erken yakalamak için Carsece'nin önerdiği 60.000 km'lik periyodik kontrolü yaptırmak."
+          },
+          "kaynaklar": [
+            "https://www.carsece.com/bmw-f30-320i-ed-n13-sahiplerinin-kabusu-motoru-elinize-almadan-okumaniz-gereken-5-kritik-uyari-25",
+            "https://autopartia.com/uzman/cozum/n13-motor-yag-sizintisi",
+            "https://www.drivisual.tv/en/news/bmw-n13-engine-common-problems-buying-guide-and-what-to-look-for",
+            "https://eksisozluk.com/n13b16--6326689",
+            "https://otopark.com/forum/threads/f20-n13-motor-yagi-hakkinda.15198/",
+            "https://otopark.com/forum/threads/bulunamayan-yag-eksiltme.15627/",
+            "https://forum.donanimhaber.com/f20-kullanicilari-lutfen-yardim--156457161"
+          ]
+        },
+        {
+          "sorun_adi": "Tahrik arızası uyarısı ve güç kısıtlaması",
+          "etkilenen_parca": "Turbo basınç kontrolü (wastegate kolu/burcu), ateşleme bobinleri ve bujiler, VANOS selenoid valfi, turbo hattı kaçakları",
+          "belirtiler": "Göstergede 'tahrik arızası' ya da 'tam güçle sürüş mümkün değil' uyarısı, gaz tepkisinde azalma, tekleme ve titreme; hata belleği her zaman dolu olmayabilir",
+          "tahmini_km_araligi": "70.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Tahrik uyarısı bir belirti; nedenleri kaynaklarda dağılıyor. Carsece wastegate kolunun/burcunun boşluk yapmasını, bobin-buji arızasını ve yüksek basınç pompasını (HPFP) başlıca nedenler sayıyor. Otopark konularında ateşleme (bobin-buji) 'en temel neden' olarak anılıyor; VANOS selenoid valfi (tam bozulmadan hata kodu vermeyebiliyor) ve su eksilmesiyle birlikte turbo hattı O-ring kaçakları da sayılıyor, bir kullanıcı deponun çeyreğinin altında kullanımda ısınan yakıt pompasını suçluyor. Autopartia, sıcaklık bilgisini bozan termostat arızasının da koruma moduna yol açabileceğini yazıyor.",
+            "teshis": "Forumlarda en doğru yöntem olarak uyarı sırasında hata kodlarının okutulması anılıyor; uyarı yokken gidilirse kayıtlı hata bulunamayabiliyor. Kontrol sırası olarak önce ucuz adımlar öneriliyor: bobin ve buji, turbo hattı ve O-ring kaçakları, soğutma suyu seviyesi; sonra VANOS selenoid valfi. Bir kullanıcı 80.000 km'den sonra tahrik hatalarının başladığını yazıyor.",
+            "cozum": "Forumlarda bildirilen çözümler: bobin ve buji setinin yenilenmesi, VANOS selenoid valfinin değişimi, su eksilmesine yol açan turbo O-ring'inin ve flanşın yenilenmesi (tahrik uyarısı kesilmiş); Carsece'ye göre wastegate burcu/kolunun yenilenmesi.",
+            "maliyet": "Carsece, wastegate burcu yenilemesini 5-10 bin TL, yüksek basınç pompasını 18-28 bin TL olarak tahmin ediyor (2024-2025 tahmini, kaynak göstermiyor, tek kaynak).",
+            "onlem": "Yakıt deposunu çeyreğin altına düşürmemek (bir kullanıcı pompanın ısınıp arıza yaptığını yazıyor), buji-bobinleri zamanında yenilemek, soğutma suyu seviyesini izlemek ve parça değiştirmeden önce hata kodu okutmak."
+          },
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/bmw-n13-tahrik-problemi.4952/",
+            "https://otopark.com/forum/threads/1-18i-tahrik-uyarisi.9493/",
+            "https://www.carsece.com/bmw-f30-320i-ed-n13-sahiplerinin-kabusu-motoru-elinize-almadan-okumaniz-gereken-5-kritik-uyari-25",
+            "https://autopartia.com/uzman/bmw-n13-motor-koruma-moduna-giriyor-sorunu"
           ]
         }
       ]

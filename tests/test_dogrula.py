@@ -129,6 +129,36 @@ class DogrulaTesti(unittest.TestCase):
         sorun(veri)["donem_kirilimi"][0]["oran"] = 5
         self.assertHata(veri, "tanımsız alan")
 
+    def test_detay_gecerli(self):
+        veri = ornek()
+        sorun(veri)["detay"] = {"neden": "n", "teshis": "t", "cozum": "c", "maliyet": "m", "onlem": "o"}
+        self.assertEqual(hatalar(veri), [])
+
+    def test_detay_tek_alan_yeter(self):
+        veri = ornek()
+        sorun(veri)["detay"] = {"cozum": "c"}
+        self.assertEqual(hatalar(veri), [])
+
+    def test_detay_bos_olamaz(self):
+        veri = ornek()
+        sorun(veri)["detay"] = {}
+        self.assertHata(veri, "en az bir alan")
+
+    def test_detay_tanimsiz_alan(self):
+        veri = ornek()
+        sorun(veri)["detay"] = {"fiyat": "x"}
+        self.assertHata(veri, "tanımsız alan")
+
+    def test_detay_metin_olmali(self):
+        veri = ornek()
+        sorun(veri)["detay"] = {"neden": " "}
+        self.assertHata(veri, "boş olmayan metin")
+
+    def test_detay_uzunluk_siniri(self):
+        veri = ornek()
+        sorun(veri)["detay"] = {"neden": "a" * (dogrula.DETAY_UZUNLUK_UST + 1)}
+        self.assertHata(veri, "en fazla")
+
     def test_tek_site_yetmez(self):
         veri = ornek()
         sorun(veri)["kaynaklar"] = [f"https://{FORUM}/a", f"https://{FORUM}/b"]
@@ -171,6 +201,16 @@ class SemaTesti(unittest.TestCase):
         except ImportError:
             self.skipTest("jsonschema kurulu değil")
         jsonschema.Draft202012Validator(SEMA).validate(GERCEK_VERI)
+
+    def test_sema_detay_tanimsiz_alani_reddeder(self):
+        try:
+            import jsonschema
+        except ImportError:
+            self.skipTest("jsonschema kurulu değil")
+        veri = ornek()
+        sorun(veri)["detay"] = {"fiyat": "x"}
+        with self.assertRaises(jsonschema.ValidationError):
+            jsonschema.Draft202012Validator(SEMA).validate(veri)
 
     def test_sema_donem_kirilimi_durumunu_denetler(self):
         try:

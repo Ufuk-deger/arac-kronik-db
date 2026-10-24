@@ -514,6 +514,30 @@
       "guven": "düşük",
       "ana_sayfa": "https://www.completecar.ie/",
       "not": "İrlanda merkezli araç sitesi; okur sorularına yanıt veriyor."
+    },
+    "autopartia.com": {
+      "ad": "Autopartia",
+      "ulke": "TR",
+      "tur": "parca-atolye",
+      "guven": "düşük",
+      "ana_sayfa": "https://autopartia.com/",
+      "not": "Yedek parça satıcısı; motor bazlı blog ve 'uzman' sayfaları. Ticari site, belirli bir OEM parçayı sürekli öneriyor; tek başına yeterli sayılmaz."
+    },
+    "carsece.com": {
+      "ad": "Carsece",
+      "ulke": "TR",
+      "tur": "editoryal",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.carsece.com/",
+      "not": "Araç rehberi ve bakım blogu. Maliyet tahminlerinin kaynağını göstermiyor; tek başına yeterli sayılmaz."
+    },
+    "drivisual.tv": {
+      "ad": "Drivisual",
+      "ulke": "TR",
+      "tur": "editoryal",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.drivisual.tv/",
+      "not": "Motor bazlı satın alma ve kronik sorun rehberleri (Türkçe ve İngilizce). Tek bir blog; bağımsız kaynakla karşılaştırılmalı."
     }
   }
 }

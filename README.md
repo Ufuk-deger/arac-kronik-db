@@ -46,6 +46,9 @@ kaynaklar destekliyorsa üretim yılına göre kırılır (ör. revizyon öncesi
           "belirtiler": "...",
           "tahmini_km_araligi": "...",
           "risk_seviyesi": "Düşük/Orta/Yüksek",
+          "detay": {
+            "neden": "...", "teshis": "...", "cozum": "...", "maliyet": "...", "onlem": "..."
+          },
           "kaynaklar": ["https://...", "https://..."],
           "donem_kirilimi": [
             { "baslangic": 2015, "bitis": 2018, "durum": "Yaygın", "not": "..." },
@@ -70,6 +73,7 @@ kaynaklar destekliyorsa üretim yılına göre kırılır (ör. revizyon öncesi
 | `tahmini_km_araligi` | `80.000 - 150.000 km` biçiminde tahmini kilometre aralığı |
 | `risk_seviyesi` | `Düşük`, `Orta` veya `Yüksek` |
 | `kaynaklar` | Sorunu destekleyen sayfaların adresleri (en az iki farklı site) |
+| `detay` | İsteğe bağlı. Sorunun nedeni, nasıl anlaşıldığı, yaygın çözümü, bildirilen maliyeti ve önlemi; aşağıya bakın |
 | `donem_kirilimi` | İsteğe bağlı. Sorunun üretim yılına göre durumu; aşağıya bakın |
 
 Risk seviyeleri:
@@ -100,6 +104,28 @@ Okurken dikkat edilecekler:
 - Dönemler yıla göre sıralı ve birbiriyle çakışmayan olmalı, aracın `uretim_yillari` aralığı içinde kalmalıdır.
 - Revizyon yıllarını kaynaklar farklı verebilir (ör. 7 mm zincirden 8 mm zincire geçiş). Bu durumda `not` alanında belirtilir; şasi numarasıyla kontrol edin.
 
+## Ayrıntılar (`detay`)
+
+Sorun satırı "ne bozulur, hangi belirtiyi verir" sorusunu yanıtlar; `detay` ise sonrasındaki soruları
+kaynakların anlattığı kadarıyla yanıtlar. Beş alanı vardır; hepsi isteğe bağlıdır (en az biri dolu
+olmalı, her biri en fazla 800 karakter):
+
+| Alan | İçerik |
+| --- | --- |
+| `neden` | Kaynaklarda öne sürülen neden ya da nedenler |
+| `teshis` | Nasıl anlaşılır: ayırt edici belirti, kontrol sırası, karıştırılan benzer arızalar |
+| `cozum` | Kullanıcı ve ustaların bildirdiği yaygın çözüm; tartışmalı olanlar belirtilir |
+| `maliyet` | Yalnızca kaynakta geçen rakamlar, kaynağı ve dönemi belirtilerek. Rakam bulunamadıysa alan yazılmaz |
+| `onlem` | Rehber ve kullanıcıların önerdiği önlemler, kaynakların verdiği kontrol aralıkları |
+
+Okurken dikkat edilecekler:
+
+- Kaynak anlatımlarının özetidir; üreticinin ya da yetkili servisin talimatı değildir.
+- `neden` alanı kaynaklarda öne sürülen açıklamaları verir, kesin teknik tespit olmayabilir.
+- Maliyetler bildirim tarihine göre eskir; güncel fiyat değil büyüklük sırası olarak okuyun. Tarihi belli olmayan ya da başka motora ait rakamlar alınmaz.
+- Bilgi tek bir kaynaktan geliyorsa metinde kaynağın adı geçer (ör. "Carsece rehberi ... tahmin ediyor"); bilgi yalnızca bir parça satıcısı ya da blogdan geliyorsa bu belirtilir.
+- Kaynakların ayrıştığı noktalar (ör. kabul edilebilir yağ eksiltme sınırı) tek bir değere indirilmez, değerler kaynaklarıyla birlikte sıralanır.
+
 ## Kaynak kuralı
 
 Bir sorun veritabanına ancak şu koşullarla girer:
@@ -124,6 +150,8 @@ python3 scripts/viewer_uret.py
 `viewer/index.html` oluşur; veriler dosyanın içine gömülür, sunucu gerekmez. Sayfada marka, model, motor
 koduna göre arama yapabilir, model yılı ve kilometre girerek o yıl ve kilometre için geçerli sorunları
 görebilirsiniz. Yıl kırılımı olan sorunlarda girdiğiniz model yılının hangi döneme düştüğü işaretlenir.
+Ayrıntısı olan sorunlarda "Ayrıntılar" bölümü açılır; "Tüm ayrıntıları aç" kutusu hepsini birden açar ve
+arama kutusu ayrıntı metinlerinde de arar.
 
 ## Doğrulama
 
@@ -135,7 +163,7 @@ python3 -m unittest discover tests
 Betik; zorunlu alanları, tanımsız alanları, risk seviyesi değerlerini,
 kilometre aralığı biçimini (alt sınırın üst sınırdan küçük olması dahil),
 üretim yıllarını ve dönem kırılımı kurallarını (sıralı, çakışmayan, üretim yılları
-içinde), aynı marka/model/motor üçlüsünün tekrar edilmemesini ve kaynak kuralını
+içinde), `detay` alanlarını (tanımlı beş alan, boş olmayan, en fazla 800 karakter), aynı marka/model/motor üçlüsünün tekrar edilmemesini ve kaynak kuralını
 kontrol eder. Hata bulunursa sıfırdan farklı bir çıkış koduyla sonlanır; başarılı
 çalışmada yalnızca iki siteyle desteklenen (sınırlı doğrulamalı) madde sayısını da yazar.
 

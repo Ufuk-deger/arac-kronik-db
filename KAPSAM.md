@@ -25,7 +25,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 - Araştırılıp eklenmeyen (–): **22**
 - Sırada (○): **66**
 - Kademe 1: **85/85** işlendi (✓ ya da –)
-- Veritabanı: **97** kayıt, **156** kronik sorun
+- Veritabanı: **97** kayıt, **160** kronik sorun
 
 | Marka | Plan | ✓ | – | ○ | Kademe 1 işlenen |
 | --- | ---: | ---: | ---: | ---: | ---: |
@@ -261,7 +261,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | 1 Serisi F20 | 2011-2019 | 116i / 118i (N13 / B38) | ✓ 4 sorun |
+| 1 | 1 Serisi F20 | 2011-2019 | 116i / 118i (N13 / B38) | ✓ 8 sorun |
 | 1 | 3 Serisi F30 | 2012-2015 | 320d 2.0 (N47) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | 3 Serisi F30 | 2012-2015 | 320i / 328i 2.0 (N20) | ✓ 3 sorun, 1 yıl kırılımı |
 | 1 | 3 Serisi F30 | 2015-2019 | 320d (B47) / 320i (B48) | – eklenmedi: Kaynaklar B47'nin N47 sorunlarını büyük ölçüde çözdüğünü yazıyor ama çelişkili; B48 zincir/turbo yağ terlemesi tek kaynakta kaldı. |

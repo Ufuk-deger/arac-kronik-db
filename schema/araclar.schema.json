@@ -140,6 +140,39 @@
               }
             }
           }
+        },
+        "detay": {
+          "description": "Sorunun ayrıntıları: nedeni, nasıl anlaşıldığı, yaygın çözümü, bildirilen maliyet ve önlem. Kaynaklardaki kullanıcı, usta ve rehber anlatımlarına dayanır; resmî servis bilgisi değildir.",
+          "type": "object",
+          "minProperties": 1,
+          "additionalProperties": false,
+          "properties": {
+            "neden": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            },
+            "teshis": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            },
+            "cozum": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            },
+            "maliyet": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            },
+            "onlem": {
+              "type": "string",
+              "minLength": 1,
+              "maxLength": 800
+            }
+          }
         }
       }
     },

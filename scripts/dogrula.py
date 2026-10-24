@@ -27,7 +27,9 @@ SORUN_ALANLARI = (
     "risk_seviyesi",
     "kaynaklar",
 )
-ISTEGE_BAGLI_SORUN_ALANLARI = ("donem_kirilimi",)
+ISTEGE_BAGLI_SORUN_ALANLARI = ("donem_kirilimi", "detay")
+DETAY_ALANLARI = ("neden", "teshis", "cozum", "maliyet", "onlem")
+DETAY_UZUNLUK_UST = 800
 KIRILIM_ALANLARI = ("baslangic", "bitis", "durum", "not")
 RISK_SEVIYELERI = ("Düşük", "Orta", "Yüksek")
 KIRILIM_DURUMLARI = ("Yaygın", "Görülebilir", "Seyrek")
@@ -122,6 +124,19 @@ def kirilimi_dogrula(kirilimlar, konum, arac_yillari, hatalar):
             hatalar.append(f"{yer}: dönem, aracın üretim yılları dışında kalıyor")
 
 
+def detayi_dogrula(detay, konum, hatalar):
+    if not isinstance(detay, dict) or not detay:
+        hatalar.append(f"{konum}: en az bir alan içeren nesne olmalı")
+        return
+    fazla = [alan for alan in detay if alan not in DETAY_ALANLARI]
+    if fazla:
+        hatalar.append(f"{konum}: tanımsız alan(lar): {', '.join(fazla)}")
+    for alan in DETAY_ALANLARI:
+        if alan in detay and metin_mi(detay[alan], f"{konum}.{alan}", hatalar):
+            if len(detay[alan]) > DETAY_UZUNLUK_UST:
+                hatalar.append(f"{konum}.{alan}: en fazla {DETAY_UZUNLUK_UST} karakter olmalı")
+
+
 def kaynaklari_dogrula(kaynaklar, konum, kayit, hatalar):
     """Sorunun kaynak listesini denetler ve ayrı alan adlarının sayısını döndürür."""
     if not isinstance(kaynaklar, list):
@@ -178,6 +193,8 @@ def sorunu_dogrula(sorun, konum, kayit, hatalar, sayilar, arac_yillari=None):
     sayilar.append(site_sayisi)
     if "donem_kirilimi" in sorun:
         kirilimi_dogrula(sorun["donem_kirilimi"], f"{konum}.donem_kirilimi", arac_yillari, hatalar)
+    if "detay" in sorun:
+        detayi_dogrula(sorun["detay"], f"{konum}.detay", hatalar)
 
 
 def dogrula(veri, kayit):
@@ -232,12 +249,14 @@ def main():
     kullanilan = {alan_adi(u) for a in araclar for s in a["kronik_sorunlar"] for u in s["kaynaklar"]}
     sinirli = sum(1 for n in sayilar if n == EN_AZ_ALAN_ADI)
     kirilimli = sum(1 for a in araclar for s in a["kronik_sorunlar"] if "donem_kirilimi" in s)
+    detayli = sum(1 for a in araclar for s in a["kronik_sorunlar"] if "detay" in s)
     print(
         f"Geçerli: {len(araclar)} araç, {len(sayilar)} kronik sorun, "
         f"{len(kullanilan)} farklı kaynak sitesi."
     )
     print(f"{sinirli} sorun yalnızca {EN_AZ_ALAN_ADI} siteyle destekleniyor (sınırlı doğrulama).")
     print(f"{kirilimli} sorunda üretim yılına göre dönem kırılımı var.")
+    print(f"{detayli} sorunda ayrıntı (neden, teşhis, çözüm, maliyet, önlem) var.")
     return 0
 
 

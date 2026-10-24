@@ -310,6 +310,7 @@
   select:focus-visible,
   button:focus-visible,
   a:focus-visible,
+  summary:focus-visible,
   .cip input:focus-visible + span {
     outline: 2px solid var(--focus);
     outline-offset: 2px;
@@ -479,6 +480,50 @@
     display: flex;
     flex-wrap: wrap;
     gap: 4px 6px;
+  }
+  .detay {
+    margin: 8px 0 0;
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--accent);
+    border-radius: 8px;
+    background: var(--bg);
+  }
+  .detay > summary {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px 10px;
+    padding: 7px 12px;
+    cursor: pointer;
+    list-style: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .detay > summary::-webkit-details-marker {
+    display: none;
+  }
+  .detay > summary::before {
+    content: "";
+    align-self: center;
+    flex: none;
+    border-style: solid;
+    border-width: 4px 0 4px 6px;
+    border-color: transparent transparent transparent currentColor;
+    transition: transform 0.15s;
+  }
+  .detay[open] > summary::before {
+    transform: rotate(90deg);
+  }
+  .detay-ipucu {
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .detay > .sorun-dl {
+    margin: 0;
+    padding: 2px 12px 10px;
+    gap: 6px;
   }
   .kaynaklar a {
     display: inline-block;
@@ -709,7 +754,7 @@
 <div class="sayfa" lang="tr">
   <header class="ust kap">
     <h1>Araç Kronik DB</h1>
-    <p class="giris">Türkiye'de yaygın araçların bilinen kronik sorunları, marka ve motor bazında. Aracınızı marka, model ya da motor koduyla arayın; model yılınızı girerseniz yalnızca o yılı kapsayan kayıtlar kalır ve revizyon öncesi/sonrası farkı olan sorunlarda yılınız işaretlenir. Kilometrenizi girerseniz hangi sorunların o aralıkta görüldüğü gösterilir. Her sorun en az iki farklı sitedeki sayfayla desteklenir; bağlantılar sorunun altında.</p>
+    <p class="giris">Türkiye'de yaygın araçların bilinen kronik sorunları, marka ve motor bazında. Aracınızı marka, model ya da motor koduyla arayın; model yılınızı girerseniz yalnızca o yılı kapsayan kayıtlar kalır ve revizyon öncesi/sonrası farkı olan sorunlarda yılınız işaretlenir. Kilometrenizi girerseniz hangi sorunların o aralıkta görüldüğü gösterilir. Her sorun en az iki farklı sitedeki sayfayla desteklenir; bağlantılar sorunun altında. Ayrıntısı eklenmiş sorunlarda nedeni, nasıl anlaşıldığı, yaygın çözümü, bildirilen maliyet ve önlem açılır bölümdedir.</p>
     <p class="ozet" id="ozet"></p>
   </header>
 
@@ -747,6 +792,7 @@
           <label class="cip" data-risk="dusuk"><input type="radio" name="risk" id="risk-dusuk" value="dusuk"><span><i class="lamba"></i>Düşük <b class="say" data-say="dusuk"></b></span></label>
         </div>
         <label class="onay"><input id="kmfiltre" type="checkbox" disabled> Yalnızca bu kilometrede görülenler</label>
+        <label class="onay"><input id="detayac" type="checkbox"> Tüm ayrıntıları aç</label>
         <button type="button" id="temizle" hidden>Filtreleri temizle</button>
       </div>
     </div>
@@ -763,6 +809,7 @@
     <footer class="alt">
       <p>Çubuklar 0–250.000 km ölçeğindedir; ince çizgiler 50.000 km aralıklarını gösterir. Kilometre girdiğinizde aracınızın konumu koyu bir çizgiyle işaretlenir. Aralığın içindeyse "Bu kilometrede", aralığın başlangıcına 20.000 km'den az kaldıysa "Yaklaşıyor" yazar.</p>
       <p>"Dönem" satırı, kaynakların üretim yılına göre fark belirttiği sorunlarda görünür: ●●● Yaygın, ●●○ Görülebilir, ●○○ Seyrek. Bu sınıflandırma kaynaklardaki bildirim yoğunluğuna dayanan editoryal bir değerlendirmedir, istatistik değildir. Listelenmeyen yıllar için kaynaklarda ayrı bilgi bulunamamıştır; "sorun yok" anlamına gelmez. Kapsam son 10-15 yılın araçlarıdır (yaklaşık 2011 sonrası); ilk aşamadan kalan birkaç eski kayıt silinmedi.</p>
+      <p>"Ayrıntılar" bölümü, sorunun kaynaklarında kullanıcı, usta ve rehber anlatımlarında geçen bilgileri özetler; yetkili servis talimatı değildir. Maliyetler yalnızca kaynaklarda bildirildiği kadarıyla ve bildirim yılıyla yazılmıştır, güncel fiyat değildir; parça fiyatı ve işçilik zamana ve servise göre değişir. Nedenler, kaynaklarda öne sürülen açıklamalardır, üreticinin teknik tespiti olmayabilir.</p>
       <p>Kaynak bağlantıları web araması sonuçlarından toplandı ve sayfa başlığı ile özetine göre sorunlarla eşlendi; sayfaların tamamı okunmadı. Soluk renkli bağlantılar daha zayıf kaynaklardır (ticari site, blog veya kısa kullanıcı girdisi). Km aralıkları tahminidir ve kullanım, bakım geçmişi ve üretim yılına göre değişir. Karar vermeden önce aracı yetkili servise kontrol ettirin.</p>
       <p>Ayrıntılar: <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/KAYNAKLAR.md">KAYNAKLAR.md</a> (site listesi), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/DOGRULAMA_RAPORU.md">DOGRULAMA_RAPORU.md</a> (neyin kaldırıldığı ve neden), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/KAPSAM.md">KAPSAM.md</a> (hangi marka, model ve motorlar planlandı, hangileri tamam), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/data/araclar.json">data/araclar.json</a>.</p>
     </footer>
@@ -823,6 +870,24 @@
       return eksen;
     }
 
+    const DETAY_ALANLARI = [["neden", "Neden"], ["teshis", "Teşhis"], ["cozum", "Çözüm"], ["maliyet", "Maliyet"], ["onlem", "Önlem"]];
+
+    function detayOlustur(detay) {
+      const var_ = DETAY_ALANLARI.filter(([anahtar]) => detay[anahtar]);
+      const kutu = el("details", "detay");
+      const ozet = el("summary");
+      ozet.append(el("span", null, "Ayrıntılar"),
+        el("span", "detay-ipucu", var_.map(([, baslik]) => baslik.toLocaleLowerCase("tr-TR")).join(" · ")));
+      const dl = el("dl", "sorun-dl");
+      for (const [anahtar, baslik] of var_) {
+        const satir = el("div");
+        satir.append(el("dt", "etiket", baslik), el("dd", null, detay[anahtar]));
+        dl.append(satir);
+      }
+      kutu.append(ozet, dl);
+      return kutu;
+    }
+
     function sorunOlustur(arac, sorun) {
       const risk = RISK_ANAHTARI[sorun.risk_seviyesi];
       const km = aralik(sorun.tahmini_km_araligi);
@@ -864,6 +929,8 @@
         donemSatiri.append(el("dt", "etiket", "Dönem"), dd);
         dl.append(donemSatiri);
       }
+      const detayKutu = sorun.detay ? detayOlustur(sorun.detay) : null;
+      const kaynakDl = el("dl", "sorun-dl");
       const siteler = new Set(sorun.kaynaklar.map(alanAdi));
       const kaynakSatiri = el("div");
       const kaynakDd = el("dd", "kaynaklar");
@@ -884,9 +951,11 @@
         kaynakDd.append(a);
       }
       kaynakSatiri.append(el("dt", "etiket", "Kaynak"), kaynakDd);
-      dl.append(kaynakSatiri);
+      kaynakDl.append(kaynakSatiri);
       bas.append(el("span", "kaynak-say", `${siteler.size} site`));
       metin.append(bas, dl);
+      if (detayKutu) metin.append(detayKutu);
+      metin.append(kaynakDl);
 
       const kmAlan = el("div", "sorun-km");
       const etiket = km ? `${sayi(km[0])} – ${sayi(km[1])} km` : sorun.tahmini_km_araligi;
@@ -910,8 +979,9 @@
 
       li.append(metin, kmAlan);
       const kaynakAdlari = sorun.kaynaklar.map((u) => (kayit[alanAdi(u)] || {}).ad || alanAdi(u));
-      const aranan = [arac.marka, arac.model, arac.motor, sorun.sorun_adi, sorun.etkilenen_parca, sorun.belirtiler, sorun.risk_seviyesi, ...kaynakAdlari].join(" ");
-      return { li, risk, km, metin: katla(aranan), isaret, durum, donemler, yilEtiket };
+      const aranan = [arac.marka, arac.model, arac.motor, sorun.sorun_adi, sorun.etkilenen_parca, sorun.belirtiler, sorun.risk_seviyesi,
+        ...Object.values(sorun.detay || {}), ...kaynakAdlari].join(" ");
+      return { li, risk, km, metin: katla(aranan), isaret, durum, donemler, yilEtiket, detayKutu };
     }
 
     const araclar = veri.arac_listesi.slice().sort((a, b) =>
@@ -955,8 +1025,14 @@
     const toplamSorun = kayitlar.reduce((t, k) => t + k.sorunlar.length, 0);
     const tumSiteler = new Set(araclar.flatMap((a) => a.kronik_sorunlar.flatMap((s) => s.kaynaklar.map(alanAdi))));
     const kirilimli = kayitlar.reduce((t, k) => t + k.sorunlar.filter((s) => s.donemler.length).length, 0);
+    const detayli = kayitlar.reduce((t, k) => t + k.sorunlar.filter((s) => s.detayKutu).length, 0);
     document.getElementById("ozet").textContent =
-      `${kayitlar.length} araç/motor kaydı · ${gruplar.size} marka · ${toplamSorun} kronik sorun (${kirilimli} tanesinde yıl kırılımı) · ${tumSiteler.size} kaynak sitesi`;
+      `${kayitlar.length} araç/motor kaydı · ${gruplar.size} marka · ${toplamSorun} kronik sorun (${kirilimli} tanesinde yıl kırılımı, ${detayli} tanesinde ayrıntı) · ${tumSiteler.size} kaynak sitesi`;
+    const detayAc = document.getElementById("detayac");
+    if (!detayli) detayAc.closest("label").hidden = true;
+    detayAc.addEventListener("change", () => {
+      for (const k of kayitlar) for (const s of k.sorunlar) if (s.detayKutu) s.detayKutu.open = detayAc.checked;
+    });
 
     const ara = document.getElementById("ara");
     const markaSec = document.getElementById("marka");

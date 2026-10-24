@@ -42,18 +42,21 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 60 farklı site, 156 sorun için kullanıldı.
+Toplam 63 farklı site, 160 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
 | [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 91 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
-| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 84 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
-| [Araclo](https://www.araclo.com/) | TR | düşük | 71 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
+| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 86 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
+| [Araclo](https://www.araclo.com/) | TR | düşük | 74 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
 | [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 46 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. |
-| [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 30 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
-| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 14 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
+| [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 34 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
+| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 17 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
+| [Autopartia](https://autopartia.com/) | TR | düşük | 5 | Yedek parça satıcısı; motor bazlı blog ve 'uzman' sayfaları. Ticari site, belirli bir OEM parçayı sürekli öneriyor; tek başına yeterli sayılmaz. |
+| [Carsece](https://www.carsece.com/) | TR | düşük | 5 | Araç rehberi ve bakım blogu. Maliyet tahminlerinin kaynağını göstermiyor; tek başına yeterli sayılmaz. |
+| [Drivisual](https://www.drivisual.tv/) | TR | düşük | 4 | Motor bazlı satın alma ve kronik sorun rehberleri (Türkçe ve İngilizce). Tek bir blog; bağımsız kaynakla karşılaştırılmalı. |
 | [arabam.com Blog](https://www.arabam.com/blog/) | TR | düşük | 4 | İlan sitesinin blog yazıları. Genel bilgi verir; bazı yazılar motorun 'büyük bir kronik sorunu yoktur' gibi genellemeler içeriyor. |
 
 ## Yurtdışı kaynaklar
@@ -77,9 +80,9 @@ Toplam 60 farklı site, 156 sorun için kullanıldı.
 | [Honest John](https://www.honestjohn.co.uk/) | UK | orta | 8 | Forum ve editör yanıtları ('Ask HJ'). Forum yazıları çoğunlukla 10 yıldan eski olabiliyor. |
 | [BRISKODA](https://www.briskoda.net/forums/) | UK | orta | 5 | Škoda sahipleri forumu. |
 | [Ford Owners Club](https://www.fordownersclub.com/) | UK | orta | 5 | Ford sahipleri forumu (Focus, Fiesta, EcoBoost). |
+| [Bimmerpost](https://f30.bimmerpost.com/) | US | orta | 4 | BMW F30 ve diğer kasa forumları. |
 | [Astra Owners Network](https://www.astraownersnetwork.co.uk/) | UK | orta | 3 | Opel/Vauxhall Astra forumu. |
 | [AudiWorld](https://www.audiworld.com/) | US | orta | 3 | Audi forumu ve rehber yazıları. |
-| [Bimmerpost](https://f30.bimmerpost.com/) | US | orta | 3 | BMW F30 ve diğer kasa forumları. |
 | [CruzeTalk](https://www.cruzetalk.com/) | US | orta | 3 | Chevrolet Cruze forumu. Konular çoğunlukla ABD'deki 1.4T ve 1.8 motorlar için. |
 | [MBWorld](https://mbworld.org/) | US | orta | 3 | Mercedes-Benz forumu. |
 | [Nissan QashQai Forums](https://www.qashqaiforums.co.uk/) | UK | orta | 3 | Nissan Qashqai sahipleri forumu. |
