@@ -5033,6 +5033,50 @@
     },
     {
       "marka": "Fiat",
+      "model": "Egea / Egea Cross (2015-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Klima açıkken kompresörden uğultu (1.4 sürümlerde bildirildi)",
+          "etkilenen_parca": "Klima kompresörü",
+          "belirtiler": "Klima açıkken kabine yansıyan, gaza basınca artan uğultu; kullanıcılar yetkili servisin bunu 1.4 araçlarda kronik olarak nitelendirdiğini ve garanti dışı sayıp yüksek ücret istediğini yazıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Bir kullanıcının aktardığına göre yetkili servis kompresörün fabrikasyon olarak yağsız olduğunu ve bu yüzden ses yaptığını söylemiş; genel forum açıklamalarında uğultunun yaygın nedenleri kompresör rulmanı, düşük gaz seviyesi ve motor titreşimi olarak sayılıyor (Egea'ya özgü teşhis değil).",
+            "cozum": "Şikâyetlerde servisin onarım için ücret istediği ve bazı kullanıcıların konuyu tüketici hakem heyetine taşıdığı anlatılıyor.",
+            "onlem": "Forumda yazılı arıza kaydı açtırıp garanti kapsamını sormak öneriliyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/egea-14-klima-kompresoru-sorunu-ve-cozum-beklentisi",
+            "https://www.sikayetvar.com/fiat/egea/klima",
+            "https://www.sikayetvar.com/fiat/egea/ses",
+            "https://forum.donanimhaber.com/fiat-egea-klima-ugultu-problemi--159033007",
+            "https://forum.donanimhaber.com/fiat-egea-1-4-2022-klima-sorunu--162234485"
+          ]
+        },
+        {
+          "sorun_adi": "Tavan, kaput ve çamurluklarda boya atması / pullanma",
+          "etkilenen_parca": "Boya (tavan, kaput, çamurluk)",
+          "belirtiler": "Tavan, kaput ve çamurluklarda boyanın pullanması, çatlaması ya da yıkama sırasında atması; bazı servisler bunu kuş pisliği ya da asit gibi dış etkenlere bağlıyor, bir sahip fabrika boya uzmanının 'kullanıcı hatası' dediğini yazıyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok: servisler dış etken (kuş pisliği, asit) diyor, sahipler boya hatası olduğunu düşünüyor; foruma yazan bir yorumcu başka bir araçta kimyasal sıçramasını olası görüyor.",
+            "teshis": "Forumda boyanın kalınlığını ölçtürmek (bağımsız boya/mikron ölçümü) öneriliyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/egea/tavan",
+            "https://www.sikayetvar.com/fiat/egea/kronik",
+            "https://forum.donanimhaber.com/fiat-egea-boya-atmasi--146059733"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
       "model": "Fiorino / Qubo (2008-2020)",
       "motor": "1.3 Multijet 75/80/95",
       "uretim_yillari": {
@@ -10178,6 +10222,35 @@
     },
     {
       "marka": "Renault",
+      "model": "Clio 4 (2013-2019)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kapı kilidi ve kapı sensörü arızası (kapı açık uyarısı sönmüyor)",
+          "etkilenen_parca": "Kapı kilit mekanizması ve kapı sensörü, kapı kolu anahtarı, kapı kontrol modülü",
+          "belirtiler": "Kapılar kapalıyken 'kapı açık' ve 'bagaj açık' uyarısının sönmemesi, kapıların kilitlenmemesi ya da otomatik kilidin devreye girmemesi; kilit motoru çalışırken sensörün çalışmadığı anlatılıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forumda hasarlı kapı kilitleri ya da elektrik sorunları kapı açık uyarısının sönmemesine bağlanıyor; bir kullanıcıda kapı kontrol modülünün (beyin) arızası sağ kapıları komple kilitlemiş.",
+            "cozum": "Bir forum kullanıcısı kilit civatalarını sıkarak, bir diğeri kapı kontrol modülünü değiştirerek çözmüş; Şikâyetvar'da bir kullanıcıya servis komple kilit değişimi önermiş.",
+            "maliyet": "Kaynaklarda güvenilir bir maliyet bilgisi yok."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/clio/kilit",
+            "https://www.sikayetvar.com/renault/renault-clio-4-kapi-kilit-sensor-arizasi",
+            "https://www.sikayetvar.com/renault/renault-clio-4-kapi-sensor-sorunu",
+            "https://forum.donanimhaber.com/renault-clio-4-bagaj-acik-uyarisi-veriyor-kapilar-kilitlenmiyor--155143617",
+            "https://forum.donanimhaber.com/2014-clio-4-icon-aracimin-sag-arka-kapisi-acilmiyor--151610501"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
       "model": "Clio 4 / Captur (2013-2019)",
       "motor": "1.2 TCe (H5Ft)",
       "uretim_yillari": {
@@ -12500,6 +12573,68 @@
     },
     {
       "marka": "Volkswagen",
+      "model": "Golf 7 / 7.5 (2012-2020)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Cam tavan çerçevesinde çatlak ve içeri su sızması",
+          "etkilenen_parca": "Cam tavan (sunroof) plastik çerçevesi, siyah tavan çıtası",
+          "belirtiler": "Çerçevenin (özellikle ön köşelerde) ve siyah tavan çıtasının darbe olmadan kendiliğinden çatlaması ya da soyulması; çatlak büyüdükçe yağmurda ve yıkamada tavandan kabine su sızması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kullanıcılar çatlağın darbe olmadan kendiliğinden oluştuğunu ve üretim hatasından şüphelendiklerini yazıyor; üreticinin açıklaması bulunamadı. Çatlak sızdırmazlığı bozduğunda su tavan içine ve kabine geçebiliyor.",
+            "teshis": "Çatlak gözle görülür (özellikle sunroof çerçevesinin ön köşeleri ve siyah çıta). Sızıntı varsa yağmur ya da yıkama sonrası tavan döşemesinde nem ve damlama olur; tahliye kanallarının tıkalı olup olmadığı da ayrıca kontrol edilmeli.",
+            "cozum": "Küçük çatlaklar yapıştırıcı, onarım kiti ya da folyoyla kapatılabiliyor ama çatlağın yeniden oluşmasını önlemeyebiliyor; kalıcı çözüm çerçevenin değişimi.",
+            "maliyet": "Forumda küçük çatlak için birkaç yüz TL anlatılıyor. Şikâyetvar'da bir yetkili serviste plastik çerçeve parçası 9.084 TL + 1.750 TL işçilik, başka bir bayide yaklaşık 55 bin TL ve bir kullanıcıya 31.000 TL talep edildiği yazılıyor (fiyatlar çoğunlukla 2020-2021 tarihli, bireysel; güncel teklif için servise sorulmalı).",
+            "onlem": "Garanti süresi içindeyken fotoğrafla yazılı arıza kaydı açtırmak; birden fazla yetkili servis ve bağımsız usta teklifi almak (kullanıcı önerileri). Şikâyetlerde garanti dışı sayılıp 'iyi niyet' kapsamında ücret istendiği de geçiyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/golf-7-sunroof-cercevesi-catlagi--156098872",
+            "https://forum.donanimhaber.com/golf-7-tavandan-su-alma-sorunu--155929672",
+            "https://www.sikayetvar.com/volkswagen/sunroof-cercevesindeki-catlak-uretim-hatasi-ve-guven-endisesi",
+            "https://www.sikayetvar.com/volkswagen/catlak",
+            "https://www.sikayetvar.com/volkswagen/garanti/tavan",
+            "https://www.sikayetvar.com/volkswagen/golf/kronik"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2013,
+              "bitis": 2017,
+              "durum": "Yaygın",
+              "not": "Forum yazısı çerçeve çatlaklarının özellikle 2013-2017 üretiminde görüldüğünü belirtiyor."
+            },
+            {
+              "baslangic": 2018,
+              "bitis": 2020,
+              "durum": "Görülebilir",
+              "not": "Golf 7.5 Highline sahibi Şikâyetvar'da aynı çatlağı bildiriyor; yıl bazlı ayrı sayım yok."
+            }
+          ]
+        },
+        {
+          "sorun_adi": "Bagaja su alma (arka tampon altı hava kanalları)",
+          "etkilenen_parca": "Arka hava tahliye kanalı çerçevesi, bagaj tabanı",
+          "belirtiler": "Yağmurda ya da yıkamada bagaj tabanında su birikmesi; su arka koltuk altına ve ön yer döşemesine kadar yayılabiliyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Bir forum kullanıcısına göre su, arka tamponun altındaki hava kanallarının sabitlendiği çerçevenin kenarlarından giriyor; Şikâyetvar'daki bir kullanıcı bunu üretim hatası olarak görüyor.",
+            "teshis": "Bagaj tabanını ve yedek lastik yuvasını yağmur ya da yıkama sonrası kontrol etmek; ıslaklık arka koltuk altına doğru ilerliyor olabilir.",
+            "cozum": "Serviste tampon sökülüp hava kanalı çerçevesinin kenarlarının izole edilmesi (silikon) ile giderildiği anlatılıyor.",
+            "maliyet": "Bir forum kullanıcısı silikonlu çözümün faturasının yaklaşık 300 TL olduğunu yazıyor (tarih belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/golf-7-bagaj-gol-olma-sorunu--121546108",
+            "https://www.sikayetvar.com/volkswagen/golf/kronik"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
       "model": "Golf 7.5 (2017-2020)",
       "motor": "1.5 TSI 130/150 (EA211 evo, ACT)",
       "uretim_yillari": {
@@ -13217,6 +13352,31 @@
       ],
       "aileler": [
         "vag-dq381"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Tiguan (AD1, 2016-2024)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2024
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Cam tavandan (sunroof) su sızması",
+          "etkilenen_parca": "Cam tavan tahliye kanalları, fitil ve tavan döşemesi",
+          "belirtiler": "Sunroof tahliye kanallarının tıkanmasıyla suyun kabine ve tavan döşemesine geçmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'daki 2018 model bir Tiguan'da sunroof giderlerinin tıkandığı ve suyun içeri sızdığı bildiriliyor; bir forum yorumu sunroof suyunun tavan döşemesine geçmesini Tiguan'larda kronik olarak anıyor.",
+            "maliyet": "Bir Şikâyetvar kullanıcısı sunroof su alması nedeniyle 6.500 TL harcadığını yazıyor (tarih belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/tiguan/kronik",
+            "https://forum.donanimhaber.com/volkswagen-tiguan-alinirmi--126098971"
+          ]
+        }
       ]
     },
     {

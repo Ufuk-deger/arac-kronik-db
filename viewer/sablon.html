@@ -742,6 +742,37 @@
     color: var(--muted);
   }
 
+  /* Model geneli kart: motordan bağımsız, modele (nesle) özgü sorunlar */
+  .arac[data-tur="model"] {
+    border-left: 4px solid var(--accent);
+  }
+  .arac[data-tur="model"] .arac-kimlik {
+    background: var(--accent-soft);
+  }
+  .model-cip {
+    justify-self: start;
+    padding: 1px 9px;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    background: var(--surface);
+    color: var(--accent);
+    font-size: 0.74rem;
+    font-weight: 600;
+    line-height: 1.5;
+    cursor: help;
+  }
+  .cubuk[data-yok] {
+    background-image: none;
+    background-color: transparent;
+    border: 1px dashed var(--grid);
+  }
+  .km-etiket[data-yok] {
+    font-family: var(--font-body);
+    font-size: 0.78rem;
+    color: var(--muted);
+    white-space: normal;
+  }
+
   /* Arandı ama kayıt açılmayan gruplar */
   .kapsam {
     margin-top: 32px;
@@ -909,7 +940,7 @@
 <div class="sayfa" lang="tr">
   <header class="ust kap">
     <h1>Araç Kronik DB</h1>
-    <p class="giris">Türkiye'de yaygın araçların bilinen kronik sorunları, marka ve motor bazında. Aracınızı marka, model ya da motor koduyla arayın; model yılınızı girerseniz yalnızca o yılı kapsayan kayıtlar kalır ve revizyon öncesi/sonrası farkı olan sorunlarda yılınız işaretlenir. Kilometrenizi girerseniz hangi sorunların o aralıkta görüldüğü gösterilir. Her sorun en az iki farklı sitedeki sayfayla desteklenir; bağlantılar sorunun altında. Bir motor ya da şanzıman birden çok modelde aynı sorunu yaşıyorsa sorun "ortak aile" olarak her modelde gösterilir; kesikli çerçeveli etiket bu modele özgü bildirimin ayrıca doğrulanmadığını, düz çerçeveli etiket modelde de bildirildiğini gösterir. Ayrıntısı eklenmiş sorunlarda nedeni, nasıl anlaşıldığı, yaygın çözümü, bildirilen maliyet ve önlem açılır bölümdedir.</p>
+    <p class="giris">Türkiye'de yaygın araçların bilinen kronik sorunları, marka ve motor bazında. Aracınızı marka, model ya da motor koduyla arayın; model yılınızı girerseniz yalnızca o yılı kapsayan kayıtlar kalır ve revizyon öncesi/sonrası farkı olan sorunlarda yılınız işaretlenir. Kilometrenizi girerseniz hangi sorunların o aralıkta görüldüğü gösterilir. Her sorun en az iki farklı sitedeki sayfayla desteklenir; bağlantılar sorunun altında. Bir motor ya da şanzıman birden çok modelde aynı sorunu yaşıyorsa sorun "ortak aile" olarak her modelde gösterilir; kesikli çerçeveli etiket bu modele özgü bildirimin ayrıca doğrulanmadığını, düz çerçeveli etiket modelde de bildirildiğini gösterir. Kasa, sızdırmazlık (cam tavan, bagaj, far), iç mekân, elektronik ve süspansiyon gibi motordan bağımsız, modele özgü sorunlar koyu kenarlı "Model geneli" kartlarında listelenir; bu sorunlar yaşa ve kullanıma bağlı olduğundan kaynaklarda çoğunlukla kilometre bilgisi yoktur. Ayrıntısı eklenmiş sorunlarda nedeni, nasıl anlaşıldığı, yaygın çözümü, bildirilen maliyet ve önlem açılır bölümdedir.</p>
     <p class="ozet" id="ozet"></p>
     <p class="ozet-alt"><button type="button" class="baglanti" id="kapsam-ust" hidden></button></p>
   </header>
@@ -947,7 +978,7 @@
           <label class="cip" data-risk="orta"><input type="radio" name="risk" id="risk-orta" value="orta"><span><i class="lamba"></i>Orta <b class="say" data-say="orta"></b></span></label>
           <label class="cip" data-risk="dusuk"><input type="radio" name="risk" id="risk-dusuk" value="dusuk"><span><i class="lamba"></i>Düşük <b class="say" data-say="dusuk"></b></span></label>
         </div>
-        <label class="onay"><input id="kmfiltre" type="checkbox" disabled> Yalnızca bu kilometrede görülenler</label>
+        <label class="onay" title="Kilometre bilgisi olmayan model geneli sorunlar bu filtrede de gösterilir."><input id="kmfiltre" type="checkbox" disabled> Yalnızca bu kilometrede görülenler</label>
         <label class="onay"><input id="elektrikli" type="checkbox"> Yalnızca elektrikli araçlar</label>
         <label class="onay"><input id="detayac" type="checkbox"> Tüm ayrıntıları aç</label>
         <button type="button" id="temizle" hidden>Filtreleri temizle</button>
@@ -974,10 +1005,11 @@
     </details>
 
     <footer class="alt">
-      <p>Çubuklar 0–250.000 km ölçeğindedir; ince çizgiler 50.000 km aralıklarını gösterir. Kilometre girdiğinizde aracınızın konumu koyu bir çizgiyle işaretlenir. Aralığın içindeyse "Bu kilometrede", aralığın başlangıcına 20.000 km'den az kaldıysa "Yaklaşıyor" yazar.</p>
+      <p>Çubuklar 0–250.000 km ölçeğindedir; ince çizgiler 50.000 km aralıklarını gösterir. Kilometre girdiğinizde aracınızın konumu koyu bir çizgiyle işaretlenir. Aralığın içindeyse "Bu kilometrede", aralığın başlangıcına 20.000 km'den az kaldıysa "Yaklaşıyor" yazar. Kaynaklarında kilometre bilgisi olmayan sorunlarda (çoğunlukla model geneli kartlar) çubuk yerine noktalı boş bir çubuk ve "Kaynaklarda kilometre bilgisi yok" yazar; kilometre filtresi bu sorunları elemez.</p>
       <p>"Dönem" satırı, kaynakların üretim yılına göre fark belirttiği sorunlarda görünür: ●●● Yaygın, ●●○ Görülebilir, ●○○ Seyrek. Bu sınıflandırma kaynaklardaki bildirim yoğunluğuna dayanan editoryal bir değerlendirmedir, istatistik değildir. Listelenmeyen yıllar için kaynaklarda ayrı bilgi bulunamamıştır; "sorun yok" anlamına gelmez. Kapsam son 10-15 yılın araçlarıdır (yaklaşık 2011 sonrası); ilk aşamadan kalan birkaç eski kayıt silinmedi.</p>
       <p>"Ayrıntılar" bölümü, sorunun kaynaklarında kullanıcı, usta ve rehber anlatımlarında geçen bilgileri özetler; yetkili servis talimatı değildir. Maliyetler yalnızca kaynaklarda bildirildiği kadarıyla ve bildirim yılıyla yazılmıştır, güncel fiyat değildir; parça fiyatı ve işçilik zamana ve servise göre değişir. Nedenler, kaynaklarda öne sürülen açıklamalardır, üreticinin teknik tespiti olmayabilir.</p>
       <p>Kaynak bağlantıları web araması sonuçlarından toplandı ve sayfa başlığı ile özetine göre sorunlarla eşlendi; sayfaların tamamı okunmadı. Soluk renkli bağlantılar daha zayıf kaynaklardır (ticari site, blog veya kısa kullanıcı girdisi). Km aralıkları tahminidir ve kullanım, bakım geçmişi ve üretim yılına göre değişir. Karar vermeden önce aracı yetkili servise kontrol ettirin.</p>
+      <p>"Model geneli" kartlar yalnızca taranan modellerde vardır: kartı olmayan bir modelde bu tür sorunlar henüz aranmamış ya da yeterli kanıt bulunamamıştır (aranıp bulunamayanlar aşağıdaki bölümde "Arandı" olarak yazılıdır).</p>
       <p>Aradığınız araç ya da motor listede yoksa sayfanın altındaki "Kayıt açılmayan gruplar" bölümüne bakın: orada kaynak arandığı halde yeterli kanıt bulunamayan gruplar ve nedenleri ile sıraya alınmış (henüz aranmamış) gruplar yazılıdır. Orada da yoksa planda hiç yer almıyor demektir.</p>
       <p>Ayrıntılar: <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/KAYNAKLAR.md">KAYNAKLAR.md</a> (site listesi), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/DOGRULAMA_RAPORU.md">DOGRULAMA_RAPORU.md</a> (neyin kaldırıldığı ve neden), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/KAPSAM.md">KAPSAM.md</a> (hangi marka, model ve motorlar planlandı, hangileri tamam), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/data/araclar.json">data/araclar.json</a>.</p>
     </footer>
@@ -1075,7 +1107,8 @@
 
     function sorunOlustur(arac, sorun, aile) {
       const risk = RISK_ANAHTARI[sorun.risk_seviyesi];
-      const km = aralik(sorun.tahmini_km_araligi);
+      const kmVar = Boolean(sorun.tahmini_km_araligi);
+      const km = kmVar ? aralik(sorun.tahmini_km_araligi) : null;
       const li = el("li", "sorun");
       li.dataset.risk = risk;
 
@@ -1152,10 +1185,11 @@
       metin.append(kaynakDl);
 
       const kmAlan = el("div", "sorun-km");
-      const etiket = km ? `${sayi(km[0])} – ${sayi(km[1])} km` : sorun.tahmini_km_araligi;
+      const etiket = !kmVar ? "Kaynaklarda kilometre bilgisi yok" : km ? `${sayi(km[0])} – ${sayi(km[1])} km` : sorun.tahmini_km_araligi;
       const cubuk = el("div", "cubuk");
       cubuk.setAttribute("role", "img");
-      cubuk.setAttribute("aria-label", `Tahmini aralık: ${etiket}`);
+      cubuk.setAttribute("aria-label", kmVar ? `Tahmini aralık: ${etiket}` : etiket);
+      if (!kmVar) cubuk.dataset.yok = "";
       if (km) {
         const dolgu = el("span", "aralik");
         dolgu.style.left = yuzde(km[0]) + "%";
@@ -1168,7 +1202,9 @@
       const alt = el("div", "km-alt");
       const durum = el("span", "durum");
       durum.hidden = true;
-      alt.append(el("span", "km-etiket", etiket), durum);
+      const kmEtiket = el("span", "km-etiket", etiket);
+      if (!kmVar) kmEtiket.dataset.yok = "";
+      alt.append(kmEtiket, durum);
       kmAlan.append(cubuk, alt);
 
       li.append(metin, kmAlan);
@@ -1200,7 +1236,9 @@
       }
       grup.toplam += 1;
 
+      const modelGeneli = arac.motor.startsWith("Tüm motorlar");
       const kart = el("article", "arac");
+      if (modelGeneli) kart.dataset.tur = "model";
       const kimlik = el("header", "arac-kimlik");
       const aracSay = el("p", "arac-say");
       const yb = arac.uretim_yillari;
@@ -1214,8 +1252,13 @@
           aileSatiri.append(cip);
         }
       }
-      kimlik.append(el("h3", null, modelAdi(arac.model)), el("p", "motor", arac.motor),
+      kimlik.append(el("h3", null, modelAdi(arac.model)), el("p", "motor", modelGeneli ? "Tüm motorlar" : arac.motor),
         el("p", "arac-yil", `Üretim ${yilMetni(yb.baslangic, yb.bitis).replace(/–$/, "–günümüz")}`), aracSay);
+      if (modelGeneli) {
+        const cip = el("span", "model-cip", "Model geneli");
+        cip.title = "Motordan bağımsız, bu modele (nesle) özgü sorunlar: kasa, sızdırmazlık, iç mekân, elektronik, süspansiyon.";
+        kimlik.insertBefore(cip, aracSay);
+      }
       if (aileler.length) kimlik.insertBefore(aileSatiri, aracSay);
       const alan = el("div", "sorun-alani");
       const ul = el("ul", "sorunlar");
@@ -1227,13 +1270,15 @@
         }
       }
       for (const s of sorunlar) ul.append(s.li);
-      if (!arac.kronik_sorunlar.length) {
+      if (modelGeneli) {
+        alan.append(el("p", "aile-not", "Bu kart, motordan bağımsız ve bu modele (nesle) özgü sorunları gösterir; her motor sürümü için geçerli olmayabilir. Bu sorunlar çoğunlukla yaşa ve kullanıma bağlıdır; kaynaklarda kilometre bilgisi yoksa kilometre yazılmadı, aralık uydurulmadı."));
+      } else if (!arac.kronik_sorunlar.length) {
         alan.append(el("p", "aile-not", "Bu kayıt motor/şanzıman ailesinin ortak kaynaklarına dayanır; bu modele özgü bildirim ayrıca doğrulanmadı. Modelin bu motor ya da şanzımanla satıldığı bilgisi de kaynaklarla tek tek doğrulanmadı; aracınızın motor kodunu ruhsattan ya da şasi numarasından kontrol edin."));
       }
       alan.append(eksenOlustur(), ul);
       kart.append(kimlik, alan);
       grup.kap.append(kart);
-      kayitlar.push({ arac, kart, aracSay, grup, sorunlar });
+      kayitlar.push({ arac, kart, aracSay, grup, sorunlar, modelGeneli });
     }
 
     const planElendi = plan.filter((o) => o.durum !== "sirada").length;
@@ -1246,8 +1291,10 @@
     const kirilimli = kayitlar.reduce((t, k) => t + k.sorunlar.filter((s) => s.donemler.length).length, 0);
     const detayli = kayitlar.reduce((t, k) => t + k.sorunlar.filter((s) => s.detayKutu).length, 0);
     const ortakSorun = kayitlar.reduce((t, k) => t + k.sorunlar.filter((s) => s.aileSorunu).length, 0);
+    const modelKart = kayitlar.filter((k) => k.modelGeneli).length;
     document.getElementById("ozet").textContent =
-      `${kayitlar.length} araç/motor kaydı · ${gruplar.size} marka · ${toplamSorun} kronik sorun` +
+      `${kayitlar.length - modelKart} araç/motor kaydı` + (modelKart ? ` + ${modelKart} model geneli kart` : "") +
+      ` · ${gruplar.size} marka · ${toplamSorun} kronik sorun` +
       (ortakSorun ? ` (${ortakSorun} tanesi ortak motor/şanzıman ailesinden)` : "") +
       ` (${kirilimli} tanesinde yıl kırılımı, ${detayli} tanesinde ayrıntı) · ${tumSiteler.size} kaynak sitesi` +
       (planElendi ? ` · ${planElendi} grup arandı ama kaydı açılmadı` : "") +
@@ -1368,7 +1415,7 @@
             if (km >= s.km[0] && km <= s.km[1]) durum = "icinde";
             else if (km < s.km[0] && s.km[0] - km <= YAKIN) durum = "yakin";
           }
-          s.isaret.hidden = km == null;
+          s.isaret.hidden = km == null || !s.km;
           if (km != null) s.isaret.style.left = yuzde(km) + "%";
           s.durum.hidden = !durum;
           if (durum) {
@@ -1389,7 +1436,7 @@
             }
           }
 
-          const uyar = markaUyar && terimler.every((t) => eslesir(s.metin, t)) && (!sadeceKm || durum === "icinde");
+          const uyar = markaUyar && terimler.every((t) => eslesir(s.metin, t)) && (!sadeceKm || durum === "icinde" || !s.km);
           if (uyar) {
             riskSay[""] += 1;
             riskSay[s.risk] += 1;

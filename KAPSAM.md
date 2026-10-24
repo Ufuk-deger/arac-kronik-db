@@ -13,6 +13,7 @@ Bu dosya `scripts/kapsam_md_uret.py` ile `data/kapsam.json` (plan) ve `data/arac
 - **Aynı motoru ya da şanzımanı paylaşan modeller (10. aşamadan itibaren):** Motor ve şanzıman kaynaklı sorunlar ortak ailelere yazılır ([README](README.md#ortak-motor-ve-şanzıman-aileleri-aileler)); aynı motoru ya da şanzımanı kullandığı bilinen modeller aileye bağlanır. Modele özgü kaynağı olan kayıtlar kendi sorununu aile sorununa bağlar (✓); modele özgü kaynağı olmayanlar yalnızca ortak aile kaynağıyla kayıtlıdır (◐) ve plan notunda modele özgü kaynağın aranmadığı ya da bulunmadığı yazılır. Bu kayıtlar doğrudan kanıtı sınırlı sayılır ve görüntüleyicide "Ortak aile" etiketiyle ayrılır. Aile bağı yalnızca model, yıl ve motor kodunun eşleştiği bilinen kombinasyonlar için kurulur.
 - **İlan sayısı kontrolü:** 7. aşamada plan, arabam.com'un aylık ilan sıralamaları ve Cardata listeleriyle karşılaştırıldı (sahibinden.com'un canlı model sayıları okunamadı) ve en çok ilanlı modellerin motor boşlukları kapatıldı. "Çok ilanlı" olmak tek başına kayıt gerekçesi değildir: tekrar eden bir kronik sorun için iki bağımsız kaynak bulunamazsa grup `–` olarak kalır.
 - **Çok kullanılan araç denetimi:** 9. aşamada plan, trafikteki araç sayıları (TÜİK verisine dayanan yaklaşık 2024 listeleri) ve ikinci el satış sıralamalarıyla model, nesil ve motor düzeyinde yeniden karşılaştırıldı. Bir satırın `eslesme` parçalarından her biri en az bir kayda denk gelmelidir (test denetler); "1.4 TSI / 1.6 TDI" gibi birleşik bir satırın yalnızca bir parçası kayıtlıysa satır bölünür, böylece ✓ kayıtsız bir motoru gizleyemez. Aranıp eklenmeyen (–) gruplar ile sıraya alınmış (○) gruplar görüntüleyicide "Kayıt açılmayan gruplar" bölümünde gösterilir.
+- **Model geneli sorunlar (11. aşamadan itibaren):** Motordan bağımsız, modele (nesle) özgü sorunlar (cam tavan ve bagajdan su alma, far, kapı kilidi, multimedya, boya, ön takım gibi kasa, sızdırmazlık, iç mekân, elektronik ve süspansiyon sorunları) `motor` alanı "Tüm motorlar (model geneli)" olan ayrı bir kayıtta toplanır ([README](README.md#model-geneli-kayıtlar)). Bu sorunlar yaşa ve kullanıma bağlı olduğundan kaynaklarda çoğunlukla kilometre bilgisi yoktur; kilometre aralığı uydurulmaz, boş bırakılır. Model geneli plan satırları yalnızca işlendikçe eklenir (✓ ya da –); satırı olmayan bir modelde bu sorunlar henüz taranmamıştır.
 - **Kanıt eşiği:** Her sorun için en az iki farklı site ve en az bir deneyim/resmî türünde kaynak gerekir ([README](README.md#kaynak-kuralı)). Kaynak bulunamayan gruplar plana `–` olarak işlenir; sorun uydurulmaz.
 
 Kademeler:
@@ -25,58 +26,59 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **575** model/motor grubu
+- Plan: **575** model/motor grubu (motor ve şanzıman düzeyi)
 - Tamamlanan (✓, modele özgü kaynaklı sorun var): **168**
 - Yalnızca ortak aile kaynağıyla kayıtlı (◐): **142**
 - Araştırılıp eklenmeyen (–): **177**
 - Sırada (○): **88**
 - Kademe 1: **120/120** işlendi (✓, ◐ ya da –)
-- Veritabanı: **328** kayıt, **258** kayda özgü kronik sorun, **48** motor/şanzıman ailesi (**82** ortak sorun)
+- Model geneli taraması: **7** model nesli arandı (sorun bulunan ✓ **4**, kanıt yetersiz – **3**); 328 motor kaydından **5**'i taranmış bir modele ait, **323**'i henüz taranmadı
+- Veritabanı: **332** kayıt (**328** motor, **4** model geneli), **264** kayda özgü kronik sorun, **48** motor/şanzıman ailesi (**82** ortak sorun)
 
-| Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen |
-| --- | ---: | ---: | ---: | ---: | ---: | ---: |
-| Renault | 37 | 15 | 7 | 11 | 4 | 8/8 |
-| Volkswagen | 50 | 18 | 12 | 15 | 5 | 13/13 |
-| Toyota | 20 | 4 | 5 | 9 | 2 | 6/6 |
-| Fiat | 27 | 11 | 4 | 7 | 5 | 5/5 |
-| Hyundai | 35 | 11 | 9 | 13 | 2 | 13/13 |
-| Peugeot | 21 | 9 | 5 | 5 | 2 | 5/5 |
-| Opel | 40 | 14 | 13 | 8 | 5 | 5/5 |
-| Citroen | 19 | 6 | 5 | 5 | 3 | 3/3 |
-| BYD | 2 | 1 | 0 | 1 | 0 | 1/1 |
-| Skoda | 27 | 9 | 8 | 8 | 2 | 6/6 |
-| Mercedes-Benz | 37 | 10 | 12 | 8 | 7 | 6/6 |
-| Togg | 2 | 1 | 0 | 1 | 0 | 1/1 |
-| BMW | 40 | 5 | 17 | 13 | 5 | 13/13 |
-| Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 |
-| Nissan | 19 | 8 | 4 | 4 | 3 | 4/4 |
-| Chery | 2 | 0 | 0 | 2 | 0 | 0/0 |
-| Ford | 32 | 8 | 11 | 11 | 2 | 8/8 |
-| Kia | 28 | 9 | 5 | 10 | 4 | 6/6 |
-| Dacia | 12 | 8 | 1 | 3 | 0 | 3/3 |
-| Audi | 31 | 6 | 9 | 8 | 8 | 6/6 |
-| Honda | 12 | 4 | 3 | 5 | 0 | 2/2 |
-| Seat | 12 | 3 | 5 | 1 | 3 | 2/2 |
-| Chevrolet | 1 | 0 | 0 | 1 | 0 | 0/0 |
-| Volvo | 12 | 1 | 1 | 9 | 1 | 2/2 |
-| Subaru | 6 | 1 | 2 | 0 | 3 | 0/0 |
-| Mini | 4 | 1 | 1 | 1 | 1 | 0/0 |
-| Jeep | 7 | 1 | 2 | 1 | 3 | 0/0 |
-| Alfa Romeo | 6 | 0 | 1 | 2 | 3 | 0/0 |
-| Mazda | 1 | 0 | 0 | 1 | 0 | 0/0 |
-| Suzuki | 4 | 0 | 0 | 2 | 2 | 0/0 |
-| Mitsubishi | 4 | 0 | 0 | 1 | 3 | 0/0 |
-| Land Rover | 5 | 0 | 0 | 1 | 4 | 0/0 |
-| Cupra | 2 | 1 | 0 | 1 | 0 | 0/0 |
-| MG | 4 | 1 | 0 | 2 | 1 | 1/1 |
-| Lexus | 1 | 0 | 0 | 1 | 0 | 0/0 |
-| Isuzu | 1 | 0 | 0 | 1 | 0 | 0/0 |
-| Smart | 2 | 0 | 0 | 1 | 1 | 0/0 |
-| Porsche | 3 | 1 | 0 | 0 | 2 | 0/0 |
-| Zeekr | 1 | 0 | 0 | 1 | 0 | 0/0 |
-| Xpeng | 1 | 0 | 0 | 1 | 0 | 0/0 |
-| Leapmotor | 1 | 0 | 0 | 1 | 0 | 0/0 |
-| Ssangyong | 2 | 0 | 0 | 0 | 2 | 0/0 |
+| Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
+| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
+| Renault | 37 | 15 | 7 | 11 | 4 | 8/8 | 1 / 0 |
+| Volkswagen | 50 | 18 | 12 | 15 | 5 | 13/13 | 2 / 2 |
+| Toyota | 20 | 4 | 5 | 9 | 2 | 6/6 | — |
+| Fiat | 27 | 11 | 4 | 7 | 5 | 5/5 | 1 / 0 |
+| Hyundai | 35 | 11 | 9 | 13 | 2 | 13/13 | — |
+| Peugeot | 21 | 9 | 5 | 5 | 2 | 5/5 | — |
+| Opel | 40 | 14 | 13 | 8 | 5 | 5/5 | — |
+| Citroen | 19 | 6 | 5 | 5 | 3 | 3/3 | — |
+| BYD | 2 | 1 | 0 | 1 | 0 | 1/1 | — |
+| Skoda | 27 | 9 | 8 | 8 | 2 | 6/6 | 0 / 1 |
+| Mercedes-Benz | 37 | 10 | 12 | 8 | 7 | 6/6 | — |
+| Togg | 2 | 1 | 0 | 1 | 0 | 1/1 | — |
+| BMW | 40 | 5 | 17 | 13 | 5 | 13/13 | — |
+| Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 | — |
+| Nissan | 19 | 8 | 4 | 4 | 3 | 4/4 | — |
+| Chery | 2 | 0 | 0 | 2 | 0 | 0/0 | — |
+| Ford | 32 | 8 | 11 | 11 | 2 | 8/8 | — |
+| Kia | 28 | 9 | 5 | 10 | 4 | 6/6 | — |
+| Dacia | 12 | 8 | 1 | 3 | 0 | 3/3 | — |
+| Audi | 31 | 6 | 9 | 8 | 8 | 6/6 | — |
+| Honda | 12 | 4 | 3 | 5 | 0 | 2/2 | — |
+| Seat | 12 | 3 | 5 | 1 | 3 | 2/2 | — |
+| Chevrolet | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
+| Volvo | 12 | 1 | 1 | 9 | 1 | 2/2 | — |
+| Subaru | 6 | 1 | 2 | 0 | 3 | 0/0 | — |
+| Mini | 4 | 1 | 1 | 1 | 1 | 0/0 | — |
+| Jeep | 7 | 1 | 2 | 1 | 3 | 0/0 | — |
+| Alfa Romeo | 6 | 0 | 1 | 2 | 3 | 0/0 | — |
+| Mazda | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
+| Suzuki | 4 | 0 | 0 | 2 | 2 | 0/0 | — |
+| Mitsubishi | 4 | 0 | 0 | 1 | 3 | 0/0 | — |
+| Land Rover | 5 | 0 | 0 | 1 | 4 | 0/0 | — |
+| Cupra | 2 | 1 | 0 | 1 | 0 | 0/0 | — |
+| MG | 4 | 1 | 0 | 2 | 1 | 1/1 | — |
+| Lexus | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
+| Isuzu | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
+| Smart | 2 | 0 | 0 | 1 | 1 | 0/0 | — |
+| Porsche | 3 | 1 | 0 | 0 | 2 | 0/0 | — |
+| Zeekr | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
+| Xpeng | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
+| Leapmotor | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
+| Ssangyong | 2 | 0 | 0 | 0 | 2 | 0/0 | — |
 
 ## Markalar
 
@@ -139,7 +141,7 @@ Pazar verisi kaynakları:
 
 ## Plan ve durum
 
-Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, **◐** kayıtlı ama yalnızca motor/şanzıman ailesinin ortak kaynaklarına dayanıyor (bu modele özgü bildirim ayrıca doğrulanmadı), **○** sırada, **–** araştırıldı ama iki bağımsız site bulunamadığı için eklenmedi. Yıllar yaklaşık üretim ya da Türkiye satış yıllarıdır.
+Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, **◐** kayıtlı ama yalnızca motor/şanzıman ailesinin ortak kaynaklarına dayanıyor (bu modele özgü bildirim ayrıca doğrulanmadı), **○** sırada, **–** araştırıldı ama iki bağımsız site bulunamadığı için eklenmedi. Motor grubu "Tüm motorlar (model geneli)" olan satırlar modelin motordan bağımsız sorunlarını gösterir (✓ sorun bulundu, – kanıt yetersiz). Yıllar yaklaşık üretim ya da Türkiye satış yıllarıdır.
 
 ### Renault
 
@@ -147,6 +149,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | :---: | --- | --- | --- | --- |
 | 1 | Clio 4 | 2013-2019 | 0.9 TCe 90 (H4Bt) | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Clio 4 | 2013-2019 | 1.5 dCi 75/90 (K9K) | ✓ 1 sorun (+1 ortak aile) |
+| 1 | Clio 4 | 2013-2019 | Tüm motorlar (model geneli) | ✓ 1 sorun — Kapı kilidi ve sensörü arızası Şikâyetvar ve DonanımHaber'de doğrulandı. Orijinal multimedya ekranının donması yalnızca Şikâyetvar'da var (DonanımHaber'deki donma anlatıları sonradan takılan Android ünitelere ait); ön takım sesi tek bir yorum. |
 | 1 | Clio 4 / Captur | 2013-2019 | 1.2 TCe 120 (H5Ft) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | Clio 5 | 2019- | 1.0 TCe 90/100 (H4Dt) | ✓ 2 sorun |
 | 1 | Megane 3 / Fluence | 2009-2016 | 1.5 dCi (K9K, EDC) | ✓ 3 sorun (+2 ortak aile) |
@@ -190,13 +193,17 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | Golf 6 / Jetta | 2008-2013 | 1.6 TDI 90/105 (CAYC) | ✓ 2 sorun |
 | 1 | Golf 7 | 2012-2019 | 1.4 TSI 122/140 (EA211) | ✓ 2 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 1 | Golf 7 | 2012-2019 | 1.6 TDI 90/105/110 | ✓ 1 sorun (+1 ortak aile) |
+| 1 | Golf 7 / 7.5 | 2012-2020 | Tüm motorlar (model geneli) | ✓ 2 sorun, 1 yıl kırılımı — Cam tavan çerçevesi çatlağı ve bagaja su alma iki sitede doğrulandı. DonanımHaber'deki 27 maddelik Golf 7 listesinde kabine su alma (2012-2013), far ve sis buğulanması, 6.5" ekran kararması (2015), tavan kaplaması sarkması, arka silecek su sızdırması gibi maddeler var; bu maddeler yalnızca bu listede geçtiği için (ikinci bağımsız site bulunamadı) kayıt açılmadı; başlıktaki birçok kullanıcı listenin bir kısmına itiraz ediyor. |
 | 1 | Passat B7 | 2010-2014 | 1.6 TDI (CAYC) | ✓ 1 sorun (+1 ortak aile) |
 | 1 | Passat B8 | 2015-2023 | 1.6 TDI | ✓ 2 sorun (+1 ortak aile) |
+| 1 | Passat B8 | 2015-2023 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da cam tavan çerçevesinin kendiliğinden çatlaması ve su sızması (üç yıl sonra aynı sorunun yeniden çıkması, yaklaşık 35 bin TL parça bedeli), tavan kenar çıtası çatlağı, tavan ile ön cam birleşiminde boya atması ve 2015 modelde multimedya Bluetooth ses sorunu çok sayıda şikâyette geçiyor. DonanımHaber'de B8'e özgü ikinci kaynak çıkmadı (2021 Passat'ta 25 bin km'de cam tavan tıkırtısı tek başlık); bu yüzden kayıt açılmadı. |
 | 1 | Polo 6R / 6C | 2009-2017 | 1.2 TSI 90/105/110 | ✓ 2 sorun, 2 yıl kırılımı |
 | 1 | Polo 6R / 6C | 2009-2017 | 1.4 TDI 75/90 (BMT, 3 silindir) | – eklenmedi: Faz 9'da arandı: DonanımHaber'de 2016 model 1.4 TDI 90 PS için enjektör dönüş hortumu kaçağı ve marş sorunu başlığı var; Şikâyetvar'da 2014 model 1.4 TDI'da turbonun dört kez yapıldığı (47.000 TL ödenmiş) ve 2016 modelde 95 bin km'de su eksiltme ile blok çatlağı gibi tekil vakalar çıktı. Otopark'taki Polo turbo başlığı turbo hortumu çatlağı anlatıyor ve motor tipi net değil; her sorun tek siteyle sınırlı kaldı. |
+| 1 | Polo 6R / 6C / AW | 2009- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da tavan döşemesi sarkması (2011-2012 modeller), tavan-ön cam birleşiminde boya atması, marşpiyel boya akması (bayi fabrikasyon hata dedi), klimanın kendiliğinden açılması ve multimedya ekranının kapanması geçiyor; DonanımHaber sonuçları 1998-2000 Polo'ya ait olduğundan ikinci site bulunamadı. |
 | 1 | Polo AW | 2018- | 1.0 TSI 95/110 | ✓ 1 sorun (+1 ortak aile) |
 | 1 | Polo AW | 2018- | 1.0 MPI 65/75 | – eklenmedi: Faz 9'da arandı: Şikâyetvar'da turbosuz 1.0 Polo'da 12.000 km'de yağ uyarısı ve yaklaşık 2 litre takviye anlatılıyor (tek vaka, servis normal bulmuş); DonanımHaber'deki rölanti titremesi başlıkları ve DSG şikâyetleri 1.0 TSI'ya ait. MPI 65/75 için tekrar eden sorun çıkmadı. |
 | 1 | T-Roc | 2018- | 1.5 TSI 150 (EA211 evo) | ✓ 1 sorun (+1 ortak aile) |
+| 1 | Tiguan (AD1) | 2016-2024 | Tüm motorlar (model geneli) | ✓ 1 sorun — Cam tavan su sızması iki sitede geçiyor. Şikâyetvar'da ayrıca ön ve arka farlarda su alması (2025 R-Line), sürüş asistanı (front assist) hataları ve multimedya ekranın kapanması var; bunlar tek sitede kaldı. |
 | 1 | Tiguan 5N | 2008-2016 | 1.4 TSI 122/150/160 (EA111) | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Tiguan AD1 | 2016- | 1.5 TSI 150 (EA211 evo) | ✓ 1 sorun (+1 ortak aile) |
 | 1 | Tiguan AD1 | 2016-2020 | 1.4 TSI 125/150 (ACT) | ◐ 1 ortak aile sorunu — Faz 9'da arandı: Tiguan 1.4 TSI için piston kırılması, titreme ve yağ eksiltme anlatılarının çoğu 2010-2013 (5N) modellere ait; AD1 dönemi için Şikâyetvar'da 2024 model bir Tiguan'da 7-8 bin km'de yağ eksiltme uyarısı (motor tipi belirtilmiyor) ve 2021 model bir Tiguan'da mekatronik kartı arızası gibi tekil kayıtlar var. Gösterilen devirdaim sorunu aynı motoru kullanan Octavia A7 ve Golf 7 kayıtlarına dayanır. |
@@ -271,6 +278,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | Egea | 2015- | 1.4 Fire 95 | ✓ 1 sorun |
 | 1 | Egea | 2015- | 1.3 Multijet II 95 | ✓ 2 sorun (+3 ortak aile) |
 | 1 | Egea | 2015- | 1.6 Multijet II 120 | ✓ 3 sorun |
+| 1 | Egea / Egea Cross | 2015- | Tüm motorlar (model geneli) | ✓ 2 sorun — Klima kompresörü uğultusu ve boya atması iki sitede doğrulandı. Şikâyetvar'da ayrıca ön takım ve debriyaj sesleri ile Cross'ta tavan çıtalarının solması geçiyor; ikinci site yok. |
 | 1 | Linea | 2007-2015 | 1.3 Multijet (Dualogic) | ✓ 4 sorun (+3 ortak aile) |
 | 2 | 500 | 2008- | 1.2 Fire / 0.9 TwinAir | ✓ 1 sorun |
 | 2 | 500 Dualogic | 2008- | 0.9 TwinAir / 1.2 Fire (Dualogic) | ◐ 2 ortak aile sorunu — 500 Dualogic'e özgü kaynak aranmadı; gösterilen hidrolik ünite, aktüatör ve kavrama sorunları aynı Dualogic şanzımanı kullanan Linea kaydına dayanır. |
@@ -444,6 +452,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | Octavia A5 | 2008-2013 | 1.2 TSI 105 (EA111) | ✓ 2 sorun |
 | 1 | Octavia A5 / A7 | 2010-2020 | 1.6 TDI 105/110 (DSG DQ200) | ✓ 1 sorun (+3 ortak aile), 1 yıl kırılımı |
 | 1 | Octavia A7 | 2013-2020 | 1.4 TSI (EA211, DSG DQ200) | ✓ 3 sorun, 1 yıl kırılımı |
+| 1 | Octavia A7 | 2013-2020 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da 2017 modelde cam tavan çerçevesinin çatlayıp su alması (çok kişide görüldüğü, kronik sayıldığı yazılıyor), multimedyanın kendiliğinden ses değiştirip açılıp kapanması (Hybrid) ve far ayar düğmesinin olmaması geçiyor. DonanımHaber ve Ekşi Sözlük'te Octavia 3'e özgü ikinci kaynak çıkmadı (sonuçlar genel cam tavan sızıntısı konuları, VAG DSG / TDI ve 2021 sonrası modeller); bagaj kaması sesi ve yakıt kapağı kilit motoru yalnızca bir forum başlığında geçiyor. |
 | 1 | Rapid | 2012-2019 | 1.2 TSI 90/105 | ✓ 1 sorun (+1 ortak aile) |
 | 1 | Rapid | 2012-2019 | 1.6 TDI 90/105 | ✓ 1 sorun (+3 ortak aile) |
 | 1 | Rapid | 2012-2019 | 1.6 MPI 105 | – eklenmedi: Faz 9'da arandı: Şikâyetvar'da DSG vites geçişi şikâyeti (garanti dışı 30.000 TL teklif) ve DonanımHaber'de 2014 model dizel Rapid'de vites boşa düşmesi var, ikisi de otomatik şanzımanlı araçlara ait; yağ eksiltme şikâyetinde model ve motor belirtilmiyor; Ekşi Sözlük'te manuel 1.6 105 bg için olumlu bir yorum çıktı. Manuel 1.6 MPI'ya özgü sorun çıkmadı. DSG sorunları Rapid 1.2 TSI ve 1.6 TDI kayıtlarında. |

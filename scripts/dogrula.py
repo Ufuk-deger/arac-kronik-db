@@ -18,6 +18,7 @@ KOK = Path(__file__).resolve().parent.parent
 VARSAYILAN_DOSYA = KOK / "data" / "araclar.json"
 KAYIT_DOSYASI = KOK / "data" / "kaynaklar.json"
 
+MODEL_GENELI_MOTOR = "Tüm motorlar (model geneli)"
 ARAC_ALANLARI = ("marka", "model", "motor", "uretim_yillari", "kronik_sorunlar")
 ISTEGE_BAGLI_ARAC_ALANLARI = ("aileler",)
 AILE_ALANLARI = ("id", "ad", "tur", "aciklama", "kronik_sorunlar")
@@ -42,6 +43,11 @@ YIL_ARALIGI = (1990, 2100)
 KM_DESENI = re.compile(r"^(\d{1,3}(?:\.\d{3})*) - (\d{1,3}(?:\.\d{3})*) km$")
 EN_AZ_ALAN_ADI = 2
 IKI_PARCALI_UZANTILAR = {"co.uk", "org.uk", "com.au", "co.nz", "com.tr", "org.tr"}
+
+
+def model_geneli_mi(arac):
+    """Motordan bağımsız, modele (nesle) özgü sorunların kaydı: motor alanı sabit 'Tüm motorlar (model geneli)'."""
+    return isinstance(arac, dict) and isinstance(arac.get("motor"), str) and arac["motor"].startswith("Tüm motorlar")
 
 
 def km_degeri(metin):
@@ -173,22 +179,31 @@ def kaynaklari_dogrula(kaynaklar, konum, kayit, hatalar):
     return len(alanlar)
 
 
-def sorunu_dogrula(sorun, konum, kayit, hatalar, sayilar, arac_yillari=None, ek_alanlar=(), zorunlu_ek_alanlar=()):
-    """ek_alanlar: bu bağlamda izin verilen ek alanlar (aile sorunlarında 'id' zorunlu, araç sorunlarında 'aile_sorunu' isteğe bağlı)."""
+def sorunu_dogrula(sorun, konum, kayit, hatalar, sayilar, arac_yillari=None, ek_alanlar=(), zorunlu_ek_alanlar=(), km_istege_bagli=False):
+    """ek_alanlar: bu bağlamda izin verilen ek alanlar (aile sorunlarında 'id' zorunlu, araç sorunlarında 'aile_sorunu' isteğe bağlı).
+
+    km_istege_bagli: yalnızca model geneli kayıtlarda True; yaşa ve kullanıma bağlı sorunların (sızdırmazlık, boya, elektronik)
+    kaynaklarında çoğunlukla kilometre bilgisi olmaz, aralık uydurulmaz.
+    """
     isteyerek = ISTEGE_BAGLI_SORUN_ALANLARI + tuple(a for a in ek_alanlar if a not in zorunlu_ek_alanlar)
+    if km_istege_bagli:
+        isteyerek += ("tahmini_km_araligi",)
     if not alanlari_kontrol_et(sorun, SORUN_ALANLARI + ISTEGE_BAGLI_SORUN_ALANLARI + ek_alanlar, konum, hatalar, istege_bagli=isteyerek):
         return
     for alan in SORUN_ALANLARI[:-1]:
+        if alan == "tahmini_km_araligi" and alan not in sorun:
+            continue
         metin_mi(sorun[alan], f"{konum}.{alan}", hatalar)
 
-    km = sorun["tahmini_km_araligi"]
-    eslesme = KM_DESENI.match(km) if isinstance(km, str) else None
-    if not eslesme:
-        hatalar.append(
-            f"{konum}.tahmini_km_araligi: '{km}' biçimi '80.000 - 150.000 km' gibi olmalı"
-        )
-    elif km_degeri(eslesme.group(1)) > km_degeri(eslesme.group(2)):
-        hatalar.append(f"{konum}.tahmini_km_araligi: alt sınır üst sınırdan büyük")
+    if "tahmini_km_araligi" in sorun:
+        km = sorun["tahmini_km_araligi"]
+        eslesme = KM_DESENI.match(km) if isinstance(km, str) else None
+        if not eslesme:
+            hatalar.append(
+                f"{konum}.tahmini_km_araligi: '{km}' biçimi '80.000 - 150.000 km' gibi olmalı"
+            )
+        elif km_degeri(eslesme.group(1)) > km_degeri(eslesme.group(2)):
+            hatalar.append(f"{konum}.tahmini_km_araligi: alt sınır üst sınırdan büyük")
 
     if sorun["risk_seviyesi"] not in RISK_SEVIYELERI:
         hatalar.append(
@@ -275,6 +290,12 @@ def dogrula(veri, kayit):
             hatalar.append(f"{konum}: aynı marka/model/motor birden fazla kez tanımlı")
         gorulenler.add(anahtar)
 
+        model_geneli = model_geneli_mi(arac)
+        if model_geneli and arac["motor"] != MODEL_GENELI_MOTOR:
+            hatalar.append(f"{konum}.motor: model geneli kayıtta motor tam olarak '{MODEL_GENELI_MOTOR}' olmalı")
+        if model_geneli and "aileler" in arac:
+            hatalar.append(f"{konum}.aileler: model geneli kayıt motor/şanzıman ailesine bağlanamaz")
+
         aile_listesi = arac.get("aileler", [])
         if "aileler" in arac and (not isinstance(aile_listesi, list) or not aile_listesi):
             hatalar.append(f"{konum}.aileler: en az bir aile kimliği içeren dizi olmalı")
@@ -292,7 +313,7 @@ def dogrula(veri, kayit):
             continue
         for j, sorun in enumerate(sorunlar):
             yer = f"{konum}.kronik_sorunlar[{j}]"
-            sorunu_dogrula(sorun, yer, kayit, hatalar, sayilar, arac_yillari, ek_alanlar=("aile_sorunu",))
+            sorunu_dogrula(sorun, yer, kayit, hatalar, sayilar, arac_yillari, ek_alanlar=("aile_sorunu",), km_istege_bagli=model_geneli)
             bag = sorun.get("aile_sorunu") if isinstance(sorun, dict) else None
             if bag is None:
                 continue
@@ -331,10 +352,16 @@ def main():
     detayli = sum(1 for s in sorunlar if "detay" in s)
     kendi = sum(len(a["kronik_sorunlar"]) for a in araclar)
     ortak = sum(len(f["kronik_sorunlar"]) for f in aileler)
+    model_kayitlari = [a for a in araclar if model_geneli_mi(a)]
+    model_sorunlari = sum(len(a["kronik_sorunlar"]) for a in model_kayitlari)
     print(
         f"Geçerli: {len(araclar)} araç, {kendi} kayda özgü kronik sorun, "
         f"{len(aileler)} aile ({ortak} ortak sorun), {len(kullanilan)} farklı kaynak sitesi."
     )
+    if model_kayitlari:
+        kmsiz = sum(1 for a in model_kayitlari for s in a["kronik_sorunlar"] if "tahmini_km_araligi" not in s)
+        print(f"{len(model_kayitlari)} model geneli kayıt ({model_sorunlari} sorun, {kmsiz} tanesinde kilometre bilgisi yok); "
+              f"motor kayıtları: {len(araclar) - len(model_kayitlari)}.")
     print(f"{sinirli} sorun yalnızca {EN_AZ_ALAN_ADI} siteyle destekleniyor (sınırlı doğrulama).")
     print(f"{kirilimli} sorunda üretim yılına göre dönem kırılımı var.")
     print(f"{detayli} sorunda ayrıntı (neden, teşhis, çözüm, maliyet, önlem) var.")

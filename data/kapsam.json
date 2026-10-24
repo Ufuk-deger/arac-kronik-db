@@ -9480,6 +9480,121 @@
         ]
       },
       "not": "X2'ye özgü kaynak aranmadı; gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 7 / 7.5",
+      "yillar": "2012-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Golf 7 / 7.5"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Cam tavan çerçevesi çatlağı ve bagaja su alma iki sitede doğrulandı. DonanımHaber'deki 27 maddelik Golf 7 listesinde kabine su alma (2012-2013), far ve sis buğulanması, 6.5\" ekran kararması (2015), tavan kaplaması sarkması, arka silecek su sızdırması gibi maddeler var; bu maddeler yalnızca bu listede geçtiği için (ikinci bağımsız site bulunamadı) kayıt açılmadı; başlıktaki birçok kullanıcı listenin bir kısmına itiraz ediyor."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Tiguan (AD1)",
+      "yillar": "2016-2024",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Tiguan (AD1"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Cam tavan su sızması iki sitede geçiyor. Şikâyetvar'da ayrıca ön ve arka farlarda su alması (2025 R-Line), sürüş asistanı (front assist) hataları ve multimedya ekranın kapanması var; bunlar tek sitede kaldı."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Egea / Egea Cross",
+      "yillar": "2015-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Egea / Egea Cross"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Klima kompresörü uğultusu ve boya atması iki sitede doğrulandı. Şikâyetvar'da ayrıca ön takım ve debriyaj sesleri ile Cross'ta tavan çıtalarının solması geçiyor; ikinci site yok."
+    },
+    {
+      "marka": "Renault",
+      "model": "Clio 4",
+      "yillar": "2013-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Clio 4 (2013-2019)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Kapı kilidi ve sensörü arızası Şikâyetvar ve DonanımHaber'de doğrulandı. Orijinal multimedya ekranının donması yalnızca Şikâyetvar'da var (DonanımHaber'deki donma anlatıları sonradan takılan Android ünitelere ait); ön takım sesi tek bir yorum."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat B8",
+      "yillar": "2015-2023",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Passat B8"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da cam tavan çerçevesinin kendiliğinden çatlaması ve su sızması (üç yıl sonra aynı sorunun yeniden çıkması, yaklaşık 35 bin TL parça bedeli), tavan kenar çıtası çatlağı, tavan ile ön cam birleşiminde boya atması ve 2015 modelde multimedya Bluetooth ses sorunu çok sayıda şikâyette geçiyor. DonanımHaber'de B8'e özgü ikinci kaynak çıkmadı (2021 Passat'ta 25 bin km'de cam tavan tıkırtısı tek başlık); bu yüzden kayıt açılmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A7",
+      "yillar": "2013-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Octavia A7"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da 2017 modelde cam tavan çerçevesinin çatlayıp su alması (çok kişide görüldüğü, kronik sayıldığı yazılıyor), multimedyanın kendiliğinden ses değiştirip açılıp kapanması (Hybrid) ve far ayar düğmesinin olmaması geçiyor. DonanımHaber ve Ekşi Sözlük'te Octavia 3'e özgü ikinci kaynak çıkmadı (sonuçlar genel cam tavan sızıntısı konuları, VAG DSG / TDI ve 2021 sonrası modeller); bagaj kaması sesi ve yakıt kapağı kilit motoru yalnızca bir forum başlığında geçiyor.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Polo 6R / 6C / AW",
+      "yillar": "2009-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Polo 6R / 6C / AW"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da tavan döşemesi sarkması (2011-2012 modeller), tavan-ön cam birleşiminde boya atması, marşpiyel boya akması (bayi fabrikasyon hata dedi), klimanın kendiliğinden açılması ve multimedya ekranının kapanması geçiyor; DonanımHaber sonuçları 1998-2000 Polo'ya ait olduğundan ikinci site bulunamadı.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }

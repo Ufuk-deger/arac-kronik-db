@@ -81,6 +81,16 @@ def aileli_ornek():
     return veri
 
 
+def model_geneli_ornek():
+    """Motor kaydı ve aynı modelin motordan bağımsız (model geneli) kaydı; ikincide kilometre bilgisi yok."""
+    veri = ornek()
+    model = copy.deepcopy(veri["arac_listesi"][0])
+    model["motor"] = dogrula.MODEL_GENELI_MOTOR
+    model["kronik_sorunlar"][0].pop("tahmini_km_araligi")
+    veri["arac_listesi"].append(model)
+    return veri
+
+
 def aile(veri):
     return veri["aileler"][0]
 
@@ -332,6 +342,59 @@ class AileTesti(unittest.TestCase):
         aile_sorunu(veri)["donem_kirilimi"] = [{"baslangic": 2018, "bitis": 2016, "durum": "Yaygın", "not": "n"}]
         self.assertHata(veri, "bitiş yılı başlangıç yılından küçük")
 
+    def test_model_geneli_kayit_gecerli(self):
+        self.assertEqual(hatalar(model_geneli_ornek()), [])
+
+    def test_model_geneli_kayitta_km_istege_bagli(self):
+        veri = model_geneli_ornek()
+        self.assertNotIn("tahmini_km_araligi", veri["arac_listesi"][1]["kronik_sorunlar"][0])
+        self.assertEqual(hatalar(veri), [])
+
+    def test_model_geneli_kayitta_verilen_km_yine_denetlenir(self):
+        veri = model_geneli_ornek()
+        veri["arac_listesi"][1]["kronik_sorunlar"][0]["tahmini_km_araligi"] = "50.000 civarı"
+        self.assertHata(veri, "biçimi")
+        veri["arac_listesi"][1]["kronik_sorunlar"][0]["tahmini_km_araligi"] = "90.000 - 40.000 km"
+        self.assertHata(veri, "alt sınır üst sınırdan büyük")
+
+    def test_motor_kaydinda_km_zorunlu(self):
+        veri = ornek()
+        del sorun(veri)["tahmini_km_araligi"]
+        self.assertHata(veri, "eksik alan(lar): tahmini_km_araligi")
+
+    def test_aile_sorununda_km_zorunlu(self):
+        veri = aileli_ornek()
+        del aile_sorunu(veri)["tahmini_km_araligi"]
+        self.assertHata(veri, "eksik alan(lar): tahmini_km_araligi")
+
+    def test_model_geneli_motor_adi_sabit(self):
+        veri = model_geneli_ornek()
+        veri["arac_listesi"][1]["motor"] = "Tüm motorlar"
+        self.assertHata(veri, "model geneli kayıtta motor tam olarak")
+
+    def test_model_geneli_kayit_aileye_baglanamaz(self):
+        veri = aileli_ornek()
+        model = copy.deepcopy(veri["arac_listesi"][0])
+        model["motor"] = dogrula.MODEL_GENELI_MOTOR
+        model["aileler"] = ["test-motor"]
+        veri["arac_listesi"].append(model)
+        self.assertHata(veri, "model geneli kayıt motor/şanzıman ailesine bağlanamaz")
+
+    def test_model_geneli_kayit_sorunsuz_olamaz(self):
+        veri = model_geneli_ornek()
+        veri["arac_listesi"][1]["kronik_sorunlar"] = []
+        self.assertHata(veri, "en az bir sorun ya da en az bir aile")
+
+    def test_model_geneli_kayitta_en_az_iki_site_gerekir(self):
+        veri = model_geneli_ornek()
+        veri["arac_listesi"][1]["kronik_sorunlar"][0]["kaynaklar"] = [f"https://{FORUM}/a"]
+        self.assertHata(veri, "en az 2 farklı site gerekir")
+
+    def test_ayni_model_iki_kez_model_geneli_olamaz(self):
+        veri = model_geneli_ornek()
+        veri["arac_listesi"].append(copy.deepcopy(veri["arac_listesi"][1]))
+        self.assertHata(veri, "aynı marka/model/motor birden fazla kez tanımlı")
+
 
 class SemaTesti(unittest.TestCase):
     def test_sema_gercek_veriyi_kabul_eder(self):
@@ -385,6 +448,36 @@ class SemaTesti(unittest.TestCase):
             self.skipTest("jsonschema kurulu değil")
         veri = aileli_ornek()
         del veri["arac_listesi"][1]["aileler"]
+        with self.assertRaises(jsonschema.ValidationError):
+            jsonschema.Draft202012Validator(SEMA).validate(veri)
+
+    def test_sema_model_geneli_kayitta_km_olmadan_kabul_eder(self):
+        try:
+            import jsonschema
+        except ImportError:
+            self.skipTest("jsonschema kurulu değil")
+        jsonschema.Draft202012Validator(SEMA).validate(model_geneli_ornek())
+
+    def test_sema_motor_kaydinda_km_ister(self):
+        try:
+            import jsonschema
+        except ImportError:
+            self.skipTest("jsonschema kurulu değil")
+        veri = ornek()
+        del sorun(veri)["tahmini_km_araligi"]
+        with self.assertRaises(jsonschema.ValidationError):
+            jsonschema.Draft202012Validator(SEMA).validate(veri)
+
+    def test_sema_model_geneli_kayit_aileye_baglanamaz(self):
+        try:
+            import jsonschema
+        except ImportError:
+            self.skipTest("jsonschema kurulu değil")
+        veri = aileli_ornek()
+        model = copy.deepcopy(veri["arac_listesi"][0])
+        model["motor"] = dogrula.MODEL_GENELI_MOTOR
+        model["aileler"] = ["test-motor"]
+        veri["arac_listesi"].append(model)
         with self.assertRaises(jsonschema.ValidationError):
             jsonschema.Draft202012Validator(SEMA).validate(veri)
 

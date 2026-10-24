@@ -19,17 +19,26 @@ HEDEF = KOK / "KAPSAM.md"
 
 SIRALI_MARKA_SAYISI = 10  # birden fazla haberde tutarlı çıkan ilk 10 marka
 KAPSAM_BASLIKLARI = {"kapsamda": "Kapsamda", "ek": "Ek kademe", "dışarıda": "Kapsam dışı"}
+MODEL_GENELI_ONEKI = "Tüm motorlar"  # model geneli plan satırlarının ve kayıtlarının motor alanı bununla başlar
+
+
+def model_satiri_mi(oge):
+    """Plan satırı motor grubunu değil, modelin motordan bağımsız sorunlarını (11. aşama) kapsıyorsa True."""
+    return any(m.startswith(MODEL_GENELI_ONEKI) for m in oge["eslesme"]["motor"])
 
 
 def eslesen_kayitlar(oge, araclar):
+    """Motor satırları yalnızca motor kayıtlarıyla, model geneli satırlar yalnızca model geneli kayıtlarla eşleşir."""
     modeller = oge["eslesme"]["model"]
     motorlar = oge["eslesme"]["motor"]
+    model_satiri = model_satiri_mi(oge)
     return [
         arac
         for arac in araclar
         if arac["marka"] == oge["marka"]
         and any(m in arac["model"] for m in modeller)
         and any(m in arac["motor"] for m in motorlar)
+        and arac["motor"].startswith(MODEL_GENELI_ONEKI) == model_satiri
     ]
 
 
@@ -93,6 +102,8 @@ def uret():
     eslesen_idler = {id(a) for _, kayitlar in eslesmeler for a in kayitlar}
     aileler = aile_haritasi(veri)
 
+    model_eslesmeleri = [(o, k) for o, k in eslesmeler if model_satiri_mi(o)]
+    eslesmeler = [(o, k) for o, k in eslesmeler if not model_satiri_mi(o)]
     toplam = len(eslesmeler)
     tamam = sum(1 for _, k in eslesmeler if k and ozgu_kaynakli(k))
     yalniz_aile = sum(1 for _, k in eslesmeler if k and not ozgu_kaynakli(k))
@@ -100,6 +111,13 @@ def uret():
     kalan = toplam - tamam - yalniz_aile - elenen
     kademe1 = [(o, k) for o, k in eslesmeler if o["kademe"] == 1]
     kademe1_islenen = sum(1 for o, k in kademe1 if k or o.get("sonuc"))
+    model_tamam = sum(1 for _, k in model_eslesmeleri if k)
+    model_elenen = sum(1 for o, k in model_eslesmeleri if not k and o.get("sonuc"))
+    model_kalan = len(model_eslesmeleri) - model_tamam - model_elenen
+    motor_kayitlari = [a for a in araclar if not a["motor"].startswith(MODEL_GENELI_ONEKI)]
+    model_kayitlari = [a for a in araclar if a["motor"].startswith(MODEL_GENELI_ONEKI)]
+    taranan = sum(1 for a in motor_kayitlari
+                  if any(o["marka"] == a["marka"] and any(m in a["model"] for m in o["eslesme"]["model"]) for o, _ in model_eslesmeleri))
 
     satir = [
         "# Kapsam ve ilerleme",
@@ -136,6 +154,10 @@ def uret():
         "model, nesil ve motor düzeyinde yeniden karşılaştırıldı. Bir satırın `eslesme` parçalarından her biri en az bir kayda denk gelmelidir (test denetler); "
         "\"1.4 TSI / 1.6 TDI\" gibi birleşik bir satırın yalnızca bir parçası kayıtlıysa satır bölünür, böylece ✓ kayıtsız bir motoru gizleyemez. "
         "Aranıp eklenmeyen (–) gruplar ile sıraya alınmış (○) gruplar görüntüleyicide \"Kayıt açılmayan gruplar\" bölümünde gösterilir.",
+        "- **Model geneli sorunlar (11. aşamadan itibaren):** Motordan bağımsız, modele (nesle) özgü sorunlar (cam tavan ve bagajdan su alma, far, kapı kilidi, multimedya, boya, "
+        "ön takım gibi kasa, sızdırmazlık, iç mekân, elektronik ve süspansiyon sorunları) `motor` alanı \"Tüm motorlar (model geneli)\" olan ayrı bir kayıtta toplanır "
+        "([README](README.md#model-geneli-kayıtlar)). Bu sorunlar yaşa ve kullanıma bağlı olduğundan kaynaklarda çoğunlukla kilometre bilgisi yoktur; "
+        "kilometre aralığı uydurulmaz, boş bırakılır. Model geneli plan satırları yalnızca işlendikçe eklenir (✓ ya da –); satırı olmayan bir modelde bu sorunlar henüz taranmamıştır.",
         "- **Kanıt eşiği:** Her sorun için en az iki farklı site ve en az bir deneyim/resmî türünde kaynak gerekir "
         "([README](README.md#kaynak-kuralı)). Kaynak bulunamayan gruplar plana `–` olarak işlenir; sorun uydurulmaz.",
         "",
@@ -151,17 +173,21 @@ def uret():
         "",
         "## İlerleme",
         "",
-        f"- Plan: **{toplam}** model/motor grubu",
+        f"- Plan: **{toplam}** model/motor grubu (motor ve şanzıman düzeyi)",
         f"- Tamamlanan (✓, modele özgü kaynaklı sorun var): **{tamam}**",
         f"- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **{yalniz_aile}**",
         f"- Araştırılıp eklenmeyen (–): **{elenen}**",
         f"- Sırada (○): **{kalan}**",
         f"- Kademe 1: **{kademe1_islenen}/{len(kademe1)}** işlendi (✓, ◐ ya da –)",
-        f"- Veritabanı: **{len(araclar)}** kayıt, **{sum(len(a['kronik_sorunlar']) for a in araclar)}** kayda özgü kronik sorun, "
+        f"- Model geneli taraması: **{len(model_eslesmeleri)}** model nesli arandı (sorun bulunan ✓ **{model_tamam}**, kanıt yetersiz – **{model_elenen}**"
+        + (f", sırada ○ **{model_kalan}**" if model_kalan else "")
+        + f"); {len(motor_kayitlari)} motor kaydından **{taranan}**'i taranmış bir modele ait, **{len(motor_kayitlari) - taranan}**'i henüz taranmadı",
+        f"- Veritabanı: **{len(araclar)}** kayıt (**{len(motor_kayitlari)}** motor, **{len(model_kayitlari)}** model geneli), "
+        f"**{sum(len(a['kronik_sorunlar']) for a in araclar)}** kayda özgü kronik sorun, "
         f"**{len(aileler)}** motor/şanzıman ailesi (**{sum(len(f['kronik_sorunlar']) for f in aileler.values())}** ortak sorun)",
         "",
-        "| Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen |",
-        "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
+        "| Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |",
+        "| --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |",
     ]
     marka_sirasi = [m["marka"] for m in markalar if m["kapsam"] != "dışarıda"]
     for marka in marka_sirasi:
@@ -172,8 +198,11 @@ def uret():
         y = sum(1 for _, k in oge if k and not ozgu_kaynakli(k))
         e = sum(1 for o, k in oge if not k and o.get("sonuc"))
         k1 = [(o, k) for o, k in oge if o["kademe"] == 1]
+        mt = sum(1 for o, k in model_eslesmeleri if o["marka"] == marka and k)
+        me = sum(1 for o, k in model_eslesmeleri if o["marka"] == marka and not k and o.get("sonuc"))
+        model_hucre = f"{mt} / {me}" if (mt or me) else "—"
         satir.append(
-            f"| {marka} | {len(oge)} | {t} | {y} | {e} | {len(oge) - t - y - e} | {sum(1 for o, k in k1 if k or o.get('sonuc'))}/{len(k1)} |"
+            f"| {marka} | {len(oge)} | {t} | {y} | {e} | {len(oge) - t - y - e} | {sum(1 for o, k in k1 if k or o.get('sonuc'))}/{len(k1)} | {model_hucre} |"
         )
 
     satir += [
@@ -209,11 +238,12 @@ def uret():
         "",
         "Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, **◐** kayıtlı ama yalnızca motor/şanzıman ailesinin ortak kaynaklarına dayanıyor "
         "(bu modele özgü bildirim ayrıca doğrulanmadı), **○** sırada, **–** araştırıldı ama iki bağımsız site bulunamadığı için eklenmedi. "
+        "Motor grubu \"Tüm motorlar (model geneli)\" olan satırlar modelin motordan bağımsız sorunlarını gösterir (✓ sorun bulundu, – kanıt yetersiz). "
         "Yıllar yaklaşık üretim ya da Türkiye satış yıllarıdır.",
         "",
     ]
     for marka in marka_sirasi:
-        oge = [(o, k) for o, k in eslesmeler if o["marka"] == marka]
+        oge = [(o, k) for o, k in eslesmeler + model_eslesmeleri if o["marka"] == marka]
         if not oge:
             continue
         etiket = " (ek kademe)" if next(m for m in markalar if m["marka"] == marka)["kapsam"] == "ek" else ""

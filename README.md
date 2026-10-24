@@ -4,7 +4,8 @@ Türkiye'de yaygın olarak kullanılan otomobillerin bilinen kronik sorunların�
 marka, model ve motor bazında listeleyen, her maddesi kaynaklı JSON veritabanı.
 Kapsam son 10-15 yılın araçlarıdır (yaklaşık 2011 model yılı ve sonrası); elektrikli
 araçlar da kapsamdadır. Sorunlar, kaynaklar destekliyorsa üretim yılına göre kırılır
-(ör. revizyon öncesi ve sonrası).
+(ör. revizyon öncesi ve sonrası). Motor ve şanzıman sorunlarının yanında, motordan bağımsız
+modele (nesle) özgü sorunlar da (cam tavandan su alma, kapı kilidi, boya vb.) "model geneli" kayıtlarda toplanır.
 
 > **Uyarı:** Veriler kullanıcı şikâyetleri, forumlar, servis bültenleri ve geri
 > çağırma kampanyaları gibi kamuya açık bilgilerden derlenmiştir ve yalnızca
@@ -72,7 +73,7 @@ araçlar da kapsamdadır. Sorunlar, kaynaklar destekliyorsa üretim yılına gö
 | `sorun_adi` | Sorunun kısa adı |
 | `etkilenen_parca` | Arızanın kaynaklandığı parça veya sistem |
 | `belirtiler` | Sürücünün fark edebileceği belirtiler, virgülle ayrılmış |
-| `tahmini_km_araligi` | `80.000 - 150.000 km` biçiminde tahmini kilometre aralığı |
+| `tahmini_km_araligi` | `80.000 - 150.000 km` biçiminde tahmini kilometre aralığı. Motor kayıtlarında zorunludur; yalnızca model geneli kayıtlarda kaynaklarda kilometre yoksa yazılmaz ([Model geneli kayıtlar](#model-geneli-kayıtlar)) |
 | `risk_seviyesi` | `Düşük`, `Orta` veya `Yüksek` |
 | `kaynaklar` | Sorunu destekleyen sayfaların adresleri (en az iki farklı site) |
 | `detay` | İsteğe bağlı. Sorunun nedeni, nasıl anlaşıldığı, yaygın çözümü, bildirilen maliyeti ve önlemi; aşağıya bakın |
@@ -80,7 +81,7 @@ araçlar da kapsamdadır. Sorunlar, kaynaklar destekliyorsa üretim yılına gö
 
 Risk seviyeleri:
 
-- **Düşük:** Konfor veya aşınmaya yönelik, aracı yolda bırakmayan sorunlar.
+- **Düşük:** Konfor veya aşınmaya yönelik, aracı yolda bırakmayan sorunlar (model geneli kayıtlarda kozmetik sorunlar).
 - **Orta:** Onarım gerektiren, ihmal edilirse büyüyebilecek sorunlar.
 - **Yüksek:** Motor/şanzıman hasarına veya aracın yolda kalmasına yol açabilen,
   onarımı pahalı sorunlar (elektrikli araçlarda batarya, şarj ünitesi ya da 12V akü kaynaklı güç kaybı dahil).
@@ -134,6 +135,34 @@ Kurallar:
 - Her aile en az bir kayıtta kullanılmalıdır; bilinmeyen aileye ya da aile sorununa işaret eden ya da kaydın bağlı olmadığı
   aileden `aile_sorunu` yazan kayıt doğrulayıcı hatasıdır.
 - Aile sorunlarının kaynakları da `KAYNAKLAR.md` site ve kullanım sayımlarına dahildir.
+
+## Model geneli kayıtlar
+
+Her sorun motor ya da şanzımandan gelmez: cam tavandan su alma, kapı kilidi arızası, boya atması, multimedya
+donması, ön takım sesi gibi sorunlar modelin kendisine (kasaya, nesle) bağlıdır ve motor sürümüne göre değişmez.
+Bunlar motor kayıtlarına tek tek yazılmak yerine, aynı modelin **model geneli** kaydında bir kez toplanır:
+
+```json
+{ "marka": "Volkswagen", "model": "Golf 7 / 7.5 (2012-2020)", "motor": "Tüm motorlar (model geneli)",
+  "uretim_yillari": { "baslangic": 2012, "bitis": 2020 },
+  "kronik_sorunlar": [ { "sorun_adi": "Cam tavan çerçevesinde çatlak ve içeri su sızması", "risk_seviyesi": "Orta",
+                         "kaynaklar": ["https://...", "https://..."] } ] }
+```
+
+- `motor` alanı sabit olarak `Tüm motorlar (model geneli)` yazılır; görüntüleyicide koyu kenarlı, "Model geneli" etiketli ayrı kart olarak görünür.
+  Model geneli kayıt motor/şanzıman ailesine bağlanamaz (`aileler` yazılamaz) ve en az bir sorunu olmalıdır.
+- Sorunlar aynı kaynak kuralına uyar: en az iki farklı site ve en az biri deneyim ya da resmî türünde (şikâyet, forum, anket, haber, dava haberi).
+- **`tahmini_km_araligi` bu kayıtlarda isteğe bağlıdır.** Sızdırmazlık, boya, iç mekân ve elektronik sorunları yaşa ve kullanıma bağlıdır;
+  kaynaklar genellikle kilometre yazmaz. Kilometre yoksa aralık uydurulmaz, alan boş bırakılır ve görüntüleyici çubuk yerine
+  "Kaynaklarda kilometre bilgisi yok" yazar. Kaynak kilometre veriyorsa (ör. "ilk 30 bin km'de") yine yazılır. Kilometre filtresi
+  kilometresi olmayan sorunları elemez.
+- Bir sorun yalnızca belli motor sürümlerinde bildiriliyorsa bu sorun adında söylenir (ör. "1.4 sürümlerde bildirildi").
+  Yalnızca bir motora bağlı sorunlar yine motor kaydına ya da ailesine yazılır.
+- Risk seviyesi bu kayıtlarda da aynı ölçekle verilir: **Düşük** kozmetik ya da konfor sorunları (boya, döşeme, ses), **Orta** onarım gerektiren
+  ya da iç mekâna su sızdıran sorunlar, **Yüksek** güvenliği (fren, direksiyon, hava yastığı, aydınlatma) ya da elektroniği tehlikeye atan sorunlar.
+- Model geneli taraması modelden modele yapılır ve `KAPSAM.md` içinde ayrı izlenir: ✓ sorun bulunan, – aranıp iki bağımsız site bulunamayan
+  (nedeniyle; ör. yalnızca Şikâyetvar'da geçen sorunlar). Satırı olmayan bir modelde bu sorunlar henüz aranmamıştır; satırı olmaması
+  "sorun yok" demek değildir.
 
 ## Dönem kırılımı
 

@@ -53,6 +53,22 @@ class KapsamTesti(unittest.TestCase):
         disarida = {m["marka"] for m in PLAN["pazar"]["markalar"] if m["kapsam"] == "dışarıda"}
         self.assertEqual({o["marka"] for o in PLAN["plan"]} & disarida, set())
 
+    def test_motor_satiri_model_geneli_kayitla_eslesmez(self):
+        # "" gibi her motoru yakalayan bir parça, model geneli kaydı motor kaydı sayıp ✓ göstermemeli.
+        model = {"marka": "Test", "model": "Model (2015-2020)", "motor": "Tüm motorlar (model geneli)",
+                 "uretim_yillari": {"baslangic": 2015, "bitis": 2020}, "kronik_sorunlar": []}
+        motor = {**model, "motor": "1.0"}
+        motor_satiri = {"marka": "Test", "model": "Model", "eslesme": {"model": ["Model"], "motor": [""]}}
+        model_satiri = {"marka": "Test", "model": "Model", "eslesme": {"model": ["Model"], "motor": ["Tüm motorlar"]}}
+        self.assertEqual(kapsam_md_uret.eslesen_kayitlar(motor_satiri, [model, motor]), [motor])
+        self.assertEqual(kapsam_md_uret.eslesen_kayitlar(model_satiri, [model, motor]), [model])
+
+    def test_model_geneli_satir_gercek_motor_kaydina_denk_gelmez(self):
+        for o in PLAN["plan"]:
+            if kapsam_md_uret.model_satiri_mi(o):
+                for a in kapsam_md_uret.eslesen_kayitlar(o, ARACLAR):
+                    self.assertTrue(a["motor"].startswith(kapsam_md_uret.MODEL_GENELI_ONEKI))
+
     def test_md_uretilir(self):
         metin = kapsam_md_uret.uret()
         self.assertIn("## Plan ve durum", metin)
