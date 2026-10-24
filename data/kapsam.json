@@ -1234,8 +1234,7 @@
           "1.4 Turbo"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Mokka'ya özgü, A14NET'i açıkça belirten tekrar eden bir şikâyet bulunamadı; aynı motor için Astra J ve Astra K kayıtlarına bakın. Faz 7'de yeniden arandı: Mokka şikâyetleri (47.000 km'de triger kayışı, yağ-su karışması, yağ kaçağı) motor tipini belirtmiyor ya da 1.2 PureTech'e ait; A14NET için Mokka'ya özgü kaynak yok."
+      "not": "Mokka'ya özgü, A14NET'i açıkça belirten tekrar eden bir şikâyet bulunamadı. Faz 7'de yeniden arandı: Mokka şikâyetleri (47.000 km'de triger kayışı, yağ-su karışması, yağ kaçağı) motor tipini belirtmiyor ya da 1.2 PureTech'e ait. Gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır."
     },
     {
       "marka": "Opel",
@@ -1878,7 +1877,7 @@
       "marka": "Toyota",
       "model": "Corolla E170",
       "yillar": "2013-2018",
-      "motor": "1.4 D-4D",
+      "motor": "1.4 D-4D 90 (1ND-TV)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -1888,21 +1887,20 @@
           "D-4D"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Aramalar E150 ve E170 ayrımı yapmıyor; turbo ve DPF anıları dağınık; enjektör ve yağ tüketimi E150 1.4 D-4D kaydında."
+      "not": "Aramalar E150 ve E170 ayrımı yapmıyor; turbo ve DPF anıları dağınık. Gösterilen yağ tüketimi ve enjektör sorunları aynı 1ND-TV motorunu kullanan Corolla E150 ve Auris kayıtlarına dayanır."
     },
     {
       "marka": "Toyota",
       "model": "Yaris",
       "yillar": "2011-2019",
-      "motor": "1.33 / 1.5 Hybrid",
+      "motor": "1.5 Hybrid",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Yaris"
         ],
         "motor": [
-          ""
+          "Hybrid"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -1946,19 +1944,18 @@
       "marka": "Toyota",
       "model": "Auris",
       "yillar": "2013-2018",
-      "motor": "1.33 / 1.6 (benzinli)",
+      "motor": "1.6 (benzinli)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Auris"
         ],
         "motor": [
-          "1.33",
           "1.6"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "1.33'te yağ tüketimi ve oksijen sensörü tekil şikâyetler (yağ tüketimi Corolla 1.33 kaydında); 1.6 için kaynak yok. 1.4 D-4D, Faz 4'te ayrı satır ve kayıt olarak eklendi."
+      "not": "Auris 1.6 benzinli için kaynak yok."
     },
     {
       "marka": "Toyota",
@@ -2384,7 +2381,7 @@
     {
       "marka": "Ford",
       "model": "Focus 3",
-      "yillar": "2011-2018",
+      "yillar": "2015-2018",
       "motor": "1.5 EcoBoost 150/182",
       "kademe": 2,
       "eslesme": {
@@ -2395,8 +2392,7 @@
           "1.5 EcoBoost"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Focus için sonuçlar ağırlıkla 1.0 EcoBoost; 1.5 EcoBoost silindir kapağı sorunu Kuga 2 / Mondeo kaydında ele alındı, Focus'a özgü kaynak yok."
+      "not": "Focus için sonuçlar ağırlıkla 1.0 EcoBoost; Focus'a özgü 1.5 EcoBoost kaynağı yok. Gösterilen silindir kapağı sorunu aynı motoru kullanan Kuga 2 / Mondeo kaydına dayanır."
     },
     {
       "marka": "Ford",
@@ -2611,7 +2607,7 @@
           "Civic (FB"
         ],
         "motor": [
-          ""
+          "i-VTEC"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -2642,7 +2638,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "CR-V"
+          "CR-V (2012"
         ],
         "motor": [
           ""
@@ -2919,7 +2915,7 @@
       "marka": "Opel",
       "model": "Insignia A",
       "yillar": "2008-2017",
-      "motor": "2.0 CDTI / 1.6 Turbo / 1.4 Turbo",
+      "motor": "2.0 CDTI / 1.6 Turbo",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -2927,8 +2923,7 @@
         ],
         "motor": [
           "2.0 CDTI",
-          "1.6 Turbo",
-          "1.4 Turbo"
+          "1.6 Turbo"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -3224,7 +3219,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "CR-V"
+          "CR-V (2012"
         ],
         "motor": [
           "2.0 i-VTEC"
@@ -3706,20 +3701,20 @@
     },
     {
       "marka": "Toyota",
-      "model": "Yaris / Avensis",
-      "yillar": "2011-",
-      "motor": "1.33 / hibrit / 2.0 D-4D",
+      "model": "Avensis",
+      "yillar": "2011-2018",
+      "motor": "2.0 D-4D",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Yaris"
+          "Avensis"
         ],
         "motor": [
-          "1.33"
+          "2.0 D-4D"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Yaris (1.33, hibrit) ve Avensis 2.0 D-4D için güvenilir bir kronik sorun listesi çıkmadı; yalnızca tekil şikâyetler."
+      "not": "Avensis 2.0 D-4D için güvenilir bir kronik sorun listesi çıkmadı; yalnızca tekil şikâyetler."
     },
     {
       "marka": "Mini",
@@ -3906,7 +3901,7 @@
       "marka": "Mini",
       "model": "Cooper / One (F56)",
       "yillar": "2014-",
-      "motor": "1.5 üç silindir (B38)",
+      "motor": "1.5 üç silindir turbo (B38)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -3916,8 +3911,7 @@
           "B38"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "F56 1.5 üç silindir için kaynak çıkmadı; bir Ekşi yorumu yağ kaçırdığını söylüyor ama motor belirsiz."
+      "not": "F56 1.5 üç silindir için kaynak çıkmadı; bir Ekşi yorumu yağ kaçırdığını söylüyor ama motor belirsiz. Gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır."
     },
     {
       "marka": "Citroen",
@@ -5527,32 +5521,31 @@
       "marka": "Opel",
       "model": "Meriva B",
       "yillar": "2010-2017",
-      "motor": "1.4 benzinli / 1.4 Turbo",
+      "motor": "1.4 atmosferik",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Meriva"
         ],
         "motor": [
-          "1.4"
+          "atmosferik"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: Şikâyetvar'daki Meriva kayıtları 2011 model Meriva B'de hava yastığı geri çağırması ve kapı kaplama parçası üzerine; forum yorumları eski ve genel (1.3 CDTI için çoğunlukla olumlu); 1.4 Turbo için sonuç çıkmadı. Motora özgü tekrar eden sorun çıkmadı."
+      "not": "Meriva 1.4 atmosferik için tekrar eden sorun çıkmadı; şikâyetler hava yastığı geri çağırması ve kapı kaplamasında."
     },
     {
       "marka": "Opel",
       "model": "Zafira Tourer",
       "yillar": "2012-2019",
-      "motor": "2.0 CDTI / 1.4 Turbo",
+      "motor": "2.0 CDTI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Zafira"
         ],
         "motor": [
-          "2.0 CDTI",
-          "1.4 Turbo"
+          "2.0 CDTI"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -5858,7 +5851,7 @@
       "marka": "BMW",
       "model": "1 Serisi F40 / X1 F48",
       "yillar": "2015-",
-      "motor": "116d / 118i / sDrive16d / 18i",
+      "motor": "116d / 118i / sDrive16d / sDrive18d",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -5866,7 +5859,10 @@
           "F48"
         ],
         "motor": [
-          ""
+          "116d",
+          "118i",
+          "sDrive16d",
+          "sDrive18d"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -7172,7 +7168,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da G20 için tekil kayıtlar var (45.000 km'de su pompası uyarısı, 60 bin km'de park freni arızası, 74.000 km'de diferansiyel uğultusu, 139.000 km'de soğutma sistemi uyarısı); Ekşi Sözlük'te N20 / B47 / B48'in daha az sorunlu sayıldığı, DonanımHaber'de bir G20 sahibinin B48'de kronik sorun yaşamadığı yazılıyor. Motora özgü tekrar eden sorun için iki bağımsız site çıkmadı."
     },
     {
       "marka": "BMW",
@@ -7187,7 +7185,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da G30 520i için tekrar eden konular ambiyans aydınlatma kesilmesi, kapı kolu içlerinin erimesi, sunroof perdesi, acil çağrı pili ve multimedya; motor ya da şanzıman için sistematik kayıt yok ve konular tek siteye (Şikâyetvar) ait. DonanımHaber'deki eski bir yazı egzoz ve şanzıman sorunlarını sayıyor ama zayıf bir kaynak."
     },
     {
       "marka": "BMW",
@@ -7202,7 +7202,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "G01 için kronik arıza bulan kaynak çıkmadı: Şikâyetvar'da 2018 model acil çağrı pili ve 2020 model geri görüş kamerası gibi tekil kayıtlar var; xDrive servo motor (VTG) anlatısı 2006 model X3'e ait."
     },
     {
       "marka": "BMW",
@@ -7448,7 +7450,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada DonanımHaber'de 2011 model XC60 D5'te otomatik şanzımanda D'ye alırken sektirme (yağ değişiminin biraz iyileştirdiği) ve 2016 model D4'te yaklaşık 300.000 km'de blok çatlağı gibi tekil anlatılar çıktı; enjektör için kayıt yok. Tekrar eden bir sorun için iki bağımsız site çıkmadı."
     },
     {
       "marka": "Volvo",
@@ -7463,7 +7467,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada Şikâyetvar'da 2020 model XC60'larda turbo arızası (70.000 km) ve B4 dizelde partikül sensörü şikâyeti gibi tekil kayıtlar çıktı; ikinci bağımsız kaynak yok."
     },
     {
       "marka": "Volvo",
@@ -7499,7 +7505,7 @@
       "marka": "Volvo",
       "model": "S60 II / V60",
       "yillar": "2010-2018",
-      "motor": "D3 / D4 / D5, T4 / T5 (Drive-E)",
+      "motor": "D3 / D4 / D5, T4 / T5",
       "kademe": 1,
       "eslesme": {
         "model": [
@@ -7507,9 +7513,15 @@
           "V60"
         ],
         "motor": [
-          ""
+          "D3",
+          "D4",
+          "D5",
+          "T4",
+          "T5"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada Türkçe kaynakların çoğu S60'a ait ve en çok tekrarlanan konu D2 Powershift (ayrı kayıtta); V60 ve D3 / D4 / D5 Drive-E için özel veri az. 1.6 T4 EcoBoost için hararet, soğutma suyu eksilmesi ve silindir kapağı contası iddiaları var (Şikâyetvar ve DonanımHaber; 65-70 bin TL'lik blok değişimi teklifi gibi eski tarihli tekil vakalar), ancak kilometre bilgisi ve tekrar örüntüsü doğrulanamadı."
     },
     {
       "marka": "Volvo",
@@ -7767,7 +7779,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "2017 Q5 2.0 TDI quattro için DonanımHaber'de kronik sorun iddiası kaynaksız, aynı başlıktaki kullanıcılar 2.0 TDI 177 hp ve S tronic'in sağlam olduğunu yazıyor; yağ tüketimi anlatıları TFSI'ya ait. Doğrulanmış bir sorun çıkmadı."
     },
     {
       "marka": "Audi",
@@ -8099,7 +8113,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da Transit için enjektör (37.500 km'de enjektör arızası, yaklaşık 50 bin TL teklif), turbo ve volan / debriyaj şikâyetleri ile 2017 model Transit 2.2 155 PS'te 150 bin km'de piston delinmesi var; DonanımHaber'de 2012 Transit 350 için volan değişimi önerisi geçiyor. Anlatılar tekil, motor hacmi ayrımı yapılmıyor; iki bağımsız siteyle doğrulanan tekrar eden bir sorun çıkmadı."
     },
     {
       "marka": "Ford",
@@ -8892,6 +8908,246 @@
       },
       "not": "Q5 2.0 TDI için modele özgü kaynak çıkmadı: DonanımHaber'de Q5 başlıkları 2.0 TFSI yağ yakma (ayrı kayıtta), S tronic ve akü / alternatör üzerine; 2.0 TDI enjektör ve DPF anlatıları A5 / A6 başlıklarında ve eski 143-170 hp motorlara ait, 2.0 TDI için doğrulanmış bir sorun listesi çıkmadı.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Toyota",
+      "model": "Yaris XP130",
+      "yillar": "2011-2020",
+      "motor": "1.33 Dual VVT-i 99 (1NR-FE)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Yaris (XP130"
+        ],
+        "motor": [
+          "1.33"
+        ]
+      },
+      "not": "Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı. Gösterilen yağ tüketimi Corolla E150 FL / E170 (1.33) kaydına dayanır."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Yaris XP130",
+      "yillar": "2011-2020",
+      "motor": "1.4 D-4D 90 (1ND-TV)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Yaris (XP130"
+        ],
+        "motor": [
+          "1.4 D-4D"
+        ]
+      },
+      "not": "Yaris 1.4 D-4D'ye özgü kaynak aranmadı; gösterilen yağ tüketimi ve enjektör sorunları Corolla E150 ve Auris (1ND-TV) kayıtlarına dayanır."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Yaris XP210",
+      "yillar": "2020-",
+      "motor": "1.5 Dynamic Force 125 (M15A-FKS)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Yaris (XP210"
+        ],
+        "motor": [
+          "1.5 Dynamic"
+        ]
+      },
+      "not": "Yaris XP210 benzinli 1.5'e özgü kaynak aranmadı; şikâyetler çoğunlukla hibrit akü ve garanti konularında. Gösterilen krank ve biyel yatağı sarması aynı M15A-FKS motorunu kullanan Corolla E210 kaydına dayanır."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Auris E180",
+      "yillar": "2013-2018",
+      "motor": "1.33 Dual VVT-i 99 (1NR-FE)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Auris (E180"
+        ],
+        "motor": [
+          "1.33"
+        ]
+      },
+      "not": "1.33'te yağ tüketimi ve oksijen sensörü tekil şikâyetler; gösterilen yağ tüketimi Corolla 1.33 kaydına dayanır. 1.4 D-4D, Faz 4'te ayrı satır ve kayıt olarak eklendi."
+    },
+    {
+      "marka": "Honda",
+      "model": "CR-V RW",
+      "yillar": "2017-2022",
+      "motor": "1.5 VTEC Turbo 173 (CVT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "CR-V (RW"
+        ],
+        "motor": [
+          "1.5 VTEC"
+        ]
+      },
+      "not": "CR-V 1.5 VTEC Turbo'ya özgü kaynak aranmadı; gösterilen yağa yakıt karışması aynı motor ailesini kullanan Civic FC5 kaydına dayanır."
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic FB7",
+      "yillar": "2013-2016",
+      "motor": "1.6 i-DTEC 120",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Civic (FB7"
+        ],
+        "motor": [
+          "i-DTEC"
+        ]
+      },
+      "not": "Civic FB7 1.6 i-DTEC'e özgü kaynak aranmadı; gösterilen DPF ve turbo hortumu sorunları aynı N16A motorunu kullanan Civic FC5 ve CR-V kayıtlarına dayanır."
+    },
+    {
+      "marka": "Honda",
+      "model": "HR-V RU",
+      "yillar": "2015-2021",
+      "motor": "1.6 i-DTEC 120",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "HR-V (RU"
+        ],
+        "motor": [
+          "i-DTEC"
+        ]
+      },
+      "not": "HR-V 1.6 i-DTEC'e özgü kaynak aranmadı; gösterilen DPF ve turbo hortumu sorunları aynı N16A motorunu kullanan Civic FC5 ve CR-V kayıtlarına dayanır."
+    },
+    {
+      "marka": "Opel",
+      "model": "Insignia A",
+      "yillar": "2008-2017",
+      "motor": "1.4 Turbo 140 (A14NET)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Insignia A"
+        ],
+        "motor": [
+          "1.4 Turbo"
+        ]
+      },
+      "not": "Insignia 1.4 Turbo'ya özgü kaynak çıkmadı; gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır."
+    },
+    {
+      "marka": "Opel",
+      "model": "Meriva B",
+      "yillar": "2010-2017",
+      "motor": "1.4 Turbo 120 (A14NET)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Meriva B"
+        ],
+        "motor": [
+          "1.4 Turbo"
+        ]
+      },
+      "not": "Meriva 1.4 Turbo için sonuç çıkmadı (şikâyetler hava yastığı geri çağırması ve kapı kaplamasında); gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır."
+    },
+    {
+      "marka": "Opel",
+      "model": "Zafira Tourer",
+      "yillar": "2012-2019",
+      "motor": "1.4 Turbo 140 (A14NET)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Zafira Tourer"
+        ],
+        "motor": [
+          "1.4 Turbo"
+        ]
+      },
+      "not": "Zafira Tourer 1.4 Turbo için sonuç çıkmadı (şikâyetler elektronik ve uyarı lambalarında); gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır."
+    },
+    {
+      "marka": "Ford",
+      "model": "Focus 4",
+      "yillar": "2018-",
+      "motor": "1.5 EcoBoost 150/182",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Focus 4 (2018"
+        ],
+        "motor": [
+          "1.5 EcoBoost"
+        ]
+      },
+      "not": "Focus 4 1.5 EcoBoost'a özgü kaynak aranmadı; gösterilen silindir kapağı sorunu aynı motoru kullanan Kuga 2 / Mondeo kaydına dayanır."
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 F48",
+      "yillar": "2015-2022",
+      "motor": "sDrive18i 1.5 turbo (B38)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "X1 (F48"
+        ],
+        "motor": [
+          "sDrive18i"
+        ]
+      },
+      "not": "Faz 9'da (tek sorgu) X1 F48 için Türkçe şikâyet ya da forum kaydı çıkmadı; bir Türkçe alım rehberi F48 18i'nin 1.5 üç silindirli turbo olduğunu yazıyor. Gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır."
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi F30",
+      "yillar": "2012-2015",
+      "motor": "316i 1.6 turbo (N13)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "F30, 2012"
+        ],
+        "motor": [
+          "316i"
+        ]
+      },
+      "not": "316i'ye özgü kaynak aranmadı; gösterilen sorunlar aynı N13 motorunu kullanan 116i / 118i (F20) kaydının kaynaklarına dayanır."
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi F30 LCI",
+      "yillar": "2015-2019",
+      "motor": "318i 1.5 turbo (B38)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F30 LCI"
+        ],
+        "motor": [
+          "318i"
+        ]
+      },
+      "not": "318i'ye özgü kaynak aranmadı; gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır."
+    },
+    {
+      "marka": "Volvo",
+      "model": "V60",
+      "yillar": "2013-2018",
+      "motor": "D2 1.6 D DRIVe (Powershift)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "V60 (2013"
+        ],
+        "motor": [
+          "D2"
+        ]
+      },
+      "not": "V60 D2'ye özgü kaynak aranmadı (S60 / V40 D2 ile aynı motor ve şanzıman); gösterilen sorunlar S60 / V40 D2 Powershift ve DV6 kayıtlarına dayanır."
     }
   ]
 }

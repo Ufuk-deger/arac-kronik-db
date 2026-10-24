@@ -25,42 +25,42 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **542** model/motor grubu
+- Plan: **557** model/motor grubu
 - Tamamlanan (✓, modele özgü kaynaklı sorun var): **168**
-- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **107**
-- Araştırılıp eklenmeyen (–): **153**
-- Sırada (○): **114**
-- Kademe 1: **111/118** işlendi (✓, ◐ ya da –)
-- Veritabanı: **293** kayıt, **258** kayda özgü kronik sorun, **33** motor/şanzıman ailesi (**57** ortak sorun)
+- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **126**
+- Araştırılıp eklenmeyen (–): **157**
+- Sırada (○): **106**
+- Kademe 1: **120/120** işlendi (✓, ◐ ya da –)
+- Veritabanı: **312** kayıt, **258** kayda özgü kronik sorun, **42** motor/şanzıman ailesi (**74** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Renault | 37 | 15 | 7 | 11 | 4 | 8/8 |
 | Volkswagen | 50 | 18 | 12 | 13 | 7 | 13/13 |
-| Toyota | 16 | 4 | 0 | 9 | 3 | 5/5 |
+| Toyota | 20 | 4 | 5 | 8 | 3 | 6/6 |
 | Fiat | 24 | 11 | 1 | 7 | 5 | 5/5 |
 | Hyundai | 35 | 11 | 9 | 13 | 2 | 13/13 |
 | Peugeot | 21 | 9 | 5 | 3 | 4 | 5/5 |
-| Opel | 34 | 14 | 6 | 8 | 6 | 5/5 |
+| Opel | 37 | 14 | 10 | 7 | 6 | 5/5 |
 | Citroen | 19 | 6 | 5 | 3 | 5 | 3/3 |
 | BYD | 2 | 1 | 0 | 1 | 0 | 1/1 |
 | Skoda | 27 | 9 | 8 | 8 | 2 | 6/6 |
 | Mercedes-Benz | 37 | 10 | 12 | 8 | 7 | 6/6 |
 | Togg | 2 | 1 | 0 | 1 | 0 | 1/1 |
-| BMW | 31 | 5 | 9 | 6 | 11 | 9/12 |
+| BMW | 34 | 5 | 12 | 9 | 8 | 13/13 |
 | Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 |
 | Nissan | 19 | 8 | 4 | 4 | 3 | 4/4 |
 | Chery | 2 | 0 | 0 | 2 | 0 | 0/0 |
-| Ford | 31 | 8 | 9 | 10 | 4 | 7/8 |
+| Ford | 32 | 8 | 11 | 10 | 3 | 8/8 |
 | Kia | 28 | 9 | 5 | 10 | 4 | 6/6 |
 | Dacia | 12 | 8 | 1 | 3 | 0 | 3/3 |
-| Audi | 30 | 6 | 8 | 6 | 10 | 5/6 |
-| Honda | 9 | 4 | 0 | 5 | 0 | 2/2 |
+| Audi | 30 | 6 | 8 | 7 | 9 | 6/6 |
+| Honda | 12 | 4 | 3 | 5 | 0 | 2/2 |
 | Seat | 12 | 3 | 5 | 1 | 3 | 2/2 |
 | Chevrolet | 1 | 0 | 0 | 1 | 0 | 0/0 |
-| Volvo | 11 | 1 | 0 | 1 | 9 | 0/2 |
+| Volvo | 12 | 1 | 1 | 4 | 6 | 2/2 |
 | Subaru | 3 | 1 | 0 | 0 | 2 | 0/0 |
-| Mini | 4 | 1 | 0 | 2 | 1 | 0/0 |
+| Mini | 4 | 1 | 1 | 1 | 1 | 0/0 |
 | Jeep | 5 | 1 | 0 | 1 | 3 | 0/0 |
 | Alfa Romeo | 5 | 0 | 0 | 2 | 3 | 0/0 |
 | Mazda | 1 | 0 | 0 | 1 | 0 | 0/0 |
@@ -247,17 +247,21 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | Corolla E150 FL / E170 | 2009-2018 | 1.33 Dual VVT-i 99 | ✓ 1 sorun |
 | 1 | Corolla E210 | 2019- | 1.5 Dynamic Force (M15A-FKS) | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Corolla E210 | 2019- | 1.8 Hybrid (2ZR-FXE) | – eklenmedi: Şikâyetler ses yalıtımı, fren diski paslanması ve 12V akü gibi mekanik olmayan konularda; tekrar eden mekanik sorun bulunamadı. |
-| 2 | Auris | 2013-2018 | 1.33 / 1.6 (benzinli) | – eklenmedi: 1.33'te yağ tüketimi ve oksijen sensörü tekil şikâyetler (yağ tüketimi Corolla 1.33 kaydında); 1.6 için kaynak yok. 1.4 D-4D, Faz 4'te ayrı satır ve kayıt olarak eklendi. |
-| 2 | Corolla E170 | 2013-2018 | 1.4 D-4D | – eklenmedi: Aramalar E150 ve E170 ayrımı yapmıyor; turbo ve DPF anıları dağınık; enjektör ve yağ tüketimi E150 1.4 D-4D kaydında. |
+| 1 | Yaris XP130 | 2011-2020 | 1.33 Dual VVT-i 99 (1NR-FE) | ◐ 1 ortak aile sorunu — Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı. Gösterilen yağ tüketimi Corolla E150 FL / E170 (1.33) kaydına dayanır. |
+| 2 | Auris | 2013-2018 | 1.6 (benzinli) | – eklenmedi: Auris 1.6 benzinli için kaynak yok. |
+| 2 | Auris E180 | 2013-2018 | 1.33 Dual VVT-i 99 (1NR-FE) | ◐ 1 ortak aile sorunu — 1.33'te yağ tüketimi ve oksijen sensörü tekil şikâyetler; gösterilen yağ tüketimi Corolla 1.33 kaydına dayanır. 1.4 D-4D, Faz 4'te ayrı satır ve kayıt olarak eklendi. |
+| 2 | Corolla E170 | 2013-2018 | 1.4 D-4D 90 (1ND-TV) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — Aramalar E150 ve E170 ayrımı yapmıyor; turbo ve DPF anıları dağınık. Gösterilen yağ tüketimi ve enjektör sorunları aynı 1ND-TV motorunu kullanan Corolla E150 ve Auris kayıtlarına dayanır. |
 | 2 | Corolla E170 | 2013-2018 | 1.6 Valvematic (Multidrive S) | – eklenmedi: Şikâyet sitelerinde 1.6 Valvematic ve Multidrive S için tekrar eden bir sorun kümesi bulunamadı. |
 | 2 | Verso | 2009-2018 | 1.6 D-4D / 1.8 Valvematic | ○ sırada |
-| 2 | Yaris | 2011-2019 | 1.33 / 1.5 Hybrid | – eklenmedi: Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı. |
-| 3 | Auris | 2007-2018 | 1.4 D-4D (1ND-TV) | ✓ 1 sorun, 1 yıl kırılımı |
+| 2 | Yaris | 2011-2019 | 1.5 Hybrid | – eklenmedi: Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı. |
+| 2 | Yaris XP130 | 2011-2020 | 1.4 D-4D 90 (1ND-TV) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — Yaris 1.4 D-4D'ye özgü kaynak aranmadı; gösterilen yağ tüketimi ve enjektör sorunları Corolla E150 ve Auris (1ND-TV) kayıtlarına dayanır. |
+| 2 | Yaris XP210 | 2020- | 1.5 Dynamic Force 125 (M15A-FKS) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — Yaris XP210 benzinli 1.5'e özgü kaynak aranmadı; şikâyetler çoğunlukla hibrit akü ve garanti konularında. Gösterilen krank ve biyel yatağı sarması aynı M15A-FKS motorunu kullanan Corolla E210 kaydına dayanır. |
+| 3 | Auris | 2007-2018 | 1.4 D-4D (1ND-TV) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
+| 3 | Avensis | 2011-2018 | 2.0 D-4D | – eklenmedi: Avensis 2.0 D-4D için güvenilir bir kronik sorun listesi çıkmadı; yalnızca tekil şikâyetler. |
 | 3 | Corolla E150 | 2007-2013 | 1.4 D-4D (1ND-TV) | ✓ 2 sorun, 1 yıl kırılımı |
 | 3 | Land Cruiser Prado | 2009- | 3.0 D-4D / 2.7 | ○ sırada |
 | 3 | Proace / Proace City | 2013- | 1.6 / 2.0 D-4D | ○ sırada |
 | 3 | RAV4 / Hilux | 2013- | 2.0 / 2.5 Hybrid / 2.4 D-4D | – eklenmedi: RAV4 için sistematik sorun çıkmadı; Hilux 2.4 DPF / PCS arıza şikâyetleri yalnızca Şikâyetvar'da (ikinci bağımsız kaynak yok). |
-| 3 | Yaris / Avensis | 2011- | 1.33 / hibrit / 2.0 D-4D | – eklenmedi: Yaris (1.33, hibrit) ve Avensis 2.0 D-4D için güvenilir bir kronik sorun listesi çıkmadı; yalnızca tekil şikâyetler. |
 
 ### Fiat
 
@@ -362,7 +366,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | Astra J | 2010-2015 | 1.4 Turbo (A14NET) | ✓ 1 sorun |
 | 1 | Astra K | 2015-2021 | 1.4 Turbo 125/150 | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Corsa D / E | 2006-2019 | 1.3 CDTI 75/95 | ✓ 2 sorun (+9 ortak aile) |
-| 1 | Mokka / Mokka X | 2012-2020 | 1.4 Turbo (A14NET) | – eklenmedi: Mokka'ya özgü, A14NET'i açıkça belirten tekrar eden bir şikâyet bulunamadı; aynı motor için Astra J ve Astra K kayıtlarına bakın. Faz 7'de yeniden arandı: Mokka şikâyetleri (47.000 km'de triger kayışı, yağ-su karışması, yağ kaçağı) motor tipini belirtmiyor ya da 1.2 PureTech'e ait; A14NET için Mokka'ya özgü kaynak yok. |
+| 1 | Mokka / Mokka X | 2012-2020 | 1.4 Turbo (A14NET) | ◐ 1 ortak aile sorunu — Mokka'ya özgü, A14NET'i açıkça belirten tekrar eden bir şikâyet bulunamadı. Faz 7'de yeniden arandı: Mokka şikâyetleri (47.000 km'de triger kayışı, yağ-su karışması, yağ kaçağı) motor tipini belirtmiyor ya da 1.2 PureTech'e ait. Gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır. |
 | 2 | Astra Electric | 2023-2025 | Elektrik (54 kWh, 156 PS) | ✓ 2 sorun, 2 yıl kırılımı |
 | 2 | Astra J | 2013-2015 | 1.6 CDTI 110/136 | ✓ 1 sorun (+1 ortak aile) |
 | 2 | Astra J | 2010-2015 | 1.6 benzinli atmosferik (Ecotec) | ✓ 1 sorun |
@@ -372,14 +376,15 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Corsa-e / Mokka-e | 2020- | Elektrik (50 kWh; 2024 sonrası Mokka'da 54 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | Crossland / Corsa F | 2017- | 1.2 PureTech 83/100/110/130 | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 2 | Insignia A | 2014-2017 | 1.6 CDTI 136 | ✓ 2 sorun |
-| 2 | Insignia A | 2008-2017 | 2.0 CDTI / 1.6 Turbo / 1.4 Turbo | – eklenmedi: Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı. |
+| 2 | Insignia A | 2008-2017 | 2.0 CDTI / 1.6 Turbo | – eklenmedi: Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı. |
 | 2 | Insignia B | 2017-2022 | 1.6 CDTI / 1.5 Turbo / 2.0 CDTI | ○ sırada |
-| 2 | Meriva B | 2010-2017 | 1.4 benzinli / 1.4 Turbo | – eklenmedi: Faz 9'da arandı: Şikâyetvar'daki Meriva kayıtları 2011 model Meriva B'de hava yastığı geri çağırması ve kapı kaplama parçası üzerine; forum yorumları eski ve genel (1.3 CDTI için çoğunlukla olumlu); 1.4 Turbo için sonuç çıkmadı. Motora özgü tekrar eden sorun çıkmadı. |
+| 2 | Meriva B | 2010-2017 | 1.4 atmosferik | – eklenmedi: Meriva 1.4 atmosferik için tekrar eden sorun çıkmadı; şikâyetler hava yastığı geri çağırması ve kapı kaplamasında. |
 | 2 | Mokka / Mokka X | 2012-2020 | 1.6 CDTI | ◐ 2 ortak aile sorunu — Mokka 1.6 CDTI zincir sesi ve otomatik şanzıman (P0741) şikâyetleri yalnızca Şikâyetvar'da; Mokka'ya özgü ikinci bağımsız site bulunamadı. Gösterilen triger zinciri ve turbo hortumu sorunları aynı motoru kullanan Astra J / K ve Insignia kaynaklarına dayanır. |
 | 2 | Mokka B | 2021- | 1.2 PureTech 100/130 (EB2) | ✓ 1 sorun (+1 ortak aile) |
 | 2 | Vivaro | 2014- | 1.6 CDTI (Biturbo) | ○ sırada |
-| 2 | Zafira Tourer | 2012-2019 | 2.0 CDTI / 1.4 Turbo | – eklenmedi: Faz 9'da arandı: Şikâyetvar'daki Zafira şikâyetleri elektronik ve uyarı lambaları üzerine; Zafira 2.0 CDTI için tek bir inceleme (sert vites düşürme) var; 1.6 CDTI ve 1.4 Turbo için sonuç çıkmadı. Motora özgü tekrar eden sorun çıkmadı. |
+| 2 | Zafira Tourer | 2012-2019 | 2.0 CDTI | – eklenmedi: Faz 9'da arandı: Şikâyetvar'daki Zafira şikâyetleri elektronik ve uyarı lambaları üzerine; Zafira 2.0 CDTI için tek bir inceleme (sert vites düşürme) var; 1.6 CDTI ve 1.4 Turbo için sonuç çıkmadı. Motora özgü tekrar eden sorun çıkmadı. |
 | 2 | Zafira Tourer | 2012-2019 | 1.6 CDTI 120/136 | ◐ 2 ortak aile sorunu — Zafira Tourer 1.6 CDTI için modele özgü sonuç çıkmadı (şikâyetler elektronik ve uyarı lambalarında). Gösterilen triger zinciri ve turbo hortumu sorunları aynı motoru kullanan Astra J / K ve Insignia kaynaklarına dayanır. |
+| 2 | Zafira Tourer | 2012-2019 | 1.4 Turbo 140 (A14NET) | ◐ 1 ortak aile sorunu — Zafira Tourer 1.4 Turbo için sonuç çıkmadı (şikâyetler elektronik ve uyarı lambalarında); gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır. |
 | 3 | Adam / Karl | 2013-2019 | 1.2 / 1.4 | ○ sırada |
 | 3 | Antara | 2007-2015 | 2.2 CDTI | ○ sırada |
 | 3 | Astra J | 2010-2015 | 1.7 / 2.0 CDTI | – eklenmedi: 1.7 ve 2.0 CDTI'ya özgü tekrar eden sorun çıkmadı; sonuçlar 1.6 ve 1.3 CDTI'ya ait. |
@@ -389,7 +394,9 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Frontera Electric | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da 112 şikâyet listeleniyor (batarya arızası, uzun servis bekleme, kalkışta geri kayma, fren diski korozyonu); tek taramada ikinci bağımsız site çıkmadı. |
 | 3 | Grandland X / Grandland | 2017- | 1.5 BlueHDi | ✓ 1 sorun (+2 ortak aile), 1 yıl kırılımı |
 | 3 | Insignia A | 2008-2017 | 2.0 CDTI (A20DTH) | – eklenmedi: A20DTH'ye özgü kronik sorun listesi çıkmadı; turbo hortumu şikâyetleri çoğunlukla 1.6 CDTI'a ait ve o kayıtta. |
+| 3 | Insignia A | 2008-2017 | 1.4 Turbo 140 (A14NET) | ◐ 1 ortak aile sorunu — Insignia 1.4 Turbo'ya özgü kaynak çıkmadı; gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır. |
 | 3 | Meriva B | 2010-2017 | 1.3 CDTI 95 (Multijet) | ◐ 5 ortak aile sorunu — Meriva 1.3 CDTI için forum yorumları eski ve genel (çoğunlukla olumlu); modele özgü sorun çıkmadı. Gösterilen enjektör, turbo, EGR ve zincir sorunları aynı Multijet motorunu kullanan Fiat ve Opel kaynaklarına dayanır. |
+| 3 | Meriva B | 2010-2017 | 1.4 Turbo 120 (A14NET) | ◐ 1 ortak aile sorunu — Meriva 1.4 Turbo için sonuç çıkmadı (şikâyetler hava yastığı geri çağırması ve kapı kaplamasında); gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır. |
 | 3 | Mokka B | 2021- | 1.5 BlueHDi 110 (DV5) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Faz 9'da arandı (tek sorgu, PureTech ile birlikte): Mokka B 1.5 BlueHDi'ya özgü kaynak çıkmadı; forumlarda AdBlue ve DPF sorunları PSA 1.5 BlueHDi'nın geneli için anılıyor. Gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır. |
 | 3 | Zafira B | 2005-2014 | 1.6 / 1.9 CDTI | ○ sırada |
 
@@ -513,17 +520,19 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | 3 Serisi F30 | 2012-2015 | 320d 2.0 (N47) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | 3 Serisi F30 | 2012-2015 | 320i / 328i 2.0 (N20) | ✓ 3 sorun, 1 yıl kırılımı |
 | 1 | 3 Serisi F30 | 2015-2019 | 320d (B47) / 320i (B48) | – eklenmedi: Kaynaklar B47'nin N47 sorunlarını büyük ölçüde çözdüğünü yazıyor ama çelişkili; B48 zincir/turbo yağ terlemesi tek kaynakta kaldı. |
-| 1 | 3 Serisi G20 | 2019- | 320i (B48) / 320d (B47) | ○ sırada |
-| 1 | 5 Serisi G30 | 2017-2023 | 520i (B48) / 520d (B47) | ○ sırada |
+| 1 | 3 Serisi G20 | 2019- | 320i (B48) / 320d (B47) | – eklenmedi: Şikâyetvar'da G20 için tekil kayıtlar var (45.000 km'de su pompası uyarısı, 60 bin km'de park freni arızası, 74.000 km'de diferansiyel uğultusu, 139.000 km'de soğutma sistemi uyarısı); Ekşi Sözlük'te N20 / B47 / B48'in daha az sorunlu sayıldığı, DonanımHaber'de bir G20 sahibinin B48'de kronik sorun yaşamadığı yazılıyor. Motora özgü tekrar eden sorun için iki bağımsız site çıkmadı. |
+| 1 | 5 Serisi G30 | 2017-2023 | 520i (B48) / 520d (B47) | – eklenmedi: Şikâyetvar'da G30 520i için tekrar eden konular ambiyans aydınlatma kesilmesi, kapı kolu içlerinin erimesi, sunroof perdesi, acil çağrı pili ve multimedya; motor ya da şanzıman için sistematik kayıt yok ve konular tek siteye (Şikâyetvar) ait. DonanımHaber'deki eski bir yazı egzoz ve şanzıman sorunlarını sayıyor ama zayıf bir kaynak. |
 | 1 | X1 E84 | 2009-2015 | sDrive18d / xDrive18d / xDrive20d (N47) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Modele özgü şikâyet çıkmadı; Şikâyetvar'daki X1 şikâyetleri şanzıman, direksiyon, fren ve kapı gıcırtısında toplanıyor. Gösterilen N47 zincir sorunu 1, 3 ve 5 Serisi kaynaklarına dayanır; bir yabancı rehber (Carpedia) zincir sorununun Mart 2011 sonrası üretimde belirgin azaldığını yazıyor. |
+| 1 | X1 F48 | 2015-2022 | sDrive18i 1.5 turbo (B38) | ◐ 1 ortak aile sorunu — Faz 9'da (tek sorgu) X1 F48 için Türkçe şikâyet ya da forum kaydı çıkmadı; bir Türkçe alım rehberi F48 18i'nin 1.5 üç silindirli turbo olduğunu yazıyor. Gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır. |
 | 1 | X3 F25 | 2010-2014 | sDrive18d / xDrive20d (N47) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı |
 | 1 | X3 F25 LCI | 2014-2017 | sDrive18d / xDrive20d (B47) | ◐ 1 ortak aile sorunu — B47 motoruna özgü kronik sorun aranmadı; yalnızca xDrive transfer kutusu ailesi gösteriliyor. |
-| 1 | X3 G01 | 2017- | xDrive20d (B47) / xDrive20i (B48) / xDrive30i | ○ sırada |
+| 1 | X3 G01 | 2017- | xDrive20d (B47) / xDrive20i (B48) / xDrive30i | – eklenmedi: G01 için kronik arıza bulan kaynak çıkmadı: Şikâyetvar'da 2018 model acil çağrı pili ve 2020 model geri görüş kamerası gibi tekil kayıtlar var; xDrive servo motor (VTG) anlatısı 2006 model X3'e ait. |
 | 1 | X5 E70 | 2007-2013 | xDrive30d / xDrive40d (M57 / N57) | ◐ 1 ortak aile sorunu — N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir. |
 | 1 | X5 F15 | 2013-2018 | xDrive25d / 30d / 40d (N57) | ◐ 1 ortak aile sorunu — N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir. |
 | 2 | 1 Serisi F20 | 2011-2015 | 116d 1.6 (N47D16) | ✓ 1 sorun (+1 ortak aile) |
 | 2 | 1 Serisi F20 | 2011-2019 | 118d 2.0 (N47D20 / B47) | – eklenmedi: 118d / B47 için F20'ye özgü ayrı kaynak bulunamadı; N47D20 zincir sorunu 320d ve 520d kayıtlarında ele alındı. |
 | 2 | 2 Serisi F22 / F45 / F44 | 2014- | 216d / 218i / 218d (B37 / B38 / B47) | ○ sırada |
+| 2 | 3 Serisi F30 | 2012-2015 | 316i 1.6 turbo (N13) | ◐ 7 ortak aile sorunu — 316i'ye özgü kaynak aranmadı; gösterilen sorunlar aynı N13 motorunu kullanan 116i / 118i (F20) kaydının kaynaklarına dayanır. |
 | 2 | 4 Serisi F32 / F36 | 2013-2020 | 418i / 420i (N20 / B48), 420d (B47) | ○ sırada |
 | 2 | 5 Serisi F10 | 2010-2015 | 520d 2.0 (N47D20) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 2 | 5 Serisi F10 | 2011-2016 | 520i / 528i (N20) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı |
@@ -533,8 +542,9 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | X3 F25 | 2011-2017 | xDrive30d (N57) | ◐ 1 ortak aile sorunu — N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir. |
 | 2 | X5 G05 | 2018- | xDrive30d / xDrive40d (B57) | ○ sırada |
 | 2 | iX / iX1 / iX3 / i4 | 2021- | Elektrik | – eklenmedi: Şikâyetvar'da hızlı şarjta düşük güç, şarj kapağı kilidi ve şarj soketi arızaları tekil; DonanımHaber'de yalnızca i4 menzil göstergesi tartışması var, ortak bir örüntü doğrulanamadı. NHTSA kayıtlarında iX / i4 için batarya (22V-541), birleşik şarj ünitesi (23V-449) ve 2024 i4 modül kaynak dikişi (24V-135) geri çağırmaları var; Türkiye kapsamı doğrulanamadı. |
-| 3 | 1 Serisi F40 / X1 F48 | 2015- | 116d / 118i / sDrive16d / 18i | – eklenmedi: Faz 9'da arandı (tek sorgu): Türkçe şikâyet ya da forum kaydı çıkmadı; bir Türkçe alım rehberi zincir / Valvetronic sorunlarının E84'ün 2.0 motoruna ait olduğunu, F48 18i'nin 1.5 üç silindirli turbo olduğunu yazıyor; AUTO BILD TÜV testi geri çağırmaları sıralıyor (EGR sızıntısı, airbag ateşleme, DKG bağlantıları). |
+| 3 | 1 Serisi F40 / X1 F48 | 2015- | 116d / 118i / sDrive16d / sDrive18d | – eklenmedi: Faz 9'da arandı (tek sorgu): Türkçe şikâyet ya da forum kaydı çıkmadı; bir Türkçe alım rehberi zincir / Valvetronic sorunlarının E84'ün 2.0 motoruna ait olduğunu, F48 18i'nin 1.5 üç silindirli turbo olduğunu yazıyor; AUTO BILD TÜV testi geri çağırmaları sıralıyor (EGR sızıntısı, airbag ateşleme, DKG bağlantıları). |
 | 3 | 3 Serisi E90 / 5 Serisi E60 | 2005-2013 | 316i / 318i / 320i (N46 / N52), 520i | – eklenmedi: N46 / N52'ye özgü ayrıntılı kaynak çıkmadı; soğutma sistemi ve yağ kaçağı anlatıları tekil. N47 zincir sorunu ayrı kayıtlarda. |
+| 3 | 3 Serisi F30 LCI | 2015-2019 | 318i 1.5 turbo (B38) | ◐ 1 ortak aile sorunu — 318i'ye özgü kaynak aranmadı; gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır. |
 | 3 | 7 Serisi F01 / G11 | 2009- | 730d / 740d (N57 / B57) | ○ sırada |
 | 3 | X2 F39 | 2018-2023 | sDrive18i / sDrive18d / xDrive20d (B38 / B47) | ○ sırada |
 | 3 | X4 F26 / G02 | 2014- | xDrive20d / xDrive30d (B47 / N57) | ○ sırada |
@@ -590,7 +600,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | Focus 3 | 2011-2018 | 1.6 Ti-VCT (Powershift DPS6) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | Focus 3 | 2011-2018 | 1.5 TDCi 95/120 | – eklenmedi: Enjektör ve DPF şikâyetleri dağınık, DPF şikâyetleri ağırlıkla 2019 sonrası EcoBlue'ya ait; 2015-2018 1.5 TDCi için ortak sorun yok. Faz 7'de yeniden arandı: Türkçe kaynaklar 1.6 TDCi ve 2019 sonrası EcoBlue'ya ait; Mk3 1.5 TDCi için yalnızca Ford Owners Club'da (İngiltere) DPF, EGR ve çalışma sorunu konuları var, ikinci bağımsız Türkçe kaynak çıkmadı. |
 | 1 | Focus 4 / Kuga 3 | 2019- | 1.5 EcoBlue 120 (DV5) | ✓ 2 sorun |
-| 1 | Transit | 2006- | 2.2 TDCi / 2.0 EcoBlue | ○ sırada |
+| 1 | Transit | 2006- | 2.2 TDCi / 2.0 EcoBlue | – eklenmedi: Şikâyetvar'da Transit için enjektör (37.500 km'de enjektör arızası, yaklaşık 50 bin TL teklif), turbo ve volan / debriyaj şikâyetleri ile 2017 model Transit 2.2 155 PS'te 150 bin km'de piston delinmesi var; DonanımHaber'de 2012 Transit 350 için volan değişimi önerisi geçiyor. Anlatılar tekil, motor hacmi ayrımı yapılmıyor; iki bağımsız siteyle doğrulanan tekrar eden bir sorun çıkmadı. |
 | 2 | C-Max / Grand C-Max | 2010-2019 | 1.5 TDCi | – eklenmedi: C-Max 1.5 TDCi için sonuç çıkmadı. |
 | 2 | C-Max / Grand C-Max | 2010-2019 | 1.6 TDCi 95/115 (DV6) | ◐ 3 ortak aile sorunu — Faz 9'da arandı: DonanımHaber'de 2011 model C-Max 1.6 TDCi'da enjektör arızası (tek başlık, bir enjektör için yaklaşık 1.230 TL teklif), Şikâyetvar'da 2012 model 1.6 TDCi'da enjektör pulu değişiminden sonra motor arızası (tek vaka); turbo boru / hortum ve DPF yorumları genel 1.6 TDCi'ya ait (Focus 1.6 TDCi kaydı). İkinci bağımsız doğrulama yok. Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır. |
 | 2 | C-Max / Grand C-Max | 2010-2019 | 1.6 Ti-VCT 105 (Powershift DPS6) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — C-Max'e özgü Powershift kaynağı aranmadı; gösterilen kavrama ve TCM sorunları Focus 3, Fiesta ve Volvo V40 / S60 kaynaklarına dayanır. |
@@ -599,7 +609,8 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Courier / Tourneo Courier | 2014- | 1.0 EcoBoost 100 | ◐ 2 ortak aile sorunu, 2 yıl kırılımı — Şikâyetler fren sesi, gıcırtı ve genel motor arıza lambası gibi dağınık konularda; ortak bir arıza için iki bağımsız site bulunamadı. Gösterilen sorunlar aynı EcoBoost motorunu kullanan Fiesta, Focus ve EcoSport kaynaklarına dayanır. |
 | 2 | EcoSport | 2013-2017 | 1.5 Ti-VCT 112 (Powershift DPS6) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — EcoSport 1.5 Ti-VCT Powershift'e özgü kaynak aranmadı; gösterilen kavrama ve TCM sorunları Focus 3, Fiesta ve Volvo V40 / S60 kaynaklarına dayanır. |
 | 2 | Fiesta | 2008-2023 | 1.25 / 1.4 Duratec | – eklenmedi: Kullanıcılar 1.25 ve 1.4 benzinlileri sorunsuz olarak anıyor; kronik sorun bulunamadı. |
-| 2 | Focus 3 | 2011-2018 | 1.5 EcoBoost 150/182 | – eklenmedi: Focus için sonuçlar ağırlıkla 1.0 EcoBoost; 1.5 EcoBoost silindir kapağı sorunu Kuga 2 / Mondeo kaydında ele alındı, Focus'a özgü kaynak yok. |
+| 2 | Focus 3 | 2015-2018 | 1.5 EcoBoost 150/182 | ◐ 1 ortak aile sorunu — Focus için sonuçlar ağırlıkla 1.0 EcoBoost; Focus'a özgü 1.5 EcoBoost kaynağı yok. Gösterilen silindir kapağı sorunu aynı motoru kullanan Kuga 2 / Mondeo kaydına dayanır. |
+| 2 | Focus 4 | 2018- | 1.5 EcoBoost 150/182 | ◐ 1 ortak aile sorunu — Focus 4 1.5 EcoBoost'a özgü kaynak aranmadı; gösterilen silindir kapağı sorunu aynı motoru kullanan Kuga 2 / Mondeo kaydına dayanır. |
 | 2 | Kuga 2 | 2013-2019 | 1.5 EcoBoost 150/182 | ✓ 1 sorun |
 | 2 | Kuga 2 | 2013-2019 | 2.0 TDCi 140/150/180 | – eklenmedi: Faz 9'da arandı: 2011 model bir Kuga'da (Kuga 1) enjektör tutucu bacaklarının kırılması (tek vaka) ve Powershift'te düşük devirde vites düşürme gecikmesi, geri vitesten D'ye geçişte sarsıntı yorumları var; Şikâyetvar'daki turbo arızası şikâyetinde motor tipi belirtilmiyor. 2.0 TDCi için tekrar eden, iki siteyle doğrulanan sorun çıkmadı. |
 | 2 | Puma | 2019- | 1.0 EcoBoost mHEV | ◐ 2 ortak aile sorunu, 2 yıl kırılımı — Forum görüşleri çelişkili (bazıları en sorunsuz 3 silindirli diyor); tekrar eden bir motor sorunu için kanıt yok. Gösterilen soğutma kaçağı ve yağ banyolu kayış sorunları aynı EcoBoost motorunu kullanan Fiesta, Focus ve EcoSport kaynaklarına dayanır. |
@@ -674,7 +685,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | A4 B8 | 2008-2015 | 1.8 TFSI / 2.0 TFSI (EA888 Gen2) | ✓ 4 sorun, 2 yıl kırılımı |
 | 1 | A4 B8 | 2008-2015 | 2.0 TDI 143/150/177 (Multitronic) | ✓ 1 sorun |
 | 1 | Q5 8R | 2008-2017 | 2.0 TDI | – eklenmedi: Q5 2.0 TDI için modele özgü kaynak çıkmadı: DonanımHaber'de Q5 başlıkları 2.0 TFSI yağ yakma (ayrı kayıtta), S tronic ve akü / alternatör üzerine; 2.0 TDI enjektör ve DPF anlatıları A5 / A6 başlıklarında ve eski 143-170 hp motorlara ait, 2.0 TDI için doğrulanmış bir sorun listesi çıkmadı. |
-| 1 | Q5 FY | 2017- | 40 TDI 2.0 (quattro S tronic) / 45 TFSI | ○ sırada |
+| 1 | Q5 FY | 2017- | 40 TDI 2.0 (quattro S tronic) / 45 TFSI | – eklenmedi: 2017 Q5 2.0 TDI quattro için DonanımHaber'de kronik sorun iddiası kaynaksız, aynı başlıktaki kullanıcılar 2.0 TDI 177 hp ve S tronic'in sağlam olduğunu yazıyor; yağ tüketimi anlatıları TFSI'ya ait. Doğrulanmış bir sorun çıkmadı. |
 | 2 | A3 8V | 2012-2020 | 1.0 TFSI | – eklenmedi: 1.0 TFSI için yalnızca tekil anekdotlar (start-stop sonrası kalkış, far). |
 | 2 | A3 8V | 2012-2020 | 1.2 TFSI 105 (EA211) | ◐ 1 ortak aile sorunu — 1.2 TFSI için A3'e özgü sonuç çıkmadı; gösterilen yağ tüketimi anlatısı aynı EA211 1.2 TSI motorunu kullanan Golf 7 kaynaklarına dayanır. S tronic şikâyetleri 1.4 TFSI ve 1.6 TDI kayıtlarında. |
 | 2 | A3 8V (2.0 TDI / 1.8 TFSI) | 2012-2020 | 2.0 TDI 150 / 1.8 TFSI 180 | ○ sırada |
@@ -707,11 +718,14 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | Civic FC5 | 2016-2021 | 1.6 i-VTEC 125 (CVT) | ✓ 1 sorun |
 | 1 | Civic FC5 | 2016-2021 | 1.5 VTEC Turbo (L15B7) | ✓ 2 sorun, 1 yıl kırılımı |
 | 2 | Accord | 2008-2015 | 2.0 i-VTEC / 2.2 i-DTEC | – eklenmedi: Faz 9'da arandı: Accord 2.0 i-VTEC / 2.2 i-DTEC için bu aramada veri çıkmadı (aynı sorgudaki Civic 1.6 i-DTEC DPF sorunu ayrı kayıtta). |
-| 2 | CR-V | 2012-2018 | 1.6 i-DTEC | ✓ 1 sorun, 1 yıl kırılımı |
+| 2 | CR-V | 2012-2018 | 1.6 i-DTEC | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 2 | CR-V | 2012-2018 | 2.0 i-VTEC | – eklenmedi: 2.0 i-VTEC için yağ eksiltme ve SRS şikâyetleri tekil kullanıcı anlatımları; ikinci bağımsız kaynak bulunamadı. |
+| 2 | CR-V RW | 2017-2022 | 1.5 VTEC Turbo 173 (CVT) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — CR-V 1.5 VTEC Turbo'ya özgü kaynak aranmadı; gösterilen yağa yakıt karışması aynı motor ailesini kullanan Civic FC5 kaydına dayanır. |
 | 2 | City | 2009- | 1.5 i-VTEC / 1.5 Hybrid | – eklenmedi: City 1.5 için yakıt tüketimi ve vites geçişi şikâyetleri yalnızca Şikâyetvar'da (2021 model); ikinci bağımsız kaynak yok. |
 | 2 | Civic FB7 | 2012-2015 | 1.6 i-VTEC / 1.8 i-VTEC | – eklenmedi: FB7 şikâyetleri ağırlıkla boya atması ve kozmetik; motora özgü sorunlar tekil (130 bin km'de motor yanması, 1.8 yağ sızıntısı için eski bir forum yazısı). |
-| 2 | Civic FC5 (dizel) | 2016-2021 | 1.6 i-DTEC 120 (9 ileri otomatik) | ✓ 1 sorun |
+| 2 | Civic FC5 (dizel) | 2016-2021 | 1.6 i-DTEC 120 (9 ileri otomatik) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
+| 3 | Civic FB7 | 2013-2016 | 1.6 i-DTEC 120 | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — Civic FB7 1.6 i-DTEC'e özgü kaynak aranmadı; gösterilen DPF ve turbo hortumu sorunları aynı N16A motorunu kullanan Civic FC5 ve CR-V kayıtlarına dayanır. |
+| 3 | HR-V RU | 2015-2021 | 1.6 i-DTEC 120 | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — HR-V 1.6 i-DTEC'e özgü kaynak aranmadı; gösterilen DPF ve turbo hortumu sorunları aynı N16A motorunu kullanan Civic FC5 ve CR-V kayıtlarına dayanır. |
 | 3 | Jazz / HR-V | 2011- | 1.3 / 1.5 i-VTEC | – eklenmedi: 1.3 / 1.5 i-VTEC CVT için kanıtlı kronik sorun çıkmadı; bulunanlar eski nesil Jazz CVT, eski kasa HR-V yorumu ve hibrit akü şikâyeti. |
 
 ### Seat (ek kademe)
@@ -741,13 +755,14 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | S60 II / V60 | 2010-2018 | D3 / D4 / D5, T4 / T5 (Drive-E) | ○ sırada |
-| 1 | XC60 (2008-2017) | 2008-2017 | 2.4 D5 / D4 2.0 (Drive-E) / T5 | ○ sırada |
+| 1 | S60 II / V60 | 2010-2018 | D3 / D4 / D5, T4 / T5 | – eklenmedi: Bu oturumdaki aramada Türkçe kaynakların çoğu S60'a ait ve en çok tekrarlanan konu D2 Powershift (ayrı kayıtta); V60 ve D3 / D4 / D5 Drive-E için özel veri az. 1.6 T4 EcoBoost için hararet, soğutma suyu eksilmesi ve silindir kapağı contası iddiaları var (Şikâyetvar ve DonanımHaber; 65-70 bin TL'lik blok değişimi teklifi gibi eski tarihli tekil vakalar), ancak kilometre bilgisi ve tekrar örüntüsü doğrulanamadı. |
+| 1 | XC60 (2008-2017) | 2008-2017 | 2.4 D5 / D4 2.0 (Drive-E) / T5 | – eklenmedi: Bu oturumdaki aramada DonanımHaber'de 2011 model XC60 D5'te otomatik şanzımanda D'ye alırken sektirme (yağ değişiminin biraz iyileştirdiği) ve 2016 model D4'te yaklaşık 300.000 km'de blok çatlağı gibi tekil anlatılar çıktı; enjektör için kayıt yok. Tekrar eden bir sorun için iki bağımsız site çıkmadı. |
 | 2 | EX30 / XC40 Recharge | 2021- | Elektrik | – eklenmedi: EX30 için hücre kusuru geri çağırması var (Sunwoda hücreleri, %70 şarj sınırı, modül değişimi); Avrupa'da yalnızca sağ direksiyonlu 69 kWh modelleri kapsadığı yazılıyor ve Türkiye kapsamı doğrulanamadı. Şikâyetvar'daki hızlı şarj, 'Electric Drive Fault' ve XC40 Recharge motor / batarya şikâyetleri tekil. |
 | 2 | S90 / V90 | 2016- | D4 / D5 / T5 / T6 | ○ sırada |
 | 2 | V40 (2012-2019) | 2012-2019 | D4 2.0 (Drive-E) / T3 / T4 / T5 | ○ sırada |
+| 2 | V60 | 2013-2018 | D2 1.6 D DRIVe (Powershift) | ◐ 5 ortak aile sorunu, 1 yıl kırılımı — V60 D2'ye özgü kaynak aranmadı (S60 / V40 D2 ile aynı motor ve şanzıman); gösterilen sorunlar S60 / V40 D2 Powershift ve DV6 kayıtlarına dayanır. |
 | 2 | XC40 (2018-) | 2018- | T3 / T4 / D3 / B4 (hafif hibrit) | ○ sırada |
-| 2 | XC60 (2017-) | 2017- | D4 / D5 / T5 / B4 | ○ sırada |
+| 2 | XC60 (2017-) | 2017- | D4 / D5 / T5 / B4 | – eklenmedi: Bu oturumdaki aramada Şikâyetvar'da 2020 model XC60'larda turbo arızası (70.000 km) ve B4 dizelde partikül sensörü şikâyeti gibi tekil kayıtlar çıktı; ikinci bağımsız kaynak yok. |
 | 2 | XC90 (2002-2014) | 2002-2014 | 2.4 D5 / 3.2 | ○ sırada |
 | 2 | XC90 (2015-) | 2015- | D5 / T5 / T6 | ○ sırada |
 | 3 | S60 / V40 | 2011-2018 | 1.6 D DRIVe (Powershift) | ✓ 1 sorun (+4 ortak aile) |
@@ -765,7 +780,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 3 | Cooper / One (F56) | 2014- | 1.5 üç silindir (B38) | – eklenmedi: F56 1.5 üç silindir için kaynak çıkmadı; bir Ekşi yorumu yağ kaçırdığını söylüyor ama motor belirsiz. |
+| 3 | Cooper / One (F56) | 2014- | 1.5 üç silindir turbo (B38) | ◐ 1 ortak aile sorunu — F56 1.5 üç silindir için kaynak çıkmadı; bir Ekşi yorumu yağ kaçırdığını söylüyor ama motor belirsiz. Gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır. |
 | 3 | Cooper S / Countryman S (R56 / R60) | 2007-2016 | 1.6 turbo benzinli (N14 / N18) | ✓ 1 sorun (+2 ortak aile) |
 | 3 | Cooper SE | 2020- | Elektrik | – eklenmedi: Şikâyetvar'da dört kayıt (sürüş kontrolü kaybı iddiası, 37 gün parça beklemesi); DonanımHaber yorumları olumlu. Tekrar eden bir arıza örüntüsü yok. NHTSA 24V-612 geri çağırması 2020-2024 Cooper SE'yi kapsıyor (12.535 araç; yazılımla bataryanın %30'un altına boşaltılması, yangın riski); Türkiye kapsamı ve Türkiye'den bir şikâyet bulunamadı. |
 | 3 | Countryman F60 | 2017- | Cooper / Cooper S 1.5 - 2.0 (B38 / B48) | ○ sırada |
