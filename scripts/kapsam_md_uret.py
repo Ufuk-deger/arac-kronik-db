@@ -68,7 +68,7 @@ def uret():
     elenen = sum(1 for o, k in eslesmeler if not k and o.get("sonuc"))
     kalan = toplam - tamam - elenen
     kademe1 = [(o, k) for o, k in eslesmeler if o["kademe"] == 1]
-    kademe1_tamam = sum(1 for _, k in kademe1 if k)
+    kademe1_islenen = sum(1 for o, k in kademe1 if k or o.get("sonuc"))
 
     satir = [
         "# Kapsam ve ilerleme",
@@ -105,10 +105,10 @@ def uret():
         f"- Tamamlanan (✓): **{tamam}**",
         f"- Araştırılıp eklenmeyen (–): **{elenen}**",
         f"- Sırada (○): **{kalan}**",
-        f"- Kademe 1: **{kademe1_tamam}/{len(kademe1)}** tamam",
+        f"- Kademe 1: **{kademe1_islenen}/{len(kademe1)}** işlendi (✓ ya da –)",
         f"- Veritabanı: **{len(araclar)}** kayıt, **{sum(len(a['kronik_sorunlar']) for a in araclar)}** kronik sorun",
         "",
-        "| Marka | Plan | ✓ | – | ○ | Kademe 1 |",
+        "| Marka | Plan | ✓ | – | ○ | Kademe 1 işlenen |",
         "| --- | ---: | ---: | ---: | ---: | ---: |",
     ]
     marka_sirasi = [m["marka"] for m in markalar if m["kapsam"] != "dışarıda"]
@@ -120,7 +120,7 @@ def uret():
         e = sum(1 for o, k in oge if not k and o.get("sonuc"))
         k1 = [(o, k) for o, k in oge if o["kademe"] == 1]
         satir.append(
-            f"| {marka} | {len(oge)} | {t} | {e} | {len(oge) - t - e} | {sum(1 for _, k in k1 if k)}/{len(k1)} |"
+            f"| {marka} | {len(oge)} | {t} | {e} | {len(oge) - t - e} | {sum(1 for o, k in k1 if k or o.get('sonuc'))}/{len(k1)} |"
         )
 
     satir += [

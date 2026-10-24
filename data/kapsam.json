@@ -584,29 +584,14 @@
       "marka": "Fiat",
       "model": "Doblo",
       "yillar": "2010-2022",
-      "motor": "1.3 Multijet 90",
+      "motor": "1.3 / 1.6 Multijet (90/105/120)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "Doblo"
         ],
         "motor": [
-          "1.3 Multijet"
-        ]
-      }
-    },
-    {
-      "marka": "Fiat",
-      "model": "Doblo",
-      "yillar": "2010-2022",
-      "motor": "1.6 Multijet 105/120",
-      "kademe": 1,
-      "eslesme": {
-        "model": [
-          "Doblo"
-        ],
-        "motor": [
-          "1.6 Multijet"
+          "Multijet"
         ]
       }
     },
@@ -790,7 +775,9 @@
         "motor": [
           "1.6 CRDi"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; model/motor bazında tekrar eden sorun için iki bağımsız site bulunamadı."
     },
     {
       "marka": "Hyundai",
@@ -821,7 +808,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Tek bir 7DCT kalkış titremesi şikâyeti dışında tekrar eden sorun bulunamadı."
     },
     {
       "marka": "Hyundai",
@@ -943,7 +932,9 @@
         "motor": [
           "DV6"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Enjektör, EGR ve turbo anıları dağınık ve tek tek vaka; 301 kaydındaki DV6 sorunları aynı motor ailesi için geçerlidir."
     },
     {
       "marka": "Peugeot",
@@ -1024,15 +1015,15 @@
     {
       "marka": "Opel",
       "model": "Astra J",
-      "yillar": "2010-2015",
-      "motor": "1.6 CDTI / 1.7 CDTI / 2.0 CDTI",
+      "yillar": "2013-2015",
+      "motor": "1.6 CDTI 110/136",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Astra J"
         ],
         "motor": [
-          "CDTI"
+          "1.6 CDTI"
         ]
       }
     },
@@ -1095,22 +1086,9 @@
           "1.2",
           "1.4"
         ]
-      }
-    },
-    {
-      "marka": "Opel",
-      "model": "Corsa F",
-      "yillar": "2019-",
-      "motor": "1.2 PureTech 75/100/130",
-      "kademe": 2,
-      "eslesme": {
-        "model": [
-          "Corsa F"
-        ],
-        "motor": [
-          "PureTech"
-        ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Aramalarda A12XER/A14XER için kronik sorun bulunamadı; sonuçlar PureTech'e ait."
     },
     {
       "marka": "Opel",
@@ -1125,7 +1103,9 @@
         "motor": [
           "1.4 Turbo"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Mokka'ya özgü, A14NET'i açıkça belirten tekrar eden bir şikâyet bulunamadı; aynı motor için Astra J ve Astra K kayıtlarına bakın."
     },
     {
       "marka": "Opel",
@@ -1145,30 +1125,30 @@
     {
       "marka": "Opel",
       "model": "Insignia A",
-      "yillar": "2008-2017",
-      "motor": "2.0 CDTI / 1.6 Turbo / 1.4 Turbo",
+      "yillar": "2014-2017",
+      "motor": "1.6 CDTI 136",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Insignia"
+          "Insignia A"
         ],
         "motor": [
-          ""
+          "1.6 CDTI"
         ]
       }
     },
     {
       "marka": "Opel",
-      "model": "Crossland / Grandland",
+      "model": "Crossland / Corsa F",
       "yillar": "2017-",
-      "motor": "1.2 PureTech / 1.5 BlueHDi",
+      "motor": "1.2 PureTech 83/100/110/130",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Crossland"
         ],
         "motor": [
-          ""
+          "PureTech"
         ]
       }
     },
@@ -1295,13 +1275,13 @@
     },
     {
       "marka": "Skoda",
-      "model": "Octavia A7",
-      "yillar": "2013-2020",
-      "motor": "1.6 TDI 105/110",
+      "model": "Octavia A5 / A7",
+      "yillar": "2010-2020",
+      "motor": "1.6 TDI 105/110 (DSG DQ200)",
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Octavia (A7"
+          "Octavia (A5 / A7"
         ],
         "motor": [
           "1.6 TDI"
@@ -1731,20 +1711,22 @@
         "motor": [
           "Hybrid"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetler ses yalıtımı, fren diski paslanması ve 12V akü gibi mekanik olmayan konularda; tekrar eden mekanik sorun bulunamadı."
     },
     {
       "marka": "Toyota",
-      "model": "Corolla E170",
-      "yillar": "2013-2018",
-      "motor": "1.33 Dual VVT-i / 1.6 Valvematic (Multidrive S)",
+      "model": "Corolla E150 FL / E170",
+      "yillar": "2009-2018",
+      "motor": "1.33 Dual VVT-i 99",
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Corolla (E170"
+          "Corolla (E150 FL / E170"
         ],
         "motor": [
-          ""
+          "1.33"
         ]
       }
     },
@@ -1791,7 +1773,9 @@
         "motor": [
           "1.2"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Yağ yakma ve şanzıman anıları motor tipi belirtilmeden, tek tek vaka; iki bağımsız site bulunamadı."
     },
     {
       "marka": "Toyota",
@@ -1806,7 +1790,9 @@
         "motor": [
           "Hybrid"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Hibrit sistem uyarısı dışında tekrar eden mekanik sorun bulunamadı."
     },
     {
       "marka": "Toyota",
@@ -1910,21 +1896,6 @@
         ],
         "motor": [
           "OM6"
-        ]
-      }
-    },
-    {
-      "marka": "Mercedes-Benz",
-      "model": "E Serisi W212",
-      "yillar": "2009-2016",
-      "motor": "E200 CGI / E250 CDI / E220 CDI",
-      "kademe": 1,
-      "eslesme": {
-        "model": [
-          "W212"
-        ],
-        "motor": [
-          ""
         ]
       }
     },
@@ -2113,21 +2084,6 @@
     },
     {
       "marka": "Nissan",
-      "model": "Juke",
-      "yillar": "2010-2019",
-      "motor": "1.6 / 1.2 DIG-T / 1.5 dCi",
-      "kademe": 1,
-      "eslesme": {
-        "model": [
-          "Juke"
-        ],
-        "motor": [
-          ""
-        ]
-      }
-    },
-    {
-      "marka": "Nissan",
       "model": "Qashqai J10",
       "yillar": "2007-2013",
       "motor": "1.5 dCi / 1.6",
@@ -2249,12 +2205,12 @@
     {
       "marka": "Ford",
       "model": "Fiesta",
-      "yillar": "2008-2023",
-      "motor": "1.5 / 1.6 TDCi",
+      "yillar": "2008-2017",
+      "motor": "1.4 / 1.6 TDCi",
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Fiesta"
+          "Fiesta (Mk7"
         ],
         "motor": [
           "TDCi"
@@ -2269,12 +2225,14 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Fiesta"
+          "Fiesta (Mk7"
         ],
         "motor": [
           "Duratec"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Kullanıcılar 1.25 ve 1.4 benzinlileri sorunsuz olarak anıyor; kronik sorun bulunamadı."
     },
     {
       "marka": "Ford",
@@ -2319,7 +2277,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Forum görüşleri çelişkili (bazıları en sorunsuz 3 silindirli diyor); tekrar eden bir motor sorunu için kanıt yok."
     },
     {
       "marka": "Ford",
@@ -2334,7 +2294,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetler fren sesi, gıcırtı ve genel motor arıza lambası gibi dağınık konularda; ortak bir arıza için iki bağımsız site bulunamadı."
     },
     {
       "marka": "Kia",
@@ -2400,14 +2362,14 @@
       "marka": "Kia",
       "model": "Rio",
       "yillar": "2011-2017",
-      "motor": "1.4 MPI / 1.4 CRDi",
+      "motor": "1.4 CRDi 90",
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Rio"
+          "Rio (UB"
         ],
         "motor": [
-          ""
+          "CRDi"
         ]
       }
     },
@@ -2665,6 +2627,178 @@
           ""
         ]
       }
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla E170",
+      "yillar": "2013-2018",
+      "motor": "1.6 Valvematic (Multidrive S)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Corolla (E170"
+        ],
+        "motor": [
+          "Valvematic"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyet sitelerinde 1.6 Valvematic ve Multidrive S için tekrar eden bir sorun kümesi bulunamadı."
+    },
+    {
+      "marka": "Nissan",
+      "model": "Juke",
+      "yillar": "2010-2019",
+      "motor": "1.6 (CVT Xtronic)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Juke (F15"
+        ],
+        "motor": [
+          "CVT"
+        ]
+      }
+    },
+    {
+      "marka": "Nissan",
+      "model": "Juke",
+      "yillar": "2014-2019",
+      "motor": "1.2 DIG-T 115 (HRA2DDT)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Juke (F15"
+        ],
+        "motor": [
+          "DIG-T"
+        ]
+      }
+    },
+    {
+      "marka": "Nissan",
+      "model": "Juke",
+      "yillar": "2010-2019",
+      "motor": "1.5 dCi 110 (K9K)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Juke (F15"
+        ],
+        "motor": [
+          "1.5 dCi"
+        ]
+      }
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Serisi W212",
+      "yillar": "2009-2016",
+      "motor": "E200 / E250 CGI 1.8 turbo (M271 EVO)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "W212"
+        ],
+        "motor": [
+          "M271"
+        ]
+      }
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Serisi W212",
+      "yillar": "2009-2016",
+      "motor": "E250 CDI 2.1 (OM651)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "W212"
+        ],
+        "motor": [
+          "OM651"
+        ]
+      }
+    },
+    {
+      "marka": "Ford",
+      "model": "Fiesta Mk7",
+      "yillar": "2011-2017",
+      "motor": "1.6 Ti-VCT 105 (Powershift DPS6)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Fiesta (Mk7"
+        ],
+        "motor": [
+          "Powershift"
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Crossland / Grandland",
+      "yillar": "2017-",
+      "motor": "1.5 BlueHDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Crossland"
+        ],
+        "motor": [
+          "BlueHDi"
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Insignia A",
+      "yillar": "2008-2017",
+      "motor": "2.0 CDTI / 1.6 Turbo / 1.4 Turbo",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Insignia A"
+        ],
+        "motor": [
+          "2.0 CDTI",
+          "1.6 Turbo",
+          "1.4 Turbo"
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra J",
+      "yillar": "2010-2015",
+      "motor": "1.7 / 2.0 CDTI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Astra J"
+        ],
+        "motor": [
+          "1.7 CDTI",
+          "2.0 CDTI"
+        ]
+      }
+    },
+    {
+      "marka": "Kia",
+      "model": "Rio",
+      "yillar": "2011-2017",
+      "motor": "1.4 MPI 100",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Rio (UB"
+        ],
+        "motor": [
+          "MPI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Forumlarda sorunsuz olarak anılıyor; kronik sorun bulunamadı."
     }
   ]
 }

@@ -42,18 +42,18 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 58 farklı site, 104 sorun için kullanıldı.
+Toplam 58 farklı site, 140 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [Araclo](https://www.araclo.com/) | TR | düşük | 48 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
-| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 47 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
-| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 46 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
-| [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 31 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. |
-| [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 21 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
-| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 5 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
+| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 77 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
+| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 74 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
+| [Araclo](https://www.araclo.com/) | TR | düşük | 57 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
+| [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 43 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. |
+| [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 29 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
+| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 11 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
 | [arabam.com Blog](https://www.arabam.com/blog/) | TR | düşük | 4 | İlan sitesinin blog yazıları. Genel bilgi verir; bazı yazılar motorun 'büyük bir kronik sorunu yoktur' gibi genellemeler içeriyor. |
 
 ## Yurtdışı kaynaklar
@@ -88,13 +88,13 @@ Toplam 58 farklı site, 104 sorun için kullanıldı.
 | [BenzWorld](https://www.benzworld.org/) | US | orta | 2 | Mercedes-Benz forumu. |
 | [Berlingo Forum](https://www.berlingoforum.com/) | UK | orta | 2 | Citroën Berlingo ve PSA dizel (HDi) forumu. |
 | [CivicX](https://www.civicx.com/) | US | orta | 2 | Honda Civic (10. nesil) forumu. |
+| [German Car Forum](https://www.germancarforum.com/) | Global | orta | 2 | Alman markaları forumu. |
 | [MB Club UK](https://forums.mbclub.co.uk/) | UK | orta | 2 | Mercedes-Benz sahipleri forumu. |
 | [8thCivic](https://www.8thcivic.com/) | US | orta | 1 | Honda Civic (8. nesil, FD) forumu. |
 | [AudiSRS](https://audisrs.com/) | UK | orta | 1 | Audi ve VAG forumu. |
 | [Audizine](https://www.audizine.com/) | US | orta | 1 | Audi forumu. |
 | [E90Post](https://www.e90post.com/) | US | orta | 1 | BMW 3 Serisi E90/E92 forumu. |
 | [Forum Peugeot](https://www.forum-peugeot.com/) | FR | orta | 1 | Fransızca Peugeot forumu. |
-| [German Car Forum](https://www.germancarforum.com/) | Global | orta | 1 | Alman markaları forumu. |
 | [PicoAuto Forum](https://www.picoauto.com/support/) | UK | düşük | 1 | Tanı cihazı üreticisinin destek forumu. |
 | [Toyota Owners Club](https://toyotaownersclub.com/) | UK | orta | 1 | Toyota sahipleri forumu (Auris/Corolla D-4D). |
 | [Planète Renault](https://www.planeterenault.com/forum/) | FR | orta | yalnızca rapor | Fransızca Renault forumu. K9K yatak sorunu için moderatör yazısı bu sitede. |
@@ -117,8 +117,8 @@ Toplam 58 farklı site, 104 sorun için kullanıldı.
 | --- | --- | --- | ---: | --- |
 | [Parkers](https://www.parkers.co.uk/) | UK | orta | 7 | İkinci el alım rehberleri ve haberler. |
 | [L'argus](https://www.largus.fr/) | FR | yüksek | 4 | Fransız otomotiv yayını. Güvenilirlik yazıları, tekrarlayan arıza listeleri ve geri çağırma haberleri. |
+| [AUTO BILD](https://www.autobild.de/) | DE | yüksek | 2 | Alman otomotiv yayını. Şikâyet sayıları ve üretici açıklamaları. |
 | [The Connexion](https://www.connexionfrance.com/) | FR | orta | 2 | Fransa haberleri (İngilizce). UFC-Que Choisir'in 1.2 TCe yağ tüketimi uyarısını aktarıyor. |
-| [AUTO BILD](https://www.autobild.de/) | DE | yüksek | 1 | Alman otomotiv yayını. Şikâyet sayıları ve üretici açıklamaları. |
 | [CarGuide.PH](https://www.carguide.ph/) | PH | orta | 1 | Filipinler otomotiv haberleri. BMW geri çağırma duyurusu. |
 | [Caradisiac](https://www.caradisiac.com/) | FR | orta | 1 | Fransız otomotiv yayını. Güvenilirlik dosyaları ve forum bölümü var. |
 | [Gebrauchtwagenberater](https://gebrauchtwagenberater.de/) | DE | düşük | 1 | Almanca ikinci el rehberi (Astra K). Resmî bir Opel belgesi değil. |

@@ -20,29 +20,29 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **166** model/motor grubu
-- Tamamlanan (✓): **49**
-- Araştırılıp eklenmeyen (–): **3**
-- Sırada (○): **114**
-- Kademe 1: **45/82** tamam
-- Veritabanı: **55** kayıt, **104** kronik sorun
+- Plan: **173** model/motor grubu
+- Tamamlanan (✓): **76**
+- Araştırılıp eklenmeyen (–): **16**
+- Sırada (○): **81**
+- Kademe 1: **72/84** işlendi (✓ ya da –)
+- Veritabanı: **83** kayıt, **140** kronik sorun
 
-| Marka | Plan | ✓ | – | ○ | Kademe 1 |
+| Marka | Plan | ✓ | – | ○ | Kademe 1 işlenen |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Renault | 14 | 7 | 1 | 6 | 6/7 |
-| Volkswagen | 18 | 5 | 0 | 13 | 4/9 |
-| Toyota | 10 | 2 | 0 | 8 | 1/5 |
-| Fiat | 12 | 4 | 2 | 6 | 4/6 |
-| Hyundai | 15 | 5 | 0 | 10 | 5/9 |
-| Peugeot | 7 | 4 | 0 | 3 | 3/4 |
-| Opel | 11 | 3 | 0 | 8 | 3/4 |
-| Citroen | 6 | 2 | 0 | 4 | 2/3 |
-| Skoda | 11 | 2 | 0 | 9 | 2/5 |
-| Mercedes-Benz | 8 | 1 | 0 | 7 | 1/4 |
-| BMW | 7 | 2 | 0 | 5 | 2/4 |
-| Nissan | 6 | 2 | 0 | 4 | 2/3 |
-| Ford | 11 | 4 | 0 | 7 | 4/6 |
-| Kia | 8 | 0 | 0 | 8 | 0/4 |
+| Volkswagen | 18 | 10 | 0 | 8 | 9/9 |
+| Toyota | 11 | 3 | 4 | 4 | 5/5 |
+| Fiat | 11 | 5 | 2 | 4 | 5/5 |
+| Hyundai | 15 | 7 | 2 | 6 | 7/9 |
+| Peugeot | 7 | 4 | 1 | 2 | 4/4 |
+| Opel | 13 | 6 | 2 | 5 | 4/4 |
+| Citroen | 6 | 4 | 0 | 2 | 3/3 |
+| Skoda | 11 | 5 | 0 | 6 | 5/5 |
+| Mercedes-Benz | 9 | 3 | 0 | 6 | 3/5 |
+| BMW | 7 | 3 | 0 | 4 | 3/4 |
+| Nissan | 8 | 4 | 0 | 4 | 4/4 |
+| Ford | 12 | 6 | 3 | 3 | 5/7 |
+| Kia | 9 | 3 | 1 | 5 | 3/4 |
 | Dacia | 8 | 3 | 0 | 5 | 3/3 |
 | Audi | 5 | 1 | 0 | 4 | 1/3 |
 | Honda | 6 | 2 | 0 | 4 | 2/2 |
@@ -116,13 +116,13 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | :---: | --- | --- | --- | --- |
 | 1 | Golf 7 | 2012-2019 | 1.4 TSI 122/140 (EA211) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | Golf 7 | 2012-2019 | 1.6 TDI 90/105/110 | ✓ 1 sorun |
-| 1 | Passat B7 | 2010-2014 | 1.6 TDI (CAYC) | ○ sırada |
-| 1 | Passat B8 | 2015-2023 | 1.6 TDI | ○ sırada |
+| 1 | Passat B7 | 2010-2014 | 1.6 TDI (CAYC) | ✓ 1 sorun |
+| 1 | Passat B8 | 2015-2023 | 1.6 TDI | ✓ 2 sorun |
 | 1 | Polo 6R / 6C | 2009-2017 | 1.2 TSI 90/105/110 | ✓ 2 sorun, 2 yıl kırılımı |
-| 1 | Polo AW | 2018- | 1.0 TSI / 1.0 MPI | ○ sırada |
-| 1 | T-Roc | 2018- | 1.0 TSI / 1.5 TSI | ○ sırada |
+| 1 | Polo AW | 2018- | 1.0 TSI / 1.0 MPI | ✓ 1 sorun |
+| 1 | T-Roc | 2018- | 1.0 TSI / 1.5 TSI | ✓ 1 sorun |
 | 1 | Tiguan 5N | 2008-2016 | 1.4 TSI 122/150/160 (EA111) | ✓ 1 sorun, 1 yıl kırılımı |
-| 1 | Tiguan AD1 | 2016- | 1.4 TSI / 1.5 TSI | ○ sırada |
+| 1 | Tiguan AD1 | 2016- | 1.4 TSI / 1.5 TSI | ✓ 1 sorun |
 | 2 | Caddy | 2010-2020 | 1.6 TDI / 2.0 TDI | ○ sırada |
 | 2 | Golf 7 | 2012-2019 | 1.2 TSI 85/105 | ○ sırada |
 | 2 | Golf 8 | 2020- | 1.0 TSI / 1.5 TSI | ○ sırada |
@@ -137,13 +137,14 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | C-HR | 2016- | 1.2 Turbo (8NR-FTS) | ○ sırada |
-| 1 | C-HR | 2016- | 1.8 Hybrid (2ZR-FXE) | ○ sırada |
-| 1 | Corolla E170 | 2013-2018 | 1.33 Dual VVT-i / 1.6 Valvematic (Multidrive S) | ○ sırada |
+| 1 | C-HR | 2016- | 1.2 Turbo (8NR-FTS) | – eklenmedi: Yağ yakma ve şanzıman anıları motor tipi belirtilmeden, tek tek vaka; iki bağımsız site bulunamadı. |
+| 1 | C-HR | 2016- | 1.8 Hybrid (2ZR-FXE) | – eklenmedi: Hibrit sistem uyarısı dışında tekrar eden mekanik sorun bulunamadı. |
+| 1 | Corolla E150 FL / E170 | 2009-2018 | 1.33 Dual VVT-i 99 | ✓ 1 sorun |
 | 1 | Corolla E210 | 2019- | 1.5 Dynamic Force (M15A-FKS) | ✓ 1 sorun, 1 yıl kırılımı |
-| 1 | Corolla E210 | 2019- | 1.8 Hybrid (2ZR-FXE) | ○ sırada |
+| 1 | Corolla E210 | 2019- | 1.8 Hybrid (2ZR-FXE) | – eklenmedi: Şikâyetler ses yalıtımı, fren diski paslanması ve 12V akü gibi mekanik olmayan konularda; tekrar eden mekanik sorun bulunamadı. |
 | 2 | Auris | 2013-2018 | 1.33 / 1.6 / 1.4 D-4D | ○ sırada |
 | 2 | Corolla E170 | 2013-2018 | 1.4 D-4D | ○ sırada |
+| 2 | Corolla E170 | 2013-2018 | 1.6 Valvematic (Multidrive S) | – eklenmedi: Şikâyet sitelerinde 1.6 Valvematic ve Multidrive S için tekrar eden bir sorun kümesi bulunamadı. |
 | 2 | Yaris | 2011-2019 | 1.33 / 1.5 Hybrid | ○ sırada |
 | 3 | Corolla E150 | 2007-2013 | 1.4 D-4D (1ND-TV) | ✓ 2 sorun |
 | 3 | RAV4 / Hilux | 2013- | 2.0 / 2.5 Hybrid / 2.4 D-4D | ○ sırada |
@@ -152,8 +153,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | Doblo | 2010-2022 | 1.3 Multijet 90 | ○ sırada |
-| 1 | Doblo | 2010-2022 | 1.6 Multijet 105/120 | ○ sırada |
+| 1 | Doblo | 2010-2022 | 1.3 / 1.6 Multijet (90/105/120) | ✓ 3 sorun |
 | 1 | Egea | 2015- | 1.4 Fire 95 | ✓ 1 sorun |
 | 1 | Egea | 2015- | 1.3 Multijet II 95 | ✓ 2 sorun |
 | 1 | Egea | 2015- | 1.6 Multijet II 120 | ✓ 3 sorun |
@@ -169,7 +169,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | Accent Blue | 2011-2019 | 1.6 CRDi (D4FB) | ○ sırada |
+| 1 | Accent Blue | 2011-2019 | 1.6 CRDi (D4FB) | ✓ 1 sorun |
 | 1 | Accent Blue | 2011-2019 | 1.4 MPI / 1.6 GDI | ○ sırada |
 | 1 | Bayon | 2021- | 1.0 T-GDI 100/120 (7DCT) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | Bayon | 2021- | 1.4 MPI 100 | ✓ 1 sorun, 1 yıl kırılımı |
@@ -177,9 +177,9 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Tucson (TL) | 2015-2020 | 1.6 CRDi (7DCT) | ○ sırada |
 | 1 | i20 | 2020- | 1.0 T-GDI 100/120 (7DCT) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | i20 | 2020- | 1.4 MPI 100 | ✓ 1 sorun, 1 yıl kırılımı |
-| 1 | i30 | 2012-2020 | 1.6 CRDi | ○ sırada |
-| 2 | Elantra | 2011-2020 | 1.6 MPI / 1.6 CRDi | ○ sırada |
-| 2 | Tucson (NX4) | 2021- | 1.6 T-GDI / 1.6 CRDi | ○ sırada |
+| 1 | i30 | 2012-2020 | 1.6 CRDi | – eklenmedi: Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; model/motor bazında tekrar eden sorun için iki bağımsız site bulunamadı. |
+| 2 | Elantra | 2011-2020 | 1.6 MPI / 1.6 CRDi | – eklenmedi: Tek bir 7DCT kalkış titremesi şikâyeti dışında tekrar eden sorun bulunamadı. |
+| 2 | Tucson (NX4) | 2021- | 1.6 T-GDI / 1.6 CRDi | ✓ 2 sorun |
 | 2 | i20 (PB) | 2009-2014 | 1.4 MPI / 1.4 CRDi | ○ sırada |
 | 2 | i30 | 2012-2020 | 1.4 / 1.6 MPI, 1.0 / 1.4 T-GDI | ○ sırada |
 | 2 | ix35 | 2010-2015 | 1.6 GDI / 1.7 CRDi | ○ sırada |
@@ -190,7 +190,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | 208 / 2008 / 308 / 3008 | 2014-2021 | 1.2 PureTech (EB2) | ✓ 2 sorun |
-| 1 | 208 / 2008 / 308 / 3008 | 2012-2021 | 1.6 BlueHDi / e-HDi (DV6) | ○ sırada |
+| 1 | 208 / 2008 / 308 / 3008 | 2012-2021 | 1.6 BlueHDi / e-HDi (DV6) | – eklenmedi: Enjektör, EGR ve turbo anıları dağınık ve tek tek vaka; 301 kaydındaki DV6 sorunları aynı motor ailesi için geçerlidir. |
 | 1 | 208 / 2008 / 308 / 3008 / 5008 | 2019- | 1.5 BlueHDi 100/130 (DV5) | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | 301 | 2012- | 1.6 HDi / BlueHDi (DV6) | ✓ 3 sorun |
 | 2 | 308 / 3008 | 2007-2014 | 1.6 THP (EP6) | ✓ 3 sorun, 1 yıl kırılımı |
@@ -204,23 +204,25 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Astra J | 2010-2015 | 1.4 Turbo (A14NET) | ✓ 1 sorun |
 | 1 | Astra K | 2015-2021 | 1.4 Turbo 125/150 | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Corsa D / E | 2006-2019 | 1.3 CDTI 75/95 | ✓ 1 sorun |
-| 1 | Mokka | 2012-2019 | 1.4 Turbo (A14NET) | ○ sırada |
-| 2 | Astra J | 2010-2015 | 1.6 CDTI / 1.7 CDTI / 2.0 CDTI | ○ sırada |
+| 1 | Mokka | 2012-2019 | 1.4 Turbo (A14NET) | – eklenmedi: Mokka'ya özgü, A14NET'i açıkça belirten tekrar eden bir şikâyet bulunamadı; aynı motor için Astra J ve Astra K kayıtlarına bakın. |
+| 2 | Astra J | 2013-2015 | 1.6 CDTI 110/136 | ✓ 1 sorun |
 | 2 | Astra K | 2015-2021 | 1.6 CDTI 110/136 | ○ sırada |
-| 2 | Corsa D / E | 2006-2019 | 1.2 / 1.4 benzinli (A12XER, A14XER) | ○ sırada |
-| 2 | Corsa F | 2019- | 1.2 PureTech 75/100/130 | ○ sırada |
-| 2 | Crossland / Grandland | 2017- | 1.2 PureTech / 1.5 BlueHDi | ○ sırada |
+| 2 | Corsa D / E | 2006-2019 | 1.2 / 1.4 benzinli (A12XER, A14XER) | – eklenmedi: Aramalarda A12XER/A14XER için kronik sorun bulunamadı; sonuçlar PureTech'e ait. |
+| 2 | Crossland / Corsa F | 2017- | 1.2 PureTech 83/100/110/130 | ✓ 1 sorun |
+| 2 | Insignia A | 2014-2017 | 1.6 CDTI 136 | ✓ 2 sorun |
 | 2 | Insignia A | 2008-2017 | 2.0 CDTI / 1.6 Turbo / 1.4 Turbo | ○ sırada |
 | 2 | Mokka | 2012-2019 | 1.6 CDTI | ○ sırada |
+| 3 | Astra J | 2010-2015 | 1.7 / 2.0 CDTI | ○ sırada |
+| 3 | Crossland / Grandland | 2017- | 1.5 BlueHDi | ○ sırada |
 
 ### Citroen
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | C-Elysee | 2012-2020 | 1.6 HDi / BlueHDi (DV6) | ✓ 3 sorun |
-| 1 | C3 | 2016-2022 | 1.2 PureTech 82/110 | ○ sırada |
+| 1 | C3 | 2016-2022 | 1.2 PureTech 82/110 | ✓ 1 sorun |
 | 1 | C3 / C4 / C5 Aircross | 2019- | 1.5 BlueHDi 100/130 (DV5) | ✓ 1 sorun, 1 yıl kırılımı |
-| 2 | C-Elysee | 2012-2020 | 1.2 PureTech / 1.6 VTi | ○ sırada |
+| 2 | C-Elysee | 2012-2020 | 1.2 PureTech / 1.6 VTi | ✓ 1 sorun |
 | 2 | C3 | 2009-2016 | 1.4 HDi / 1.6 HDi | ○ sırada |
 | 2 | C4 / C4 Cactus | 2011-2020 | 1.6 e-HDi / BlueHDi, 1.2 PureTech | ○ sırada |
 
@@ -229,10 +231,10 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | Octavia A5 | 2008-2013 | 1.2 TSI 105 (EA111) | ✓ 2 sorun |
+| 1 | Octavia A5 / A7 | 2010-2020 | 1.6 TDI 105/110 (DSG DQ200) | ✓ 1 sorun |
 | 1 | Octavia A7 | 2013-2020 | 1.4 TSI (EA211, DSG DQ200) | ✓ 3 sorun, 1 yıl kırılımı |
-| 1 | Octavia A7 | 2013-2020 | 1.6 TDI 105/110 | ○ sırada |
-| 1 | Rapid | 2012-2019 | 1.2 TSI 90/105 | ○ sırada |
-| 1 | Rapid | 2012-2019 | 1.6 TDI / 1.6 MPI | ○ sırada |
+| 1 | Rapid | 2012-2019 | 1.2 TSI 90/105 | ✓ 1 sorun |
+| 1 | Rapid | 2012-2019 | 1.6 TDI / 1.6 MPI | ✓ 1 sorun |
 | 2 | Fabia | 2014-2021 | 1.0 MPI / 1.2 TSI / 1.4 TDI | ○ sırada |
 | 2 | Kamiq / Scala | 2019- | 1.0 TSI 95/115 | ○ sırada |
 | 2 | Karoq / Kodiaq | 2017- | 1.5 TSI / 2.0 TDI | ○ sırada |
@@ -247,7 +249,8 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | C Serisi W204 | 2007-2014 | C220 / C250 CDI 2.1 (OM651) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | C Serisi W205 | 2014-2021 | C180 / C200 benzinli (M274) | ○ sırada |
 | 1 | C Serisi W205 | 2014-2021 | C180d / C200d / C220d (OM626 / OM651) | ○ sırada |
-| 1 | E Serisi W212 | 2009-2016 | E200 CGI / E250 CDI / E220 CDI | ○ sırada |
+| 1 | E Serisi W212 | 2009-2016 | E200 / E250 CGI 1.8 turbo (M271 EVO) | ✓ 1 sorun |
+| 1 | E Serisi W212 | 2009-2016 | E250 CDI 2.1 (OM651) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | A Serisi W176 | 2012-2018 | A180 CDI / A200 CDI / A180 1.6 | ○ sırada |
 | 2 | C Serisi W204 | 2007-2014 | C180 / C200 CGI 1.8 (M271 EVO) | ○ sırada |
 | 2 | E Serisi W213 | 2016- | E180 / E200 / E220d | ○ sırada |
@@ -257,7 +260,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | 1 Serisi F20 | 2011-2019 | 116i / 118i (N13 / B38) | ○ sırada |
+| 1 | 1 Serisi F20 | 2011-2019 | 116i / 118i (N13 / B38) | ✓ 4 sorun |
 | 1 | 3 Serisi F30 | 2012-2015 | 320d 2.0 (N47) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | 3 Serisi F30 | 2012-2015 | 320i / 328i 2.0 (N20) | ✓ 3 sorun |
 | 1 | 3 Serisi F30 | 2015-2019 | 320d (B47) / 320i (B48) | ○ sırada |
@@ -269,9 +272,11 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | Juke | 2010-2019 | 1.6 / 1.2 DIG-T / 1.5 dCi | ○ sırada |
+| 1 | Juke | 2010-2019 | 1.6 (CVT Xtronic) | ✓ 1 sorun |
+| 1 | Juke | 2014-2019 | 1.2 DIG-T 115 (HRA2DDT) | ✓ 1 sorun |
 | 1 | Qashqai J11 | 2014-2020 | 1.5 dCi 110 (K9K) / 1.6 dCi 130 (R9M) | ✓ 1 sorun |
 | 1 | Qashqai J11 | 2014-2021 | 1.2 DIG-T (HRA2DDT, Xtronic) | ✓ 3 sorun |
+| 2 | Juke | 2010-2019 | 1.5 dCi 110 (K9K) | ○ sırada |
 | 2 | Micra | 2010-2019 | 1.2 / 0.9 IG-T | ○ sırada |
 | 2 | Qashqai J10 | 2007-2013 | 1.5 dCi / 1.6 | ○ sırada |
 | 3 | Note / X-Trail | 2013- | 1.2 / 1.5 dCi / 1.6 dCi | ○ sırada |
@@ -280,28 +285,30 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | Fiesta | 2008-2023 | 1.5 / 1.6 TDCi | ○ sırada |
+| 1 | Fiesta | 2008-2017 | 1.4 / 1.6 TDCi | ○ sırada |
 | 1 | Fiesta / Focus | 2012-2023 | 1.0 EcoBoost | ✓ 2 sorun, 2 yıl kırılımı |
+| 1 | Fiesta Mk7 | 2011-2017 | 1.6 Ti-VCT 105 (Powershift DPS6) | ✓ 1 sorun |
 | 1 | Focus 2 / 3 | 2008-2018 | 1.6 TDCi (DV6) | ✓ 3 sorun |
 | 1 | Focus 3 | 2011-2018 | 1.6 Ti-VCT (Powershift DPS6) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | Focus 3 | 2011-2018 | 1.5 TDCi 95/120 | ○ sırada |
-| 1 | Focus 4 / Kuga 3 | 2019- | 1.5 EcoBlue 120 (DV5) | ✓ 1 sorun |
-| 2 | Courier / Tourneo Courier | 2014- | 1.5 TDCi / 1.0 EcoBoost | ○ sırada |
-| 2 | Fiesta | 2008-2023 | 1.25 / 1.4 Duratec | ○ sırada |
+| 1 | Focus 4 / Kuga 3 | 2019- | 1.5 EcoBlue 120 (DV5) | ✓ 2 sorun |
+| 2 | Courier / Tourneo Courier | 2014- | 1.5 TDCi / 1.0 EcoBoost | – eklenmedi: Şikâyetler fren sesi, gıcırtı ve genel motor arıza lambası gibi dağınık konularda; ortak bir arıza için iki bağımsız site bulunamadı. |
+| 2 | Fiesta | 2008-2023 | 1.25 / 1.4 Duratec | – eklenmedi: Kullanıcılar 1.25 ve 1.4 benzinlileri sorunsuz olarak anıyor; kronik sorun bulunamadı. |
 | 2 | Focus 3 | 2011-2018 | 1.5 EcoBoost 150/182 | ○ sırada |
-| 2 | Kuga 2 | 2013-2019 | 1.5 EcoBoost / 2.0 TDCi | ○ sırada |
-| 2 | Puma | 2019- | 1.0 EcoBoost mHEV | ○ sırada |
+| 2 | Kuga 2 | 2013-2019 | 1.5 EcoBoost / 2.0 TDCi | ✓ 1 sorun |
+| 2 | Puma | 2019- | 1.0 EcoBoost mHEV | – eklenmedi: Forum görüşleri çelişkili (bazıları en sorunsuz 3 silindirli diyor); tekrar eden bir motor sorunu için kanıt yok. |
 
 ### Kia
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | Ceed | 2012-2018 | 1.6 CRDi | ○ sırada |
-| 1 | Rio | 2011-2017 | 1.4 MPI / 1.4 CRDi | ○ sırada |
-| 1 | Sportage SL / QL | 2010-2021 | 1.6 CRDi / 1.7 CRDi | ○ sırada |
-| 1 | Sportage SL / QL | 2010-2021 | 1.6 GDI / 1.6 T-GDI | ○ sırada |
+| 1 | Rio | 2011-2017 | 1.4 CRDi 90 | ✓ 1 sorun |
+| 1 | Sportage SL / QL | 2010-2021 | 1.6 CRDi / 1.7 CRDi | ✓ 1 sorun |
+| 1 | Sportage SL / QL | 2010-2021 | 1.6 GDI / 1.6 T-GDI | ✓ 1 sorun |
 | 2 | Ceed | 2012-2021 | 1.4 / 1.6 MPI | ○ sırada |
 | 2 | Picanto | 2011-2023 | 1.0 / 1.2 MPI | ○ sırada |
+| 2 | Rio | 2011-2017 | 1.4 MPI 100 | – eklenmedi: Forumlarda sorunsuz olarak anılıyor; kronik sorun bulunamadı. |
 | 2 | Stonic | 2017- | 1.0 T-GDI / 1.4 MPI / 1.6 CRDi | ○ sırada |
 | 3 | Niro / Cerato / Sorento | 2011- | Hybrid / 1.6 / 2.2 CRDi | ○ sırada |
 
