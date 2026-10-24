@@ -1,0 +1,795 @@
+{
+  "arac_listesi": [
+    {
+      "marka": "Audi",
+      "model": "A4 (B8, 2008-2015)",
+      "motor": "1.8 TFSI / 2.0 TFSI (EA888 Gen2)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları (yağ sıyırma segmanı)",
+          "belirtiler": "Bakımlar arasında sık yağ eksilmesi, yağ seviyesi uyarısı, egzozdan mavimsi duman, buji kirlenmesi",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Triger zinciri gergisi arızası",
+          "etkilenen_parca": "Triger zinciri gergisi ve zincir",
+          "belirtiler": "Soğuk çalıştırmada zincir şakırtısı, kam/krank senkron hatası ile arıza lambası, ileri aşamada zincir atlaması ve supap hasarı",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "PCV valfi arızası",
+          "etkilenen_parca": "Karter havalandırma (PCV) valfi",
+          "belirtiler": "Rölantide ıslık sesi, düzensiz rölanti, fakir karışım hata kodları, conta ve keçelerden yağ kaçağı",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Multitronic (CVT) şanzıman arızası",
+          "etkilenen_parca": "Multitronic şanzıman beyni ve kavrama paketi",
+          "belirtiler": "Kalkışta titreme ve silkeleme, gösterge panelinde vites konumunun yanıp sönmesi, şanzımanın acil moda geçmesi",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Yüksek"
+        }
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi (E90 / F30, 2007-2015)",
+      "motor": "320d 2.0 dizel (N47D20)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri uzaması",
+          "etkilenen_parca": "Motorun arka tarafındaki triger zinciri ve kızakları",
+          "belirtiler": "Motorun arkasından gelen ıslık/vınlama sesi (özellikle rölantide ve gaz bırakmada), ileri aşamada zincir kopması ve motor hasarı",
+          "tahmini_km_araligi": "100.000 - 200.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "EGR valfi ve soğutucusu arızası",
+          "etkilenen_parca": "EGR valfi ve EGR soğutucusu",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, soğutucu sızdırıyorsa antifriz eksilmesi ve egzozdan beyaz duman",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "DPF tıkanması",
+          "etkilenen_parca": "Dizel partikül filtresi (DPF)",
+          "belirtiler": "DPF uyarısı, güç kısıtlaması (acil mod), sık rejenerasyon, yakıt tüketiminde artış",
+          "tahmini_km_araligi": "120.000 - 200.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi (F30, 2012-2015)",
+      "motor": "320i / 328i 2.0 turbo benzin (N20B20)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri kızağı kırılması",
+          "etkilenen_parca": "Plastik zincir kızakları ve zincir gergisi",
+          "belirtiler": "Motor ön tarafından gelen ıslık/vınlama sesi, arıza lambası, ileri aşamada zincir atlaması ve motor hasarı",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Elektrikli devirdaim pompası arızası",
+          "etkilenen_parca": "Elektrikli su pompası",
+          "belirtiler": "Hararet uyarısı, soğutma sıvısı uyarı mesajı, motor gücünün sınırlanması",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Yağ filtresi yuvası contası kaçağı",
+          "etkilenen_parca": "Yağ filtresi yuvası contası",
+          "belirtiler": "Motor altında yağ izi, yanık yağ kokusu, ileri durumda aksesuar kayışına yağ bulaşması",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Chevrolet",
+      "model": "Cruze (2009-2016)",
+      "motor": "1.6 benzin (F16D4)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağ soğutucusu contası kaçağı",
+          "etkilenen_parca": "Yağ soğutucusu (eşanjör) contası",
+          "belirtiler": "Antifriz deposunda yağ birikmesi, antifriz eksilmesi, motor yağında köpüklenme",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Termostat gövdesi çatlaması",
+          "etkilenen_parca": "Plastik termostat gövdesi",
+          "belirtiler": "Antifriz eksilmesi, hararet göstergesinde dalgalanma, motor bölmesinde tatlımsı antifriz kokusu",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Külbütör kapağı contası ve PCV kaçağı",
+          "etkilenen_parca": "Külbütör kapağı contası / entegre PCV",
+          "belirtiler": "Buji kuyularına yağ dolması, tekleme, yanık yağ kokusu",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "C-Elysee (2012-2020)",
+      "motor": "1.6 HDi / BlueHDi (DV6)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Enjektör pulu kaçağı ve karbonlaşma",
+          "etkilenen_parca": "Enjektör bakır pulları",
+          "belirtiler": "Motor bölmesinde is/kurum kokusu, enjektör çevresinde siyah karbon birikimi, motor üstünden tıkırtı sesi",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
+          "etkilenen_parca": "Turbo yağ besleme rakorundaki süzgeç, turboşarj",
+          "belirtiler": "Güç kaybı, turbo ıslığı, egzozdan mavi duman, yağsız kalan turbo yatağının dağılması",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "EGR valfi tıkanması",
+          "etkilenen_parca": "EGR valfi",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Dacia",
+      "model": "Duster (2010-2017)",
+      "motor": "1.5 dCi (K9K)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kol yatağı sarması",
+          "etkilenen_parca": "Biyel kolu yatakları",
+          "belirtiler": "Motordan gelen metalik vuruntu sesi, yağ basıncı uyarısı, ileri aşamada motor kilitlenmesi",
+          "tahmini_km_araligi": "120.000 - 200.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Enjektör arızası",
+          "etkilenen_parca": "Common-rail enjektörleri",
+          "belirtiler": "Zor çalışma, egzozdan siyah veya beyaz duman, rölantide titreme, yakıt tüketiminde artış",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "EGR valfi tıkanması",
+          "etkilenen_parca": "EGR valfi",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik veya stop etme",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Egea (2015-)",
+      "motor": "1.3 Multijet II (95 HP)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "EGR valfi tıkanması",
+          "etkilenen_parca": "EGR valfi",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide stop etme",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "DPF tıkanması ve yağa yakıt karışması",
+          "etkilenen_parca": "Dizel partikül filtresi (DPF), motor yağı",
+          "belirtiler": "DPF uyarısı, güç kısıtlaması, tamamlanamayan rejenerasyonlar nedeniyle yağ seviyesinin yükselmesi",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Triger zinciri uzaması",
+          "etkilenen_parca": "Triger zinciri ve zincir gergisi",
+          "belirtiler": "Soğuk çalıştırmada metalik zincir sesi, kam/krank senkron hatası ile arıza lambası",
+          "tahmini_km_araligi": "150.000 - 250.000 km",
+          "risk_seviyesi": "Yüksek"
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Egea (2015-)",
+      "motor": "1.6 Multijet II (120 HP)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Çift kütleli volan arızası",
+          "etkilenen_parca": "Çift kütleli volan (manuel şanzımanlı versiyon)",
+          "belirtiler": "Kalkışta titreme, rölantide tıkırtı, kontak kapatılırken sarsıntı",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "EGR ve DPF tıkanması",
+          "etkilenen_parca": "EGR valfi, dizel partikül filtresi (DPF)",
+          "belirtiler": "Çekiş kaybı, DPF uyarısı, sık rejenerasyon, motor arıza lambası",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "DCT şanzıman kavrama ve yazılım sorunları",
+          "etkilenen_parca": "Kuru tip çift kavramalı şanzıman (DCT) ve şanzıman beyni",
+          "belirtiler": "Düşük hızda silkeleme, vites geçişlerinde gecikme, yokuş kalkışlarında tereddüt",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Linea (2007-2015)",
+      "motor": "1.3 Multijet (Dualogic)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Dualogic hidrolik ünite ve aktüatör arızası",
+          "etkilenen_parca": "Dualogic robotize şanzıman hidrolik pompası ve aktüatörleri",
+          "belirtiler": "Vites geçmeme, şanzıman arıza uyarısı, göstergede vites harfinin yanıp sönmesi, hidrolik pompanın sürekli çalışma sesi",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "EGR valfi tıkanması",
+          "etkilenen_parca": "EGR valfi",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide stop etme",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Triger zinciri uzaması",
+          "etkilenen_parca": "Triger zinciri ve zincir gergisi",
+          "belirtiler": "Soğuk çalıştırmada metalik zincir sesi, kam/krank senkron hatası ile arıza lambası",
+          "tahmini_km_araligi": "150.000 - 250.000 km",
+          "risk_seviyesi": "Yüksek"
+        }
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Fiesta / Focus (2012-2017)",
+      "motor": "1.0 EcoBoost",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Soğutma sistemi kaçağı ve hararet",
+          "etkilenen_parca": "Soğutma sıvısı hortumları ve genleşme tankı",
+          "belirtiler": "Hararet uyarısı, antifriz eksilmesi, ileri aşamada silindir kapağı çatlaması",
+          "tahmini_km_araligi": "30.000 - 100.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Yağ banyolu triger kayışının aşınması",
+          "etkilenen_parca": "Yağ içinde çalışan triger kayışı",
+          "belirtiler": "Kayış parçacıklarının yağ pompası süzgecini tıkaması, düşük yağ basıncı uyarısı, motor hasarı",
+          "tahmini_km_araligi": "100.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek"
+        }
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Focus (2008-2018)",
+      "motor": "1.6 TDCi (DV6)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Enjektör pulu kaçağı ve karbonlaşma",
+          "etkilenen_parca": "Enjektör bakır pulları",
+          "belirtiler": "Motor bölmesinde is/kurum kokusu, enjektör çevresinde siyah karbon birikimi, motor üstünden tıkırtı sesi",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
+          "etkilenen_parca": "Turbo yağ besleme rakorundaki süzgeç, turboşarj",
+          "belirtiler": "Güç kaybı, turbo ıslığı, egzozdan mavi duman, yağsız kalan turbo yatağının dağılması",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "DPF tıkanması",
+          "etkilenen_parca": "Dizel partikül filtresi (DPF)",
+          "belirtiler": "DPF uyarısı, güç kısıtlaması, sık rejenerasyon, yakıt tüketiminde artış",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Focus 3 (2011-2018)",
+      "motor": "1.6 Ti-VCT (Powershift DPS6)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Powershift kavrama silkelemesi",
+          "etkilenen_parca": "Kuru çift kavrama ve giriş mili keçeleri",
+          "belirtiler": "Kalkışta ve düşük hızda titreme/silkeleme, vites geçişlerinde vuruntu, gecikmeli kalkış",
+          "tahmini_km_araligi": "40.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Şanzıman kontrol modülü (TCM) arızası",
+          "etkilenen_parca": "Şanzıman kontrol modülü (TCM)",
+          "belirtiler": "Seyir halinde aniden boşa düşme, şanzıman arıza uyarısı, vites değiştirememe, aracın çalışmaması",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek"
+        }
+      ]
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic (FC5, 2016-2021)",
+      "motor": "1.5 VTEC Turbo (L15B7)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağa yakıt karışması",
+          "etkilenen_parca": "Motor yağı (direkt enjeksiyon kaynaklı)",
+          "belirtiler": "Yağ çubuğunda seviyenin yükselmesi, yağda benzin kokusu, soğuk havada ve kısa mesafe kullanımda belirginleşmesi",
+          "tahmini_km_araligi": "10.000 - 60.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Klima kondenseri delinmesi",
+          "etkilenen_parca": "Klima kondenseri",
+          "belirtiler": "Klimanın sıcak hava üflemesi, gaz kaçağı, kısa sürede tekrar gaz eksilmesi",
+          "tahmini_km_araligi": "30.000 - 80.000 km",
+          "risk_seviyesi": "Düşük"
+        }
+      ]
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic (FD6, 2006-2011)",
+      "motor": "1.6 i-VTEC",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Arka lastiklerde iç kenar aşınması",
+          "etkilenen_parca": "Arka süspansiyon geometrisi (negatif kamber) ve arka alt kollar",
+          "belirtiler": "Arka lastiklerin iç kenarlarının hızlı aşınması, yüksek hızda uğultu",
+          "tahmini_km_araligi": "30.000 - 80.000 km",
+          "risk_seviyesi": "Düşük"
+        },
+        {
+          "sorun_adi": "Motor takozu yıpranması",
+          "etkilenen_parca": "Motor ve şanzıman takozları",
+          "belirtiler": "Kalkışta ve vites geçişlerinde vuruntu, rölantide kabine gelen titreşim",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Düşük"
+        },
+        {
+          "sorun_adi": "Klima kompresörü arızası",
+          "etkilenen_parca": "Klima kompresörü ve kompresör kavraması",
+          "belirtiler": "Klimanın soğutmaması, kompresörden gelen ses, kavramanın devreye girmemesi",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Tucson (TL, 2015-2020)",
+      "motor": "1.6 T-GDI (7DCT)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "7DCT kavrama aşırı ısınması ve silkeleme",
+          "etkilenen_parca": "Kuru tip çift kavrama",
+          "belirtiler": "Dur-kalk trafikte silkeleme, şanzıman aşırı ısınma uyarısı, kalkışta gecikme",
+          "tahmini_km_araligi": "40.000 - 100.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Emme supaplarında karbon birikimi",
+          "etkilenen_parca": "Emme supapları (direkt enjeksiyon)",
+          "belirtiler": "Rölantide titreme, soğuk çalıştırmada tekleme, performans kaybı",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi (W203 / W204, 2002-2010)",
+      "motor": "C180 / C200 Kompressor 1.8 (M271)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri uzaması ve eksantrik dişlisi aşınması",
+          "etkilenen_parca": "Triger zinciri ve eksantrik mili ayar dişlisi",
+          "belirtiler": "Çalıştırmada zincir sesi, kam/krank korelasyon hatası ile arıza lambası, düzensiz rölanti",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Eksantrik ayar mıknatısından yağ kaçağı",
+          "etkilenen_parca": "Eksantrik mili ayar mıknatısları (solenoidler)",
+          "belirtiler": "Mıknatıs soketinden kabloya yağ sızması, yağın kablo demeti boyunca motor beynine ilerlemesi, arıza lambası",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi (W204, 2007-2014)",
+      "motor": "C200 / C220 / C250 CDI 2.1 (OM651)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Piezo enjektör arızası",
+          "etkilenen_parca": "Delphi piezo enjektörleri",
+          "belirtiler": "Seyir halinde motorun stop etmesi, zor çalışma, tekleme, motor arıza lambası",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "7G-Tronic iletken plaka arızası",
+          "etkilenen_parca": "7G-Tronic (722.9) şanzıman iletken plakası ve hız sensörleri",
+          "belirtiler": "Şanzımanın aniden acil moda geçip tek viteste kalması, sert vites geçişleri, şanzıman uyarı mesajı",
+          "tahmini_km_araligi": "100.000 - 200.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "Qashqai (J11, 2014-2021)",
+      "motor": "1.2 DIG-T (HRA2DDT, Xtronic)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Xtronic CVT şanzıman arızası",
+          "etkilenen_parca": "CVT kayışı, kasnaklar ve valf gövdesi",
+          "belirtiler": "Hızlanmada uğultu veya ıslık, kalkışta silkeleme, devir yükselirken hızın artmaması, aşırı ısınma uyarısı",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, buji kirlenmesi",
+          "tahmini_km_araligi": "40.000 - 100.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Triger zinciri uzaması",
+          "etkilenen_parca": "Triger zinciri ve zincir gergisi",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi, motor arıza lambası, zincir atlaması durumunda supap hasarı",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek"
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra H (2004-2010)",
+      "motor": "1.6 Twinport (Z16XEP, Easytronic)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Twinport klapesi arızası",
+          "etkilenen_parca": "Emme manifoldu Twinport klapesi ve aktüatörü",
+          "belirtiler": "Motor arıza lambası, düşük devirde çekişsizlik, düzensiz rölanti, kırılan klape parçalarının silindire düşme riski",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Easytronic aktüatör arızası",
+          "etkilenen_parca": "Easytronic robotize şanzıman kavrama aktüatörü",
+          "belirtiler": "Vites geçmeme, göstergede \"F\" uyarısı, kalkışta tereddüt, aracın viteste takılı kalması",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek"
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra J (2010-2015)",
+      "motor": "1.4 Turbo (A14NET)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "PCV diyaframı yırtılması",
+          "etkilenen_parca": "Külbütör kapağına entegre PCV diyaframı",
+          "belirtiler": "Rölantide ıslık sesi, düzensiz rölanti, yağ tüketimi, fakir karışım hata kodları",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Turbo soğutma hattı ve devirdaim kaçağı",
+          "etkilenen_parca": "Turbo soğutma suyu boruları, su pompası",
+          "belirtiler": "Antifriz eksilmesi, turbo ve pompa çevresinde kurumuş antifriz izi, hararet uyarısı",
+          "tahmini_km_araligi": "60.000 - 130.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "301 (2012-)",
+      "motor": "1.6 HDi / BlueHDi (DV6)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Enjektör pulu kaçağı ve karbonlaşma",
+          "etkilenen_parca": "Enjektör bakır pulları",
+          "belirtiler": "Motor bölmesinde is/kurum kokusu, enjektör çevresinde siyah karbon birikimi, motor üstünden tıkırtı sesi",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
+          "etkilenen_parca": "Turbo yağ besleme rakorundaki süzgeç, turboşarj",
+          "belirtiler": "Güç kaybı, turbo ıslığı, egzozdan mavi duman, yağsız kalan turbo yatağının dağılması",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "EGR valfi tıkanması",
+          "etkilenen_parca": "EGR valfi",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "308 / 3008 (2007-2014)",
+      "motor": "1.6 THP (EP6)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri uzaması",
+          "etkilenen_parca": "Triger zinciri, zincir gergisi ve eksantrik dişlileri",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi, kam/krank senkron hatası ile arıza lambası",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Emme supaplarında karbon birikimi",
+          "etkilenen_parca": "Emme supapları (direkt enjeksiyon)",
+          "belirtiler": "Tekleme, düzensiz rölanti, güç kaybı",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Yüksek basınç yakıt pompası arızası",
+          "etkilenen_parca": "Yüksek basınç yakıt pompası",
+          "belirtiler": "Zor çalışma, gaza basınca tıkanma, yakıt basıncı hata kodu ile arıza lambası",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "308 / 3008 / 208 / 2008 (2014-2021)",
+      "motor": "1.2 PureTech (EB2)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağ banyolu triger kayışının dağılması",
+          "etkilenen_parca": "Yağ içinde çalışan triger kayışı",
+          "belirtiler": "Yağ basıncı uyarısı, kayış parçacıklarının yağ pompası süzgecini tıkaması, fren vakum pompası arızası nedeniyle fren pedalının sertleşmesi, motor hasarı",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, egzozdan mavimsi duman",
+          "tahmini_km_araligi": "40.000 - 100.000 km",
+          "risk_seviyesi": "Yüksek"
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Clio 4 / Captur (2013-2019)",
+      "motor": "1.2 TCe (H5Ft)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, buji kirlenmesi, ileri aşamada motor hasarı",
+          "tahmini_km_araligi": "40.000 - 100.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Triger zinciri uzaması",
+          "etkilenen_parca": "Triger zinciri ve zincir gergisi",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi, motor arıza lambası, zincir atlaması durumunda supap hasarı",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek"
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Megane 3 / Fluence (2009-2016)",
+      "motor": "1.5 dCi (K9K, EDC)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kol yatağı sarması",
+          "etkilenen_parca": "Biyel kolu yatakları",
+          "belirtiler": "Motordan gelen metalik vuruntu sesi, yağ basıncı uyarısı, ileri aşamada motor kilitlenmesi",
+          "tahmini_km_araligi": "120.000 - 200.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Enjektör arızası",
+          "etkilenen_parca": "Common-rail enjektörleri",
+          "belirtiler": "Zor çalışma, egzozdan siyah veya beyaz duman, rölantide titreme, yakıt tüketiminde artış",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "EDC şanzıman kavrama ve aktüatör sorunları",
+          "etkilenen_parca": "EDC kuru çift kavramalı şanzıman, kavrama aktüatörleri",
+          "belirtiler": "Kalkışta silkeleme, vites geçişlerinde vuruntu, şanzıman kontrol uyarısı",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Çift kütleli volan arızası",
+          "etkilenen_parca": "Çift kütleli volan",
+          "belirtiler": "Kalkışta titreme, rölantide tıkırtı, kontak kapatılırken sarsıntı",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia (A7, 2013-2020)",
+      "motor": "1.4 TSI (EA211, DSG DQ200)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "DSG mekatronik arızası",
+          "etkilenen_parca": "DQ200 mekatronik ünitesi",
+          "belirtiler": "Vites geçişlerinde vuruntu, göstergedeki vites harflerinin yanıp sönmesi, çekiş kaybı, şanzımanın acil moda geçmesi",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Kuru kavrama aşınması",
+          "etkilenen_parca": "DQ200 kuru çift kavrama",
+          "belirtiler": "Kalkışta silkeleme, yokuşta geri kayma hissi, düşük hızda sarsıntılı vites geçişleri",
+          "tahmini_km_araligi": "60.000 - 140.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Devirdaim pompası ve termostat gövdesi kaçağı",
+          "etkilenen_parca": "Plastik su pompası ve termostat modülü",
+          "belirtiler": "Antifriz eksilmesi, motor altında pembe/mor antifriz izi, hararet uyarısı",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla (E150, 2007-2013)",
+      "motor": "1.4 D-4D (1ND-TV)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, egzozdan mavi duman, DPF'nin erken tıkanması",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Enjektör arızası",
+          "etkilenen_parca": "Common-rail enjektörleri",
+          "belirtiler": "Zor çalışma, rölantide düzensizlik, egzozdan siyah duman",
+          "tahmini_km_araligi": "120.000 - 200.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla (E170, 2013-2019)",
+      "motor": "1.6 Valvematic (1ZR-FAE)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Devirdaim pompası sızıntısı",
+          "etkilenen_parca": "Su pompası",
+          "belirtiler": "Antifriz eksilmesi, pompa çevresinde pembe kristalleşme, rulmandan uğultu sesi",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "Valvematic aktüatör arızası",
+          "etkilenen_parca": "Valvematic motoru ve kontrol ünitesi",
+          "belirtiler": "Motor arıza lambası, güç kaybı, düzensiz rölanti",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 6 / Jetta (2008-2013)",
+      "motor": "1.4 TSI (EA111, DSG DQ200)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri uzaması ve gergi arızası",
+          "etkilenen_parca": "Triger zinciri ve zincir gergisi",
+          "belirtiler": "Soğuk çalıştırmada birkaç saniye süren şakırtı, motor arıza lambası, zincir atlaması durumunda supap hasarı",
+          "tahmini_km_araligi": "60.000 - 140.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Turbo wastegate çıngırtısı",
+          "etkilenen_parca": "Turbo wastegate (atık gaz klapesi) kolu ve burcu",
+          "belirtiler": "Gaz bırakmada veya düşük devirde metalik çıngırtı, güç kaybı, şarj basıncı hata kodu",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta"
+        },
+        {
+          "sorun_adi": "DSG mekatronik arızası",
+          "etkilenen_parca": "DQ200 mekatronik ünitesi",
+          "belirtiler": "Vites geçişlerinde vuruntu, göstergedeki vites harflerinin yanıp sönmesi, çekiş kaybı, şanzımanın acil moda geçmesi",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek"
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat (B6, 2005-2010)",
+      "motor": "2.0 TDI PD 16V (BKP)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Silindir kapağı çatlaması",
+          "etkilenen_parca": "Silindir kapağı",
+          "belirtiler": "Dışarıya kaçak olmadan antifriz eksilmesi, egzozdan beyaz duman, soğutma sisteminde hava kabarcığı ve basınç artışı, hararet",
+          "tahmini_km_araligi": "150.000 - 250.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Yağ pompası tahrik mili aşınması",
+          "etkilenen_parca": "Denge mili modülü ve yağ pompası altıgen tahrik mili",
+          "belirtiler": "Ani yağ basıncı kaybı, kırmızı yağ lambası, çoğu zaman önceden belirti vermeden kısa sürede motor hasarı",
+          "tahmini_km_araligi": "150.000 - 250.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "DSG mekatronik arızası",
+          "etkilenen_parca": "DQ250 mekatronik ünitesi",
+          "belirtiler": "Vites geçişlerinde vuruntu veya gecikme, göstergedeki vites harflerinin yanıp sönmesi, şanzımanın acil moda geçmesi",
+          "tahmini_km_araligi": "120.000 - 200.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Polo (9N / 6R, 2002-2014)",
+      "motor": "1.2 3 silindir (BMD / BME / CGPA)",
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri uzaması",
+          "etkilenen_parca": "Triger zinciri, zincir gergisi ve kızaklar",
+          "belirtiler": "Çalıştırmada zincir şakırtısı, motor arıza lambası, zincir atlaması durumunda supap hasarı",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek"
+        },
+        {
+          "sorun_adi": "Ateşleme bobini arızası",
+          "etkilenen_parca": "Ateşleme bobinleri",
+          "belirtiler": "Tekleme, rölantide titreme, yanıp sönen motor arıza lambası",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta"
+        }
+      ]
+    }
+  ]
+}
