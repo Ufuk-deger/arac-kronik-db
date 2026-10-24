@@ -1,0 +1,472 @@
+{
+  "turler": {
+    "resmi": "Resmî kurum belgesi (geri çağırma, servis bülteni, şikâyet kaydı)",
+    "forum": "Kullanıcı forumu",
+    "sikayet": "Şikâyet platformu veya sürücü yorumu derlemesi",
+    "anket": "Sahip anketi",
+    "dava-haberi": "Dava, toplu başvuru veya tüketici örgütü duyurusu",
+    "haber": "Haber sitesi",
+    "editoryal": "Editör veya blog yazısı",
+    "parca-atolye": "Parça üreticisi, parça satıcısı veya atölye rehberi",
+    "toplayici": "Başka kaynaklardan derleme yapan site"
+  },
+  "dayanak_turleri": ["resmi", "forum", "sikayet", "anket", "dava-haberi", "haber"],
+  "siteler": {
+    "otopark.com": {
+      "ad": "OTOPARK.COM Forum",
+      "ulke": "TR",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://otopark.com/forum/",
+      "not": "Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı."
+    },
+    "andcetin.com": {
+      "ad": "And Mehmet Çetin",
+      "ulke": "TR",
+      "tur": "editoryal",
+      "guven": "orta",
+      "ana_sayfa": "https://andcetin.com/",
+      "not": "Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor."
+    },
+    "donanimhaber.com": {
+      "ad": "DonanımHaber Forum",
+      "ulke": "TR",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://forum.donanimhaber.com/",
+      "not": "Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor."
+    },
+    "sikayetvar.com": {
+      "ad": "Şikâyetvar",
+      "ulke": "TR",
+      "tur": "sikayet",
+      "guven": "orta",
+      "ana_sayfa": "https://www.sikayetvar.com/",
+      "not": "Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor."
+    },
+    "eksisozluk.com": {
+      "ad": "Ekşi Sözlük",
+      "ulke": "TR",
+      "tur": "forum",
+      "guven": "düşük",
+      "ana_sayfa": "https://eksisozluk.com/",
+      "not": "Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz."
+    },
+    "arabam.com": {
+      "ad": "arabam.com Blog",
+      "ulke": "TR",
+      "tur": "editoryal",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.arabam.com/blog/",
+      "not": "İlan sitesinin blog yazıları. Genel bilgi verir; bazı yazılar motorun 'büyük bir kronik sorunu yoktur' gibi genellemeler içeriyor."
+    },
+    "araclo.com": {
+      "ad": "Araclo",
+      "ulke": "TR",
+      "tur": "editoryal",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.araclo.com/",
+      "not": "Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz."
+    },
+    "carcomplaints.com": {
+      "ad": "CarComplaints.com",
+      "ulke": "US",
+      "tur": "sikayet",
+      "guven": "yüksek",
+      "ana_sayfa": "https://www.carcomplaints.com/",
+      "not": "NHTSA şikâyetlerini ve dava haberlerini model yılı bazında derler. Yalnızca ABD pazarındaki araçları kapsar."
+    },
+    "nhtsa.gov": {
+      "ad": "NHTSA (ABD)",
+      "ulke": "US",
+      "tur": "resmi",
+      "guven": "yüksek",
+      "ana_sayfa": "https://www.nhtsa.gov/",
+      "not": "Resmî geri çağırma, servis bülteni (TSB) ve şikâyet kayıtları."
+    },
+    "classaction.org": {
+      "ad": "ClassAction.org",
+      "ulke": "US",
+      "tur": "dava-haberi",
+      "guven": "orta",
+      "ana_sayfa": "https://www.classaction.org/",
+      "not": "Toplu dava haberleri. Dava iddiaları kanıtlanmış kusur anlamına gelmez."
+    },
+    "topclassactions.com": {
+      "ad": "Top Class Actions",
+      "ulke": "US",
+      "tur": "dava-haberi",
+      "guven": "orta",
+      "ana_sayfa": "https://topclassactions.com/",
+      "not": "Toplu dava ve uzlaşma haberleri."
+    },
+    "ammonslaw.com": {
+      "ad": "Ammons Law Firm",
+      "ulke": "US",
+      "tur": "dava-haberi",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.ammonslaw.com/",
+      "not": "Hukuk bürosu sayfası. Honda arka lastik aşınması için servis bülteni özetini içeriyor."
+    },
+    "consumerreports.org": {
+      "ad": "Consumer Reports",
+      "ulke": "US",
+      "tur": "anket",
+      "guven": "yüksek",
+      "ana_sayfa": "https://www.consumerreports.org/",
+      "not": "Sahip anketlerine dayalı güvenilirlik verisi ve kampanya haberleri."
+    },
+    "repairpal.com": {
+      "ad": "RepairPal",
+      "ulke": "US",
+      "tur": "toplayici",
+      "guven": "orta",
+      "ana_sayfa": "https://repairpal.com/",
+      "not": "Arıza belirtisi ve onarım maliyeti derlemesi."
+    },
+    "honestjohn.co.uk": {
+      "ad": "Honest John",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.honestjohn.co.uk/",
+      "not": "Forum ve editör yanıtları ('Ask HJ'). Forum yazıları çoğunlukla 10 yıldan eski olabiliyor."
+    },
+    "parkers.co.uk": {
+      "ad": "Parkers",
+      "ulke": "UK",
+      "tur": "editoryal",
+      "guven": "orta",
+      "ana_sayfa": "https://www.parkers.co.uk/",
+      "not": "İkinci el alım rehberleri ve haberler."
+    },
+    "fordownersclub.com": {
+      "ad": "Ford Owners Club",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.fordownersclub.com/",
+      "not": "Ford sahipleri forumu (Focus, Fiesta, EcoBoost)."
+    },
+    "bimmerpost.com": {
+      "ad": "Bimmerpost",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://f30.bimmerpost.com/",
+      "not": "BMW F30 ve diğer kasa forumları."
+    },
+    "e90post.com": {
+      "ad": "E90Post",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.e90post.com/",
+      "not": "BMW 3 Serisi E90/E92 forumu."
+    },
+    "mbworld.org": {
+      "ad": "MBWorld",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://mbworld.org/",
+      "not": "Mercedes-Benz forumu."
+    },
+    "benzworld.org": {
+      "ad": "BenzWorld",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.benzworld.org/",
+      "not": "Mercedes-Benz forumu."
+    },
+    "mbclub.co.uk": {
+      "ad": "MB Club UK",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://forums.mbclub.co.uk/",
+      "not": "Mercedes-Benz sahipleri forumu."
+    },
+    "audizine.com": {
+      "ad": "Audizine",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.audizine.com/",
+      "not": "Audi forumu."
+    },
+    "audiworld.com": {
+      "ad": "AudiWorld",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.audiworld.com/",
+      "not": "Audi forumu ve rehber yazıları."
+    },
+    "audisrs.com": {
+      "ad": "AudiSRS",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://audisrs.com/",
+      "not": "Audi ve VAG forumu."
+    },
+    "vwvortex.com": {
+      "ad": "VWVortex",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.vwvortex.com/",
+      "not": "Volkswagen forumu."
+    },
+    "briskoda.net": {
+      "ad": "BRISKODA",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.briskoda.net/forums/",
+      "not": "Škoda sahipleri forumu."
+    },
+    "fiatforum.com": {
+      "ad": "Fiat Forum",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.fiatforum.com/",
+      "not": "Fiat sahipleri forumu (Dualogic, Multijet, Tipo)."
+    },
+    "vauxhallownersnetwork.co.uk": {
+      "ad": "Vauxhall Owners Network",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.vauxhallownersnetwork.co.uk/",
+      "not": "Vauxhall/Opel sahipleri forumu."
+    },
+    "astraownersnetwork.co.uk": {
+      "ad": "Astra Owners Network",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.astraownersnetwork.co.uk/",
+      "not": "Opel/Vauxhall Astra forumu."
+    },
+    "frenchcarforum.co.uk": {
+      "ad": "French Car Forum",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.frenchcarforum.co.uk/",
+      "not": "Peugeot, Citroën ve Renault forumu."
+    },
+    "berlingoforum.com": {
+      "ad": "Berlingo Forum",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.berlingoforum.com/",
+      "not": "Citroën Berlingo ve PSA dizel (HDi) forumu."
+    },
+    "qashqaiforums.co.uk": {
+      "ad": "Nissan QashQai Forums",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.qashqaiforums.co.uk/",
+      "not": "Nissan Qashqai sahipleri forumu."
+    },
+    "cruzetalk.com": {
+      "ad": "CruzeTalk",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.cruzetalk.com/",
+      "not": "Chevrolet Cruze forumu. Konular çoğunlukla ABD'deki 1.4T ve 1.8 motorlar için."
+    },
+    "civicx.com": {
+      "ad": "CivicX",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.civicx.com/",
+      "not": "Honda Civic (10. nesil) forumu."
+    },
+    "8thcivic.com": {
+      "ad": "8thCivic",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.8thcivic.com/",
+      "not": "Honda Civic (8. nesil, FD) forumu."
+    },
+    "toyotaownersclub.com": {
+      "ad": "Toyota Owners Club",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://toyotaownersclub.com/",
+      "not": "Toyota sahipleri forumu (Auris/Corolla D-4D)."
+    },
+    "planeterenault.com": {
+      "ad": "Planète Renault",
+      "ulke": "FR",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.planeterenault.com/forum/",
+      "not": "Fransızca Renault forumu. K9K yatak sorunu için moderatör yazısı bu sitede."
+    },
+    "fiches-auto.fr": {
+      "ad": "Fiches-Auto.fr",
+      "ulke": "FR",
+      "tur": "sikayet",
+      "guven": "orta",
+      "ana_sayfa": "https://www.fiches-auto.fr/",
+      "not": "Sürücü yorumlarından derlenen arıza ve güvenilirlik sayfaları."
+    },
+    "largus.fr": {
+      "ad": "L'argus",
+      "ulke": "FR",
+      "tur": "editoryal",
+      "guven": "yüksek",
+      "ana_sayfa": "https://www.largus.fr/",
+      "not": "Fransız otomotiv yayını. Güvenilirlik yazıları, tekrarlayan arıza listeleri ve geri çağırma haberleri."
+    },
+    "forum-peugeot.com": {
+      "ad": "Forum Peugeot",
+      "ulke": "FR",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.forum-peugeot.com/",
+      "not": "Fransızca Peugeot forumu."
+    },
+    "autobild.de": {
+      "ad": "AUTO BILD",
+      "ulke": "DE",
+      "tur": "editoryal",
+      "guven": "yüksek",
+      "ana_sayfa": "https://www.autobild.de/",
+      "not": "Alman otomotiv yayını. Şikâyet sayıları ve üretici açıklamaları."
+    },
+    "germancarforum.com": {
+      "ad": "German Car Forum",
+      "ulke": "Global",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.germancarforum.com/",
+      "not": "Alman markaları forumu."
+    },
+    "australiancar.reviews": {
+      "ad": "AustralianCar.Reviews",
+      "ulke": "AU",
+      "tur": "toplayici",
+      "guven": "orta",
+      "ana_sayfa": "https://australiancar.reviews/",
+      "not": "Model bazında geri çağırma ve arıza listeleri."
+    },
+    "autonavigator.hu": {
+      "ad": "Autónavigátor",
+      "ulke": "HU",
+      "tur": "editoryal",
+      "guven": "orta",
+      "ana_sayfa": "https://www.autonavigator.hu/",
+      "not": "Macarca yayın. 1.5 dCi için motor yenileyici görüşü içeren yazı (K9K biyel yatağı)."
+    },
+    "wheelstreet.lt": {
+      "ad": "WheelStreet",
+      "ulke": "LT",
+      "tur": "editoryal",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.wheelstreet.lt/",
+      "not": "Litvanyaca ikinci el rehberi (Passat B6)."
+    },
+    "hella.com": {
+      "ad": "HELLA TechWorld",
+      "ulke": "Global",
+      "tur": "parca-atolye",
+      "guven": "orta",
+      "ana_sayfa": "https://www.hella.com/techworld/",
+      "not": "Parça üreticisinin atölye teknik bültenleri. Üretici (Opel/BMW) belgesi değil."
+    },
+    "fcpeuro.com": {
+      "ad": "FCP Euro",
+      "ulke": "US",
+      "tur": "parca-atolye",
+      "guven": "orta",
+      "ana_sayfa": "https://www.fcpeuro.com/blog",
+      "not": "Parça satıcısının adım adım onarım rehberleri. Ticari çıkarı olan bir kaynak."
+    },
+    "bimmerworld.com": {
+      "ad": "BimmerWorld",
+      "ulke": "US",
+      "tur": "parca-atolye",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.bimmerworld.com/",
+      "not": "Parça satıcısı. Ürün sayfalarındaki arıza anlatımları ticari amaçlı."
+    },
+    "mercedesmedic.com": {
+      "ad": "Mercedes Medic",
+      "ulke": "US",
+      "tur": "parca-atolye",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.mercedesmedic.com/",
+      "not": "Mercedes şanzıman onarım atölyesi blogu."
+    },
+    "au7o.io": {
+      "ad": "au7o",
+      "ulke": "Global",
+      "tur": "toplayici",
+      "guven": "düşük",
+      "ana_sayfa": "https://au7o.io/",
+      "not": "Arıza kodu ve bilinen sorun derlemesi."
+    },
+    "picoauto.com": {
+      "ad": "PicoAuto Forum",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.picoauto.com/support/",
+      "not": "Tanı cihazı üreticisinin destek forumu."
+    },
+    "connexionfrance.com": {
+      "ad": "The Connexion",
+      "ulke": "FR",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://www.connexionfrance.com/",
+      "not": "Fransa haberleri (İngilizce). UFC-Que Choisir'in 1.2 TCe yağ tüketimi uyarısını aktarıyor."
+    },
+    "ocu.org": {
+      "ad": "OCU (İspanya)",
+      "ulke": "ES",
+      "tur": "dava-haberi",
+      "guven": "orta",
+      "ana_sayfa": "https://www.ocu.org/",
+      "not": "İspanyol tüketici örgütünün Renault motoru için toplu başvuru sayfası."
+    },
+    "carguide.ph": {
+      "ad": "CarGuide.PH",
+      "ulke": "PH",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://www.carguide.ph/",
+      "not": "Filipinler otomotiv haberleri. BMW geri çağırma duyurusu."
+    },
+    "carchecker.pro": {
+      "ad": "CarChecker.pro",
+      "ulke": "Global",
+      "tur": "toplayici",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.carchecker.pro/",
+      "not": "Genel amaçlı model raporları; iddialar zayıf kaynaklıdır."
+    },
+    "service4service.co.uk": {
+      "ad": "Service4Service",
+      "ulke": "UK",
+      "tur": "parca-atolye",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.service4service.co.uk/",
+      "not": "Şanzıman onarım atölyesi; Dualogic arızalarını anlatıyor."
+    }
+  }
+}

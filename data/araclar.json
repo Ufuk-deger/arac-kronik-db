@@ -10,28 +10,50 @@
           "etkilenen_parca": "Piston segmanları (yağ sıyırma segmanı)",
           "belirtiler": "Bakımlar arasında sık yağ eksilmesi, yağ seviyesi uyarısı, egzozdan mavimsi duman, buji kirlenmesi",
           "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.carcomplaints.com/Audi/A4/2009/engine/excessive_oil_consumption.shtml",
+            "https://www.classaction.org/news/2012-2017-audi-models-with-2.0l-turbocharged-engines-plagued-by-piston-defect-class-action-claims",
+            "https://forum.donanimhaber.com/kronik-yag-eksiltme-yakma-sorunlari-ve-ureticilerin-olumsuz-yaklasimlarini-toparlayalim--127025783",
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
         },
         {
           "sorun_adi": "Triger zinciri gergisi arızası",
           "etkilenen_parca": "Triger zinciri gergisi ve zincir",
           "belirtiler": "Soğuk çalıştırmada zincir şakırtısı, kam/krank senkron hatası ile arıza lambası, ileri aşamada zincir atlaması ve supap hasarı",
           "tahmini_km_araligi": "80.000 - 160.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.audizine.com/forum/showthread.php/712531-THE-Timing-Chain-Tensioner-Failure-Thread",
+            "https://www.audiworld.com/forums/a4-b8-platform-discussion-128/timing-chain-issue-a4-b8-5-a-3043467/",
+            "https://www.araclo.com/vehicles/audi-a4-sedan-2.0-tfsi/degerlendirmeler/kullanici-sorunlari"
+          ]
         },
         {
-          "sorun_adi": "PCV valfi arızası",
-          "etkilenen_parca": "Karter havalandırma (PCV) valfi",
-          "belirtiler": "Rölantide ıslık sesi, düzensiz rölanti, fakir karışım hata kodları, conta ve keçelerden yağ kaçağı",
+          "sorun_adi": "PCV valfi ve ön krank keçesi arızası",
+          "etkilenen_parca": "Karter havalandırma (PCV) valfi ve ön krank keçesi",
+          "belirtiler": "Rölantide ıslık sesi, düzensiz rölanti, yağ tüketiminde artış, fakir karışım hata kodları, conta ve keçelerden yağ kaçağı",
           "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.carcomplaints.com/news/2021/audi-oil-consumption-lawsuit-pistons.shtml",
+            "https://forum.donanimhaber.com/kronik-yag-eksiltme-yakma-sorunlari-ve-ureticilerin-olumsuz-yaklasimlarini-toparlayalim--127025783",
+            "https://www.audiworld.com/how-tos/a/audi-a4-b8-information-on-the-oil-consumption-problem-421881"
+          ]
         },
         {
           "sorun_adi": "Multitronic (CVT) şanzıman arızası",
-          "etkilenen_parca": "Multitronic şanzıman beyni ve kavrama paketi",
+          "etkilenen_parca": "Multitronic şanzıman beyni (TCM) ve kavrama paketi",
           "belirtiler": "Kalkışta titreme ve silkeleme, gösterge panelinde vites konumunun yanıp sönmesi, şanzımanın acil moda geçmesi",
-          "tahmini_km_araligi": "100.000 - 180.000 km",
-          "risk_seviyesi": "Yüksek"
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.audiworld.com/how-tos/a/audi-a4-b8-multitronic-cvt-problems-421233",
+            "https://www.araclo.com/blog/audi-a4-2.0-tdi-satin-alma-rehberi-kronik-sorunlar-bakim-maliyetleri-2026",
+            "https://forum.donanimhaber.com/audi-a4-2-0-tdi-multitronic-arac-sanziman-sorunu--154811654",
+            "https://www.arabam.com/blog/danisman/multitronic-sanziman-nedir/"
+          ]
         }
       ]
     },
@@ -43,23 +65,27 @@
         {
           "sorun_adi": "Triger zinciri uzaması",
           "etkilenen_parca": "Motorun arka tarafındaki triger zinciri ve kızakları",
-          "belirtiler": "Motorun arkasından gelen ıslık/vınlama sesi (özellikle rölantide ve gaz bırakmada), ileri aşamada zincir kopması ve motor hasarı",
+          "belirtiler": "Soğuk çalıştırmada motorun arkasından gelen ıslık/tıkırtı sesi, ileri aşamada zincir kopması ve motor hasarı",
           "tahmini_km_araligi": "100.000 - 200.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/n47-motor-zincir-sesi-ve-problemi-zaman-zinciri--113480942",
+            "https://otopark.com/forum/threads/320d-520d-motor-zincir-problemi.1092/",
+            "https://www.e90post.com/forums/showthread.php?t=791870",
+            "https://www.parkers.co.uk/bmw/3-series/touring-2005/used-review/"
+          ]
         },
         {
-          "sorun_adi": "EGR valfi ve soğutucusu arızası",
-          "etkilenen_parca": "EGR valfi ve EGR soğutucusu",
-          "belirtiler": "Çekiş kaybı, motor arıza lambası, soğutucu sızdırıyorsa antifriz eksilmesi ve egzozdan beyaz duman",
+          "sorun_adi": "EGR soğutucusu ve valfi arızası",
+          "etkilenen_parca": "EGR soğutucusu ve EGR valfi",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, soğutma suyu eksilmesi, egzozdan beyaz duman; BMW bu parça için geri çağırma yürüttü, şasi numarasıyla sorgulayın",
           "tahmini_km_araligi": "100.000 - 180.000 km",
-          "risk_seviyesi": "Orta"
-        },
-        {
-          "sorun_adi": "DPF tıkanması",
-          "etkilenen_parca": "Dizel partikül filtresi (DPF)",
-          "belirtiler": "DPF uyarısı, güç kısıtlaması (acil mod), sık rejenerasyon, yakıt tüketiminde artış",
-          "tahmini_km_araligi": "120.000 - 200.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/bmw-3-serisi-320d-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026",
+            "https://www.sikayetvar.com/bmw/n47-motorlu-bmwde-tekrarlayan-eger-arizasi-ve-geri-cagirma-istegi",
+            "https://www.carguide.ph/2018/08/bmw-recalls-42-models-including-320d.html?m=1"
+          ]
         }
       ]
     },
@@ -69,25 +95,39 @@
       "motor": "320i / 328i 2.0 turbo benzin (N20B20)",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Triger zinciri kızağı kırılması",
-          "etkilenen_parca": "Plastik zincir kızakları ve zincir gergisi",
-          "belirtiler": "Motor ön tarafından gelen ıslık/vınlama sesi, arıza lambası, ileri aşamada zincir atlaması ve motor hasarı",
+          "sorun_adi": "Triger zinciri ve plastik kızak arızası",
+          "etkilenen_parca": "Plastik zincir kızakları, zincir gergisi ve zincir",
+          "belirtiler": "Motor önünden gelen ıslık/vınlama sesi, arıza lambası, ileri aşamada zincir atlaması ve motor hasarı",
           "tahmini_km_araligi": "80.000 - 160.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://f30.bimmerpost.com/forums/showthread.php?t=1622988",
+            "https://www.carcomplaints.com/news/2020/bmw-timing-chain-lawsuit-settlement-reached.shtml",
+            "https://www.fcpeuro.com/blog/how-to-replace-the-bmw-n20-timing-chain-part-1-removal"
+          ]
         },
         {
-          "sorun_adi": "Elektrikli devirdaim pompası arızası",
-          "etkilenen_parca": "Elektrikli su pompası",
-          "belirtiler": "Hararet uyarısı, soğutma sıvısı uyarı mesajı, motor gücünün sınırlanması",
+          "sorun_adi": "Elektrikli devirdaim pompası ve konnektör arızası",
+          "etkilenen_parca": "Elektrikli su pompası ve pompa konnektörü",
+          "belirtiler": "Hararet uyarısı, soğutma sıvısı uyarı mesajı, fanların sürekli çalışması, motor gücünün sınırlanması",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://f30.bimmerpost.com/forums/showthread.php?t=2166229",
+            "https://www.bimmerworld.com/Cooling/Water-Pumps/BMW-Water-Pump-N20-N26-F22-F30-F32-F10-X1-F25-F26-E89-11518635089.html",
+            "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-f30-water-pump-thermostat-n20-n26-engine"
+          ]
         },
         {
           "sorun_adi": "Yağ filtresi yuvası contası kaçağı",
           "etkilenen_parca": "Yağ filtresi yuvası contası",
           "belirtiler": "Motor altında yağ izi, yanık yağ kokusu, ileri durumda aksesuar kayışına yağ bulaşması",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-n20-n26-oil-filter-housing-gasket-f30",
+            "https://f30.bimmerpost.com/forums/showthread.php?t=1994474"
+          ]
         }
       ]
     },
@@ -101,21 +141,35 @@
           "etkilenen_parca": "Yağ soğutucusu (eşanjör) contası",
           "belirtiler": "Antifriz deposunda yağ birikmesi, antifriz eksilmesi, motor yağında köpüklenme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/chevrolet-cruze-alinir-mi-gercekten-sorunlu-mu-nelere-dikkat-etmeliyim--161725714",
+            "https://otopark.com/forum/threads/chevrolet-cruze-1-6-alinir-mi.6179/",
+            "https://www.cruzetalk.com/threads/oil-cooler-leak-questions.262742/"
+          ]
         },
         {
-          "sorun_adi": "Termostat gövdesi çatlaması",
-          "etkilenen_parca": "Plastik termostat gövdesi",
+          "sorun_adi": "Termostat gövdesi ve soğutma suyu kaçağı",
+          "etkilenen_parca": "Plastik termostat gövdesi ve soğutma hortum/flanşları",
           "belirtiler": "Antifriz eksilmesi, hararet göstergesinde dalgalanma, motor bölmesinde tatlımsı antifriz kokusu",
           "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.cruzetalk.com/threads/infamous-chevy-cruze-coolant-system-issues.253100/",
+            "https://www.carcomplaints.com/Chevrolet/Cruze/2013/cooling_system/coolant_leak.shtml",
+            "https://forum.donanimhaber.com/chevrolet-cruze-alinir-mi-gercekten-sorunlu-mu-nelere-dikkat-etmeliyim--161725714"
+          ]
         },
         {
-          "sorun_adi": "Külbütör kapağı contası ve PCV kaçağı",
-          "etkilenen_parca": "Külbütör kapağı contası / entegre PCV",
-          "belirtiler": "Buji kuyularına yağ dolması, tekleme, yanık yağ kokusu",
-          "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Orta"
+          "sorun_adi": "Ateşleme bobini arızası",
+          "etkilenen_parca": "Ateşleme bobini grubu",
+          "belirtiler": "Tekleme, rölantide titreme, çekiş kaybı, motor arıza lambası",
+          "tahmini_km_araligi": "60.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/cruze-hakkinda-bilgisi-olanlar.10295/",
+            "https://forum.donanimhaber.com/chevrolet-cruze-alinir-mi-gercekten-sorunlu-mu-nelere-dikkat-etmeliyim--161725714"
+          ]
         }
       ]
     },
@@ -125,25 +179,41 @@
       "motor": "1.6 HDi / BlueHDi (DV6)",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Enjektör pulu kaçağı ve karbonlaşma",
-          "etkilenen_parca": "Enjektör bakır pulları",
-          "belirtiler": "Motor bölmesinde is/kurum kokusu, enjektör çevresinde siyah karbon birikimi, motor üstünden tıkırtı sesi",
+          "sorun_adi": "Enjektör arızası ve enjektör dibi kaçağı",
+          "etkilenen_parca": "Common-rail enjektörleri ve bakır pulları",
+          "belirtiler": "Motor üstünde is/kurum kokusu, rölantide titreme, güç kaybı, soğuk çalıştırmada zorlanma",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/enjektor-arizasi-citroen-c5-1-6-hdi-2011--138608291",
+            "https://forum.donanimhaber.com/1-6tdci-kronik-sorun-var-mi--149568529",
+            "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574"
+          ]
         },
         {
           "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
-          "etkilenen_parca": "Turbo yağ besleme rakorundaki süzgeç, turboşarj",
+          "etkilenen_parca": "Turbo yağ besleme rakorundaki süzgeç ve boru, turboşarj",
           "belirtiler": "Güç kaybı, turbo ıslığı, egzozdan mavi duman, yağsız kalan turbo yatağının dağılması",
           "tahmini_km_araligi": "100.000 - 180.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
+            "https://otopark.com/forum/threads/207-1-6-hdi-turbo-arizasi.2118/page-2",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=42948"
+          ]
         },
         {
           "sorun_adi": "EGR valfi tıkanması",
           "etkilenen_parca": "EGR valfi",
-          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik, düşük devirde acil moda geçme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/egr-valfi-temizligi--30929546",
+            "https://www.berlingoforum.com/thread-12042.html",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=59950"
+          ]
         }
       ]
     },
@@ -153,25 +223,29 @@
       "motor": "1.5 dCi (K9K)",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Kol yatağı sarması",
-          "etkilenen_parca": "Biyel kolu yatakları",
-          "belirtiler": "Motordan gelen metalik vuruntu sesi, yağ basıncı uyarısı, ileri aşamada motor kilitlenmesi",
-          "tahmini_km_araligi": "120.000 - 200.000 km",
-          "risk_seviyesi": "Yüksek"
-        },
-        {
           "sorun_adi": "Enjektör arızası",
           "etkilenen_parca": "Common-rail enjektörleri",
           "belirtiler": "Zor çalışma, egzozdan siyah veya beyaz duman, rölantide titreme, yakıt tüketiminde artış",
-          "tahmini_km_araligi": "100.000 - 180.000 km",
-          "risk_seviyesi": "Orta"
+          "tahmini_km_araligi": "60.000 - 180.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php",
+            "https://www.largus.fr/actualite-automobile/fiabilite-dacia-duster-problemes-de-fonctionnement-du-moteur-15-dci-6278389.html",
+            "https://www.araclo.com/vehicles/dacia-duster/duster1-makyajli/1-5-dci/kronik-sorunlar",
+            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/"
+          ]
         },
         {
           "sorun_adi": "EGR valfi tıkanması",
           "etkilenen_parca": "EGR valfi",
           "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik veya stop etme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.largus.fr/actualite-automobile/fiabilite-dacia-duster-problemes-de-fonctionnement-du-moteur-15-dci-6278389.html",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php",
+            "https://www.araclo.com/vehicles/dacia-duster/duster1-makyajli/1-5-dci/kronik-sorunlar"
+          ]
         }
       ]
     },
@@ -185,21 +259,26 @@
           "etkilenen_parca": "EGR valfi",
           "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide stop etme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari",
+            "https://www.fiatforum.com/threads/1-3-multijet.476537/",
+            "https://otopark.com/forum/threads/egea-dpf-iptali-sonrasi-yasanan-sorunlar.15711/",
+            "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762"
+          ]
         },
         {
           "sorun_adi": "DPF tıkanması ve yağa yakıt karışması",
           "etkilenen_parca": "Dizel partikül filtresi (DPF), motor yağı",
           "belirtiler": "DPF uyarısı, güç kısıtlaması, tamamlanamayan rejenerasyonlar nedeniyle yağ seviyesinin yükselmesi",
           "tahmini_km_araligi": "80.000 - 160.000 km",
-          "risk_seviyesi": "Orta"
-        },
-        {
-          "sorun_adi": "Triger zinciri uzaması",
-          "etkilenen_parca": "Triger zinciri ve zincir gergisi",
-          "belirtiler": "Soğuk çalıştırmada metalik zincir sesi, kam/krank senkron hatası ile arıza lambası",
-          "tahmini_km_araligi": "150.000 - 250.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiat-egea-araclarda-kronik-dpf-arizasi-ve-cozum-talebi",
+            "https://otopark.com/forum/threads/egea-dpf-iptali-sonrasi-yasanan-sorunlar.15711/",
+            "https://www.fiatforum.com/threads/fiat-500-1-3-multijet-egr-dpf-oil-level.500987",
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari"
+          ]
         }
       ]
     },
@@ -213,21 +292,36 @@
           "etkilenen_parca": "Çift kütleli volan (manuel şanzımanlı versiyon)",
           "belirtiler": "Kalkışta titreme, rölantide tıkırtı, kontak kapatılırken sarsıntı",
           "tahmini_km_araligi": "100.000 - 180.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.fiatforum.com/threads/tipo-clutch-replacement.522340/",
+            "https://www.sikayetvar.com/fiat/egea/volan",
+            "https://www.carchecker.pro/reports/fiat_tipo_mk2_1.6_multijet.html"
+          ]
         },
         {
           "sorun_adi": "EGR ve DPF tıkanması",
           "etkilenen_parca": "EGR valfi, dizel partikül filtresi (DPF)",
           "belirtiler": "Çekiş kaybı, DPF uyarısı, sık rejenerasyon, motor arıza lambası",
           "tahmini_km_araligi": "80.000 - 160.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/egea/partikul-filtresi",
+            "https://otopark.com/forum/threads/egea-dpf-iptali-sonrasi-yasanan-sorunlar.15711/",
+            "https://www.fiatforum.com/threads/1-3-multijet.476537/"
+          ]
         },
         {
-          "sorun_adi": "DCT şanzıman kavrama ve yazılım sorunları",
-          "etkilenen_parca": "Kuru tip çift kavramalı şanzıman (DCT) ve şanzıman beyni",
-          "belirtiler": "Düşük hızda silkeleme, vites geçişlerinde gecikme, yokuş kalkışlarında tereddüt",
-          "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "sorun_adi": "DCT şanzıman kavrama aşınması ve yazılım sorunları",
+          "etkilenen_parca": "Çift kavramalı şanzıman (DCT) kavrama takımı ve şanzıman beyni",
+          "belirtiler": "Düşük hızda silkeleme, kalkışta gecikme ve ani hamle, vites geçişlerinde sarsıntı",
+          "tahmini_km_araligi": "40.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/egea/otomatik-sanziman",
+            "https://forum.donanimhaber.com/egea-1-6-multijet2-dct-detayli-inceleme-80-bin-km-geride-kaldi--130178669-28",
+            "https://www.araclo.com/blog/fiat-egea-1.6-multijet-130-hp-dct-incelemesi-ne-kadar-yakar-alinir-mi"
+          ]
         }
       ]
     },
@@ -239,23 +333,54 @@
         {
           "sorun_adi": "Dualogic hidrolik ünite ve aktüatör arızası",
           "etkilenen_parca": "Dualogic robotize şanzıman hidrolik pompası ve aktüatörleri",
-          "belirtiler": "Vites geçmeme, şanzıman arıza uyarısı, göstergede vites harfinin yanıp sönmesi, hidrolik pompanın sürekli çalışma sesi",
+          "belirtiler": "Vites geçmeme, şanzıman arıza uyarısı, göstergede vites harfinin yanıp sönmesi, hidrolik yağ kaçağı, hidrolik pompanın sürekli çalışma sesi",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiat-linea-otomatik-sanziman-arizasi",
+            "https://forum.donanimhaber.com/dualogic-linea-almayi-dusunuyorum-almali-miyim--146854142",
+            "https://www.fiatforum.com/threads/hydraulic-pump-problems.310766",
+            "https://www.fiatforum.com/500/425006-one-only-dualogic-failure-thread-23.html?p=4279881",
+            "https://www.service4service.co.uk/car-repairs/gearboxes/fiat-gearboxes",
+            "https://otopark.com/forum/threads/fiat-dualogic-sanziman-bilgi.14475/"
+          ]
+        },
+        {
+          "sorun_adi": "Dualogic kavrama (debriyaj) aşınması",
+          "etkilenen_parca": "Robotize şanzıman debriyaj seti",
+          "belirtiler": "Kalkışta tereddüt, trafik ışığında vitese geçmeme, yokuşta kayma hissi",
+          "tahmini_km_araligi": "50.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/dualogic-linea-almayi-dusunuyorum-almali-miyim--146854142",
+            "https://www.fiatforum.com/threads/dualogic-problem-or-clutch.521638/",
+            "https://www.sikayetvar.com/fiat/fiat-linea-otomatik-sanziman-arizasi"
+          ]
         },
         {
           "sorun_adi": "EGR valfi tıkanması",
           "etkilenen_parca": "EGR valfi",
           "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide stop etme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/fiat-linea-1.3-multijet/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
+            "https://www.fiatforum.com/threads/1-3-multijet.476537/"
+          ]
         },
         {
           "sorun_adi": "Triger zinciri uzaması",
           "etkilenen_parca": "Triger zinciri ve zincir gergisi",
-          "belirtiler": "Soğuk çalıştırmada metalik zincir sesi, kam/krank senkron hatası ile arıza lambası",
+          "belirtiler": "Soğuk çalıştırmada birkaç saniye süren metalik hışırtı, kam/krank senkron hatası ile arıza lambası",
           "tahmini_km_araligi": "150.000 - 250.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/linea-1-3-multijet-triger-zincir-degisimi--85642559",
+            "https://forum.donanimhaber.com/1-3-multijet-triger-zincir-degisim-zamani-yardim--130469575",
+            "https://www.araclo.com/vehicles/fiat-linea-1.3-multijet/degerlendirmeler/kullanici-sorunlari",
+            "https://fiatforum.com/threads/what-goes-wrong-with-multijet-pandas.492092"
+          ]
         }
       ]
     },
@@ -266,17 +391,30 @@
       "kronik_sorunlar": [
         {
           "sorun_adi": "Soğutma sistemi kaçağı ve hararet",
-          "etkilenen_parca": "Soğutma sıvısı hortumları ve genleşme tankı",
-          "belirtiler": "Hararet uyarısı, antifriz eksilmesi, ileri aşamada silindir kapağı çatlaması",
+          "etkilenen_parca": "Soğutma sıvısı hortumları (degas hortumu) ve genleşme tankı",
+          "belirtiler": "Hararet uyarısı, antifriz eksilmesi (sıcaklık uyarısı vermeden de olabilir), ileri aşamada silindir kapağı çatlaması",
           "tahmini_km_araligi": "30.000 - 100.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.fordownersclub.com/forums/topic/139001-2013-focus-1l-ecoboost-coolant-degas-pipe-perished-leading-to-engine-overheating/",
+            "https://www.fordownersclub.com/forums/topic/69942-mk3-10-ecoboost-recall/",
+            "https://www.honestjohn.co.uk/forum/post/121115/ford-cmax-1-0",
+            "https://andcetin.com/10-ecoboost-motor-sorunlar-44/",
+            "https://www.araclo.com/blog/ford-focus-1.0-ecoboost-gtdi-alinir-mi-kronik-sorunlar-performans-ve-kullanici-yorumlari"
+          ]
         },
         {
           "sorun_adi": "Yağ banyolu triger kayışının aşınması",
           "etkilenen_parca": "Yağ içinde çalışan triger kayışı",
           "belirtiler": "Kayış parçacıklarının yağ pompası süzgecini tıkaması, düşük yağ basıncı uyarısı, motor hasarı",
           "tahmini_km_araligi": "100.000 - 160.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.fordownersclub.com/forums/topic/133542-10-ecoboost-wet-belt-issue/",
+            "https://www.parkers.co.uk/car-news/ford-wet-belt-issues/",
+            "https://andcetin.com/10-ecoboost-motor-sorunlar-44/",
+            "https://www.araclo.com/blog/ford-focus-1.0-ecoboost-gtdi-alinir-mi-kronik-sorunlar-performans-ve-kullanici-yorumlari"
+          ]
         }
       ]
     },
@@ -290,21 +428,35 @@
           "etkilenen_parca": "Enjektör bakır pulları",
           "belirtiler": "Motor bölmesinde is/kurum kokusu, enjektör çevresinde siyah karbon birikimi, motor üstünden tıkırtı sesi",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.fordownersclub.com/forums/topic/52656-16-tdci-injector-seals/",
+            "https://www.fordownersclub.com/forums/topic/40940-oil-leak-around-injectors/",
+            "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574"
+          ]
         },
         {
           "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
-          "etkilenen_parca": "Turbo yağ besleme rakorundaki süzgeç, turboşarj",
+          "etkilenen_parca": "Turbo yağ besleme rakorundaki süzgeç ve boru, turboşarj",
           "belirtiler": "Güç kaybı, turbo ıslığı, egzozdan mavi duman, yağsız kalan turbo yatağının dağılması",
           "tahmini_km_araligi": "100.000 - 180.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.fordownersclub.com/forums/topic/121545-16tdci-turbo-problems-what-years/",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=90204",
+            "https://www.honestjohn.co.uk/forum/post/117866/focus-1-6-tdci--"
+          ]
         },
         {
           "sorun_adi": "DPF tıkanması",
-          "etkilenen_parca": "Dizel partikül filtresi (DPF)",
-          "belirtiler": "DPF uyarısı, güç kısıtlaması, sık rejenerasyon, yakıt tüketiminde artış",
+          "etkilenen_parca": "Dizel partikül filtresi (DPF) ve basınç sensörü hortumları",
+          "belirtiler": "DPF uyarısı, güç kısıtlaması (acil mod), sık rejenerasyon, yakıt tüketiminde artış",
           "tahmini_km_araligi": "100.000 - 180.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.fordownersclub.com/forums/topic/82756-blocked-dpf-regeneration-help-16-tdci-2008/",
+            "https://www.honestjohn.co.uk/askhj/answer/28172/ford-focus-dpf-problems"
+          ]
         }
       ]
     },
@@ -314,18 +466,31 @@
       "motor": "1.6 Ti-VCT (Powershift DPS6)",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Powershift kavrama silkelemesi",
-          "etkilenen_parca": "Kuru çift kavrama ve giriş mili keçeleri",
-          "belirtiler": "Kalkışta ve düşük hızda titreme/silkeleme, vites geçişlerinde vuruntu, gecikmeli kalkış",
+          "sorun_adi": "Powershift kavrama silkelemesi ve kavrama yuvası sızıntısı",
+          "etkilenen_parca": "Çift kuru kavrama ve giriş mili keçeleri",
+          "belirtiler": "Kalkışta ve düşük hızda titreme/silkeleme, vites geçişlerinde vuruntu, kavrama yuvasından şanzıman yağı sızıntısı",
           "tahmini_km_araligi": "40.000 - 120.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://static.nhtsa.gov/odi/tsbs/2016/SB-10092372-5448.pdf",
+            "https://www.carcomplaints.com/Ford/Focus/2016/transmission/shudders.shtml",
+            "https://www.sikayetvar.com/ford/focus/powershift",
+            "https://forum.donanimhaber.com/ford-focus-1-6-ti-vct-powershift-ariza-fiyat-hakkinda-bilgi--146762175",
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
+          ]
         },
         {
           "sorun_adi": "Şanzıman kontrol modülü (TCM) arızası",
           "etkilenen_parca": "Şanzıman kontrol modülü (TCM)",
           "belirtiler": "Seyir halinde aniden boşa düşme, şanzıman arıza uyarısı, vites değiştirememe, aracın çalışmaması",
           "tahmini_km_araligi": "60.000 - 150.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.carcomplaints.com/news/2017/ford-transmission-lawsuit-settlement.shtml",
+            "https://www.carcomplaints.com/Ford/Focus/2016/transmission/power_train-automatic_transmission-control_module_tcm_pcm.shtml",
+            "https://www.sikayetvar.com/ford/focus/powershift",
+            "https://eksisozluk.com/ford-focus-1-5-tdci-powershift--4830705"
+          ]
         }
       ]
     },
@@ -339,14 +504,27 @@
           "etkilenen_parca": "Motor yağı (direkt enjeksiyon kaynaklı)",
           "belirtiler": "Yağ çubuğunda seviyenin yükselmesi, yağda benzin kokusu, soğuk havada ve kısa mesafe kullanımda belirginleşmesi",
           "tahmini_km_araligi": "10.000 - 60.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.consumerreports.org/car-recalls-defects/honda-extends-warranty-on-troubled-turbo-engines/",
+            "https://www.carcomplaints.com/news/2019/honda-civic-cr-v-oil-dilution-warranties-extended.shtml",
+            "https://www.civicx.com/forum/threads/oil-dilution.40590/",
+            "https://www.araclo.com/blog/honda-civic-1.5-turbo-vs-1.6-i-vtec-hangisi-daha-avantajli-2026",
+            "https://forum.donanimhaber.com/honda-civic-1-5-turbo-rs-88-000km-yag-fazlalasmasi--160945633"
+          ]
         },
         {
           "sorun_adi": "Klima kondenseri delinmesi",
           "etkilenen_parca": "Klima kondenseri",
           "belirtiler": "Klimanın sıcak hava üflemesi, gaz kaçağı, kısa sürede tekrar gaz eksilmesi",
           "tahmini_km_araligi": "30.000 - 80.000 km",
-          "risk_seviyesi": "Düşük"
+          "risk_seviyesi": "Düşük",
+          "kaynaklar": [
+            "https://www.carcomplaints.com/news/2019/honda-civic-air-conditioner-lawsuit-condenser.shtml",
+            "https://topclassactions.com/lawsuit-settlements/consumer-products/auto-news/honda-class-action-alleges-civic-ac-defect/",
+            "https://www.civicx.com/forum/threads/air-conditioning-condenser-issue-is-real.24701/page-10",
+            "https://www.sikayetvar.com/honda/civic/klima"
+          ]
         }
       ]
     },
@@ -356,25 +534,29 @@
       "motor": "1.6 i-VTEC",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Arka lastiklerde iç kenar aşınması",
-          "etkilenen_parca": "Arka süspansiyon geometrisi (negatif kamber) ve arka alt kollar",
-          "belirtiler": "Arka lastiklerin iç kenarlarının hızlı aşınması, yüksek hızda uğultu",
+          "sorun_adi": "Arka lastiklerde düzensiz aşınma (2006-2007 üretimde Honda servis bülteni)",
+          "etkilenen_parca": "Arka üst salıncaklar ve arka süspansiyon geometrisi",
+          "belirtiler": "Arka lastiklerde düzensiz ve hızlı aşınma, kısa sürede lastik değişimi, yüksek hızda yol sesi",
           "tahmini_km_araligi": "30.000 - 80.000 km",
-          "risk_seviyesi": "Düşük"
-        },
-        {
-          "sorun_adi": "Motor takozu yıpranması",
-          "etkilenen_parca": "Motor ve şanzıman takozları",
-          "belirtiler": "Kalkışta ve vites geçişlerinde vuruntu, rölantide kabine gelen titreşim",
-          "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Düşük"
+          "risk_seviyesi": "Düşük",
+          "kaynaklar": [
+            "https://www.carcomplaints.com/Honda/Civic/2007/suspension/suspension-rear.shtml",
+            "https://www.ammonslaw.com/tire-defects/manufacturer-lawsuits/honda-defect/",
+            "https://static.nhtsa.gov/complaints/10779068/10779068-AF0DEE51B0BC02CAE05375E8789808C8.pdf"
+          ]
         },
         {
           "sorun_adi": "Klima kompresörü arızası",
           "etkilenen_parca": "Klima kompresörü ve kompresör kavraması",
           "belirtiler": "Klimanın soğutmaması, kompresörden gelen ses, kavramanın devreye girmemesi",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.carcomplaints.com/Honda/Civic/2006/AC_heater/ac_compressor_failed.shtml",
+            "https://www.8thcivic.com/threads/a-c-compressor-replacement.593249/",
+            "https://www.consumerreports.org/cars/honda/civic/2006/reliability/",
+            "https://repairpal.com/honda/civic/2006/ac-not-working"
+          ]
         }
       ]
     },
@@ -384,18 +566,18 @@
       "motor": "1.6 T-GDI (7DCT)",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "7DCT kavrama aşırı ısınması ve silkeleme",
-          "etkilenen_parca": "Kuru tip çift kavrama",
-          "belirtiler": "Dur-kalk trafikte silkeleme, şanzıman aşırı ısınma uyarısı, kalkışta gecikme",
+          "sorun_adi": "7DCT kalkışta tereddüt ve silkeleme",
+          "etkilenen_parca": "Çift kavramalı şanzıman (7DCT) kavrama kontrol yazılımı ve kavrama paketi",
+          "belirtiler": "Dur-kalk trafikte silkeleme, kalkışta gecikme ve ani hamle, vites geçişlerinde sarsıntı",
           "tahmini_km_araligi": "40.000 - 100.000 km",
-          "risk_seviyesi": "Orta"
-        },
-        {
-          "sorun_adi": "Emme supaplarında karbon birikimi",
-          "etkilenen_parca": "Emme supapları (direkt enjeksiyon)",
-          "belirtiler": "Rölantide titreme, soğuk çalıştırmada tekleme, performans kaybı",
-          "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://static.nhtsa.gov/odi/rcl/2016/RCRIT-16V628-9893.pdf",
+            "https://www.carcomplaints.com/Hyundai/Tucson/2016/transmission/hesitation.shtml",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-sanziman-sorunu",
+            "https://forum.donanimhaber.com/hyundai-7-dct-sanziman-problemi--123289408",
+            "https://www.araclo.com/vehicles/hyundai-tucson-1.6-t-gdi/degerlendirmeler/kullanici-sorunlari"
+          ]
         }
       ]
     },
@@ -409,35 +591,58 @@
           "etkilenen_parca": "Triger zinciri ve eksantrik mili ayar dişlisi",
           "belirtiler": "Çalıştırmada zincir sesi, kam/krank korelasyon hatası ile arıza lambası, düzensiz rölanti",
           "tahmini_km_araligi": "80.000 - 160.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://mbworld.org/forums/c-class-w203/623512-m271-cam-sprocket-replacement.html",
+            "https://www.benzworld.org/threads/m271-timing-chain.3025774/",
+            "https://forums.mbclub.co.uk/threads/c180-k-timing-chain-and-sprocket-kit.229749/page-2",
+            "https://eksisozluk.com/mercedes-c180-kompressor--2216297?p=11",
+            "https://www.carcomplaints.com/Mercedes-Benz/C250/2012/engine/engine.shtml"
+          ]
         },
         {
           "sorun_adi": "Eksantrik ayar mıknatısından yağ kaçağı",
           "etkilenen_parca": "Eksantrik mili ayar mıknatısları (solenoidler)",
           "belirtiler": "Mıknatıs soketinden kabloya yağ sızması, yağın kablo demeti boyunca motor beynine ilerlemesi, arıza lambası",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.benzworld.org/threads/m271-946-cam-solenoid-oil-leak.1888737/",
+            "https://mbworld.org/forums/c-class-w203/460273-leaking-camshaft-solenoid-magnets-dtb-tsb-m271.html",
+            "https://eksisozluk.com/mercedes-c180-kompressor--2216297?p=11"
+          ]
         }
       ]
     },
     {
       "marka": "Mercedes-Benz",
       "model": "C Serisi (W204, 2007-2014)",
-      "motor": "C200 / C220 / C250 CDI 2.1 (OM651)",
+      "motor": "C220 / C250 CDI 2.1 (OM651)",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Piezo enjektör arızası",
-          "etkilenen_parca": "Delphi piezo enjektörleri",
-          "belirtiler": "Seyir halinde motorun stop etmesi, zor çalışma, tekleme, motor arıza lambası",
-          "tahmini_km_araligi": "60.000 - 150.000 km",
-          "risk_seviyesi": "Yüksek"
+          "sorun_adi": "Delphi piezo enjektör arızası",
+          "etkilenen_parca": "Delphi piezo enjektörleri (C200 CDI manyetik enjektörlü olduğundan etkilenmez)",
+          "belirtiler": "Motor arıza lambası, acil moda geçme, düzensiz çalışma, zor çalışma",
+          "tahmini_km_araligi": "50.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/diesel-probleme-bei-e-klasse-c-klasse-und-glk-988549.html",
+            "https://australiancar.reviews/recalls-faults-mercedes-benz-s204-c-class-estate-2008-14/",
+            "https://www.germancarforum.com/threads/mercedes-benz-troubles-with-newest-om651-diesel-engine.31035/latest"
+          ]
         },
         {
           "sorun_adi": "7G-Tronic iletken plaka arızası",
           "etkilenen_parca": "7G-Tronic (722.9) şanzıman iletken plakası ve hız sensörleri",
-          "belirtiler": "Şanzımanın aniden acil moda geçip tek viteste kalması, sert vites geçişleri, şanzıman uyarı mesajı",
-          "tahmini_km_araligi": "100.000 - 200.000 km",
-          "risk_seviyesi": "Orta"
+          "belirtiler": "Şanzımanın acil moda geçip tek viteste (çoğunlukla 2.) kalması, sert vites geçişleri, şanzıman uyarı mesajı",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.mercedesmedic.com/722-9-7g-tronic-automatic-transmission-problems-solutions/",
+            "https://mbworld.org/forums/s-class-w220/786318-722-9-woes.html",
+            "https://au7o.io/known-issues/dtc/p2768/mercedes-benz",
+            "https://forums.mbclub.co.uk/threads/cls-350-help.195078"
+          ]
         }
       ]
     },
@@ -448,45 +653,85 @@
       "kronik_sorunlar": [
         {
           "sorun_adi": "Xtronic CVT şanzıman arızası",
-          "etkilenen_parca": "CVT kayışı, kasnaklar ve valf gövdesi",
-          "belirtiler": "Hızlanmada uğultu veya ıslık, kalkışta silkeleme, devir yükselirken hızın artmaması, aşırı ısınma uyarısı",
-          "tahmini_km_araligi": "80.000 - 160.000 km",
-          "risk_seviyesi": "Yüksek"
+          "etkilenen_parca": "CVT kayışı/zinciri, kasnaklar, valf gövdesi ve şanzıman beyni",
+          "belirtiler": "Hızlanmada uğultu veya ıslık, kalkışta ve düşük hızda silkeleme, devir yükselirken hızın artmaması",
+          "tahmini_km_araligi": "40.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.qashqaiforums.co.uk/viewtopic.php?t=10758",
+            "https://www.honestjohn.co.uk/askhj/answer/142834/our-nissan-qashqai-hesitates-and-judders-when-accelerating---is-this-an-issue-with-the-auto-box-",
+            "https://www.sikayetvar.com/nissan/qashqai/sanziman",
+            "https://forum.donanimhaber.com/qashqai-otomatik-vites-tecrubeleriniz-yasanilan-sorunlar-ve-cozumleri--147733665"
+          ]
         },
         {
           "sorun_adi": "Aşırı yağ tüketimi",
           "etkilenen_parca": "Piston segmanları",
-          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, buji kirlenmesi",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, buji kirlenmesi, ileri aşamada egzoz supabı ve motor hasarı",
           "tahmini_km_araligi": "40.000 - 100.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
+            "https://otopark.com/forum/threads/1-2-nissan-qashqai-yag-yakma-sorunu.10284/",
+            "https://connexionfrance.com/article/French-news/Renault-cars-have-severe-defect-says-consumer-group",
+            "https://www.ocu.org/acciones-colectivas/afectados-motor-defectuoso-renault"
+          ]
         },
         {
-          "sorun_adi": "Triger zinciri uzaması",
+          "sorun_adi": "Triger zinciri sesi ve uzaması",
           "etkilenen_parca": "Triger zinciri ve zincir gergisi",
           "belirtiler": "Soğuk çalıştırmada zincir sesi, motor arıza lambası, zincir atlaması durumunda supap hasarı",
           "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
+            "https://www.qashqaiforums.co.uk/viewtopic.php?p=69316",
+            "https://www.araclo.com/vehicles/renault-clio-1.2-tce/degerlendirmeler/kullanici-sorunlari"
+          ]
         }
       ]
     },
     {
       "marka": "Opel",
       "model": "Astra H (2004-2010)",
-      "motor": "1.6 Twinport (Z16XEP, Easytronic)",
+      "motor": "1.6 Twinport (Z16XEP / Z16XER, Easytronic)",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Twinport klapesi arızası",
-          "etkilenen_parca": "Emme manifoldu Twinport klapesi ve aktüatörü",
-          "belirtiler": "Motor arıza lambası, düşük devirde çekişsizlik, düzensiz rölanti, kırılan klape parçalarının silindire düşme riski",
+          "sorun_adi": "Twinport emme klapesi ve konum sensörü arızası (P1113)",
+          "etkilenen_parca": "Emme manifoldu Twinport klapesi ve manifolda entegre konum sensörü",
+          "belirtiler": "Motor arıza lambası, düzensiz çalışma ve tekleme, düşük devirde çekiş kaybı",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.vauxhallownersnetwork.co.uk/threads/fault-code-p1113.432090/",
+            "https://astraownersnetwork.co.uk/archive/index.php/t-83528.html",
+            "https://www.hella.com/techworld/us/bi/opel-astra-g-h-engine-does-not-run-smoothly"
+          ]
         },
         {
           "sorun_adi": "Easytronic aktüatör arızası",
           "etkilenen_parca": "Easytronic robotize şanzıman kavrama aktüatörü",
           "belirtiler": "Vites geçmeme, göstergede \"F\" uyarısı, kalkışta tereddüt, aracın viteste takılı kalması",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.vauxhallownersnetwork.co.uk/threads/easytronic-problem-clutch-actuator.439177/",
+            "https://otopark.com/forum/threads/astra-easytronic-ariza.7258/",
+            "https://forum.donanimhaber.com/astra-h-easytronic-vites-sorunu-s--106467726-2",
+            "https://www.sikayetvar.com/opel/astra/sanziman-arizasi"
+          ]
+        },
+        {
+          "sorun_adi": "Yağ soğutucusu sızıntısı (yağ-su karışması)",
+          "etkilenen_parca": "Yağ soğutucusu ve contaları",
+          "belirtiler": "Soğutma suyunda yağ, motor yağında su, antifriz eksilmesi",
+          "tahmini_km_araligi": "100.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/astra-j-1-6-otomatik-nasildir-kronik-problemleri-var-mi.14812/",
+            "https://forum.donanimhaber.com/opel-otomobillerin-kronik-sorunlari-nelerdir--43616774-5",
+            "https://www.astraownersnetwork.co.uk/threads/oil-cooler-leak.346970/"
+          ]
         }
       ]
     },
@@ -496,18 +741,17 @@
       "motor": "1.4 Turbo (A14NET)",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "PCV diyaframı yırtılması",
-          "etkilenen_parca": "Külbütör kapağına entegre PCV diyaframı",
-          "belirtiler": "Rölantide ıslık sesi, düzensiz rölanti, yağ tüketimi, fakir karışım hata kodları",
+          "sorun_adi": "PCV diyaframı ve emme manifoldu kontrol valfi arızası",
+          "etkilenen_parca": "Külbütör kapağına entegre PCV diyaframı ve emme manifoldundaki tek yönlü valf",
+          "belirtiler": "Rölantide ıslık veya emme sesi, düzensiz rölanti, valf kapağı contasından yağ sızıntısı, fakir karışım hata kodları",
           "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Orta"
-        },
-        {
-          "sorun_adi": "Turbo soğutma hattı ve devirdaim kaçağı",
-          "etkilenen_parca": "Turbo soğutma suyu boruları, su pompası",
-          "belirtiler": "Antifriz eksilmesi, turbo ve pompa çevresinde kurumuş antifriz izi, hararet uyarısı",
-          "tahmini_km_araligi": "60.000 - 130.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.astraownersnetwork.co.uk/threads/astra-j-1-4-turbo-pcv.367034/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/astra-j-1-4t-crank-case-pressure.903425/",
+            "https://www.cruzetalk.com/threads/2011-2016-cruze-1-4-pcv-valve-cover-intake-manifold-issues.192442/page-24",
+            "https://forum.donanimhaber.com/astra-j-1-4-turbo-motor-sesi-fazla-mi--83440116"
+          ]
         }
       ]
     },
@@ -517,25 +761,41 @@
       "motor": "1.6 HDi / BlueHDi (DV6)",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Enjektör pulu kaçağı ve karbonlaşma",
-          "etkilenen_parca": "Enjektör bakır pulları",
-          "belirtiler": "Motor bölmesinde is/kurum kokusu, enjektör çevresinde siyah karbon birikimi, motor üstünden tıkırtı sesi",
+          "sorun_adi": "Enjektör arızası ve enjektör dibi kaçağı",
+          "etkilenen_parca": "Common-rail enjektörleri ve bakır pulları",
+          "belirtiler": "Motor üstünde is/kurum kokusu, rölantide titreme, güç kaybı, soğuk çalıştırmada zorlanma",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/enjektor-arizasi-citroen-c5-1-6-hdi-2011--138608291",
+            "https://forum.donanimhaber.com/1-6tdci-kronik-sorun-var-mi--149568529",
+            "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574"
+          ]
         },
         {
           "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
-          "etkilenen_parca": "Turbo yağ besleme rakorundaki süzgeç, turboşarj",
+          "etkilenen_parca": "Turbo yağ besleme rakorundaki süzgeç ve boru, turboşarj",
           "belirtiler": "Güç kaybı, turbo ıslığı, egzozdan mavi duman, yağsız kalan turbo yatağının dağılması",
           "tahmini_km_araligi": "100.000 - 180.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
+            "https://otopark.com/forum/threads/207-1-6-hdi-turbo-arizasi.2118/page-2",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=42948"
+          ]
         },
         {
           "sorun_adi": "EGR valfi tıkanması",
           "etkilenen_parca": "EGR valfi",
-          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik, düşük devirde acil moda geçme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/egr-valfi-temizligi--30929546",
+            "https://www.berlingoforum.com/thread-12042.html",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=59950"
+          ]
         }
       ]
     },
@@ -549,21 +809,38 @@
           "etkilenen_parca": "Triger zinciri, zincir gergisi ve eksantrik dişlileri",
           "belirtiler": "Soğuk çalıştırmada zincir sesi, kam/krank senkron hatası ile arıza lambası",
           "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/thp-motor-ve-kronik-sorunlari-1-6-thp-alirken-nelere-dikkat-edilmeli.13309/",
+            "https://www.forum-peugeot.com/Forum/threads/fiabilit%C3%A9-du-thp-1-6l-150ch-moteur-ep6.30030/",
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2280-fiabilite-des-16-thp.php",
+            "https://www.parkers.co.uk/peugeot/3008/estate/review/"
+          ]
         },
         {
           "sorun_adi": "Emme supaplarında karbon birikimi",
           "etkilenen_parca": "Emme supapları (direkt enjeksiyon)",
-          "belirtiler": "Tekleme, düzensiz rölanti, güç kaybı",
-          "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Orta"
+          "belirtiler": "Tekleme, düzensiz rölanti, güç ve yakıt ekonomisi kaybı",
+          "tahmini_km_araligi": "70.000 - 130.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/motorlar/ep6-1-6thp/kronik-sorunlar",
+            "https://www.parkers.co.uk/peugeot/3008/estate/review/",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?p=586357"
+          ]
         },
         {
           "sorun_adi": "Yüksek basınç yakıt pompası arızası",
           "etkilenen_parca": "Yüksek basınç yakıt pompası",
-          "belirtiler": "Zor çalışma, gaza basınca tıkanma, yakıt basıncı hata kodu ile arıza lambası",
-          "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "belirtiler": "Zor çalışma, gaza basınca tıkanma, ani güç kaybı, yakıt basıncı hata kodu ile arıza lambası",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/thp-motor-ve-kronik-sorunlari-1-6-thp-alirken-nelere-dikkat-edilmeli.13309/",
+            "https://www.araclo.com/vehicles/peugeot-3008-1.6-thp/degerlendirmeler/kullanici-sorunlari",
+            "https://www.parkers.co.uk/peugeot/3008/estate/review/",
+            "https://forum.donanimhaber.com/thp-yuksek-basinc-pompasi-tamiri--160377560"
+          ]
         }
       ]
     },
@@ -576,15 +853,27 @@
           "sorun_adi": "Yağ banyolu triger kayışının dağılması",
           "etkilenen_parca": "Yağ içinde çalışan triger kayışı",
           "belirtiler": "Yağ basıncı uyarısı, kayış parçacıklarının yağ pompası süzgecini tıkaması, fren vakum pompası arızası nedeniyle fren pedalının sertleşmesi, motor hasarı",
-          "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Yüksek"
+          "tahmini_km_araligi": "40.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.honestjohn.co.uk/askhj/answer/184969/are-there-cambelt-issues-with-the-1-2-puretech-engine-",
+            "https://www.parkers.co.uk/car-news/stellantis-wet-belt-compensation/",
+            "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
+            "https://www.sikayetvar.com/peugeot/peugeot-308-purtech-triger-kayisi-ve-yag-eksiltme-sorunu",
+            "https://www.honestjohn.co.uk/forum/post/159060/peugeot-308-sw--"
+          ]
         },
         {
           "sorun_adi": "Aşırı yağ tüketimi",
           "etkilenen_parca": "Piston segmanları",
           "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, egzozdan mavimsi duman",
           "tahmini_km_araligi": "40.000 - 100.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-308-purtech-triger-kayisi-ve-yag-eksiltme-sorunu",
+            "https://www.araclo.com/blog/1.2-puretech-motor-analizi-gercek-sorunlar-abartilanlar-ve-kontrol-listesi",
+            "https://www.parkers.co.uk/car-news/stellantis-wet-belt-compensation/"
+          ]
         }
       ]
     },
@@ -596,16 +885,27 @@
         {
           "sorun_adi": "Aşırı yağ tüketimi",
           "etkilenen_parca": "Piston segmanları",
-          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, buji kirlenmesi, ileri aşamada motor hasarı",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, buji kirlenmesi, ileri aşamada segman kırılması ve motor hasarı",
           "tahmini_km_araligi": "40.000 - 100.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/50-000-km-de-sekman-kirip-motoru-acilan-clio-4-1-2-turbo-ve-yag-eksiltme-sorunu--133657387",
+            "https://forum.donanimhaber.com/renault-1-2-turbo-edc-yag-eksiltme-problemi--109082025",
+            "https://connexionfrance.com/article/French-news/Renault-cars-have-severe-defect-says-consumer-group",
+            "https://www.ocu.org/acciones-colectivas/afectados-motor-defectuoso-renault"
+          ]
         },
         {
-          "sorun_adi": "Triger zinciri uzaması",
+          "sorun_adi": "Triger zinciri sesi ve uzaması",
           "etkilenen_parca": "Triger zinciri ve zincir gergisi",
-          "belirtiler": "Soğuk çalıştırmada zincir sesi, motor arıza lambası, zincir atlaması durumunda supap hasarı",
+          "belirtiler": "Soğuk çalıştırmada birkaç saniye süren metalik zincir sesi, düzensiz rölanti, zamanlama hata kodu",
           "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/renault-clio-1.2-tce/degerlendirmeler/kullanici-sorunlari",
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
+            "https://www.qashqaiforums.co.uk/viewtopic.php?p=69316"
+          ]
         }
       ]
     },
@@ -615,32 +915,43 @@
       "motor": "1.5 dCi (K9K, EDC)",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Kol yatağı sarması",
-          "etkilenen_parca": "Biyel kolu yatakları",
-          "belirtiler": "Motordan gelen metalik vuruntu sesi, yağ basıncı uyarısı, ileri aşamada motor kilitlenmesi",
-          "tahmini_km_araligi": "120.000 - 200.000 km",
-          "risk_seviyesi": "Yüksek"
-        },
-        {
           "sorun_adi": "Enjektör arızası",
           "etkilenen_parca": "Common-rail enjektörleri",
-          "belirtiler": "Zor çalışma, egzozdan siyah veya beyaz duman, rölantide titreme, yakıt tüketiminde artış",
-          "tahmini_km_araligi": "100.000 - 180.000 km",
-          "risk_seviyesi": "Orta"
+          "belirtiler": "Zor çalışma, egzozdan siyah veya beyaz duman, rölantide titreme, \"enjeksiyon kontrol\" uyarısı, yakıt tüketiminde artış",
+          "tahmini_km_araligi": "60.000 - 180.000 km",
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
+            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/",
+            "https://www.sikayetvar.com/renault/megane/enjeksiyon"
+          ]
+        },
+        {
+          "sorun_adi": "Yüksek basınç yakıt pompası talaşı",
+          "etkilenen_parca": "Yüksek basınç yakıt pompası (Delphi) ve enjektörler",
+          "belirtiler": "Yakıt hattında metal talaş, zor çalışma, tekleme, güç kaybı, enjektörlerin birbiri ardına bozulması",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=35027",
+            "https://www.araclo.com/vehicles/renault-megane/megane3/1-5-dci/kronik-sorunlar"
+          ]
         },
         {
           "sorun_adi": "EDC şanzıman kavrama ve aktüatör sorunları",
-          "etkilenen_parca": "EDC kuru çift kavramalı şanzıman, kavrama aktüatörleri",
-          "belirtiler": "Kalkışta silkeleme, vites geçişlerinde vuruntu, şanzıman kontrol uyarısı",
+          "etkilenen_parca": "EDC çift kavramalı şanzıman, kavrama aktüatörleri ve yazılım",
+          "belirtiler": "Kalkışta silkeleme, vites geçişlerinde vuruntu, \"EDC kontrol\" uyarısı",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
-        },
-        {
-          "sorun_adi": "Çift kütleli volan arızası",
-          "etkilenen_parca": "Çift kütleli volan",
-          "belirtiler": "Kalkışta titreme, rölantide tıkırtı, kontak kapatılırken sarsıntı",
-          "tahmini_km_araligi": "100.000 - 180.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/renault-edc-sorunu--58692943-5",
+            "https://www.sikayetvar.com/renault/fluence/kronik",
+            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
+          ]
         }
       ]
     },
@@ -654,21 +965,37 @@
           "etkilenen_parca": "DQ200 mekatronik ünitesi",
           "belirtiler": "Vites geçişlerinde vuruntu, göstergedeki vites harflerinin yanıp sönmesi, çekiş kaybı, şanzımanın acil moda geçmesi",
           "tahmini_km_araligi": "60.000 - 150.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.briskoda.net/forums/topic/438569-mechatronics-failure-dsg/",
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.sikayetvar.com/skoda/octavia/sanziman",
+            "https://www.vwvortex.com/threads/dq200-dsg-in-global-recall-possibly-affects-jetta-hybrid.6858488/page-4"
+          ]
         },
         {
           "sorun_adi": "Kuru kavrama aşınması",
           "etkilenen_parca": "DQ200 kuru çift kavrama",
           "belirtiler": "Kalkışta silkeleme, yokuşta geri kayma hissi, düşük hızda sarsıntılı vites geçişleri",
           "tahmini_km_araligi": "60.000 - 140.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.briskoda.net/forums/topic/509343-dsg-judder-mechatronic-issue-please-help/",
+            "https://www.sikayetvar.com/skoda/octavia/sanziman"
+          ]
         },
         {
-          "sorun_adi": "Devirdaim pompası ve termostat gövdesi kaçağı",
-          "etkilenen_parca": "Plastik su pompası ve termostat modülü",
+          "sorun_adi": "Devirdaim pompası ve termostat modülü kaçağı",
+          "etkilenen_parca": "Plastik içli su pompası ve termostat modülü",
           "belirtiler": "Antifriz eksilmesi, motor altında pembe/mor antifriz izi, hararet uyarısı",
           "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.briskoda.net/forums/topic/520582-14-tsi-coolant-leak-from-water-pump/",
+            "https://www.briskoda.net/forums/topic/498967-dreaded-water-pump-issue/",
+            "https://forum.donanimhaber.com/devirdaim-pompasi-iyi-niyet-garantisi--143340133"
+          ]
         }
       ]
     },
@@ -682,35 +1009,24 @@
           "etkilenen_parca": "Piston segmanları",
           "belirtiler": "Bakımlar arasında yağ eksilmesi, egzozdan mavi duman, DPF'nin erken tıkanması",
           "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/toyota-corolla-nin-1-4-dizeli--108848712",
+            "https://forum.donanimhaber.com/2011-1-4-dizel-corolla-manuel-yag-eksiltiyor--46845540",
+            "https://toyotaownersclub.com/forums/topic/160533-excessive-oil-consumption-toyota-14-d4d-engines",
+            "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026"
+          ]
         },
         {
           "sorun_adi": "Enjektör arızası",
           "etkilenen_parca": "Common-rail enjektörleri",
-          "belirtiler": "Zor çalışma, rölantide düzensizlik, egzozdan siyah duman",
+          "belirtiler": "Zor çalışma, rölantide düzensizlik, egzozdan siyah duman, enjektör dibinden yağ kaçağı",
           "tahmini_km_araligi": "120.000 - 200.000 km",
-          "risk_seviyesi": "Orta"
-        }
-      ]
-    },
-    {
-      "marka": "Toyota",
-      "model": "Corolla (E170, 2013-2019)",
-      "motor": "1.6 Valvematic (1ZR-FAE)",
-      "kronik_sorunlar": [
-        {
-          "sorun_adi": "Devirdaim pompası sızıntısı",
-          "etkilenen_parca": "Su pompası",
-          "belirtiler": "Antifriz eksilmesi, pompa çevresinde pembe kristalleşme, rulmandan uğultu sesi",
-          "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
-        },
-        {
-          "sorun_adi": "Valvematic aktüatör arızası",
-          "etkilenen_parca": "Valvematic motoru ve kontrol ünitesi",
-          "belirtiler": "Motor arıza lambası, güç kaybı, düzensiz rölanti",
-          "tahmini_km_araligi": "100.000 - 180.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/toyota-corolla-enjektor-arizasi",
+            "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026"
+          ]
         }
       ]
     },
@@ -724,21 +1040,27 @@
           "etkilenen_parca": "Triger zinciri ve zincir gergisi",
           "belirtiler": "Soğuk çalıştırmada birkaç saniye süren şakırtı, motor arıza lambası, zincir atlaması durumunda supap hasarı",
           "tahmini_km_araligi": "60.000 - 140.000 km",
-          "risk_seviyesi": "Yüksek"
-        },
-        {
-          "sorun_adi": "Turbo wastegate çıngırtısı",
-          "etkilenen_parca": "Turbo wastegate (atık gaz klapesi) kolu ve burcu",
-          "belirtiler": "Gaz bırakmada veya düşük devirde metalik çıngırtı, güç kaybı, şarj basıncı hata kodu",
-          "tahmini_km_araligi": "80.000 - 150.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://www.briskoda.net/forums/topic/490489-14-tsi-122-caxa-rattle/",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=95765",
+            "https://www.vwvortex.com/threads/tsi-timing-chain-info-a-complete-guide-for-your-eos.9249027/",
+            "https://otopark.com/forum/threads/2010-model-golf-1-4-tsi-160-hp-golf-6-1-4-tsi-alinir-mi-1-4-tsi-160-hp-alirken-dikkat-edilmesi-gerekenler.16049/",
+            "https://www.araclo.com/vehicles/volkswagen-golf-1.4-tsi/degerlendirmeler/kullanici-sorunlari"
+          ]
         },
         {
           "sorun_adi": "DSG mekatronik arızası",
           "etkilenen_parca": "DQ200 mekatronik ünitesi",
           "belirtiler": "Vites geçişlerinde vuruntu, göstergedeki vites harflerinin yanıp sönmesi, çekiş kaybı, şanzımanın acil moda geçmesi",
           "tahmini_km_araligi": "60.000 - 150.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://forum.donanimhaber.com/golf-6-alicam-ama-dsg-sorunu-ne-oldu--38444209",
+            "https://www.sikayetvar.com/volkswagen/golf/sanziman",
+            "https://www.briskoda.net/forums/topic/444617-7sp-dq200-dsg-failure/"
+          ]
         }
       ]
     },
@@ -748,25 +1070,27 @@
       "motor": "2.0 TDI PD 16V (BKP)",
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Silindir kapağı çatlaması",
-          "etkilenen_parca": "Silindir kapağı",
-          "belirtiler": "Dışarıya kaçak olmadan antifriz eksilmesi, egzozdan beyaz duman, soğutma sisteminde hava kabarcığı ve basınç artışı, hararet",
-          "tahmini_km_araligi": "150.000 - 250.000 km",
-          "risk_seviyesi": "Yüksek"
-        },
-        {
           "sorun_adi": "Yağ pompası tahrik mili aşınması",
           "etkilenen_parca": "Denge mili modülü ve yağ pompası altıgen tahrik mili",
           "belirtiler": "Ani yağ basıncı kaybı, kırmızı yağ lambası, çoğu zaman önceden belirti vermeden kısa sürede motor hasarı",
           "tahmini_km_araligi": "150.000 - 250.000 km",
-          "risk_seviyesi": "Yüksek"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://audisrs.com/2-0-tdi-vag-engines-with-oil-pump-failures-t33282.html",
+            "https://www.wheelstreet.lt/straipsniai/vw-passat-b6-gidas",
+            "https://forum.donanimhaber.com/b6-2010-model-passat-yag-basinc-uyarisi--136598082"
+          ]
         },
         {
-          "sorun_adi": "DSG mekatronik arızası",
-          "etkilenen_parca": "DQ250 mekatronik ünitesi",
+          "sorun_adi": "DSG (DQ250) mekatronik ve kavrama sorunları",
+          "etkilenen_parca": "DQ250 mekatronik ünitesi ve kavrama",
           "belirtiler": "Vites geçişlerinde vuruntu veya gecikme, göstergedeki vites harflerinin yanıp sönmesi, şanzımanın acil moda geçmesi",
           "tahmini_km_araligi": "120.000 - 200.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Orta",
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/passat/dsg",
+            "https://australiancar.reviews/?p=47961"
+          ]
         }
       ]
     },
@@ -778,16 +1102,13 @@
         {
           "sorun_adi": "Triger zinciri uzaması",
           "etkilenen_parca": "Triger zinciri, zincir gergisi ve kızaklar",
-          "belirtiler": "Çalıştırmada zincir şakırtısı, motor arıza lambası, zincir atlaması durumunda supap hasarı",
+          "belirtiler": "Çalıştırmada zincir şakırtısı, düzensiz çalışma, motor arıza lambası, zincir atlaması durumunda supap hasarı",
           "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Yüksek"
-        },
-        {
-          "sorun_adi": "Ateşleme bobini arızası",
-          "etkilenen_parca": "Ateşleme bobinleri",
-          "belirtiler": "Tekleme, rölantide titreme, yanıp sönen motor arıza lambası",
-          "tahmini_km_araligi": "60.000 - 120.000 km",
-          "risk_seviyesi": "Orta"
+          "risk_seviyesi": "Yüksek",
+          "kaynaklar": [
+            "https://honestjohn.co.uk/volkswagen/polo/2005/",
+            "https://picoauto.com/support/viewtopic.php?p=35761"
+          ]
         }
       ]
     }

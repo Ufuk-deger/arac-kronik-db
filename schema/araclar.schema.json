@@ -38,7 +38,8 @@
         "etkilenen_parca",
         "belirtiler",
         "tahmini_km_araligi",
-        "risk_seviyesi"
+        "risk_seviyesi",
+        "kaynaklar"
       ],
       "additionalProperties": false,
       "properties": {
@@ -51,6 +52,16 @@
         },
         "risk_seviyesi": {
           "enum": ["Düşük", "Orta", "Yüksek"]
+        },
+        "kaynaklar": {
+          "description": "Sorunu destekleyen sayfalar. En az iki farklı alan adı gerekir; bu kural scripts/dogrula.py tarafından denetlenir.",
+          "type": "array",
+          "minItems": 2,
+          "uniqueItems": true,
+          "items": {
+            "type": "string",
+            "pattern": "^https://[^\\s]+$"
+          }
         }
       }
     }
