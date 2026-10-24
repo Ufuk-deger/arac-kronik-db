@@ -34,6 +34,21 @@ class KapsamTesti(unittest.TestCase):
             if "sonuc" in o:
                 self.assertEqual(kapsam_md_uret.eslesen_kayitlar(o, ARACLAR), [], f"{o['marka']} {o['model']}")
 
+    def test_kayitli_satirda_her_eslesme_parcasi_bir_kayda_denk_gelir(self):
+        # Birleşik motor/model satırı ("1.4 TSI / 1.6 TDI") yalnızca bir parçası kayıtlıysa ✓ görünüp
+        # diğer parçayı gizler. Eşleşme parçalarının her biri, satırın eşleşen kayıtlarından en az birinde bulunmalı;
+        # bulunmayan parça ayrı bir satır olmalı (kayıtsızsa '–' ya da '○').
+        for o in PLAN["plan"]:
+            kayitlar = kapsam_md_uret.eslesen_kayitlar(o, ARACLAR)
+            if not kayitlar:
+                continue
+            for parca in o["eslesme"]["model"]:
+                self.assertTrue(any(parca in a["model"] for a in kayitlar),
+                                f"{o['marka']} {o['model']} / {o['motor']}: model parçası kayıtlarda yok: {parca!r}")
+            for parca in o["eslesme"]["motor"]:
+                self.assertTrue(any(parca in a["motor"] for a in kayitlar),
+                                f"{o['marka']} {o['model']} / {o['motor']}: motor parçası kayıtlarda yok: {parca!r}")
+
     def test_kapsam_disi_markalar_planda_yok(self):
         disarida = {m["marka"] for m in PLAN["pazar"]["markalar"] if m["kapsam"] == "dışarıda"}
         self.assertEqual({o["marka"] for o in PLAN["plan"]} & disarida, set())

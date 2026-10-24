@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """Tek dosyalık görüntüleyiciyi üretir: viewer/index.html
 
-data/araclar.json ve data/kaynaklar.json içeriği viewer/sablon.html içine gömülür. Çıktıyı
-tarayıcıda açın; sunucu gerekmez. Kullanım:
+data/araclar.json, data/kaynaklar.json ve kaydı olmayan plan satırları (data/kapsam.json) viewer/sablon.html
+içine gömülür. Çıktıyı tarayıcıda açın; sunucu gerekmez. Kullanım:
 
     python3 scripts/viewer_uret.py
 """
@@ -13,6 +13,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from dogrula import KAYIT_DOSYASI, KOK, VARSAYILAN_DOSYA  # noqa: E402
+from kapsam_md_uret import PLAN_DOSYASI, eslesen_kayitlar  # noqa: E402
 
 SABLON = KOK / "viewer" / "sablon.html"
 HEDEF = KOK / "viewer" / "index.html"
@@ -30,6 +31,21 @@ def json_metni(nesne):
     return json.dumps(nesne, ensure_ascii=False, separators=(",", ":")).replace("</", "<\\/")
 
 
+def plan_ozeti(veri):
+    """Kaydı olmayan plan satırları: kaynak arandı ama eklenmedi ('elendi') ya da henüz sırada ('sirada')."""
+    plan = json.loads(PLAN_DOSYASI.read_text(encoding="utf-8"))["plan"]
+    ozet = []
+    for oge in plan:
+        if eslesen_kayitlar(oge, veri["arac_listesi"]):
+            continue
+        sirada = oge.get("sonuc") != "yetersiz-kanit"
+        ozet.append({
+            "marka": oge["marka"], "model": oge["model"], "yillar": oge["yillar"], "motor": oge["motor"],
+            "durum": "sirada" if sirada else "elendi", "not": "" if sirada else oge["not"],
+        })
+    return ozet
+
+
 def uret():
     veri = json.loads(VARSAYILAN_DOSYA.read_text(encoding="utf-8"))
     kayit = json.loads(KAYIT_DOSYASI.read_text(encoding="utf-8"))
@@ -38,10 +54,14 @@ def uret():
         for alan, bilgi in kayit["siteler"].items()
     }
     sablon = SABLON.read_text(encoding="utf-8")
-    for yer in ("__VERI__", "__KAYNAK__"):
+    for yer in ("__VERI__", "__KAYNAK__", "__PLAN__"):
         if sablon.count(yer) != 1:
             raise SystemExit(f"HATA: şablonda {yer} tam bir kez geçmeli")
-    govde = sablon.replace("__VERI__", json_metni(veri)).replace("__KAYNAK__", json_metni({"siteler": siteler}))
+    govde = (
+        sablon.replace("__VERI__", json_metni(veri))
+        .replace("__KAYNAK__", json_metni({"siteler": siteler}))
+        .replace("__PLAN__", json_metni(plan_ozeti(veri)))
+    )
     return ISKELET_BASI + govde + "</html>\n"
 
 

@@ -191,6 +191,11 @@ görebilirsiniz. Yıl kırılımı olan sorunlarda girdiğiniz model yılının 
 Ayrıntısı olan sorunlarda "Ayrıntılar" bölümü açılır; "Tüm ayrıntıları aç" kutusu hepsini birden açar ve
 arama kutusu ayrıntı metinlerinde de arar.
 
+Sayfanın altındaki "Arandı ama kayıt açılmayan gruplar" bölümü, `data/kapsam.json` içindeki `–` satırlarını
+(kaynak arandı ama iki siteyle desteklenen, o motora özgü bir sorun bulunamadı) nedenleriyle gösterir;
+arama kutusu, marka, model yılı ve elektrikli filtresi bu bölüme de uygulanır. Bir araç ne kayıtlarda ne de bu
+bölümde yoksa henüz hiç aranmamıştır.
+
 ## Doğrulama
 
 ```sh
@@ -220,3 +225,6 @@ kontrol eder. Hata bulunursa sıfırdan farklı bir çıkış koduyla sonlanır;
    `KAYNAKLAR.md` ve `KAPSAM.md` dosyalarını yenileyin.
 5. Kaynak bulunamayan bir model/motor grubu için sorun uydurmayın; `data/kapsam.json`
    içinde ilgili satıra `"sonuc": "yetersiz-kanit"` ve nedenini yazın.
+6. `data/kapsam.json` satırlarında birleşik etiket (ör. `1.4 TSI / 1.6 TDI`) kullanıyorsanız her
+   alternatif `eslesme` içinde ayrı parça olmalı ve en az bir kayda denk gelmelidir; yalnızca bir
+   kısmı kayıtlıysa satırı bölün (testler denetler).

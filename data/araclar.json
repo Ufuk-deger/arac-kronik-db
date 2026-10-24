@@ -1342,7 +1342,7 @@
     },
     {
       "marka": "Dacia",
-      "model": "Sandero / Logan (2013-2020)",
+      "model": "Sandero / Logan / Symbol (2013-2020)",
       "motor": "0.9 TCe 90 (H4Bt)",
       "uretim_yillari": {
         "baslangic": 2013,
@@ -1356,7 +1356,7 @@
           "tahmini_km_araligi": "20.000 - 80.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
-            "neden": "Gazdan çekilince turbo wastegate bölgesinden gelen cızırtı/zırıltı: Araclo bunu wastegate ayarsızlığına bağlıyor ve servis ayarıyla giderilebildiğini ama tekrarlayabildiğini yazıyor; And Mehmet Çetin Renault 1.0 TCe'nin en bilinen kroniklerinden biri sayıyor. Şikâyetvar'da bir kullanıcı yetkili servisin sorunu wastegate pimine bağladığını ve fabrikadan çözüm beklendiğini aktarıyor; servisler çoğu zaman 'risk teşkil etmez' diyor. Şikâyetlerin çoğu Clio 5 1.0 TCe'ye ait (aynı motor ailesi).",
+            "neden": "Gazdan çekilince turbo wastegate bölgesinden gelen cızırtı/zırıltı: Araclo bunu wastegate ayarsızlığına bağlıyor ve servis ayarıyla giderilebildiğini ama tekrarlayabildiğini yazıyor; And Mehmet Çetin Renault 1.0 TCe'nin en bilinen kroniklerinden biri sayıyor. Şikâyetvar'da bir kullanıcı yetkili servisin sorunu wastegate pimine bağladığını ve fabrikadan çözüm beklendiğini aktarıyor; servisler çoğu zaman 'risk teşkil etmez' diyor. Şikâyetlerin çoğu Clio 5 1.0 TCe'ye ait (aynı motor ailesi). Renault Symbol (2013-2020) bu aracın Türkiye'de Renault adıyla satılan ikizidir (Dacia Logan II tabanlı, Bursa'da üretilir; Motor1, Wikipedia) ve aynı motorlarla satılır; Symbol'e özgü ayrı kaynak bulunamadı, bu kayıt kardeş modelin kaynaklarına dayanır.",
             "teshis": "Gazdan çekerken (ör. 1-2. vitesteki 2.000'den 1.500 devire inişte) metalik çıtırtı ya da cızırtı; bir kullanıcı sesin motora zarar vermediğini yazıyor. Her ses wastegate değildir: bir Şikâyetvar yorumunda servis motor kulağında (takoz) sorun olduğunu söylemiş. Sesin hangi koşulda geldiğini kayda almak servise anlatmayı kolaylaştırıyor.",
             "cozum": "Denenenler: yazılım güncellemesi (bir kullanıcıda ses azalmış ama 3-4 ay sonra dönmüş), turbo değişimi (garantide turbosu değişen bir Clio 5 sahibinde ses geri gelmiş ve servis 'normal' demiş), dışarıda turbocuda wastegate piminin kenarına conta taktırma (bir kullanıcıda ses kesilmiş, ~500 TL; tek deneyim). Resmî bir kalıcı çözüm bulunamadı.",
             "maliyet": "Garantide turbo değişimi ücretsiz; dışarıda wastegate pimine conta işlemi için bir kullanıcı ~500 TL yazmış (yıl belirtilmemiş, güncel değil). Mevcut kayıtta bazı araçlarda turbo değişimi için uzun parça bekleme süresi bildiriliyor.",
@@ -1376,7 +1376,7 @@
     },
     {
       "marka": "Dacia",
-      "model": "Sandero / Logan (2013-2020)",
+      "model": "Sandero / Logan / Symbol (2013-2020)",
       "motor": "1.5 dCi 75/90 (K9K)",
       "uretim_yillari": {
         "baslangic": 2013,
@@ -1390,7 +1390,7 @@
           "tahmini_km_araligi": "80.000 - 180.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
-            "neden": "Common-rail enjektörleri yakıt kalitesine duyarlı kabul ediliyor (Araclo, Arabam.com); DonanımHaber'de enjektör dibinden kaçağın genelde mazot kaynaklı olduğu yazılı. Şikâyetvar'da bir Sandero Stepway sahibi dizel enjektör arızası yüzünden aracın çalışmadığını, bir başkası yakıt istasyonuna bağlanan bir sorunun ardından yüksek masraf çıktığını anlatıyor.",
+            "neden": "Common-rail enjektörleri yakıt kalitesine duyarlı kabul ediliyor (Araclo, Arabam.com); DonanımHaber'de enjektör dibinden kaçağın genelde mazot kaynaklı olduğu yazılı. Şikâyetvar'da bir Sandero Stepway sahibi dizel enjektör arızası yüzünden aracın çalışmadığını, bir başkası yakıt istasyonuna bağlanan bir sorunun ardından yüksek masraf çıktığını anlatıyor. Renault Symbol (2013-2020) bu aracın Türkiye'de Renault adıyla satılan ikizidir (Dacia Logan II tabanlı, Bursa'da üretilir; Motor1, Wikipedia) ve aynı motorlarla satılır; Symbol'e özgü ayrı kaynak bulunamadı, bu kayıt kardeş modelin kaynaklarına dayanır.",
             "teshis": "Forumlarda sabah zor çalışma, rölantide titreme, siyah ya da gri duman, güç kaybı, yakıt tüketiminde artış ve enjektör şakırtısı sayılıyor; gaza yüklenince arıza/motor stop ışıklarının yanıp sönmesi ve 'enjektörü/enjeksiyonu kontrol ettirin' uyarısı bildiriliyor (DonanımHaber, Şikâyetvar). Enjektör dibinde mazot kaçağı izi bakır pul sorununa işaret ediyor; kaçak uzun sürerse çevrede kuruyup enjektörün sökülmesini zorlaştırabiliyor.",
             "cozum": "Bakır pul kaçağında pulların değiştirilmesi yaygın çözüm olarak anlatılıyor; bir kullanıcı pulları değiştirdikten sonra Bosch serviste ayar ve C.C. işlemiyle sorunun kapandığını yazıyor. Enjektörler sökülüp ultrasonik cihazda temizlenebiliyor, ancak bir kaynak temizliğin her arızayı çözmediğini, bazı vakalarda onarım ya da değişim gerektiğini belirtiyor. Bir kullanıcı enjektör ringlerinin yaklaşık 50 bin km'de değişmesi gerektiğini yazıyor (doğrulanmamış).",
             "maliyet": "Rakamlar dağınık ve tarihli. DonanımHaber'de enjektör temizliği için 200-1.500 TL (tarihler belirsiz; bir Clio 4 sahibi 265 bin km'de temizlik ve bakım için 1.200 TL), eski bir mesajda enjektör setinin 2.000 TL altında olmadığı yazılı. Şikâyetvar'daki yetkili servis vakalarında parça ve işçilik kabaca 20.000-50.000 TL (bir Megane için iyi niyet indirimiyle 21.000 TL; bir Megane 4 için garanti reddi sonrası ~49.000 TL; motor tipi karışık). Güncel teklif için birkaç servisten yazılı fiyat alın.",
@@ -1735,6 +1735,35 @@
             "https://www.araclo.com/blog/fiat-egea-1.6-multijet-130-hp-dct-incelemesi-ne-kadar-yakar-alinir-mi",
             "https://www.sikayetvar.com/fiat/egea/volan",
             "https://www.araclo.com/blog/fiat-egea-cross-incelemesi-motor-secenekleri-sorunlar-ve-kullanici-yorumlari-alinir-mi"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Egea (Hybrid, 2022-)",
+      "motor": "1.5 Hybrid 130 (48V hafif hibrit, çift kavramalı şanzıman)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Hibrit geçişlerinde sarsıntı ve start-stop hissi",
+          "etkilenen_parca": "48 V hafif hibrit sistem (kayış tahrikli marş jeneratörü), dahili elektrik motorlu çift kavramalı şanzıman ve yazılımı",
+          "belirtiler": "Elektrikten benzine geçerken silkeleme ve ani yavaşlama, klima açıkken elektrikle giderken sarsıntı, soğuk motorda düşük viteslerde kararsızlık, motorun 70-90 km/s'de kapanıp açılması",
+          "tahmini_km_araligi": "1.000 - 40.000 km",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok ve kilometre bilgisi net değil (aralık tahmindir). DonanımHaber'de bir sahip pilin çok çabuk dolup boşalmasının benzinli motoru sürekli devreye sokup çıkardığını ve bunun otomatikleştirilmiş manuel şanzımanın vites değişimine benzer biçimde hissedildiğini yazıyor; Ekşi Sözlük'te bir sürücü hibriti kapatınca sarsıntıların ciddi azaldığını ve sorunun donanım ya da yazılımdan kaynaklanabileceğini söylüyor. Şikâyetvar'da Egea Cross hibrit sahipleri kalkışın benzinli motorla yapıldığını, elektrikten benzine geçerken silkeleme ve ani yavaşlama olduğunu, birisi sorunun yaklaşık 3 aydır her kullanımda sürdüğünü bildiriyor.",
+            "cozum": "Şikâyetvar'da 2023 model bir Egea 1.5 hibrit sahibi hibrit-benzin geçişlerindeki vuruntunun başka bir serviste yazılım güncellemesiyle giderildiğini yazıyor (tek vaka); Fiat'ın ücretsiz bir güncelleme duyurusu bulunamadı.",
+            "onlem": "Garanti içinde sarsıntıyı yazılı kayda geçirtmek ve servisten güncel yazılım bültenini sormak. Bu kayıt konfor sorununu anlatıyor; Şikâyetvar'da ayrıca akünün çabuk boşalması ve Cross hibritte su devirdaim pompası arızası gibi tekil şikâyetler var, ikinci bağımsız kaynakla desteklenmedi."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/egea-cross/hibrit",
+            "https://www.sikayetvar.com/fiat/fiat-egea-hybrid-arac-arizasi",
+            "https://forum.donanimhaber.com/fiat-egea-hybrid-izlenimlerim--153491832",
+            "https://eksisozluk.com/fiat-egea-hybrid--7176539"
           ]
         }
       ]
@@ -2507,6 +2536,39 @@
     {
       "marka": "Honda",
       "model": "Civic (FC5, 2016-2021)",
+      "motor": "1.6 i-DTEC 120 (9 ileri otomatik)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "DPF (partikül filtresi) arıza lambası ve tıkanması",
+          "etkilenen_parca": "Dizel partikül filtresi (DPF) ve rejenerasyon sistemi",
+          "belirtiler": "Motor arıza ışığı ve DPF uyarısı (bazı sahiplerde 6.000 km gibi erken kilometrede), servisin sabit hızda uzun sürüş önermesi, uyarının kısa sürede geri gelmesi",
+          "tahmini_km_araligi": "5.000 - 60.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net neden yok. DonanımHaber ve Otopark başlıklarında (Otopark'taki başlık bir Ekşi Sözlük başlığına atıf yapıyor) 6.000 km civarında DPF lambası yanan Civic 1.6 i-DTEC vakaları anlatılıyor: bayi bir sahibe 60-80 km sabit hızda 15-20 dakika sürmesini önermiş, lamba kısa sürede yeniden yanmış. Başka bir sahip bayinin sorunu kullanıcı hatası saydığını ve DPF değişimi için yaklaşık 15 bin TL istediğini, sökülen DPF'in çatlak çıktığını yazıyor. Bazı yorumcular kronik DPF arızasının bilindiğini ama kendilerinde hiç görülmediğini söylüyor; bir yorumcu 9 ileri şanzımanın düşük devirde tutmasının filtreyi zorladığını ve arada yüksek devir yapılması gerektiğini yazıyor.",
+            "cozum": "Önce sabit hızda uzun sürüşle rejenerasyon öneriliyor; olmayınca DPF değişimi gündeme geliyor. Forumda paylaşılan (doğrulanmamış) bir mahkeme kararı özetinde garanti içindeki araçta DPF arıza lambası masraflarının ücretsiz onarılması gerektiği, ancak sıfır parçayla değişim talebinin reddedildiği yazılıyor.",
+            "maliyet": "Bir sahibe DPF değişimi için yaklaşık 15 bin TL söylenmiş (2018 tarihli beyan; güncel fiyat olarak okumayın).",
+            "onlem": "Kullanıcılar kısa mesafeli ve düşük devirli kullanımı filtreyi zorlayan etken olarak anıyor; yakıt kalitesi de tartışılıyor (kanıtlanmadı). Garanti içinde lamba ve servis başvurusunu yazılı kayda geçirtmek önemli."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/honda-civic-1-6-i-dtec-dizel-dpf-partikul-filtre-sorunu-motor-ariza-isigi-6-000-km--134731017",
+            "https://forum.donanimhaber.com/honda-civic-1-6-i-dtec-dizel-6-000-km-dpf-partikul-filtre-sorunu-honda-ayisigi-rezaleti--134976092",
+            "https://forum.donanimhaber.com/honda-civic-1-6i-dtec-neden-tutmadi--159643641",
+            "https://forum.donanimhaber.com/i-dtec-civic-kullanan-var-mi--132652629",
+            "https://otopark.com/forum/threads/ekside-gordugum-civic-1-6-i-dtec-dpf-sorunu-basligi.7838/",
+            "https://www.sikayetvar.com/honda/civic/2018-civic-dizel",
+            "https://www.sikayetvar.com/honda/civic/civic-dtec"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic (FC5, 2016-2021)",
       "motor": "1.6 i-VTEC 125 (CVT)",
       "uretim_yillari": {
         "baslangic": 2016,
@@ -3142,6 +3204,36 @@
               "durum": "Görülebilir",
               "not": "Şikâyetvar'daki 2025 ve sonrası teslim araçlarda da aynı uyarı bildiriliyor; geri çağırmanın bu üretimi kapsayıp kapsamadığı kaynaklarda yok."
             }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Ceed (CD, 2018-)",
+      "motor": "T-GDI benzinli (7 ileri çift kavramalı DCT)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "7DCT kalkışta silkeleme ve kavrama titremesi",
+          "etkilenen_parca": "7 ileri kuru kavramalı DCT: kavrama, aktüatör ve yazılım",
+          "belirtiler": "Dur-kalkta ve yokuşta silkeleme, kalkışta öne-arkaya sarsıntı, servisin arıza kaydı olmadığı için işlem yapmaması",
+          "tahmini_km_araligi": "10.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok. Şikâyetvar'da 2023 model bir Ceed sahibi dur-kalk ve yokuşlarda belirgin silkeleme yaşadığını, İstanbul'daki yetkili servise iki kez başvurduğunu, servisin şanzımanda sorun olduğunu ama arıza cihazında şanzımanla ilgili uyarı çıkmadığı için değişim yapamayacaklarını söylediğini, başka bir yetkili servisin ise sorunu farklı bir nedene bağlayıp giderdiğini yazıyor. DonanımHaber'de bir sahip 40 bin km'de Ceed'in kalkışta öne arkaya sarstığını anlatıp kavrama ya da baskı balatasından şüpheleniyor; başka bir yorumcu yokuş kalkışlarında yarım debriyajın kavramayı eskittiğini yazıyor. Motor tipi şikâyetlerin çoğunda belirtilmiyor.",
+            "cozum": "Kesin çözüm yok; Şikâyetvar'da biri servisin işlemi reddetmesiyle, diğeri başka serviste farklı bir nedenin bulunmasıyla sonuçlanan iki vaka anlatılıyor. Aynı 7DCT'nin Sportage ve Tucson kayıtlarındaki bulgular (kavrama ısınması, yazılım) geçerli.",
+            "onlem": "Garanti içinde silkelemeyi yazılı kayda geçirtmek ve servisten yazılı test sonucu istemek (Şikâyetvar vakasındaki gibi arıza kaydı çıkmadığı için işlem yapılmamasını önlemek için)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/kia/ceed/sanziman",
+            "https://www.sikayetvar.com/kia/kia-ceed-sanziman-silkelemesi-ve-servisin-yetersiz-incelemesi",
+            "https://www.sikayetvar.com/kia/ceed/kronik",
+            "https://forum.donanimhaber.com/kia-dct-sanziman-aracta-sallanma-sorunu--140033829",
+            "https://forum.donanimhaber.com/kia-ceed-1-4-t-gdi--143980155"
           ]
         }
       ]
@@ -3966,6 +4058,63 @@
               "bitis": 2013,
               "durum": "Yaygın",
               "not": "Şikâyetvar'da şanzıman hatası şikâyetleri 2011-2013 model araçlarda yoğunlaşıyor (oran verisi yok); sonraki yıllar için kaynakta ayrı bilgi yok."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "Qashqai (J11 FL / J12, 2019-)",
+      "motor": "1.3 DIG-T 140/158 (2021 sonrası 12V hafif hibrit, Xtronic CVT)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Termostat arızası ve uyarısız soğutma suyu kaybı",
+          "etkilenen_parca": "Termostat, termostat borusu ve soğutma sistemi",
+          "belirtiler": "Soğutma suyu eksilmesi, sıcaklık göstergesinde yükselme olmaması (uyarısız), teklemeye başlama ve stop etme; bazı vakalarda motor hasarı",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklar kök nedeni doğrulamıyor ve kilometre bilgisi net değil (aralık tahmindir). Ekşi Sözlük'te bir sahip termostatın patladığını, aracın su eksilttiği halde hiç uyarı vermediğini ve yalnızca teklemeye başladığını yazıyor. Şikâyetvar'da 2020 model bir sahip termostatın patlayıp aracın uyarı vermeden aniden arıza yaptığını, bir başkası sıcaklık göstergesinin yükselmediğini ve su kaybının fark edilmediğini aktarıyor. Bir kullanıcı sorunun 1.3 TCe, 1.3 DIG-T ve 1.3 M282 motorlarda (aynı motor ailesi) yaygın olduğunu öğrendiğini yazıyor (doğrulanmadı).",
+            "cozum": "Termostat değişimi. Bir Şikâyetvar başlığında yetkili servis termostat arızası için 20 bin TL istemiş; bir örnekte servis sorunun kronik olduğunu ve motorda hasar yoksa termostat değişiminin yeterli olacağını söylemiş. Ekşi Sözlük'te termostat borusunun yurt dışından tedarikinin bir ay sürdüğü yazılıyor.",
+            "maliyet": "Şikâyetvar'da yetkili servisten yaklaşık 20.000 TL talep edildiği yazılıyor (başlıkta); motor hasarı olan vakalarda çok daha yüksek tutarlar anlatılıyor (kullanıcı beyanları; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/qashqai/termostat",
+            "https://www.sikayetvar.com/nissan/qashqai/qashqai-termostat-arizasi",
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-termostat-arizasi-icin-20-bin-tl-ucret-talebi",
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-kronik-motor-sorunlari-ve-yuksek-maliyetler",
+            "https://eksisozluk.com/entry/184510483?debe=true"
+          ]
+        },
+        {
+          "sorun_adi": "Hafif hibrit lityum akü, akü yönetim sistemi ve start-stop arızası",
+          "etkilenen_parca": "12 V lityum-iyon hafif hibrit akü, akü yönetim sistemi ve start-stop",
+          "belirtiler": "Aracın birkaç gün ile birkaç hafta beklediğinde akünün tamamen boşalması, 'akü yönetim sistemi' ve start-stop uyarıları (bazen kendiliğinden kaybolması), start-stop devredeyken silkeleme, akü değişimi",
+          "tahmini_km_araligi": "1.000 - 40.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklar nedeni açıklamıyor ve kilometre bilgisi net değil (aralık tahmindir). Şikâyetvar ve DonanımHaber'de J12 hafif hibrit sahipleri akünün birkaç hafta bekleyince hatta 8-10 günlük kısa park beklemelerinde bile tamamen boşaldığını, bir sahibin iki akü ve bir start-stop arızası yaşadığını, start-stop devredeyken aracın silkelendiğini yazıyor; 2025 model sıfır bir araç sahibi akünün beş kez tamamen boştuğunu bildiriyor. Bir Nissan sahibi garanti sürecinde tekrarlayan akü yönetim sistemi arızasından sonra lityum pil değişimi için 120 bin TL istendiğini ve garanti içinde uyarıların kendiliğinden kaybolduğunu yazıyor (başlıkta modelin Qashqai olduğu belirtilmiyor).",
+            "cozum": "Garanti içinde akü ve akü yönetim sistemi onarımı; garanti sonrası lityum pil değişimi çok pahalı. Bir Şikâyetvar başlığında 120 bin TL itirazı anlatılıyor.",
+            "maliyet": "Lityum pil değişimi için Şikâyetvar başlığında 120 bin TL (kullanıcı beyanı; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/qashqai/qashqai-aku-sorunu",
+            "https://www.sikayetvar.com/nissan/garanti-surecinde-tekrarlanan-aku-yonetim-sistemi-arizasi-sonrasi-120-bin-tl-lityum-pil-degisimi-ucretine-itiraz",
+            "https://www.sikayetvar.com/nissan/yetkili-servis/aku",
+            "https://www.sikayetvar.com/nissan/qashqai/j12-qashqai",
+            "https://forum.donanimhaber.com/2021-qashqai-j12-hafif-hibrit-kullanicilari--155195498"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2021,
+              "bitis": null,
+              "durum": "Görülebilir",
+              "not": "12 V hafif hibrit sistem 2021 sonrası J12 ile geliyor (DonanımHaber başlığı '2021+ Qashqai J12 hafif hibrit kullanıcıları'); şikâyetler bu döneme ait."
             }
           ]
         }
@@ -4828,6 +4977,37 @@
             "https://eksisozluk.com/opel-insignia--724247?p=34",
             "https://otopark.com/forum/threads/insignia-a-1-6-cdti-lari-nasil-bilirsiniz.13847/",
             "https://forum.donanimhaber.com/2018-insignia-1-6-cdti-motordan-gelen-tuhaf-ses--146396954"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka (B, 2021-)",
+      "motor": "1.2 PureTech 100/130 (EB2)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağ banyolu triger kayışının çatlaması ve dağılması",
+          "etkilenen_parca": "Yağ içinde çalışan triger kayışı",
+          "belirtiler": "Triger kayışında çatlama (47.000 km'de bildirilen Mokka vakası), garanti reddi; yağ basıncı uyarısı, yağ süzgecinin tıkanması ve motor hasarı riski",
+          "tahmini_km_araligi": "35.000 - 90.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Mokka'ya özgü kaynak Şikâyetvar'da 2022 model bir Mokka'nın 47.000 km'de triger kayışı arızası verdiği ve yetkili servisin 'bakımların aksatılması' gerekçesiyle sözlü olarak garanti dışı bıraktığı vaka: sahip düşük kilometredeki çatlamanın üretim kusuru olabileceğini savunuyor. Aynı EB2 PureTech motoru Crossland / Corsa F, Peugeot ve Citroën kayıtlarında ayrıntılı anlatılıyor (kaynakların çoğu bu aileyle ortak): yağ içinde çalışan kauçuk kayış zamanla dağılıyor ve parçacıklar yağ pompası süzgecini tıkayabiliyor. Şikâyetvar'da Opel sahibi uzatılmış garantide bile kayış değişimi için yaklaşık 30.000 TL istendiğini yazıyor (araç modeli belirtilmemiş).",
+            "cozum": "Kayış değişimi ve karter / yağ süzgeci temizliği; ayrıntılar Crossland / Corsa F ve Citroën PureTech kayıtlarında. Kullanıcılar garanti reddinin yazılı teknik açıklama olmadan sözlü bildirildiğini yazıyor.",
+            "onlem": "Motor jenerasyonunu şasi numarasıyla doğrulamak, kayış durumunu ve değişim geçmişini sormak, garanti reddini yazılı istemek. Forumlarda 2022 sonrası güçlendirilmiş kayış kullanıldığı yazılıyor ancak bu doğrulanmadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel-odabasi/opel-mokkada-47000-kmde-triger-kayisi-arizasi-ve-haksiz-garanti-reddi",
+            "https://www.sikayetvar.com/opel/opel-araclarda-trigger-kayis-yaglanmasi",
+            "https://www.sikayetvar.com/opel/garanti-kapsamindaki-triger-kayisi-degisimi-icin-30000-tl-ucret-talebi",
+            "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
+            "https://eksisozluk.com/1-2-puretech--6399271",
+            "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/"
           ]
         }
       ]
@@ -5923,6 +6103,73 @@
             "https://www.sikayetvar.com/renault/renault-megane-4-adblue-arizasi",
             "https://www.sikayetvar.com/renault/renault-megane-adblue-uyari-isigi-icin-13-bin-tllik-teshis-ucreti",
             "https://www.sikayetvar.com/blue-dci/megane"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Scenic 3 / Grand Scenic (2009-2016)",
+      "motor": "1.5 dCi 110 (K9K, EDC)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "EDC şanzıman kontrol ünitesi (beyin) arızası ('vites kutusunu kontrol ettirin')",
+          "etkilenen_parca": "EDC çift kavramalı şanzıman: kontrol ünitesi (beyin), aktüatör ve kavrama",
+          "belirtiler": "Gösterge panelinde 'vites kutusunu kontrol ettirin' uyarısı, aracın hareket etmemesi ya da yalnızca bazı viteslerde kalması, geri vites kaybı, kontağı kapatıp açınca geçici düzelme",
+          "tahmini_km_araligi": "100.000 - 170.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda kök neden açıklanmıyor. Şikâyetvar'da 2012 model dizel otomatik bir Scenic sahibi servisin 'ilk üretim beyinlerde kronik arıza var' dediğini, 'vites kutusunu kontrol ettirin' uyarısı alan bir Scenic 3 sahibi de bunun Renault'nun bilinen bir arızası olduğunu öğrendiğini yazıyor; bunlar kullanıcı beyanı, Renault'dan doğrulama yok. Fiches-Auto'daki sürücü yorumlarında kutu arızaları kontrol ünitesi, aktüatör / seçici ünite ve kavrama arasında değişen nedenlerle anlatılıyor. Aynı EDC şanzıman Megane 3 / Fluence ve Captur kayıtlarında da ele alındı.",
+            "teshis": "'Vites kutusunu kontrol ettirin' uyarısı, aracın hareket etmemesi, aracı durdurup yeniden çalıştırınca arızanın geçici olarak gitmesi, vites geçişlerinde sarsıntı ve yalnızca bazı viteslerde kalma (Şikâyetvar). Planète Renault'taki 2011 model bir Scenic 3 1.5 dCi EDC sahibi, 'boîte à contrôler' uyarısından sonra hiçbir vitesin girmediğini, kontak kapatılıp açılınca düzeldiğini yazıyor. Fiches-Auto'da bir sahip 126.000 km'de geri vites, 2. ve 4. vites kaybını ve kutunun arada çalışıp yine arızalandığını, bir başkası yaklaşık 120.000 km'de geri vites kaybıyla kontrol ünitesi sorununu anlatıyor; aynı derlemede 167.000 km'de kontrol ünitesinin ve 98.000 km'de kutunun değiştirildiği vakalar da var. Bazı sahipler 118.000-130.000 km'de sorun yaşamadığını yazıyor.",
+            "cozum": "Şikâyetvar'da Grand Scenic 1.5 dCi EDC'de kutu beyninin değişmesi gerektiği tespit edilmiş, ancak yedek parça beş aydır gelmemiş. 2012 model otomatik bir Scenic sahibi beyin ve kavrama değişimi için iyi niyet garantisi talep etmiş; servis, 10 yıllık servis bakımlı araçta bir yağ bakımının eksik olması gerekçesiyle garantiden yararlanamayacağını bildirmiş. Planète Renault'taki 2019 tarihli bir konuda serviste arıza tespit edilemediği ve yalnızca kutunun yeniden programlanmasının önerildiği anlatılıyor; Fiches-Auto'da 126.000 km vakasında aktüatör arızası görülmüş (yaklaşık 885 € parça önerilmiş, kalıcı çözüm olmamış).",
+            "maliyet": "Fiches-Auto'daki 126.000 km vakasında kavrama ve volan için yaklaşık 3.900 € teklif edilmiş; Planète Renault'ta 2013 model 1.5 dCi 110 EDC6 için kavrama değişiminin 4.000 €'ya kadar çıkabildiği yazılıyor. Şikâyetvar'da bir kullanıcı otomatik vites beyin arızası için 7.500 TL belirtiyor (araç ve yıl belirsiz). Tek tek beyanlar, tarihleri farklı; güncel fiyat olarak okumayın.",
+            "onlem": "Kaynaklarda üreticinin onayladığı bir önlem ya da geri çağırma yok. Forum anlatılarında sıra genellikle hata kodu okutma, kutunun yeniden programlanması, kavrama / aktüatör kontrolü ve en son kontrol ünitesi değişimi şeklinde; ikinci elde kutu beyni ve kavrama değişim geçmişini sormak, garanti içinde başvuruyu yazılı kayda geçirtmek mantıklı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/scenic/vites",
+            "https://www.sikayetvar.com/renault/ariza/scenic",
+            "https://www.sikayetvar.com/renault/grand-scenic",
+            "https://www.sikayetvar.com/renault/iyi-niyet-garantisi-magduriyeti-renault-servisinden-hayal-kirikligi",
+            "https://www.planeterenault.com/forum/scenic-iii-esp-demarrage-en-cote-et-boite-a-controler-regle-t52997.html?amp=1",
+            "https://www.planeterenault.com/forum/scenic-iii-boite-edc-sur-scenic-3-dci-110-defaut-t55386.html?amp=1",
+            "https://www.fiches-auto.fr/avis-renault/avis-unique-272-92488-renault-scenic-3-15-dci-110-ch-achat-1-2011-126-000km-.php",
+            "https://www.fiches-auto.fr/avis-renault/avis-unique-272-82941-renault-scenic-3-15-dci-110-ch-auto-120000-2013-alu.php"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Taliant (2021-)",
+      "motor": "1.0 TCe 90/100 (H4Dt)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Turbo wastegate sesi ve arızası",
+          "etkilenen_parca": "Turbo wastegate (atık gaz) valfi ve aktüatörü",
+          "belirtiler": "Gazdan çekilince cızırtı veya zırıltı sesi, turbo değişiminden sonra sesin geri dönmesi, turbo parçası için uzun bekleme süresi",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 'Taliant, 1.0 motorlarda kronik turbo sorunu var' başlıklı şikâyette sahip bakım yapılan serviste sesin tüm modellerde olduğunun söylendiğini yazıyor; aynı sayfada bir kullanıcı turbo parçasını iki aydır beklediğini, başka bir kullanıcı kronik turbo arızası olan garantili 2022 Taliant'ına dışarıda LPG taktırdığı için garanti desteği alamadığını bildiriyor. Aynı motor ve turbo (H4Dt) Clio 5, Sandero ve Duster kayıtlarında da var; Araclo sesi wastegate ayarsızlığına bağlıyor, servis ayarıyla giderilebildiğini ama tekrarlayabildiğini yazıyor (bu kaynaklar Clio 5 kaydıyla ortak).",
+            "teshis": "Taliant'a özgü ayrı teşhis anlatısı bulunamadı; Clio 5 kaydındaki bulgular aynı motor için geçerli: gazdan çekerken metalik çıtırtı ya da cızırtı, her sesin wastegate olmadığı (motor takozu da olabiliyor).",
+            "cozum": "Resmî bir kalıcı çözüm bulunamadı. Clio 5 kaydında anlatılan denemeler (yazılım güncellemesi, turbo değişimi, wastegate piminde ayar) bu motor için de geçerli; Şikâyetvar'da Taliant turbo parçasının iki ay beklendiği anlatılıyor.",
+            "onlem": "Garantide servis 'normal' dediğinde yazılı kayıt ve tekrarlayan başvuru tutmak. Şikâyetvar'daki bir vakada kronik turbo arızası olan Taliant'a takılan LPG garanti dışı kalma gerekçesi yapılmış; garantideki araca LPG takmadan önce bunu sormak gerekir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/renault-taliant-10-motorlarda-kronik-turbo-sorunu-var",
+            "https://www.sikayetvar.com/renault/taliant/tce-motor",
+            "https://www.sikayetvar.com/renault/taliant",
+            "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053",
+            "https://www.araclo.com/blog/renault-clio-1.0-tce-nasil-ne-kadar-yakar-alinir-mi-2026-guncel-rehber",
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
           ]
         }
       ]
@@ -7228,6 +7475,39 @@
             "https://www.sikayetvar.com/volkswagen/golf-hybrid/golf-8-etsi",
             "https://www.sikayetvar.com/volkswagen/garanti-disi-alternator-arizasi-ve-130-bin-tl-ucret-talebi",
             "https://forum.donanimhaber.com/sifir-golf-8-ile-yasadigim-sorunlar--150729664"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Jetta (2013-2018)",
+      "motor": "1.2 TSI / 1.4 TSI / 1.6 TDI (7 ileri kuru kavramalı DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "DSG mekatronik arızası (vites göstergesinde anahtar işareti)",
+          "etkilenen_parca": "DQ200 mekatronik ünitesi (elektronik ve hidrolik kısım) ve şanzıman uyarı sistemi",
+          "belirtiler": "Vites göstergesinde anahtar işaretinin yanıp sönmesi, servis ışığı, vitese geçmeme, aniden yolda kalma",
+          "tahmini_km_araligi": "60.000 - 110.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklar kök nedeni doğrulamıyor. Şikâyetvar'da 2014 Jetta sahipleri vites göstergesinde anahtar işareti ve mekatronik arızası teşhisi bildiriyor; biri 77 bin km'de arıza yaşadığını ve 2012-2016 arası modellerde bunun kronik olduğunu savunuyor. DonanımHaber'de 2014 Jetta sahibi mekatronik elektroniğinin tamamen değiştiğini, pompa, kavrama, volan ve çatalların sağlam çıktığını yazıyor; aynı başlıkta ABD'ye ait bir NHTSA kaydına atıfla şanzıman kablo çerçevesinin yağ katkıları nedeniyle korozyona uğrayabildiği öne sürülüyor (Türkiye'deki araçlara uygulanıp uygulanmadığı doğrulanamadı).",
+            "teshis": "Vites göstergesinde anahtar resminin yanıp sönmesi, servis ışığı ve aracın vitese geçmemesi. DonanımHaber'de 2013 Jetta başlığında aküden kaynaklanan elektrik sorunlarının benzer belirti verebildiği ve akü ile dinamo ölçümünün ihmal edilmemesi gerektiği yazılıyor.",
+            "cozum": "Mekatronik elektroniğinin değişimi (DonanımHaber'de 2014 Jetta için 30.000 TL). Şikâyetvar'da bir 2014 Jetta sahibine 13.000 TL'den başlayıp 10.000 TL'ye inen teklif verilmiş; sahip 7 yıllık şanzıman garantisine rağmen üreticinin yardım etmediğini yazıyor. 106 bin km'de yolda kalan başka bir 2014 Jetta sahibi yetkili servisin 16.000 TL çıkardığını ve üreticinin değişimi kabul etmediğini bildiriyor.",
+            "maliyet": "Kullanıcı beyanları 10.000 ile 30.000 TL arasında (tek tek şikâyet, yıllar farklı; güncel fiyat olarak okumayın).",
+            "onlem": "Aynı DQ200 şanzımanın Golf 6 / Jetta ve Golf 7 kayıtlarındaki bakım ve kontrol önerileri geçerli: şanzıman yağı ve mekatronik bakımı, adaptasyon değerlerinin okutulması."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/jetta/mekatronik",
+            "https://www.sikayetvar.com/volkswagen/jetta/kronik",
+            "https://www.sikayetvar.com/volkswagen/vites?k=jetta",
+            "https://www.sikayetvar.com/volkswagen/volan?k=jetta",
+            "https://forum.donanimhaber.com/2014-jetta-dsg-vitese-gecmeme-ve-servis-isigi-yanmasi--158681115",
+            "https://forum.donanimhaber.com/vw-jetta-2013-dsg-mekatronik-tamir-olamayan-ariza--147101749"
           ]
         }
       ]

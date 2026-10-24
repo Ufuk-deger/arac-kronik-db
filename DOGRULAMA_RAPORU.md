@@ -2,7 +2,7 @@
 
 Tarih: 2026-10-24
 
-Rapor sekiz aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını, [6. aşama](#6-aşama-astra-electric-açığı-ve-diğer-elektrikliler) Astra Electric açığının ve diğer eksik elektrikli modellerin ele alınmasını anlatır, [7. aşama](#7-aşama-çok-ilanlı-modellerin-kapsam-kontrolü) çok ilanlı modellerin kapsam kontrolünü ve motor boşluklarının kapatılmasını, [8. aşama](#8-aşama-15-tsi-ve-etsi-motoru-ve-kullanan-modeller) 1.5 TSI ve eTSI motorunu ve onu kullanan modellerin ele alınmasını anlatır.
+Rapor dokuz aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını, [6. aşama](#6-aşama-astra-electric-açığı-ve-diğer-elektrikliler) Astra Electric açığının ve diğer eksik elektrikli modellerin ele alınmasını anlatır, [7. aşama](#7-aşama-çok-ilanlı-modellerin-kapsam-kontrolü) çok ilanlı modellerin kapsam kontrolünü ve motor boşluklarının kapatılmasını, [8. aşama](#8-aşama-15-tsi-ve-etsi-motoru-ve-kullanan-modeller) 1.5 TSI ve eTSI motorunu ve onu kullanan modellerin ele alınmasını anlatır, [9. aşama](#9-aşama-çok-kullanılan-araçlarda-kaçırılanların-taraması) çok kullanılan araçlarda kaçırılanların taranmasını ve eksik nesil ve motor boşluklarının kapatılmasını anlatır.
 
 ## 1. aşama: ilk sürümün doğrulanması
 
@@ -797,7 +797,7 @@ Kayıtlanmayıp plana `–` olarak yazılanlar (nedenleri [KAPSAM.md](KAPSAM.md)
 | Kronik sorun | 241 | 249 |
 | Ayrıntısı olan sorun | 241 | 249 |
 | Yıl kırılımı olan sorun | 59 | 60 |
-| Marka | 28 | 28 |
+| Marka | 28 | 29 |
 | Sorunlara bağlı kaynak bağlantısı | 1406 | 1443 |
 | Farklı kaynak sitesi | 78 | 78 |
 | Yalnızca iki siteyle desteklenen sorun | 49 | 53 |
@@ -858,12 +858,117 @@ Kayıtlanmayıp plana `–` olarak yazılanlar (nedenleri [KAPSAM.md](KAPSAM.md)
 - Şikâyet siteleri memnun olmayan kullanıcıların yazdığı örneklerdir; "kronik" ifadesi çoğunlukla sahiplerin ve forum yorumcularının kendi sözüdür, yaygınlık oranı verilemez.
 - Kilometre aralıkları kaynakların yazdığı vakalardan çıkarıldı (48V için 1.000-80.000 km); Karoq titreşimi ve yağ eksiltmesi için kaba tahmin.
 
+## 9. aşama: çok kullanılan araçlarda kaçırılanların taraması
+
+Tarih: 2026-10-24
+
+Dokuzuncu aşamanın sorusu şuydu: "Çok kullanılan araçlardan böyle kaçırdığın var mı? Ben hatırlattıkça ekliyorsun, çok kullanılan modeller olmasına rağmen." Dürüst cevap: **evet, vardı.** Her seferinde bir modeli sizin hatırlatmanız gerekmesinin nedeni, planın marka paylarından ve benim kendi model listemden kurulmuş olması, 7. aşamadaki sıralama karşılaştırmasının ise yalnızca model adı düzeyinde yapılmasıydı ("Clio var mı?" sorusuna evet denince hangi motor ve hangi nesil sorusu hiç sorulmadı). Bu aşamada plan, kayıtlar ve sıralama verileriyle nesil ve motor düzeyinde yeniden karşılaştırıldı.
+
+### Kaçırmanın dört nedeni
+
+1. **Birleşik plan satırları kısmi kapsamayı gizliyordu.** "1.4 TSI / 1.6 TDI" gibi bir satır yalnızca bir motor kayıtlıyken de ✓ görünüyordu. Sezgisel tarama 14 böyle satır buldu; hepsi motor bazında bölündü.
+2. **Yıl aralığının yalnızca bir kısmı kayıtlıyken ✓ görünen satırlar.** Kayıtların satırın yıllarının yüzde 60'ından azını kapsadığı 6 satır bulundu (eksik nesiller).
+3. **Planda hiç olmayan model, nesil ve motorlar:** Jetta (2013-2018), Honda Civic 1.6 i-DTEC, Renault Taliant, Fiat Egea Hybrid, Nissan Qashqai J12 1.3 DIG-T, Opel Mokka B, Kia Ceed CD, Renault Scenic 3 gibi.
+4. **`–` satırları görüntüleyicide görünmüyordu.** Aranıp kanıt bulunamayan bir grup, kullanıcıya hiç bakılmamış gibi görünüyordu. Görüntüleyiciye "Arandı ama kayıt açılmayan gruplar" bölümü eklendi (aşağıda).
+
+### Yöntem
+
+- **Sıralama verileri** (arama sonuçlarından, tarihleri ve rakamları kaynaklar arasında farklı): TÜİK verisine dayandığı belirtilen, yaklaşık 2024 tarihli trafikteki araç sayısı listeleri (Tofaş Şahin / Doğan / Kartal 820.962; Corolla 628.137-689.206; Egea 510.676-668.866; Clio 535.718-613.830; Megane 538.121-600.797; Renault R12-Toros 553.164; Astra 448.849-454.378; Focus 398.781-422.838; Symbol 381.708; R9-Broadway 351.183), 2024 ODMD yeni araç satış sıralaması (Egea Sedan, Clio, Megane, Corolla, Togg T10X, Egea Cross, Chery Tiggo 8 Pro, Hyundai i20, Chery Tiggo 7 Pro, Nissan Qashqai) ve ikinci el segment sıralamaları (B: Clio, Polo, i20; C: Egea, Megane, Corolla; D: Passat; SUV: Qashqai, Duster, Tiguan, 3008). Cardata'nın 2017-2021 dönemi ikinci el listelerinde üst sıradaki otomobillerin hemen hepsi dizel (Egea 1.3 Multijet, Megane 1.5 dCi, Passat 1.6 TDI, Symbol 1.5 dCi, Clio 1.5 dCi, Sandero 1.5 dCi, Linea 1.3 Multijet, Accent Blue 1.6 CRDi, Polo 1.4 TDI, Focus 1.6 TDCi).
+- **Programatik tarama:** birleşik motor etiketli ✓ satırlar eşleşen kayıtların motorlarıyla; satır yılları kayıt yıllarıyla; bilinen model adları plan ve veritabanıyla; yaklaşık 55 çok kullanılan modelin plan satırları nesil ve motor dökümüyle karşılaştırıldı.
+- **Arama:** yaklaşık 45 grup için Şikâyetvar, DonanımHaber, Otopark ve Ekşi Sözlük'te model ve motor adıyla 1-4 sorgu yapıldı. `WebFetch` bu aşamada da kapalıydı, her şey arama özetleriyle yapıldı.
+
+### Sonuç
+
+| | 8. aşama sonu | 9. aşama sonu |
+| --- | ---: | ---: |
+| Araç/motor kaydı | 164 | 172 |
+| Kronik sorun | 249 | 258 |
+| Ayrıntısı olan sorun | 249 | 258 |
+| Yıl kırılımı olan sorun | 60 | 61 |
+| Marka | 29 | 29 |
+| Sorunlara bağlı kaynak bağlantısı | 1443 | 1495 |
+| Farklı kaynak sitesi | 78 | 79 |
+| Yalnızca iki siteyle desteklenen sorun | 53 | 57 |
+| Plan satırı | 308 | 355 |
+| Plan durumu (✓ / – / ○) | 160 / 148 / 0 | 168 / 187 / 0 |
+| Test | 36 | 37 |
+
+Plana 47 yeni satır girdi: 8'i kayıtlandı (✓), 39'u araştırıldı ama kanıt eşiğini geçmedi (`–`). Aranan her grup ya ✓ ya `–`; bu aşamanın sonunda "sırada" (○) satır kalmadı.
+
+### Eklenen kayıtlar
+
+- **Volkswagen Jetta (2013-2018), 1.2 TSI / 1.4 TSI / 1.6 TDI, DQ200 DSG (1 sorun):** DSG mekatronik arızası (vites göstergesinde anahtar işareti, servis ışığı, vitese geçmeme). Risk `Orta`, 60.000-110.000 km; Şikâyetvar ve DonanımHaber.
+- **Honda Civic (FC5, 2016-2021), 1.6 i-DTEC 120 (1 sorun):** DPF arıza lambası ve tıkanması (bazı sahiplerde 6.000 km gibi erken kilometrede; bayinin kullanıcı hatası dediği ve DPF değişimi için yaklaşık 15 bin TL istediği vaka). Risk `Orta`; DonanımHaber, Otopark, Şikâyetvar.
+- **Renault Taliant (2021-), 1.0 TCe 90/100 (1 sorun):** turbo wastegate sesi ve arızası. Taliant'a özgü Şikâyetvar kayıtları var; teşhis anlatıları Clio 5 ve Sandero kayıtlarıyla ortak (aynı H4Dt motoru), bu `detay` metninde yazılı.
+- **Fiat Egea Hybrid (2022-), 1.5 Hybrid 130 (1 sorun):** hibrit geçişlerinde sarsıntı ve start-stop hissi; risk `Düşük`.
+- **Nissan Qashqai (J11 FL / J12, 2019-), 1.3 DIG-T 140/158 (2 sorun):** termostat arızası ve uyarısız soğutma suyu kaybı (`Yüksek`); 2021 sonrası 12V hafif hibrit lityum akü, akü yönetim sistemi ve start-stop arızası (`Orta`, 2021 sonrası için `Görülebilir` dönem kırılımı).
+- **Opel Mokka (B, 2021-), 1.2 PureTech 100/130 (1 sorun):** yağ banyolu triger kayışının çatlaması ve dağılması (`Yüksek`). Mokka'ya özgü Şikâyetvar kaydı (2022 model, 47.000 km'de kayış arızası ve sözlü garanti reddi) ile ortak PureTech kaynakları.
+- **Kia Ceed (CD, 2018-), T-GDI / 7DCT (1 sorun):** kalkışta silkeleme ve kavrama titremesi (`Orta`); yalnızca iki site.
+- **Renault Scenic 3 / Grand Scenic (2009-2016), 1.5 dCi 110 EDC (1 sorun):** EDC şanzıman kontrol ünitesi (beyin) arızası, "vites kutusunu kontrol ettirin" uyarısı. Risk `Orta`, 100.000-170.000 km. Şikâyetvar (2012 model Scenic'te "ilk üretim beyinlerde kronik arıza" sözü, Grand Scenic'te beş aydır gelmeyen parça, iyi niyet garantisi reddi), Planète Renault ve Fiches-Auto'daki Scenic 3 anlatıları; kilometre bilgisi Fiches-Auto'dan (yaklaşık 98.000-167.000 km). Bu kayıtla 79. site (Planète Renault) kullanıma girdi.
+- **Symbol adı:** Dacia "Sandero / Logan (2013-2020)" kayıtlarının adı "Sandero / Logan / Symbol (2013-2020)" yapıldı. Symbol III (2013-2020), Dacia Logan II'nin Türkiye'de Renault adıyla satılan ikizi (Motor1 ve Wikipedia'ya göre Bursa'da üretiliyor; lansmanda 0.9 TCe 90, dCi 75 ve dCi 90). Symbol'e özgü ayrı kaynak bulunamadı, bu `detay` metninde yazılı. Symbol 1.2 16V (D4F) `–` kaldı.
+- Yeni 9 sorunun 6'sı `Orta`, 2'si `Yüksek`, 1'i `Düşük` risk; hepsinde `detay` var (neden 9, teşhis 3, çözüm 9, maliyet 5, önlem 7). 52 bağlantı eklendi, bir site girdi (Planète Renault).
+
+### Plan değişiklikleri
+
+- **Birleşik satırlar bölündü** (Mokka B, Ceed CD, Scenic 3, Passat, Karoq ve benzerleri); her motor alternatifi kendi durumunu gösteriyor.
+- **Eşleşme etiketleri daraltıldı:** Qashqai J11 satırları J12 kaydına karışmasın diye ("Qashqai (J11, 2014"), Jetta eski ve yeni nesil satırları ayrıldı, Civic i-DTEC yalnızca FC5'e bağlandı, Egea Hybrid ayrı etiket aldı.
+- **Peugeot 208 / 2008 / 308 / 3008 1.2 PureTech** satırında model parçası olarak yanlışlıkla "PureTech" yazılmıştı; düzeltildi (yeni test bu tür etiket hatalarını yakalıyor).
+- **Yeni test:** `test_kayitli_satirda_her_eslesme_parcasi_bir_kayda_denk_gelir`. Bir satırın `eslesme` parçalarından her biri eşleşen kayıtlardan en az birinde bulunmalı; yoksa satır bölünmeli. Bu, kısmi kapsamayı ✓ ile gizleyen satırların tekrar oluşmasını engeller. Test sayısı 36'dan 37'ye çıktı.
+- **Görüntüleyici:** sayfanın altına "Arandı ama kayıt açılmayan gruplar" bölümü eklendi. `data/kapsam.json` içindeki `–` satırlarını nedenleriyle gösteriyor; arama kutusu, marka, model yılı ve elektrikli filtreleri bu bölüme de uygulanıyor. Aranan bir araçta kayıt yoksa ama bu bölümde eşleşme varsa boş sonuç kutusu bunu söylüyor ve bölüme götürüyor. Bölüm isteğe bağlı bir eklemedir; istenmezse `viewer/sablon.html` içinden çıkarılabilir.
+- README ve `KAPSAM.md` ölçütlerine birleşik satır kuralı ve çok kullanılan araç denetimi yazıldı.
+
+### Araştırılıp eklenmeyen gruplar (39 yeni `–` satırı)
+
+Nedenleri tek tek [KAPSAM.md](KAPSAM.md) içinde yazılıdır. Özet:
+
+- **VW grubu (14):** Polo 6R / 6C 1.4 TDI, Polo AW 1.0 MPI, Polo Sedan, T-Roc 1.0 TSI, Tiguan AD1 1.4 TSI, T-Cross / Taigo 1.0 TSI, Touran, Passat CC, Amarok, Seat Leon 5F 1.4 TSI, Seat Toledo, Skoda Rapid 1.6 MPI, Skoda Octavia A7 (1.2 TSI / 1.6 MPI / 2.0 TDI), Skoda Superb II.
+- **Hyundai ve Kia (8):** Tucson NX4 1.6 T-GDI, Tucson TL 1.7 CRDi, Accent Blue 2011-2015 1.6 CRDi, i20 (GB), Kia Sportage 1.7 CRDi, Sportage 1.6 T-GDI, Rio YB, Ceed CD 1.6 CRDi.
+- **Diğer markalar (11):** Renault Laguna 3, Koleos, Scenic 3 1.6 16V, Fiat Linea 1.6 Multijet, Opel Meriva B, Zafira Tourer, Mokka B 1.5 BlueHDi, Ford Kuga 2 2.0 TDCi, C-Max / Grand C-Max, Honda Accord, Chery Tiggo 7 Pro / 8 Pro / Omoda 5.
+- **Premium (5):** Mercedes A Serisi W177, B Serisi W246, GLC / GLA; BMW X3 / X5, 1 Serisi F40 / X1 F48.
+- **Citroën (1):** C-Elysée 1.6 VTi.
+
+Çok kullanılan modellere ait ve dikkat çekenler:
+
+- **Polo 1.4 TDI (Cardata ikinci el listesinde):** DonanımHaber'de enjektör dönüş hortumu kaçağı ve marş sorunu (2016 model), Şikâyetvar'da turbonun dört kez yapıldığı vaka (2014 model) ve 95 bin km'de su eksiltme ile blok çatlağı (2016 model); her biri tek site. Otopark'taki Polo turbo başlığı turbo hortumu çatlağını anlatıyor ve motoru belirtmiyor.
+- **Fiat Linea 1.6 Multijet:** Şikâyetvar'da en çok tekrarlanan şikâyet yolcu hava yastığı bölgesinde göğüs paneli çatlağı ve Blue&Me arızası; tek site, motor sorunu değil, kayıt alınmadı.
+- **Chery Tiggo 8 Pro:** Şikâyetvar'da yağ soğutucusu arızası ve motor suyuna yağ karışması (iki ayrı vaka) ile Tiggo 8 Pro Max'te şanzıman vuruntusu anlatılıyor; DonanımHaber ve Ekşi Sözlük'te doğrulanmadı (Tiggo 7 Pro 7DCT için olumlu yorumlar var).
+- **Hyundai Accent Blue 2011-2015 1.6 CRDi (Cardata listesinde):** tekil vakalar; şikâyetlerin çoğu 2015-2016 DCT'li sürümlere ait.
+- **Skoda Rapid, Octavia A7, Tiguan AD1:** şikâyetler DSG ve 1.5 TSI kayıtlarında toplanıyor, listedeki motorlara özgü tekrar eden sorun çıkmadı.
+- **Renault Laguna 3, Koleos, Superb II, Mercedes B ve GLC / GLA, BMW X3 / X5:** Türkçe şikâyet ya da forum kaydı çıkmadı; Fransızca ve Almanca sürücü yorumları, Araclo sayfaları ve yabancı rehberler var, deneyim türünde ikinci bir site yok.
+
+### Kanıtı sınırlı ayrıntılar
+
+- **Jetta DSG:** kaynaklar DQ200'ün kök nedenini doğrulamıyor; ABD'ye ait bir NHTSA atfı (kablo çerçevesi korozyonu) DonanımHaber'de geçiyor, Türkiye'deki araçlara uygulanıp uygulanmadığı doğrulanamadı. Yalnızca iki site (Şikâyetvar, DonanımHaber).
+- **Taliant turbo:** Taliant'a özgü kayıtlar Şikâyetvar'da; teşhis ve çözüm anlatıları Clio 5 ile ortak (H4Dt). Kayıt bu yüzden doğrudan kanıtı sınırlı sayılır.
+- **Qashqai 1.3 DIG-T:** iki sorun yalnızca iki siteyle destekleniyor; termostat vakaları tek tek.
+- **Ceed CD 7DCT:** yalnızca iki site; Şikâyetvar'da 2023 model Ceed'de servisin şanzıman sorunu dediği ama arıza kaydı bulunmadığı için değişim yapılmayan vaka, başka bir servisin sorunu başka nedene bağladığı yazılıyor.
+- **Egea Hybrid:** sarsıntı ve start-stop hissi kullanıcı yorumu; üretici açıklaması bulunmadı. Risk bu yüzden `Düşük`.
+- **Scenic 3 EDC:** kilometre aralığı Fiches-Auto'daki tekil sürücü yorumlarından (yaklaşık 98.000, 120.000, 126.000 ve 167.000 km); aynı derlemede 118.000-130.000 km'de sorun yaşamayan sahipler de var. Fiches-Auto sayfalarının hangisinde hangi kilometrenin yazdığı arama özetinden ayrılamadı, bu yüzden bağlantılar site düzeyinde verildi.
+- **Mokka B triger:** bazı kullanıcıların "2022 sonu sonrası triger güçlendirildi" iddiası resmî bir kaynakla doğrulanmadı; kayıtta iddia olarak anıldı.
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- **Symbol:** Symbol III'ün Logan II'nin ikizi olduğu önce varsayımdı; arama (Motor1, Wikipedia) ile doğrulanana kadar kayıtlara yazılmadı. Wikipedia ve Motor1'in lansman listesinde Symbol III için 1.2 motoru yok.
+- **Polo 1.4 TDI:** ilk bakışta turbo kanıtı gibi görünen anlatılar 1.6 TDI'a ya da motoru belirtilmemiş araçlara aitti; `–` kaldı.
+- **`–` notlarının doğrulanması:** notlardaki site ve model atamaları kayıtlı arama özetleriyle tek tek karşılaştırıldı; özetin desteklemediği ayrıntılar notlardan çıkarıldı ya da siteden bağımsız yazıldı. Örnekler: Tiguan'da piston kırılması ve titreme anlatılarının "Şikâyetvar'da iki vaka" olduğu özetten çıkmıyordu (çoğunun 2010-2013 modellerine ait olduğu yazıldı); Touran için DonanımHaber'deki "11 yıldır çözülmeyen" başlığının içeriği görülmediği için anılmadı; Kuga'daki 2011 model aracın Kuga 1 olduğu belirtildi; Leon'daki 2020 model ACT valf hortumu vakasının motoru belli olmadığı için 1.4 TSI'a bağlanmadı; Rapid notundaki "1.2 TSI'a ait" ifadesi özette yoktu, "DSG'li araçlara ait" diye düzeltildi.
+- **Scenic 3 EDC:** Ekşi Sözlük'teki "Renault araçlarda kronik EDC sorunu" başlığı modele özgü olmadığı için kaynak olarak alınmadı; yerine modele özgü üç site kullanıldı.
+- **8. aşama tablosu:** marka sayısı 28 yazılmıştı; Cupra eklendiği için 29 olmalıydı, düzeltildi.
+
+### Dikkat edilecek sınırlar
+
+- Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir.
+- Sıralama verileri ilan sayısı değil, TÜİK türevi trafikteki araç sayıları ve satış sıralamaları; kaynaklar arasında rakamlar tutarlı değil. Motor düzeyinde sıralama yalnızca Cardata'nın ikinci el listelerinde var. Sahibinden ve arabam.com'un model-motor ilan sayıları okunamadı.
+- **2011 öncesi model yılları planda yok.** Trafikteki en kalabalık otomobiller hâlâ Tofaş Şahin / Doğan / Kartal (820.962), Renault R12-Toros (553.164) ve R9-Broadway (351.183) gibi 2011 öncesi modeller; "10-15 yıl" zaman penceresi kuralıyla dışarıdalar. İstenirse pencere genişletilebilir.
+- **Hibritler kapsam dışı** (Toyota Corolla / C-HR hibrit, Honda City hibrit); 48V hafif hibritler kapsamda.
+- **Tek sorguyla bakılan gruplar:** Sportage 1.6 T-GDI, Seat Toledo, BMW 1 F40 / X1 F48, Citroën C-Elysée 1.6 VTi, Mokka B 1.5 BlueHDi ve Ceed CD 1.6 CRDi. Bunların `–` olması "kanıt yok" değil "tek sorguda çıkmadı" demektir; nota yazıldı.
+- Bu denetim "çok kullanılan hiçbir araç eksik değil" garantisi vermez: bulunmayan bir grup artık ya kayıtta ya da görüntüleyicideki `–` bölümünde görünür; ikisinde de yoksa hiç aranmamıştır.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen 53 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı; 7. aşamada Astra 1.3 CDTI Easytronic eklendi; 8. aşamada Leon KL 48V, Superb IV 48V, Karoq titreşimi ve Audi A3 8Y 48V eklendi) üçüncü bir kaynak eklenebilir.
-3. Kanıtı yetersiz bulunan 148 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
-4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 100 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
+2. Yalnızca iki siteyle desteklenen 57 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı; 7. aşamada Astra 1.3 CDTI Easytronic eklendi; 8. aşamada Leon KL 48V, Superb IV 48V, Karoq titreşimi ve Audi A3 8Y 48V eklendi; 9. aşamada Jetta DSG mekatroniği, Ceed 7DCT ve Qashqai 1.3 DIG-T'nin iki sorunu eklendi) üçüncü bir kaynak eklenebilir.
+3. Kanıtı yetersiz bulunan 187 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
+4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 104 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
 5. Elektrikli araçlarda geri çağırma kaydı bulunan ama Türkiye kapsamı doğrulanamayan aileler (Volvo EX30, VW ID. serisi, Mini Cooper SE, BMW iX / i4, Audi e-tron GT) için Türkiye distribütörlerinin duyuruları ya da Ticaret Bakanlığı geri çağırma kayıtları bulunursa kayıt açılabilir.
 6. Hibrit ve plug-in hibrit araçlar (Toyota hibritleri, BYD Seal U DM-i gibi) bu aşamada kapsam dışı bırakıldı; istenirse aynı kurallarla eklenebilir.
 7. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.

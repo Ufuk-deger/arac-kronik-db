@@ -689,6 +689,94 @@
     max-width: 60ch;
   }
 
+  /* Arandı ama kayıt açılmayan gruplar */
+  .kapsam {
+    margin-top: 32px;
+    border: 1px dashed var(--grid);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+  .kapsam > summary {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px 12px;
+    padding: 14px 20px;
+    cursor: pointer;
+    list-style: none;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.25rem;
+    line-height: 1.2;
+  }
+  .kapsam > summary::-webkit-details-marker {
+    display: none;
+  }
+  .kapsam > summary::before {
+    content: "";
+    align-self: center;
+    flex: none;
+    border-style: solid;
+    border-width: 5px 0 5px 7px;
+    border-color: transparent transparent transparent currentColor;
+    transition: transform 0.15s;
+  }
+  .kapsam[open] > summary::before {
+    transform: rotate(90deg);
+  }
+  .kapsam-say {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: var(--muted);
+  }
+  .kapsam-icerik {
+    padding: 0 20px 20px;
+    display: grid;
+    gap: 16px;
+  }
+  .kapsam-not {
+    margin: 0;
+    max-width: 70ch;
+    font-size: 0.9rem;
+    color: var(--muted);
+  }
+  .kapsam-marka h3 {
+    margin: 0 0 6px;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.15rem;
+    line-height: 1.2;
+  }
+  .kapsam-marka ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 8px;
+  }
+  .kapsam-marka li {
+    min-width: 0;
+    padding: 8px 12px;
+    border-left: 3px solid var(--line);
+    border-radius: 0 8px 8px 0;
+    background: var(--bg);
+  }
+  .kapsam-baslik {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px 10px;
+  }
+  .kapsam-baslik strong {
+    font-weight: 600;
+  }
+  .kapsam-ayrinti {
+    margin: 4px 0 0;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
   /* Alt bilgi */
   .alt {
     margin-top: 40px;
@@ -804,14 +892,25 @@
     <div id="liste"></div>
     <div class="bos" id="bos" hidden>
       <p><strong>Eşleşen kayıt yok.</strong> Farklı bir marka, motor kodu ya da parça adı deneyin. Model yılı girdiyseniz veritabanında o yılı kapsayan kayıt olmayabilir; kilometre filtresi açıksa girdiğiniz değer hiçbir sorunun aralığına düşmüyor olabilir.</p>
+      <p id="bos-kapsam" hidden></p>
+      <button type="button" id="kapsam-git" hidden>Arandı ama kayıt açılmayan grupları göster</button>
       <button type="button" id="temizle-bos">Filtreleri temizle</button>
     </div>
+
+    <details class="kapsam" id="kapsam" hidden>
+      <summary><span>Arandı ama kayıt açılmayan gruplar</span><span class="kapsam-say" id="kapsam-say"></span></summary>
+      <div class="kapsam-icerik">
+        <p class="kapsam-not">Bu araç ve motor grupları için kaynak arandı, ancak en az iki farklı siteyle desteklenen ve o motora ya da modele özgü bir kronik sorun bulunamadığı için aşağıdakilerin kaydı yok. Bu "sorun yok" demek değildir; bulunanlar çoğunlukla tekil şikâyetler ya da başka motor ve modellere ait anlatılardır. Arama kutusu, marka, model yılı ve elektrikli filtreleri bu bölüme de uygulanır; risk ve kilometre filtreleri uygulanmaz, o filtreler açıkken bölüm gizlenir.</p>
+        <div id="kapsam-liste"></div>
+      </div>
+    </details>
 
     <footer class="alt">
       <p>Çubuklar 0–250.000 km ölçeğindedir; ince çizgiler 50.000 km aralıklarını gösterir. Kilometre girdiğinizde aracınızın konumu koyu bir çizgiyle işaretlenir. Aralığın içindeyse "Bu kilometrede", aralığın başlangıcına 20.000 km'den az kaldıysa "Yaklaşıyor" yazar.</p>
       <p>"Dönem" satırı, kaynakların üretim yılına göre fark belirttiği sorunlarda görünür: ●●● Yaygın, ●●○ Görülebilir, ●○○ Seyrek. Bu sınıflandırma kaynaklardaki bildirim yoğunluğuna dayanan editoryal bir değerlendirmedir, istatistik değildir. Listelenmeyen yıllar için kaynaklarda ayrı bilgi bulunamamıştır; "sorun yok" anlamına gelmez. Kapsam son 10-15 yılın araçlarıdır (yaklaşık 2011 sonrası); ilk aşamadan kalan birkaç eski kayıt silinmedi.</p>
       <p>"Ayrıntılar" bölümü, sorunun kaynaklarında kullanıcı, usta ve rehber anlatımlarında geçen bilgileri özetler; yetkili servis talimatı değildir. Maliyetler yalnızca kaynaklarda bildirildiği kadarıyla ve bildirim yılıyla yazılmıştır, güncel fiyat değildir; parça fiyatı ve işçilik zamana ve servise göre değişir. Nedenler, kaynaklarda öne sürülen açıklamalardır, üreticinin teknik tespiti olmayabilir.</p>
       <p>Kaynak bağlantıları web araması sonuçlarından toplandı ve sayfa başlığı ile özetine göre sorunlarla eşlendi; sayfaların tamamı okunmadı. Soluk renkli bağlantılar daha zayıf kaynaklardır (ticari site, blog veya kısa kullanıcı girdisi). Km aralıkları tahminidir ve kullanım, bakım geçmişi ve üretim yılına göre değişir. Karar vermeden önce aracı yetkili servise kontrol ettirin.</p>
+      <p>Aradığınız araç ya da motor listede yoksa sayfanın altındaki "Arandı ama kayıt açılmayan gruplar" bölümüne bakın: orada kaynak arandığı halde yeterli kanıt bulunamayan gruplar ve nedenleri yazılıdır. Orada da yoksa henüz hiç aranmamış olabilir.</p>
       <p>Ayrıntılar: <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/KAYNAKLAR.md">KAYNAKLAR.md</a> (site listesi), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/DOGRULAMA_RAPORU.md">DOGRULAMA_RAPORU.md</a> (neyin kaldırıldığı ve neden), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/KAPSAM.md">KAPSAM.md</a> (hangi marka, model ve motorlar planlandı, hangileri tamam), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/data/araclar.json">data/araclar.json</a>.</p>
     </footer>
   </main>
@@ -819,10 +918,12 @@
 
 <script type="application/json" id="veri">__VERI__</script>
 <script type="application/json" id="kaynak-veri">__KAYNAK__</script>
+<script type="application/json" id="plan-veri">__PLAN__</script>
 <script>
   (() => {
     const veri = JSON.parse(document.getElementById("veri").textContent);
     const kayit = JSON.parse(document.getElementById("kaynak-veri").textContent).siteler;
+    const plan = JSON.parse(document.getElementById("plan-veri").textContent);
     const IKI_PARCALI = new Set(["co.uk", "org.uk", "com.au", "co.nz", "com.tr", "org.tr"]);
     const GUVEN = { "yüksek": "yuksek", "orta": "orta", "düşük": "dusuk" };
 
@@ -1028,7 +1129,8 @@
     const kirilimli = kayitlar.reduce((t, k) => t + k.sorunlar.filter((s) => s.donemler.length).length, 0);
     const detayli = kayitlar.reduce((t, k) => t + k.sorunlar.filter((s) => s.detayKutu).length, 0);
     document.getElementById("ozet").textContent =
-      `${kayitlar.length} araç/motor kaydı · ${gruplar.size} marka · ${toplamSorun} kronik sorun (${kirilimli} tanesinde yıl kırılımı, ${detayli} tanesinde ayrıntı) · ${tumSiteler.size} kaynak sitesi`;
+      `${kayitlar.length} araç/motor kaydı · ${gruplar.size} marka · ${toplamSorun} kronik sorun (${kirilimli} tanesinde yıl kırılımı, ${detayli} tanesinde ayrıntı) · ${tumSiteler.size} kaynak sitesi` +
+      (plan.length ? ` · ${plan.length} grup arandı ama kaydı açılmadı` : "");
     const detayAc = document.getElementById("detayac");
     if (!detayli) detayAc.closest("label").hidden = true;
     detayAc.addEventListener("change", () => {
@@ -1046,10 +1148,62 @@
     const sayaclar = [...document.querySelectorAll("[data-say]")];
     const sonuc = document.getElementById("sonuc");
     const bos = document.getElementById("bos");
+    const bosKapsam = document.getElementById("bos-kapsam");
+    const kapsamGit = document.getElementById("kapsam-git");
     const temizle = document.getElementById("temizle");
 
     for (const [marka, grup] of gruplar) {
       markaSec.append(new Option(`${marka} (${grup.toplam})`, marka));
+    }
+
+    const kapsamKutu = document.getElementById("kapsam");
+    const kapsamListe = document.getElementById("kapsam-liste");
+    const kapsamSay = document.getElementById("kapsam-say");
+    const kapsamBolumleri = new Map();
+    const kapsamOgeleri = [];
+    const planSirali = plan.slice().sort((a, b) =>
+      a.marka.localeCompare(b.marka, "tr") || a.model.localeCompare(b.model, "tr") || a.motor.localeCompare(b.motor, "tr"));
+    for (const o of planSirali) {
+      let bolum = kapsamBolumleri.get(o.marka);
+      if (!bolum) {
+        const kap = el("section", "kapsam-marka");
+        const ul = el("ul");
+        kap.append(el("h3", null, o.marka), ul);
+        kapsamListe.append(kap);
+        bolum = { kap, ul, gorunen: 0 };
+        kapsamBolumleri.set(o.marka, bolum);
+      }
+      const li = el("li");
+      const bas = el("div", "kapsam-baslik");
+      bas.append(el("strong", null, o.model), el("span", "motor", o.motor), el("span", "arac-yil", o.yillar));
+      li.append(bas, el("p", "kapsam-ayrinti", o.durum === "sirada" ? "Henüz aranmadı (sırada)." : o.not));
+      bolum.ul.append(li);
+      const y = /^(\d{4})-(\d{4})?$/.exec(o.yillar);
+      kapsamOgeleri.push({
+        li, bolum, elektrik: o.motor.startsWith("Elektrik"),
+        y: y ? [Number(y[1]), y[2] ? Number(y[2]) : null] : null,
+        metin: katla([o.marka, o.model, o.yillar, o.motor, o.not || ""].join(" ")),
+        marka: o.marka,
+      });
+    }
+
+    function kapsamGuncelle(terimler, marka, yil, elektrik, gizle) {
+      let adet = 0;
+      for (const b of kapsamBolumleri.values()) b.gorunen = 0;
+      for (const o of kapsamOgeleri) {
+        const yilUyar = yil == null || o.y == null || (yil >= o.y[0] && (o.y[1] == null || yil <= o.y[1]));
+        const uyar = !gizle && (!marka || o.marka === marka) && yilUyar && (!elektrik || o.elektrik) &&
+          terimler.every((t) => o.metin.includes(t));
+        o.li.hidden = !uyar;
+        if (uyar) {
+          adet += 1;
+          o.bolum.gorunen += 1;
+        }
+      }
+      for (const b of kapsamBolumleri.values()) b.kap.hidden = b.gorunen === 0;
+      kapsamKutu.hidden = adet === 0;
+      kapsamSay.textContent = `${adet} grup`;
+      return adet;
     }
 
     function yilOku() {
@@ -1141,6 +1295,11 @@
         ? `${aracAdet} kayıtta ${sorunAdet} sorun gösteriliyor`
         : `Tüm kayıtlar gösteriliyor: ${kayitlar.length} araç/motor, ${toplamSorun} sorun`;
       bos.hidden = sorunAdet > 0;
+      const kapsamAdet = kapsamGuncelle(terimler, marka, yil, elektrikliFiltre.checked, risk !== "" || sadeceKm);
+      const kapsamIpucu = sorunAdet === 0 && kapsamAdet > 0;
+      bosKapsam.hidden = !kapsamIpucu;
+      kapsamGit.hidden = !kapsamIpucu;
+      if (kapsamIpucu) bosKapsam.textContent = `Bu aramayla, kaynak arandığı halde kaydı açılmayan gruplar arasında ${kapsamAdet} eşleşme var.`;
       temizle.hidden = !(filtreli || km != null || yilGiris.value !== "");
     }
 
@@ -1168,6 +1327,10 @@
     for (const r of riskler) r.addEventListener("change", guncelle);
     temizle.addEventListener("click", sifirla);
     document.getElementById("temizle-bos").addEventListener("click", sifirla);
+    kapsamGit.addEventListener("click", () => {
+      kapsamKutu.open = true;
+      kapsamKutu.scrollIntoView({ behavior: "smooth", block: "start" });
+    });
 
     guncelle();
   })();

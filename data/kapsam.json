@@ -312,8 +312,8 @@
     },
     {
       "marka": "Renault",
-      "model": "Clio 4",
-      "yillar": "2013-2019",
+      "model": "Clio 3 / Clio 4 / Symbol",
+      "yillar": "2005-2019",
       "motor": "1.2 16V 75 (D4F)",
       "kademe": 2,
       "eslesme": {
@@ -454,7 +454,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Aramalarda D4F motoruna özgü tekrar eden sorun çıkmadı; şikâyetler soğukta marş ve klima gibi tekil konularda."
+      "not": "Aramalarda D4F motoruna özgü tekrar eden sorun çıkmadı; şikâyetler soğukta marş ve klima gibi tekil konularda. Symbol III (2013-2020), Dacia Logan II'nin Türkiye'de Renault adıyla satılan ikizi (Motor1, Wikipedia); 0.9 TCe ve 1.5 dCi sürümleri 'Sandero / Logan / Symbol' kayıtlarında."
     },
     {
       "marka": "Renault",
@@ -548,7 +548,7 @@
     },
     {
       "marka": "Dacia",
-      "model": "Sandero / Logan",
+      "model": "Sandero / Logan / Symbol",
       "yillar": "2013-2020",
       "motor": "0.9 TCe 90 (H4Bt)",
       "kademe": 2,
@@ -563,7 +563,7 @@
     },
     {
       "marka": "Dacia",
-      "model": "Sandero / Logan",
+      "model": "Sandero / Logan / Symbol",
       "yillar": "2013-2020",
       "motor": "1.5 dCi 75/90 (K9K)",
       "kademe": 2,
@@ -856,8 +856,8 @@
     {
       "marka": "Hyundai",
       "model": "Accent Blue",
-      "yillar": "2011-2019",
-      "motor": "1.6 CRDi (D4FB)",
+      "yillar": "2015-2019",
+      "motor": "1.6 CRDi 136 (7DCT)",
       "kademe": 1,
       "eslesme": {
         "model": [
@@ -956,8 +956,8 @@
     },
     {
       "marka": "Hyundai",
-      "model": "Tucson (TL)",
-      "yillar": "2015-2020",
+      "model": "Tucson (TL FL)",
+      "yillar": "2018-2020",
       "motor": "1.6 CRDi (7DCT)",
       "kademe": 1,
       "eslesme": {
@@ -973,14 +973,14 @@
       "marka": "Hyundai",
       "model": "Tucson (NX4)",
       "yillar": "2021-",
-      "motor": "1.6 T-GDI / 1.6 CRDi",
+      "motor": "1.6 CRDi 136 (7DCT)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Tucson (NX4"
         ],
         "motor": [
-          ""
+          "CRDi"
         ]
       }
     },
@@ -1041,7 +1041,6 @@
       "kademe": 1,
       "eslesme": {
         "model": [
-          "PureTech",
           "308 / 3008 / 208 / 2008"
         ],
         "motor": [
@@ -1330,16 +1329,15 @@
     {
       "marka": "Citroen",
       "model": "C-Elysee",
-      "yillar": "2012-2020",
-      "motor": "1.2 PureTech / 1.6 VTi",
+      "yillar": "2017-2020",
+      "motor": "1.2 PureTech 82",
       "kademe": 2,
       "eslesme": {
         "model": [
           "C-Elysee"
         ],
         "motor": [
-          "PureTech",
-          "VTi"
+          "PureTech"
         ]
       }
     },
@@ -1362,17 +1360,16 @@
     },
     {
       "marka": "Citroen",
-      "model": "C4 / C4 Cactus",
-      "yillar": "2011-2020",
-      "motor": "1.6 e-HDi / BlueHDi, 1.2 PureTech",
+      "model": "C4 Cactus",
+      "yillar": "2014-2020",
+      "motor": "1.2 PureTech 82/110",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "C4 Cactus",
-          "C4 (2011"
+          "C4 Cactus"
         ],
         "motor": [
-          ""
+          "PureTech"
         ]
       }
     },
@@ -1456,15 +1453,14 @@
       "marka": "Skoda",
       "model": "Rapid",
       "yillar": "2012-2019",
-      "motor": "1.6 TDI / 1.6 MPI",
+      "motor": "1.6 TDI 90/105",
       "kademe": 1,
       "eslesme": {
         "model": [
           "Rapid"
         ],
         "motor": [
-          "1.6 TDI",
-          "1.6 MPI"
+          "1.6 TDI"
         ]
       }
     },
@@ -1570,14 +1566,14 @@
       "marka": "Volkswagen",
       "model": "Polo AW",
       "yillar": "2018-",
-      "motor": "1.0 TSI / 1.0 MPI",
+      "motor": "1.0 TSI 95/110",
       "kademe": 1,
       "eslesme": {
         "model": [
           "Polo (AW"
         ],
         "motor": [
-          ""
+          "1.0 TSI"
         ]
       }
     },
@@ -1585,14 +1581,14 @@
       "marka": "Volkswagen",
       "model": "Polo 6R / 6C",
       "yillar": "2009-2017",
-      "motor": "1.4 TDI / 1.6 TDI",
+      "motor": "1.6 TDI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Polo 6R"
         ],
         "motor": [
-          "TDI"
+          "1.6 TDI"
         ]
       }
     },
@@ -1645,14 +1641,14 @@
       "marka": "Volkswagen",
       "model": "Golf 8",
       "yillar": "2020-",
-      "motor": "1.0 TSI / 1.5 TSI",
+      "motor": "1.0 eTSI / 1.5 eTSI (48V hafif hibrit)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Golf 8"
         ],
         "motor": [
-          ""
+          "eTSI"
         ]
       }
     },
@@ -1758,14 +1754,14 @@
       "marka": "Volkswagen",
       "model": "Tiguan AD1",
       "yillar": "2016-",
-      "motor": "1.4 TSI / 1.5 TSI",
+      "motor": "1.5 TSI 150 (EA211 evo)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "Tiguan (AD"
         ],
         "motor": [
-          "TSI"
+          "1.5 TSI"
         ]
       }
     },
@@ -1788,14 +1784,14 @@
       "marka": "Volkswagen",
       "model": "T-Roc",
       "yillar": "2018-",
-      "motor": "1.0 TSI / 1.5 TSI",
+      "motor": "1.5 TSI 150 (EA211 evo)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "T-Roc"
         ],
         "motor": [
-          "TSI"
+          "1.5 TSI"
         ]
       }
     },
@@ -1817,15 +1813,16 @@
     {
       "marka": "Volkswagen",
       "model": "Jetta",
-      "yillar": "2011-2018",
-      "motor": "1.2 TSI / 1.4 TSI / 1.6 TDI",
+      "yillar": "2011-2013",
+      "motor": "1.4 TSI / 1.6 TDI",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Jetta"
+          "Golf 6 / Jetta"
         ],
         "motor": [
-          ""
+          "1.4 TSI",
+          "1.6 TDI"
         ]
       }
     },
@@ -2222,7 +2219,7 @@
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Qashqai (J11"
+          "Qashqai (J11, 2014"
         ],
         "motor": [
           "dCi"
@@ -2237,7 +2234,7 @@
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Qashqai (J11"
+          "Qashqai (J11, 2014"
         ],
         "motor": [
           "DIG-T"
@@ -2421,14 +2418,14 @@
       "marka": "Ford",
       "model": "Kuga 2",
       "yillar": "2013-2019",
-      "motor": "1.5 EcoBoost / 2.0 TDCi",
+      "motor": "1.5 EcoBoost 150/182",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Kuga 2"
         ],
         "motor": [
-          ""
+          "1.5 EcoBoost"
         ]
       }
     },
@@ -2468,16 +2465,16 @@
     },
     {
       "marka": "Kia",
-      "model": "Sportage SL / QL",
-      "yillar": "2010-2021",
-      "motor": "1.6 CRDi / 1.7 CRDi",
+      "model": "Sportage QL FL / NQ5",
+      "yillar": "2018-",
+      "motor": "1.6 CRDi 136 (7DCT)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "Sportage"
         ],
         "motor": [
-          "CRDi"
+          "1.6 CRDi"
         ]
       }
     },
@@ -2485,14 +2482,14 @@
       "marka": "Kia",
       "model": "Sportage SL / QL",
       "yillar": "2010-2021",
-      "motor": "1.6 GDI / 1.6 T-GDI",
+      "motor": "1.6 GDI 135",
       "kademe": 1,
       "eslesme": {
         "model": [
           "Sportage"
         ],
         "motor": [
-          "GDI"
+          "1.6 GDI"
         ]
       }
     },
@@ -2765,16 +2762,17 @@
     },
     {
       "marka": "Seat",
-      "model": "Leon 5F / 1P",
-      "yillar": "2005-2020",
-      "motor": "1.2 TSI / 1.4 TSI / 1.6 TDI",
+      "model": "Leon 5F",
+      "yillar": "2012-2020",
+      "motor": "1.2 TSI / 1.6 TDI (DSG DQ200)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "Leon (5F"
         ],
         "motor": [
-          ""
+          "1.2 TSI",
+          "1.6 TDI"
         ]
       }
     },
@@ -3441,7 +3439,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Qashqai (J11"
+          "Qashqai (J11, 2014"
         ],
         "motor": [
           "R9M, Xtronic"
@@ -5229,6 +5227,797 @@
       },
       "sonuc": "yetersiz-kanit",
       "not": "B9 için bulunan başlıklar plug-in hibrit (E-Hybrid) sürümüne ait; 1.5 eTSI (48V hafif hibrit) için B9'a özgü Şikâyetvar ya da forum kaydı çıkmadı. Aynı 48 V sistem Golf 8, Octavia, Leon, Superb, Formentor ve A3 (8Y) kayıtlarında ele alındı."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Tucson (NX4)",
+      "yillar": "2021-",
+      "motor": "1.6 T-GDI (7DCT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tucson (NX4"
+        ],
+        "motor": [
+          "T-GDI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: DonanımHaber'de 2025 model 1.6 DCT'li bir Tucson'da 35 bin km'de dişli kırılması anlatılıyor (tek vaka, motor tipi belirtilmiyor); Şikâyetvar'daki Tucson şanzıman şikâyetlerinin çoğu dizel araçlara ait; yağ yakma iddiaları 1.6 GDi ve 6 ileri otomatik konusunda. T-GDI'ya özgü tekrar eden sorun çıkmadı. 7DCT titremesi Tucson NX4 1.6 CRDi kaydında ele alındı."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C-Elysee",
+      "yillar": "2012-2016",
+      "motor": "1.6 VTi 115 (EP6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C-Elysee"
+        ],
+        "motor": [
+          "VTi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı (tek sorgu): şikâyet ya da forum kaydı çıkmadı; sonuçlar teknik özellik ve katalog sayfalarından oluştu. C-Elysée 1.6 HDi ve 1.2 PureTech 82 ayrı kayıtlarda."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Rapid",
+      "yillar": "2012-2019",
+      "motor": "1.6 MPI 105",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Rapid"
+        ],
+        "motor": [
+          "1.6 MPI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Şikâyetvar'da DSG vites geçişi şikâyeti (garanti dışı 30.000 TL teklif) ve DonanımHaber'de 2014 model dizel Rapid'de vites boşa düşmesi var, ikisi de otomatik şanzımanlı araçlara ait; yağ eksiltme şikâyetinde model ve motor belirtilmiyor; Ekşi Sözlük'te manuel 1.6 105 bg için olumlu bir yorum çıktı. Manuel 1.6 MPI'ya özgü sorun çıkmadı. DSG sorunları Rapid 1.2 TSI ve 1.6 TDI kayıtlarında."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Polo AW",
+      "yillar": "2018-",
+      "motor": "1.0 MPI 65/75",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Polo (AW"
+        ],
+        "motor": [
+          "1.0 MPI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Şikâyetvar'da turbosuz 1.0 Polo'da 12.000 km'de yağ uyarısı ve yaklaşık 2 litre takviye anlatılıyor (tek vaka, servis normal bulmuş); DonanımHaber'deki rölanti titremesi başlıkları ve DSG şikâyetleri 1.0 TSI'ya ait. MPI 65/75 için tekrar eden sorun çıkmadı."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Polo 6R / 6C",
+      "yillar": "2009-2017",
+      "motor": "1.4 TDI 75/90 (BMT, 3 silindir)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Polo 6R"
+        ],
+        "motor": [
+          "1.4 TDI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: DonanımHaber'de 2016 model 1.4 TDI 90 PS için enjektör dönüş hortumu kaçağı ve marş sorunu başlığı var; Şikâyetvar'da 2014 model 1.4 TDI'da turbonun dört kez yapıldığı (47.000 TL ödenmiş) ve 2016 modelde 95 bin km'de su eksiltme ile blok çatlağı gibi tekil vakalar çıktı. Otopark'taki Polo turbo başlığı turbo hortumu çatlağı anlatıyor ve motor tipi net değil; her sorun tek siteyle sınırlı kaldı."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Tiguan AD1",
+      "yillar": "2016-",
+      "motor": "1.4 TSI 125/150 (ACT)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Tiguan (AD"
+        ],
+        "motor": [
+          "1.4 TSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Tiguan 1.4 TSI için piston kırılması, titreme ve yağ eksiltme anlatılarının çoğu 2010-2013 (5N) modellere ait; AD1 dönemi için Şikâyetvar'da 2024 model bir Tiguan'da 7-8 bin km'de yağ eksiltme uyarısı (motor tipi belirtilmiyor) ve 2021 model bir Tiguan'da mekatronik kartı arızası gibi tekil kayıtlar var. 5N 1.4 TSI zincir gergisi arızası ve AD1 1.5 TSI yağ eksiltmesi ayrı kayıtlarda."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "T-Roc",
+      "yillar": "2018-",
+      "motor": "1.0 TSI 115",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "T-Roc"
+        ],
+        "motor": [
+          "1.0 TSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: T-Roc yağ eksiltme şikâyetleri 1.5 TSI'ya ve 2022 modellere ait, DSG şikâyetleri genel T-Roc DSG'sine ait; DonanımHaber'de 1.0 TSI zincir ve yağ tüketimi motor genelinde anılıyor. 1.0 TSI 115'e özgü kaynak çıkmadı (yağ eksiltme T-Roc 1.5 TSI kaydında)."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Jetta",
+      "yillar": "2013-2018",
+      "motor": "1.2 TSI / 1.4 TSI / 1.6 TDI (DQ200 DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Jetta (2013"
+        ],
+        "motor": [
+          "TSI",
+          "TDI"
+        ]
+      }
+    },
+    {
+      "marka": "Ford",
+      "model": "Kuga 2",
+      "yillar": "2013-2019",
+      "motor": "2.0 TDCi 140/150/180",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Kuga 2"
+        ],
+        "motor": [
+          "2.0 TDCi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: 2011 model bir Kuga'da (Kuga 1) enjektör tutucu bacaklarının kırılması (tek vaka) ve Powershift'te düşük devirde vites düşürme gecikmesi, geri vitesten D'ye geçişte sarsıntı yorumları var; Şikâyetvar'daki turbo arızası şikâyetinde motor tipi belirtilmiyor. 2.0 TDCi için tekrar eden, iki siteyle doğrulanan sorun çıkmadı."
+    },
+    {
+      "marka": "Kia",
+      "model": "Sportage SL / QL",
+      "yillar": "2010-2018",
+      "motor": "1.7 CRDi 115/141",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Sportage (SL"
+        ],
+        "motor": [
+          "1.7 CRDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: 1.7 CRDi'ya özgü kronik arıza çıkmadı; turbo mili, enjektör ve DPF vakaları 1.6 CRDi ve 2020 sonrası araçlara ait (7DCT titremesi Sportage 1.6 CRDi kaydında)."
+    },
+    {
+      "marka": "Kia",
+      "model": "Sportage SL / QL",
+      "yillar": "2010-2021",
+      "motor": "1.6 T-GDI 177 (7DCT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Sportage"
+        ],
+        "motor": [
+          "T-GDI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı (tek sorgu): Şikâyetvar ya da DonanımHaber kaydı çıkmadı; sonuçlar genel inceleme ve teknik özellik sayfalarından oluştu. 7DCT kavrama titremesi Sportage 1.6 CRDi kaydında."
+    },
+    {
+      "marka": "Seat",
+      "model": "Leon 5F",
+      "yillar": "2005-2020",
+      "motor": "1.4 TSI 122/125/140/150 (EA211, ACT)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Leon (5F"
+        ],
+        "motor": [
+          "1.4 TSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: 1.4 TSI ACT için zincir ve yağ eksiltme anlatıları çoğunlukla 1.2 TSI'ya ait; Şikâyetvar'da 1.4 TSI Leon sahibinin zincir şüphesi (ustanın doğrulanmamış teşhisi) ve 2020 model bir Leon'da ACT valf hortumu yırtığı tekil vakaları var. DSG kavrama ve mekatronik sorunları Leon 5F 1.2 TSI / 1.6 TDI (DSG DQ200) kaydında."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Accent Blue",
+      "yillar": "2011-2015",
+      "motor": "1.6 CRDi 128 (manuel / 6 ileri otomatik)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Accent Blue (RB, 2011"
+        ],
+        "motor": [
+          "1.6 CRDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: tekil vakalar (2013 model 1.6 CRDi'da yağ seviyesinin yükselmesi ve enjektör temizliği; LPG sonrası enjektör arızası); DPF ve turbo için yıla özgü güvenilir kaynak yok, DPF konusunda forumlarda görüş ayrılığı var. Şikâyetlerin çoğu otomatik ve 2015-2016 DCT'li sürümlere ait (DCT sorunu Accent Blue 2015-2019 kaydında)."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Tucson (TL)",
+      "yillar": "2015-2018",
+      "motor": "1.7 CRDi 115/141",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tucson (TL, 2015"
+        ],
+        "motor": [
+          "1.7 CRDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: 1.7 CRDi'ya özgü kaynak çıkmadı; Şikâyetvar'daki Tucson dizel DPF, enjektör ve turbo şikâyetleri 2021 ve sonrası modellere ait."
+    },
+    {
+      "marka": "Renault",
+      "model": "Taliant",
+      "yillar": "2021-",
+      "motor": "1.0 TCe 90/100 (H4Dt)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Taliant"
+        ],
+        "motor": [
+          "1.0"
+        ]
+      }
+    },
+    {
+      "marka": "Fiat",
+      "model": "Egea Hybrid",
+      "yillar": "2022-",
+      "motor": "1.5 Hybrid 130 (48V hafif hibrit, çift kavramalı)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Egea (Hybrid"
+        ],
+        "motor": [
+          "Hybrid"
+        ]
+      }
+    },
+    {
+      "marka": "Fiat",
+      "model": "Linea",
+      "yillar": "2011-2015",
+      "motor": "1.6 Multijet 105",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Linea (2011"
+        ],
+        "motor": [
+          "1.6 Multijet"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Şikâyetvar'ın Linea 1.6 Multijet şikâyetlerinde en çok tekrarlanan konu yolcu hava yastığı bölgesinde göğüs paneli çatlağı ve Blue&Me arızası; sıcak motorda zor çalışma ayrı bir şikâyet. EGR, enjektör ve turbo iddiaları genel motor ailesine ait tek bir DonanımHaber başlığında. 1.4 T-Jet (turbo, yağ eksiltme) için sonuç çıkmadı; Dualogic sorunları Linea 1.3 Multijet kaydında."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat CC",
+      "yillar": "2008-2017",
+      "motor": "2.0 TDI / 1.4 TSI (DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Passat CC"
+        ],
+        "motor": [
+          "TDI",
+          "TSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Passat CC'ye özgü kaynak çıkmadı; DSG kavrama / mekatronik, 2.0 TDI yağ tüketimi (2015 model, yaklaşık 500 km'de 1 litre) ve yağ pompası değişimi anlatıları B7 ve sonrası Passat'lara ait (DSG sorunları Passat B8 ve B6 kayıtlarında)."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Polo Sedan",
+      "yillar": "2010-2017",
+      "motor": "1.4 / 1.6 MPI, 1.6 TDI",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Polo Sedan"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Polo Sedan / Vento'ya özgü kaynak çıkmadı; sonuçlar genel Polo şikâyetleri ve DSG ('Hata: Şanzıman', mikro şalter, mekatronik) üzerine; 1.6 benzinli Polo'da zamanlama zinciri ve yağ yakma eğilimi genel bir forum derlemesinde geçiyor."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touran",
+      "yillar": "2010-2022",
+      "motor": "1.6 TDI / 2.0 TDI / 1.4 TSI (DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Touran"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Şikâyetvar'da Touran için yalnızca 2 şikâyet var (parça temini, antifriz kaçağı); Touran'a özgü ikinci kaynak çıkmadı. DSG ve TDI yağ tüketimi anlatıları VW grubunun geneline ait."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "T-Cross / Taigo",
+      "yillar": "2019-",
+      "motor": "1.0 TSI 95/110 (DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "T-Cross"
+        ],
+        "motor": [
+          "1.0 TSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Şikâyetvar'da sıfır bir T-Cross 1.0 DSG'de acil işletim ve geri vites uyarıları ile 2025 model 1.0 TSI 116 PS DSG'de servisin şanzıman arızasını kullanıcı hatası saydığı bir şikâyet var (tekil vakalar); 1.0 TSI zincir ve yağ tüketimi DonanımHaber'de motor genelinde anılıyor. T-Cross'a özgü ikinci kaynak çıkmadı."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Amarok",
+      "yillar": "2010-",
+      "motor": "2.0 TDI / BiTDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Amarok"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: DonanımHaber'de 2011 model 2.0 TDI 4x2 bir Amarok'ta yağ basıncı lambası ve yağ pompası değişimi (tek vaka), Şikâyetvar'da 2011 ve 2024 model turbo arızaları var; şanzıman kayıtları V6'ya ait; DPF için kayıt çıkmadı. Aynı sorun iki siteyle doğrulanmadı."
+    },
+    {
+      "marka": "Opel",
+      "model": "Meriva B",
+      "yillar": "2010-2017",
+      "motor": "1.3 CDTI / 1.4 benzinli / 1.4 Turbo",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Meriva"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Şikâyetvar'daki Meriva kayıtları 2011 model Meriva B'de hava yastığı geri çağırması ve kapı kaplama parçası üzerine; forum yorumları eski ve genel (1.3 CDTI için çoğunlukla olumlu); 1.4 Turbo için sonuç çıkmadı. Motora özgü tekrar eden sorun çıkmadı."
+    },
+    {
+      "marka": "Opel",
+      "model": "Zafira Tourer",
+      "yillar": "2012-2019",
+      "motor": "1.6 CDTI / 2.0 CDTI / 1.4 Turbo",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Zafira"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Şikâyetvar'daki Zafira şikâyetleri elektronik ve uyarı lambaları üzerine; Zafira 2.0 CDTI için tek bir inceleme (sert vites düşürme) var; 1.6 CDTI ve 1.4 Turbo için sonuç çıkmadı. Motora özgü tekrar eden sorun çıkmadı."
+    },
+    {
+      "marka": "Honda",
+      "model": "Accord",
+      "yillar": "2008-2015",
+      "motor": "2.0 i-VTEC / 2.2 i-DTEC",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Accord"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Accord 2.0 i-VTEC / 2.2 i-DTEC için bu aramada veri çıkmadı (aynı sorgudaki Civic 1.6 i-DTEC DPF sorunu ayrı kayıtta)."
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic FC5 (dizel)",
+      "yillar": "2016-2021",
+      "motor": "1.6 i-DTEC 120 (9 ileri otomatik)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Civic (FC5"
+        ],
+        "motor": [
+          "i-DTEC"
+        ]
+      }
+    },
+    {
+      "marka": "Ford",
+      "model": "C-Max / Grand C-Max",
+      "yillar": "2010-2019",
+      "motor": "1.6 TDCi / 1.5 TDCi / 1.0 EcoBoost",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C-Max"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: DonanımHaber'de 2011 model C-Max 1.6 TDCi'da enjektör arızası (tek başlık, bir enjektör için yaklaşık 1.230 TL teklif), Şikâyetvar'da 2012 model 1.6 TDCi'da enjektör pulu değişiminden sonra motor arızası (tek vaka); turbo boru / hortum ve DPF yorumları genel 1.6 TDCi'ya ait (Focus 1.6 TDCi kaydı). İkinci bağımsız doğrulama yok."
+    },
+    {
+      "marka": "Renault",
+      "model": "Scenic 3 / Grand Scenic",
+      "yillar": "2009-2016",
+      "motor": "1.5 dCi 110 (K9K, EDC)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Scenic 3"
+        ],
+        "motor": [
+          "1.5 dCi"
+        ]
+      }
+    },
+    {
+      "marka": "Renault",
+      "model": "Laguna 3",
+      "yillar": "2007-2015",
+      "motor": "1.5 dCi / 2.0 dCi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Laguna"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da iki sorguyla arandı: Türkçe şikâyet ya da forum kaydı çıkmadı; sonuçlar Fransızca sürücü yorumlarına dayanıyor (Fiches-Auto'da 1.5 dCi 110'da biyel kolu kırılganlığı ve enjektör sorunları, 2.0 dCi otomatikte şanzıman-kardan bağlantısı aşınması; Planète Renault'ta tekil enjeksiyon arızası). Kilometre ve tekrar bilgisi yetersiz."
+    },
+    {
+      "marka": "Renault",
+      "model": "Koleos",
+      "yillar": "2008-",
+      "motor": "2.0 dCi (4x4)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Koleos"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da iki sorguyla arandı: Türkçe kaynak çıkmadı; yabancı derlemelerde X-Tronic CVT kayması, dizel 4x4'te arka diferansiyel ve kardan kırılması ile DPF tıkanması anlatılıyor (Koleos II ağırlıklı); anlatılar iki bağımsız kaynağa bağlanamadı."
+    },
+    {
+      "marka": "Chery",
+      "model": "Tiggo 7 Pro / Tiggo 8 Pro / Omoda 5",
+      "yillar": "2023-",
+      "motor": "1.6 TGDI (7DCT) / 1.5 T",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tiggo",
+          "Omoda 5"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Şikâyetvar'da Tiggo 8 Pro için yağ soğutucusu arızası ve motor suyuna yağ karışması (30.116 km ve 1.500 km gibi tek tek vakalar) ile Tiggo 8 Pro Max'te 30.000 km sonrası şanzıman vuruntusu anlatılıyor; DonanımHaber ve Ekşi Sözlük'te bu iddialar doğrulanmadı (Tiggo 7 Pro 7DCT için olumlu yorumlar, 1.6 TGDI için yakıt tüketimi tartışması; motor suyuna yağ karışmasını anlatan bir DonanımHaber başlığı model belirtmiyor)."
+    },
+    {
+      "marka": "Seat",
+      "model": "Toledo",
+      "yillar": "2012-2019",
+      "motor": "1.2 TSI / 1.6 TDI (DSG)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Toledo"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı (tek sorgu): Türkçe kaynak çıkmadı; sonuçlar tanıtım ve ilan sayfaları ile İspanyolca bir sorun sayfasından oluştu (DQ200'de kalkışta kayma ve sarsıntı, 1.6 TDI'da DPF tıkanma eğilimi). DQ200 sorunları Leon 5F, Rapid ve Polo kayıtlarında."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A7",
+      "yillar": "2013-2020",
+      "motor": "1.2 TSI / 1.6 MPI / 2.0 TDI",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Octavia (A7"
+        ],
+        "motor": [
+          "1.2 TSI",
+          "1.6 MPI",
+          "2.0 TDI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: Şikâyetvar'da DSG 'aracı P konumunda terk edin' uyarısı, mekatronik değişimi ve mikro şalter anlatılıyor; DonanımHaber'de 1.6 TDI için şakırdama, Ekşi Sözlük'te VAG DSG ve TDI geneli için kronik listesi var. 1.2 TSI, 1.6 MPI ve 2.0 TDI için motor bazında liste çıkmadı (DSG sorunları Octavia 1.6 TDI ve 1.4 TSI kayıtlarında)."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb II",
+      "yillar": "2008-2015",
+      "motor": "1.6 TDI / 2.0 TDI / 1.8 TSI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Superb (II"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da iki sorguyla arandı: Şikâyetvar ya da DonanımHaber kaydı çıkmadı; Araclo'nun Superb II sayfaları (1.6 TDI'da enjektör, 2.0 TDI'da DSG mekatronik valf burcu ve yüksek basınç pompası, 1.8 TSI'da zincir ve DSG) ve yabancı rehberler var; deneyim türünde (şikâyet / forum) kaynak yok, Araclo tek başına yeterli sayılmıyor."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "B Serisi W246",
+      "yillar": "2011-2018",
+      "motor": "B180 / B200 CDI / 1.5 d",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "B Serisi"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da iki sorguyla arandı: Türkçe şikâyet ya da forum kaydı çıkmadı; Carchecker ve Au7o'daki rehber ve ABD sahip raporları OM651 dizelde DPF-EGR tıkanması ve 7G-DCT'de kalkış titreşimi gösteriyor (A Serisi / W176 kaydındaki bulgularla örtüşüyor); DonanımHaber'de bir kullanıcı B200'ün 7G-DCT'sinin sorunsuz olduğunu yazıyor."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLC / GLA",
+      "yillar": "2013-",
+      "motor": "220d / 200 / 250",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "GLC",
+          "GLA ("
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da iki sorguyla arandı: Şikâyetvar'da 2020 model bir GLC 220d'nin yolda kalması ve şanzıman arızası şikâyeti var (tek vaka); Araclo'nun GLC 200 ve GLA 200 sayfaları 9G-Tronic sarsıntısı ve GLA'da çift kavramalı şanzıman başlığını gösteriyor; yabancı rehberler OM651'de EGR kurumu ve NOx / AdBlue arızalarını sayıyor. Türkçe deneyim kaynağı tek vakada kaldı."
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 / X5",
+      "yillar": "2010-",
+      "motor": "xDrive 25d / 30d / 3.0d",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "X3 (",
+          "X5"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da iki sorguyla arandı: Türkçe şikâyet ya da forum kaydı çıkmadı; Araclo sayfaları ve yabancı rehberler N57 zincir gergisi aşınması, EGR soğutucusu ve DPF'yi anıyor (bazı rehberler zincir sorununu asıl N47'ye bağlıyor); deneyim türünde kaynak yok."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i20 (GB)",
+      "yillar": "2014-2020",
+      "motor": "1.25 / 1.4 MPI, 1.4 CRDi",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "i20 (GB"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: i20 şikâyetleri otomatik şanzımanda toplanıyor (tork konvertörlü şanzıman çoğu yorumda sorunsuz, DCT'li BC3 kaydında); 1.4 MPI için forum yorumları sorunsuz diyor, 1.4 CRDi için enjektör, turbo ve silindir kapağı sıralaması genel bir forum listesinden geliyor. Kayıt açılacak kanıt çıkmadı."
+    },
+    {
+      "marka": "Nissan",
+      "model": "Qashqai J11 FL / J12",
+      "yillar": "2019-",
+      "motor": "1.3 DIG-T 140/158 (2021 sonrası 12V hafif hibrit, Xtronic CVT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Qashqai (J11 FL"
+        ],
+        "motor": [
+          "1.3 DIG-T"
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka B",
+      "yillar": "2021-",
+      "motor": "1.2 PureTech 100/130 (EB2)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Mokka (B"
+        ],
+        "motor": [
+          "PureTech"
+        ]
+      }
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "A Serisi W177",
+      "yillar": "2018-",
+      "motor": "A180 1.3 / A180d 1.5 / A200",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "W177"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: W177'ye özgü kaynak çok az; 7G-DCT vuruntu ve geri vites uyarısı ile PRE-SAFE / ESP uyarıları çoğunlukla W176 dönemine ait (A Serisi / CLA W176 kaydı), MBUX ekranına özgü kronik sorun bulunamadı; 1.3 benzinli ve 1.5 dizel için kaynak çıkmadı."
+    },
+    {
+      "marka": "Kia",
+      "model": "Rio YB",
+      "yillar": "2017-2023",
+      "motor": "1.4 MPI 100 / 1.0 T-GDI",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Rio (YB"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: DonanımHaber'de Rio 1.4 MPI ve 6 ileri tork konvertörlü otomatik için sorunsuz yorumları var (bir sahip yaklaşık 27.500 km'de sorun yaşamadığını yazıyor); 1.0 T-GDI için kaynak çıkmadı. Rio UB 1.4 CRDi DPF sorunu ayrı kayıtta."
+    },
+    {
+      "marka": "Kia",
+      "model": "Ceed CD",
+      "yillar": "2018-",
+      "motor": "T-GDI benzinli (7DCT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Ceed (CD"
+        ],
+        "motor": [
+          "T-GDI"
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi F40 / X1 F48",
+      "yillar": "2015-",
+      "motor": "116d / 118i / sDrive16d / 18i",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F40",
+          "F48"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı (tek sorgu): Türkçe şikâyet ya da forum kaydı çıkmadı; bir Türkçe alım rehberi zincir / Valvetronic sorunlarının E84'ün 2.0 motoruna ait olduğunu, F48 18i'nin 1.5 üç silindirli turbo olduğunu yazıyor; AUTO BILD TÜV testi geri çağırmaları sıralıyor (EGR sızıntısı, airbag ateşleme, DKG bağlantıları)."
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka B",
+      "yillar": "2021-",
+      "motor": "1.5 BlueHDi 110 (DV5)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Mokka (B"
+        ],
+        "motor": [
+          "BlueHDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı (tek sorgu, PureTech ile birlikte): Mokka B 1.5 BlueHDi'ya özgü kaynak çıkmadı; forumlarda AdBlue ve DPF sorunları PSA 1.5 BlueHDi'nın geneli için anılıyor. Aynı DV5 motorunun AdBlue ve eksantrik zinciri sorunları Peugeot, Citroën ve Opel Grandland kayıtlarında."
+    },
+    {
+      "marka": "Kia",
+      "model": "Ceed CD",
+      "yillar": "2018-",
+      "motor": "1.6 CRDi 115/136",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Ceed (CD"
+        ],
+        "motor": [
+          "CRDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı (tek sorgu, T-GDI ile birlikte): Ceed CD'ye özgü sonuçlar 7DCT silkelemesinde toplandı (T-GDI satırında kayıtlı); 1.6 CRDi motoru ve yağ eksiltme için bilgi çıkmadı."
+    },
+    {
+      "marka": "Renault",
+      "model": "Scenic 3 / Grand Scenic",
+      "yillar": "2009-2016",
+      "motor": "1.6 16V",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Scenic 3"
+        ],
+        "motor": [
+          "1.6"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Faz 9'da arandı: tek bir forum yorumu (2013 tarihli) 1.6 16V'de açı kaydırıcı (VVT) arızasını ve Sagem ateşleme bobinlerini anıyor; ikinci kaynak çıkmadı. 1.5 dCi EDC (şanzıman beyni arızası) ayrı satırda kayıtlandı."
     }
   ]
 }
