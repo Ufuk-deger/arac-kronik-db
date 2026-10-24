@@ -51,10 +51,21 @@
           "belirtiler": "Çekiş kaybı, motor arıza lambası, sık rejenerasyon; EGR tıkanması çoğunlukla 60.000-120.000 km arasında, kısa mesafe kullanımda daha erken",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe ve düşük devirli kullanımda DPF rejenerasyon koşulları oluşmuyor ya da aktif rejenerasyonlar yarıda kesiliyor (DonanımHaber, Şikâyetvar); EGR valfi is ve karbonla tıkanıyor. Forumlarda iki sorunun birlikte geldiği ve kısa mesafe kullanımında arttığı yazılıyor.",
+            "teshis": "Motor arıza lambası, çekiş kaybı, DPF uyarısı. Araclo A3 1.6 TDI için EGR tıkanmasının çoğunlukla 60.000-120.000 km arasında çıktığını yazıyor; DonanımHaber'de bir Golf kullanıcısı yaklaşık 70.000 km civarında arıza lambası ve çekiş kaybı yaşadığını aktarıyor.",
+            "cozum": "EGR valfi mekanik olarak sağlamsa ve yalnızca kurum yüzünden takılıyorsa sökülüp temizleniyor; aktüatör, konum sensörü ya da dişlilerde arıza varsa valf değişiyor. DPF için sabit hızda yeterince süre gidip filtrenin kendini temizlemesi ya da filtrenin sökülüp özel makinede temizlenmesi öneriliyor; bir yorumcu temizliğin kalıcı olmadığını belirtiyor. Yazılımla DPF devre dışı bırakma/söküm forumlarda tartışılıyor, yasal ve emisyon açısından riskli.",
+            "maliyet": "Eski forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), bir özel servis Skoda Rapid için 2.500-3.000 TL, bir başkası 1.500 TL; DPF makinede temizliği ~700-1.000 TL; bir kullanıcı VW yetkili servisinden orijinal DPF için 38.000 TL teklif aldığını yazıyor. Güncel teklif alın.",
+            "onlem": "Şehir içi kısa mesafe kullanımını arada uzun, sabit hızlı yolla dengelemek (forum önerisi). 2. elde EGR/DPF iptalli araçlardan kaçınmak."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/audi-a3-1.6-tdi-ikinci-el-alim-rehberi-sorunlar-kullanici-yorumlari-ve-bakim-maliyetleri-2026",
             "https://www.araclo.com/vehicles/audi-a3-sedan-1.6-tdi/degerlendirmeler/kullanici-sorunlari",
-            "https://forum.donanimhaber.com/audi-a3-sedan-1-6-tdi-2013-model--143691276"
+            "https://forum.donanimhaber.com/audi-a3-sedan-1-6-tdi-2013-model--143691276",
+            "https://forum.donanimhaber.com/dpf-temizligi-hakkinda-passat-1-6tdi--148242926",
+            "https://otopark.com/forum/threads/egr-ve-dpf-agrizasi-mk6-golf-1-6-tdi.2529/",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/",
+            "https://www.sikayetvar.com/volkswagen/dizel/partikul-filtresi"
           ]
         },
         {
@@ -99,6 +110,11 @@
           "belirtiler": "Bakımlar arasında sık yağ eksilmesi, yağ seviyesi uyarısı, egzozdan mavimsi duman, buji kirlenmesi",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklar yağ tüketimini 2.0 TFSI'nin en bilinen kronik sorunu olarak gösteriyor: piston yağ sıyırma segmanları yeterince sıyıramıyor, sorun özellikle EA888 Gen1 ve Gen2 bloklarında yaygın. Forumda bir kısmının fabrika kaynaklı silindir/segman hatası olduğu iddia ediliyor (doğrulanmamış); bir görüş ise yağ eksiltmenin her zaman arıza anlamına gelmediğini savunuyor.",
+            "teshis": "Kullanıcılar 1.000-3.000 km'de 0,5-1 L eksiltme bildiriyor. And Mehmet Çetin yorumlarına göre 2012 öncesi üretimlerde 100.000 km civarında piston revizyonu gerekebiliyor, 2016 sonrası pistonlarla sorun ortadan kalkıyor (kullanıcı yorumu). Satın almadan önce servis geçmişi, egzoz dumanı ve endoskopik inceleme kontrol edilmeli.",
+            "cozum": "Piston/segman revizyonu. Bir kullanıcı yağ yakmanın bir silindirdeki çizikten kaynaklandığını ve motor değişiminin yaklaşık 45.000 TL tuttuğunu aktarıyor (tarih belirsiz). Audi'nin 2013 servis bülteni 2009-2011 2.0T için tüketimi kabul ediyor ve 2012-2014 için dava uzlaşmasıyla garanti uzatılmış (mevcut dönem notları)."
+          },
           "kaynaklar": [
             "https://www.carcomplaints.com/Audi/A4/2009/engine/excessive_oil_consumption.shtml",
             "https://www.classaction.org/news/2012-2017-audi-models-with-2.0l-turbocharged-engines-plagued-by-piston-defect-class-action-claims",
@@ -126,6 +142,12 @@
           "belirtiler": "Soğuk çalıştırmada zincir şakırtısı, kam/krank senkron hatası ile arıza lambası, ileri aşamada zincir atlaması ve supap hasarı",
           "tahmini_km_araligi": "80.000 - 160.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Araclo'ya göre erken üretim EA888 bloklarında zincir gergisi plastik malzemeden ve zamanla aşınıyor. AudiWorld ve Audizine kullanıcıları orijinal gergiyi zayıf tasarım sayıyor ve bir noktada arızalanmasını bekliyor; B8.5'te iyileştirilmiş parça geldiği yazılıyor. Zincirin kendisi de pim aşınmasıyla uzayabiliyor.",
+            "teshis": "Soğuk çalıştırmada zincir sesi ve motor arıza lambası. Motor 'interferans' tipinde olduğu için zincir diş atlarsa supaplar eğilebiliyor.",
+            "cozum": "Zincir ve gergi birlikte değiştirilir; bir sahip zinciri uzamış ama henüz diş atlamamışken ikisini birlikte yenilediğini yazıyor.",
+            "maliyet": "Bir satın alma rehberi zincir seti değişimini 2026 yetkili servis tahmini olarak 35.000-55.000 TL gösteriyor (tek kaynak). AudiWorld'de bir sahip gergi arızasının felaket sayılabilecek motor hasarına ve 4-6 bin dolarlık onarıma yol açtığını yazıyor."
+          },
           "kaynaklar": [
             "https://www.audizine.com/forum/showthread.php/712531-THE-Timing-Chain-Tensioner-Failure-Thread",
             "https://www.audiworld.com/forums/a4-b8-platform-discussion-128/timing-chain-issue-a4-b8-5-a-3043467/",
@@ -152,6 +174,11 @@
           "belirtiler": "Rölantide ıslık sesi, düzensiz rölanti, yağ tüketiminde artış, fakir karışım hata kodları, conta ve keçelerden yağ kaçağı",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "AudiWorld'de sahipler PCV arızasının kaçaklara ve aşınmaya yol açtığını yazıyor: bir sahip geçmişte PCV arızasının arka ana keçe, ön krank keçesi ve valf kapağında kaçaklara neden olduğunu aktarıyor; bir başkasının PCV dişlerinin sıyrıldığı için doğru tork verilemediği anlatılıyor.",
+            "teshis": "Rölantide ıslık ve düzensiz rölanti, yağ tüketiminde artış, fakir karışım hata kodları, keçelerde kaçak. Bir forum üyesi karter vakumunun sıcak rölantide ölçülmesini (yaklaşık 100 mbar) öneriyor.",
+            "cozum": "PCV valfinin ve ilgili keçelerin yenilenmesi."
+          },
           "kaynaklar": [
             "https://www.carcomplaints.com/news/2021/audi-oil-consumption-lawsuit-pistons.shtml",
             "https://forum.donanimhaber.com/kronik-yag-eksiltme-yakma-sorunlari-ve-ureticilerin-olumsuz-yaklasimlarini-toparlayalim--127025783",
@@ -164,6 +191,11 @@
           "belirtiler": "Kalkışta titreme ve silkeleme, gösterge panelinde vites konumunun yanıp sönmesi, şanzımanın acil moda geçmesi",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "AudiWorld'ün B8 Multitronic yazısı şanzıman kontrol modülünü (TCM) en yaygın arıza noktalarından biri olarak gösteriyor; PRND göstergelerinin yanıp sönmesi TCM arızasının en iyi göstergelerinden biri. Düzenli yağ değişimiyle önlenebilecek erken yıpranma vakaları da anılıyor.",
+            "cozum": "Yazıya göre çoğu zaman gerçek çözüm TCM değişimi; yalnızca yeniden programlamayla düzelen vakalar var ama birçok sahip sonunda yine değiştirmiş.",
+            "onlem": "Şanzıman yağı değişimini aksatmamak; teşhis cihazıyla (VCDS/ODIS) kayıtlı arıza kodlarını okutmak."
+          },
           "kaynaklar": [
             "https://www.audiworld.com/how-tos/a/audi-a4-b8-multitronic-cvt-problems-421233",
             "https://www.araclo.com/blog/audi-a4-2.0-tdi-satin-alma-rehberi-kronik-sorunlar-bakim-maliyetleri-2026",
@@ -188,10 +220,16 @@
           "belirtiler": "Kalkışta titreme, vuruntu, geç kavrama ve şanzıman arızası; onarım maliyeti yüksek",
           "tahmini_km_araligi": "100.000 - 200.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "AudiWorld'ün B8 Multitronic yazısı şanzıman kontrol modülünü (TCM) en yaygın arıza noktalarından biri sayıyor ve düzenli yağ değişimiyle önlenebilecek erken yıpranma vakalarından söz ediyor. DonanımHaber'de 2.0 TDI Multitronic sahipleri kalkışta titremeyi ayrı konularda bildiriyor.",
+            "cozum": "TCM değişimi ya da yeniden programlama; onarım maliyeti yüksek bulunuyor (mevcut belirti).",
+            "onlem": "Şanzıman yağı değişimini zamanında yaptırmak; teşhis cihazıyla arıza kodlarını okutmak."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/audi-a4-2-0-tdi-multitronic-arac-sanziman-sorunu--154811654",
             "https://forum.donanimhaber.com/audi-a4-2-0-tdi-multitronic-kalkista-titreme--83123761",
-            "https://www.araclo.com/blog/audi-a4-2.0-tdi-satin-alma-rehberi-kronik-sorunlar-bakim-maliyetleri-2026"
+            "https://www.araclo.com/blog/audi-a4-2.0-tdi-satin-alma-rehberi-kronik-sorunlar-bakim-maliyetleri-2026",
+            "https://www.audiworld.com/how-tos/a/audi-a4-b8-multitronic-cvt-problems-421233"
           ]
         }
       ]
@@ -3551,10 +3589,19 @@
           "belirtiler": "Soğuk çalıştırmada zincir sesi, zamanlama hata kodu, ileri aşamada supap hasarı",
           "tahmini_km_araligi": "100.000 - 160.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Mehmet Çetin, 8 supaplı EA111 1.2 TSI'ların (CBZA/CBZB) zincir gergisi sorunları nedeniyle yağlama arızaları, yağ yakma ve supap yayı kırılmasıyla bilindiğini, zincir uzamasının yaklaşık 150.000 km'de başladığını yazıyor. Sonraki 16 supaplı EA211 motorlarda zincir yerine kayışa geçildiği için bu sorunların büyük oranda çözüldüğü belirtiliyor. Forumda ilk marşta yağ pompası basıncı gelene kadar gergilerin boş çalıştığı yönünde bir açıklama paylaşılmış (doğrulanmamış).",
+            "teshis": "İlk çalıştırmada zincir sesi, motor arıza lambası ve zamanlama hata kodu. Bir kullanıcı 2011 Jetta 1.2 TSI'da bu sorun nedeniyle garanti kapsamında iki kez zincir değiştirildiğini yazıyor.",
+            "cozum": "Zincir ve gergi değişimi. Aramada 1.2 TSI zincir seti ya da gergi değişim ücretine dair kaynak bulunamadı; yetkili ve bağımsız servislerden yazılı teklif almak gerekiyor.",
+            "onlem": "Motor kodunu (CBZA/CBZB ya da sonraki DKRF/CJZ) şasi numarasından doğrulamak; And Mehmet Çetin 16 supaplı EA211 sürümlerinin daha iyi olduğunu yazıyor."
+          },
           "kaynaklar": [
             "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
             "https://otopark.com/forum/threads/skoda-octavia-1-2-tsi-neden-tutulmuyor.10624/",
-            "https://forum.donanimhaber.com/1-2-tsi-kronik-sorun--146815376"
+            "https://forum.donanimhaber.com/1-2-tsi-kronik-sorun--146815376",
+            "https://forum.donanimhaber.com/ilk-calistirmadaki-zincir-sesi--155266646",
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
+            "https://otopark.com/forum/threads/bulunamayan-yag-eksiltme.15627/"
           ]
         },
         {
@@ -3563,10 +3610,18 @@
           "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, tekleme",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "8 supaplı EA111 1.2 TSI'larda (CBZA/CBZB) zincir gergisi kaynaklı yağlama arızaları, yağ yakma ve supap yayı kırılması bilinen sorunlar arasında anılıyor (And Mehmet Çetin). Sorun her araçta görülmüyor: DonanımHaber'de bir kullanıcı 2014'te sıfır aldığı aracının 100.000 km'den sonra yağ yakmaya başladığını, biri 4.000 km'de 1 litre yaktığını, bir diğeri hiç eksiltmediğini yazıyor.",
+            "teshis": "Bakımlar arasında yağ seviyesinde düşüş, yağ seviyesi uyarısı ve tekleme (mevcut belirtiler). Seviyeyi düz zeminde, aynı koşulda ve düzenli aralıklarla ölçüp kaydetmek eksiltme miktarını netleştirir.",
+            "cozum": "Kaynaklarda supap yayı ya da segman onarım ücretine dair veri bulunamadı. Forumlarda yağ seviyesini düzenli ölçmek ve yetkili serviste tüketimi kayda geçirtmek öneriliyor.",
+            "onlem": "Doğru onaylı yağı kullanmak ve seviyeyi sık kontrol etmek; 16 supaplı EA211'e geçişle yağ sorunlarının azaldığı yazılıyor (And Mehmet Çetin)."
+          },
           "kaynaklar": [
             "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
             "https://otopark.com/forum/threads/skoda-octavia-1-2-tsi-neden-tutulmuyor.10624/",
-            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392"
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
+            "https://forum.donanimhaber.com/ilk-calistirmadaki-zincir-sesi--155266646",
+            "https://otopark.com/forum/threads/bulunamayan-yag-eksiltme.15627/"
           ]
         }
       ]
@@ -3641,10 +3696,20 @@
           "belirtiler": "Antifriz eksilmesi, motor altında pembe/mor antifriz izi, hararet uyarısı",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Golf 7'de devirdaim pompası ile termostat gövdesi tek, plastik gövdeli bir modüldür; parça satıcı rehberleri plastik gövdenin ısı çevrimiyle ince çatlaklar oluşturup antifriz kaçırdığını yazıyor, Briskoda'da Octavia sahipleri de 1.4 TSI'da aynı su kaçağını bildiriyor. Bir forum kullanıcısı pompanın belirli kilometreden sonra sürekli su kaçırdığını, elektrikli olduğu için pahalı olduğunu belirtiyor.",
+            "teshis": "Isı göstergesinde oynama, radyatör deposunun sık eksilmesi, park yerinde antifriz damlaması ve otoyol sonrası tatlımsı koku (parça satıcıları ve DonanımHaber). Motor altında pembe/mor antifriz izi de aranıyor.",
+            "cozum": "Pompa/termostat modülünün değişimi. Pompa triger bölgesinde olduğu için DonanımHaber'de çoğunlukla triger setiyle birlikte değiştirilmesi öneriliyor. Bir kullanıcı 3 Octavia ve 1 Rapid'in arızalanan devirdaimlerinin iyi niyetle ücretsiz değiştirildiğini yazıyor (VW grubu bazı araçlarda iyi niyet uyguluyor).",
+            "maliyet": "Eski paylaşımlarda (2-4 yıl öncesi): orijinal devirdaim ~1.100 TL, aftermarket ~1.800-1.900 TL (orijinal iki ay sonra bozulmuş), başka bir kullanıcı 650 TL; Şikâyetvar'da bir şikayette işlem 3.200 TL. 2025 tarihli bir teklifte yetkili serviste triger seti ve devirdaim değişimi 18.799 TL. Güncel teklif alın.",
+            "onlem": "Triger değişiminde devirdaimin de değiştirilmesini sormak; soğutma suyu seviyesini ve motor altını düzenli kontrol etmek. Forumlarda 1.2/1.4 TSI'da zamanlama ayarının özel servislerde hatalı yapılabildiği için yetkili/kurumsal servis öneriliyor."
+          },
           "kaynaklar": [
             "https://www.briskoda.net/forums/topic/520582-14-tsi-coolant-leak-from-water-pump/",
             "https://www.briskoda.net/forums/topic/498967-dreaded-water-pump-issue/",
-            "https://forum.donanimhaber.com/devirdaim-pompasi-iyi-niyet-garantisi--143340133"
+            "https://forum.donanimhaber.com/devirdaim-pompasi-iyi-niyet-garantisi--143340133",
+            "https://forum.donanimhaber.com/golf-7-devirdaim-pompasi--140667110",
+            "https://www.sikayetvar.com/volkswagen/golf/devirdaim-pompasi",
+            "https://www.sikayetvar.com/volkswagen/devirdaim"
           ]
         }
       ]
@@ -3836,12 +3901,22 @@
           "belirtiler": "Soğuk çalıştırmada birkaç saniye süren şakırtı, motor arıza lambası, zincir atlaması durumunda supap hasarı",
           "tahmini_km_araligi": "60.000 - 140.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Erken EA111 1.4 TSI'larda (CAV kodlu 160 hp) zincir gergisi mekanizmasının tasarımı zincir atlama riski doğuruyordu; sonraki CTH sürümünde piston ve segman iyileştirilmiş ama karbon birikimi ve yağ tüketimi sürmüş (And Mehmet Çetin). Aynı yazı tek turbolu 1.4 TSI'ları genel olarak sağlam sayıyor: kaynaklar arasında ayrışma var, bu yüzden motor kodunu şasi numarasından doğrulamak gerekiyor. Arızalı gergi zincirin aşırı gevşemesine ve sese yol açıyor.",
+            "teshis": "Motor arıza lambası, düzensiz çalışma sesi, güç kaybı ve artan yakıt tüketimi zincir hasarının genel belirtileri; soğuk çalıştırmada ilk çalıştırma zincir sesi sorunların başında geliyor (DonanımHaber). Kaynaklarda zincir uzamasının 150.000 km civarında başladığı yazılıyor. Zincir diş atlarsa supap hasarı riski var.",
+            "cozum": "Zincir seti (zincir, gergi, kılavuzlar) değiştirilir. DonanımHaber'de zamanlama ayarının birçok özel serviste hatalı yapılabildiği, bu yüzden bu motorda yetkili ya da kurumsal servisin tercih edilmesi gerektiği yazılıyor.",
+            "maliyet": "Forumdaki eski (çoğu 2013 dönemine ait) yorumlarda zincir ve set değişimi için 1.500-2.500 TL; bir kullanıcı zincir seti + üst kapak contası + yağ bakımı + eksantrik ayarı için toplam ~3.250 TL ödediğini yazıyor. Bugünkü fiyatlar bunun çok üzerinde; güncel teklif alın.",
+            "onlem": "Bir forum yazısında VW'nin Jetta 1.4 TSI 140 HP için zincir değişim aralığını 100.000 km ya da 6 yıl olarak verdiği aktarılıyor; diğer kullanıcılar belirli bir periyot olmadığını, esneyince değiştirilmesi gerektiğini savunuyor (görüşler çelişiyor). İkinci elde zincir seti değişim kaydını sorun."
+          },
           "kaynaklar": [
             "https://www.briskoda.net/forums/topic/490489-14-tsi-122-caxa-rattle/",
             "https://www.honestjohn.co.uk/forum/post/index.htm?t=95765",
             "https://www.vwvortex.com/threads/tsi-timing-chain-info-a-complete-guide-for-your-eos.9249027/",
             "https://otopark.com/forum/threads/2010-model-golf-1-4-tsi-160-hp-golf-6-1-4-tsi-alinir-mi-1-4-tsi-160-hp-alirken-dikkat-edilmesi-gerekenler.16049/",
-            "https://www.araclo.com/vehicles/volkswagen-golf-1.4-tsi/degerlendirmeler/kullanici-sorunlari"
+            "https://www.araclo.com/vehicles/volkswagen-golf-1.4-tsi/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/jetta-1-4-tsi-140-hp-triger-zinciri--74034781",
+            "https://forum.donanimhaber.com/ilk-calistirmadaki-zincir-sesi--155266646",
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
           ]
         },
         {
@@ -3901,11 +3976,21 @@
           "belirtiler": "Antifriz eksilmesi, ısı göstergesinde dalgalanma, park yerinde antifriz damlaması",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Golf 7'de devirdaim pompası ile termostat gövdesi tek, plastik gövdeli bir modüldür; parça satıcı rehberleri plastik gövdenin ısı çevrimiyle ince çatlaklar oluşturup antifriz kaçırdığını yazıyor, Briskoda'da Octavia sahipleri de 1.4 TSI'da aynı su kaçağını bildiriyor. Bir forum kullanıcısı pompanın belirli kilometreden sonra sürekli su kaçırdığını, elektrikli olduğu için pahalı olduğunu belirtiyor.",
+            "teshis": "Isı göstergesinde oynama, radyatör deposunun sık eksilmesi, park yerinde antifriz damlaması ve otoyol sonrası tatlımsı koku (parça satıcıları ve DonanımHaber). Motor altında pembe/mor antifriz izi de aranıyor.",
+            "cozum": "Pompa/termostat modülünün değişimi. Pompa triger bölgesinde olduğu için DonanımHaber'de çoğunlukla triger setiyle birlikte değiştirilmesi öneriliyor. Bir kullanıcı 3 Octavia ve 1 Rapid'in arızalanan devirdaimlerinin iyi niyetle ücretsiz değiştirildiğini yazıyor (VW grubu bazı araçlarda iyi niyet uyguluyor).",
+            "maliyet": "Eski paylaşımlarda (2-4 yıl öncesi): orijinal devirdaim ~1.100 TL, aftermarket ~1.800-1.900 TL (orijinal iki ay sonra bozulmuş), başka bir kullanıcı 650 TL; Şikâyetvar'da bir şikayette işlem 3.200 TL. 2025 tarihli bir teklifte yetkili serviste triger seti ve devirdaim değişimi 18.799 TL. Güncel teklif alın.",
+            "onlem": "Triger değişiminde devirdaimin de değiştirilmesini sormak; soğutma suyu seviyesini ve motor altını düzenli kontrol etmek. Forumlarda 1.2/1.4 TSI'da zamanlama ayarının özel servislerde hatalı yapılabildiği için yetkili/kurumsal servis öneriliyor."
+          },
           "kaynaklar": [
             "https://www.araclo.com/vehicles/volkswagen-golf-1.4-tsi/degerlendirmeler/kullanici-sorunlari",
             "https://forum.donanimhaber.com/golf-7-nin-kronik-sorunlari-27-kronik-sorun--139238714-7",
             "https://www.vwvortex.com/threads/so-frustrated-with-vw-coolant-leak-from-faulty-water-pump-thermostat-housing-for-the-3rd-time.9490590/",
-            "https://www.autopartspro.co.uk/tips-advice/vw-golf-7-water-pump-and-thermostat-housing-leaks-what-owners-need-to-know-3908"
+            "https://www.autopartspro.co.uk/tips-advice/vw-golf-7-water-pump-and-thermostat-housing-leaks-what-owners-need-to-know-3908",
+            "https://forum.donanimhaber.com/golf-7-devirdaim-pompasi--140667110",
+            "https://www.sikayetvar.com/volkswagen/golf/devirdaim-pompasi",
+            "https://www.sikayetvar.com/volkswagen/devirdaim"
           ]
         },
         {
@@ -3958,10 +4043,20 @@
           "belirtiler": "Motor arıza lambası, çekiş kaybı (yaklaşık 70.000 km civarında bildiriliyor), sık rejenerasyon; temizlik geçici çözüm, kalıcı çözüm valf değişimi olabiliyor",
           "tahmini_km_araligi": "60.000 - 130.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe ve düşük devirli kullanımda DPF rejenerasyon koşulları oluşmuyor ya da aktif rejenerasyonlar yarıda kesiliyor (DonanımHaber, Şikâyetvar); EGR valfi is ve karbonla tıkanıyor. Forumlarda iki sorunun birlikte geldiği ve kısa mesafe kullanımında arttığı yazılıyor.",
+            "teshis": "Motor arıza lambası, çekiş kaybı, DPF uyarısı. Araclo A3 1.6 TDI için EGR tıkanmasının çoğunlukla 60.000-120.000 km arasında çıktığını yazıyor; DonanımHaber'de bir Golf kullanıcısı yaklaşık 70.000 km civarında arıza lambası ve çekiş kaybı yaşadığını aktarıyor.",
+            "cozum": "EGR valfi mekanik olarak sağlamsa ve yalnızca kurum yüzünden takılıyorsa sökülüp temizleniyor; aktüatör, konum sensörü ya da dişlilerde arıza varsa valf değişiyor. DPF için sabit hızda yeterince süre gidip filtrenin kendini temizlemesi ya da filtrenin sökülüp özel makinede temizlenmesi öneriliyor; bir yorumcu temizliğin kalıcı olmadığını belirtiyor. Yazılımla DPF devre dışı bırakma/söküm forumlarda tartışılıyor, yasal ve emisyon açısından riskli.",
+            "maliyet": "Eski forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), bir özel servis Skoda Rapid için 2.500-3.000 TL, bir başkası 1.500 TL; DPF makinede temizliği ~700-1.000 TL; bir kullanıcı VW yetkili servisinden orijinal DPF için 38.000 TL teklif aldığını yazıyor. Güncel teklif alın.",
+            "onlem": "Şehir içi kısa mesafe kullanımını arada uzun, sabit hızlı yolla dengelemek (forum önerisi). 2. elde EGR/DPF iptalli araçlardan kaçınmak."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/volkswagen-golf-1.6-tdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
             "https://www.sikayetvar.com/volkswagen/dizel/partikul-filtresi",
-            "https://otopark.com/forum/threads/golf-1-6-tdi-dpf-problemi.9143/"
+            "https://otopark.com/forum/threads/golf-1-6-tdi-dpf-problemi.9143/",
+            "https://forum.donanimhaber.com/dpf-temizligi-hakkinda-passat-1-6tdi--148242926",
+            "https://otopark.com/forum/threads/egr-ve-dpf-agrizasi-mk6-golf-1-6-tdi.2529/",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
           ]
         }
       ]
@@ -4015,10 +4110,17 @@
           "belirtiler": "Soğuk ve sıcakta şakırtı, tekleme, duman, güç kaybı; bir enjektör bozulunca diğerleri de etkilenebiliyor. Bazı kullanıcılar sorunun yazılım güncellemesiyle azaldığını yazıyor",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Bir forum yorumu CAYC kodlu 1.6 TDI (Euro 5) motorlarda enjektörlerin Siemens değil, Continental VDO piezo tipi olduğunu yazıyor (tek kullanıcı, resmî değil). DonanımHaber'de '1.6 TDI Passat enjektörleri kronik sorunlu' başlıklı konular var.",
+            "teshis": "Soğuk ilk çalıştırmada ve hafif gazda şakırdama; bir kaynağa göre enjektör bozulduğunda motor arıza ışığı yanmayabildiği için sorunun fark edilmesi zor.",
+            "cozum": "Enjektör revizyonu/tamiri ya da değişimi; bazı kullanıcılar şakırtının yazılım güncellemesiyle azaldığını yazıyor. Şikâyetvar'da bir kullanıcı yetkili servisin arızalı olmadığı halde enjektörlerin de değişmesi gerektiğini söylediğini aktarıyor; ikinci görüş almak mantıklı.",
+            "maliyet": "Birkaç yıl öncesine ait forum rakamları: yeni enjektör seti ~4.500 TL, tamir 500-600 TL, tek enjektör 750-800 TL (işçilikle). Güncel değil; yazılı teklif alın."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/1-6-tdi-passat-enjektorleri-kronik-sorunlu--99139696",
             "https://forum.donanimhaber.com/passat-b7-tdi-enjektor-temizleyici--129201106",
-            "https://www.araclo.com/vehicles/volkswagen-passat/b7/1-6-tdi/kronik-sorunlar"
+            "https://www.araclo.com/vehicles/volkswagen-passat/b7/1-6-tdi/kronik-sorunlar",
+            "https://forum.donanimhaber.com/1-6-tdi-siemens-enjektor-tamiri--127464488"
           ]
         }
       ]
@@ -4038,12 +4140,23 @@
           "belirtiler": "Motor arıza lambası, rölantide sarsıntı, ani güç kaybı, sık rejenerasyon; EGR iptali sonradan DPF sorunlarına yol açabiliyor",
           "tahmini_km_araligi": "70.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe ve düşük devirli kullanımda DPF rejenerasyon koşulları oluşmuyor ya da aktif rejenerasyonlar yarıda kesiliyor (DonanımHaber, Şikâyetvar); EGR valfi is ve karbonla tıkanıyor. Forumlarda iki sorunun birlikte geldiği ve kısa mesafe kullanımında arttığı yazılıyor.",
+            "teshis": "Motor arıza lambası, çekiş kaybı, DPF uyarısı. Araclo A3 1.6 TDI için EGR tıkanmasının çoğunlukla 60.000-120.000 km arasında çıktığını yazıyor; DonanımHaber'de bir Golf kullanıcısı yaklaşık 70.000 km civarında arıza lambası ve çekiş kaybı yaşadığını aktarıyor.",
+            "cozum": "EGR valfi mekanik olarak sağlamsa ve yalnızca kurum yüzünden takılıyorsa sökülüp temizleniyor; aktüatör, konum sensörü ya da dişlilerde arıza varsa valf değişiyor. DPF için sabit hızda yeterince süre gidip filtrenin kendini temizlemesi ya da filtrenin sökülüp özel makinede temizlenmesi öneriliyor; bir yorumcu temizliğin kalıcı olmadığını belirtiyor. Yazılımla DPF devre dışı bırakma/söküm forumlarda tartışılıyor, yasal ve emisyon açısından riskli.",
+            "maliyet": "Eski forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), bir özel servis Skoda Rapid için 2.500-3.000 TL, bir başkası 1.500 TL; DPF makinede temizliği ~700-1.000 TL; bir kullanıcı VW yetkili servisinden orijinal DPF için 38.000 TL teklif aldığını yazıyor. Güncel teklif alın.",
+            "onlem": "Şehir içi kısa mesafe kullanımını arada uzun, sabit hızlı yolla dengelemek (forum önerisi). 2. elde EGR/DPF iptalli araçlardan kaçınmak."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/passat-partikul-sorunu--159780000",
             "https://forum.donanimhaber.com/b8-1-6-tdi-rolantide-sarsinti-ve-yolda-gaz-kesme-sorunu--150167207",
             "https://forum.donanimhaber.com/vw-passat-kroniklesen-motor-isigi--148093603",
             "https://www.sikayetvar.com/volkswagen/passat/kronik",
-            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://forum.donanimhaber.com/dpf-temizligi-hakkinda-passat-1-6tdi--148242926",
+            "https://otopark.com/forum/threads/egr-ve-dpf-agrizasi-mk6-golf-1-6-tdi.2529/",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/",
+            "https://www.sikayetvar.com/volkswagen/dizel/partikul-filtresi"
           ]
         },
         {
@@ -4147,10 +4260,19 @@
           "belirtiler": "Soğuk çalıştırmada zincir sesi, zamanlama hata kodu, ileri aşamada supap hasarı",
           "tahmini_km_araligi": "100.000 - 160.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Mehmet Çetin, 8 supaplı EA111 1.2 TSI'ların (CBZA/CBZB) zincir gergisi sorunları nedeniyle yağlama arızaları, yağ yakma ve supap yayı kırılmasıyla bilindiğini, zincir uzamasının yaklaşık 150.000 km'de başladığını yazıyor. Sonraki 16 supaplı EA211 motorlarda zincir yerine kayışa geçildiği için bu sorunların büyük oranda çözüldüğü belirtiliyor. Forumda ilk marşta yağ pompası basıncı gelene kadar gergilerin boş çalıştığı yönünde bir açıklama paylaşılmış (doğrulanmamış).",
+            "teshis": "İlk çalıştırmada zincir sesi, motor arıza lambası ve zamanlama hata kodu. Bir kullanıcı 2011 Jetta 1.2 TSI'da bu sorun nedeniyle garanti kapsamında iki kez zincir değiştirildiğini yazıyor.",
+            "cozum": "Zincir ve gergi değişimi. Aramada 1.2 TSI zincir seti ya da gergi değişim ücretine dair kaynak bulunamadı; yetkili ve bağımsız servislerden yazılı teklif almak gerekiyor.",
+            "onlem": "Motor kodunu (CBZA/CBZB ya da sonraki DKRF/CJZ) şasi numarasından doğrulamak; And Mehmet Çetin 16 supaplı EA211 sürümlerinin daha iyi olduğunu yazıyor."
+          },
           "kaynaklar": [
             "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
             "https://forum.donanimhaber.com/1-2-tsi-kronik-sorun--146815376",
-            "https://forum.donanimhaber.com/polo-1-2-tsi-60-bin-bakimi-kayis-mi-zincir-mi--129852226"
+            "https://forum.donanimhaber.com/polo-1-2-tsi-60-bin-bakimi-kayis-mi-zincir-mi--129852226",
+            "https://forum.donanimhaber.com/ilk-calistirmadaki-zincir-sesi--155266646",
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
+            "https://otopark.com/forum/threads/bulunamayan-yag-eksiltme.15627/"
           ],
           "donem_kirilimi": [
             {
@@ -4173,10 +4295,19 @@
           "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, tekleme",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "8 supaplı EA111 1.2 TSI'larda (CBZA/CBZB) zincir gergisi kaynaklı yağlama arızaları, yağ yakma ve supap yayı kırılması bilinen sorunlar arasında anılıyor (And Mehmet Çetin). Sorun her araçta görülmüyor: DonanımHaber'de bir kullanıcı 2014'te sıfır aldığı aracının 100.000 km'den sonra yağ yakmaya başladığını, biri 4.000 km'de 1 litre yaktığını, bir diğeri hiç eksiltmediğini yazıyor.",
+            "teshis": "Bakımlar arasında yağ seviyesinde düşüş, yağ seviyesi uyarısı ve tekleme (mevcut belirtiler). Seviyeyi düz zeminde, aynı koşulda ve düzenli aralıklarla ölçüp kaydetmek eksiltme miktarını netleştirir.",
+            "cozum": "Kaynaklarda supap yayı ya da segman onarım ücretine dair veri bulunamadı. Forumlarda yağ seviyesini düzenli ölçmek ve yetkili serviste tüketimi kayda geçirtmek öneriliyor.",
+            "onlem": "Doğru onaylı yağı kullanmak ve seviyeyi sık kontrol etmek; 16 supaplı EA211'e geçişle yağ sorunlarının azaldığı yazılıyor (And Mehmet Çetin). DonanımHaber'de 2016 Polo 1.2 TSI için yağ miktarı 3,6 L (çubukta seviye için toplam ~4,25 L gerektiği) ve VW 504 00/507 00 onaylı 5W-30 sentetik yağ bilgisi veriliyor."
+          },
           "kaynaklar": [
             "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
             "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
-            "https://forum.donanimhaber.com/1-2-tsi-kronik-sorun--146815376"
+            "https://forum.donanimhaber.com/1-2-tsi-kronik-sorun--146815376",
+            "https://forum.donanimhaber.com/ilk-calistirmadaki-zincir-sesi--155266646",
+            "https://otopark.com/forum/threads/bulunamayan-yag-eksiltme.15627/",
+            "https://forum.donanimhaber.com/2016-polo-1-2-tsi-dsg-hangi-yag-ve-kac-litre--135771971"
           ],
           "donem_kirilimi": [
             {
@@ -4210,11 +4341,18 @@
           "belirtiler": "Bakım gelmeden \"yağ seviyesi düşük\" uyarısı, 2.000 km gibi kısa aralıklarla yağ takviyesi; yetkili servis çoğunlukla bunu normal sayıyor",
           "tahmini_km_araligi": "5.000 - 60.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net neden verilmiyor. 2024 model bir Tiguan sahibi teslimden kısa süre sonra 7-8 bin km'de yağ eksiltme uyarısı aldığını, servisin ilk aşamada 0W20 yağın ince olduğunu ve bir miktar eksilmenin normal olabileceğini söylediğini yazıyor; bir T-Roc sahibi servisin düşük yağ uyarısını 'normal' karşılayıp yağ eklemek istediğini aktarıyor.",
+            "teshis": "Bakım zamanı gelmeden ekranda düşük yağ uyarısı. Şikâyetvar'da uyarının çıkması üzerine aracı düz zeminde bekletip yağ seviyesini ölçmek ve yavaş yavaş, maksimum seviyeyi aşmadan tamamlamak anlatılıyor; garanti için servise yağ ölçümü ve tüketim tespitinin yazılı bırakılması öneriliyor.",
+            "cozum": "Bir T-Roc sahibinde yetkili servis birkaç kez yağ ölçümü yapıp az miktarda yağ tamamlamış, tüketimin sınır içinde olduğunu söylemiş, sonunda tüm yağı boşaltıp yenilemiş ve ücretini kullanıcıdan almış (kullanıcı bunu garanti kapsamında beklerdi). Kesin bir onarım yöntemi ya da resmî bülten bulunamadı.",
+            "onlem": "Kılavuzda SAE değeri yerine VW onaylı yağ aranması öneriliyor; bazı kullanıcılar 0W30'a geçince fark hissetmediğini yazıyor. Garanti kapsamındaki araçta tekrarlayan eksiltmeyi yazılı kayda geçirtmek ve VW Türkiye'den yazılı tüketim değerlendirmesi istemek faydalı."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/volkswagen/volkswagen-t-roc-surekli-yag-sorunlari-ve-hayal-kirikligi",
             "https://www.sikayetvar.com/volkswagen/volkswagen-t-roc-yag-eksiltme-problemi",
             "https://forum.donanimhaber.com/t-roc-alinir-mi--154157079",
-            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392"
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
+            "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/"
           ]
         }
       ]
@@ -4234,10 +4372,19 @@
           "belirtiler": "Soğuk çalıştırmada ve düşük devirde zincir sesi, zincir sarkması, zamanlama hata kodu; kaynaklardan biri zincir uzamasının 150.000 km civarında başladığını yazıyor",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Erken EA111 1.4 TSI'larda (CAV kodlu 160 hp) zincir gergisi mekanizmasının tasarımı zincir atlama riski doğuruyordu; sonraki CTH sürümünde piston ve segman iyileştirilmiş ama karbon birikimi ve yağ tüketimi sürmüş (And Mehmet Çetin). Aynı yazı tek turbolu 1.4 TSI'ları genel olarak sağlam sayıyor: kaynaklar arasında ayrışma var, bu yüzden motor kodunu şasi numarasından doğrulamak gerekiyor. Arızalı gergi zincirin aşırı gevşemesine ve sese yol açıyor.",
+            "teshis": "Motor arıza lambası, düzensiz çalışma sesi, güç kaybı ve artan yakıt tüketimi zincir hasarının genel belirtileri; soğuk çalıştırmada ilk çalıştırma zincir sesi sorunların başında geliyor (DonanımHaber). Kaynaklarda zincir uzamasının 150.000 km civarında başladığı yazılıyor. Zincir diş atlarsa supap hasarı riski var.",
+            "cozum": "Zincir seti (zincir, gergi, kılavuzlar) değiştirilir. DonanımHaber'de zamanlama ayarının birçok özel serviste hatalı yapılabildiği, bu yüzden bu motorda yetkili ya da kurumsal servisin tercih edilmesi gerektiği yazılıyor.",
+            "maliyet": "Forumdaki eski (çoğu 2013 dönemine ait) yorumlarda zincir ve set değişimi için 1.500-2.500 TL; bir kullanıcı zincir seti + üst kapak contası + yağ bakımı + eksantrik ayarı için toplam ~3.250 TL ödediğini yazıyor. Bugünkü fiyatlar bunun çok üzerinde; güncel teklif alın.",
+            "onlem": "Bir forum yazısında VW'nin Jetta 1.4 TSI 140 HP için zincir değişim aralığını 100.000 km ya da 6 yıl olarak verdiği aktarılıyor; diğer kullanıcılar belirli bir periyot olmadığını, esneyince değiştirilmesi gerektiğini savunuyor (görüşler çelişiyor). İkinci elde zincir seti değişim kaydını sorun."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/volkswagen-tiguan-alinirmi--126098971",
             "https://www.sikayetvar.com/volkswagen/tiguan/kronik",
-            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
+            "https://forum.donanimhaber.com/jetta-1-4-tsi-140-hp-triger-zinciri--74034781",
+            "https://forum.donanimhaber.com/ilk-calistirmadaki-zincir-sesi--155266646"
           ],
           "donem_kirilimi": [
             {
@@ -4271,11 +4418,20 @@
           "belirtiler": "Bakım gelmeden \"yağ seviyesi düşük\" uyarısı, 2.000 km gibi kısa aralıklarla yağ takviyesi; yetkili servis çoğunlukla bunu normal sayıyor",
           "tahmini_km_araligi": "5.000 - 60.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net neden verilmiyor. 2024 model bir Tiguan sahibi teslimden kısa süre sonra 7-8 bin km'de yağ eksiltme uyarısı aldığını, servisin ilk aşamada 0W20 yağın ince olduğunu ve bir miktar eksilmenin normal olabileceğini söylediğini yazıyor; bir T-Roc sahibi servisin düşük yağ uyarısını 'normal' karşılayıp yağ eklemek istediğini aktarıyor.",
+            "teshis": "Bakım zamanı gelmeden ekranda düşük yağ uyarısı. Şikâyetvar'da uyarının çıkması üzerine aracı düz zeminde bekletip yağ seviyesini ölçmek ve yavaş yavaş, maksimum seviyeyi aşmadan tamamlamak anlatılıyor; garanti için servise yağ ölçümü ve tüketim tespitinin yazılı bırakılması öneriliyor.",
+            "cozum": "Bir T-Roc sahibinde yetkili servis birkaç kez yağ ölçümü yapıp az miktarda yağ tamamlamış, tüketimin sınır içinde olduğunu söylemiş, sonunda tüm yağı boşaltıp yenilemiş ve ücretini kullanıcıdan almış (kullanıcı bunu garanti kapsamında beklerdi). Kesin bir onarım yöntemi ya da resmî bülten bulunamadı.",
+            "onlem": "Kılavuzda SAE değeri yerine VW onaylı yağ aranması öneriliyor; bazı kullanıcılar 0W30'a geçince fark hissetmediğini yazıyor. Garanti kapsamındaki araçta tekrarlayan eksiltmeyi yazılı kayda geçirtmek ve VW Türkiye'den yazılı tüketim değerlendirmesi istemek faydalı."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/volkswagen/tiguan/yag",
             "https://www.sikayetvar.com/volkswagen/garanti-kapsamindaki-aracta-tekrarlayan-yag-eksiltme-ve-ucret-talebi",
             "https://forum.donanimhaber.com/volkswagen-tiguan-alinirmi--126098971",
-            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392"
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-t-roc-yag-eksiltme-problemi",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-t-roc-surekli-yag-sorunlari-ve-hayal-kirikligi",
+            "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/"
           ]
         }
       ]
