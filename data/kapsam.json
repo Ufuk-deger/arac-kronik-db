@@ -871,29 +871,28 @@
       "marka": "Hyundai",
       "model": "Accent Blue",
       "yillar": "2011-2019",
-      "motor": "1.4 MPI / 1.6 GDI",
+      "motor": "1.4 MPI",
       "kademe": 1,
       "eslesme": {
         "model": [
           "Accent"
         ],
         "motor": [
-          "MPI",
-          "GDI"
+          "MPI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "1.4 MPI ve 1.6 GDI için tekrar eden sorun bulunamadı (yalnızca tek tek külbütör kapağı yağ kaçağı ve sübap iddiaları). Faz 7'de yeniden arandı: Şikâyetvar'da 1.4 CVT otomatiklerde kalkışta ve rampada çıtırdama ile yetkili serviste çözülemeyen şanzıman arızası şikâyetleri var; forumlarda aynı motorun taksilerde 400-500 bin km sorunsuz gittiği ve şanzıman yağ değişiminin sorunu azalttığı yazılıyor, bağımsız ikinci kaynak çıkmadı; 1.6 GDI için tekrar eden sorun yok."
+      "not": "1.4 MPI için tekrar eden sorun bulunamadı (yalnızca tek tek külbütör kapağı yağ kaçağı ve sübap iddiaları). Faz 7'de yeniden arandı: Şikâyetvar'da 1.4 CVT otomatiklerde kalkışta ve rampada çıtırdama ile yetkili serviste çözülemeyen şanzıman arızası şikâyetleri var; forumlarda aynı motorun taksilerde 400-500 bin km sorunsuz gittiği ve şanzıman yağ değişiminin sorunu azalttığı yazılıyor, bağımsız ikinci kaynak çıkmadı."
     },
     {
       "marka": "Hyundai",
-      "model": "i30",
-      "yillar": "2012-2020",
+      "model": "i30 GD",
+      "yillar": "2012-2017",
       "motor": "1.6 CRDi",
       "kademe": 1,
       "eslesme": {
         "model": [
-          "i30"
+          "i30 (GD"
         ],
         "motor": [
           "1.6 CRDi"
@@ -906,7 +905,7 @@
       "marka": "Hyundai",
       "model": "i30",
       "yillar": "2012-2020",
-      "motor": "1.4 / 1.6 MPI, 1.0 / 1.4 T-GDI",
+      "motor": "1.4 / 1.6 MPI",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -914,29 +913,28 @@
           "i30 (PD"
         ],
         "motor": [
-          "MPI",
-          "T-GDI"
+          "MPI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Benzinli motorlar (MPI, T-GDI) için i30'a özgü kronik sorun çıkmadı; aramalar 1.6 CRDi (DPF) ve DCT şikâyetlerine yöneldi ve i30'a özgü olmayan kaynaklardan geldi."
+      "not": "Benzinli MPI motorlar için i30'a özgü kronik sorun çıkmadı; aramalar 1.6 CRDi (DPF) ve DCT şikâyetlerine yöneldi ve i30'a özgü olmayan kaynaklardan geldi."
     },
     {
       "marka": "Hyundai",
       "model": "Elantra",
       "yillar": "2011-2020",
-      "motor": "1.6 MPI / 1.6 CRDi",
+      "motor": "1.6 MPI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Elantra"
         ],
         "motor": [
-          ""
+          "1.6 MPI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Tek bir 7DCT kalkış titremesi şikâyeti dışında tekrar eden sorun bulunamadı."
+      "not": "1.6 MPI için tekrar eden sorun bulunamadı."
     },
     {
       "marka": "Hyundai",
@@ -961,7 +959,7 @@
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Tucson (TL"
+          "Tucson (TL FL"
         ],
         "motor": [
           "CRDi"
@@ -987,35 +985,35 @@
       "marka": "Hyundai",
       "model": "ix35",
       "yillar": "2010-2015",
-      "motor": "1.6 GDI / 1.7 CRDi",
+      "motor": "1.7 CRDi",
       "kademe": 2,
       "eslesme": {
         "model": [
           "ix35"
         ],
         "motor": [
-          ""
+          "1.7 CRDi"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetler iç trim, 4x4 şanzıman dişlisi ve LPG'li soğuk çalıştırma gibi tekil konularda; 1.7 CRDi Türkiye'de neredeyse hiç satılmamış."
+      "not": "1.7 CRDi Türkiye'de neredeyse hiç satılmamış; şikâyetler iç trim, 4x4 şanzıman dişlisi ve LPG'li soğuk çalıştırma gibi tekil konularda."
     },
     {
       "marka": "Hyundai",
       "model": "Kona",
       "yillar": "2018-",
-      "motor": "1.0 T-GDI / 1.6 T-GDI / 1.6 CRDi",
+      "motor": "1.0 T-GDI",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Kona"
         ],
         "motor": [
-          ""
+          "1.0 T-GDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "1.6 CRDi DCT kalkış titremesi yalnızca Şikâyetvar kayıtlarında; ikinci bağımsız kaynak bulunamadı. Benzer 7DCT kavrama titremesi Tucson, Bayon, i20 (BC3) ve Sportage kayıtlarında ele alındı."
+      "not": "Kona 1.0 T-GDI için ilgili sonuç çıkmadı."
     },
     {
       "marka": "Peugeot",
@@ -1218,13 +1216,13 @@
     },
     {
       "marka": "Opel",
-      "model": "Mokka",
-      "yillar": "2012-2019",
+      "model": "Mokka / Mokka X",
+      "yillar": "2012-2020",
       "motor": "1.4 Turbo (A14NET)",
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Mokka"
+          "Mokka / Mokka X"
         ],
         "motor": [
           "1.4 Turbo"
@@ -1235,20 +1233,19 @@
     },
     {
       "marka": "Opel",
-      "model": "Mokka",
-      "yillar": "2012-2019",
+      "model": "Mokka / Mokka X",
+      "yillar": "2012-2020",
       "motor": "1.6 CDTI",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Mokka"
+          "Mokka / Mokka X"
         ],
         "motor": [
-          "CDTI"
+          "1.6 CDTI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Zincir sesi ve otomatik şanzıman şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız site bulunamadı."
+      "not": "Mokka 1.6 CDTI zincir sesi ve otomatik şanzıman (P0741) şikâyetleri yalnızca Şikâyetvar'da; Mokka'ya özgü ikinci bağımsız site bulunamadı. Gösterilen triger zinciri ve turbo hortumu sorunları aynı motoru kullanan Astra J / K ve Insignia kaynaklarına dayanır."
     },
     {
       "marka": "Opel",
@@ -1344,14 +1341,14 @@
       "marka": "Citroen",
       "model": "C3",
       "yillar": "2009-2016",
-      "motor": "1.4 HDi / 1.6 HDi",
+      "motor": "1.4 HDi",
       "kademe": 2,
       "eslesme": {
         "model": [
           "C3 (2009"
         ],
         "motor": [
-          "HDi"
+          "1.4 HDi"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -2424,21 +2421,20 @@
           ""
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Forum görüşleri çelişkili (bazıları en sorunsuz 3 silindirli diyor); tekrar eden bir motor sorunu için kanıt yok."
+      "not": "Forum görüşleri çelişkili (bazıları en sorunsuz 3 silindirli diyor); tekrar eden bir motor sorunu için kanıt yok. Gösterilen soğutma kaçağı ve yağ banyolu kayış sorunları aynı EcoBoost motorunu kullanan Fiesta, Focus ve EcoSport kaynaklarına dayanır."
     },
     {
       "marka": "Ford",
       "model": "Courier / Tourneo Courier",
       "yillar": "2014-",
-      "motor": "1.5 TDCi / 1.0 EcoBoost",
+      "motor": "1.5 TDCi",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Courier"
         ],
         "motor": [
-          ""
+          "1.5 TDCi"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -2482,7 +2478,7 @@
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Ceed"
+          "Ceed (ED"
         ],
         "motor": [
           "CRDi"
@@ -3067,19 +3063,18 @@
       "marka": "Peugeot",
       "model": "508",
       "yillar": "2011-2018",
-      "motor": "1.6 THP / 2.0 HDi",
+      "motor": "2.0 HDi",
       "kademe": 3,
       "eslesme": {
         "model": [
           "508 (2011"
         ],
         "motor": [
-          "THP",
           "2.0 HDi"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "1.6 THP için tek bir kullanıcı 2011-2012 yüksek basınç pompası sorununu anıyor (308/3008 1.6 THP kaydına bakın); 2.0 HDi için kaynak bulunamadı."
+      "not": "2.0 HDi için kaynak bulunamadı."
     },
     {
       "marka": "Kia",
@@ -3096,8 +3091,7 @@
           "1.6 CRDi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "1.0 T-GDI için tekil titreme ve arıza lambası şikâyetleri; 1.6 CRDi için sonuç çıkmadı."
+      "not": "1.0 T-GDI için tekil titreme ve arıza lambası şikâyetleri; 1.6 CRDi için sonuç çıkmadı. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır."
     },
     {
       "marka": "Mercedes-Benz",
@@ -3247,8 +3241,7 @@
           "BlueHDi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Crossland şikâyetleri motor beyni ve şanzıman tarafında tekil; 1.5 BlueHDi zincir sorunu Grandland X kaydında ele alındı."
+      "not": "Crossland şikâyetleri motor beyni ve şanzıman tarafında tekil; gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır."
     },
     {
       "marka": "Volkswagen",
@@ -3404,7 +3397,7 @@
           "EcoSport"
         ],
         "motor": [
-          ""
+          "1.0 EcoBoost"
         ]
       }
     },
@@ -3470,23 +3463,6 @@
       "not": "Kangoo'ya özgü ayrı kaynak yok; gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Clio, Megane, Duster ve Sandero kaynaklarına dayanır."
     },
     {
-      "marka": "Opel",
-      "model": "Mokka / Mokka X",
-      "yillar": "2012-2020",
-      "motor": "1.4 Turbo (A14NET) / 1.6 CDTI",
-      "kademe": 3,
-      "eslesme": {
-        "model": [
-          "Mokka"
-        ],
-        "motor": [
-          "CDTI"
-        ]
-      },
-      "sonuc": "yetersiz-kanit",
-      "not": "Mokka 1.6 CDTI zincir sesi ve otomatik şanzıman (P0741) şikâyetleri yalnızca Şikâyetvar'da; A14NET 1.4 Turbo için Mokka'ya özgü kaynak çıkmadı."
-    },
-    {
       "marka": "Peugeot",
       "model": "207 / 206",
       "yillar": "2006-2014",
@@ -3505,20 +3481,19 @@
     },
     {
       "marka": "Citroen",
-      "model": "Berlingo / Partner",
+      "model": "Berlingo",
       "yillar": "2008-2018",
-      "motor": "1.6 HDi (DV6)",
+      "motor": "1.6 HDi 75/92/100/115 (DV6)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Berlingo"
+          "Berlingo (2008"
         ],
         "motor": [
-          "HDi"
+          "1.6 HDi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Turbo yağ besleme borusu tıkanıklığı tek bir forum yanıtına dayanıyor; Şikâyetvar'daki Berlingo kayıtları ağırlıkla 1.5 BlueHDi zinciri (ayrı kayıtta)."
+      "not": "Turbo yağ besleme borusu tıkanıklığı tek bir forum yanıtına dayanıyor; Şikâyetvar'daki Berlingo kayıtları ağırlıkla 1.5 BlueHDi zinciri. Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır."
     },
     {
       "marka": "Hyundai",
@@ -3535,7 +3510,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "ix35 1.7 / 2.0 CRDi ve Santa Fe 2.2 CRDi için model özelinde kaynak çıkmadı; bulunanlar ix35 1.6 GDI için tek rehber sitesi."
+      "not": "ix35 1.7 / 2.0 CRDi ve Santa Fe 2.2 CRDi için model özelinde kaynak çıkmadı; bulunanlar ix35 1.6 GDI için tek rehber sitesi. 1.7 CRDi Türkiye'de neredeyse hiç satılmamış."
     },
     {
       "marka": "Kia",
@@ -3573,9 +3548,9 @@
     },
     {
       "marka": "Ford",
-      "model": "Mondeo / Transit Connect / Courier",
+      "model": "Mondeo",
       "yillar": "2007-2019",
-      "motor": "2.0 / 1.6 TDCi, 1.5 TDCi",
+      "motor": "2.0 / 1.6 TDCi",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -3586,7 +3561,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Mondeo için tekil direksiyon, enjektör ve DPF anlatıları var; Transit Connect ve Courier 1.5 TDCi için sonuç çıkmadı."
+      "not": "Mondeo için tekil direksiyon, enjektör ve DPF anlatıları var."
     },
     {
       "marka": "Ford",
@@ -3811,7 +3786,7 @@
       "marka": "Suzuki",
       "model": "SX4 S-Cross / Vitara / Swift",
       "yillar": "2014-",
-      "motor": "1.4 BoosterJet / 1.6 DDiS",
+      "motor": "1.4 BoosterJet",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -3943,18 +3918,17 @@
       "marka": "Citroen",
       "model": "C4 / C4 Picasso",
       "yillar": "2010-2018",
-      "motor": "1.6 e-HDi (MCP robotize şanzıman)",
+      "motor": "1.6 e-HDi 115 (MCP robotize şanzıman)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "C4 (2010"
+          "C4 / C4 Picasso (2010"
         ],
         "motor": [
           "e-HDi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "MCP şanzıman için forum görüşleri karışık ('anlatıldığı kadar kötü değil'), kilometre ve maliyet verisi yok; aynı şanzıman 508 kaydında ele alındı."
+      "not": "MCP şanzıman için forum görüşleri karışık ('anlatıldığı kadar kötü değil'), kilometre ve maliyet verisi yok; aynı şanzıman Peugeot 508 kaydında ele alındı. Motor sorunları (enjektör, EGR / DPF) DV6 ailesinden gösterilir."
     },
     {
       "marka": "Audi",
@@ -4045,20 +4019,22 @@
     },
     {
       "marka": "Kia",
-      "model": "Sportage / Ceed / Rio",
+      "model": "Ceed / Rio",
       "yillar": "2010-2021",
-      "motor": "1.7 CRDi, 1.4 MPI, 1.25",
+      "motor": "1.4 MPI, 1.25",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Sportage"
+          "Ceed",
+          "Rio"
         ],
         "motor": [
-          "1.7"
+          "1.4 MPI",
+          "1.25"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Sportage 1.7 CRDi, Ceed 1.4 MPI ve Rio 1.25 için motor kaynaklı kronik sorun çıkmadı; Ceed şikâyetleri torpido / konsol çatlaması ve start-stop üzerine."
+      "not": "Ceed 1.4 MPI ve Rio 1.25 için motor kaynaklı kronik sorun çıkmadı; Ceed şikâyetleri torpido / konsol çatlaması ve start-stop üzerine."
     },
     {
       "marka": "Ford",
@@ -5347,20 +5323,19 @@
     },
     {
       "marka": "Kia",
-      "model": "Sportage SL / QL",
-      "yillar": "2010-2021",
+      "model": "Sportage QL",
+      "yillar": "2015-2018",
       "motor": "1.6 T-GDI 177 (7DCT)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Sportage"
+          "Sportage (QL, 2015"
         ],
         "motor": [
           "T-GDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı (tek sorgu): Şikâyetvar ya da DonanımHaber kaydı çıkmadı; sonuçlar genel inceleme ve teknik özellik sayfalarından oluştu. 7DCT kavrama titremesi Sportage 1.6 CRDi kaydında."
+      "not": "Faz 9'da arandı (tek sorgu): Şikâyetvar ya da DonanımHaber kaydı çıkmadı; sonuçlar genel inceleme ve teknik özellik sayfalarından oluştu. 7DCT kavrama titremesi Sportage 1.6 CRDi kaydında; gösterilen sorun 7DCT ailesinden."
     },
     {
       "marka": "Seat",
@@ -5399,7 +5374,7 @@
       "marka": "Hyundai",
       "model": "Tucson (TL)",
       "yillar": "2015-2018",
-      "motor": "1.7 CRDi 115/141",
+      "motor": "1.7 CRDi 115/141 (6MT ve 7DCT)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -5409,8 +5384,7 @@
           "1.7 CRDi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: 1.7 CRDi'ya özgü kaynak çıkmadı; Şikâyetvar'daki Tucson dizel DPF, enjektör ve turbo şikâyetleri 2021 ve sonrası modellere ait."
+      "not": "Faz 9'da arandı: 1.7 CRDi'ya özgü kaynak çıkmadı; Şikâyetvar'daki Tucson dizel DPF, enjektör ve turbo şikâyetleri 2021 ve sonrası modellere ait. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır."
     },
     {
       "marka": "Renault",
@@ -5548,14 +5522,14 @@
       "marka": "Opel",
       "model": "Meriva B",
       "yillar": "2010-2017",
-      "motor": "1.3 CDTI / 1.4 benzinli / 1.4 Turbo",
+      "motor": "1.4 benzinli / 1.4 Turbo",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Meriva"
         ],
         "motor": [
-          ""
+          "1.4"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -5565,14 +5539,15 @@
       "marka": "Opel",
       "model": "Zafira Tourer",
       "yillar": "2012-2019",
-      "motor": "1.6 CDTI / 2.0 CDTI / 1.4 Turbo",
+      "motor": "2.0 CDTI / 1.4 Turbo",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Zafira"
         ],
         "motor": [
-          ""
+          "2.0 CDTI",
+          "1.4 Turbo"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -5614,18 +5589,18 @@
       "marka": "Ford",
       "model": "C-Max / Grand C-Max",
       "yillar": "2010-2019",
-      "motor": "1.6 TDCi / 1.5 TDCi / 1.0 EcoBoost",
+      "motor": "1.5 TDCi",
       "kademe": 2,
       "eslesme": {
         "model": [
           "C-Max"
         ],
         "motor": [
-          ""
+          "1.5 TDCi"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: DonanımHaber'de 2011 model C-Max 1.6 TDCi'da enjektör arızası (tek başlık, bir enjektör için yaklaşık 1.230 TL teklif), Şikâyetvar'da 2012 model 1.6 TDCi'da enjektör pulu değişiminden sonra motor arızası (tek vaka); turbo boru / hortum ve DPF yorumları genel 1.6 TDCi'ya ait (Focus 1.6 TDCi kaydı). İkinci bağımsız doğrulama yok."
+      "not": "C-Max 1.5 TDCi için sonuç çıkmadı."
     },
     {
       "marka": "Renault",
@@ -5849,18 +5824,18 @@
       "marka": "Kia",
       "model": "Rio YB",
       "yillar": "2017-2023",
-      "motor": "1.4 MPI 100 / 1.0 T-GDI",
+      "motor": "1.4 MPI 100",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Rio (YB"
         ],
         "motor": [
-          ""
+          "1.4 MPI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: DonanımHaber'de Rio 1.4 MPI ve 6 ileri tork konvertörlü otomatik için sorunsuz yorumları var (bir sahip yaklaşık 27.500 km'de sorun yaşamadığını yazıyor); 1.0 T-GDI için kaynak çıkmadı. Rio UB 1.4 CRDi DPF sorunu ayrı kayıtta."
+      "not": "Faz 9'da arandı: DonanımHaber'de Rio 1.4 MPI ve 6 ileri tork konvertörlü otomatik için sorunsuz yorumları var (bir sahip yaklaşık 27.500 km'de sorun yaşamadığını yazıyor). Rio UB 1.4 CRDi DPF sorunu ayrı kayıtta."
     },
     {
       "marka": "Kia",
@@ -5909,8 +5884,7 @@
           "BlueHDi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı (tek sorgu, PureTech ile birlikte): Mokka B 1.5 BlueHDi'ya özgü kaynak çıkmadı; forumlarda AdBlue ve DPF sorunları PSA 1.5 BlueHDi'nın geneli için anılıyor. Aynı DV5 motorunun AdBlue ve eksantrik zinciri sorunları Peugeot, Citroën ve Opel Grandland kayıtlarında."
+      "not": "Faz 9'da arandı (tek sorgu, PureTech ile birlikte): Mokka B 1.5 BlueHDi'ya özgü kaynak çıkmadı; forumlarda AdBlue ve DPF sorunları PSA 1.5 BlueHDi'nın geneli için anılıyor. Gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır."
     },
     {
       "marka": "Kia",
@@ -5926,8 +5900,7 @@
           "CRDi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı (tek sorgu, T-GDI ile birlikte): Ceed CD'ye özgü sonuçlar 7DCT silkelemesinde toplandı (T-GDI satırında kayıtlı); 1.6 CRDi motoru ve yağ eksiltme için bilgi çıkmadı."
+      "not": "Faz 9'da arandı (tek sorgu, T-GDI ile birlikte): Ceed CD'ye özgü sonuçlar 7DCT silkelemesinde toplandı (T-GDI satırında kayıtlı); 1.6 CRDi motoru ve yağ eksiltme için bilgi çıkmadı. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır."
     },
     {
       "marka": "Renault",
@@ -6591,6 +6564,502 @@
         ]
       },
       "not": "Citan'a özgü kaynak aranmadı; gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Renault Kangoo, Clio ve Dacia kayıtlarına dayanır."
+    },
+    {
+      "marka": "Opel",
+      "model": "Zafira Tourer",
+      "yillar": "2012-2019",
+      "motor": "1.6 CDTI 120/136",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Zafira Tourer"
+        ],
+        "motor": [
+          "1.6 CDTI"
+        ]
+      },
+      "not": "Zafira Tourer 1.6 CDTI için modele özgü sonuç çıkmadı (şikâyetler elektronik ve uyarı lambalarında). Gösterilen triger zinciri ve turbo hortumu sorunları aynı motoru kullanan Astra J / K ve Insignia kaynaklarına dayanır."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "207",
+      "yillar": "2006-2014",
+      "motor": "1.6 HDi 90/110 (DV6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "207 ("
+        ],
+        "motor": [
+          "1.6 HDi"
+        ]
+      },
+      "not": "Peugeot 207 1.6 HDi'ya özgü kaynak aranmadı; gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "308 T7",
+      "yillar": "2007-2013",
+      "motor": "1.6 HDi / e-HDi 90/112 (DV6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "308 (T7"
+        ],
+        "motor": [
+          "1.6 HDi"
+        ]
+      },
+      "not": "308 T7 1.6 HDi'ya özgü kaynak aranmadı; gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "Partner",
+      "yillar": "2008-2018",
+      "motor": "1.6 HDi 75/92/100/115 (DV6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Partner / Rifter (2008"
+        ],
+        "motor": [
+          "1.6 HDi"
+        ]
+      },
+      "not": "Partner 1.6 HDi'ya özgü kaynak aranmadı (Berlingo ile aynı motor ve kasa); gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "Rifter / Partner",
+      "yillar": "2018-",
+      "motor": "1.5 BlueHDi 100/130 (DV5)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Rifter / Partner (2018"
+        ],
+        "motor": [
+          "1.5 BlueHDi"
+        ]
+      },
+      "not": "Rifter / Partner 1.5 BlueHDi'ya özgü kaynak aranmadı; gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır."
+    },
+    {
+      "marka": "Citroen",
+      "model": "Berlingo K9",
+      "yillar": "2018-",
+      "motor": "1.5 BlueHDi 100/130 (DV5)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Berlingo (K9"
+        ],
+        "motor": [
+          "1.5 BlueHDi"
+        ]
+      },
+      "not": "Berlingo 1.5 BlueHDi için Şikâyetvar'da eksantrik zinciri kayıtları var (Faz 4-9); gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C3",
+      "yillar": "2009-2016",
+      "motor": "1.6 HDi 92 (DV6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C3 (2009"
+        ],
+        "motor": [
+          "1.6 HDi"
+        ]
+      },
+      "not": "Enjektör ve turbo anıları tekil ve eski forum yazıları; uzun dönem bir kullanıcı turbo arızasını 230.000 km'de, enjektör revizyonunu 310.000 km'de bildiriyor; kronik sorun için yeterli kanıt yok. Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4",
+      "yillar": "2020-",
+      "motor": "1.2 PureTech 130 (EB2)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C4 (2020"
+        ],
+        "motor": [
+          "PureTech"
+        ]
+      },
+      "not": "C4'e (2020-) özgü kaynak aranmadı; gösterilen yağ banyolu triger kayışı ve yağ tüketimi sorunları aynı PureTech motorunu kullanan C3, 208 ve 308 kaynaklarına dayanır."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "508",
+      "yillar": "2011-2018",
+      "motor": "1.6 THP 156/165 (EP6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "508 (2011"
+        ],
+        "motor": [
+          "THP"
+        ]
+      },
+      "not": "1.6 THP için tek bir kullanıcı 2011-2012 yüksek basınç pompası sorununu anıyor (308 / 3008 1.6 THP kaydına bakın). Gösterilen sorunlar aynı EP6 motorunu kullanan 308 / 3008 ve Mini Cooper S kaynaklarına dayanır."
+    },
+    {
+      "marka": "Ford",
+      "model": "Courier / Tourneo Courier",
+      "yillar": "2014-",
+      "motor": "1.0 EcoBoost 100",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Courier"
+        ],
+        "motor": [
+          "1.0 EcoBoost"
+        ]
+      },
+      "not": "Şikâyetler fren sesi, gıcırtı ve genel motor arıza lambası gibi dağınık konularda; ortak bir arıza için iki bağımsız site bulunamadı. Gösterilen sorunlar aynı EcoBoost motorunu kullanan Fiesta, Focus ve EcoSport kaynaklarına dayanır."
+    },
+    {
+      "marka": "Ford",
+      "model": "C-Max / Grand C-Max",
+      "yillar": "2010-2019",
+      "motor": "1.6 TDCi 95/115 (DV6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C-Max"
+        ],
+        "motor": [
+          "1.6 TDCi"
+        ]
+      },
+      "not": "Faz 9'da arandı: DonanımHaber'de 2011 model C-Max 1.6 TDCi'da enjektör arızası (tek başlık, bir enjektör için yaklaşık 1.230 TL teklif), Şikâyetvar'da 2012 model 1.6 TDCi'da enjektör pulu değişiminden sonra motor arızası (tek vaka); turbo boru / hortum ve DPF yorumları genel 1.6 TDCi'ya ait (Focus 1.6 TDCi kaydı). İkinci bağımsız doğrulama yok. Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır."
+    },
+    {
+      "marka": "Ford",
+      "model": "C-Max / Grand C-Max",
+      "yillar": "2010-2019",
+      "motor": "1.6 Ti-VCT 105 (Powershift DPS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C-Max"
+        ],
+        "motor": [
+          "Powershift"
+        ]
+      },
+      "not": "C-Max'e özgü Powershift kaynağı aranmadı; gösterilen kavrama ve TCM sorunları Focus 3, Fiesta ve Volvo V40 / S60 kaynaklarına dayanır."
+    },
+    {
+      "marka": "Ford",
+      "model": "C-Max / Grand C-Max",
+      "yillar": "2010-2019",
+      "motor": "1.0 EcoBoost 100/125",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C-Max"
+        ],
+        "motor": [
+          "1.0 EcoBoost"
+        ]
+      },
+      "not": "C-Max 1.0 EcoBoost'a özgü kaynak aranmadı; gösterilen sorunlar aynı EcoBoost motorunu kullanan Fiesta, Focus ve EcoSport kaynaklarına dayanır."
+    },
+    {
+      "marka": "Ford",
+      "model": "B-Max",
+      "yillar": "2012-2017",
+      "motor": "1.6 Ti-VCT 105 (Powershift DPS6)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "B-Max"
+        ],
+        "motor": [
+          "Powershift"
+        ]
+      },
+      "not": "B-Max'e özgü kaynak aranmadı; gösterilen kavrama ve TCM sorunları Focus 3, Fiesta ve Volvo V40 / S60 kaynaklarına dayanır."
+    },
+    {
+      "marka": "Ford",
+      "model": "B-Max",
+      "yillar": "2012-2017",
+      "motor": "1.0 EcoBoost 100/125",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "B-Max"
+        ],
+        "motor": [
+          "1.0 EcoBoost"
+        ]
+      },
+      "not": "B-Max'e özgü kaynak aranmadı; gösterilen sorunlar aynı EcoBoost motorunu kullanan Fiesta, Focus ve EcoSport kaynaklarına dayanır."
+    },
+    {
+      "marka": "Ford",
+      "model": "EcoSport",
+      "yillar": "2013-2017",
+      "motor": "1.5 Ti-VCT 112 (Powershift DPS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "EcoSport (2013-2017"
+        ],
+        "motor": [
+          "Powershift"
+        ]
+      },
+      "not": "EcoSport 1.5 Ti-VCT Powershift'e özgü kaynak aranmadı; gösterilen kavrama ve TCM sorunları Focus 3, Fiesta ve Volvo V40 / S60 kaynaklarına dayanır."
+    },
+    {
+      "marka": "Ford",
+      "model": "Transit Connect",
+      "yillar": "2013-2022",
+      "motor": "1.6 TDCi 75/95/115 (DV6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Transit Connect"
+        ],
+        "motor": [
+          "1.6 TDCi"
+        ]
+      },
+      "not": "Transit Connect 1.5 TDCi için sonuç çıkmadı; 1.6 TDCi için modele özgü kaynak aranmadı. Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır."
+    },
+    {
+      "marka": "Suzuki",
+      "model": "SX4 S-Cross / Vitara",
+      "yillar": "2013-",
+      "motor": "1.6 DDiS 120 (DV6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "S-Cross / Vitara"
+        ],
+        "motor": [
+          "DDiS"
+        ]
+      },
+      "not": "S-Cross ve Vitara 1.6 DDiS'e özgü kaynak bulunamadı (şikâyetler elektronik ve multimedya konusunda). Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır."
+    },
+    {
+      "marka": "Opel",
+      "model": "Meriva B",
+      "yillar": "2010-2017",
+      "motor": "1.3 CDTI 95 (Multijet)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Meriva B"
+        ],
+        "motor": [
+          "1.3 CDTI"
+        ]
+      },
+      "not": "Meriva 1.3 CDTI için forum yorumları eski ve genel (çoğunlukla olumlu); modele özgü sorun çıkmadı. Gösterilen enjektör, turbo, EGR ve zincir sorunları aynı Multijet motorunu kullanan Fiat ve Opel kaynaklarına dayanır."
+    },
+    {
+      "marka": "Opel",
+      "model": "Combo D",
+      "yillar": "2011-2018",
+      "motor": "1.3 CDTI 90 (Multijet)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Combo D"
+        ],
+        "motor": [
+          "1.3 CDTI"
+        ]
+      },
+      "not": "Combo D'ye özgü kaynak aranmadı (Fiat Doblo ile aynı platform ve motor); gösterilen sorunlar Doblo, Fiorino ve Egea kaynaklarına dayanır."
+    },
+    {
+      "marka": "Fiat",
+      "model": "500L",
+      "yillar": "2013-2022",
+      "motor": "1.3 Multijet 95",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "500L"
+        ],
+        "motor": [
+          "1.3 Multijet"
+        ]
+      },
+      "not": "500L'e özgü kaynak aranmadı; gösterilen sorunlar aynı Multijet motorunu kullanan Doblo, Egea ve Linea kaynaklarına dayanır."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Accent Blue",
+      "yillar": "2011-2017",
+      "motor": "1.6 GDI 132/140",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Accent Blue (RB, 2011"
+        ],
+        "motor": [
+          "1.6 GDI"
+        ]
+      },
+      "not": "1.6 GDI için tekrar eden sorun bulunamadı; gösterilen yağ tüketimi aynı Gamma GDI motorunu kullanan Sportage SL kaynaklarına dayanır."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i30 PD",
+      "yillar": "2017-2023",
+      "motor": "1.6 CRDi 110/136 (6MT ve 7DCT)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "i30 (PD"
+        ],
+        "motor": [
+          "1.6 CRDi"
+        ]
+      },
+      "not": "Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; i30'a özgü iki bağımsız site bulunamadı (Türkçe kaynaklarda 'kronik sorun yok' yorumları ile tekil titreme, DPF ve DCT anıları). Tucson 1.6 CRDi şikâyetleri i30'a taşınamaz; gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i30 PD",
+      "yillar": "2017-2023",
+      "motor": "1.0 T-GDI 120 / 1.4 T-GDI 140 (7DCT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "i30 (PD"
+        ],
+        "motor": [
+          "T-GDI"
+        ]
+      },
+      "not": "T-GDI için i30'a özgü kronik sorun çıkmadı; aramalar 1.6 CRDi (DPF) ve DCT şikâyetlerine yöneldi ve i30'a özgü olmayan kaynaklardan geldi. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i30 GD",
+      "yillar": "2012-2017",
+      "motor": "1.6 GDI 135",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "i30 (GD"
+        ],
+        "motor": [
+          "1.6 GDI"
+        ]
+      },
+      "not": "i30 GD 1.6 GDI'ya özgü kaynak aranmadı; gösterilen yağ tüketimi aynı Gamma GDI motorunu kullanan Sportage SL kaynaklarına dayanır."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Elantra AD",
+      "yillar": "2016-2020",
+      "motor": "1.6 CRDi 136 (7DCT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Elantra (AD"
+        ],
+        "motor": [
+          "1.6 CRDi"
+        ]
+      },
+      "not": "Elantra'da tek bir 7DCT kalkış titremesi şikâyeti dışında tekrar eden sorun bulunamadı; gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "ix35",
+      "yillar": "2010-2015",
+      "motor": "1.6 GDI 135",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "ix35 (LM"
+        ],
+        "motor": [
+          "1.6 GDI"
+        ]
+      },
+      "not": "Şikâyetler iç trim, 4x4 şanzıman dişlisi ve LPG'li soğuk çalıştırma gibi tekil konularda; gösterilen yağ tüketimi aynı Gamma GDI motorunu kullanan Sportage SL kaynaklarına dayanır."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Kona",
+      "yillar": "2017-2023",
+      "motor": "1.6 CRDi 115/136 (7DCT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Kona (OS"
+        ],
+        "motor": [
+          "1.6 CRDi"
+        ]
+      },
+      "not": "1.6 CRDi DCT kalkış titremesi yalnızca Şikâyetvar kayıtlarında; ikinci bağımsız kaynak bulunamadı. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Kona",
+      "yillar": "2017-2023",
+      "motor": "1.6 T-GDI 177 (7DCT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Kona (OS"
+        ],
+        "motor": [
+          "1.6 T-GDI"
+        ]
+      },
+      "not": "Kona 1.6 T-GDI'ya özgü kaynak bulunamadı; gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır."
+    },
+    {
+      "marka": "Kia",
+      "model": "Sportage QL",
+      "yillar": "2015-2018",
+      "motor": "1.7 CRDi 115/141 (6MT ve 7DCT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Sportage (QL, 2015"
+        ],
+        "motor": [
+          "1.7 CRDi"
+        ]
+      },
+      "not": "Sportage 1.7 CRDi için motor kaynaklı kronik sorun çıkmadı. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır."
+    },
+    {
+      "marka": "Kia",
+      "model": "Rio YB",
+      "yillar": "2017-2023",
+      "motor": "1.0 T-GDI 100 (7DCT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Rio (YB"
+        ],
+        "motor": [
+          "1.0 T-GDI"
+        ]
+      },
+      "not": "Rio 1.0 T-GDI için kaynak çıkmadı; gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır."
     }
   ]
 }

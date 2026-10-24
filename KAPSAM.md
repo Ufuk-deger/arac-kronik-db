@@ -25,24 +25,24 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **392** model/motor grubu
+- Plan: **422** model/motor grubu
 - Tamamlanan (✓, modele özgü kaynaklı sorun var): **168**
-- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **58**
-- Araştırılıp eklenmeyen (–): **165**
+- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **99**
+- Araştırılıp eklenmeyen (–): **154**
 - Sırada (○): **1**
-- Kademe 1: **109/109** işlendi (✓, ◐ ya da –)
-- Veritabanı: **243** kayıt, **258** kayda özgü kronik sorun, **18** motor/şanzıman ailesi (**28** ortak sorun)
+- Kademe 1: **110/110** işlendi (✓, ◐ ya da –)
+- Veritabanı: **285** kayıt, **258** kayda özgü kronik sorun, **31** motor/şanzıman ailesi (**55** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
 | Renault | 33 | 15 | 7 | 11 | 0 | 8/8 |
 | Volkswagen | 43 | 18 | 12 | 13 | 0 | 13/13 |
 | Toyota | 13 | 4 | 0 | 9 | 0 | 5/5 |
-| Fiat | 18 | 11 | 0 | 7 | 0 | 5/5 |
-| Hyundai | 25 | 11 | 0 | 14 | 0 | 12/12 |
-| Peugeot | 12 | 9 | 0 | 3 | 0 | 5/5 |
-| Opel | 26 | 14 | 0 | 12 | 0 | 5/5 |
-| Citroen | 11 | 6 | 0 | 5 | 0 | 3/3 |
+| Fiat | 19 | 11 | 1 | 7 | 0 | 5/5 |
+| Hyundai | 33 | 11 | 9 | 13 | 0 | 13/13 |
+| Peugeot | 17 | 9 | 5 | 3 | 0 | 5/5 |
+| Opel | 28 | 14 | 6 | 8 | 0 | 5/5 |
+| Citroen | 14 | 6 | 5 | 3 | 0 | 3/3 |
 | BYD | 2 | 1 | 0 | 1 | 0 | 1/1 |
 | Skoda | 25 | 9 | 8 | 8 | 0 | 6/6 |
 | Mercedes-Benz | 24 | 10 | 4 | 10 | 0 | 6/6 |
@@ -51,8 +51,8 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 |
 | Nissan | 16 | 8 | 4 | 4 | 0 | 4/4 |
 | Chery | 2 | 0 | 0 | 2 | 0 | 0/0 |
-| Ford | 19 | 8 | 0 | 11 | 0 | 7/7 |
-| Kia | 22 | 9 | 0 | 13 | 0 | 6/6 |
+| Ford | 27 | 8 | 9 | 10 | 0 | 7/7 |
+| Kia | 24 | 9 | 5 | 10 | 0 | 6/6 |
 | Dacia | 12 | 8 | 1 | 3 | 0 | 3/3 |
 | Audi | 19 | 6 | 8 | 5 | 0 | 4/4 |
 | Honda | 9 | 4 | 0 | 5 | 0 | 2/2 |
@@ -64,7 +64,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Jeep | 2 | 1 | 0 | 1 | 0 | 0/0 |
 | Alfa Romeo | 2 | 0 | 0 | 2 | 0 | 0/0 |
 | Mazda | 1 | 0 | 0 | 1 | 0 | 0/0 |
-| Suzuki | 1 | 0 | 0 | 1 | 0 | 0/0 |
+| Suzuki | 2 | 0 | 1 | 1 | 0 | 0/0 |
 | Mitsubishi | 1 | 0 | 0 | 1 | 0 | 0/0 |
 | Land Rover | 1 | 0 | 0 | 1 | 0 | 0/0 |
 | Cupra | 2 | 1 | 0 | 1 | 0 | 0/0 |
@@ -247,11 +247,11 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | Doblo | 2010-2022 | 1.3 / 1.6 Multijet (90/105/120) | ✓ 3 sorun |
+| 1 | Doblo | 2010-2022 | 1.3 / 1.6 Multijet (90/105/120) | ✓ 3 sorun (+2 ortak aile) |
 | 1 | Egea | 2015- | 1.4 Fire 95 | ✓ 1 sorun |
-| 1 | Egea | 2015- | 1.3 Multijet II 95 | ✓ 2 sorun |
+| 1 | Egea | 2015- | 1.3 Multijet II 95 | ✓ 2 sorun (+3 ortak aile) |
 | 1 | Egea | 2015- | 1.6 Multijet II 120 | ✓ 3 sorun |
-| 1 | Linea | 2007-2015 | 1.3 Multijet (Dualogic) | ✓ 4 sorun |
+| 1 | Linea | 2007-2015 | 1.3 Multijet (Dualogic) | ✓ 4 sorun (+3 ortak aile) |
 | 2 | 500 | 2008- | 1.2 Fire / 0.9 TwinAir | ✓ 1 sorun |
 | 2 | 500e | 2021- | Elektrik (42 kWh) | – eklenmedi: Şikâyetvar'da şarj sorunları ve batarya arızası (menzil göstergesinin 320 km'den 260 km'ye düşmesi) tekil; DonanımHaber yorumu olumlu, Ekşi Sözlük yorumları ABD'deki eski modellere ait. |
 | 2 | 600e | 2024- | Elektrik (54 kWh, 156 PS) | ✓ 1 sorun |
@@ -259,10 +259,11 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Egea Hybrid | 2022- | 1.5 Hybrid 130 (48V hafif hibrit, çift kavramalı) | ✓ 1 sorun |
 | 2 | Linea | 2007-2015 | 1.4 Fire / 1.4 T-Jet | – eklenmedi: Dağınık şikâyetler var, tekrar eden bir sorun için iki bağımsız site bulunamadı. |
 | 2 | Linea | 2011-2015 | 1.6 Multijet 105 | – eklenmedi: Faz 9'da arandı: Şikâyetvar'ın Linea 1.6 Multijet şikâyetlerinde en çok tekrarlanan konu yolcu hava yastığı bölgesinde göğüs paneli çatlağı ve Blue&Me arızası; sıcak motorda zor çalışma ayrı bir şikâyet. EGR, enjektör ve turbo iddiaları genel motor ailesine ait tek bir DonanımHaber başlığında. 1.4 T-Jet (turbo, yağ eksiltme) için sonuç çıkmadı; Dualogic sorunları Linea 1.3 Multijet kaydında. |
-| 2 | Punto Evo / Grande Punto | 2009-2018 | 1.3 Multijet 75/95 | ✓ 2 sorun |
-| 2 | Punto Evo / Grande Punto | 2009-2018 | 1.4 Fire 77 | ✓ 2 sorun |
+| 2 | Punto Evo / Grande Punto | 2009-2018 | 1.3 Multijet 75/95 | ✓ 2 sorun (+5 ortak aile) |
+| 2 | Punto Evo / Grande Punto | 2009-2018 | 1.4 Fire 77 | ✓ 2 sorun (+5 ortak aile) |
+| 3 | 500L | 2013-2022 | 1.3 Multijet 95 | ◐ 5 ortak aile sorunu — 500L'e özgü kaynak aranmadı; gösterilen sorunlar aynı Multijet motorunu kullanan Doblo, Egea ve Linea kaynaklarına dayanır. |
 | 3 | Ducato | 2010- | 2.2 / 2.3 MultiJet | – eklenmedi: AdBlue, DPF ve NOx sensörü şikâyetleri yalnızca Şikâyetvar'da; Boxer ve Jumper için ayrı veri çıkmadı. |
-| 3 | Fiorino / Qubo | 2008-2020 | 1.3 Multijet | ✓ 3 sorun |
+| 3 | Fiorino / Qubo | 2008-2020 | 1.3 Multijet | ✓ 3 sorun (+3 ortak aile) |
 | 3 | Grande Panda Electric | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da şarj ve kilit sorunu sonrası 8 saat yol yardımı beklemek, şarj soketinin erimesi ve teslimde arıza ışığı tekil; tek taramada ikinci bağımsız site çıkmadı. |
 | 3 | Linea / Punto | 2007-2015 | 1.4 T-Jet | – eklenmedi: T-Jet'e özgü kaynak çıkmadı; Punto şikâyetleri ağırlıkla direksiyon (EPS) üzerine ve ayrı kayıtta. |
 
@@ -270,31 +271,39 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | Accent Blue | 2015-2019 | 1.6 CRDi 136 (7DCT) | ✓ 1 sorun |
-| 1 | Accent Blue | 2011-2019 | 1.4 MPI / 1.6 GDI | – eklenmedi: 1.4 MPI ve 1.6 GDI için tekrar eden sorun bulunamadı (yalnızca tek tek külbütör kapağı yağ kaçağı ve sübap iddiaları). Faz 7'de yeniden arandı: Şikâyetvar'da 1.4 CVT otomatiklerde kalkışta ve rampada çıtırdama ile yetkili serviste çözülemeyen şanzıman arızası şikâyetleri var; forumlarda aynı motorun taksilerde 400-500 bin km sorunsuz gittiği ve şanzıman yağ değişiminin sorunu azalttığı yazılıyor, bağımsız ikinci kaynak çıkmadı; 1.6 GDI için tekrar eden sorun yok. |
+| 1 | Accent Blue | 2015-2019 | 1.6 CRDi 136 (7DCT) | ✓ 1 sorun (+3 ortak aile) |
+| 1 | Accent Blue | 2011-2019 | 1.4 MPI | – eklenmedi: 1.4 MPI için tekrar eden sorun bulunamadı (yalnızca tek tek külbütör kapağı yağ kaçağı ve sübap iddiaları). Faz 7'de yeniden arandı: Şikâyetvar'da 1.4 CVT otomatiklerde kalkışta ve rampada çıtırdama ile yetkili serviste çözülemeyen şanzıman arızası şikâyetleri var; forumlarda aynı motorun taksilerde 400-500 bin km sorunsuz gittiği ve şanzıman yağ değişiminin sorunu azalttığı yazılıyor, bağımsız ikinci kaynak çıkmadı. |
 | 1 | Accent Blue | 2011-2015 | 1.6 CRDi 128 (manuel / 6 ileri otomatik) | – eklenmedi: Faz 9'da arandı: tekil vakalar (2013 model 1.6 CRDi'da yağ seviyesinin yükselmesi ve enjektör temizliği; LPG sonrası enjektör arızası); DPF ve turbo için yıla özgü güvenilir kaynak yok, DPF konusunda forumlarda görüş ayrılığı var. Şikâyetlerin çoğu otomatik ve 2015-2016 DCT'li sürümlere ait (DCT sorunu Accent Blue 2015-2019 kaydında). |
 | 1 | Bayon | 2021- | 1.0 T-GDI 100/120 (7DCT) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | Bayon | 2021- | 1.4 MPI 100 | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Ioniq 5 / Ioniq 6 | 2022- | Elektrik (E-GMP) | ✓ 1 sorun, 1 yıl kırılımı |
-| 1 | Tucson (TL FL) | 2018-2020 | 1.6 CRDi (7DCT) | ✓ 1 sorun |
+| 1 | Tucson (TL FL) | 2018-2020 | 1.6 CRDi (7DCT) | ✓ 1 sorun (+2 ortak aile) |
 | 1 | Tucson (TL) | 2015-2020 | 1.6 T-GDI (7DCT) | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | i20 | 2020- | 1.0 T-GDI 100/120 (7DCT) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | i20 | 2020- | 1.4 MPI 100 | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | i20 (GB) | 2014-2020 | 1.25 / 1.4 MPI, 1.4 CRDi | – eklenmedi: Faz 9'da arandı: i20 şikâyetleri otomatik şanzımanda toplanıyor (tork konvertörlü şanzıman çoğu yorumda sorunsuz, DCT'li BC3 kaydında); 1.4 MPI için forum yorumları sorunsuz diyor, 1.4 CRDi için enjektör, turbo ve silindir kapağı sıralaması genel bir forum listesinden geliyor. Kayıt açılacak kanıt çıkmadı. |
-| 1 | i30 | 2012-2020 | 1.6 CRDi | – eklenmedi: Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; model/motor bazında tekrar eden sorun için iki bağımsız site bulunamadı. Faz 7'de yeniden arandı: İngiltere forumlarında EGR tereddüdü ve çift kütleli volan, Türkçe kaynaklarda ise 'kronik sorun yok' yorumları ile tekil titreme, DPF ve DCT anıları var; Tucson 1.6 CRDi şikâyetleri i30'a taşınamaz, iki bağımsız site aynı sorunu doğrulamadı. |
-| 2 | Elantra | 2011-2020 | 1.6 MPI / 1.6 CRDi | – eklenmedi: Tek bir 7DCT kalkış titremesi şikâyeti dışında tekrar eden sorun bulunamadı. |
+| 1 | i30 GD | 2012-2017 | 1.6 CRDi | – eklenmedi: Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; model/motor bazında tekrar eden sorun için iki bağımsız site bulunamadı. Faz 7'de yeniden arandı: İngiltere forumlarında EGR tereddüdü ve çift kütleli volan, Türkçe kaynaklarda ise 'kronik sorun yok' yorumları ile tekil titreme, DPF ve DCT anıları var; Tucson 1.6 CRDi şikâyetleri i30'a taşınamaz, iki bağımsız site aynı sorunu doğrulamadı. |
+| 1 | i30 PD | 2017-2023 | 1.6 CRDi 110/136 (6MT ve 7DCT) | ◐ 3 ortak aile sorunu — Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; i30'a özgü iki bağımsız site bulunamadı (Türkçe kaynaklarda 'kronik sorun yok' yorumları ile tekil titreme, DPF ve DCT anıları). Tucson 1.6 CRDi şikâyetleri i30'a taşınamaz; gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
+| 2 | Accent Blue | 2011-2017 | 1.6 GDI 132/140 | ◐ 1 ortak aile sorunu — 1.6 GDI için tekrar eden sorun bulunamadı; gösterilen yağ tüketimi aynı Gamma GDI motorunu kullanan Sportage SL kaynaklarına dayanır. |
+| 2 | Elantra | 2011-2020 | 1.6 MPI | – eklenmedi: 1.6 MPI için tekrar eden sorun bulunamadı. |
+| 2 | Elantra AD | 2016-2020 | 1.6 CRDi 136 (7DCT) | ◐ 3 ortak aile sorunu — Elantra'da tek bir 7DCT kalkış titremesi şikâyeti dışında tekrar eden sorun bulunamadı; gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
 | 2 | Kona Electric / Inster | 2021- | Elektrik (39,2 / 64 kWh) | – eklenmedi: Batarya yangını geri çağırması 2017-2020 arası üretimi kapsıyor; Türkiye'de elektrikli Kona'nın resmî satışı Eylül 2021'de başladı ve kapsam doğrulanamadı. Türkiye'deki batarya modülü arızası ve parça bekleme şikâyetleri yalnızca Şikâyetvar'da. Faz 6'da yeniden arandı (2. nesil Kona ve Inster dahil): Inster'de şarj sırasında duman ve teslim günü şarj olmama tekil, Kona'da batarya modülü arızası, parça bekleme ve %81'de şarjın sonlanması yalnızca Şikâyetvar'da; ikinci bağımsız site çıkmadı. |
-| 2 | Tucson (NX4) | 2021- | 1.6 CRDi 136 (7DCT) | ✓ 2 sorun |
+| 2 | Tucson (NX4) | 2021- | 1.6 CRDi 136 (7DCT) | ✓ 2 sorun (+1 ortak aile) |
 | 2 | Tucson (NX4) | 2021- | 1.6 T-GDI (7DCT) | – eklenmedi: Faz 9'da arandı: DonanımHaber'de 2025 model 1.6 DCT'li bir Tucson'da 35 bin km'de dişli kırılması anlatılıyor (tek vaka, motor tipi belirtilmiyor); Şikâyetvar'daki Tucson şanzıman şikâyetlerinin çoğu dizel araçlara ait; yağ yakma iddiaları 1.6 GDi ve 6 ileri otomatik konusunda. T-GDI'ya özgü tekrar eden sorun çıkmadı. 7DCT titremesi Tucson NX4 1.6 CRDi kaydında ele alındı. |
-| 2 | Tucson (TL) | 2015-2018 | 1.7 CRDi 115/141 | – eklenmedi: Faz 9'da arandı: 1.7 CRDi'ya özgü kaynak çıkmadı; Şikâyetvar'daki Tucson dizel DPF, enjektör ve turbo şikâyetleri 2021 ve sonrası modellere ait. |
-| 2 | i20 (PB) | 2009-2014 | 1.4 MPI / 1.4 CRDi | ✓ 1 sorun |
-| 2 | i30 | 2012-2020 | 1.4 / 1.6 MPI, 1.0 / 1.4 T-GDI | – eklenmedi: Benzinli motorlar (MPI, T-GDI) için i30'a özgü kronik sorun çıkmadı; aramalar 1.6 CRDi (DPF) ve DCT şikâyetlerine yöneldi ve i30'a özgü olmayan kaynaklardan geldi. |
-| 2 | i30 (FD) | 2008-2012 | 1.4 / 1.6 MPI, 1.6 GDI (EPS) | ✓ 1 sorun |
-| 2 | ix35 | 2010-2015 | 1.6 GDI / 1.7 CRDi | – eklenmedi: Şikâyetler iç trim, 4x4 şanzıman dişlisi ve LPG'li soğuk çalıştırma gibi tekil konularda; 1.7 CRDi Türkiye'de neredeyse hiç satılmamış. |
+| 2 | Tucson (TL) | 2015-2018 | 1.7 CRDi 115/141 (6MT ve 7DCT) | ◐ 3 ortak aile sorunu — Faz 9'da arandı: 1.7 CRDi'ya özgü kaynak çıkmadı; Şikâyetvar'daki Tucson dizel DPF, enjektör ve turbo şikâyetleri 2021 ve sonrası modellere ait. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
+| 2 | i20 (PB) | 2009-2014 | 1.4 MPI / 1.4 CRDi | ✓ 1 sorun (+2 ortak aile) |
+| 2 | i30 | 2012-2020 | 1.4 / 1.6 MPI | – eklenmedi: Benzinli MPI motorlar için i30'a özgü kronik sorun çıkmadı; aramalar 1.6 CRDi (DPF) ve DCT şikâyetlerine yöneldi ve i30'a özgü olmayan kaynaklardan geldi. |
+| 2 | i30 (FD) | 2008-2012 | 1.4 / 1.6 MPI, 1.6 GDI (EPS) | ✓ 1 sorun (+1 ortak aile) |
+| 2 | i30 GD | 2012-2017 | 1.6 GDI 135 | ◐ 1 ortak aile sorunu — i30 GD 1.6 GDI'ya özgü kaynak aranmadı; gösterilen yağ tüketimi aynı Gamma GDI motorunu kullanan Sportage SL kaynaklarına dayanır. |
+| 2 | i30 PD | 2017-2023 | 1.0 T-GDI 120 / 1.4 T-GDI 140 (7DCT) | ◐ 1 ortak aile sorunu — T-GDI için i30'a özgü kronik sorun çıkmadı; aramalar 1.6 CRDi (DPF) ve DCT şikâyetlerine yöneldi ve i30'a özgü olmayan kaynaklardan geldi. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
+| 2 | ix35 | 2010-2015 | 1.7 CRDi | – eklenmedi: 1.7 CRDi Türkiye'de neredeyse hiç satılmamış; şikâyetler iç trim, 4x4 şanzıman dişlisi ve LPG'li soğuk çalıştırma gibi tekil konularda. |
+| 2 | ix35 | 2010-2015 | 1.6 GDI 135 | ◐ 1 ortak aile sorunu — Şikâyetler iç trim, 4x4 şanzıman dişlisi ve LPG'li soğuk çalıştırma gibi tekil konularda; gösterilen yağ tüketimi aynı Gamma GDI motorunu kullanan Sportage SL kaynaklarına dayanır. |
 | 3 | Elantra / i10 | 2011- | 1.6 MPI otomatik, 1.0 / 1.25 | – eklenmedi: Elantra AD 1.6 MPI ve i10 için kronik motor sorunu çıkmadı; şikâyetler otomatik şanzıman (dizel), direksiyon ve ESP üzerine ve motor hacmi belirsiz. |
 | 3 | H-1 / Starex | 2008- | 2.5 CRDi | – eklenmedi: H-1 / Starex 2.5 CRDi için enjektör, turbo ve EGR kanıtı çıkmadı; bulunanlar eski forum yorumları ve diğer modellere ait. |
-| 3 | Kona | 2018- | 1.0 T-GDI / 1.6 T-GDI / 1.6 CRDi | – eklenmedi: 1.6 CRDi DCT kalkış titremesi yalnızca Şikâyetvar kayıtlarında; ikinci bağımsız kaynak bulunamadı. Benzer 7DCT kavrama titremesi Tucson, Bayon, i20 (BC3) ve Sportage kayıtlarında ele alındı. |
-| 3 | ix35 / Santa Fe | 2010-2018 | 1.7 / 2.0 / 2.2 CRDi | – eklenmedi: ix35 1.7 / 2.0 CRDi ve Santa Fe 2.2 CRDi için model özelinde kaynak çıkmadı; bulunanlar ix35 1.6 GDI için tek rehber sitesi. |
+| 3 | Kona | 2018- | 1.0 T-GDI | – eklenmedi: Kona 1.0 T-GDI için ilgili sonuç çıkmadı. |
+| 3 | Kona | 2017-2023 | 1.6 CRDi 115/136 (7DCT) | ◐ 3 ortak aile sorunu — 1.6 CRDi DCT kalkış titremesi yalnızca Şikâyetvar kayıtlarında; ikinci bağımsız kaynak bulunamadı. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
+| 3 | Kona | 2017-2023 | 1.6 T-GDI 177 (7DCT) | ◐ 1 ortak aile sorunu — Kona 1.6 T-GDI'ya özgü kaynak bulunamadı; gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
+| 3 | ix35 / Santa Fe | 2010-2018 | 1.7 / 2.0 / 2.2 CRDi | – eklenmedi: ix35 1.7 / 2.0 CRDi ve Santa Fe 2.2 CRDi için model özelinde kaynak çıkmadı; bulunanlar ix35 1.6 GDI için tek rehber sitesi. 1.7 CRDi Türkiye'de neredeyse hiç satılmamış. |
 
 ### Peugeot
 
@@ -302,62 +311,72 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | :---: | --- | --- | --- | --- |
 | 1 | 208 / 2008 / 308 / 3008 | 2014-2021 | 1.2 PureTech (EB2) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | 208 / 2008 / 308 / 3008 | 2012-2021 | 1.6 BlueHDi / e-HDi (DV6) | ✓ 4 sorun |
-| 1 | 208 / 2008 / 308 / 3008 / 5008 | 2019- | 1.5 BlueHDi 100/130 (DV5) | ✓ 2 sorun, 1 yıl kırılımı |
-| 1 | 301 | 2012- | 1.6 HDi / BlueHDi (DV6) | ✓ 3 sorun |
+| 1 | 208 / 2008 / 308 / 3008 / 5008 | 2019- | 1.5 BlueHDi 100/130 (DV5) | ✓ 2 sorun (+1 ortak aile), 1 yıl kırılımı |
+| 1 | 301 | 2012- | 1.6 HDi / BlueHDi (DV6) | ✓ 3 sorun (+1 ortak aile) |
 | 1 | e-208 / e-2008 | 2022- | Elektrik (50 kWh; 2024 sonrası 54 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
+| 2 | 207 | 2006-2014 | 1.6 HDi 90/110 (DV6) | ◐ 3 ortak aile sorunu — Peugeot 207 1.6 HDi'ya özgü kaynak aranmadı; gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır. |
 | 2 | 308 / 3008 | 2007-2014 | 1.6 THP (EP6) | ✓ 3 sorun, 1 yıl kırılımı |
+| 2 | 308 T7 | 2007-2013 | 1.6 HDi / e-HDi 90/112 (DV6) | ◐ 3 ortak aile sorunu — 308 T7 1.6 HDi'ya özgü kaynak aranmadı; gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır. |
+| 2 | 508 | 2011-2018 | 1.6 THP 156/165 (EP6) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — 1.6 THP için tek bir kullanıcı 2011-2012 yüksek basınç pompası sorununu anıyor (308 / 3008 1.6 THP kaydına bakın). Gösterilen sorunlar aynı EP6 motorunu kullanan 308 / 3008 ve Mini Cooper S kaynaklarına dayanır. |
+| 2 | Partner | 2008-2018 | 1.6 HDi 75/92/100/115 (DV6) | ◐ 3 ortak aile sorunu — Partner 1.6 HDi'ya özgü kaynak aranmadı (Berlingo ile aynı motor ve kasa); gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır. |
+| 2 | Rifter / Partner | 2018- | 1.5 BlueHDi 100/130 (DV5) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Rifter / Partner 1.5 BlueHDi'ya özgü kaynak aranmadı; gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır. |
 | 2 | e-3008 / e-5008 | 2024- | Elektrik | – eklenmedi: Şikâyetvar'da 2024 model e-3008 için seyir halinde 'elektrikli çekiş sistemi arızası' uyarısıyla durma ve şarj almama (çekici) şikâyetleri var. İkinci bağımsız site bulunamadı: Ekşi Sözlük ve DonanımHaber yorumları yalnızca gerçek menzil ve şarj eğrisi hakkında; SpeakEV'de batarya boyutu yazmayan tek bir erken e-3008 şikâyeti var; e-3008 / e-5008 için geri çağırma kaydı çıkmadı (ÖAMTC'nin 3008 / 508 kaydı plug-in hibritlere ait). |
 | 2 | e-308 | 2023-2025 | Elektrik (54 kWh, 156 PS) | ✓ 1 sorun |
 | 3 | 207 / 206 | 2006-2014 | 1.6 VTi (EP6) | – eklenmedi: EP6 zincir uzaması iddiası tek bir rehber sitesine (Araclo) dayanıyor; forum ve şikâyet kaynaklarında doğrulanmadı. |
-| 3 | 301 | 2012- | 1.2 VTi / PureTech | ✓ 2 sorun |
+| 3 | 301 | 2012- | 1.2 VTi / PureTech | ✓ 2 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 3 | 508 | 2011-2018 | 1.6 e-HDi 115 (MCP / Auto6R robotize) | ✓ 1 sorun |
-| 3 | 508 | 2011-2018 | 1.6 THP / 2.0 HDi | – eklenmedi: 1.6 THP için tek bir kullanıcı 2011-2012 yüksek basınç pompası sorununu anıyor (308/3008 1.6 THP kaydına bakın); 2.0 HDi için kaynak bulunamadı. |
+| 3 | 508 | 2011-2018 | 2.0 HDi | – eklenmedi: 2.0 HDi için kaynak bulunamadı. |
 
 ### Opel
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | Astra H / J | 2005-2015 | 1.3 CDTI 90/95 (manuel ve Easytronic) | ✓ 4 sorun |
+| 1 | Astra H / J | 2005-2015 | 1.3 CDTI 90/95 (manuel ve Easytronic) | ✓ 4 sorun (+2 ortak aile) |
 | 1 | Astra J | 2010-2015 | 1.4 Turbo (A14NET) | ✓ 1 sorun |
 | 1 | Astra K | 2015-2021 | 1.4 Turbo 125/150 | ✓ 1 sorun, 1 yıl kırılımı |
-| 1 | Corsa D / E | 2006-2019 | 1.3 CDTI 75/95 | ✓ 2 sorun |
-| 1 | Mokka | 2012-2019 | 1.4 Turbo (A14NET) | – eklenmedi: Mokka'ya özgü, A14NET'i açıkça belirten tekrar eden bir şikâyet bulunamadı; aynı motor için Astra J ve Astra K kayıtlarına bakın. Faz 7'de yeniden arandı: Mokka şikâyetleri (47.000 km'de triger kayışı, yağ-su karışması, yağ kaçağı) motor tipini belirtmiyor ya da 1.2 PureTech'e ait; A14NET için Mokka'ya özgü kaynak yok. |
+| 1 | Corsa D / E | 2006-2019 | 1.3 CDTI 75/95 | ✓ 2 sorun (+9 ortak aile) |
+| 1 | Mokka / Mokka X | 2012-2020 | 1.4 Turbo (A14NET) | – eklenmedi: Mokka'ya özgü, A14NET'i açıkça belirten tekrar eden bir şikâyet bulunamadı; aynı motor için Astra J ve Astra K kayıtlarına bakın. Faz 7'de yeniden arandı: Mokka şikâyetleri (47.000 km'de triger kayışı, yağ-su karışması, yağ kaçağı) motor tipini belirtmiyor ya da 1.2 PureTech'e ait; A14NET için Mokka'ya özgü kaynak yok. |
 | 2 | Astra Electric | 2023-2025 | Elektrik (54 kWh, 156 PS) | ✓ 2 sorun, 2 yıl kırılımı |
-| 2 | Astra J | 2013-2015 | 1.6 CDTI 110/136 | ✓ 1 sorun |
+| 2 | Astra J | 2013-2015 | 1.6 CDTI 110/136 | ✓ 1 sorun (+1 ortak aile) |
 | 2 | Astra J | 2010-2015 | 1.6 benzinli atmosferik (Ecotec) | ✓ 1 sorun |
-| 2 | Astra K | 2015-2021 | 1.6 CDTI 110/136 | ✓ 1 sorun |
+| 2 | Astra K | 2015-2021 | 1.6 CDTI 110/136 | ✓ 1 sorun (+1 ortak aile) |
+| 2 | Combo D | 2011-2018 | 1.3 CDTI 90 (Multijet) | ◐ 5 ortak aile sorunu — Combo D'ye özgü kaynak aranmadı (Fiat Doblo ile aynı platform ve motor); gösterilen sorunlar Doblo, Fiorino ve Egea kaynaklarına dayanır. |
 | 2 | Corsa D / E | 2006-2019 | 1.2 / 1.4 benzinli (A12XER, A14XER) | – eklenmedi: Aramalarda A12XER/A14XER için kronik sorun bulunamadı; sonuçlar PureTech'e ait. |
 | 2 | Corsa-e / Mokka-e | 2020- | Elektrik (50 kWh; 2024 sonrası Mokka'da 54 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
-| 2 | Crossland / Corsa F | 2017- | 1.2 PureTech 83/100/110/130 | ✓ 1 sorun, 1 yıl kırılımı |
+| 2 | Crossland / Corsa F | 2017- | 1.2 PureTech 83/100/110/130 | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 2 | Insignia A | 2014-2017 | 1.6 CDTI 136 | ✓ 2 sorun |
 | 2 | Insignia A | 2008-2017 | 2.0 CDTI / 1.6 Turbo / 1.4 Turbo | – eklenmedi: Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı. |
-| 2 | Meriva B | 2010-2017 | 1.3 CDTI / 1.4 benzinli / 1.4 Turbo | – eklenmedi: Faz 9'da arandı: Şikâyetvar'daki Meriva kayıtları 2011 model Meriva B'de hava yastığı geri çağırması ve kapı kaplama parçası üzerine; forum yorumları eski ve genel (1.3 CDTI için çoğunlukla olumlu); 1.4 Turbo için sonuç çıkmadı. Motora özgü tekrar eden sorun çıkmadı. |
-| 2 | Mokka | 2012-2019 | 1.6 CDTI | – eklenmedi: Zincir sesi ve otomatik şanzıman şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız site bulunamadı. |
-| 2 | Mokka B | 2021- | 1.2 PureTech 100/130 (EB2) | ✓ 1 sorun |
-| 2 | Zafira Tourer | 2012-2019 | 1.6 CDTI / 2.0 CDTI / 1.4 Turbo | – eklenmedi: Faz 9'da arandı: Şikâyetvar'daki Zafira şikâyetleri elektronik ve uyarı lambaları üzerine; Zafira 2.0 CDTI için tek bir inceleme (sert vites düşürme) var; 1.6 CDTI ve 1.4 Turbo için sonuç çıkmadı. Motora özgü tekrar eden sorun çıkmadı. |
+| 2 | Meriva B | 2010-2017 | 1.4 benzinli / 1.4 Turbo | – eklenmedi: Faz 9'da arandı: Şikâyetvar'daki Meriva kayıtları 2011 model Meriva B'de hava yastığı geri çağırması ve kapı kaplama parçası üzerine; forum yorumları eski ve genel (1.3 CDTI için çoğunlukla olumlu); 1.4 Turbo için sonuç çıkmadı. Motora özgü tekrar eden sorun çıkmadı. |
+| 2 | Mokka / Mokka X | 2012-2020 | 1.6 CDTI | ◐ 2 ortak aile sorunu — Mokka 1.6 CDTI zincir sesi ve otomatik şanzıman (P0741) şikâyetleri yalnızca Şikâyetvar'da; Mokka'ya özgü ikinci bağımsız site bulunamadı. Gösterilen triger zinciri ve turbo hortumu sorunları aynı motoru kullanan Astra J / K ve Insignia kaynaklarına dayanır. |
+| 2 | Mokka B | 2021- | 1.2 PureTech 100/130 (EB2) | ✓ 1 sorun (+1 ortak aile) |
+| 2 | Zafira Tourer | 2012-2019 | 2.0 CDTI / 1.4 Turbo | – eklenmedi: Faz 9'da arandı: Şikâyetvar'daki Zafira şikâyetleri elektronik ve uyarı lambaları üzerine; Zafira 2.0 CDTI için tek bir inceleme (sert vites düşürme) var; 1.6 CDTI ve 1.4 Turbo için sonuç çıkmadı. Motora özgü tekrar eden sorun çıkmadı. |
+| 2 | Zafira Tourer | 2012-2019 | 1.6 CDTI 120/136 | ◐ 2 ortak aile sorunu — Zafira Tourer 1.6 CDTI için modele özgü sonuç çıkmadı (şikâyetler elektronik ve uyarı lambalarında). Gösterilen triger zinciri ve turbo hortumu sorunları aynı motoru kullanan Astra J / K ve Insignia kaynaklarına dayanır. |
 | 3 | Astra J | 2010-2015 | 1.7 / 2.0 CDTI | – eklenmedi: 1.7 ve 2.0 CDTI'ya özgü tekrar eden sorun çıkmadı; sonuçlar 1.6 ve 1.3 CDTI'ya ait. |
-| 3 | Corsa D | 2006-2014 | 1.2 / 1.3 CDTI (Easytronic) | ✓ 1 sorun |
-| 3 | Crossland | 2017- | 1.5 BlueHDi | – eklenmedi: Crossland şikâyetleri motor beyni ve şanzıman tarafında tekil; 1.5 BlueHDi zincir sorunu Grandland X kaydında ele alındı. |
+| 3 | Corsa D | 2006-2014 | 1.2 / 1.3 CDTI (Easytronic) | ✓ 1 sorun (+5 ortak aile) |
+| 3 | Crossland | 2017- | 1.5 BlueHDi | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Crossland şikâyetleri motor beyni ve şanzıman tarafında tekil; gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır. |
 | 3 | Frontera Electric | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da 112 şikâyet listeleniyor (batarya arızası, uzun servis bekleme, kalkışta geri kayma, fren diski korozyonu); tek taramada ikinci bağımsız site çıkmadı. |
-| 3 | Grandland X / Grandland | 2017- | 1.5 BlueHDi | ✓ 1 sorun, 1 yıl kırılımı |
+| 3 | Grandland X / Grandland | 2017- | 1.5 BlueHDi | ✓ 1 sorun (+2 ortak aile), 1 yıl kırılımı |
 | 3 | Insignia A | 2008-2017 | 2.0 CDTI (A20DTH) | – eklenmedi: A20DTH'ye özgü kronik sorun listesi çıkmadı; turbo hortumu şikâyetleri çoğunlukla 1.6 CDTI'a ait ve o kayıtta. |
-| 3 | Mokka / Mokka X | 2012-2020 | 1.4 Turbo (A14NET) / 1.6 CDTI | – eklenmedi: Mokka 1.6 CDTI zincir sesi ve otomatik şanzıman (P0741) şikâyetleri yalnızca Şikâyetvar'da; A14NET 1.4 Turbo için Mokka'ya özgü kaynak çıkmadı. |
-| 3 | Mokka B | 2021- | 1.5 BlueHDi 110 (DV5) | – eklenmedi: Faz 9'da arandı (tek sorgu, PureTech ile birlikte): Mokka B 1.5 BlueHDi'ya özgü kaynak çıkmadı; forumlarda AdBlue ve DPF sorunları PSA 1.5 BlueHDi'nın geneli için anılıyor. Aynı DV5 motorunun AdBlue ve eksantrik zinciri sorunları Peugeot, Citroën ve Opel Grandland kayıtlarında. |
+| 3 | Meriva B | 2010-2017 | 1.3 CDTI 95 (Multijet) | ◐ 5 ortak aile sorunu — Meriva 1.3 CDTI için forum yorumları eski ve genel (çoğunlukla olumlu); modele özgü sorun çıkmadı. Gösterilen enjektör, turbo, EGR ve zincir sorunları aynı Multijet motorunu kullanan Fiat ve Opel kaynaklarına dayanır. |
+| 3 | Mokka B | 2021- | 1.5 BlueHDi 110 (DV5) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Faz 9'da arandı (tek sorgu, PureTech ile birlikte): Mokka B 1.5 BlueHDi'ya özgü kaynak çıkmadı; forumlarda AdBlue ve DPF sorunları PSA 1.5 BlueHDi'nın geneli için anılıyor. Gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır. |
 
 ### Citroen
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | C-Elysee | 2012-2020 | 1.6 HDi / BlueHDi (DV6) | ✓ 3 sorun |
-| 1 | C3 | 2016-2022 | 1.2 PureTech 82/110 | ✓ 1 sorun, 1 yıl kırılımı |
-| 1 | C3 / C4 / C5 Aircross | 2019- | 1.5 BlueHDi 100/130 (DV5) | ✓ 1 sorun, 1 yıl kırılımı |
-| 2 | C-Elysee | 2017-2020 | 1.2 PureTech 82 | ✓ 1 sorun |
+| 1 | C-Elysee | 2012-2020 | 1.6 HDi / BlueHDi (DV6) | ✓ 3 sorun (+1 ortak aile) |
+| 1 | C3 | 2016-2022 | 1.2 PureTech 82/110 | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
+| 1 | C3 / C4 / C5 Aircross | 2019- | 1.5 BlueHDi 100/130 (DV5) | ✓ 1 sorun (+2 ortak aile), 1 yıl kırılımı |
+| 2 | Berlingo K9 | 2018- | 1.5 BlueHDi 100/130 (DV5) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Berlingo 1.5 BlueHDi için Şikâyetvar'da eksantrik zinciri kayıtları var (Faz 4-9); gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır. |
+| 2 | C-Elysee | 2017-2020 | 1.2 PureTech 82 | ✓ 1 sorun (+1 ortak aile) |
 | 2 | C-Elysee | 2012-2016 | 1.6 VTi 115 (EP6) | – eklenmedi: Faz 9'da arandı (tek sorgu): şikâyet ya da forum kaydı çıkmadı; sonuçlar teknik özellik ve katalog sayfalarından oluştu. C-Elysée 1.6 HDi ve 1.2 PureTech 82 ayrı kayıtlarda. |
-| 2 | C3 | 2009-2016 | 1.4 HDi / 1.6 HDi | – eklenmedi: Enjektör ve turbo anıları tekil ve eski forum yazıları; uzun dönem bir kullanıcı turbo arızasını 230.000 km'de, enjektör revizyonunu 310.000 km'de bildiriyor; kronik sorun için yeterli kanıt yok. |
-| 2 | C4 Cactus | 2014-2020 | 1.2 PureTech 82/110 | ✓ 1 sorun |
+| 2 | C3 | 2009-2016 | 1.4 HDi | – eklenmedi: Enjektör ve turbo anıları tekil ve eski forum yazıları; uzun dönem bir kullanıcı turbo arızasını 230.000 km'de, enjektör revizyonunu 310.000 km'de bildiriyor; kronik sorun için yeterli kanıt yok. |
+| 2 | C3 | 2009-2016 | 1.6 HDi 92 (DV6) | ◐ 3 ortak aile sorunu — Enjektör ve turbo anıları tekil ve eski forum yazıları; uzun dönem bir kullanıcı turbo arızasını 230.000 km'de, enjektör revizyonunu 310.000 km'de bildiriyor; kronik sorun için yeterli kanıt yok. Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır. |
+| 2 | C4 | 2020- | 1.2 PureTech 130 (EB2) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — C4'e (2020-) özgü kaynak aranmadı; gösterilen yağ banyolu triger kayışı ve yağ tüketimi sorunları aynı PureTech motorunu kullanan C3, 208 ve 308 kaynaklarına dayanır. |
+| 2 | C4 Cactus | 2014-2020 | 1.2 PureTech 82/110 | ✓ 1 sorun (+1 ortak aile) |
 | 2 | ë-C4 / ë-C4 X | 2021- | Elektrik (50 kWh; 2024 sonrası 54 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
-| 3 | Berlingo / Partner | 2008-2018 | 1.6 HDi (DV6) | – eklenmedi: Turbo yağ besleme borusu tıkanıklığı tek bir forum yanıtına dayanıyor; Şikâyetvar'daki Berlingo kayıtları ağırlıkla 1.5 BlueHDi zinciri (ayrı kayıtta). |
-| 3 | C4 / C4 Picasso | 2010-2018 | 1.6 e-HDi (MCP robotize şanzıman) | – eklenmedi: MCP şanzıman için forum görüşleri karışık ('anlatıldığı kadar kötü değil'), kilometre ve maliyet verisi yok; aynı şanzıman 508 kaydında ele alındı. |
+| 3 | Berlingo | 2008-2018 | 1.6 HDi 75/92/100/115 (DV6) | ◐ 3 ortak aile sorunu — Turbo yağ besleme borusu tıkanıklığı tek bir forum yanıtına dayanıyor; Şikâyetvar'daki Berlingo kayıtları ağırlıkla 1.5 BlueHDi zinciri. Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır. |
+| 3 | C4 / C4 Picasso | 2010-2018 | 1.6 e-HDi 115 (MCP robotize şanzıman) | ◐ 4 ortak aile sorunu — MCP şanzıman için forum görüşleri karışık ('anlatıldığı kadar kötü değil'), kilometre ve maliyet verisi yok; aynı şanzıman Peugeot 508 kaydında ele alındı. Motor sorunları (enjektör, EGR / DPF) DV6 ailesinden gösterilir. |
 | 3 | ë-C3 | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da sıfır km araçlarda çekiş sistemi uyarısı, şarj soketinin kilitlenmesi ve şarj sırasında bataryadan ses gelmesi tekil; tek taramada ikinci bağımsız site çıkmadı. |
 
 ### BYD
@@ -500,20 +519,28 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | :---: | --- | --- | --- | --- |
 | 1 | Fiesta | 2008-2017 | 1.4 / 1.6 TDCi | ✓ 3 sorun |
 | 1 | Fiesta / Focus | 2012-2023 | 1.0 EcoBoost | ✓ 2 sorun, 2 yıl kırılımı |
-| 1 | Fiesta Mk7 | 2011-2017 | 1.6 Ti-VCT 105 (Powershift DPS6) | ✓ 1 sorun |
+| 1 | Fiesta Mk7 | 2011-2017 | 1.6 Ti-VCT 105 (Powershift DPS6) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 1 | Focus 2 / 3 | 2008-2018 | 1.6 TDCi (DV6) | ✓ 3 sorun |
 | 1 | Focus 3 | 2011-2018 | 1.6 Ti-VCT (Powershift DPS6) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | Focus 3 | 2011-2018 | 1.5 TDCi 95/120 | – eklenmedi: Enjektör ve DPF şikâyetleri dağınık, DPF şikâyetleri ağırlıkla 2019 sonrası EcoBlue'ya ait; 2015-2018 1.5 TDCi için ortak sorun yok. Faz 7'de yeniden arandı: Türkçe kaynaklar 1.6 TDCi ve 2019 sonrası EcoBlue'ya ait; Mk3 1.5 TDCi için yalnızca Ford Owners Club'da (İngiltere) DPF, EGR ve çalışma sorunu konuları var, ikinci bağımsız Türkçe kaynak çıkmadı. |
 | 1 | Focus 4 / Kuga 3 | 2019- | 1.5 EcoBlue 120 (DV5) | ✓ 2 sorun |
-| 2 | C-Max / Grand C-Max | 2010-2019 | 1.6 TDCi / 1.5 TDCi / 1.0 EcoBoost | – eklenmedi: Faz 9'da arandı: DonanımHaber'de 2011 model C-Max 1.6 TDCi'da enjektör arızası (tek başlık, bir enjektör için yaklaşık 1.230 TL teklif), Şikâyetvar'da 2012 model 1.6 TDCi'da enjektör pulu değişiminden sonra motor arızası (tek vaka); turbo boru / hortum ve DPF yorumları genel 1.6 TDCi'ya ait (Focus 1.6 TDCi kaydı). İkinci bağımsız doğrulama yok. |
-| 2 | Courier / Tourneo Courier | 2014- | 1.5 TDCi / 1.0 EcoBoost | – eklenmedi: Şikâyetler fren sesi, gıcırtı ve genel motor arıza lambası gibi dağınık konularda; ortak bir arıza için iki bağımsız site bulunamadı. |
+| 2 | C-Max / Grand C-Max | 2010-2019 | 1.5 TDCi | – eklenmedi: C-Max 1.5 TDCi için sonuç çıkmadı. |
+| 2 | C-Max / Grand C-Max | 2010-2019 | 1.6 TDCi 95/115 (DV6) | ◐ 3 ortak aile sorunu — Faz 9'da arandı: DonanımHaber'de 2011 model C-Max 1.6 TDCi'da enjektör arızası (tek başlık, bir enjektör için yaklaşık 1.230 TL teklif), Şikâyetvar'da 2012 model 1.6 TDCi'da enjektör pulu değişiminden sonra motor arızası (tek vaka); turbo boru / hortum ve DPF yorumları genel 1.6 TDCi'ya ait (Focus 1.6 TDCi kaydı). İkinci bağımsız doğrulama yok. Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır. |
+| 2 | C-Max / Grand C-Max | 2010-2019 | 1.6 Ti-VCT 105 (Powershift DPS6) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — C-Max'e özgü Powershift kaynağı aranmadı; gösterilen kavrama ve TCM sorunları Focus 3, Fiesta ve Volvo V40 / S60 kaynaklarına dayanır. |
+| 2 | C-Max / Grand C-Max | 2010-2019 | 1.0 EcoBoost 100/125 | ◐ 2 ortak aile sorunu, 2 yıl kırılımı — C-Max 1.0 EcoBoost'a özgü kaynak aranmadı; gösterilen sorunlar aynı EcoBoost motorunu kullanan Fiesta, Focus ve EcoSport kaynaklarına dayanır. |
+| 2 | Courier / Tourneo Courier | 2014- | 1.5 TDCi | – eklenmedi: Şikâyetler fren sesi, gıcırtı ve genel motor arıza lambası gibi dağınık konularda; ortak bir arıza için iki bağımsız site bulunamadı. |
+| 2 | Courier / Tourneo Courier | 2014- | 1.0 EcoBoost 100 | ◐ 2 ortak aile sorunu, 2 yıl kırılımı — Şikâyetler fren sesi, gıcırtı ve genel motor arıza lambası gibi dağınık konularda; ortak bir arıza için iki bağımsız site bulunamadı. Gösterilen sorunlar aynı EcoBoost motorunu kullanan Fiesta, Focus ve EcoSport kaynaklarına dayanır. |
+| 2 | EcoSport | 2013-2017 | 1.5 Ti-VCT 112 (Powershift DPS6) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — EcoSport 1.5 Ti-VCT Powershift'e özgü kaynak aranmadı; gösterilen kavrama ve TCM sorunları Focus 3, Fiesta ve Volvo V40 / S60 kaynaklarına dayanır. |
 | 2 | Fiesta | 2008-2023 | 1.25 / 1.4 Duratec | – eklenmedi: Kullanıcılar 1.25 ve 1.4 benzinlileri sorunsuz olarak anıyor; kronik sorun bulunamadı. |
 | 2 | Focus 3 | 2011-2018 | 1.5 EcoBoost 150/182 | – eklenmedi: Focus için sonuçlar ağırlıkla 1.0 EcoBoost; 1.5 EcoBoost silindir kapağı sorunu Kuga 2 / Mondeo kaydında ele alındı, Focus'a özgü kaynak yok. |
 | 2 | Kuga 2 | 2013-2019 | 1.5 EcoBoost 150/182 | ✓ 1 sorun |
 | 2 | Kuga 2 | 2013-2019 | 2.0 TDCi 140/150/180 | – eklenmedi: Faz 9'da arandı: 2011 model bir Kuga'da (Kuga 1) enjektör tutucu bacaklarının kırılması (tek vaka) ve Powershift'te düşük devirde vites düşürme gecikmesi, geri vitesten D'ye geçişte sarsıntı yorumları var; Şikâyetvar'daki turbo arızası şikâyetinde motor tipi belirtilmiyor. 2.0 TDCi için tekrar eden, iki siteyle doğrulanan sorun çıkmadı. |
-| 2 | Puma | 2019- | 1.0 EcoBoost mHEV | – eklenmedi: Forum görüşleri çelişkili (bazıları en sorunsuz 3 silindirli diyor); tekrar eden bir motor sorunu için kanıt yok. |
-| 3 | EcoSport | 2013-2022 | 1.0 EcoBoost | ✓ 1 sorun |
-| 3 | Mondeo / Transit Connect / Courier | 2007-2019 | 2.0 / 1.6 TDCi, 1.5 TDCi | – eklenmedi: Mondeo için tekil direksiyon, enjektör ve DPF anlatıları var; Transit Connect ve Courier 1.5 TDCi için sonuç çıkmadı. |
+| 2 | Puma | 2019- | 1.0 EcoBoost mHEV | ◐ 2 ortak aile sorunu, 2 yıl kırılımı — Forum görüşleri çelişkili (bazıları en sorunsuz 3 silindirli diyor); tekrar eden bir motor sorunu için kanıt yok. Gösterilen soğutma kaçağı ve yağ banyolu kayış sorunları aynı EcoBoost motorunu kullanan Fiesta, Focus ve EcoSport kaynaklarına dayanır. |
+| 2 | Transit Connect | 2013-2022 | 1.6 TDCi 75/95/115 (DV6) | ◐ 3 ortak aile sorunu — Transit Connect 1.5 TDCi için sonuç çıkmadı; 1.6 TDCi için modele özgü kaynak aranmadı. Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır. |
+| 3 | B-Max | 2012-2017 | 1.6 Ti-VCT 105 (Powershift DPS6) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — B-Max'e özgü kaynak aranmadı; gösterilen kavrama ve TCM sorunları Focus 3, Fiesta ve Volvo V40 / S60 kaynaklarına dayanır. |
+| 3 | B-Max | 2012-2017 | 1.0 EcoBoost 100/125 | ◐ 2 ortak aile sorunu, 2 yıl kırılımı — B-Max'e özgü kaynak aranmadı; gösterilen sorunlar aynı EcoBoost motorunu kullanan Fiesta, Focus ve EcoSport kaynaklarına dayanır. |
+| 3 | EcoSport | 2013-2022 | 1.0 EcoBoost | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
+| 3 | Mondeo | 2007-2019 | 2.0 / 1.6 TDCi | – eklenmedi: Mondeo için tekil direksiyon, enjektör ve DPF anlatıları var. |
 | 3 | Puma Gen-E / Mustang Mach-E / Explorer Electric | 2022- | Elektrik | – eklenmedi: Şikâyetvar'da Puma Gen-E için sürüş sırasında şarj hatası (iki kez yol yardımı) ve batarya su sızıntısı tekil; Mustang Mach-E ve Explorer Electric için kayıt çıkmadı. |
 | 3 | Ranger | 2012- | 2.2 / 3.2 TDCi | – eklenmedi: Şikâyetvar'da turbo ve hortum şikâyetleri var; 2.2 ve 3.2 TDCi'ye özgü ikinci bağımsız kaynak çıkmadı. |
 | 3 | Transit Custom | 2012- | 2.0 EcoBlue | – eklenmedi: Yağ tüketimi ve turbo şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız kaynak bulunamadı. |
@@ -522,10 +549,10 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | Ceed | 2012-2018 | 1.6 CRDi | ✓ 1 sorun |
+| 1 | Ceed | 2012-2018 | 1.6 CRDi | ✓ 1 sorun (+1 ortak aile) |
 | 1 | EV6 | 2022- | Elektrik (E-GMP, 77,4 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
-| 1 | Rio | 2011-2017 | 1.4 CRDi 90 | ✓ 1 sorun |
-| 1 | Sportage QL FL / NQ5 | 2018- | 1.6 CRDi 136 (7DCT) | ✓ 1 sorun |
+| 1 | Rio | 2011-2017 | 1.4 CRDi 90 | ✓ 1 sorun (+1 ortak aile) |
+| 1 | Sportage QL FL / NQ5 | 2018- | 1.6 CRDi 136 (7DCT) | ✓ 1 sorun (+2 ortak aile) |
 | 1 | Sportage SL / QL | 2010-2021 | 1.6 GDI 135 | ✓ 1 sorun |
 | 1 | Sportage SL / QL | 2010-2018 | 1.7 CRDi 115/141 | – eklenmedi: Faz 9'da arandı: 1.7 CRDi'ya özgü kronik arıza çıkmadı; turbo mili, enjektör ve DPF vakaları 1.6 CRDi ve 2020 sonrası araçlara ait (7DCT titremesi Sportage 1.6 CRDi kaydında). |
 | 2 | Ceed | 2012-2021 | 1.4 / 1.6 MPI | – eklenmedi: 1.4 ve 1.6 MPI benzinlilerde motora özgü kronik sorun çıkmadı; torpido ve konsol kabarması motor tipinden bağımsız. |
@@ -534,16 +561,18 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Niro EV | 2019- | Elektrik | – eklenmedi: Şikâyetvar'da menzil, DC şarj süresi ve batarya bağlantı ünitesi (parçanın Türkiye'de bulunmaması) şikâyetleri tekil; ikinci bağımsız kaynak yok. EV3 ICCU arızası Faz 6'da ayrı kayıt oldu; ICCU geri çağırması Kia EV6 kaydında. |
 | 2 | Picanto | 2017- | 1.0 / 1.2 MPI | ✓ 1 sorun |
 | 2 | Rio | 2011-2017 | 1.4 MPI 100 | – eklenmedi: Forumlarda sorunsuz olarak anılıyor; kronik sorun bulunamadı. |
-| 2 | Rio YB | 2017-2023 | 1.4 MPI 100 / 1.0 T-GDI | – eklenmedi: Faz 9'da arandı: DonanımHaber'de Rio 1.4 MPI ve 6 ileri tork konvertörlü otomatik için sorunsuz yorumları var (bir sahip yaklaşık 27.500 km'de sorun yaşamadığını yazıyor); 1.0 T-GDI için kaynak çıkmadı. Rio UB 1.4 CRDi DPF sorunu ayrı kayıtta. |
+| 2 | Rio YB | 2017-2023 | 1.4 MPI 100 | – eklenmedi: Faz 9'da arandı: DonanımHaber'de Rio 1.4 MPI ve 6 ileri tork konvertörlü otomatik için sorunsuz yorumları var (bir sahip yaklaşık 27.500 km'de sorun yaşamadığını yazıyor). Rio UB 1.4 CRDi DPF sorunu ayrı kayıtta. |
+| 2 | Rio YB | 2017-2023 | 1.0 T-GDI 100 (7DCT) | ◐ 1 ortak aile sorunu — Rio 1.0 T-GDI için kaynak çıkmadı; gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
 | 2 | Stonic | 2017- | 1.4 MPI 100 (6 ileri otomatik) | ✓ 1 sorun, 1 yıl kırılımı |
-| 3 | Ceed CD | 2018- | 1.6 CRDi 115/136 | – eklenmedi: Faz 9'da arandı (tek sorgu, T-GDI ile birlikte): Ceed CD'ye özgü sonuçlar 7DCT silkelemesinde toplandı (T-GDI satırında kayıtlı); 1.6 CRDi motoru ve yağ eksiltme için bilgi çıkmadı. |
+| 3 | Ceed / Rio | 2010-2021 | 1.4 MPI, 1.25 | – eklenmedi: Ceed 1.4 MPI ve Rio 1.25 için motor kaynaklı kronik sorun çıkmadı; Ceed şikâyetleri torpido / konsol çatlaması ve start-stop üzerine. |
+| 3 | Ceed CD | 2018- | 1.6 CRDi 115/136 | ◐ 3 ortak aile sorunu — Faz 9'da arandı (tek sorgu, T-GDI ile birlikte): Ceed CD'ye özgü sonuçlar 7DCT silkelemesinde toplandı (T-GDI satırında kayıtlı); 1.6 CRDi motoru ve yağ eksiltme için bilgi çıkmadı. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. |
 | 3 | Cerato | 2013-2018 | 1.6 (arka stop ve bagajdan su alma) | – eklenmedi: Su alma şikâyetleri Şikâyetvar'da çok, ancak kilometre ve model yılı verisi yok ve ikinci bağımsız kaynak (Ekşi'de tek yorum) sınırlı. |
 | 3 | EV9 | 2024- | Elektrik | – eklenmedi: Şikâyetvar'da hızlı şarjın araç tarafından durdurulması (yaklaşık 20.000 km) ve batarya elektrik arızası (üç hafta serviste) tekil. CarComplaints'te ABD'deki 2024 EV9'lara ait elektrik sistemi şikâyetleri var ancak Türkiye şikâyetleriyle aynı arıza değil; NHTSA'nın ICCU geri çağırmasının EV9'u kapsadığı doğrulanamadı (EV6 kaydı). |
 | 3 | Niro / Cerato / Sorento | 2011- | Hybrid / 1.6 / 2.2 CRDi | – eklenmedi: Cerato ve Niro için sonuç çıkmadı; Sorento 2.2 CRDi için yalnızca tekil şikâyetler var. |
 | 3 | Sorento / Venga | 2010-2018 | 2.2 CRDi / 1.4 CRDi | – eklenmedi: Sorento 2.2 CRDi ve Venga 1.4 CRDi için kaynak çıkmadı. |
-| 3 | Sportage / Ceed / Rio | 2010-2021 | 1.7 CRDi, 1.4 MPI, 1.25 | – eklenmedi: Sportage 1.7 CRDi, Ceed 1.4 MPI ve Rio 1.25 için motor kaynaklı kronik sorun çıkmadı; Ceed şikâyetleri torpido / konsol çatlaması ve start-stop üzerine. |
-| 3 | Sportage SL / QL | 2010-2021 | 1.6 T-GDI 177 (7DCT) | – eklenmedi: Faz 9'da arandı (tek sorgu): Şikâyetvar ya da DonanımHaber kaydı çıkmadı; sonuçlar genel inceleme ve teknik özellik sayfalarından oluştu. 7DCT kavrama titremesi Sportage 1.6 CRDi kaydında. |
-| 3 | Stonic | 2017- | 1.0 T-GDI / 1.6 CRDi | – eklenmedi: 1.0 T-GDI için tekil titreme ve arıza lambası şikâyetleri; 1.6 CRDi için sonuç çıkmadı. |
+| 3 | Sportage QL | 2015-2018 | 1.6 T-GDI 177 (7DCT) | ◐ 1 ortak aile sorunu — Faz 9'da arandı (tek sorgu): Şikâyetvar ya da DonanımHaber kaydı çıkmadı; sonuçlar genel inceleme ve teknik özellik sayfalarından oluştu. 7DCT kavrama titremesi Sportage 1.6 CRDi kaydında; gösterilen sorun 7DCT ailesinden. |
+| 3 | Sportage QL | 2015-2018 | 1.7 CRDi 115/141 (6MT ve 7DCT) | ◐ 3 ortak aile sorunu — Sportage 1.7 CRDi için motor kaynaklı kronik sorun çıkmadı. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
+| 3 | Stonic | 2017- | 1.0 T-GDI / 1.6 CRDi | ◐ 4 ortak aile sorunu — 1.0 T-GDI için tekil titreme ve arıza lambası şikâyetleri; 1.6 CRDi için sonuç çıkmadı. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. |
 
 ### Dacia
 
@@ -625,7 +654,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 2 | EX30 / XC40 Recharge | 2021- | Elektrik | – eklenmedi: EX30 için hücre kusuru geri çağırması var (Sunwoda hücreleri, %70 şarj sınırı, modül değişimi); Avrupa'da yalnızca sağ direksiyonlu 69 kWh modelleri kapsadığı yazılıyor ve Türkiye kapsamı doğrulanamadı. Şikâyetvar'daki hızlı şarj, 'Electric Drive Fault' ve XC40 Recharge motor / batarya şikâyetleri tekil. |
-| 3 | S60 / V40 | 2011-2018 | 1.6 D DRIVe (Powershift) | ✓ 1 sorun |
+| 3 | S60 / V40 | 2011-2018 | 1.6 D DRIVe (Powershift) | ✓ 1 sorun (+4 ortak aile) |
 
 ### Subaru (ek kademe)
 
@@ -638,7 +667,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 3 | Cooper / One (F56) | 2014- | 1.5 üç silindir (B38) | – eklenmedi: F56 1.5 üç silindir için kaynak çıkmadı; bir Ekşi yorumu yağ kaçırdığını söylüyor ama motor belirsiz. |
-| 3 | Cooper S / Countryman S (R56 / R60) | 2007-2016 | 1.6 turbo benzinli (N14 / N18) | ✓ 1 sorun |
+| 3 | Cooper S / Countryman S (R56 / R60) | 2007-2016 | 1.6 turbo benzinli (N14 / N18) | ✓ 1 sorun (+2 ortak aile) |
 | 3 | Cooper SE | 2020- | Elektrik | – eklenmedi: Şikâyetvar'da dört kayıt (sürüş kontrolü kaybı iddiası, 37 gün parça beklemesi); DonanımHaber yorumları olumlu. Tekrar eden bir arıza örüntüsü yok. NHTSA 24V-612 geri çağırması 2020-2024 Cooper SE'yi kapsıyor (12.535 araç; yazılımla bataryanın %30'un altına boşaltılması, yangın riski); Türkiye kapsamı ve Türkiye'den bir şikâyet bulunamadı. |
 
 ### Jeep (ek kademe)
@@ -665,7 +694,8 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 3 | SX4 S-Cross / Vitara / Swift | 2014- | 1.4 BoosterJet / 1.6 DDiS | – eklenmedi: Bulgular tek rehber sitesi (Araclo) ve Şikâyetvar'ın elektronik / multimedya şikâyetleriyle sınırlı. |
+| 2 | SX4 S-Cross / Vitara | 2013- | 1.6 DDiS 120 (DV6) | ◐ 3 ortak aile sorunu — S-Cross ve Vitara 1.6 DDiS'e özgü kaynak bulunamadı (şikâyetler elektronik ve multimedya konusunda). Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır. |
+| 3 | SX4 S-Cross / Vitara / Swift | 2014- | 1.4 BoosterJet | – eklenmedi: Bulgular tek rehber sitesi (Araclo) ve Şikâyetvar'ın elektronik / multimedya şikâyetleriyle sınırlı. |
 
 ### Mitsubishi (ek kademe)
 

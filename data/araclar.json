@@ -178,6 +178,896 @@
       ]
     },
     {
+      "id": "fiat-1-3-multijet",
+      "ad": "Fiat / Opel 1.3 Multijet - CDTI (common rail dizel, zincirli)",
+      "tur": "motor",
+      "aciklama": "Fiat'ın 1.3 litre common rail dizel motoru (Multijet; Opel'de CDTI). Fiat Punto, Linea, Egea, Doblo, Fiorino, Qubo, 500L ile Opel Corsa D / E, Astra H / J, Combo D ve Meriva B'de 75-95 PS.",
+      "kronik_sorunlar": [
+        {
+          "id": "enjektor",
+          "sorun_adi": "Enjektör arızası",
+          "etkilenen_parca": "Common-rail enjektörleri (kaynaklar özellikle 1.6 Multijet'i anıyor)",
+          "belirtiler": "Çekiş kaybı, tekleme, siyah duman, zor çalışma, motor arıza lambası; bazı sahipler arızanın garanti kapsamı dışında bırakıldığını bildiriyor",
+          "tahmini_km_araligi": "40.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forumlarda 1.3 Multijet'te enjektör arızası en yaygın sorunlardan biri olarak anılıyor; güç kaybı, duman ve yakıt tüketiminde artışa yol açıyor. Kaynaklarda net bir kök neden verilmiyor. Bazı sahipler arızanın garanti dışı bırakıldığını bildiriyor (mevcut belirti).",
+            "teshis": "Güç kaybı, tekleme, siyah duman, zor çalışma, motor arıza lambası. Forumlarda önce OBD ile arıza kaydının okutulması (ucuz ilk adım), ardından enjektörlerin sökülüp test cihazında ölçülmesi öneriliyor.",
+            "cozum": "Enjektörlerin test cihazında ölçülüp arızalı olanın onarımı ya da değişimi; temizlik her zaman yetmeyebiliyor.",
+            "maliyet": "Şikâyetvar'da bir kullanıcı enjektör arızası için 53 bin TL masraf çıktığını yazıyor (tarih ve motor sürümü belirsiz); başka güncel rakam bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/doblo/enjektor",
+            "https://www.sikayetvar.com/fiat/doblo/kronik",
+            "https://forum.donanimhaber.com/yeni-doblo-alacaklar-dikkat--46336196",
+            "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
+            "https://forum.donanimhaber.com/1-3-multijet-cekis-problemi--34957272",
+            "https://forum.donanimhaber.com/fiat-doblo-1-3-mjet-stop-etme-sorunu--150456532",
+            "https://www.sikayetvar.com/fiat/fiorino/kronik",
+            "https://www.sikayetvar.com/fiat/fiorino/13-multijet",
+            "https://www.sikayetvar.com/fiat/fiorino/multijet",
+            "https://forum.donanimhaber.com/fiorino-alacagim-dikkat-etmem-gerekenler--104624344"
+          ]
+        },
+        {
+          "id": "turbo",
+          "sorun_adi": "Turbo arızası",
+          "etkilenen_parca": "Turboşarj",
+          "belirtiler": "Güç kaybı, ıslık sesi, motor arıza lambası; değişimden sonra tekrarlayan arıza ve yüksek parça maliyeti bildiriliyor",
+          "tahmini_km_araligi": "50.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Turbo belirtisi (güç kaybı, ıslık) turbonun kendisinden olduğu kadar hava giriş hortumunun yırtılmasından ya da kelepçenin gevşemesinden de kaynaklanabiliyor (DonanımHaber). Bir kullanıcı yağ kalitesinin turbo ömrünü doğrudan etkilediğini yazıyor.",
+            "teshis": "Güç kaybı, ıslık sesi, arıza lambası. Önce hava giriş hortumları ve kelepçeler kontrol edilmeli (forum önerisi).",
+            "cozum": "Turbo değişimi. Şikâyetvar'da bir kullanıcı 4 yıllık garanti bitiminden 6 ay sonra turbo arızası yaşadığını, servisin parça fiyatını 40.000 TL söylediğini ve Fiat'ın en fazla %10 destek verebileceğini yazıyor.",
+            "maliyet": "Eski forum paylaşımlarında (yıllar öncesi) turbo 909 TL, toplam 1.239 TL ya da 400 TL; yakın tarihli Şikâyetvar şikâyetinde yalnızca parça 40.000 TL. Aradaki fark büyük; güncel teklif alın.",
+            "onlem": "Periyodik bakımı ve kaliteli yağı aksatmamak (forum yorumu)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/doblo/turbo",
+            "https://www.sikayetvar.com/fiat/doblo/kronik",
+            "https://forum.donanimhaber.com/yeni-doblo-alacaklar-dikkat--46336196",
+            "https://forum.donanimhaber.com/1-3-multijet-cekis-problemi--34957272",
+            "https://forum.donanimhaber.com/turbo-fiyati-909-tl-toplam-1-239-tl-fiat-doblo-1-3-multi-jet-turbo-arizasi--62225627",
+            "https://www.sikayetvar.com/fiat/fiat-doblo-multijet-turbo-arizasi",
+            "https://www.sikayetvar.com/fiat/fiorino/kronik",
+            "https://www.sikayetvar.com/fiat/fiorino/multijet",
+            "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
+            "https://otopark.com/forum/threads/multijet-turbo-islik-sesi.6125/",
+            "https://eksisozluk.com/opel-astra-1-3-cdti--1306897",
+            "https://www.vauxhallownersnetwork.co.uk/threads/1-3-cdti-turbo-issues.349893/"
+          ]
+        },
+        {
+          "id": "egr-valfi",
+          "sorun_adi": "EGR valfi tıkanması",
+          "etkilenen_parca": "EGR valfi",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide stop etme",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe ve şehir içi kullanımda DPF'nin kendini temizleme (rejenerasyon) döngüsünü tamamlayamaması ve EGR valfinin kurumla kirlenmesi, kullanıcıların en sık aktardığı neden (Araclo, DonanımHaber). Bir forum kullanıcısı filtrenin dolmasından kalın mazotu sorumlu tutuyor (kanıtlanmamış görüş).",
+            "teshis": "Çekiş kaybı, motor arıza lambası, rölantide stop etme, DPF uyarısı ve sık rejenerasyon. Beyaz duman ve aşırı yakıt tüketiminde EGR, DPF, enjektör ve turbo birlikte kontrol edilmeli; önce arıza kodları okutulmalı (DonanımHaber).",
+            "cozum": "EGR valfi kirlenmesinde periyodik temizlik çoğu vakada işe yarıyor, ileri durumda valf değişimi gerekebiliyor (DonanımHaber). DPF için temizlik (bir kullanıcı 7.500 TL ödeyerek temizlettiğini yazıyor) ya da değişim. Forumlarda EGR/DPF iptali de yaygın ama uygulamanın kalitesi çok değişiyor, muayeneden kalma ve hukuki risk taşıyor; bir kullanıcı iptal sonrası arıza lambasının sönmediğini yazıyor.",
+            "maliyet": "Eski ve tarihli forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), EGR valfi servis fiyatı 1.515 TL / yan sanayi parçası ~400 TL ve işçilik ~150 TL, DPF temizliği 7.500 TL; bir kullanıcıya DPF değişimi için servis ~45 bin TL söylenmiş; bir atölyeye EGR ve partikül temizliği için 6.000 TL ödenip sonuç tatmin edici olmamış. Güncel teklif için servisten yazılı fiyat alın.",
+            "onlem": "Forumlarda DPF'nin kendini temizleyebilmesi için düzenli aralıklarla en az 20-30 dakika orta-yüksek devirli sürüş öneriliyor. İkinci elde EGR/DPF'si iptal edilmiş araçlardan uzak durulması öneriliyor: hem muayene hem hukuki risk taşıyor."
+          },
+          "kaynaklar": [
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari",
+            "https://www.fiatforum.com/threads/1-3-multijet.476537/",
+            "https://otopark.com/forum/threads/egea-dpf-iptali-sonrasi-yasanan-sorunlar.15711/",
+            "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
+            "https://forum.donanimhaber.com/egea-1-3-multijet-beyaz-duman-fazla-yakit-cozuldu--147630865",
+            "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
+            "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-alinir-mi-performans-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+            "https://www.araclo.com/vehicles/fiat-linea-1.3-multijet/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/1-3-multijet-lineaga-egr-temizligi-yaptiran-varmi--123618112",
+            "https://eksisozluk.com/1-3-multijet--5926748?p=3",
+            "https://forum.donanimhaber.com/yeni-doblo-alacaklar-dikkat--46336196",
+            "https://www.vauxhallownersnetwork.co.uk/threads/going-mad-with-egr-dpf-problems.425061/",
+            "https://www.honestjohn.co.uk/vauxhall/astra/2004/"
+          ]
+        },
+        {
+          "id": "dpf-yagi-yakit",
+          "sorun_adi": "DPF tıkanması ve yağa yakıt karışması",
+          "etkilenen_parca": "Dizel partikül filtresi (DPF), motor yağı",
+          "belirtiler": "DPF uyarısı, güç kısıtlaması, tamamlanamayan rejenerasyonlar nedeniyle yağ seviyesinin yükselmesi",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe ve şehir içi kullanımda DPF rejenerasyonu tamamlanamıyor ve filtre zamanla tıkanıyor (kullanıcıların en sık aktardığı sorun); yarım kalan rejenerasyonlarda yakıtın yağa karışıp yağ seviyesini yükseltmesi mevcut belirtilerde anılıyor. Bir forum kullanıcısı filtrenin dolmasından kalın mazotu sorumlu tutuyor (kanıtlanmamış görüş).",
+            "teshis": "Çekiş kaybı, motor arıza lambası, rölantide stop etme, DPF uyarısı ve sık rejenerasyon. Beyaz duman ve aşırı yakıt tüketiminde EGR, DPF, enjektör ve turbo birlikte kontrol edilmeli; önce arıza kodları okutulmalı (DonanımHaber).",
+            "cozum": "EGR valfi kirlenmesinde periyodik temizlik çoğu vakada işe yarıyor, ileri durumda valf değişimi gerekebiliyor (DonanımHaber). DPF için temizlik (bir kullanıcı 7.500 TL ödeyerek temizlettiğini yazıyor) ya da değişim. Forumlarda EGR/DPF iptali de yaygın ama uygulamanın kalitesi çok değişiyor, muayeneden kalma ve hukuki risk taşıyor; bir kullanıcı iptal sonrası arıza lambasının sönmediğini yazıyor.",
+            "maliyet": "Eski ve tarihli forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), EGR valfi servis fiyatı 1.515 TL / yan sanayi parçası ~400 TL ve işçilik ~150 TL, DPF temizliği 7.500 TL; bir kullanıcıya DPF değişimi için servis ~45 bin TL söylenmiş; bir atölyeye EGR ve partikül temizliği için 6.000 TL ödenip sonuç tatmin edici olmamış. Güncel teklif için servisten yazılı fiyat alın.",
+            "onlem": "Forumlarda DPF'nin kendini temizleyebilmesi için düzenli aralıklarla en az 20-30 dakika orta-yüksek devirli sürüş öneriliyor. İkinci elde EGR/DPF'si iptal edilmiş araçlardan uzak durulması öneriliyor: hem muayene hem hukuki risk taşıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiat-egea-araclarda-kronik-dpf-arizasi-ve-cozum-talebi",
+            "https://otopark.com/forum/threads/egea-dpf-iptali-sonrasi-yasanan-sorunlar.15711/",
+            "https://www.fiatforum.com/threads/fiat-500-1-3-multijet-egr-dpf-oil-level.500987",
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari",
+            "https://forum.donanimhaber.com/egea-1-3-multijet-beyaz-duman-fazla-yakit-cozuldu--147630865",
+            "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
+            "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-alinir-mi-performans-kronik-sorunlar-ve-kullanici-yorumlari-2026"
+          ]
+        },
+        {
+          "id": "triger-zinciri",
+          "sorun_adi": "Triger zinciri uzaması",
+          "etkilenen_parca": "Triger zinciri ve zincir gergisi",
+          "belirtiler": "Soğuk çalıştırmada birkaç saniye süren metalik hışırtı, kam/krank senkron hatası ile arıza lambası",
+          "tahmini_km_araligi": "150.000 - 250.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda zincirin neden uzadığı açıklanmıyor; vakalar ses ve değişim zamanlaması üzerine. Motor triger zincirli olduğu için periyodik kayış değişimi yok.",
+            "teshis": "Soğuk çalıştırmada birkaç saniyelik metalik hışırtı; bir kullanıcının zinciri kopmuş ve öncesinde şıkırtı duymuş. Ses değişim için önemli bir uyarı sayılıyor.",
+            "cozum": "Zincir seti değişimi; zincirin takılması için motorun indirilmesi gerektiği için işçilik yüksek tutuluyor. Bir kullanıcı bazı ustaların kilit aparatı kullanmadan dişi kaydırabildiğini yazıyor, bu yüzden güvenilir serviste yaptırılması öneriliyor.",
+            "maliyet": "Eski forum rakamları: ~2015'te zincir, filtre seti, yağ ve işçilik 800-1.000 TL; 2019'da servis işçilik+parça 1.200 TL (kampanyalı 700 TL); parça ~180 TL, asıl maliyet işçilik. Yıllar öncesine ait, güncel değil.",
+            "onlem": "Forumda genel tavsiye 120.000 km ya da 5 yıl; temiz kullanılan araçta 180-200 bin km gidebileceğini savunanlar ve servislerin 120 binde önerdiğini aktaranlar var; çoğu kişi değişimi ses başlayınca yapmış."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/linea-1-3-multijet-triger-zincir-degisimi--85642559",
+            "https://forum.donanimhaber.com/1-3-multijet-triger-zincir-degisim-zamani-yardim--130469575",
+            "https://www.araclo.com/vehicles/fiat-linea-1.3-multijet/degerlendirmeler/kullanici-sorunlari",
+            "https://fiatforum.com/threads/what-goes-wrong-with-multijet-pandas.492092",
+            "https://forum.donanimhaber.com/triger-zinciri-degisim-masrafi--83339532",
+            "https://forum.donanimhaber.com/2015-linea-1-3-mjet-euro-5-motor-triger-zincir-degisim-maliyeti--139580456",
+            "https://www.araclo.com/blog/opel-astra-1.3-cdti-kronik-sorunlari-ve-ikinci-el-alim-rehberi",
+            "https://forum.donanimhaber.com/astra-j-1-3-cdti-sogukken-gec-calisiyor--161100091",
+            "https://forum.donanimhaber.com/opel-astra-1-3-cdti-almayi-dusunuyorum-artilari-eksileri-nelerdir-tavsiyelerinizi-bekliyorum--8707312-10",
+            "https://forum.donanimhaber.com/triger-sesi-degisim-periyodu--158393210",
+            "https://eksisozluk.com/opel-astra-1-3-cdti--1306897",
+            "https://www.vauxhallownersnetwork.co.uk/threads/astra-1-3-cdti-timing-chain.316850/",
+            "https://www.araclo.com/blog/opel-corsa-1.3-cdti-alinir-mi-kronik-sorunlar-kullanici-yorumlari-ve-ikinci-el-alim-rehberi",
+            "https://forum.donanimhaber.com/corsa-1-3-cdti-multijet-160k-km-titretisim-problemi--134600465"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ford-1-0-ecoboost",
+      "ad": "Ford 1.0 EcoBoost (3 silindir turbo benzin)",
+      "tur": "motor",
+      "aciklama": "Ford'un 2012'den itibaren Fiesta, Focus, EcoSport, B-Max, C-Max, Puma ve Courier'de kullandığı 1.0 litre üç silindirli turbo benzinli motor (EcoBoost; 100-140 PS). Yağ banyosunda çalışan triger kayışı kullanır.",
+      "kronik_sorunlar": [
+        {
+          "id": "sogutma-kacagi",
+          "sorun_adi": "Soğutma sistemi kaçağı ve hararet",
+          "etkilenen_parca": "Soğutma sıvısı hortumları (degas hortumu) ve genleşme tankı",
+          "belirtiler": "Hararet uyarısı, antifriz eksilmesi (sıcaklık uyarısı vermeden de olabilir), ileri aşamada silindir kapağı çatlaması",
+          "tahmini_km_araligi": "30.000 - 100.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "İngiliz sahip forumlarında soğutma suyu degas hattındaki plastik T parçası ve sert hattın ısı ve titreşimle çatlayıp kopabildiği anlatılıyor. Bir katılımcıya göre ilgili degas hortumu yalnızca 25.04.2012-05.05.2014 arası üretilen Focus Mk3 1.0 EcoBoost araçlara takılmış; geri çağırma ince duvarlı plastik boruyu kauçuk hortumla değiştirmiş ama bazı sahipler sorunun sürdüğünü yazıyor (resmî doğrulama yok; ETIS'te '4S615' aksiyonu anılıyor).",
+            "teshis": "Soğutma suyu kaybında sıcaklık sensörü hava ölçtüğü için sıcaklık uyarısı gelmeyebiliyor (Ford Owners Club yorumu); bu yüzden seviye düzenli kontrol edilmeli. DonanımHaber'de eksilmenin devirdaim, radyatör ve özellikle bir yere temas eden hortumlardan olabileceği, bunların kontrol edilmesi gerektiği yazılı.",
+            "cozum": "Hortum/boru değişimi; Ford'un bazı modellerde hortumları değiştirdiği aktarılıyor. Şasi numarasıyla bayiden açık servis aksiyonu sorgulanması öneriliyor.",
+            "onlem": "Soğutma hortumları ve silindir kapağının düzenli kontrolü, soğutma suyu seviyesinin sık takibi (And Mehmet Çetin / forum önerileri). Kaynaklar ileri aşamada silindir kapağı çatlamasından söz ediyor."
+          },
+          "kaynaklar": [
+            "https://www.fordownersclub.com/forums/topic/139001-2013-focus-1l-ecoboost-coolant-degas-pipe-perished-leading-to-engine-overheating/",
+            "https://www.fordownersclub.com/forums/topic/69942-mk3-10-ecoboost-recall/",
+            "https://www.honestjohn.co.uk/forum/post/121115/ford-cmax-1-0",
+            "https://andcetin.com/10-ecoboost-motor-sorunlar-44/",
+            "https://www.araclo.com/blog/ford-focus-1.0-ecoboost-gtdi-alinir-mi-kronik-sorunlar-performans-ve-kullanici-yorumlari",
+            "https://otopark.com/forum/threads/1-0-ecoboost-nasildir.15654/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2012,
+              "bitis": 2014,
+              "durum": "Yaygın",
+              "not": "Focus Mk3'te Nisan 2012-Mayıs 2014 arası takılan degas hortumu için geri çağırma yapıldı."
+            },
+            {
+              "baslangic": 2015,
+              "bitis": 2016,
+              "durum": "Görülebilir",
+              "not": "Hortum tasarımı değişti ama bazı sahipler kaçağın sürdüğünü bildiriyor."
+            }
+          ]
+        },
+        {
+          "id": "yagli-triger-kayisi",
+          "sorun_adi": "Yağ banyolu triger kayışının aşınması",
+          "etkilenen_parca": "Yağ içinde çalışan triger kayışı",
+          "belirtiler": "Kayış parçacıklarının yağ pompası süzgecini tıkaması, düşük yağ basıncı uyarısı, motor hasarı",
+          "tahmini_km_araligi": "100.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yağ içinde çalışan kauçuk kayışın aşınan parçacıkları karterde birikip yağ süzgecini tıkıyor; bakımlarda karter sökülüp süzgeç temizlenmezse yağ pompasının emişi tıkanıp motor yatak sarabiliyor (forum yorumu). Yağ banyolu kayış yalnızca 1.0 EcoBoost'ta var, 1.5 ve 1.6'da kuru kayış kullanılıyor (forum).",
+            "teshis": "Düşük yağ basıncı uyarısı; 3-4 bakımda bir karterin açılıp yağ süzgecinin kontrol edilmesi öneriliyor (forum yorumu).",
+            "cozum": "Kayış değişimi ve karter/süzgeç temizliği. Zincire geçiş zamanı kaynaklarda çelişiyor: biri 2018-2019 sonrası zincire geçildiğini yazarken başka bir yazar yağ pompası kayışının hâlâ yağ içinde olabileceğini belirtiyor; şasi numarasıyla bayiden teyit alın.",
+            "maliyet": "Yıllar öncesine ait forum rakamlarında kayış değişimi parça+işçilik ~600 TL (parça 350-450, işçilik 150-200 TL); bugünkü fiyat çok farklı, güncel teklif alın."
+          },
+          "kaynaklar": [
+            "https://www.fordownersclub.com/forums/topic/133542-10-ecoboost-wet-belt-issue/",
+            "https://www.parkers.co.uk/car-news/ford-wet-belt-issues/",
+            "https://andcetin.com/10-ecoboost-motor-sorunlar-44/",
+            "https://www.araclo.com/blog/ford-focus-1.0-ecoboost-gtdi-alinir-mi-kronik-sorunlar-performans-ve-kullanici-yorumlari",
+            "https://otopark.com/forum/threads/1-0-ecoboost-nasildir.15654/",
+            "https://www.sikayetvar.com/ford/ecosport/motor",
+            "https://www.sikayetvar.com/ford/ecoboost",
+            "https://eksisozluk.com/ford-ecosport--1178805?p=6",
+            "https://forum.donanimhaber.com/1-0-ecoboost-kullanim-omru--94004403-3",
+            "https://www.sikayetvar.com/ford/ford-focus-2016-10-ecoboost-motor-arizasi-ve-komple-degisimi"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2012,
+              "bitis": 2017,
+              "durum": "Yaygın",
+              "not": "Yağ içinde çalışan kauçuk triger kayışı; parçacıklar yağ süzgecini tıkıyor."
+            },
+            {
+              "baslangic": 2018,
+              "bitis": 2020,
+              "durum": "Görülebilir",
+              "not": "Geçiş dönemi: kaynaklar zincire geçişi 2018-2021 arasında farklı yıllarda veriyor, şasi numarasıyla kontrol edin."
+            },
+            {
+              "baslangic": 2021,
+              "bitis": 2023,
+              "durum": "Seyrek",
+              "not": "Zincire geçildi; yağ pompası kayışı yağ içinde kalıyor ama arıza bildirimi az."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ford-dps6-powershift",
+      "ad": "Ford / Volvo DPS6 Powershift (6 ileri kuru çift kavramalı)",
+      "tur": "sanziman",
+      "aciklama": "Ford'un 2010'dan itibaren Fiesta, Focus, C-Max, B-Max, EcoSport ve Volvo'nun V40, S60, V60 (D2 / 1.6) modellerinde kullandığı 6 ileri kuru kavramalı çift kavramalı şanzıman (Powershift, DPS6).",
+      "kronik_sorunlar": [
+        {
+          "id": "kavrama-silkeleme",
+          "sorun_adi": "Powershift kavrama silkelemesi ve kavrama yuvası sızıntısı",
+          "etkilenen_parca": "Çift kuru kavrama ve giriş mili keçeleri",
+          "belirtiler": "Kalkışta ve düşük hızda titreme/silkeleme, vites geçişlerinde vuruntu, kavrama yuvasından şanzıman yağı sızıntısı",
+          "tahmini_km_araligi": "40.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DPS6 Powershift kuru kavramalı çift kavramalı şanzımandır. Ford'un 2012-2016 Focus için servis bülteni, hafif gazda aşırı kavrama titremesini ve kavrama yuvasından şanzıman yağı sızıntısı olabileceğini yazıyor; onarım yolu kavrama değişimi ve PCM/TCM yeniden programlama (NHTSA). And Mehmet Çetin 6DCT250 kodlu kuru kavramalı şanzımanlardan mümkünse uzak durulmasını öneriyor.",
+            "teshis": "Kalkışta ve araç ısındığında titreme, vites geçişlerinde vuruntu, geri vitesin devreye girmemesi, şanzıman hatası bildiriliyor. Servisler bazen kavramayı, bazen TCM'yi işaret ediyor; bir Focus sahibine TCM, ECU ve BCM'nin değişmesi gerektiği söylenmiş (Şikâyetvar, DonanımHaber).",
+            "cozum": "Forumlarda titreme kavrama aşınmasındansa kavrama değişimiyle bitiyor; TCM arızasında modül değişimi. Şikâyetvar'da bir kullanıcı Ford'un mevcut kavrama değişiminin %50'sini karşılayacağını söylediğini aktarıyor. ABD'de TCM için 10 yıl/150.000 mil uzatılmış garanti programı (14M02) ve 2017'de yaklaşık 1,5 milyon araçlık toplu dava uzlaşması oldu (CarComplaints); Türkiye'deki kapsam doğrulanmadı.",
+            "maliyet": "Farklı yıllara ait tek tek beyanlar: DonanımHaber'de 2019'da kavrama (işçilik dahil) 2.500 TL, TCM değişimi 19 bin TL; Şikâyetvar'da bir Focus sahibi kavramayla birlikte 51 bin TL, Fiesta için garanti dışı onarım 140 bin TL, başka bir sahip baskı balata ve TCM için ~150 bin TL, bir Fiesta sahibine ilk tespit için ~5 bin TL istenmiş. Doğrudan karşılaştırılamaz; güncel teklif alın.",
+            "onlem": "Servis kayıtlarında kavrama, TCM ve yazılım işlemlerini sormak; garanti dönemindeyse tekrarlayan başvuruları yazılı tutmak. Kuru kavramalı Powershift'li modellerden uzak durulması tavsiye ediliyor (And Mehmet Çetin)."
+          },
+          "kaynaklar": [
+            "https://static.nhtsa.gov/odi/tsbs/2016/SB-10092372-5448.pdf",
+            "https://www.carcomplaints.com/Ford/Focus/2016/transmission/shudders.shtml",
+            "https://www.sikayetvar.com/ford/focus/powershift",
+            "https://forum.donanimhaber.com/ford-focus-1-6-ti-vct-powershift-ariza-fiyat-hakkinda-bilgi--146762175",
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/",
+            "https://www.sikayetvar.com/ford/ford-focus-powershift-sanziman-titreme-sorunu",
+            "https://www.sikayetvar.com/ford/fiesta/powershift",
+            "https://forum.donanimhaber.com/volvo-s60-1-6d-powershift-sanziman-titretme-sorunu--108560311",
+            "https://forum.donanimhaber.com/powershift-kavrama-degisimi-volvo--88413042",
+            "https://forum.donanimhaber.com/volvo-s60-1-6d-drive-powershift-hakkinda--140574146",
+            "https://forum.donanimhaber.com/powershift-sanziman-hakkinda--125031314",
+            "https://www.araclo.com/blog/volvo-s60-1.6-d-alinir-mi-yakit-tuketimi-sorunlari-ve-kullanici-yorumlari-2026"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2012,
+              "bitis": 2016,
+              "durum": "Yaygın",
+              "not": "Ford'un servis bülteni ve uzatılmış garanti programı 2012-2016 Focus'u kapsıyor."
+            }
+          ]
+        },
+        {
+          "id": "tcm-arizasi",
+          "sorun_adi": "Şanzıman kontrol modülü (TCM) arızası",
+          "etkilenen_parca": "Şanzıman kontrol modülü (TCM)",
+          "belirtiler": "Seyir halinde aniden boşa düşme, şanzıman arıza uyarısı, vites değiştirememe, aracın çalışmaması",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DPS6 Powershift kuru kavramalı çift kavramalı şanzımandır. Ford'un 2012-2016 Focus için servis bülteni, hafif gazda aşırı kavrama titremesini ve kavrama yuvasından şanzıman yağı sızıntısı olabileceğini yazıyor; onarım yolu kavrama değişimi ve PCM/TCM yeniden programlama (NHTSA). And Mehmet Çetin 6DCT250 kodlu kuru kavramalı şanzımanlardan mümkünse uzak durulmasını öneriyor.",
+            "teshis": "Seyir halinde aniden boşa düşme, şanzıman arıza uyarısı, vites değiştirememe, aracın çalışmaması (mevcut belirtiler). Şikâyetvar'da bir Fiesta 1.0 EcoBoost sahibi 41.800 km'de TCM arızası bildiriyor. Servisler bazen kavramayı, bazen TCM'yi işaret ediyor; bir Focus sahibine TCM, ECU ve BCM'nin değişmesi gerektiği söylenmiş.",
+            "cozum": "Forumlarda titreme kavrama aşınmasındansa kavrama değişimiyle bitiyor; TCM arızasında modül değişimi. Şikâyetvar'da bir kullanıcı Ford'un mevcut kavrama değişiminin %50'sini karşılayacağını söylediğini aktarıyor. ABD'de TCM için 10 yıl/150.000 mil uzatılmış garanti programı (14M02) ve 2017'de yaklaşık 1,5 milyon araçlık toplu dava uzlaşması oldu (CarComplaints); Türkiye'deki kapsam doğrulanmadı.",
+            "maliyet": "Farklı yıllara ait tek tek beyanlar: DonanımHaber'de 2019'da kavrama (işçilik dahil) 2.500 TL, TCM değişimi 19 bin TL; Şikâyetvar'da bir Focus sahibi kavramayla birlikte 51 bin TL, Fiesta için garanti dışı onarım 140 bin TL, başka bir sahip baskı balata ve TCM için ~150 bin TL, bir Fiesta sahibine ilk tespit için ~5 bin TL istenmiş. Doğrudan karşılaştırılamaz; güncel teklif alın.",
+            "onlem": "Servis kayıtlarında kavrama, TCM ve yazılım işlemlerini sormak; garanti dönemindeyse tekrarlayan başvuruları yazılı tutmak. Kuru kavramalı Powershift'li modellerden uzak durulması tavsiye ediliyor (And Mehmet Çetin)."
+          },
+          "kaynaklar": [
+            "https://www.carcomplaints.com/news/2017/ford-transmission-lawsuit-settlement.shtml",
+            "https://www.carcomplaints.com/Ford/Focus/2016/transmission/power_train-automatic_transmission-control_module_tcm_pcm.shtml",
+            "https://www.sikayetvar.com/ford/focus/powershift",
+            "https://eksisozluk.com/ford-focus-1-5-tdci-powershift--4830705",
+            "https://www.sikayetvar.com/ford/ford-focus-powershift-sanziman-titreme-sorunu",
+            "https://www.sikayetvar.com/ford/fiesta/powershift",
+            "https://forum.donanimhaber.com/ford-focus-1-6-ti-vct-powershift-ariza-fiyat-hakkinda-bilgi--146762175",
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/",
+            "https://www.sikayetvar.com/ford/fiesta/sanziman",
+            "https://www.sikayetvar.com/ford/fiesta/sanziman-arizasi",
+            "https://www.sikayetvar.com/ford/fiesta/kronik",
+            "https://www.sikayetvar.com/ford/fiesta/otomatik",
+            "https://forum.donanimhaber.com/ford-powershift-sanziman-titreme-problemi-kronik-problem-cozulemiyor--116371787",
+            "https://forum.donanimhaber.com/fiesta-almadan-inceleyin-dava-actim-kazandim--71002873"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hyundai-kia-7dct",
+      "ad": "Hyundai / Kia 7DCT (7 ileri kuru çift kavramalı)",
+      "tur": "sanziman",
+      "aciklama": "Hyundai ve Kia'nın 2015'ten itibaren Tucson, Sportage, i20, i30, Kona, Elantra, Bayon, Ceed, Stonic ve Rio'da benzinli (T-GDI) ve dizel (CRDi) motorlarla kullandığı 7 ileri kuru kavramalı çift kavramalı şanzıman.",
+      "kronik_sorunlar": [
+        {
+          "id": "kavrama-titremesi",
+          "sorun_adi": "7DCT kavrama titremesi",
+          "etkilenen_parca": "Çift kavramalı şanzıman (7DCT) kavrama paketi ve yazılımı",
+          "belirtiler": "Kalkışta trafikte titreme, kavramadan gelen titreşimin zamanla kötüleşmesi, şanzıman ısınması; bir sahipte kavramalar 52.000 km'de garanti kapsamında değişmiş",
+          "tahmini_km_araligi": "10.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "7 ileri kuru kavramalı DCT (D7UF1): Araclo bu şanzımanın en çok aktüatör arızası, soğuk kalkışta titreme ve vites atlamayla anıldığını, dur-kalk trafikte çabuk ısındığını ve usulüne uygun kullanılmazsa kısa vadede baskı balata değişimi gerektirebildiğini yazıyor. Bir blog bazı titreme ve vites geçiş sorunlarını kavrama disklerinin yüzeyine ve TCU'nun kavrama noktası kalibrasyonuna bağlıyor.",
+            "teshis": "Kalkışta ve düşük hızda titreme, yokuşta geri kayma, geç tepki ardından ani hamle. Bir forum kullanıcısı yokuş aşağı inişte ara sıra kararsızlık yaşadığını yazıyor. Şikâyetvar'da bir Kona ve bir i20 sahibi birkaç servise gitmiş; servisler test ölçümlerinde sorun bulamadığı için işlem yapamamış ya da çözememiş. Yetkili serviste hata kodu, kavrama kalınlığı ve TCU yazılımının güncelliği kontrol edilmeli.",
+            "cozum": "Bazı titremeler TCU yazılım güncellemesi ve kalibrasyonla azalıyor (blog, forum ve Ekşi Sözlük yorumları); başka kaynaklar yazılımdan sonra sorunun tekrarladığını yazıyor. Kalıcı çözüm çoğu kez kavrama değişimi olarak görülüyor. Şikâyetvar'daki Tucson ve Sportage vakalarında kavrama garanti kapsamında değiştirilmiş, bazen tekrar etmiş (bir Tucson'da ~2 yıl önceki değişim kısa sürede yeniden titremeye yol açmış) ya da garanti dışı sayılıp ücret istenmiş.",
+            "maliyet": "Hyundai/Kia 7DCT kavrama değişimi için güvenilir bir fiyat bulunamadı. Kavrama aşınan bir sarf parçası sayıldığı için garanti dışı tutuluyor; bazı kullanıcılar iyi niyet garantisiyle (5 yıl/150 bin km) ücretsiz değişim aldığını, bir kullanıcı 38 bin km'de iki kez kavrama değiştirildiğini ve garanti bitince masrafın kendisine kalacağını yazıyor.",
+            "onlem": "İkinci el DCT'li araçta test sürüşünde kalkış ve düşük hızdaki vites geçişlerinde titreme olup olmadığına bakmak (Araclo). Garanti süresindeyken şikâyeti yazılı kayda geçirtmek ve test ölçüm raporu istemek."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/tucson/dct",
+            "https://www.sikayetvar.com/dct/tucson",
+            "https://www.sikayetvar.com/dct/kronik",
+            "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama",
+            "https://www.sikayetvar.com/kia/kia-sportage-dct-sanziman-sorunlari-ve-guven-kaybi",
+            "https://forum.donanimhaber.com/kia-sportage-2019-sonrasi-1-6l-dizel-7-ileri-dct-alanlar-ve-alacaklar-alindi--136447356-17",
+            "https://forum.donanimhaber.com/kia-dct-sanziman-aracta-sallanma-sorunu--140033829",
+            "https://www.araclo.com/blog/kia-sportage-1.6-crdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+            "https://www.sikayetvar.com/kia/ceed/sanziman",
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
+            "https://eksisozluk.com/hyundai-i20--1733493?p=81",
+            "https://static.nhtsa.gov/odi/rcl/2016/RCRIT-16V628-9893.pdf",
+            "https://www.carcomplaints.com/Hyundai/Tucson/2016/transmission/hesitation.shtml"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hyundai-kia-gamma-gdi",
+      "ad": "Hyundai / Kia Gamma 1.6 GDI (direkt enjeksiyonlu benzin)",
+      "tur": "motor",
+      "aciklama": "Hyundai ve Kia'nın 2010'dan itibaren i30, Accent Blue, ix35, Elantra ve Sportage'da kullandığı 1.6 litre direkt enjeksiyonlu atmosferik benzinli motor (GDI, 132-140 PS).",
+      "kronik_sorunlar": [
+        {
+          "id": "yag-tuketimi",
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları; kaynaklarda PCV valfi ve supap kapağı contası da suçlanıyor (kesin değil)",
+          "belirtiler": "Yaklaşık 5.000 km'de 1 litre civarı yağ eksilmesi, yağ uyarı lambası, bazı araçlarda motor değişimi",
+          "tahmini_km_araligi": "40.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net teknik neden verilmiyor. Bazı forum yazarları yağ yakmayı doğrudan enjeksiyon yapısına bağlıyor; bir kullanıcı alüminyum blok nedeniyle segmanların yüksek ısıda aşındığını iddia ediyor (doğrulanmamış). Bir forum yazarı servislerde bu motorda çok sayıda motor işlemi yapıldığını aktarıyor.",
+            "teshis": "Bir kullanıcı 5 bin km'de 1 litre yağ yaktığını bildirmiş ve Kia Türkiye ile çözüme ulaşılamadığını yazıyor. Yağ uyarı lambası ve seviye düşüşü kayda alınmalı.",
+            "cozum": "Bir forum başlığı Hyundai ve Kia'nın 2011-2019 arası bazı modellerini kapsayan ABD'deki aşırı yağ tüketimi davasına atıf yapıyor (sonucu ve kapsamı doğrulanamadı). Garanti: kaynaklarda yasal garanti 2 yıl/60.000 km, Kia'nın onarım güvencesi 5 yıl/150.000 km olarak geçiyor; kapsamı yetkili bayiden teyit edin. Bir kullanıcı 60 bin sonrası bakımları yok sayılarak garanti dışı bırakıldığını yazıyor.",
+            "onlem": "Yağ tüketimini kilometre bazlı düzenli ölçüp kayda geçirmek, tüm bakımları yetkili serviste ve zamanında yaptırıp faturaları saklamak, sorunu Kia Türkiye'ye yazılı bildirmek."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/kia-sportage-1-6-gdi-yag-eksiltme--137791376-6",
+            "https://www.sikayetvar.com/sportage/yag",
+            "https://otopark.com/forum/threads/kia-sportage-1-6-gdi.15101/",
+            "https://www.sikayetvar.com/kia/sportage-crossover"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hyundai-kia-u2-crdi",
+      "ad": "Hyundai / Kia U2 1.4 - 1.6 - 1.7 CRDi (common rail dizel)",
+      "tur": "motor",
+      "aciklama": "Hyundai ve Kia'nın 2009'dan itibaren i20, i30, Accent Blue, Elantra, Kona, Tucson, ix35, Ceed, Rio, Stonic ve Sportage'da kullandığı U2 serisi 1.4 / 1.6 / 1.7 litre common rail dizel motorlar (90-141 PS).",
+      "kronik_sorunlar": [
+        {
+          "id": "dpf-yagi-yakit",
+          "sorun_adi": "DPF tıkanması ve yağa mazot karışması",
+          "etkilenen_parca": "Dizel partikül filtresi (DPF), rejenerasyon sistemi ve motor yağı",
+          "belirtiler": "Yağ seviyesinin yükselmesi ve yağda mazot kokusu, sık DPF uyarısı veya rejenerasyon, güç kısıtlaması; kısa mesafe kullanımda daha sık",
+          "tahmini_km_araligi": "40.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DPF rejenerasyonu sırasında yanmamış yakıt motor yağına karışıp seviyeyi yükseltiyor; forumlarda kısa mesafe kullanımının bu süreci hızlandırdığı yazılıyor. Yanmamış yakıtın kaynağı olarak arızalı enjektörler, yağ seviyesi artışının diğer nedenleri olarak silindir kapağı contası, turboşarj ve PCV valfi arızaları da sayılıyor. Şikâyetvar'da bir kayıtta DPF nedeniyle yağa yaklaşık 1,5 litre mazot karıştığı söylenmiş.",
+            "teshis": "Yağ çubuğunda seviyenin yükselmesi ve yağda mazot kokusu, sık DPF uyarısı. Forumlarda bazı DPF'li araçlarda yağ çubuğunda max çizgisinin üstünde, mazot karışmış yağ için izin verilen üst sınırı gösteren bir X işareti bulunduğu yazılıyor.",
+            "cozum": "Forum tavsiyeleri: yağı zamanında değiştirmek (mazot karışan yağın yağlama özelliği bozulur), motor ısındıktan sonra yaklaşık 15 dakika 3.000 devirde giderek rejenerasyonu tamamlatmak, kısa mesafe kullanımda yağ aralığını kısaltıp DPF uyumlu (düşük SAPS) yağ kullanmak. Yağ seviyesi sürekli artıyorsa serviste enjektör, kaçak, EGR ve DPF sensörleri kontrol edilmeli. Bir 2024 Tucson sahibi iki yıldır süren sorunla beş kez yetkili servise gitmiş; yazılımın yetmeyip DPF'nin fiziksel temizliğinin gerektiği de forumlarda tartışılıyor.",
+            "onlem": "Yağ seviyesini düzenli ölçmek ve max işaretini aştığında kullanmaya devam etmeden servise gitmek; kısa şehir içi kullanımı arada uzun yolla dengelemek."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/tucson/kronik",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-partikul-filtresi",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-assan-tucson-dizel-partikul-filtresi-problemi",
+            "https://andcetin.com/hyundai-kia-16-crdi-sorunlar-83/",
+            "https://otopark.com/forum/threads/dizel-partikul-filtreli-araclarda-gorulebilen-yag-problemi.7225/",
+            "https://forum.donanimhaber.com/motor-yagi-neden-artar--109295236",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/yag",
+            "https://www.sikayetvar.com/kia/rio/yag",
+            "https://www.sikayetvar.com/kia/rio/kronik",
+            "https://forum.donanimhaber.com/kia-rio-1-4-crdi-yi-nasil-bilirsiniz--132493671",
+            "https://www.araclo.com/vehicles/kia-rio-1.4-wgt-crdi/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/dizel-partikul-filtreli-araclarda-gorulen-yaglama-problemi--127906714"
+          ]
+        },
+        {
+          "id": "enjektor-kodlama",
+          "sorun_adi": "Enjektör kodlama kaybı ve silkeleme",
+          "etkilenen_parca": "Common-rail enjektörleri (kodlama değerleri) ve motor yazılımı",
+          "belirtiler": "1.500-2.000 devir aralığında şakırtı ve silkeleme; enjektör kodlaması ve yazılım yüklemesi 2-3 ay sonra geri dönen geçici çözüm, söküp ayar da kalıcı çözüm sağlamıyor",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Araclo'nun ikinci el rehberi ED kasa araçlarda enjektör kodlama sorununun yaygın bildirildiğini yazıyor; kaynaklarda kodlama değerlerinin neden kaybolduğu açıklanmıyor.",
+            "teshis": "İlk çalıştırmada tekleme, silkeleme ya da düzensiz rölanti enjektör sorununa işaret edebiliyor (Araclo). Şikâyetvar'da bir kullanıcı enjektörleri söküp temizlettikten sonra da 1.700-2.000 devir arası şakırdamanın başladığını yazıyor.",
+            "cozum": "Kodlama (enjektör değerlerinin yeniden yazılması) geçici çözüm sağlıyor: aynı kullanıcı kodlamayı defalarca yaptırdığını, yetkili Kia servisindeki kodlamanın en uzun yaklaşık 3 ay sürdüğünü ve şakırdamanın geri döndüğünü yazıyor; Araclo da kodlamanın sorunu kısa sürede yeniden ortaya çıkarabildiğini belirtiyor. Enjektör değişimi ciddi bir seçenek olarak değerlendirilebilir.",
+            "maliyet": "Enjektör kodlama ya da değişim fiyatı aramada bulunamadı; yetkili Kia servisinden ve özel servislerden yazılı teklif almak gerekiyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/kia-ceed-1-6-crdi-silkeleme-sorunu--134474492",
+            "https://www.sikayetvar.com/kia/enjektor",
+            "https://www.araclo.com/blog/kia-ceed-1.6-crdi-ikinci-el-alim-rehberi-kontroller-bilinen-sorunlar-ve-bakim-onerileri"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opel-1-6-cdti",
+      "ad": "Opel 1.6 CDTI (B16DTH / B16DTL)",
+      "tur": "motor",
+      "aciklama": "Opel'in 2011'den itibaren Astra J / K, Insignia, Mokka, Zafira Tourer, Meriva ve Cascada'da kullandığı 1.6 litre common rail dizel motor (110-136 PS). Triger zinciri ve turbo hortumu sorunları motor genelinde anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "triger-zinciri",
+          "sorun_adi": "Triger zinciri sesi",
+          "etkilenen_parca": "Triger zinciri ve gergisi",
+          "belirtiler": "İlk çalıştırmada ve seyirde traktör benzeri metalik zincir sesi; zincir değişse de sesin bir süre sonra geri döndüğünü bildiren sahipler var, işçilik pahalı",
+          "tahmini_km_araligi": "60.000 - 130.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net teknik neden verilmiyor. İlk çalıştırmadaki zincir sesinin kullanılan yağa göre değiştiği yazılıyor: bir kullanıcı dexos2 onaylı yağla sesin olmadığını belirtiyor, bir başkası sesin yağlamayla ilgili olabileceğini söylüyor. Şikâyetvar'da bir sahip özel servislerin bu sesi kronik saydığını ve zincir değişse de sesin geçmeyebileceğini aktarıyor.",
+            "teshis": "İlk çalıştırmada ve seyirde traktör benzeri metalik zincir sesi (Şikâyetvar).",
+            "cozum": "Zincir değişiminde motor dışarı alınıyor; bir forum kullanıcısı yağ pompası, dişli ve zincirin birlikte (GM ve otomatik eksantrik dişlili set olarak) değiştirilmesini öneriyor. Bir kullanıcı 'ses gelince zincir değişiyor' diyor, başkası sesin kesilmesi halinde değişimin şart olmadığını, kesilmeyen sesin ise değişim gerektirdiğini savunuyor (tartışmalı).",
+            "maliyet": "Bir forum kullanıcısı 2018 model Insignia için işçilik ve zincir setini toplam yaklaşık 2.000-2.500 TL olarak anıyor (özel servis, orijinal parça; eski rakam, güncel değil); motor çıktığı için işçiliğin yüksek olduğu belirtiliyor.",
+            "onlem": "Dexos2 onaylı yağ kullanmak ve bakımı aksatmamak (forum yorumu)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/opel-astra-j-16-cdti-den-traktor-sesi-gibi-anormal-bir-zincir-sesi-geliyor",
+            "https://www.araclo.com/blog/opel-astra-1.6-cdti-alinir-mi-kronik-sorunlar-kullanici-yorumlari-ve-ikinci-el-rehberi-2026",
+            "https://forum.donanimhaber.com/opel-astra-j-kasa-1-6-cdti-110-136-hp--83831348-27",
+            "https://forum.donanimhaber.com/astra-j-1-6-cdti-manuel-kronik-sorun-var-midir--159135688",
+            "https://www.sikayetvar.com/astra/cdti",
+            "https://otopark.com/forum/threads/insignia-a-1-6-cdti-lari-nasil-bilirsiniz.13847/",
+            "https://forum.donanimhaber.com/opel-astra-j-kasa-1-6-cdti-110-136-hp--83831348-74",
+            "https://www.sikayetvar.com/opel/astra/astra-motor?page=5",
+            "https://www.sikayetvar.com/opel/dizel/ses",
+            "https://forum.donanimhaber.com/astra-k-1-6-ctdi-model-sorunlari--159820282",
+            "https://eksisozluk.com/opel-astra-k--4637326?p=14",
+            "https://www.sikayetvar.com/opel/insignia/zincir",
+            "https://www.sikayetvar.com/opel/opel-insignia-16-cdti-97000-km-kronik-yogun-zincir-sesi",
+            "https://eksisozluk.com/opel-insignia--724247?p=34"
+          ]
+        },
+        {
+          "id": "turbo-hortumu",
+          "sorun_adi": "Turbo basınç hortumu patlaması",
+          "etkilenen_parca": "Turbo basınç hortumu ve bağlantıları",
+          "belirtiler": "Güç kaybı, ıslık veya hortumun patlaması; parça ve işçilik maliyeti yüksek bulunuyor, servisler parçada iyileştirme yapılmadığını söylüyor",
+          "tahmini_km_araligi": "50.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da birden fazla Insignia 1.6 CDTI sahibi turbo hortumunun kronik biçimde patladığını ve yolda kaldıklarını yazıyor: biri hortumun 50 bin km'de bağlantı noktasından yırtıldığını, bir diğeri sorunun ikinci kez yaşandığını belirtiyor. Sahiplerin ortak talebi parçanın revize edilip bedelsiz takılması.",
+            "teshis": "Basınç kaybı, düşük hızda ıslık sesi ve hortum kaynaklı kaçaklar; önce hortumlar ve bağlantı yerleri kontrol edilmeli.",
+            "cozum": "Hortum değişimi; servisler parçada iyileştirme yapılmadığını söylüyor (mevcut belirti)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/opel-insignia-turbo-hortumu-kronik-arizasi-magduriyeti",
+            "https://www.sikayetvar.com/opel/insignia/kronik",
+            "https://eksisozluk.com/opel-insignia--724247?p=34",
+            "https://otopark.com/forum/threads/opel-insignia-islik-sesi.14164/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psa-bluehdi-adblue",
+      "ad": "PSA BlueHDi AdBlue (SCR) sistemi",
+      "tur": "sistem",
+      "aciklama": "Peugeot, Citroën ve Opel'in BlueHDi dizel motorlarında (1.6 DV6 ve 1.5 DV5) 2014'ten itibaren kullanılan AdBlue deposu, seviye sensörü, pompa ve SCR sistemi.",
+      "kronik_sorunlar": [
+        {
+          "id": "adblue-sensor-pompa",
+          "sorun_adi": "AdBlue (SCR) sistemi arızası ve aracın çalışamayacağı uyarısı (BlueHDi)",
+          "etkilenen_parca": "AdBlue deposu (şamandıra, seviye sensörü ve üstündeki devre), AdBlue pompası ve enjektörü; SCR sistemi",
+          "belirtiler": "Depo dolu olduğu halde 'AdBlue seviyesi düşük' ve kalan menzil uyarısı, 100-200 km'de bir tekrarlayan uyarı, P20E8 gibi AdBlue (üre) hata kodu, motor arıza lambası ve bazı araçlarda bir süre sonra aracın çalıştırılamayacağı uyarısı",
+          "tahmini_km_araligi": "60.000 - 100.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de sık geçen nedenler AdBlue pompasının tıkanması, depodaki şamandıranın arızası, enjektörün tıkanması ve tank üstündeki devre kartının AdBlue ile temas etmesi; bir kullanıcı depo değişiminin gerektiğini ve bunun ücretsiz yapılması gerektiğini bildiriyor. Bir kullanıcı 2016-2022 arası araçlarda AdBlue deposunun üretimden sorunlu olduğunu savunuyor (kişisel iddia, doğrulanmadı).",
+            "teshis": "Şikâyetvar ve DonanımHaber'de bir 2015 model 308 1.6 BlueHDi'de yaklaşık 95.000 km'de, 2016 model iki 3008'de 65.000 ve 92.000 km'de AdBlue (üre) hatasının motor arıza uyarısıyla birlikte geldiği anlatılıyor; daha yeni 3008'lerde de (2022 model 30.000 km'de, 2023 model 1.100 km'de) aynı uyarı bildiriliyor, bunlar muhtemelen 1.5 BlueHDi. Bir 308'de 'AdBlue doldurun' uyarısı her 100-200 km'de bir, depo dolu olduğu halde tekrarlıyor. Kilometre aralığı kaba tahmindir; arıza tek bir kilometrede başlamıyor.",
+            "cozum": "Depo ya da pompa değişimi; bir kullanıcı depo değişiminin garanti kapsamında ücretsiz yapılması gerektiğini bildiriyor. Kesin bir çözüm ya da Peugeot Türkiye'nin resmî açıklaması kaynaklarda yok.",
+            "maliyet": "Bir kullanıcı EGR soğutucusu kaçağı, EGR sensörü ve AdBlue enjektör onarımı için 9.500 TL ödediğini yazıyor (tek vaka, tarih belirsiz, güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/her-peugeot-adblue-sorununun-yasayacaktir--144473286-15",
+            "https://forum.donanimhaber.com/pegout-3008-adblue-motor-arizasi--155010418-2",
+            "https://forum.donanimhaber.com/yeni-3008-adblue-hatasi-p20e8--138266142",
+            "https://forum.donanimhaber.com/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk--158519472",
+            "https://www.sikayetvar.com/peugeot/308/adblue",
+            "https://www.sikayetvar.com/peugeot/3008/adblue-sorunu",
+            "https://otopark.com/forum/threads/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk.15617/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psa-dv5-1-5-bluehdi",
+      "ad": "PSA / Opel / Ford 1.5 BlueHDi - EcoBlue (DV5)",
+      "tur": "motor",
+      "aciklama": "2017'den itibaren Peugeot, Citroën, Opel (Grandland, Crossland, Mokka B, Corsa F) ve Ford'un (Focus 4, Kuga 3 - 1.5 EcoBlue) kullandığı 1.5 litre common rail dizel motor (DV5). Eksantrik zinciri 7 mm'lik dar zincirdir.",
+      "kronik_sorunlar": [
+        {
+          "id": "eksantrik-zinciri",
+          "sorun_adi": "Eksantrik zinciri sesi ve kopması (7 mm zincir)",
+          "etkilenen_parca": "Eksantrik mili zinciri (7 mm), gergi ve üst kapak",
+          "belirtiler": "Soğuk çalıştırmada şıkırtı, kam/krank senkron hatası, motorun yeniden çalışmaması, zincir kopması; çok düşük kilometrede de görüldüğü bildiriliyor",
+          "tahmini_km_araligi": "20.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Mehmet Çetin'e göre üretici 2023 başında zinciri 7 mm'den 8 mm'ye çıkaran bir güncelleme yaptı ve zincirle birlikte eksantrikler, gergi ve üst kapak revize edildi; Araclo 8 mm setin 2021 sonrası araçlarda fabrikadan çıktığını yazıyor, bir kullanıcı anlatımı 2022-2023 sonrasını gösteriyor. Geçiş yılı kaynaklarda tutarsız: şasi numarasıyla doğrulayın.",
+            "teshis": "Soğuk çalıştırmada zincir şıkırtısı; Şikâyetvar'da çok düşük kilometrede de görüldüğü, zincir koptuğunda ağır onarım ücretinin çıktığı anlatılıyor.",
+            "cozum": "Bir kullanıcı anlatımına göre Stellantis'in 2019-2023 üretimi 1.5 BlueHDi araçları hedefleyen bir kampanyası var ve kapsamdaki araçlarda 7 mm zincir seti 8 mm ile ücretsiz değiştiriliyor (resmî doğrulama yok). Servis uygulaması tutarsız: And Mehmet Çetin zincir sesi tespit edilmezse garanti kapsamındaki araçta bile değişimin yapılmayabileceğini, Araclo yetkili serviste dinleme yapılıp 'ses yok' denerek talebin reddedildiğini, Şikâyetvar'daki bazı başvurular kampanya kapsamında olmasına rağmen değişimin yapılmadığını yazıyor.",
+            "maliyet": "Şikâyetvar'da bir Peugeot yetkili servisinin eksantrik zincir kırılması için 162.000 TL masraf çıkardığı ve ücretsiz değişimi reddettiği bir başvuru var (tek vaka, tarih belirsiz).",
+            "onlem": "Aracın kampanya kapsamını şasi numarasıyla markanın resmî kanallarından sorgulamak, değişimin yapıldığını servis kaydından teyit etmek ve soğuk çalıştırma sesini ilk duyulduğunda yazılı kayda geçirtmek."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/15-bluehdi-ecoblue-tdci-zincir-sorunu-59/",
+            "https://www.araclo.com/blog/citroen-c5-aircross-1.5-bluehdi-kronik-sorunlari-eksantrik-zinciri-gercegi-ve-kullanici-yorumlari-2026",
+            "https://www.sikayetvar.com/citroen/c5-aircross/geri-cagirma",
+            "https://www.sikayetvar.com/en/citroen-us/citroen-c-elysee-timing-chain-failure-and-recall-mishandling",
+            "https://www.araclo.com/blog/peugeot-3008-1.5-bluehdi-kronik-sorunlar-ve-ikinci-el-rehberi",
+            "https://forum.donanimhaber.com/psa-1-5-dizel-motorlarda-eksantrik-zinciri-problemi--160411525",
+            "https://forum.donanimhaber.com/peugeot-5008-gt-kam-mili-zinciri-kronik-sorunu-sakin-ha-almayin-bu-arabalari--162656345",
+            "https://www.sikayetvar.com/en/peugeot-us/peugeot-3008-developed-timing-chain-noise-far-earlier-than-expected",
+            "https://www.sikayetvar.com/peugeot/peugeot-gonullu-geri-cagirma-eksantrik-zinciri-7mm-8-mm-ye-degisimi-video",
+            "https://www.sikayetvar.com/peugeot/peugeot-yetkili-servisinin-uretim-hatasi-eksantrik-zincir-kirilmasi-icin-162000-tl-masrafi-ve-ucretsiz-degisim-reddedildi",
+            "https://www.sikayetvar.com/ford/focus/ecoblue",
+            "https://www.sikayetvar.com/ford/ford-kugada-kronik-eksantrik-zinciri-problemi-ve-yuksek-onarim-maliyeti",
+            "https://www.sikayetvar.com/ford/ford-kuga-riskli-egzantrik-zincir-icin-ucretsiz-cozum-talebi",
+            "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2019,
+              "bitis": 2020,
+              "durum": "Yaygın",
+              "not": "7 mm eksantrik zinciri kullanılan dönem; Stellantis zincir değişimi için kampanya yürütüyor."
+            },
+            {
+              "baslangic": 2021,
+              "bitis": 2022,
+              "durum": "Görülebilir",
+              "not": "8 mm zincire geçiş yılı kaynaklarda 2021 veya 2023 başı olarak veriliyor; şasi numarasıyla kontrol edin."
+            },
+            {
+              "baslangic": 2023,
+              "bitis": null,
+              "durum": "Seyrek",
+              "not": "Güçlendirilmiş 8 mm zincir kullanılıyor; yeni üretimde şikâyet az (veri sınırlı)."
+            }
+          ]
+        },
+        {
+          "id": "dpf-yagi-yakit",
+          "sorun_adi": "DPF tıkanması ve yağa yakıt karışması",
+          "etkilenen_parca": "Dizel partikül filtresi (DPF), rejenerasyon ve motor yağı",
+          "belirtiler": "Sık \"DPF dolu\" uyarısı (kısa şehir içi kullanımda ayda bir-iki kez), yağ seviyesinin yükselmesi, yağ ömrü göstergesinin çok erken düşmesi; bazı sahipler yağ değişimlerinin garanti dışı bırakıldığını bildiriyor",
+          "tahmini_km_araligi": "10.000 - 60.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da bir kullanıcı yeni Focus'larda DPF uyarılarının sık geldiğini ve yağ ömrü göstergesinin hızla düştüğünü yazıyor; bunun rejenerasyon sırasında yağa mazot karışmasıyla ilişkilendirildiği anlatılıyor (aramada DPF'de yağa yakıt karışmasına dair resmî ya da bağımsız teknik doğrulama bulunamadı). Kısa şehir içi kullanımda rejenerasyon sık tetikleniyor.",
+            "cozum": "Bazı sahipler yağ değişimlerinin garanti dışı bırakıldığını bildiriyor; kesin bir onarım yöntemi kaynaklarda yer almıyor.",
+            "onlem": "Yağ ömrü göstergesinin erken düşmesini ve yağ seviyesinin yükselmesini yazılı kayda geçirtmek; kısa şehir içi kullanımı arada uzun yolla dengelemek."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/ford/focus/focus-dpf",
+            "https://www.sikayetvar.com/ford/focus/yag",
+            "https://www.sikayetvar.com/ford/focus/focus-yag-omru",
+            "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi",
+            "https://otopark.com/forum/threads/dizel-partikul-filtreli-araclarda-gorulebilen-yag-problemi.7225/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psa-dv6-hdi-tdci",
+      "ad": "PSA / Ford 1.6 HDi - e-HDi - BlueHDi - TDCi (DV6)",
+      "tur": "motor",
+      "aciklama": "Peugeot, Citroën, Ford (1.6 TDCi), Volvo (D2 / D DRIVe), Suzuki (1.6 DDiS) ve Mazda'nın (1.6 MZ-CD) kullandığı 1.6 litre common rail dizel motor (DV6). 207, 208, 301, 308, 3008, C3, C4, C-Elysée, Berlingo, Partner, Focus, Fiesta, C-Max, Transit Connect, V40, S60 ve S-Cross'ta bulunur.",
+      "kronik_sorunlar": [
+        {
+          "id": "enjektor",
+          "sorun_adi": "Enjektör arızası ve enjektör dibi kaçağı",
+          "etkilenen_parca": "Common-rail enjektörleri ve bakır pulları",
+          "belirtiler": "Motor üstünde is/kurum kokusu, rölantide titreme, güç kaybı, soğuk çalıştırmada zorlanma",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forumlarda enjektör çevresinde yağ ve is birikmesinin enjektör bağlantısından kaynaklanabildiği anlatılıyor; olası kaynaklar hasarlı enjektör keçesi, aşınmış enjektör yuvası, gevşek ya da hasarlı enjektör diş tıpası ve arızalı O-halkaları. İngiliz Ford ve Fransız araba forumlarında DV6'da enjektör tespit cıvatalarının gevşemesi tasarım kusuru olarak anılıyor ve karbonun yanma odasından enjektör tüpüne, oradan yağa ulaştığı öne sürülüyor (bir uzmanın tahmini).",
+            "teshis": "Motor üstünde is/kurum kokusu ve siyah karbon birikimi, enjektör çevresinde yağ, rölantide titreme, güç kaybı, soğuk çalıştırmada zorlanma. Forumlarda enjektör tespit cıvatalarının torkunun kontrolü '2 dakikalık iş' olarak öneriliyor.",
+            "cozum": "Enjektör keçelerinin/bakır pulların değişimi; bir kullanıcı saplamaların gevşemeden sıkılması gerektiğini, aksi halde yeni contaların bozulacağını yazıyor.",
+            "onlem": "Enjektör cıvata torklarını bakımda kontrol ettirmek; enjektör çevresindeki yağ ve kurum izlerini geciktirmeden incelettirmek."
+          },
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/enjektor-arizasi-citroen-c5-1-6-hdi-2011--138608291",
+            "https://forum.donanimhaber.com/1-6tdci-kronik-sorun-var-mi--149568529",
+            "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574",
+            "https://forum.donanimhaber.com/enjektor-diplerinde-yag-kacagi--153286454",
+            "https://forum.donanimhaber.com/peugeot-3008--29109292-504",
+            "https://forum.donanimhaber.com/eski-kasa-makyajli-1-6-bluehdi-peugeot-3008-alinir-mi--144842900",
+            "https://forum.donanimhaber.com/1-4-tdci-enjektor-sakirdamasi-beyaz-duman-tekleme-yakit-artisi--160083478",
+            "https://forum.donanimhaber.com/ford-fiesta-stop-etme-sorunu-1-4-tdci--145012430",
+            "https://otopark.com/forum/threads/ford-fiesta-2011-1-4-tdci-kronik-sorunlari.3853/",
+            "https://www.sikayetvar.com/ford/fiesta/kronik",
+            "https://www.fordownersclub.com/forums/topic/106861-fiesta-14-tdci-egr-and-injectors-question/",
+            "https://www.fordownersclub.com/forums/topic/147206-intermittent-injector-problems-fiesta-diesel/",
+            "https://www.fordownersclub.com/forums/topic/168351-fiesta-14-tdci-loud-electrical-sparkingarcing-injector"
+          ]
+        },
+        {
+          "id": "turbo-yag-suzgeci",
+          "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
+          "etkilenen_parca": "Turbo yağ besleme rakorundaki süzgeç ve boru, turboşarj",
+          "belirtiler": "Güç kaybı, turbo ıslığı, egzozdan mavi duman, yağsız kalan turbo yatağının dağılması",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Türkçe kaynaklarda bu parçaya özel bilgi bulunamadı. Fransız araba forumunda ~40 turbo onardığını söyleyen bir Citroën uzmanı turbo arızalarını enjektör karbon kaçağına bağlıyor (kendi tahmini, doğrulanmamış); bir üye turbo yağ besleme rakorundaki 'süzgecin' yalnızca tel örgü olduğunu, yağ filtresini geçmiş partikülü tutmayacağını yazıyor, bir moderatör ise ana filtreden partikülün turboya nasıl ulaştığını sorguluyor — nedensel zincir belgelenmiş değil.",
+            "teshis": "Güç kaybı, turbo ıslığı, egzozdan mavi duman. Bazı sahipler besleme borusuna ulaşmak için DPF'yi sökmek zorunda kalmış.",
+            "cozum": "Turbo ve yağ besleme hattının (boru, rakor) değişimi; sorunun kök nedeni olarak enjektör cıvatalarının gevşemesi ve yağ kirliliği tartışılıyor.",
+            "onlem": "Yağ ve yağ filtresini zamanında değiştirmek; enjektör bağlantı torklarını kontrol ettirmek."
+          },
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
+            "https://otopark.com/forum/threads/207-1-6-hdi-turbo-arizasi.2118/page-2",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=42948",
+            "https://forum.donanimhaber.com/peugeot-3008--29109292-504",
+            "https://www.fordownersclub.com/forums/topic/121545-16tdci-turbo-problems-what-years/",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=90204",
+            "https://www.honestjohn.co.uk/forum/post/117866/focus-1-6-tdci--",
+            "https://otopark.com/forum/threads/ford-fiesta-1-4-tdci-68-beygir-testi.13156/",
+            "https://otopark.com/forum/threads/ford-fiesta-2011-1-4-tdci-kronik-sorunlari.3853/",
+            "https://forum.donanimhaber.com/fiesta-1-4-tdci-trend-kullanan-var-mi--125918685",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=96679",
+            "https://www.fordownersclub.com/forums/topic/106861-fiesta-14-tdci-egr-and-injectors-question/"
+          ]
+        },
+        {
+          "id": "egr-dpf",
+          "sorun_adi": "EGR valfi kurumlanması ve DPF tıkanması",
+          "etkilenen_parca": "EGR valfi, emme manifoldu, dizel partikül filtresi (1.6 TDCi'de)",
+          "belirtiler": "Güç düşmeleri, rölantide düzensizlik, tereddüt, motorun stop etmesi ya da kesilmesi, EGR / emisyon uyarısı; 1.6 TDCi'de DPF'nin tamamen tıkanması",
+          "tahmini_km_araligi": "80.000 - 200.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Ford Owners Club'da karbonla takılan EGR valfi sık suçlanıyor: bir sahip EGR kaynaklı arızanın motoru kestiğini ve stop ettirdiğini, başka biri EGR tıkama denemesinin boost sensörü hatası verdirdiğini yazıyor; bir alıcı DPF'si tamamen tıkalı bir 1.6 TDCi bulmuş. DonanımHaber'de bir kullanıcı EGR iptalinden sonra çalışma ve titreme sorunları yaşandığını aktarıyor; bir başka yanıt EGR temizliğinin her zaman kalıcı çözüm olmadığını belirtiyor.",
+            "teshis": "Ford Owners Club'da güç düşmelerinin EGR sorununa benzediği, EGR tıkamanın bu düşmeleri durdurduğu yazılıyor; ayrıca bozuk kam konum sensörü ve ısıtma bujilerinin de stop ve tekleme yaptırabildiği anılıyor. EGR iptali muayene ve emisyon açısından risklidir.",
+            "cozum": "EGR valfinin temizlenmesi ya da değişimi; bazı sahipler EGR iptali yapıyor (muayene riski). Kaynaklarda kalıcı bir çözüm konusunda görüş birliği yok."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/egr-valfi-iptali-ve-endise--111790444",
+            "https://forum.donanimhaber.com/ford-fiesta-1-4-tdci-hatasi--47316532",
+            "https://forum.donanimhaber.com/1-6tdci-kronik-sorun-var-mi--149568529",
+            "https://www.fordownersclub.com/forums/topic/106861-fiesta-14-tdci-egr-and-injectors-question/",
+            "https://www.fordownersclub.com/forums/topic/112483-fiesta-16tdci-engine-cutting-out/",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=96679",
+            "https://forum.donanimhaber.com/egr-valfi-temizligi--30929546",
+            "https://www.berlingoforum.com/thread-12042.html",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=59950",
+            "https://forum.donanimhaber.com/1-6-hdi-tdci-motorda-egr-soken-var-mi--153323211",
+            "https://forum.donanimhaber.com/peugeot-3008--29109292-504",
+            "https://forum.donanimhaber.com/eski-kasa-makyajli-1-6-bluehdi-peugeot-3008-alinir-mi--144842900",
+            "https://www.fordownersclub.com/forums/topic/82756-blocked-dpf-regeneration-help-16-tdci-2008/",
+            "https://www.honestjohn.co.uk/askhj/answer/28172/ford-focus-dpf-problems"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psa-mcp-robotize",
+      "ad": "PSA MCP / ETG6 / Auto6R tek kavramalı robotize şanzıman",
+      "tur": "sanziman",
+      "aciklama": "Peugeot ve Citroën'in e-HDi dizel motorlarla (1.6 e-HDi 115) kullandığı 6 ileri tek kavramalı robotize şanzıman (MCP, ETG6, Auto6R). 508, C4, C4 Picasso, 308, 3008 ve C5'te bulunur.",
+      "kronik_sorunlar": [
+        {
+          "id": "sarsinti-titreme",
+          "sorun_adi": "Robotize (MCP / Auto6R) şanzıman sarsıntısı ve titremesi",
+          "etkilenen_parca": "Tek kavramalı robotize şanzıman: kavrama, vites konum sensörü",
+          "belirtiler": "Kalkışta ve 1.-2. viteslerde sarsıntı ve titreme, zaman zaman vites geçişinde vuruntu",
+          "tahmini_km_araligi": "50.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2012 model 508 1.6 e-HDi'deki MCP robotize şanzımanda görülen sarsıntı ve titremenin vites konum sensörünün sinyal göndermesindeki sorundan kaynaklandığı yazılıyor; aynı kayıtta sensörün çalıştığı boşlukta metal içerikli debriyaj tozu biriktiği belirtiliyor. DonanımHaber'de Auto6R/ETG/MCP şanzımanların çift değil tek kavramalı, klasik debriyaj balatalı robotize manuel yapıda olduğu, bu yüzden sarsıntının çift kavramalı DSG'lerden daha belirgin olabileceği yazılıyor.",
+            "teshis": "Bir kullanıcı sarsıntının 1. ve 2. viteste yoğunlaştığını, 3-6. viteslerde sorun olmadığını yazıyor; Ekşi Sözlük'te kalkışta gazı daha kontrollü vermenin yardımcı olduğu anlatılıyor (eski ve kişisel yorumlar). Tam otomatik EAT6 şanzımanın bu sorundan etkilenmediği belirtiliyor.",
+            "cozum": "Şikâyetvar kaydı sorunu vites konum sensörüne ve sensörün çalıştığı boşluktaki debriyaj tozuna bağlıyor; resmî bir servis kampanyası ya da bülten bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-508-mcp-robotize-sanziman-arizasi",
+            "https://forum.donanimhaber.com/508-1-6-e-hdi-ve-auto6r-hakkinda--128357643",
+            "https://eksisozluk.com/peugeot-508--2244708?p=7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psa-puretech-eb2",
+      "ad": "PSA / Opel PureTech 1.2 (EB2, 3 silindir)",
+      "tur": "motor",
+      "aciklama": "Peugeot, Citroën ve Opel'in 2012'den itibaren kullandığı 1.2 litre üç silindirli PureTech benzinli motor (EB2; 82-130 PS). Yağ banyosunda çalışan triger kayışı kullanır. 208, 2008, 301, 308, 3008, C-Elysée, C3, C4 Cactus, C4, Corsa F, Crossland ve Mokka B'de bulunur.",
+      "kronik_sorunlar": [
+        {
+          "id": "yagli-triger-kayisi",
+          "sorun_adi": "Yağ banyolu triger kayışının dağılması",
+          "etkilenen_parca": "Yağ içinde çalışan triger kayışı",
+          "belirtiler": "Yağ basıncı uyarısı, kayış parçacıklarının yağ pompası süzgecini tıkaması, fren vakum pompası arızası nedeniyle fren pedalının sertleşmesi, motor hasarı; kayış çatlağı 55.000-70.000 km'de bile görülebiliyor",
+          "tahmini_km_araligi": "40.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yağ içinde çalışan kauçuk triger kayışı zamanla dağılıyor ve parçacıklar yağ pompası süzgecini tıkıyor (And Mehmet Çetin, Ekşi Sözlük). Motor yağına yakıt karışması (özellikle kısa şehir içi sürüşte) yağın özelliklerini bozup kayışa zarar verebiliyor (bir kaynak). Kitapçıkta 180.000 km yazsa da pratikte 100-120 bin km'de değişim önerildiği yazılıyor.",
+            "teshis": "Yağ basıncı uyarısı; karter kapağı söküldüğünde süzgeçte ve karterde kayış artıkları görülüyor. Bir kullanıcı karter kapağını söküp filtreyi tıkayan aksamın temizlenmesinin faydalı olduğunu yazıyor.",
+            "cozum": "Kayış değişimi ve karter/yağ süzgeci temizliği. Kaynaklarda PSA/Stellantis onaylı yağ (B71 2312) kullanmak, yağı sık değiştirmek (bir kaynak 15.000 değil 10.000 km öneriyor) ve kayış aşınmasını periyodik kontrol ettirmek öneriliyor.",
+            "maliyet": "Bir kullanıcı işlemin yaklaşık 10 bin TL'ye, bir diğeri 25 bine yakın bir masrafa mal olacağını yazıyor (eski, bölgeye göre değişebilir; güncel teklif alın).",
+            "onlem": "Değişim aralığı konusunda tek bir görüş yok: bir yorumcu en fazla 40 bin km/3 yıl, başka biri 60 bin km, Gen3 için bir kaynak 100-120 bin km öneriyor; kitapçık değeri 180 bin km. Yetkili servis bülteni ve motor jenerasyonunu (Gen2/Gen3) şasi numarasıyla doğrulayın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/citroen/c3/kronik",
+            "https://www.sikayetvar.com/citroen/citroen-c3-aircross-triger-kayisi-arizasi-garanti-kapsamina-alinmali",
+            "https://www.sikayetvar.com/citroen/garanti/puretech",
+            "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
+            "https://forum.donanimhaber.com/1-2-puretech-triger-degisimi--161243255",
+            "https://eksisozluk.com/1-2-puretech--6399271",
+            "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
+            "https://www.completecar.ie/askusanything/question/18081/Do-all-Peugeot-PureTech-engines-have-wet-belt-issues",
+            "https://eksisozluk.com/1-2-puretech--6399271?p=4",
+            "https://www.honestjohn.co.uk/askhj/answer/184969/are-there-cambelt-issues-with-the-1-2-puretech-engine-",
+            "https://www.parkers.co.uk/car-news/stellantis-wet-belt-compensation/",
+            "https://www.sikayetvar.com/peugeot/peugeot-308-purtech-triger-kayisi-ve-yag-eksiltme-sorunu",
+            "https://www.honestjohn.co.uk/forum/post/159060/peugeot-308-sw--",
+            "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2016,
+              "bitis": 2020,
+              "durum": "Yaygın",
+              "not": "İlk kayışlar yağda dağılan parçacıklar bırakıyor; Stellantis uzatılmış garanti ve tazminat programı yürütüyor."
+            },
+            {
+              "baslangic": 2021,
+              "bitis": null,
+              "durum": "Görülebilir",
+              "not": "Bir kaynak kayış malzemesinin yaklaşık 2021'de değiştirildiğini yazıyor ama tüm motorların etkilenmediğini, düzelme düzeyinin bilinmediğini belirtiyor (tek kaynak)."
+            }
+          ]
+        },
+        {
+          "id": "yag-tuketimi",
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, egzozdan mavimsi duman",
+          "tahmini_km_araligi": "40.000 - 100.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda net teknik neden verilmiyor; yağın yakıtla seyrelmesi (oil dilution, özellikle kısa/şehir içi sürüşte) yağın özelliklerini bozabiliyor. Bir kaynak Gen3 motorlarda yağ tüketiminin ciddi oranda azaltıldığını yazıyor.",
+            "cozum": "Yağ değişimini sıklaştırmak (bir kaynak 10.000 km öneriyor), PSA/Stellantis onaylı yağ kullanmak, yağ seviyesini düzenli kontrol etmek.",
+            "onlem": "Motor jenerasyonunu (Gen2/Gen3) şasi numarasıyla doğrulamak; kısa mesafe kullanımı uzun yolla dengelemek."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-308-purtech-triger-kayisi-ve-yag-eksiltme-sorunu",
+            "https://www.araclo.com/blog/1.2-puretech-motor-analizi-gercek-sorunlar-abartilanlar-ve-kontrol-listesi",
+            "https://www.parkers.co.uk/car-news/stellantis-wet-belt-compensation/",
+            "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
+            "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
+            "https://eksisozluk.com/1-2-puretech--6399271?p=4",
+            "https://www.sikayetvar.com/peugeot/301/motor",
+            "https://www.sikayetvar.com/motor/vti",
+            "https://www.sikayetvar.com/peugeot/peugeot-12-puretech-aracim-yag-sorunu",
+            "https://eksisozluk.com/peugeot-puretech-1-2-rezaleti--5458201?p=8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psa-thp-ep6",
+      "ad": "PSA / BMW / Mini 1.6 THP - N14 - N18 (EP6 turbo benzin)",
+      "tur": "motor",
+      "aciklama": "PSA ile BMW'nin ortak geliştirdiği 1.6 litre direkt enjeksiyonlu turbo benzinli motor (PSA'da EP6, BMW / Mini'de N14 ve N18). Peugeot 207, 308, 3008, 508, Citroën C4, C5, DS3, DS4 ve Mini Cooper S / Countryman S (R56 / R60) modellerinde bulunur.",
+      "kronik_sorunlar": [
+        {
+          "id": "triger-zinciri",
+          "sorun_adi": "Triger zinciri uzaması",
+          "etkilenen_parca": "Triger zinciri, zincir gergisi ve eksantrik dişlileri",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi, kam/krank senkron hatası ile arıza lambası",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda 1.6 THP ailesi için zincir uzaması ve gergi arızaları yaygın sorun olarak anılıyor; neden olarak zincirin zamanla uzaması gösteriliyor. Bir forumda motordan gelen şakırtı sesi ve arıza ışığı ilk işaretler olarak aktarılıyor.",
+            "cozum": "Zincir seti değişiminde gergi, zincir dişlileri ve bazen su pompası da yenileniyor (genel forum bilgisi). EP6'ya özel güncel fiyat aramada bulunamadı; yetkili servis ve bağımsız bir ustadan yazılı fiyat alın."
+          },
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/thp-motor-ve-kronik-sorunlari-1-6-thp-alirken-nelere-dikkat-edilmeli.13309/",
+            "https://www.forum-peugeot.com/Forum/threads/fiabilit%C3%A9-du-thp-1-6l-150ch-moteur-ep6.30030/",
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2280-fiabilite-des-16-thp.php",
+            "https://www.parkers.co.uk/peugeot/3008/estate/review/",
+            "https://otopark.com/forum/threads/208-1-6-thp-156hp-allure-hakkinda.9453/"
+          ]
+        },
+        {
+          "id": "emme-supabi-karbon",
+          "sorun_adi": "Emme supaplarında karbon birikimi",
+          "etkilenen_parca": "Emme supapları (direkt enjeksiyon)",
+          "belirtiler": "Tekleme, düzensiz rölanti, güç ve yakıt ekonomisi kaybı",
+          "tahmini_km_araligi": "70.000 - 130.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Direkt enjeksiyonlu motorlarda yakıt emme supaplarını yıkamadığı için karbon birikiyor; bu THP için de anılan bilinen bir durum.",
+            "cozum": "Karbon (kurum) temizliği; bir kaynak her 80.000 km'de temizlik öneriyor (tek kaynak, üretici önerisi olarak doğrulanmalı)."
+          },
+          "kaynaklar": [
+            "https://www.araclo.com/motorlar/ep6-1-6thp/kronik-sorunlar",
+            "https://www.parkers.co.uk/peugeot/3008/estate/review/",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?p=586357",
+            "https://otopark.com/forum/threads/208-1-6-thp-156hp-allure-hakkinda.9453/"
+          ]
+        },
+        {
+          "id": "yuksek-basinc-pompasi",
+          "sorun_adi": "Yüksek basınç yakıt pompası arızası",
+          "etkilenen_parca": "Yüksek basınç yakıt pompası",
+          "belirtiler": "Zor çalışma, gaza basınca tıkanma, ani güç kaybı, yakıt basıncı hata kodu ile arıza lambası",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forum kullanıcıları pompanın THP motorlarda sık arızalandığını ve pahalı olduğunu bildiriyor.",
+            "cozum": "Pompa değişimi ya da onarımı; bazı kişiler tamirle onarım yapıyor ve pompanın kumpasla ölçülerek ömrünün kestirilebileceği yazılıyor (doğrulanmamış yöntem).",
+            "maliyet": "Bir forum yorumunda yeni parça için yaklaşık 750 dolar (25-30 bin TL) deniyor; bu fiyat eski bir ilana (yaklaşık iki yıl önce) ait ve güncel değil."
+          },
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/thp-motor-ve-kronik-sorunlari-1-6-thp-alirken-nelere-dikkat-edilmeli.13309/",
+            "https://www.araclo.com/vehicles/peugeot-3008-1.6-thp/degerlendirmeler/kullanici-sorunlari",
+            "https://www.parkers.co.uk/peugeot/3008/estate/review/",
+            "https://forum.donanimhaber.com/thp-yuksek-basinc-pompasi-tamiri--160377560",
+            "https://otopark.com/forum/threads/208-1-6-thp-156hp-allure-hakkinda.9453/",
+            "https://www.sikayetvar.com/mini/mini-cooper-yuksek-basinc-pompasi-sorunufahis-ucretlendirme",
+            "https://www.sikayetvar.com/mini/basinc/countryman",
+            "https://www.sikayetvar.com/mini/cooper-countryman/basinc",
+            "https://forum.donanimhaber.com/mini-cooper-countryman-motor-ariza-lamba-sorunu--129506764",
+            "https://forum.donanimhaber.com/cooper-s-aldim-motor-isigi-performans-dusuklugu--139623246-2",
+            "https://otopark.com/forum/threads/mini-cooper-s-alinir-mi.9936/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2007,
+              "bitis": 2012,
+              "durum": "Görülebilir",
+              "not": "OTOPARK forumunda özellikle 2011-2012 üretimde öne çıkıyor; Parkers erken örneklerde pompa sorunu olduğunu yazıyor."
+            },
+            {
+              "baslangic": 2013,
+              "bitis": 2014,
+              "durum": "Seyrek",
+              "not": "2013 ve sonrasında kronik sayılacak bir pompa sorunu kalmadığı yazılıyor."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "renault-edc",
       "ad": "Renault / Dacia EDC çift kavramalı şanzıman (6 ve 7 ileri)",
       "tur": "sanziman",
@@ -2063,6 +2953,33 @@
     },
     {
       "marka": "Citroen",
+      "model": "Berlingo (2008-2018)",
+      "motor": "1.6 HDi 75/92/100/115 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "Berlingo (K9, 2018-)",
+      "motor": "1.5 BlueHDi 100/130 (DV5)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Citroen",
       "model": "C-Elysee (2012-2020)",
       "motor": "1.6 HDi / BlueHDi (DV6)",
       "uretim_yillari": {
@@ -2088,7 +3005,8 @@
             "https://forum.donanimhaber.com/1-6tdci-kronik-sorun-var-mi--149568529",
             "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574",
             "https://forum.donanimhaber.com/enjektor-diplerinde-yag-kacagi--153286454"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/enjektor"
         },
         {
           "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
@@ -2106,7 +3024,8 @@
             "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
             "https://otopark.com/forum/threads/207-1-6-hdi-turbo-arizasi.2118/page-2",
             "https://frenchcarforum.co.uk/forum/viewtopic.php?t=42948"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/turbo-yag-suzgeci"
         },
         {
           "sorun_adi": "EGR valfi tıkanması",
@@ -2124,8 +3043,13 @@
             "https://www.berlingoforum.com/thread-12042.html",
             "https://frenchcarforum.co.uk/forum/viewtopic.php?t=59950",
             "https://forum.donanimhaber.com/1-6-hdi-tdci-motorda-egr-soken-var-mi--153323211"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/egr-dpf"
         }
+      ],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv6-hdi-tdci"
       ]
     },
     {
@@ -2156,8 +3080,25 @@
             "https://eksisozluk.com/1-2-puretech--6399271",
             "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
             "https://eksisozluk.com/1-2-puretech--6399271?p=4"
-          ]
+          ],
+          "aile_sorunu": "psa-puretech-eb2/yagli-triger-kayisi"
         }
+      ],
+      "aileler": [
+        "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "C3 (2009-2016)",
+      "motor": "1.6 HDi 92 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
       ]
     },
     {
@@ -2206,8 +3147,12 @@
               "durum": "Görülebilir",
               "not": "Bir kaynak kayış malzemesinin yaklaşık 2021'de değiştirildiğini yazıyor ama tüm motorların etkilenmediğini, düzelme düzeyinin bilinmediğini belirtiyor (tek kaynak)."
             }
-          ]
+          ],
+          "aile_sorunu": "psa-puretech-eb2/yagli-triger-kayisi"
         }
+      ],
+      "aileler": [
+        "psa-puretech-eb2"
       ]
     },
     {
@@ -2258,8 +3203,40 @@
               "durum": "Seyrek",
               "not": "Güçlendirilmiş 8 mm zincir kullanılıyor; yeni üretimde şikâyet az (veri sınırlı)."
             }
-          ]
+          ],
+          "aile_sorunu": "psa-dv5-1-5-bluehdi/eksantrik-zinciri"
         }
+      ],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 (2020-)",
+      "motor": "1.2 PureTech 130 (EB2)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 / C4 Picasso (2010-2018)",
+      "motor": "1.6 e-HDi 115 (DV6, MCP robotize)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci",
+        "psa-mcp-robotize"
       ]
     },
     {
@@ -2287,8 +3264,12 @@
             "https://www.sikayetvar.com/citroen/c4/puretech",
             "https://forum.donanimhaber.com/1-2-puretech-motor-sorunlari--130023944",
             "https://eksisozluk.com/peugeot-puretech-1-2-rezaleti--5458201?p=4"
-          ]
+          ],
+          "aile_sorunu": "psa-puretech-eb2/yagli-triger-kayisi"
         }
+      ],
+      "aileler": [
+        "psa-puretech-eb2"
       ]
     },
     {
@@ -2737,6 +3718,19 @@
     },
     {
       "marka": "Fiat",
+      "model": "500L (2013-2022)",
+      "motor": "1.3 Multijet 95",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-3-multijet"
+      ]
+    },
+    {
+      "marka": "Fiat",
       "model": "600e (2024-)",
       "motor": "Elektrik (54 kWh, 115 kW / 156 PS)",
       "uretim_yillari": {
@@ -2792,7 +3786,8 @@
             "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
             "https://forum.donanimhaber.com/1-3-multijet-cekis-problemi--34957272",
             "https://forum.donanimhaber.com/fiat-doblo-1-3-mjet-stop-etme-sorunu--150456532"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/enjektor"
         },
         {
           "sorun_adi": "Turbo arızası",
@@ -2814,7 +3809,8 @@
             "https://forum.donanimhaber.com/1-3-multijet-cekis-problemi--34957272",
             "https://forum.donanimhaber.com/turbo-fiyati-909-tl-toplam-1-239-tl-fiat-doblo-1-3-multi-jet-turbo-arizasi--62225627",
             "https://www.sikayetvar.com/fiat/fiat-doblo-multijet-turbo-arizasi"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/turbo"
         },
         {
           "sorun_adi": "EGR ve DPF tıkanması (kısa mesafe kullanımında)",
@@ -2837,8 +3833,12 @@
             "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
             "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
             "https://forum.donanimhaber.com/fiat-doblo-egr-arizasi--85524084"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/egr-valfi"
         }
+      ],
+      "aileler": [
+        "fiat-1-3-multijet"
       ]
     },
     {
@@ -2872,7 +3872,8 @@
             "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
             "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
             "https://www.araclo.com/blog/fiat-egea-1.3-multijet-alinir-mi-performans-kronik-sorunlar-ve-kullanici-yorumlari-2026"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/egr-valfi"
         },
         {
           "sorun_adi": "DPF tıkanması ve yağa yakıt karışması",
@@ -2896,8 +3897,12 @@
             "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
             "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
             "https://www.araclo.com/blog/fiat-egea-1.3-multijet-alinir-mi-performans-kronik-sorunlar-ve-kullanici-yorumlari-2026"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/dpf-yagi-yakit"
         }
+      ],
+      "aileler": [
+        "fiat-1-3-multijet"
       ]
     },
     {
@@ -3061,7 +4066,8 @@
             "https://www.sikayetvar.com/fiat/fiorino/multijet",
             "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
             "https://forum.donanimhaber.com/fiorino-alacagim-dikkat-etmem-gerekenler--104624344"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/enjektor"
         },
         {
           "sorun_adi": "Euro 5 motorda aşırı yağ tüketimi",
@@ -3097,8 +4103,12 @@
             "https://www.sikayetvar.com/fiat/fiorino/multijet",
             "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
             "https://otopark.com/forum/threads/multijet-turbo-islik-sesi.6125/"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/turbo"
         }
+      ],
+      "aileler": [
+        "fiat-1-3-multijet"
       ]
     },
     {
@@ -3172,7 +4182,8 @@
             "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
             "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
             "https://forum.donanimhaber.com/1-3-multijet-lineaga-egr-temizligi-yaptiran-varmi--123618112"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/egr-valfi"
         },
         {
           "sorun_adi": "Triger zinciri uzaması",
@@ -3194,8 +4205,12 @@
             "https://fiatforum.com/threads/what-goes-wrong-with-multijet-pandas.492092",
             "https://forum.donanimhaber.com/triger-zinciri-degisim-masrafi--83339532",
             "https://forum.donanimhaber.com/2015-linea-1-3-mjet-euro-5-motor-triger-zincir-degisim-maliyeti--139580456"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/triger-zinciri"
         }
+      ],
+      "aileler": [
+        "fiat-1-3-multijet"
       ]
     },
     {
@@ -3245,6 +4260,100 @@
             "https://forum.donanimhaber.com/punto-airbag-catlagi-cozumu--117736274"
           ]
         }
+      ],
+      "aileler": [
+        "fiat-1-3-multijet"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "B-Max (2012-2017)",
+      "motor": "1.0 EcoBoost 100/125",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "ford-1-0-ecoboost"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "B-Max (2012-2017)",
+      "motor": "1.6 Ti-VCT 105 (Powershift DPS6)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "ford-dps6-powershift"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "C-Max / Grand C-Max (2010-2019)",
+      "motor": "1.0 EcoBoost 100/125",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "ford-1-0-ecoboost"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "C-Max / Grand C-Max (2010-2019)",
+      "motor": "1.6 TDCi 95/115 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "C-Max / Grand C-Max (2010-2019)",
+      "motor": "1.6 Ti-VCT 105 (Powershift DPS6)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "ford-dps6-powershift"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Courier / Tourneo Courier (2014-)",
+      "motor": "1.0 EcoBoost 100",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "ford-1-0-ecoboost"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "EcoSport (2013-2017)",
+      "motor": "1.5 Ti-VCT 112 (Powershift DPS6)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "ford-dps6-powershift"
       ]
     },
     {
@@ -3273,8 +4382,12 @@
             "https://eksisozluk.com/ford-ecosport--1178805?p=6",
             "https://forum.donanimhaber.com/1-0-ecoboost-kullanim-omru--94004403-3",
             "https://www.sikayetvar.com/ford/ford-focus-2016-10-ecoboost-motor-arizasi-ve-komple-degisimi"
-          ]
+          ],
+          "aile_sorunu": "ford-1-0-ecoboost/yagli-triger-kayisi"
         }
+      ],
+      "aileler": [
+        "ford-1-0-ecoboost"
       ]
     },
     {
@@ -3306,7 +4419,8 @@
             "https://www.fordownersclub.com/forums/topic/106861-fiesta-14-tdci-egr-and-injectors-question/",
             "https://www.fordownersclub.com/forums/topic/147206-intermittent-injector-problems-fiesta-diesel/",
             "https://www.fordownersclub.com/forums/topic/168351-fiesta-14-tdci-loud-electrical-sparkingarcing-injector"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/enjektor"
         },
         {
           "sorun_adi": "Turbo arızası (kurum ve yağlama sorunu)",
@@ -3326,7 +4440,8 @@
             "https://www.honestjohn.co.uk/forum/post/index.htm?t=96679",
             "https://www.fordownersclub.com/forums/topic/106861-fiesta-14-tdci-egr-and-injectors-question/",
             "https://www.fordownersclub.com/forums/topic/90089-is-fiesta-14-16-tdci-mk7-reliable/"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/turbo-yag-suzgeci"
         },
         {
           "sorun_adi": "EGR valfi kurumlanması ve DPF tıkanması",
@@ -3346,8 +4461,12 @@
             "https://www.fordownersclub.com/forums/topic/106861-fiesta-14-tdci-egr-and-injectors-question/",
             "https://www.fordownersclub.com/forums/topic/112483-fiesta-16tdci-engine-cutting-out/",
             "https://www.honestjohn.co.uk/forum/post/index.htm?t=96679"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/egr-dpf"
         }
+      ],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
       ]
     },
     {
@@ -3383,8 +4502,12 @@
             "https://www.sikayetvar.com/ford/fiesta/powershift",
             "https://forum.donanimhaber.com/ford-focus-1-6-ti-vct-powershift-ariza-fiyat-hakkinda-bilgi--146762175",
             "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
-          ]
+          ],
+          "aile_sorunu": "ford-dps6-powershift/tcm-arizasi"
         }
+      ],
+      "aileler": [
+        "ford-dps6-powershift"
       ]
     },
     {
@@ -3429,7 +4552,8 @@
               "durum": "Görülebilir",
               "not": "Hortum tasarımı değişti ama bazı sahipler kaçağın sürdüğünü bildiriyor."
             }
-          ]
+          ],
+          "aile_sorunu": "ford-1-0-ecoboost/sogutma-kacagi"
         },
         {
           "sorun_adi": "Yağ banyolu triger kayışının aşınması",
@@ -3469,8 +4593,12 @@
               "durum": "Seyrek",
               "not": "Zincire geçildi; yağ pompası kayışı yağ içinde kalıyor ama arıza bildirimi az."
             }
-          ]
+          ],
+          "aile_sorunu": "ford-1-0-ecoboost/yagli-triger-kayisi"
         }
+      ],
+      "aileler": [
+        "ford-1-0-ecoboost"
       ]
     },
     {
@@ -3499,7 +4627,8 @@
             "https://www.fordownersclub.com/forums/topic/40940-oil-leak-around-injectors/",
             "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574",
             "https://forum.donanimhaber.com/enjektor-diplerinde-yag-kacagi--153286454"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/enjektor"
         },
         {
           "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
@@ -3517,7 +4646,8 @@
             "https://www.fordownersclub.com/forums/topic/121545-16tdci-turbo-problems-what-years/",
             "https://www.honestjohn.co.uk/forum/post/index.htm?t=90204",
             "https://www.honestjohn.co.uk/forum/post/117866/focus-1-6-tdci--"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/turbo-yag-suzgeci"
         },
         {
           "sorun_adi": "DPF tıkanması",
@@ -3536,8 +4666,12 @@
             "https://www.fordownersclub.com/forums/topic/82756-blocked-dpf-regeneration-help-16-tdci-2008/",
             "https://www.honestjohn.co.uk/askhj/answer/28172/ford-focus-dpf-problems",
             "https://www.fordownersclub.com/forums/topic/168080-focus-mk2-16-tdci-109-dpf-regenerates-every-30-35-km"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/egr-dpf"
         }
+      ],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
       ]
     },
     {
@@ -3578,7 +4712,8 @@
               "durum": "Yaygın",
               "not": "Ford'un servis bülteni ve uzatılmış garanti programı 2012-2016 Focus'u kapsıyor."
             }
-          ]
+          ],
+          "aile_sorunu": "ford-dps6-powershift/kavrama-silkeleme"
         },
         {
           "sorun_adi": "Şanzıman kontrol modülü (TCM) arızası",
@@ -3602,8 +4737,12 @@
             "https://www.sikayetvar.com/ford/fiesta/powershift",
             "https://forum.donanimhaber.com/ford-focus-1-6-ti-vct-powershift-ariza-fiyat-hakkinda-bilgi--146762175",
             "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
-          ]
+          ],
+          "aile_sorunu": "ford-dps6-powershift/tcm-arizasi"
         }
+      ],
+      "aileler": [
+        "ford-dps6-powershift"
       ]
     },
     {
@@ -3636,7 +4775,8 @@
             "https://www.sikayetvar.com/ford/kuga/kuga-eksantrik-zinciri",
             "https://forum.donanimhaber.com/psa-1-5-dizel-motorlarda-eksantrik-zinciri-problemi--160411525-2",
             "https://www.sikayetvar.com/ford/focus/focus-eksantrik-zinciri"
-          ]
+          ],
+          "aile_sorunu": "psa-dv5-1-5-bluehdi/eksantrik-zinciri"
         },
         {
           "sorun_adi": "DPF tıkanması ve yağa yakıt karışması",
@@ -3655,8 +4795,12 @@
             "https://www.sikayetvar.com/ford/focus/focus-yag-omru",
             "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi",
             "https://otopark.com/forum/threads/dizel-partikul-filtreli-araclarda-gorulebilen-yag-problemi.7225/"
-          ]
+          ],
+          "aile_sorunu": "psa-dv5-1-5-bluehdi/dpf-yagi-yakit"
         }
+      ],
+      "aileler": [
+        "psa-dv5-1-5-bluehdi"
       ]
     },
     {
@@ -3690,6 +4834,32 @@
             "https://forum.donanimhaber.com/ford-kuga1-5-ecoboost-motor-teknik-bilgi--159813805"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Puma (2019-)",
+      "motor": "1.0 EcoBoost 125 mHEV",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "ford-1-0-ecoboost"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Transit Connect / Tourneo Connect (2013-2022)",
+      "motor": "1.6 TDCi 75/95/115 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
       ]
     },
     {
@@ -3925,6 +5095,19 @@
     },
     {
       "marka": "Hyundai",
+      "model": "Accent Blue (RB, 2011-2017)",
+      "motor": "1.6 GDI 132/140",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-gamma-gdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "Accent Blue (RB, 2015-2019)",
       "motor": "1.6 CRDi 136 (7DCT)",
       "uretim_yillari": {
@@ -3954,6 +5137,10 @@
             "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
           ]
         }
+      ],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
       ]
     },
     {
@@ -3985,7 +5172,8 @@
             "https://eksisozluk.com/hyundai-i20--1733493?p=81",
             "https://www.sikayetvar.com/dct/kronik",
             "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
-          ]
+          ],
+          "aile_sorunu": "hyundai-kia-7dct/kavrama-titremesi"
         },
         {
           "sorun_adi": "Yakıt pompası arızası",
@@ -4023,6 +5211,9 @@
             }
           ]
         }
+      ],
+      "aileler": [
+        "hyundai-kia-7dct"
       ]
     },
     {
@@ -4070,6 +5261,20 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Elantra (AD, 2016-2020)",
+      "motor": "1.6 CRDi 136 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
       ]
     },
     {
@@ -4125,6 +5330,33 @@
     },
     {
       "marka": "Hyundai",
+      "model": "Kona (OS, 2017-2023)",
+      "motor": "1.6 CRDi 115/136 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Kona (OS, 2017-2023)",
+      "motor": "1.6 T-GDI 177 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct"
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "Tucson (NX4, 2021-)",
       "motor": "1.6 CRDi 136 (7DCT)",
       "uretim_yillari": {
@@ -4152,7 +5384,8 @@
             "https://otopark.com/forum/threads/dizel-partikul-filtreli-araclarda-gorulebilen-yag-problemi.7225/",
             "https://forum.donanimhaber.com/motor-yagi-neden-artar--109295236",
             "https://www.sikayetvar.com/hyundai-motor/tucson/yag"
-          ]
+          ],
+          "aile_sorunu": "hyundai-kia-u2-crdi/dpf-yagi-yakit"
         },
         {
           "sorun_adi": "7DCT kavrama titremesi",
@@ -4172,8 +5405,13 @@
             "https://www.sikayetvar.com/dct/kronik",
             "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari",
             "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
-          ]
+          ],
+          "aile_sorunu": "hyundai-kia-7dct/kavrama-titremesi"
         }
+      ],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
       ]
     },
     {
@@ -4204,8 +5442,27 @@
             "https://www.sikayetvar.com/dct/kronik",
             "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari",
             "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
-          ]
+          ],
+          "aile_sorunu": "hyundai-kia-7dct/kavrama-titremesi"
         }
+      ],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Tucson (TL, 2015-2018)",
+      "motor": "1.7 CRDi 115/141 (6MT ve 7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
       ]
     },
     {
@@ -4246,8 +5503,12 @@
               "durum": "Görülebilir",
               "not": "Hyundai'nin yazılım güncellemesi (geri çağırma ve servis kampanyası) 2016-2017 Tucson'ları kapsıyor."
             }
-          ]
+          ],
+          "aile_sorunu": "hyundai-kia-7dct/kavrama-titremesi"
         }
+      ],
+      "aileler": [
+        "hyundai-kia-7dct"
       ]
     },
     {
@@ -4279,7 +5540,8 @@
             "https://eksisozluk.com/hyundai-i20--1733493?p=81",
             "https://www.sikayetvar.com/dct/kronik",
             "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
-          ]
+          ],
+          "aile_sorunu": "hyundai-kia-7dct/kavrama-titremesi"
         },
         {
           "sorun_adi": "Yakıt pompası arızası",
@@ -4317,6 +5579,9 @@
             }
           ]
         }
+      ],
+      "aileler": [
+        "hyundai-kia-7dct"
       ]
     },
     {
@@ -4395,6 +5660,9 @@
             "https://forum.donanimhaber.com/hyundai-i20-eps-direksiyon-arizasi-hakkinda--137038114"
           ]
         }
+      ],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
       ]
     },
     {
@@ -4427,6 +5695,62 @@
             "https://forum.donanimhaber.com/eps-direksiyon-arizasi--34563676"
           ]
         }
+      ],
+      "aileler": [
+        "hyundai-kia-gamma-gdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i30 (GD, 2012-2017)",
+      "motor": "1.6 GDI 135",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-gamma-gdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i30 (PD, 2017-2023)",
+      "motor": "1.0 T-GDI 120 / 1.4 T-GDI 140 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i30 (PD, 2017-2023)",
+      "motor": "1.6 CRDi 110/136 (6MT ve 7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "ix35 (LM, 2010-2015)",
+      "motor": "1.6 GDI 135",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-gamma-gdi"
       ]
     },
     {
@@ -4477,6 +5801,20 @@
     {
       "marka": "Kia",
       "model": "Ceed (CD, 2018-)",
+      "motor": "1.6 CRDi 115/136 (6MT ve 7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Ceed (CD, 2018-)",
       "motor": "T-GDI benzinli (7 ileri çift kavramalı DCT)",
       "uretim_yillari": {
         "baslangic": 2018,
@@ -4500,8 +5838,12 @@
             "https://www.sikayetvar.com/kia/ceed/kronik",
             "https://forum.donanimhaber.com/kia-dct-sanziman-aracta-sallanma-sorunu--140033829",
             "https://forum.donanimhaber.com/kia-ceed-1-4-t-gdi--143980155"
-          ]
+          ],
+          "aile_sorunu": "hyundai-kia-7dct/kavrama-titremesi"
         }
+      ],
+      "aileler": [
+        "hyundai-kia-7dct"
       ]
     },
     {
@@ -4529,8 +5871,12 @@
             "https://forum.donanimhaber.com/kia-ceed-1-6-crdi-silkeleme-sorunu--134474492",
             "https://www.sikayetvar.com/kia/enjektor",
             "https://www.araclo.com/blog/kia-ceed-1.6-crdi-ikinci-el-alim-rehberi-kontroller-bilinen-sorunlar-ve-bakim-onerileri"
-          ]
+          ],
+          "aile_sorunu": "hyundai-kia-u2-crdi/enjektor-kodlama"
         }
+      ],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
       ]
     },
     {
@@ -4669,8 +6015,25 @@
             "https://forum.donanimhaber.com/dizel-partikul-filtreli-araclarda-gorulen-yaglama-problemi--127906714",
             "https://otopark.com/forum/threads/dizel-partikul-filtreli-araclarda-gorulebilen-yag-problemi.7225/",
             "https://forum.donanimhaber.com/motor-yagi-neden-artar--109295236"
-          ]
+          ],
+          "aile_sorunu": "hyundai-kia-u2-crdi/dpf-yagi-yakit"
         }
+      ],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Rio (YB, 2017-)",
+      "motor": "1.0 T-GDI 100 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct"
       ]
     },
     {
@@ -4702,8 +6065,40 @@
             "https://www.araclo.com/blog/kia-sportage-1.6-crdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
             "https://www.sikayetvar.com/dct/kronik",
             "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
-          ]
+          ],
+          "aile_sorunu": "hyundai-kia-7dct/kavrama-titremesi"
         }
+      ],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Sportage (QL, 2015-2018)",
+      "motor": "1.6 T-GDI 177 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Sportage (QL, 2015-2018)",
+      "motor": "1.7 CRDi 115/141 (6MT ve 7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
       ]
     },
     {
@@ -4732,8 +6127,25 @@
             "https://www.sikayetvar.com/sportage/yag",
             "https://otopark.com/forum/threads/kia-sportage-1-6-gdi.15101/",
             "https://www.sikayetvar.com/kia/sportage-crossover"
-          ]
+          ],
+          "aile_sorunu": "hyundai-kia-gamma-gdi/yag-tuketimi"
         }
+      ],
+      "aileler": [
+        "hyundai-kia-gamma-gdi"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Stonic (2017-)",
+      "motor": "1.0 T-GDI 100/120 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct"
       ]
     },
     {
@@ -4771,6 +6183,20 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Stonic (2017-)",
+      "motor": "1.6 CRDi 110/136 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
       ]
     },
     {
@@ -5261,8 +6687,12 @@
             "https://forum.donanimhaber.com/mini-cooper-countryman-motor-ariza-lamba-sorunu--129506764",
             "https://forum.donanimhaber.com/cooper-s-aldim-motor-isigi-performans-dusuklugu--139623246-2",
             "https://otopark.com/forum/threads/mini-cooper-s-alinir-mi.9936/"
-          ]
+          ],
+          "aile_sorunu": "psa-thp-ep6/yuksek-basinc-pompasi"
         }
+      ],
+      "aileler": [
+        "psa-thp-ep6"
       ]
     },
     {
@@ -5875,7 +7305,8 @@
             "https://forum.donanimhaber.com/triger-sesi-degisim-periyodu--158393210",
             "https://eksisozluk.com/opel-astra-1-3-cdti--1306897",
             "https://www.vauxhallownersnetwork.co.uk/threads/astra-1-3-cdti-timing-chain.316850/"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/triger-zinciri"
         },
         {
           "sorun_adi": "EGR kurumlanması ve DPF tıkanması (kısa mesafe kullanımında)",
@@ -5895,7 +7326,8 @@
             "https://www.vauxhallownersnetwork.co.uk/threads/going-mad-with-egr-dpf-problems.425061/",
             "https://www.vauxhallownersnetwork.co.uk/threads/astra-1-3cdti-common-problems.199991/",
             "https://www.honestjohn.co.uk/vauxhall/astra/2004/"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/egr-valfi"
         },
         {
           "sorun_adi": "Turbo basınç hatası (kontrol selenoid valfi, aktüatör ve hortum kaçağı)",
@@ -5914,7 +7346,8 @@
             "https://www.sikayetvar.com/opel/astra/turbo",
             "https://eksisozluk.com/opel-astra-1-3-cdti--1306897",
             "https://www.vauxhallownersnetwork.co.uk/threads/1-3-cdti-turbo-issues.349893/"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/turbo"
         },
         {
           "sorun_adi": "Easytronic robotize şanzıman sarsıntısı ve arızası",
@@ -5935,6 +7368,9 @@
             "https://eksisozluk.com/easytronic--421247?p=4"
           ]
         }
+      ],
+      "aileler": [
+        "fiat-1-3-multijet"
       ]
     },
     {
@@ -6028,8 +7464,12 @@
             "https://www.sikayetvar.com/astra/cdti",
             "https://otopark.com/forum/threads/insignia-a-1-6-cdti-lari-nasil-bilirsiniz.13847/",
             "https://forum.donanimhaber.com/opel-astra-j-kasa-1-6-cdti-110-136-hp--83831348-74"
-          ]
+          ],
+          "aile_sorunu": "opel-1-6-cdti/triger-zinciri"
         }
+      ],
+      "aileler": [
+        "opel-1-6-cdti"
       ]
     },
     {
@@ -6107,8 +7547,25 @@
             "https://www.sikayetvar.com/opel/dizel/ses",
             "https://forum.donanimhaber.com/astra-k-1-6-ctdi-model-sorunlari--159820282",
             "https://eksisozluk.com/opel-astra-k--4637326?p=14"
-          ]
+          ],
+          "aile_sorunu": "opel-1-6-cdti/triger-zinciri"
         }
+      ],
+      "aileler": [
+        "opel-1-6-cdti"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Combo D (2011-2018)",
+      "motor": "1.3 CDTI 90 (Multijet)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-3-multijet"
       ]
     },
     {
@@ -6141,6 +7598,9 @@
             "https://eksisozluk.com/easytronic--421247?p=4"
           ]
         }
+      ],
+      "aileler": [
+        "fiat-1-3-multijet"
       ]
     },
     {
@@ -6169,8 +7629,12 @@
             "https://forum.donanimhaber.com/1-3-multijet-triger-zincir-degisim-zamani-yardim--130469575",
             "https://www.araclo.com/blog/opel-astra-1.3-cdti-kronik-sorunlari-ve-ikinci-el-alim-rehberi",
             "https://forum.donanimhaber.com/2013-opel-corsa-d-1-3-cdti-100-000-km-bakimi--126774210"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-3-multijet/triger-zinciri"
         }
+      ],
+      "aileler": [
+        "fiat-1-3-multijet"
       ]
     },
     {
@@ -6224,6 +7688,20 @@
     },
     {
       "marka": "Opel",
+      "model": "Crossland (2017-2024)",
+      "motor": "1.5 BlueHDi 100/110 (DV5)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2024
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Crossland / Corsa F (2017-)",
       "motor": "1.2 PureTech 83/100/110/130 (EB2)",
       "uretim_yillari": {
@@ -6268,8 +7746,12 @@
               "durum": "Görülebilir",
               "not": "Bir kaynak kayış malzemesinin yaklaşık 2021'de değiştirildiğini yazıyor ama tüm motorların etkilenmediğini belirtiyor (tek kaynak); 2022 model Corsa'da 34.000 km'de aşınma bildiren sahip var."
             }
-          ]
+          ],
+          "aile_sorunu": "psa-puretech-eb2/yagli-triger-kayisi"
         }
+      ],
+      "aileler": [
+        "psa-puretech-eb2"
       ]
     },
     {
@@ -6312,8 +7794,13 @@
               "durum": "Seyrek",
               "not": "DonanımHaber'de bir kullanıcı 2023 sonrası üretimlerde daha kalın zincir kullanıldığını yazıyor (PSA 1.5 dizel için genel bilgi; doğrulanmadı)."
             }
-          ]
+          ],
+          "aile_sorunu": "psa-dv5-1-5-bluehdi/eksantrik-zinciri"
         }
+      ],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
       ]
     },
     {
@@ -6341,7 +7828,8 @@
             "https://www.sikayetvar.com/opel/insignia/kronik",
             "https://eksisozluk.com/opel-insignia--724247?p=34",
             "https://otopark.com/forum/threads/opel-insignia-islik-sesi.14164/"
-          ]
+          ],
+          "aile_sorunu": "opel-1-6-cdti/turbo-hortumu"
         },
         {
           "sorun_adi": "Triger zinciri sesi",
@@ -6362,8 +7850,25 @@
             "https://eksisozluk.com/opel-insignia--724247?p=34",
             "https://otopark.com/forum/threads/insignia-a-1-6-cdti-lari-nasil-bilirsiniz.13847/",
             "https://forum.donanimhaber.com/2018-insignia-1-6-cdti-motordan-gelen-tuhaf-ses--146396954"
-          ]
+          ],
+          "aile_sorunu": "opel-1-6-cdti/triger-zinciri"
         }
+      ],
+      "aileler": [
+        "opel-1-6-cdti"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Meriva B (2010-2017)",
+      "motor": "1.3 CDTI 95 (Multijet)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-3-multijet"
       ]
     },
     {
@@ -6393,8 +7898,65 @@
             "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
             "https://eksisozluk.com/1-2-puretech--6399271",
             "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/"
-          ]
+          ],
+          "aile_sorunu": "psa-puretech-eb2/yagli-triger-kayisi"
         }
+      ],
+      "aileler": [
+        "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka (B, 2021-)",
+      "motor": "1.5 BlueHDi 110 (DV5)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka / Mokka X (2012-2020)",
+      "motor": "1.6 CDTI 136",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "opel-1-6-cdti"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Zafira Tourer (2012-2019)",
+      "motor": "1.6 CDTI 120/136",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "opel-1-6-cdti"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "207 (2006-2014)",
+      "motor": "1.6 HDi 90/110 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
       ]
     },
     {
@@ -6426,7 +7988,8 @@
             "https://www.sikayetvar.com/peugeot/308/adblue",
             "https://www.sikayetvar.com/peugeot/3008/adblue-sorunu",
             "https://otopark.com/forum/threads/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk.15617/"
-          ]
+          ],
+          "aile_sorunu": "psa-bluehdi-adblue/adblue-sensor-pompa"
         },
         {
           "sorun_adi": "Enjektör arızası ve enjektör dibi kaçağı",
@@ -6448,7 +8011,8 @@
             "https://forum.donanimhaber.com/enjektor-diplerinde-yag-kacagi--153286454",
             "https://forum.donanimhaber.com/peugeot-3008--29109292-504",
             "https://forum.donanimhaber.com/eski-kasa-makyajli-1-6-bluehdi-peugeot-3008-alinir-mi--144842900"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/enjektor"
         },
         {
           "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
@@ -6467,7 +8031,8 @@
             "https://otopark.com/forum/threads/207-1-6-hdi-turbo-arizasi.2118/page-2",
             "https://frenchcarforum.co.uk/forum/viewtopic.php?t=42948",
             "https://forum.donanimhaber.com/peugeot-3008--29109292-504"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/turbo-yag-suzgeci"
         },
         {
           "sorun_adi": "EGR valfi tıkanması",
@@ -6487,8 +8052,13 @@
             "https://forum.donanimhaber.com/1-6-hdi-tdci-motorda-egr-soken-var-mi--153323211",
             "https://forum.donanimhaber.com/peugeot-3008--29109292-504",
             "https://forum.donanimhaber.com/eski-kasa-makyajli-1-6-bluehdi-peugeot-3008-alinir-mi--144842900"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/egr-dpf"
         }
+      ],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv6-hdi-tdci"
       ]
     },
     {
@@ -6541,7 +8111,8 @@
               "durum": "Seyrek",
               "not": "Güçlendirilmiş 8 mm zincir kullanılıyor; yeni üretimde şikâyet az (veri sınırlı)."
             }
-          ]
+          ],
+          "aile_sorunu": "psa-dv5-1-5-bluehdi/eksantrik-zinciri"
         },
         {
           "sorun_adi": "AdBlue (SCR) sistemi arızası ve aracın çalışamayacağı uyarısı",
@@ -6562,8 +8133,13 @@
             "https://www.sikayetvar.com/peugeot/308/adblue",
             "https://www.sikayetvar.com/peugeot/3008/adblue-sorunu",
             "https://otopark.com/forum/threads/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk.15617/"
-          ]
+          ],
+          "aile_sorunu": "psa-bluehdi-adblue/adblue-sensor-pompa"
         }
+      ],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
       ]
     },
     {
@@ -6591,7 +8167,8 @@
             "https://www.sikayetvar.com/motor/vti",
             "https://www.sikayetvar.com/peugeot/peugeot-12-puretech-aracim-yag-sorunu",
             "https://eksisozluk.com/peugeot-puretech-1-2-rezaleti--5458201?p=8"
-          ]
+          ],
+          "aile_sorunu": "psa-puretech-eb2/yag-tuketimi"
         },
         {
           "sorun_adi": "Katalitik konvertör arızası ve motor arıza lambası",
@@ -6611,6 +8188,9 @@
             "https://forum.donanimhaber.com/pejo-301-motor-ariza-lambasi--152637853"
           ]
         }
+      ],
+      "aileler": [
+        "psa-puretech-eb2"
       ]
     },
     {
@@ -6640,7 +8220,8 @@
             "https://forum.donanimhaber.com/1-6tdci-kronik-sorun-var-mi--149568529",
             "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574",
             "https://forum.donanimhaber.com/enjektor-diplerinde-yag-kacagi--153286454"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/enjektor"
         },
         {
           "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
@@ -6658,7 +8239,8 @@
             "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
             "https://otopark.com/forum/threads/207-1-6-hdi-turbo-arizasi.2118/page-2",
             "https://frenchcarforum.co.uk/forum/viewtopic.php?t=42948"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/turbo-yag-suzgeci"
         },
         {
           "sorun_adi": "EGR valfi tıkanması",
@@ -6676,8 +8258,26 @@
             "https://www.berlingoforum.com/thread-12042.html",
             "https://frenchcarforum.co.uk/forum/viewtopic.php?t=59950",
             "https://forum.donanimhaber.com/1-6-hdi-tdci-motorda-egr-soken-var-mi--153323211"
-          ]
+          ],
+          "aile_sorunu": "psa-dv6-hdi-tdci/egr-dpf"
         }
+      ],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "308 (T7, 2007-2013)",
+      "motor": "1.6 HDi / e-HDi 90/112 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
       ]
     },
     {
@@ -6705,7 +8305,8 @@
             "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2280-fiabilite-des-16-thp.php",
             "https://www.parkers.co.uk/peugeot/3008/estate/review/",
             "https://otopark.com/forum/threads/208-1-6-thp-156hp-allure-hakkinda.9453/"
-          ]
+          ],
+          "aile_sorunu": "psa-thp-ep6/triger-zinciri"
         },
         {
           "sorun_adi": "Emme supaplarında karbon birikimi",
@@ -6722,7 +8323,8 @@
             "https://www.parkers.co.uk/peugeot/3008/estate/review/",
             "https://frenchcarforum.co.uk/forum/viewtopic.php?p=586357",
             "https://otopark.com/forum/threads/208-1-6-thp-156hp-allure-hakkinda.9453/"
-          ]
+          ],
+          "aile_sorunu": "psa-thp-ep6/emme-supabi-karbon"
         },
         {
           "sorun_adi": "Yüksek basınç yakıt pompası arızası",
@@ -6755,8 +8357,12 @@
               "durum": "Seyrek",
               "not": "2013 ve sonrasında kronik sayılacak bir pompa sorunu kalmadığı yazılıyor."
             }
-          ]
+          ],
+          "aile_sorunu": "psa-thp-ep6/yuksek-basinc-pompasi"
         }
+      ],
+      "aileler": [
+        "psa-thp-ep6"
       ]
     },
     {
@@ -6804,7 +8410,8 @@
               "durum": "Görülebilir",
               "not": "Bir kaynak kayış malzemesinin yaklaşık 2021'de değiştirildiğini yazıyor ama tüm motorların etkilenmediğini, düzelme düzeyinin bilinmediğini belirtiyor (tek kaynak)."
             }
-          ]
+          ],
+          "aile_sorunu": "psa-puretech-eb2/yagli-triger-kayisi"
         },
         {
           "sorun_adi": "Aşırı yağ tüketimi",
@@ -6824,8 +8431,25 @@
             "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
             "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
             "https://eksisozluk.com/1-2-puretech--6399271?p=4"
-          ]
+          ],
+          "aile_sorunu": "psa-puretech-eb2/yag-tuketimi"
         }
+      ],
+      "aileler": [
+        "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "508 (2011-2018)",
+      "motor": "1.6 THP 156/165 (EP6)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-thp-ep6"
       ]
     },
     {
@@ -6852,8 +8476,39 @@
             "https://www.sikayetvar.com/peugeot/peugeot-508-mcp-robotize-sanziman-arizasi",
             "https://forum.donanimhaber.com/508-1-6-e-hdi-ve-auto6r-hakkinda--128357643",
             "https://eksisozluk.com/peugeot-508--2244708?p=7"
-          ]
+          ],
+          "aile_sorunu": "psa-mcp-robotize/sarsinti-titreme"
         }
+      ],
+      "aileler": [
+        "psa-mcp-robotize"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "Partner / Rifter (2008-2018)",
+      "motor": "1.6 HDi 75/92/100/115 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "Rifter / Partner (2018-)",
+      "motor": "1.5 BlueHDi 100/130 (DV5)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
       ]
     },
     {
@@ -8718,6 +10373,19 @@
       ]
     },
     {
+      "marka": "Suzuki",
+      "model": "SX4 S-Cross / Vitara (2013-)",
+      "motor": "1.6 DDiS 120 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
       "marka": "Tesla",
       "model": "Model Y (2023-)",
       "motor": "Elektrik (Standart Menzil / Uzun Menzil / Performans)",
@@ -10186,8 +11854,13 @@
             "https://forum.donanimhaber.com/volvo-s60-1-6d-drive-powershift-hakkinda--140574146",
             "https://forum.donanimhaber.com/powershift-sanziman-hakkinda--125031314",
             "https://www.araclo.com/blog/volvo-s60-1.6-d-alinir-mi-yakit-tuketimi-sorunlari-ve-kullanici-yorumlari-2026"
-          ]
+          ],
+          "aile_sorunu": "ford-dps6-powershift/kavrama-silkeleme"
         }
+      ],
+      "aileler": [
+        "ford-dps6-powershift",
+        "psa-dv6-hdi-tdci"
       ]
     }
   ]
