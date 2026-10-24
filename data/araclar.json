@@ -1290,10 +1290,18 @@
           "belirtiler": "Kalkışta titreme, rölantide tıkırtı, kontak kapatılırken sarsıntı",
           "tahmini_km_araligi": "100.000 - 180.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Egea'ya özgü doğrudan kanıt sınırlı. Fiat Forum'da bir Tipo (Egea'nın Avrupa'daki adı) sahibi sorunun şanzıman değil volan olduğunu ve bu volan tipinin diğer araçlarda da bilinen bir sorun olduğunu yazıyor; başka bir kullanıcıda çift kütleli volan içeriden bozulmuş. CarChecker.pro rehberi (zayıf kaynak) aşınmayı motor torkunun debriyaj ve volana bindirmesine bağlıyor, dur-kalk şehir trafiğinde daha sık olduğunu söylüyor. Şikâyetvar'daki Egea 'volan' şikâyetleri çoğunlukla baskı-balata ve volan değişimini konu alıyor; şanzıman tipi (manuel/DCT) her zaman belirtilmiyor.",
+            "teshis": "Rölantide gelen ve debriyaj pedalına basınca azalan tıkırtı çift kütleli volan sorununa uyuyor (CarChecker.pro, Fiat Forum). Şanzıman çıkarılınca volanda aşırı dönme boşluğu, pürüz ya da ısı izi varsa değişim gerekiyor. Tıkırtının volandan geldiği her zaman kesin değil: bir forum kullanıcısı DCT'li aracında balata değişiminde volanın sağlam çıktığını ve değiştirilmediğini yazıyor.",
+            "cozum": "Forum tavsiyesi, işçiliği iki kez ödememek için debriyaj ve volanı birlikte değiştirmek (Fiat Forum). Bir DonanımHaber kullanıcısı yetkili servisin baskı, balata, bilya ve volan değişimi için yaklaşık 25 bin TL teklif ettiğini yazıyor.",
+            "maliyet": "2023-2025 dönemi kullanıcı beyanları: baskı-balata-bilya-volan değişimi yetkili serviste yaklaşık 25 bin, özel serviste yaklaşık 20 bin TL; bir yorumcu volan parçasını yaklaşık 12 bin, kavrama setini yaklaşık 5 bin TL tahmin ediyor. Şikâyetvar'da 96 bin km'deki otomatik bir Egea için ücretli baskı-balata ve volan değişimine 52.697 TL alındığı bildiriliyor. CarChecker.pro Avrupa'da bu iş için bağımsız serviste 900-1.200 €, bayide 1.500-1.800 € tahmin ediyor. Hepsi tek tek beyan, resmî liste değil."
+          },
           "kaynaklar": [
             "https://www.fiatforum.com/threads/tipo-clutch-replacement.522340/",
             "https://www.sikayetvar.com/fiat/egea/volan",
-            "https://www.carchecker.pro/reports/fiat_tipo_mk2_1.6_multijet.html"
+            "https://www.carchecker.pro/reports/fiat_tipo_mk2_1.6_multijet.html",
+            "https://forum.donanimhaber.com/baski-balata-bilya-volant-degisimi-25bin-tl-egea-1-6-multijet--157442527",
+            "https://www.sikayetvar.com/fiat/egea/dizel-otomatik"
           ]
         },
         {
@@ -1613,9 +1621,17 @@
           "belirtiler": "DPF uyarısı, güç kısıtlaması (acil mod), sık rejenerasyon, yakıt tüketiminde artış",
           "tahmini_km_araligi": "100.000 - 180.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Ford Owners Club başlıklarında (çoğu eski ve anekdot; resmî Ford bilgisi yok) en sık anılan nedenler: DPF basınç sensörü hortumlarının yırtılması, kurumla tıkanması ya da gevşemesi (bir kullanıcı bunu bilinen zayıf nokta olarak anıyor); sıkışan EGR valfi ya da yağ kaçıran turbo yüzünden tekrarlayan tıkanma; Eolys katkı sıvısının azalması (bir yanıta göre katkı yoksa rejenerasyon da olmaz, filtre tıkanır); kısa yolculuk, soğukta kısa mesafe ve ağır yük (römork) kurum birikimini artırıyor.",
+            "teshis": "Bir 2008 aracında rejenerasyon sırasında ani güç kaybı ve türbin benzeri ses, rejenerasyon bitene kadar yokuşta yaklaşık 25-30 mil/saat (~40-48 km/s) ile sınırlanma; 2005 modelde 40 mil/saat'te (~64 km/s) limp moda geçip 'motor arızası' mesajı. Anılan kodlar: P2458/P2459 (rejenerasyon sıklığı) ve P2463 (araç artık rejenerasyonu kendiliğinden başlatmıyor); bir sahip P242F de bildiriyor. Zorlamalı rejenerasyon başta iptal olabiliyor, yüksek kurum nedeniyle yarıda kalabiliyor ya da %11'de takılabiliyor. Daha yeni bir başlıkta 220.000 km'deki 2008 DV6'da diferansiyel basınç normal görünmesine rağmen her 30-35 km'de rejenerasyon oluyor; sensör kayması, egzoz sıcaklık sensörü ya da ECU kurum hesabı sorgulanıyor, onaylı yanıt yok.",
+            "cozum": "Forum yanıtları önce DPF ile basınç sensörü arasındaki hortumların (yırtık, tıkanma, gevşeklik) kontrolünü öneriyor. Bir sahip takma DPF çekirdeğinin üç ay sonra yeniden tıkandığını yazıyor. Forumlarda DPF iptali de tartışılıyor; bir kullanıcı bunun yola uygun (yasal) olmadığını yazıyor. Bu kayıt iptali önermiyor.",
+            "maliyet": "Bu başlıklarda bayide yeni DPF için yaklaşık 800-1.300 sterlin söyleniyor (İngiltere; tarihsiz, bazı başlıklar 10 yıldan eski, güncel fiyat değil).",
+            "onlem": "Forumlarda hortum/sensörün ilk bakılacak yer olduğu, sıkışan EGR ile yağ kaçıran turbonun tekrarlayan tıkanmaya yol açabildiği ve Eolys seviyesinin sorgulanması gerektiği yazılıyor; bu nedenler giderilmeden filtre değişiminin sonuç vermeyebileceği anlaşılıyor (çıkarım)."
+          },
           "kaynaklar": [
             "https://www.fordownersclub.com/forums/topic/82756-blocked-dpf-regeneration-help-16-tdci-2008/",
-            "https://www.honestjohn.co.uk/askhj/answer/28172/ford-focus-dpf-problems"
+            "https://www.honestjohn.co.uk/askhj/answer/28172/ford-focus-dpf-problems",
+            "https://www.fordownersclub.com/forums/topic/168080-focus-mk2-16-tdci-109-dpf-regenerates-every-30-35-km"
           ]
         }
       ]
@@ -1919,6 +1935,11 @@
           "belirtiler": "Klimanın soğutmaması, kompresörden gelen ses, kavramanın devreye girmemesi",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "8thCivic başlıklarında kompresör kavramasında aşınma anlatılıyor: plakalar arasındaki boşluk büyüyüp manyetik kuvvet kavramayı kapatmaya yetmeyince kompresör devreye girmiyor. Diğer başlıklar termal koruyucu, röle ve kaçakları anıyor; RepairPal'in genel rehberi yetersiz yağlama, elektrik sorunları ve iç mekanik arızayı sayıyor.",
+            "teshis": "Consumer Reports 2006 Civic için kompresörü, üfleme motoru, kondenser, evaporatör ve soğutucu akışkan kaçağıyla birlikte sahiplerin bildirdiği iklimlendirme sorunları arasında sayıyor; bir sahip kompresörün 2 yılda iki kez onarıldığını yazıyor. Bir forum sahibi 2011 modelinde kompresörün yaklaşık 10 dakika sonra kapanıp araç soğuyana kadar yeniden devreye girmediğini bildiriyor ve kavrama bobininden şüpheleniyor (tek anekdot).",
+            "maliyet": "CarComplaints'te 2006 Civic klima kompresörü arızası için 9 şikâyet kayıtlı; tipik onarım maliyeti 89.800 milde (~144.500 km) 790 dolar (ABD; küçük ve kullanıcı bildirimli örnek, tarihsiz)."
+          },
           "kaynaklar": [
             "https://www.carcomplaints.com/Honda/Civic/2006/AC_heater/ac_compressor_failed.shtml",
             "https://www.8thcivic.com/threads/a-c-compressor-replacement.593249/",
@@ -2829,6 +2850,13 @@
           "belirtiler": "Soğuk çalıştırmada zincir sesi, motor arıza lambası, zincir atlaması durumunda supap hasarı",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Zincir sesinin kök nedeni kaynaklarda net değil. Şikâyetvar'daki bir Qashqai 1.2 şikâyetinde ses yağın bitmesine bağlanıyor. Araclo'nun Clio 1.2 TCe sayfası (aynı H5Ft ailesi) yağ tüketimi ve yetersiz yağlamanın zincir ve gergi grubunun aşınmasını hızlandırabileceğini yazıyor. Fransız tüketici derneği UFC-Que Choisir, 2012 sonu-2016 ortası arası üretilen H5 tipi 1.2 TCe/DIG-T motorların fazla yağ yaktığını öne sürdü; Renault kusuru reddediyor. Nissan'ın TB EM 15/05 numaralı bülteninin zincirden gelen şakırtıyı ve 2 numaralı pistonun arızasını kapsadığı aktarılıyor. Zincirin yağ tüketiminden bağımsız bir kök neden olduğunu gösteren kaynak bulunamadı.",
+            "teshis": "Araclo (aynı motor ailesi): soğuk ilk çalıştırmada birkaç saniye süren metalik zincir sesi, düzensiz rölanti, zamanlama hata kodu, ileri aşamada güç kaybı; ses artıyorsa serviste zincir ve gergi kontrolü öneriliyor. Şikâyetvar'da bir Qashqai sahibi şasi numarasının TB EM 15/05 kapsamında olduğunu ve bültendeki kompresyon testinin yapılmasını beklediğini yazıyor.",
+            "cozum": "Şikâyetvar'da garanti içinde sıfır motor takıldığını yazanlar var; garanti dışında yetkili servisin rektifiye ya da sıfır motor önerdiği, Nissan'ın masrafı karşılamasına dair ise '%50-%50 iyi niyet' gibi belirsiz ifadeler kullandığı anlatılıyor. Bir yorum 2016 sonrası üretimlerde, bir diğeri 2018 sonrası makyajlı kasada sorunun çözüldüğünü iddia ediyor; bu iddialar çelişkili ve doğrulanmadı. Forumlarda garanti içindeki araçlar için servis kayıtlarıyla tüketici mahkemesine başvuru öneriliyor (hukuki tavsiye değil).",
+            "maliyet": "Şikâyetvar'daki bir Qashqai şikâyetinde servisin tamir maliyetini 100 bin TL'yi aşar olarak tahmin ettiği yazıyor (tek şikâyet, tarihsiz). UFC-Que Choisir yağ tüketimi kaynaklı motor hasarı için araç başına 10.000 euroya kadar onarım tahmin ediyor (Fransa).",
+            "onlem": "Yağ seviyesini düzenli kontrol edin (bir kullanıcı 3-4 bin km'de bir diyor) ve her serviste yağ tüketimi kaydı tutturun. Bir Qashqai sahibi 5W-40 yağla iyileşme, bir Clio sahibi 5W-30 ile sorunsuz kullanım bildirmiş (tek tek gözlem). Şasi numarasının Nissan TB EM 15/05 kapsamında olup olmadığını yetkili servisten yazılı sorun."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
             "https://www.qashqaiforums.co.uk/viewtopic.php?p=69316",
@@ -3574,6 +3602,11 @@
           "belirtiler": "Soğuk çalıştırmada birkaç saniye süren metalik zincir sesi, düzensiz rölanti, zamanlama hata kodu",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Araclo'nun Clio 1.2 TCe sayfası, yağ tüketimi ve yetersiz yağlamanın zincir ve gergi grubunun erken aşınmasını hızlandırabileceğini, bu motorun bazı üretim dönemlerinde yağ tüketiminin normalin üzerine çıktığını yazıyor; bir forum yazarı doğrudan enjeksiyonun yağı seyrelttiğini düşünüyor. UFC-Que Choisir, 2012 sonu-2016 ortası arası üretilen H5 tipi 1.2 TCe/DIG-T motorların fazla yağ yaktığını öne sürdü; Renault kusuru reddediyor ve fazla tüketimin yağ ve kullanım koşulları gibi farklı nedenlerden gelebileceğini söylüyor. H5Ft için zincir uzamasının yaygınlığını gösteren güvenilir istatistik ya da resmî kaynak bulunamadı.",
+            "teshis": "Araclo: soğuk ilk çalıştırmada birkaç saniye süren metalik zincir sesi, düzensiz rölanti, zamanlama hata kodu ve ileri aşamada güç kaybı; ses artıyorsa serviste zincir ve gergi kontrolü öneriliyor.",
+            "onlem": "Forum kullanıcıları erken yağ değişimi ve kaliteli yağın sesi azaltabildiğini, uzun rölanti ve sürekli kısa mesafe kullanımının sorunu hızlandırdığını bildiriyor (kullanıcı tecrübesi düzeyinde). Araclo yağ seviyesi takip edilmezse turbo, zincir ve motor yataklarının da zarar görebileceğini yazıyor."
+          },
           "kaynaklar": [
             "https://www.araclo.com/vehicles/renault-clio-1.2-tce/degerlendirmeler/kullanici-sorunlari",
             "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
@@ -3677,9 +3710,15 @@
           "belirtiler": "Motorun üst kısmında yağ terlemesi ve sızıntı, yağ kokusu; şikâyetlerin en sık tekrarlanan konusu, bazı araçlarda garanti kapsamında onarılmış",
           "tahmini_km_araligi": "20.000 - 90.000 km",
           "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Kadjar'a özgü külbütör kapağı kaydı bulunamadı; aynı 1.3 TCe ailesi Megane 4 ve Clio'da da var ve Şikâyetvar'da birden fazla kullanıcı bu motorlarda külbütör kapağı bölgesinden yağ sızıntısı ve terleme bildiriyor, bazıları bunu kronik sorun olarak tanımlıyor. Kaynaklar kök nedeni (conta, kapak, cıvata sıkma) belirtmiyor. Kadjar 1.3 TCe için bulunan tek motor şikâyeti başka bir konu: 57.650 km'de conta yanması.",
+            "cozum": "Şikâyetvar'da bir kayıtta onarım garanti kapsamında ücretsiz yapılmış; garantisi dolduktan sonra fark eden bir kullanıcıdan servisin 12.000 TL istediği, bir başkasının ise garantisi bittiği için kronik sorunun üstlenilmediğini ve yalnızca ön fiyat çıkarıldığını yazdığı anlatılıyor (Megane/Clio kayıtları). Kadjar için garanti kapsamı kaynaklardan netleşmiyor; şasi numarasıyla yetkili servise sorulmalı.",
+            "maliyet": "Şikâyetvar'daki bir kullanıcıya garanti sonrası 12.000 TL istenmiş (Megane/Clio 1.3 TCe; tarihsiz, güncel fiyat değil)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/renault/kadjar/kronik",
-            "https://www.araclo.com/vehicles/renault-kadjar-1.3-tce/degerlendirmeler/kullanici-sorunlari"
+            "https://www.araclo.com/vehicles/renault-kadjar-1.3-tce/degerlendirmeler/kullanici-sorunlari",
+            "https://www.sikayetvar.com/renault/renault-13tce-kronik-sorun"
           ]
         }
       ]
@@ -4490,9 +4529,10 @@
           "tahmini_km_araligi": "150.000 - 250.000 km",
           "risk_seviyesi": "Yüksek",
           "detay": {
-            "neden": "BKP motoruna özgü doğrulanmış bir geri çağırma ya da bülten bulunamadı; kaynaklar dolaylı. Forum ve parça satıcıları tahrik parçasının aşınıp yuvarlaklaştığında yağ basıncının düştüğünü yazıyor, ancak altıgen mil arızası daha çok sonraki CBEA/CKRA motorlarında belgeleniyor. PD dönemi (2005-2008) Passat'ta denge mili ve yağ pompası modülünün zincirle tahrik edildiği, bu zincirin arıza geçmişi olduğu ve bazı pazarlarda dişli tahrikli sisteme geçirildiği yazılıyor. Malay Mail haberine göre Güney Kore'de Temmuz 2005-Mayıs 2008 arası üretilen 2.425 Passat 2.0 TDI sedan yağ pompası arızası nedeniyle geri çağrıldı; bunun BKP'ye ya da belirli bir arıza moduna bağlandığı doğrulanmadı.",
+            "neden": "Litvanyalı bir ikinci el rehberi (WheelStreet; çeviri) 2.0 TDI PD 16V (BKP/BMP) sürümünü yağ pompası altıgen tahrik riskiyle en çok dikkat çeken sürüm olarak anıyor ve uyarı zamanında fark edilmezse motorun yağlamasız çalışabileceğini söylüyor. Bir VAG forum başlığı arızayı sump'taki denge mili/yağ pompası ünitesini döndüren zincir düzeneğinin bozulması olarak anlatıyor (çoğu yazı A4/A6 için ama aynı motor ailesi); bir forum yazısında bir Passat BMP motorunun pompa tahrikindeki kusurlu altıgen somun yüzünden bozulduğu anlatılıyor. Altıgen mil aşınması ayrıca daha sonraki CBEA/CKRA motorlarında belgeleniyor. BKP'ye özgü geri çağırma ya da bülten bulunamadı.",
             "teshis": "Kırmızı yağ lambası ve forum kayıtlarında 'Stop oil pressure. Engine off. See owners manual.' olarak aktarılan uyarı. Bir olayda uyarı devir 2.500'ü aşana kadar gelmemiş, aynı olayda turbodan yağ kaçağı da vardı; yani düşük yağ seviyesi pompa arızasını taklit edebiliyor. DonanımHaber'deki B6 başlığında (2010 model; motor belirtilmemiş) yağ basıncı uyarısının nedenleri arasında tıkalı filtre, arızalı pompa ve hasarlı basınç sensörü sayılıyor. Bir kullanıcı 'sensör arızası' denmesine rağmen karter kapağını indirince çamur gibi tortu bulduğunu ve pompa değişimiyle sorunun çözüldüğünü, bir başkası tam sentetik olmayan yağın ve yağ haznesinde kavrulan yağın pompayı bozabileceğini yazıyor.",
-            "onlem": "Bir Passat sahibi arızanın uyarısız geldiğini, ani yağ basıncı kaybı ve hızlı motor hasarıyla sonuçlandığını yazıyor (anekdot); kırmızı yağ uyarısı varken aracı kullanmaya devam etmeyin. Şasi numarasıyla VW geri çağırma ve bülten sorgusu yaptırın."
+            "cozum": "VAG forum başlığında onarım, zincir tahrikini dişli tahrike çeviren bir set olarak anlatılıyor (A4/A6 ağırlıklı). CBEA/CKRA için bir parça satıcısı aşınmaya karşı revize edilmiş altıgen mil sunuyor (BKP için doğrulanmadı). DonanımHaber'deki B6 başlığında bir kullanıcı pompa değişimiyle sorunun çözüldüğünü yazıyor.",
+            "onlem": "Malay Mail haberine göre Güney Kore'de Temmuz 2005-Mayıs 2008 arası üretilen 2.425 Passat 2.0 TDI sedan yağ pompası arızası nedeniyle geri çağrıldı (BKP'ye ya da belirli bir arıza moduna bağlandığı doğrulanmadı). Bir Passat sahibi arızanın uyarısız geldiğini, ani yağ basıncı kaybı ve hızlı motor hasarıyla sonuçlandığını yazıyor (anekdot); kırmızı yağ uyarısı varken aracı kullanmaya devam etmeyin. Şasi numarasıyla VW geri çağırma ve bülten sorgusu yaptırın."
           },
           "kaynaklar": [
             "https://audisrs.com/2-0-tdi-vag-engines-with-oil-pump-failures-t33282.html",
@@ -4507,6 +4547,10 @@
           "belirtiler": "Vites geçişlerinde vuruntu veya gecikme, göstergedeki vites harflerinin yanıp sönmesi, şanzımanın acil moda geçmesi",
           "tahmini_km_araligi": "120.000 - 200.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "AustralianCar.Reviews'in Mk.6 Passat geri çağırma sayfasına göre 2013'te 2008-09 model DQ250'li araçlar için bir geri çağırma yapıldı: arızalı sıcaklık sensörü kablolaması sarsıntıya ve kavramanın açmasına yol açabiliyor. Bir parça üreticisi (VAICO) kaynaklı makale, arızalı mekatronik ünitelerin ciddi vites sorunlarına ve tam şanzıman arızasına yol açabildiğini, karter sızıntısının yaygın zayıf nokta olduğunu yazıyor. Kavrama aşınması şikâyetleri çoğunlukla kuru kavramalı DQ200 içindir; DQ250 ıslak kavramalıdır ve bir forumda altı vitesli ıslak kavramalı DSG'lerde kronik arıza görülmediği yazılıyor (tek görüş).",
+            "cozum": "VAICO kaynaklı makaleye göre üretici yalnızca komple ve çok pahalı mekatronik ünite değişimi sunuyor; çoğu zaman yalnızca kontrol kartının değiştirilmesi yeterli oluyor. Geri çağırma kapsamı model yılı ve şasi numarasına bağlı olduğundan VW'ye sorulmalı."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/volkswagen/passat/dsg",
             "https://australiancar.reviews/?p=47961"
