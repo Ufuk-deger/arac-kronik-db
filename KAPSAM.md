@@ -32,32 +32,32 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 - Araştırılıp eklenmeyen (–): **177**
 - Sırada (○): **88**
 - Kademe 1: **120/120** işlendi (✓, ◐ ya da –)
-- Model geneli taraması: **30** model nesli arandı (sorun bulunan ✓ **17**, kanıt yetersiz – **13**); 328 motor kaydından **22**'i taranmış bir modele ait, **306**'i henüz taranmadı
-- Veritabanı: **345** kayıt (**328** motor, **17** model geneli), **280** kayda özgü kronik sorun, **48** motor/şanzıman ailesi (**82** ortak sorun)
+- Model geneli taraması: **54** model nesli arandı (sorun bulunan ✓ **35**, kanıt yetersiz – **19**); 328 motor kaydından **42**'i taranmış bir modele ait, **286**'i henüz taranmadı
+- Veritabanı: **363** kayıt (**328** motor, **35** model geneli), **299** kayda özgü kronik sorun, **48** motor/şanzıman ailesi (**82** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Renault | 37 | 15 | 7 | 11 | 4 | 8/8 | 4 / 0 |
 | Volkswagen | 50 | 18 | 12 | 15 | 5 | 13/13 | 3 / 5 |
-| Toyota | 20 | 4 | 5 | 9 | 2 | 6/6 | — |
-| Fiat | 27 | 11 | 4 | 7 | 5 | 5/5 | 1 / 0 |
-| Hyundai | 35 | 11 | 9 | 13 | 2 | 13/13 | — |
-| Peugeot | 21 | 9 | 5 | 5 | 2 | 5/5 | — |
+| Toyota | 20 | 4 | 5 | 9 | 2 | 6/6 | 0 / 1 |
+| Fiat | 27 | 11 | 4 | 7 | 5 | 5/5 | 4 / 0 |
+| Hyundai | 35 | 11 | 9 | 13 | 2 | 13/13 | 2 / 1 |
+| Peugeot | 21 | 9 | 5 | 5 | 2 | 5/5 | 2 / 1 |
 | Opel | 40 | 14 | 13 | 8 | 5 | 5/5 | 2 / 2 |
-| Citroen | 19 | 6 | 5 | 5 | 3 | 3/3 | — |
+| Citroen | 19 | 6 | 5 | 5 | 3 | 3/3 | 0 / 1 |
 | BYD | 2 | 1 | 0 | 1 | 0 | 1/1 | — |
 | Skoda | 27 | 9 | 8 | 8 | 2 | 6/6 | 3 / 3 |
-| Mercedes-Benz | 37 | 10 | 12 | 8 | 7 | 6/6 | — |
+| Mercedes-Benz | 37 | 10 | 12 | 8 | 7 | 6/6 | 3 / 1 |
 | Togg | 2 | 1 | 0 | 1 | 0 | 1/1 | — |
-| BMW | 40 | 5 | 17 | 13 | 5 | 13/13 | — |
+| BMW | 40 | 5 | 17 | 13 | 5 | 13/13 | 2 / 0 |
 | Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 | — |
-| Nissan | 19 | 8 | 4 | 4 | 3 | 4/4 | — |
+| Nissan | 19 | 8 | 4 | 4 | 3 | 4/4 | 2 / 0 |
 | Chery | 2 | 0 | 0 | 2 | 0 | 0/0 | — |
 | Ford | 32 | 8 | 11 | 11 | 2 | 8/8 | 2 / 1 |
-| Kia | 28 | 9 | 5 | 10 | 4 | 6/6 | — |
+| Kia | 28 | 9 | 5 | 10 | 4 | 6/6 | 1 / 1 |
 | Dacia | 12 | 8 | 1 | 3 | 0 | 3/3 | 1 / 1 |
-| Audi | 31 | 6 | 9 | 8 | 8 | 6/6 | — |
-| Honda | 12 | 4 | 3 | 5 | 0 | 2/2 | — |
+| Audi | 31 | 6 | 9 | 8 | 8 | 6/6 | 1 / 0 |
+| Honda | 12 | 4 | 3 | 5 | 0 | 2/2 | 2 / 0 |
 | Seat | 12 | 3 | 5 | 1 | 3 | 2/2 | 1 / 1 |
 | Chevrolet | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
 | Volvo | 12 | 1 | 1 | 9 | 1 | 2/2 | — |
@@ -259,6 +259,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | C-HR | 2016- | 1.2 Turbo (8NR-FTS) | – eklenmedi: Yağ yakma ve şanzıman anıları motor tipi belirtilmeden, tek tek vaka; iki bağımsız site bulunamadı. |
 | 1 | C-HR | 2016- | 1.8 Hybrid (2ZR-FXE) | – eklenmedi: Hibrit sistem uyarısı dışında tekrar eden mekanik sorun bulunamadı. |
 | 1 | Corolla E150 FL / E170 | 2009-2018 | 1.33 Dual VVT-i 99 | ✓ 1 sorun |
+| 1 | Corolla E170 / E210 | 2013- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da multimedya ekranında nikelaj kabarması (2021), USB için FAT32 / 32 GB sınırı, yazılım güncellenmemesi (2020), klima kompresörü (2021, tek vaka), 2021 modelde akü sorunu ve stop lambası içi çatlak tekil; DonanımHaber'de ise genel multimedya başlığı var. Şikâyetvar'daki kronik boya sorunu 2010-2013 (E140 / E150) modellere ait. E170 / E210'a özgü iki bağımsız site çıkmadı. |
 | 1 | Corolla E210 | 2019- | 1.5 Dynamic Force (M15A-FKS) | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Corolla E210 | 2019- | 1.8 Hybrid (2ZR-FXE) | – eklenmedi: Şikâyetler ses yalıtımı, fren diski paslanması ve 12V akü gibi mekanik olmayan konularda; tekrar eden mekanik sorun bulunamadı. |
 | 1 | Yaris XP130 | 2011-2020 | 1.33 Dual VVT-i 99 (1NR-FE) | ◐ 1 ortak aile sorunu — Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı. Gösterilen yağ tüketimi Corolla E150 FL / E170 (1.33) kaydına dayanır. |
@@ -282,11 +283,14 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | Doblo | 2010-2022 | 1.3 / 1.6 Multijet (90/105/120) | ✓ 3 sorun (+2 ortak aile) |
+| 1 | Doblo | 2010-2022 | Tüm motorlar (model geneli) | ✓ 1 sorun — Kapı kilidi arızası Şikâyetvar ve DonanımHaber'de doğrulandı. Şikâyetvar'da kapı üstünden su alma (yeni araçta), sürgülü kapı sesi ve sarkması, 2025 model fren ve direksiyon arızaları tek şikâyet; ön takım su alma, elektrik ve klima için kaynak çıkmadı. |
 | 1 | Egea | 2015- | 1.4 Fire 95 | ✓ 1 sorun |
 | 1 | Egea | 2015- | 1.3 Multijet II 95 | ✓ 2 sorun (+3 ortak aile) |
 | 1 | Egea | 2015- | 1.6 Multijet II 120 | ✓ 3 sorun |
 | 1 | Egea / Egea Cross | 2015- | Tüm motorlar (model geneli) | ✓ 2 sorun — Klima kompresörü uğultusu ve boya atması iki sitede doğrulandı. Şikâyetvar'da ayrıca ön takım ve debriyaj sesleri ile Cross'ta tavan çıtalarının solması geçiyor; ikinci site yok. |
 | 1 | Linea | 2007-2015 | 1.3 Multijet (Dualogic) | ✓ 4 sorun (+3 ortak aile) |
+| 1 | Linea | 2007-2015 | Tüm motorlar (model geneli) | ✓ 1 sorun — Airbag üstü torpido çatlağı Şikâyetvar'da çok sayıda şikâyetle, fiatforum'da Punto Evo / Grande Punto başlıklarıyla doğrulandı. Şikâyetvar'da boya atması (ön direk, tavan), ESP kaynaklı direksiyon kilitlenmesi (Panda, Punto ve Linea için kronik denmiş) ve direksiyon sesi tek sitede kaldı. |
+| 1 | Punto Evo / Grande Punto | 2009-2018 | Tüm motorlar (model geneli) | ✓ 1 sorun — Airbag üstü torpido çatlağı Şikâyetvar ve fiatforum'da doğrulandı. |
 | 2 | 500 | 2008- | 1.2 Fire / 0.9 TwinAir | ✓ 1 sorun |
 | 2 | 500 Dualogic | 2008- | 0.9 TwinAir / 1.2 Fire (Dualogic) | ◐ 2 ortak aile sorunu — 500 Dualogic'e özgü kaynak aranmadı; gösterilen hidrolik ünite, aktüatör ve kavrama sorunları aynı Dualogic şanzımanı kullanan Linea kaydına dayanır. |
 | 2 | 500X | 2015- | 1.4 MultiAir / 1.3 FireFly Turbo | ○ sırada |
@@ -317,6 +321,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | Accent Blue | 2015-2019 | 1.6 CRDi 136 (7DCT) | ✓ 1 sorun (+3 ortak aile) |
 | 1 | Accent Blue | 2011-2019 | 1.4 MPI | – eklenmedi: 1.4 MPI için tekrar eden sorun bulunamadı (yalnızca tek tek külbütör kapağı yağ kaçağı ve sübap iddiaları). Faz 7'de yeniden arandı: Şikâyetvar'da 1.4 CVT otomatiklerde kalkışta ve rampada çıtırdama ile yetkili serviste çözülemeyen şanzıman arızası şikâyetleri var; forumlarda aynı motorun taksilerde 400-500 bin km sorunsuz gittiği ve şanzıman yağ değişiminin sorunu azalttığı yazılıyor, bağımsız ikinci kaynak çıkmadı. |
 | 1 | Accent Blue | 2011-2015 | 1.6 CRDi 128 (manuel / 6 ileri otomatik) | – eklenmedi: Faz 9'da arandı: tekil vakalar (2013 model 1.6 CRDi'da yağ seviyesinin yükselmesi ve enjektör temizliği; LPG sonrası enjektör arızası); DPF ve turbo için yıla özgü güvenilir kaynak yok, DPF konusunda forumlarda görüş ayrılığı var. Şikâyetlerin çoğu otomatik ve 2015-2016 DCT'li sürümlere ait (DCT sorunu Accent Blue 2015-2019 kaydında). |
+| 1 | Accent Blue / Elantra AD | 2011-2020 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da Accent Blue'da kaput boya atması (2015 ve 2017), EPS uyarısı ve Elantra'da 2016 modelde ön kapı kollarının kilitlenince dışarıdan açılmaması (kilit tamircisi 2016 Elantra, i30, ix35 ve Tucson'da kronik demiş; Hyundai kronik kaydı olmadığını söylüyor), boya atması (2011-2016 ve 2021-2023) tekrar ediyor; DonanımHaber'de yalnızca 2013 tarihli sert arka süspansiyon konusu ve eski Accent Era boya başlığı var; ikinci bağımsız site yok. |
 | 1 | Bayon | 2021- | 1.0 T-GDI 100/120 (7DCT) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | Bayon | 2021- | 1.4 MPI 100 | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Ioniq 5 / Ioniq 6 | 2022- | Elektrik (E-GMP) | ✓ 1 sorun, 1 yıl kırılımı |
@@ -325,6 +330,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | i20 | 2020- | 1.0 T-GDI 100/120 (7DCT) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | i20 | 2020- | 1.4 MPI 100 | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | i20 (GB) | 2014-2020 | 1.25 / 1.4 MPI, 1.4 CRDi | – eklenmedi: Faz 9'da arandı: i20 şikâyetleri otomatik şanzımanda toplanıyor (tork konvertörlü şanzıman çoğu yorumda sorunsuz, DCT'li BC3 kaydında); 1.4 MPI için forum yorumları sorunsuz diyor, 1.4 CRDi için enjektör, turbo ve silindir kapağı sıralaması genel bir forum listesinden geliyor. Kayıt açılacak kanıt çıkmadı. |
+| 1 | i20 (PB / GB) | 2009-2020 | Tüm motorlar (model geneli) | ✓ 1 sorun — EPS arızası Şikâyetvar ve DonanımHaber'de geçiyor; hangi nesle ait olduğu şikâyetlerin çoğunda belirsiz (2011 PB ve 2015 GB örnekleri). Şikâyetvar'da yakıt pompası, akü boşalması, arka cam patlaması ve cam modülü / cam tuşu arızası tek sitede kaldı. |
 | 1 | i30 GD | 2012-2017 | 1.6 CRDi | – eklenmedi: Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; model/motor bazında tekrar eden sorun için iki bağımsız site bulunamadı. Faz 7'de yeniden arandı: İngiltere forumlarında EGR tereddüdü ve çift kütleli volan, Türkçe kaynaklarda ise 'kronik sorun yok' yorumları ile tekil titreme, DPF ve DCT anıları var; Tucson 1.6 CRDi şikâyetleri i30'a taşınamaz, iki bağımsız site aynı sorunu doğrulamadı. |
 | 1 | i30 PD | 2017-2023 | 1.6 CRDi 110/136 (6MT ve 7DCT) | ◐ 3 ortak aile sorunu — Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; i30'a özgü iki bağımsız site bulunamadı (Türkçe kaynaklarda 'kronik sorun yok' yorumları ile tekil titreme, DPF ve DCT anıları). Tucson 1.6 CRDi şikâyetleri i30'a taşınamaz; gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
 | 2 | Accent Blue | 2011-2017 | 1.6 GDI 132/140 | ◐ 1 ortak aile sorunu — 1.6 GDI için tekrar eden sorun bulunamadı; gösterilen yağ tüketimi aynı Gamma GDI motorunu kullanan Sportage SL kaynaklarına dayanır. |
@@ -337,6 +343,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | i20 (PB) | 2009-2014 | 1.4 MPI / 1.4 CRDi | ✓ 1 sorun (+2 ortak aile) |
 | 2 | i30 | 2012-2020 | 1.4 / 1.6 MPI | – eklenmedi: Benzinli MPI motorlar için i30'a özgü kronik sorun çıkmadı; aramalar 1.6 CRDi (DPF) ve DCT şikâyetlerine yöneldi ve i30'a özgü olmayan kaynaklardan geldi. |
 | 2 | i30 (FD) | 2008-2012 | 1.4 / 1.6 MPI, 1.6 GDI (EPS) | ✓ 1 sorun (+1 ortak aile) |
+| 2 | i30 FD | 2008-2012 | Tüm motorlar (model geneli) | ✓ 1 sorun — EPS arızası Şikâyetvar ve DonanımHaber'de geçiyor; şikâyetlerin çoğu GD'den (2012-2017) eski modellere ait, GD için nesle özgü kanıt çıkmadı. Şikâyetvar'da i30 için sunroof kasasında çatlak ve boya atması tek sitede. |
 | 2 | i30 GD | 2012-2017 | 1.6 GDI 135 | ◐ 1 ortak aile sorunu — i30 GD 1.6 GDI'ya özgü kaynak aranmadı; gösterilen yağ tüketimi aynı Gamma GDI motorunu kullanan Sportage SL kaynaklarına dayanır. |
 | 2 | i30 PD | 2017-2023 | 1.0 T-GDI 120 / 1.4 T-GDI 140 (7DCT) | ◐ 1 ortak aile sorunu — T-GDI için i30'a özgü kronik sorun çıkmadı; aramalar 1.6 CRDi (DPF) ve DCT şikâyetlerine yöneldi ve i30'a özgü olmayan kaynaklardan geldi. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
 | 2 | ix35 | 2010-2015 | 1.7 CRDi | – eklenmedi: 1.7 CRDi Türkiye'de neredeyse hiç satılmamış; şikâyetler iç trim, 4x4 şanzıman dişlisi ve LPG'li soğuk çalıştırma gibi tekil konularda. |
@@ -354,10 +361,13 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
+| 1 | 208 / 2008 | 2012-2019 | Tüm motorlar (model geneli) | ✓ 1 sorun, 1 yıl kırılımı — Arka cam fitili iki sitede doğrulandı. Şikâyetvar'da dokunmatik ekran arızası (2020), teyp hoparlörü, otomatik far yükseklik ayarı (GT) ve kapı kilitlerinin çalışmaması tek şikâyet; fren, ön takım ve tavan su alma için kaynak çıkmadı. |
 | 1 | 208 / 2008 / 308 / 3008 | 2014-2021 | 1.2 PureTech (EB2) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | 208 / 2008 / 308 / 3008 | 2012-2021 | 1.6 BlueHDi / e-HDi (DV6) | ✓ 4 sorun |
 | 1 | 208 / 2008 / 308 / 3008 / 5008 | 2019- | 1.5 BlueHDi 100/130 (DV5) | ✓ 2 sorun (+1 ortak aile), 1 yıl kırılımı |
+| 1 | 3008 | 2016- | Tüm motorlar (model geneli) | ✓ 1 sorun — Multimedya donması Şikâyetvar, DonanımHaber ve Ekşi Sözlük'te doğrulandı. Şikâyetvar'da elektrik ve akü boşalması (ekranların açık kalması, kapıların kilitlenmemesi), alternatör seti ve akü / PGA kutusu iddiası ve 2024 3008 Hybrid şikâyetleri tek sitede kaldı; cam tavan için kaynak çıkmadı. |
 | 1 | 301 | 2012- | 1.6 HDi / BlueHDi (DV6) | ✓ 3 sorun (+1 ortak aile) |
+| 1 | 301 / Citroën C-Elysée | 2012- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da en çok tekrarlanan konu kapı içi, bagaj kapağı ve tavanda boya kabarması ve paslanma (301 ve C-Elysée'de, orijinal boyada; bir kullanıcıya yetkili servis her C-Elysée'nin %10'unda görüldüğünü söylemiş), ön / alt takım sesi (amortisör değişimine rağmen), cam sıyırıcı fitil erimesi ve C-Elysée'de arka stop farlarına su kaçağı tekrar ediyor; DonanımHaber'de yalnızca 2013 tarihli genel başlıklar var, ikinci bağımsız site çıkmadı. |
 | 1 | e-208 / e-2008 | 2022- | Elektrik (50 kWh; 2024 sonrası 54 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | 207 | 2006-2014 | 1.6 HDi 90/110 (DV6) | ◐ 3 ortak aile sorunu — Peugeot 207 1.6 HDi'ya özgü kaynak aranmadı; gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır. |
 | 2 | 308 / 3008 | 2007-2014 | 1.6 THP (EP6) | ✓ 3 sorun, 1 yıl kırılımı |
@@ -437,6 +447,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | C-Elysee | 2012-2016 | 1.6 VTi 115 (EP6) | – eklenmedi: Faz 9'da arandı (tek sorgu): şikâyet ya da forum kaydı çıkmadı; sonuçlar teknik özellik ve katalog sayfalarından oluştu. C-Elysée 1.6 HDi ve 1.2 PureTech 82 ayrı kayıtlarda. |
 | 2 | C3 | 2009-2016 | 1.4 HDi | – eklenmedi: Enjektör ve turbo anıları tekil ve eski forum yazıları; uzun dönem bir kullanıcı turbo arızasını 230.000 km'de, enjektör revizyonunu 310.000 km'de bildiriyor; kronik sorun için yeterli kanıt yok. |
 | 2 | C3 | 2009-2016 | 1.6 HDi 92 (DV6) | ◐ 3 ortak aile sorunu — Enjektör ve turbo anıları tekil ve eski forum yazıları; uzun dönem bir kullanıcı turbo arızasını 230.000 km'de, enjektör revizyonunu 310.000 km'de bildiriyor; kronik sorun için yeterli kanıt yok. Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır. |
+| 2 | C3 | 2009- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da 2023 model C3'te ana ekranın donması ve havalandırma peteklerinde nikelaj kaplamanın soyulması tek şikâyet; DonanımHaber ve Ekşi Sözlük'te modele özgü ikinci site çıkmadı (1.2 PureTech triger kayışı motor konusu). |
 | 2 | C4 | 2020- | 1.2 PureTech 130 (EB2) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — C4'e (2020-) özgü kaynak aranmadı; gösterilen yağ banyolu triger kayışı ve yağ tüketimi sorunları aynı PureTech motorunu kullanan C3, 208 ve 308 kaynaklarına dayanır. |
 | 2 | C4 Cactus | 2014-2020 | 1.2 PureTech 82/110 | ✓ 1 sorun (+1 ortak aile) |
 | 2 | Jumper | 2006- | 2.2 HDi / 2.0 BlueHDi | – eklenmedi: Şikâyetvar'da Boxer / Jumper için tekrar eden konular enjektör şakırtısı (enjektör değişiminden sonra da süren), debriyaj alt merkezi / hidrolik boru sızıntısı ve pedalın takılı kalması (bazı kullanıcılarda ilk 25.000 km'de), tek vaka turbo arızası ve AdBlue uyarıları; şikâyetlerin çoğu 2023 sonrası 2.2 BlueHDi 140 / 180 araçlara ait. Anlatılar tek siteye (Şikâyetvar) dayanıyor ve kilometre bilgisi kullanıcı beyanı; ikinci bağımsız kaynak çıkmadı. |
@@ -498,11 +509,15 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
+| 1 | A Serisi / CLA / GLA W176 | 2012-2019 | Tüm motorlar (model geneli) | ✓ 1 sorun — Direksiyon açı sensörü iki sitede doğrulandı. Airbag / emniyet kemeri soketi arızası (Ekşi Sözlük ve Şikâyetvar'da kronik denmiş; kemer soketi için bağımsız ikinci site çıkmadı), GLA'da multimedya piksel kaybı ve arka klima, CLA 200 turbo wastegate (motor konusu) tekil kaldı. |
 | 1 | C Serisi W204 | 2007-2014 | C220 / C250 CDI 2.1 (OM651) | ✓ 2 sorun, 1 yıl kırılımı |
+| 1 | C Serisi W204 | 2007-2014 | Tüm motorlar (model geneli) | ✓ 1 sorun — Direksiyon açı sensörü iki sitede doğrulandı. Sunroof tahliye tıkanması ve kabine su sızması, iç kapı açma kolu telinin kopması, kapı kilit pompası, ön park lambalarının ısıdan patlaması ve far yuvası erimesi, kırmızıda vernik atması Türkçe kaynaklarda anılıyor ama modele özgü ikinci site çıkmadı. |
 | 1 | C Serisi W205 | 2014-2021 | C180 / C200 benzinli (M274) | – eklenmedi: Kaynaklar M274'ü zincir konusunda M271'e göre daha sorunsuz buluyor; belirgin kronik sorun yok (7G-Tronic için dağınık şikâyetler var). |
 | 1 | C Serisi W205 | 2014-2021 | C180d / C200d 1.6 (R9M kaynaklı dizel) | ✓ 1 sorun |
+| 1 | C Serisi W205 | 2014-2021 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar ve DonanımHaber'de sunroof arızası, direksiyon kutusu sesi, klima klape motoru (göğüs sökümü gerekiyor), havalandırma çıkışlarından çıtırtı ve COMAND ekran konuları geçiyor; hepsi tek başlıkta ya da tek kullanıcıda, ortak bir sorun oluşmadı. Far ve kapı için kaynak çıkmadı. |
 | 1 | E Serisi W212 | 2009-2016 | E200 / E250 CGI 1.8 turbo (M271 EVO) | ✓ 1 sorun |
 | 1 | E Serisi W212 | 2009-2016 | E250 CDI 2.1 (OM651) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
+| 1 | E Serisi W212 | 2009-2016 | Tüm motorlar (model geneli) | ✓ 1 sorun — Arka travers korozyonu Şikâyetvar ve yabancı forumlarda (MBWorld, MBClub, BenzWorld) doğrulandı; Türkiye'deki kapsam doğrulanamadı. Şikâyetvar'da direksiyon simidi aşınması (hepsinde aynı diyen yorum), tavan döşemesi sarkması (2014 model), navigasyonun hafıza kartını okumaması ve vitesin kendiliğinden P'ye geçmesi tek sitede kaldı. |
 | 1 | EQA / EQB | 2021- | Elektrik (70,5 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | A Serisi W176 | 2012-2018 | A180 CDI (dizel) | ✓ 1 sorun (+2 ortak aile) |
 | 2 | A Serisi W176 | 2012-2018 | A180 1.6 benzinli (M270, 7G-DCT) | – eklenmedi: Enjektör ve 7G-DCT iddiaları için güçlü kanıt bulunamadı; tekrarlayan şikâyet Pre-Safe / açı sensörü (CLA ile birlikte ele alındı). |
@@ -551,6 +566,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | 3 Serisi F30 | 2012-2015 | 320d 2.0 (N47) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | 3 Serisi F30 | 2012-2015 | 320i / 328i 2.0 (N20) | ✓ 3 sorun, 1 yıl kırılımı |
 | 1 | 3 Serisi F30 | 2015-2019 | 320d (B47) / 320i (B48) | – eklenmedi: Kaynaklar B47'nin N47 sorunlarını büyük ölçüde çözdüğünü yazıyor ama çelişkili; B48 zincir/turbo yağ terlemesi tek kaynakta kaldı. |
+| 1 | 3 Serisi F30 | 2012-2019 | Tüm motorlar (model geneli) | ✓ 1 sorun — İç kapı kolu erimesi Şikâyetvar ve BimmerPost'ta doğrulandı. Şikâyetvar'da kapı iç keçelerinin deformasyonu ve yağışta su alma, sunroof fitili yıpranması, direksiyon kutusu sesi (DonanımHaber'de kronik denmiş), akü deşarjı ve ekran sorunları tekil kaldı; N13 turbo manifoldundan su kaçırma motor konusu. |
 | 1 | 3 Serisi G20 | 2019- | 320i (B48) / 320d (B47) | – eklenmedi: Şikâyetvar'da G20 için tekil kayıtlar var (45.000 km'de su pompası uyarısı, 60 bin km'de park freni arızası, 74.000 km'de diferansiyel uğultusu, 139.000 km'de soğutma sistemi uyarısı); Ekşi Sözlük'te N20 / B47 / B48'in daha az sorunlu sayıldığı, DonanımHaber'de bir G20 sahibinin B48'de kronik sorun yaşamadığı yazılıyor. Motora özgü tekrar eden sorun için iki bağımsız site çıkmadı. |
 | 1 | 5 Serisi G30 | 2017-2023 | 520i (B48) / 520d (B47) | – eklenmedi: Şikâyetvar'da G30 520i için tekrar eden konular ambiyans aydınlatma kesilmesi, kapı kolu içlerinin erimesi, sunroof perdesi, acil çağrı pili ve multimedya; motor ya da şanzıman için sistematik kayıt yok ve konular tek siteye (Şikâyetvar) ait. DonanımHaber'deki eski bir yazı egzoz ve şanzıman sorunlarını sayıyor ama zayıf bir kaynak. |
 | 1 | X1 E84 | 2009-2015 | sDrive18d / xDrive18d / xDrive20d (N47) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Modele özgü şikâyet çıkmadı; Şikâyetvar'daki X1 şikâyetleri şanzıman, direksiyon, fren ve kapı gıcırtısında toplanıyor. Gösterilen N47 zincir sorunu 1, 3 ve 5 Serisi kaynaklarına dayanır; bir yabancı rehber (Carpedia) zincir sorununun Mart 2011 sonrası üretimde belirgin azaldığını yazıyor. |
@@ -572,6 +588,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | 5 Serisi F10 | 2010-2015 | 520d 2.0 (N47D20) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 2 | 5 Serisi F10 | 2011-2016 | 520i / 528i (N20) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı |
 | 2 | 5 Serisi F10 | 2015-2017 | 520d (B47) | – eklenmedi: Bu oturumdaki aramada B47'ye özgü kayıt çıkmadı: sonuçlar N47 zincir tartışmalarına ve ZF 8 ileri şanzımanı sorunsuz bulan yorumlara ait; bir yorum B47'yi düzeltilmiş N47 olarak anıyor (tekil görüş). |
+| 2 | 5 Serisi F10 | 2010-2016 | Tüm motorlar (model geneli) | ✓ 1 sorun — İç kapı kolu erimesi Şikâyetvar ve BimmerPost'ta doğrulandı. |
 | 2 | X1 E84 | 2011-2015 | sDrive20i / xDrive28i (N20) | ◐ 4 ortak aile sorunu, 1 yıl kırılımı |
 | 2 | X3 F25 | 2012-2017 | xDrive28i (N20) | ◐ 4 ortak aile sorunu, 1 yıl kırılımı |
 | 2 | X3 F25 | 2011-2017 | xDrive30d (N57) | ◐ 1 ortak aile sorunu — N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir. |
@@ -601,6 +618,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | :---: | --- | --- | --- | --- |
 | 1 | Juke | 2010-2019 | 1.6 (CVT Xtronic) | ✓ 1 sorun |
 | 1 | Juke | 2014-2019 | 1.2 DIG-T 115 (HRA2DDT) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
+| 1 | Juke | 2010-2019 | Tüm motorlar (model geneli) | ✓ 1 sorun, 1 yıl kırılımı — Ekran silikleşmesi Şikâyetvar ve DonanımHaber'de geçiyor. Şikâyetvar'da yeni Juke'ta far içine su alma (metin bozuk), start-stop arızası ve şanzıman konuları ayrı ya da tekil. |
 | 1 | Qashqai J11 | 2014-2020 | 1.5 dCi 110 (K9K) / 1.6 dCi 130 (R9M) | ✓ 2 sorun (+2 ortak aile), 1 yıl kırılımı |
 | 1 | Qashqai J11 | 2014-2021 | 1.2 DIG-T (HRA2DDT, Xtronic) | ✓ 3 sorun, 2 yıl kırılımı |
 | 2 | Juke | 2010-2019 | 1.5 dCi 110 (K9K) | ◐ 2 ortak aile sorunu — Juke 1.5 dCi için kaynak ağırlıkla tek bir rehber (Araclo); turbo yağ borusu ve DPF anlatıları ikinci bağımsız kaynakla desteklenmedi. Gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Renault ve Dacia kayıtlarına, K9K turbo hortumu sorunu ise Qashqai J11 kaydına dayanır. |
@@ -609,6 +627,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Note E12 | 2013-2017 | 1.5 dCi 90 (K9K) | ◐ 2 ortak aile sorunu — Note 1.5 dCi için ilgili şikâyet bulunamadı (aramada yalnızca X-Trail 1.6 dCi öne çıktı); gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Clio, Megane, Duster ve Sandero kaynaklarına dayanır. |
 | 2 | Qashqai J10 | 2007-2013 | 1.6 (benzinli) | – eklenmedi: J10 dönemine (2007-2013) özgü kaynak bulunamadı; 1.6 benzinli için ayrıca sonuç çıkmadı. |
 | 2 | Qashqai J10 | 2007-2013 | 1.5 dCi 106 (K9K) | ◐ 2 ortak aile sorunu — J10 dönemine (2007-2013) özgü kaynak bulunamadı; Qashqai 1.5 dCi turbo hortumu şikâyetleri 2012 model ve sonrasında yoğunlaşıyor, J11 kaydında ele alındı. Gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Clio, Megane, Duster ve Sandero kaynaklarına dayanır. |
+| 2 | Qashqai J10 | 2007-2013 | Tüm motorlar (model geneli) | ✓ 1 sorun — Ekran silikleşmesi Şikâyetvar (2012-2013 Tekna) ve DonanımHaber (bir yorum) kaynaklı. J11 için bu aramada ön takım, panoramik cam tavan ve far çıkmadı; sağ ön kapı kilidinin kilitlenmemesi (kronik denmiş) ve kapı kartı kaplamasının soyulması (2022 model) tek şikâyet. |
 | 2 | Qashqai J11 | 2014-2020 | 1.6 dCi 130 (R9M, Xtronic CVT) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | Qashqai J11 FL / J12 | 2019- | 1.3 DIG-T 140/158 (2021 sonrası 12V hafif hibrit, Xtronic CVT) | ✓ 2 sorun, 1 yıl kırılımı |
 | 3 | Leaf | 2019- | Elektrik | – eklenmedi: Türkiye'ye özgü kaynak çıkmadı (yalnızca bir Ekşi Sözlük yorumu: aktif batarya soğutması yok, CHAdeMO). Hava soğutmalı bataryanın kapasite kaybı InsideEVs, MyNissanLeaf ve Electrek'te belgeli, ancak bunlar ağırlıkla ABD'nin sıcak iklimine ve ilk nesil Leaf'e ait. NHTSA 24V-700 geri çağırması ABD'de Smyrna'da üretilen 2019-2020 Leaf'leri kapsıyor (CHAdeMO hızlı şarjda yangın riski); Türkiye kapsamı doğrulanamadı. |
@@ -671,6 +690,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | Ceed | 2012-2018 | 1.6 CRDi | ✓ 1 sorun (+1 ortak aile) |
+| 1 | Ceed (ED / JD) | 2009-2016 | Tüm motorlar (model geneli) | ✓ 1 sorun, 1 yıl kırılımı — Ön göğüs kabarması Şikâyetvar ve DonanımHaber'de (üç başlık) doğrulandı. Şikâyetvar'da EPS arızası (2010 model, kronik denmiş), 2017 modelde volan sesi ve forumda boya kalınlığı tartışması tekil kaldı. |
 | 1 | EV6 | 2022- | Elektrik (E-GMP, 77,4 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Rio | 2011-2017 | 1.4 CRDi 90 | ✓ 1 sorun (+1 ortak aile) |
 | 1 | Sportage QL FL / NQ5 | 2018- | 1.6 CRDi 136 (7DCT) | ✓ 1 sorun (+2 ortak aile) |
@@ -682,6 +702,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Niro EV | 2019- | Elektrik | – eklenmedi: Şikâyetvar'da menzil, DC şarj süresi ve batarya bağlantı ünitesi (parçanın Türkiye'de bulunmaması) şikâyetleri tekil; ikinci bağımsız kaynak yok. EV3 ICCU arızası Faz 6'da ayrı kayıt oldu; ICCU geri çağırması Kia EV6 kaydında. |
 | 2 | Picanto | 2017- | 1.0 / 1.2 MPI | ✓ 1 sorun |
 | 2 | Rio | 2011-2017 | 1.4 MPI 100 | – eklenmedi: Forumlarda sorunsuz olarak anılıyor; kronik sorun bulunamadı. |
+| 2 | Rio | 2011-2023 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da kapı fitillerinin erimesi (2012-2016 modeller; servisler 11 yaşındaki araçta normal bulmuş), 2020 modelde CarPlay kopması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te Rio'ya özgü ikinci site çıkmadı. |
 | 2 | Rio YB | 2017-2023 | 1.4 MPI 100 | – eklenmedi: Faz 9'da arandı: DonanımHaber'de Rio 1.4 MPI ve 6 ileri tork konvertörlü otomatik için sorunsuz yorumları var (bir sahip yaklaşık 27.500 km'de sorun yaşamadığını yazıyor). Rio UB 1.4 CRDi DPF sorunu ayrı kayıtta. |
 | 2 | Rio YB | 2017-2023 | 1.0 T-GDI 100 (7DCT) | ◐ 1 ortak aile sorunu — Rio 1.0 T-GDI için kaynak çıkmadı; gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
 | 2 | Stonic | 2017- | 1.4 MPI 100 (6 ileri otomatik) | ✓ 1 sorun, 1 yıl kırılımı |
@@ -724,6 +745,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | :---: | --- | --- | --- | --- |
 | 1 | A3 8P FL / 8V | 2009-2020 | 1.4 TFSI (S tronic DQ200) | ✓ 1 sorun (+3 ortak aile), 2 yıl kırılımı |
 | 1 | A3 8V | 2012-2020 | 1.6 TDI 105/110 | ✓ 2 sorun (+2 ortak aile) |
+| 1 | A3 8V | 2012-2020 | Tüm motorlar (model geneli) | ✓ 1 sorun — Gündüz LED sararması iki sitede doğrulandı. MMI ekranın donması / kapanması / açılmaması Şikâyetvar'da çoğunlukla 2021 sonrası (8Y) araçlara ait (2015 model bir 8V sahibi de ekranın açılmadığını bildiriyor); cam tavan çevresi plastik çatlakları ve ön takım (2025 model) tekil. |
 | 1 | A4 B8 | 2008-2015 | 1.8 TFSI / 2.0 TFSI (EA888 Gen2) | ✓ 4 sorun, 2 yıl kırılımı |
 | 1 | A4 B8 | 2008-2015 | 2.0 TDI 143/150/177 (Multitronic) | ✓ 1 sorun |
 | 1 | Q5 8R | 2008-2017 | 2.0 TDI | – eklenmedi: Q5 2.0 TDI için modele özgü kaynak çıkmadı: DonanımHaber'de Q5 başlıkları 2.0 TFSI yağ yakma (ayrı kayıtta), S tronic ve akü / alternatör üzerine; 2.0 TDI enjektör ve DPF anlatıları A5 / A6 başlıklarında ve eski 143-170 hp motorlara ait, 2.0 TDI için doğrulanmış bir sorun listesi çıkmadı. |
@@ -760,12 +782,14 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | :---: | --- | --- | --- | --- |
 | 1 | Civic FC5 | 2016-2021 | 1.6 i-VTEC 125 (CVT) | ✓ 1 sorun |
 | 1 | Civic FC5 | 2016-2021 | 1.5 VTEC Turbo (L15B7) | ✓ 2 sorun, 1 yıl kırılımı |
+| 1 | Civic FC5 | 2016-2021 | Tüm motorlar (model geneli) | ✓ 2 sorun — Klima radyatörü çatlaması ve boya atması Şikâyetvar ve CivicX'te (ABD) doğrulandı. Şikâyetvar'da yakıt pompası arızası (2018 model) ve ön cam tedarik gecikmesi tekil; CVT şanzıman şikâyetleri motor/şanzıman konusu (ayrı kayıt). |
 | 2 | Accord | 2008-2015 | 2.0 i-VTEC / 2.2 i-DTEC | – eklenmedi: Faz 9'da arandı: Accord 2.0 i-VTEC / 2.2 i-DTEC için bu aramada veri çıkmadı (aynı sorgudaki Civic 1.6 i-DTEC DPF sorunu ayrı kayıtta). |
 | 2 | CR-V | 2012-2018 | 1.6 i-DTEC | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 2 | CR-V | 2012-2018 | 2.0 i-VTEC | – eklenmedi: 2.0 i-VTEC için yağ eksiltme ve SRS şikâyetleri tekil kullanıcı anlatımları; ikinci bağımsız kaynak bulunamadı. |
 | 2 | CR-V RW | 2017-2022 | 1.5 VTEC Turbo 173 (CVT) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — CR-V 1.5 VTEC Turbo'ya özgü kaynak aranmadı; gösterilen yağa yakıt karışması aynı motor ailesini kullanan Civic FC5 kaydına dayanır. |
 | 2 | City | 2009- | 1.5 i-VTEC / 1.5 Hybrid | – eklenmedi: City 1.5 için yakıt tüketimi ve vites geçişi şikâyetleri yalnızca Şikâyetvar'da (2021 model); ikinci bağımsız kaynak yok. |
 | 2 | Civic FB7 | 2012-2015 | 1.6 i-VTEC / 1.8 i-VTEC | – eklenmedi: FB7 şikâyetleri ağırlıkla boya atması ve kozmetik; motora özgü sorunlar tekil (130 bin km'de motor yanması, 1.8 yağ sızıntısı için eski bir forum yazısı). |
+| 2 | Civic FB7 | 2012-2016 | Tüm motorlar (model geneli) | ✓ 1 sorun — Beyaz renkte boya atması Şikâyetvar ve DonanımHaber'de geçiyor. İç kapı kolu soyulması (2012 model, bazılarına ücretsiz değişim), ön cam parça bekleme süresi ve direksiyon kutusu tıkırtısı tekil. |
 | 2 | Civic FC5 (dizel) | 2016-2021 | 1.6 i-DTEC 120 (9 ileri otomatik) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 3 | Civic FB7 | 2013-2016 | 1.6 i-DTEC 120 | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — Civic FB7 1.6 i-DTEC'e özgü kaynak aranmadı; gösterilen DPF ve turbo hortumu sorunları aynı N16A motorunu kullanan Civic FC5 ve CR-V kayıtlarına dayanır. |
 | 3 | HR-V RU | 2015-2021 | 1.6 i-DTEC 120 | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — HR-V 1.6 i-DTEC'e özgü kaynak aranmadı; gösterilen DPF ve turbo hortumu sorunları aynı N16A motorunu kullanan Civic FC5 ve CR-V kayıtlarına dayanır. |

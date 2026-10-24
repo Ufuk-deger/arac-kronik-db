@@ -2796,6 +2796,31 @@
     },
     {
       "marka": "Audi",
+      "model": "A3 (8V, 2012-2020)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Gündüz LED farlarının (DRL) sararması",
+          "etkilenen_parca": "Bi-xenon / LED far grubu ve gündüz LED farı",
+          "belirtiler": "Gündüz LED farının zamanla sararması; far değişiminden sonra eski ve yeni farın farklı renkte (sarı ve beyaz) yanması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2017 model bir A3 sahibi bu modelde benzer sorunların kronik olduğunu ve birçok sahibin aynı problemle karşılaştığını yazıyor; DonanımHaber'de 2013 model A3 sedan sahibi kaza sonrası değiştirilen yeni farın beyaz, eski farın sarı yandığını anlatıyor.",
+            "cozum": "Forum yorumlarında sararmış farın iç kısmını solüsyonla temizlemenin riskli olduğu ve yeni farın da zamanla sararabileceği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/audi/a3/kronik",
+            "https://forum.donanimhaber.com/audi-a3-bixenon-led-gunduz-fari-sararmasi--137329994"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Audi",
       "model": "A3 (8Y, 2020-)",
       "motor": "35 TFSI 1.5 (48V hafif hibrit, S tronic)",
       "uretim_yillari": {
@@ -3586,6 +3611,37 @@
     },
     {
       "marka": "BMW",
+      "model": "3 Serisi (F30, 2012-2019)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "İç kapı kollarında kaplamanın erimesi, yapışkanlaşması ve dökülmesi",
+          "etkilenen_parca": "İç kapı kolları (yumuşak dokunuşlu kaplama), ön cam fitili ve diğer plastik aksam",
+          "belirtiler": "Sıcak havada iç kapı kollarının sakız gibi yapışkan olması, ele siyah leke bırakması ve parça parça dökülmesi; Şikâyetvar'da F30'da ön cam fitilinin de benzer şekilde eridiği bildiriliyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "BimmerPost'ta iç kapı kolundaki yumuşak dokunuşlu kaplamanın yaşla ve ısıyla bozulup yapışkan bir kalıntıya dönüştüğü anlatılıyor; bir yorum cilt yağı ve el losyonunun da etkili olabileceğini söylüyor. Kesin neden belli değil, bazı sahipler yıllarca sorun yaşamadığını yazıyor. Şikâyetvar'da bir sürücü kolların 90 bin km civarında hepsinde bu sorunun görüldüğünü, bir diğeri yetkili servisin bunu kullanıcı hatası saydığını yazıyor.",
+            "cozum": "İçine takılan snap-on plastik kapaklar (yaklaşık 10-40 $), sert plastik yedek kollar (kapı kartı sökümü gerektirir), deri ya da vinil sarma; bazı sahipler yeni orijinal kolların yeniden yapışkanlaştığını yazıyor. Temizlik kalıcı çözüm değil, yapışkanlık geri geliyor.",
+            "maliyet": "Şikâyetvar'da bir sürücüye iyi niyet kapsamında maliyetin yarısını ödemesi koşuluyla onarım önerildiği ve toplamın 7.500 TL olduğu yazılıyor (tarih belirtilmemiş); BMW Türkiye'nin ücretsiz değişim yaptığına dair bir iddia doğrulanamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw-f30/ic-kapi-kolu",
+            "https://www.sikayetvar.com/bmw/bmw-3-serisi-kapi-kolu-erime-sorunu-1",
+            "https://www.sikayetvar.com/bmw/bmw-kapi-kolunda-erime",
+            "https://f30.bimmerpost.com/forums/showthread.php?t=1649495",
+            "https://f30.bimmerpost.com/forums/showthread.php?t=2037484",
+            "https://f30.bimmerpost.com/forums/showthread.php?t=1657274",
+            "https://f30.bimmerpost.com/forums/showthread.php?t=1660659"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "BMW",
       "model": "4 Serisi (F32 / F36, 2013-2015)",
       "motor": "420d 2.0 dizel (N47D20)",
       "uretim_yillari": {
@@ -3664,6 +3720,32 @@
       ],
       "aileler": [
         "bmw-n47"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi (F10, 2010-2016)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "İç kapı kollarında kaplamanın erimesi, yapışkanlaşması ve dökülmesi",
+          "etkilenen_parca": "İç kapı kolları (yumuşak dokunuşlu kaplama)",
+          "belirtiler": "Sıcak havada iç kapı kollarının yapışkan olması, ele leke bırakması ve dökülmesi; BimmerPost'ta yolcu tarafının genellikle önce bozulduğu anlatılıyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "BimmerPost'ta iç kapı kolundaki yumuşak dokunuşlu kaplamanın yaşla ve ısıyla bozulup yapışkan bir kalıntıya dönüştüğü anlatılıyor; bir yorum cilt yağı ve el losyonunun da etkili olabileceğini söylüyor. Kesin neden belli değil, bazı sahipler yıllarca sorun yaşamadığını yazıyor. Şikâyetvar'da bir sürücü kolların 90 bin km civarında hepsinde bu sorunun görüldüğünü, bir diğeri yetkili servisin bunu kullanıcı hatası saydığını yazıyor.",
+            "cozum": "İçine takılan snap-on plastik kapaklar (yaklaşık 10-40 $), sert plastik yedek kollar (kapı kartı sökümü gerektirir), deri ya da vinil sarma; bazı sahipler yeni orijinal kolların yeniden yapışkanlaştığını yazıyor. Temizlik kalıcı çözüm değil, yapışkanlık geri geliyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw/f10-kapi-kolu/kapi-kolu-erimesi",
+            "https://www.sikayetvar.com/bmw/bmw-kapi-kol-tutamaclari",
+            "https://f10.bimmerpost.com/forums/showthread/1753279/sticky-door-handles-and-leather-dye-550i"
+          ]
+        }
       ]
     },
     {
@@ -4855,6 +4937,33 @@
     },
     {
       "marka": "Fiat",
+      "model": "Doblo (2010-2022)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kapı kilit motoru ve merkezi kilit arızası (sürgülü kapı dahil)",
+          "etkilenen_parca": "Kapı kilit motorları, merkezi kilit kontrol ünitesi ve sürgülü kapı kilidi",
+          "belirtiler": "Şoför ya da sürgülü kapı kilit motorunun arızalanması; merkezi kilidin kapıları kendiliğinden açması ya da kilitlemesi; kilit çalışmayınca kapının düzgün kapanmayıp içeri su ve soğuk hava girmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2019 model bir Doblo'da şoför kapısı kilit motorunun arızalandığı yazılıyor; forumda merkezi kilit beyni arızasının kapıların kendiliğinden açılmasına yol açabildiği anlatılıyor.",
+            "teshis": "Forumda sigortaların, kabloların ve kilit mekanizmasının kontrolü ile temizlenmesi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/doblo/kapi",
+            "https://www.sikayetvar.com/fiat/fiat-doblo-kapi-kilit-arizasi",
+            "https://forum.donanimhaber.com/doblo-kilit--120079355",
+            "https://forum.donanimhaber.com/doblo-merkezi-kilit-sorunu-kapilar-kendi-kendine-aciliyor--140014137"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
       "model": "Egea (2015-)",
       "motor": "1.3 Multijet II (95 HP)",
       "uretim_yillari": {
@@ -5281,6 +5390,35 @@
     },
     {
       "marka": "Fiat",
+      "model": "Linea (2007-2015)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolcu airbag kapağı üzerindeki torpido bölümünde kendiliğinden çatlama",
+          "etkilenen_parca": "Torpido (yolcu hava yastığı kapağının üstü)",
+          "belirtiler": "Yolcu hava yastığı kapağının üstündeki torpido yüzeyinde kaza ya da darbe olmadan çatlak ya da kırık oluşması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'daki kullanıcılar çatlağın kaza, darbe ya da airbag açılması olmadan kendiliğinden oluştuğunu ve malzeme kalitesinden kaynaklandığını savunuyor; bir şikâyette TOFAŞ müşteri hizmetinin bunu güneşte kalma ya da yetkisiz müdahale gibi kullanım etkenlerine bağladığı aktarılıyor. İngiltere forumunda sıcak iklimlerde daha sık görüldüğü, bazı sahiplerin hava yastığı kapağının dikişinden şüphelendiği yazılıyor. Resmî kusur tespiti ya da geri çağırma bulunamadı. Bir bayinin Linea'daki çatlağın Punto'daki kronik arızayla aynı olduğunu söylediği aktarılıyor (kullanıcı beyanı); fiatforum başlıkları Punto Evo / Grande Punto'ya aittir.",
+            "maliyet": "Şikâyetvar'da ücretsiz onarım talepleri genellikle reddedilmiş ya da kısmi ücretle sonuçlanmış (bir kullanıcıya masrafın %25'inin karşılanabileceği bildirilmiş). fiatforum'da tam torpido değişiminin birkaç yüz ile 1.000 £'un üzerinde olabileceği yazılıyor; bir İsrailli sahip resmî ithalatçının uzun bir yazışmadan sonra torpidoyu ücretsiz değiştirdiğini aktarıyor (tarihler belirtilmemiş).",
+            "onlem": "Şasi numarasıyla Tofaş müşteri hizmetleri ya da yetkili servis üzerinden fotoğraf ve servis raporuyla resmî başvuru yapmak (kaynak önerisi)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiat-linea-yolcu-airbag-ustunde-catlak",
+            "https://www.sikayetvar.com/fiat/linea/linea-torpido",
+            "https://www.sikayetvar.com/fiat/linea/kronik",
+            "https://www.fiatforum.com/threads/a-crack-in-the-dashboard.358328/",
+            "https://www.fiatforum.com/threads/aussie-fiat-owners-with-crack-in-dashboard-near-airbag.461862/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
       "model": "Panda (2012-2020)",
       "motor": "0.9 TwinAir / 1.2 Fire (Dualogic)",
       "uretim_yillari": {
@@ -5342,6 +5480,33 @@
       ],
       "aileler": [
         "fiat-1-3-multijet"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Punto Evo / Grande Punto (2009-2018)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolcu airbag kapağı üzerindeki torpido bölümünde kendiliğinden çatlama",
+          "etkilenen_parca": "Torpido (yolcu hava yastığı kapağının üstü)",
+          "belirtiler": "Yolcu hava yastığı kapağının üstündeki torpido yüzeyinde ya da kapağın üst kenarında çatlak, ayrılma ya da şişkinlik oluşması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'daki kullanıcılar çatlağın kaza, darbe ya da airbag açılması olmadan kendiliğinden oluştuğunu ve malzeme kalitesinden kaynaklandığını savunuyor; bir şikâyette TOFAŞ müşteri hizmetinin bunu güneşte kalma ya da yetkisiz müdahale gibi kullanım etkenlerine bağladığı aktarılıyor. İngiltere forumunda sıcak iklimlerde daha sık görüldüğü, bazı sahiplerin hava yastığı kapağının dikişinden şüphelendiği yazılıyor. Resmî kusur tespiti ya da geri çağırma bulunamadı.",
+            "maliyet": "fiatforum'da tam torpido değişiminin birkaç yüz ile 1.000 £'un üzerinde olabileceği yazılıyor; bir İsrailli sahip resmî ithalatçının uzun bir yazışmadan sonra torpidoyu ücretsiz değiştirdiğini, bir Avustralyalı sahip Fiat'ın bilinen bir kusur olmadığı için karşılamadığını yazıyor (tarihler belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiat-puntoda-kronik-torpido-airbag-catlagi-sorunu",
+            "https://www.sikayetvar.com/fiat/punto/airbag",
+            "https://www.fiatforum.com/threads/a-crack-in-the-dashboard.358328/",
+            "https://www.fiatforum.com/threads/aussie-fiat-owners-with-crack-in-dashboard-near-airbag.461862/"
+          ]
+        }
       ]
     },
     {
@@ -6096,6 +6261,31 @@
     },
     {
       "marka": "Honda",
+      "model": "Civic (FB7, 2012-2016)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Boya atması (özellikle beyaz renkte kaput, ön direk, arka cam kenarı)",
+          "etkilenen_parca": "Boya ve vernik (kaput, ön direk, arka cam kenarı, tavan)",
+          "belirtiler": "Boyanın kabarıp dökülmesi; özellikle beyaz modellerde perde boya atması; kaput, ön direk ve arka cam kenarlarında benzer atma.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'daki kullanıcılar bunu üretim kaynaklı kronik bir sorun olarak görüyor; yetkili servislerin araç yaşını gerekçe gösterip ücret istediği yazılıyor. DonanımHaber'deki başlık nedenin tam bilinmediğini, boya ile astar arasındaki zayıf yapışmanın olası neden olduğunu söylüyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/honda/honda-civic-fb7-beyaz-modellerde-kronik-boya-atma-sorunu-ve-ucretsiz-cozum-talebi",
+            "https://www.sikayetvar.com/honda/civic/fb7",
+            "https://forum.donanimhaber.com/sifir-aldigim-aracimin-boyasi-kabarip-dokuluyor--145038942"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Honda",
       "model": "Civic (FC5, 2016-2021)",
       "motor": "1.5 VTEC Turbo (L15B7)",
       "uretim_yillari": {
@@ -6236,6 +6426,53 @@
             "https://www.sikayetvar.com/honda/civic/sanziman",
             "https://www.sikayetvar.com/honda/honda-civic-sanziman-zinciri-kirildi-72500-tl-onarim-ucreti",
             "https://www.sikayetvar.com/honda/garanti-sonrasi-sanziman-zinciri-kopmasi-ve-yuksek-onarim-ucreti-magduriyeti"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic (FC5, 2016-2021)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Klima radyatörü (kondenser) çatlaması ve gaz sızıntısı",
+          "etkilenen_parca": "Klima radyatörü (kondenser), kompresör hattı",
+          "belirtiler": "Klimanın soğutmaması, gaz kaybı; klima radyatörünün çatlaması ya da delinmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "CivicX'te 10. nesil (2016+) Civic'lerde klima kondenserinin sızdırdığı ve bu yüzden çok sayıda aracın serviste olduğu yazılıyor; bir forum yazısı Honda'nın TSB 19-091 ile ABD'de kondenser garantisini uzattığını aktarıyor (ikinci el alıntı, bülten metni doğrulanamadı; Türkiye'de kapsam bilinmiyor). Şikâyetvar'da FC5 sahipleri radyatörün çatlamasını birden fazla kayıtta bildiriyor; bazılarında değişim garanti kapsamında yapılmış, bazılarında garanti dışı ücretli olmuş (2019 dizel modelde radyatör çatlağı nedeniyle garantiden değişim).",
+            "teshis": "CivicX'te bayilerin sızıntıyı kompresöre bağlayabildiği, onarım teklifini kabul etmeden önce UV boyayla sızıntı kaynağının doğrulanması öneriliyor.",
+            "maliyet": "CivicX'te bir sahibe kompresör değişimi için 1.600 $ teklif edildiği yazılıyor (ABD; asıl sorun kondenser olabilir, tarih belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/honda/civic/civic-klima",
+            "https://www.sikayetvar.com/honda/civic/civic-fc5",
+            "https://www.sikayetvar.com/fc5/kronik",
+            "https://www.civicx.com/forum/threads/air-conditioning-condenser-issue-is-real.24701/",
+            "https://www.civicx.com/forum/threads/new-ac-condenser-leaking-tsb-19-091.40000/page-5",
+            "https://www.civicx.com/forum/threads/2016-2019-evaporator-failures-leaks.52319/",
+            "https://www.civicx.com/forum/threads/ac-leaking.73435/"
+          ]
+        },
+        {
+          "sorun_adi": "Tavan, bagaj kapağı ve direklerde boya (vernik) atması",
+          "etkilenen_parca": "Boya ve vernik (tavan, bagaj kapağı ve menteşeleri, arka cam kenarı, direkler)",
+          "belirtiler": "Tavanda, bagaj kapağında, bagaj menteşeleri ile arka cam kenarında ve direklerde boyanın ya da verniğin pullanıp atması; kaput ve tavanda vernik atması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "CivicX'te aynı noktalarda (bagaj menteşeleri, arka cam kenarı, tavan çıtası çevresi) görülmesi üretim kusuruna işaret ediyor diye yorumlanıyor; Şikâyetvar'da FC5 sahipleri aynı kasa ve renkteki birçok araçta aynı atmayı bildiriyor. Resmî kabul ya da geri çağırma bulunamadı.",
+            "maliyet": "CivicX'te Honda'ya bağlı bir kaportacıdan yaklaşık 1.700 $, Honda kapsamayı reddedince bağımsız atölyede yaklaşık 800 $ ödendiği yazılıyor (ABD, tarih belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fc5/kronik",
+            "https://www.sikayetvar.com/honda/civic/civic-fc5",
+            "https://www.civicx.com/forum/threads/paint-already-flaking-chipping.48862/page-5",
+            "https://www.civicx.com/forum/threads/paint-already-flaking-chipping.48862/page-7"
           ]
         }
       ]
@@ -6849,6 +7086,35 @@
     },
     {
       "marka": "Hyundai",
+      "model": "i20 (PB / GB, 2009-2020)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli direksiyon (EPS) arızası, direksiyonun aniden sertleşmesi",
+          "etkilenen_parca": "Elektrikli direksiyon desteği (EPS), direksiyon kolonu ve kontrol ünitesi",
+          "belirtiler": "EPS uyarı ışığının yanması ve direksiyonun aniden ağırlaşması; ABS ve motor arıza ışıklarının birlikte yanması; direksiyonun geri vitesteyken kilitlendiği anlatısı.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok; genel EPS kaynaklarında arızalı EPS kontrol ünitesi, hasarlı kablolama, direksiyon sensörü arızası, düşük akü voltajı ya da elektrik motorunun aşırı ısınıp koruma moduna geçmesi sayılıyor. Hyundai'nin sorunu kronik olarak kabul etmediği ve kronik sayılmadıkça yetkili servislerin ücretsiz onarım yapmadığı yazılıyor; resmî servis kampanyası ya da geri çağırma bulunamadı. DonanımHaber başlığında bir kullanıcı i20'de kronik bir sorun olmadığını savunuyor.",
+            "maliyet": "Forumda onarım ücreti 1.000-3.000 TL arası, bir kullanıcıya servisin 12 bin TL'ye kadar istediği yazılıyor; Şikâyetvar'da 2015 model bir i20 sahibine EPS değişimi için 48.000 TL söylenmiş, bir başka kullanıcı direksiyon zembereği (airbag ışığı) için 3.000 TL istendiğini yazıyor (tarihler belirtilmemiş).",
+            "onlem": "Direksiyon sertleşen aracın kullanılmaması önerilir (kaynak uyarısı); arızada hata kodu çıktısıyla servise yazılı başvuru yapılması önerilir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-assan-i20-aracin-elektrikli-direksiyon-sertlesmesi",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-i20de-kronik-direksiyon-sorunu-magduriyeti",
+            "https://www.sikayetvar.com/hyundai-motor/yetkili-servis/eps",
+            "https://www.sikayetvar.com/hyundai-motor/i20/kronik",
+            "https://forum.donanimhaber.com/hyundai-i20-eps-direksiyon-arizasi-hakkinda--137038114"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "i20 (PB, 2009-2014)",
       "motor": "1.4 MPI / 1.4 CRDi (EPS tüm motorlarda ortak)",
       "uretim_yillari": {
@@ -6914,6 +7180,33 @@
       ],
       "aileler": [
         "hyundai-kia-gamma-gdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i30 (FD, 2008-2012)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli direksiyon (EPS) arızası, direksiyonun aniden sertleşmesi",
+          "etkilenen_parca": "Elektrikli direksiyon desteği (EPS), direksiyon kolonu ve kontrol ünitesi",
+          "belirtiler": "Seyir halinde EPS uyarısının yanması ve direksiyonun aniden ağırlaşması; aracı durdurup yeniden çalıştırınca geçici düzelme; bir Şikâyetvar kullanıcısı arızayı 2012 model aracında 75 bin km'de yaşamış.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok; genel EPS kaynaklarında arızalı EPS kontrol ünitesi, hasarlı kablolama, direksiyon sensörü arızası, düşük akü voltajı ya da elektrik motorunun aşırı ısınıp koruma moduna geçmesi sayılıyor. Hyundai'nin sorunu kronik olarak kabul etmediği ve kronik sayılmadıkça yetkili servislerin ücretsiz onarım yapmadığı yazılıyor; resmî servis kampanyası ya da geri çağırma bulunamadı. DonanımHaber başlığında bir İsveç dergisi testinde EPS'nin slalom sırasında devre dışı kaldığı aktarılıyor.",
+            "onlem": "Şikâyetlerde direksiyonun birden sertleşmesinin kazaya yol açabileceği dile getiriliyor; arıza lambası yandığında servise gidilmesi önerilir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-i30-eps-arizasi-3",
+            "https://www.sikayetvar.com/hyundai-motor/i30/eps-arizasi",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-i30da-surekli-esp-arizasi-ve-direksiyon-sertlesmesi",
+            "https://forum.donanimhaber.com/hyundai-i30-geyik-slalom-testinde-eps-direksiyon-arizasi--92448091"
+          ]
+        }
       ]
     },
     {
@@ -7121,6 +7414,48 @@
       ],
       "aileler": [
         "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Ceed (ED / JD, 2009-2016)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Ön göğüs (torpido) kaplamasında kabarma, çatlama ve şişme",
+          "etkilenen_parca": "Ön göğüs ve torpido üstü yüzey kaplaması, yolcu tarafı hava kanalı çevresi",
+          "belirtiler": "Yolcu tarafındaki ön göğüs ve torpido üstünde kılcal çatlak, kabarma ve şişme; yolcu tarafı hava mazgalı çevresinde bozulma.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok; bir forum yorumcusu 2011-2013 arası Ceed'lerde bunun bilinen bir sorun olduğunu ve Hyundai grubunun 2013 başında üretim stratejisini değiştirdiğini iddia ediyor (doğrulanmadı). Şikâyetvar'daki kullanıcılar sorunu üretim ya da tasarım kaynaklı görüyor.",
+            "cozum": "Bir 2011 Ceed sahibi ön göğsün yetkili serviste garanti kapsamında değiştirildiğini yazıyor; forumda bazı yetkili servislerin bunu garanti kapsamında ele aldığı, döşemecilerin ve airbagcilerin bu işi yapmak istemediği anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/kia/ceed/kronik",
+            "https://www.sikayetvar.com/kia/ceed/kronik?page=2",
+            "https://forum.donanimhaber.com/kia-ceed-gogus-kabarma-sikayetleri--141119965",
+            "https://forum.donanimhaber.com/kia-ceed-gogus-kabarmasi-sorunu--140782447",
+            "https://forum.donanimhaber.com/kia-ceed-club--25605079-397"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2009,
+              "bitis": 2012,
+              "durum": "Yaygın",
+              "not": "Forumda 2011-2013 arası Ceed'lerde kronik kabul edildiği yazılıyor; Şikâyetvar'da 2009-2015 model aralığında tekrar ediyor."
+            },
+            {
+              "baslangic": 2013,
+              "bitis": 2015,
+              "durum": "Görülebilir",
+              "not": "Şikâyetvar'da 2013-2015 modellerde de bildirim var; forumda 2013 başındaki üretim değişikliğinden sonra görülmediği iddia ediliyor (doğrulanmadı)."
+            }
+          ]
+        }
       ]
     },
     {
@@ -7536,6 +7871,33 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "A Serisi / CLA / GLA (W176 / C117 / X156, 2012-2019)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyon açı sensörü arızası (ESP ve PRE-SAFE uyarıları)",
+          "etkilenen_parca": "Direksiyon açı sensörü (steering angle sensor)",
+          "belirtiler": "ESP ve PRE-SAFE uyarılarının yanması; bazı anlatılarda direksiyonun seyirde aniden yumuşaması ya da sertleşmesi, auto hold'un çalışmaması; özellikle yağmurlu havada.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forum ve şikâyetlerde direksiyon açı sensörü arızasının ESP, PRE-SAFE ve auto hold işlevlerini devre dışı bırakabildiği, bazı anlatılarda direksiyonun yumuşayıp sertleşebildiği yazılıyor; düşük akü voltajının da benzer ESP ve airbag uyarıları verebildiği, bu yüzden sensör değiştirmeden önce akünün kontrol edilmesi gerektiği öneriliyor. Şikâyetvar'da 2017 model bir A180d sahibi yağmurda ESP uyarısıyla direksiyonun yumuşadığını ve kazaya ramak kaldığını, 2016 model bir GLA 180d sahibi sensörün değişmesi gerektiğinin söylendiğini ve arızanın aynı model ve yılda sık olduğunu yazıyor.",
+            "maliyet": "DonanımHaber'de bir kullanıcı sensör onarımı için 300-750 arası ücret istendiğini yazıyor (para birimi ve tarih belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/mercedes-benz/mercedes-w176-kronik-sorunlar",
+            "https://www.sikayetvar.com/mercedes-benz/a-180",
+            "https://www.sikayetvar.com/mercedes-benz/gla",
+            "https://forum.donanimhaber.com/mercedes-pre-safe-arizasi-a-cla-c-gla-e--93069197-2"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "B Serisi (W246, 2011-2018)",
       "motor": "B180 CDI 1.5 (OM607, K9K, 7G-DCT)",
       "uretim_yillari": {
@@ -7679,6 +8041,33 @@
       "aileler": [
         "mercedes-7g-tronic",
         "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi (W204, 2007-2014)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyon açı sensörü arızası (ESP ve lastik basıncı uyarıları)",
+          "etkilenen_parca": "Direksiyon açı sensörü (steering angle sensor)",
+          "belirtiler": "Gösterge panelinde ESP (ve bazen lastik basıncı) uyarısının yanması, özellikle yağışlı havada; ESP işlevinin devre dışı kalması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forum ve şikâyetlerde direksiyon açı sensörü arızasının ESP, PRE-SAFE ve auto hold işlevlerini devre dışı bırakabildiği, bazı anlatılarda direksiyonun yumuşayıp sertleşebildiği yazılıyor; düşük akü voltajının da benzer ESP ve airbag uyarıları verebildiği, bu yüzden sensör değiştirmeden önce akünün kontrol edilmesi gerektiği öneriliyor.",
+            "maliyet": "Şikâyetvar'da servis ücretine itirazlar geçiyor; tutar kaynaklarda net değil."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/mercedes-benz/mercedes-benz-w204-aci-sensoru-arizasi",
+            "https://www.sikayetvar.com/mercedes-benz/mercedes-benz-c180-204-w-kasa-kronik-sorunlari",
+            "https://forum.donanimhaber.com/2008-2011-mercedes-c-serisi-w204-esp-calismiyor-sorunu-cozumu--152198314",
+            "https://otopark.com/forum/threads/w204-garip-bir-esp-isigi-sorunu.13245/"
+          ]
+        }
       ]
     },
     {
@@ -7853,6 +8242,37 @@
       "aileler": [
         "mercedes-7g-tronic",
         "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Serisi (W212, 2009-2016)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Arka travers (arka alt çerçeve / subframe) korozyonu",
+          "etkilenen_parca": "Arka alt çerçeve (travers, subframe) ve arka fren hatları",
+          "belirtiler": "Alt çerçevenin içeriden paslanıp çürümesi (gözle muayenede zor görülür) ve delinmesi; en kötü durumda fren sırasında arka tarafın kayması; arka fren hatlarında korozyon.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yabancı forumlarda paslanmanın çerçevenin içinden başladığı, standart gözle muayenede neredeyse arıza noktasına gelene kadar görülmediği, tuzlu yol kullanımında daha sık olduğu ve bir 2011 E350'de arka alt çerçevenin yenilip fren sırasında arka tarafın kaydığı anlatılıyor. Şikâyetvar'da bir E250 sahibi sorunun bu kasada dünya genelinde kronik olduğunu yazıp ücretsiz değişim istiyor; bir servis şikâyetinde de kronik bilinen travers çürümesi geçiyor.",
+            "teshis": "Forumlarda alım öncesi ekspertizde alt çerçevenin ve tahliye deliği çevresinin kontrol edilmesi öneriliyor; boyanmış ya da kaynaklanmış çerçevelerin ücretsiz onarımdan hariç tutulabildiği yazılıyor.",
+            "cozum": "Forum aktarımlarına göre ABD'de Mercedes-Benz USA delinme (perforasyon) görülen arka alt çerçeveler için garantiyi uzatmış (yüzeysel pas kapsam dışı); İngiltere'de resmî geri çağırma yok, 'iyi niyet katkısı' veriliyor. Bir bayi e-postasının bu modelde bilinen alt çerçeve arızası olmadığını söylediği de yazılıyor. Türkiye'deki kapsam doğrulanamadı. Yeni parçanın pasın tekrarını önleyip önlemediği bilinmiyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/mercedes-benz/e-250",
+            "https://www.sikayetvar.com/mercedes-benz/servis/bostanci",
+            "https://mbworld.org/forums/e-class-w212/804679-corrosion.html",
+            "https://mbworld.org/forums/e-class-w212/889806-corrosion-rear-subframe-rear-brake-lines.html",
+            "https://forums.mbclub.co.uk/threads/w212-rear-subframe-corroded.301704/",
+            "https://forums.mbclub.co.uk/threads/recall-for-rear-subframe-mercedes-benz-e-class.305919/",
+            "https://www.benzworld.org/threads/2011-e350-subframe-rusted-through.3057861/"
+          ]
+        }
       ]
     },
     {
@@ -8118,6 +8538,40 @@
     },
     {
       "marka": "Nissan",
+      "model": "Juke (F15, 2010-2019)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Orijinal radyo / multimedya ekranının sıcakta silikleşmesi ve görüntü kaybı",
+          "etkilenen_parca": "Orijinal radyo ve multimedya ekranı",
+          "belirtiler": "Sıcak havada ekranın silik görünmesi ya da görüntünün kaybolması, soğuyunca düzelmesi; Şikâyetvar'da yaklaşık 10 yıldır süren ve zamanla kötüleşen bir anlatı.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Kaynaklarda neden ve resmî açıklama yok; bir forum kullanıcısı aynı sorunu Qashqai'sinde de yaşadığını, sıcak havada radyo ışıklarının gittiğini ve ekranda hiçbir şeyin okunamadığını yazıyor.",
+            "cozum": "DonanımHaber'deki kullanıcı radyoyu tamamen değiştirmeden çözüm olup olmadığını soruyor; kaynaklarda kesin çözüm yok."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/juke/kronik",
+            "https://www.sikayetvar.com/nissan/juke",
+            "https://forum.donanimhaber.com/nissan-juke-multimedya-tavsiye--96632648"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2011,
+              "bitis": 2012,
+              "durum": "Görülebilir",
+              "not": "Şikâyetvar'da 2011 ve 2012 model Juke'larda aynı şikâyet geçiyor; diğer yıllar için ayrı bilgi yok."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Nissan",
       "model": "Juke (F15, 2014-2019)",
       "motor": "1.2 DIG-T 115 (HRA2DDT)",
       "uretim_yillari": {
@@ -8242,6 +8696,31 @@
       "kronik_sorunlar": [],
       "aileler": [
         "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "Qashqai (J10, 2007-2013)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Orijinal radyo / multimedya ekranının sıcakta silikleşmesi ve görüntü kaybı",
+          "etkilenen_parca": "Orijinal radyo ve multimedya ekranı",
+          "belirtiler": "Sıcak havada radyo ışıklarının gitmesi, ekranda hiçbir şeyin okunamaması; 2012-2013 Tekna modellerde ekranın zamanla silikleşip görüntünün gitmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Kaynaklarda neden ve resmî açıklama yok; bir forum kullanıcısı aynı sorunu Qashqai'sinde de yaşadığını, sıcak havada radyo ışıklarının gittiğini ve ekranda hiçbir şeyin okunamadığını yazıyor.",
+            "cozum": "DonanımHaber'deki kullanıcı radyoyu tamamen değiştirmeden çözüm olup olmadığını soruyor; kaynaklarda kesin çözüm yok."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/qashqai/kronik?page=6",
+            "https://forum.donanimhaber.com/nissan-juke-multimedya-tavsiye--96632648"
+          ]
+        }
       ]
     },
     {
@@ -9513,6 +9992,42 @@
     },
     {
       "marka": "Peugeot",
+      "model": "208 / 2008 (2012-2019)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Arka kapı camı üst fitillerinin erken yırtılması ve çatlaması",
+          "etkilenen_parca": "Arka kapı cam üst fitili (cam sızdırmazlık fitili)",
+          "belirtiler": "Arka kapı camlarının üst fitillerinin kendiliğinden yıpranıp çatlaması ve yırtılması; birçok kullanıcı camın gereğinden fazla yukarı çıkıp fitili ezmesinden şüpheleniyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı camın fitilin yuvasına girip fitili ezdiğini ve fitilin elastikiyetinin bozulabileceğini yazıyor; Şikâyetvar'da servislerin sorunu 'kronik' olarak tanımladığı, garanti dışı sayıp ücretli onarım önerdiği anlatılıyor. Resmî kabul, geri çağırma ya da ücretsiz değişim programı bulunamadı.",
+            "maliyet": "Şikâyetvar'da bir kullanıcıya parçanın tanesinin 2.900 TL (yalnızca parça 5.800 TL), bir başkasına yaklaşık 8.000 TL olacağı söylenmiş (tarihler belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/208/cam-fitili",
+            "https://www.sikayetvar.com/peugeot/cam-fitili",
+            "https://www.sikayetvar.com/peugeot/peugeot-cam-fitili-sorunu-2",
+            "https://www.sikayetvar.com/peugeot/208/kronik",
+            "https://forum.donanimhaber.com/peugeot-208-sahipleri--71065305-217"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2017,
+              "bitis": 2019,
+              "durum": "Yaygın",
+              "not": "Şikâyetvar'da birden çok 2017-2019 model sahibi fitillerin erken yırtıldığını ve bunun kronik olduğunu bildiriyor; diğer yıllar için ayrı bilgi yok."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "208 / 2008 / 308 / 3008 (2012-2021)",
       "motor": "1.6 e-HDi / BlueHDi 92/100/120 (DV6)",
       "uretim_yillari": {
@@ -9692,6 +10207,34 @@
       "aileler": [
         "psa-bluehdi-adblue",
         "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "3008 (2016-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Multimedya (dokunmatik ekran, telematik ünitesi) donması, kendiliğinden yeniden başlaması ve kararması",
+          "etkilenen_parca": "Dokunmatik multimedya ekranı, telematik alıcı ünitesi ve yazılımı; i-Cockpit gösterge ekranı",
+          "belirtiler": "Ekranın donması, kapanıp açılması, yalnızca Peugeot logosunda kalması ya da birkaç dakikada bir kendini sıfırlaması; Şikâyetvar'da 2025 modelde i-Cockpit gösterge ekranının seyirde kararması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "DonanımHaber'de 2017 model bir 3008 Allure sahibinde bayinin yazılımı yeniden yüklemesi sorunu çözmemiş, uzman bir atölye telematik ünitesini söküp onarmış; başka bir sahibe lisans sorunu nedeniyle yeni telematik ünitesi gerekebileceği söylenmiş. Ekşi Sözlük'te sistemin bazen donduğu, yanıt vermediği ve sürüşte kendini sıfırladığı yazılıyor.",
+            "cozum": "Bayi yazılım güncellemesi ya da radyo ünitesi değişimi anlatılıyor; Şikâyetvar'da bir güncellemeden sonra ekranın iki ay içinde yeniden bozulduğu ve servisin 'Fransa'dan yazılım bekleniyor' dediği yazılıyor. DonanımHaber'de 'Peugeot Update' uygulaması ve USB ile yapılan güncelleme anlatılıyor (motor çalışırken, 20-120 dakika)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/3008/ekran",
+            "https://www.sikayetvar.com/peugeot/3008/kronik",
+            "https://www.sikayetvar.com/peugeot/3008/arac-multimedya-ekran",
+            "https://forum.donanimhaber.com/peugeot-3008-allure-ekran-telematik-alici-sorunu--149755934",
+            "https://eksisozluk.com/peugeot-3008--1272630?p=11"
+          ]
+        }
       ]
     },
     {

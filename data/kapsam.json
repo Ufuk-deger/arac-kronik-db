@@ -9973,6 +9973,396 @@
       },
       "not": "Şikâyetvar'da (çoğu Corsa F) multimedya ekranı kararması / CarPlay kesintisi ve siyah tavanda boya atması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te Corsa E / F'ye özgü ikinci site çıkmadı.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Fiat",
+      "model": "Doblo",
+      "yillar": "2010-2022",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Doblo (2010-2022)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Kapı kilidi arızası Şikâyetvar ve DonanımHaber'de doğrulandı. Şikâyetvar'da kapı üstünden su alma (yeni araçta), sürgülü kapı sesi ve sarkması, 2025 model fren ve direksiyon arızaları tek şikâyet; ön takım su alma, elektrik ve klima için kaynak çıkmadı."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Linea",
+      "yillar": "2007-2015",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Linea (2007-2015)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Airbag üstü torpido çatlağı Şikâyetvar'da çok sayıda şikâyetle, fiatforum'da Punto Evo / Grande Punto başlıklarıyla doğrulandı. Şikâyetvar'da boya atması (ön direk, tavan), ESP kaynaklı direksiyon kilitlenmesi (Panda, Punto ve Linea için kronik denmiş) ve direksiyon sesi tek sitede kaldı."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Punto Evo / Grande Punto",
+      "yillar": "2009-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Punto Evo / Grande Punto"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Airbag üstü torpido çatlağı Şikâyetvar ve fiatforum'da doğrulandı."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "208 / 2008",
+      "yillar": "2012-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "208 / 2008 (2012-2019)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Arka cam fitili iki sitede doğrulandı. Şikâyetvar'da dokunmatik ekran arızası (2020), teyp hoparlörü, otomatik far yükseklik ayarı (GT) ve kapı kilitlerinin çalışmaması tek şikâyet; fren, ön takım ve tavan su alma için kaynak çıkmadı."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "3008",
+      "yillar": "2016-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "3008 (2016-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Multimedya donması Şikâyetvar, DonanımHaber ve Ekşi Sözlük'te doğrulandı. Şikâyetvar'da elektrik ve akü boşalması (ekranların açık kalması, kapıların kilitlenmemesi), alternatör seti ve akü / PGA kutusu iddiası ve 2024 3008 Hybrid şikâyetleri tek sitede kaldı; cam tavan için kaynak çıkmadı."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "301 / Citroën C-Elysée",
+      "yillar": "2012-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "301 / Citroën C-Elysée"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da en çok tekrarlanan konu kapı içi, bagaj kapağı ve tavanda boya kabarması ve paslanma (301 ve C-Elysée'de, orijinal boyada; bir kullanıcıya yetkili servis her C-Elysée'nin %10'unda görüldüğünü söylemiş), ön / alt takım sesi (amortisör değişimine rağmen), cam sıyırıcı fitil erimesi ve C-Elysée'de arka stop farlarına su kaçağı tekrar ediyor; DonanımHaber'de yalnızca 2013 tarihli genel başlıklar var, ikinci bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Citroen",
+      "model": "C3",
+      "yillar": "2009-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C3 (2009-"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da 2023 model C3'te ana ekranın donması ve havalandırma peteklerinde nikelaj kaplamanın soyulması tek şikâyet; DonanımHaber ve Ekşi Sözlük'te modele özgü ikinci site çıkmadı (1.2 PureTech triger kayışı motor konusu).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Kia",
+      "model": "Ceed (ED / JD)",
+      "yillar": "2009-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Ceed (ED / JD, 2009-2016)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Ön göğüs kabarması Şikâyetvar ve DonanımHaber'de (üç başlık) doğrulandı. Şikâyetvar'da EPS arızası (2010 model, kronik denmiş), 2017 modelde volan sesi ve forumda boya kalınlığı tartışması tekil kaldı."
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic FC5",
+      "yillar": "2016-2021",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Civic (FC5, 2016-2021)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Klima radyatörü çatlaması ve boya atması Şikâyetvar ve CivicX'te (ABD) doğrulandı. Şikâyetvar'da yakıt pompası arızası (2018 model) ve ön cam tedarik gecikmesi tekil; CVT şanzıman şikâyetleri motor/şanzıman konusu (ayrı kayıt)."
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic FB7",
+      "yillar": "2012-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Civic (FB7, 2012-2016)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Beyaz renkte boya atması Şikâyetvar ve DonanımHaber'de geçiyor. İç kapı kolu soyulması (2012 model, bazılarına ücretsiz değişim), ön cam parça bekleme süresi ve direksiyon kutusu tıkırtısı tekil."
+    },
+    {
+      "marka": "Nissan",
+      "model": "Juke",
+      "yillar": "2010-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Juke (F15, 2010-2019)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Ekran silikleşmesi Şikâyetvar ve DonanımHaber'de geçiyor. Şikâyetvar'da yeni Juke'ta far içine su alma (metin bozuk), start-stop arızası ve şanzıman konuları ayrı ya da tekil."
+    },
+    {
+      "marka": "Nissan",
+      "model": "Qashqai J10",
+      "yillar": "2007-2013",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Qashqai (J10, 2007-2013)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Ekran silikleşmesi Şikâyetvar (2012-2013 Tekna) ve DonanımHaber (bir yorum) kaynaklı. J11 için bu aramada ön takım, panoramik cam tavan ve far çıkmadı; sağ ön kapı kilidinin kilitlenmemesi (kronik denmiş) ve kapı kartı kaplamasının soyulması (2022 model) tek şikâyet."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i20 (PB / GB)",
+      "yillar": "2009-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "i20 (PB / GB, 2009-2020)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "EPS arızası Şikâyetvar ve DonanımHaber'de geçiyor; hangi nesle ait olduğu şikâyetlerin çoğunda belirsiz (2011 PB ve 2015 GB örnekleri). Şikâyetvar'da yakıt pompası, akü boşalması, arka cam patlaması ve cam modülü / cam tuşu arızası tek sitede kaldı."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i30 FD",
+      "yillar": "2008-2012",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "i30 (FD, 2008-2012)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "EPS arızası Şikâyetvar ve DonanımHaber'de geçiyor; şikâyetlerin çoğu GD'den (2012-2017) eski modellere ait, GD için nesle özgü kanıt çıkmadı. Şikâyetvar'da i30 için sunroof kasasında çatlak ve boya atması tek sitede."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla E170 / E210",
+      "yillar": "2013-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Corolla E170 / E210"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da multimedya ekranında nikelaj kabarması (2021), USB için FAT32 / 32 GB sınırı, yazılım güncellenmemesi (2020), klima kompresörü (2021, tek vaka), 2021 modelde akü sorunu ve stop lambası içi çatlak tekil; DonanımHaber'de ise genel multimedya başlığı var. Şikâyetvar'daki kronik boya sorunu 2010-2013 (E140 / E150) modellere ait. E170 / E210'a özgü iki bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Accent Blue / Elantra AD",
+      "yillar": "2011-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Accent Blue / Elantra AD"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Accent Blue'da kaput boya atması (2015 ve 2017), EPS uyarısı ve Elantra'da 2016 modelde ön kapı kollarının kilitlenince dışarıdan açılmaması (kilit tamircisi 2016 Elantra, i30, ix35 ve Tucson'da kronik demiş; Hyundai kronik kaydı olmadığını söylüyor), boya atması (2011-2016 ve 2021-2023) tekrar ediyor; DonanımHaber'de yalnızca 2013 tarihli sert arka süspansiyon konusu ve eski Accent Era boya başlığı var; ikinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Kia",
+      "model": "Rio",
+      "yillar": "2011-2023",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Rio (UB / YB)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da kapı fitillerinin erimesi (2012-2016 modeller; servisler 11 yaşındaki araçta normal bulmuş), 2020 modelde CarPlay kopması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te Rio'ya özgü ikinci site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Serisi W212",
+      "yillar": "2009-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "E Serisi (W212, 2009-2016)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Arka travers korozyonu Şikâyetvar ve yabancı forumlarda (MBWorld, MBClub, BenzWorld) doğrulandı; Türkiye'deki kapsam doğrulanamadı. Şikâyetvar'da direksiyon simidi aşınması (hepsinde aynı diyen yorum), tavan döşemesi sarkması (2014 model), navigasyonun hafıza kartını okumaması ve vitesin kendiliğinden P'ye geçmesi tek sitede kaldı."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi W204",
+      "yillar": "2007-2014",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "C Serisi (W204, 2007-2014)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Direksiyon açı sensörü iki sitede doğrulandı. Sunroof tahliye tıkanması ve kabine su sızması, iç kapı açma kolu telinin kopması, kapı kilit pompası, ön park lambalarının ısıdan patlaması ve far yuvası erimesi, kırmızıda vernik atması Türkçe kaynaklarda anılıyor ama modele özgü ikinci site çıkmadı."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "A Serisi / CLA / GLA W176",
+      "yillar": "2012-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "A Serisi / CLA / GLA (W176"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Direksiyon açı sensörü iki sitede doğrulandı. Airbag / emniyet kemeri soketi arızası (Ekşi Sözlük ve Şikâyetvar'da kronik denmiş; kemer soketi için bağımsız ikinci site çıkmadı), GLA'da multimedya piksel kaybı ve arka klima, CLA 200 turbo wastegate (motor konusu) tekil kaldı."
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi F30",
+      "yillar": "2012-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "3 Serisi (F30, 2012-2019)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "İç kapı kolu erimesi Şikâyetvar ve BimmerPost'ta doğrulandı. Şikâyetvar'da kapı iç keçelerinin deformasyonu ve yağışta su alma, sunroof fitili yıpranması, direksiyon kutusu sesi (DonanımHaber'de kronik denmiş), akü deşarjı ve ekran sorunları tekil kaldı; N13 turbo manifoldundan su kaçırma motor konusu."
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi F10",
+      "yillar": "2010-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "5 Serisi (F10, 2010-2016)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "İç kapı kolu erimesi Şikâyetvar ve BimmerPost'ta doğrulandı."
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 8V",
+      "yillar": "2012-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "A3 (8V, 2012-2020)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Gündüz LED sararması iki sitede doğrulandı. MMI ekranın donması / kapanması / açılmaması Şikâyetvar'da çoğunlukla 2021 sonrası (8Y) araçlara ait (2015 model bir 8V sahibi de ekranın açılmadığını bildiriyor); cam tavan çevresi plastik çatlakları ve ön takım (2025 model) tekil."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi W205",
+      "yillar": "2014-2021",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "C Serisi (W205"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar ve DonanımHaber'de sunroof arızası, direksiyon kutusu sesi, klima klape motoru (göğüs sökümü gerekiyor), havalandırma çıkışlarından çıtırtı ve COMAND ekran konuları geçiyor; hepsi tek başlıkta ya da tek kullanıcıda, ortak bir sorun oluşmadı. Far ve kapı için kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }
