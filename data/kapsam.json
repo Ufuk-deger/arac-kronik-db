@@ -61,8 +61,8 @@
       {
         "marka": "BYD",
         "adet": 45537,
-        "kapsam": "dışarıda",
-        "not": "2023'te Türkiye'ye girdi; elektrikli ve plug-in hibrit. İkinci elde ve kronik sorun kaynaklarında yeterli veri yok."
+        "kapsam": "kapsamda",
+        "not": "2023'te Türkiye'ye girdi. İlk dört aşamada elektrikli ve 2023 sonrası marka olduğu için kapsam dışıydı; 5. aşamada elektrikli modeller kapsama alındı (Atto 3 kayıtlı; Dolphin / Seal araştırıldı, eklenmedi). Plug-in hibrit modeller (Seal U DM-i) kapsam dışı."
       },
       {
         "marka": "Skoda",
@@ -79,8 +79,8 @@
       {
         "marka": "Togg",
         "adet": 39020,
-        "kapsam": "dışarıda",
-        "not": "Yalnızca elektrikli ve 2023'te çıktı; ICE/hibrit motor grubu yok."
+        "kapsam": "kapsamda",
+        "not": "Yalnızca elektrikli ve 2023'te çıktı. İlk dört aşamada kapsam dışıydı; 5. aşamada elektrikli araçlar kapsama alındı ve T10X kaydedildi."
       },
       {
         "marka": "BMW",
@@ -91,8 +91,8 @@
       {
         "marka": "Tesla",
         "adet": 31509,
-        "kapsam": "dışarıda",
-        "not": "Yalnızca elektrikli; motor grubu kavramı yok."
+        "kapsam": "kapsamda",
+        "not": "Yalnızca elektrikli. İlk dört aşamada kapsam dışıydı; 5. aşamada elektrikli araçlar kapsama alındı. Model Y kayıtlı, Model 3 araştırıldı ama eklenmedi."
       },
       {
         "marka": "Nissan",
@@ -103,8 +103,8 @@
       {
         "marka": "Chery",
         "adet": 28579,
-        "kapsam": "dışarıda",
-        "not": "2023 sonrası yeni marka; ikinci el ve kronik sorun verisi yok. Rakam doğrulanamadı."
+        "kapsam": "ek",
+        "not": "2023 sonrası yeni marka. 5. aşamada elektrikli Omoda E5 arandı, kaynak bulunamadı; benzinli Omoda 5 elektrikli kapsamının dışında. Rakam doğrulanamadı."
       },
       {
         "marka": "Ford",
@@ -225,6 +225,18 @@
         "adet": null,
         "kapsam": "ek",
         "not": "Ek kademe: Faz 4'te arandı; D-Max anlatıları forum yorumu ve tek rehber sitesiyle sınırlı kaldığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Smart",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: 5. aşamada #1 arandı; Türkiye'ye ait sonuç çıkmadı. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Porsche",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: 5. aşamada Taycan yüksek gerilim batarya modülü geri çağırmasıyla eklendi. Satış adedi doğrulanamadı."
       }
     ],
     "kaynaklar": [
@@ -4168,6 +4180,516 @@
       },
       "sonuc": "yetersiz-kanit",
       "not": "AdBlue, DPF ve NOx sensörü şikâyetleri yalnızca Şikâyetvar'da; Boxer ve Jumper için ayrı veri çıkmadı."
+    },
+    {
+      "marka": "Tesla",
+      "model": "Model Y",
+      "yillar": "2023-",
+      "motor": "Elektrik (Standart / Uzun Menzil / Performans)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Model Y"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "Togg",
+      "model": "T10X",
+      "yillar": "2023-",
+      "motor": "Elektrik (52,4 / 88,5 kWh)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "T10X"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "BYD",
+      "model": "Atto 3",
+      "yillar": "2023-",
+      "motor": "Elektrik (60,4 kWh)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Atto 3"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "MG",
+      "model": "MG4 Electric",
+      "yillar": "2023-",
+      "motor": "Elektrik (51 / 64 kWh)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "MG4"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Ioniq 5 / Ioniq 6",
+      "yillar": "2022-",
+      "motor": "Elektrik (E-GMP)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Ioniq 5"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "Kia",
+      "model": "EV6",
+      "yillar": "2022-",
+      "motor": "Elektrik (E-GMP, 77,4 kWh)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "EV6"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "EQA / EQB",
+      "yillar": "2021-",
+      "motor": "Elektrik (70,5 kWh)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "EQA"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "Peugeot",
+      "model": "e-208 / e-2008",
+      "yillar": "2022-",
+      "motor": "Elektrik (50 kWh)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "e-208"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "Renault",
+      "model": "Zoe",
+      "yillar": "2019-",
+      "motor": "Elektrik (Z.E. 40 / Z.E. 50)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Zoe"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Corsa-e / Mokka-e",
+      "yillar": "2020-",
+      "motor": "Elektrik (50 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Corsa-e"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "Citroen",
+      "model": "ë-C4 / ë-C4 X",
+      "yillar": "2021-",
+      "motor": "Elektrik (50 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "ë-C4"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "Tesla",
+      "model": "Model 3",
+      "yillar": "2019-",
+      "motor": "Elektrik",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Model 3"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Model 3'e özgü kaynak çıkmadı: Şikâyetvar'daki sonuçlar Model Y ve Wall Connector şarj cihazına ait; forum yorumları lastik basınç sensörü, stop lambasında su buharı ve bagaj kapağı gibi tekil konularda."
+    },
+    {
+      "marka": "Renault",
+      "model": "Megane E-Tech Electric",
+      "yillar": "2022-",
+      "motor": "Elektrik (60 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Megane E-Tech"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da DC şarjda 'elektrik sistemini kontrol ettirin' uyarısı, şarj ünitesi arızası ve gerçek menzil şikâyetleri var; Ekşi Sözlük ve DonanımHaber'de aynı arızaları doğrulayan bir kaynak çıkmadı (12V akü başlığı Megane II'ye ait)."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Kona Electric",
+      "yillar": "2021-2023",
+      "motor": "Elektrik (39,2 / 64 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Kona"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Batarya yangını geri çağırması 2017-2020 arası üretimi kapsıyor; Türkiye'de elektrikli Kona'nın resmî satışı Eylül 2021'de başladı ve kapsam doğrulanamadı. Türkiye'deki batarya modülü arızası ve parça bekleme şikâyetleri yalnızca Şikâyetvar'da."
+    },
+    {
+      "marka": "Volvo",
+      "model": "EX30 / XC40 Recharge",
+      "yillar": "2021-",
+      "motor": "Elektrik",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "EX30",
+          "XC40"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "EX30 için hücre kusuru geri çağırması var (Sunwoda hücreleri, %70 şarj sınırı, modül değişimi); Avrupa'da yalnızca sağ direksiyonlu 69 kWh modelleri kapsadığı yazılıyor ve Türkiye kapsamı doğrulanamadı. Şikâyetvar'daki hızlı şarj, 'Electric Drive Fault' ve XC40 Recharge motor / batarya şikâyetleri tekil."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "ID.4 / ID.3 / ID.7",
+      "yillar": "2022-",
+      "motor": "Elektrik",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "ID.4",
+          "ID.3",
+          "ID.7"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Ekim 2026'da Avrupa'da ID.3, ID.4, ID.7, ID. Buzz ve Cupra Born'un belirli partilerini kapsayan batarya geri çağırması (%80 şarj sınırı) duyuruldu; ABD'deki ID.4 geri çağırmalarının Zwickau ve Emden üretimi Avrupa araçlarını kapsamadığı yazılıyor, Türkiye'deki araçların kapsamı doğrulanamadı. Türkiye şikâyetleri (navigasyon, bağlantılı hizmetler, tabela okuma uyarısı) farklı konularda ve yalnızca Şikâyetvar ile Ekşi Sözlük'te."
+    },
+    {
+      "marka": "Fiat",
+      "model": "500e",
+      "yillar": "2021-",
+      "motor": "Elektrik (42 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "500e"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da şarj sorunları ve batarya arızası (menzil göstergesinin 320 km'den 260 km'ye düşmesi) tekil; DonanımHaber yorumu olumlu, Ekşi Sözlük yorumları ABD'deki eski modellere ait."
+    },
+    {
+      "marka": "Kia",
+      "model": "Niro EV / EV3",
+      "yillar": "2019-",
+      "motor": "Elektrik",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Niro",
+          "EV3"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da menzil, DC şarj süresi, batarya bağlantı ünitesi (parçanın Türkiye'de bulunmaması) ve EV3'te ICCU / şarj ünitesi şikâyetleri tekil; ikinci bağımsız kaynak yok. ICCU geri çağırması Kia EV6 kaydında."
+    },
+    {
+      "marka": "BMW",
+      "model": "iX / iX1 / iX3 / i4",
+      "yillar": "2021-",
+      "motor": "Elektrik",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "iX",
+          "i4"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da hızlı şarjta düşük güç, şarj kapağı kilidi ve şarj soketi arızaları tekil; DonanımHaber'de yalnızca i4 menzil göstergesi tartışması var, ortak bir örüntü doğrulanamadı. NHTSA kayıtlarında iX / i4 için batarya (22V-541), birleşik şarj ünitesi (23V-449) ve 2024 i4 modül kaynak dikişi (24V-135) geri çağırmaları var; Türkiye kapsamı doğrulanamadı."
+    },
+    {
+      "marka": "BYD",
+      "model": "Dolphin / Seal",
+      "yillar": "2024-",
+      "motor": "Elektrik",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Dolphin",
+          "Seal"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da şarj kapağının açılmaması, ani şarj düşüşü, uygulama ve dijital anahtar sorunları tekil; ikinci site yok. 12V akü sorunu Atto 3 kaydında."
+    },
+    {
+      "marka": "BMW",
+      "model": "i3",
+      "yillar": "2014-2022",
+      "motor": "Elektrik",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "i3"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Türkiye'deki i3'lerde range extender bulunmadığı yazılıyor; batarya kapasite kaybı (5 yılda %30'dan fazla) ve batarya testi ücreti tek bir Şikâyetvar kaydında, menzil yorumları Ekşi Sözlük'te; tekrar eden arıza örüntüsü çıkmadı."
+    },
+    {
+      "marka": "MG",
+      "model": "ZS EV",
+      "yillar": "2020-",
+      "motor": "Elektrik",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "ZS"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da batarya bölümünden gelen ses ve şarj olmama (2023) tekil; ikinci bağımsız kaynak yok. DC şarj sorunu MG4 kaydında."
+    },
+    {
+      "marka": "Nissan",
+      "model": "Leaf",
+      "yillar": "2019-",
+      "motor": "Elektrik",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Leaf"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Türkiye'ye özgü kaynak çıkmadı (yalnızca bir Ekşi Sözlük yorumu: aktif batarya soğutması yok, CHAdeMO). Hava soğutmalı bataryanın kapasite kaybı InsideEVs, MyNissanLeaf ve Electrek'te belgeli, ancak bunlar ağırlıkla ABD'nin sıcak iklimine ve ilk nesil Leaf'e ait. NHTSA 24V-700 geri çağırması ABD'de Smyrna'da üretilen 2019-2020 Leaf'leri kapsıyor (CHAdeMO hızlı şarjda yangın riski); Türkiye kapsamı doğrulanamadı."
+    },
+    {
+      "marka": "Dacia",
+      "model": "Spring",
+      "yillar": "2022-",
+      "motor": "Elektrik",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Spring"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da 'akü şarj almıyor' uyarısı ve Ekşi Sözlük'te menzil kaybı tekil; sistematik bir şarj ya da batarya sorunu bulunamadı."
+    },
+    {
+      "marka": "Audi",
+      "model": "Q4 e-tron / e-tron",
+      "yillar": "2021-",
+      "motor": "Elektrik",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "e-tron"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da uzaktan erişim hizmetinin Türkiye'de kapalı olması, yeni araçta akü arızası ve menzil şikâyetleri tekil; ikinci site yok. e-tron GT için Mart 2024 batarya modülü geri çağırmaları (93VM, 93VN; Taycan ile aynı modüller, şarjın %80 ile sınırlanması) var; Türkiye kapsamı doğrulanamadı."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Enyaq / Elroq",
+      "yillar": "2021-",
+      "motor": "Elektrik",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Enyaq",
+          "Elroq"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Elroq için Şikâyetvar'da tabela okuma uyarısı, Türkiye'de kapalı uygulama ve menzil şikâyetleri var; Enyaq için doğrudan kayıt çıkmadı. İkinci bağımsız kaynak yok."
+    },
+    {
+      "marka": "Cupra",
+      "model": "Born",
+      "yillar": "2022-",
+      "motor": "Elektrik",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Born"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Arama sonuç vermedi. Cupra Born, Ekim 2026 VW grubu batarya geri çağırmasının kapsadığı modeller arasında (belirli üretim partileri); Türkiye kapsamı doğrulanamadı."
+    },
+    {
+      "marka": "Mini",
+      "model": "Cooper SE",
+      "yillar": "2020-",
+      "motor": "Elektrik",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Cooper SE"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da dört kayıt (sürüş kontrolü kaybı iddiası, 37 gün parça beklemesi); DonanımHaber yorumları olumlu. Tekrar eden bir arıza örüntüsü yok. NHTSA 24V-612 geri çağırması 2020-2024 Cooper SE'yi kapsıyor (12.535 araç; yazılımla bataryanın %30'un altına boşaltılması, yangın riski); Türkiye kapsamı ve Türkiye'den bir şikâyet bulunamadı."
+    },
+    {
+      "marka": "Porsche",
+      "model": "Taycan",
+      "yillar": "2020-",
+      "motor": "Elektrik (4S / Turbo)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Taycan"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      }
+    },
+    {
+      "marka": "Chery",
+      "model": "Omoda E5",
+      "yillar": "2024-",
+      "motor": "Elektrik",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Omoda E5"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Omoda E5 için şikâyet bulunamadı; çıkan sonuçlar benzinli Omoda 5'e (akü bitmesi, ekran ve yazılım) ait ve elektrikli kapsamının dışında."
+    },
+    {
+      "marka": "Smart",
+      "model": "#1",
+      "yillar": "2023-",
+      "motor": "Elektrik",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "#1"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Aramada Smart #1 için Türkiye'ye ait sonuç çıkmadı."
     }
   ]
 }

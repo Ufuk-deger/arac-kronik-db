@@ -578,6 +578,30 @@
       "guven": "düşük",
       "ana_sayfa": "https://electricvehicleforums.com/",
       "not": "Civic Hybrid forumu; Honda 08-001 bülteni aktarımı içeriyor."
+    },
+    "speakev.com": {
+      "ad": "SpeakEV",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.speakev.com/",
+      "not": "İngiltere merkezli elektrikli araç sahibi forumu; Zoe, Peugeot e-208, BYD gibi modellerde 12V akü, şarj ve tahrik arızası konuları."
+    },
+    "insideevs.com": {
+      "ad": "InsideEVs",
+      "ulke": "US",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://insideevs.com/",
+      "not": "Elektrikli araç haberleri; geri çağırma ve yaygın arıza özetleri."
+    },
+    "electrive.com": {
+      "ad": "electrive.com",
+      "ulke": "DE",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://www.electrive.com/",
+      "not": "Elektrikli araç ve şarj haberleri; Avrupa geri çağırmaları ve KBA kayıtlarına atıflar."
     }
   }
 }

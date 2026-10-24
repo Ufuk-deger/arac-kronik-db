@@ -714,6 +714,38 @@
       ]
     },
     {
+      "marka": "BYD",
+      "model": "Atto 3 (2023-)",
+      "motor": "Elektrik (60,4 kWh, 150 kW)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "12V akü arızası ve 'güç sistemi arızası' (aracın çalışmaması)",
+          "etkilenen_parca": "12V yardımcı akü",
+          "belirtiler": "Aracın aniden çalışmaması ya da 'güç sistemi arızası' uyarısı vermesi; park halindeyken yüksek gerilim bataryadan günde yaklaşık %10'a varan şarj kaybı; çekiciyle servise gitme",
+          "tahmini_km_araligi": "10.000 - 50.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda kök neden açıklanmıyor. Bir SpeakEV konusunda 2 yaşındaki bir Atto 3'te park halinde yüksek şarj kaybı yaşandığı, bayinin 12V aküyü suçlayıp yeni akü sipariş ettiği, diğer üyelerin ise klima gibi bir yükün açık kalmış olabileceğini sorguladığı yazılıyor. Aynı forumda bir üye çekiş bataryasının şarjı yaklaşık %34'ün altındaysa 12V akü bakım sisteminin çalışmadığını yazıyor (doğrulanmadı).",
+            "teshis": "Malay Mail'de bir Atto 3 sahibi otoyolda aracın aniden frenleyip 'Power System Failure' uyarısı verdiğini ve tekrar çalışmadığını, serviste 12V akünün düşük gerilim nedeniyle değişmesi gerektiğinin söylendiğini anlatıyor (Malezya, 2025; araç 20.000 km'yi aşmış). Şikâyetvar'da bir kullanıcı aracın çalışmayınca kaskodan çekiciyle servise götürüldüğünü, serviste akünün bozulduğunun söylendiğini yazıyor. Şikâyetlerin çoğunda kilometre yok; aralık kaba tahmindir.",
+            "cozum": "12V akü değişimi. Şikâyetvar'da bayinin genel ve akü garantisini 2 yıl olarak söylediği, bir serviste ölçüm yapılmadan akünün 'aşırı şarjdan yandığı' gerekçesiyle garanti dışı ücretli değişim önerildiği anlatılıyor. SpeakEV'de 12V aküyü izlemek ve gerekirse periyodik şarj etmek öneriliyor.",
+            "maliyet": "Şikâyetvar'da bir kullanıcı 12 voltluk akü arızası için 7.863 TL ödediğini yazıyor (tarih belirsiz; güncel fiyat olarak okumayın). Malezya'daki sahibe değişim için RM418 (2025) söylenmiş."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/byd/byd-atto-3-aracta-garanti-disi-klima-ve-aku-problemleri-nedeniyle-magduriyet",
+            "https://www.sikayetvar.com/byd-atto-3",
+            "https://www.sikayetvar.com/byd/garanti",
+            "https://www.sikayetvar.com/byd/byd-atto-3-aracimin-arizasi-giderilemiyor-satis-sonrasi-hizmet-yetersiz",
+            "https://www.malaymail.com/news/tech-gadgets/2025/05/06/power-system-failure-byd-atto-3-owner-claims-wheels-locked-on-cheras-kajang-highway-without-warning/175778",
+            "https://www.speakev.com/threads/atto3-losing-charge-when-left-parked-up.193592/"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Chevrolet",
       "model": "Cruze (2009-2016)",
       "motor": "1.6 benzin (F16D4)",
@@ -1004,6 +1036,37 @@
             "https://www.sikayetvar.com/citroen/c4/puretech",
             "https://forum.donanimhaber.com/1-2-puretech-motor-sorunlari--130023944",
             "https://eksisozluk.com/peugeot-puretech-1-2-rezaleti--5458201?p=4"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "ë-C4 / ë-C4 X (2021-)",
+      "motor": "Elektrik (50 kWh, 136 PS)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli çekiş sistemi arızası ve yolda kalma",
+          "etkilenen_parca": "Elektrik tahrik sistemi (yüksek gerilim kablosu, şarj soketi, çekiş motoru, çekiş bataryası kontrol ünitesi); nedeni araca göre değişiyor",
+          "belirtiler": "Ekranda 'elektrikli çekiş sistemi arızası' uyarısı, aracın yolda aniden durması, hızlı şarj sırasında arıza, aracı park edip 10-15 dakika bekleyince hatanın geçici olarak silinmesi",
+          "tahmini_km_araligi": "1.000 - 20.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Citroën'e özgü kaynakta neden açıklanmıyor; ë-C4, Peugeot e-208 / e-2008 ile aynı platformu paylaşıyor. electrive'e göre Stellantis'in 2022 üretimi araçlarda çekiş bataryası kontrol ünitesindeki olası kalibrasyon hatası yüzünden yaptığı yazılım geri çağırması Citroën E-Berlingo ve E-C4'ü de kapsıyor (ikisi birlikte dünya genelinde 8.726 araç). Şikâyetvar'da birden fazla kullanıcı arızanın hızlı şarj sırasında ortaya çıktığını yazıyor; bir serviste hızlı şarjın arızayı tetiklediği söylenmiş.",
+            "teshis": "Şikâyetvar'da bir sürücü 15.321 km'de yolda giderken aracın aniden durduğunu ve ekranda elektrikli çekiş sistemi uyarısı çıktığını yazıyor; bir başkası aracı aynı gün çekiciyle servise götürmek zorunda kaldığını anlatıyor. Bir kullanıcı hata sonrası aracı park edip 10-15 dakika beklemenin hatayı sildiğini belirtiyor. Şikâyetlerin çoğunda kilometre yok; aralık kaba tahmindir.",
+            "cozum": "Servislerde yüksek gerilim kablosu ve şarj soketi değişimi ile yazılım güncellemesi yapıldığı, bir vakada çekiş motoru değişimi gerektiği (onay beklerken araç haftalarca serviste kaldığı), bir serviste de aracın 100 kW üzeri hızlı şarjı desteklemediğinin söylendiği aktarılıyor; sorunun sürdüğünü yazanlar var. Bir yorum Stellantis elektriklilerinin ZES hızlı şarj cihazlarıyla uyumsuz olabileceğini ileri sürüyor (doğrulanmadı). İkame araç verilmemesi sık şikâyet."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/citroen/citroen-ec4-elektrikli-cekis-sistemi-arizasi",
+            "https://www.sikayetvar.com/citroen/e-c4-x/elektrikli-arac",
+            "https://www.sikayetvar.com/citroen/citroen-e-c4-sarj-hatasi",
+            "https://www.sikayetvar.com/citroen/garanti-kapsamindaki-yeni-citroen-e-c4x-aracta-tekrarlanan-cekis-motoru-arizasi-ve-ikame-arac-saglanamamasi",
+            "https://www.sikayetvar.com/citroen/e-c4-x/ec4x",
+            "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
           ]
         }
       ]
@@ -2498,6 +2561,57 @@
     },
     {
       "marka": "Hyundai",
+      "model": "Ioniq 5 / Ioniq 6 (2022-)",
+      "motor": "Elektrik (E-GMP; Ioniq 5 58 / 72,6 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "ICCU arızası: 12V akünün şarj olmaması ve sürüş gücü kaybı (geri çağırma)",
+          "etkilenen_parca": "Entegre şarj kontrol ünitesi (ICCU) ve sigortası; 12V yardımcı akü",
+          "belirtiler": "'Elektrik sistemi arızası' ya da düşük 12V gerilim uyarısı, aracın şarja takılamaması, azaltılmış güç moduna geçme; akü boşaldıkça kademeli güç kaybı ve yolda kalma",
+          "tahmini_km_araligi": "5.000 - 40.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "NHTSA kaydına göre ICCU içindeki bir MOSFET belirli elektrik yükleri altında arızalanabiliyor; bu durumda ICCU sigortası açıyor ve 12V akü şarj olmuyor. Akü tamamen boşalırsa araç sürüş gücünü kaybediyor; hava yastıkları, frenler ve direksiyon yardımı çalışmaya devam ediyor. Kayıtta düzeltme olarak aşırı akımı ve şarj sonundaki gerilim tepelerini azaltan bir yazılım değişikliği tarif ediliyor.",
+            "teshis": "Hyundai'nin geri çağırma bildiriminde ICCU'nun zamanla hasar görebildiği, aracın 'arıza emniyeti' moduna geçtiği ve akü boşaldıkça kademeli güç kaybı yaşandığı anlatılıyor. DonanımHaber'de paylaşılan bir servis notu ICCU arızasında 12V akünün şarj olamayabileceğini ve P1A9096 kodunun oluşabileceğini söylüyor. Şikâyetvar'da bir kullanıcı 10.100 km'de elektrik sistemi arızası uyarısı alıp aracı şarja takamadığını yazıyor; bir başkası '12V akü düşük güç gerilimi' hatasıyla aracın çekiciyle servise götürüldüğünü, servisin akünün değişmesi gerektiğini söylediğini anlatıyor. Türkiye'den yalnızca bir kilometre verisi var.",
+            "cozum": "Geri çağırma onarımı ücretsiz: ICCU yazılımı güncellenir, gerekirse ICCU ve sigortası değiştirilir. NHTSA'ya göre 24V-868 sayılı geri çağırma (ABD'de yaklaşık 145 bin araç) 2022-2024 Ioniq 5 ve 2023-2025 Ioniq 6'yı kapsıyor, önceki 24V-204 kampanyasının yerine geçiyor; NHTSA onarımlara dayanarak soruşturmasını kapattı. Onarımdan sonra da ICCU arızası bildirenler var (NHTSA şikâyetleri, doğrulanmamış). Türkiye'deki kapsam doğrulanmadı. DonanımHaber'de Ekim 2025 tarihli bir ICCU güncellemesinin (41D033) ve sigorta kontrolünün paylaşıldığı yazılıyor (resmî belgeyle doğrulanmadı).",
+            "onlem": "Bir DonanımHaber kullanıcısı, Hyundai mühendislerinin 12V akünün şarj olabilmesi için çekiş bataryasının yaklaşık %35'in altına düşmemesini önerdiğini aktarıyor (yabancı forumlardan taşınan eski bir paylaşım; resmî olarak doğrulanmadı)."
+          },
+          "kaynaklar": [
+            "https://static.nhtsa.gov/odi/rcl/2024/RCONL-24V868-8658.pdf",
+            "https://static.nhtsa.gov/odi/rcl/2024/RCAK-24V868-3172.pdf",
+            "https://static.nhtsa.gov/odi/rcl/2024/RCLRPT-24V204-1453.PDF",
+            "https://insideevs.com/features/752768/hyundai-kia-genesis-iccu-failure/",
+            "https://insideevs.com/news/742007/hyunda-kia-iccu-12-volt-recall/",
+            "https://www.carcomplaints.com/news/2024/hyundai-ioniq-5-recall-iccu-investigation.shtml",
+            "https://www.carcomplaints.com/news/2024/hyundai-iccu-recall-ioniq-genesis-vehicles.shtml",
+            "https://forum.donanimhaber.com/hyundai-ioniq-kullananlar-kulubu--158112901-315",
+            "https://forum.donanimhaber.com/hyundai-ioniq-kullananlar-kulubu--158112901-35",
+            "https://www.sikayetvar.com/hyundai-motor/ioniq/ioniq-5",
+            "https://eksisozluk.com/hyundai-ioniq-5--6777597?p=8"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2022,
+              "bitis": 2024,
+              "durum": "Yaygın",
+              "not": "NHTSA geri çağırması 2022-2024 Ioniq 5 ve 2023-2025 Ioniq 6 modellerini kapsıyor (ABD)."
+            },
+            {
+              "baslangic": 2025,
+              "bitis": null,
+              "durum": "Görülebilir",
+              "not": "2025 Ioniq 5 geri çağırma kapsamında değil, Ioniq 6 kapsamda. DonanımHaber'de Ekim 2025 ICCU güncellemesi paylaşılmış; Şikâyetvar'da 2026 model bir Ioniq 5'in hücre ve şarj ünitesi arızasıyla serviste kaldığı, parçanın yaklaşık 45 gün beklendiği yazılıyor (tek kayıt)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "Tucson (NX4, 2021-)",
       "motor": "1.6 CRDi 136 (7DCT)",
       "uretim_yillari": {
@@ -2833,6 +2947,51 @@
     },
     {
       "marka": "Kia",
+      "model": "EV6 (2022-)",
+      "motor": "Elektrik (E-GMP; 77,4 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "ICCU arızası ve 12V akü: sürüş gücü kaybı (geri çağırma)",
+          "etkilenen_parca": "Entegre şarj kontrol ünitesi (ICCU) ve sigortası; 12V yardımcı akü",
+          "belirtiler": "12V akünün şarj olmaması, arada sırada yalnızca takviyeyle çalışması, akü boşaldıkça kademeli güç kaybı ve aracın ilerleyememesi; ICCU arızasında AC şarj alamama",
+          "tahmini_km_araligi": "5.000 - 45.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "NHTSA kaydına göre ICCU, kısa süreli yüksek gerilim darbeleri yüzünden zamanla hasar görebiliyor ve 12V aküyü şarj etmesini engelliyor; akü sürüş sırasında kademeli boşalıyor ve uyarılar dikkate alınmazsa araç ilerleyemez hale geliyor. NHTSA, 2022 EV6 sahiplerinin sürüş sırasında güç kaybı şikâyetleri üzerine Temmuz 2023'te soruşturma açmıştı.",
+            "teshis": "Şikâyetvar'da 2023 model bir EV6 sahibi (ilk trafiğe çıkış 25.04.2024) 12V akünün yaklaşık bir aydır arada sırada arıza yaptığını, aracın bazen yalnızca takviyeyle çalıştığını ve 41.000 km'de aküyü ücretli değiştirdiğini yazıyor. Başka bir şikâyette servisin arızayı kabul etmesine rağmen aküyü 'dış etkenlerden kaynaklandığı' gerekçesiyle garantiye almadığı, bir diğerinde akü değiştirildikten sonra sorunun tekrarladığı anlatılıyor. Bu şikâyetler aküye ilişkin; ICCU ile bağlantısı kaynaklarda kurulmuyor. Bir forum yorumu ICCU bozulunca aracın yalnızca DC şarj alabildiğini yazıyor (kullanıcı gözlemi).",
+            "cozum": "Geri çağırma onarımı ücretsiz: ICCU yazılımı güncellenir, gerekirse ICCU ve sigortası değiştirilir. Kia'nın SC327 (NHTSA 24V-867) kampanyası 2022-2024 EV6'yı (ABD'de 74 binden fazla araç) kapsıyor ve Mart 2024'teki SC302 kampanyasının (48.232 araç) yerini alıyor; NHTSA onarımlara dayanarak soruşturmasını kapattı. Türkiye'deki kapsam doğrulanmadı. Şikâyetvar'da bir sahip, garantinin gemiden iniş tarihinden başladığı söylenen serviste 10 gün farkla garanti dışı kaldığını yazıyor.",
+            "maliyet": "Şikâyetvar'da bir kullanıcı 41.000 km'deki aracında 12V akünün ücretli değiştirildiğini ve 7.000 TL ödediğini yazıyor (kayıt 2024 sonrası, tarih belirsiz; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://static.nhtsa.gov/odi/rcl/2024/RCRN-24V867-0445.pdf",
+            "https://static.nhtsa.gov/odi/rcl/2024/RCONL-24V867-2609.pdf",
+            "https://static.nhtsa.gov/odi/rcl/2024/RCAK-24V867-2367.pdf",
+            "https://static.nhtsa.gov/odi/rcl/2024/RCMN-24V200-2666.pdf",
+            "https://www.carcomplaints.com/news/2024/kia-ev6-iccu-recall.shtml",
+            "https://www.carcomplaints.com/news/2024/kia-ev6-recall-investigation.shtml",
+            "https://www.carcomplaints.com/news/2024/kia-ev6-recalled-integrated-charging-control-units.shtml",
+            "https://insideevs.com/news/742007/hyunda-kia-iccu-12-volt-recall/",
+            "https://www.sikayetvar.com/kia/kia-ev6-12v-aku-arizasi-garanti-disi-birakildi-ve-ucretli-degisim-talebi",
+            "https://www.sikayetvar.com/kia/ev6",
+            "https://eksisozluk.com/kia-ev6--6851190?p=4"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2022,
+              "bitis": 2024,
+              "durum": "Yaygın",
+              "not": "NHTSA geri çağırması 2022-2024 EV6'yı kapsıyor (ABD)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Kia",
       "model": "Picanto (JA, 2017-)",
       "motor": "1.0 / 1.2 MPI (akü ve marş sorunu tüm motorlarda ortak)",
       "uretim_yillari": {
@@ -2988,6 +3147,39 @@
               "durum": "Görülebilir",
               "not": "Şikâyetler 2022 ve 2023 model 1.4 otomatik sahiplerinden geliyor; önceki ve sonraki model yılları için kaynakta ayrı bilgi yok."
             }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "MG",
+      "model": "MG4 Electric (2023-)",
+      "motor": "Elektrik (Comfort 51 kWh / Luxury 64 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "DC hızlı şarj istasyonlarında şarj alamama (şarjın %40 ya da %80'de takılması)",
+          "etkilenen_parca": "DC hızlı şarj girişi, batarya yönetimi ve araç yazılımı",
+          "belirtiler": "Hiçbir DC istasyonunda hızlı şarj yapılamaması (AC şarjın çalışması), ekranda hata mesajı, şarjın %40 ya da %80'in üzerine çıkmaması, yolda kalma",
+          "tahmini_km_araligi": "1.000 - 30.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda neden açıklanmıyor. Şikâyetvar'da bir kullanıcı servislerin araçlara yüklediği yazılım sürümlerinin (rxx ve r66) arasında standart olmadığını iddia ediyor; bir başkası yazılımın i-Smart ile değiştirilmesinden sonra şarj yüzdesi sınırı ayarına erişemediğini ve aracın %80'e sınırlı kaldığını yazıyor. DonanımHaber'de bir kullanıcı pil ekranından şarj sınırının %40'a kadar düşürülebildiğini fark ettiğini belirtiyor. Bir forum yorumu yabancı forumlarda V1 modellerinde DC'de nadiren şarj olamama görüldüğünü, V2'de giderildiğini söylüyor (doğrulanmadı).",
+            "teshis": "Şikâyetvar'da AC ile şarj olup DC'yi kabul etmeme anlatılıyor. DonanımHaber'de bir kullanıcı farklı istasyonlarda AC ve DC şarjda %40'ın üzerine çıkamadığını, ekranda hata çıktığını, servisin akünün eksi kutbunu sökerek 10 dakika beklemeyi önerdiğini yazıyor. Şikâyetlerin çoğunda kilometre yok; bir MG4 Luxury'de 23.000 km'de şarj portunda erime bildirilmiş (tek vaka). Aralık kaba tahmindir.",
+            "cozum": "Bazı servislerde yazılım güncellemesinin sorunu çözdüğü ama kalıcı olmadığı yazılıyor; bir şikâyette teknik masanın araca müdahale edemediği için güncellemenin Çin'den bağlanılarak yapıldığı aktarılıyor. Servisin aracı 'sorun giderildi' diye teslim ettiği halde sorunun sürdüğünü anlatanlar var. Yedek parça beklemesi de anılıyor.",
+            "onlem": "Şarj yüzdesi sınırının (%40, %80) araç ekranındaki pil ayarlarından kontrol edilmesi DonanımHaber ve Şikâyetvar kayıtlarında anılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/mg-turkiye/mg4/mg4-sarj",
+            "https://www.sikayetvar.com/mg-turkiye/mg-turkiye-ve-sarj-olmayan-elektrikli-araba-mg4",
+            "https://www.sikayetvar.com/mg-turkiye/mg4",
+            "https://www.sikayetvar.com/mg-turkiye/i-smart-baglanti-hizmeti-calismiyor-ve-yanlis-yazilim-yuklemeleri-magduriyete-neden-oluyor",
+            "https://forum.donanimhaber.com/mg4-alicilari-ve-kullanicilari--156408276-32",
+            "https://forum.donanimhaber.com/mg4-alicilari-ve-kullanicilari--156408276-40",
+            "https://forum.donanimhaber.com/mg4-alicilari-ve-kullanicilari--156408276-48"
           ]
         }
       ]
@@ -3274,6 +3466,51 @@
               "bitis": 2016,
               "durum": "Seyrek",
               "not": "2012 ortasından itibaren piezo yerine solenoid enjektör kullanılmaya başlandı (C Serisi OM651 kaydındaki aynı notla tutarlı)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "EQA / EQB (H243 / X243, 2021-)",
+      "motor": "Elektrik (EQA 250+ / EQB 250+; 70,5 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yüksek gerilim batarya hücre kusuru ve yangın riski (geri çağırma, batarya değişimi)",
+          "etkilenen_parca": "Yüksek gerilim batarya paketi (hücreler)",
+          "belirtiler": "Bataryada iç arıza nedeniyle park halinde ya da sürüşte yangın riski; 'riskli batarya' uyarısı ve geri çağırma bildirimi; ekranda batarya işaretli arıza uyarısı, 'emniyet sistem arızası' ile aracın durması; geçici önlem olarak şarjın %80 ile sınırlanması",
+          "tahmini_km_araligi": "10.000 - 60.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "NHTSA ve InsideEVs'e göre ABD'deki EQB geri çağırmasında sorun Farasis Energy hücrelerinde: tedarikçide üretimin erken aşamasındaki farklılıklar, şarj altyapısındaki akım dalgalanmaları ya da olası mekanik hasarla birleşince yüksek gerilim batarya içeriden arızalanıp yangına yol açabiliyor. Önceki yazılım düzeltmeleri yeterli olmadı ve batarya değişimine geçildi (üçüncü geri çağırma, Şubat 2026).",
+            "teshis": "electrive'e göre KBA kayıtlarında 243 serisinde dünya genelinde 51.729 araç etkileniyor (Almanya'da 4.677); Çin'de 19.481 EQA/EQB için geri çağırma Haziran 2026'da başlıyor. Şikâyetvar'da bir EQB 250+ sahibi Mercedes-Benz Türkiye'den 'Geri Çağırma - 4794004 Batarya Değişimi' e-postası aldığını (17.02.2026) ve yaklaşık 2 ay net tarih verilmediğini; bir başkası aynı tarihte 'riskli batarya' SMS'i aldığını ve aracı kısıtlı menzille kullandığını yazıyor. Şikâyetlerin çoğunda kilometre yok; aralık kaba tahmindir.",
+            "cozum": "Batarya değişimi ücretsiz yapılıyor; ABD'de ilk iki geri çağırmada yazılım düzeltmesi uygulanmıştı. Avrupa'da toplu batarya değişiminin 2026'nın son çeyreğinden önce başlamayacağı yazılıyor. Almanya'da bir davada yazılım düzeltmesinin menzili ve şarj hızını düşürdüğü savunuluyor. Şikâyetvar'da bir sahip aracını satamadığını, bir başkası batarya garantisinin 4.800 km'lik bakım gecikmesi gerekçesiyle iptal edildiğini yazıyor (doğrulanmadı). Türkiye'de değişim takvimi kaynaklarda belirsiz.",
+            "onlem": "electrive ve InsideEVs, batarya değişene kadar şarjı en fazla %80 ile sınırlamayı öneriyor."
+          },
+          "kaynaklar": [
+            "https://www.electrive.com/2025/02/17/mercedes-eqa-and-eqb-affected-by-battery-recall/",
+            "https://www.electrive.com/2026/02/17/mercedes-likely-to-replace-batteries-in-eqa-and-eqb-models-in-germany/",
+            "https://www.electrive.com/2025/02/12/mercedes-recalls-eqb-due-to-possible-battery-problem/",
+            "https://insideevs.com/news/787515/mercedes-eqb-ev-battery-fire-recall-replacement/",
+            "https://static.nhtsa.gov/odi/rcl/2026/RCAK-26V073-0966.pdf",
+            "https://www.carcomplaints.com/news/2026/mercedes-eqb-battery-fire-recall.shtml",
+            "https://www.carcomplaints.com/news/2025/mercedes-benz-eqb-battery-fires-recall.shtml",
+            "https://www.sikayetvar.com/mercedes-benz/batarya-degisiminde-belirsizlik-ve-satista-engel",
+            "https://www.sikayetvar.com/mercedes-benz/mercedes-eqb-250-plus-kronik-sorunlar-ve-hayal-kirikligi",
+            "https://www.sikayetvar.com/mercedes-benz/mercedes-benz-elektrikli-arac-batarya-arizasi-ve-servis-sorunlari",
+            "https://eksisozluk.com/mercedes-eqa--6574443?p=2"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2022,
+              "bitis": 2024,
+              "durum": "Yaygın",
+              "not": "ABD geri çağırması 2022-2024 EQB 300 / 350 4MATIC ve 2023-2024 EQB 250+ modellerini kapsıyor; Türkiye'de EQB 250+ sahipleri geri çağırma bildirimi aldığını yazıyor."
             }
           ]
         }
@@ -3947,6 +4184,40 @@
     },
     {
       "marka": "Opel",
+      "model": "Corsa-e / Mokka-e (2020-)",
+      "motor": "Elektrik (50 kWh, 136 PS)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrik tahrik sistemi arızası ve yolda kalma (dahili şarj cihazı / 12V akü)",
+          "etkilenen_parca": "Elektrik tahrik sistemi kontrol zinciri (dahili şarj cihazı, 12V akü, kablo demeti, klima kompresörü); nedeni araca göre değişiyor",
+          "belirtiler": "'Elektrik tahrik sistemi arızası' uyarısı, aniden güç kaybı ve aracın kilitlenip vitese geçmemesi, hızlı şarjda sorun ya da şarj alamama",
+          "tahmini_km_araligi": "1.000 - 30.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "SpeakEV'de Corsa-e'de 'Electric traction system fault' hatasının genel bir uyarı olduğu, birçok vakada dahili şarj cihazının (OBC) arızalandığı, başarısız çekiş bataryası şarjının 12V sistemi açık tutup 12V aküyü boşalttığı, bazılarında ise klima kompresörü, ABS tekerlek hız sensörü ya da üç yollu valfin neden olduğu yazılıyor; bayilerin sık yanlış teşhis koyduğu anlatılıyor. Şikâyetvar'da bir Mokka sahibine kablo demeti ve sensör değişiminden sonra bile arızanın sürdüğü, Ankara'daki bir vakada arızanın kablo demetinden kaynaklandığı yazılıyor. Aynı platform Peugeot e-208 / e-2008 kaydında da ele alınıyor.",
+            "teshis": "Şikâyetvar'da 2023 model bir Mokka'nın 2025'te bir anda uyarı verip yolda kaldığı, bir Corsa-e'nin 12.12.2023'ten beri tekrarlayan uyarı yüzünden kullanılamadığı, başka bir Corsa-e'nin alındıktan altı ay sonra yolda kaldığı ve ilk bakımları geçip 25 bin km'yi aşan araçlarda yolda kalmaların başladığı yazılıyor. DonanımHaber'de bir başlıkta Mokka-e'nin 55 kilometrede yolda kaldığı anlatılıyor.",
+            "cozum": "SpeakEV'de OBC değişimi (bir sahipte onarım 9 hafta sürmüş), 12V akünün çıkarılıp takılması ya da aracı kilitleyip beklemek geçici yöntem olarak anılıyor; OBC'nin yalnızca 3 yıl / 60.000 mil garantide olduğu belirtiliyor. Bir sahip Opel'in yaklaşık 3,5 bin avroluk klima kompresörü faturasının yarısından fazlasını karşıladığını yazıyor. Şikâyetvar'da ikame araç verilmemesi ve pil garantisi sürerken arızanın garanti dışı sayılması anlatılıyor.",
+            "maliyet": "Şikâyetvar'da bir Mokka sahibine arıza garanti dışı sayılarak 102.000 TL ücret istenmiş (8 yıllık pil garantisi sürerken; tarih belirsiz, güncel fiyat olarak okumayın). SpeakEV'de İngiltere'de bir bayinin yeni OBC için yaklaşık 3.500 sterlin teklif ettiği yazılıyor (tarih belirsiz)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/corsa/elektrikli",
+            "https://www.sikayetvar.com/opel/mokka/mokka-elektrikli",
+            "https://www.sikayetvar.com/opel/opel-corsa-elektrikli-aracta-sarj-sorunu-ve-musteri-hizmetleri",
+            "https://www.speakev.com/threads/corsa-e-error-message-electric-traction-system-fault.173436/",
+            "https://www.speakev.com/threads/battery-charge-fault-stop-the-vehicle-electric-traction-system-fault-repair-needed.185256/",
+            "https://www.speakev.com/threads/corsa-e-wont-charge-any-ideas.159288/",
+            "https://www.speakev.com/threads/corsa-e-with-strange-charging-issue-any-ideas.170663/",
+            "https://forum.donanimhaber.com/opel-mokka-e-55-kilometrede-yolda-kaldi--157778750"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Crossland / Corsa F (2017-)",
       "motor": "1.2 PureTech 83/100/110/130 (EB2)",
       "uretim_yillari": {
@@ -4429,6 +4700,83 @@
             "https://www.sikayetvar.com/peugeot/peugeot-508-mcp-robotize-sanziman-arizasi",
             "https://forum.donanimhaber.com/508-1-6-e-hdi-ve-auto6r-hakkinda--128357643",
             "https://eksisozluk.com/peugeot-508--2244708?p=7"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "e-208 / e-2008 (2022-)",
+      "motor": "Elektrik (50 kWh, 136 PS)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrik tahrik sistemi arızası uyarısı ve yolda kalma",
+          "etkilenen_parca": "Elektrik tahrik sistemi kontrol zinciri (çekiş bataryası kontrol ünitesi, 12V akü, şanzıman kontrolcüsü, klima kompresörü); nedeni araca göre değişiyor",
+          "belirtiler": "'Elektrik tahrik sistemi arızası' uyarısı, çoğu zaman uyarısız ani güç kaybı ve aracın otoyolda durması; servisin hata bulamadan aracı geri vermesi ve arızanın tekrarlaması",
+          "tahmini_km_araligi": "1.000 - 35.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "SpeakEV'de uyarının genel bir uyarı olduğu, nedeni ancak hata kodlarını okuyan bir servisin belirleyebildiği yazılıyor; en sık anılan neden zayıf ya da boşalmış 12V akü, ayrıca dahili şarj cihazı, şanzıman kontrolcüsü ve klima kompresörü (P206A koduyla anılan bir geri çağırma) sayılıyor. electrive'e göre Stellantis, 2022 üretimi araçlarda çekiş bataryası kontrol ünitesindeki olası bir kalibrasyon hatası yüzünden hücre geriliminin ya da sıcaklığının yanlış okunabildiğini, bunun aracın bataryayı korumak için gücü kesmesine yol açabildiğini bildirerek geri çağırma yaptı (e-208 ve e-2008 dahil, dünya genelinde 21.349 araç).",
+            "teshis": "Şikâyetvar'da bir e-2008 sahibi 8.500 km'deki aracında 14.07.2025, 02.11.2025 ve 11.02.2026'da üç kez uyarı aldığını ve her seferinde 'kontroller yapıldı, yazılım güncellendi, arıza tespit edilmedi' denerek geri verildiğini; bir e-208 sahibi 31 bin km'de otobanda uyarısız güç kaybı yaşadığını; bir e-2008 sahibi 34.000 km'de Ankara-İstanbul otoyolunda aracın gücünü kaybettiğini yazıyor. Bir başka e-2008'de uyarı daha ilk haftada çıkmış.",
+            "cozum": "SpeakEV'de birçok sahip 12V akü hızlı bırakma kelepçesini çıkarıp 10-15 dakika bekleyerek sıfırlama yaptığını bildiriyor (aküde sorun varsa geçici); şanzıman kontrolcüsü değişimi, yazılım güncellemesi, 12V akü değişimi ve klima kompresörü geri çağırması çözüm olarak anılıyor. Şikâyetvar'da onarımın 80 güne uzadığı, ikame aracın yetersiz kaldığı, 21 gün araçsız kalındığı ve 2 aylık araçta 12V akünün bitip garanti dışı sayıldığı anlatılıyor.",
+            "onlem": "SpeakEV'de 12V akünün gerilimini izlemek ve açık geri çağırmalar için şasi numarasını bayide sorgulatmak öneriliyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-elektrikli-aracta-80-gun-suren-tamir-ve-yetersiz-ikame",
+            "https://www.sikayetvar.com/peugeot/peugeot-e2008te-tekrarlayan-elektrik-tahrik-ve-vites-arizasi-guvenlik-riski",
+            "https://www.sikayetvar.com/peugeot/garanti-kapsamindaki-yeni-peugeot-e-2008te-elektrik-tahrik-arizasi-ve-direksiyon-sertligi-yetkili-servis-tarafindan-goz-ardi-edildi",
+            "https://www.sikayetvar.com/peugeot/elektrik-tahrik-sistemi-arizasinin-tekrari-ve-uzun-sureli-serviste-ikame-arac-sunulmamasi",
+            "https://www.sikayetvar.com/peugeot/2008/e-2008",
+            "https://www.speakev.com/threads/electric-traction-system-fault.157981/",
+            "https://www.speakev.com/threads/e-208-traction-fault.182517/",
+            "https://www.speakev.com/threads/recall-for-e208-2008.166644/",
+            "https://www.speakev.com/threads/traction-battery-fault-stellantis.184158/",
+            "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Porsche",
+      "model": "Taycan (2020-)",
+      "motor": "Elektrik (4S / Turbo)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yüksek gerilim batarya modülü kısa devre riski ve elektrik sistemi arızası (geri çağırma, modül değişimi)",
+          "etkilenen_parca": "Yüksek gerilim batarya modülleri (hücre bloğu modülü, sıcaklık sensörü)",
+          "belirtiler": "Şarj sırasında ya da park halindeyken kırmızı 'elektrik sistemi arızası' uyarısı, batarya modülü sıcaklık sensörü arızası; kısa devre ve yangın riski nedeniyle şarjın %80 ile sınırlanması önerisi; servisin modül değişimi için uzun süre araç tutması",
+          "tahmini_km_araligi": "10.000 - 60.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "NHTSA kayıtlarına göre 24V-732 sayılı geri çağırma 2021-2024 Taycan'larda yüksek gerilim batarya modülü içinde kısa devre oluşabildiğini ve yangın riski doğurduğunu belirtiyor; Porsche çevrimiçi araç verilerini izleyip gerektiğinde sahipleri onarım yapılana kadar şarjı %80 ile sınırlamaları için uyarıyor. Daha önceki kampanyalar (23V-840, 24V-215) hücre bloğu modülünün değiştirilmesini öngörüyor. Audi e-tron GT aynı modülleri kullandığı için benzer geri çağırmalara (93VM, 93VN) konu oldu.",
+            "teshis": "DonanımHaber'de bir Taycan 4S sahibi, Ağustos 2026'da şarj sırasında elektrik sistemi uyarısı aldığını, yetkili servisin batarya modülü sıcaklık sensörü arızası tespit ettiğini ve Porsche AG'nin teknik yönlendirmesiyle 1 ve 2 numaralı modüllerin garanti kapsamında değiştirileceğini bildirdiğini yazıyor (tek kullanıcı). Şikâyetvar'da 40.000 km'deki bir 2020 Taycan Turbo'nun sabah sorunsuz kullanıldıktan sonra park halindeyken kırmızı 'elektrik sistemi arızası' uyarısı verdiği anlatılıyor; bu uyarının geri çağırmayla ilişkisi kaynaklarda kurulmuyor. Aralık kaba tahmindir.",
+            "cozum": "Geri çağırma ve garanti kapsamında modül değişimi ücretsiz. Şikâyetvar'da bir sahip geri çağırma işlemi sırasında ikame araç verilmediğini, bir başkası yazılım güncellemesi için Doğuş Maslak servisinde 20 gün beklediğini yazıyor. Türkiye'deki kampanya kapsamı resmî bir kaynakla doğrulanamadı. 2021'de NHTSA, 2020-2021 Taycan'larda uyarısız sürüş gücü kaybı şikâyetleri üzerine ön inceleme açmış; kurum 12V akü şarjının kaybının elektrik sistemini devre dışı bırakabileceğini belirtmişti (bu inceleme ve 21V-486 yazılım geri çağırması ayrı bir arıza).",
+            "onlem": "NHTSA kaydında onarım tamamlanana kadar şarjın en fazla %80 ile sınırlanması öneriliyor."
+          },
+          "kaynaklar": [
+            "https://static.nhtsa.gov/odi/rcl/2024/RCAK-24V732-5065.pdf",
+            "https://static.nhtsa.gov/odi/rcl/2023/RCLRPT-23V840-4026.PDF",
+            "https://static.nhtsa.gov/odi/rcl/2023/RCMN-23V840-7549.pdf",
+            "https://static.nhtsa.gov/odi/rcl/2024/RCMN-24V215-9602.pdf",
+            "https://insideevs.com/news/508890/nhtsa-investigation-taycan-power-loss/",
+            "https://forum.donanimhaber.com/porsche-taycan-4s-deneyimim-ayip-tespiti-batarya-arizasi-ve-servis-sureci--164220536",
+            "https://www.sikayetvar.com/porsche/taycan"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2021,
+              "bitis": 2024,
+              "durum": "Yaygın",
+              "not": "NHTSA geri çağırması 2021-2024 Taycan'ları kapsıyor (ABD); 2020 modeller için kaynaklarda ayrı bilgi yok."
+            }
           ]
         }
       ]
@@ -4978,6 +5326,39 @@
       ]
     },
     {
+      "marka": "Renault",
+      "model": "Zoe (2019-)",
+      "motor": "Elektrik (Z.E. 40 / Z.E. 50 batarya)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Şarj hatası mesajları ve şarjın kesilmesi (AC/DC)",
+          "etkilenen_parca": "Dahili şarj cihazı ve şarj soketi, 12V akü ve DC/DC dönüştürücü, şarj yazılımı",
+          "belirtiler": "AC ya da DC şarjın bir süre sonra kesilmesi, 'şarj imkânsız' benzeri uyarılar, hiçbir DC istasyonunda şarj alamama; bazı vakalarda 12V akü uyarıları",
+          "tahmini_km_araligi": "10.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "SpeakEV'de Zoe'nin AC şarjda toprak hattı empedansına duyarlı olduğu (150 ohm'un altı gerektiği) ve 'AC Charging Impossible' mesajlarının sıklıkla buna, evdeki devre kesiciye ya da prize bağlandığı; bazı vakalarda 12V akünün ve DC/DC dönüştürücünün düşük gerilim vermesinin bir sürü hata mesajına yol açtığı yazılıyor. Bir sahip 'Chameleon' şarj cihazının uzatma kablolarında 'gürültü' yaptığını söylüyor. Ekşi Sözlük'te bir kullanıcı servisin 'araçta sorun yok, istasyonlar bozuk' dediğini aktarıyor (tek kullanıcı).",
+            "teshis": "Şikâyetvar'da bir Zoe sahibi aracın şarja başlayıp bir süre sonra kestiğini ve 3-4 kez servise bırakıldığı halde sorunun sürdüğünü; bir başkası Temmuz 2025'te Bodrum-İstanbul yolunda İzmir'den sonra hiçbir DC istasyonunda şarj alamadığını; bir başkası AC şarj hatası için serviste 12V aküsünün değiştirildiğini yazıyor. Şikâyetlerde kilometre yok; aralık, forumlarda anılan araçların kilometresine (ör. 117 bin km) göre kaba tahmindir.",
+            "cozum": "SpeakEV'de önce 12V aküyü test etmek ya da değiştirmek, evdeki toprak hattını ve şarj noktasını elektrikçiye kontrol ettirmek, sonra bayiye gitmek öneriliyor; bazı sahipler BCB parçasının, şarj soketinin değişmesi ya da özel cihazla yazılım sıfırlaması gerektiğini yazıyor. 12V akü tek başına değişince hataların her zaman silinmediği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/renault-zoe-sarj-olmuyor",
+            "https://www.sikayetvar.com/renault/zoe",
+            "https://forum.donanimhaber.com/elektrikli-renault-zoe-ana-konu--155319687-2",
+            "https://forum.donanimhaber.com/renault-zoe-alinir-mi--156324721",
+            "https://eksisozluk.com/renault-zoe--1205037?p=11",
+            "https://www.speakev.com/threads/zoe-2021-ac-charging-impossible.191899/",
+            "https://www.speakev.com/threads/charging-problems-with-zoe-many-fault-messages.165535/",
+            "https://www.speakev.com/threads/ac-charging-impossible.161034/"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Seat",
       "model": "Ibiza (6J / 6P, 2008-2017)",
       "motor": "1.2 TSI (DSG DQ200)",
@@ -5433,6 +5814,134 @@
               "durum": "Görülebilir",
               "not": "Şikâyetvar'da 2015 ve 2017 model XV'ler için yağ eksiltme şikâyetleri var; sıklığı kaynaklardan anlaşılmıyor."
             }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Tesla",
+      "model": "Model Y (2023-)",
+      "motor": "Elektrik (Standart Menzil / Uzun Menzil / Performans)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Cam tavanın kendiliğinden çatlaması",
+          "etkilenen_parca": "Panoramik cam tavan",
+          "belirtiler": "Darbe ya da taş izi olmadan cam tavanda çatlak oluşması; çatlağın çoğu zaman düşük kilometrede fark edilmesi ve servisin garantiyi reddetmesi",
+          "tahmini_km_araligi": "5.000 - 40.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden açıklanmıyor. Şikâyetvar'da kullanıcılar üretim ya da malzeme kusurunu, sıcakta genleşme ve gerilimi öne sürüyor; bir kullanıcı Avrupa'da gerilim kaynaklı çatlakların garanti kapsamında değiştirildiğini forumlarda okuduğunu yazıyor (doğrulanmadı). Bir forum yorumu ısınmış camın soğuk suyla temas etmesinin çatlatabileceğini söylüyor (kullanıcı teorisi). Servisler çoğu vakada çatlağı darbe (taş) kaynaklı sayıyor; taşın çatlattığını kabul edenler de var.",
+            "teshis": "Şikâyetlerde çatlak düşük kilometrede fark edilmiş: 2024 model bir araçta 5 bin km'de, bir araçta 14 bin km'de, bir araçta 40 bin km'de; model yılı olarak 2023, 2024 ve 2025 geçiyor. Forum başlıklarında (DonanımHaber, Ekşi Sözlük) bir kullanıcı sıfır aldığı Model Y'de taş izi ya da darbe olmadan tavanın çatladığını ve servise ulaşamadığını yazıyor. Ankara'da bir kullanıcı servisin taş çarptığını tespit edip garantiye almadığını anlatıyor.",
+            "cozum": "Şikâyetvar'da servislerin çoğunlukla garantiyi reddedip ücretli değişim ya da kasko önerdiği anlatılıyor; Tuzla servisinin çatlağı darbe kaynaklı saydığı, Tesla Türkiye'nin cam kırılmalarını garanti kapsamına almadığının söylendiği yazılıyor. Kullanıcıların başvurduğu yollar arasında tüketici hakem heyeti ve Tesla Türkiye'ye resmî yazışma anılıyor.",
+            "maliyet": "Şikâyetvar'da bir kullanıcıya 'ortalama 100 bin TL', bir başkasına 85 bin TL civarında bir değişim bedeli söylendiği yazılıyor (kayıt tarihleri belirsiz; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/tesla/tesla-model-y-tavan-cami-catlamasi",
+            "https://www.sikayetvar.com/tesla/tesla-model-y-cam-tavani-kendiliginden-catladi-garanti-kapsami-disinda-birakildi",
+            "https://www.sikayetvar.com/tesla/tesla-model-y-cam-tavan-catlagi-garanti-kapsamina-alinmadi-musteri-magdur-ediliyor",
+            "https://www.sikayetvar.com/tesla/tesla-model-y/cam-tavan",
+            "https://forum.donanimhaber.com/tesla-model-y-kullananlar-kulubu-2023--155488676-416",
+            "https://eksisozluk.com/tesla-model-y--5029928?p=445",
+            "https://eksisozluk.com/entry/160918526?debe=true"
+          ]
+        },
+        {
+          "sorun_adi": "Alt takımdan gıcırtı ve metalik vuruntu sesi",
+          "etkilenen_parca": "Alt takım ve ön süspansiyon bağlantıları (ör. 'Compliance Link' parçası, amortisör), kapı ve bagaj fitilleri; nedeni araca göre değişiyor",
+          "belirtiler": "Bozuk yolda ve düşük hızda alt takımdan metalik vuruntu, kalkışta ve park ederken ön taraftan çıt çıt sesleri, virajlarda alttan ses; kapı ve bagaj fitillerinde gıcırdama",
+          "tahmini_km_araligi": "1.000 - 30.000 km",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Kaynaklarda Model Y'ye özgü kesin neden yok. Forumlarda gıcırtının kapı ve bagaj fitillerinden, bagaj pandizotundan ve süspansiyon burç ve kauçuk bağlantılarından geldiği, soğukta sertleşen kauçuk parçaların ses çıkarabildiği yazılıyor (bu son açıklama Tesla'ya özgü değil, genel). Bir DonanımHaber Model Y başlığında süspansiyondan gelen gıcırtının kronik olduğu ama her araçta görülmediği belirtiliyor.",
+            "teshis": "Şikâyetvar'da Temmuz 2025'te teslim aldığı araçta teslimden beri düşük hızda ve bozuk yolda kronik metalik vuruntu bildiren bir sahip, servisin sorunu onaylayıp bir parça değiştirdiğini, sorun sürünce ön amortisör değişiminin denenmesi gerektiğinin kayda geçtiğini ve test sürüşünün otoyolda yapıldığı için sesin duyulmadığını yazıyor. Başka bir sahip 7-8 aydır her kullanımda gıcırtı duyduğunu ve sesin zamanla arttığını anlatıyor. Şikâyetlerin çoğunda kilometre yok; aralık aracın yaşına göre kaba tahmindir.",
+            "cozum": "Bir DonanımHaber kullanıcısı serviste gres yağı sürülünce sesin kesildiğini ama birkaç hafta sonra geri geldiğini yazıyor. Bagaj kapağı oturma çıkıntılarını ayarlamak ve pandizota bant ya da sünger yapıştırmak forumlarda sesi azaltan yöntem olarak anılıyor. Şikâyetvar'da parça beklemesinin uzadığı (bir kayıtta yaklaşık 79 gün, gümrükte) ve servis randevusu için haftalarca beklendiği anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/tesla/tesla-model-y-alt-takim-ve-ses-problemi",
+            "https://www.sikayetvar.com/tesla/teslim-edilen-tesla-model-y-suspansiyon-sorunu-test-araciyla-uyusmuyor",
+            "https://www.sikayetvar.com/en/tesla-us/tesla-model-y-knocking-noise-issue-ignored-by-service-center",
+            "https://forum.donanimhaber.com/tesla-model-y-kullananlar-kulubu-2023--155488676-933",
+            "https://forum.donanimhaber.com/tesla-model-y-kullananlar-kulubu-2023--155488676",
+            "https://eksisozluk.com/tesla-model-y--5029928?p=332"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Togg",
+      "model": "T10X (2023-)",
+      "motor": "Elektrik (V1 / V2 donanım; 52,4 kWh ve 88,5 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "AC şarjın kesilmesi ya da başlamaması (dahili şarj cihazı / OBC arızası)",
+          "etkilenen_parca": "Dahili şarj cihazı (OBC) ve şarj yazılımı",
+          "belirtiler": "AC istasyonda şarjın birkaç saniye sonra 'araç tarafından durduruldu' uyarısıyla kesilmesi, hiç şarj alamama, yalnızca DC şarj alabilme; şarj durumunun Togg uygulamasında görünmemesi",
+          "tahmini_km_araligi": "2.000 - 50.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar'da AC şarj kesilmesi çoğunlukla dahili şarj cihazına (OBC) bağlanıyor: bir kullanıcıya OBC'de arıza tespit edildiği ve parçanın değişmesi gerektiği söylenmiş. Birçok kullanıcı sorunun bir yazılım (OTA) güncellemesinden sonra başladığını yazıyor; Ekşi Sözlük'te bir kullanıcı OBC güncellemesinden sonra hatanın çıktığını anlatıyor ama kesin bir neden-sonuç ilişkisi kurulamıyor. Togg'un resmî açıklaması ya da servis bülteni bulunamadı.",
+            "teshis": "Şikâyetvar'da araç AC'de şarj almıyor ama DC'de alıyor diye anlatılıyor ve bu OBC işareti sayılıyor. Ekşi Sözlük'te bir kullanıcı yazılımı 1.5 sürümüne getirmesine rağmen AC şarjı hiç alamadığını yazıyor. Şikâyetlerin çoğunda kilometre belirtilmiyor; aralık aynı kaynaklardaki enerji sistemi ve batarya şikâyetlerinin kilometresinden (2.492 - 49.000 km) alındı.",
+            "cozum": "OBC değişimi önerildiği ve parça beklemesinin uzayabildiği (bir kayıtta araç 35 gündür serviste) anlatılıyor. DTC sıfırlama ve yeniden başlatma geçici çözüm olarak aktarılıyor; bir forum özetinde şarj sorunlarının uzun süredir bilinen, çoğunlukla resetle geçen ve bazı güncellemelerle giderilen, bazılarında sürdüğü bir konu olduğu yazılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/togg/t10x/obc",
+            "https://www.sikayetvar.com/togg/t10x/sarj-olmuyor",
+            "https://www.sikayetvar.com/togg/t10x/sarj-kesiyor",
+            "https://www.sikayetvar.com/togg/sarj-sorunu",
+            "https://www.sikayetvar.com/togg/sifir-alinan-togg-t10x-v2de-cozulmeyen-yazilim-ve-sarj-sorunlari",
+            "https://eksisozluk.com/togg-t10x--7625024?p=64",
+            "https://eksisozluk.com/togg-t10x-enerji-sistemi-ve-12v-aku-sorunlari--8015191",
+            "https://forum.donanimhaber.com/yerli-otomobil-togg-ana-konu--141391586-1104"
+          ]
+        },
+        {
+          "sorun_adi": "'Enerji Sistemi Arızası' uyarısı, 12V akü sorunları ve yolda kalma",
+          "etkilenen_parca": "Enerji yönetimi (yüksek gerilim batarya, şarj ünitesi) ve 12V yardımcı akü",
+          "belirtiler": "Şarj sırasında ya da sürüşte 'Enerji Sistemi Arızası' uyarısı, ekranların aniden kapanıp açılması, aracın kilitlenip sıfırlamalara yanıt vermemesi, DC şarj gücünün 80-87 kW'ta kalması",
+          "tahmini_km_araligi": "2.000 - 50.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda net bir neden yok. Ekşi Sözlük'te bir kullanıcı enerji sistemi hatalarının 12V akü sorunlarıyla birlikte geldiğini, servisin güncelleme yaptığını ve sorun sürerse akü değişeceğini söylediğini yazıyor; bir başkası yazılımı 1.5 sürümüne getirmesine rağmen enerji sistemi ve 12V akü sorunlarının sürdüğünü bildiriyor. Şikâyetvar'da DC hızlı şarjın 80 ve 87 kW'ın üzerine çıkmaması bataryaya bağlanıp batarya değişimi önerilmiş.",
+            "teshis": "Şikâyetvar'da 2.492 km'deki bir araçta ücretli bir istasyonda uyarı çıkmış; batarya şikâyetlerinde araçlar 41.000 ve 49.000 km'de. Ekşi Sözlük'te bir kullanıcı Trugo istasyonunda her %7-8 şarjdan sonra uyarı aldığını, DTC sıfırlama ve yeniden başlatmayla geçici olarak devam edebildiğini, servisin batarya değişimi gerektiğini söylediğini; bir başkası Ankara'da yolda aniden uyarı verip aracın kilitlendiğini yazıyor.",
+            "cozum": "Şikâyetvar'da servislerin DTC sıfırlama önerdiği, yeni yazılım sürümüne geçilirse sorunların çözüleceğinin söylendiği; bazı vakalarda batarya değişiminin yapılıp aracın bir-iki hafta içinde teslim edildiği, bir vakada ise bataryanın aracın altındaki çizikler gerekçesiyle garanti dışı sayıldığı anlatılıyor. Müşteri hizmetlerinden batarya ömrü ya da değişim ücreti bilgisi alamadığını yazanlar var."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/togg/t10x/kronik",
+            "https://www.sikayetvar.com/togg/t10x/batarya-degisim",
+            "https://www.sikayetvar.com/togg/batarya-arizasi",
+            "https://www.sikayetvar.com/togg/t10x/batarya",
+            "https://eksisozluk.com/togg-t10x-enerji-sistemi-ve-12v-aku-sorunlari--8015191",
+            "https://eksisozluk.com/togg-t10x--7625024?p=64",
+            "https://forum.donanimhaber.com/yerli-otomobil-togg-ana-konu--141391586-1104"
+          ]
+        },
+        {
+          "sorun_adi": "Ekran kapanması, donması ve yazılım güncellemesi sonrası aksaklıklar",
+          "etkilenen_parca": "Multimedya ve sürücü ekranları, araç yazılımı (OTA) ve navigasyon uygulaması",
+          "belirtiler": "Ekranların sürüş sırasında kararması, donması ya da kendiliğinden yeniden başlaması; güncelleme sonrası ses sistemi, navigasyon (Gez) uygulaması, kamera ve ADAS işlevlerinde arıza",
+          "tahmini_km_araligi": "1.000 - 50.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Bir Ekşi Sözlük yazarı sorunu kronik olarak anlatıyor: v1 ve erken v2 araçlarda yaygın, 2025 modellerinde azalsa da sürüyor; 1.4.0 ve sonrası güncellemelerin birçok sorunu giderdiğini yazıyor. Şikâyetvar'daki kullanıcılar 1.7.2 sürümünden sonra ekran kapanmalarının, Gez navigasyon (v11.0.6) çökmelerinin ve ses sistemi arızalarının arttığını söylüyor; kesin neden-sonuç kanıtı yok. Bazı kullanıcılar tek işlemcinin birden fazla ekranı yönetmesi nedeniyle ekranların birlikte donabildiğini savunuyor (kullanıcı görüşü).",
+            "teshis": "Bir Şikâyetvar kullanıcısı ekranın haftada ortalama 3-4 kez kapanıp açıldığını yazıyor. DonanımHaber'de bir yorum, güncelleme sonrasında aracın birkaç kez yeniden başladığını, ekranların kararabildiğini ve profil bilgilerinin kaybolabildiğini anlatıyor; yazar bunu sistemin güncellemeden sonra oturması olarak yorumluyor. Bir kullanıcı servise 1.7.2 yüklü gittiği aracın 1.5 sürümüyle geri verildiğini bildiriyor. Şikâyetlerin çoğunda kilometre yok; aralık aynı kaynaklardaki kilometrelerden alındı.",
+            "cozum": "Bir kullanıcı sistemi yeniden başlatarak sorunu geçici olarak çözdüğünü belirtiyor; bir Ekşi Sözlük yazarı sorunların büyük kısmının güncelleme ve sıfırlama yapılmamasından kaynaklandığını iddia ediyor (resmî bir veri değil). Şikâyetvar'da servis randevusunun yaklaşık bir ay sonrasına verildiği ve 10 iş günlük onarım süresinin aşıldığı anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/togg/ekran-kapanmasi",
+            "https://www.sikayetvar.com/togg/togg-172-guncellemesi-gez-navigasyon-uygulamasini-cokertiyor-ve-multimedya-ekranini-kilitliyor",
+            "https://www.sikayetvar.com/togg/t10x/yazilim-guncelleme",
+            "https://www.sikayetvar.com/togg/togg-t10x-yazilim-guncellemesi-sonrasi-sistem-arizasi-ve-guvenlik-riski",
+            "https://www.sikayetvar.com/togg/togg-t10x-17-guncellemesi-sonrasi-ses-sistemleri-calismiyor",
+            "https://eksisozluk.com/toggda-yolda-giderken-ekranlarin-kapanmasi--7705090",
+            "https://forum.donanimhaber.com/yerli-otomobil-togg-ana-konu--141391586-1104"
           ]
         }
       ]

@@ -2,7 +2,7 @@
 
 Tarih: 2026-10-24
 
-Rapor dört aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını anlatır.
+Rapor beş aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını anlatır.
 
 ## 1. aşama: ilk sürümün doğrulanması
 
@@ -506,10 +506,101 @@ Kuralı geçiyorlar ama sınırda. 3. aşama sonundaki 22 maddeye (yukarıdaki l
 - Ayrı kayıt açılması o versiyonun diğerlerinden daha sorunlu olduğunu göstermez; kaynakların versiyonu ayırt ettiğini gösterir. Ayrı kayıt olmaması da "sorunsuz" anlamına gelmez.
 - Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir.
 
+## 5. aşama: elektrikli araçlar
+
+Tarih: 2026-10-24
+
+Beşinci aşamanın isteği, elektrikli araçların da kapsama alınmasıydı. Önceki aşamalarda BYD, Togg, Tesla ve Chery "motor grubu ve ikinci el geçmişi yok" gerekçesiyle dışarıda bırakılmıştı; bu bir kullanıcı talebi değil, planlama sırasında alınmış bir karardı ve kaldırıldı. Kurallar aynı kaldı: her sorun için en az iki farklı site ve bunlardan en az biri deneyim ya da resmî türünde; ayrıntı yalnızca kaynağı metinde anılan iddialardan; kaynak bulunamayan grup plana `–` olarak işlenir.
+
+| | 4. aşama sonu | 5. aşama sonu |
+| --- | ---: | ---: |
+| Araç/motor kaydı | 136 | 148 |
+| Kronik sorun | 205 | 220 |
+| Ayrıntısı olan sorun | 205 | 220 |
+| Yıl kırılımı olan sorun | 48 | 52 |
+| Marka | 22 | 27 |
+| Sorunlara bağlı kaynak bağlantısı | 1161 | 1281 |
+| Farklı kaynak sitesi | 68 | 71 |
+| Yalnızca iki siteyle desteklenen sorun | 44 | 46 |
+| Plan satırı | 245 | 276 |
+| Plan durumu (✓ / – / ○) | 132 / 113 / 0 | 144 / 132 / 0 |
+
+### Ne yapıldı
+
+- **Kapsam kararı:** BYD, Togg ve Tesla kapsama alındı; Chery `ek` kademesine geçti (Omoda E5 arandı, bulunamadı); Smart ve Porsche `ek` kademeyle eklendi. `KAPSAM.md` ölçütü, `README.md` ve plan notları buna göre güncellendi. Yalnızca tam elektrikliler kapsamda; hibrit ve plug-in hibritler (ör. BYD Seal U DM-i) dahil değil.
+- **Plan:** 245 satırdan 276'ya çıktı (+31): 12'si veritabanına girdi, 19'u kanıt yetersiz olduğu için eklenmedi. Sırada (○) satır yok.
+- **Yeni kayıt:** 12 yeni araç/motor kaydı ve 15 yeni sorun; beş yeni marka (BYD, MG, Porsche, Tesla, Togg). Yeni sorunların 9'u `Yüksek`, 5'i `Orta`, 1'i `Düşük` risk seviyesinde.
+- **Kaynaklar:** 120 bağlantı eklendi. Kayıt defterine üç site girdi: SpeakEV (forum), InsideEVs ve electrive.com (haber). Her adresin arama sonuçlarında tam eşleşmeyle geçtiği yazım sırasında otomatik denetlendi. Resmî belge olarak NHTSA geri çağırma dosyaları, haber olarak electrive ve InsideEVs, deneyim olarak Şikâyetvar, DonanımHaber, Ekşi Sözlük ve SpeakEV kullanıldı.
+- **Dönem kırılımı:** dört yeni sorunda geri çağırma kapsamına göre (Ioniq 5 / 6, EV6, EQA / EQB, Taycan).
+- **Ayrıntılar:** 15 yeni sorunun hepsinde `detay` var; alan doluluğu: neden 15, teşhis 15, çözüm 15, maliyet 4, önlem 5.
+- **Görüntüleyici:** filtre kutusuna "Yalnızca elektrikli araçlar" seçeneği eklendi.
+- **Yöntem aynı:** sayfalar açılamadı (bu oturumda `WebFetch` ağ hatası veriyor); Türkçe aramalar Şikâyetvar, DonanımHaber, OTOPARK.COM ve Ekşi Sözlük'e, geri çağırma aramaları NHTSA, CarComplaints, InsideEVs, Electrek ve electrive'e sınırlandı.
+
+### Elektrikli araçlar nasıl ele alındı
+
+- **`motor` alanı:** `Elektrik` ile başlar, batarya ya da sürüm parantez içinde yazılır (ör. `Elektrik (52,4 kWh ve 88,5 kWh)`). Sorunlar elektrikli araca özgü parçalara ait: batarya hücreleri, dahili şarj cihazı (OBC), entegre şarj kontrol ünitesi (ICCU), 12V yardımcı akü, elektrik tahrik sistemi ve yazılım.
+- **Aynı platformu paylaşan modeller ayrı kayıt:** Peugeot e-208 / e-2008, Opel Corsa-e / Mokka-e ve Citroën ë-C4 aynı platformun ürünleri ve aynı "elektrik tahrik sistemi arızası" uyarısını veriyor; her marka kendi Şikâyetvar kayıtlarıyla ayrı kayıt oldu, nedenler SpeakEV ve electrive'deki ortak kaynaklara bağlandı (4. aşamadaki PSA DV5 zincir kayıtlarıyla aynı mantık).
+- **Geri çağırma kayıtlarının Türkiye kapsamı:** geri çağırmaların çoğu ABD (NHTSA) ya da Avrupa (KBA) kaynaklı. Kayıt yalnızca Türkiye'den bağımsız bir sahip bildirimi de varsa açıldı: Ioniq 5 (ICCU ve 12V akü uyarıları), Kia EV6 (12V akü), Mercedes EQB (Mercedes-Benz Türkiye'den geri çağırma e-postası ve "riskli batarya" SMS'i), Taycan (batarya modülü sıcaklık sensörü ve modül değişimi). Türkiye bildirimi olmayanlar `–` olarak plana yazıldı (Mini Cooper SE, BMW iX / i4, Audi e-tron GT, Nissan Leaf).
+- **Geri çağırma pencereleri Türkiye'ye uymayanlar:** Hyundai Kona Electric batarya yangını geri çağırması 2017-2020 üretimini kapsıyor, Türkiye'de elektrikli Kona'nın resmî satışı Eylül 2021'de başladı; Volvo EX30 hücre geri çağırması Avrupa'da yalnızca sağ direksiyonlu 69 kWh modeller için yazılıyor; VW'nin Ekim 2026 ID. batarya geri çağırması belirli partileri kapsıyor ve ABD'deki ID.4 geri çağırmaları Zwickau ve Emden üretimi Avrupa araçlarını kapsamıyor. Bunların hiçbiri Türkiye için doğrulanamadı; üçü de nedeniyle `–`.
+- **Versiyonlar:** Togg V1 / V2 donanımı ve 52,4 / 88,5 kWh bataryalar, MG4 Comfort / Luxury ve Ioniq 5'in iki bataryası kayıt adında anıldı ama ayrı kayıt açılmadı, çünkü kaynaklar sorunları versiyona göre ayırmıyor (MG4'te V1 / V2 farkı bir forum yorumundan, doğrulanmadı). Geri çağırma kapsamı model yılına göre değiştiğinde `donem_kirilimi` kullanıldı.
+
+### Eklenen kayıtlar
+
+- **Tesla Model Y (2):** cam tavanın kendiliğinden çatlaması; alt takımdan gıcırtı ve metalik vuruntu.
+- **Togg T10X (3):** AC şarjın kesilmesi (OBC); "Enerji Sistemi Arızası" uyarısı ve 12V akü; ekran kapanması ve güncelleme sonrası aksaklıklar.
+- **BYD Atto 3 (1):** 12V akü arızası ve "güç sistemi arızası". **MG4 Electric (1):** DC hızlı şarj alamama.
+- **Hyundai Ioniq 5 / Ioniq 6 (1)** ve **Kia EV6 (1):** ICCU arızası, 12V akünün şarj olmaması ve güç kaybı (geri çağırma).
+- **Mercedes-Benz EQA / EQB (1):** yüksek gerilim batarya hücre kusuru ve yangın riski (geri çağırma, batarya değişimi).
+- **Peugeot e-208 / e-2008, Opel Corsa-e / Mokka-e, Citroën ë-C4 (1'er):** elektrik tahrik sistemi arızası ve yolda kalma.
+- **Renault Zoe (1):** şarj hatası mesajları ve şarjın kesilmesi. **Porsche Taycan (1):** yüksek gerilim batarya modülü kısa devre riski (geri çağırma).
+
+### Araştırılıp eklenmeyen gruplar
+
+Plana 19 yeni `–` satırı işlendi (toplam 132). Her satırın nedeni [KAPSAM.md](KAPSAM.md) içinde yazılıdır. Başlıca nedenler:
+
+- **Kanıt tek siteye dayanıyor (çoğunlukla Şikâyetvar):** Renault Megane E-Tech, Fiat 500e, Kia Niro EV / EV3, BYD Dolphin / Seal, MG ZS EV, Dacia Spring, Audi Q4 e-tron, Skoda Enyaq / Elroq.
+- **Geri çağırma var ama Türkiye kapsamı ya da Türkiye bildirimi yok:** Hyundai Kona Electric, Volvo EX30, VW ID.4 / ID.3 / ID.7, Cupra Born, BMW iX / i4, Audi e-tron GT, Nissan Leaf, Mini Cooper SE.
+- **Modele özgü kaynak çıkmadı ya da yanlış model:** Tesla Model 3 (sonuçlar Model Y ve Wall Connector'a ait), BMW i3 (Türkiye'de range extender yok), Chery Omoda E5 (çıkanlar benzinli Omoda 5), Smart #1.
+
+### Kanıtı sınırlı ayrıntılar
+
+- **Kilometre aralıkları:** elektrikli şikâyetlerin çoğunda kilometre yazmıyor. Kilometre kaynakta olmayan kayıtlarda (Model Y gıcırtı, Togg ekran, BYD Atto 3, MG4, Zoe, EQA / EQB, Taycan, Opel Corsa-e / Mokka-e, Citroën ë-C4) aralık araçların yaşına ya da aynı kaynaklardaki diğer kilometrelere göre kaba tahmin edildi ve bu ilgili `detay` metninde söylendi.
+- **Togg T10X:** Togg'un resmî açıklaması ya da servis bülteni bulunamadı; güncelleme ve sorun arasındaki ilişkiler kullanıcı yorumu. Dönem kırılımı eklenmedi, çünkü "v1 / v2" donanım seviyesini mi model yılını mı kastettiği net değil.
+- **Tesla Model Y cam tavan:** Tesla'nın teknik açıklaması yok; nedenler kullanıcı teorileri, servisin "darbe kaynaklı" gerekçesi de kullanıcı aktarımı. Fiyatlar tarihsiz.
+- **BYD Atto 3 12V akü:** Şikâyetvar dışındaki iki kaynak tek vaka (Malezya'dan bir haber, İngiltere'den bir SpeakEV konusu); Türkiye'den kilometre yok.
+- **MG4:** V1 / V2 ve "r66 yazılımı" iddiaları tek kullanıcıya dayanıyor, doğrulanmadı.
+- **Ioniq 5 / 6 ve EV6:** geri çağırma kapsamı ABD'ye ait; Türkiye'de DonanımHaber'de paylaşılan "41D033" güncellemesi resmî belgeyle doğrulanmadı. EV6'da Türkiye şikâyetleri 12V akü ve garanti kapsamı üzerine; ICCU ile bağlantısı kaynaklarda kurulmuyor.
+- **EQA / EQB:** Türkiye'de değişim takvimi belirsiz; batarya garantisinin bakım gecikmesi gerekçesiyle iptal edildiği iddiası doğrulanmadı.
+- **Peugeot / Opel / Citroën:** uyarının nedeni araca göre değişiyor (12V akü, OBC, şanzıman kontrolcüsü, klima kompresörü, kablo demeti); SpeakEV ağırlıklı olarak İngiltere'den. Citroën ë-C4 yalnızca iki siteyle (Şikâyetvar, electrive) destekleniyor.
+- **Renault Zoe:** Türkiye'den birkaç şikâyet; ayrıntılar ağırlıkla SpeakEV'den. Bir Ekşi Sözlük kullanıcısının "istasyonlar bozuk" aktarımı tek vaka.
+- **Porsche Taycan:** DonanımHaber'deki modül değişimi tek kullanıcı; Şikâyetvar'daki elektrik sistemi uyarısının geri çağırmayla ilişkisi kurulamadı.
+
+### Yalnızca iki siteyle desteklenen yeni maddeler
+
+- MG MG4 Electric (2023-): DC hızlı şarj istasyonlarında şarj alamama (DonanımHaber Forum, Şikâyetvar)
+- Citroen ë-C4 / ë-C4 X (2021-): Elektrikli çekiş sistemi arızası ve yolda kalma (electrive.com, Şikâyetvar)
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- **Togg ekran çözümü:** arama özetinin "menüden sıfırlayın, Togg Care'den talep açın" tavsiyesi kaynağı gösterilmediği için çıkarıldı; yerine kaynaktaki ifadeler (yeniden başlatma, güncelleme ve sıfırlama yapılmamasının bir yazarca suçlanması, randevu ve onarım süreleri) yazıldı.
+- **Model Y cam tavan:** forum başlıklarındaki tek bir kullanıcının anlatımı "kullanıcılar" diye çoğul yazılmıştı, tek kullanıcı olarak düzeltildi.
+- **Hyundai Kona Electric:** ilk taslakta batarya yangını geri çağırmasıyla eklenmesi düşünüldü; Türkiye'de resmî satışın Eylül 2021'de başladığı (geri çağırma penceresinin 2017-2020 olduğu) görülünce çıkarıldı.
+- **Volvo EX30 ve VW ID. geri çağırmaları:** Türkiye kapsamı doğrulanamadığı için kayıt açılmadı, plan notuna yazıldı.
+- **Zoe başlangıç yılı:** Türkiye'de Z.E. 50 Aralık 2020'de satışa çıktı, ama bir şikâyet 2019 model araca ait; kayıt "2019-" olarak açıldı.
+
+### Dikkat edilecek sınırlar
+
+- Elektrikli filo genç ve küçük; "kronik" burada "birkaç bağımsız kullanıcı aynı arızayı tekrar bildiriyor" düzeyinde. Şikâyetvar ağırlığı yüksek; bu site sorunlu vakaları öne çıkarır, bir sorunun orada görünmesi sıklığı göstermez.
+- Şikâyetlerin büyük kısmı servis gecikmesi, parça beklemesi ve garanti tartışması üzerine; bunlar teknik arıza olmadığı için ancak bir arızanın bağlamı olarak kayıtlara girdi.
+- Geri çağırma bilgileri ABD, Avrupa ve Çin kayıtlarına dayanıyor; kapsam için şasi numarasıyla yetkili servise ya da Ticaret Bakanlığı'nın geri çağırma kayıtlarına bakmak gerekir.
+- Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen 44 maddeye (3. aşama sonundaki 22 ve 4. aşamada eklenen 22) üçüncü bir kaynak eklenebilir.
-3. Kanıtı yetersiz bulunan 113 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
-4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 71 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
-5. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.
+2. Yalnızca iki siteyle desteklenen 46 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22 ve 5. aşamada eklenen 2) üçüncü bir kaynak eklenebilir.
+3. Kanıtı yetersiz bulunan 132 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
+4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 82 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
+5. Elektrikli araçlarda geri çağırma kaydı bulunan ama Türkiye kapsamı doğrulanamayan aileler (Volvo EX30, VW ID. serisi, Mini Cooper SE, BMW iX / i4, Audi e-tron GT) için Türkiye distribütörlerinin duyuruları ya da Ticaret Bakanlığı geri çağırma kayıtları bulunursa kayıt açılabilir.
+6. Hibrit ve plug-in hibrit araçlar (Toyota hibritleri, BYD Seal U DM-i gibi) bu aşamada kapsam dışı bırakıldı; istenirse aynı kurallarla eklenebilir.
+7. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.

@@ -2,8 +2,9 @@
 
 Türkiye'de yaygın olarak kullanılan otomobillerin bilinen kronik sorunlarını
 marka, model ve motor bazında listeleyen, her maddesi kaynaklı JSON veritabanı.
-Kapsam son 10-15 yılın araçlarıdır (yaklaşık 2011 model yılı ve sonrası). Sorunlar,
-kaynaklar destekliyorsa üretim yılına göre kırılır (ör. revizyon öncesi ve sonrası).
+Kapsam son 10-15 yılın araçlarıdır (yaklaşık 2011 model yılı ve sonrası); elektrikli
+araçlar da kapsamdadır. Sorunlar, kaynaklar destekliyorsa üretim yılına göre kırılır
+(ör. revizyon öncesi ve sonrası).
 
 > **Uyarı:** Veriler kullanıcı şikâyetleri, forumlar, servis bültenleri ve geri
 > çağırma kampanyaları gibi kamuya açık bilgilerden derlenmiştir ve yalnızca
@@ -65,7 +66,7 @@ kaynaklar destekliyorsa üretim yılına göre kırılır (ör. revizyon öncesi
 | --- | --- |
 | `marka` | Üretici adı (ör. `Renault`) |
 | `model` | Model adı; kasa kodu ve üretim yılları parantez içinde (ör. `Megane 3 / Fluence (2009-2016)`) |
-| `motor` | Motor adı; motor kodu ve gerekiyorsa şanzıman parantez içinde (ör. `1.5 dCi (K9K, EDC)`) |
+| `motor` | Motor adı; motor kodu ve gerekiyorsa şanzıman parantez içinde (ör. `1.5 dCi (K9K, EDC)`). Elektrikli araçlarda `Elektrik` ile başlar ve batarya ya da sürüm bilgisi parantez içinde yazılır (ör. `Elektrik (52,4 kWh ve 88,5 kWh)`) |
 | `uretim_yillari` | Bu model ve motor kombinasyonunun üretim veya Türkiye satış yılları. `bitis` değeri `null` ise üretim sürüyor |
 | `sorun_adi` | Sorunun kısa adı |
 | `etkilenen_parca` | Arızanın kaynaklandığı parça veya sistem |
@@ -81,7 +82,7 @@ Risk seviyeleri:
 - **Düşük:** Konfor veya aşınmaya yönelik, aracı yolda bırakmayan sorunlar.
 - **Orta:** Onarım gerektiren, ihmal edilirse büyüyebilecek sorunlar.
 - **Yüksek:** Motor/şanzıman hasarına veya aracın yolda kalmasına yol açabilen,
-  onarımı pahalı sorunlar.
+  onarımı pahalı sorunlar (elektrikli araçlarda batarya, şarj ünitesi ya da 12V akü kaynaklı güç kaybı dahil).
 
 ## Dönem kırılımı
 
@@ -120,6 +121,17 @@ makyaj. Veritabanı bunları şu kurala göre ele alır:
 - Aynı motoru paylaşan modeller ayrı kayıt olarak durur (ör. 1.6 TDI CAYC: Polo ve Caddy). Bir kaydın verisi başka
   bir modelin kayıtlarından alındıysa bu metinde belirtilir (ör. Opel Grandland X DV5 kilometre aralığı Peugeot / Citroën
   kaydındaki kaynaklardan).
+
+## Elektrikli araçlar
+
+Elektrikli araçlar (yalnızca tam elektrikliler; hibrit ve plug-in hibritler dahil değildir) diğer kayıtlarla aynı
+kurallarla eklenir: her sorun için en az iki site, bunlardan en az biri deneyim ya da resmî türünde. Elektrikli
+araçlara özgü noktalar:
+
+- `motor` alanı `Elektrik` ile başlar; sorunlar batarya, şarj (dahili şarj cihazı OBC, entegre şarj kontrol ünitesi ICCU), 12V yardımcı akü, elektrik tahrik sistemi ve yazılım gibi parçalara aittir.
+- Filtre kutusundaki "Yalnızca elektrikli araçlar" seçeneği ya da arama kutusuna `elektrik` yazmak yalnızca bu kayıtları gösterir.
+- Filo genç olduğu için (Türkiye'de çoğu 2022 sonrası) kilometre verisi azdır; şikâyet sahipleri çoğu zaman kilometre yazmaz. Kaynakta kilometre yoksa aralık araçların yaşına göre kaba tahmin edilir ve bu ilgili `detay` metninde söylenir.
+- Geri çağırma kayıtlarının çoğu ABD (NHTSA) ya da Avrupa (KBA) kaynaklıdır. Türkiye'deki araçların kapsamı doğrulanamıyorsa bu kayıtta belirtilir; doğrulanamayan aileler `KAPSAM.md` içinde nedenleriyle `–` olarak durur.
 
 ## Ayrıntılar (`detay`)
 

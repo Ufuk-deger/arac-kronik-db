@@ -792,6 +792,7 @@
           <label class="cip" data-risk="dusuk"><input type="radio" name="risk" id="risk-dusuk" value="dusuk"><span><i class="lamba"></i>Düşük <b class="say" data-say="dusuk"></b></span></label>
         </div>
         <label class="onay"><input id="kmfiltre" type="checkbox" disabled> Yalnızca bu kilometrede görülenler</label>
+        <label class="onay"><input id="elektrikli" type="checkbox"> Yalnızca elektrikli araçlar</label>
         <label class="onay"><input id="detayac" type="checkbox"> Tüm ayrıntıları aç</label>
         <button type="button" id="temizle" hidden>Filtreleri temizle</button>
       </div>
@@ -1039,6 +1040,8 @@
     const kmGiris = document.getElementById("km");
     const yilGiris = document.getElementById("yil");
     const kmFiltre = document.getElementById("kmfiltre");
+    const elektrikliFiltre = document.getElementById("elektrikli");
+    if (!araclar.some((a) => a.motor.startsWith("Elektrik"))) elektrikliFiltre.closest("label").hidden = true;
     const riskler = [...document.querySelectorAll('input[name="risk"]')];
     const sayaclar = [...document.querySelectorAll("[data-say]")];
     const sonuc = document.getElementById("sonuc");
@@ -1077,7 +1080,8 @@
       for (const kayit of kayitlar) {
         const yb = kayit.arac.uretim_yillari;
         const yilUyar = yil == null || (yil >= yb.baslangic && (yb.bitis == null || yil <= yb.bitis));
-        const markaUyar = (!marka || kayit.arac.marka === marka) && yilUyar;
+        const elektrikUyar = !elektrikliFiltre.checked || kayit.arac.motor.startsWith("Elektrik");
+        const markaUyar = (!marka || kayit.arac.marka === marka) && yilUyar && elektrikUyar;
         let gorunen = 0;
         for (const s of kayit.sorunlar) {
           let durum = null;
@@ -1132,7 +1136,7 @@
       }
       for (const span of sayaclar) span.textContent = riskSay[span.dataset.say];
 
-      const filtreli = terimler.length > 0 || marka !== "" || risk !== "" || sadeceKm || yil != null;
+      const filtreli = terimler.length > 0 || marka !== "" || risk !== "" || sadeceKm || yil != null || elektrikliFiltre.checked;
       sonuc.textContent = filtreli
         ? `${aracAdet} kayıtta ${sorunAdet} sorun gösteriliyor`
         : `Tüm kayıtlar gösteriliyor: ${kayitlar.length} araç/motor, ${toplamSorun} sorun`;
@@ -1146,6 +1150,7 @@
       kmGiris.value = "";
       yilGiris.value = "";
       kmFiltre.checked = false;
+      elektrikliFiltre.checked = false;
       riskler[0].checked = true;
       guncelle();
     }
@@ -1159,6 +1164,7 @@
       kmGiris.value = km == null ? "" : sayi(km);
     });
     kmFiltre.addEventListener("change", guncelle);
+    elektrikliFiltre.addEventListener("change", guncelle);
     for (const r of riskler) r.addEventListener("change", guncelle);
     temizle.addEventListener("click", sifirla);
     document.getElementById("temizle-bos").addEventListener("click", sifirla);
