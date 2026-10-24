@@ -612,11 +612,19 @@
           "belirtiler": "Yağ basıncı uyarısı, kayış parçacıklarının yağ pompası süzgecini tıkaması, fren vakum pompası arızası nedeniyle fren pedalının sertleşmesi, motor hasarı; kayış çatlağı 55.000-70.000 km'de bile görülebiliyor",
           "tahmini_km_araligi": "40.000 - 120.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yağ içinde çalışan kauçuk triger kayışı zamanla dağılıyor ve parçacıklar yağ pompası süzgecini tıkıyor (And Mehmet Çetin, Ekşi Sözlük). Motor yağına yakıt karışması (özellikle kısa şehir içi sürüşte) yağın özelliklerini bozup kayışa zarar verebiliyor (bir kaynak). Kitapçıkta 180.000 km yazsa da pratikte 100-120 bin km'de değişim önerildiği yazılıyor.",
+            "teshis": "Yağ basıncı uyarısı; karter kapağı söküldüğünde süzgeçte ve karterde kayış artıkları görülüyor. Bir kullanıcı karter kapağını söküp filtreyi tıkayan aksamın temizlenmesinin faydalı olduğunu yazıyor.",
+            "cozum": "Kayış değişimi ve karter/yağ süzgeci temizliği. Kaynaklarda PSA/Stellantis onaylı yağ (B71 2312) kullanmak, yağı sık değiştirmek (bir kaynak 15.000 değil 10.000 km öneriyor) ve kayış aşınmasını periyodik kontrol ettirmek öneriliyor.",
+            "maliyet": "Bir kullanıcı işlemin yaklaşık 10 bin TL'ye, bir diğeri 25 bine yakın bir masrafa mal olacağını yazıyor (eski, bölgeye göre değişebilir; güncel teklif alın).",
+            "onlem": "Değişim aralığı konusunda tek bir görüş yok: bir yorumcu en fazla 40 bin km/3 yıl, başka biri 60 bin km, Gen3 için bir kaynak 100-120 bin km öneriyor; kitapçık değeri 180 bin km. Yetkili servis bülteni ve motor jenerasyonunu (Gen2/Gen3) şasi numarasıyla doğrulayın."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/citroen/citroen-c-elysee-12-puretech-motor-sorunlari-ve-yuksek-bakim-maliyeti",
             "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
             "https://eksisozluk.com/1-2-puretech--6399271",
-            "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/"
+            "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
+            "https://eksisozluk.com/1-2-puretech--6399271?p=4"
           ]
         }
       ]
@@ -636,6 +644,13 @@
           "belirtiler": "Yağ basıncı uyarısı, kayış parçacıklarının yağ pompası süzgecini tıkaması, fren vakum pompası arızası nedeniyle fren pedalının sertleşmesi, motor hasarı; kayış çatlağı 55.000-70.000 km'de bile görülebiliyor",
           "tahmini_km_araligi": "40.000 - 120.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yağ içinde çalışan kauçuk triger kayışı zamanla dağılıyor ve parçacıklar yağ pompası süzgecini tıkıyor (And Mehmet Çetin, Ekşi Sözlük). Motor yağına yakıt karışması (özellikle kısa şehir içi sürüşte) yağın özelliklerini bozup kayışa zarar verebiliyor (bir kaynak). Kitapçıkta 180.000 km yazsa da pratikte 100-120 bin km'de değişim önerildiği yazılıyor.",
+            "teshis": "Yağ basıncı uyarısı; karter kapağı söküldüğünde süzgeçte ve karterde kayış artıkları görülüyor. Bir kullanıcı karter kapağını söküp filtreyi tıkayan aksamın temizlenmesinin faydalı olduğunu yazıyor.",
+            "cozum": "Kayış değişimi ve karter/yağ süzgeci temizliği. Kaynaklarda PSA/Stellantis onaylı yağ (B71 2312) kullanmak, yağı sık değiştirmek (bir kaynak 15.000 değil 10.000 km öneriyor) ve kayış aşınmasını periyodik kontrol ettirmek öneriliyor.",
+            "maliyet": "Bir kullanıcı işlemin yaklaşık 10 bin TL'ye, bir diğeri 25 bine yakın bir masrafa mal olacağını yazıyor (eski, bölgeye göre değişebilir; güncel teklif alın).",
+            "onlem": "Değişim aralığı konusunda tek bir görüş yok: bir yorumcu en fazla 40 bin km/3 yıl, başka biri 60 bin km, Gen3 için bir kaynak 100-120 bin km öneriyor; kitapçık değeri 180 bin km. Yetkili servis bülteni ve motor jenerasyonunu (Gen2/Gen3) şasi numarasıyla doğrulayın."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/citroen/c3/kronik",
             "https://www.sikayetvar.com/citroen/citroen-c3-aircross-triger-kayisi-arizasi-garanti-kapsamina-alinmali",
@@ -644,7 +659,8 @@
             "https://forum.donanimhaber.com/1-2-puretech-triger-degisimi--161243255",
             "https://eksisozluk.com/1-2-puretech--6399271",
             "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
-            "https://www.completecar.ie/askusanything/question/18081/Do-all-Peugeot-PureTech-engines-have-wet-belt-issues"
+            "https://www.completecar.ie/askusanything/question/18081/Do-all-Peugeot-PureTech-engines-have-wet-belt-issues",
+            "https://eksisozluk.com/1-2-puretech--6399271?p=4"
           ],
           "donem_kirilimi": [
             {
@@ -974,11 +990,19 @@
           "belirtiler": "Çekiş kaybı, tekleme, siyah duman, zor çalışma, motor arıza lambası; bazı sahipler arızanın garanti kapsamı dışında bırakıldığını bildiriyor",
           "tahmini_km_araligi": "40.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forumlarda 1.3 Multijet'te enjektör arızası en yaygın sorunlardan biri olarak anılıyor; güç kaybı, duman ve yakıt tüketiminde artışa yol açıyor. Kaynaklarda net bir kök neden verilmiyor. Bazı sahipler arızanın garanti dışı bırakıldığını bildiriyor (mevcut belirti).",
+            "teshis": "Güç kaybı, tekleme, siyah duman, zor çalışma, motor arıza lambası. Forumlarda önce OBD ile arıza kaydının okutulması (ucuz ilk adım), ardından enjektörlerin sökülüp test cihazında ölçülmesi öneriliyor.",
+            "cozum": "Enjektörlerin test cihazında ölçülüp arızalı olanın onarımı ya da değişimi; temizlik her zaman yetmeyebiliyor.",
+            "maliyet": "Şikâyetvar'da bir kullanıcı enjektör arızası için 53 bin TL masraf çıktığını yazıyor (tarih ve motor sürümü belirsiz); başka güncel rakam bulunamadı."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/fiat/doblo/enjektor",
             "https://www.sikayetvar.com/fiat/doblo/kronik",
             "https://forum.donanimhaber.com/yeni-doblo-alacaklar-dikkat--46336196",
-            "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762"
+            "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
+            "https://forum.donanimhaber.com/1-3-multijet-cekis-problemi--34957272",
+            "https://forum.donanimhaber.com/fiat-doblo-1-3-mjet-stop-etme-sorunu--150456532"
           ]
         },
         {
@@ -987,11 +1011,20 @@
           "belirtiler": "Güç kaybı, ıslık sesi, motor arıza lambası; değişimden sonra tekrarlayan arıza ve yüksek parça maliyeti bildiriliyor",
           "tahmini_km_araligi": "50.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Turbo belirtisi (güç kaybı, ıslık) turbonun kendisinden olduğu kadar hava giriş hortumunun yırtılmasından ya da kelepçenin gevşemesinden de kaynaklanabiliyor (DonanımHaber). Bir kullanıcı yağ kalitesinin turbo ömrünü doğrudan etkilediğini yazıyor.",
+            "teshis": "Güç kaybı, ıslık sesi, arıza lambası. Önce hava giriş hortumları ve kelepçeler kontrol edilmeli (forum önerisi).",
+            "cozum": "Turbo değişimi. Şikâyetvar'da bir kullanıcı 4 yıllık garanti bitiminden 6 ay sonra turbo arızası yaşadığını, servisin parça fiyatını 40.000 TL söylediğini ve Fiat'ın en fazla %10 destek verebileceğini yazıyor.",
+            "maliyet": "Eski forum paylaşımlarında (yıllar öncesi) turbo 909 TL, toplam 1.239 TL ya da 400 TL; yakın tarihli Şikâyetvar şikâyetinde yalnızca parça 40.000 TL. Aradaki fark büyük; güncel teklif alın.",
+            "onlem": "Periyodik bakımı ve kaliteli yağı aksatmamak (forum yorumu)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/fiat/doblo/turbo",
             "https://www.sikayetvar.com/fiat/doblo/kronik",
             "https://forum.donanimhaber.com/yeni-doblo-alacaklar-dikkat--46336196",
-            "https://forum.donanimhaber.com/1-3-multijet-cekis-problemi--34957272"
+            "https://forum.donanimhaber.com/1-3-multijet-cekis-problemi--34957272",
+            "https://forum.donanimhaber.com/turbo-fiyati-909-tl-toplam-1-239-tl-fiat-doblo-1-3-multi-jet-turbo-arizasi--62225627",
+            "https://www.sikayetvar.com/fiat/fiat-doblo-multijet-turbo-arizasi"
           ]
         },
         {
@@ -1000,10 +1033,21 @@
           "belirtiler": "Performans düşüşü, yakıt tüketiminde artış, motor arıza lambası, sık rejenerasyon",
           "tahmini_km_araligi": "80.000 - 160.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe kullanımda EGR ve DPF kurumlanıyor (Doblo konularında EGR için kurum birikimi nedeniyle sensörün çalışamadığı ve manifoldun temizlenmesi gerektiği anlatılıyor). Forumlarda 1.3 Multijet'te çekiş kaybı, stop etme ve beyaz duman şikâyetlerinde EGR, DPF, enjektör ve turbonun birlikte kontrol edilmesi öneriliyor.",
+            "teshis": "Çekiş kaybı, motor arıza lambası, rölantide stop etme, DPF uyarısı ve sık rejenerasyon. Beyaz duman ve aşırı yakıt tüketiminde EGR, DPF, enjektör ve turbo birlikte kontrol edilmeli; önce arıza kodları okutulmalı (DonanımHaber).",
+            "cozum": "EGR valfi kirlenmesinde periyodik temizlik çoğu vakada işe yarıyor, ileri durumda valf değişimi gerekebiliyor (DonanımHaber). DPF için temizlik (bir kullanıcı 7.500 TL ödeyerek temizlettiğini yazıyor) ya da değişim. Forumlarda EGR/DPF iptali de yaygın ama uygulamanın kalitesi çok değişiyor, muayeneden kalma ve hukuki risk taşıyor; bir kullanıcı iptal sonrası arıza lambasının sönmediğini yazıyor.",
+            "maliyet": "Eski ve tarihli forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), EGR valfi servis fiyatı 1.515 TL / yan sanayi parçası ~400 TL ve işçilik ~150 TL, DPF temizliği 7.500 TL; bir kullanıcıya DPF değişimi için servis ~45 bin TL söylenmiş; bir atölyeye EGR ve partikül temizliği için 6.000 TL ödenip sonuç tatmin edici olmamış. Güncel teklif için servisten yazılı fiyat alın.",
+            "onlem": "Forumlarda DPF'nin kendini temizleyebilmesi için düzenli aralıklarla en az 20-30 dakika orta-yüksek devirli sürüş öneriliyor. İkinci elde EGR/DPF'si iptal edilmiş araçlardan uzak durulması öneriliyor: hem muayene hem hukuki risk taşıyor."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
             "https://eksisozluk.com/1-3-multijet--5926748?p=3",
-            "https://forum.donanimhaber.com/yeni-doblo-alacaklar-dikkat--46336196"
+            "https://forum.donanimhaber.com/yeni-doblo-alacaklar-dikkat--46336196",
+            "https://forum.donanimhaber.com/egea-1-3-multijet-beyaz-duman-fazla-yakit-cozuldu--147630865",
+            "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
+            "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
+            "https://forum.donanimhaber.com/fiat-doblo-egr-arizasi--85524084"
           ]
         }
       ]
@@ -1023,11 +1067,22 @@
           "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide stop etme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe ve şehir içi kullanımda DPF'nin kendini temizleme (rejenerasyon) döngüsünü tamamlayamaması ve EGR valfinin kurumla kirlenmesi, kullanıcıların en sık aktardığı neden (Araclo, DonanımHaber). Bir forum kullanıcısı filtrenin dolmasından kalın mazotu sorumlu tutuyor (kanıtlanmamış görüş).",
+            "teshis": "Çekiş kaybı, motor arıza lambası, rölantide stop etme, DPF uyarısı ve sık rejenerasyon. Beyaz duman ve aşırı yakıt tüketiminde EGR, DPF, enjektör ve turbo birlikte kontrol edilmeli; önce arıza kodları okutulmalı (DonanımHaber).",
+            "cozum": "EGR valfi kirlenmesinde periyodik temizlik çoğu vakada işe yarıyor, ileri durumda valf değişimi gerekebiliyor (DonanımHaber). DPF için temizlik (bir kullanıcı 7.500 TL ödeyerek temizlettiğini yazıyor) ya da değişim. Forumlarda EGR/DPF iptali de yaygın ama uygulamanın kalitesi çok değişiyor, muayeneden kalma ve hukuki risk taşıyor; bir kullanıcı iptal sonrası arıza lambasının sönmediğini yazıyor.",
+            "maliyet": "Eski ve tarihli forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), EGR valfi servis fiyatı 1.515 TL / yan sanayi parçası ~400 TL ve işçilik ~150 TL, DPF temizliği 7.500 TL; bir kullanıcıya DPF değişimi için servis ~45 bin TL söylenmiş; bir atölyeye EGR ve partikül temizliği için 6.000 TL ödenip sonuç tatmin edici olmamış. Güncel teklif için servisten yazılı fiyat alın.",
+            "onlem": "Forumlarda DPF'nin kendini temizleyebilmesi için düzenli aralıklarla en az 20-30 dakika orta-yüksek devirli sürüş öneriliyor. İkinci elde EGR/DPF'si iptal edilmiş araçlardan uzak durulması öneriliyor: hem muayene hem hukuki risk taşıyor."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari",
             "https://www.fiatforum.com/threads/1-3-multijet.476537/",
             "https://otopark.com/forum/threads/egea-dpf-iptali-sonrasi-yasanan-sorunlar.15711/",
-            "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762"
+            "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
+            "https://forum.donanimhaber.com/egea-1-3-multijet-beyaz-duman-fazla-yakit-cozuldu--147630865",
+            "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
+            "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-alinir-mi-performans-kronik-sorunlar-ve-kullanici-yorumlari-2026"
           ]
         },
         {
@@ -1036,11 +1091,22 @@
           "belirtiler": "DPF uyarısı, güç kısıtlaması, tamamlanamayan rejenerasyonlar nedeniyle yağ seviyesinin yükselmesi",
           "tahmini_km_araligi": "80.000 - 160.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe ve şehir içi kullanımda DPF rejenerasyonu tamamlanamıyor ve filtre zamanla tıkanıyor (kullanıcıların en sık aktardığı sorun); yarım kalan rejenerasyonlarda yakıtın yağa karışıp yağ seviyesini yükseltmesi mevcut belirtilerde anılıyor. Bir forum kullanıcısı filtrenin dolmasından kalın mazotu sorumlu tutuyor (kanıtlanmamış görüş).",
+            "teshis": "Çekiş kaybı, motor arıza lambası, rölantide stop etme, DPF uyarısı ve sık rejenerasyon. Beyaz duman ve aşırı yakıt tüketiminde EGR, DPF, enjektör ve turbo birlikte kontrol edilmeli; önce arıza kodları okutulmalı (DonanımHaber).",
+            "cozum": "EGR valfi kirlenmesinde periyodik temizlik çoğu vakada işe yarıyor, ileri durumda valf değişimi gerekebiliyor (DonanımHaber). DPF için temizlik (bir kullanıcı 7.500 TL ödeyerek temizlettiğini yazıyor) ya da değişim. Forumlarda EGR/DPF iptali de yaygın ama uygulamanın kalitesi çok değişiyor, muayeneden kalma ve hukuki risk taşıyor; bir kullanıcı iptal sonrası arıza lambasının sönmediğini yazıyor.",
+            "maliyet": "Eski ve tarihli forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), EGR valfi servis fiyatı 1.515 TL / yan sanayi parçası ~400 TL ve işçilik ~150 TL, DPF temizliği 7.500 TL; bir kullanıcıya DPF değişimi için servis ~45 bin TL söylenmiş; bir atölyeye EGR ve partikül temizliği için 6.000 TL ödenip sonuç tatmin edici olmamış. Güncel teklif için servisten yazılı fiyat alın.",
+            "onlem": "Forumlarda DPF'nin kendini temizleyebilmesi için düzenli aralıklarla en az 20-30 dakika orta-yüksek devirli sürüş öneriliyor. İkinci elde EGR/DPF'si iptal edilmiş araçlardan uzak durulması öneriliyor: hem muayene hem hukuki risk taşıyor."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/fiat/fiat-egea-araclarda-kronik-dpf-arizasi-ve-cozum-talebi",
             "https://otopark.com/forum/threads/egea-dpf-iptali-sonrasi-yasanan-sorunlar.15711/",
             "https://www.fiatforum.com/threads/fiat-500-1-3-multijet-egr-dpf-oil-level.500987",
-            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari"
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-kronik-sorunlari",
+            "https://forum.donanimhaber.com/egea-1-3-multijet-beyaz-duman-fazla-yakit-cozuldu--147630865",
+            "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
+            "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
+            "https://www.araclo.com/blog/fiat-egea-1.3-multijet-alinir-mi-performans-kronik-sorunlar-ve-kullanici-yorumlari-2026"
           ]
         }
       ]
@@ -1060,10 +1126,18 @@
           "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı; yağ azaldığında yağ lambası geç yanabiliyor",
           "tahmini_km_araligi": "20.000 - 80.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Servis ve kullanıcı kaynakları piston segmanlarının ve supap contalarının aşınmasını ana neden olarak gösteriyor; forumlarda fabrika segmanının yağı yeterince sıyıramadığı ve karter yağ hacminin düşük olduğu öne sürülüyor (doğrulanmamış teknik iddialar). PCV valfi de ayrıca tartışılıyor.",
+            "teshis": "Yağ seviyesini min-max arasında düzenli takip etmek gerekiyor. Eksilme oranı kaynaklarda çelişiyor: bir forum kullanıcısı 2-3 bin km'de 1 litre diyor, başkaları bunu abartılı buluyor; Şikâyetvar'da 20 bin km civarında yağın bittiğini bildirenler var. Yağ azaldığında yağ lambası geç yanabiliyor (mevcut belirti).",
+            "cozum": "Forumlarda en sık öneri yetkili serviste segman değişimi. Bazı kullanıcılar çelik ('rampir') segmanla sorunun çözüldüğünü, yüksek kilometrede bile yağ yakmadığını yazıyor; diğerleri segman değişiminin her zaman kalıcı olmadığını, kaçağın başka contalardan sürebileceğini belirtiyor.",
+            "onlem": "Yağ seviyesini düzenli kontrol etmek, kaliteli ve tanınmış marka yağ kullanmak, belirgin düşüşte yetkili servise başvurup garanti kapsamını sormak."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/fiat-egea-1.4-fire-sorunlari-bakim-ve-satin-alma-rehberi-2026",
             "https://forum.donanimhaber.com/fiat-egea-1-4-benzinli-motorda-yag-yakma-problemi--149223124",
-            "https://www.sikayetvar.com/fiat/fiat-14-fire-yag-eksiltme"
+            "https://www.sikayetvar.com/fiat/fiat-14-fire-yag-eksiltme",
+            "https://forum.donanimhaber.com/egea-1-4-fire-motor-pcv-valfi-kullanimi--159189020-2",
+            "https://www.sikayetvar.com/egea-2021/yag"
           ]
         }
       ]
@@ -1095,10 +1169,20 @@
           "belirtiler": "Çekiş kaybı, DPF uyarısı, sık rejenerasyon, motor arıza lambası",
           "tahmini_km_araligi": "80.000 - 160.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe ve şehir içi kullanımda DPF'nin kendini temizleme (rejenerasyon) döngüsünü tamamlayamaması ve EGR valfinin kurumla kirlenmesi, kullanıcıların en sık aktardığı neden (Araclo, DonanımHaber). Bir forum kullanıcısı filtrenin dolmasından kalın mazotu sorumlu tutuyor (kanıtlanmamış görüş).",
+            "teshis": "Çekiş kaybı, motor arıza lambası, rölantide stop etme, DPF uyarısı ve sık rejenerasyon. Beyaz duman ve aşırı yakıt tüketiminde EGR, DPF, enjektör ve turbo birlikte kontrol edilmeli; önce arıza kodları okutulmalı (DonanımHaber).",
+            "cozum": "EGR valfi kirlenmesinde periyodik temizlik çoğu vakada işe yarıyor, ileri durumda valf değişimi gerekebiliyor (DonanımHaber). DPF için temizlik (bir kullanıcı 7.500 TL ödeyerek temizlettiğini yazıyor) ya da değişim. Forumlarda EGR/DPF iptali de yaygın ama uygulamanın kalitesi çok değişiyor, muayeneden kalma ve hukuki risk taşıyor; bir kullanıcı iptal sonrası arıza lambasının sönmediğini yazıyor.",
+            "maliyet": "Eski ve tarihli forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), EGR valfi servis fiyatı 1.515 TL / yan sanayi parçası ~400 TL ve işçilik ~150 TL, DPF temizliği 7.500 TL; bir kullanıcıya DPF değişimi için servis ~45 bin TL söylenmiş; bir atölyeye EGR ve partikül temizliği için 6.000 TL ödenip sonuç tatmin edici olmamış. Güncel teklif için servisten yazılı fiyat alın.",
+            "onlem": "Forumlarda DPF'nin kendini temizleyebilmesi için düzenli aralıklarla en az 20-30 dakika orta-yüksek devirli sürüş öneriliyor. İkinci elde EGR/DPF'si iptal edilmiş araçlardan uzak durulması öneriliyor: hem muayene hem hukuki risk taşıyor."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/fiat/egea/partikul-filtresi",
             "https://otopark.com/forum/threads/egea-dpf-iptali-sonrasi-yasanan-sorunlar.15711/",
-            "https://www.fiatforum.com/threads/1-3-multijet.476537/"
+            "https://www.fiatforum.com/threads/1-3-multijet.476537/",
+            "https://forum.donanimhaber.com/egea-1-3-multijet-beyaz-duman-fazla-yakit-cozuldu--147630865",
+            "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
+            "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806"
           ]
         },
         {
@@ -1107,10 +1191,19 @@
           "belirtiler": "Düşük hızda silkeleme, kalkışta gecikme ve ani hamle, vites geçişlerinde sarsıntı",
           "tahmini_km_araligi": "40.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DCT kuru kavramalı çift kavramalı şanzımandır. Araclo ağır dur-kalk şehir trafiğinde debriyaj balatalarının erken aşındığını, bazı kullanıcıların 30.000-50.000 km gibi düşük kilometrelerde şanzıman arızası yaşadığını yazıyor. Araclo'nun Egea Cross incelemesi kalkışta gecikme ve ani hamleyi, Fiat'ın şanzımanı 320 Nm torktan koruyan yazılımına bağlıyor (tek kaynak).",
+            "teshis": "Düşük hızda silkeleme, kalkışta gecikme ve ani hamle, vites geçişlerinde sarsıntı.",
+            "cozum": "DonanımHaber'de uzun süreli bir sahip çift kavramalı şanzımanların er geç kavrama değişimi gerektirdiğini, bunun için 80-100 bin km'yi tipik gördüğünü yazıyor (tek kişi deneyimi). Şikâyetvar'da garanti tartışmaları öne çıkıyor: 39.000 km'de baskı balata ve volan arızası bayice garanti dışı bırakılan bir 2025 Egea, 96.000 km'de baskı balata ve volanı ücretli değiştirten bir sahip ve garanti dışı 90.000 TL talep edilen bir baskı balata/volan arızası itirazı gibi başlıklar var.",
+            "maliyet": "Şikâyetvar'daki bir başlıkta garanti dışı baskı balata ve volan arızası için 90.000 TL talep edildiği yazılı (tek vaka, tarihi belirsiz); başka ücret verisi bulunamadı.",
+            "onlem": "Garanti süresindeyken sorunu yazılı kayda geçirtmek; yoğun dur-kalk kullanımda kavrama ömrünün kısaldığı yazılıyor (Araclo)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/fiat/egea/otomatik-sanziman",
             "https://forum.donanimhaber.com/egea-1-6-multijet2-dct-detayli-inceleme-80-bin-km-geride-kaldi--130178669-28",
-            "https://www.araclo.com/blog/fiat-egea-1.6-multijet-130-hp-dct-incelemesi-ne-kadar-yakar-alinir-mi"
+            "https://www.araclo.com/blog/fiat-egea-1.6-multijet-130-hp-dct-incelemesi-ne-kadar-yakar-alinir-mi",
+            "https://www.sikayetvar.com/fiat/egea/volan",
+            "https://www.araclo.com/blog/fiat-egea-cross-incelemesi-motor-secenekleri-sorunlar-ve-kullanici-yorumlari-alinir-mi"
           ]
         }
       ]
@@ -1130,13 +1223,20 @@
           "belirtiler": "Vites geçmeme, şanzıman arıza uyarısı, göstergede vites harfinin yanıp sönmesi, hidrolik yağ kaçağı, hidrolik pompanın sürekli çalışma sesi",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Dualogic robotize bir şanzımandır. Punto/Fiorino/Linea konularında vites geçmeme ya da boşa atma sorununun robot üzerindeki aktüatöre kir/çapak birikmesinden kaynaklanabildiği, çözümün parçanın temizlenip gresleyerek takılması olduğu (yaklaşık 30 dakikalık işlem) yazılı. Benzinli Dualogic'lerde kronik yağ kaçağı olduğu da belirtiliyor.",
+            "teshis": "Vites geçmeme, şanzıman uyarısı, göstergede vites harfinin yanıp sönmesi, hidrolik yağ kaçağı. Bir kullanıcı dizel Dualogic'lerde kronik sorun görülmediğini yazıyor; görüşler ayrışıyor.",
+            "cozum": "Basit vakada aktüatörün temizlenip gresslenmesi. Kavrama ya da hidrolik bileşenlerde sorun varsa yetkili servis ya da Dualogic bilen bir usta; bir kullanıcıya servis doğrudan değişim önermiş ve masraf 6-7 bin TL'ye varabilmiş (eski rakam).",
+            "maliyet": "Eski forum rakamları: aktüatör temizliği düşük maliyetli; doğrudan değişim önerilen vakada 6-7 bin TL (yıl belirsiz, güncel değil)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/fiat/fiat-linea-otomatik-sanziman-arizasi",
             "https://forum.donanimhaber.com/dualogic-linea-almayi-dusunuyorum-almali-miyim--146854142",
             "https://www.fiatforum.com/threads/hydraulic-pump-problems.310766",
             "https://www.fiatforum.com/500/425006-one-only-dualogic-failure-thread-23.html?p=4279881",
             "https://www.service4service.co.uk/car-repairs/gearboxes/fiat-gearboxes",
-            "https://otopark.com/forum/threads/fiat-dualogic-sanziman-bilgi.14475/"
+            "https://otopark.com/forum/threads/fiat-dualogic-sanziman-bilgi.14475/",
+            "https://forum.donanimhaber.com/fiat-fiorino-dualogic-tamiri--153251999"
           ]
         },
         {
@@ -1145,10 +1245,17 @@
           "belirtiler": "Kalkışta tereddüt, trafik ışığında vitese geçmeme, yokuşta kayma hissi",
           "tahmini_km_araligi": "50.000 - 100.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Robotize şanzımanın kuru debriyajı kalkışta ve dur-kalkta yıpranıyor; forumlarda baskı balata değişimi Dualogic'in en bilinen bakım kalemlerinden biri olarak geçiyor.",
+            "teshis": "Kalkışta tereddüt, trafik ışığında vitese geçmeme, yokuşta kayma hissi (mevcut belirtiler).",
+            "cozum": "Kavrama (baskı balata) değişimi.",
+            "maliyet": "Eski forum rakamlarında kavrama değişimi 1.500-4.000 TL ve ~3 bin TL arasında, Fiorino yorumunda komple değişim birkaç bin TL; yıllar öncesine ait, güncel fiyatları yansıtmıyor."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/dualogic-linea-almayi-dusunuyorum-almali-miyim--146854142",
             "https://www.fiatforum.com/threads/dualogic-problem-or-clutch.521638/",
-            "https://www.sikayetvar.com/fiat/fiat-linea-otomatik-sanziman-arizasi"
+            "https://www.sikayetvar.com/fiat/fiat-linea-otomatik-sanziman-arizasi",
+            "https://forum.donanimhaber.com/fiat-fiorino-dualogic-tamiri--153251999"
           ]
         },
         {
@@ -1157,10 +1264,21 @@
           "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide stop etme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe ve şehir içi kullanımda DPF'nin kendini temizleme (rejenerasyon) döngüsünü tamamlayamaması ve EGR valfinin kurumla kirlenmesi, kullanıcıların en sık aktardığı neden (Araclo, DonanımHaber). Bir forum kullanıcısı filtrenin dolmasından kalın mazotu sorumlu tutuyor (kanıtlanmamış görüş).",
+            "teshis": "Çekiş kaybı, motor arıza lambası, rölantide stop etme, DPF uyarısı ve sık rejenerasyon. Beyaz duman ve aşırı yakıt tüketiminde EGR, DPF, enjektör ve turbo birlikte kontrol edilmeli; önce arıza kodları okutulmalı (DonanımHaber).",
+            "cozum": "EGR valfi kirlenmesinde temizlik ya da valf değişimi; ancak bir kullanıcı Euro 5 motorlarda temizliğin işe yaramadığını yazıyor. EGR iptalinin hem sistemi bozabileceği hem de arıza lambasını söndürmeyeceği uyarısı var. İkinci elde DPF/EGR geçmişinin kontrol edilmesi ve 'iptal edilmiş' araçlardan uzak durulması öneriliyor.",
+            "maliyet": "Eski forum rakamı: EGR valfi servis fiyatı 1.515 TL, yan sanayi parçası ~400 TL; EGR temizliği 300-500 TL (2023 yazısı). Güncel değil; yazılı teklif alın.",
+            "onlem": "Forumlarda DPF'nin kendini temizleyebilmesi için düzenli aralıklarla en az 20-30 dakika orta-yüksek devirli sürüş öneriliyor. İkinci elde EGR/DPF'si iptal edilmiş araçlardan uzak durulması öneriliyor: hem muayene hem hukuki risk taşıyor."
+          },
           "kaynaklar": [
             "https://www.araclo.com/vehicles/fiat-linea-1.3-multijet/degerlendirmeler/kullanici-sorunlari",
             "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
-            "https://www.fiatforum.com/threads/1-3-multijet.476537/"
+            "https://www.fiatforum.com/threads/1-3-multijet.476537/",
+            "https://forum.donanimhaber.com/egea-1-3-multijet-beyaz-duman-fazla-yakit-cozuldu--147630865",
+            "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
+            "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
+            "https://forum.donanimhaber.com/1-3-multijet-lineaga-egr-temizligi-yaptiran-varmi--123618112"
           ]
         },
         {
@@ -1169,11 +1287,20 @@
           "belirtiler": "Soğuk çalıştırmada birkaç saniye süren metalik hışırtı, kam/krank senkron hatası ile arıza lambası",
           "tahmini_km_araligi": "150.000 - 250.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda zincirin neden uzadığı açıklanmıyor; vakalar ses ve değişim zamanlaması üzerine. Motor triger zincirli olduğu için periyodik kayış değişimi yok.",
+            "teshis": "Soğuk çalıştırmada birkaç saniyelik metalik hışırtı; bir kullanıcının zinciri kopmuş ve öncesinde şıkırtı duymuş. Ses değişim için önemli bir uyarı sayılıyor.",
+            "cozum": "Zincir seti değişimi; zincirin takılması için motorun indirilmesi gerektiği için işçilik yüksek tutuluyor. Bir kullanıcı bazı ustaların kilit aparatı kullanmadan dişi kaydırabildiğini yazıyor, bu yüzden güvenilir serviste yaptırılması öneriliyor.",
+            "maliyet": "Eski forum rakamları: ~2015'te zincir, filtre seti, yağ ve işçilik 800-1.000 TL; 2019'da servis işçilik+parça 1.200 TL (kampanyalı 700 TL); parça ~180 TL, asıl maliyet işçilik. Yıllar öncesine ait, güncel değil.",
+            "onlem": "Forumda genel tavsiye 120.000 km ya da 5 yıl; temiz kullanılan araçta 180-200 bin km gidebileceğini savunanlar ve servislerin 120 binde önerdiğini aktaranlar var; çoğu kişi değişimi ses başlayınca yapmış."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/linea-1-3-multijet-triger-zincir-degisimi--85642559",
             "https://forum.donanimhaber.com/1-3-multijet-triger-zincir-degisim-zamani-yardim--130469575",
             "https://www.araclo.com/vehicles/fiat-linea-1.3-multijet/degerlendirmeler/kullanici-sorunlari",
-            "https://fiatforum.com/threads/what-goes-wrong-with-multijet-pandas.492092"
+            "https://fiatforum.com/threads/what-goes-wrong-with-multijet-pandas.492092",
+            "https://forum.donanimhaber.com/triger-zinciri-degisim-masrafi--83339532",
+            "https://forum.donanimhaber.com/2015-linea-1-3-mjet-euro-5-motor-triger-zincir-degisim-maliyeti--139580456"
           ]
         }
       ]
@@ -1193,13 +1320,24 @@
           "belirtiler": "Geri vitesin devreye girmemesi, vites geçişlerinde vuruntu, kalkışta titreme, şanzıman hatası; onarım bedelleri yüksek (kullanıcılar 40.000-75.000 TL bildiriyor)",
           "tahmini_km_araligi": "50.000 - 120.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DPS6 Powershift kuru kavramalı çift kavramalı şanzımandır. Ford'un 2012-2016 Focus için servis bülteni, hafif gazda aşırı kavrama titremesini ve kavrama yuvasından şanzıman yağı sızıntısı olabileceğini yazıyor; onarım yolu kavrama değişimi ve PCM/TCM yeniden programlama (NHTSA). And Mehmet Çetin 6DCT250 kodlu kuru kavramalı şanzımanlardan mümkünse uzak durulmasını öneriyor.",
+            "teshis": "Kalkışta ve araç ısındığında titreme, vites geçişlerinde vuruntu, geri vitesin devreye girmemesi, şanzıman hatası bildiriliyor. Servisler bazen kavramayı, bazen TCM'yi işaret ediyor; bir Focus sahibine TCM, ECU ve BCM'nin değişmesi gerektiği söylenmiş (Şikâyetvar, DonanımHaber).",
+            "cozum": "Forumlarda titreme kavrama aşınmasındansa kavrama değişimiyle bitiyor; TCM arızasında modül değişimi. Şikâyetvar'da bir kullanıcı Ford'un mevcut kavrama değişiminin %50'sini karşılayacağını söylediğini aktarıyor. ABD'de TCM için 10 yıl/150.000 mil uzatılmış garanti programı (14M02) ve 2017'de yaklaşık 1,5 milyon araçlık toplu dava uzlaşması oldu (CarComplaints); Türkiye'deki kapsam doğrulanmadı.",
+            "maliyet": "Farklı yıllara ait tek tek beyanlar: DonanımHaber'de 2019'da kavrama (işçilik dahil) 2.500 TL, TCM değişimi 19 bin TL; Şikâyetvar'da bir Focus sahibi kavramayla birlikte 51 bin TL, Fiesta için garanti dışı onarım 140 bin TL, başka bir sahip baskı balata ve TCM için ~150 bin TL, bir Fiesta sahibine ilk tespit için ~5 bin TL istenmiş. Doğrudan karşılaştırılamaz; güncel teklif alın.",
+            "onlem": "Servis kayıtlarında kavrama, TCM ve yazılım işlemlerini sormak; garanti dönemindeyse tekrarlayan başvuruları yazılı tutmak. Kuru kavramalı Powershift'li modellerden uzak durulması tavsiye ediliyor (And Mehmet Çetin)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/ford/fiesta/sanziman",
             "https://www.sikayetvar.com/ford/fiesta/sanziman-arizasi",
             "https://www.sikayetvar.com/ford/fiesta/kronik",
             "https://www.sikayetvar.com/ford/fiesta/otomatik",
             "https://forum.donanimhaber.com/ford-powershift-sanziman-titreme-problemi-kronik-problem-cozulemiyor--116371787",
-            "https://forum.donanimhaber.com/fiesta-almadan-inceleyin-dava-actim-kazandim--71002873"
+            "https://forum.donanimhaber.com/fiesta-almadan-inceleyin-dava-actim-kazandim--71002873",
+            "https://www.sikayetvar.com/ford/ford-focus-powershift-sanziman-titreme-sorunu",
+            "https://www.sikayetvar.com/ford/fiesta/powershift",
+            "https://forum.donanimhaber.com/ford-focus-1-6-ti-vct-powershift-ariza-fiyat-hakkinda-bilgi--146762175",
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
           ]
         }
       ]
@@ -1219,12 +1357,19 @@
           "belirtiler": "Hararet uyarısı, antifriz eksilmesi (sıcaklık uyarısı vermeden de olabilir), ileri aşamada silindir kapağı çatlaması",
           "tahmini_km_araligi": "30.000 - 100.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "İngiliz sahip forumlarında soğutma suyu degas hattındaki plastik T parçası ve sert hattın ısı ve titreşimle çatlayıp kopabildiği anlatılıyor. Bir katılımcıya göre ilgili degas hortumu yalnızca 25.04.2012-05.05.2014 arası üretilen Focus Mk3 1.0 EcoBoost araçlara takılmış; geri çağırma ince duvarlı plastik boruyu kauçuk hortumla değiştirmiş ama bazı sahipler sorunun sürdüğünü yazıyor (resmî doğrulama yok; ETIS'te '4S615' aksiyonu anılıyor).",
+            "teshis": "Soğutma suyu kaybında sıcaklık sensörü hava ölçtüğü için sıcaklık uyarısı gelmeyebiliyor (Ford Owners Club yorumu); bu yüzden seviye düzenli kontrol edilmeli. DonanımHaber'de eksilmenin devirdaim, radyatör ve özellikle bir yere temas eden hortumlardan olabileceği, bunların kontrol edilmesi gerektiği yazılı.",
+            "cozum": "Hortum/boru değişimi; Ford'un bazı modellerde hortumları değiştirdiği aktarılıyor. Şasi numarasıyla bayiden açık servis aksiyonu sorgulanması öneriliyor.",
+            "onlem": "Soğutma hortumları ve silindir kapağının düzenli kontrolü, soğutma suyu seviyesinin sık takibi (And Mehmet Çetin / forum önerileri). Kaynaklar ileri aşamada silindir kapağı çatlamasından söz ediyor."
+          },
           "kaynaklar": [
             "https://www.fordownersclub.com/forums/topic/139001-2013-focus-1l-ecoboost-coolant-degas-pipe-perished-leading-to-engine-overheating/",
             "https://www.fordownersclub.com/forums/topic/69942-mk3-10-ecoboost-recall/",
             "https://www.honestjohn.co.uk/forum/post/121115/ford-cmax-1-0",
             "https://andcetin.com/10-ecoboost-motor-sorunlar-44/",
-            "https://www.araclo.com/blog/ford-focus-1.0-ecoboost-gtdi-alinir-mi-kronik-sorunlar-performans-ve-kullanici-yorumlari"
+            "https://www.araclo.com/blog/ford-focus-1.0-ecoboost-gtdi-alinir-mi-kronik-sorunlar-performans-ve-kullanici-yorumlari",
+            "https://otopark.com/forum/threads/1-0-ecoboost-nasildir.15654/"
           ],
           "donem_kirilimi": [
             {
@@ -1247,11 +1392,18 @@
           "belirtiler": "Kayış parçacıklarının yağ pompası süzgecini tıkaması, düşük yağ basıncı uyarısı, motor hasarı",
           "tahmini_km_araligi": "100.000 - 160.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yağ içinde çalışan kauçuk kayışın aşınan parçacıkları karterde birikip yağ süzgecini tıkıyor; bakımlarda karter sökülüp süzgeç temizlenmezse yağ pompasının emişi tıkanıp motor yatak sarabiliyor (forum yorumu). Yağ banyolu kayış yalnızca 1.0 EcoBoost'ta var, 1.5 ve 1.6'da kuru kayış kullanılıyor (forum).",
+            "teshis": "Düşük yağ basıncı uyarısı; 3-4 bakımda bir karterin açılıp yağ süzgecinin kontrol edilmesi öneriliyor (forum yorumu).",
+            "cozum": "Kayış değişimi ve karter/süzgeç temizliği. Zincire geçiş zamanı kaynaklarda çelişiyor: biri 2018-2019 sonrası zincire geçildiğini yazarken başka bir yazar yağ pompası kayışının hâlâ yağ içinde olabileceğini belirtiyor; şasi numarasıyla bayiden teyit alın.",
+            "maliyet": "Yıllar öncesine ait forum rakamlarında kayış değişimi parça+işçilik ~600 TL (parça 350-450, işçilik 150-200 TL); bugünkü fiyat çok farklı, güncel teklif alın."
+          },
           "kaynaklar": [
             "https://www.fordownersclub.com/forums/topic/133542-10-ecoboost-wet-belt-issue/",
             "https://www.parkers.co.uk/car-news/ford-wet-belt-issues/",
             "https://andcetin.com/10-ecoboost-motor-sorunlar-44/",
-            "https://www.araclo.com/blog/ford-focus-1.0-ecoboost-gtdi-alinir-mi-kronik-sorunlar-performans-ve-kullanici-yorumlari"
+            "https://www.araclo.com/blog/ford-focus-1.0-ecoboost-gtdi-alinir-mi-kronik-sorunlar-performans-ve-kullanici-yorumlari",
+            "https://otopark.com/forum/threads/1-0-ecoboost-nasildir.15654/"
           ],
           "donem_kirilimi": [
             {
@@ -1337,12 +1489,21 @@
           "belirtiler": "Kalkışta ve düşük hızda titreme/silkeleme, vites geçişlerinde vuruntu, kavrama yuvasından şanzıman yağı sızıntısı",
           "tahmini_km_araligi": "40.000 - 120.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DPS6 Powershift kuru kavramalı çift kavramalı şanzımandır. Ford'un 2012-2016 Focus için servis bülteni, hafif gazda aşırı kavrama titremesini ve kavrama yuvasından şanzıman yağı sızıntısı olabileceğini yazıyor; onarım yolu kavrama değişimi ve PCM/TCM yeniden programlama (NHTSA). And Mehmet Çetin 6DCT250 kodlu kuru kavramalı şanzımanlardan mümkünse uzak durulmasını öneriyor.",
+            "teshis": "Kalkışta ve araç ısındığında titreme, vites geçişlerinde vuruntu, geri vitesin devreye girmemesi, şanzıman hatası bildiriliyor. Servisler bazen kavramayı, bazen TCM'yi işaret ediyor; bir Focus sahibine TCM, ECU ve BCM'nin değişmesi gerektiği söylenmiş (Şikâyetvar, DonanımHaber).",
+            "cozum": "Forumlarda titreme kavrama aşınmasındansa kavrama değişimiyle bitiyor; TCM arızasında modül değişimi. Şikâyetvar'da bir kullanıcı Ford'un mevcut kavrama değişiminin %50'sini karşılayacağını söylediğini aktarıyor. ABD'de TCM için 10 yıl/150.000 mil uzatılmış garanti programı (14M02) ve 2017'de yaklaşık 1,5 milyon araçlık toplu dava uzlaşması oldu (CarComplaints); Türkiye'deki kapsam doğrulanmadı.",
+            "maliyet": "Farklı yıllara ait tek tek beyanlar: DonanımHaber'de 2019'da kavrama (işçilik dahil) 2.500 TL, TCM değişimi 19 bin TL; Şikâyetvar'da bir Focus sahibi kavramayla birlikte 51 bin TL, Fiesta için garanti dışı onarım 140 bin TL, başka bir sahip baskı balata ve TCM için ~150 bin TL, bir Fiesta sahibine ilk tespit için ~5 bin TL istenmiş. Doğrudan karşılaştırılamaz; güncel teklif alın.",
+            "onlem": "Servis kayıtlarında kavrama, TCM ve yazılım işlemlerini sormak; garanti dönemindeyse tekrarlayan başvuruları yazılı tutmak. Kuru kavramalı Powershift'li modellerden uzak durulması tavsiye ediliyor (And Mehmet Çetin)."
+          },
           "kaynaklar": [
             "https://static.nhtsa.gov/odi/tsbs/2016/SB-10092372-5448.pdf",
             "https://www.carcomplaints.com/Ford/Focus/2016/transmission/shudders.shtml",
             "https://www.sikayetvar.com/ford/focus/powershift",
             "https://forum.donanimhaber.com/ford-focus-1-6-ti-vct-powershift-ariza-fiyat-hakkinda-bilgi--146762175",
-            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/",
+            "https://www.sikayetvar.com/ford/ford-focus-powershift-sanziman-titreme-sorunu",
+            "https://www.sikayetvar.com/ford/fiesta/powershift"
           ],
           "donem_kirilimi": [
             {
@@ -1359,11 +1520,22 @@
           "belirtiler": "Seyir halinde aniden boşa düşme, şanzıman arıza uyarısı, vites değiştirememe, aracın çalışmaması",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DPS6 Powershift kuru kavramalı çift kavramalı şanzımandır. Ford'un 2012-2016 Focus için servis bülteni, hafif gazda aşırı kavrama titremesini ve kavrama yuvasından şanzıman yağı sızıntısı olabileceğini yazıyor; onarım yolu kavrama değişimi ve PCM/TCM yeniden programlama (NHTSA). And Mehmet Çetin 6DCT250 kodlu kuru kavramalı şanzımanlardan mümkünse uzak durulmasını öneriyor.",
+            "teshis": "Seyir halinde aniden boşa düşme, şanzıman arıza uyarısı, vites değiştirememe, aracın çalışmaması (mevcut belirtiler). Şikâyetvar'da bir Fiesta 1.0 EcoBoost sahibi 41.800 km'de TCM arızası bildiriyor. Servisler bazen kavramayı, bazen TCM'yi işaret ediyor; bir Focus sahibine TCM, ECU ve BCM'nin değişmesi gerektiği söylenmiş.",
+            "cozum": "Forumlarda titreme kavrama aşınmasındansa kavrama değişimiyle bitiyor; TCM arızasında modül değişimi. Şikâyetvar'da bir kullanıcı Ford'un mevcut kavrama değişiminin %50'sini karşılayacağını söylediğini aktarıyor. ABD'de TCM için 10 yıl/150.000 mil uzatılmış garanti programı (14M02) ve 2017'de yaklaşık 1,5 milyon araçlık toplu dava uzlaşması oldu (CarComplaints); Türkiye'deki kapsam doğrulanmadı.",
+            "maliyet": "Farklı yıllara ait tek tek beyanlar: DonanımHaber'de 2019'da kavrama (işçilik dahil) 2.500 TL, TCM değişimi 19 bin TL; Şikâyetvar'da bir Focus sahibi kavramayla birlikte 51 bin TL, Fiesta için garanti dışı onarım 140 bin TL, başka bir sahip baskı balata ve TCM için ~150 bin TL, bir Fiesta sahibine ilk tespit için ~5 bin TL istenmiş. Doğrudan karşılaştırılamaz; güncel teklif alın.",
+            "onlem": "Servis kayıtlarında kavrama, TCM ve yazılım işlemlerini sormak; garanti dönemindeyse tekrarlayan başvuruları yazılı tutmak. Kuru kavramalı Powershift'li modellerden uzak durulması tavsiye ediliyor (And Mehmet Çetin)."
+          },
           "kaynaklar": [
             "https://www.carcomplaints.com/news/2017/ford-transmission-lawsuit-settlement.shtml",
             "https://www.carcomplaints.com/Ford/Focus/2016/transmission/power_train-automatic_transmission-control_module_tcm_pcm.shtml",
             "https://www.sikayetvar.com/ford/focus/powershift",
-            "https://eksisozluk.com/ford-focus-1-5-tdci-powershift--4830705"
+            "https://eksisozluk.com/ford-focus-1-5-tdci-powershift--4830705",
+            "https://www.sikayetvar.com/ford/ford-focus-powershift-sanziman-titreme-sorunu",
+            "https://www.sikayetvar.com/ford/fiesta/powershift",
+            "https://forum.donanimhaber.com/ford-focus-1-6-ti-vct-powershift-ariza-fiyat-hakkinda-bilgi--146762175",
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
           ]
         }
       ]
@@ -1383,12 +1555,21 @@
           "belirtiler": "Soğuk çalıştırmada şıkırtı, kam/krank senkron hatası, motorun yeniden çalışmaması, zincir kopması; çok düşük kilometrede de görüldüğü bildiriliyor",
           "tahmini_km_araligi": "20.000 - 120.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kullanıcılar eksantrik zincirinin 7 mm olduğunu ve Ford'un/PSA'nın bunu 8 mm olarak iyileştirdiğini yazıyor (resmî doğrulama yok). Şikâyetler özellikle Türkiye'deki Kuga ve Focus sahiplerinden geliyor. Aynı PSA motorunu kullanan Citroën için ücretsiz değişim yapıldığı iddia ediliyor (doğrulanmadı).",
+            "teshis": "Özellikle sabah soğuk motorda belirgin zincir şıkırtısı; bazı sahipler tekleme ve yakıt tüketiminde artış da yaşıyor.",
+            "cozum": "Şikâyetlerde garanti kapsamı sık tartışılıyor: bir kullanıcıya arızanın garanti kapsamına girmediği söylenmiş, bir başkasının aracı yağ bakımının birinde 2.000 km geç yapıldığı gerekçesiyle garanti dışı bırakılmış. Bir blog markanın teknik servis bülteni olduğunu ve servis bakımlı araçlarda 5 yıl/150 bin km garanti kapsamında güncelleme yapılabildiğini yazıyor; aynı kaynağa göre zincir sesi tespit edilmezse garantide bile değişim yapılmayabilir.",
+            "onlem": "Servis bakımlarını yetkili serviste ve zamanında yaptırmak, soğuk çalıştırma sesini ilk duyulduğunda yazılı kayda geçirtmek; resmî Ford bülteni ya da geri çağırma aramada bulunamadı, şasi numarasıyla yetkili servisten sorgulayın."
+          },
           "kaynaklar": [
             "https://andcetin.com/15-bluehdi-ecoblue-tdci-zincir-sorunu-59/",
             "https://www.sikayetvar.com/ford/focus/ecoblue",
             "https://www.sikayetvar.com/ford/ford-kugada-kronik-eksantrik-zinciri-problemi-ve-yuksek-onarim-maliyeti",
             "https://www.sikayetvar.com/ford/ford-kuga-riskli-egzantrik-zincir-icin-ucretsiz-cozum-talebi",
-            "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi"
+            "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi",
+            "https://www.sikayetvar.com/ford/kuga/kuga-eksantrik-zinciri",
+            "https://forum.donanimhaber.com/psa-1-5-dizel-motorlarda-eksantrik-zinciri-problemi--160411525-2",
+            "https://www.sikayetvar.com/ford/focus/focus-eksantrik-zinciri"
           ]
         },
         {
@@ -1422,13 +1603,20 @@
           "belirtiler": "Soğutma suyu eksilmesi, aşırı ısınma uyarısı, beyaz duman, conta yanması; bazı vakalarda motorun komple değişmesi. Sahipler sorunun Ford servis bültenlerinde geçtiğini yazıyor (doğrulanamadı)",
           "tahmini_km_araligi": "60.000 - 130.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kullanıcılar serviste silindir kapağında çatlak bulunduğunu, bunun silindir kapak contasına zarar verdiğini ve motorun komple değişmesi gerektiğinin söylendiğini yazıyor. Bir Şikâyetvar özeti 2014-2019 arası 1.5 EcoBoost Mondeo/Kuga motor bloklarının hatalı olduğunu ve Ford'un teknik servis bülteni yayımladığını öne sürüyor (şikâyet sitesi, doğrulanmadı). Bir forum yorumu 2019 sonrası motor bloğunun değiştiğini ve 3 silindire geçildiği için sorunun giderildiğini yazıyor.",
+            "teshis": "Yeni araçta bile 'motor soğutma suyu aşırı sıcak' uyarısı, soğutma suyu eksilmesi, beyaz duman, conta yanması; bir 2015 Kuga sahibi 112.500 km'de conta yanığı yaşamış. Şikâyetlerde servisin ilk aşamada yalnızca soğutma sıvısını değiştirmeyi önerdiği anlatılıyor.",
+            "cozum": "Silindir kapağı/conta onarımı ya da motor değişimi. Şikâyetlerde garanti süresi bittikten kısa süre (en çok 2 ay) sonra çıkan arızalarda servislerin çözümde yetersiz kaldığı yazılı. Uyarı gelince yetkili serviste yazılı arıza kaydı açtırmak, servis bülteni ve garanti kapsamını sormak öneriliyor."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/ford/kuga/ecoboost-motor",
             "https://www.sikayetvar.com/ford/kuga/ecoboost",
             "https://www.sikayetvar.com/ford/zamaninda-yetkili-bakimda-olmasina-ragmen-15-ecoboost-motor-catlamasi",
             "https://www.sikayetvar.com/ford/ford-kugada-fabrikasyon-hatasi-motor-sorunu-ve-musteri-memnuniyeti",
             "https://forum.donanimhaber.com/ford-kuga-1-5-ecoboost-182-bg-hak--156624131",
-            "https://forum.donanimhaber.com/ford-kuga-2015-onerir-misiniz--150551561"
+            "https://forum.donanimhaber.com/ford-kuga-2015-onerir-misiniz--150551561",
+            "https://www.sikayetvar.com/ford/kuga/motor-arizasi",
+            "https://forum.donanimhaber.com/ford-kuga1-5-ecoboost-motor-teknik-bilgi--159813805"
           ]
         }
       ]
@@ -2298,10 +2486,17 @@
           "belirtiler": "Motor arıza lambası, düzensiz çalışma ve tekleme, düşük devirde çekiş kaybı",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "P1113, Twinport devre dışı bırakma (port deaktivasyon) pozisyon sensörü devresiyle ilgili; DonanımHaber'de nedenler olarak sensör, kablo/konnektör ve ECU arızası sayılıyor. Twinport fonksiyonu devre dışı kalıyor.",
+            "cozum": "Sensör ve konnektör kontrolü; bir Şikâyetvar şikâyetinde 2005 Astra H'de yetkili servis P1113 için emme manifoldunun komple değiştirilmesini önermiş ve bu yüksek ücret talebi şikâyet konusu olmuş.",
+            "maliyet": "Net TL rakamı bulunamadı; şikâyette manifold değişimi 'yüksek meblağ' olarak anlatılıyor."
+          },
           "kaynaklar": [
             "https://www.vauxhallownersnetwork.co.uk/threads/fault-code-p1113.432090/",
             "https://astraownersnetwork.co.uk/archive/index.php/t-83528.html",
-            "https://www.hella.com/techworld/us/bi/opel-astra-g-h-engine-does-not-run-smoothly"
+            "https://www.hella.com/techworld/us/bi/opel-astra-g-h-engine-does-not-run-smoothly",
+            "https://forum.donanimhaber.com/opel-astra-g-ve-h-p1113-hata-kodu--86986772",
+            "https://www.sikayetvar.com/opel/opel-kronik-ariza-sonucu-gereksiz-parca-degisimi-yuksek-meblag-ucret-talebi"
           ]
         },
         {
@@ -2310,11 +2505,17 @@
           "belirtiler": "Vites geçmeme, göstergede \"F\" uyarısı, kalkışta tereddüt, aracın viteste takılı kalması",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Easytronic robotize bir şanzımandır. Bir forumda ustanın aktüatör arızası olabileceğini söylediği, servislerin ise şanzıman beyni değişimi önerdiği ve kesin teşhis koyamadığı aktarılıyor.",
+            "cozum": "Bir kullanıcıda beyin tamiri, beyin değişimi ve mekatronik değişimi sonuç vermemiş; başka bir kullanıcı baskı balata, volan ve şanzıman motoru değiştirilip yazılım güncellemesiyle sorunun geçici çözüldüğünü yazıyor. Görüşler ayrışıyor: biri Easytronic tamirinin diğer otomatiklerden ucuz ve basit olduğunu savunuyor, diğer yorumlar yarı otomatikler arasında daha sorunlu bulduğunu söylüyor.",
+            "maliyet": "Güncel ya da güvenilir bir fiyat verisi bulunamadı."
+          },
           "kaynaklar": [
             "https://www.vauxhallownersnetwork.co.uk/threads/easytronic-problem-clutch-actuator.439177/",
             "https://otopark.com/forum/threads/astra-easytronic-ariza.7258/",
             "https://forum.donanimhaber.com/astra-h-easytronic-vites-sorunu-s--106467726-2",
-            "https://www.sikayetvar.com/opel/astra/sanziman-arizasi"
+            "https://www.sikayetvar.com/opel/astra/sanziman-arizasi",
+            "https://forum.donanimhaber.com/astra-h-easytronic-arizasi--141529760"
           ]
         },
         {
@@ -2346,6 +2547,11 @@
           "belirtiler": "Rölantide ıslık veya emme sesi, düzensiz rölanti, valf kapağı contasından yağ sızıntısı, fakir karışım hata kodları",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Külbütör kapağına entegre PCV diyaframı yırtılıyor; rehber ve forum yazılarında rölantide ıslık ve büyük vakum kaçağı, P0101 (MAF) kodu ve yağ doldurma kapağında güçlü emme en sık anılan belirtiler. Kapak yeni takıldığı halde tekrar arızalanıyorsa kök neden olarak emme manifoldundaki tek yönlü (check) valf gösteriliyor.",
+            "teshis": "DonanımHaber'de bir yorum, rölantide elinizi diyaframın üzerine koyup ses gelip gelmediğine bakmayı öneriyor; başka kullanıcılar sesin diyaframdan mı, devirdaimden mi, krank ön keçesinden mi geldiğini tartışıyor. Bir konuda motorun birçok noktasından yağ kaçağı olduğu ve bir kısmının onarımla kapanmadığı yazılı.",
+            "cozum": "Valf kapağının (diyaframıyla) yenilenmesi ve emme manifoldundaki tek yönlü valfin kontrolü/yenilenmesi."
+          },
           "kaynaklar": [
             "https://www.astraownersnetwork.co.uk/threads/astra-j-1-4-turbo-pcv.367034/",
             "https://www.vauxhallownersnetwork.co.uk/threads/astra-j-1-4t-crank-case-pressure.903425/",
@@ -2370,12 +2576,21 @@
           "belirtiler": "İlk çalıştırmada ve seyirde traktör benzeri metalik zincir sesi; zincir değişse de sesin bir süre sonra geri döndüğünü bildiren sahipler var, işçilik pahalı",
           "tahmini_km_araligi": "60.000 - 130.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net teknik neden verilmiyor. İlk çalıştırmadaki zincir sesinin kullanılan yağa göre değiştiği yazılıyor: bir kullanıcı dexos2 onaylı yağla sesin olmadığını belirtiyor, bir başkası sesin yağlamayla ilgili olabileceğini söylüyor. Şikâyetvar'da bir sahip özel servislerin bu sesi kronik saydığını ve zincir değişse de sesin geçmeyebileceğini aktarıyor.",
+            "teshis": "İlk çalıştırmada ve seyirde traktör benzeri metalik zincir sesi (Şikâyetvar).",
+            "cozum": "Zincir değişiminde motor dışarı alınıyor; bir forum kullanıcısı yağ pompası, dişli ve zincirin birlikte (GM ve otomatik eksantrik dişlili set olarak) değiştirilmesini öneriyor. Bir kullanıcı 'ses gelince zincir değişiyor' diyor, başkası sesin kesilmesi halinde değişimin şart olmadığını, kesilmeyen sesin ise değişim gerektirdiğini savunuyor (tartışmalı).",
+            "maliyet": "Bir forum kullanıcısı 2018 model Insignia için işçilik ve zincir setini toplam yaklaşık 2.000-2.500 TL olarak anıyor (özel servis, orijinal parça; eski rakam, güncel değil); motor çıktığı için işçiliğin yüksek olduğu belirtiliyor.",
+            "onlem": "Dexos2 onaylı yağ kullanmak ve bakımı aksatmamak (forum yorumu)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/opel/opel-astra-j-16-cdti-den-traktor-sesi-gibi-anormal-bir-zincir-sesi-geliyor",
             "https://www.araclo.com/blog/opel-astra-1.6-cdti-alinir-mi-kronik-sorunlar-kullanici-yorumlari-ve-ikinci-el-rehberi-2026",
             "https://forum.donanimhaber.com/opel-astra-j-kasa-1-6-cdti-110-136-hp--83831348-27",
             "https://forum.donanimhaber.com/astra-j-1-6-cdti-manuel-kronik-sorun-var-midir--159135688",
-            "https://www.sikayetvar.com/astra/cdti"
+            "https://www.sikayetvar.com/astra/cdti",
+            "https://otopark.com/forum/threads/insignia-a-1-6-cdti-lari-nasil-bilirsiniz.13847/",
+            "https://forum.donanimhaber.com/opel-astra-j-kasa-1-6-cdti-110-136-hp--83831348-74"
           ]
         }
       ]
@@ -2395,12 +2610,21 @@
           "belirtiler": "Düşük devirde ağır gazda vuruntu, yağ tüketimi artışı, motor sesi, ileri aşamada piston kırılması; otomatik şanzımanlı 150 hp araçlarda daha sık bildiriliyor",
           "tahmini_km_araligi": "20.000 - 100.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "LSPI (düşük devirde ön ateşleme): düşük devirde gaza ani yüklenince yanma odasındaki yakıt, sıcaklık ve basınca bağlı olarak zamanlamayı beklemeden kendiliğinden tutuşuyor ve pistona ile segmanlara zarar veriyor. GM de olguyu LSPI adıyla tanımlıyor. Bir kaynak, Astra J'deki port enjeksiyonlu 1.4T'nin aksine Astra K'daki direkt enjeksiyonlu motorda sorunun kronik olduğunu savunuyor.",
+            "teshis": "Düşük devirde ağır gazda vuruntu, yağ tüketiminde artış; bir forumda 'motor gücü azaltma' uyarısının aracı LSPI'dan korumak için devreye girdiği anlatılıyor. Yağ yakma başlamış motorlarda piston kırılması riski artıyor (anekdot).",
+            "cozum": "Opel servisleri bazı yazılım güncellemeleri uygulamış ve Dexos1 Gen2 yağ önermiş; bir forum yorumu bunların sorunu ortadan kaldırmayıp yalnızca riski azalttığını söylüyor. Başka bir kaynak oktan artırıcı ve Dexos1 Gen3 yağın riski azaltabileceğini belirtiyor; düşük devirde gaz kelebeğini zorlamamak öneriliyor.",
+            "maliyet": "Bir kullanıcı piston kırılması tespit edildiğini, motorun komple açılması gerektiğini ve tutarın yüksek olabileceğini yazıyor; net TL verilmemiş. Başka bir şikâyette garanti süresinin dolduğu ve bakımın dışarıda yapıldığı gerekçesiyle garanti dışı bırakılmış; resmî garanti uzatması ya da kampanya bulunamadı.",
+            "onlem": "Dexos onaylı yağ, düşük devirde ağır gazdan kaçınmak ve şikâyette yetkili servisten LSPI kaynaklı arıza kaydı ve yazılı değerlendirme istemek; tüketici hakem heyeti yolu forumlarda anılıyor."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/opel-astra-k-1-4t-piston-kirma-problemi--127795993",
             "https://otopark.com/forum/threads/astra-k-1-4t-lspi-sorunu-ve-tercih-hakkinda-destek.15652/",
             "https://andcetin.com/opel-turbo-motor-sorunlar-ve-onlemenin-yollar-46/",
             "https://www.sikayetvar.com/opel/astra/turbo",
-            "https://gebrauchtwagenberater.de/opel-astra-k-probleme/"
+            "https://gebrauchtwagenberater.de/opel-astra-k-probleme/",
+            "https://www.sikayetvar.com/opel/opel-35000-km-astra-14-turbo-piston-kirilmasi",
+            "https://www.sikayetvar.com/opel/opel-14-turbo-150-beygir-benzinli-astra-pismanligi"
           ],
           "donem_kirilimi": [
             {
@@ -2457,13 +2681,23 @@
           "belirtiler": "Yağ basıncı uyarısı, kayış parçacıklarının yağ süzgecini tıkaması, motor hasarı; 34.000 km gibi düşük kilometrelerde aşınma bildiren sahipler var. Bir kaynak 2023 sonrası motorlarda zincire geçildiğini yazarken başka bir kaynak 2026 Corsa 1.2 (100 HP, manuel) sürümünün hâlâ kayışlı olduğunu belirtiyor: motor kodunu kontrol edin",
           "tahmini_km_araligi": "35.000 - 90.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yağ içinde çalışan kauçuk triger kayışı zamanla dağılıyor ve parçacıklar yağ pompası süzgecini tıkıyor (And Mehmet Çetin, Ekşi Sözlük). Motor yağına yakıt karışması (özellikle kısa şehir içi sürüşte) yağın özelliklerini bozup kayışa zarar verebiliyor (bir kaynak). Kitapçıkta 180.000 km yazsa da pratikte 100-120 bin km'de değişim önerildiği yazılıyor.",
+            "teshis": "Yağ basıncı uyarısı; karter kapağı söküldüğünde süzgeçte ve karterde kayış artıkları görülüyor. Bir kullanıcı karter kapağını söküp filtreyi tıkayan aksamın temizlenmesinin faydalı olduğunu yazıyor.",
+            "cozum": "Kayış değişimi ve karter/yağ süzgeci temizliği. Kaynaklarda PSA/Stellantis onaylı yağ (B71 2312) kullanmak, yağı sık değiştirmek (bir kaynak 15.000 değil 10.000 km öneriyor) ve kayış aşınmasını periyodik kontrol ettirmek öneriliyor.",
+            "maliyet": "Bir kullanıcı işlemin yaklaşık 10 bin TL'ye, bir diğeri 25 bine yakın bir masrafa mal olacağını yazıyor (eski, bölgeye göre değişebilir; güncel teklif alın).",
+            "onlem": "Değişim aralığı konusunda tek bir görüş yok: bir yorumcu en fazla 40 bin km/3 yıl, başka biri 60 bin km, Gen3 için bir kaynak 100-120 bin km öneriyor; kitapçık değeri 180 bin km. Yetkili servis bülteni ve motor jenerasyonunu (Gen2/Gen3) şasi numarasıyla doğrulayın."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/opel/opel-araclarda-trigger-kayis-yaglanmasi",
             "https://www.sikayetvar.com/opel/corsa/problem",
             "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026",
             "https://www.araclo.com/blog/opel-crossland-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026",
             "https://eksisozluk.com/1-2-puretech--6399271?p=2",
-            "https://www.completecar.ie/askusanything/question/18081/Do-all-Peugeot-PureTech-engines-have-wet-belt-issues"
+            "https://www.completecar.ie/askusanything/question/18081/Do-all-Peugeot-PureTech-engines-have-wet-belt-issues",
+            "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
+            "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
+            "https://eksisozluk.com/1-2-puretech--6399271?p=4"
           ],
           "donem_kirilimi": [
             {
@@ -2497,10 +2731,16 @@
           "belirtiler": "Güç kaybı, ıslık veya hortumun patlaması; parça ve işçilik maliyeti yüksek bulunuyor, servisler parçada iyileştirme yapılmadığını söylüyor",
           "tahmini_km_araligi": "50.000 - 100.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da birden fazla Insignia 1.6 CDTI sahibi turbo hortumunun kronik biçimde patladığını ve yolda kaldıklarını yazıyor: biri hortumun 50 bin km'de bağlantı noktasından yırtıldığını, bir diğeri sorunun ikinci kez yaşandığını belirtiyor. Sahiplerin ortak talebi parçanın revize edilip bedelsiz takılması.",
+            "teshis": "Basınç kaybı, düşük hızda ıslık sesi ve hortum kaynaklı kaçaklar; önce hortumlar ve bağlantı yerleri kontrol edilmeli.",
+            "cozum": "Hortum değişimi; servisler parçada iyileştirme yapılmadığını söylüyor (mevcut belirti)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/opel/opel-insignia-turbo-hortumu-kronik-arizasi-magduriyeti",
             "https://www.sikayetvar.com/opel/insignia/kronik",
-            "https://eksisozluk.com/opel-insignia--724247?p=34"
+            "https://eksisozluk.com/opel-insignia--724247?p=34",
+            "https://otopark.com/forum/threads/opel-insignia-islik-sesi.14164/"
           ]
         },
         {
@@ -2509,10 +2749,19 @@
           "belirtiler": "İlk çalıştırmada ve seyirde yoğun zincir sesi; zincir değişimi için motorun indirilmesi gerekiyor ve işçilik pahalı",
           "tahmini_km_araligi": "80.000 - 130.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net teknik neden verilmiyor. İlk çalıştırmadaki zincir sesinin kullanılan yağa göre değiştiği yazılıyor: bir kullanıcı dexos2 onaylı yağla sesin olmadığını belirtiyor, bir başkası sesin yağlamayla ilgili olabileceğini söylüyor. Şikâyetvar'da bir sahip özel servislerin bu sesi kronik saydığını ve zincir değişse de sesin geçmeyebileceğini aktarıyor.",
+            "teshis": "İlk çalıştırmada ve seyirde yoğun zincir sesi; bazı sahipler motordan gelen başka sesleri (ıslık, tuhaf ses) ayrı konularda soruyor.",
+            "cozum": "Zincir değişiminde motor dışarı alınıyor; bir forum kullanıcısı yağ pompası, dişli ve zincirin birlikte (GM ve otomatik eksantrik dişlili set olarak) değiştirilmesini öneriyor. Bir kullanıcı 'ses gelince zincir değişiyor' diyor, başkası sesin kesilmesi halinde değişimin şart olmadığını, kesilmeyen sesin ise değişim gerektirdiğini savunuyor (tartışmalı).",
+            "maliyet": "Bir forum kullanıcısı 2018 model Insignia için işçilik ve zincir setini toplam yaklaşık 2.000-2.500 TL olarak anıyor (özel servis, orijinal parça; eski rakam, güncel değil); motor çıktığı için işçiliğin yüksek olduğu belirtiliyor.",
+            "onlem": "Dexos2 onaylı yağ kullanmak ve bakımı aksatmamak (forum yorumu)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/opel/insignia/zincir",
             "https://www.sikayetvar.com/opel/opel-insignia-16-cdti-97000-km-kronik-yogun-zincir-sesi",
-            "https://eksisozluk.com/opel-insignia--724247?p=34"
+            "https://eksisozluk.com/opel-insignia--724247?p=34",
+            "https://otopark.com/forum/threads/insignia-a-1-6-cdti-lari-nasil-bilirsiniz.13847/",
+            "https://forum.donanimhaber.com/2018-insignia-1-6-cdti-motordan-gelen-tuhaf-ses--146396954"
           ]
         }
       ]
@@ -2687,13 +2936,22 @@
           "belirtiler": "Yağ basıncı uyarısı, kayış parçacıklarının yağ pompası süzgecini tıkaması, fren vakum pompası arızası nedeniyle fren pedalının sertleşmesi, motor hasarı",
           "tahmini_km_araligi": "40.000 - 120.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yağ içinde çalışan kauçuk triger kayışı zamanla dağılıyor ve parçacıklar yağ pompası süzgecini tıkıyor (And Mehmet Çetin, Ekşi Sözlük). Motor yağına yakıt karışması (özellikle kısa şehir içi sürüşte) yağın özelliklerini bozup kayışa zarar verebiliyor (bir kaynak). Kitapçıkta 180.000 km yazsa da pratikte 100-120 bin km'de değişim önerildiği yazılıyor.",
+            "teshis": "Yağ basıncı uyarısı; karter kapağı söküldüğünde süzgeçte ve karterde kayış artıkları görülüyor. Bir kullanıcı karter kapağını söküp filtreyi tıkayan aksamın temizlenmesinin faydalı olduğunu yazıyor.",
+            "cozum": "Kayış değişimi ve karter/yağ süzgeci temizliği. Kaynaklarda PSA/Stellantis onaylı yağ (B71 2312) kullanmak, yağı sık değiştirmek (bir kaynak 15.000 değil 10.000 km öneriyor) ve kayış aşınmasını periyodik kontrol ettirmek öneriliyor.",
+            "maliyet": "Bir kullanıcı işlemin yaklaşık 10 bin TL'ye, bir diğeri 25 bine yakın bir masrafa mal olacağını yazıyor (eski, bölgeye göre değişebilir; güncel teklif alın).",
+            "onlem": "Değişim aralığı konusunda tek bir görüş yok: bir yorumcu en fazla 40 bin km/3 yıl, başka biri 60 bin km, Gen3 için bir kaynak 100-120 bin km öneriyor; kitapçık değeri 180 bin km. Yetkili servis bülteni ve motor jenerasyonunu (Gen2/Gen3) şasi numarasıyla doğrulayın."
+          },
           "kaynaklar": [
             "https://www.honestjohn.co.uk/askhj/answer/184969/are-there-cambelt-issues-with-the-1-2-puretech-engine-",
             "https://www.parkers.co.uk/car-news/stellantis-wet-belt-compensation/",
             "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
             "https://www.sikayetvar.com/peugeot/peugeot-308-purtech-triger-kayisi-ve-yag-eksiltme-sorunu",
             "https://www.honestjohn.co.uk/forum/post/159060/peugeot-308-sw--",
-            "https://www.completecar.ie/askusanything/question/18081/Do-all-Peugeot-PureTech-engines-have-wet-belt-issues"
+            "https://www.completecar.ie/askusanything/question/18081/Do-all-Peugeot-PureTech-engines-have-wet-belt-issues",
+            "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
+            "https://eksisozluk.com/1-2-puretech--6399271?p=4"
           ],
           "donem_kirilimi": [
             {
@@ -2716,10 +2974,18 @@
           "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, egzozdan mavimsi duman",
           "tahmini_km_araligi": "40.000 - 100.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda net teknik neden verilmiyor; yağın yakıtla seyrelmesi (oil dilution, özellikle kısa/şehir içi sürüşte) yağın özelliklerini bozabiliyor. Bir kaynak Gen3 motorlarda yağ tüketiminin ciddi oranda azaltıldığını yazıyor.",
+            "cozum": "Yağ değişimini sıklaştırmak (bir kaynak 10.000 km öneriyor), PSA/Stellantis onaylı yağ kullanmak, yağ seviyesini düzenli kontrol etmek.",
+            "onlem": "Motor jenerasyonunu (Gen2/Gen3) şasi numarasıyla doğrulamak; kısa mesafe kullanımı uzun yolla dengelemek."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/peugeot/peugeot-308-purtech-triger-kayisi-ve-yag-eksiltme-sorunu",
             "https://www.araclo.com/blog/1.2-puretech-motor-analizi-gercek-sorunlar-abartilanlar-ve-kontrol-listesi",
-            "https://www.parkers.co.uk/car-news/stellantis-wet-belt-compensation/"
+            "https://www.parkers.co.uk/car-news/stellantis-wet-belt-compensation/",
+            "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
+            "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
+            "https://eksisozluk.com/1-2-puretech--6399271?p=4"
           ]
         }
       ]
