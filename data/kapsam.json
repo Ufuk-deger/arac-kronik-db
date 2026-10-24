@@ -9559,24 +9559,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar'da cam tavan çerçevesinin kendiliğinden çatlaması ve su sızması (üç yıl sonra aynı sorunun yeniden çıkması, yaklaşık 35 bin TL parça bedeli), tavan kenar çıtası çatlağı, tavan ile ön cam birleşiminde boya atması ve 2015 modelde multimedya Bluetooth ses sorunu çok sayıda şikâyette geçiyor. DonanımHaber'de B8'e özgü ikinci kaynak çıkmadı (2021 Passat'ta 25 bin km'de cam tavan tıkırtısı tek başlık); bu yüzden kayıt açılmadı.",
-      "sonuc": "yetersiz-kanit"
-    },
-    {
-      "marka": "Skoda",
-      "model": "Octavia A7",
-      "yillar": "2013-2020",
-      "motor": "Tüm motorlar (model geneli)",
-      "kademe": 1,
-      "eslesme": {
-        "model": [
-          "Octavia A7"
-        ],
-        "motor": [
-          "Tüm motorlar"
-        ]
-      },
-      "not": "Şikâyetvar'da 2017 modelde cam tavan çerçevesinin çatlayıp su alması (çok kişide görüldüğü, kronik sayıldığı yazılıyor), multimedyanın kendiliğinden ses değiştirip açılıp kapanması (Hybrid) ve far ayar düğmesinin olmaması geçiyor. DonanımHaber ve Ekşi Sözlük'te Octavia 3'e özgü ikinci kaynak çıkmadı (sonuçlar genel cam tavan sızıntısı konuları, VAG DSG / TDI ve 2021 sonrası modeller); bagaj kaması sesi ve yakıt kapağı kilit motoru yalnızca bir forum başlığında geçiyor.",
+      "not": "Şikâyetvar'da cam tavan çerçevesinin kendiliğinden çatlaması ve su sızması (üç yıl sonra aynı sorunun yeniden çıkması, yaklaşık 35 bin TL parça bedeli), tavan kenar çıtası çatlağı, tavan ile ön cam birleşiminde boya atması ve 2015 modelde multimedya Bluetooth ses sorunu çok sayıda şikâyette geçiyor. DonanımHaber'de B8'e özgü ikinci kaynak çıkmadı (2021 Passat'ta 25 bin km'de cam tavan tıkırtısı tek başlık); bu yüzden kayıt açılmadı. VWVortex'te panoramik cam tavan su sızıntısı başlıkları var ama çoğu ABD'deki Passat'a ait ve B8 Avrupa kasasına bağlanamadı; tahliye hortumu tıkanması en sık neden olarak anılıyor.",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -9594,6 +9577,401 @@
         ]
       },
       "not": "Şikâyetvar'da tavan döşemesi sarkması (2011-2012 modeller), tavan-ön cam birleşiminde boya atması, marşpiyel boya akması (bayi fabrikasyon hata dedi), klimanın kendiliğinden açılması ve multimedya ekranının kapanması geçiyor; DonanımHaber sonuçları 1998-2000 Polo'ya ait olduğundan ikinci site bulunamadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Renault",
+      "model": "Megane 3 / Fluence",
+      "yillar": "2009-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Megane 3 / Fluence"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Ön cam altı ızgarası ve tahliye kanalı kaynaklı su alma iki sitede doğrulandı. Ekşi Sözlük'te cam krikosu arızası ve DonanımHaber'de klima kondansatörü arızası iddiası (kaynaksız) ile Şikâyetvar'da arka cam düğmeleri şikâyeti tek kaynakta kaldı; forumlarda bazı kullanıcılar Megane 3'te bilinen kronik arıza olmadığını savunuyor."
+    },
+    {
+      "marka": "Renault",
+      "model": "Megane 4 / Sedan",
+      "yillar": "2016-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Megane 4 / Sedan"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Far içi buğulanma / C-LED sararması ve fabrika multimedya şikâyetleri Şikâyetvar ve DonanımHaber'de doğrulandı (multimedya şikâyetlerinin çoğu sonradan takılan Android ekranlara ait, ayrıldı). Şikâyetvar'da kapı kolu soyulması (2024 model) tek şikâyet."
+    },
+    {
+      "marka": "Renault",
+      "model": "Clio 5",
+      "yillar": "2019-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Clio 5 (2019-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Multimedya ekranı şikâyeti iki sitede doğrulandı. Tavan döşemesinde lekelenme (2020 model, garanti kapsamında değişti) tek şikâyet."
+    },
+    {
+      "marka": "Dacia",
+      "model": "Duster (2010-2017)",
+      "yillar": "2010-2017",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Duster (2010-2017)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Direksiyon sertleşmesi ve EPS arızası Şikâyetvar ve DonanımHaber'de geçiyor; sorun hidrolik pompa ile EPS arasında dağınık ve model yılına göre yaygınlığı belirsiz. 2010-2017 Duster'da kapı su alması için kaynak çıkmadı; ESP ısıtma bujisi (2015 model) tek şikâyet."
+    },
+    {
+      "marka": "Dacia",
+      "model": "Sandero / Logan / Symbol",
+      "yillar": "2013-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Sandero / Logan / Symbol"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Easy-R otomatik şanzımanda titreme (ayrı bir motor/şanzıman konusu), otomatik kilit algılama ve sağ kapının kilitlenmemesi, Logan MCV'de kapı ikaz lambası, ön göğüs sesi ve far buğulanması tekil şikâyetler olarak geçiyor; ikinci bağımsız site yok (DonanımHaber sonucu yaklaşık 16 yıllık Logan yorumu). Fren hortumu, ön takım ve boya için kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A7",
+      "yillar": "2013-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Octavia A7 (2013-2020)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Cam tavan su sızması Şikâyetvar ve Briskoda'da doğrulandı. Şikâyetvar'da ayrıca multimedyanın kendiliğinden ses değiştirmesi / kapanması (Hybrid), far ayar düğmesinin olmaması ve ön konsol krom çıtasında kabarma tek sitede kaldı; bagaj kaması sesi ve yakıt kapağı kilit motoru yalnızca bir forum başlığında geçiyor."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb III",
+      "yillar": "2015-2023",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Superb III (2015-2023)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Cam tavan çatlağı ve su sızması Şikâyetvar ve Briskoda'da geçiyor (nedeni ayırt edilemiyor). Şikâyetvar'da multimedya Android Auto kopması (2024), kapı camı fitili çıkması, arka camda rüzgar sesi, iç ambiyans ışığının erken sönmesi, yolcu koltuğu gürültüsü ve anahtar pilinin sık bitmesi tek sitede kaldı."
+    },
+    {
+      "marka": "Seat",
+      "model": "Leon 5F",
+      "yillar": "2013-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Leon 5F (2013-2020)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Trim sesleri DonanımHaber ve Şikâyetvar'da doğrulandı. Şikâyetvar'da cam tavan mikasının kendiliğinden çatlaması (2015 model), tavan boyasının kabarması ve sis farı buğulanması (2020 model) tek sitede kaldı; multimedya için kaynak çıkmadı."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Fabia (5J / NJ)",
+      "yillar": "2010-2021",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Fabia (5J / NJ)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da kapıdan su alma (2006 model Classic), 2023 modelde multimedya hataları, ön podya rulmanı ve direksiyon simidi aşınması / boya kabarması garanti reddi şikâyetleri tekil; DonanımHaber'de bir yorum kapıdan su almanın Fabia ve Polo'nun ortak sorunu olduğunu söylüyor (eski, kaynaksız). Fabia 5J / NJ'ye özgü iki bağımsız site çıkmadı (sonuçlar 1.0 DSG, start-stop ve eski 1.4 TDI konularına ait).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat B7",
+      "yillar": "2010-2014",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Passat B7"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da tavan ile ön ve arka cam birleşiminde boya atması (2011-2012 modeller), sunroof çerçevesinde çatlak ve su alma (yaklaşık 55 bin TL teklif) çok sayıda kayıtta geçiyor; DonanımHaber'de B7 için yalnızca 2012 tarihli bir başlıkta konsol gıcırtısı ve start-stop memnuniyetsizliği var. Uluslararası forumlarda (VWVortex) panoramik cam tavan su sızıntısı konuşuluyor ama bunlar B7 / B8 Avrupa kasasına bağlanamadı; ikinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 8 / 8.5",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Golf 8 / 8.5"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Multimedya ve SOS hatası iki sitede doğrulandı. Şikâyetvar'da sürüş asistanlarının (Travel Assist, ACC, Front Assist) birlikte devre dışı kalması ve DonanımHaber'de trafik işareti tanımanın yanlış hız sınırı uygulaması, start-stop hatası, park sensörü / arka kamera hatası ve 'bileşen koruma' uyarısı tek kaynakta ya da tek başlıkta kaldı. Far ve kapı için kaynak çıkmadı."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Kodiaq",
+      "yillar": "2017-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Kodiaq (2017-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Bagajdan su alma Şikâyetvar ve Briskoda'da doğrulandı. Şikâyetvar'da Kodiaq'ta far mercek camlarında renk solması, şoför kapısı kilidi uyumsuzluğu, multimedyanın kendiliğinden açılıp kapanması ve CarPlay kopması tek sitede; Briskoda'daki panoramik cam tavan sızıntısı başlığı için Şikâyetvar karşılığı çıkmadı."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "T-Roc",
+      "yillar": "2018-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "T-Roc (2018-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da silecek sesi ve silme performansı (kronik diyenler var), motor ısındıktan sonra şıkırtı, multimedya arızası, ayna altı LED aydınlatma (garanti dışı 3-4 bin TL) ve cam açma mekanizması şikâyetleri tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te T-Roc'a özgü ikinci site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Karoq",
+      "yillar": "2017-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Karoq (2017-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Karoq'ta farın içine su alması (8.000 km'de, garanti kapsamında) ve yağ tüketimi tek şikâyet; Briskoda'da yeni Karoq'ta far içi yoğuşma başlığı var ama sahipler hafif buğulanmanın normal olabileceğini, damla birikiminin sızıntıya işaret edebileceğini yazıyor; kronik sayılacak ikinci kaynak yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Rapid",
+      "yillar": "2012-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Rapid (2012-2019)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da garanti bitiminden kısa süre sonra kaput ve kapılarda boya verniği atması, klima servomotoru ve park sensörü mikro şalteri (servisin kronik olduğunu kabul ettiği ama ücret aldığı bir şikâyet) tekil; DonanımHaber'de Rapid için yalnızca DSG başlıkları var (motor/şanzıman konusu ayrı kayıtta).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Caddy (2K / SA)",
+      "yillar": "2010-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Caddy (2K / SA)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "DonanımHaber'deki kayar kapı kilidi ve merkezi kilit anlatıları 2006-2007 model Caddy'lere ait (aranan nesil dışında); Şikâyetvar'da kayar kapı sesi, tavan sesi ve tavan klimasından uğultu ile 2025 model bir araçta su alma tekil şikâyetler. Caddy 2K / SA'ya özgü ikinci site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Seat",
+      "model": "Ibiza / Arona / Ateca",
+      "yillar": "2017-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Ibiza / Arona / Ateca"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Ibiza'da CarPlay'in tam ekran olmaması, far içi lekelenme ve arka kamera görüşü; Ateca'da klima menfez düğmeleri, stop lambası çatlakları, menfez düşmesi, far buğulanması ve sağ ön amortisör sesi (servis kronik dedi); Arona'da bagaj sesi ve amortisör takozu gıcırtısı tekrar ediyor. DonanımHaber'de yalnızca genel 'Seat kronik sorunları' başlığı var; modele özgü ikinci site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra K",
+      "yillar": "2015-2021",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Astra K (2015-2021)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Kolon kilidi arızası ve tavan boyası iki sitede doğrulandı. Şikâyetvar'da multimedya ekranının açılmaması (2022 model) ve direksiyon kutusu arızası (iki kez, 2016 model) tek şikâyet; far, ön cam ve kapı için kaynak çıkmadı."
+    },
+    {
+      "marka": "Ford",
+      "model": "Fiesta Mk7",
+      "yillar": "2008-2017",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Fiesta (Mk7, 2008-2017)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Direksiyon sesi iki sitede doğrulandı. Şikâyetvar'da teyp donması ve direksiyon kumanda tuşları, bagaja far kısmından su alma (tek vaka), 2013 tarihli bir forum başlığında kapı içi sesleri ve cam düşmesi tekil kaldı."
+    },
+    {
+      "marka": "Opel",
+      "model": "Corsa D",
+      "yillar": "2006-2014",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Corsa D (2006-2014)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Direksiyon sesi DonanımHaber ve Ekşi Sözlük'te geçiyor (nedeni belirsiz). Corsa D için kapı elektriği ve ön takım için kaynak çıkmadı; Şikâyetvar'daki 'yakıt göstergesi' şikâyeti 2021 model araca ait."
+    },
+    {
+      "marka": "Ford",
+      "model": "Kuga 2 / 3",
+      "yillar": "2013-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Kuga 2 / 3 (2013-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Cam tavan perdesi arızası DonanımHaber ve Şikâyetvar'da geçiyor (iki nesli ve tekil vakaları kapsıyor). Soğutma sistemi / su eksilmesi ve piston arızaları motor konusu; panoramik tavan çatlaması (2022 model), silecek motoru ve korna arızası tek şikâyet; kapı su kaçağı ve multimedya için kaynak çıkmadı."
+    },
+    {
+      "marka": "Ford",
+      "model": "Focus 3",
+      "yillar": "2011-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Focus 3 (2011-2018)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da SYNC / multimedya ekranının donması, kontak kapandıktan sonra ekranın açık kalması ve CarPlay kopması (2016-2025 model yılları, çoğu Focus 4) tekrar ediyor; DonanımHaber ve Otopark'taki kapı kilidi başlıkları eski Focus'lara ya da çocuk kilidi / hıza bağlı otomatik kilit konusuna ait. Focus 3'e özgü ikinci site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra J",
+      "yillar": "2009-2015",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Astra J (2009-2015)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da tavanda kabarma ve boya atması (2015 ve 2017 model) ile kaputta boya atması, bcm beynine kaloriferden su sızması tekil; forumda Astra J'ye özgü kronik boya iddiası doğrulanamadı (sonuçlar Astra K ve eski modellere ait).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Corsa E / F",
+      "yillar": "2014-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Corsa E / F"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da (çoğu Corsa F) multimedya ekranı kararması / CarPlay kesintisi ve siyah tavanda boya atması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te Corsa E / F'ye özgü ikinci site çıkmadı.",
       "sonuc": "yetersiz-kanit"
     }
   ]

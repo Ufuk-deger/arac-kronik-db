@@ -4380,6 +4380,33 @@
     },
     {
       "marka": "Dacia",
+      "model": "Duster (2010-2017)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyon sertleşmesi, titremesi ve direksiyon desteği (hidrolik pompa / EPS) arızası",
+          "etkilenen_parca": "Direksiyon desteği: hidrolik pompa ya da elektrikli direksiyon (EPS), direksiyon açı sensörü",
+          "belirtiler": "Direksiyonun zamanla sertleşmesi, kalkışta ve manevrada titremesi, ses yapması; kontak kapatıldıktan sonra hidroliğin bir süre çalışmaya devam etmesi; 4x4'te EPS arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2015 model 4x4 bir sahip servislerin direksiyon sesi ve sertleşmesinin kronik olduğunu söylediğini yazıyor; aynı sahip bir EPS arızasının ön takım değişiminden sonra yanlış rot ayarından kaynaklandığını, direksiyon açı sensörü sıfırlanınca düzeldiğini aktarıyor (tek vaka).",
+            "cozum": "Bir 4x4 sahibinde açı sensörünün sıfırlanması ve rot ayarının düzeltilmesiyle EPS hatası giderilmiş."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/dacia/direksiyon/duster",
+            "https://www.sikayetvar.com/dacia/direksiyon/titrem",
+            "https://www.sikayetvar.com/dacia/duster/ariza",
+            "https://forum.donanimhaber.com/duster-4-x-4-eps-arizasi-sorunu-ve-cozumu--140770803"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Dacia",
       "model": "Duster (2018-2021)",
       "motor": "1.5 dCi 110 (K9K)",
       "uretim_yillari": {
@@ -5523,6 +5550,36 @@
     },
     {
       "marka": "Ford",
+      "model": "Fiesta (Mk7, 2008-2017)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyon çevrilirken gıcırtı ve ses (direksiyon mafsalı, direksiyon kutusu)",
+          "etkilenen_parca": "Direksiyon mafsalı ve direksiyon kutusu; amortisör üst takozu ve rulman",
+          "belirtiler": "Direksiyon çevrilirken gıcırtı, tak-tuk ve ses; direksiyon kutusu birkaç kez değiştirilse de sesin geri gelmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda ortak bir neden yok: bazı kullanıcılar direksiyon mafsalının, bazıları direksiyon kutusunun, bazıları amortisör üst takozu ya da rulmanın sesin kaynağı olduğunu yazıyor; bir forum yazarı mafsalın kronik olarak sorunlu olduğunu, kutunun değil mafsalın asıl suçlu olabileceğini savunuyor.",
+            "teshis": "Forumda bazı kullanıcılar direksiyon sonuna dayanınca gelen tak sesinin amortisör kafasından, düz konumda sallayınca gelen boşluk sesinin kutudan kaynaklanabileceğini belirtiyor.",
+            "cozum": "Şikâyetvar'da bir sahip direksiyon kutusunu üç kez değiştirdiğini ve sesin sürdüğünü, bir forum kullanıcısı mafsal değişiminden sonra sesin amortisör üst takozu ve rulman değişimiyle gittiğini yazıyor.",
+            "maliyet": "Bir forum kullanıcısı mafsal onarımını yaklaşık 70 TL'ye yaptırdığını yazıyor (eski, tarih belirtilmemiş); direksiyon kutusu arızasında masrafın daha yüksek olduğu anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/ford/ford-fiestada-kronik-direksiyon-ve-teyp-sorunlari",
+            "https://www.sikayetvar.com/ford/ford-fiesta-direksiyon-kutusu-arizasi",
+            "https://www.sikayetvar.com/ford/direksiyon-kutusu/fiesta",
+            "https://forum.donanimhaber.com/2012-fiesta-direksiyon-sorunlari--63805489",
+            "https://forum.donanimhaber.com/onden-gelen-luk-luk-sesi--141992033"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Ford",
       "model": "Fiesta (Mk7, 2011-2017)",
       "motor": "1.6 Ti-VCT 105 (Powershift DPS6)",
       "uretim_yillari": {
@@ -5879,6 +5936,32 @@
       ],
       "aileler": [
         "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Kuga 2 / 3 (2013-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Panoramik cam tavan perdesi (güneşlik) motoru arızası ve kendiliğinden kapanması",
+          "etkilenen_parca": "Panoramik cam tavan perdesi motoru ve mekanizması",
+          "belirtiler": "Perdenin açık bırakıldıktan sonra araç kilitlenip tekrar binilirken kendiliğinden kapanması; perde motorunun arızalanması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok; forumda cam hareketlerinin sensör, sigorta ya da yazılım kaynaklı olabileceği, bazen kodlamayla düzeltildiği yazılıyor (Kuga'ya özgü doğrulanmış bilgi değil).",
+            "cozum": "Şikâyetvar'da 2020 model bir Kuga sahibi perde motorunun garanti kapsamında değiştirildiğini, 39.000 km'de arızanın yeniden çıktığını ve bayinin bu kez garantiyi kabul etmediğini yazıyor; bir forum kullanıcısında yetkili servis çözüm bulamamış."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/ford-kuga-cam-tavan-sorunu--152391346",
+            "https://www.sikayetvar.com/ford/kuga/kronik",
+            "https://www.sikayetvar.com/ford/cam/garanti"
+          ]
+        }
       ]
     },
     {
@@ -8856,6 +8939,59 @@
     },
     {
       "marka": "Opel",
+      "model": "Astra K (2015-2021)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyon kolon kilidi (ESCL) arızası, araç çalışmıyor",
+          "etkilenen_parca": "Elektronik direksiyon kolon kilidi modülü (ESCL)",
+          "belirtiler": "Direksiyonun kilitlenmesi ve aracın marş almaması; gösterge panelinde direksiyon kolon kilidi için servis uyarısı.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Forum paylaşımlarında E172113370 kodlu bir Opel özel kapsam bülteni anılıyor: bazı 2016-2018 model yılı Astra K'larda kolon kilidi modülünün elektrikli direksiyondan veri kaybı nedeniyle motorun çalışmamasına yol açabildiği; bir şikâyette bültenin 120 bin km altı koşulu aradığı yazılıyor (resmî belge doğrulanamadı).",
+            "teshis": "Forumdaki bir alıntıya göre kolon kilidi kontrol ünitesinde ve gösterge panelinde B101Ex48 ve/veya B2910x71 hata kodlarıyla ESCL için 'servise git' mesajı oluşuyor.",
+            "cozum": "Bazı kullanıcılar direksiyonu sert hareket ettirip yeniden denemeyi ya da akünün zayıf olup olmadığına bakmayı öneriyor (resmî çözüm değil); kalıcı çözüm kolon kilidi modülünün değişimi.",
+            "maliyet": "Şikâyetvar'da servislerin en az 5.000 TL, bazı anlatılarda 7.500-8.000 TL istediği yazılıyor (tarihler belirtilmemiş); bülten olmasına rağmen servis ve Opel Türkiye'nin garanti bitti diye ücretsiz değişim yapmadığını bildiren kullanıcılar var."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/opel-astra-k-direksiyon-kolon-kilidi-kronik-arizasi",
+            "https://forum.donanimhaber.com/opel-astra-k-direksiyon-kolon-kilidi-arizasi--150399938",
+            "https://eksisozluk.com/direksiyon-kolonu-kilidi--7022341",
+            "https://www.sikayetvar.com/opel/astra/direksiyon?page=2",
+            "https://www.sikayetvar.com/opel/astra/kilit"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2015,
+              "bitis": 2018,
+              "durum": "Yaygın",
+              "not": "Şikâyetvar'da özellikle 2015-2016 modellerde ve 2016-2018 üretiminde kronik olarak anılıyor; bülten 2016-2018 model yılı araçlar için."
+            }
+          ]
+        },
+        {
+          "sorun_adi": "Tavan ve kaput boyasında atma, kabarma ve soyulma",
+          "etkilenen_parca": "Boya (tavan, kaput)",
+          "belirtiler": "Tavanda kabarma ve boya atması; kaputta boya soyulması; araç yıkanırken boyanın atması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Forum başlığında bir yorumcu sorunun 2009-2011 dönemi Opel modellerinin birçoğunda da görüldüğünü iddia ediyor, bir başkası boya atmasını kuş pisliğine bağlıyor; Şikâyetvar'da 2017 model bir Astra K sahibi tavan ve kaput boyasının soyulduğunu yazıyor. Üretici açıklaması bulunamadı.",
+            "cozum": "Bir forum kullanıcısı Opel Türkiye'ye fotoğraf göndererek başvurmuş (sonuç belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/2016-model-astra-k-tavanda-boya-atmasi--130478526",
+            "https://www.sikayetvar.com/opel/astra/kronik",
+            "https://www.sikayetvar.com/opel/opel-astra-kronik-problemleri"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Combo D (2011-2018)",
       "motor": "1.3 CDTI 90 (Multijet)",
       "uretim_yillari": {
@@ -8900,6 +9036,32 @@
       ],
       "aileler": [
         "fiat-1-3-multijet"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Corsa D (2006-2014)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyon çevrilirken gıcırtı ve sürtme sesi (elektrikli direksiyon, mafsal, alt takım)",
+          "etkilenen_parca": "Elektrikli direksiyon desteği, direksiyon kutusu mafsalı, amortisör üst takozu ve bilyalar",
+          "belirtiler": "Direksiyon çevrilirken sürtme, gıcırtı ya da metal ses; yetkili servislerin sesin Corsa D'lerde farklı derecelerde görüldüğünü söylediği aktarılıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda kesin ortak neden yok: bir forum kullanıcısı sesin elektrikli direksiyon destek sisteminden geldiğini ve değişiminin çok pahalıya çıktığını, başkaları direksiyon kutusu mafsalını, amortisör üst takozunu, tekerlek bilyalarını ya da rot başını işaret ediyor.",
+            "teshis": "Forumda önce alt takım parçalarının (amortisör üst takozu, bilya, rot başı), sonra direksiyon kutusu ya da EPS'in kontrolü ve iki farklı görüş alınması öneriliyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/opel-corsa-d-kronik-direksiyon-sesi-problemi--94822629",
+            "https://eksisozluk.com/opel-corsa--41609?p=18",
+            "https://www.sikayetvar.com/opel/corsa/kronik"
+          ]
+        }
       ]
     },
     {
@@ -10372,6 +10534,34 @@
     },
     {
       "marka": "Renault",
+      "model": "Clio 5 (2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Multimedya ekranında 'Sistem kilitlendi' uyarısı, kendiliğinden kapanma ve CarPlay kopması",
+          "etkilenen_parca": "Fabrika multimedya ekranı (EASY LINK) ve yazılımı",
+          "belirtiler": "Ekranda 'Sistem kilitlendi, satıcınıza başvurunuz' uyarısı, ekranın çalıştırmadan 10-20 saniye sonra kendiliğinden kapanması, açılmaması; Apple CarPlay bağlıyken bağlantının kopması ve ekranın kararması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Bazı şikâyetler fabrika ekranı yerine sonradan takılan Android ekranlarla (Necvox, Avgo ve benzeri) ilgili; bu kayıt fabrika ekran anlatılarına dayanır. Kaynaklarda kesin neden yok.",
+            "cozum": "Şikâyetlerde parça değişimine rağmen sorunun geri döndüğü ve garanti süresi konusunda itiraz edildiği anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/clio/clio-5-ekran",
+            "https://www.sikayetvar.com/clio-5/multimedya",
+            "https://www.sikayetvar.com/clio-5/ekran",
+            "https://www.sikayetvar.com/renault/renault-sifir-clio-5-aracimin-multimedya-ekrani-calismiyor",
+            "https://forum.donanimhaber.com/clio-5-ekran-multimedya-sorunu--151377648"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
       "model": "Kadjar (2015-2018)",
       "motor": "1.2 TCe 130 (H5Ft, manuel ve EDC)",
       "uretim_yillari": {
@@ -10593,6 +10783,38 @@
     },
     {
       "marka": "Renault",
+      "model": "Megane 3 / Fluence (2009-2016)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Ön cam altı ızgarası ve tahliye kanalı kaynaklı kabine su alma",
+          "etkilenen_parca": "Ön cam altı (kaput arkası) plastik ızgara ve su tahliye kanalları, fitiller",
+          "belirtiler": "Yağmurda ya da yıkamada ön yolcu tarafında ve taban halısı altında ıslaklık; paspaslar kuru olsa bile döşeme altında su birikmesi; bazı anlatılarda ızgara parçalarının çatlayıp dökülmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da birçok kullanıcı ön cam ile kaput arasındaki ızgaranın plastik (bakalit) parçalarının çatlayıp döküldüğünü ve bunun kronik olduğunu yazıyor. Forumda ön cam tahliye kanalındaki deliklerin küçük olduğu, çabuk tıkandığı ve biriken suyun havalandırma kanallarından içeri girdiği anlatılıyor (bir Megane 2 / 3 örneği).",
+            "teshis": "Islaklığın yalnızca sol ya da sağ tarafta olması kapı ve cam fitillerini daha olası kılıyor. Forumda yardımcıyla aracı hortumla yavaş yavaş ıslatıp içeride kontrol etmek öneriliyor; bir kullanıcı paspas altlarının kuru olduğunu ama döşeme altının ıslak, hatta göl gibi olduğunu, kaynağı bulamadığını yazıyor.",
+            "cozum": "Izgarayı söküp tıkalı tahliye kanallarını ve delikleri bir çubukla açmak forumda sorunu çözmüş; ızgara parçası çatlaksa değişimi gerekiyor.",
+            "onlem": "Izgara altını ve tahliye deliklerini yaprak ve kirden temiz tutmak; sunroof'lu araçlarda drenajı da kontrol etmek (forum önerisi)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/megane-3-icerisine-su-aliyor-acil-yardim--102608471",
+            "https://forum.donanimhaber.com/megane-3-su-aliyor-yardim-a--147392635",
+            "https://forum.donanimhaber.com/megane3-su-alma-sorunu--97785221",
+            "https://forum.donanimhaber.com/megane-3-arac-icine-su-giriyor--131693833",
+            "https://www.sikayetvar.com/renault/izgara",
+            "https://www.sikayetvar.com/renault/megane/megane-2012",
+            "https://www.sikayetvar.com/kaput/megane"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
       "model": "Megane 4 (2016-)",
       "motor": "1.3 TCe 140 (H5Ht, EDC)",
       "uretim_yillari": {
@@ -10687,6 +10909,48 @@
       ],
       "aileler": [
         "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Megane 4 / Sedan (2016-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Far içinde buğulanma, çatlama ve C-LED (gündüz farı) sararması",
+          "etkilenen_parca": "Ön far grubu ve C şeklindeki LED gündüz farı",
+          "belirtiler": "Far içinde nem ve buğu, far camında çatlak, C şeklindeki LED imzanın zamanla sararması; bazı kullanıcılar kısa farların kendiliğinden kapandığını da bildiriyor (tekil).",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da yetkili servisin bazı far çatlaklarını dış darbeye bağlayıp garanti kapsamına almadığı, sürücülerin bu tespite itiraz ettiği yazılıyor; üretici açıklaması bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/megane/megane-4-far",
+            "https://www.sikayetvar.com/renault/kronik/megane-4",
+            "https://forum.donanimhaber.com/yeni-sorun-renault-megane-4-ve-yasadigim-problemler-yeni-guncelleme-c-led-sararmasi--134898560"
+          ]
+        },
+        {
+          "sorun_adi": "Fabrika multimedya (R-Link) ekranının donması, kararması ve Bluetooth bağlantısının kopması",
+          "etkilenen_parca": "R-Link multimedya ekranı ve bağlantı yazılımı",
+          "belirtiler": "Ekranın donması, kendiliğinden kararıp yeniden açılması, telefonun bulunamaması ya da Bluetooth bağlantısının kopması; bir forum kullanıcısı sistemin bir süre sonra bilgisayar gibi çöküp kendine geldiğini yazıyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetlerin önemli bir kısmı sonradan takılan Android ekranlarla (Necvox ve benzeri) ilgilidir; bu kayıt yalnızca fabrika R-Link ekranına ait anlatılara dayanır. Kaynaklarda kesin neden yok.",
+            "cozum": "Forumdaki genel öneriler: aküyü ve kablo bağlantılarını kontrol etmek, yetkili serviste yazılım güncellemesi yaptırmak."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/megane/ekran",
+            "https://www.sikayetvar.com/renault/kronik/megane-4",
+            "https://www.sikayetvar.com/renault/renault-multimedya-ekrani-sorunu-video",
+            "https://forum.donanimhaber.com/yeni-sorun-renault-megane-4-ve-yasadigim-problemler-yeni-guncelleme-c-led-sararmasi--134898560",
+            "https://forum.donanimhaber.com/megane-4-bluetooth-baglanti-sorunu--145390496"
+          ]
+        }
       ]
     },
     {
@@ -11033,6 +11297,33 @@
     },
     {
       "marka": "Seat",
+      "model": "Leon 5F (2013-2020)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kapı, gösterge paneli ve konsoldan tıkırtı ve zırıltı sesleri",
+          "etkilenen_parca": "Gösterge paneli ve konsol plastikleri, kapı içi ve kapı fitilleri, cam kılavuzları, sunroof tıkırtısı",
+          "belirtiler": "Gösterge paneli zırıltısı, kapı içi tıkırtısı, tümsek geçişlerinde kapı fitillerinden gelen ses, sunroof tıkırtısı, kemer tokası bölgesi ve bas zırlaması; camların birkaç açma-kapamadan sonra tıkır tıkır ses yapması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok; bir forum başlığında servisin cam sesini normal bulduğu yazılıyor. DonanımHaber başlığındaki yorumlar 2014-2017 yıllarına ait; Şikâyetvar'da 2018 model bir kullanıcı kapı fitilinden gelen sesi bildiriyor.",
+            "cozum": "Bazı kullanıcılar bas ayarını düşürerek ya da kapı içlerini ses yalıtımıyla izole ederek sesleri azaltmış (DonanımHaber)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/seat-leon-mk3-5f-yasadigim-sorunlar-ve-cozumleri--95863144-12",
+            "https://forum.donanimhaber.com/seat-leon-mk3-5f-yasadigim-sorunlar-ve-cozumleri--95863144-10",
+            "https://www.sikayetvar.com/seat/leon/ses?page=2",
+            "https://www.sikayetvar.com/seat/leon/kronik"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Seat",
       "model": "Toledo (NH, 2012-2019)",
       "motor": "1.2 TSI 90/105 (DSG DQ200)",
       "uretim_yillari": {
@@ -11221,6 +11512,34 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-dq381"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Kodiaq (2017-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Bagajdan su alma (bagaj kapağı ve stop lambası contaları, tahliye kanalları)",
+          "etkilenen_parca": "Bagaj kapağı contası, arka stop lambası contası, bagaj kapağı tahliye delikleri ve yan kanatları",
+          "belirtiler": "Yağmurda ya da yıkamada bagaj tabanında su birikmesi, bagaj kapağından su damlaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Briskoda'da sahipler suyun farklı noktalardan girdiğini yazıyor: arka lamba grubunun yitirdiği sızdırmazlık contası, bagaj kapağı contası, amortisör bağlantı noktaları, plaka perçinleri, arka silecek geçişi ya da arka kamera kablo geçişi; bazı konularda tahliye kanallarının tıkanması bayide temizlenerek çözülmüş.",
+            "cozum": "Anlatılan çözümler: lamba contasının ya da bagaj contasının değiştirilmesi, kablo geçişinin silikonla yeniden sızdırmaz hâle getirilmesi, tahliye deliklerinin temizlenmesi. Bir forum yazısında su girişi nedeniyle altı Kodiaq'ın geri çağrıldığı iddia ediliyor ama yalnızca bir sosyal medya paylaşımına dayandığı için doğrulanamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/kodiaq",
+            "https://www.sikayetvar.com/kodiaq",
+            "https://www.briskoda.net/forums/topic/493851-tailgate-leak/",
+            "https://www.briskoda.net/forums/topic/509252-water-leak/",
+            "https://www.briskoda.net/forums/topic/449712-bootdoor-drainage-on-kodiaq/"
+          ]
+        }
       ]
     },
     {
@@ -11530,6 +11849,38 @@
     },
     {
       "marka": "Skoda",
+      "model": "Octavia A7 (2013-2020)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Panoramik cam tavandan su sızması (tahliye kanalı, conta ve çerçeve)",
+          "etkilenen_parca": "Panoramik cam tavan tahliye hortumları, contalar ve çerçeve",
+          "belirtiler": "Yağmurda ya da yıkamada A sütunu ve tavan döşemesi boyunca, ön yolcu ayak boşluğunda ya da kaput açma kolu çevresinde ıslaklık; Şikâyetvar'da 2017 model bir araçta cam tavan çerçevesinin çatlayıp su alması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Briskoda'da en sık anlatılan neden tahliye hortumlarının kir, yaprak ya da küfle tıkanması; ayrıca yırtılmış ya da aşınmış contalar ve rüzgar deflektörü çevresindeki sızdırmaz olmayan boşluk (su tavan döşemesine ve A sütunlarına akıyor). Bazı sahipler suyun tahliye yerine çerçeveden geldiğini yazıyor; bir sahip tavan sacı ile cam tavan yapısı arasındaki conta için bir teknik bülten bulunduğunu söylüyor (bayi başta kayıt bulamamış, doğrulanmadı). Şikâyetvar'da bir kullanıcı çerçevede çatlak oluştuğunu ve servisin komple değişim önerdiğini yazıyor.",
+            "teshis": "Cam tavan kanalına su dökerek suyun nereden çıktığına bakmak (kaput açma kolu çevresi, ön ve arka tekerlek yuvaları); ön tahliyeler cowl (ızgara) kapağının altında. Bayi tanısının pahalı ve tutarsız olabildiği, suyun şiddetli yağmurdan sonra yeniden geldiği anlatılıyor.",
+            "cozum": "Tahliye hortumlarını naylon misina, basınçlı hava ya da bisiklet fren teliyle temizlemek (tel kullanırken hortum bağlantılarının kopmaması için dikkat); bağlantıları, contaları ve rüzgar deflektörü çevresini kontrol etmek; çerçeve çatlaksa parça değişimi.",
+            "onlem": "Ön tahliyeleri ve hortumları yaprak ve kirden temiz tutmak; suyu ilk görüldüğünde araştırmak (forum önerileri)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/octavia/kronik",
+            "https://www.sikayetvar.com/skoda/skoda-octaviada-kronik-sorunlar-ve-servis-hayal-kirikligi",
+            "https://www.briskoda.net/forums/topic/441343-panoramic-sunroof-drain-and-leak/",
+            "https://www.briskoda.net/forums/topic/456659-panoramic-roof-leak-diy-solution/",
+            "https://www.briskoda.net/forums/topic/461994-blocked-sunroof-drain-pipe/",
+            "https://www.briskoda.net/forums/topic/454556-panoramic-roof-seals-torn/",
+            "https://www.briskoda.net/forums/topic/528834-octavia-vrs-mk3-water-in-passenger-footwell/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Skoda",
       "model": "Rapid (2012-2019)",
       "motor": "1.2 TSI 90/105/110 (DSG DQ200)",
       "uretim_yillari": {
@@ -11746,6 +12097,32 @@
       "aileler": [
         "vag-1-5-tsi-evo",
         "vag-48v-etsi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb III (2015-2023)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Cam tavan çerçevesinde (plastik) çatlak ve sunroof'tan su sızması",
+          "etkilenen_parca": "Cam tavan plastik çerçevesi, contalar ve tahliye hortumları",
+          "belirtiler": "Cam tavan plastiğinin kendiliğinden çatlaması, birinci yıldan sonra sunroofdan ses gelmesi; cam tavandan kabine su sızması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2019 model bir Superb sahibi cam tavan plastiğinin kronik olarak çatladığını yazıyor; Briskoda'daki Superb Mk3 başlığında sunroof kaynaklı su sızması anlatılıyor, nedeni (tahliye mi, conta mı, çerçeve mi) kaynaktan ayırt edilemiyor.",
+            "maliyet": "Şikâyetvar'daki 2019 model sahibine servisin yaklaşık 100.000 TL talep ettiği yazılıyor (tek vaka, tarih belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/superb/kronik",
+            "https://www.sikayetvar.com/skoda/superb",
+            "https://www.briskoda.net/forums/topic/465902-water-leakage-from-sunroof/"
+          ]
+        }
       ]
     },
     {
@@ -12706,6 +13083,49 @@
       "aileler": [
         "vag-1-5-tsi-evo",
         "vag-48v-etsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 8 / 8.5 (2020-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Multimedya ekranının açılmaması, geç açılması ve kendiliğinden devre dışı kalması",
+          "etkilenen_parca": "Fabrika multimedya ekranı ve yazılımı (klima kontrolleri ekrandan yapılıyor)",
+          "belirtiler": "Ekranın hiç açılmaması ya da soğukta geç açılıp siyah ekranda beklemesi; klima kontrolleri ekran üzerinde olduğundan klimanın kullanılamaması; 2024 Golf 8.5'te aracın multimedya ekranını kendiliğinden devre dışı bırakması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok; bazı yorumlarda yazılım güncellemesiyle düzeldiği belirtiliyor.",
+            "cozum": "Servis çözümü olarak multimedya sıfırlaması ve yazılım güncellemesi anlatılıyor; sorunun tekrarladığı da yazılıyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/golf-8-ile-donduk-rezalet-multimedya-ekrani--151665058",
+            "https://forum.donanimhaber.com/sifir-golf-8-ile-yasadigim-sorunlar--150729664",
+            "https://www.sikayetvar.com/volkswagen/golf/golf-8",
+            "https://www.sikayetvar.com/golf-8"
+          ]
+        },
+        {
+          "sorun_adi": "SOS (acil çağrı) hatası, garanti sonrası yeniden ortaya çıkıyor",
+          "etkilenen_parca": "Acil çağrı (SOS) modülü ve yazılımı",
+          "belirtiler": "Gösterge panelinde SOS / acil çağrı hata uyarısı; garanti süresinde uyarı çıkıp güncelleme sözü verilen araçlarda garanti bitince uyarının yeniden başlaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'daki bir kaynak sorunun hem yazılım hem donanım kaynaklı olabileceğini yazıyor; bir sahip bunu VW grubunda kronik olarak bilinen bir arıza olarak tanımlıyor. Resmî bir geri çağırma kaydı ya da üretici açıklaması bulunamadı.",
+            "maliyet": "Bir Şikâyetvar kullanıcısı garanti bitimi sonrası SOS arızası için yaklaşık 37 bin TL (yaklaşık 1.000 euro) ödediğini yazıyor (tarih belirtilmemiş); bir diğeri garanti dışı ücretsiz onarım talep ediyor.",
+            "onlem": "Garanti süresindeyken uyarıyı yazılı arıza kaydı olarak açtırmak ve hata kodu çıktısını almak (kaynak önerisi)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/sifir-golf-8-ile-yasadigim-sorunlar--150729664",
+            "https://www.sikayetvar.com/volkswagen/golf/golf-8",
+            "https://www.sikayetvar.com/golf-8"
+          ]
+        }
       ]
     },
     {
