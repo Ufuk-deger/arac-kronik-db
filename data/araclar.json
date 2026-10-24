@@ -1916,6 +1916,79 @@
     },
     {
       "marka": "Ford",
+      "model": "Fiesta (Mk7, 2008-2017)",
+      "motor": "1.4 TDCi 68 / 1.6 TDCi 90/95/115 (Duratorq)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Enjektör arızası ve enjektör contası sızıntısı",
+          "etkilenen_parca": "Common-rail enjektörleri, enjektör contaları (kurum kaçağı), enjektör bobinleri",
+          "belirtiler": "Soğuk çalıştırmada duman ve enjektör şakırdaması, 2000 devir altında tekleme, beyaz duman, yakıt tüketiminde artış, zor çalışma ya da stop etme; bazı araçlarda tek bir silindirin enjektör devresi hatası ve elektrik ark sesi",
+          "tahmini_km_araligi": "80.000 - 230.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de 2010 model bir 1.4 TDCi sahibi 230 bin km'de soğukta duman, 2000 devir altında tekleme ve enjektör şakırdaması yaşadığını, conta ve enjektör müdahalesine rağmen sorunun sürdüğünü yazıyor; başka bir kullanıcı enjektör bobinlerinin bozuk olabileceğini belirtiyor. Ford Owners Club'da enjektör contasının sızdırdığı, kurumun motora karıştığı ve bunun turbo yağ kanallarını tıkadığı anlatılıyor; bir 1.4'te 4. silindir enjektör devresi hatası (P1204) ve duyulur elektrik arkı bildirilmiş. Kötü yakıtın enjektörleri kolay bozduğu da yazılıyor.",
+            "teshis": "DonanımHaber'de ısındıkça oluşan teklemede EGR ile enjektörün şüpheli olduğu, duman varsa enjektörün daha olası olduğu, turboda yağ kaçağı olup olmadığına da bakılması gerektiği yazılıyor. Şikâyetvar'da bir sahip enjektör uçlarını yüksek maliyetle değiştirmesine rağmen egzoz kokusu ve dumanın sürdüğünü bildiriyor.",
+            "cozum": "Enjektör ve conta değişimi, turbo revizyonu ve meme ucu değişimi deneniyor ancak bazı araçlarda sorun sürüyor; kaliteli yakıt ve periyodik enjektör temizliği öneriliyor (OTOPARK).",
+            "maliyet": "Net güncel rakam yok; Şikâyetvar'da enjektör ucu değişimi 'büyük maliyet' olarak anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/1-4-tdci-enjektor-sakirdamasi-beyaz-duman-tekleme-yakit-artisi--160083478",
+            "https://forum.donanimhaber.com/ford-fiesta-stop-etme-sorunu-1-4-tdci--145012430",
+            "https://otopark.com/forum/threads/ford-fiesta-2011-1-4-tdci-kronik-sorunlari.3853/",
+            "https://www.sikayetvar.com/ford/fiesta/kronik",
+            "https://www.fordownersclub.com/forums/topic/106861-fiesta-14-tdci-egr-and-injectors-question/",
+            "https://www.fordownersclub.com/forums/topic/147206-intermittent-injector-problems-fiesta-diesel/",
+            "https://www.fordownersclub.com/forums/topic/168351-fiesta-14-tdci-loud-electrical-sparkingarcing-injector"
+          ]
+        },
+        {
+          "sorun_adi": "Turbo arızası (kurum ve yağlama sorunu)",
+          "etkilenen_parca": "Turbo, turbo yağ besleme kanalları, turbo hortumları ve bağlantıları",
+          "belirtiler": "Güç kaybı, duman, ıslık sesi, acil (limp) moda geçme; ileri aşamada turbonun kilitlenmesi",
+          "tahmini_km_araligi": "100.000 - 200.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Honest John ve Ford Owners Club'da Mk7 TDCi'de turbo arızasının çoğunlukla 3. silindir enjektör contasından motora sızan kurumun yağ kanallarını tıkamasından kaynaklandığı, uzun yağ değişim aralıklarının da yağ yollarında çamur biriktirip turbonun yağsız kalmasına yol açtığı yazılıyor; turbo arızasının özellikle 1.6'nın çift kam sürümünde bilinen bir sorun olduğu söyleniyor. OTOPARK'ta bir kullanıcı bu motorlarda turbonun ve enjektörün hassas olduğunu, bakım ihmal edilirse turbonun sorun çıkardığını yazıyor.",
+            "teshis": "OTOPARK'ta bir kullanıcı eski kasalarda turbo ömrünün ortalama 120 bin km civarında olduğunu yazıyor (tek kullanıcı). Ford Owners Club'da kurum kaçağı için enjektör contalarının periyodik kontrol edilmesi öneriliyor. Kilometre aralığı kaba tahmindir.",
+            "cozum": "Turbo değişimi ya da revizyonu; kök neden olarak enjektör contasının ve yağ besleme hattının temizlenmesi, düzenli ve kısa aralıklı yağ değişimi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/ford-fiesta-1-4-tdci-68-beygir-testi.13156/",
+            "https://otopark.com/forum/threads/ford-fiesta-2011-1-4-tdci-kronik-sorunlari.3853/",
+            "https://forum.donanimhaber.com/fiesta-1-4-tdci-trend-kullanan-var-mi--125918685",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=96679",
+            "https://www.fordownersclub.com/forums/topic/106861-fiesta-14-tdci-egr-and-injectors-question/",
+            "https://www.fordownersclub.com/forums/topic/90089-is-fiesta-14-16-tdci-mk7-reliable/"
+          ]
+        },
+        {
+          "sorun_adi": "EGR valfi kurumlanması ve DPF tıkanması",
+          "etkilenen_parca": "EGR valfi, emme manifoldu, dizel partikül filtresi (1.6 TDCi'de)",
+          "belirtiler": "Güç düşmeleri, rölantide düzensizlik, tereddüt, motorun stop etmesi ya da kesilmesi, EGR / emisyon uyarısı; 1.6 TDCi'de DPF'nin tamamen tıkanması",
+          "tahmini_km_araligi": "80.000 - 200.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Ford Owners Club'da karbonla takılan EGR valfi sık suçlanıyor: bir sahip EGR kaynaklı arızanın motoru kestiğini ve stop ettirdiğini, başka biri EGR tıkama denemesinin boost sensörü hatası verdirdiğini yazıyor; bir alıcı DPF'si tamamen tıkalı bir 1.6 TDCi bulmuş. DonanımHaber'de bir kullanıcı EGR iptalinden sonra çalışma ve titreme sorunları yaşandığını aktarıyor; bir başka yanıt EGR temizliğinin her zaman kalıcı çözüm olmadığını belirtiyor.",
+            "teshis": "Ford Owners Club'da güç düşmelerinin EGR sorununa benzediği, EGR tıkamanın bu düşmeleri durdurduğu yazılıyor; ayrıca bozuk kam konum sensörü ve ısıtma bujilerinin de stop ve tekleme yaptırabildiği anılıyor. EGR iptali muayene ve emisyon açısından risklidir.",
+            "cozum": "EGR valfinin temizlenmesi ya da değişimi; bazı sahipler EGR iptali yapıyor (muayene riski). Kaynaklarda kalıcı bir çözüm konusunda görüş birliği yok."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/egr-valfi-iptali-ve-endise--111790444",
+            "https://forum.donanimhaber.com/ford-fiesta-1-4-tdci-hatasi--47316532",
+            "https://forum.donanimhaber.com/1-6tdci-kronik-sorun-var-mi--149568529",
+            "https://www.fordownersclub.com/forums/topic/106861-fiesta-14-tdci-egr-and-injectors-question/",
+            "https://www.fordownersclub.com/forums/topic/112483-fiesta-16tdci-engine-cutting-out/",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=96679"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Ford",
       "model": "Fiesta (Mk7, 2011-2017)",
       "motor": "1.6 Ti-VCT 105 (Powershift DPS6)",
       "uretim_yillari": {
@@ -4174,6 +4247,96 @@
     },
     {
       "marka": "Opel",
+      "model": "Astra H / J (2005-2015)",
+      "motor": "1.3 CDTI 90/95 (manuel ve Easytronic)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri sesi ve uzaması",
+          "etkilenen_parca": "Triger zinciri, gergisi ve kılavuzları",
+          "belirtiler": "Soğuk ilk çalıştırmada şıkırtı ya da şırıltı sesi (ısınınca azalabiliyor); ileri aşamada zincir atlaması ya da kopması ve motor hasarı",
+          "tahmini_km_araligi": "100.000 - 200.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Değişim aralığı konusunda kaynaklar net değil. DonanımHaber'de Astra J için en az 120 bin km önerildiği, bir yetkili servisin 150 bin km verdiği, bir kullanıcının Astra H'de 200 bin km'de zinciri henüz değiştirmediği yazılıyor; çoğu kullanıcı zinciri 'ses başlayınca' değiştiriyor. Vauxhall Owners Network'te bir sahip zincirin yaklaşık 40.000 milde (yaklaşık 64.000 km) kopup motorun yenilenmesi gerektiğini (7.000 mil yağ aralığıyla) yazarken, yüksek kilometreli filo araçlarını bilen bir başkası yalnızca tek bir 1.3'te gürültülü zincir gördüğünü söylüyor; yaygınlığı belirsiz.",
+            "teshis": "DonanımHaber'de soğuk ilk çalıştırmada 'şıkır şıkır' ses olup olmadığını dinlemek öneriliyor; Astra J'de soğuk marş zorluğunun klasik bir sorun olduğu ve zincir kontrolünün önemli olduğu yazılıyor. Forumlarda (DonanımHaber, Ekşi Sözlük) zincir değişiminin maliyetinin yüksek olabileceği de yazılıyor; Ekşi Sözlük'te bir girdi 1.3 CDTI'nin yapılmış en dayanıklı dizellerden biri olduğunu savunuyor (görüşler ayrışıyor).",
+            "cozum": "Zincir seti ve gergi değişimi; servis geçmişinde zincir bakımının sorulması öneriliyor.",
+            "maliyet": "Net güncel TL rakamı yok: Corsa 1.3 CDTI için forumda 'sanayide 30 bine varır' ve bir yetkili serviste 30-40 bin TL civarı fiyatlar anlatılıyor (aynı motor, tarihler belirsiz; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.araclo.com/blog/opel-astra-1.3-cdti-kronik-sorunlari-ve-ikinci-el-alim-rehberi",
+            "https://forum.donanimhaber.com/astra-j-1-3-cdti-sogukken-gec-calisiyor--161100091",
+            "https://forum.donanimhaber.com/opel-astra-1-3-cdti-almayi-dusunuyorum-artilari-eksileri-nelerdir-tavsiyelerinizi-bekliyorum--8707312-10",
+            "https://forum.donanimhaber.com/triger-sesi-degisim-periyodu--158393210",
+            "https://eksisozluk.com/opel-astra-1-3-cdti--1306897",
+            "https://www.vauxhallownersnetwork.co.uk/threads/astra-1-3-cdti-timing-chain.316850/"
+          ]
+        },
+        {
+          "sorun_adi": "EGR kurumlanması ve DPF tıkanması (kısa mesafe kullanımında)",
+          "etkilenen_parca": "EGR valfi, emme manifoldu, dizel partikül filtresi (DPF)",
+          "belirtiler": "Güç kaybı, 'partikül filtresi' ya da 'en kısa zamanda servise' uyarısı, duman, yakıt tüketiminde artış, muayeneden geçememe; DPF yenilemesinde fazla yakıtın karter yağına karışması",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de DPF'nin kendini temizlemesi için motorun ısınmış olması ve yüksek devirde çalışması gerektiği, şehir içi ve kısa mesafeli kullanımda bu koşulun oluşmadığı, düşük devirde zorlayarak sürmenin filtrenin dolmasını hızlandırdığı yazılıyor. Honest John, 2004-2009 Astra'nın 1.3 CDTi'sinde DPF'yi yakmak için verilen fazla dizelin yanmak yerine karterde birikip motor yağını seyreltebildiğini yazıyor. Vauxhall Owners Network'te en tutarlı tema EGR: tereddüt, düzensiz çalışma ve ateşleme kaçıkları EGR valfinin temizlenmesi ya da değişmesiyle giderilmiş; manifolddaki kurum birikimi de anılıyor.",
+            "teshis": "DonanımHaber'de güç kaybında enjektörler sorunsuzsa EGR'nin kurum bağlamış olabileceği öneriliyor; Astra J 1.3'te 'en kısa zamanda servise' uyarısının buji kablosu, ateşleme bobini ya da EGR valfinden kaynaklanabildiği yazılıyor. Honest John yağ seviyesini ve yağ kokusunu düzenli kontrol etmeyi öneriyor.",
+            "cozum": "DPF için ısınmış motorla otoyolda yüksek devirde yaklaşık 10-15 dakikalık sürüş; EGR valfinin temizlenmesi ya da değişimi. Bazı kullanıcılar EGR ve DPF'yi yazılımla devre dışı bırakıyor ancak bu muayene riski taşıyor (DonanımHaber)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/astra-1-3-cdti-j-partikul-filtresi-uyarisi--92627044",
+            "https://forum.donanimhaber.com/opel-astra-j-1-3-dizel-cdti-nasildir--162837904",
+            "https://forum.donanimhaber.com/opel-astraj-2012-sedan-1-3-cdti-hakkinda-cozumler--128377876",
+            "https://www.vauxhallownersnetwork.co.uk/threads/going-mad-with-egr-dpf-problems.425061/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/astra-1-3cdti-common-problems.199991/",
+            "https://www.honestjohn.co.uk/vauxhall/astra/2004/"
+          ]
+        },
+        {
+          "sorun_adi": "Turbo basınç hatası (kontrol selenoid valfi, aktüatör ve hortum kaçağı)",
+          "etkilenen_parca": "Turbo kontrol selenoid valfi, wastegate aktüatörü, turbo hava hortumu ve bağlantı contası; turbo",
+          "belirtiler": "Güç kaybı, düşük turbo basıncı hatası, ıslık, aracın acil (limp) moda girmesi",
+          "tahmini_km_araligi": "60.000 - 250.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda turbo basınç hatasının nedeni olarak turbo kontrol selenoid valfi, wastegate aktüatörünün takılması ve hava hortumu bağlantısındaki kaçak anılıyor. Vauxhall Owners Network'te bir sahip yüksek boost hatasını kurumla tıkanmış turbo kanatlarına ve takılan aktüatöre bağlıyor (temizleyiciyle denendiği yazılıyor). Ekşi Sözlük'te bir kullanıcı 310.000 km civarında turbonun üç kez düşük basınç hatası verdiğini ve sonraki sahibinin turbonun değiştirdiğini yazıyor.",
+            "teshis": "DonanımHaber'de 2011 model bir Astra 1.3 CDTI sahibi turbo selenoid valfini 60.000 km'de iki kez değiştirdiğini yazıyor. Şikâyetvar'da 2011 model bir Astra 1.3 dizel sahibi turbo şarj kısmının devamındaki hortumun bağlantı contasından kaçak olduğunu ve yetkili servisin parçanın değişmesi gerektiğini söylediğini bildiriyor.",
+            "cozum": "Selenoid valf değişimi, hortum ya da bağlantı contası değişimi; forumlarda turbo değişiminden önce hortum bağlantıları, intercooler, hava kaçakları ve selenoid valfin kontrol edilmesi öneriliyor.",
+            "maliyet": "DonanımHaber'de bir kullanıcı selenoid valf için parça ve işçilik toplamının 150 TL olduğunu yazıyor (eski tarih, güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/2011-astra-1-3-cdti-h-kasa-mta-turbo-arizasi--46194413",
+            "https://www.sikayetvar.com/opel/astra/turbo",
+            "https://eksisozluk.com/opel-astra-1-3-cdti--1306897",
+            "https://www.vauxhallownersnetwork.co.uk/threads/1-3-cdti-turbo-issues.349893/"
+          ]
+        },
+        {
+          "sorun_adi": "Easytronic robotize şanzıman sarsıntısı ve arızası",
+          "etkilenen_parca": "Easytronic robotize şanzıman (debriyaj aktüatörü, vites seçici, debriyaj hidroliği, şanzıman kontrol ünitesi)",
+          "belirtiler": "Kalkışta ağırlık ve sarsıntı, 1-2 geçişinde vurma ve kararsızlık, ekranda vites harfinin yanıp sönmesi, vitese geçmeme",
+          "tahmini_km_araligi": "50.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda olası nedenler olarak debriyaj hidroliği, baskı balatası, aktüatör ya da vites seçici, şanzıman kontrol ünitesi (beyin) yazılımı ve sürüş tekniği sayılıyor. Bir kullanıcı gazdan ayak çekildiğinde sarsıntının yaklaşık yüzde 90 azaldığını, bir başkası yazılımın vites geçiş noktalarını zamanla öğrenerek sarsıntıyı azalttığını yazıyor; sistemin çift kavramalı bir şanzıman kadar pürüzsüz olmadığı belirtiliyor.",
+            "teshis": "Ekranda vites harfinin yanıp sönmesi aktüatör ya da vites seçici arızasına işaret edebiliyor (P1725 gibi kodlar anılıyor); bir kullanıcının aracında T1-P1191 kodu üç ayda dört kez tekrarlamış. Kaynakların çoğu eski ve kişisel gözlem.",
+            "cozum": "DonanımHaber'de debriyaj hidroliğinin (DOT 4) yenilenmesinin bazı vakalarda sorunu çözdüğü, bir kullanıcının ise serviste 2-3 yılda bir yapılan bir işlemden sonra sarsıntının azaldığı yazılıyor (işlemin adı kaynakta yok). Bir vakada servis şanzıman beyninden şüphelenmiş."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/astra-h-easytronic-arizasi--141529760",
+            "https://forum.donanimhaber.com/opel-astra-1-3-cdti-easytronic-enjoy-nasildir--27996647",
+            "https://forum.donanimhaber.com/opel-astra-1-3-cdti-vites-sorunu--45471625",
+            "https://eksisozluk.com/opel-astra-1-3-cdti--1306897?p=9",
+            "https://eksisozluk.com/easytronic--421247?p=4"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Astra J (2010-2015)",
       "motor": "1.4 Turbo (A14NET)",
       "uretim_yillari": {
@@ -4603,6 +4766,100 @@
     },
     {
       "marka": "Peugeot",
+      "model": "208 / 2008 / 308 / 3008 (2012-2021)",
+      "motor": "1.6 e-HDi / BlueHDi 92/100/120 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "AdBlue (SCR) sistemi arızası ve aracın çalışamayacağı uyarısı (BlueHDi)",
+          "etkilenen_parca": "AdBlue deposu (şamandıra, seviye sensörü ve üstündeki devre), AdBlue pompası ve enjektörü; SCR sistemi",
+          "belirtiler": "Depo dolu olduğu halde 'AdBlue seviyesi düşük' ve kalan menzil uyarısı, 100-200 km'de bir tekrarlayan uyarı, P20E8 gibi AdBlue (üre) hata kodu, motor arıza lambası ve bazı araçlarda bir süre sonra aracın çalıştırılamayacağı uyarısı",
+          "tahmini_km_araligi": "60.000 - 100.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de sık geçen nedenler AdBlue pompasının tıkanması, depodaki şamandıranın arızası, enjektörün tıkanması ve tank üstündeki devre kartının AdBlue ile temas etmesi; bir kullanıcı depo değişiminin gerektiğini ve bunun ücretsiz yapılması gerektiğini bildiriyor. Bir kullanıcı 2016-2022 arası araçlarda AdBlue deposunun üretimden sorunlu olduğunu savunuyor (kişisel iddia, doğrulanmadı).",
+            "teshis": "Şikâyetvar ve DonanımHaber'de bir 2015 model 308 1.6 BlueHDi'de yaklaşık 95.000 km'de, 2016 model iki 3008'de 65.000 ve 92.000 km'de AdBlue (üre) hatasının motor arıza uyarısıyla birlikte geldiği anlatılıyor; daha yeni 3008'lerde de (2022 model 30.000 km'de, 2023 model 1.100 km'de) aynı uyarı bildiriliyor, bunlar muhtemelen 1.5 BlueHDi. Bir 308'de 'AdBlue doldurun' uyarısı her 100-200 km'de bir, depo dolu olduğu halde tekrarlıyor. Kilometre aralığı kaba tahmindir; arıza tek bir kilometrede başlamıyor.",
+            "cozum": "Depo ya da pompa değişimi; bir kullanıcı depo değişiminin garanti kapsamında ücretsiz yapılması gerektiğini bildiriyor. Kesin bir çözüm ya da Peugeot Türkiye'nin resmî açıklaması kaynaklarda yok.",
+            "maliyet": "Bir kullanıcı EGR soğutucusu kaçağı, EGR sensörü ve AdBlue enjektör onarımı için 9.500 TL ödediğini yazıyor (tek vaka, tarih belirsiz, güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/her-peugeot-adblue-sorununun-yasayacaktir--144473286-15",
+            "https://forum.donanimhaber.com/pegout-3008-adblue-motor-arizasi--155010418-2",
+            "https://forum.donanimhaber.com/yeni-3008-adblue-hatasi-p20e8--138266142",
+            "https://forum.donanimhaber.com/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk--158519472",
+            "https://www.sikayetvar.com/peugeot/308/adblue",
+            "https://www.sikayetvar.com/peugeot/3008/adblue-sorunu",
+            "https://otopark.com/forum/threads/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk.15617/"
+          ]
+        },
+        {
+          "sorun_adi": "Enjektör arızası ve enjektör dibi kaçağı",
+          "etkilenen_parca": "Common-rail enjektörleri ve bakır pulları",
+          "belirtiler": "Motor üstünde is/kurum kokusu, rölantide titreme, güç kaybı, soğuk çalıştırmada zorlanma",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Aynı DV6 motoru 301 ve C-Elysée kayıtlarında da var; kaynaklar ortak. Forumlarda enjektör çevresinde yağ ve is birikmesinin enjektör bağlantısından kaynaklanabildiği anlatılıyor; olası kaynaklar hasarlı enjektör keçesi, aşınmış enjektör yuvası, gevşek ya da hasarlı enjektör diş tıpası ve arızalı O-halkaları. İngiliz Ford ve Fransız araba forumlarında DV6'da enjektör tespit cıvatalarının gevşemesi tasarım kusuru olarak anılıyor ve karbonun yanma odasından enjektör tüpüne, oradan yağa ulaştığı öne sürülüyor (bir uzmanın tahmini). DonanımHaber'de bir kullanıcı 2011-2012 model araçlarda enjektör sorunu olduğunu ve Continental enjektörlerin set halinde Bosch ile değiştirilmesi gerektiğini yazıyor.",
+            "teshis": "Motor üstünde is/kurum kokusu ve siyah karbon birikimi, enjektör çevresinde yağ, rölantide titreme, güç kaybı, soğuk çalıştırmada zorlanma. Forumlarda enjektör tespit cıvatalarının torkunun kontrolü '2 dakikalık iş' olarak öneriliyor.",
+            "cozum": "Enjektör keçelerinin/bakır pulların değişimi; bir kullanıcı saplamaların gevşemeden sıkılması gerektiğini, aksi halde yeni contaların bozulacağını yazıyor.",
+            "onlem": "Enjektör cıvata torklarını bakımda kontrol ettirmek; enjektör çevresindeki yağ ve kurum izlerini geciktirmeden incelettirmek."
+          },
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/enjektor-arizasi-citroen-c5-1-6-hdi-2011--138608291",
+            "https://forum.donanimhaber.com/1-6tdci-kronik-sorun-var-mi--149568529",
+            "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574",
+            "https://forum.donanimhaber.com/enjektor-diplerinde-yag-kacagi--153286454",
+            "https://forum.donanimhaber.com/peugeot-3008--29109292-504",
+            "https://forum.donanimhaber.com/eski-kasa-makyajli-1-6-bluehdi-peugeot-3008-alinir-mi--144842900"
+          ]
+        },
+        {
+          "sorun_adi": "Turbo yağ besleme süzgecinin tıkanması",
+          "etkilenen_parca": "Turbo yağ besleme rakorundaki süzgeç ve boru, turboşarj",
+          "belirtiler": "Güç kaybı, turbo ıslığı, egzozdan mavi duman, yağsız kalan turbo yatağının dağılması",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Aynı DV6 motoru 301 ve C-Elysée kayıtlarında da var; kaynaklar ortak. Türkçe kaynaklarda bu parçaya özel bilgi bulunamadı. Fransız araba forumunda ~40 turbo onardığını söyleyen bir Citroën uzmanı turbo arızalarını enjektör karbon kaçağına bağlıyor (kendi tahmini, doğrulanmamış); bir üye turbo yağ besleme rakorundaki 'süzgecin' yalnızca tel örgü olduğunu, yağ filtresini geçmiş partikülü tutmayacağını yazıyor, bir moderatör ise ana filtreden partikülün turboya nasıl ulaştığını sorguluyor — nedensel zincir belgelenmiş değil. DonanımHaber'de bir kullanıcı 2011 model 3008'lerde yağ yakma ve turbo arızasının bilindiğini yazıyor (tek kullanıcı).",
+            "teshis": "Güç kaybı, turbo ıslığı, egzozdan mavi duman. Bazı sahipler besleme borusuna ulaşmak için DPF'yi sökmek zorunda kalmış.",
+            "cozum": "Turbo ve yağ besleme hattının (boru, rakor) değişimi; sorunun kök nedeni olarak enjektör cıvatalarının gevşemesi ve yağ kirliliği tartışılıyor.",
+            "onlem": "Yağ ve yağ filtresini zamanında değiştirmek; enjektör bağlantı torklarını kontrol ettirmek."
+          },
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
+            "https://otopark.com/forum/threads/207-1-6-hdi-turbo-arizasi.2118/page-2",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=42948",
+            "https://forum.donanimhaber.com/peugeot-3008--29109292-504"
+          ]
+        },
+        {
+          "sorun_adi": "EGR valfi tıkanması",
+          "etkilenen_parca": "EGR valfi",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik, düşük devirde acil moda geçme",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Aynı DV6 motoru 301 ve C-Elysée kayıtlarında da var; kaynaklar ortak. EGR zamanla kurum biriktirip tıkanıyor; düşük devir ve kısa mesafe kullanım kurum oluşumunu artırıyor (Araclo). Bir kullanıcı tıkalı EGR'nin turboya basıp turbo arızası da verebildiğini yazıyor. DonanımHaber'de 2011 model 3008'lerde EGR valfi sorunlarının bilindiği ve bir EGR arızasında valfin komple değişmesinin istendiği anlatılıyor (tek kullanıcılar).",
+            "teshis": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik, düşük devirde acil moda geçme.",
+            "cozum": "Temizlik ya da yeni valf. Bir kaynak temizliğin geçici çözüm olabileceğini, kalıcı çözümün valf değişimi olabileceğini yazıyor; bir Focus 1.6 örneğinde elektronik arıza olduğu için temizleme yetmemiş ve yeni EGR gerekmiş. Yazılımla iptal forumlarda tartışmalı: egzoz gazı sıcaklığı kontrolü ve bazı motor parçaları üzerindeki etkisi nedeniyle riskli bulunuyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/egr-valfi-temizligi--30929546",
+            "https://www.berlingoforum.com/thread-12042.html",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=59950",
+            "https://forum.donanimhaber.com/1-6-hdi-tdci-motorda-egr-soken-var-mi--153323211",
+            "https://forum.donanimhaber.com/peugeot-3008--29109292-504",
+            "https://forum.donanimhaber.com/eski-kasa-makyajli-1-6-bluehdi-peugeot-3008-alinir-mi--144842900"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "208 / 2008 / 308 / 3008 / 5008 (2019-)",
       "motor": "1.5 BlueHDi 100/130 (DV5)",
       "uretim_yillari": {
@@ -4651,6 +4908,27 @@
               "durum": "Seyrek",
               "not": "Güçlendirilmiş 8 mm zincir kullanılıyor; yeni üretimde şikâyet az (veri sınırlı)."
             }
+          ]
+        },
+        {
+          "sorun_adi": "AdBlue (SCR) sistemi arızası ve aracın çalışamayacağı uyarısı",
+          "etkilenen_parca": "AdBlue deposu (şamandıra, seviye sensörü ve üstündeki devre), AdBlue pompası ve enjektörü; SCR sistemi",
+          "belirtiler": "Depo dolu olduğu halde 'AdBlue seviyesi düşük' ve kalan menzil uyarısı, 100-200 km'de bir tekrarlayan uyarı, P20E8 gibi AdBlue (üre) hata kodu, motor arıza lambası ve bazı araçlarda bir süre sonra aracın çalıştırılamayacağı uyarısı",
+          "tahmini_km_araligi": "1.000 - 60.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Aynı AdBlue (SCR) sistemi 1.6 BlueHDi'de de kullanılıyor (208 / 2008 / 308 / 3008 1.6 BlueHDi kaydına bakın); kaynaklar bu kayıtla ortak. DonanımHaber'de nedenler olarak pompa tıkanması, depodaki şamandıra arızası, enjektör tıkanması ve tank üstündeki devrenin AdBlue ile temas etmesi sayılıyor.",
+            "teshis": "Şikâyetvar ve DonanımHaber'de 2022 model bir 3008'de 30.000 km'de AdBlue arızasının verdiği, 2023 model bir araçta 1.100 km sonra 'araç kullanılamaz' uyarısının çıktığı yazılıyor (motor 1.5 BlueHDi varsayıldı; kaynaklar her zaman motoru belirtmiyor). Kilometre aralığı iki vakaya dayanan kaba tahmindir.",
+            "cozum": "Depo ya da pompa değişimi; garanti kapsamında yapılması gerektiği bildiriliyor. Peugeot Türkiye'nin resmî açıklaması kaynaklarda yok."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/her-peugeot-adblue-sorununun-yasayacaktir--144473286-15",
+            "https://forum.donanimhaber.com/pegout-3008-adblue-motor-arizasi--155010418-2",
+            "https://forum.donanimhaber.com/yeni-3008-adblue-hatasi-p20e8--138266142",
+            "https://forum.donanimhaber.com/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk--158519472",
+            "https://www.sikayetvar.com/peugeot/308/adblue",
+            "https://www.sikayetvar.com/peugeot/3008/adblue-sorunu",
+            "https://otopark.com/forum/threads/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk.15617/"
           ]
         }
       ]
@@ -6511,6 +6789,61 @@
               "durum": "Görülebilir",
               "not": "2012'den itibaren ikinci nesil ünitede mekatronik arızası daha az görülüyor."
             }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 6 / Jetta (2008-2013)",
+      "motor": "1.6 TDI 90/105 (CAYC, manuel ve DSG)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "EGR valfi ve DPF tıkanması (kısa mesafe ve düşük devir kullanımında)",
+          "etkilenen_parca": "EGR valfi ve soğutucusu, dizel partikül filtresi (DPF)",
+          "belirtiler": "DPF ya da motor arıza uyarısı, güç kaybı, devrin yükselmemesi, yüksek rölanti ve yakıt tüketiminde artış; rejenerasyonun yarıda kesilmesiyle uyarının yeniden yanması",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Türkçe forumlarda DPF'nin kısa mesafe ve şehir içi kullanımda motor yeterince ısınmadığı için kendini temizleyemeyip tıkandığı, DSG'nin aracı hep düşük devirde hızlandırmasının bunu hızlandırdığı yazılıyor; bir yorum düşük devirde yakıtın tam yanmayıp egzoza karıştığını anlatıyor. VWVortex'te bir sahip DPF ve EGR sistemlerini aşırı hassas buluyor ve yüksek ama 'çılgın olmayan' oranda arızalandıklarını yazıyor, bir başkası araç uzatılmış garanti kapsamında DPF ve EGR soğutucusu değiştirildikten sonra sorunsuz çalıştığını belirtiyor.",
+            "teshis": "DonanımHaber'de bir Golf 6 sahibi kitapçığa göre 15-20 dakika yüksek devirli sürüşün arızayı geçirdiğini, ancak bir süre sonra motor kumandası arızası uyarısı ve devrin yükselmemesiyle karşılaştığını yazıyor. Rejenerasyonun sıcak motorla düz yolda sabit ve orta-yüksek devirde (kaynaklar 2500 ile 3000-3500 devir arasında farklı değerler veriyor) 5-15 dakika sürmesi gerektiği, yarıda kesilen rejenerasyonun uyarıyı yeniden yakabileceği anlatılıyor.",
+            "cozum": "DPF için uzun, ısınmış motorla sabit devirli sürüş; olmuyorsa DPF temizliği ya da değişimi ve EGR temizliği ya da değişimi. Bazı sahipler EGR ve DPF'yi iptal ettiriyor, ancak bu muayene ve emisyon açısından risklidir; kaynaklarda bir yazar EGR iptalinin motora zarar verdiğini savunuyor (görüşler ayrışıyor).",
+            "maliyet": "Bir forum kullanıcısı yeni DPF'nin fiyatının 7-10 bin TL olduğunu yazıyor (tarih belirsiz, güncel fiyat olarak okumayın). İngiltere'de bir Honest John kullanıcısı EGR valfi arızasının yaklaşık 1.000 sterline (monte edilmiş) mal olduğunu aktarıyor (tarih belirsiz)."
+          },
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/egr-ve-dpf-agrizasi-mk6-golf-1-6-tdi.2529/",
+            "https://otopark.com/forum/threads/golf-1-6-tdi-dpf-problemi.9143/",
+            "https://www.sikayetvar.com/volkswagen/dizel/partikul-filtresi",
+            "https://forum.donanimhaber.com/golf-6-motor-kumandasi-arizasi--95216908",
+            "https://eksisozluk.com/dpf-rejenerasyonu--5836582",
+            "https://www.vwvortex.com/threads/1-5-and-1-6-diesel-common-problems.5608561/",
+            "https://www.vwvortex.com/threads/mk6-golf-tdi-a-good-car.5998827/"
+          ]
+        },
+        {
+          "sorun_adi": "Enjektör arızası (şakırdama ve soğuk çalıştırmada düzensiz rölanti)",
+          "etkilenen_parca": "Common-rail enjektörleri (piezo tip), enjektör kodlaması",
+          "belirtiler": "Enjektör şakırdaması, soğuk ilk çalıştırmada rölantide dalgalanma ve titreme, tekleme, beyaz duman, yakıt tüketiminde artış",
+          "tahmini_km_araligi": "80.000 - 200.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir 2012 Golf Mk6 sahibi şakırdama ve soğukta rölanti dalgalanması yaşadığını yazıyor; aynı konuda CAYC kodlu 1.6 TDI Euro 5 motorlarda enjektörlerin Siemens değil Continental VDO piezo tipi olduğu belirtiliyor. Nedenle ilgili görüşler ayrışıyor: bir kullanıcı motor yazılımını, bir başkası yakıt kalitesini suçluyor. Honest John'da bir usta 1.6 TDI'nin enjektörlerini (yaklaşık 500 sterlin/adet) ve EGR valfini sorunlu bulduğunu söylüyor.",
+            "teshis": "DonanımHaber'de 2009 model bir Golf 6 TDI sahibi rölantide düzensizliğin kronik olarak kendini gösterdiğini ve enjektör ya da krank sensöründen şüphelendiğini yazıyor. Honest John'da enjektör değişiminden sonra enjektör kodlamasının yapılmaması ya da yalnızca bir kısmının değiştirilmesinin rölantide titremeyi artırabildiği yazılıyor (dördünün birlikte değişmesi öneriliyor).",
+            "cozum": "Şikâyetvar'daki genel enjektör şikâyetlerinde bir kullanıcı yetkili serviste en son yazılım güncellemesinden sonra sesin bittiğini yazıyor (araç belirtilmemiş); diğer vakalarda enjektör revizyonu ya da değişimi yapılıyor ve ardından ECU'da kodlama gerekebiliyor.",
+            "maliyet": "Forumlarda Golf / Passat 1.6 TDI için tek enjektör 750 TL, usta işçiliğiyle dört enjektör 800 TL, revizyon 3.000-7.000 TL gibi eski ve birbirinden çok farklı rakamlar geçiyor (tarihler 3-5 yıl öncesine ait, güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/1-6-tdi-siemens-enjektor-tamiri--127464488",
+            "https://forum.donanimhaber.com/golf-1-6tdi-yatak-sesi-mi-enjektor-mu-sorun-cozuldu-bir-tek-vidaymis-problem-video-foto--143063886-3",
+            "https://forum.donanimhaber.com/motorun-rolantide-duzensiz-calismasi-golf-6-tdi--88127620",
+            "https://www.honestjohn.co.uk/forum/post/118791/golf-tdi-2009-1-6--",
+            "https://www.honestjohn.co.uk/forum/post/157597/volkswagen-golf-mk6",
+            "https://www.vwvortex.com/threads/1-5-and-1-6-diesel-common-problems.5608561/",
+            "https://www.sikayetvar.com/enjektor/ses?page=4"
           ]
         }
       ]

@@ -2,7 +2,7 @@
 
 Tarih: 2026-10-24
 
-Rapor altı aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını, [6. aşama](#6-aşama-astra-electric-açığı-ve-diğer-elektrikliler) Astra Electric açığının ve diğer eksik elektrikli modellerin ele alınmasını anlatır.
+Rapor yedi aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını, [6. aşama](#6-aşama-astra-electric-açığı-ve-diğer-elektrikliler) Astra Electric açığının ve diğer eksik elektrikli modellerin ele alınmasını anlatır, [7. aşama](#7-aşama-çok-ilanlı-modellerin-kapsam-kontrolü) çok ilanlı modellerin kapsam kontrolünü ve motor boşluklarının kapatılmasını anlatır.
 
 ## 1. aşama: ilk sürümün doğrulanması
 
@@ -681,12 +681,98 @@ Plana 13 yeni `–` satırı işlendi (toplam 145). Her satırın nedeni [KAPSAM
 - Geri çağırma bilgileri Almanya (KBA), ABD ve Çin kayıtlarına dayanıyor; kapsam için şasi numarasıyla yetkili servise ya da Ticaret Bakanlığı'nın geri çağırma kayıtlarına bakmak gerekir.
 - Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir.
 
+## 7. aşama: çok ilanlı modellerin kapsam kontrolü
+
+Tarih: 2026-10-24
+
+Yedinci aşamanın sorusu şuydu: sahibinden.com'da çok ilan sayısına ulaşmış her araç listede var mı? Dürüst cevap, tam olarak kontrol edilemediğidir: sahibinden.com'un canlı model sayıları bu oturumdan okunamıyor (`WebFetch` ağ hatası veriyor; arama sonuçlarına düşen sahibinden sayfaları 2020-2025 arası önbellek görüntüleri ve tarihleri karışık). Bu yüzden kontrol vekil verilerle yapıldı:
+
+- **arabam.com** aylık ve yıllık ilan sıralamaları (Motor1, CNN Türk ve GZT aktarımıyla): Haziran 2026'da en çok ilan verilen on model Renault Clio, Renault Megane, Fiat Egea, Opel Astra, Toyota Corolla, Ford Focus, Volkswagen Passat, Honda Civic, Opel Corsa ve Volkswagen Polo; 2025 Ocak-Kasım ortalamasında bunlara Volkswagen Golf eklenmiş ve SUV'larda Nissan Qashqai, Dacia Duster, Peugeot 3008, Hyundai Tucson, Fiat Egea Cross ve Volkswagen Tiguan öne çıkmış. En çok ilanlı markalar Fiat / Renault, Volkswagen, Ford, Opel, Hyundai, Peugeot, Toyota, Citroën ve BMW.
+- **Araclo'nun sahibinden verisine dayanan aylık ilan raporu:** metin olarak yalnızca marka payı veriyor (Haziran 2026'da Renault yüzde 14, Volkswagen yüzde 11, Fiat yüzde 8); model sıralaması grafikte, metne düşmüyor.
+- **Cardata / Capital / CNN Türk listeleri (2020-2024):** Egea, Megane, Passat, Symbol, Linea, Clio, Polo, Golf, Focus ve Astra üst sıralarda.
+- **Sahibindex'in eski raporları (2020 ve 2022):** Clio, Megane, Passat, Astra ve Focus.
+
+Bunlar ilan sayısı değil sıralama; motor düzeyinde sayı hiçbir kaynakta yok. Tek istisna: Araclo, arabam.com'da yalnızca "Opel Astra 1.3 CDTI" filtresiyle 22.08.2026'da 1.441 aktif ilan göründüğünü aktarıyor.
+
+### Sonuç
+
+- **Model düzeyinde:** yukarıdaki on bir otomobil modelinin, altı SUV'un (Egea Cross, Egea kayıtlarının içinde) ve on markanın hepsi veritabanında var. Clio 5, Megane 3, Egea 3, Corolla 3, Astra 8, Focus 4, Passat 3, Civic 3, Polo 4, Corsa 4, Golf 6, Qashqai 3, Duster 4, Peugeot 3008 4, Tucson 3 ve Tiguan 3 kayıtla temsil ediliyor.
+- **Motor düzeyinde:** boşluk vardı. Dört grup planda yok ya da kanıtı yetersiz sayılmıştı, ama çok ilanlı modellere aitti:
+  - **Opel Astra H / J 1.3 CDTI:** planda hiç yoktu (Corsa 1.3 CDTI kaydı vardı). Eklendi.
+  - **Ford Fiesta Mk7 1.4 / 1.6 TDCi:** kademe 1 olduğu halde `–` idi (Fiesta'ya özgü kaynaklar genel TDCi başlıklarıyla karışıktı). Bu aşamada Türkçe ve İngiliz forumlarında ortak bir enjektör, turbo ve EGR kümesi bulundu; eklendi.
+  - **VW Golf 6 / Jetta 1.6 TDI:** planda yoktu (Golf 6 yalnızca 1.4 TSI idi). Eklendi.
+  - **Peugeot 208 / 2008 / 308 / 3008 1.6 HDi / BlueHDi (DV6):** kademe 1 `–` idi, çünkü model düzeyindeki anılar dağınıktı ve ortak motor sorunları 301 ve C-Elysée kayıtlarında duruyordu; bu yüzden 308 / 3008 aramasında çıkmıyordu. 308 / 3008 için ayrı kayıt açıldı; üç DV6 sorunu ortak kaynaklarla taşındı, yeni olan AdBlue (SCR) arızası da eklendi ve aynı sorun 1.5 BlueHDi kaydına yazıldı.
+
+| | 6. aşama sonu | 7. aşama sonu |
+| --- | ---: | ---: |
+| Araç/motor kaydı | 154 | 158 |
+| Kronik sorun | 227 | 241 |
+| Ayrıntısı olan sorun | 227 | 241 |
+| Yıl kırılımı olan sorun | 59 | 59 |
+| Marka | 28 | 28 |
+| Sorunlara bağlı kaynak bağlantısı | 1321 | 1406 |
+| Farklı kaynak sitesi | 78 | 78 |
+| Yalnızca iki siteyle desteklenen sorun | 48 | 49 |
+| Plan satırı | 295 | 296 |
+| Plan durumu (✓ / – / ○) | 150 / 145 / 0 | 154 / 142 / 0 |
+
+### Eklenen kayıtlar
+
+- **Opel Astra H / J (2005-2015), 1.3 CDTI (4 sorun):** triger zinciri sesi ve uzaması; EGR kurumlanması ve DPF tıkanması (DPF yenilemesinde yakıtın yağa karışması dahil); turbo basınç hatası (selenoid valf, aktüatör, hortum kaçağı); Easytronic robotize şanzıman sarsıntısı.
+- **Ford Fiesta Mk7 (2008-2017), 1.4 / 1.6 TDCi (3 sorun):** enjektör arızası ve enjektör contası sızıntısı; turbo arızası (kurum ve yağlama); EGR valfi kurumlanması ve DPF tıkanması.
+- **Volkswagen Golf 6 / Jetta (2008-2013), 1.6 TDI CAYC (2 sorun):** EGR valfi ve DPF tıkanması; enjektör arızası.
+- **Peugeot 208 / 2008 / 308 / 3008 (2012-2021), 1.6 e-HDi / BlueHDi DV6 (4 sorun):** AdBlue (SCR) arızası; enjektör dibi kaçağı; turbo yağ besleme süzgeci; EGR valfi tıkanması. Peugeot 1.5 BlueHDi (DV5) kaydına AdBlue sorunu eklendi (1 sorun).
+- Yeni 13 sorunun 11'i `Orta`, 2'si `Yüksek` risk; hepsinde `detay` var (neden 13, teşhis 13, çözüm 13, maliyet 6, önlem 2). 85 bağlantı eklendi, yeni site girmedi.
+
+### Çok ilanlı olduğu halde eksik ya da `–` kalan gruplar
+
+Bunların çoğu "araştırıldı ama tekrar eden bir kronik sorun için iki bağımsız kaynak çıkmadı" anlamına geliyor; nedenleri [KAPSAM.md](KAPSAM.md) içinde yazılıdır. Bu aşamada yeniden arananlar:
+
+- **Ford Focus 3 1.5 TDCi:** Türkçe kaynaklar 1.6 TDCi ve 2019 sonrası EcoBlue'ya ait; yalnızca Ford Owners Club'da (İngiltere) DPF, EGR ve çalışma sorunu konuları var.
+- **Hyundai Accent Blue 1.4 CVT:** Şikâyetvar'da kalkışta çıtırdama ve çözülemeyen şanzıman arızası şikâyetleri var, ancak forumlar aynı motoru taksilerde 400-500 bin km sorunsuz buluyor; ikinci bağımsız doğrulama yok.
+- **Hyundai i30 1.6 CRDi:** İngiltere forumlarında EGR tereddüdü ve çift kütleli volan, Türkçe kaynaklarda "kronik sorun yok" yorumları; ortak sorun bulunamadı.
+- **Opel Mokka 1.4 Turbo:** şikâyetler motoru belirtmiyor ya da 1.2 PureTech'e ait.
+- **VW Passat B7 / B8 2.0 TDI:** kaynaklar PD motorlu B6 ve DSG'ye ait.
+- **Daha önce aranıp `–` kalanlar (bu aşamada yeniden aranmadı):** Renault Clio 4 / Symbol 1.2 16V, Megane 1.6 16V, Opel Corsa 1.2 / 1.4 benzinli, Fiat Linea 1.4, Egea 1.6 E-Torq, Toyota Corolla E170 1.6, Honda Civic FB7, BMW F30 B47 / B48, Mercedes W205 M274.
+
+Planın dışında kalan çok ilanlı gruplar:
+
+- **2011 öncesi model yılları** (Şahin / Kartal / Doğan, Albea / Palio, Clio 2, Megane 2, Passat B5, Astra G, BMW E46 gibi): zaman penceresi kuralıyla dışarıda; sahibinden'de ilan sayıları yüksek olabilir.
+- **Hibritler** (Toyota Corolla ve C-HR hibrit, Honda City hibrit): elektrikli aşamasındaki kuralla kapsam dışı.
+- **Hafif ticariler:** Doblo ve Fiorino / Qubo var; Ford Courier ve Transit, Renault Kangoo, Peugeot Partner ve Citroën Berlingo `–` ya da yok.
+- **Planda hiç geçmeyen modeller:** Opel Meriva ve Zafira, VW Touran, Ford Fusion, Honda Accord, Renault Taliant.
+
+### Kanıtı sınırlı ayrıntılar
+
+- **Kilometre aralıkları:** Astra 1.3 CDTI, Fiesta TDCi, Golf 6 1.6 TDI ve Peugeot AdBlue kayıtlarında kaynaklar çoğunlukla kilometre yazmıyor; aralıklar kaba tahmin ve ilgili `detay` metninde söyleniyor.
+- **Astra 1.3 CDTI:** kaynaklar H ve J kasayı birlikte anıyor; motor kodu (Z13DTH / A13DTC) kaynaklarda yok, kayıt adına yazılmadı. Zincir değişim aralığı konusunda kaynaklar çelişiyor (DonanımHaber 120-150 bin km, Vauxhall Owners Network'te 40.000 milde kopma vakası). Easytronic sorunu yalnızca iki siteye (DonanımHaber, Ekşi Sözlük) dayanıyor.
+- **Fiesta TDCi:** İngiliz forumlarına (Ford Owners Club, Honest John) ağırlık veriyor; enjektör contası sızıntısı kaynaklı turbo arızası anlatımı birkaç sahibin teorisi.
+- **Golf 6 1.6 TDI:** DSG'nin kendi sorunu Golf 6 1.4 TSI kaydında; bu kayıtta ayrıca ele alınmadı.
+- **Peugeot DV6:** üç sorun 301 ve C-Elysée kayıtlarıyla ortak kaynaklara dayanıyor (aynı motor ailesi), 308 / 3008'e özgü ayrı bir şikâyet kümesi yok; bu `detay` metninde yazılı. AdBlue vakalarının bir kısmı 1.5 BlueHDi'ye ait olabilir; kaynaklar motoru her zaman belirtmiyor.
+
+### Yalnızca iki siteyle desteklenen yeni maddeler
+
+- Opel Astra H / J (2005-2015): Easytronic robotize şanzıman sarsıntısı ve arızası (DonanımHaber Forum, Ekşi Sözlük)
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- **Astra 1.3 CDTI:** bir arama özetinde "5 yıl / 160.000 km gibi zincir rakamları Fiat Multijet'e ait, Opel motoru farklı" deniyordu; bu iddia doğrulanamadığı ve kayıtlardaki "Multijet" etiketiyle çeliştiği için taşınmadı. Zincir değişiminin maliyetinin yüksek olabileceğini söyleyen yorumun DonanımHaber'e mi Ekşi Sözlük'e mi ait olduğu arama özetinden ayrılamadığı için "forumlarda (DonanımHaber, Ekşi Sözlük)" diye genelleştirildi.
+- **Golf 6 1.6 TDI:** bir DPF yorumunun ve bir rölanti anlatımının kaynağı Otopark yerine DonanımHaber olarak düzeltildi; yazılım güncellemesiyle sesin bittiği anlatımı marka belirtmeyen genel bir Şikâyetvar kaydı olduğu için öyle yazıldı.
+- **Peugeot DV6:** bir enjektör `neden` metni 800 karakter sınırını aşınca kısaltıldı.
+- **Peugeot AdBlue:** 1.5 BlueHDi'ye ait olabilecek yeni araç vakaları (2022-2023) 1.6 kaydında bu belirsizlikle anıldı, ayrıca 1.5 BlueHDi kaydına yazıldı.
+
+### Dikkat edilecek sınırlar
+
+- Sıralamalar sahibinden.com'dan değil arabam.com ve Cardata'dan; ilan sayısı değil sıra bilgisi. Sahibinden'in model sayıları paylaşılırsa karşılaştırma kesinleştirilebilir.
+- "Çok ilanlı" ile "çok kronik sorunlu" aynı şey değil: ilanı çok olan bir motorun veritabanında olmaması çoğu zaman o motorda tekrar eden bir sorun bulunamadığı anlamına geliyor (örn. Mercedes M274, Honda Civic FB7).
+- Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen 48 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı) üçüncü bir kaynak eklenebilir.
-3. Kanıtı yetersiz bulunan 145 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
-4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 87 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
+2. Yalnızca iki siteyle desteklenen 49 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı; 7. aşamada Astra 1.3 CDTI Easytronic eklendi) üçüncü bir kaynak eklenebilir.
+3. Kanıtı yetersiz bulunan 142 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
+4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 95 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
 5. Elektrikli araçlarda geri çağırma kaydı bulunan ama Türkiye kapsamı doğrulanamayan aileler (Volvo EX30, VW ID. serisi, Mini Cooper SE, BMW iX / i4, Audi e-tron GT) için Türkiye distribütörlerinin duyuruları ya da Ticaret Bakanlığı geri çağırma kayıtları bulunursa kayıt açılabilir.
 6. Hibrit ve plug-in hibrit araçlar (Toyota hibritleri, BYD Seal U DM-i gibi) bu aşamada kapsam dışı bırakıldı; istenirse aynı kurallarla eklenebilir.
 7. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.
