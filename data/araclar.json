@@ -3418,6 +3418,35 @@
     },
     {
       "marka": "BMW",
+      "model": "1 Serisi (F20, 2011-2019)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Arka stop lambası LED'lerinin kısık yanması ve stop lambası arızası uyarısı",
+          "etkilenen_parca": "Arka stop lambası (LED) grubu ve soketi",
+          "belirtiler": "Bir taraftaki arka stop (ya da park) LED'inin diğerine göre belirgin sönük yanması; bazı araçlarda stop lambası arıza uyarısının sürekli yanması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da bir kullanıcı yetkili servisin önce soket değişimini önerdiğini, sokete rağmen sorunun sürdüğünü ve arızanın lamba içindeki LED sisteminde olduğunu yazıyor (bir servis bülteni olduğunu ima ediyor, doğrulanamadı); forumda arka stop parlaklığının düştüğü anlatılıyor.",
+            "cozum": "Birkaç kullanıcı yetkili servisin parçayı iyi niyet kapsamında ücretsiz değiştirdiğini yazıyor; kısık yanan LED lambanın değişimiyle çözülen örnekler var.",
+            "onlem": "Garanti dışında bile kronik sorun olarak belirtip ücretsiz değişim ya da servis bülteni kapsamı talep edilmesi kullanıcı önerisi."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw/bmw-f20-arka-stop-led-kisik-yanma-sorunu",
+            "https://www.sikayetvar.com/bmw/bmw-1-serisi-stop-lambasi-led-arizasi-ucretsiz-cozum-talebi",
+            "https://www.sikayetvar.com/bmw/bmw-arka-park-lambasi-ledinin-kisik-yanmasi-kronik-sorunu",
+            "https://www.sikayetvar.com/bmw/116/kronik",
+            "https://forum.donanimhaber.com/bmw-f20-kronik-sorunlari--149134695"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "BMW",
       "model": "2 Serisi (F22 / F45, 2014-2021)",
       "motor": "218i 1.5 turbo (B38)",
       "uretim_yillari": {
@@ -3637,6 +3666,23 @@
             "https://f30.bimmerpost.com/forums/showthread.php?t=1657274",
             "https://f30.bimmerpost.com/forums/showthread.php?t=1660659"
           ]
+        },
+        {
+          "sorun_adi": "Ön cam fitili ve ön cam altı plastik parçanın bozulması, kabine su alma",
+          "etkilenen_parca": "Ön cam fitili, ön cam ile kaput arasındaki su tahliye ızgarası / plastik parça ve tahliye kanalları",
+          "belirtiler": "Ön cam fitilinde çatlama, soyulma ve kopma (rüzgar sesi artışı); ön cam ile kaput arasındaki plastik parçanın çatlayıp çürümesi; yağmurda kabine su girmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da kullanıcılar fitil çatlamasını ve plastik parça çürümesini kronik olarak anıyor; bir kullanıcı ön cam altı su tahliye ızgarası sorununun bir serviste garanti dışı sayıldığını, bir diğeri yetkili serviste ön cam altı plastiği değiştirildikten sonra su almanın arttığını yazıyor. Forumda ön cam altı tahliye kanalları tıkanırsa suyun içeri girip ayak havalandırma kanalından yere aktığı, fitilin değiştirilmesi ya da bölgenin silikonla kapatılmasının tartışıldığı anlatılıyor.",
+            "maliyet": "Şikâyetvar'da bir 3.16i sahibine ön cam ile kaput arasındaki plastik parça için yetkili serviste yaklaşık 11.500 TL söylenmiş (tarih belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw/bmw-f30-on-cam-fitili-sorunu-su-aliyor-ucretsiz-degisim-talebi",
+            "https://www.sikayetvar.com/bmw/bmw-320d-on-cam-alti-plastik-parca-curumesi-ve-su-alma-sorunu",
+            "https://www.sikayetvar.com/bmw/bmwde-su-tahliye-izgarasi-ve-cam-boyasi-sorunlari-garanti-disi",
+            "https://forum.donanimhaber.com/bmw-3-serisi-f30--58868558-910",
+            "https://forum.donanimhaber.com/on-cam-su-alma-sorunu-cami-sokup-taktirtmak--141522845"
+          ]
         }
       ]
     },
@@ -3787,6 +3833,34 @@
       "aileler": [
         "bmw-n20",
         "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 (F48, 2015-2022)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "İç kapı kollarının kaplamasında erime, yapışkanlaşma ve dökülme",
+          "etkilenen_parca": "İç kapı kolu (yumuşak dokunuşlu kaplama)",
+          "belirtiler": "Sıcak havada iç kapı kollarının yapışkan, gummy bir kalıntıya dönüşmesi, ele leke bırakması ve dökülmesi; F48 sahipleri kapalı otoparkta bile oluştuğunu yazıyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "BimmerPost'ta nedenin yumuşak dokunuşlu (soft-touch) kaplamanın yaşlanmayla, ısı, UV ve cilt yağı / losyon / temizleyici etkisiyle bozulması olduğu yazılıyor; bir yorum bunu belirli üretim yıllarında malzeme kusuru olarak görüyor, nedeni konusunda sahipler hemfikir değil. Bir F48 sahibi yapışan parçanın dış parça olduğunu, bu yüzden kapı kartı sökülmeden değiştirilebildiğini yazıyor.",
+            "cozum": "Sert plastik yedek kollar, snap-on kapaklar, kaplamayı kazıma ya da zımparalama; orijinal yedeklerin de aynı yumuşak dokunuşlu malzemeden olduğu ve sorunun geri gelebildiği, kısa süreli çözüm olarak ince bir şeffaf oje tabakasının yapışkanlığı durdurduğu bildiriliyor.",
+            "maliyet": "BimmerPost'ta bir Florida X1 sahibi bayi tahmininin yaklaşık 920 $ (yalnızca parça kol başına 109 $) olduğunu yazıyor (ABD, tarih belirtilmemiş); Şikâyetvar'da F30 / F10 örneklerinde iyi niyet indirimiyle toplam 7.500 TL anılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw/x1/f48",
+            "https://www.sikayetvar.com/bmw/bmw-kapi-kol-tutamaclari",
+            "https://f48.bimmerpost.com/forums/showthread.php?t=1930956",
+            "https://f48.bimmerpost.com/forums/showthread/2217712/simple-diy-i-did-over-the-weekend-interior-door-handles?p=32481866"
+          ]
+        }
       ]
     },
     {
@@ -7812,6 +7886,33 @@
       ]
     },
     {
+      "marka": "Mazda",
+      "model": "Mazda 3 (BL, 2009-2013)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Torpido (üst pano) yüzeyinin erimesi, parlaklaşması ve yapışkanlaşması",
+          "etkilenen_parca": "Torpido üst panosu (göğüs) yüzey kaplaması",
+          "belirtiler": "Torpido yüzeyinin yapış yapış ve parlak olması, güneşi ön cama yansıtması; yer yer ayrılma.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "CarComplaints'te sorun özellikle 2009-2011 Mazda3'lerde ve sıcak, güneşli bölgelerde toplanıyor; Mazda'nın ABD'de bir servis bülteniyle (SSP99) 2010 modeller için torpido kaplaması kapsamını 10 yıla uzattığı ve 2014'te California'da toplu dava (Stedman v. Mazda) açıldığı yazılıyor. Şikâyetvar'daki kullanıcılar sorunun yaygın olduğunu öğrendiklerini yazıyor. Türkiye'deki kapsam doğrulanamadı.",
+            "cozum": "ABD'de sahipler sıvı vinil kaplama ya da vinil sarma denemiş, sonuçlar karışık; güneşlik bozulmayı durdurmamış.",
+            "maliyet": "CarComplaints'te bayilerin değişim için yaklaşık 700-1.000 $ teklif ettiği, bazı sahiplere işin kapsam dışı olduğunun söylendiği yazılıyor (ABD, tarih belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/mazda/3/kronik",
+            "https://www.carcomplaints.com/Mazda/MAZDA3/2010/accessories-interior/dashboard_melting.shtml",
+            "https://www.carcomplaints.com/news/2014/mazda-lawsuit-melting-shiny-dashboards.shtml"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Mercedes-Benz",
       "model": "A Serisi (W176, 2012-2018)",
       "motor": "A200 CDI / A220 CDI 2.1 (OM651, 7G-DCT)",
@@ -9771,6 +9872,33 @@
     },
     {
       "marka": "Opel",
+      "model": "Insignia A (2008-2017)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Far içine su alma, buğulanma ve AFL (xenon) far beyni arızası",
+          "etkilenen_parca": "Ön far grubu, AFL (uyarlanabilir far) modülü ve xenon far beyni",
+          "belirtiler": "Far içinde buğu ve su birikmesi; suyun far beynine kaçıp AFL ya da xenon modülünün bozulması; AFL / far yükseklik ayarı arıza uyarısı; LED ışığı arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2012 ve 2014 model Insignia sahipleri farın (AFL) su alıp buğulandığını, suyun far beynine kaçıp bozulduğunu ve bunu kronik bir sorun olarak duyduklarını yazıyor; bir kullanıcı xenon beyninin sol farda üç kez bozulduğunu anlatıyor. Kaynaklarda buğu ve su kaçağının genellikle contalardaki ya da birleşim yerlerindeki bir kaçaktan geldiği yazılıyor; resmî servis bülteni ya da geri çağırma bulunamadı.",
+            "cozum": "Bazı kullanıcılar silikon çekilmesinin yetmediğini ve farın komple değiştirilmesinin söylendiğini, bir yorumcu ise farın içindeki buğunun sıcak havayla giderilip silikonlanabildiğini yazıyor. Su alan farların muayenede sorun çıkarabildiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/far/su",
+            "https://www.sikayetvar.com/afl",
+            "https://forum.donanimhaber.com/opel-insignia-1-6-dizel-otomatik-turkiye-de--101818959-185",
+            "https://forum.donanimhaber.com/opel-beyin-arizasi--99518054"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Insignia A (2014-2017)",
       "motor": "1.6 CDTI 136",
       "uretim_yillari": {
@@ -9949,6 +10077,35 @@
       "kronik_sorunlar": [],
       "aileler": [
         "opel-1-6-cdti"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka B (2021-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Çift renkli (siyah tavanlı) araçlarda tavan boyasında kabarma ve atma",
+          "etkilenen_parca": "Tavan boyası (siyah tavan)",
+          "belirtiler": "Siyah tavanın boyasının kabarması, pullanıp atması; Şikâyetvar'da bazı kullanıcılara Opel'in değer kaybı ödemesi yaptığı yazılıyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Ekşi Sözlük'te nedenler tartışmalı: tavan boyasının mevcut boyanın üzerine uygulanmış olması, su bazlı ve ince katmanlı boya kullanımı, kuş pisliği ve güneş etkisi sayılıyor; bir kullanıcı bunu PSA grubundaki çift renkli araçlarda genel bir sorun olarak görüyor, bir başkası Opel'e özgü sayıyor. Şikâyetvar'daki bir kullanıcıya Opel'in bunun kronik olduğunu ve bu yüzden değer kaybı ödediğini söylediği yazılıyor.",
+            "cozum": "Forumda bazı kullanıcılar tavanı yeniden boyatmış ya da film kaplatmış; bir kullanıcı markanın 120-150 bin TL arası değer kaybı tazminatı ödediğini yazıyor (tek kişinin anlatımı, tarih belirtilmemiş). Garantideki araçlar için yetkili servise başvuru ve tüketici hakem heyeti yoluyla değer kaybı talebi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/mokka/mokka-kronik-sorun",
+            "https://www.sikayetvar.com/opel/mokka/sifir",
+            "https://www.sikayetvar.com/opel/opel-mokkada-tavan-ve-kaput-boyasi-sorunlari-deger-kaybi-telafisi-talebi",
+            "https://eksisozluk.com/opel-mokka-sifir-aracta-boya-rezaleti--7841598?p=5",
+            "https://eksisozluk.com/opel-mokka-sifir-aracta-boya-rezaleti--7841598?p=10",
+            "https://eksisozluk.com/opel-mokka-sifir-aracta-boya-rezaleti--7841598?p=12"
+          ]
+        }
       ]
     },
     {

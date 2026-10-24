@@ -10363,6 +10363,290 @@
       },
       "not": "Şikâyetvar ve DonanımHaber'de sunroof arızası, direksiyon kutusu sesi, klima klape motoru (göğüs sökümü gerekiyor), havalandırma çıkışlarından çıtırtı ve COMAND ekran konuları geçiyor; hepsi tek başlıkta ya da tek kullanıcıda, ortak bir sorun oluşmadı. Far ve kapı için kaynak çıkmadı.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Insignia A",
+      "yillar": "2008-2017",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Insignia A (2008-2017)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Far suyu / AFL arızası Şikâyetvar ve DonanımHaber'de doğrulandı. Şikâyetvar'da 2015 model tavanda boya atması ve yağmur kanalında paslanma, 2016-2017 multimedya donması ve USB / AUX tanıma sorunu ile turbo hortumunun yerinden oynaması tekil kaldı; Insignia B (Grand Sport) şikâyetleri bu kayda katılmadı."
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka B",
+      "yillar": "2021-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Mokka B (2021-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Siyah tavan boyası Şikâyetvar ve Ekşi Sözlük'te doğrulandı (Ekşi başlığı yeni araçlara ait; önceki nesil Mokka / Mokka X için Şikâyetvar'da benzer bir tavan ve kaput boyası şikâyeti var ama nesil ayrımı yapılamadı). Multimedya yazılımı için 2.000 TL ücret istenmesi, kapı camlarının kendiliğinden hareket etmesi (Mokka X) ve el freni düğmesinin kırılması tekil."
+    },
+    {
+      "marka": "Renault",
+      "model": "Kadjar / Captur",
+      "yillar": "2013-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Kadjar / Captur"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Kadjar'da yağmur ya da yıkama sonrası yan aynaların katlanmaması / açılmaması ve ön camın açılmaması (kronik denmiş, çok sayıda kayıt), ön cam fitilinin çıkması; Captur'da multimedya ekranının kararması (geri görüş kamerası dahil), ön cam rüzgar sesi, tavan gerilme sesi ve akü boşalması tekrar ediyor. DonanımHaber'deki Kadjar ve Captur 2 başlıkları genel (trim sesi, uğultu, elektrik) olup ikinci bağımsız site bulunamadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Ford",
+      "model": "Transit Courier / Connect",
+      "yillar": "2013-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Transit Courier / Connect"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da yeni kasa Courier'de ön kapılardan hızla artan ses, sürgülü kapının içeriden açılmaması, merkezi kilidin tekrar tekrar kilitlemesi, multimedyanın kararması ve ön takım sesi tekil; Ekşi Sözlük'te ön konsolun zamanla çöktüğü (bayi kronik demiş) bir yorumda geçiyor, hangi nesle ait olduğu belirsiz. İkinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Tucson / Kona",
+      "yillar": "2015-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tucson / Kona"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Tucson'da 2015 model kapı kilitleri (kronik denmiş; bir kilit tamircisi aynı sorunun 2016 Elantra, i30, ix35 ve Tucson'da tekrar ettiğini söylemiş), boya atması; Kona'da bagaj kapağında nokta şeklinde başlayan boya atması, tavan çıtası boyası, multimedya ekranında içten buzlanma ve CarPlay sorunları tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te ikinci site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Honda",
+      "model": "HR-V / CR-V",
+      "yillar": "2012-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "HR-V / CR-V"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da HR-V'de 2017 modelde kapı ve tavan boyası dökülmesi (ustalar Honda 2017 serisinde kronik boya hastalığı demiş), Android Auto donması; CR-V'de 2016 modelde boya soyulması ve arka krank keçesinden yağ kaçağı tekrar ediyor. Civic FC5 için CivicX'te boya atması doğrulandı ama HR-V / CR-V için ikinci site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Toyota",
+      "model": "Auris / Yaris",
+      "yillar": "2011-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Auris / Yaris"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da 2013 model Auris'te bagaj spoilerinde güneş yanığı ve cam tavan perdesinin kapanmaması (sahibi Auris'te kronik olarak bilindiğini yazıyor), DonanımHaber'de Auris cam tavanından tıkırtı (perde tekerlekleri iddiası) geçiyor; farklı belirtiler olduğundan ortak bir sorun olarak kayıt açılmadı. Yaris için kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 F48",
+      "yillar": "2015-2022",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "X1 (F48, 2015-2022)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "İç kapı kolu erimesi Şikâyetvar ve BimmerPost'ta doğrulandı. Şikâyetvar'da X1 F48'de sunroof perdesinin geri açılmaması, 2019 modelde ön kaputtan su alma (suyun elektrik aksamına ve farlara ulaştığı), düşük hızda direksiyon takırtısı, dokunmatik ekran donması ve park freni uyarısı (neredeyse her X1 kullanıcısında) tek sitede kaldı."
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi F20",
+      "yillar": "2011-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "1 Serisi (F20, 2011-2019)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Stop LED kısık yanması Şikâyetvar ve DonanımHaber'de doğrulandı. Şikâyetvar'da ön cam fitili ve alt bakalit yırtılması (ücretsiz değişim yazanlar var), far buğulanması, kapı iç yalıtım membranı çürümesi (2016 model), bagaj havuzunda su birikmesi ve bagaj kilidi tek sitede; kapı gıcırtısı yalnızca forumda."
+    },
+    {
+      "marka": "Mazda",
+      "model": "Mazda 3 BL",
+      "yillar": "2009-2013",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Mazda 3 (BL, 2009-2013)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Torpido erimesi Şikâyetvar ve CarComplaints'te doğrulandı (ABD verisi ağırlıklı; Türkiye'de kapsam bilinmiyor). Mazda CX-5 için Şikâyetvar'da tek far uğultusu şikâyeti dışında kaynak çıkmadı."
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 F25",
+      "yillar": "2010-2017",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X3 (F25"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da X3 F25'te dört iç kapı kolunun erimesi (2016 model), cam tavanın sıkışıp arka cama inmesi, tahrik arızası ve wastegate sorunu geçiyor; BimmerPost'ta F25'e özgü kapı kolu başlığı çıkmadı (F30, F10, X1 için doğrulanan sorunun aynısı olabilir).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Jeep",
+      "model": "Renegade / Compass",
+      "yillar": "2015-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Renegade / Compass"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Renegade'de multimedya ekranının (yarısının) sıcakta kararması, cam tavan mekanizması ve cam lastiği yırtılması, Compass'ta start-stop ve motor uyarıları tekrar ediyor; ikinci bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mini",
+      "model": "Countryman / Cooper",
+      "yillar": "2007-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Countryman / Cooper"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Countryman'de direksiyon kutusu sesi, kendiliğinden sağa çekme ve ön sensör arızası (garanti dışı 25.000 TL), Countryman E'de fren sesi ve tahrik arızası; Ekşi Sözlük'te eski Countryman'de termostat arızası geçiyor; model geneli ortak bir sorun için iki bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 / S60 / V40",
+      "yillar": "2008-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "XC60 / S60 / V40"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da XC60'ta sürücü destek ve çarpışma önleme uyarıları, Volvo On Call uyarısı, S60'ta ön sol camdan su girmesi ve düğmelerin bozulması tek sitede; soğutma suyu eksilmesi ve kavrama sarsıntısı motor/şanzıman konusu. Sensus ekran, ön takım ve cam tavan için kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Audi",
+      "model": "A4 B8 / A6 C7 / Q5",
+      "yillar": "2008-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A4 B8 / A6 C7 / Q5"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Bu aramada MMI ekran, far, cam tavan, kapı camı ve ön takım için A4 B8 / A6 C7 / Q5'e özgü kaynak çıkmadı; sonuçlar 2.0 TFSI yağ eksiltmesi, S tronic / Multitronic ve 2.0 TDI motor konularına (ayrı kayıtlarda) ve 2022-2024 model A6'ya ait. A6'da kaput açma kolu çevresinden su sızması tek şikâyet.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Suzuki",
+      "model": "Vitara",
+      "yillar": "2015-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Vitara"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da geri görüş kamerasına su alması (bayi kronik olabildiğini söylemiş) ve multimedya donması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te ikinci site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mitsubishi",
+      "model": "L200 / ASX",
+      "yillar": "2010-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "L200 / ASX"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da L200'de DPF uyarıları, farların kendiliğinden açılıp kapanması ve silecek / sinyal kollarının çalışmaması tek sitede; ASX için kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }
