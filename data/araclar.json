@@ -3266,6 +3266,38 @@
       ]
     },
     {
+      "marka": "Mini",
+      "model": "Cooper S / Countryman S (R56 / R60, 2007-2016)",
+      "motor": "1.6 turbo benzinli (N14 / N18)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yüksek basınç yakıt pompası arızası",
+          "etkilenen_parca": "Yüksek basınç yakıt pompası (ve besleme pompası)",
+          "belirtiler": "Zor çalışma veya tek marşta çalışmama, motor arıza ışığı, güç düşüklüğü ve titreme; bazı vakalarda arıza kaydı oluşmaması",
+          "tahmini_km_araligi": "70.000 - 130.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda neden açıklanmıyor. Otopark'ta bir kullanıcı 'mini cooper s = yüksek basınç benzin pompası, bir de N18 motora kadar' diyerek N18 öncesi Cooper S'lerde bu pompaya dikkat çekiyor; aynı forumda bir yorumcu uzmanlardan aktardığına göre N14'te devirdaim ve termostat sorunu olduğunu, N18'in daha sorunsuz olduğunu yazıyor (ikinci elden aktarım, doğrulanmadı). Bir kullanıcı Cooper S'in 1.6 THP motoruyla Peugeot / Citroën parçalarının uyduğunu belirtiyor.",
+            "teshis": "Şikâyetvar'da 2012 model bir sahip 110.000 km'de 'kronik problemi olan yüksek basınç pompası ve benzin pompası'nın bozulduğunu, maliyetin çok yüksek olduğunu yazıyor (tek kilometre verisi). DonanımHaber'de bir Countryman sahibi aracın soğukta da sıcakta da zor çalıştığını, termostat, yüksek basınç pompası ve krank devir sensörünün değiştirildiği halde sorunun çözülmediğini anlatıyor. Bir servisin arızanın yakıt pompası ya da yüksek basınç pompasından olabileceğini söylediği, ancak aracın hata kaydı vermediği de aktarılıyor.",
+            "cozum": "Şikâyetvar'da 2009 model bir R56 Cooper S sahibi aracın tek marşta çalışmadığını, yüksek basınç pompasının kısa sürede iki kez değiştirildiğini ve orijinal parça kullanıldığını yazıyor; bir 2008 R56 sahibi yeni pompa takıldıktan sonra da titreme ve motor arıza ışığının arada bir tekrarladığını bildiriyor.",
+            "maliyet": "DonanımHaber'de bir kullanıcı 2012 Cooper S için yüksek basınç pompasına 3.500 TL fiyat çekildiğini, aynı parçanın Peugeot / Citroën pompasıyla birebir uyduğunu ve 2.300 TL'ye aldığını yazıyor (tarihsiz, eski rakam; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/mini/mini-cooper-yuksek-basinc-pompasi-sorunufahis-ucretlendirme",
+            "https://www.sikayetvar.com/mini/basinc/countryman",
+            "https://www.sikayetvar.com/mini/cooper-countryman/basinc",
+            "https://forum.donanimhaber.com/mini-cooper-countryman-motor-ariza-lamba-sorunu--129506764",
+            "https://forum.donanimhaber.com/cooper-s-aldim-motor-isigi-performans-dusuklugu--139623246-2",
+            "https://otopark.com/forum/threads/mini-cooper-s-alinir-mi.9936/"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Nissan",
       "model": "Juke (F15, 2010-2019)",
       "motor": "1.6 (CVT Xtronic)",
@@ -3646,6 +3678,38 @@
             "https://www.vauxhallownersnetwork.co.uk/threads/astra-j-1-4t-crank-case-pressure.903425/",
             "https://www.cruzetalk.com/threads/2011-2016-cruze-1-4-pcv-valve-cover-intake-manifold-issues.192442/page-24",
             "https://forum.donanimhaber.com/astra-j-1-4-turbo-motor-sesi-fazla-mi--83440116"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra J (2010-2015)",
+      "motor": "1.6 benzinli atmosferik (Ecotec)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Termostat gövdesi sızıntısı, soğutma suyu eksilmesi ve yağ soğutucu arızası",
+          "etkilenen_parca": "Plastik termostat gövdesi, yağ soğutucu (yağ-su eşanjörü) ve contaları",
+          "belirtiler": "Soğutma suyu seviyesinin düşmesi ve uyarısı, hararet, bazı vakalarda soğutma suyuna yağ ya da yağa su karışması",
+          "tahmini_km_araligi": "30.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı Astra J 1.6 benzinlide termostat arızası, eksantrik dişlisi arızası, yağ soğutucu arızası ve subap erimesini tekrar eden kronik arızalar olarak sayıyor; başka bir kullanıcı 1.6 Ecotec'te termostat kütüğünün de kaçırdığını yazıyor. Kaynaklarda orijinal termostatın yaklaşık 103 °C'de açacak şekilde ayarlı olduğu ve plastik gövdenin zamanla sızdırabildiği belirtiliyor. Yağa su karışmasının termostat ve yağ soğutucunun birlikte arızalanmasından kaynaklandığını gösteren bir teknik kaynak bulunamadı.",
+            "teshis": "DonanımHaber'de bir kullanıcı 1.6 Astra J'de 6 ayda bir soğutucu uyarısı aldığını, servislerin kaçak bulamadığını, sonunda sorunun termostat bölümünden çıktığını yazıyor; LPG hatları ve su pompası da olası neden olarak anılıyor.",
+            "cozum": "Bir kullanıcı 34.000 km'de orijinal termostatı değiştirdiğini, 67.000 km'de aynı parçanın yeniden sızdırdığını bildiriyor. Bir forumda yağ soğutucu radyatörünün 100 bin km'den sonra patlayıp yağa su karıştırabildiği yazılıyor (tek yorum).",
+            "maliyet": "DonanımHaber'de bir kullanıcı 2011 model Astra J'de soğutma suyuna yağ karışması sorununu iki kez yaşadığını, son onarımda radyatör dahil birçok parçanın değiştiğini ve yaklaşık 6.000 TL ödediğini yazıyor (tarih belirsiz; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/atmosferik-benzinli-opel-astralarin-kronik-sorunu-icin-cozum-oneriniz--145695479",
+            "https://forum.donanimhaber.com/astra-j-su-eksiltme-sorunu--153143656",
+            "https://forum.donanimhaber.com/astra-j-6-ayda-bir-su-eksiltiyor--101063076",
+            "https://forum.donanimhaber.com/opel-markasi-neden-hararetli-calisir--89682895-2",
+            "https://otopark.com/forum/threads/astra-j-1-6-otomatik-nasildir-kronik-problemleri-var-mi.14812/",
+            "https://www.araclo.com/blog/opel-astra-1.6-atmosferik-alinir-mi-kronik-sorunlar-ve-yorumlar"
           ]
         }
       ]

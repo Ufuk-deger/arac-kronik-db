@@ -164,7 +164,7 @@
         "marka": "Mini",
         "adet": null,
         "kapsam": "ek",
-        "not": "Ek kademe: Faz 4'te arandı; ikinci bağımsız kaynak bulunamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+        "not": "Ek kademe: Faz 4'te Cooper S / Countryman S 1.6 turbo yüksek basınç yakıt pompası eklendi. Satış adedi doğrulanamadı."
       },
       {
         "marka": "Jeep",
@@ -219,6 +219,12 @@
         "adet": null,
         "kapsam": "ek",
         "not": "Ek kademe: Faz 4'te arandı; sonuç çıkmadı. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Isuzu",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te arandı; D-Max anlatıları forum yorumu ve tek rehber sitesiyle sınırlı kaldığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
       }
     ],
     "kaynaklar": [
@@ -3739,20 +3745,18 @@
     },
     {
       "marka": "Mini",
-      "model": "Cooper (R56 / F56)",
-      "yillar": "2007-2020",
-      "motor": "1.6 (N14) / 1.5 üç silindir",
+      "model": "Cooper S / Countryman S (R56 / R60)",
+      "yillar": "2007-2016",
+      "motor": "1.6 turbo benzinli (N14 / N18)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Cooper"
+          "Cooper S / Countryman S"
         ],
         "motor": [
           "N14"
         ]
-      },
-      "sonuc": "yetersiz-kanit",
-      "not": "Zincir ve devirdaim / termostat anlatıları tek tek forum yorumları; N14'e özgü ikinci kaynak yok."
+      }
     },
     {
       "marka": "Jeep",
@@ -3906,6 +3910,264 @@
       },
       "sonuc": "yetersiz-kanit",
       "not": "Aramada sonuç çıkmadı."
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra J",
+      "yillar": "2010-2015",
+      "motor": "1.6 benzinli atmosferik (Ecotec)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Astra J (2010"
+        ],
+        "motor": [
+          "1.6 benzinli"
+        ]
+      }
+    },
+    {
+      "marka": "Mini",
+      "model": "Cooper / One (F56)",
+      "yillar": "2014-",
+      "motor": "1.5 üç silindir (B38)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F56"
+        ],
+        "motor": [
+          "B38"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "F56 1.5 üç silindir için kaynak çıkmadı; bir Ekşi yorumu yağ kaçırdığını söylüyor ama motor belirsiz."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 / C4 Picasso",
+      "yillar": "2010-2018",
+      "motor": "1.6 e-HDi (MCP robotize şanzıman)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C4 (2010"
+        ],
+        "motor": [
+          "e-HDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "MCP şanzıman için forum görüşleri karışık ('anlatıldığı kadar kötü değil'), kilometre ve maliyet verisi yok; aynı şanzıman 508 kaydında ele alındı."
+    },
+    {
+      "marka": "Audi",
+      "model": "A1 (8X)",
+      "yillar": "2010-2018",
+      "motor": "1.2 / 1.4 TFSI (S tronic)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A1 (8X"
+        ],
+        "motor": [
+          "TFSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "A1'e özgü veri sınırlı; yağ tüketimi ve S tronic anlatıları A3 ve A4 kayıtlarında ele alındı."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Elantra / i10",
+      "yillar": "2011-",
+      "motor": "1.6 MPI otomatik, 1.0 / 1.25",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Elantra",
+          "i10"
+        ],
+        "motor": [
+          "MPI",
+          "1.0",
+          "1.25"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Elantra AD 1.6 MPI ve i10 için kronik motor sorunu çıkmadı; şikâyetler otomatik şanzıman (dizel), direksiyon ve ESP üzerine ve motor hacmi belirsiz."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "H-1 / Starex",
+      "yillar": "2008-",
+      "motor": "2.5 CRDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Starex"
+        ],
+        "motor": [
+          "CRDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "H-1 / Starex 2.5 CRDi için enjektör, turbo ve EGR kanıtı çıkmadı; bulunanlar eski forum yorumları ve diğer modellere ait."
+    },
+    {
+      "marka": "Renault",
+      "model": "Megane 3 / Fluence",
+      "yillar": "2009-2016",
+      "motor": "1.6 16V (K4M)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Megane 3"
+        ],
+        "motor": [
+          "K4M"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "K4M için en somut tema bobin arızası ve tek bir forum başlığında; yağ tüketimi ve termostat kaynakları motoru belirtmiyor."
+    },
+    {
+      "marka": "Opel",
+      "model": "Insignia A",
+      "yillar": "2008-2017",
+      "motor": "2.0 CDTI (A20DTH)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Insignia"
+        ],
+        "motor": [
+          "2.0 CDTI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "A20DTH'ye özgü kronik sorun listesi çıkmadı; turbo hortumu şikâyetleri çoğunlukla 1.6 CDTI'a ait ve o kayıtta."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "308 / 3008",
+      "yillar": "2014-2021",
+      "motor": "1.6 HDi / BlueHDi (DV6)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "308"
+        ],
+        "motor": [
+          "1.6 HDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "DV6'ya özgü enjektör, turbo ya da DPF kaynağı çıkmadı; bir Ekşi yorumu 1.6 HDi + EAT6 serisini en sağlam seçenek olarak tanımlıyor (AdBlue hariç)."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Fabia / Superb",
+      "yillar": "2015-",
+      "motor": "1.2 TSI DSG, 2.0 TDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Fabia",
+          "Superb"
+        ],
+        "motor": [
+          "TSI",
+          "TDI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Fabia 1.2 TSI DSG ve Superb 2.0 TDI için yalnızca tekil Şikâyetvar kayıtları ve genel DSG anlatıları; Fabia 1.4 TDI için sonuç çıkmadı."
+    },
+    {
+      "marka": "Kia",
+      "model": "Sportage / Ceed / Rio",
+      "yillar": "2010-2021",
+      "motor": "1.7 CRDi, 1.4 MPI, 1.25",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Sportage"
+        ],
+        "motor": [
+          "1.7"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Sportage 1.7 CRDi, Ceed 1.4 MPI ve Rio 1.25 için motor kaynaklı kronik sorun çıkmadı; Ceed şikâyetleri torpido / konsol çatlaması ve start-stop üzerine."
+    },
+    {
+      "marka": "Ford",
+      "model": "Ranger",
+      "yillar": "2012-",
+      "motor": "2.2 / 3.2 TDCi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Ranger"
+        ],
+        "motor": [
+          "TDCi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da turbo ve hortum şikâyetleri var; 2.2 ve 3.2 TDCi'ye özgü ikinci bağımsız kaynak çıkmadı."
+    },
+    {
+      "marka": "Nissan",
+      "model": "Navara",
+      "yillar": "2010-",
+      "motor": "2.5 dCi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Navara"
+        ],
+        "motor": [
+          "2.5 dCi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Enjektör ve turbo şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız kaynak çıkmadı."
+    },
+    {
+      "marka": "Isuzu",
+      "model": "D-Max",
+      "yillar": "2012-",
+      "motor": "1.9 / 3.0 D",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "D-Max"
+        ],
+        "motor": [
+          "D"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "EGR, turbo ve enjektör anlatıları bir forum yorumu ve tek rehber sitesinde; ikinci bağımsız kaynak çıkmadı."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Ducato",
+      "yillar": "2010-",
+      "motor": "2.2 / 2.3 MultiJet",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Ducato"
+        ],
+        "motor": [
+          "MultiJet"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "AdBlue, DPF ve NOx sensörü şikâyetleri yalnızca Şikâyetvar'da; Boxer ve Jumper için ayrı veri çıkmadı."
     }
   ]
 }
