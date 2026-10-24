@@ -475,7 +475,9 @@
         "motor": [
           "1.5 dCi"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Lodgy / Dokker 1.5 dCi için turbo ya da enjektör örüntüsü çıkmadı; şikâyetler teyp ekranı ve elektrikte, enjektör anlatıları diğer Renault dizellerinden."
     },
     {
       "marka": "Dacia",
@@ -802,7 +804,9 @@
           "MPI",
           "T-GDI"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Benzinli motorlar (MPI, T-GDI) için i30'a özgü kronik sorun çıkmadı; aramalar 1.6 CRDi (DPF) ve DCT şikâyetlerine yöneldi ve i30'a özgü olmayan kaynaklardan geldi."
     },
     {
       "marka": "Hyundai",
@@ -1875,7 +1879,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "RAV4 için sistematik sorun çıkmadı; Hilux 2.4 DPF / PCS arıza şikâyetleri yalnızca Şikâyetvar'da (ikinci bağımsız kaynak yok)."
     },
     {
       "marka": "Mercedes-Benz",
@@ -1952,7 +1958,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "W213 için sistematik veri yok; Şikâyetvar'da tekil SBC fren, ekran ve direksiyon şikâyetleri var ve bir kısmı W212 / W214'e ait."
     },
     {
       "marka": "Mercedes-Benz",
@@ -2091,7 +2099,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "X1 / X3 için modele özgü kaynak çıkmadı; N47 zincir sorunu 320d, 116d ve 520d kayıtlarında ele alındı."
     },
     {
       "marka": "Nissan",
@@ -2294,7 +2304,9 @@
         "motor": [
           "1.5 EcoBoost"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Focus için sonuçlar ağırlıkla 1.0 EcoBoost; 1.5 EcoBoost silindir kapağı sorunu Kuga 2 / Mondeo kaydında ele alındı, Focus'a özgü kaynak yok."
     },
     {
       "marka": "Ford",
@@ -2512,7 +2524,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "FB7 şikâyetleri ağırlıkla boya atması ve kozmetik; motora özgü sorunlar tekil (130 bin km'de motor yanması, 1.8 yağ sızıntısı için eski bir forum yazısı)."
     },
     {
       "marka": "Honda",
@@ -2527,7 +2541,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "City 1.5 için yakıt tüketimi ve vites geçişi şikâyetleri yalnızca Şikâyetvar'da (2021 model); ikinci bağımsız kaynak yok."
     },
     {
       "marka": "Honda",
@@ -2557,7 +2573,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "1.3 / 1.5 i-VTEC CVT için kanıtlı kronik sorun çıkmadı; bulunanlar eski nesil Jazz CVT, eski kasa HR-V yorumu ve hibrit akü şikâyeti."
     },
     {
       "marka": "Audi",
@@ -2617,20 +2635,22 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "B9 için doğrudan kronik sorun listesi çıkmadı; yağ eksiltme şikâyetleri çoğunlukla B8 dönemine ait (kayıtlı), B9'a özgü olanlar tekil (tahrik uyarısı, stop lambası çatlağı)."
     },
     {
       "marka": "Audi",
-      "model": "A6 C7 / Q3 / Q5",
-      "yillar": "2011-",
-      "motor": "2.0 TDI / 3.0 TDI / 2.0 TFSI",
+      "model": "Q5 8R",
+      "yillar": "2008-2017",
+      "motor": "2.0 TFSI (EA888)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "A6"
+          "Q5"
         ],
         "motor": [
-          ""
+          "2.0 TFSI"
         ]
       }
     },
@@ -2652,8 +2672,8 @@
     {
       "marka": "Seat",
       "model": "Ibiza 6J / 6P",
-      "yillar": "2008-2021",
-      "motor": "1.2 TSI / 1.0 TSI / 1.6 TDI",
+      "yillar": "2008-2017",
+      "motor": "1.2 TSI (DSG DQ200)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -2677,7 +2697,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Arona 1.0 TSI DSG ve Ateca 1.5 TSI için yalnızca Şikâyetvar'daki tekil kayıtlar (DSG vuruntusu, yağ uyarısı, yağ kaçağı); yaygınlığı gösteren bağımsız kaynak yok."
     },
     {
       "marka": "Toyota",
@@ -2739,7 +2761,9 @@
         "motor": [
           "1.5 dCi"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Juke 1.5 dCi için kaynak ağırlıkla tek bir rehber (Araclo); turbo yağ borusu ve DPF anlatıları ikinci bağımsız kaynakla desteklenmedi. K9K turbo hortumu sorunu Qashqai J11 kaydında."
     },
     {
       "marka": "Mercedes-Benz",
@@ -2916,7 +2940,9 @@
           "1.0 TFSI",
           "1.2 TFSI"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "1.2 TFSI için sonuç çıkmadı; 1.0 TFSI için yalnızca tekil anekdotlar (start-stop sonrası kalkış, far). S tronic şikâyetleri 1.4 TFSI ve 1.6 TDI kayıtlarında ele alındı."
     },
     {
       "marka": "Mercedes-Benz",
@@ -2931,7 +2957,9 @@
         "motor": [
           "C220d"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "C220d (OM651 / OM654) için W205'e özgü kaynak bulunamadı; bulunan şikâyetler C200d (R9M) NOx / AdBlue / turbo yağ kaçağı üzerine ve ayrı kayıtta."
     },
     {
       "marka": "Hyundai",
@@ -3168,6 +3196,58 @@
           "Kompressor"
         ]
       }
+    },
+    {
+      "marka": "Seat",
+      "model": "Ibiza 6J / 6P",
+      "yillar": "2008-2017",
+      "motor": "1.0 TSI / 1.6 TDI",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Ibiza"
+        ],
+        "motor": [
+          "1.0 TSI",
+          "1.6 TDI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Ibiza 1.6 TDI için yalnızca tekil bir direksiyon (EPS) şikâyeti çıktı; 1.0 TSI için kaynak bulunamadı. Zincir iddiası Ibiza'ya özgü değil."
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 C7",
+      "yillar": "2011-2018",
+      "motor": "2.0 TDI / 3.0 TDI / 2.0 TFSI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A6 (C7"
+        ],
+        "motor": [
+          "TDI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "A6 C7'ye özgü kaynak bulunamadı; bulunan A6 2.0 TDI başlıkları C6 dönemine (2009-2011) ait."
+    },
+    {
+      "marka": "Audi",
+      "model": "Q3",
+      "yillar": "2011-2018",
+      "motor": "2.0 TDI / 2.0 TFSI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Q3"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Q3'e özgü kaynak bulunamadı; 2.0 TFSI yağ tüketimi Q5 ve A4 kayıtlarında ele alındı."
     }
   ]
 }

@@ -235,6 +235,53 @@
       ]
     },
     {
+      "marka": "Audi",
+      "model": "Q5 (8R, 2008-2017)",
+      "motor": "2.0 TFSI (EA888)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları (yağ sıyırma segmanı) ve karter havalandırma (PCV) valfi",
+          "belirtiler": "Bakımlar arasında sık yağ eksilmesi, yağ seviyesi uyarısı, yeni araçta bile erken yağ uyarısı",
+          "tahmini_km_araligi": "10.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı sorunun Audi A4 2.0 TFSI quattro ve Audi Q5 gibi birçok modelde yaygın olduğunu yazıyor; başlıklarda piston segmanları, turbo kaçakları ve PCV valfi şüpheli olarak geçiyor, bir kullanıcı yabancı forumlardaki 'fabrikasyon hatalı segman' görüşünü aktarıyor (doğrulanmadı). ABD'deki bir dava özetine göre Audi'nin Ekim 2013 tarihli servis bülteni (TSB 17 13 43) 2009-2011 A4, A5 ve Q5 2.0T araçlarda 'motor yağı tüketimi çok yüksek' durumunu ele alıyor ve karter basınç regülatör valfi ile ön krank keçesinin değişimini öneriyor.",
+            "teshis": "Ekşi Sözlük'te bir Q5 sahibi yeni araçta yağ uyarısının daha ilk günlerde geldiğini ve bunun yaygın olduğunu yazıyor. Bir DonanımHaber kullanıcısı Audi'nin kılavuzunda 1.000 km'de yarım litre tüketime izin verildiğini savunuyor (kılavuz metni doğrulanmadı); AudiWorld'de Audi'nin 1.200 milde bir quart tüketimi kabul edilebilir bulduğu yazılıyor (ABD).",
+            "cozum": "Forumlarda yağ sensörü değişimi (bir usta bazı vakalarda %70 çözdüğünü, garanti olmadığını söylüyor), üst yarım motor çalışması, segman değişimi (motorun inmesi gerektiği) ve komple motor değişimi anlatılıyor. ABD'de 2012-2017 model 2.0T Audi'ler (Q5 dahil) için piston segmanı davası açılmış; 2023 uzlaşması 2012-2014 A4, A5, A6, Q5 ve TT için aşırı yağ tüketimi onarımlarında garanti uzatması sunuyor (Türkiye için doğrulanmadı).",
+            "maliyet": "DonanımHaber'de bir kullanıcı silindirlerden birinde çizik bulunduktan sonra komple motor değişiminin faturasını 45.000 TL olarak yazıyor (tarih ve model belirsiz).",
+            "onlem": "Forumda 10W-60 yağın etkisinin sınırlı olabileceği, Audi'nin önerdiği 5W-30 ya da en fazla 5W-40 yağın tercih edilmesi gerektiği yazılıyor (kullanıcı görüşü)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/audi-q5-motor-yagi-icme-sorunu--154863346",
+            "https://forum.donanimhaber.com/kronik-yag-eksiltme-yakma-sorunlari-ve-ureticilerin-olumsuz-yaklasimlarini-toparlayalim--127025783",
+            "https://forum.donanimhaber.com/audi-yag-yakma-uretim-hatasi--126250572",
+            "https://eksisozluk.com/audi-q5--1278486?p=5",
+            "https://www.carcomplaints.com/news/2021/audi-oil-consumption-lawsuit-pistons.shtml",
+            "https://www.classaction.org/news/2012-2017-audi-models-with-2.0l-turbocharged-engines-plagued-by-piston-defect-class-action-claims"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2009,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "Audi'nin Ekim 2013 servis bülteni (TSB 17 13 43) 2009-2011 A4, A5 ve Q5 2.0T için yağ tüketimini kapsıyor (dava özeti)."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2017,
+              "durum": "Görülebilir",
+              "not": "2012-2017 model 2.0T Audi'ler (Q5 dahil) piston segmanı davasının kapsamında; 2023 uzlaşması 2012-2014 için garanti uzatması sunuyor (ABD)."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "marka": "BMW",
       "model": "1 Serisi (F20 LCI, 2015-2019)",
       "motor": "118i 1.5 turbo (B38)",
@@ -4638,6 +4685,38 @@
             "https://www.sikayetvar.com/renault/renault-megane-4-adblue-arizasi",
             "https://www.sikayetvar.com/renault/renault-megane-adblue-uyari-isigi-icin-13-bin-tllik-teshis-ucreti",
             "https://www.sikayetvar.com/blue-dci/megane"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Seat",
+      "model": "Ibiza (6J / 6P, 2008-2017)",
+      "motor": "1.2 TSI (DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "DSG mekatronik ve kavrama arızası",
+          "etkilenen_parca": "DQ200 7 ileri kuru kavramalı DSG: mekatronik ünite ve kavrama paketi",
+          "belirtiler": "Aniden vites geçmeme veya şanzıman arızası, vites kilitlenmesi, kalkışta titreme ve vites geçişlerinde sarsıntı",
+          "tahmini_km_araligi": "50.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "1.2 TSI'a eşlik eden 7 ileri DSG, And Mehmet Çetin'in anlattığı kuru kavramalı DQ200'dür (yazı DQ200'ü 1.6 litreye kadar motorlu hemen tüm VAG araçlarında gösteriyor); mekatronik ve kavrama paketinin yıpranması Leon ve Octavia kayıtlarındaki aynı mekanizmadır. Ibiza'ya özgü kaynaklarda DSG'lerde kavrama ve mekatroniğin kronik sorun haline geldiği yazılıyor.",
+            "teshis": "Bir 2014 model Ibiza 1.2 TSI DSG sahibi aracın 58 bin km'de bir anda bozulduğunu ve sorunun mekatronik olduğunun söylendiğini yazıyor. DonanımHaber'de 2012 model bir Ibiza 1.2 TSI DSG için 'vites kilitlendi, garanti sorunu' başlıklı bir konu var.",
+            "cozum": "Bir kullanıcı yetkili servislerin garanti süresi biten araçlarda bu parçayı ücretsiz değiştirmediğini yazıyor; mekatronik onarımının bağımsız ustalarda bayiden daha ucuz yapılabildiği anlatılıyor (kullanıcı beyanı).",
+            "maliyet": "Kullanıcı beyanları, eski tarihli: bir Ibiza sahibine mekatronik arızası için yaklaşık 7.000 TL, bir başkasına 6.500 TL denmiş; Ibiza'ya özgü olmayan bir DSG kavrama yazısı kavrama değişimi için 2.500-10.000 TL aralığı veriyor (2023 dönemi). Güncel fiyat olarak okumayın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/seat/ibiza/kronik",
+            "https://www.sikayetvar.com/seat/ibiza/ariza",
+            "https://forum.donanimhaber.com/seat-ibiza-1-2-tsi-dsg-2012-vites-kilitlendi-garanti-sorunu--86379815",
+            "https://forum.donanimhaber.com/ibiza-1-2tsi-dsg-nasildir--54513517",
+            "https://otopark.com/forum/threads/dsg-mekatronik-tamiri-hakkinda.11584/",
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
           ]
         }
       ]
