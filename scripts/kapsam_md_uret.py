@@ -81,11 +81,15 @@ def uret():
         "- **Zaman penceresi:** Son 10-15 yılın araçları, yani yaklaşık 2011 model yılı ve sonrası. "
         "Daha eski yıllar yalnızca ilk aşamada eklenmiş kayıtlarda kaldı (aşağıda ayrıca listelenir).",
         "- **Marka seçimi:** Türkiye'de en çok satılan 15 marka. Yalnızca elektrikli ya da 2023 sonrası girmiş markalar "
-        "(BYD, Togg, Tesla, Chery) motor grubu ve ikinci el geçmişi olmadığı için kapsam dışı bırakıldı; yerlerine sıradaki markalar alındı.",
+        "(BYD, Togg, Tesla, Chery) motor grubu ve ikinci el geçmişi olmadığı için kapsam dışı bırakıldı; yerlerine sıradaki markalar alındı. "
+        "Bu listenin dışındaki markalar (`ek` kapsamı) ikinci el yaygınlığı ve kaynak bulunabilirliği gözetilerek editoryal olarak eklendi; satış adetleri doğrulanamadı.",
         "- **Sıralama:** Genelden özele gidilir. Önce her markanın en çok satılan ve en çok sorgulanan modelleri ile ana motor grupları "
         "(kademe 1), sonra yaygın ama daha az sorgulananlar (kademe 2), en son niş gruplar (kademe 3).",
         "- **Yıl kırılımı:** Kaynaklar üretim yılına göre fark belirtiyorsa sorun `donem_kirilimi` ile yıl aralıklarına ayrılır "
         "(ör. revizyon öncesi ve sonrası).",
+        "- **Motor versiyonları:** Kaynaklar iki versiyonu motor kodu, güç, şanzıman ya da kasa/nesil ile ayırt ediyorsa ayrı kayıt açılır "
+        "(ör. M271 Kompressor ve M271 EVO; N47D16 ve N47D20; Qashqai J11 1.5 dCi ve 1.6 dCi Xtronic). "
+        "Ayırt etmiyorlarsa kayıt bölünmez, fark metinde ya da `donem_kirilimi` içinde belirtilir ([README](README.md#motor-versiyonları)).",
         "- **Kanıt eşiği:** Her sorun için en az iki farklı site ve en az bir deneyim/resmî türünde kaynak gerekir "
         "([README](README.md#kaynak-kuralı)). Kaynak bulunamayan gruplar plana `–` olarak işlenir; sorun uydurulmaz.",
         "",

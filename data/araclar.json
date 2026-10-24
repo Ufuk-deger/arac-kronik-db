@@ -3446,7 +3446,7 @@
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
-            "neden": "Kaynaklarda hortumun neden tekrar tekrar patladığı ya da çıktığı net açıklanmıyor; vakalar tekrar eden arızalar üzerine. Şikâyetvar'da bir kullanıcı hortumun beş kez patladığını ve servisin bunu normal karşıladığını yazıyor; bir başkası ikinci patlamanın garantide 'modifikasyonlu' hortumla ücretsiz değiştirildiğini, üçüncüde ek ücret istendiğini anlatıyor.",
+            "neden": "Kaynaklarda hortumun neden tekrar tekrar patladığı ya da çıktığı net açıklanmıyor; vakalar tekrar eden arızalar üzerine. Şikâyetvar'da bir kullanıcı (2012 model araç, yani J10 dönemi) hortumun beş kez patladığını ve servisin bunu normal karşıladığını yazıyor; bir başkası ikinci patlamanın garantide 'modifikasyonlu' hortumla ücretsiz değiştirildiğini, üçüncüde ek ücret istendiğini anlatıyor.",
             "teshis": "Güç kaybı, ıslık sesi, turbo yağ sızıntısı; hortumun patlaması ya da bağlantıdan çıkması. Patlamanın ardından partikül filtresi arızası yaşadığını bildirenler de var.",
             "cozum": "Hortum değiştirilir. Bir DonanımHaber kullanıcısı Nissan'ın bu sorunla ilgili bir yazılım güncellemesi çıkardığını ve servisin bunun sorunu çözeceğini düşündüğünü aktarıyor, ancak hortumun değişse de kısa sürede yeniden arızalanabileceği görüşünde (doğrulanmamış). Yan sanayide hortumla yapılan değişimler de bildirilmiş.",
             "maliyet": "Şikâyetvar'daki eski paylaşımlarda yalnızca hortum parçası 1.030 TL, bağımsız serviste hortum ve turbo değişimi 7.500 TL, yan sanayide 750 TL, yetkili serviste yaklaşık 20 bin TL bildirilmiş; rakamların bir kısmı birkaç yıl öncesine ait.",

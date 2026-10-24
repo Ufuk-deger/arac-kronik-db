@@ -2,7 +2,7 @@
 
 Tarih: 2026-10-24
 
-Rapor üç aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları anlatır.
+Rapor dört aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını anlatır.
 
 ## 1. aşama: ilk sürümün doğrulanması
 
@@ -378,10 +378,138 @@ Kuralı geçiyorlar ama sınırda. 2. aşama sonunda doğrulayıcı 43 madde say
 - Aynı olay birden fazla sayfada tekrarlandığı için çok sayıda kaynak bağlantısı bağımsız doğrulama anlamına gelmez.
 - Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir.
 
+## 4. aşama: ölçeğin genişletilmesi ve motor versiyonları
+
+Tarih: 2026-10-24
+
+Dördüncü aşamada istek şuydu: aynı mantıkla ölçeği genişletmek, daha fazla marka, model ve motor seçeneği eklemek ve aynı motor seçeneğinin farklı versiyonlarını da kayda geçirmek. Kurallar değişmedi: her sorun için en az iki farklı site ve bunlardan en az biri deneyim ya da resmî türünde; ayrıntı yalnızca kaynağı metinde anılan iddialardan; kaynak bulunamayan grup plana `–` olarak işlenir, sorun uydurulmaz. Plan `data/kapsam.json` içinde, ilerleme [KAPSAM.md](KAPSAM.md) dosyasında.
+
+| | 3. aşama sonu | 4. aşama sonu |
+| --- | ---: | ---: |
+| Araç/motor kaydı | 97 | 136 |
+| Kronik sorun | 160 | 205 |
+| Ayrıntısı olan sorun | 160 | 205 |
+| Yıl kırılımı olan sorun | 32 | 48 |
+| Marka | 19 | 22 |
+| Sorunlara bağlı kaynak bağlantısı | 958 | 1161 |
+| Farklı kaynak sitesi | 68 | 68 |
+| Yalnızca iki siteyle desteklenen sorun | 22 | 44 |
+| Plan satırı | 178 | 245 |
+| Plan durumu (✓ / – / ○) | 90 / 22 / 66 | 132 / 113 / 0 |
+
+### Ne yapıldı
+
+- **Plan:** 178 satırdan 245'e çıktı (+67). Kademe 2 ve 3'te bekleyen 66 satır ile eklenen 67 satır (toplam 133) işlendi: 42'si veritabanına girdi, 91'i kanıt yetersiz olduğu için eklenmedi. Sırada (○) satır kalmadı. Kademe 2'nin 85 satırından 41'i, kademe 3'ün 75 satırından 17'si ✓.
+- **Yeni kayıt:** 39 yeni araç/motor kaydı ve bunlara bağlı 45 yeni sorun. Mevcut kayıtlara yeni sorun eklenmedi; mevcut sorunlarda yalnızca altı dönem kırılımı ve bir metin düzeltmesi yapıldı (aşağıda).
+- **Yeni markalar:** Volvo, Subaru ve Mini veritabanına girdi (19 → 22 marka). Plana ayrıca 11 marka girdi ve hiçbirinde ölçütü geçen kaynak bulunamadı: Jeep, Alfa Romeo, Mazda, Suzuki, Mitsubishi, Land Rover, Cupra, MG, Lexus, Isuzu ve Chevrolet'nin Captiva / Aveo / Lacetti modelleri (Chevrolet Cruze kaydı ilk aşamadandır). Bu 14 marka 2. aşamada seçilen ilk-15 marka kümesinin dışındadır; seçimleri editoryaldir, satış adetleri doğrulanamadı ve `data/kapsam.json` içinde `ek` kapsamıyla işaretlidir.
+- **Dönem kırılımı:** 32 → 48. Yeni sorunlardan 10'unda kaynaklar yıl farkı verdiği için kırılım var. Altı mevcut soruna ise ayrıntı metninde yıl bilgisi zaten bulunduğu için yapılandırılmış dönem eklendi: A3 ve Octavia DQ200 mekatronik / kavrama, Juke ve Qashqai J11 1.2 DIG-T yağ tüketimi ve zincir, Corolla E150 1.4 D-4D yağ tüketimi.
+- **Kaynaklar:** 45 yeni soruna 203 bağlantı eklendi (178 tekil adres, sorun başına ortalama 4,5). Yeni site gerekmedi, kayıt defteri 68 sitede kaldı. Her yeni adresin arama sonuçlarında tam eşleşmeyle geçtiği yazım sırasında ve bitişte otomatik denetlendi: hafızadan yazılmış ya da bulunamayan adres yok. Yeni sorunların 22'si iki, 21'i üç, 2'si dört siteyle destekleniyor.
+- **Ayrıntılar:** 45 yeni sorunun hepsinde `detay` var. Alan doluluğu: neden 44, teşhis 43, çözüm 43, maliyet 26, önlem 8. Boş alan, kaynakların o soruya yanıt vermediği anlamına gelir; özellikle `onlem` kaynaklarda anlatılmayıp yalnızca arama özetinin genel tavsiyesi olarak çıktığında yazılmadı.
+- **Yöntem aynı:** sayfalar açılamadı; şikâyet ve forum sitelerine (Şikâyetvar, DonanımHaber, OTOPARK.COM, Ekşi Sözlük) sınırlanmış Türkçe aramalar sayfa düzeyinde adresler verdi, ikinci kaynak için ayrıca hedefli aramalar yapıldı. Maliyet yalnızca kaynakta rakam varsa, tarih ve ülke belirtilerek yazıldı.
+
+### Motor versiyonları nasıl ele alındı
+
+İstekteki "aynı motor seçeneğinin farklı versiyonları" şöyle yorumlandı: **kaynaklar iki versiyonu motor kodu, güç, şanzıman ya da kasa/nesil ile ayırt ediyorsa ayrı kayıt açıldı; ayırt etmiyorlarsa kayıt bölünmedi ve fark metinde ya da `donem_kirilimi` içinde anıldı.** Ayrı kayıt, sorun listesi, kilometre aralığı ya da riskin versiyona göre değiştiği yerde açıldı. Bir kaydın içinde yıla göre değişim `donem_kirilimi` ile gösterildi. Kural README'ye ve KAPSAM.md'ye de yazıldı.
+
+- **Motor kodu ve nesil:** Mercedes M271 Kompressor (W203 / W204, 2002-2010: triger zinciri uzaması, eksantrik ayar mıknatısından yağ kaçağı) ile M271 EVO CGI turbo (W204, 2009-2014: eksantrik ayar elemanı, zincir ve dişli aşınması) ayrı kayıtlar. Kompressor kaydındaki mıknatıs yağ kaçağı EVO'ya taşınmadı, çünkü bulunan kanıt Kompressor'a özgüydü.
+- **Aynı motor, farklı model:** BMW N47 zincir sorunu 320d (N47D20, E90 / F30), 116d (N47D16, F20) ve 520d (N47D20, F10) için ayrı kayıtlar; kaynaklar modele özgü ve kilometre aralıkları farklı (100-200, 100-160 ve 90-160 bin km). Toyota 1ND-TV: Corolla E150 ve Auris ayrı. PSA DV5 zinciri: Peugeot / Citroën kaydının yanında Opel Grandland X. VW 1.6 TDI (EA189 CAYC): Polo 6R / 6C ve Caddy 2K. Audi 2.0 TFSI: A4 B8 ve Q5 8R.
+- **Şanzıman versiyonu:** Nissan Qashqai J11'de 1.5 dCi / 1.6 dCi (K9K / R9M) turbo hortumu, 1.6 dCi 130 Xtronic CVT ve 1.2 DIG-T Xtronic üç ayrı kayıt. Aynı mantıkla Micra K13 1.2 CVT, X-Trail T32 1.6 dCi CVT, Corsa D Easytronic, Peugeot 508 MCP / Auto6R, Renault Captur ve Talisman EDC, Volvo S60 / V40 Powershift ve Kia Stonic 1.4 MPI 6 ileri otomatik.
+- **48V hafif hibrit versiyonlar:** Golf 8 (1.0 eTSI / 1.5 eTSI) ve Octavia A8 (1.0 TSI e-TEC / 1.5 TSI), Golf 7'nin 1.2 TSI kaydından ayrı.
+- **Bölünmeyenler:** BMW N47'de 177 ve 184 bg sürümleri arasındaki fark (184 bg'de sorun daha az görülüyor) ve "2015'te iyileştirilmiş zincir seti" yalnızca forum yorumlarında geçiyor, resmî kaynakla doğrulanamadı; bu yüzden ayrı kayıt açılmadı, 520d kaydındaki dönem notuna yazıldı. Opel Grandland X'in DV5 kilometre aralığı için Opel'e özgü veri olmadığından aralık Peugeot / Citroën kaydındaki kaynaklardan alındı ve kayıtta belirtildi.
+
+### Eklenen kayıtlar
+
+- **Volkswagen (5):** Golf 7 1.2 TSI (EA211) yağ tüketimi; Golf 8 eTSI 48V (vites kolu modülü, 48V sistem); Polo 6R / 6C 1.6 TDI enjektör; Caddy 2K 1.6 TDI enjektör; Tiguan 2.0 TDI DQ381 DSG mekatronik.
+- **Skoda (2):** Kamiq / Scala 1.0 TSI DSG; Octavia A8 1.0 TSI e-TEC / 1.5 TSI 48V (vites kolu, 48V sistem).
+- **Seat (1):** Ibiza 6J / 6P 1.2 TSI DQ200 DSG. **Audi (1):** Q5 8R 2.0 TFSI yağ tüketimi.
+- **BMW (2):** 1 Serisi F20 116d (N47D16) ve 5 Serisi F10 520d (N47D20) zincir. **Mercedes-Benz (2):** C Serisi W204 M271 EVO; A Serisi / CLA W176 / C117 Pre-Safe ve direksiyon açı sensörü.
+- **Opel (4):** Astra J 1.6 atmosferik termostat gövdesi ve yağ soğutucu; Astra K 1.6 CDTI zincir; Corsa D Easytronic; Grandland X 1.5 BlueHDi (DV5) zincir.
+- **Peugeot (2):** 301 1.2 EB2F yağ tüketimi ve katalitik konvertör; 508 1.6 e-HDi MCP / Auto6R. **Citroen (1):** C4 Cactus 1.2 PureTech yağ banyolu kayış.
+- **Fiat (3):** 500 airbag kapağı; Fiorino / Qubo 1.3 Multijet (enjektör, yağ tüketimi, turbo); Punto Evo / Grande Punto (elektrikli direksiyon, airbag kapağı). **Ford (1):** EcoSport 1.0 EcoBoost yağ banyolu kayış.
+- **Renault (2):** Captur 1.5 dCi EDC; Talisman EDC. **Dacia (1):** Jogger 1.0 TCe volan ve debriyaj. **Nissan (3):** Micra K13 1.2 CVT; Qashqai J11 1.6 dCi Xtronic; X-Trail T32 1.6 dCi Xtronic.
+- **Toyota (1):** Auris 1.4 D-4D yağ tüketimi. **Honda (1):** CR-V 1.6 i-DTEC turbo hortumu. **Hyundai (2):** i20 PB ve i30 FD elektrikli direksiyon. **Kia (2):** Picanto JA akü / marş; Stonic 1.4 MPI otomatik şanzıman.
+- **Yeni markalar (3):** Volvo S60 / V40 1.6 D Powershift; Subaru XV 2.0 yağ tüketimi; Mini Cooper S / Countryman S (R56 / R60) yüksek basınç yakıt pompası.
+
+### Araştırılıp eklenmeyen gruplar
+
+Plana 91 yeni `–` satırı işlendi (toplam 113). Her satırın nedeni [KAPSAM.md](KAPSAM.md) içinde yazılıdır; satır sayıları marka bazında: Hyundai, Kia, Opel, Renault ve Volkswagen altışar; Audi, Mercedes-Benz, Nissan, Skoda ve Toyota beşer; BMW, Ford ve Honda dörder; Citroen ve Peugeot üçer; Dacia, Fiat ve Seat ikişer; Alfa Romeo, Chevrolet, Cupra, Isuzu, Jeep, Land Rover, Lexus, MG, Mazda, Mini, Mitsubishi ve Suzuki birer. Başlıca nedenler:
+
+- **Kanıt tek siteye dayanıyor, ikinci bağımsız kaynak yok** (çoğunlukla yalnızca Şikâyetvar, bazen tek bir rehber sitesi): Hyundai Kona 1.6 CRDi DCT, Opel Mokka 1.6 CDTI, Toyota Hilux, Honda City, Ford Transit Custom ve Ranger, Nissan Navara ve Juke 1.5 dCi, Fiat Ducato, Isuzu D-Max, MG HS, Volkswagen Caddy 2.0 TDI, Skoda Karoq / Kodiaq.
+- **Kanıt başka bir model, motor ya da nesle ait ve zaten kayıtlı bir soruna bağlanıyor**, aynı sorun için ikinci bir kayıt açılmadı: Audi A4 B9 (yağ eksiltme şikâyetleri B8 dönemine ait), Audi Q3, BMW X1 / X3 (N47 kayıtlarında), Nissan Qashqai J10 (J11 kaydında), Opel Insignia 2.0 CDTI, VW Passat B7 (B6 kaydında), Dacia Lodgy / Dokker, Mercedes Vito / Sprinter.
+- **Yalnızca tekil, dağınık şikâyet var ya da arama sonuç vermedi:** Skoda Fabia ve Superb, Kia Ceed MPI, Toyota Yaris, Honda Civic FB7, Hyundai i30 benzinliler, Lexus IS / CT, Nissan Note, Mini F56.
+- **Kilometre ya da model yılı verisi yok, sürüm doğrulanamadı:** Kia Cerato arka stop / bagajdan su alma (Şikâyetvar'da çok ama kilometre ve yıl yok), MG HS (model yılı ve sürüm).
+
+`–` "sorun yok" demek değildir; yalnızca ölçütü geçen kaynak bulunamadığı anlamına gelir.
+
+### Kanıtı sınırlı ayrıntılar
+
+Bu sorunların ayrıntısı yazıldı ama dayanağı zayıf, dolaylı ya da yabancı kaynaklı; metinlerinde de bu belirtilmiştir:
+
+- **Dacia Jogger 1.0 TCe volan ve debriyaj:** yalnızca Ekşi Sözlük ve Şikâyetvar; birkaç kullanıcı anlatımı, kilometre aralığı (10.000-30.000 km) bu anlatımlardan. Resmî Dacia bülteni ya da kampanyası bulunamadı; neden, maliyet ve önlem alanları boş.
+- **Opel Grandland X 1.5 BlueHDi (DV5) zincir:** Opel'e özgü kilometre verisi yok, aralık Peugeot / Citroën kaydından alındı. Geri çağırma iddiası tek kullanıcıya dayanıyor ve resmî kaynakla doğrulanamadı; 2023 sonrası daha kalın zincir de doğrulanmadı.
+- **Nissan CVT kayıtları (Micra K13, Qashqai J11 1.6 dCi, X-Trail T32):** yalnızca DonanımHaber ve Şikâyetvar. Maliyet rakamları tarihsiz ya da kayıt tarihleri belirsiz; Qashqai'de 2017 sonrası iyileştirilmiş şanzıman beyni iddiası bir kullanıcıdan, doğrulanmadı.
+- **Mercedes A Serisi / CLA Pre-Safe:** yalnızca DonanımHaber ve Şikâyetvar; örnekler tek tek sürücülerden. GLA'yı da anan başlıklar var ama GLA ayrı eklenmedi.
+- **BMW N47 (116d F20, 520d F10):** 2015'te iyileştirilmiş zincir seti, 177 / 184 bg farkı ve BMW'nin 90.000-110.000 km değişim önerisi kullanıcı beyanı; resmî kaynakla doğrulanmadı. 116d'deki toplam maliyet aralığının (15.000-150.000 TL) tarihi ve kapsamı belirsiz.
+- **Mini Cooper S / Countryman S yüksek basınç pompası:** yalnızca bir kilometre verisi (110.000 km) var; 70.000-130.000 km aralığı bu veriye ve kullanıcı anlatımlarına dayanan kaba bir tahmin. N14 ve N18 ayrımı ikinci elden aktarım. Fiyat tarihsiz.
+- **Subaru XV 2.0 yağ tüketimi:** dönem sınırları (2012-2014 ve 2015-2017) kullanıcı yorumlarına dayanıyor, sıklık bilgisi yok; resmî servis bülteni ya da kampanya bulunamadı.
+- **Volvo S60 / V40 Powershift:** kaynaklardan biri Araclo (düşük güven); fiyatlar yaklaşık 2014-2017 dönemine ait, enflasyon öncesi.
+- **Ford EcoSport 1.0 EcoBoost:** ABD'deki geri çağırma sayıları ve Avrupa / ABD müşteri memnuniyeti programı kullanıcı aktarımı; Türkiye kapsamı ve resmî kaynak doğrulanmadı.
+- **Toyota Auris ve Corolla 1.4 D-4D yağ tüketimi:** Toyota servis bülteninin içeriği (üç neden) bir forum yazarından aktarılıyor, bülten doğrulanmadı; "2009'daki motor değişikliği" kullanıcı anlatımı.
+- **Audi Q5 2.0 TFSI yağ tüketimi:** servis bülteni (TSB 17 13 43) ve piston segmanı davası ABD dava özetlerinden; Türkiye'deki araçlar için kapsam doğrulanmadı. Dönem kırılımı bu ABD belgelerine dayanıyor.
+- **Mercedes C Serisi M271 EVO:** kaynaklar ağırlıkla ABD'den (MBWorld, CarComplaints); Kasım 2020 uzatılmış garanti mektubu ve dolar fiyatları ABD'ye ait.
+- **Maliyet rakamları:** Captur EDC, Corsa D Easytronic, Fiorino, Polo 6R, Hyundai i20 / i30 EPS ve benzerlerinde tarihleri farklı ya da belirsiz kullanıcı beyanları; güncel fiyat olarak okunmamalı. Ayrıntısı olan 45 yeni sorundan 19'unda maliyet alanı boş.
+- **Kia Picanto akü:** servislerin teşhisi çelişkili (kimi aküyü normal buluyor, kimi akü sensörünü değiştiriyor); kök neden belirsiz.
+- **Fiat 500 ve Punto Evo airbag kapağı:** sorunun Fiat'a genel olduğu bir DonanımHaber başlığına dayanıyor; ücretsiz değişim anlatıları ikinci elden.
+
+### Yalnızca iki siteyle desteklenen yeni maddeler
+
+Kuralı geçiyorlar ama sınırda. 3. aşama sonundaki 22 maddeye (yukarıdaki listede) bu aşamada 22 yeni madde eklendi; toplam 44. Yeni 22'nin 19'unda iki site DonanımHaber Forum ve Şikâyetvar, yani ikisi de kullanıcı deneyimi aktaran siteler; ikisinde (Jogger ve Peugeot 301 yağ tüketimi) Ekşi Sözlük (kayıt defterinde düşük güven) ve Şikâyetvar; birinde (Volvo S60 / V40) Araclo (düşük güven) ve DonanımHaber Forum:
+
+- Dacia Jogger (2022-): Volan ve debriyaj arızası (Ekşi Sözlük, Şikâyetvar)
+- Fiat 500 (2008-): Yolcu airbag kapağı (torpido göğüs kısmı) şişmesi ve çatlaması (DonanımHaber Forum, Şikâyetvar)
+- Fiat Fiorino / Qubo (2008-2020): Enjektör arızası ve enjektör pulu kaçağı (DonanımHaber Forum, Şikâyetvar)
+- Fiat Punto Evo / Grande Punto (2009-2018): Elektrikli direksiyon (EPS) açı ve tork sensörü arızası (DonanımHaber Forum, Şikâyetvar)
+- Fiat Punto Evo / Grande Punto (2009-2018): Yolcu airbag kapağı (torpido göğüs kısmı) şişmesi ve çatlaması (DonanımHaber Forum, Şikâyetvar)
+- Hyundai i20 (PB, 2009-2014): Elektrikli direksiyon (EPS) sertleşmesi ve arızası (DonanımHaber Forum, Şikâyetvar)
+- Hyundai i30 (FD, 2008-2012): Elektrikli direksiyon (EPS) sertleşmesi ve arızası (DonanımHaber Forum, Şikâyetvar)
+- Kia Picanto (JA, 2017-): Akü boşalması ve soğuk havada marş sorunu (DonanımHaber Forum, Şikâyetvar)
+- Mercedes-Benz A Serisi / CLA (W176 / C117, 2012-2019): Pre-Safe uyarısı, ESP ve direksiyon açı sensörü arızası (DonanımHaber Forum, Şikâyetvar)
+- Nissan Micra (K13, 2010-2017): CVT şanzıman arızası (P173A / P173C) (DonanımHaber Forum, Şikâyetvar)
+- Nissan Qashqai (J11, 2014-2020): Xtronic CVT şanzıman beyni arızası (P17F1) ve silkeleme (DonanımHaber Forum, Şikâyetvar)
+- Nissan X-Trail (T32, 2014-2021): Xtronic CVT silkelemesi, P17F1 kodu ve şanzıman değişimi (DonanımHaber Forum, Şikâyetvar)
+- Peugeot 301 (2012-): Aşırı yağ tüketimi (Ekşi Sözlük, Şikâyetvar)
+- Peugeot 301 (2012-): Katalitik konvertör arızası ve motor arıza lambası (DonanımHaber Forum, Şikâyetvar)
+- Skoda Kamiq / Scala (2019-): DSG kavrama ısınması, sarsıntı ve mekatronik arızası (DonanımHaber Forum, Şikâyetvar)
+- Skoda Octavia (A8, 2020-): 48V hafif hibrit (e-TEC) sistem ve alternatör arızası (DonanımHaber Forum, Şikâyetvar)
+- Subaru XV (2012-2017): Aşırı yağ tüketimi (DonanımHaber Forum, Şikâyetvar)
+- Toyota Auris (E150 / E180, 2007-2018): Aşırı yağ tüketimi (DonanımHaber Forum, Şikâyetvar)
+- Volkswagen Caddy (2K, 2010-2015): Enjektör arızası (DonanımHaber Forum, Şikâyetvar)
+- Volkswagen Golf 8 (2020-): 48V hafif hibrit sistem ve alternatör-marş jeneratörü arızası (DonanımHaber Forum, Şikâyetvar)
+- Volkswagen Polo 6R / 6C (2009-2017): Enjektör arızası (DonanımHaber Forum, Şikâyetvar)
+- Volvo S60 / V40 (2011-2018): Powershift kuru kavrama titremesi ve kavrama değişimi (Araclo, DonanımHaber Forum)
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- **MG HS 1.5 T DCT:** taslağa alınan kayıt, model yılı, güç (143-170 bg) ve DCT sürümü doğrulanamadığı için çıkarıldı, plana `–` olarak işlendi.
+- **Kia Cerato:** su alma şikâyetleri çok ama kilometre ve yıl verisi olmadığı için eklenmedi.
+- **Mercedes M271 EVO:** Kompressor kaydındaki mıknatıs yağ kaçağı EVO'ya taşınmadı (kanıt Kompressor'a özgü).
+- **Dacia Jogger:** önlem alanı, kaynağı olmayan genel tavsiye olacağı için yazılmadı.
+- **Nissan Qashqai J11 turbo hortumu:** Şikâyetvar'daki örneklerden birinin 2012 model araca (J10 dönemi) ait olduğu ayrıntı metnine eklendi; kayıt J11 (2014 sonrası) içindir ve J10 için ayrı kayıt açılamadı.
+- **Hyundai Kona `–` notu:** 7DCT kavrama titremesinin ele alındığı kayıtlar yanlışlıkla i20 / i30 yazılmıştı; Tucson, Bayon, i20 (BC3) ve Sportage olarak düzeltildi.
+- **Bayat plan satırları:** iki `–` satırı yeni kayıtlarla eşleştiği için birim testi (`test_elenen_satir_kayitla_eslesmez`) hata verdi: Opel Corsa D / E benzinli satırı motor kodlarına (A12XER, A14XER) daraltıldı, Toyota Auris satırı benzinli motorlara indirildi ve 1.4 D-4D ayrı satır oldu.
+
+### Dikkat edilecek sınırlar
+
+- Yeni kayıtların çoğu iki ya da üç siteyle, ağırlıkla DonanımHaber ve Şikâyetvar ile destekleniyor. Bu siteler sorunlu vakaları öne çıkarır; bir sorunun orada görünmesi sıklığı göstermez. Aynı olay birden fazla sayfada tekrarlandığı için çok sayıda bağlantı bağımsız doğrulama anlamına gelmez.
+- Yeni dönem kırılımları kullanıcı beyanlarına ve yabancı bülten / dava özetlerine dayanıyor; `Yaygın` / `Görülebilir` / `Seyrek` editoryal bir sınıflandırmadır. Q5, Auris ve Qashqai J11 şanzıman beyni notlarında bülten ya da iyileştirme iddiaları doğrulanmadı.
+- Kilometre aralıkları, özellikle az bildirimli kayıtlarda (Mini, Jogger, Grandland X), kaba tahmindir.
+- Ayrı kayıt açılması o versiyonun diğerlerinden daha sorunlu olduğunu göstermez; kaynakların versiyonu ayırt ettiğini gösterir. Ayrı kayıt olmaması da "sorunsuz" anlamına gelmez.
+- Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen 22 maddeye (yukarıdaki liste) üçüncü bir kaynak eklenebilir.
-3. Kademe 2 ve 3: [KAPSAM.md](KAPSAM.md) içinde `○` ile işaretli 66 model/motor grubu aynı kuralla ve aynı ayrıntı düzeniyle eklenebilir.
-4. Kanıtı yetersiz bulunan 22 grup için yeni kaynak çıkarsa eklenebilir.
-5. "Kanıtı sınırlı ayrıntılar" listesindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 52 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
+2. Yalnızca iki siteyle desteklenen 44 maddeye (3. aşama sonundaki 22 ve 4. aşamada eklenen 22) üçüncü bir kaynak eklenebilir.
+3. Kanıtı yetersiz bulunan 113 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
+4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 71 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
+5. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.

@@ -104,6 +104,23 @@ Okurken dikkat edilecekler:
 - Dönemler yıla göre sıralı ve birbiriyle çakışmayan olmalı, aracın `uretim_yillari` aralığı içinde kalmalıdır.
 - Revizyon yıllarını kaynaklar farklı verebilir (ör. 7 mm zincirden 8 mm zincire geçiş). Bu durumda `not` alanında belirtilir; şasi numarasıyla kontrol edin.
 
+## Motor versiyonları
+
+Aynı motor adı altında birden fazla versiyon olabilir: farklı motor kodu, güç, şanzıman, kasa/nesil ya da
+makyaj. Veritabanı bunları şu kurala göre ele alır:
+
+- **Kaynaklar versiyonları ayırt ediyorsa ayrı kayıt açılır.** Sorun listesi, kilometre aralığı ya da risk
+  versiyona göre değişiyorsa tek kayıtta birleştirmek yanıltır. Örnekler: Mercedes M271 Kompressor (W203 / W204,
+  2002-2010) ile M271 EVO CGI turbo (W204, 2009-2014); BMW N47 zincir sorunu için 320d (N47D20), 116d (N47D16) ve
+  520d (N47D20); Nissan Qashqai J11'de 1.5 dCi / 1.6 dCi (K9K / R9M) turbo hortumu, 1.6 dCi Xtronic CVT ve
+  1.2 DIG-T Xtronic CVT; aynı 1ND-TV motorlu Toyota Corolla E150 ile Auris.
+- **Versiyon kayıt içinde yıla göre değişiyorsa `donem_kirilimi` kullanılır** (yukarıya bakın).
+- **Kaynaklar ayırt etmiyorsa kayıt bölünmez.** Örneğin N47'de 177 ve 184 bg sürümleri arasındaki fark yalnızca
+  forum yorumlarında geçiyor ve doğrulanmadı; bu yüzden ayrı kayıt yok, fark ilgili `donem_kirilimi` notunda.
+- Aynı motoru paylaşan modeller ayrı kayıt olarak durur (ör. 1.6 TDI CAYC: Polo ve Caddy). Bir kaydın verisi başka
+  bir modelin kayıtlarından alındıysa bu metinde belirtilir (ör. Opel Grandland X DV5 kilometre aralığı Peugeot / Citroën
+  kaydındaki kaynaklardan).
+
 ## Ayrıntılar (`detay`)
 
 Sorun satırı "ne bozulur, hangi belirtiyi verir" sorusunu yanıtlar; `detay` ise sonrasındaki soruları
@@ -176,7 +193,9 @@ kontrol eder. Hata bulunursa sıfırdan farklı bir çıkış koduyla sonlanır;
    `kaynaklar` alanına yazın. Yeni bir site kullanıyorsanız `data/kaynaklar.json`
    içine ekleyin.
 3. Aynı motoru paylaşan araçlar (ör. 1.5 dCi kullanan Renault ve Dacia
-   modelleri) her biri ayrı kayıt olarak eklenir.
+   modelleri) her biri ayrı kayıt olarak eklenir. Kaynakların motor kodu, güç, şanzıman ya da
+   nesil bakımından ayırt ettiği versiyonlar da ayrı kayıttır; ayırt edilmeyenler bölünmez
+   ([Motor versiyonları](#motor-versiyonları)).
 4. `python3 scripts/dogrula.py` komutunun hatasız tamamlandığından emin olun,
    ardından `python3 scripts/kaynaklar_md_uret.py` ve `python3 scripts/kapsam_md_uret.py` ile
    `KAYNAKLAR.md` ve `KAPSAM.md` dosyalarını yenileyin.
