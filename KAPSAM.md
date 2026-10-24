@@ -20,33 +20,33 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **173** model/motor grubu
-- Tamamlanan (✓): **76**
-- Araştırılıp eklenmeyen (–): **16**
-- Sırada (○): **81**
-- Kademe 1: **72/84** işlendi (✓ ya da –)
-- Veritabanı: **83** kayıt, **140** kronik sorun
+- Plan: **178** model/motor grubu
+- Tamamlanan (✓): **90**
+- Araştırılıp eklenmeyen (–): **22**
+- Sırada (○): **66**
+- Kademe 1: **85/85** işlendi (✓ ya da –)
+- Veritabanı: **97** kayıt, **156** kronik sorun
 
 | Marka | Plan | ✓ | – | ○ | Kademe 1 işlenen |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Renault | 14 | 7 | 1 | 6 | 6/7 |
+| Renault | 14 | 10 | 1 | 3 | 7/7 |
 | Volkswagen | 18 | 10 | 0 | 8 | 9/9 |
 | Toyota | 11 | 3 | 4 | 4 | 5/5 |
 | Fiat | 11 | 5 | 2 | 4 | 5/5 |
-| Hyundai | 15 | 7 | 2 | 6 | 7/9 |
+| Hyundai | 15 | 8 | 3 | 4 | 9/9 |
 | Peugeot | 7 | 4 | 1 | 2 | 4/4 |
 | Opel | 13 | 6 | 2 | 5 | 4/4 |
 | Citroen | 6 | 4 | 0 | 2 | 3/3 |
 | Skoda | 11 | 5 | 0 | 6 | 5/5 |
-| Mercedes-Benz | 9 | 3 | 0 | 6 | 3/5 |
-| BMW | 7 | 3 | 0 | 4 | 3/4 |
+| Mercedes-Benz | 10 | 4 | 1 | 5 | 5/5 |
+| BMW | 7 | 3 | 1 | 3 | 4/4 |
 | Nissan | 8 | 4 | 0 | 4 | 4/4 |
-| Ford | 12 | 6 | 3 | 3 | 5/7 |
-| Kia | 9 | 3 | 1 | 5 | 3/4 |
-| Dacia | 8 | 3 | 0 | 5 | 3/3 |
-| Audi | 5 | 1 | 0 | 4 | 1/3 |
+| Ford | 12 | 6 | 5 | 1 | 7/7 |
+| Kia | 9 | 4 | 1 | 4 | 4/4 |
+| Dacia | 10 | 7 | 1 | 2 | 3/3 |
+| Audi | 7 | 4 | 0 | 3 | 4/4 |
 | Honda | 6 | 2 | 0 | 4 | 2/2 |
-| Seat | 3 | 0 | 0 | 3 | 0/1 |
+| Seat | 3 | 1 | 0 | 2 | 1/1 |
 
 ## Markalar
 
@@ -96,7 +96,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | Clio 4 | 2013-2019 | 0.9 TCe 90 (H4Bt) | ✓ 1 sorun, 1 yıl kırılımı |
-| 1 | Clio 4 | 2013-2019 | 1.5 dCi 75/90 (K9K) | ○ sırada |
+| 1 | Clio 4 | 2013-2019 | 1.5 dCi 75/90 (K9K) | ✓ 1 sorun |
 | 1 | Clio 4 / Captur | 2013-2019 | 1.2 TCe 120 (H5Ft) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | Clio 5 | 2019- | 1.0 TCe 90/100 (H4Dt) | ✓ 2 sorun |
 | 1 | Megane 3 / Fluence | 2009-2016 | 1.5 dCi (K9K, EDC) | ✓ 3 sorun |
@@ -104,8 +104,8 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Megane 4 | 2016- | 1.5 Blue dCi 95/115 (K9K) | ✓ 2 sorun |
 | 2 | Clio 3 / Symbol | 2008-2013 | 1.5 dCi 70/85/90 (K9K) | ✓ 1 sorun |
 | 2 | Clio 4 | 2013-2019 | 1.2 16V 75 (D4F) | ○ sırada |
-| 2 | Kadjar | 2015-2022 | 1.5 dCi 110 (K9K) | ○ sırada |
-| 2 | Kadjar | 2015-2022 | 1.3 TCe 140 (H5H) | ○ sırada |
+| 2 | Kadjar | 2015-2022 | 1.5 dCi 110 (K9K) | ✓ 1 sorun |
+| 2 | Kadjar | 2015-2022 | 1.3 TCe 140 (H5H) | ✓ 2 sorun |
 | 2 | Megane 3 / Fluence | 2009-2016 | 1.6 16V (K4M, LPG'li dahil) | – eklenmedi: Aramalarda LPG'li K4M supap oturması anılıyor ama iki bağımsız site bulunamadı. |
 | 2 | Megane 4 | 2016- | 1.6 SCe 115 (H4M) | ○ sırada |
 | 2 | Symbol | 2008-2020 | 1.2 16V 75 (D4F) | ○ sırada |
@@ -170,11 +170,11 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | Accent Blue | 2011-2019 | 1.6 CRDi (D4FB) | ✓ 1 sorun |
-| 1 | Accent Blue | 2011-2019 | 1.4 MPI / 1.6 GDI | ○ sırada |
+| 1 | Accent Blue | 2011-2019 | 1.4 MPI / 1.6 GDI | – eklenmedi: 1.4 MPI ve 1.6 GDI için tekrar eden sorun bulunamadı (yalnızca tek tek külbütör kapağı yağ kaçağı ve sübap iddiaları). |
 | 1 | Bayon | 2021- | 1.0 T-GDI 100/120 (7DCT) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | Bayon | 2021- | 1.4 MPI 100 | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Tucson (TL) | 2015-2020 | 1.6 T-GDI (7DCT) | ✓ 1 sorun, 1 yıl kırılımı |
-| 1 | Tucson (TL) | 2015-2020 | 1.6 CRDi (7DCT) | ○ sırada |
+| 1 | Tucson (TL) | 2015-2020 | 1.6 CRDi (7DCT) | ✓ 1 sorun |
 | 1 | i20 | 2020- | 1.0 T-GDI 100/120 (7DCT) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | i20 | 2020- | 1.4 MPI 100 | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | i30 | 2012-2020 | 1.6 CRDi | – eklenmedi: Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; model/motor bazında tekrar eden sorun için iki bağımsız site bulunamadı. |
@@ -247,12 +247,13 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | C Serisi W204 | 2007-2014 | C220 / C250 CDI 2.1 (OM651) | ✓ 2 sorun, 1 yıl kırılımı |
-| 1 | C Serisi W205 | 2014-2021 | C180 / C200 benzinli (M274) | ○ sırada |
-| 1 | C Serisi W205 | 2014-2021 | C180d / C200d / C220d (OM626 / OM651) | ○ sırada |
+| 1 | C Serisi W205 | 2014-2021 | C180 / C200 benzinli (M274) | – eklenmedi: Kaynaklar M274'ü zincir konusunda M271'e göre daha sorunsuz buluyor; belirgin kronik sorun yok (7G-Tronic için dağınık şikâyetler var). |
+| 1 | C Serisi W205 | 2014-2021 | C180d / C200d 1.6 (R9M kaynaklı dizel) | ✓ 1 sorun |
 | 1 | E Serisi W212 | 2009-2016 | E200 / E250 CGI 1.8 turbo (M271 EVO) | ✓ 1 sorun |
 | 1 | E Serisi W212 | 2009-2016 | E250 CDI 2.1 (OM651) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | A Serisi W176 | 2012-2018 | A180 CDI / A200 CDI / A180 1.6 | ○ sırada |
 | 2 | C Serisi W204 | 2007-2014 | C180 / C200 CGI 1.8 (M271 EVO) | ○ sırada |
+| 2 | C Serisi W205 | 2014-2021 | C220d 2.0 (OM651 / OM654) | ○ sırada |
 | 2 | E Serisi W213 | 2016- | E180 / E200 / E220d | ○ sırada |
 | 3 | CLA / GLA | 2013-2019 | 1.6 / 1.5 d (OM607) | ○ sırada |
 
@@ -263,7 +264,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | 1 Serisi F20 | 2011-2019 | 116i / 118i (N13 / B38) | ✓ 4 sorun |
 | 1 | 3 Serisi F30 | 2012-2015 | 320d 2.0 (N47) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | 3 Serisi F30 | 2012-2015 | 320i / 328i 2.0 (N20) | ✓ 3 sorun |
-| 1 | 3 Serisi F30 | 2015-2019 | 320d (B47) / 320i (B48) | ○ sırada |
+| 1 | 3 Serisi F30 | 2015-2019 | 320d (B47) / 320i (B48) | – eklenmedi: Kaynaklar B47'nin N47 sorunlarını büyük ölçüde çözdüğünü yazıyor ama çelişkili; B48 zincir/turbo yağ terlemesi tek kaynakta kaldı. |
 | 2 | 1 Serisi F20 | 2011-2019 | 116d / 118d (N47 / B47) | ○ sırada |
 | 2 | 5 Serisi F10 | 2010-2017 | 520d (N47 / B47) / 520i (N20) | ○ sırada |
 | 3 | X1 / X3 | 2010-2018 | 1.8d / 2.0d (N47 / B47) | ○ sırada |
@@ -285,12 +286,12 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | Fiesta | 2008-2017 | 1.4 / 1.6 TDCi | ○ sırada |
+| 1 | Fiesta | 2008-2017 | 1.4 / 1.6 TDCi | – eklenmedi: Enjektör ve turbo anıları genel TDCi başlıklarıyla karışık; Fiesta'ya özgü tekrar eden sorun bulunamadı. |
 | 1 | Fiesta / Focus | 2012-2023 | 1.0 EcoBoost | ✓ 2 sorun, 2 yıl kırılımı |
 | 1 | Fiesta Mk7 | 2011-2017 | 1.6 Ti-VCT 105 (Powershift DPS6) | ✓ 1 sorun |
 | 1 | Focus 2 / 3 | 2008-2018 | 1.6 TDCi (DV6) | ✓ 3 sorun |
 | 1 | Focus 3 | 2011-2018 | 1.6 Ti-VCT (Powershift DPS6) | ✓ 2 sorun, 1 yıl kırılımı |
-| 1 | Focus 3 | 2011-2018 | 1.5 TDCi 95/120 | ○ sırada |
+| 1 | Focus 3 | 2011-2018 | 1.5 TDCi 95/120 | – eklenmedi: Enjektör ve DPF şikâyetleri dağınık, DPF şikâyetleri ağırlıkla 2019 sonrası EcoBlue'ya ait; 2015-2018 1.5 TDCi için ortak sorun yok. |
 | 1 | Focus 4 / Kuga 3 | 2019- | 1.5 EcoBlue 120 (DV5) | ✓ 2 sorun |
 | 2 | Courier / Tourneo Courier | 2014- | 1.5 TDCi / 1.0 EcoBoost | – eklenmedi: Şikâyetler fren sesi, gıcırtı ve genel motor arıza lambası gibi dağınık konularda; ortak bir arıza için iki bağımsız site bulunamadı. |
 | 2 | Fiesta | 2008-2023 | 1.25 / 1.4 Duratec | – eklenmedi: Kullanıcılar 1.25 ve 1.4 benzinlileri sorunsuz olarak anıyor; kronik sorun bulunamadı. |
@@ -302,7 +303,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | Ceed | 2012-2018 | 1.6 CRDi | ○ sırada |
+| 1 | Ceed | 2012-2018 | 1.6 CRDi | ✓ 1 sorun |
 | 1 | Rio | 2011-2017 | 1.4 CRDi 90 | ✓ 1 sorun |
 | 1 | Sportage SL / QL | 2010-2021 | 1.6 CRDi / 1.7 CRDi | ✓ 1 sorun |
 | 1 | Sportage SL / QL | 2010-2021 | 1.6 GDI / 1.6 T-GDI | ✓ 1 sorun |
@@ -319,9 +320,11 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Duster | 2010-2017 | 1.5 dCi (K9K) | ✓ 2 sorun |
 | 1 | Duster | 2021-2024 | 1.0 TCe 100 ECO-G (H4Dt) | ✓ 1 sorun |
 | 1 | Sandero / Sandero Stepway | 2021- | 1.0 TCe 90/100 (H4Dt) | ✓ 1 sorun |
-| 2 | Duster | 2018-2021 | 1.5 dCi / 1.3 TCe / 1.6 SCe | ○ sırada |
-| 2 | Sandero / Logan | 2013-2020 | 0.9 TCe 90 (H4Bt) | ○ sırada |
-| 2 | Sandero / Logan | 2013-2020 | 1.5 dCi 75/90 (K9K) | ○ sırada |
+| 2 | Duster | 2018-2021 | 1.5 dCi 110 (K9K) | ✓ 1 sorun |
+| 2 | Duster | 2019-2024 | 1.3 TCe 130/150 (EDC) | ✓ 1 sorun |
+| 2 | Sandero / Logan | 2013-2020 | 0.9 TCe 90 (H4Bt) | ✓ 1 sorun |
+| 2 | Sandero / Logan | 2013-2020 | 1.5 dCi 75/90 (K9K) | ✓ 1 sorun |
+| 3 | Duster | 2018-2021 | 1.6 SCe 115 | – eklenmedi: Kaynaklarda bu motor için öne çıkan bir sorun bulunamadı. |
 | 3 | Jogger | 2022- | 1.0 TCe 110 ECO-G | ○ sırada |
 | 3 | Lodgy / Dokker | 2012-2021 | 1.5 dCi (K9K) | ○ sırada |
 
@@ -329,9 +332,11 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | A3 8V | 2012-2020 | 1.0 / 1.2 / 1.4 TFSI, 1.6 TDI | ○ sırada |
+| 1 | A3 8P FL / 8V | 2009-2020 | 1.4 TFSI (S tronic DQ200) | ✓ 1 sorun |
+| 1 | A3 8V | 2012-2020 | 1.6 TDI 105/110 | ✓ 2 sorun |
 | 1 | A4 B8 | 2008-2015 | 1.8 TFSI / 2.0 TFSI (EA888 Gen2) | ✓ 4 sorun, 2 yıl kırılımı |
-| 1 | A4 B8 | 2008-2015 | 2.0 TDI (CAGA / CJCA) | ○ sırada |
+| 1 | A4 B8 | 2008-2015 | 2.0 TDI 143/150/177 (Multitronic) | ✓ 1 sorun |
+| 2 | A3 8V | 2012-2020 | 1.0 TFSI / 1.2 TFSI | ○ sırada |
 | 2 | A4 B9 | 2016- | 2.0 TFSI / 2.0 TDI | ○ sırada |
 | 3 | A6 C7 / Q3 / Q5 | 2011- | 2.0 TDI / 3.0 TDI / 2.0 TFSI | ○ sırada |
 
@@ -350,7 +355,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | Leon 5F / 1P | 2005-2020 | 1.2 TSI / 1.4 TSI / 1.6 TDI | ○ sırada |
+| 1 | Leon 5F / 1P | 2005-2020 | 1.2 TSI / 1.4 TSI / 1.6 TDI | ✓ 1 sorun |
 | 2 | Ibiza 6J / 6P | 2008-2021 | 1.2 TSI / 1.0 TSI / 1.6 TDI | ○ sırada |
 | 3 | Ateca / Arona | 2016- | 1.0 TSI / 1.5 TSI | ○ sırada |
 
