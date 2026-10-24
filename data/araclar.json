@@ -269,6 +269,37 @@
     {
       "marka": "BMW",
       "model": "1 Serisi (F20, 2011-2015)",
+      "motor": "116d 1.6 dizel (N47D16)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri sesi ve uzaması",
+          "etkilenen_parca": "Motorun arka tarafındaki triger zinciri, gergi ve kızaklar",
+          "belirtiler": "Soğuk çalıştırmada ve rölantide motorun arkasından zincir sesi, ileri aşamada zincir atlaması veya kopması",
+          "tahmini_km_araligi": "100.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Forumlarda zincir sesinin N47'nin bilinen sorunu olduğu yazılıyor. Bir forum yorumuna göre N47D16 (116d) genel olarak N47D20'lere göre daha sorunsuz; yorum bunu düşük güce ve daha hafif araca bağlıyor (kişisel görüş) ve 116d'de sesin 120 binden sonra, 150 bini görmeden başlayabildiğini ekliyor. Zincir ses yapmaya başlayınca kasnakların ve yağ pompasının da bozulduğunu yazan kullanıcı bunu 2.0 dizeller için anlatıyor ve F20 modellerde benzer bir arıza duymadığını belirtiyor.",
+            "teshis": "Ses genellikle rölantide veya düşük devirlerde belirgin. Bir kullanıcı 2011 model 320d'sinde 68 bin km'de hafif zincir sesi fark ettiğini yazıyor (N47D20; 116d değil). Yetkili servislerin ses gelmedikçe değişimi gerekli görmediği, özel servislerin 150.000 km üzerinde şart koştuğu aktarılıyor.",
+            "cozum": "N47'de zincir motorun arkasında olduğu için forumlar değişimin motorun indirilmesini gerektirdiğini yazıyor. Bir kullanıcı 2015'te N47 için iyileştirilmiş bir onarım seti çıktığını belirtiyor (resmî kaynakla doğrulanmadı).",
+            "maliyet": "Forumlarda eski tarihli rakamlar geçiyor: üst zincir 3-4 bin TL, komple üst-alt zincir seti 6-7 bin TL. Başka bir kullanıcı toplam maliyetin 15.000 TL'den 150.000 TL'ye kadar uzayabileceğini yazıyor (tarih ve kapsam belirsiz). Güncel rakam bulunamadı.",
+            "onlem": "Bir forum kullanıcısı satıcının 'zincir değişti' beyanının yanlış çıktığını anlatıyor; değişim kaydını faturayla doğrulamak."
+          },
+          "kaynaklar": [
+            "https://eksisozluk.com/bmw-116d-genel-rezaleti-ve-kronik-sorunu--6221945",
+            "https://eksisozluk.com/bmw-116d-genel-rezaleti-ve-kronik-sorunu--6221945?p=6",
+            "https://forum.donanimhaber.com/bmw-116d-efficient-dynamics-hakkinda-acil-yardim--97322156",
+            "https://otopark.com/forum/threads/n47-116d-ed-yurutme-maliyeti.16378/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi (F20, 2011-2015)",
       "motor": "116i / 118i 1.6 turbo (N13)",
       "uretim_yillari": {
         "baslangic": 2011,
@@ -578,6 +609,45 @@
           "kaynaklar": [
             "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-n20-n26-oil-filter-housing-gasket-f30",
             "https://f30.bimmerpost.com/forums/showthread.php?t=1994474"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi (F10, 2010-2015)",
+      "motor": "520d 2.0 dizel (N47D20)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri uzaması ve sesi",
+          "etkilenen_parca": "Motorun arka tarafındaki triger zinciri, gergi ve kızaklar",
+          "belirtiler": "Soğuk ilk çalıştırmada motorun arkasından metalik ses, rölantide ve düşük devirde belirgin zincir sesi, ileri aşamada zincir atlaması veya kopması",
+          "tahmini_km_araligi": "90.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Araclo'nun 520d xDrive sayfası riski motor ailesine göre ayırıyor: erken N47'de zincir riski belirgin biçimde daha yüksek. Forumlarda 177 ve 184 bg'lik N47'lerde zincir sorunu sık anılıyor; bir yorumcu 184 bg'de sorunun çok daha az görüldüğünü, başka bir kullanıcı 184 bg'de de sorun yaşandığını yazıyor. Bir kullanıcı 2015'te N47 için iyileştirilmiş zincir seti çıktığını, bir başkası 184 bg'de revize zincir takıldıktan sonra sorunun tekrarlamadığını yazıyor (ikisi de resmî kaynakla doğrulanmadı).",
+            "teshis": "Ses rölantide veya düşük devirde daha belirgin. Yetkili servislerin ses gelmedikçe değişimi gerekli görmediği, özel servislerin 150.000 km üzerinde şart koştuğu aktarılıyor; bir kullanıcı BMW'nin 90.000-110.000 km bandında değişim önerdiğini yazıyor (doğrulanmadı). Deneyimler çok değişken: bazı sahipler 160 bin km civarında tıkırtı bildiriyor, bir kullanıcı zincir setini 310.000 km'de değiştirip aracı 470.000 km'ye ulaştırdığını yazıyor.",
+            "cozum": "Zincir motorun arkasında olduğu için değişim motorun indirilmesini gerektiriyor. DonanımHaber'de bir F10 N47 sahibi 150 bin km ağır bakımında üst ve alt zincir setinin, yağ pompası ve zincirinin, eksantrik ve yakıt pompası dişlilerinin değiştirildiğini, aynı bakımda ZF8 şanzıman servisi (9 litre ZF yağı ve filtre) yapıldığını yazıyor; turbo indirildiğinde bir boşluk bulunduğunu, revizyon veya değişim gerektiğini de ekliyor (tek vaka).",
+            "maliyet": "DonanımHaber'deki 150 bin km ağır bakım paylaşımında zincir setleri, yağ pompası, dişliler ve ZF8 servisi için toplam 33.500 TL ödendiği yazılıyor (başlığın yaşına göre yaklaşık 2021 fiyatı; güncel değil). Aynı forumlarda eski tarihli başka rakamlar da geçiyor (zincir setinin kendisi için birkaç bin TL, işçilikle 6 bin TL ve üzeri).",
+            "onlem": "Araclo riskin motor ailesine (erken N47 ve sonraki B47) göre değiştiğini yazıyor; motor tipini ve zincir/yağ pompası işlem kaydını doğrulamak."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/fatura-agir-bmw-f10-n47-motor-150-bin-km-agir-bakimi-zincir-degisimi-zf8-sanziman-bakimi--151236302",
+            "https://otopark.com/forum/threads/320d-520d-motor-zincir-problemi.1092/",
+            "https://www.araclo.com/vehicles/bmw-5-serisi-520d-xdrive/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/n47-motor-zincir-sesi-ve-problemi-zaman-zinciri--113480942"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2010,
+              "bitis": 2014,
+              "durum": "Görülebilir",
+              "not": "Forumlarda 184 bg'lik N47'lerde sorunun 177 bg'ye göre çok daha az görüldüğü, yine de görülebildiği yazılıyor; 2015'te iyileştirilmiş zincir seti çıktığı ve B47'ye geçildiği iddia ediliyor (doğrulanmadı)."
+            }
           ]
         }
       ]
@@ -1032,6 +1102,33 @@
             "https://www.sikayetvar.com/renault/clio/cizirti",
             "https://www.sikayetvar.com/renault/clio/turbo",
             "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Dacia",
+      "model": "Jogger (2022-)",
+      "motor": "1.0 TCe 110 (manuel)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Volan ve debriyaj arızası",
+          "etkilenen_parca": "Volan ve debriyaj seti (baskı balata)",
+          "belirtiler": "Debriyaj ve vites geçişinde sorun, volan arızası, onarımdan kısa süre sonra aynı arızanın tekrarlaması",
+          "tahmini_km_araligi": "10.000 - 30.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "teshis": "Şikâyetvar'da bazı sürücüler 2023 model 1.0 TCe 110 araçlarında volan arızasının kronik olduğunu düşünüyor; bir kullanıcı ilk arızanın 11.000 km'de garanti kapsamında onarıldığını, 16.000 km sonra aynı arızanın tekrarladığını yazıyor, bazı şikâyetlerde arıza ilk 20.000 km'den itibaren başlıyor. Ekşi Sözlük'te bir yorum benzinli manuel Jogger'larda debriyaj/vites sorunlarının tekrarladığını, debriyajın 4-5 kez onarıldığı halde aynı sorunun çıktığını ve hibrit modelde görülmediğini yazıyor.",
+            "cozum": "Birden fazla kullanıcı arızanın garanti dışı sayıldığından şikâyet ediyor; bazı sahipler bayinin arızayı kullanıcı hatası olarak değerlendirdiğini yazıyor (tartışmalı). Resmî bir Dacia servis bülteni ya da kampanyası bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/dacia/dacia-joggerda-kronik-volan-ve-debriyaj-arizasi-icin-garanti-kapsami-talebi",
+            "https://www.sikayetvar.com/dacia/jogger/volan",
+            "https://eksisozluk.com/dacia-jogger--7021710?p=6"
           ]
         }
       ]
@@ -1963,6 +2060,43 @@
     },
     {
       "marka": "Honda",
+      "model": "CR-V (2012-2018)",
+      "motor": "1.6 i-DTEC",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Turbo hortumunun kelepçeden çıkması ve güç kaybı",
+          "etkilenen_parca": "Üst turbo hortumu ve kelepçeleri",
+          "belirtiler": "Seyir halinde ani güç kaybı (örneğin 90-100 km/s hızda), gaz yememe, yolda kalma, hortumun yerinden çıkması",
+          "tahmini_km_araligi": "5.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kullanıcılar hortumun yerinden çıktığını ve sorunun kelepçeyle ilgili olduğunu bildiriyor; bir kullanıcı üst turbo hortumunun akünün altında olduğunu ve ulaşımın zor olduğunu yazıyor (montaj zorluğu). Başka bir kullanıcı firmanın bu konuda kalıcı bir çözüm üretmediğini düşünüyor. Kaynaklarda kilometre bilgisi dağınık: bir şikâyet sıfır kilometre aracın tesliminden kısa süre sonrasını anlatıyor.",
+            "teshis": "Bir forum kullanıcısı 90-100 km/s hızda aracın gücünü kaybettiğini ve hortumun kelepçeden çıktığı için yolda kaldığını anlatıyor; bir başkası arızanın gaza yüklenince 10 saniye içinde ortaya çıktığını yazıyor.",
+            "cozum": "Bir kullanıcı yetkili serviste hortumun takılıp kelepçelerin sıkıldığını yazıyor; aynı başlıkta orijinal kelepçe kullanılmasının sorunu çözdüğünü belirten yorumlar var. Bazı kullanıcılar hortum değişiminden sonra sorun yaşamadığını (biri yaklaşık 100.000 km) yazıyor; Ekşi Sözlük'te bir yorum konunun 'artık çözüldüğünü' söylüyor. Hiçbiri resmî kaynakla doğrulanmadı."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/honda-crv-sorunu--106568657",
+            "https://forum.donanimhaber.com/honda-cr-v-2015-2016-1-6-dizel-4x4-almak--150082865",
+            "https://www.sikayetvar.com/honda/cr-v/kronik",
+            "https://eksisozluk.com/honda-cr-v--1601422?p=8"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2015,
+              "bitis": 2016,
+              "durum": "Görülebilir",
+              "not": "Şikâyetler 2015-2016 model 1.6 dizellerde yoğunlaşıyor; bir Ekşi yorumu sorunun sonradan çözüldüğünü yazıyor (yıl verilmemiş)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Honda",
       "model": "Civic (FC5, 2016-2021)",
       "motor": "1.5 VTEC Turbo (L15B7)",
       "uretim_yillari": {
@@ -2769,6 +2903,35 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "A Serisi / CLA (W176 / C117, 2012-2019)",
+      "motor": "A180 CDI / CLA 180 CDI (dizel)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Pre-Safe uyarısı, ESP ve direksiyon açı sensörü arızası",
+          "etkilenen_parca": "Direksiyon açı sensörü (MRM), Pre-Safe / ESP ve aktif fren sistemleri",
+          "belirtiler": "'Pre-Safe kapsama alanı sınırlandırıldı' uyarısı, ESP ve aktif çarpışma önleme sisteminin devre dışı kalması, ardından gaz yememe ve güç kaybı",
+          "tahmini_km_araligi": "65.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı direksiyon açı sensörünün sık arızalandığını ve bu sensörün Pre-Safe, ESP ve otomatik fren gibi özellikleri devre dışı bırakabildiğini yazıyor; başlık A, CLA, C, GLA ve E modellerini birlikte ele alıyor. Şikâyetvar'da bir 2017 A180 dizel otomatik sahibi 69 bin km'de açı (MRM) sensörünün bozulduğunu, bunun ESP, aktif çarpışma önleme ve Distronic gibi sistemleri devre dışı bıraktığını yazıyor.",
+            "teshis": "Şikâyetvar'da bir 2013 model A180 sahibi arızanın ilk kez bir yıl sonra çıktığını, kontak kapatıp açınca geçtiğini, sonra araç çalıştıktan 5-10 dakika sonra sürekli yanar hale geldiğini anlatıyor. Bir 2015 CLA 180 CDI sahibi yaklaşık 80.000 km'den sonra açı sensörü arızası bildiriyor; bir A180 sahibi uyarı yandığında gaza basınca aracın gaz yemediğini ve otomatik frenleme yaptığını yazıyor (tek kullanıcı). Bir sürücü serviste bu sorunun bu modelde sürekli yaşandığının söylendiğini aktarıyor (tek beyan).",
+            "cozum": "Şikâyetvar'da bir kullanıcı direksiyon açı sensörü arızasını 2020'de serviste yaptırdığını ama aynı arızanın tekrarladığını yazıyor. 2014 model bir A180 CDI sahibi 100 bin km'de, garantisi dolduğu için sensörün özel veya yetkili serviste ücretli değiştirilmesi gerektiğini anlatıyor. Resmî bir Mercedes bülteni ya da ücretsiz onarım kampanyası bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/mercedes-benz/mercedes-a180-pre-safe-kronik-ariza",
+            "https://www.sikayetvar.com/mercedes-benz/2015-model-a180-cdi-mercedes-presafe-kronik-sorunu",
+            "https://www.sikayetvar.com/cla-180/kronik",
+            "https://forum.donanimhaber.com/mercedes-pre-safe-arizasi-a-cla-c-gla-e--93069197-2"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "C Serisi (W203 / W204, 2002-2010)",
       "motor": "C180 / C200 Kompressor 1.8 (M271)",
       "uretim_yillari": {
@@ -2878,6 +3041,38 @@
             "https://mbworld.org/forums/s-class-w220/786318-722-9-woes.html",
             "https://au7o.io/known-issues/dtc/p2768/mercedes-benz",
             "https://forums.mbclub.co.uk/threads/cls-350-help.195078"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi (W204, 2009-2014)",
+      "motor": "C180 / C200 / C250 CGI 1.8 turbo (M271 EVO)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Eksantrik ayar elemanı, zincir ve dişli aşınması",
+          "etkilenen_parca": "Eksantrik ayar elemanları (camshaft adjuster), triger zinciri, gergi ve eksantrik dişlileri",
+          "belirtiler": "Çalıştırma sonrası birkaç saniyelik şıkırtı, zor çalıştırma, motor arıza lambası, sıcak motorda belirginleşen eksantrik/zincir sesi, kam konum kodları (P0340 / P034062)",
+          "tahmini_km_araligi": "75.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "ABD'deki MBWorld başlıklarında ve CarComplaints kayıtlarında (C250 CGI) önce eksantrik ayar elemanlarının arızalandığı, zincir aşınmasının daha yüksek kilometrede geldiği anlatılıyor. Neden konusunda görüşler ayrışıyor: bir başlıkta ayar elemanı mıknatısının zincirde uzun vadeli aşınmaya yol açtığı öne sürülüyor (başkaları buna kuşkuyla bakıyor), bazı yorumcular zincir uzamasını bakım eksikliğine bağlıyor. DonanımHaber'de bir C180 1.8 CGI sahibi sesin sıcak motorda belirginleştiğini ve serviste yağ basıncı yetersizliğiyle ilişkilendirildiğini aktarıyor.",
+            "teshis": "ABD kayıtlarında belirtiler zor çalışma, motor arıza lambası ve motor çalıştıktan sonra birkaç saniye süren tıkırtı; en sık anılan kod P034062. Bir kullanıcı kam işaretlerinin biraz bile kaymasının zincir uzamasını gösterdiğini yazıyor; zincir yenilendikten kısa süre sonra yeniden uzamış görünüyorsa gergi, sensör ya da ayar elemanı gibi başka bir arıza aranması gerektiği yorumu da var.",
+            "cozum": "Ayar elemanları, zincir, gergi ve dişliler birlikte yenilenir. DonanımHaber'deki C180 CGI sahibi Aralık 2016'da yetkili serviste eksantrik dişlileri (2 adet), zincir, gergi gibi parçaların değiştirildiğini, sesin sürmesi üzerine ayrıca 16 itici, 2 eksantrik kafası ve gergi değişimi yapıldığını (zincir ölçümde sağlam çıktığı için yerinde bırakılmış) yazıyor. MBWorld'de Mercedes'in Kasım 2020'de 2012-2014 C250 sedan ve 2012-2015 C250 coupe sahiplerine ayar elemanları için 10 yıl / 120.000 mil uzatılmış garanti mektubu gönderdiği aktarılıyor; kapsam yalnızca ayar elemanları, tek başına zincir uzaması kapsam dışı. Başka kullanıcılar 75.000 mil sınırından söz ediyor, biri talebin satış tarihi gerekçesiyle reddedildiğini yazıyor; bu uygulama ABD'ye ait, Türkiye için doğrulanmadı.",
+            "maliyet": "ABD'de MBWorld başlıklarında yalnızca parça için yaklaşık 2.000 dolar, yetkili serviste 4.500-6.000 dolar teklif aktarılıyor; CarComplaints'te bir 2013 C250 kaydı ortalama onarım bedelini 70.100 milde 10.110 dolar gösteriyor (şikâyet sitesi derlemesi). Türkiye için güncel TL rakamı bulunamadı.",
+            "onlem": "Bir Türkçe forum yazarı zincirin yağın içinde çalıştığını, bu yüzden düzenli yağ bakımının ömrü etkilediğini yazıyor; ABD forumlarında da zincir uzaması bakımsızlıkla ilişkilendiriliyor (kanıtlanmış değil)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/m271-evo-1-8cgi-motor-eksantrik-disli-ve-zincir-sesi-problemi--131285263",
+            "https://mbworld.org/forums/c-class-w204/705494-c250cgi-timing-chain-failure.html",
+            "https://mbworld.org/forums/w204-s204-c-2008-2015-c-180-c-300-c320-cgi-cdi-c350-cgi-cdi/680776-c250-timing-chain-issues-still.html",
+            "https://mbworld.org/forums/c-class-w204/799221-extended-warranty-camshaft-adjusters.html",
+            "https://www.carcomplaints.com/Mercedes-Benz/C250/2013/engine/faulty_camshaft_adjuster_solenoid.shtml"
           ]
         }
       ]
@@ -3061,6 +3256,45 @@
     },
     {
       "marka": "Nissan",
+      "model": "Micra (K13, 2010-2017)",
+      "motor": "1.2 (CVT otomatik)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "CVT şanzıman arızası (P173A / P173C)",
+          "etkilenen_parca": "CVT şanzıman, basınç sensörü ve şanzıman kontrol ünitesi",
+          "belirtiler": "Silkeleme, ısındıktan sonra sarsıntı, şanzıman arıza uyarısı ve sarı motor arıza lambası, P173A / P173C kodları",
+          "tahmini_km_araligi": "40.000 - 90.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda neden açıklanmıyor. Şikâyetvar'da kullanıcılar 2011-2013 model araçlarda yaklaşık 40.000 km'den sonra şanzıman hatası verdiğini yazıyor ve bunu kronik olarak tanımlıyor. DonanımHaber'de bir kullanıcı arızanın CVT'lerde sık görülen basınç sensörü arızası olduğunu belirtiyor.",
+            "teshis": "Silkeleme ve ısındıktan sonra görülen sarsıntı, basınç sensörü uyarısı ve sarı motor arıza lambası sık anlatılan belirtiler. Şikâyetvar'da bir 2012 model 1.2 CVT sahibi 86.000 km'de P173A ve P173C kodlarıyla şanzıman arızası aldığını yazıyor.",
+            "cozum": "DonanımHaber'de bir kullanıcı servislerin genellikle tamir yerine değişim yaptığını, bazı kontrollerin (sensör kontrolü gibi) ucuz olabileceğini yazıyor (doğrulanmadı).",
+            "maliyet": "Şikâyetvar'da 2012 model 1.2 CVT sahibi hem yetkili hem özel servisin tamirin en az 80.000 TL tutacağını söylediğini yazıyor; DonanımHaber'de bir kullanıcı basınç sensörü tamirinin 12 bin TL'ye mal olduğunu duyduğunu belirtiyor. Rakamlar tarihsiz ve eski; güncel fiyat olarak okumayın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/micra/kronik",
+            "https://www.sikayetvar.com/nissan/micra/sanziman-arizasi",
+            "https://www.sikayetvar.com/nissan/micra/sanziman",
+            "https://forum.donanimhaber.com/nissan-micra-2012-1-2-otomatik-sanziman-problemi--133361061-2",
+            "https://forum.donanimhaber.com/micra-cvt-sanziman-fiyati-aldim-soktayim-durum-sonuclandi--97906299-7"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2011,
+              "bitis": 2013,
+              "durum": "Yaygın",
+              "not": "Şikâyetvar'da şanzıman hatası şikâyetleri 2011-2013 model araçlarda yoğunlaşıyor (oran verisi yok); sonraki yıllar için kaynakta ayrı bilgi yok."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Nissan",
       "model": "Qashqai (J11, 2014-2020)",
       "motor": "1.5 dCi 110 (K9K) / 1.6 dCi 130 (R9M)",
       "uretim_yillari": {
@@ -3162,6 +3396,36 @@
             "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
             "https://www.qashqaiforums.co.uk/viewtopic.php?p=69316",
             "https://www.araclo.com/vehicles/renault-clio-1.2-tce/degerlendirmeler/kullanici-sorunlari"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "X-Trail (T32, 2014-2021)",
+      "motor": "1.6 dCi (R9M, Xtronic CVT)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Xtronic CVT silkelemesi, P17F1 kodu ve şanzıman değişimi",
+          "etkilenen_parca": "Xtronic CVT şanzıman ve şanzıman kontrol ünitesi",
+          "belirtiler": "Kalkışta ve seyirde silkeleme (CVT judder), 70-90 km/s arasında devir dalgalanması, P17F1 arıza kodu, gecikmeli gaz yanıtı",
+          "tahmini_km_araligi": "30.000 - 80.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda neden açıklanmıyor. Şikâyetvar'da bir kullanıcı İzmir'de bir Nissan yetkili servisinde 2015 model aracın yıllık bakımında P17F1 kodunun çıktığını ve servisin bunun şanzıman beyni değişimi gerektiren bir arıza olduğunu söylediğini yazıyor. Bir forum incelemesi 2015 X-Trail'de CVT sorunlarının yaşandığını, şikâyetlerin 2016 ve 2017'de azaldığını belirtiyor; yıllara göre dağılım net değil, şikâyetler 2014-2018 arasından daha yeni modellere uzanıyor.",
+            "teshis": "Şikâyetvar'da bir kullanıcı Aralık 2017'de 'CVT Judder' arıza koduyla silkeleme yaşadığını yazıyor; başka bir kullanıcı 70-90 km/s hızda ya da belirli devir aralıklarında devir dalgalanması olduğunu ve bunun internette kronik arıza olarak bilindiğini söylüyor. DonanımHaber'de bir kullanıcı çalıştırdıktan sonra 20-25 saniye gecikmeli gaz aldığını yazıyor; yanıtlar bunun CVT'den mi, turbo hortumu ya da MAF sensöründen mi kaynaklandığını netleştirmiyor, biri '%90 CVT problemi, kronik' diyor.",
+            "cozum": "Şikâyetvar'da bir kullanıcı Ocak 2018'de 49.000 km'de şanzımanın garanti kapsamında yenisiyle değiştirildiğini yazıyor. Bazı kullanıcılar servislerin 'parçada problem var, böyle kullanılmalı' dediğinden şikâyet ediyor.",
+            "maliyet": "Şikâyetvar'da yetkili serviste komple şanzıman değişimi için yaklaşık 480.000 TL ödenmesi gerektiği yazılıyor; başka bir kullanıcıya 365 bin TL fiyat verildiği anlatılıyor (kayıt tarihleri belirsiz)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/x-trail/ariza",
+            "https://www.sikayetvar.com/nissan/sanziman/xtrail",
+            "https://forum.donanimhaber.com/2017-makyajli-nissan-x-trail-1-6-dci-x-tronic-mi-2019-hyundai-tucson-mu--150930512",
+            "https://forum.donanimhaber.com/nissan-x-trail-gec-gaz-yeme--153117879"
           ]
         }
       ]
@@ -3452,6 +3716,50 @@
               "bitis": null,
               "durum": "Görülebilir",
               "not": "Bir kaynak kayış malzemesinin yaklaşık 2021'de değiştirildiğini yazıyor ama tüm motorların etkilenmediğini belirtiyor (tek kaynak); 2022 model Corsa'da 34.000 km'de aşınma bildiren sahip var."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Grandland X / Grandland (2017-)",
+      "motor": "1.5 BlueHDi (DV5)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Eksantrik zinciri (7 mm) sesi ve kopması",
+          "etkilenen_parca": "Eksantrik mili zinciri (7 mm), gergi ve üst kapak",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi, seyir halinde zincir kopması ve motor arızası",
+          "tahmini_km_araligi": "20.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar'da bir kullanıcı zincirin 7 mm olması nedeniyle PSA grubunun dünya çapında geri çağırma yaptığını iddia ediyor (tek kullanıcı, doğrulanmadı); başka bir şikâyet Stellantis'in dv5 kodlu motorlardaki eksantrik zinciri için 'gönüllü geri çağırma' yaptığını ve SMS gönderdiğini anlatıyor. DonanımHaber'de bir kullanıcı 2023 sonrası üretimlerde daha kalın zincir kullanıldığını, eski araçlar için geri çağırma olmadığını yazıyor; başlık PSA 1.5 dizellerini marka ayırmadan ele alıyor. Kilometre aralığı aynı motoru kullanan Peugeot/Citroën kaydındaki kaynaklardan alındı, Opel'e özgü kilometre verisi yok.",
+            "teshis": "Şikâyetvar'da 2021 model 1.5 dizel Grandland X sahibi Opel'den 12 Kasım 2025'te kam mili zinciri değişimi için geri çağırma SMS'i geldiğini yazıyor; bir kullanıcı zincirin seyir halindeyken koptuğunu bildiriyor.",
+            "cozum": "Birçok kullanıcı yetkili servislerin zinciri dinleyip ses yoksa yalnızca yağ ve filtre değişimi yaptığını, geri çağırmanın uygulanmadığını yazıyor; SMS'e rağmen değişim yapılmadığını anlatan şikâyetler var. Geri çağırmanın kapsamı resmî kaynaklarla doğrulanamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/stellantis-geri-cagirma-smsine-ragmen-zincir-degisimi-yapilmadi",
+            "https://www.sikayetvar.com/opel/geri-cagirma-iddiasi-sonrasi-ucretli-servis-ve-guven-ihlali",
+            "https://www.sikayetvar.com/opel/grandland-x/dizel",
+            "https://forum.donanimhaber.com/psa-1-5-dizel-motorlarda-eksantrik-zinciri-problemi--160411525",
+            "https://andcetin.com/15-bluehdi-ecoblue-tdci-zincir-sorunu-59/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2021,
+              "bitis": 2022,
+              "durum": "Görülebilir",
+              "not": "Şikâyetvar'da 2021 model Grandland X için zincir değişimi geri çağırma SMS'i ve zincir kopması bildirimleri var; 2019-2020 için kaynakta ayrı bilgi yok."
+            },
+            {
+              "baslangic": 2023,
+              "bitis": null,
+              "durum": "Seyrek",
+              "not": "DonanımHaber'de bir kullanıcı 2023 sonrası üretimlerde daha kalın zincir kullanıldığını yazıyor (PSA 1.5 dizel için genel bilgi; doğrulanmadı)."
             }
           ]
         }
@@ -4823,6 +5131,34 @@
               "durum": "Görülebilir",
               "not": "2023 ve 2025 model araçlarda da yatak sarması şikâyeti var."
             }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Caddy (2K, 2010-2015)",
+      "motor": "1.6 TDI (EA189 CAYC)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Enjektör arızası",
+          "etkilenen_parca": "Common-rail enjektörleri (piezo)",
+          "belirtiler": "Soğukta ilk çalıştırmada rölanti dalgalanması, şakırdama, yakıt tüketiminde artış, beyaz duman",
+          "tahmini_km_araligi": "90.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da bir Caddy sahibi enjektör arızasının kronik olduğunu ve 90.000-100.000 km arasında Caddy araçlarının bu arızayı verdiği bilgisini aldığını yazıyor; başka bir kullanıcı sorunun Volkswagen 1.6 TDI araçlarında kronik olduğunu belirtiyor. DonanımHaber başlıkları Caddy'ye özgü değil, 1.6 TDI'yı (Passat dahil) genel ele alıyor; bir yazar CAYC kodlu 1.6 TDI/Euro 5 motorların enjektörlerinin Siemens değil Continental VDO piezo tipte olduğunu yazıyor.",
+            "teshis": "Forumlarda şakırdama sesi, soğukta ilk çalıştırmada rölanti dalgalanması, yakıt tüketiminde artış ve beyaz duman anlatılıyor; bir yazar arızanın bilgisayarda görünmediğini, sesin zamanla artıp motora zarar verebileceğini yazıyor.",
+            "cozum": "Yazılım güncellemesi ve enjektör adaptasyonu gibi öneriler var ancak tartışmalı, kesin çözüm değil."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/volkswagen-caddy-16-tdi-comfortline-2012-kronik-arizasi",
+            "https://forum.donanimhaber.com/1-6-tdi-enjektor-arizasi-yardim--109574648",
+            "https://forum.donanimhaber.com/1-6-tdi-passat-enjektorleri-kronik-sorunlu--99139696"
           ]
         }
       ]
