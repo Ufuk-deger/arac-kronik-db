@@ -15,11 +15,23 @@
           "belirtiler": "Vites geçişlerinde sorun ve sarsıntı, düşük hızda kavrama titremesi, şanzıman hatası; şanzıman yağı bakımının ihmali sorunları öne çekiyor",
           "tahmini_km_araligi": "60.000 - 130.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı, 2008'de çıkan DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu belirtiyor. VW Yeni Zelanda, Ekim 2008-Kasım 2014 arası üretilen DQ200'lü araçlar için hidrolik basınç kaybına karşı mekatronik incelemesi öngören bir kampanya (35E5) yayımlamış. Otopark'ta bir kullanıcı yanlış şanzıman yağını da neden olarak sayıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür. Sonuca göre kavrama seti (baskı balata, disk, gerekirse volan) ve/veya mekatronik ünite yenilenir ya da onarılır; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Şikâyetvar'daki DSG şikâyetlerinde garanti dışı araçlarda bayiden 'iyi niyet' katkısı istendiği, bazı servislerin ise kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek öneriliyor.",
+            "maliyet": "Fiyatlar tarihe ve servise göre çok değişiyor. And Mehmet Çetin kuru kavramanın ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebileceğini, bunun yetkili serviste 60-80 bin, sanayide ~50 bin TL olduğunu yazıyor (yazı tarihli, güncel değil). DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı), kavrama ve mekatronik için ~30 bin TL, bir Golf'te şanzıman için 43.000 TL bildirilmiş; Şikâyetvar'da eski (2014-2016) araçlar için 9-13 bin TL, son yıllarda 40-60 bin TL ve üzeri rakamlar var. Farklı yıllara ait, doğrudan karşılaştırılamaz; güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo)."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/2011-audi-a3-1-4tfsi-sanziman-hakkinda--139435470",
             "https://www.araclo.com/vehicles/audi-a3-sedan-1.4-tfsi/degerlendirmeler/kullanici-sorunlari",
             "https://www.sikayetvar.com/audi/a3/sanziman",
-            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
           ]
         }
       ]
@@ -51,11 +63,23 @@
           "belirtiler": "Vites geçişlerinde sorun ve sarsıntı, düşük hızda kavrama titremesi, şanzıman hatası; şanzıman yağı bakımının ihmali sorunları öne çekiyor",
           "tahmini_km_araligi": "60.000 - 130.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı, 2008'de çıkan DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu belirtiyor. VW Yeni Zelanda, Ekim 2008-Kasım 2014 arası üretilen DQ200'lü araçlar için hidrolik basınç kaybına karşı mekatronik incelemesi öngören bir kampanya (35E5) yayımlamış. Otopark'ta bir kullanıcı yanlış şanzıman yağını da neden olarak sayıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür. Sonuca göre kavrama seti (baskı balata, disk, gerekirse volan) ve/veya mekatronik ünite yenilenir ya da onarılır; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Şikâyetvar'daki DSG şikâyetlerinde garanti dışı araçlarda bayiden 'iyi niyet' katkısı istendiği, bazı servislerin ise kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek öneriliyor.",
+            "maliyet": "Fiyatlar tarihe ve servise göre çok değişiyor. And Mehmet Çetin kuru kavramanın ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebileceğini, bunun yetkili serviste 60-80 bin, sanayide ~50 bin TL olduğunu yazıyor (yazı tarihli, güncel değil). DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı), kavrama ve mekatronik için ~30 bin TL, bir Golf'te şanzıman için 43.000 TL bildirilmiş; Şikâyetvar'da eski (2014-2016) araçlar için 9-13 bin TL, son yıllarda 40-60 bin TL ve üzeri rakamlar var. Farklı yıllara ait, doğrudan karşılaştırılamaz; güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo). And Mehmet Çetin, 1.6 TDI ile 1.0-1.2 TSI motorlu VAG araçlarında DSG'nin 1.4 TSI'ya göre daha uzun dayandığını gözlemlediğini yazıyor (kişisel gözlem, istatistik değil)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/audi/a3/sanziman",
             "https://www.araclo.com/blog/audi-a3-1.6-tdi-ikinci-el-alim-rehberi-sorunlar-kullanici-yorumlari-ve-bakim-maliyetleri-2026",
             "https://forum.donanimhaber.com/audi-a3-sedan-1-6-tdi-2013-model--143691276",
-            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
           ]
         }
       ]
@@ -698,11 +722,22 @@
           "belirtiler": "Zor çalışma, egzozdan siyah veya beyaz duman, rölantide titreme, yakıt tüketiminde artış",
           "tahmini_km_araligi": "60.000 - 180.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Common-rail enjektörleri yakıt kalitesine duyarlı kabul ediliyor: Araclo ve Arabam.com kötü yakıtın ya da suyla dolu mazot filtresinin enjektörleri bozabileceğini yazıyor; DonanımHaber'de enjektör dibinden kaçağın genelde mazot kaynaklı olduğu ve bakır pul değişiminin yaygın çözüm olduğu belirtiliyor. Şikâyetvar'da bir Duster sahibinin dört enjektörünün aynı anda arızalanması Renault tarafından 'yakıt kaynaklı' sayılıp garanti dışı bırakılmış.",
+            "teshis": "Forumlarda sabah zor çalışma, rölantide titreme, siyah ya da gri duman, güç kaybı, yakıt tüketiminde artış ve enjektör şakırtısı sayılıyor; gaza yüklenince arıza/motor stop ışıklarının yanıp sönmesi ve 'enjektörü/enjeksiyonu kontrol ettirin' uyarısı bildiriliyor (DonanımHaber, Şikâyetvar). Enjektör dibinde mazot kaçağı izi bakır pul sorununa işaret ediyor; kaçak uzun sürerse çevrede kuruyup enjektörün sökülmesini zorlaştırabiliyor.",
+            "cozum": "Bakır pul kaçağında pulların değiştirilmesi yaygın çözüm olarak anlatılıyor; bir kullanıcı pulları değiştirdikten sonra Bosch serviste ayar ve C.C. işlemiyle sorunun kapandığını yazıyor. Enjektörler sökülüp ultrasonik cihazda temizlenebiliyor, ancak bir kaynak temizliğin her arızayı çözmediğini, bazı vakalarda onarım ya da değişim gerektiğini belirtiyor. Bir kullanıcı enjektör ringlerinin yaklaşık 50 bin km'de değişmesi gerektiğini yazıyor (doğrulanmamış).",
+            "maliyet": "Rakamlar dağınık ve tarihli. DonanımHaber'de enjektör temizliği için 200-1.500 TL (tarihler belirsiz; bir Clio 4 sahibi 265 bin km'de temizlik ve bakım için 1.200 TL), eski bir mesajda enjektör setinin 2.000 TL altında olmadığı yazılı. Şikâyetvar'daki yetkili servis vakalarında parça ve işçilik kabaca 20.000-50.000 TL (bir Megane için iyi niyet indirimiyle 21.000 TL; bir Megane 4 için garanti reddi sonrası ~49.000 TL; motor tipi karışık). Güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Yakıtı güvenilir istasyondan almak, mazot filtresini ve içindeki suyu düzenli kontrol ettirmek (Arabam.com, Araclo); enjektör dibinde kaçak izi görülünce bakır pulu geciktirmeden değiştirmek (DonanımHaber: uzun süren kaçak sökümü zorlaştırıyor); garanti dönemindeyse arızayı yazılı kayda geçirtmek (Şikâyetvar'da arızaların yakıta bağlanıp garanti dışı bırakıldığı vakalar var)."
+          },
           "kaynaklar": [
             "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php",
             "https://www.largus.fr/actualite-automobile/fiabilite-dacia-duster-problemes-de-fonctionnement-du-moteur-15-dci-6278389.html",
             "https://www.araclo.com/vehicles/dacia-duster/duster1-makyajli/1-5-dci/kronik-sorunlar",
-            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/"
+            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/",
+            "https://forum.donanimhaber.com/renault-1-5-dci-motor-enjektor-arizasi-resimli--58682772-2",
+            "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
+            "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/",
+            "https://www.sikayetvar.com/dacia/dacia-duster-enjektor-arizasi-1"
           ]
         },
         {
@@ -734,10 +769,21 @@
           "belirtiler": "\"Enjeksiyonu kontrol ettirin\" uyarısı, düzensiz çalışma, güç kaybı; enjektör ve basınç borusu değişimi pahalı bulunuyor",
           "tahmini_km_araligi": "50.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Common-rail enjektörleri yakıt kalitesine duyarlı kabul ediliyor: Araclo ve Arabam.com kötü yakıtın ya da suyla dolu mazot filtresinin enjektörleri bozabileceğini yazıyor; DonanımHaber'de enjektör dibinden kaçağın genelde mazot kaynaklı olduğu ve bakır pul değişiminin yaygın çözüm olduğu belirtiliyor. Şikâyetvar'da bir Duster sahibinin dört enjektörünün aynı anda arızalanması Renault tarafından 'yakıt kaynaklı' sayılıp garanti dışı bırakılmış.",
+            "teshis": "2018 model bir Duster sahibi Şikâyetvar'da rampada gaza yüklenince 'enjeksiyonu kontrol ettirin' uyarısı almaya başladığını ve yüksek basınç borusu değişim ücretinden şikâyetçi olduğunu yazıyor. Genel belirtiler: güç kaybı, düzensiz çalışma, siyah/gri duman, yakıt tüketiminde artış, enjektör şakırtısı (DonanımHaber). Enjektör dibindeki mazot kaçağı izi bakır pul sorununa işaret ediyor.",
+            "cozum": "Bakır pul kaçağında pulların değiştirilmesi yaygın çözüm olarak anlatılıyor; bir kullanıcı pulları değiştirdikten sonra Bosch serviste ayar ve C.C. işlemiyle sorunun kapandığını yazıyor. Enjektörler sökülüp ultrasonik cihazda temizlenebiliyor, ancak bir kaynak temizliğin her arızayı çözmediğini, bazı vakalarda onarım ya da değişim gerektiğini belirtiyor. Bir kullanıcı enjektör ringlerinin yaklaşık 50 bin km'de değişmesi gerektiğini yazıyor (doğrulanmamış).",
+            "maliyet": "Rakamlar dağınık ve tarihli. DonanımHaber'de enjektör temizliği için 200-1.500 TL (tarihler belirsiz; bir Clio 4 sahibi 265 bin km'de temizlik ve bakım için 1.200 TL), eski bir mesajda enjektör setinin 2.000 TL altında olmadığı yazılı. Şikâyetvar'daki yetkili servis vakalarında parça ve işçilik kabaca 20.000-50.000 TL (bir Megane için iyi niyet indirimiyle 21.000 TL; bir Megane 4 için garanti reddi sonrası ~49.000 TL; motor tipi karışık). Güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Yakıtı güvenilir istasyondan almak, mazot filtresini ve içindeki suyu düzenli kontrol ettirmek (Arabam.com, Araclo); enjektör dibinde kaçak izi görülünce bakır pulu geciktirmeden değiştirmek (DonanımHaber: uzun süren kaçak sökümü zorlaştırıyor); garanti dönemindeyse arızayı yazılı kayda geçirtmek (Şikâyetvar'da arızaların yakıta bağlanıp garanti dışı bırakıldığı vakalar var)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/dacia/duster/kronik",
             "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
-            "https://www.araclo.com/vehicles/dacia-duster-1.5-dci/degerlendirmeler/kullanici-sorunlari"
+            "https://www.araclo.com/vehicles/dacia-duster-1.5-dci/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/renault-1-5-dci-motor-enjektor-arizasi-resimli--58682772-2",
+            "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
+            "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/",
+            "https://www.sikayetvar.com/dacia/dacia-duster-enjektor-arizasi-1"
           ]
         }
       ]
@@ -757,11 +803,24 @@
           "belirtiler": "Düşük hızda titreme, vites geçişlerinde sarsıntı ve ses, kalkışta silkeleme veya stop etme; yazılım güncellemesi kısmen çözüyor, mekanik aşınma ilerleyen kilometrede sürebiliyor",
           "tahmini_km_araligi": "30.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "EDC, Renault-Dacia'nın kuru kavramalı çift kavramalı şanzımanıdır. Forum yorumlarına göre titreme kavrama aşınmasından, yazılım kalibrasyonundan ya da mekatronik arızasından kaynaklanabiliyor; düşük şanzıman yağı seviyesi de katkı yapabiliyor. And Mehmet Çetin kuru kavramalı EDC ve Powershift şanzımanlarının, ıslak kavramalı DSG'ye göre daha çok eleştiri aldığını yazıyor.",
+            "teshis": "Kalkışta silkeleme, düşük hızda titreme, vites geçişlerinde sarsıntı ya da ses (ör. 3. vitesten 4.'ye 'vuup') ve 'EDC kontrol' / 'vites kutusunu kontrol ettiriniz' uyarısı bildiriliyor (Şikâyetvar, DonanımHaber). Önce hata kodları okutulmalı; bir DonanımHaber örneğinde akü değişiminden sonra arıza kodları silinip kavrama kalibrasyonu gerekmiş.",
+            "cozum": "Forumlarda tipik sıra: yazılım güncellemesi ve kalibrasyon, sonra kavrama değişimi. Şikâyetvar'da bir Duster 1.3 TCe sahibi 37.000 km'de iki kez debriyaj seti değiştirildiğini, bir başkası servisin 'şanzıman beynini güncelledik' dediğini ama sorunun sürdüğünü, 2023 model bir sahibi garanti içinde kapsamlı onarıma rağmen ses ve titreşimin giderilmediğini yazıyor. DonanımHaber'de bir kullanıcı 2. vitese geçiş ayarının yazılımla değiştirilip yarım kavrama ısınmasının azaltılabileceğini öneriyor (resmî çözüm değil, garanti ve emisyon açısından risk taşıyabilir).",
+            "maliyet": "Şikâyetvar'da bir Kadjar sahibi kavrama değişimi için 2021 Ağustos'ta 17 bin TL, 2022'de 30 bin TL söylendiğini; bir Megane sahibi 35 bin TL'lik debriyaj seti değişimini; bir Clio 4 sahibi baskı balata için 40 bin TL teklifi bildiriyor. Farklı yıllara ait tek tek beyanlar; güncel teklif için yetkili servisten yazılı fiyat alın.",
+            "onlem": "Servis kayıtlarında yazılım güncellemelerini ve kavrama değişimlerini sormak; garanti döneminde şikâyeti yazılı kayda geçirtmek (Şikâyetvar'da tekrarlayan başvuruyla ve hakem heyetiyle sonuç alınan vakalar var). Araclo, EDC'li araçta test sürüşünde vites geçişlerine ve düşük hızdaki davranışa dikkat edilmesini öneriyor."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/dacia/duster/otomatik",
             "https://www.sikayetvar.com/dacia/duster/vites",
             "https://www.araclo.com/blog/dacia-duster-1.3-tce-alinir-mi-sorunlar-kullanici-yorumlari-ve-ikinci-el-rehberi-2026",
-            "https://eksisozluk.com/renault-araclarda-kronik-edc-sorunu--6637087"
+            "https://eksisozluk.com/renault-araclarda-kronik-edc-sorunu--6637087",
+            "https://www.sikayetvar.com/renault/edc/megane",
+            "https://www.sikayetvar.com/edc/titreme",
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/",
+            "https://forum.donanimhaber.com/edc-yazilim-gunceleme--118953849",
+            "https://www.sikayetvar.com/dacia/dacia-duster-2022-13-tce-sanziman-ve-debriyaj-sorunu",
+            "https://forum.donanimhaber.com/edc-sanziman-hakkinda--152099929"
           ]
         }
       ]
@@ -781,10 +840,20 @@
           "belirtiler": "Gazdan çekilince cızırtı veya zırıltı sesi, turbo değişiminden sonra sesin geri dönmesi, güç dalgalanması",
           "tahmini_km_araligi": "20.000 - 80.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Gazdan çekilince turbo wastegate bölgesinden gelen cızırtı/zırıltı: Araclo bunu wastegate ayarsızlığına bağlıyor ve servis ayarıyla giderilebildiğini ama tekrarlayabildiğini yazıyor; And Mehmet Çetin Renault 1.0 TCe'nin en bilinen kroniklerinden biri sayıyor. Şikâyetvar'da bir kullanıcı yetkili servisin sorunu wastegate pimine bağladığını ve fabrikadan çözüm beklendiğini aktarıyor; servisler çoğu zaman 'risk teşkil etmez' diyor. Şikâyetlerin çoğu Clio 5 1.0 TCe'ye ait (aynı motor ailesi).",
+            "teshis": "Gazdan çekerken (ör. 1-2. vitesteki 2.000'den 1.500 devire inişte) metalik çıtırtı ya da cızırtı; bir kullanıcı sesin motora zarar vermediğini yazıyor. Her ses wastegate değildir: bir Şikâyetvar yorumunda servis motor kulağında (takoz) sorun olduğunu söylemiş. Sesin hangi koşulda geldiğini kayda almak servise anlatmayı kolaylaştırıyor.",
+            "cozum": "Denenenler: yazılım güncellemesi (bir kullanıcıda ses azalmış ama 3-4 ay sonra dönmüş), turbo değişimi (garantide turbosu değişen bir Clio 5 sahibinde ses geri gelmiş ve servis 'normal' demiş), dışarıda turbocuda wastegate piminin kenarına conta taktırma (bir kullanıcıda ses kesilmiş, ~500 TL; tek deneyim). Resmî bir kalıcı çözüm bulunamadı.",
+            "maliyet": "Garantide turbo değişimi ücretsiz; dışarıda wastegate pimine conta işlemi için bir kullanıcı ~500 TL yazmış (yıl belirtilmemiş, güncel değil). Mevcut kayıtta bazı araçlarda turbo değişimi için uzun parça bekleme süresi bildiriliyor.",
+            "onlem": "Garantide servis 'normal' dediğinde yazılı kayıt ve tekrarlayan başvuru tutmak; Şikâyetvar'daki birçok vakada sorun aylarca çözülmemiş. Soğuk çalıştırma ve gazdan çekme seslerini kaydedip servise göstermek."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/dacia/dacia-duster-10-turbo-eco-g-turbo-westgate-arizasi",
             "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/",
-            "https://www.araclo.com/blog/dacia-sandero-sandero-stepway-satin-alma-rehberi-bakim-kronik-sorunlar-ve-fiyatlar-2026"
+            "https://www.araclo.com/blog/dacia-sandero-sandero-stepway-satin-alma-rehberi-bakim-kronik-sorunlar-ve-fiyatlar-2026",
+            "https://www.sikayetvar.com/renault/clio/cizirti",
+            "https://www.sikayetvar.com/renault/clio/turbo",
+            "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053"
           ]
         }
       ]
@@ -804,11 +873,21 @@
           "belirtiler": "Gazdan çekilince cızırtı veya tel sesi; servis ayarı sesi geçici olarak gideriyor ama tekrarlayabiliyor, bazı araçlarda turbo değişimi ve uzun parça bekleme süresi",
           "tahmini_km_araligi": "20.000 - 80.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Gazdan çekilince turbo wastegate bölgesinden gelen cızırtı/zırıltı: Araclo bunu wastegate ayarsızlığına bağlıyor ve servis ayarıyla giderilebildiğini ama tekrarlayabildiğini yazıyor; And Mehmet Çetin Renault 1.0 TCe'nin en bilinen kroniklerinden biri sayıyor. Şikâyetvar'da bir kullanıcı yetkili servisin sorunu wastegate pimine bağladığını ve fabrikadan çözüm beklendiğini aktarıyor; servisler çoğu zaman 'risk teşkil etmez' diyor. Şikâyetlerin çoğu Clio 5 1.0 TCe'ye ait (aynı motor ailesi).",
+            "teshis": "Gazdan çekerken (ör. 1-2. vitesteki 2.000'den 1.500 devire inişte) metalik çıtırtı ya da cızırtı; bir kullanıcı sesin motora zarar vermediğini yazıyor. Her ses wastegate değildir: bir Şikâyetvar yorumunda servis motor kulağında (takoz) sorun olduğunu söylemiş. Sesin hangi koşulda geldiğini kayda almak servise anlatmayı kolaylaştırıyor.",
+            "cozum": "Denenenler: yazılım güncellemesi (bir kullanıcıda ses azalmış ama 3-4 ay sonra dönmüş), turbo değişimi (garantide turbosu değişen bir Clio 5 sahibinde ses geri gelmiş ve servis 'normal' demiş), dışarıda turbocuda wastegate piminin kenarına conta taktırma (bir kullanıcıda ses kesilmiş, ~500 TL; tek deneyim). Resmî bir kalıcı çözüm bulunamadı.",
+            "maliyet": "Garantide turbo değişimi ücretsiz; dışarıda wastegate pimine conta işlemi için bir kullanıcı ~500 TL yazmış (yıl belirtilmemiş, güncel değil). Mevcut kayıtta bazı araçlarda turbo değişimi için uzun parça bekleme süresi bildiriliyor.",
+            "onlem": "Garantide servis 'normal' dediğinde yazılı kayıt ve tekrarlayan başvuru tutmak; Şikâyetvar'daki birçok vakada sorun aylarca çözülmemiş. Soğuk çalıştırma ve gazdan çekme seslerini kaydedip servise göstermek."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/dacia-sandero-sandero-stepway-satin-alma-rehberi-bakim-kronik-sorunlar-ve-fiyatlar-2026",
             "https://www.sikayetvar.com/dacia/sandero/turbo",
             "https://www.sikayetvar.com/dacia/sandero/motor",
-            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/",
+            "https://www.sikayetvar.com/renault/clio/cizirti",
+            "https://www.sikayetvar.com/renault/clio/turbo",
+            "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053"
           ]
         }
       ]
@@ -828,10 +907,21 @@
           "belirtiler": "Zor çalışma, düzensiz rölanti, güç kaybı; kalitesiz yakıtta enjektör tıkanması ve yakıt pompası arızası daha erken görülüyor",
           "tahmini_km_araligi": "80.000 - 180.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Common-rail enjektörleri yakıt kalitesine duyarlı kabul ediliyor (Araclo, Arabam.com); DonanımHaber'de enjektör dibinden kaçağın genelde mazot kaynaklı olduğu yazılı. Şikâyetvar'da bir Sandero Stepway sahibi dizel enjektör arızası yüzünden aracın çalışmadığını, bir başkası yakıt istasyonuna bağlanan bir sorunun ardından yüksek masraf çıktığını anlatıyor.",
+            "teshis": "Forumlarda sabah zor çalışma, rölantide titreme, siyah ya da gri duman, güç kaybı, yakıt tüketiminde artış ve enjektör şakırtısı sayılıyor; gaza yüklenince arıza/motor stop ışıklarının yanıp sönmesi ve 'enjektörü/enjeksiyonu kontrol ettirin' uyarısı bildiriliyor (DonanımHaber, Şikâyetvar). Enjektör dibinde mazot kaçağı izi bakır pul sorununa işaret ediyor; kaçak uzun sürerse çevrede kuruyup enjektörün sökülmesini zorlaştırabiliyor.",
+            "cozum": "Bakır pul kaçağında pulların değiştirilmesi yaygın çözüm olarak anlatılıyor; bir kullanıcı pulları değiştirdikten sonra Bosch serviste ayar ve C.C. işlemiyle sorunun kapandığını yazıyor. Enjektörler sökülüp ultrasonik cihazda temizlenebiliyor, ancak bir kaynak temizliğin her arızayı çözmediğini, bazı vakalarda onarım ya da değişim gerektiğini belirtiyor. Bir kullanıcı enjektör ringlerinin yaklaşık 50 bin km'de değişmesi gerektiğini yazıyor (doğrulanmamış).",
+            "maliyet": "Rakamlar dağınık ve tarihli. DonanımHaber'de enjektör temizliği için 200-1.500 TL (tarihler belirsiz; bir Clio 4 sahibi 265 bin km'de temizlik ve bakım için 1.200 TL), eski bir mesajda enjektör setinin 2.000 TL altında olmadığı yazılı. Şikâyetvar'daki yetkili servis vakalarında parça ve işçilik kabaca 20.000-50.000 TL (bir Megane için iyi niyet indirimiyle 21.000 TL; bir Megane 4 için garanti reddi sonrası ~49.000 TL; motor tipi karışık). Güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Yakıtı güvenilir istasyondan almak, mazot filtresini ve içindeki suyu düzenli kontrol ettirmek (Arabam.com, Araclo); enjektör dibinde kaçak izi görülünce bakır pulu geciktirmeden değiştirmek (DonanımHaber: uzun süren kaçak sökümü zorlaştırıyor); garanti dönemindeyse arızayı yazılı kayda geçirtmek (Şikâyetvar'da arızaların yakıta bağlanıp garanti dışı bırakıldığı vakalar var)."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/dacia-sandero-sandero-stepway-satin-alma-rehberi-bakim-kronik-sorunlar-ve-fiyatlar-2026",
             "https://forum.donanimhaber.com/2012-1-5-dci-enjeksiyon-arizasi--118337334",
-            "https://forum.donanimhaber.com/dacia-logan-yakit-sistemi-sorunlari-ve-arac-degisimi--103379150"
+            "https://forum.donanimhaber.com/dacia-logan-yakit-sistemi-sorunlari-ve-arac-degisimi--103379150",
+            "https://forum.donanimhaber.com/renault-1-5-dci-motor-enjektor-arizasi-resimli--58682772-2",
+            "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
+            "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/",
+            "https://www.sikayetvar.com/renault/clio/enjeksiyon"
           ]
         }
       ]
@@ -851,10 +941,20 @@
           "belirtiler": "Gazdan çekilince cızırtı veya zırıltı sesi, turbo değişiminden sonra sesin geri dönmesi, güç dalgalanması",
           "tahmini_km_araligi": "20.000 - 80.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Gazdan çekilince turbo wastegate bölgesinden gelen cızırtı/zırıltı: Araclo bunu wastegate ayarsızlığına bağlıyor ve servis ayarıyla giderilebildiğini ama tekrarlayabildiğini yazıyor; And Mehmet Çetin Renault 1.0 TCe'nin en bilinen kroniklerinden biri sayıyor. Şikâyetvar'da bir kullanıcı yetkili servisin sorunu wastegate pimine bağladığını ve fabrikadan çözüm beklendiğini aktarıyor; servisler çoğu zaman 'risk teşkil etmez' diyor. Şikâyetlerin çoğu Clio 5 1.0 TCe'ye ait (aynı motor ailesi).",
+            "teshis": "Gazdan çekerken (ör. 1-2. vitesteki 2.000'den 1.500 devire inişte) metalik çıtırtı ya da cızırtı; bir kullanıcı sesin motora zarar vermediğini yazıyor. Her ses wastegate değildir: bir Şikâyetvar yorumunda servis motor kulağında (takoz) sorun olduğunu söylemiş. Sesin hangi koşulda geldiğini kayda almak servise anlatmayı kolaylaştırıyor.",
+            "cozum": "Denenenler: yazılım güncellemesi (bir kullanıcıda ses azalmış ama 3-4 ay sonra dönmüş), turbo değişimi (garantide turbosu değişen bir Clio 5 sahibinde ses geri gelmiş ve servis 'normal' demiş), dışarıda turbocuda wastegate piminin kenarına conta taktırma (bir kullanıcıda ses kesilmiş, ~500 TL; tek deneyim). Resmî bir kalıcı çözüm bulunamadı.",
+            "maliyet": "Garantide turbo değişimi ücretsiz; dışarıda wastegate pimine conta işlemi için bir kullanıcı ~500 TL yazmış (yıl belirtilmemiş, güncel değil). Mevcut kayıtta bazı araçlarda turbo değişimi için uzun parça bekleme süresi bildiriliyor.",
+            "onlem": "Garantide servis 'normal' dediğinde yazılı kayıt ve tekrarlayan başvuru tutmak; Şikâyetvar'daki birçok vakada sorun aylarca çözülmemiş. Soğuk çalıştırma ve gazdan çekme seslerini kaydedip servise göstermek."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/dacia-sandero-sandero-stepway-satin-alma-rehberi-bakim-kronik-sorunlar-ve-fiyatlar-2026",
             "https://www.sikayetvar.com/dacia/sandero/stepway",
-            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/",
+            "https://www.sikayetvar.com/renault/clio/cizirti",
+            "https://www.sikayetvar.com/renault/clio/turbo",
+            "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053"
           ]
         }
       ]
@@ -2032,10 +2132,21 @@
           "belirtiler": "Kalkışta silkelenme ve ani öne atılma, çekiş kaybı, gaza geç tepki, vites sorunları",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net bir neden verilmiyor; vakalar şanzımandan gelen ses, sarsıntı ve çekiş kaybı üzerine. Otopark/DonanımHaber'de bir Qashqai kullanıcısı akü değişiminden sonra şanzımandaki vuruntunun ciddi azaldığını yazıyor (elektriksel ya da yazılımsal neden olasılığı, tek deneyim); bir Juke sahibi şanzımandan gelen sesle gittiği serviste şanzımanın komple değişmesi gerektiğini öğrenmiş.",
+            "teshis": "Kalkışta silkelenme ve ani öne atılma, gaza geç tepki, gazı bırakınca vuruntu, hızlanırken uğultu ya da ıslık, devir yükselirken hızın artmaması. Şikâyetlerin bir kısmı Qashqai'nin yeni (2020 sonrası) otomatik modellerine ait ve her zaman CVT olmayabiliyor; şanzıman tipini şasi numarasından doğrulayın.",
+            "cozum": "Forumlarda ilk adımlar CVT yağının değiştirilmesi ve yazılım/kavrama kontrolü. Bir Qashqai kullanıcısı 24.000 km'de kalkışta titreme yaşadığını, yağ değişiminin çözmediğini, servisin kavrama değişimi gerektiğini söylediğini yazıyor. Ağır vakalarda şanzıman revizyonu ya da komple değişim önerilmiş.",
+            "maliyet": "Şikâyetvar'da (2024 tarihli) 2012 model bir Juke için revizyon 130 bin TL, komple değişim 300 bin TL; 2016 model bir Juke için 200.000 TL civarı rakamlar istendiği yazılı. Tek tek kullanıcı beyanları; güncel teklif için yetkili servisten yazılı fiyat alın.",
+            "onlem": "CVT yağı konusunda görüşler ayrışıyor: bir kullanıcı hiçbir sıvının ömürlük olmadığını söylüyor, bir diğeri CVT'lerin yağda narin olduğunu ve genelde 50-60 bin km'de değişim önerildiğini yazıyor; yağın şanzımana uygun spesifikasyonda olması ve garanti için yetkili serviste yapılması öneriliyor."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/nissan/juke/kronik",
             "https://www.sikayetvar.com/nissan/juke/juke-otomatik",
-            "https://forum.donanimhaber.com/nissan-juke-1-6-cvt-surdum-boyle-sanziman-olmaz--118334136"
+            "https://forum.donanimhaber.com/nissan-juke-1-6-cvt-surdum-boyle-sanziman-olmaz--118334136",
+            "https://forum.donanimhaber.com/qashqai-otomatik-vites-tecrubeleriniz-yasanilan-sorunlar-ve-cozumleri--147733665",
+            "https://otopark.com/forum/threads/cvt-sanziman-yagi-degistirilir-mi-kac-kilometrede-degistirilir.15901/",
+            "https://otopark.com/forum/threads/cvt-sanzimanda-gazi-birakinca-vuruntu-sorunu.15822/",
+            "https://www.sikayetvar.com/nissan/juke/sanziman"
           ]
         }
       ]
@@ -2055,10 +2166,19 @@
           "belirtiler": "Bakımlar arasında yağ eksilmesi, zincir sesi, yağ seviyesinin neredeyse sıfıra inmesi; forumlarda Nissan'ın etkilenen motorları ücretsiz değiştirdiği yazılıyor (doğrulanamadı). Aynı motor Qashqai'de de kullanıldığı için kaynakların bir kısmı Qashqai şikâyetleridir",
           "tahmini_km_araligi": "40.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yağ tüketimi piston segmanlarının aşınmasına bağlanıyor. DonanımHaber'de sorunun 2015-2018 arasında üretilen Juke, Micra, Qashqai ve X-Trail'de görüldüğü yazılı; 2016 sonrası ya da 2018 sonrası makyajlı kasada sorunun çözüldüğüne dair iddialar birbiriyle çelişiyor (doğrulanmamış). Bir kullanıcı şasi numarasının Nissan'ın TB em 15/05 numaralı teknik bülteninde yer aldığını belirtiyor.",
+            "teshis": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, buji kirlenmesi. Bülten kapsamındaki araçlarda Nissan'ın kompresyon testi istediği bir kullanıcı tarafından aktarılmış; her serviste yağ tüketimi kaydı tutturmak öneriliyor.",
+            "cozum": "Bazı kullanıcılar garanti kapsamında sıfır motor takıldığını yazıyor; garanti dışı araçlarda yetkili servisin rektifiye ya da sıfır motor önerdiği, 'iyi niyet' kapsamında %50-%50 gibi katkı tekliflerinin geldiği anlatılıyor. Forumlarda garantisi süren araçlar için servis kayıtlarıyla tüketici hakem heyetine/mahkemeye başvuru öneriliyor (hukuki tavsiye değil).",
+            "maliyet": "Net bir TL rakamı verilmiyor; garanti dışında rektifiye ya da sıfır motorun maliyetinin yüksek olduğu bildirilmiş.",
+            "onlem": "Şasi numarasının Nissan teknik bülteni kapsamında olup olmadığını yetkili servisten yazılı sormak, yağ seviyesini düzenli kontrol etmek ve her serviste tüketim kaydı tutturmak. Nissan'ın üretim hatasını kabul etmediği, ücretsiz onarım iddialarının doğrulanamadığı unutulmamalı."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/nissan-1-2-dig-t-motor-davasi--138833932",
             "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
-            "https://otopark.com/forum/threads/1-2-nissan-qashqai-yag-yakma-sorunu.10284/"
+            "https://otopark.com/forum/threads/1-2-nissan-qashqai-yag-yakma-sorunu.10284/",
+            "https://forum.donanimhaber.com/nissan-1-2-dig-t-motorlarda-yag-yakma-kronik-mi--135256536",
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-12-dig-t-motor-problemi"
           ]
         }
       ]
@@ -2078,11 +2198,20 @@
           "belirtiler": "Güç kaybı, ıslık sesi, hortumun patlaması, turbo yağ sızıntısı",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda hortumun neden tekrar tekrar patladığı ya da çıktığı net açıklanmıyor; vakalar tekrar eden arızalar üzerine. Şikâyetvar'da bir kullanıcı hortumun beş kez patladığını ve servisin bunu normal karşıladığını yazıyor; bir başkası ikinci patlamanın garantide 'modifikasyonlu' hortumla ücretsiz değiştirildiğini, üçüncüde ek ücret istendiğini anlatıyor.",
+            "teshis": "Güç kaybı, ıslık sesi, turbo yağ sızıntısı; hortumun patlaması ya da bağlantıdan çıkması. Patlamanın ardından partikül filtresi arızası yaşadığını bildirenler de var.",
+            "cozum": "Hortum değiştirilir. Bir DonanımHaber kullanıcısı Nissan'ın bu sorunla ilgili bir yazılım güncellemesi çıkardığını ve servisin bunun sorunu çözeceğini düşündüğünü aktarıyor, ancak hortumun değişse de kısa sürede yeniden arızalanabileceği görüşünde (doğrulanmamış). Yan sanayide hortumla yapılan değişimler de bildirilmiş.",
+            "maliyet": "Şikâyetvar'daki eski paylaşımlarda yalnızca hortum parçası 1.030 TL, bağımsız serviste hortum ve turbo değişimi 7.500 TL, yan sanayide 750 TL, yetkili serviste yaklaşık 20 bin TL bildirilmiş; rakamların bir kısmı birkaç yıl öncesine ait.",
+            "onlem": "Garanti dönemindeki tekrarları yazılı kayıt altına almak; ikinci patlamada garanti kapsamını sormak (Şikâyetvar'daki vakalar)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/nissan/qashqai/turbo",
             "https://www.sikayetvar.com/nissan/nissan-qashqai-15-dci-kronik-turbo-borusu-sorunu-1",
             "https://www.araclo.com/vehicles/nissan-qashqai-1.5-dci/degerlendirmeler/kullanici-sorunlari",
-            "https://www.araclo.com/blog/nissan-qashqai-1.5-dci-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari"
+            "https://www.araclo.com/blog/nissan-qashqai-1.5-dci-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari",
+            "https://www.sikayetvar.com/nissan/hortum/turbo",
+            "https://forum.donanimhaber.com/1-5-dci-turbo-borusu-yaglanmasi--156460331"
           ]
         }
       ]
@@ -2102,11 +2231,20 @@
           "belirtiler": "Hızlanmada uğultu veya ıslık, kalkışta ve düşük hızda silkeleme, devir yükselirken hızın artmaması",
           "tahmini_km_araligi": "40.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda net bir neden verilmiyor; vakalar şanzımandan gelen ses, sarsıntı ve çekiş kaybı üzerine. Otopark/DonanımHaber'de bir Qashqai kullanıcısı akü değişiminden sonra şanzımandaki vuruntunun ciddi azaldığını yazıyor (elektriksel ya da yazılımsal neden olasılığı, tek deneyim); bir Juke sahibi şanzımandan gelen sesle gittiği serviste şanzımanın komple değişmesi gerektiğini öğrenmiş.",
+            "teshis": "Kalkışta silkelenme ve ani öne atılma, gaza geç tepki, gazı bırakınca vuruntu, hızlanırken uğultu ya da ıslık, devir yükselirken hızın artmaması. Şikâyetlerin bir kısmı Qashqai'nin yeni (2020 sonrası) otomatik modellerine ait ve her zaman CVT olmayabiliyor; şanzıman tipini şasi numarasından doğrulayın.",
+            "cozum": "Forumlarda ilk adımlar CVT yağının değiştirilmesi ve yazılım/kavrama kontrolü. Bir Qashqai kullanıcısı 24.000 km'de kalkışta titreme yaşadığını, yağ değişiminin çözmediğini, servisin kavrama değişimi gerektiğini söylediğini yazıyor. Ağır vakalarda şanzıman revizyonu ya da komple değişim önerilmiş.",
+            "maliyet": "Şikâyetvar'da (2024 tarihli) 2012 model bir Juke için revizyon 130 bin TL, komple değişim 300 bin TL; 2016 model bir Juke için 200.000 TL civarı rakamlar istendiği yazılı. Tek tek kullanıcı beyanları; güncel teklif için yetkili servisten yazılı fiyat alın.",
+            "onlem": "CVT yağı konusunda görüşler ayrışıyor: bir kullanıcı hiçbir sıvının ömürlük olmadığını söylüyor, bir diğeri CVT'lerin yağda narin olduğunu ve genelde 50-60 bin km'de değişim önerildiğini yazıyor; yağın şanzımana uygun spesifikasyonda olması ve garanti için yetkili serviste yapılması öneriliyor."
+          },
           "kaynaklar": [
             "https://www.qashqaiforums.co.uk/viewtopic.php?t=10758",
             "https://www.honestjohn.co.uk/askhj/answer/142834/our-nissan-qashqai-hesitates-and-judders-when-accelerating---is-this-an-issue-with-the-auto-box-",
             "https://www.sikayetvar.com/nissan/qashqai/sanziman",
-            "https://forum.donanimhaber.com/qashqai-otomatik-vites-tecrubeleriniz-yasanilan-sorunlar-ve-cozumleri--147733665"
+            "https://forum.donanimhaber.com/qashqai-otomatik-vites-tecrubeleriniz-yasanilan-sorunlar-ve-cozumleri--147733665",
+            "https://otopark.com/forum/threads/cvt-sanziman-yagi-degistirilir-mi-kac-kilometrede-degistirilir.15901/",
+            "https://otopark.com/forum/threads/cvt-sanzimanda-gazi-birakinca-vuruntu-sorunu.15822/"
           ]
         },
         {
@@ -2115,11 +2253,20 @@
           "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, buji kirlenmesi, ileri aşamada egzoz supabı ve motor hasarı",
           "tahmini_km_araligi": "40.000 - 100.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yağ tüketimi piston segmanlarının aşınmasına bağlanıyor. DonanımHaber'de sorunun 2015-2018 arasında üretilen Juke, Micra, Qashqai ve X-Trail'de görüldüğü yazılı; 2016 sonrası ya da 2018 sonrası makyajlı kasada sorunun çözüldüğüne dair iddialar birbiriyle çelişiyor (doğrulanmamış). Bir kullanıcı şasi numarasının Nissan'ın TB em 15/05 numaralı teknik bülteninde yer aldığını belirtiyor.",
+            "teshis": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, buji kirlenmesi. Bülten kapsamındaki araçlarda Nissan'ın kompresyon testi istediği bir kullanıcı tarafından aktarılmış; her serviste yağ tüketimi kaydı tutturmak öneriliyor.",
+            "cozum": "Bazı kullanıcılar garanti kapsamında sıfır motor takıldığını yazıyor; garanti dışı araçlarda yetkili servisin rektifiye ya da sıfır motor önerdiği, 'iyi niyet' kapsamında %50-%50 gibi katkı tekliflerinin geldiği anlatılıyor. Forumlarda garantisi süren araçlar için servis kayıtlarıyla tüketici hakem heyetine/mahkemeye başvuru öneriliyor (hukuki tavsiye değil).",
+            "maliyet": "Net bir TL rakamı verilmiyor; garanti dışında rektifiye ya da sıfır motorun maliyetinin yüksek olduğu bildirilmiş.",
+            "onlem": "Şasi numarasının Nissan teknik bülteni kapsamında olup olmadığını yetkili servisten yazılı sormak, yağ seviyesini düzenli kontrol etmek ve her serviste tüketim kaydı tutturmak. Nissan'ın üretim hatasını kabul etmediği, ücretsiz onarım iddialarının doğrulanamadığı unutulmamalı."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
             "https://otopark.com/forum/threads/1-2-nissan-qashqai-yag-yakma-sorunu.10284/",
             "https://connexionfrance.com/article/French-news/Renault-cars-have-severe-defect-says-consumer-group",
-            "https://www.ocu.org/acciones-colectivas/afectados-motor-defectuoso-renault"
+            "https://www.ocu.org/acciones-colectivas/afectados-motor-defectuoso-renault",
+            "https://forum.donanimhaber.com/nissan-1-2-dig-t-motorlarda-yag-yakma-kronik-mi--135256536",
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-12-dig-t-motor-problemi"
           ]
         },
         {
@@ -2592,11 +2739,21 @@
           "belirtiler": "Düzensiz rölanti, siyah duman, güç kaybı, aşırı yakıt tüketimi, zor çalışma",
           "tahmini_km_araligi": "80.000 - 180.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Common-rail enjektörleri yakıt kalitesine duyarlı kabul ediliyor: Araclo ve Arabam.com kötü yakıtın ya da suyla dolu mazot filtresinin enjektörleri bozabileceğini yazıyor; DonanımHaber'de enjektör dibinden kaçağın genelde mazot kaynaklı olduğu ve bakır pul değişiminin yaygın çözüm olduğu belirtiliyor. Şikâyetvar'da bir Duster sahibinin dört enjektörünün aynı anda arızalanması Renault tarafından 'yakıt kaynaklı' sayılıp garanti dışı bırakılmış.",
+            "teshis": "Forumlarda sabah zor çalışma, rölantide titreme, siyah ya da gri duman, güç kaybı, yakıt tüketiminde artış ve enjektör şakırtısı sayılıyor; gaza yüklenince arıza/motor stop ışıklarının yanıp sönmesi ve 'enjektörü/enjeksiyonu kontrol ettirin' uyarısı bildiriliyor (DonanımHaber, Şikâyetvar). Enjektör dibinde mazot kaçağı izi bakır pul sorununa işaret ediyor; kaçak uzun sürerse çevrede kuruyup enjektörün sökülmesini zorlaştırabiliyor.",
+            "cozum": "Bakır pul kaçağında pulların değiştirilmesi yaygın çözüm olarak anlatılıyor; bir kullanıcı pulları değiştirdikten sonra Bosch serviste ayar ve C.C. işlemiyle sorunun kapandığını yazıyor. Enjektörler sökülüp ultrasonik cihazda temizlenebiliyor, ancak bir kaynak temizliğin her arızayı çözmediğini, bazı vakalarda onarım ya da değişim gerektiğini belirtiyor. Bir kullanıcı enjektör ringlerinin yaklaşık 50 bin km'de değişmesi gerektiğini yazıyor (doğrulanmamış).",
+            "maliyet": "Rakamlar dağınık ve tarihli. DonanımHaber'de enjektör temizliği için 200-1.500 TL (tarihler belirsiz; bir Clio 4 sahibi 265 bin km'de temizlik ve bakım için 1.200 TL), eski bir mesajda enjektör setinin 2.000 TL altında olmadığı yazılı. Şikâyetvar'daki yetkili servis vakalarında parça ve işçilik kabaca 20.000-50.000 TL (bir Megane için iyi niyet indirimiyle 21.000 TL; bir Megane 4 için garanti reddi sonrası ~49.000 TL; motor tipi karışık). Güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Yakıtı güvenilir istasyondan almak, mazot filtresini ve içindeki suyu düzenli kontrol ettirmek (Arabam.com, Araclo); enjektör dibinde kaçak izi görülünce bakır pulu geciktirmeden değiştirmek (DonanımHaber: uzun süren kaçak sökümü zorlaştırıyor); garanti dönemindeyse arızayı yazılı kayda geçirtmek (Şikâyetvar'da arızaların yakıta bağlanıp garanti dışı bırakıldığı vakalar var)."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/clio-3-kasa-dci-sorunlarini-paylasalim--55918395",
             "https://forum.donanimhaber.com/clio-3-enjektor-bozuldu--127220018",
             "https://www.araclo.com/vehicles/renault-clio-1.5-dci/degerlendirmeler/kullanici-sorunlari",
-            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/"
+            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/",
+            "https://forum.donanimhaber.com/renault-1-5-dci-motor-enjektor-arizasi-resimli--58682772-2",
+            "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
+            "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/"
           ]
         }
       ]
@@ -2616,9 +2773,16 @@
           "belirtiler": "Soğuk çalıştırmada birkaç saniye süren metalik zincir sesi, düzensiz rölanti",
           "tahmini_km_araligi": "150.000 - 200.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Bir forum yazarına göre ses 2013-2014 civarı ilk Clio 4'lerde daha sık görülüyor, sonraki yıllarda motor güncellenmiş ve sorun büyük oranda çözülmüş. Bir servis ustası nedeni zayıflayan zincir gergisi ve yağ kanallarındaki tıkanıklık olarak açıklamış; uzun rölanti ve sürekli kısa mesafe kullanım sesi hızlandırabiliyor.",
+            "teshis": "Soğuk çalıştırmada hışırtılı zincir sesi, bazen motor ısınana kadar sürüyor. Ses giderek artıyorsa ya da motor geç çalışıyorsa zincir ve gergi mekanizmasının serviste kontrolü öneriliyor.",
+            "cozum": "Erken yağ değişimi ve kaliteli yağ sesi azaltabiliyor (kullanıcı yorumu); ses artarsa zincir ve gergi kontrolü/değişimi gerekiyor.",
+            "onlem": "0.9 TCe için orijinal yağ olarak RN710 onaylı 5W-40 anılıyor (forum), bir kullanıcı bakım aralığını 20.000 km yazıyor (doğrulanmamış; kılavuzla teyit edin). Zincir ömrüne ilişkin değerler tutarsız: bir yorum 150-200 bin km'de şakırdamanın başlayabileceğini, başka biri katalogda değişim gerekmediğini (~300 bin km) yazıyor."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/clio-iv-0-9-tce-motor-omru--94718396",
-            "https://www.araclo.com/forum/threads/clio-4-0.9-tce-erken-uretimlerde-zincir-sesi-problemi-deneyimlerim-ve-bilgiler"
+            "https://www.araclo.com/forum/threads/clio-4-0.9-tce-erken-uretimlerde-zincir-sesi-problemi-deneyimlerim-ve-bilgiler",
+            "https://forum.donanimhaber.com/0-9-tce-motora-hangi-yag--152152403"
           ],
           "donem_kirilimi": [
             {
@@ -2652,12 +2816,24 @@
           "belirtiler": "Rölantide titreme, siyah duman, güç kaybı, motor ve enjeksiyon arıza lambası; düşük kaliteli yakıt sorunu hızlandırıyor",
           "tahmini_km_araligi": "80.000 - 180.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Common-rail enjektörleri yakıt kalitesine duyarlı kabul ediliyor: Araclo ve Arabam.com kötü yakıtın ya da suyla dolu mazot filtresinin enjektörleri bozabileceğini yazıyor; DonanımHaber'de enjektör dibinden kaçağın genelde mazot kaynaklı olduğu ve bakır pul değişiminin yaygın çözüm olduğu belirtiliyor. Şikâyetvar'da bir Duster sahibinin dört enjektörünün aynı anda arızalanması Renault tarafından 'yakıt kaynaklı' sayılıp garanti dışı bırakılmış.",
+            "teshis": "Forumlarda sabah zor çalışma, rölantide titreme, siyah ya da gri duman, güç kaybı, yakıt tüketiminde artış ve enjektör şakırtısı sayılıyor; gaza yüklenince arıza/motor stop ışıklarının yanıp sönmesi ve 'enjektörü/enjeksiyonu kontrol ettirin' uyarısı bildiriliyor (DonanımHaber, Şikâyetvar). Enjektör dibinde mazot kaçağı izi bakır pul sorununa işaret ediyor; kaçak uzun sürerse çevrede kuruyup enjektörün sökülmesini zorlaştırabiliyor.",
+            "cozum": "Bakır pul kaçağında pulların değiştirilmesi yaygın çözüm olarak anlatılıyor; bir kullanıcı pulları değiştirdikten sonra Bosch serviste ayar ve C.C. işlemiyle sorunun kapandığını yazıyor. Enjektörler sökülüp ultrasonik cihazda temizlenebiliyor, ancak bir kaynak temizliğin her arızayı çözmediğini, bazı vakalarda onarım ya da değişim gerektiğini belirtiyor. Bir kullanıcı enjektör ringlerinin yaklaşık 50 bin km'de değişmesi gerektiğini yazıyor (doğrulanmamış).",
+            "maliyet": "Rakamlar dağınık ve tarihli. DonanımHaber'de enjektör temizliği için 200-1.500 TL (tarihler belirsiz; bir Clio 4 sahibi 265 bin km'de temizlik ve bakım için 1.200 TL), eski bir mesajda enjektör setinin 2.000 TL altında olmadığı yazılı. Şikâyetvar'daki yetkili servis vakalarında parça ve işçilik kabaca 20.000-50.000 TL (bir Megane için iyi niyet indirimiyle 21.000 TL; bir Megane 4 için garanti reddi sonrası ~49.000 TL; motor tipi karışık). Güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Yakıtı güvenilir istasyondan almak, mazot filtresini ve içindeki suyu düzenli kontrol ettirmek (Arabam.com, Araclo); enjektör dibinde kaçak izi görülünce bakır pulu geciktirmeden değiştirmek (DonanımHaber: uzun süren kaçak sökümü zorlaştırıyor); garanti dönemindeyse arızayı yazılı kayda geçirtmek (Şikâyetvar'da arızaların yakıta bağlanıp garanti dışı bırakıldığı vakalar var). Düzenli bakımla enjektör sorunu yaşamadan 250.000 km'ye ulaşan kullanıcılar da var (DonanımHaber), yani sorun kullanıma ve yakıta çok bağlı."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/2013-clio-4-dci-1-5-egzos-emisyon-enjeksiyon-arizasi--143635082",
             "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar",
             "https://www.araclo.com/vehicles/renault-clio-1.5-dci-grandtour/kronik-sorunlar",
             "https://www.sikayetvar.com/renault/clio/clio-dci",
-            "https://forum.donanimhaber.com/renault-1-5-dci-motor-enjektor-arizasi-resimli--58682772-3"
+            "https://forum.donanimhaber.com/renault-1-5-dci-motor-enjektor-arizasi-resimli--58682772-3",
+            "https://forum.donanimhaber.com/renault-1-5-dci-motor-enjektor-arizasi-resimli--58682772-2",
+            "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
+            "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/",
+            "https://forum.donanimhaber.com/clio-4-1-5-dci-edc-250-000-km-kullanici-deneyimi--149107088",
+            "https://www.sikayetvar.com/renault/clio/enjeksiyon"
           ]
         }
       ]
@@ -2677,11 +2853,19 @@
           "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, buji kirlenmesi, ileri aşamada segman kırılması ve motor hasarı",
           "tahmini_km_araligi": "40.000 - 100.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de öne sürülen açıklama: doğrudan enjeksiyonun yakıtı silindir duvarındaki yağ filmini seyreltmesi; başka bir görüş sorunu büyük ölçüde turboya bağlıyor (ikisi de doğrulanmamış). Bir forum kaynağı 1.2 TCe 115/120/130 bg'li Captur, Clio 4, Kadjar, Kangoo 2, Megane 3 ve Scénic 3'ün etkilendiğini yazıyor.",
+            "teshis": "Yağ seviyesi uyarısı ve bakımlar arasında eksilme. Kullanıcılar servislerin eksiltmeyi başta normal sayıp kaydı ancak sonradan açtığını yazıyor; bir kullanıcı kitapçıkta 1.000 km'de 0,5 L eksiltmenin yazdığını belirtiyor.",
+            "cozum": "Renault'nun yazılım güncellemesi ve parça değişimi yaptığı, ama her zaman etkili olmadığı bildiriliyor (forum). Bir kullanıcı 50 bin km'de segman kırılmasıyla motorunun açıldığını yazıyor.",
+            "maliyet": "Aynı kullanıcıya tamirin yaklaşık 10.000 TL tutabileceği söylenmiş (yıl belirtilmemiş, güncel değil).",
+            "onlem": "Yağ seviyesini sık kontrol etmek. Yağ seçimi tartışmalı: bir kullanıcı Motul 5W-40'ın eksiltmeyi azalttığını yazıyor, başka bir kaynak 100 bin km üzerinde LPG yoksa 5W-40 yerine 5W-30 öneriyor. Geri çağırma ya da garanti uzatması aramada doğrulanamadı; şasi numarasıyla yetkili servisten sorgulayın."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/50-000-km-de-sekman-kirip-motoru-acilan-clio-4-1-2-turbo-ve-yag-eksiltme-sorunu--133657387",
             "https://forum.donanimhaber.com/renault-1-2-turbo-edc-yag-eksiltme-problemi--109082025",
             "https://connexionfrance.com/article/French-news/Renault-cars-have-severe-defect-says-consumer-group",
-            "https://www.ocu.org/acciones-colectivas/afectados-motor-defectuoso-renault"
+            "https://www.ocu.org/acciones-colectivas/afectados-motor-defectuoso-renault",
+            "https://forum.donanimhaber.com/renault-captur-1-2-edc-yag-eksiltme-problemi--109049535"
           ],
           "donem_kirilimi": [
             {
@@ -2721,10 +2905,22 @@
           "belirtiler": "Gazdan çekilince cızırtı veya zırıltı sesi, turbo değişiminden sonra sesin geri dönmesi, güç dalgalanması",
           "tahmini_km_araligi": "20.000 - 80.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Gazdan çekilince turbo wastegate bölgesinden gelen cızırtı/zırıltı: Araclo bunu wastegate ayarsızlığına bağlıyor ve servis ayarıyla giderilebildiğini ama tekrarlayabildiğini yazıyor; And Mehmet Çetin Renault 1.0 TCe'nin en bilinen kroniklerinden biri sayıyor. Şikâyetvar'da bir kullanıcı yetkili servisin sorunu wastegate pimine bağladığını ve fabrikadan çözüm beklendiğini aktarıyor; servisler çoğu zaman 'risk teşkil etmez' diyor. Şikâyetlerin çoğu Clio 5 1.0 TCe'ye ait (aynı motor ailesi).",
+            "teshis": "Gazdan çekerken (ör. 1-2. vitesteki 2.000'den 1.500 devire inişte) metalik çıtırtı ya da cızırtı; bir kullanıcı sesin motora zarar vermediğini yazıyor. Her ses wastegate değildir: bir Şikâyetvar yorumunda servis motor kulağında (takoz) sorun olduğunu söylemiş. Sesin hangi koşulda geldiğini kayda almak servise anlatmayı kolaylaştırıyor.",
+            "cozum": "Denenenler: yazılım güncellemesi (bir kullanıcıda ses azalmış ama 3-4 ay sonra dönmüş), turbo değişimi (garantide turbosu değişen bir Clio 5 sahibinde ses geri gelmiş ve servis 'normal' demiş), dışarıda turbocuda wastegate piminin kenarına conta taktırma (bir kullanıcıda ses kesilmiş, ~500 TL; tek deneyim). Resmî bir kalıcı çözüm bulunamadı.",
+            "maliyet": "Garantide turbo değişimi ücretsiz; dışarıda wastegate pimine conta işlemi için bir kullanıcı ~500 TL yazmış (yıl belirtilmemiş, güncel değil). Mevcut kayıtta bazı araçlarda turbo değişimi için uzun parça bekleme süresi bildiriliyor.",
+            "onlem": "Garantide servis 'normal' dediğinde yazılı kayıt ve tekrarlayan başvuru tutmak; Şikâyetvar'daki birçok vakada sorun aylarca çözülmemiş. Soğuk çalıştırma ve gazdan çekme seslerini kaydedip servise göstermek."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/renault-clio-1.0-tce-nasil-ne-kadar-yakar-alinir-mi-2026-guncel-rehber",
             "https://www.sikayetvar.com/renault/clio/10-tce",
-            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/",
+            "https://www.sikayetvar.com/renault/clio/cizirti",
+            "https://www.sikayetvar.com/renault/clio/turbo",
+            "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053",
+            "https://www.sikayetvar.com/renault/renault-2020-clio-5-10-tce-90-hp-turbo-arizasi",
+            "https://www.sikayetvar.com/renault/garanti-kapsamindaki-turbo-ve-far-arizalari-tekrar-tekrar-cozulmedi"
           ]
         },
         {
@@ -2733,9 +2929,18 @@
           "belirtiler": "Rölantide ve düşük devirde titreşim, vites değişiminde vuruntu",
           "tahmini_km_araligi": "40.000 - 80.000 km",
           "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "3 silindirli motorun doğası gereği titreşimi yüksek; Araclo/servis kaynaklarına göre takozlar erken yıpranıp titreşimi kabine taşıyor ve belirginleşme 40.000-80.000 km aralığında görülüyor.",
+            "teshis": "Rölantide (900-1.000 devir) ön sağdan gelen şiddetli vurma ya da titreme; gaz verince sesin kesilmesi takoz şüphesini güçlendiriyor. Kullanıcılar enjeksiyon yazılımı güncellemesinin işe yaramadığını, soğuk çalıştırmadaki metal sesin takozla ilgisi olmadığını da yazıyor.",
+            "cozum": "Sağ motor takozu değişimi birçok vakada sorunu geçici çözüyor: bir kullanıcı üç kez değiştirildiğini ve ses her seferinde 3 ay sonra döndüğünü, bir diğeri 25.000 km'de garantide değişen takozun 9 ay sonra aynı şikâyetle geri geldiğini yazıyor. Takoz öncesi hata kodu, buji ve gaz kelebeği kontrolü öneriliyor.",
+            "maliyet": "Örneklerin çoğunda değişim garanti kapsamında ücretsiz yapılmış; ücretli rakam bulunamadı.",
+            "onlem": "Garantideyken tekrarlayan titreme şikâyetini yazılı kayda geçirtmek; sorun yalnızca parça değişimiyle kapanmayabiliyor (Şikâyetvar)."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/renault-clio-1.0-tce-nasil-ne-kadar-yakar-alinir-mi-2026-guncel-rehber",
-            "https://www.sikayetvar.com/renault/clio/10-tce"
+            "https://www.sikayetvar.com/renault/clio/10-tce",
+            "https://www.sikayetvar.com/renault/clio/clio-5-motor-takozu",
+            "https://www.sikayetvar.com/renault/clio/titreme"
           ]
         }
       ]
@@ -2755,11 +2960,23 @@
           "belirtiler": "Düşük hızda titreme, vites geçişlerinde sarsıntı ve ses, kalkışta silkeleme veya stop etme; yazılım güncellemesi kısmen çözüyor, mekanik aşınma ilerleyen kilometrede sürebiliyor",
           "tahmini_km_araligi": "30.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "EDC, Renault-Dacia'nın kuru kavramalı çift kavramalı şanzımanıdır. Forum yorumlarına göre titreme kavrama aşınmasından, yazılım kalibrasyonundan ya da mekatronik arızasından kaynaklanabiliyor; düşük şanzıman yağı seviyesi de katkı yapabiliyor. And Mehmet Çetin kuru kavramalı EDC ve Powershift şanzımanlarının, ıslak kavramalı DSG'ye göre daha çok eleştiri aldığını yazıyor.",
+            "teshis": "Kalkışta silkeleme, düşük hızda titreme, vites geçişlerinde sarsıntı ya da ses (ör. 3. vitesten 4.'ye 'vuup') ve 'EDC kontrol' / 'vites kutusunu kontrol ettiriniz' uyarısı bildiriliyor (Şikâyetvar, DonanımHaber). Önce hata kodları okutulmalı; bir DonanımHaber örneğinde akü değişiminden sonra arıza kodları silinip kavrama kalibrasyonu gerekmiş.",
+            "cozum": "Forumlarda tipik sıra: yazılım güncellemesi ve kavrama kalibrasyonu, olmazsa kavrama (baskı balata) değişimi, bazı vakalarda EDC beyni değişimi. Bir Fluence sahibinde kalibrasyonla sarsıntı azalmış ama tamamen bitmemiş. Şikâyetvar'da bir Kadjar sahibi Tüketici Hakem Heyeti kararına itiraz sonrası debriyaj setinin ücretsiz değiştirildiğini, bir Megane sahibi 82.699 km'de kavrama değişimine rağmen titremenin sürdüğünü yazıyor.",
+            "maliyet": "Şikâyetvar'da bir Kadjar sahibi kavrama değişimi için 2021 Ağustos'ta 17 bin TL, 2022'de 30 bin TL söylendiğini; bir Megane sahibi 35 bin TL'lik debriyaj seti değişimini; bir Clio 4 sahibi baskı balata için 40 bin TL teklifi bildiriyor. Farklı yıllara ait tek tek beyanlar; güncel teklif için yetkili servisten yazılı fiyat alın.",
+            "onlem": "Servis kayıtlarında yazılım güncellemelerini ve kavrama değişimlerini sormak; garanti döneminde şikâyeti yazılı kayda geçirtmek (Şikâyetvar'da tekrarlayan başvuruyla ve hakem heyetiyle sonuç alınan vakalar var). Araclo, EDC'li araçta test sürüşünde vites geçişlerine ve düşük hızdaki davranışa dikkat edilmesini öneriyor."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/renault/kadjar/edc",
             "https://www.sikayetvar.com/renault/kadjar/kronik",
             "https://www.araclo.com/vehicles/renault-kadjar-1.3-tce/degerlendirmeler/kullanici-sorunlari",
-            "https://eksisozluk.com/renault-araclarda-kronik-edc-sorunu--6637087"
+            "https://eksisozluk.com/renault-araclarda-kronik-edc-sorunu--6637087",
+            "https://www.sikayetvar.com/renault/edc/megane",
+            "https://www.sikayetvar.com/edc/titreme",
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/",
+            "https://forum.donanimhaber.com/edc-yazilim-gunceleme--118953849",
+            "https://www.sikayetvar.com/renault/kadjar/sanziman"
           ]
         },
         {
@@ -2790,10 +3007,22 @@
           "belirtiler": "Düşük hızda titreme, vites geçişlerinde sarsıntı ve ses, kalkışta silkeleme veya stop etme; yazılım güncellemesi kısmen çözüyor, mekanik aşınma ilerleyen kilometrede sürebiliyor",
           "tahmini_km_araligi": "30.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "EDC, Renault-Dacia'nın kuru kavramalı çift kavramalı şanzımanıdır. Forum yorumlarına göre titreme kavrama aşınmasından, yazılım kalibrasyonundan ya da mekatronik arızasından kaynaklanabiliyor; düşük şanzıman yağı seviyesi de katkı yapabiliyor. And Mehmet Çetin kuru kavramalı EDC ve Powershift şanzımanlarının, ıslak kavramalı DSG'ye göre daha çok eleştiri aldığını yazıyor.",
+            "teshis": "Kalkışta silkeleme, düşük hızda titreme, vites geçişlerinde sarsıntı ya da ses (ör. 3. vitesten 4.'ye 'vuup') ve 'EDC kontrol' / 'vites kutusunu kontrol ettiriniz' uyarısı bildiriliyor (Şikâyetvar, DonanımHaber). Önce hata kodları okutulmalı; bir DonanımHaber örneğinde akü değişiminden sonra arıza kodları silinip kavrama kalibrasyonu gerekmiş.",
+            "cozum": "Forumlarda tipik sıra: yazılım güncellemesi ve kavrama kalibrasyonu, olmazsa kavrama (baskı balata) değişimi, bazı vakalarda EDC beyni değişimi. Bir Fluence sahibinde kalibrasyonla sarsıntı azalmış ama tamamen bitmemiş. Şikâyetvar'da bir Kadjar sahibi Tüketici Hakem Heyeti kararına itiraz sonrası debriyaj setinin ücretsiz değiştirildiğini, bir Megane sahibi 82.699 km'de kavrama değişimine rağmen titremenin sürdüğünü yazıyor.",
+            "maliyet": "Şikâyetvar'da bir Kadjar sahibi kavrama değişimi için 2021 Ağustos'ta 17 bin TL, 2022'de 30 bin TL söylendiğini; bir Megane sahibi 35 bin TL'lik debriyaj seti değişimini; bir Clio 4 sahibi baskı balata için 40 bin TL teklifi bildiriyor. Farklı yıllara ait tek tek beyanlar; güncel teklif için yetkili servisten yazılı fiyat alın.",
+            "onlem": "Servis kayıtlarında yazılım güncellemelerini ve kavrama değişimlerini sormak; garanti döneminde şikâyeti yazılı kayda geçirtmek (Şikâyetvar'da tekrarlayan başvuruyla ve hakem heyetiyle sonuç alınan vakalar var). Araclo, EDC'li araçta test sürüşünde vites geçişlerine ve düşük hızdaki davranışa dikkat edilmesini öneriyor."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/renault/kadjar/edc",
             "https://www.sikayetvar.com/renault/kadjar/kronik",
-            "https://eksisozluk.com/renault-araclarda-kronik-edc-sorunu--6637087"
+            "https://eksisozluk.com/renault-araclarda-kronik-edc-sorunu--6637087",
+            "https://www.sikayetvar.com/renault/edc/megane",
+            "https://www.sikayetvar.com/edc/titreme",
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/",
+            "https://forum.donanimhaber.com/edc-yazilim-gunceleme--118953849",
+            "https://www.sikayetvar.com/renault/kadjar/sanziman"
           ]
         }
       ]
@@ -2813,12 +3042,23 @@
           "belirtiler": "Zor çalışma, egzozdan siyah veya beyaz duman, rölantide titreme, \"enjeksiyon kontrol\" uyarısı, yakıt tüketiminde artış",
           "tahmini_km_araligi": "60.000 - 180.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Common-rail enjektörleri yakıt kalitesine duyarlı kabul ediliyor: Araclo ve Arabam.com kötü yakıtın ya da suyla dolu mazot filtresinin enjektörleri bozabileceğini yazıyor; DonanımHaber'de enjektör dibinden kaçağın genelde mazot kaynaklı olduğu ve bakır pul değişiminin yaygın çözüm olduğu belirtiliyor. Şikâyetvar'da bir Duster sahibinin dört enjektörünün aynı anda arızalanması Renault tarafından 'yakıt kaynaklı' sayılıp garanti dışı bırakılmış.",
+            "teshis": "Forumlarda sabah zor çalışma, rölantide titreme, siyah ya da gri duman, güç kaybı, yakıt tüketiminde artış ve enjektör şakırtısı sayılıyor; gaza yüklenince arıza/motor stop ışıklarının yanıp sönmesi ve 'enjektörü/enjeksiyonu kontrol ettirin' uyarısı bildiriliyor (DonanımHaber, Şikâyetvar). Enjektör dibinde mazot kaçağı izi bakır pul sorununa işaret ediyor; kaçak uzun sürerse çevrede kuruyup enjektörün sökülmesini zorlaştırabiliyor. Fransız kaynaklara göre vakaların çoğunda tek bir enjektör arızalı çıkıyor; Fransa'da Mayıs-Temmuz 2009 üretimi 1.155 adet 105 ch 1.5 dCi için enjeksiyon uyarısı ve güç kaybına karşı bilgisayar yeniden programlamasıyla giderilen bir geri çağırma yapılmış.",
+            "cozum": "Bakır pul kaçağında pulların değiştirilmesi yaygın çözüm olarak anlatılıyor; bir kullanıcı pulları değiştirdikten sonra Bosch serviste ayar ve C.C. işlemiyle sorunun kapandığını yazıyor. Enjektörler sökülüp ultrasonik cihazda temizlenebiliyor, ancak bir kaynak temizliğin her arızayı çözmediğini, bazı vakalarda onarım ya da değişim gerektiğini belirtiyor. Bir kullanıcı enjektör ringlerinin yaklaşık 50 bin km'de değişmesi gerektiğini yazıyor (doğrulanmamış).",
+            "maliyet": "Rakamlar dağınık ve tarihli. DonanımHaber'de enjektör temizliği için 200-1.500 TL (tarihler belirsiz; bir Clio 4 sahibi 265 bin km'de temizlik ve bakım için 1.200 TL), eski bir mesajda enjektör setinin 2.000 TL altında olmadığı yazılı. Şikâyetvar'daki yetkili servis vakalarında parça ve işçilik kabaca 20.000-50.000 TL (bir Megane için iyi niyet indirimiyle 21.000 TL; bir Megane 4 için garanti reddi sonrası ~49.000 TL; motor tipi karışık). Güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Yakıtı güvenilir istasyondan almak, mazot filtresini ve içindeki suyu düzenli kontrol ettirmek (Arabam.com, Araclo); enjektör dibinde kaçak izi görülünce bakır pulu geciktirmeden değiştirmek (DonanımHaber: uzun süren kaçak sökümü zorlaştırıyor); garanti dönemindeyse arızayı yazılı kayda geçirtmek (Şikâyetvar'da arızaların yakıta bağlanıp garanti dışı bırakıldığı vakalar var)."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/renault-megane-1.5-dci-kronik-sorunlari-ve-bakim-rehberi",
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
             "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
             "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/",
-            "https://www.sikayetvar.com/renault/megane/enjeksiyon"
+            "https://www.sikayetvar.com/renault/megane/enjeksiyon",
+            "https://forum.donanimhaber.com/renault-1-5-dci-motor-enjektor-arizasi-resimli--58682772-2",
+            "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
+            "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/",
+            "https://www.sikayetvar.com/renault/enjektor/megane"
           ]
         },
         {
@@ -2827,6 +3067,12 @@
           "belirtiler": "Yakıt hattında metal talaş, zor çalışma, tekleme, güç kaybı, enjektörlerin birbiri ardına bozulması",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Fransız sahip yorum sitesi Fiches-auto, 1.5 dCi'nin (Delphi'ye bağlanan) yüksek basınç pompasının metal talaş atıp yakıt devresini kirletebildiğini ve talaşın çoğu zaman enjektörleri bozduğunu yazıyor; sitede 90 ch sürümde bunun giderildiği, 105 ve 110 ch'de sürdüğü, 110 ch'de sorunların çoğunun enjektör kaynaklı olduğu belirtiliyor.",
+            "teshis": "Zor çalışma, tekleme, güç kaybı ve enjektör uyarıları; yakıt hattında metal talaş bulunması pompa kaynaklı kirlenmenin işareti sayılıyor. Enjektör değişiminden sonra arızanın tekrarlaması da yakıt sisteminde daha derin bir sorunu düşündürüyor (Fransız forum yorumları).",
+            "cozum": "Talaş yakıt devresinin tamamına yayıldığı için kaynaklarda pompayla birlikte enjektörlerin ve hatların da etkilendiği anlatılıyor; 90 ch ve 95 ch sürümler bu açıdan daha güvenilir gösteriliyor. İkinci elde enjeksiyon pompası ve enjektör geçmişinin doğrulanması öneriliyor (Fiches-auto, L'argus).",
+            "onlem": "Satın almadan önce pompa ve enjektör değişim geçmişini sormak; 90 ch/95 ch ve partikül filtreli sürümler kaynaklarda daha düşük riskli gösteriliyor."
+          },
           "kaynaklar": [
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
             "https://www.honestjohn.co.uk/forum/post/index.htm?t=35027",
@@ -2839,11 +3085,22 @@
           "belirtiler": "Kalkışta silkeleme, vites geçişlerinde vuruntu, \"EDC kontrol\" uyarısı",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "EDC, Renault-Dacia'nın kuru kavramalı çift kavramalı şanzımanıdır. Forum yorumlarına göre titreme kavrama aşınmasından, yazılım kalibrasyonundan ya da mekatronik arızasından kaynaklanabiliyor; düşük şanzıman yağı seviyesi de katkı yapabiliyor. And Mehmet Çetin kuru kavramalı EDC ve Powershift şanzımanlarının, ıslak kavramalı DSG'ye göre daha çok eleştiri aldığını yazıyor. L'argus, EDC'li Mégane'larda kavrama kayması, 'EDC à contrôler' mesajı ve çekiş kaybı bildirildiğini, bunların çoğunun yazılımın yeniden programlanmasıyla ele alındığını aktarıyor.",
+            "teshis": "Kalkışta silkeleme, düşük hızda titreme, vites geçişlerinde sarsıntı ya da ses (ör. 3. vitesten 4.'ye 'vuup') ve 'EDC kontrol' / 'vites kutusunu kontrol ettiriniz' uyarısı bildiriliyor (Şikâyetvar, DonanımHaber). Önce hata kodları okutulmalı; bir DonanımHaber örneğinde akü değişiminden sonra arıza kodları silinip kavrama kalibrasyonu gerekmiş.",
+            "cozum": "Forumlarda tipik sıra: yazılım güncellemesi ve kavrama kalibrasyonu, olmazsa kavrama (baskı balata) değişimi, bazı vakalarda EDC beyni değişimi. Bir Fluence sahibinde kalibrasyonla sarsıntı azalmış ama tamamen bitmemiş. Şikâyetvar'da bir Kadjar sahibi Tüketici Hakem Heyeti kararına itiraz sonrası debriyaj setinin ücretsiz değiştirildiğini, bir Megane sahibi 82.699 km'de kavrama değişimine rağmen titremenin sürdüğünü yazıyor.",
+            "maliyet": "Şikâyetvar'da bir Kadjar sahibi kavrama değişimi için 2021 Ağustos'ta 17 bin TL, 2022'de 30 bin TL söylendiğini; bir Megane sahibi 35 bin TL'lik debriyaj seti değişimini; bir Clio 4 sahibi baskı balata için 40 bin TL teklifi bildiriyor. Farklı yıllara ait tek tek beyanlar; güncel teklif için yetkili servisten yazılı fiyat alın.",
+            "onlem": "Servis kayıtlarında yazılım güncellemelerini ve kavrama değişimlerini sormak; garanti döneminde şikâyeti yazılı kayda geçirtmek (Şikâyetvar'da tekrarlayan başvuruyla ve hakem heyetiyle sonuç alınan vakalar var). Araclo, EDC'li araçta test sürüşünde vites geçişlerine ve düşük hızdaki davranışa dikkat edilmesini öneriyor."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/renault-edc-sorunu--58692943-5",
             "https://www.sikayetvar.com/renault/fluence/kronik",
             "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
-            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/",
+            "https://www.sikayetvar.com/renault/edc/megane",
+            "https://www.sikayetvar.com/edc/titreme",
+            "https://forum.donanimhaber.com/edc-yazilim-gunceleme--118953849",
+            "https://www.sikayetvar.com/renault/megane/otomatik-sanziman"
           ]
         }
       ]
@@ -2863,11 +3120,24 @@
           "belirtiler": "3. vitesten 4.'ye geçişte \"vuup\" sesi, kalkışta silkeleme, kavrama kayması",
           "tahmini_km_araligi": "40.000 - 100.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "EDC, Renault-Dacia'nın kuru kavramalı çift kavramalı şanzımanıdır. Forum yorumlarına göre titreme kavrama aşınmasından, yazılım kalibrasyonundan ya da mekatronik arızasından kaynaklanabiliyor; düşük şanzıman yağı seviyesi de katkı yapabiliyor. And Mehmet Çetin kuru kavramalı EDC ve Powershift şanzımanlarının, ıslak kavramalı DSG'ye göre daha çok eleştiri aldığını yazıyor.",
+            "teshis": "Kalkışta silkeleme, düşük hızda titreme, vites geçişlerinde sarsıntı ya da ses (ör. 3. vitesten 4.'ye 'vuup') ve 'EDC kontrol' / 'vites kutusunu kontrol ettiriniz' uyarısı bildiriliyor (Şikâyetvar, DonanımHaber). Önce hata kodları okutulmalı; bir DonanımHaber örneğinde akü değişiminden sonra arıza kodları silinip kavrama kalibrasyonu gerekmiş.",
+            "cozum": "Forumlarda tipik sıra: yazılım güncellemesi ve kavrama kalibrasyonu, olmazsa kavrama (baskı balata) değişimi, bazı vakalarda EDC beyni değişimi. Bir Fluence sahibinde kalibrasyonla sarsıntı azalmış ama tamamen bitmemiş. Şikâyetvar'da bir Kadjar sahibi Tüketici Hakem Heyeti kararına itiraz sonrası debriyaj setinin ücretsiz değiştirildiğini, bir Megane sahibi 82.699 km'de kavrama değişimine rağmen titremenin sürdüğünü yazıyor.",
+            "maliyet": "Şikâyetvar'da bir Kadjar sahibi kavrama değişimi için 2021 Ağustos'ta 17 bin TL, 2022'de 30 bin TL söylendiğini; bir Megane sahibi 35 bin TL'lik debriyaj seti değişimini; bir Clio 4 sahibi baskı balata için 40 bin TL teklifi bildiriyor. Farklı yıllara ait tek tek beyanlar; güncel teklif için yetkili servisten yazılı fiyat alın.",
+            "onlem": "Servis kayıtlarında yazılım güncellemelerini ve kavrama değişimlerini sormak; garanti döneminde şikâyeti yazılı kayda geçirtmek (Şikâyetvar'da tekrarlayan başvuruyla ve hakem heyetiyle sonuç alınan vakalar var). Araclo, EDC'li araçta test sürüşünde vites geçişlerine ve düşük hızdaki davranışa dikkat edilmesini öneriyor."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/renault/megane/megane-4-13",
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-537-pannes-renault-megane-4.php",
             "https://www.caradisiac.com/maxi-fiche-fiabilite-renault-megane-4-un-modele-a-risque-198261.htm",
-            "https://www.araclo.com/blog/renault-megane-1.3-tce-alinir-mi-yakit-tuketimi-ve-kronik-sorunlar"
+            "https://www.araclo.com/blog/renault-megane-1.3-tce-alinir-mi-yakit-tuketimi-ve-kronik-sorunlar",
+            "https://www.sikayetvar.com/renault/edc/megane",
+            "https://www.sikayetvar.com/edc/titreme",
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/",
+            "https://forum.donanimhaber.com/edc-yazilim-gunceleme--118953849",
+            "https://www.sikayetvar.com/renault/megane/otomatik-sanziman",
+            "https://forum.donanimhaber.com/megane-4-edc-arizasi--155937272"
           ]
         }
       ]
@@ -2887,10 +3157,20 @@
           "belirtiler": "Depo doluyken AdBlue uyarısının sönmemesi, \"başlatamama\" uyarısı, motor arıza ikazı",
           "tahmini_km_araligi": "30.000 - 100.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'daki kullanıcılar, depo doluyken bile uyarının sönmediğini ve aracın bloke olacağını bildiren bir geri sayım gösterdiğini yazıyor; bu arızanın AdBlue kontrol biriminin yeniden yazılımlanmasıyla giderildiğine dair bilgiler var.",
+            "teshis": "Depo dolu olduğu halde AdBlue uyarısı, 'başlatamama' geri sayımı, motor arıza ikazı. Önce yetkili serviste hata kodunun okutulması öneriliyor.",
+            "cozum": "Şikâyetvar'daki vakalarda çözüm AdBlue kontrol biriminin yazılımı ya da ilgili sensör/pompanın değişimi; garanti dışı araçlarda ücretin kullanıcıya yansıtıldığı şikâyetleri var. Forumlarda AdBlue iptali gibi yasa dışı olabilecek yöntemler de tartışılıyor, emisyon mevzuatı açısından ceza riski taşıyor.",
+            "maliyet": "Şikâyetvar'da bir kullanıcıya yetkili serviste 2.000-2.500 TL istendiği, bir başkasına yalnızca teşhis için yaklaşık 13.000 TL talep edildiği yazılı; bir servis kaynağı AdBlue deposunun/SCR katalizörünün orijinal parçayla değişiminin 50.000 TL'den başlayıp 200.000 TL'yi aşabildiğini söylüyor (tahmin, güncel değil).",
+            "onlem": "Garanti kapsamındayken arızayı yazılı kayda geçirtmek; AdBlue'yu önerilen kalitede ve zamanında tamamlamak."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/renault/megane/adblue",
             "https://www.araclo.com/blog/renault-megane-1.5-dci-incelemesi-yakit-tuketimi-kronik-sorunlar-ve-sahip-olma-maliyeti",
-            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/",
+            "https://www.sikayetvar.com/renault/renault-megane-4-adblue-arizasi",
+            "https://www.sikayetvar.com/renault/renault-megane-adblue-uyari-isigi-icin-13-bin-tllik-teshis-ucreti",
+            "https://www.sikayetvar.com/blue-dci/megane"
           ]
         },
         {
@@ -2899,10 +3179,19 @@
           "belirtiler": "DPF uyarısı, güç kısıtlaması, sık rejenerasyon; tıkanmanın kaynağı EGR olabiliyor",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kullanıcı yorumları DPF'nin uzun süre düşük hızda ve kısa mesafede kullanımdan dolabileceğini söylüyor; DonanımHaber'deki bir Megane 4 konusunda tıkanmanın kaynağı EGR kapakçığının takılması olarak anlatılıyor.",
+            "teshis": "DPF uyarısı, güç kısıtlaması ve sık rejenerasyon.",
+            "cozum": "Tek bir forum konusu şu sırayı öneriyor: önce EGR temizliği, ardından bilgisayarla DPF temizliği; bir kullanıcıda bu sıra sorunu çözmüş. DPF/EGR iptali gibi yasa dışı olabilecek yöntemler de tartışılıyor, ceza riski taşıyor.",
+            "maliyet": "Bir servis kaynağı DPF'nin profesyonel temizliğini ve EGR temizliğini birkaç bin TL, DPF/SCR/AdBlue parçalarının orijinal değişimini ise 50.000 TL ile 200.000 TL üzeri aralığında veriyor (tahmin, güncel değil)."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/dpf-belasi-megane-4-yardim--159842205",
             "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/",
-            "https://www.araclo.com/blog/renault-megane-1.5-dci-incelemesi-yakit-tuketimi-kronik-sorunlar-ve-sahip-olma-maliyeti"
+            "https://www.araclo.com/blog/renault-megane-1.5-dci-incelemesi-yakit-tuketimi-kronik-sorunlar-ve-sahip-olma-maliyeti",
+            "https://www.sikayetvar.com/renault/renault-megane-4-adblue-arizasi",
+            "https://www.sikayetvar.com/renault/renault-megane-adblue-uyari-isigi-icin-13-bin-tllik-teshis-ucreti",
+            "https://www.sikayetvar.com/blue-dci/megane"
           ]
         }
       ]
@@ -2922,12 +3211,25 @@
           "belirtiler": "\"Aracı P konumunda terk edin\" uyarısı, tek sayılı vitesler başta olmak üzere kavrama kaçırma, düşük devirde titreme ve vites geçişlerinde sarsıntı; parça ve işçilik pahalı",
           "tahmini_km_araligi": "40.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı, 2008'de çıkan DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu belirtiyor. VW Yeni Zelanda, Ekim 2008-Kasım 2014 arası üretilen DQ200'lü araçlar için hidrolik basınç kaybına karşı mekatronik incelemesi öngören bir kampanya (35E5) yayımlamış. Otopark'ta bir kullanıcı yanlış şanzıman yağını da neden olarak sayıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür. Sonuca göre kavrama seti (baskı balata, disk, gerekirse volan) ve/veya mekatronik ünite yenilenir ya da onarılır; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Şikâyetvar'daki DSG şikâyetlerinde garanti dışı araçlarda bayiden 'iyi niyet' katkısı istendiği, bazı servislerin ise kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek öneriliyor.",
+            "maliyet": "Fiyatlar tarihe ve servise göre çok değişiyor. And Mehmet Çetin kuru kavramanın ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebileceğini, bunun yetkili serviste 60-80 bin, sanayide ~50 bin TL olduğunu yazıyor (yazı tarihli, güncel değil). DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı), kavrama ve mekatronik için ~30 bin TL, bir Golf'te şanzıman için 43.000 TL bildirilmiş; Şikâyetvar'da 2016 model bir Leon 1.2 TSI için şanzıman beyni (mekatronik) yalnızca yedek parça olarak 61.000 TL fiyatlanmış. Farklı yıllara ait, doğrudan karşılaştırılamaz; güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo). And Mehmet Çetin, 1.6 TDI ile 1.0-1.2 TSI motorlu VAG araçlarında DSG'nin 1.4 TSI'ya göre daha uzun dayandığını gözlemlediğini yazıyor (kişisel gözlem, istatistik değil)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/seat/leon/kronik",
             "https://forum.donanimhaber.com/seat-leon-mk3-5f-yasadigim-sorunlar-ve-cozumleri--95863144-12",
             "https://otopark.com/forum/threads/leon-1-6-tdi-dsg-kavrama-kacirmasi.16387/",
             "https://www.araclo.com/blog/seat-leon-1.2-tsi-1.4-tsi-ve-1.6-tdi-karsilastirmasi-ikinci-el-alim-rehberi",
-            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.sikayetvar.com/seat/leon/dsg-sanziman",
+            "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
           ]
         }
       ]
@@ -2947,11 +3249,23 @@
           "belirtiler": "\"Aracı P konumunda terk edin\" uyarısı, düşük hızda sarsıntı ve tıkırtı, vites geçişlerinde vuruntu, boşa düşme, acil moda geçme",
           "tahmini_km_araligi": "30.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı, 2008'de çıkan DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu belirtiyor. VW Yeni Zelanda, Ekim 2008-Kasım 2014 arası üretilen DQ200'lü araçlar için hidrolik basınç kaybına karşı mekatronik incelemesi öngören bir kampanya (35E5) yayımlamış. Otopark'ta bir kullanıcı yanlış şanzıman yağını da neden olarak sayıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür. Sonuca göre kavrama seti (baskı balata, disk, gerekirse volan) ve/veya mekatronik ünite yenilenir ya da onarılır; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Şikâyetvar'daki DSG şikâyetlerinde garanti dışı araçlarda bayiden 'iyi niyet' katkısı istendiği, bazı servislerin ise kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek öneriliyor.",
+            "maliyet": "Fiyatlar tarihe ve servise göre çok değişiyor. And Mehmet Çetin kuru kavramanın ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebileceğini, bunun yetkili serviste 60-80 bin, sanayide ~50 bin TL olduğunu yazıyor (yazı tarihli, güncel değil). DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı), kavrama ve mekatronik için ~30 bin TL, bir Golf'te şanzıman için 43.000 TL bildirilmiş; Şikâyetvar'da eski (2014-2016) araçlar için 9-13 bin TL, son yıllarda 40-60 bin TL ve üzeri rakamlar var. Farklı yıllara ait, doğrudan karşılaştırılamaz; güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo). And Mehmet Çetin, 1.6 TDI ile 1.0-1.2 TSI motorlu VAG araçlarında DSG'nin 1.4 TSI'ya göre daha uzun dayandığını gözlemlediğini yazıyor (kişisel gözlem, istatistik değil)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/skoda/octavia/dsg",
             "https://www.sikayetvar.com/skoda/octavia/sanziman",
             "https://forum.donanimhaber.com/dsg-problemleri-skoda-octavia-1-6tdi-dsg--43534513",
-            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
           ]
         }
       ]
@@ -3006,11 +3320,23 @@
           "belirtiler": "Vites geçişlerinde vuruntu, göstergedeki vites harflerinin yanıp sönmesi, çekiş kaybı, şanzımanın acil moda geçmesi",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı, 2008'de çıkan DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu belirtiyor. VW Yeni Zelanda, Ekim 2008-Kasım 2014 arası üretilen DQ200'lü araçlar için hidrolik basınç kaybına karşı mekatronik incelemesi öngören bir kampanya (35E5) yayımlamış. Otopark'ta bir kullanıcı yanlış şanzıman yağını da neden olarak sayıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür. Sonuca göre kavrama seti (baskı balata, disk, gerekirse volan) ve/veya mekatronik ünite yenilenir ya da onarılır; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Şikâyetvar'daki DSG şikâyetlerinde garanti dışı araçlarda bayiden 'iyi niyet' katkısı istendiği, bazı servislerin ise kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek öneriliyor.",
+            "maliyet": "Fiyatlar tarihe ve servise göre çok değişiyor. And Mehmet Çetin kuru kavramanın ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebileceğini, bunun yetkili serviste 60-80 bin, sanayide ~50 bin TL olduğunu yazıyor (yazı tarihli, güncel değil). DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı), kavrama ve mekatronik için ~30 bin TL, bir Golf'te şanzıman için 43.000 TL bildirilmiş; Şikâyetvar'da eski (2014-2016) araçlar için 9-13 bin TL, son yıllarda 40-60 bin TL ve üzeri rakamlar var. Farklı yıllara ait, doğrudan karşılaştırılamaz; güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo)."
+          },
           "kaynaklar": [
             "https://www.briskoda.net/forums/topic/438569-mechatronics-failure-dsg/",
             "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
             "https://www.sikayetvar.com/skoda/octavia/sanziman",
-            "https://www.vwvortex.com/threads/dq200-dsg-in-global-recall-possibly-affects-jetta-hybrid.6858488/page-4"
+            "https://www.vwvortex.com/threads/dq200-dsg-in-global-recall-possibly-affects-jetta-hybrid.6858488/page-4",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
           ],
           "donem_kirilimi": [
             {
@@ -3027,10 +3353,20 @@
           "belirtiler": "Kalkışta silkeleme, yokuşta geri kayma hissi, düşük hızda sarsıntılı vites geçişleri",
           "tahmini_km_araligi": "60.000 - 140.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kuru kavramanın sürtünme diski dur-kalk trafikte ve zorlayıcı kalkışlarda yıpranıyor. Otopark'ta bir kullanıcı kavrama ömrünün büyük ölçüde sürüş tarzına bağlı olduğunu, baskı balata sürekli zorlanırsa hızla aştığını yazıyor. And Mehmet Çetin kuru kavramalı şanzımanların ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebildiğini belirtiyor; başka bir Otopark kullanıcısı baskı balatayı hiç değiştirmeden 80-100 bin km sorunsuz geçenler olduğunu söylüyor.",
+            "teshis": "Kalkışta silkeleme ya da titreme, 1-2 geçişinde sertlik, gaza basınca hızın artmaması ve yokuşta geri kayma kavrama setinin yıprandığını düşündürüyor (Araclo). Mekatronikteki basınç kaybı aynı titremeyi üretebildiği için kavrama kalınlığı ve arıza kodları ölçülmeden kavrama değiştirilmemeli. Octavia forumlarında (Briskoda) DSG titremesi ve mekatronik sorunu birlikte tartışılıyor.",
+            "cozum": "Kavrama seti (baskı balata, disk, gerekirse volan) yenilenir; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Bir DonanımHaber kullanıcısı kavramayı garantisi olsun olmasın serviste normal manuel kavrama fiyatına değiştirdiklerini yazıyor.",
+            "maliyet": "And Mehmet Çetin yazısı baskı balata ve volan değişimi için yetkili serviste 60-80 bin, sanayide ~50 bin TL diyor (yazı tarihli, güncel değil); DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı) yazılmış. Farklı yıllara ait rakamlar; güncel teklif alın.",
+            "onlem": "Sürüş tarzı kavrama ömrünü doğrudan etkiliyor (Otopark); motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor. Kavrama değişimi sırasında mekatroniğin de kontrol ettirilmesi öneriliyor (DonanımHaber)."
+          },
           "kaynaklar": [
             "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
             "https://www.briskoda.net/forums/topic/509343-dsg-judder-mechatronic-issue-please-help/",
-            "https://www.sikayetvar.com/skoda/octavia/sanziman"
+            "https://www.sikayetvar.com/skoda/octavia/sanziman",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4"
           ]
         },
         {
@@ -3062,13 +3398,25 @@
           "belirtiler": "\"Aracı P konumunda terk edin\" uyarısı, düşük hızda sarsıntı ve tıkırtı, vites geçişlerinde vuruntu, boşa düşme, acil moda geçme",
           "tahmini_km_araligi": "30.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı, 2008'de çıkan DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu belirtiyor. VW Yeni Zelanda, Ekim 2008-Kasım 2014 arası üretilen DQ200'lü araçlar için hidrolik basınç kaybına karşı mekatronik incelemesi öngören bir kampanya (35E5) yayımlamış. Otopark'ta bir kullanıcı yanlış şanzıman yağını da neden olarak sayıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür. Sonuca göre kavrama seti (baskı balata, disk, gerekirse volan) ve/veya mekatronik ünite yenilenir ya da onarılır; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Şikâyetvar'daki DSG şikâyetlerinde garanti dışı araçlarda bayiden 'iyi niyet' katkısı istendiği, bazı servislerin ise kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek öneriliyor.",
+            "maliyet": "Fiyatlar tarihe ve servise göre çok değişiyor. And Mehmet Çetin kuru kavramanın ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebileceğini, bunun yetkili serviste 60-80 bin, sanayide ~50 bin TL olduğunu yazıyor (yazı tarihli, güncel değil). DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı), kavrama ve mekatronik için ~30 bin TL, bir Golf'te şanzıman için 43.000 TL bildirilmiş; Şikâyetvar'da eski (2014-2016) araçlar için 9-13 bin TL, son yıllarda 40-60 bin TL ve üzeri rakamlar var. Farklı yıllara ait, doğrudan karşılaştırılamaz; güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo). And Mehmet Çetin, 1.6 TDI ile 1.0-1.2 TSI motorlu VAG araçlarında DSG'nin 1.4 TSI'ya göre daha uzun dayandığını gözlemlediğini yazıyor (kişisel gözlem, istatistik değil)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/skoda/rapid",
             "https://www.sikayetvar.com/skoda/kronik/rapid",
             "https://www.sikayetvar.com/skoda/dsg",
             "https://forum.donanimhaber.com/2016-model-731-km-de-skoda-rapid-sedan-1-2-tsi-dsg-sanziman-hatasi--119140810",
             "https://forum.donanimhaber.com/dsg-sanziman-sorunu-skoda-rapid--131794183",
-            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
           ]
         }
       ]
@@ -3088,12 +3436,24 @@
           "belirtiler": "\"Aracı P konumunda terk edin\" uyarısı, düşük hızda sarsıntı ve tıkırtı, vites geçişlerinde vuruntu, boşa düşme, acil moda geçme",
           "tahmini_km_araligi": "30.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı, 2008'de çıkan DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu belirtiyor. VW Yeni Zelanda, Ekim 2008-Kasım 2014 arası üretilen DQ200'lü araçlar için hidrolik basınç kaybına karşı mekatronik incelemesi öngören bir kampanya (35E5) yayımlamış. Otopark'ta bir kullanıcı yanlış şanzıman yağını da neden olarak sayıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür. Sonuca göre kavrama seti (baskı balata, disk, gerekirse volan) ve/veya mekatronik ünite yenilenir ya da onarılır; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Şikâyetvar'daki DSG şikâyetlerinde garanti dışı araçlarda bayiden 'iyi niyet' katkısı istendiği, bazı servislerin ise kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek öneriliyor.",
+            "maliyet": "Fiyatlar tarihe ve servise göre çok değişiyor. And Mehmet Çetin kuru kavramanın ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebileceğini, bunun yetkili serviste 60-80 bin, sanayide ~50 bin TL olduğunu yazıyor (yazı tarihli, güncel değil). DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı), kavrama ve mekatronik için ~30 bin TL, bir Golf'te şanzıman için 43.000 TL bildirilmiş; Şikâyetvar'da eski (2014-2016) araçlar için 9-13 bin TL, son yıllarda 40-60 bin TL ve üzeri rakamlar var. Farklı yıllara ait, doğrudan karşılaştırılamaz; güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo). And Mehmet Çetin, 1.6 TDI ile 1.0-1.2 TSI motorlu VAG araçlarında DSG'nin 1.4 TSI'ya göre daha uzun dayandığını gözlemlediğini yazıyor (kişisel gözlem, istatistik değil)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/skoda/rapid",
             "https://www.sikayetvar.com/skoda/kronik/rapid",
             "https://www.sikayetvar.com/skoda/dsg",
             "https://forum.donanimhaber.com/dsg-sanziman-sorunu-skoda-rapid--131794183",
-            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
           ]
         }
       ]
@@ -3224,11 +3584,24 @@
           "belirtiler": "Vites geçişlerinde vuruntu, göstergedeki vites harflerinin yanıp sönmesi, çekiş kaybı, şanzımanın acil moda geçmesi",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı, 2008'de çıkan DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu belirtiyor. VW Yeni Zelanda, Ekim 2008-Kasım 2014 arası üretilen DQ200'lü araçlar için hidrolik basınç kaybına karşı mekatronik incelemesi öngören bir kampanya (35E5) yayımlamış. Otopark'ta bir kullanıcı yanlış şanzıman yağını da neden olarak sayıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür. Sonuca göre kavrama seti (baskı balata, disk, gerekirse volan) ve/veya mekatronik ünite yenilenir ya da onarılır; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Şikâyetvar'daki DSG şikâyetlerinde garanti dışı araçlarda bayiden 'iyi niyet' katkısı istendiği, bazı servislerin ise kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek öneriliyor.",
+            "maliyet": "Fiyatlar tarihe ve servise göre çok değişiyor. And Mehmet Çetin kuru kavramanın ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebileceğini, bunun yetkili serviste 60-80 bin, sanayide ~50 bin TL olduğunu yazıyor (yazı tarihli, güncel değil). DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı), kavrama ve mekatronik için ~30 bin TL, bir Golf'te şanzıman için 43.000 TL bildirilmiş; Şikâyetvar'da eski (2014-2016) araçlar için 9-13 bin TL, son yıllarda 40-60 bin TL ve üzeri rakamlar var. Farklı yıllara ait, doğrudan karşılaştırılamaz; güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo)."
+          },
           "kaynaklar": [
             "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
             "https://forum.donanimhaber.com/golf-6-alicam-ama-dsg-sorunu-ne-oldu--38444209",
             "https://www.sikayetvar.com/volkswagen/golf/sanziman",
-            "https://www.briskoda.net/forums/topic/444617-7sp-dq200-dsg-failure/"
+            "https://www.briskoda.net/forums/topic/444617-7sp-dq200-dsg-failure/",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.sikayetvar.com/volkswagen/garanti/dsg-sanziman",
+            "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
           ],
           "donem_kirilimi": [
             {
@@ -3275,10 +3648,23 @@
           "belirtiler": "Düşük hızda sarsıntı, geç kavrama, vites geçişlerinde vuruntu, şanzımanın acil moda geçmesi",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı, 2008'de çıkan DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu belirtiyor. VW Yeni Zelanda, Ekim 2008-Kasım 2014 arası üretilen DQ200'lü araçlar için hidrolik basınç kaybına karşı mekatronik incelemesi öngören bir kampanya (35E5) yayımlamış. Otopark'ta bir kullanıcı yanlış şanzıman yağını da neden olarak sayıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür. Sonuca göre kavrama seti (baskı balata, disk, gerekirse volan) ve/veya mekatronik ünite yenilenir ya da onarılır; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Şikâyetvar'daki DSG şikâyetlerinde garanti dışı araçlarda bayiden 'iyi niyet' katkısı istendiği, bazı servislerin ise kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek öneriliyor.",
+            "maliyet": "Fiyatlar tarihe ve servise göre çok değişiyor. And Mehmet Çetin kuru kavramanın ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebileceğini, bunun yetkili serviste 60-80 bin, sanayide ~50 bin TL olduğunu yazıyor (yazı tarihli, güncel değil). DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı), kavrama ve mekatronik için ~30 bin TL, bir Golf'te şanzıman için 43.000 TL bildirilmiş; Şikâyetvar'da eski (2014-2016) araçlar için 9-13 bin TL, son yıllarda 40-60 bin TL ve üzeri rakamlar var. Farklı yıllara ait, doğrudan karşılaştırılamaz; güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo)."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/1-4-tsi-7-dsg-sorunlari-ve-yorumlari--65393823",
             "https://www.sikayetvar.com/volkswagen/volkswagen-golf-7-sanziman-sorunu",
-            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.sikayetvar.com/volkswagen/garanti/dsg-sanziman",
+            "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
           ],
           "donem_kirilimi": [
             {
@@ -3400,10 +3786,23 @@
           "belirtiler": "DSG hata mesajı, vites geçişlerinde sarsıntı, acil moda geçme; onarım yüksek maliyetli",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı ikinci nesilde (2012 sonrası) mekatronik arızasının azaldığını yazsa da kullanıcılar daha yeni model yıllarında da kavrama ve mekatronik şikâyeti bildiriyor. Otopark'ta bir kullanıcı yanlış şanzıman yağını, bir başkası motor yazılımıyla bozulan şanzıman kalibrasyonunu da neden olarak anıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür; sonuca göre kavrama seti ve/veya mekatronik yenilenir. Şikâyetvar'daki bir Passat B8 vakasında garanti dışı araç için bayi 'iyi niyet' katkısı vermiş: kavrama ve mekatronik için parçada %100, işçilikte %70 (kalanını sahibi ödemiş). Başka şikâyetlerde servislerin kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek, ikinci bir yetkili servisten teklif almak öneriliyor.",
+            "maliyet": "Şikâyetvar'da bir Passat B8 sahibi, iyi niyet katkısından önce kavrama için ~10.000 TL, mekatronik için 10-12 bin TL tahmin edildiğini yazıyor; 2022 model bir Passat için kavrama onarımında 41.900 TL'lik masraf bildirilmiş. Başka bir Passat sahibi, uzatılmış garantide kavrama değişiminden 60 bin km sonra aynı arıza tekrarlayınca parça bedelinde indirim almış. Rakamlar farklı yıl ve bayilere ait; güncel teklif için birkaç yetkili servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo). And Mehmet Çetin, 1.6 TDI ile 1.0-1.2 TSI motorlu VAG araçlarında DSG'nin 1.4 TSI'ya göre daha uzun dayandığını gözlemlediğini yazıyor (kişisel gözlem, istatistik değil)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/volkswagen/passat/dsg",
             "https://www.sikayetvar.com/otomerkezinet/otomerkezinet-passat-b8-kavrama-ve-mekatronik-arizasi",
-            "https://forum.donanimhaber.com/passat-b8-dsg-arizasi-2018-guncelleme-yine-bozuldu--116297212-15"
+            "https://forum.donanimhaber.com/passat-b8-dsg-arizasi-2018-guncelleme-yine-bozuldu--116297212-15",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.sikayetvar.com/dsg-sanziman/passat",
+            "https://www.sikayetvar.com/volkswagen/garanti/dsg-sanziman"
           ]
         }
       ]
@@ -3445,12 +3844,24 @@
           "belirtiler": "\"Aracı P konumunda terk edin\" uyarısı, düşük hızda sarsıntı ve tıkırtı, vites geçişlerinde vuruntu, boşa düşme, acil moda geçme",
           "tahmini_km_araligi": "30.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı ikinci nesilde (2012 sonrası) mekatronik arızasının azaldığını yazsa da kullanıcılar daha yeni model yıllarında da kavrama ve mekatronik şikâyeti bildiriyor. Otopark'ta bir kullanıcı yanlış şanzıman yağını, bir başkası motor yazılımıyla bozulan şanzıman kalibrasyonunu da neden olarak anıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür. Sonuca göre kavrama seti (baskı balata, disk, gerekirse volan) ve/veya mekatronik ünite yenilenir ya da onarılır; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Şikâyetvar'daki DSG şikâyetlerinde garanti dışı araçlarda bayiden 'iyi niyet' katkısı istendiği, bazı servislerin ise kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek öneriliyor.",
+            "maliyet": "Fiyatlar tarihe ve servise göre çok değişiyor. And Mehmet Çetin kuru kavramanın ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebileceğini, bunun yetkili serviste 60-80 bin, sanayide ~50 bin TL olduğunu yazıyor (yazı tarihli, güncel değil). DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı), kavrama ve mekatronik için ~30 bin TL, bir Golf'te şanzıman için 43.000 TL bildirilmiş; Şikâyetvar'da eski (2014-2016) araçlar için 9-13 bin TL, son yıllarda 40-60 bin TL ve üzeri rakamlar var. Farklı yıllara ait, doğrudan karşılaştırılamaz; güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo). And Mehmet Çetin, 1.6 TDI ile 1.0-1.2 TSI motorlu VAG araçlarında DSG'nin 1.4 TSI'ya göre daha uzun dayandığını gözlemlediğini yazıyor (kişisel gözlem, istatistik değil)."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/volkswagen/polo/sanziman",
             "https://www.sikayetvar.com/volkswagen/dsg/polo",
             "https://forum.donanimhaber.com/100-000-km-polo-dsg-sorunu--158635507",
             "https://forum.donanimhaber.com/vw-polo-dsg-hata-sanziman-arizasi--158796813",
-            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.sikayetvar.com/volkswagen/garanti/dsg-sanziman"
           ]
         }
       ]

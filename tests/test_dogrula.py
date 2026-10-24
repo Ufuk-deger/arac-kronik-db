@@ -177,6 +177,7 @@ class DogrulaTesti(unittest.TestCase):
     def test_alt_alan_adi_kayit_defteriyle_eslesir(self):
         self.assertEqual(dogrula.alan_adi("https://forum.donanimhaber.com/x"), "donanimhaber.com")
         self.assertEqual(dogrula.alan_adi("https://www.honestjohn.co.uk/x"), "honestjohn.co.uk")
+        self.assertEqual(dogrula.alan_adi("https://www.volkswagen.co.nz/x"), "volkswagen.co.nz")
 
     def test_km_bicimi(self):
         veri = ornek()

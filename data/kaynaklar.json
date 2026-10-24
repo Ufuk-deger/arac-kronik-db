@@ -538,6 +538,14 @@
       "guven": "düşük",
       "ana_sayfa": "https://www.drivisual.tv/",
       "not": "Motor bazlı satın alma ve kronik sorun rehberleri (Türkçe ve İngilizce). Tek bir blog; bağımsız kaynakla karşılaştırılmalı."
+    },
+    "volkswagen.co.nz": {
+      "ad": "Volkswagen Yeni Zelanda",
+      "ulke": "NZ",
+      "tur": "resmi",
+      "guven": "yüksek",
+      "ana_sayfa": "https://www.volkswagen.co.nz/",
+      "not": "Üretici kampanya sayfası (DQ200 mekatronik ünitesi, kampanya 35E5). Yeni Zelanda pazarı için yayımlanmış; Türkiye'de geçerliliği ayrıca doğrulanmalı."
     }
   }
 }

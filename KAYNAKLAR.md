@@ -42,17 +42,17 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 63 farklı site, 160 sorun için kullanıldı.
+Toplam 64 farklı site, 160 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 91 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
-| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 86 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
-| [Araclo](https://www.araclo.com/) | TR | düşük | 74 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
-| [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 46 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. |
-| [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 34 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
+| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 101 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
+| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 94 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
+| [Araclo](https://www.araclo.com/) | TR | düşük | 83 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
+| [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 53 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
+| [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 50 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. |
 | [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 17 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
 | [Autopartia](https://autopartia.com/) | TR | düşük | 5 | Yedek parça satıcısı; motor bazlı blog ve 'uzman' sayfaları. Ticari site, belirli bir OEM parçayı sürekli öneriyor; tek başına yeterli sayılmaz. |
 | [Carsece](https://www.carsece.com/) | TR | düşük | 5 | Araç rehberi ve bakım blogu. Maliyet tahminlerinin kaynağını göstermiyor; tek başına yeterli sayılmaz. |
@@ -65,6 +65,7 @@ Toplam 63 farklı site, 160 sorun için kullanıldı.
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
+| [Volkswagen Yeni Zelanda](https://www.volkswagen.co.nz/) | NZ | yüksek | 9 | Üretici kampanya sayfası (DQ200 mekatronik ünitesi, kampanya 35E5). Yeni Zelanda pazarı için yayımlanmış; Türkiye'de geçerliliği ayrıca doğrulanmalı. |
 | [NHTSA (ABD)](https://www.nhtsa.gov/) | US | yüksek | 3 | Resmî geri çağırma, servis bülteni (TSB) ve şikâyet kayıtları. |
 | [OCU (İspanya)](https://www.ocu.org/) | ES | orta | 2 | İspanyol tüketici örgütünün Renault motoru için toplu başvuru sayfası. |
 | [Ammons Law Firm](https://www.ammonslaw.com/) | US | düşük | 1 | Hukuk bürosu sayfası. Honda arka lastik aşınması için servis bülteni özetini içeriyor. |
