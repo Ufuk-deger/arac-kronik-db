@@ -128,6 +128,9 @@ Kurallar:
 - Aile bağı otomatik kurulmaz: her bağ modelin, üretim yılının ve motor kodunun eşleştiği bilinen bir kombinasyona
   dayanır; emin olunmayan eşleşme eklenmez. Kanıt yalnızca bir motor sürümü için varsa aile o sürüme göre daraltılır
   (ör. VAG 1.2 TSI ve 1.4 TSI ayrı aileler; 1.6 TDI enjektörü ayrı, EGR / DPF ayrı).
+- Hangi modelin hangi motor ya da şanzımanla (hangi yıllarda, Türkiye'de) satıldığı bilgisi kaynaklarla tek tek doğrulanmamıştır; editoryal bilgiye dayanır ve
+  yalnızca ◐ kayıtlarında değil tüm aile bağlarında geçerlidir. Hatalı bir eşleşme görürseniz kaydı ya da aile bağını düzeltin; satın almadan önce
+  aracın motor kodunu ruhsattan ya da şasi numarasından kontrol edin.
 - Her aile en az bir kayıtta kullanılmalıdır; bilinmeyen aileye ya da aile sorununa işaret eden ya da kaydın bağlı olmadığı
   aileden `aile_sorunu` yazan kayıt doğrulayıcı hatasıdır.
 - Aile sorunlarının kaynakları da `KAYNAKLAR.md` site ve kullanım sayımlarına dahildir.
