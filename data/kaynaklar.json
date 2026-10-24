@@ -546,6 +546,38 @@
       "guven": "yüksek",
       "ana_sayfa": "https://www.volkswagen.co.nz/",
       "not": "Üretici kampanya sayfası (DQ200 mekatronik ünitesi, kampanya 35E5). Yeni Zelanda pazarı için yayımlanmış; Türkiye'de geçerliliği ayrıca doğrulanmalı."
+    },
+    "malaymail.com": {
+      "ad": "Malay Mail",
+      "ulke": "MY",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://www.malaymail.com/",
+      "not": "Malezya haber sitesi; Passat 2.0 TDI yağ pompası geri çağırma haberi."
+    },
+    "go-parts.com": {
+      "ad": "GoParts",
+      "ulke": "US",
+      "tur": "parca-atolye",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.go-parts.com/",
+      "not": "Parça satıcısı; OBD kodu ve parça rehberleri ticari amaçlıdır."
+    },
+    "foreignautomotive.ca": {
+      "ad": "Foreign Automotive",
+      "ulke": "CA",
+      "tur": "parca-atolye",
+      "guven": "düşük",
+      "ana_sayfa": "https://foreignautomotive.ca/",
+      "not": "Kanada'da BMW atölyesi; blog yazıları pazarlama dilindedir."
+    },
+    "electricvehicleforums.com": {
+      "ad": "ElectricVehicleForums",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "düşük",
+      "ana_sayfa": "https://electricvehicleforums.com/",
+      "not": "Civic Hybrid forumu; Honda 08-001 bülteni aktarımı içeriyor."
     }
   }
 }

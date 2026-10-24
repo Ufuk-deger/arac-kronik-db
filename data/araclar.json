@@ -249,10 +249,19 @@
           "belirtiler": "Soğutma suyu eksilmesi, egzozdan beyaz duman, tahrik arızası uyarısı; bir sahip sorunun 70.000-80.000 km civarında görüldüğünü ve parçanın bütün olarak değiştiğini yazıyor",
           "tahmini_km_araligi": "60.000 - 100.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetlerde su eksilmesi, beyaz duman ve performans düşüklüğü birlikte anılıyor; bir kullanıcı sorunun B38 motor kodlu BMW'lerde kronik olduğunu yazıyor. And Mehmet Çetin'in yazısındaki kullanıcı yorumlarına göre turbo manifoldla bitişik ve alüminyum olduğu için sıcak-soğuk geçişlerinde dayanımı düşük ve küçük çatlaklar oluşuyor; bazı kullanıcılar parça değişiminden sonra da sorunu yaşamış. Bazı forum yazarları özel servislerde kullanılan kırmızı antifrizin manifoldda çatlamaya yol açtığını ve mavi antifriz kullanılması gerektiğini savunuyor (doğrulanmamış iddia).",
+            "teshis": "Soğutma suyu eksilmesi, egzozdan beyaz duman ve tahrik arızası uyarısı; bir 118i sahibi 47 bin km'de tahrik uyarısı aldığını yazıyor. Teşhis her zaman kesin değil: bir kullanıcıya tahrik hatası nedeniyle yetkili serviste turbo değişimi istenmiş, ikinci serviste turbonun sağlam çıkmış.",
+            "cozum": "Manifold ve turbonun (kaynaklarda çoğunlukla tek parça olarak) değiştirilmesi; bir şikâyetçi parçanın bütün olarak değiştiğini yazıyor.",
+            "maliyet": "Bir forumda manifold/turbo değişiminin yaklaşık 60-70 bin TL olduğu yazılmış (yaklaşık iki yıl önceki yorum, güncel değil). Başka BMW modellerine ait Euro cinsinden turbo faturaları da var ama B38'e özgü olup olmadığı belirsiz.",
+            "onlem": "Soğutma suyu seviyesini düzenli takip etmek, uygun (BMW onaylı) antifriz kullanmak ve yetkili servisten yazılı teklif almak."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/bmw/bmw-118i-kronik-manifold-sorunu-ve-musteri-magduriyeti",
             "https://www.sikayetvar.com/bmw/118/kronik?page=3",
-            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/",
+            "https://www.sikayetvar.com/bmw/118/b38",
+            "https://otopark.com/forum/threads/bmw-118i-b38-motor.16070/"
           ]
         }
       ]
@@ -445,11 +454,19 @@
           "belirtiler": "Soğuk çalıştırmada motorun arkasından gelen ıslık/tıkırtı sesi, ileri aşamada zincir kopması ve motor hasarı",
           "tahmini_km_araligi": "100.000 - 200.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Araclo'nun 320d rehberi zamanlama zincirini N47'nin (E90 ve F30 pre-LCI) en bilinen ve en ciddi kronik sorunu olarak anıyor; zincir motorun arka tarafında ve zamanla uzayıp gergi kapasitesini aşabiliyor. Mevcut dönem notları Ocak 2009'a kadar üretilen krank millerindeki keskin dişliye de işaret ediyor.",
+            "teshis": "Soğuk çalıştırmada motorun arka kısmından gelen 'çıngırak' ya da zincir tıkırtısı en yaygın belirti; sorun genellikle 100.000-150.000 km arasında belirginleşiyor, bakımsız araçlarda daha erken görülebiliyor (Araclo). DonanımHaber'de bir kullanıcı serviste ölçümlerin normal çıktığını ve sesin mutlaka zincir uzaması anlamına gelmediğini yazıyor.",
+            "cozum": "Zincir seti değişimi: zincir motorun arkasında olduğu için motorun sökülüp yeniden takılması gerekiyor ve işçilik pahalı (forum). Araclo zincir seti değişiminde yağ pompasının da kontrol edilmesini öneriyor. Güncel fiyat aramada bulunamadı.",
+            "onlem": "Satın almadan önce şasi numarasıyla motor tipini (N47 mi B47 mi) ve üretim yılını doğrulatmak, motor soğukken arka taraftan gelen zincir sesini dinlemek ve zincir değişim kaydını sormak."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/n47-motor-zincir-sesi-ve-problemi-zaman-zinciri--113480942",
             "https://otopark.com/forum/threads/320d-520d-motor-zincir-problemi.1092/",
             "https://www.e90post.com/forums/showthread.php?t=791870",
-            "https://www.parkers.co.uk/bmw/3-series/touring-2005/used-review/"
+            "https://www.parkers.co.uk/bmw/3-series/touring-2005/used-review/",
+            "https://www.araclo.com/blog/bmw-3-serisi-320d-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026",
+            "https://forum.donanimhaber.com/320d-triger-zinciri-sorunu--125275363-2"
           ],
           "donem_kirilimi": [
             {
@@ -472,10 +489,16 @@
           "belirtiler": "Çekiş kaybı, motor arıza lambası, soğutma suyu eksilmesi, egzozdan beyaz duman; BMW bu parça için geri çağırma yürüttü, şasi numarasıyla sorgulayın",
           "tahmini_km_araligi": "100.000 - 180.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Araclo'ya göre bazı kullanıcılar EGR valfinin birden fazla kez değiştirilmesi gerektiğini ve her seferinde yüksek maliyet ödediklerini aktarıyor; bazı üretim dönemlerinde EGR soğutucusu üretici kampanyalarına konu olmuş. Kısa mesafe kullanımda EGR kurumlanması artıyor. Şikâyetvar'da bir kullanıcı soğutucu ve valfin aynı sistemin parçaları olduğunu, yalnızca birinin kampanya kapsamına alınmasının sorunu çözmediğini savunuyor.",
+            "cozum": "BMW'nin bu parça için gönüllü geri çağırma ya da teknik güncelleme yürüttüğü Şikâyetvar şikâyetlerinde ve bir haber kaynağında (2018) anılıyor; kapsamı resmî kaynakla doğrulayamadım. Şasi numarasıyla BMW kampanya sorgusu yaptırın.",
+            "onlem": "Soğutma suyu eksilmesi, çekiş kaybı ve beyaz duman belirtilerinde kullanmaya devam etmeden servise gitmek; ikinci elde kampanya durumunu şasi numarasıyla sorgulamak."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/bmw-3-serisi-320d-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026",
             "https://www.sikayetvar.com/bmw/n47-motorlu-bmwde-tekrarlayan-eger-arizasi-ve-geri-cagirma-istegi",
-            "https://www.carguide.ph/2018/08/bmw-recalls-42-models-including-320d.html?m=1"
+            "https://www.carguide.ph/2018/08/bmw-recalls-42-models-including-320d.html?m=1",
+            "https://www.sikayetvar.com/bmw/bmw-n47-egr-valfi-sorunu-icin-gonullu-geri-cagirma-cevabi-alinamadi"
           ]
         }
       ]
@@ -495,6 +518,11 @@
           "belirtiler": "Motor önünden gelen ıslık/vınlama sesi, arıza lambası, ileri aşamada zincir atlaması ve motor hasarı",
           "tahmini_km_araligi": "80.000 - 160.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Bimmerpost'ta plastik zincir kılavuzlarının kırıldığı ve zincirin gevşediği anlatılıyor: bir sahip kılavuzları kırık bulmuş ve parçalarını karterde görmüş; fazla boşluk zincirin plastik kılavuzlara çarpmasına, kılavuzların gevrekleşip kırılarak motora ya da yağ pompasına karışmasına yol açıyor. Bir bayi teşhisinde kılavuz parçaları yağ emme süzgecini tıkamış; yağ pompası tahrik zincirinin de kopup düşük yağ basıncıyla motoru durdurabildiği yazılı.",
+            "cozum": "Zincir seti ve kılavuzlar değiştirilir; parça satıcısı FCP Euro işlemi adım adım anlatıyor. CarComplaints'in haberine göre ABD'de zincir sorunuyla ilgili bir toplu dava uzlaşması sağlanmış; Türkiye'deki kapsam doğrulanmadı.",
+            "maliyet": "Bir ABD'li sahip garanti dışı atölye onarımının 4-5 bin dolara, zincir kopup motora zarar verirse 15-18 bin dolara çıkabileceğini yazıyor (birkaç yıl önce, Türkiye için doğrudan geçerli değil)."
+          },
           "kaynaklar": [
             "https://f30.bimmerpost.com/forums/showthread.php?t=1622988",
             "https://www.carcomplaints.com/news/2020/bmw-timing-chain-lawsuit-settlement-reached.shtml",
@@ -522,10 +550,18 @@
           "belirtiler": "Hararet uyarısı, soğutma sıvısı uyarı mesajı, fanların sürekli çalışması, motor gücünün sınırlanması",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Parça satıcıları (BimmerWorld, FCP Euro) arızanın çoğunlukla pompanın iç elektroniğinden geldiğini ve çok az uyarı verdiğini yazıyor. Bimmerpost'ta alıntılanan geri çağırma metnine göre (BMW, ABD kampanya no. 24V-608) PCV sisteminden damlayan küçük sıvı damlaları pompa konnektörünü bozabiliyor. Bir sahip pompa konnektöründe çok küçük bir sızıntı bulmuş; konnektör korozyona uğramış ve çok sayıda anlamsız arıza kodu üretmiş.",
+            "teshis": "Fan sürekli yüksek hızda çalışır, yüksek soğutma suyu sıcaklığı mesajı gelir, motor geç ısınır; FCP Euro 2E81, 2E82 ve 2E85 kodlarını da sayıyor. BimmerWorld'e göre arıza başlayınca koşullara bağlı olarak motorun aşırı ısınmaya karşı kapanmasına yalnızca dakikalar kalabilir. Bir sahip arıza lambası ya da limp modu olmadan aynı belirtileri yaşadığını yazıyor. Bir başlıkta aşırı ısınmanın yanlış teşhis edildiği anlatılıyor: bayinin hava alması belirtiyi önce gidermiş, hava sistemde kalınca geri gelmiş. Forumlarda pompadan önce termostat, sistemdeki hava ve konnektör de şüpheli sayılıyor.",
+            "cozum": "Geri çağırma kapsamındaki onarımda pompa ve konnektör kontrol edilip gerekirse değiştiriliyor ve koruyucu bir kapak ekleniyor. BimmerWorld bunu üç kademeli bir servis işlemi olarak anlatıyor (sıçrama kapağı, elektrik konnektörü ya da pompanın tamamı) ve kademeyi bayinin seçtiğini söylüyor. Bir sahip 2025'te bayide düzeltmenin henüz mevcut olmadığını yazıyor. Kapsamı şasi numarasıyla BMW ya da NHTSA kayıtlarından sorgulayın; Türkiye'deki araçlar için kapsam doğrulanmadı.",
+            "maliyet": "Geri çağırma kapsamındaki onarım ABD'de ücretsiz. Kapsam dışında BimmerWorld OEM Pierburg pompayı (11518635089) yaklaşık 449 dolara listeliyor; bu yalnızca parça fiyatı, ABD'ye ait ve işçilik dahil değil.",
+            "onlem": "BimmerWorld ani arızalar nedeniyle 100.000 mil (~160.000 km) öncesinde önleyici pompa değişimini ve termostatın aynı anda değiştirilmesini öneriyor; FCP Euro termostatı pompayla birlikte değiştirmeyi akıllıca buluyor (ikisi de parça satıcısı). Sıklık konusunda görüşler ayrışıyor: BimmerWorld N20 pompasının N54/N55 kadar çok arızalanmadığını düşünüyor, bir atölye blogu (Foreign Automotive, pazarlama dili) aynı pompayı en sık değiştirdiği parçalar arasında sayıyor; bir Bimmerpost sahibi ise N20'de yaygın erken arızanın pompa değil termostat olduğunu yazıyor."
+          },
           "kaynaklar": [
             "https://f30.bimmerpost.com/forums/showthread.php?t=2166229",
             "https://www.bimmerworld.com/Cooling/Water-Pumps/BMW-Water-Pump-N20-N26-F22-F30-F32-F10-X1-F25-F26-E89-11518635089.html",
-            "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-f30-water-pump-thermostat-n20-n26-engine"
+            "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-f30-water-pump-thermostat-n20-n26-engine",
+            "https://foreignautomotive.ca/blogs/news/bmw-electric-water-pump-failure-symptoms-causes-and-replacement-costs-in-ontario"
           ]
         },
         {
@@ -534,6 +570,11 @@
           "belirtiler": "Motor altında yağ izi, yanık yağ kokusu, ileri durumda aksesuar kayışına yağ bulaşması",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "FCP Euro'ya göre yuvadaki kauçuk conta motor ısısıyla kuruyup sızdırmaya başlıyor; ABD'li sahipler bu contaların nadiren yaklaşık 130.000 km'yi (80.000 mil) geçtiğini yazıyor. Bimmerpost'ta bu, en tutarlı biçimde belgelenen N20 kaçak noktalarından biri olarak geçiyor.",
+            "teshis": "Motor altında ve üstünde yağ izi; kaçak yağ soğutucusuyla karıştırılabiliyor: bir sahip kaçağın aslında yağ soğutucusundan geldiğini bulup yalnızca o parçayı değiştirmiş.",
+            "cozum": "Conta kitinin değişimi; FCP Euro'nun kılavuzu yaklaşık 60 dolarlık conta kitini ve işlem sırasında soğutma suyunun boşaltılması gerektiğini belirtiyor."
+          },
           "kaynaklar": [
             "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-n20-n26-oil-filter-housing-gasket-f30",
             "https://f30.bimmerpost.com/forums/showthread.php?t=1994474"
@@ -556,10 +597,17 @@
           "belirtiler": "Antifriz deposunda yağ birikmesi, antifriz eksilmesi, motor yağında köpüklenme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir yorum Cruze'lerde yağ soğutucusunun 'başbelası' olduğunu yazıyor (2019). Bir başka kullanıcı soğutma suyuna şanzıman yağı karıştığını ve yüksek masrafa yol açtığını anlatıyor; ustası yağ soğutucusunun bozulduğunu söylemiş ama sonradan sağlam çıkmış, yani teşhisin doğrulanması önemli.",
+            "cozum": "Yağ soğutucusu contasının ya da soğutucunun değişimi. Yağ ve su karışması varsa önce kaynağın (yağ soğutucu, üst kapak contası, devirdaim ya da şanzıman soğutucusu) tespit edilmesi gereksiz parça değişimini önlüyor.",
+            "maliyet": "Genel bir rehberde yalnızca conta değişimi 500-1.500 TL, tüm ünite 2.000-5.000 TL; bir yorumda orijinal soğutucu yaklaşık 1.000 civarı (2019) yazılı; rakamların kaynağı belirsiz ve güncel değil. Bir kullanıcı şanzıman yağı karışması yüzünden 14.000 TL masraf çıktığını yazıyor."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/chevrolet-cruze-alinir-mi-gercekten-sorunlu-mu-nelere-dikkat-etmeliyim--161725714",
             "https://otopark.com/forum/threads/chevrolet-cruze-1-6-alinir-mi.6179/",
-            "https://www.cruzetalk.com/threads/oil-cooler-leak-questions.262742/"
+            "https://www.cruzetalk.com/threads/oil-cooler-leak-questions.262742/",
+            "https://forum.donanimhaber.com/yag-sogutucusu-arizasi-ustam-beni-mi-kekledi--149970222",
+            "https://forum.donanimhaber.com/cruze-radyatorde-suya-sanziman-yagi-karismasi-yuzunden-14-000-tl-masraf-oku-sende-yanma--141891094"
           ]
         },
         {
@@ -568,10 +616,16 @@
           "belirtiler": "Antifriz eksilmesi, hararet göstergesinde dalgalanma, motor bölmesinde tatlımsı antifriz kokusu",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Bir DonanımHaber kullanıcısı termostat yuvasının çatladığını ve termostatın açık kaldığını (motorun ısınmadığını) bildiriyor; bir başka yorum gövdenin plastik olabileceğini, sıkarken tork anahtarı kullanılması gerektiğini ve metal gövde seçeneğinin de bulunduğunu yazıyor.",
+            "cozum": "Termostat ve gövdenin değişimi, antifrizin yenilenmesi.",
+            "maliyet": "2018 tarihli bir paylaşımda termostat 150 TL, termostat yuvası 180 TL, antifriz 70 TL, işçilik 100 TL; aynı kullanıcı fiyatın sonradan yaklaşık 300 TL'ye çıktığını ekliyor (eski, güncel değil)."
+          },
           "kaynaklar": [
             "https://www.cruzetalk.com/threads/infamous-chevy-cruze-coolant-system-issues.253100/",
             "https://www.carcomplaints.com/Chevrolet/Cruze/2013/cooling_system/coolant_leak.shtml",
-            "https://forum.donanimhaber.com/chevrolet-cruze-alinir-mi-gercekten-sorunlu-mu-nelere-dikkat-etmeliyim--161725714"
+            "https://forum.donanimhaber.com/chevrolet-cruze-alinir-mi-gercekten-sorunlu-mu-nelere-dikkat-etmeliyim--161725714",
+            "https://forum.donanimhaber.com/cruze-termostat-degisimi--135576818"
           ]
         },
         {
@@ -580,9 +634,15 @@
           "belirtiler": "Tekleme, rölantide titreme, çekiş kaybı, motor arıza lambası",
           "tahmini_km_araligi": "60.000 - 100.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Bir Avrupa model raporu (CarChecker.pro; ikincil, zayıf kaynak) F16D3/F16D4 motorlarda dört silindiri tek bir ray tipi bobin grubunun beslediğini, arızanın ısı çevrimi ve titreşimden kaynaklandığını, valf kapağı contası buji kuyularına yağ kaçırırsa bobin başlıklarının bozulduğunu yazıyor. Bobin düzenini onarım kılavuzu ya da parça kataloğundan şasi numarasıyla doğrulayın. Cruze bobin rehberlerinin çoğu 1.4/1.8 motorlar içindir; 1.6'ya özgü veri sınırlı.",
+            "teshis": "CarChecker.pro belirti olarak P0300-P0304 tekleme kodlarını, düzensiz rölantiyi ve gaz verirken tereddüdü sayıyor.",
+            "cozum": "Aynı kaynak bujilerin bobinle birlikte değiştirilmesini, tek bir çıkış bozuksa bütün grubun yenilenmesini öneriyor."
+          },
           "kaynaklar": [
             "https://otopark.com/forum/threads/cruze-hakkinda-bilgisi-olanlar.10295/",
-            "https://forum.donanimhaber.com/chevrolet-cruze-alinir-mi-gercekten-sorunlu-mu-nelere-dikkat-etmeliyim--161725714"
+            "https://forum.donanimhaber.com/chevrolet-cruze-alinir-mi-gercekten-sorunlu-mu-nelere-dikkat-etmeliyim--161725714",
+            "https://www.carchecker.pro/reports/chevrolet_cruze_j300_1.6.html"
           ]
         }
       ]
@@ -602,11 +662,18 @@
           "belirtiler": "Motor üstünde is/kurum kokusu, rölantide titreme, güç kaybı, soğuk çalıştırmada zorlanma",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forumlarda enjektör çevresinde yağ ve is birikmesinin enjektör bağlantısından kaynaklanabildiği anlatılıyor; olası kaynaklar hasarlı enjektör keçesi, aşınmış enjektör yuvası, gevşek ya da hasarlı enjektör diş tıpası ve arızalı O-halkaları. İngiliz Ford ve Fransız araba forumlarında DV6'da enjektör tespit cıvatalarının gevşemesi tasarım kusuru olarak anılıyor ve karbonun yanma odasından enjektör tüpüne, oradan yağa ulaştığı öne sürülüyor (bir uzmanın tahmini).",
+            "teshis": "Motor üstünde is/kurum kokusu ve siyah karbon birikimi, enjektör çevresinde yağ, rölantide titreme, güç kaybı, soğuk çalıştırmada zorlanma. Forumlarda enjektör tespit cıvatalarının torkunun kontrolü '2 dakikalık iş' olarak öneriliyor.",
+            "cozum": "Enjektör keçelerinin/bakır pulların değişimi; bir kullanıcı saplamaların gevşemeden sıkılması gerektiğini, aksi halde yeni contaların bozulacağını yazıyor.",
+            "onlem": "Enjektör cıvata torklarını bakımda kontrol ettirmek; enjektör çevresindeki yağ ve kurum izlerini geciktirmeden incelettirmek."
+          },
           "kaynaklar": [
             "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
             "https://forum.donanimhaber.com/enjektor-arizasi-citroen-c5-1-6-hdi-2011--138608291",
             "https://forum.donanimhaber.com/1-6tdci-kronik-sorun-var-mi--149568529",
-            "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574"
+            "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574",
+            "https://forum.donanimhaber.com/enjektor-diplerinde-yag-kacagi--153286454"
           ]
         },
         {
@@ -615,6 +682,12 @@
           "belirtiler": "Güç kaybı, turbo ıslığı, egzozdan mavi duman, yağsız kalan turbo yatağının dağılması",
           "tahmini_km_araligi": "100.000 - 180.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Türkçe kaynaklarda bu parçaya özel bilgi bulunamadı. Fransız araba forumunda ~40 turbo onardığını söyleyen bir Citroën uzmanı turbo arızalarını enjektör karbon kaçağına bağlıyor (kendi tahmini, doğrulanmamış); bir üye turbo yağ besleme rakorundaki 'süzgecin' yalnızca tel örgü olduğunu, yağ filtresini geçmiş partikülü tutmayacağını yazıyor, bir moderatör ise ana filtreden partikülün turboya nasıl ulaştığını sorguluyor — nedensel zincir belgelenmiş değil.",
+            "teshis": "Güç kaybı, turbo ıslığı, egzozdan mavi duman. Bazı sahipler besleme borusuna ulaşmak için DPF'yi sökmek zorunda kalmış.",
+            "cozum": "Turbo ve yağ besleme hattının (boru, rakor) değişimi; sorunun kök nedeni olarak enjektör cıvatalarının gevşemesi ve yağ kirliliği tartışılıyor.",
+            "onlem": "Yağ ve yağ filtresini zamanında değiştirmek; enjektör bağlantı torklarını kontrol ettirmek."
+          },
           "kaynaklar": [
             "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
             "https://otopark.com/forum/threads/207-1-6-hdi-turbo-arizasi.2118/page-2",
@@ -627,10 +700,16 @@
           "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik, düşük devirde acil moda geçme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "EGR zamanla kurum biriktirip tıkanıyor; düşük devir ve kısa mesafe kullanım kurum oluşumunu artırıyor (Araclo). Bir kullanıcı tıkalı EGR'nin turboya basıp turbo arızası da verebildiğini yazıyor.",
+            "teshis": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik, düşük devirde acil moda geçme.",
+            "cozum": "Temizlik ya da yeni valf. Bir kaynak temizliğin geçici çözüm olabileceğini, kalıcı çözümün valf değişimi olabileceğini yazıyor; bir Focus 1.6 örneğinde elektronik arıza olduğu için temizleme yetmemiş ve yeni EGR gerekmiş. Yazılımla iptal forumlarda tartışmalı: egzoz gazı sıcaklığı kontrolü ve bazı motor parçaları üzerindeki etkisi nedeniyle riskli bulunuyor."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/egr-valfi-temizligi--30929546",
             "https://www.berlingoforum.com/thread-12042.html",
-            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=59950"
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=59950",
+            "https://forum.donanimhaber.com/1-6-hdi-tdci-motorda-egr-soken-var-mi--153323211"
           ]
         }
       ]
@@ -732,11 +811,19 @@
           "belirtiler": "Soğuk çalıştırmada şıkırtı, kam/krank senkron hatası, motorun yeniden çalışmaması, zincir kopması; çok düşük kilometrede de görüldüğü bildiriliyor",
           "tahmini_km_araligi": "20.000 - 120.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Mehmet Çetin'e göre üretici 2023 başında zinciri 7 mm'den 8 mm'ye çıkaran bir güncelleme yaptı ve zincirle birlikte eksantrikler, gergi ve üst kapak revize edildi; Araclo 8 mm setin 2021 sonrası araçlarda fabrikadan çıktığını yazıyor, bir kullanıcı anlatımı 2022-2023 sonrasını gösteriyor. Geçiş yılı kaynaklarda tutarsız: şasi numarasıyla doğrulayın.",
+            "teshis": "Soğuk çalıştırmada zincir şıkırtısı; Şikâyetvar'da çok düşük kilometrede de görüldüğü, zincir koptuğunda ağır onarım ücretinin çıktığı anlatılıyor.",
+            "cozum": "Bir kullanıcı anlatımına göre Stellantis'in 2019-2023 üretimi 1.5 BlueHDi araçları hedefleyen bir kampanyası var ve kapsamdaki araçlarda 7 mm zincir seti 8 mm ile ücretsiz değiştiriliyor (resmî doğrulama yok). Servis uygulaması tutarsız: And Mehmet Çetin zincir sesi tespit edilmezse garanti kapsamındaki araçta bile değişimin yapılmayabileceğini, Araclo yetkili serviste dinleme yapılıp 'ses yok' denerek talebin reddedildiğini, Şikâyetvar'daki bazı başvurular kampanya kapsamında olmasına rağmen değişimin yapılmadığını yazıyor.",
+            "maliyet": "Şikâyetvar'da bir Peugeot yetkili servisinin eksantrik zincir kırılması için 162.000 TL masraf çıkardığı ve ücretsiz değişimi reddettiği bir başvuru var (tek vaka, tarih belirsiz).",
+            "onlem": "Aracın kampanya kapsamını şasi numarasıyla markanın resmî kanallarından sorgulamak, değişimin yapıldığını servis kaydından teyit etmek ve soğuk çalıştırma sesini ilk duyulduğunda yazılı kayda geçirtmek."
+          },
           "kaynaklar": [
             "https://andcetin.com/15-bluehdi-ecoblue-tdci-zincir-sorunu-59/",
             "https://www.araclo.com/blog/citroen-c5-aircross-1.5-bluehdi-kronik-sorunlari-eksantrik-zinciri-gercegi-ve-kullanici-yorumlari-2026",
             "https://www.sikayetvar.com/citroen/c5-aircross/geri-cagirma",
-            "https://www.sikayetvar.com/en/citroen-us/citroen-c-elysee-timing-chain-failure-and-recall-mishandling"
+            "https://www.sikayetvar.com/en/citroen-us/citroen-c-elysee-timing-chain-failure-and-recall-mishandling",
+            "https://www.araclo.com/blog/peugeot-3008-1.5-bluehdi-kronik-sorunlar-ve-ikinci-el-rehberi"
           ],
           "donem_kirilimi": [
             {
@@ -800,10 +887,18 @@
           "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik veya stop etme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Araclo kronik sorunlar arasında EGR valfinin ve emme yollarının kurumlanmasını sayıyor; düşük devirli şehir kullanımında ve tozlu ortamda görülüyor.",
+            "cozum": "Temizlik ya da valf değişimi; forumlarda temizlenen EGR'nin tekrar tıkanabildiği yazılıyor. Bir kullanıcı yazılımla EGR iptalinin 650 TL tuttuğunu aktarıyor (riskli ve mevzuat açısından sorunlu bir yöntem).",
+            "maliyet": "Bir kullanıcı 2021'de EGR temizliği için 400 TL ödediğini, bir kaynak 2023 için 300-500 TL aralığını yazıyor; orijinal EGR valfi ve soğutucu bir kullanıcıya göre yaklaşık 4.500 TL. Forumdaki fiyatlar on yıllık bir aralığa yayılıyor, güncel değil."
+          },
           "kaynaklar": [
             "https://www.largus.fr/actualite-automobile/fiabilite-dacia-duster-problemes-de-fonctionnement-du-moteur-15-dci-6278389.html",
             "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php",
-            "https://www.araclo.com/vehicles/dacia-duster/duster1-makyajli/1-5-dci/kronik-sorunlar"
+            "https://www.araclo.com/vehicles/dacia-duster/duster1-makyajli/1-5-dci/kronik-sorunlar",
+            "https://forum.donanimhaber.com/egr-valfi-temizligi--30929546",
+            "https://forum.donanimhaber.com/egr-belirli-araliklar-ile-temizlenmeli-mi--132082187",
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
           ]
         }
       ]
@@ -1481,10 +1576,17 @@
           "belirtiler": "Motor bölmesinde is/kurum kokusu, enjektör çevresinde siyah karbon birikimi, motor üstünden tıkırtı sesi",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forumlarda enjektör çevresinde yağ ve is birikmesinin enjektör bağlantısından kaynaklanabildiği anlatılıyor; olası kaynaklar hasarlı enjektör keçesi, aşınmış enjektör yuvası, gevşek ya da hasarlı enjektör diş tıpası ve arızalı O-halkaları. İngiliz Ford ve Fransız araba forumlarında DV6'da enjektör tespit cıvatalarının gevşemesi tasarım kusuru olarak anılıyor ve karbonun yanma odasından enjektör tüpüne, oradan yağa ulaştığı öne sürülüyor (bir uzmanın tahmini).",
+            "teshis": "Motor üstünde is/kurum kokusu ve siyah karbon birikimi, enjektör çevresinde yağ, rölantide titreme, güç kaybı, soğuk çalıştırmada zorlanma. Forumlarda enjektör tespit cıvatalarının torkunun kontrolü '2 dakikalık iş' olarak öneriliyor.",
+            "cozum": "Enjektör keçelerinin/bakır pulların değişimi; bir kullanıcı saplamaların gevşemeden sıkılması gerektiğini, aksi halde yeni contaların bozulacağını yazıyor.",
+            "onlem": "Enjektör cıvata torklarını bakımda kontrol ettirmek; enjektör çevresindeki yağ ve kurum izlerini geciktirmeden incelettirmek."
+          },
           "kaynaklar": [
             "https://www.fordownersclub.com/forums/topic/52656-16-tdci-injector-seals/",
             "https://www.fordownersclub.com/forums/topic/40940-oil-leak-around-injectors/",
-            "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574"
+            "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574",
+            "https://forum.donanimhaber.com/enjektor-diplerinde-yag-kacagi--153286454"
           ]
         },
         {
@@ -1493,6 +1595,12 @@
           "belirtiler": "Güç kaybı, turbo ıslığı, egzozdan mavi duman, yağsız kalan turbo yatağının dağılması",
           "tahmini_km_araligi": "100.000 - 180.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Türkçe kaynaklarda bu parçaya özel bilgi bulunamadı. Fransız araba forumunda ~40 turbo onardığını söyleyen bir Citroën uzmanı turbo arızalarını enjektör karbon kaçağına bağlıyor (kendi tahmini, doğrulanmamış); bir üye turbo yağ besleme rakorundaki 'süzgecin' yalnızca tel örgü olduğunu, yağ filtresini geçmiş partikülü tutmayacağını yazıyor, bir moderatör ise ana filtreden partikülün turboya nasıl ulaştığını sorguluyor — nedensel zincir belgelenmiş değil.",
+            "teshis": "Güç kaybı, turbo ıslığı, egzozdan mavi duman. Bazı sahipler besleme borusuna ulaşmak için DPF'yi sökmek zorunda kalmış.",
+            "cozum": "Turbo ve yağ besleme hattının (boru, rakor) değişimi; sorunun kök nedeni olarak enjektör cıvatalarının gevşemesi ve yağ kirliliği tartışılıyor.",
+            "onlem": "Yağ ve yağ filtresini zamanında değiştirmek; enjektör bağlantı torklarını kontrol ettirmek."
+          },
           "kaynaklar": [
             "https://www.fordownersclub.com/forums/topic/121545-16tdci-turbo-problems-what-years/",
             "https://www.honestjohn.co.uk/forum/post/index.htm?t=90204",
@@ -1616,6 +1724,11 @@
           "belirtiler": "Sık \"DPF dolu\" uyarısı (kısa şehir içi kullanımda ayda bir-iki kez), yağ seviyesinin yükselmesi, yağ ömrü göstergesinin çok erken düşmesi; bazı sahipler yağ değişimlerinin garanti dışı bırakıldığını bildiriyor",
           "tahmini_km_araligi": "10.000 - 60.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da bir kullanıcı yeni Focus'larda DPF uyarılarının sık geldiğini ve yağ ömrü göstergesinin hızla düştüğünü yazıyor; bunun rejenerasyon sırasında yağa mazot karışmasıyla ilişkilendirildiği anlatılıyor (aramada DPF'de yağa yakıt karışmasına dair resmî ya da bağımsız teknik doğrulama bulunamadı). Kısa şehir içi kullanımda rejenerasyon sık tetikleniyor.",
+            "cozum": "Bazı sahipler yağ değişimlerinin garanti dışı bırakıldığını bildiriyor; kesin bir onarım yöntemi kaynaklarda yer almıyor.",
+            "onlem": "Yağ ömrü göstergesinin erken düşmesini ve yağ seviyesinin yükselmesini yazılı kayda geçirtmek; kısa şehir içi kullanımı arada uzun yolla dengelemek."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/ford/focus/focus-dpf",
             "https://www.sikayetvar.com/ford/focus/yag",
@@ -1711,11 +1824,20 @@
           "belirtiler": "Klimanın sıcak hava üflemesi, gaz kaçağı, kısa sürede tekrar gaz eksilmesi",
           "tahmini_km_araligi": "30.000 - 80.000 km",
           "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Honda'nın bülteni kondenserin spesifikasyona uygun üretilmemiş olabileceğini ve tüp duvarlarında küçük deliklerin oluşup soğutucu akışkanın sızabileceğini yazıyor (dava haberlerinde aktarılan Ağustos 2019 bülteni). Toplu dava davacıları ayrıca sistemin R-1234yf akışkanına dayanamadığını iddia ediyor; bu bir dava iddiası, kanıtlanmış bulgu değil. Forum yazılarına göre arızalı kondenser kompresöre de zarar verebiliyor (anekdot). Kaynaklar 1.5 Turbo'yu ayrıca anmıyor, bilgiler 10. nesil Civic için geneldir.",
+            "cozum": "Honda ABD'de kondenser garantisini 10 yıla (sınırsız km) uzattı ve daha önce parasını kendisi ödeyenlere geri ödeme programı açtı (Ağustos 2019 bülteni). Kapsamın model yılları kaynaklarda ayrışıyor: 2019 bülteni 2016-2018'i, sonraki aktarımlar 2016-2020'yi anıyor; NHTSA'daki bülten (Mayıs 2021) 2018-2020'yi kapsıyor, bir forum sitesi TSB 19-091'i anıyor. Yabancı cisim hasarı olan kondenser ve evaporatör kapsam dışı. Toplu dava Mart 2021'de reddedilmiş; CarComplaints'in 2024 haberine göre temyiz mahkemesi de reddi onamış. Türkiye'deki araçlar için kapsam doğrulanmadı.",
+            "maliyet": "Sahipler evaporatör ve kompresörün kondenser garantisine dahil olmadığını, bunların yaklaşık 2.000 dolarlık cepten masrafa yol açabildiğini bildiriyor (ABD, forum ve şikâyet siteleri; tarih belirtilmemiş).",
+            "onlem": "Honda yabancı cisim hasarı olan kondenseri kapsam dışı bıraktığı için, onarımdan önce hasarı belgelemek ve kapsamı şasi numarasıyla bayiden doğrulatmak yararlı olur."
+          },
           "kaynaklar": [
             "https://www.carcomplaints.com/news/2019/honda-civic-air-conditioner-lawsuit-condenser.shtml",
             "https://topclassactions.com/lawsuit-settlements/consumer-products/auto-news/honda-class-action-alleges-civic-ac-defect/",
             "https://www.civicx.com/forum/threads/air-conditioning-condenser-issue-is-real.24701/page-10",
-            "https://www.sikayetvar.com/honda/civic/klima"
+            "https://www.sikayetvar.com/honda/civic/klima",
+            "https://www.carcomplaints.com/news/2021/honda-civic-class-action-lawsuit-dismissed.shtml",
+            "https://m.carcomplaints.com/news/2024/honda-civic-ac-lawsuit-appeals-court.shtml",
+            "https://static.nhtsa.gov/odi/tsbs/2021/MC-10194978-0001.pdf"
           ]
         }
       ]
@@ -1770,10 +1892,17 @@
           "belirtiler": "Arka lastiklerde düzensiz ve hızlı aşınma, kısa sürede lastik değişimi, yüksek hızda yol sesi",
           "tahmini_km_araligi": "30.000 - 80.000 km",
           "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Bir forum yazısına göre Honda'nın 08-001 sayılı bülteni 2006-2007 Civic'lerde (Si hariç) arka üst salıncakların yanlış spesifikasyonla üretildiğini, bunun düzensiz ya da hızlı lastik aşınması, arkadan uğultu ve yüksek hızda titreşime yol açtığını yazıyor. Bir hukuk bürosu sayfası Honda'nın aşınmayı başta arka süspansiyon geometrisi, orijinal lastikler ve rot açılarının bileşimine bağladığını söylüyor. Bu bir ABD bülteni; Türkiye'ye satılan araçlara uygulanıp uygulanmadığı doğrulanmadı.",
+            "teshis": "Arka lastiklerde iç omuzda düzensiz ('cupping') aşınma. CarComplaints'te sahipler tekrarlanan rot ayarı ve lastik yer değiştirmenin aşınmayı durdurmadığını, bazıları üçüncü lastik setine ihtiyaç duyduğunu yazıyor.",
+            "cozum": "Bülten çözümü arka üst salıncak kitinin değişimi ve rot ayarı; aşınma ciddiyse yeni lastik bedeli de karşılanabiliyor. Hukuk bürosu sayfasına göre Honda önce yalnızca salıncak değişimini, sonra kısıtlı koşullarla orantılı lastik iadesini kabul etmiş. CarComplaints'te bir sahip salıncaklar kendi parasıyla değiştirilince sorunun tamamen çözüldüğünü yazıyor. Bülten tarihi kaynaklarda farklı (22 Ocak 2008, 5 Şubat 2009'da güncelleme ya da 8 Şubat 2008). Honda'nın 26 Şubat 2014 tarihli 13-047 bülteni aynı camber sorununu anlatıp garanti uzatmasının sona erdiğini, artık normal garantiye tabi bir bülten olduğunu belirtiyor.",
+            "onlem": "Satın almadan önce arka lastiklerin iç omuz aşınmasına bakın ve salıncak değişiminin yapılıp yapılmadığını sorun. Şikâyetlerde bayilerin garanti süresi dolunca onarımı reddettiği anlatılıyor; bir sahip Honda'nın yaklaşık 21.000 mil sonra aşınan lastikleri karşılamadığını yazıyor."
+          },
           "kaynaklar": [
             "https://www.carcomplaints.com/Honda/Civic/2007/suspension/suspension-rear.shtml",
             "https://www.ammonslaw.com/tire-defects/manufacturer-lawsuits/honda-defect/",
-            "https://static.nhtsa.gov/complaints/10779068/10779068-AF0DEE51B0BC02CAE05375E8789808C8.pdf"
+            "https://static.nhtsa.gov/complaints/10779068/10779068-AF0DEE51B0BC02CAE05375E8789808C8.pdf",
+            "https://electricvehicleforums.com/forums/honda-civic-hybrid-12/negative-camber-problem-what-you-need-do-get-upper-control-arms-replaced-17377"
           ],
           "donem_kirilimi": [
             {
@@ -2331,12 +2460,19 @@
           "belirtiler": "Çalıştırmada zincir sesi, kam/krank korelasyon hatası ile arıza lambası, düzensiz rölanti",
           "tahmini_km_araligi": "80.000 - 160.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı M271'lerde asıl sorunun zincir uzaması olduğunu ve bunun triger sistemindeki dişlilere zarar verdiğini yazıyor; bir başkası sorunun sık görüldüğünü, motor açılınca eksantrik dişlilerinin zincirle birlikte değiştirilmesi gerektiğini aktarıyor (W204 C180 M271 EVO için). Bir forum yanıtı zincirin zamanla eskiyip uzadıkça ses yaptığını savunuyor.",
+            "teshis": "Çalıştırmada zincir sesi, kam/krank korelasyon hatası ve arıza lambası. Bir C180 1.8 CGI sahibine yetkili serviste eksantrik kafaları ve gergi değiştirilmiş, zincir ölçümde sağlam çıktığı için yerinde bırakılmış; ses sıcak motorda belirginleşiyor ve yağ basıncı yetersizliğiyle ilişkilendiriliyor.",
+            "cozum": "Eksantrik dişlileri, zincir ve gergi birlikte değiştirilir. Bir kullanıcı M271'lerde 180 bin km'nin altında zincir ve vanoların genellikle değiştirilmediğini yazıyor.",
+            "maliyet": "Kaynaklarda güncel TL rakamı bulunamadı; onarım yüksek maliyetli olarak anılıyor."
+          },
           "kaynaklar": [
             "https://mbworld.org/forums/c-class-w203/623512-m271-cam-sprocket-replacement.html",
             "https://www.benzworld.org/threads/m271-timing-chain.3025774/",
             "https://forums.mbclub.co.uk/threads/c180-k-timing-chain-and-sprocket-kit.229749/page-2",
             "https://eksisozluk.com/mercedes-c180-kompressor--2216297?p=11",
-            "https://www.carcomplaints.com/Mercedes-Benz/C250/2012/engine/engine.shtml"
+            "https://www.carcomplaints.com/Mercedes-Benz/C250/2012/engine/engine.shtml",
+            "https://forum.donanimhaber.com/m271-evo-1-8cgi-motor-eksantrik-disli-ve-zincir-sesi-problemi--131285263"
           ]
         },
         {
@@ -2345,10 +2481,18 @@
           "belirtiler": "Mıknatıs soketinden kabloya yağ sızması, yağın kablo demeti boyunca motor beynine ilerlemesi, arıza lambası",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forum kayıtlarında (MBWorld, BenzWorld, MBClub) yağın eksantrik ayar mıknatıslarından konnektör ya da conta halkaları yoluyla sızdığı ve kablo demeti boyunca motor beynine ilerleyebildiği anlatılıyor. Bir W204 C200 Kompressor sahibi emme eksantriği mıknatısının konnektöre yağ kaçırdığını ve bunun ECU arızasına yol açtığını yazıyor. Ekşi Sözlük'te bir yorumcu bunun W204 C180'lerde neredeyse her araçta görüldüğünü söylüyor (kişisel gözlem, istatistik değil).",
+            "teshis": "Mıknatıs soketinde ve kablo demetinde yağ görülmesi. Bir forum yazısı yağın ön ECU'ya ve oradan O2 sensörüne kadar ilerleyebildiğini, bir parça rehberi (GoParts) konnektörlere ulaşan yağın O2 sensörlerini ve bazı raporlarda ECU'yu etkileyebildiğini yazıyor. Forumda iki ön eksantrik mıknatısının elektrik soketlerinde yağ olup olmadığına bakılması öneriliyor.",
+            "cozum": "Yaygın çözüm mıknatıs ile ana kablo demeti arasına yağı tutan bir ara kablo ('pigtail') takmak; forumlarda Mercedes parça numarası A 271 150 27 33 anılıyor. Bu ara kablolar yalnızca 2 telli mıknatıslara uyuyor, 3 telli kam konum sensörlerine değil. Görüşler ayrışıyor: Ekşi'deki yorumcu mıknatısları conta ve O-ringleriyle birlikte yenilemeyi öneriyor, başka forum yazıları ara kabloyla soketten yağ gelmiyorsa mıknatısı değiştirmenin zorunlu olmadığını söylüyor. Kompressor ve M271 Evo mıknatıslarının parça numaraları farklı; ara kablonun ikisine de uyacağı varsayılmamalı, katalogdan doğrulanmalı.",
+            "onlem": "Resmî bir M271 bülteni bulunamadı. AustralianCar.Reviews'in W203 geri çağırma sayfasında anılan Nisan 2011 tarihli ABD servis bülteni M112 V6 motorları (C240/C320 ve CLK) içindir, M271'i doğrudan kapsamıyor; GoParts rehberi ise eski modellerde M271 yağ sızıntısını kapsayan bir servis kampanyası olduğunu yazıyor. MBClub'da bir W204 C180 sahibi revize konnektörün kendi motoruna (271 952) uygulanıp uygulanmadığından emin değil: geçerliliği şasi numarasıyla Mercedes'ten sorun."
+          },
           "kaynaklar": [
             "https://www.benzworld.org/threads/m271-946-cam-solenoid-oil-leak.1888737/",
             "https://mbworld.org/forums/c-class-w203/460273-leaking-camshaft-solenoid-magnets-dtb-tsb-m271.html",
-            "https://eksisozluk.com/mercedes-c180-kompressor--2216297?p=11"
+            "https://eksisozluk.com/mercedes-c180-kompressor--2216297?p=11",
+            "https://australiancar.reviews/?p=47382",
+            "https://www.go-parts.com/garage/ps-2002-2009-mercedes-benz-c230-engine-camshaft-position-sensor"
           ]
         }
       ]
@@ -2368,10 +2512,17 @@
           "belirtiler": "Motor arıza lambası, acil moda geçme, düzensiz çalışma, zor çalışma",
           "tahmini_km_araligi": "50.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "OM651'in 125-150 kW (220 CDI ve 250 CDI) sürümlerindeki Delphi piezo enjektörler yüksek arıza oranı gösterdi; çoğunlukla 50.000 km sonrası görülüyor. Bir Alman raporuna göre 220/250 CDI için yaklaşık 2.800 şikâyet var; 200 CDI manyetik enjektörlü olduğu için etkilenmiyor (Auto Bild, AustralianCar.Reviews). Araclo piezo enjektörlerin hassas yapısı nedeniyle arızaya eğilimli olduğunu yazıyor.",
+            "teshis": "Motor arıza lambası, acil moda (limp home) geçme, düzensiz çalışma, zor çalışma, titreme ve yüksek yakıt tüketimi.",
+            "cozum": "Mercedes önce revize piezo enjektörler çıkardı, sonra geri çağırma değil bir müşteri hizmet aksiyonuyla bunları solenoid enjektörlerle değiştirdi; işlem yeni bir ECU, geri dönüş yakıt hattı ve motor kapağı yenilemesini de içeriyordu. Yaklaşık 2012 ortasından itibaren bu motorlarda piezo yerine solenoid enjektör kullanılıyor. Şasi numarasıyla Mercedes kampanya sorgusu yaptırın (kaynaklar ağırlıkla C204/S204 için; W204 sedanı doğrudan kapsamayabilir).",
+            "maliyet": "OM651'e özgü güncel enjektör fiyatı aramada bulunamadı; piezo enjektörlerde yetkili servis fiyatları genellikle yüksek olur."
+          },
           "kaynaklar": [
             "https://www.autobild.de/artikel/diesel-probleme-bei-e-klasse-c-klasse-und-glk-988549.html",
             "https://australiancar.reviews/recalls-faults-mercedes-benz-s204-c-class-estate-2008-14/",
-            "https://www.germancarforum.com/threads/mercedes-benz-troubles-with-newest-om651-diesel-engine.31035/latest"
+            "https://www.germancarforum.com/threads/mercedes-benz-troubles-with-newest-om651-diesel-engine.31035/latest",
+            "https://www.araclo.com/vehicles/mercedes-benz-c-serisi-c-220-cdi/degerlendirmeler/kullanici-sorunlari"
           ],
           "donem_kirilimi": [
             {
@@ -2394,6 +2545,12 @@
           "belirtiler": "Şanzımanın acil moda geçip tek viteste (çoğunlukla 2.) kalması, sert vites geçişleri, şanzıman uyarı mesajı",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "İletken plakadaki dahili hız sensörleri ve lehim noktaları ısı çevrimiyle bozuluyor ve şanzıman acil moda geçiyor; bir bilinen-sorunlar veritabanı bunun çoğunlukla 2. viteste kilitli kalmayla görüldüğünü yazıyor (R171 SLK için, 50-90 bin mil). Kaynakların çoğu atölye siteleri ve forumlar; Mercedes belgesi yok.",
+            "teshis": "2. viteste takılı kalma, vites yükseltememe, yaklaşık 40 mil/saat (64 km/s) üstüne çıkamama, motor arıza lambası, sert ya da vuruntulu vites geçişleri. Hız sensörleri ve plakayla ilişkili kodlar olarak P0718, P2768 ve P0706 anılıyor.",
+            "cozum": "Motoru kapatıp yeniden çalıştırmak bazen geçici olarak normale döndürüyor ama TCU'yu yeniden programlamak donanım arızasını gidermez. Bazı uzmanlar orijinal iletken plakayı onarıyor (bayi programlamasından ucuz olabiliyor).",
+            "maliyet": "Bir atölye sitesi ABD'de bayide yaklaşık 2.000-3.000 dolar olduğunu, parçanın bağımsız servislere kısıtlı sattığını yazıyor (ticari kaynak, Türkiye için doğrudan geçerli değil)."
+          },
           "kaynaklar": [
             "https://www.mercedesmedic.com/722-9-7g-tronic-automatic-transmission-problems-solutions/",
             "https://mbworld.org/forums/s-class-w220/786318-722-9-woes.html",
@@ -2418,13 +2575,22 @@
           "belirtiler": "AdBlue/NOx uyarısı, \"marş mümkün değil\" uyarısı, motor arıza ikazı; parça bedeli iki sensör için 20.000-50.000 TL bildiriliyor, garanti kapsamı bazı araçlarda reddedilmiş",
           "tahmini_km_araligi": "40.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'daki kullanıcılar NOx sensörünün tekrar tekrar arızalandığını anlatıyor; bir kullanıcı garanti bittikten sonra her yıl önce NOx sensör 1'i, sonra sensör 2'yi değiştirdiğini yazıyor. Bazı şikâyetçiler katalitik konvertörün de arızalı çıkabildiğini (16 bin TL'lik masraf), AdBlue deposunun yazılımda 5 litre kodlanmış olmasına rağmen 25 litre olduğunu ve yazılımın yenileneceğinin söylendiğini aktarıyor.",
+            "teshis": "AdBlue/NOx uyarısı, 'marş mümkün değil' uyarısı ve motor arıza ikazı (mevcut belirtiler).",
+            "cozum": "Sensörlerin değişimi. Birçok kullanıcı ilk iki yıl içinde sensörlerin garanti kapsamında ücretsiz değiştirildiğini, sonrasında ücretli olduğunu yazıyor; bir şikâyette Mercedes-Benz Türkiye'nin kronik bilinen arızayı çeşitli gerekçelerle garantiden değiştirmediği, başka bir şikâyette ilk görüşmede 'ücretsiz' denen bir sensör için sonradan 80.000 TL talep edildiği anlatılıyor.",
+            "maliyet": "Şikâyetvar'da bildirilen rakamlar çok geniş: 13.000 TL, 17.900 TL (katalizör sonrası NOx sensörü garantiden değişirken öncesi için), iki sensör için 20-50 bin TL, 35.000 TL ve 80.000 TL. Farklı yıllara ait tek tek beyanlar; güncel teklif alın.",
+            "onlem": "Arıza kaydı (hata kodları, servis fişleri) saklamak, garanti kapsamını yazılı teyit ettirmek ve Mercedes-Benz Türkiye ile yetkili servis arasında yazılı onay almak."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/adblue/c200d",
             "https://www.sikayetvar.com/mercedes-benz/mercedes-c200d-nox-sensor-arizasi-icin-50-bin-tl-parca-ucreti-tepkisi",
             "https://www.sikayetvar.com/mercedes-benz/mercedes-benz-c200d-nox-sensoru-arizasi-2",
             "https://www.sikayetvar.com/mercedes-benz/ariza/c200d",
             "https://forum.donanimhaber.com/w205-mercedes-c-class-ana-konu--85286811-851",
-            "https://forum.donanimhaber.com/mercedes-c200d-problemleri-satip-ne-alinabilir--146577896"
+            "https://forum.donanimhaber.com/mercedes-c200d-problemleri-satip-ne-alinabilir--146577896",
+            "https://www.sikayetvar.com/mercedes-benz/mercedes-c200de-surekli-nox-sensoru-arizasi-ve-yuksek-masraf",
+            "https://www.sikayetvar.com/mercedes-benz/kronik-sensor-arizasinda-mercedes-garanti-sozu-kirdi-80-bin-tl-talep-ediyor"
           ]
         }
       ]
@@ -2444,10 +2610,17 @@
           "belirtiler": "Motor arızası, zincir sesi, eksantrik zamanlama hataları; onarım maliyetli",
           "tahmini_km_araligi": "100.000 - 200.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı M271'lerde asıl sorunun zincir uzaması olduğunu ve bunun triger sistemindeki dişlilere zarar verdiğini yazıyor; bir başkası sorunun sık görüldüğünü, motor açılınca eksantrik dişlilerinin zincirle birlikte değiştirilmesi gerektiğini aktarıyor (W204 C180 M271 EVO için). Bir forum yanıtı zincirin zamanla eskiyip uzadıkça ses yaptığını savunuyor.",
+            "teshis": "Çalıştırmada zincir sesi, kam/krank korelasyon hatası ve arıza lambası. Bir C180 1.8 CGI sahibine yetkili serviste eksantrik kafaları ve gergi değiştirilmiş, zincir ölçümde sağlam çıktığı için yerinde bırakılmış; ses sıcak motorda belirginleşiyor ve yağ basıncı yetersizliğiyle ilişkilendiriliyor.",
+            "cozum": "Eksantrik dişlileri, zincir ve gergi birlikte değiştirilir. Bir kullanıcı M271'lerde 180 bin km'nin altında zincir ve vanoların genellikle değiştirilmediğini yazıyor.",
+            "maliyet": "Kaynaklarda güncel TL rakamı bulunamadı; onarım yüksek maliyetli olarak anılıyor."
+          },
           "kaynaklar": [
             "https://otopark.com/forum/threads/w212-mercedes-e250-cgi-mi-e250-cdi-mi.12959/",
             "https://www.sikayetvar.com/mercedes-benz/e-250/arizalari",
-            "https://forum.donanimhaber.com/test-mercedes-benz-e-200-cgi-resimli--37483362"
+            "https://forum.donanimhaber.com/test-mercedes-benz-e-200-cgi-resimli--37483362",
+            "https://forum.donanimhaber.com/m271-evo-1-8cgi-motor-eksantrik-disli-ve-zincir-sesi-problemi--131285263"
           ]
         }
       ]
@@ -2467,12 +2640,19 @@
           "belirtiler": "Motorda avans (vuruntu) sesi, düzensiz çalışma, motor arıza lambası; erken üretimde Mercedes'in garanti kapsamında değiştirdiği bildiriliyor",
           "tahmini_km_araligi": "20.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "OM651'in 125-150 kW (220 CDI ve 250 CDI) sürümlerindeki Delphi piezo enjektörler yüksek arıza oranı gösterdi; çoğunlukla 50.000 km sonrası görülüyor. Bir Alman raporuna göre 220/250 CDI için yaklaşık 2.800 şikâyet var; 200 CDI manyetik enjektörlü olduğu için etkilenmiyor (Auto Bild, AustralianCar.Reviews). Araclo piezo enjektörlerin hassas yapısı nedeniyle arızaya eğilimli olduğunu yazıyor.",
+            "teshis": "Motor arıza lambası, acil moda (limp home) geçme, düzensiz çalışma, zor çalışma, titreme ve yüksek yakıt tüketimi.",
+            "cozum": "Mercedes önce revize piezo enjektörler çıkardı, sonra geri çağırma değil bir müşteri hizmet aksiyonuyla bunları solenoid enjektörlerle değiştirdi; işlem yeni bir ECU, geri dönüş yakıt hattı ve motor kapağı yenilemesini de içeriyordu. Yaklaşık 2012 ortasından itibaren bu motorlarda piezo yerine solenoid enjektör kullanılıyor. Şasi numarasıyla Mercedes kampanya sorgusu yaptırın (kaynaklar ağırlıkla C204/S204 için; W204 sedanı doğrudan kapsamayabilir).",
+            "maliyet": "OM651'e özgü güncel enjektör fiyatı aramada bulunamadı; piezo enjektörlerde yetkili servis fiyatları genellikle yüksek olur."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/mercedes-e-250-cdi-hakkinda-bildikleriniz--43652348",
             "https://forum.donanimhaber.com/mercedes-e250-cgi-ve-cdi-hakkinda-yardim--90317222",
             "https://otopark.com/forum/threads/w212-mercedes-e250-cgi-mi-e250-cdi-mi.12959/",
             "https://www.autobild.de/artikel/diesel-probleme-bei-e-klasse-c-klasse-und-glk-988549.html",
-            "https://www.germancarforum.com/threads/mercedes-benz-troubles-with-newest-om651-diesel-engine.31035/latest"
+            "https://www.germancarforum.com/threads/mercedes-benz-troubles-with-newest-om651-diesel-engine.31035/latest",
+            "https://www.araclo.com/vehicles/mercedes-benz-c-serisi-c-220-cdi/degerlendirmeler/kullanici-sorunlari"
           ],
           "donem_kirilimi": [
             {
@@ -2710,10 +2890,18 @@
           "belirtiler": "Soğutma suyunda yağ, motor yağında su, antifriz eksilmesi",
           "tahmini_km_araligi": "100.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yağ soğutucusu iki sıvıyı ayıran bir conta içeriyor; contadaki arıza yağ-su karışmasına ya da yağ kaçağına yol açabiliyor. Bir forum yorumu bu sorunun asıl olarak 1.6 Ecotec benzinli motorda görüldüğünü yazıyor.",
+            "teshis": "Soğutma suyunda yağ, motor yağında su, antifriz eksilmesi (mevcut belirtiler). Yağ ve su karışmışsa önce kaynağın (yağ soğutucu, üst kapak contası ya da devirdaim) tespit edilmesi öneriliyor.",
+            "cozum": "Yağ soğutucusunun ve contalarının değişimi; bir kullanıcının soğutucusu ve pompası garanti kapsamında değiştirilmiş. Soğutma sisteminin temizliği uzun sürüyor ve bu süreçte termostat gibi parçalar tekrar arıza verebiliyor.",
+            "maliyet": "Bir kullanıcı ortalama maliyetin 850 TL'yi bulabildiğini yazıyor; bu rakam çok eski ve güncel değil."
+          },
           "kaynaklar": [
             "https://otopark.com/forum/threads/astra-j-1-6-otomatik-nasildir-kronik-problemleri-var-mi.14812/",
             "https://forum.donanimhaber.com/opel-otomobillerin-kronik-sorunlari-nelerdir--43616774-5",
-            "https://www.astraownersnetwork.co.uk/threads/oil-cooler-leak.346970/"
+            "https://www.astraownersnetwork.co.uk/threads/oil-cooler-leak.346970/",
+            "https://forum.donanimhaber.com/yag-sogutucusu-arizasi-ustam-beni-mi-kekledi--149970222",
+            "https://forum.donanimhaber.com/yag-sogutucu-ariza--111835776"
           ]
         }
       ]
@@ -2844,10 +3032,17 @@
           "belirtiler": "Soğuk çalıştırmada metalik zincir sesi, düzensiz çalışma; yağ bakımı geciktirilmiş araçlarda daha sık",
           "tahmini_km_araligi": "120.000 - 200.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "teshis": "Soğuk çalıştırmada metalik zincir sesi ve düzensiz çalışma (mevcut belirtiler).",
+            "cozum": "Zincir seti değişimi.",
+            "onlem": "Değişim aralığı konusunda kaynaklar farklı: bir kaynakta servis el kitabında 120 bin km referansı yer alıyor ve servisler 120-150 bin km aralığında değişim öneriyor; bir forum yorumu asıl belirleyicinin kilometre değil, zincirden gelen ses olduğunu söylüyor."
+          },
           "kaynaklar": [
             "https://www.araclo.com/blog/opel-corsa-1.3-cdti-alinir-mi-kronik-sorunlar-kullanici-yorumlari-ve-ikinci-el-alim-rehberi",
             "https://forum.donanimhaber.com/corsa-1-3-cdti-multijet-160k-km-titretisim-problemi--134600465",
-            "https://forum.donanimhaber.com/1-3-multijet-triger-zincir-degisim-zamani-yardim--130469575"
+            "https://forum.donanimhaber.com/1-3-multijet-triger-zincir-degisim-zamani-yardim--130469575",
+            "https://www.araclo.com/blog/opel-astra-1.3-cdti-kronik-sorunlari-ve-ikinci-el-alim-rehberi",
+            "https://forum.donanimhaber.com/2013-opel-corsa-d-1-3-cdti-100-000-km-bakimi--126774210"
           ]
         }
       ]
@@ -2967,11 +3162,21 @@
           "belirtiler": "Soğuk çalıştırmada şıkırtı, kam/krank senkron hatası, motorun yeniden çalışmaması, zincir kopması; çok düşük kilometrede de görüldüğü bildiriliyor",
           "tahmini_km_araligi": "20.000 - 120.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Mehmet Çetin'e göre üretici 2023 başında zinciri 7 mm'den 8 mm'ye çıkaran bir güncelleme yaptı ve zincirle birlikte eksantrikler, gergi ve üst kapak revize edildi; Araclo 8 mm setin 2021 sonrası araçlarda fabrikadan çıktığını yazıyor, bir kullanıcı anlatımı 2022-2023 sonrasını gösteriyor. Geçiş yılı kaynaklarda tutarsız: şasi numarasıyla doğrulayın.",
+            "teshis": "Soğuk çalıştırmada zincir şıkırtısı; Şikâyetvar'da çok düşük kilometrede de görüldüğü, zincir koptuğunda ağır onarım ücretinin çıktığı anlatılıyor.",
+            "cozum": "Bir kullanıcı anlatımına göre Stellantis'in 2019-2023 üretimi 1.5 BlueHDi araçları hedefleyen bir kampanyası var ve kapsamdaki araçlarda 7 mm zincir seti 8 mm ile ücretsiz değiştiriliyor (resmî doğrulama yok). Servis uygulaması tutarsız: And Mehmet Çetin zincir sesi tespit edilmezse garanti kapsamındaki araçta bile değişimin yapılmayabileceğini, Araclo yetkili serviste dinleme yapılıp 'ses yok' denerek talebin reddedildiğini, Şikâyetvar'daki bazı başvurular kampanya kapsamında olmasına rağmen değişimin yapılmadığını yazıyor.",
+            "maliyet": "Şikâyetvar'da bir Peugeot yetkili servisinin eksantrik zincir kırılması için 162.000 TL masraf çıkardığı ve ücretsiz değişimi reddettiği bir başvuru var (tek vaka, tarih belirsiz).",
+            "onlem": "Aracın kampanya kapsamını şasi numarasıyla markanın resmî kanallarından sorgulamak, değişimin yapıldığını servis kaydından teyit etmek ve soğuk çalıştırma sesini ilk duyulduğunda yazılı kayda geçirtmek."
+          },
           "kaynaklar": [
             "https://andcetin.com/15-bluehdi-ecoblue-tdci-zincir-sorunu-59/",
             "https://forum.donanimhaber.com/psa-1-5-dizel-motorlarda-eksantrik-zinciri-problemi--160411525",
             "https://forum.donanimhaber.com/peugeot-5008-gt-kam-mili-zinciri-kronik-sorunu-sakin-ha-almayin-bu-arabalari--162656345",
-            "https://www.sikayetvar.com/en/peugeot-us/peugeot-3008-developed-timing-chain-noise-far-earlier-than-expected"
+            "https://www.sikayetvar.com/en/peugeot-us/peugeot-3008-developed-timing-chain-noise-far-earlier-than-expected",
+            "https://www.araclo.com/blog/peugeot-3008-1.5-bluehdi-kronik-sorunlar-ve-ikinci-el-rehberi",
+            "https://www.sikayetvar.com/peugeot/peugeot-gonullu-geri-cagirma-eksantrik-zinciri-7mm-8-mm-ye-degisimi-video",
+            "https://www.sikayetvar.com/peugeot/peugeot-yetkili-servisinin-uretim-hatasi-eksantrik-zincir-kirilmasi-icin-162000-tl-masrafi-ve-ucretsiz-degisim-reddedildi"
           ],
           "donem_kirilimi": [
             {
@@ -3011,11 +3216,18 @@
           "belirtiler": "Motor üstünde is/kurum kokusu, rölantide titreme, güç kaybı, soğuk çalıştırmada zorlanma",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forumlarda enjektör çevresinde yağ ve is birikmesinin enjektör bağlantısından kaynaklanabildiği anlatılıyor; olası kaynaklar hasarlı enjektör keçesi, aşınmış enjektör yuvası, gevşek ya da hasarlı enjektör diş tıpası ve arızalı O-halkaları. İngiliz Ford ve Fransız araba forumlarında DV6'da enjektör tespit cıvatalarının gevşemesi tasarım kusuru olarak anılıyor ve karbonun yanma odasından enjektör tüpüne, oradan yağa ulaştığı öne sürülüyor (bir uzmanın tahmini).",
+            "teshis": "Motor üstünde is/kurum kokusu ve siyah karbon birikimi, enjektör çevresinde yağ, rölantide titreme, güç kaybı, soğuk çalıştırmada zorlanma. Forumlarda enjektör tespit cıvatalarının torkunun kontrolü '2 dakikalık iş' olarak öneriliyor.",
+            "cozum": "Enjektör keçelerinin/bakır pulların değişimi; bir kullanıcı saplamaların gevşemeden sıkılması gerektiğini, aksi halde yeni contaların bozulacağını yazıyor.",
+            "onlem": "Enjektör cıvata torklarını bakımda kontrol ettirmek; enjektör çevresindeki yağ ve kurum izlerini geciktirmeden incelettirmek."
+          },
           "kaynaklar": [
             "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
             "https://forum.donanimhaber.com/enjektor-arizasi-citroen-c5-1-6-hdi-2011--138608291",
             "https://forum.donanimhaber.com/1-6tdci-kronik-sorun-var-mi--149568529",
-            "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574"
+            "https://www.frenchcarforum.co.uk/forum/viewtopic.php?p=393574",
+            "https://forum.donanimhaber.com/enjektor-diplerinde-yag-kacagi--153286454"
           ]
         },
         {
@@ -3024,6 +3236,12 @@
           "belirtiler": "Güç kaybı, turbo ıslığı, egzozdan mavi duman, yağsız kalan turbo yatağının dağılması",
           "tahmini_km_araligi": "100.000 - 180.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Türkçe kaynaklarda bu parçaya özel bilgi bulunamadı. Fransız araba forumunda ~40 turbo onardığını söyleyen bir Citroën uzmanı turbo arızalarını enjektör karbon kaçağına bağlıyor (kendi tahmini, doğrulanmamış); bir üye turbo yağ besleme rakorundaki 'süzgecin' yalnızca tel örgü olduğunu, yağ filtresini geçmiş partikülü tutmayacağını yazıyor, bir moderatör ise ana filtreden partikülün turboya nasıl ulaştığını sorguluyor — nedensel zincir belgelenmiş değil.",
+            "teshis": "Güç kaybı, turbo ıslığı, egzozdan mavi duman. Bazı sahipler besleme borusuna ulaşmak için DPF'yi sökmek zorunda kalmış.",
+            "cozum": "Turbo ve yağ besleme hattının (boru, rakor) değişimi; sorunun kök nedeni olarak enjektör cıvatalarının gevşemesi ve yağ kirliliği tartışılıyor.",
+            "onlem": "Yağ ve yağ filtresini zamanında değiştirmek; enjektör bağlantı torklarını kontrol ettirmek."
+          },
           "kaynaklar": [
             "https://www.araclo.com/vehicles/peugeot-301-1.6-hdi/degerlendirmeler/kullanici-sorunlari",
             "https://otopark.com/forum/threads/207-1-6-hdi-turbo-arizasi.2118/page-2",
@@ -3036,10 +3254,16 @@
           "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik, düşük devirde acil moda geçme",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "EGR zamanla kurum biriktirip tıkanıyor; düşük devir ve kısa mesafe kullanım kurum oluşumunu artırıyor (Araclo). Bir kullanıcı tıkalı EGR'nin turboya basıp turbo arızası da verebildiğini yazıyor.",
+            "teshis": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik, düşük devirde acil moda geçme.",
+            "cozum": "Temizlik ya da yeni valf. Bir kaynak temizliğin geçici çözüm olabileceğini, kalıcı çözümün valf değişimi olabileceğini yazıyor; bir Focus 1.6 örneğinde elektronik arıza olduğu için temizleme yetmemiş ve yeni EGR gerekmiş. Yazılımla iptal forumlarda tartışmalı: egzoz gazı sıcaklığı kontrolü ve bazı motor parçaları üzerindeki etkisi nedeniyle riskli bulunuyor."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/egr-valfi-temizligi--30929546",
             "https://www.berlingoforum.com/thread-12042.html",
-            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=59950"
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=59950",
+            "https://forum.donanimhaber.com/1-6-hdi-tdci-motorda-egr-soken-var-mi--153323211"
           ]
         }
       ]
@@ -3059,11 +3283,16 @@
           "belirtiler": "Soğuk çalıştırmada zincir sesi, kam/krank senkron hatası ile arıza lambası",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda 1.6 THP ailesi için zincir uzaması ve gergi arızaları yaygın sorun olarak anılıyor; neden olarak zincirin zamanla uzaması gösteriliyor. Bir forumda motordan gelen şakırtı sesi ve arıza ışığı ilk işaretler olarak aktarılıyor.",
+            "cozum": "Zincir seti değişiminde gergi, zincir dişlileri ve bazen su pompası da yenileniyor (genel forum bilgisi). EP6'ya özel güncel fiyat aramada bulunamadı; yetkili servis ve bağımsız bir ustadan yazılı fiyat alın."
+          },
           "kaynaklar": [
             "https://otopark.com/forum/threads/thp-motor-ve-kronik-sorunlari-1-6-thp-alirken-nelere-dikkat-edilmeli.13309/",
             "https://www.forum-peugeot.com/Forum/threads/fiabilit%C3%A9-du-thp-1-6l-150ch-moteur-ep6.30030/",
             "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-essence/s-2280-fiabilite-des-16-thp.php",
-            "https://www.parkers.co.uk/peugeot/3008/estate/review/"
+            "https://www.parkers.co.uk/peugeot/3008/estate/review/",
+            "https://otopark.com/forum/threads/208-1-6-thp-156hp-allure-hakkinda.9453/"
           ]
         },
         {
@@ -3072,10 +3301,15 @@
           "belirtiler": "Tekleme, düzensiz rölanti, güç ve yakıt ekonomisi kaybı",
           "tahmini_km_araligi": "70.000 - 130.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Direkt enjeksiyonlu motorlarda yakıt emme supaplarını yıkamadığı için karbon birikiyor; bu THP için de anılan bilinen bir durum.",
+            "cozum": "Karbon (kurum) temizliği; bir kaynak her 80.000 km'de temizlik öneriyor (tek kaynak, üretici önerisi olarak doğrulanmalı)."
+          },
           "kaynaklar": [
             "https://www.araclo.com/motorlar/ep6-1-6thp/kronik-sorunlar",
             "https://www.parkers.co.uk/peugeot/3008/estate/review/",
-            "https://frenchcarforum.co.uk/forum/viewtopic.php?p=586357"
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?p=586357",
+            "https://otopark.com/forum/threads/208-1-6-thp-156hp-allure-hakkinda.9453/"
           ]
         },
         {
@@ -3084,11 +3318,17 @@
           "belirtiler": "Zor çalışma, gaza basınca tıkanma, ani güç kaybı, yakıt basıncı hata kodu ile arıza lambası",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forum kullanıcıları pompanın THP motorlarda sık arızalandığını ve pahalı olduğunu bildiriyor.",
+            "cozum": "Pompa değişimi ya da onarımı; bazı kişiler tamirle onarım yapıyor ve pompanın kumpasla ölçülerek ömrünün kestirilebileceği yazılıyor (doğrulanmamış yöntem).",
+            "maliyet": "Bir forum yorumunda yeni parça için yaklaşık 750 dolar (25-30 bin TL) deniyor; bu fiyat eski bir ilana (yaklaşık iki yıl önce) ait ve güncel değil."
+          },
           "kaynaklar": [
             "https://otopark.com/forum/threads/thp-motor-ve-kronik-sorunlari-1-6-thp-alirken-nelere-dikkat-edilmeli.13309/",
             "https://www.araclo.com/vehicles/peugeot-3008-1.6-thp/degerlendirmeler/kullanici-sorunlari",
             "https://www.parkers.co.uk/peugeot/3008/estate/review/",
-            "https://forum.donanimhaber.com/thp-yuksek-basinc-pompasi-tamiri--160377560"
+            "https://forum.donanimhaber.com/thp-yuksek-basinc-pompasi-tamiri--160377560",
+            "https://otopark.com/forum/threads/208-1-6-thp-156hp-allure-hakkinda.9453/"
           ],
           "donem_kirilimi": [
             {
@@ -4249,10 +4489,16 @@
           "belirtiler": "Ani yağ basıncı kaybı, kırmızı yağ lambası, çoğu zaman önceden belirti vermeden kısa sürede motor hasarı",
           "tahmini_km_araligi": "150.000 - 250.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "BKP motoruna özgü doğrulanmış bir geri çağırma ya da bülten bulunamadı; kaynaklar dolaylı. Forum ve parça satıcıları tahrik parçasının aşınıp yuvarlaklaştığında yağ basıncının düştüğünü yazıyor, ancak altıgen mil arızası daha çok sonraki CBEA/CKRA motorlarında belgeleniyor. PD dönemi (2005-2008) Passat'ta denge mili ve yağ pompası modülünün zincirle tahrik edildiği, bu zincirin arıza geçmişi olduğu ve bazı pazarlarda dişli tahrikli sisteme geçirildiği yazılıyor. Malay Mail haberine göre Güney Kore'de Temmuz 2005-Mayıs 2008 arası üretilen 2.425 Passat 2.0 TDI sedan yağ pompası arızası nedeniyle geri çağrıldı; bunun BKP'ye ya da belirli bir arıza moduna bağlandığı doğrulanmadı.",
+            "teshis": "Kırmızı yağ lambası ve forum kayıtlarında 'Stop oil pressure. Engine off. See owners manual.' olarak aktarılan uyarı. Bir olayda uyarı devir 2.500'ü aşana kadar gelmemiş, aynı olayda turbodan yağ kaçağı da vardı; yani düşük yağ seviyesi pompa arızasını taklit edebiliyor. DonanımHaber'deki B6 başlığında (2010 model; motor belirtilmemiş) yağ basıncı uyarısının nedenleri arasında tıkalı filtre, arızalı pompa ve hasarlı basınç sensörü sayılıyor. Bir kullanıcı 'sensör arızası' denmesine rağmen karter kapağını indirince çamur gibi tortu bulduğunu ve pompa değişimiyle sorunun çözüldüğünü, bir başkası tam sentetik olmayan yağın ve yağ haznesinde kavrulan yağın pompayı bozabileceğini yazıyor.",
+            "onlem": "Bir Passat sahibi arızanın uyarısız geldiğini, ani yağ basıncı kaybı ve hızlı motor hasarıyla sonuçlandığını yazıyor (anekdot); kırmızı yağ uyarısı varken aracı kullanmaya devam etmeyin. Şasi numarasıyla VW geri çağırma ve bülten sorgusu yaptırın."
+          },
           "kaynaklar": [
             "https://audisrs.com/2-0-tdi-vag-engines-with-oil-pump-failures-t33282.html",
             "https://www.wheelstreet.lt/straipsniai/vw-passat-b6-gidas",
-            "https://forum.donanimhaber.com/b6-2010-model-passat-yag-basinc-uyarisi--136598082"
+            "https://forum.donanimhaber.com/b6-2010-model-passat-yag-basinc-uyarisi--136598082",
+            "https://www.malaymail.com/amp/news/money/2016/06/24/vw-recalls-2425-passat-sedan-for-engine-oil-pump-failure/1148187"
           ]
         },
         {
@@ -4374,6 +4620,11 @@
           "belirtiler": "Çalıştırmada zincir şakırtısı, düzensiz çalışma, motor arıza lambası, zincir atlaması durumunda supap hasarı",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Bu 3 silindirli motor için doğrudan arıza oranı ya da üretici açıklaması bulunamadı; kanıt dolaylı. Honest John'ın Polo sayfası erken 1.2 Polo'larda düzensiz çalışmanın zincirin uzayıp diş atlamasından kaynaklanabildiğini, 2002-2003 1.2'lerdeki gergi sorunlarının çoğunlukla seyrek yağ ve filtre değişimine bağlandığını yazıyor. Bir forum kullanıcısı bu motorda zincirin Hall sensörü olmayan bir makarada atladığını, bu yüzden motor beyninin bunu algılamadığını yazıyor. Honest John'da 3 silindirli bir 2006 Polo 1.2'nin 43.000 milde silindir kapağı arızasıyla kayıtlı olması da bu motorda ağır arızaların kaynağının karışık olduğunu gösteriyor.",
+            "teshis": "Honest John'a göre belirti düzensiz ('tırtıllı') çalışma. Aynı forum kullanıcısı kam makarası hizasının akü tarafındaki silindir kapağının uç kapakları sökülerek kontrol edilmesini öneriyor. Teşhiste zincir varsayımıyla yetinmeyin: PicoAuto forumundaki bir 3 silindirli vakada krank/kam izi zincir uzamasını düşündürmüş, atölye ise sorunu emme manifoldu contası ve vakum borusu kaçağında bulmuş; zincir doğrulanmamış.",
+            "onlem": "Honest John bu motorda yağın en az yılda bir değiştirilmesini çok önemli sayıyor. 4 silindirli 1.2 TSI'ya ait zincir uzaması kayıtları bu 3 silindirli motor için geçerli değildir."
+          },
           "kaynaklar": [
             "https://honestjohn.co.uk/volkswagen/polo/2005/",
             "https://picoauto.com/support/viewtopic.php?p=35761"
