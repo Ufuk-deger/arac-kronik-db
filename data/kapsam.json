@@ -1487,37 +1487,37 @@
     },
     {
       "marka": "Skoda",
-      "model": "Superb",
+      "model": "Superb III",
       "yillar": "2015-2023",
-      "motor": "1.4 TSI / 1.6 TDI / 2.0 TDI",
+      "motor": "1.4 TSI / 1.5 TSI / 1.6 TDI / 2.0 TDI",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Superb"
+          "Superb (III"
         ],
         "motor": [
           ""
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "1.4 TSI, 1.6 TDI ve 2.0 TDI için tekil şikâyetler çıktı (arıza lambası, start-stop); 1.6 TDI DSG kavrama sorunu Octavia ve Rapid kayıtlarında."
+      "not": "1.4 TSI, 1.6 TDI ve 2.0 TDI için tekil şikâyetler çıktı (arıza lambası, start-stop); 1.6 TDI DSG kavrama sorunu Octavia ve Rapid kayıtlarında. Faz 8'de 1.5 TSI ACT (2019-2023) de arandı: Superb 1.5 TSI şikâyetleri (48V, yağ eksiltme, titreme) 2024 sonrası Superb IV'e ait; III kuşak 1.5 TSI için ayrı kaynak çıkmadı. Superb IV ayrı satırda kayıtlandı."
     },
     {
       "marka": "Skoda",
-      "model": "Karoq / Kodiaq",
+      "model": "Kodiaq",
       "yillar": "2017-",
       "motor": "1.5 TSI / 2.0 TDI",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Karoq"
+          "Kodiaq"
         ],
         "motor": [
           ""
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetler Şikâyetvar'daki tekil kayıtlarla sınırlı (DSG acil işletim / mekatronik, yağ eksiltme); bağımsız ikinci kaynak yok. Aynı motor ailesi Tiguan 1.5 TSI ve DQ381 kayıtlarında ele alındı."
+      "not": "Kodiaq için motor bazında tekrar eden sorun çıkmadı: Şikâyetvar'da su alma, AKF valf hortumu çatlağı, start-stop uyarısı, mekatronik / şanzıman acil işletim ve yazılım şikâyetleri var ve çoğunda motor tipi belirtilmemiş; 2020 model bir 1.5 Elite sahibi bagajdan su aldığını yazıyor. Aynı motorun yağ eksiltmesi ve ACT titreşimi Karoq 1.5 TSI kaydında ele alındı (Faz 8)."
     },
     {
       "marka": "Skoda",
@@ -1708,7 +1708,7 @@
       "marka": "Volkswagen",
       "model": "Passat B8",
       "yillar": "2015-2023",
-      "motor": "2.0 TDI / 1.5 TSI / 1.4 TSI",
+      "motor": "2.0 TDI / 1.4 TSI",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -1716,12 +1716,11 @@
         ],
         "motor": [
           "2.0 TDI",
-          "1.5 TSI",
           "1.4 TSI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Aramalarda B8 2.0 TDI için EGR, DPF ya da AdBlue kaynaklı tekrar eden Türkçe kaynak çıkmadı; en çok DSG şikâyeti var (B8 1.6 TDI kaydında). Faz 7'de yeniden arandı: DonanımHaber'de 2.0 TDI için enjektör, EGR, zincir gergisi, turbo ve DPF sıralanıyor ancak kaynaklar PD motorlu B6 ve DSG'ye ait; B7 / B8 2.0 TDI'ya özgü tekrar eden bir sorun için ikinci bağımsız site yok."
+      "not": "Aramalarda B8 2.0 TDI için EGR, DPF ya da AdBlue kaynaklı tekrar eden Türkçe kaynak çıkmadı; en çok DSG şikâyeti var (B8 1.6 TDI kaydında). Faz 7'de yeniden arandı: DonanımHaber'de 2.0 TDI için enjektör, EGR, zincir gergisi, turbo ve DPF sıralanıyor ancak kaynaklar PD motorlu B6 ve DSG'ye ait; B7 / B8 2.0 TDI'ya özgü tekrar eden bir sorun için ikinci bağımsız site yok. Faz 8: 1.5 TSI bu satırdan ayrıldı ve kayıtlandı (Passat B8 1.5 TSI 150, yağ eksiltme)."
     },
     {
       "marka": "Volkswagen",
@@ -2772,7 +2771,7 @@
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Leon"
+          "Leon (5F"
         ],
         "motor": [
           ""
@@ -2809,7 +2808,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Arona 1.0 TSI DSG ve Ateca 1.5 TSI için yalnızca Şikâyetvar'daki tekil kayıtlar (DSG vuruntusu, yağ uyarısı, yağ kaçağı); yaygınlığı gösteren bağımsız kaynak yok."
+      "not": "Arona 1.0 TSI DSG ve Ateca 1.5 TSI için yalnızca Şikâyetvar'daki tekil kayıtlar (DSG vuruntusu, yağ uyarısı, yağ kaçağı); yaygınlığı gösteren bağımsız kaynak yok. Faz 8'de 1.5 TSI için yeniden arandı: Şikâyetvar'daki Ateca kaydı (24.000 km'de dört kez yağ eksik uyarısı) tek başına; DonanımHaber'de Ateca için yağ eksiltme anlatıları genel TSI başlıklarında geçiyor, Ateca 1.5 TSI'ya özgü ikinci bağımsız kaynak çıkmadı."
     },
     {
       "marka": "Toyota",
@@ -3889,7 +3888,7 @@
       "marka": "Cupra",
       "model": "Formentor",
       "yillar": "2020-",
-      "motor": "1.5 eTSI (DSG)",
+      "motor": "1.5 eTSI (48V hafif hibrit, DSG)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -3898,9 +3897,7 @@
         "motor": [
           "eTSI"
         ]
-      },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetler tekil (DSG, alternatör, multimedya); bağımsız ikinci kaynak yok."
+      }
     },
     {
       "marka": "MG",
@@ -4082,7 +4079,7 @@
       "eslesme": {
         "model": [
           "Fabia",
-          "Superb"
+          "Superb (III"
         ],
         "motor": [
           "TSI",
@@ -5036,6 +5033,202 @@
           "1.6 TDI"
         ]
       }
+    },
+    {
+      "marka": "Seat",
+      "model": "Leon KL",
+      "yillar": "2020-",
+      "motor": "1.0 eTSI / 1.5 eTSI (48V hafif hibrit, DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Leon (KL"
+        ],
+        "motor": [
+          "eTSI"
+        ]
+      }
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb IV",
+      "yillar": "2024-",
+      "motor": "1.5 TSI MHEV (48V hafif hibrit, DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Superb (IV"
+        ],
+        "motor": [
+          "1.5 TSI"
+        ]
+      }
+    },
+    {
+      "marka": "Skoda",
+      "model": "Karoq",
+      "yillar": "2017-",
+      "motor": "1.5 TSI 150 (ACT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Karoq"
+        ],
+        "motor": [
+          "1.5 TSI"
+        ]
+      }
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat B8",
+      "yillar": "2015-2023",
+      "motor": "1.5 TSI 150 (ACT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Passat (B8"
+        ],
+        "motor": [
+          "1.5 TSI"
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 8Y",
+      "yillar": "2020-",
+      "motor": "35 TFSI 1.5 (48V hafif hibrit, S tronic)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A3 (8Y"
+        ],
+        "motor": [
+          "35 TFSI"
+        ]
+      }
+    },
+    {
+      "marka": "Skoda",
+      "model": "Karoq",
+      "yillar": "2017-",
+      "motor": "2.0 TDI",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Karoq"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetler Şikâyetvar'daki tekil kayıtlarla sınırlı (DSG acil işletim / mekatronik, yağ eksiltme); bağımsız ikinci kaynak yok. Aynı motor ailesi Tiguan 1.5 TSI ve DQ381 kayıtlarında ele alındı. Karoq 1.5 TSI ayrı satırda kayıtlandı (Faz 8)."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 7.5",
+      "yillar": "2017-2020",
+      "motor": "1.5 TSI 130/150 (ACT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Golf 7.5"
+        ],
+        "motor": [
+          "1.5 TSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "DonanımHaber'de tek başlık var (Golf 1.5 TSI ACT 150, iki silindir modunda titreme); sahibi 2020 model diyor ve Golf 7.5 / Golf 8 ayrımı yapılamıyor. 'Golf 7 yağ eksiltme sorunu' başlığındaki anlatılar ağırlıkla 1.2 / 1.4 TSI'ya ait; bir başka başlıkta 1.5 TSI 150 Golf sahibi 112 bin km'de DSG kavramasını değiştirdiğini yazıyor (tekil). Aynı motorun ACT titreşimi ve yağ eksiltmesi Karoq ve Passat kayıtlarında ele alındı."
+    },
+    {
+      "marka": "Seat",
+      "model": "Leon 5F FL",
+      "yillar": "2018-2020",
+      "motor": "1.5 TSI 130/150 (ACT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Leon (5F"
+        ],
+        "motor": [
+          "1.5 TSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da 2018 model 1.5 TSI Leon sahibi yetkili servisin bir litreye yakın yağ eksiltmeyi normal saydığını ve litre başına ücret istediğini yazıyor; DonanımHaber'deki 2019 Leon FR 1.5 TSI 150 başlığında cam tavan titremesi ve DSG mekatronik değişimi anılıyor. Tekil kayıtlar; aynı motorun yağ eksiltmesi Karoq ve Passat kayıtlarında ele alındı."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Kamiq / Scala",
+      "yillar": "2019-",
+      "motor": "1.5 TSI 150 (ACT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Kamiq",
+          "Scala"
+        ],
+        "motor": [
+          "1.5 TSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Kamiq ve Scala şikâyetleri (4 ayda 4 kez şanzıman uyarısı, 12.000 km'de yağ seviyesi uyarısı, titreşim) 1.0 TSI araçlara ait görünüyor; 1.5 TSI 150 için modele özgü kaynak çıkmadı. 1.0 TSI DSG sorunları Kamiq / Scala 1.0 TSI kaydında."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Arteon",
+      "yillar": "2017-",
+      "motor": "1.5 TSI 150 (ACT, DSG)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Arteon"
+        ],
+        "motor": [
+          "1.5 TSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "DonanımHaber ve Otopark'ta Arteon 1.5 TSI test ve ilk sürüş başlıkları var, arıza anlatısı yok; Şikâyetvar'daki tek Arteon DSG şikâyeti (2018 model, mekatronik değişiminden sonra şanzıman yağı eksik) 1.5 TSI'ya bağlanamıyor. 1.5 TSI yağ eksiltmesi Karoq ve Passat kayıtlarında ele alındı."
+    },
+    {
+      "marka": "Audi",
+      "model": "Q2 / Q3",
+      "yillar": "2016-",
+      "motor": "35 TFSI (1.5)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Q2",
+          "Q3"
+        ],
+        "motor": [
+          "35 TFSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da Q2 35 TFSI için 2024 model bir araçta sürekli tahrik hatası, Q3 için alternatör şüphesiyle yolda kalma gibi tekil kayıtlar var; Q2 / Q3'e özgü ikinci bağımsız kaynak çıkmadı. Aynı 1.5 TFSI motorlu A3 (8Y) 35 TFSI kaydında 48 V / alternatör arızası ele alındı."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat B9",
+      "yillar": "2024-",
+      "motor": "1.5 eTSI (48V hafif hibrit, DSG)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Passat (B9"
+        ],
+        "motor": [
+          "eTSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "B9 için bulunan başlıklar plug-in hibrit (E-Hybrid) sürümüne ait; 1.5 eTSI (48V hafif hibrit) için B9'a özgü Şikâyetvar ya da forum kaydı çıkmadı. Aynı 48 V sistem Golf 8, Octavia, Leon, Superb, Formentor ve A3 (8Y) kayıtlarında ele alındı."
     }
   ]
 }

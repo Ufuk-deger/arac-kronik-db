@@ -10,6 +10,7 @@ Bu dosya `scripts/kapsam_md_uret.py` ile `data/kapsam.json` (plan) ve `data/arac
 - **Sıralama:** Genelden özele gidilir. Önce her markanın en çok satılan ve en çok sorgulanan modelleri ile ana motor grupları (kademe 1), sonra yaygın ama daha az sorgulananlar (kademe 2), en son niş gruplar (kademe 3).
 - **Yıl kırılımı:** Kaynaklar üretim yılına göre fark belirtiyorsa sorun `donem_kirilimi` ile yıl aralıklarına ayrılır (ör. revizyon öncesi ve sonrası).
 - **Motor versiyonları:** Kaynaklar iki versiyonu motor kodu, güç, şanzıman ya da kasa/nesil ile ayırt ediyorsa ayrı kayıt açılır (ör. M271 Kompressor ve M271 EVO; N47D16 ve N47D20; Qashqai J11 1.5 dCi ve 1.6 dCi Xtronic). Ayırt etmiyorlarsa kayıt bölünmez, fark metinde ya da `donem_kirilimi` içinde belirtilir ([README](README.md#motor-versiyonları)).
+- **Aynı motoru paylaşan modeller:** Motor kaynaklı sorunlar (ör. 1.5 TSI yağ eksiltmesi, 48V hafif hibrit sistem) her modelde ayrı kayıt olarak durur ve yalnızca o modele ait şikâyeti olan modellere yazılır. Modele özgü ikinci site bulunamazsa aynı motoru taşıyan başka modelin kaynağı kullanılabilir; bu durum kaydın `detay` metninde açıkça yazılır ve kayıt doğrudan kanıtı sınırlı sayılır (ör. Karoq ACT titreşimi, Formentor 48V).
 - **İlan sayısı kontrolü:** 7. aşamada plan, arabam.com'un aylık ilan sıralamaları ve Cardata listeleriyle karşılaştırıldı (sahibinden.com'un canlı model sayıları okunamadı) ve en çok ilanlı modellerin motor boşlukları kapatıldı. "Çok ilanlı" olmak tek başına kayıt gerekçesi değildir: tekrar eden bir kronik sorun için iki bağımsız kaynak bulunamazsa grup `–` olarak kalır.
 - **Kanıt eşiği:** Her sorun için en az iki farklı site ve en az bir deneyim/resmî türünde kaynak gerekir ([README](README.md#kaynak-kuralı)). Kaynak bulunamayan gruplar plana `–` olarak işlenir; sorun uydurulmaz.
 
@@ -23,17 +24,17 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **296** model/motor grubu
-- Tamamlanan (✓): **154**
-- Araştırılıp eklenmeyen (–): **142**
+- Plan: **308** model/motor grubu
+- Tamamlanan (✓): **160**
+- Araştırılıp eklenmeyen (–): **148**
 - Sırada (○): **0**
 - Kademe 1: **96/96** işlendi (✓ ya da –)
-- Veritabanı: **158** kayıt, **241** kronik sorun
+- Veritabanı: **164** kayıt, **249** kronik sorun
 
 | Marka | Plan | ✓ | – | ○ | Kademe 1 işlenen |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Renault | 22 | 13 | 9 | 0 | 8/8 |
-| Volkswagen | 23 | 16 | 7 | 0 | 10/10 |
+| Volkswagen | 27 | 17 | 10 | 0 | 10/10 |
 | Toyota | 13 | 4 | 9 | 0 | 5/5 |
 | Fiat | 16 | 10 | 6 | 0 | 5/5 |
 | Hyundai | 21 | 11 | 10 | 0 | 10/10 |
@@ -41,7 +42,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Opel | 22 | 13 | 9 | 0 | 5/5 |
 | Citroen | 10 | 6 | 4 | 0 | 3/3 |
 | BYD | 2 | 1 | 1 | 0 | 1/1 |
-| Skoda | 13 | 7 | 6 | 0 | 5/5 |
+| Skoda | 17 | 9 | 8 | 0 | 5/5 |
 | Mercedes-Benz | 17 | 10 | 7 | 0 | 6/6 |
 | Togg | 2 | 1 | 1 | 0 | 1/1 |
 | BMW | 12 | 5 | 7 | 0 | 4/4 |
@@ -51,9 +52,9 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Ford | 17 | 8 | 9 | 0 | 7/7 |
 | Kia | 17 | 8 | 9 | 0 | 5/5 |
 | Dacia | 12 | 8 | 4 | 0 | 3/3 |
-| Audi | 11 | 5 | 6 | 0 | 4/4 |
+| Audi | 13 | 6 | 7 | 0 | 4/4 |
 | Honda | 7 | 3 | 4 | 0 | 2/2 |
-| Seat | 4 | 2 | 2 | 0 | 1/1 |
+| Seat | 6 | 3 | 3 | 0 | 1/1 |
 | Chevrolet | 1 | 0 | 1 | 0 | 0/0 |
 | Volvo | 2 | 1 | 1 | 0 | 0/0 |
 | Subaru | 1 | 1 | 0 | 0 | 0/0 |
@@ -64,7 +65,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Suzuki | 1 | 0 | 1 | 0 | 0/0 |
 | Mitsubishi | 1 | 0 | 1 | 0 | 0/0 |
 | Land Rover | 1 | 0 | 1 | 0 | 0/0 |
-| Cupra | 2 | 0 | 2 | 0 | 0/0 |
+| Cupra | 2 | 1 | 1 | 0 | 0/0 |
 | MG | 3 | 1 | 2 | 0 | 1/1 |
 | Lexus | 1 | 0 | 1 | 0 | 0/0 |
 | Isuzu | 1 | 0 | 1 | 0 | 0/0 |
@@ -180,15 +181,19 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | Caddy | 2010-2015 | 1.6 TDI (EA189) | ✓ 1 sorun |
 | 2 | Caddy | 2015-2020 | 2.0 TDI | – eklenmedi: 2.0 TDI için Caddy'ye özgü kaynaklar Şikâyetvar (DPF, AdBlue) ile sınırlı; ikinci bağımsız kaynak bulunamadı. |
 | 2 | Golf 7 | 2012-2019 | 1.2 TSI 85/105 | ✓ 1 sorun |
+| 2 | Golf 7.5 | 2017-2020 | 1.5 TSI 130/150 (ACT) | – eklenmedi: DonanımHaber'de tek başlık var (Golf 1.5 TSI ACT 150, iki silindir modunda titreme); sahibi 2020 model diyor ve Golf 7.5 / Golf 8 ayrımı yapılamıyor. 'Golf 7 yağ eksiltme sorunu' başlığındaki anlatılar ağırlıkla 1.2 / 1.4 TSI'ya ait; bir başka başlıkta 1.5 TSI 150 Golf sahibi 112 bin km'de DSG kavramasını değiştirdiğini yazıyor (tekil). Aynı motorun ACT titreşimi ve yağ eksiltmesi Karoq ve Passat kayıtlarında ele alındı. |
 | 2 | Golf 8 | 2020- | 1.0 TSI / 1.5 TSI | ✓ 2 sorun, 1 yıl kırılımı |
 | 2 | ID.4 / ID.3 / ID.7 | 2022- | Elektrik | – eklenmedi: Ekim 2026'da Avrupa'da ID.3, ID.4, ID.7, ID. Buzz ve Cupra Born'un belirli partilerini kapsayan batarya geri çağırması (%80 şarj sınırı) duyuruldu; ABD'deki ID.4 geri çağırmalarının Zwickau ve Emden üretimi Avrupa araçlarını kapsamadığı yazılıyor, Türkiye'deki araçların kapsamı doğrulanamadı. Türkiye şikâyetleri (navigasyon, bağlantılı hizmetler, tabela okuma uyarısı) farklı konularda ve yalnızca Şikâyetvar ile Ekşi Sözlük'te. |
 | 2 | Jetta | 2011-2018 | 1.2 TSI / 1.4 TSI / 1.6 TDI | ✓ 4 sorun, 1 yıl kırılımı |
 | 2 | Passat B7 | 2010-2014 | 2.0 TDI / 1.4 TSI | – eklenmedi: Aramalarda 2.0 TDI'ya özgü tekrar eden sorun çıkmadı; forum yorumlarının çoğu eski PD motorlara (B6) ve DSG'ye ait, enjektör iddiaları tekil. Faz 7'de yeniden arandı: DonanımHaber'de 2.0 TDI için enjektör, EGR, zincir gergisi, turbo ve DPF sıralanıyor ancak kaynaklar PD motorlu B6 ve DSG'ye ait; B7 / B8 2.0 TDI'ya özgü tekrar eden bir sorun için ikinci bağımsız site yok. |
-| 2 | Passat B8 | 2015-2023 | 2.0 TDI / 1.5 TSI / 1.4 TSI | – eklenmedi: Aramalarda B8 2.0 TDI için EGR, DPF ya da AdBlue kaynaklı tekrar eden Türkçe kaynak çıkmadı; en çok DSG şikâyeti var (B8 1.6 TDI kaydında). Faz 7'de yeniden arandı: DonanımHaber'de 2.0 TDI için enjektör, EGR, zincir gergisi, turbo ve DPF sıralanıyor ancak kaynaklar PD motorlu B6 ve DSG'ye ait; B7 / B8 2.0 TDI'ya özgü tekrar eden bir sorun için ikinci bağımsız site yok. |
+| 2 | Passat B8 | 2015-2023 | 2.0 TDI / 1.4 TSI | – eklenmedi: Aramalarda B8 2.0 TDI için EGR, DPF ya da AdBlue kaynaklı tekrar eden Türkçe kaynak çıkmadı; en çok DSG şikâyeti var (B8 1.6 TDI kaydında). Faz 7'de yeniden arandı: DonanımHaber'de 2.0 TDI için enjektör, EGR, zincir gergisi, turbo ve DPF sıralanıyor ancak kaynaklar PD motorlu B6 ve DSG'ye ait; B7 / B8 2.0 TDI'ya özgü tekrar eden bir sorun için ikinci bağımsız site yok. Faz 8: 1.5 TSI bu satırdan ayrıldı ve kayıtlandı (Passat B8 1.5 TSI 150, yağ eksiltme). |
+| 2 | Passat B8 | 2015-2023 | 1.5 TSI 150 (ACT) | ✓ 1 sorun |
 | 2 | Polo 6R / 6C | 2009-2017 | 1.4 TDI / 1.6 TDI | ✓ 1 sorun |
 | 2 | Tiguan 5N | 2008-2016 | 2.0 TDI | – eklenmedi: 5N 2.0 TDI'ya özgü turbo, EGR, DPF ya da zincir sorunu için kaynak çıkmadı; sonuçlar 1.4 TSI ve genel Passat 2.0 TDI yorumlarına ait. |
 | 2 | Tiguan AD1 | 2016- | 2.0 TDI | ✓ 1 sorun |
+| 3 | Arteon | 2017- | 1.5 TSI 150 (ACT, DSG) | – eklenmedi: DonanımHaber ve Otopark'ta Arteon 1.5 TSI test ve ilk sürüş başlıkları var, arıza anlatısı yok; Şikâyetvar'daki tek Arteon DSG şikâyeti (2018 model, mekatronik değişiminden sonra şanzıman yağı eksik) 1.5 TSI'ya bağlanamıyor. 1.5 TSI yağ eksiltmesi Karoq ve Passat kayıtlarında ele alındı. |
 | 3 | Passat B7 | 2010-2014 | 2.0 TDI (CFFB / CBAB) | – eklenmedi: B7'ye özgü zincir ya da yüksek basınç pompası kaynağı çıkmadı; enjektör anlatıları PD motorlu B6 kaydında. |
+| 3 | Passat B9 | 2024- | 1.5 eTSI (48V hafif hibrit, DSG) | – eklenmedi: B9 için bulunan başlıklar plug-in hibrit (E-Hybrid) sürümüne ait; 1.5 eTSI (48V hafif hibrit) için B9'a özgü Şikâyetvar ya da forum kaydı çıkmadı. Aynı 48 V sistem Golf 8, Octavia, Leon, Superb, Formentor ve A3 (8Y) kayıtlarında ele alındı. |
 | 3 | Transporter T5 / T6 | 2003- | 2.0 TDI | – eklenmedi: T5 / T6 2.0 TDI için kronik arıza listesi çıkmadı; yalnızca tekil enjektör ve turbo anlatıları. |
 
 ### Toyota
@@ -333,11 +338,15 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Rapid | 2012-2019 | 1.6 TDI / 1.6 MPI | ✓ 1 sorun |
 | 2 | Fabia | 2014-2021 | 1.0 MPI / 1.2 TSI / 1.4 TDI | – eklenmedi: Fabia için motor bazında tekrar eden sorun çıkmadı (1.4 TDI kavrama/volan, 1.2 krank keçesi ve 1.0 direksiyon uyarısı gibi tekil iddialar). |
 | 2 | Kamiq / Scala | 2019- | 1.0 TSI 95/115 | ✓ 1 sorun |
-| 2 | Karoq / Kodiaq | 2017- | 1.5 TSI / 2.0 TDI | – eklenmedi: Şikâyetler Şikâyetvar'daki tekil kayıtlarla sınırlı (DSG acil işletim / mekatronik, yağ eksiltme); bağımsız ikinci kaynak yok. Aynı motor ailesi Tiguan 1.5 TSI ve DQ381 kayıtlarında ele alındı. |
+| 2 | Karoq | 2017- | 1.5 TSI 150 (ACT) | ✓ 2 sorun |
+| 2 | Karoq | 2017- | 2.0 TDI | – eklenmedi: Şikâyetler Şikâyetvar'daki tekil kayıtlarla sınırlı (DSG acil işletim / mekatronik, yağ eksiltme); bağımsız ikinci kaynak yok. Aynı motor ailesi Tiguan 1.5 TSI ve DQ381 kayıtlarında ele alındı. Karoq 1.5 TSI ayrı satırda kayıtlandı (Faz 8). |
+| 2 | Kodiaq | 2017- | 1.5 TSI / 2.0 TDI | – eklenmedi: Kodiaq için motor bazında tekrar eden sorun çıkmadı: Şikâyetvar'da su alma, AKF valf hortumu çatlağı, start-stop uyarısı, mekatronik / şanzıman acil işletim ve yazılım şikâyetleri var ve çoğunda motor tipi belirtilmemiş; 2020 model bir 1.5 Elite sahibi bagajdan su aldığını yazıyor. Aynı motorun yağ eksiltmesi ve ACT titreşimi Karoq 1.5 TSI kaydında ele alındı (Faz 8). |
 | 2 | Octavia A7 / A8 | 2018- | 1.0 TSI / 1.5 TSI | ✓ 2 sorun |
-| 2 | Superb | 2015-2023 | 1.4 TSI / 1.6 TDI / 2.0 TDI | – eklenmedi: 1.4 TSI, 1.6 TDI ve 2.0 TDI için tekil şikâyetler çıktı (arıza lambası, start-stop); 1.6 TDI DSG kavrama sorunu Octavia ve Rapid kayıtlarında. |
+| 2 | Superb III | 2015-2023 | 1.4 TSI / 1.5 TSI / 1.6 TDI / 2.0 TDI | – eklenmedi: 1.4 TSI, 1.6 TDI ve 2.0 TDI için tekil şikâyetler çıktı (arıza lambası, start-stop); 1.6 TDI DSG kavrama sorunu Octavia ve Rapid kayıtlarında. Faz 8'de 1.5 TSI ACT (2019-2023) de arandı: Superb 1.5 TSI şikâyetleri (48V, yağ eksiltme, titreme) 2024 sonrası Superb IV'e ait; III kuşak 1.5 TSI için ayrı kaynak çıkmadı. Superb IV ayrı satırda kayıtlandı. |
+| 2 | Superb IV | 2024- | 1.5 TSI MHEV (48V hafif hibrit, DSG) | ✓ 2 sorun |
 | 3 | Enyaq / Elroq | 2021- | Elektrik | – eklenmedi: Elroq için Şikâyetvar'da tabela okuma uyarısı, Türkiye'de kapalı uygulama ve menzil şikâyetleri var; Enyaq için doğrudan kayıt çıkmadı. İkinci bağımsız kaynak yok. |
 | 3 | Fabia / Superb | 2015- | 1.2 TSI DSG, 2.0 TDI | – eklenmedi: Fabia 1.2 TSI DSG ve Superb 2.0 TDI için yalnızca tekil Şikâyetvar kayıtları ve genel DSG anlatıları; Fabia 1.4 TDI için sonuç çıkmadı. |
+| 3 | Kamiq / Scala | 2019- | 1.5 TSI 150 (ACT) | – eklenmedi: Kamiq ve Scala şikâyetleri (4 ayda 4 kez şanzıman uyarısı, 12.000 km'de yağ seviyesi uyarısı, titreşim) 1.0 TSI araçlara ait görünüyor; 1.5 TSI 150 için modele özgü kaynak çıkmadı. 1.0 TSI DSG sorunları Kamiq / Scala 1.0 TSI kaydında. |
 | 3 | Yeti | 2009-2017 | 1.2 TSI / 1.4 TSI / 1.6 TDI | – eklenmedi: 1.2 TSI zincir iddiaları eski ve tekil (ayrıntısı Octavia A5 1.2 TSI kaydında); DSG görüşleri çelişkili. |
 
 ### Mercedes-Benz
@@ -487,9 +496,11 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | A4 B8 | 2008-2015 | 1.8 TFSI / 2.0 TFSI (EA888 Gen2) | ✓ 4 sorun, 2 yıl kırılımı |
 | 1 | A4 B8 | 2008-2015 | 2.0 TDI 143/150/177 (Multitronic) | ✓ 1 sorun |
 | 2 | A3 8V | 2012-2020 | 1.0 TFSI / 1.2 TFSI | – eklenmedi: 1.2 TFSI için sonuç çıkmadı; 1.0 TFSI için yalnızca tekil anekdotlar (start-stop sonrası kalkış, far). S tronic şikâyetleri 1.4 TFSI ve 1.6 TDI kayıtlarında ele alındı. |
+| 2 | A3 8Y | 2020- | 35 TFSI 1.5 (48V hafif hibrit, S tronic) | ✓ 1 sorun |
 | 2 | A4 B9 | 2016- | 2.0 TFSI / 2.0 TDI | – eklenmedi: B9 için doğrudan kronik sorun listesi çıkmadı; yağ eksiltme şikâyetleri çoğunlukla B8 dönemine ait (kayıtlı), B9'a özgü olanlar tekil (tahrik uyarısı, stop lambası çatlağı). |
 | 3 | A1 (8X) | 2010-2018 | 1.2 / 1.4 TFSI (S tronic) | – eklenmedi: A1'e özgü veri sınırlı; yağ tüketimi ve S tronic anlatıları A3 ve A4 kayıtlarında ele alındı. |
 | 3 | A6 C7 | 2011-2018 | 2.0 TDI / 3.0 TDI / 2.0 TFSI | – eklenmedi: A6 C7'ye özgü kaynak bulunamadı; bulunan A6 2.0 TDI başlıkları C6 dönemine (2009-2011) ait. |
+| 3 | Q2 / Q3 | 2016- | 35 TFSI (1.5) | – eklenmedi: Şikâyetvar'da Q2 35 TFSI için 2024 model bir araçta sürekli tahrik hatası, Q3 için alternatör şüphesiyle yolda kalma gibi tekil kayıtlar var; Q2 / Q3'e özgü ikinci bağımsız kaynak çıkmadı. Aynı 1.5 TFSI motorlu A3 (8Y) 35 TFSI kaydında 48 V / alternatör arızası ele alındı. |
 | 3 | Q3 | 2011-2018 | 2.0 TDI / 2.0 TFSI | – eklenmedi: Q3'e özgü kaynak bulunamadı; 2.0 TFSI yağ tüketimi Q5 ve A4 kayıtlarında ele alındı. |
 | 3 | Q4 e-tron / e-tron | 2021- | Elektrik | – eklenmedi: Şikâyetvar'da uzaktan erişim hizmetinin Türkiye'de kapalı olması, yeni araçta akü arızası ve menzil şikâyetleri tekil; ikinci site yok. e-tron GT için Mart 2024 batarya modülü geri çağırmaları (93VM, 93VN; Taycan ile aynı modüller, şarjın %80 ile sınırlanması) var; Türkiye kapsamı doğrulanamadı. |
 | 3 | Q5 8R | 2008-2017 | 2.0 TFSI (EA888) | ✓ 1 sorun, 1 yıl kırılımı |
@@ -513,7 +524,9 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Leon 5F / 1P | 2005-2020 | 1.2 TSI / 1.4 TSI / 1.6 TDI | ✓ 1 sorun |
 | 2 | Ibiza 6J / 6P | 2008-2017 | 1.2 TSI (DSG DQ200) | ✓ 1 sorun |
 | 2 | Ibiza 6J / 6P | 2008-2017 | 1.0 TSI / 1.6 TDI | – eklenmedi: Ibiza 1.6 TDI için yalnızca tekil bir direksiyon (EPS) şikâyeti çıktı; 1.0 TSI için kaynak bulunamadı. Zincir iddiası Ibiza'ya özgü değil. |
-| 3 | Ateca / Arona | 2016- | 1.0 TSI / 1.5 TSI | – eklenmedi: Arona 1.0 TSI DSG ve Ateca 1.5 TSI için yalnızca Şikâyetvar'daki tekil kayıtlar (DSG vuruntusu, yağ uyarısı, yağ kaçağı); yaygınlığı gösteren bağımsız kaynak yok. |
+| 2 | Leon 5F FL | 2018-2020 | 1.5 TSI 130/150 (ACT) | – eklenmedi: Şikâyetvar'da 2018 model 1.5 TSI Leon sahibi yetkili servisin bir litreye yakın yağ eksiltmeyi normal saydığını ve litre başına ücret istediğini yazıyor; DonanımHaber'deki 2019 Leon FR 1.5 TSI 150 başlığında cam tavan titremesi ve DSG mekatronik değişimi anılıyor. Tekil kayıtlar; aynı motorun yağ eksiltmesi Karoq ve Passat kayıtlarında ele alındı. |
+| 2 | Leon KL | 2020- | 1.0 eTSI / 1.5 eTSI (48V hafif hibrit, DSG) | ✓ 1 sorun |
+| 3 | Ateca / Arona | 2016- | 1.0 TSI / 1.5 TSI | – eklenmedi: Arona 1.0 TSI DSG ve Ateca 1.5 TSI için yalnızca Şikâyetvar'daki tekil kayıtlar (DSG vuruntusu, yağ uyarısı, yağ kaçağı); yaygınlığı gösteren bağımsız kaynak yok. Faz 8'de 1.5 TSI için yeniden arandı: Şikâyetvar'daki Ateca kaydı (24.000 km'de dört kez yağ eksik uyarısı) tek başına; DonanımHaber'de Ateca için yağ eksiltme anlatıları genel TSI başlıklarında geçiyor, Ateca 1.5 TSI'ya özgü ikinci bağımsız kaynak çıkmadı. |
 
 ### Chevrolet (ek kademe)
 
@@ -585,7 +598,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 3 | Born | 2022- | Elektrik | – eklenmedi: Arama sonuç vermedi. Cupra Born, Ekim 2026 VW grubu batarya geri çağırmasının kapsadığı modeller arasında (belirli üretim partileri); Türkiye kapsamı doğrulanamadı. |
-| 3 | Formentor | 2020- | 1.5 eTSI (DSG) | – eklenmedi: Şikâyetler tekil (DSG, alternatör, multimedya); bağımsız ikinci kaynak yok. |
+| 3 | Formentor | 2020- | 1.5 eTSI (48V hafif hibrit, DSG) | ✓ 1 sorun, 1 yıl kırılımı |
 
 ### MG (ek kademe)
 

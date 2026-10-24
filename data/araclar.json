@@ -111,6 +111,38 @@
     },
     {
       "marka": "Audi",
+      "model": "A3 (8Y, 2020-)",
+      "motor": "35 TFSI 1.5 (48V hafif hibrit, S tronic)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "48V hafif hibrit sistem ve alternatör arızası ('araç tahrik arızası' uyarısı)",
+          "etkilenen_parca": "48 V akü, alternatör/marş jeneratörü ve tahrik sistemi uyarısı",
+          "belirtiler": "'Araç tahrik arızası' uyarısı, çekiciyle servise gitmek zorunda kalma, alternatör arızası; garanti dışında yüksek ücret talebi",
+          "tahmini_km_araligi": "12.000 - 80.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklar kök nedeni doğrulamıyor. Ekşi Sözlük'te bir yorumcu 35 TFSI olarak geçen yeni nesil VAG araçlarında kronik bir alternatör arızası olduğunu, 2021 modelde 80.000 km'de ve 2025 modelde 12.000 km'de yaşayanların bulunduğunu ve ABD ile Kanada'da alternatör için 7 yıl ek garanti verildiğini ama Türkiye'de olmadığını yazıyor (iddia, doğrulanmadı); başka bir yorumcu Türkiye'de satılan 30 ve 35 TFSI'ların 48 voltluk mild hibrit sistemle desteklendiğini yazıyor. Şikâyetvar'da bir 35 TFSI Hybrid sahibi alternatör arızasının hibrit araçların çoğunda kronik olduğunu savunuyor (iddia). Aynı Ekşi sayfasında 2,5 yılda 60.000 km yapıp ciddi sorunla karşılaşmayan bir 35 TFSI sahibi de var.",
+            "teshis": "Şikâyetvar'da 2021 model bir A3 35 TFSI Hybrid sahibi 72.000 km'de 'araç tahrik arızası' uyarısı üzerine aracını çekiciyle yetkili servise götürdüğünü, serviste alternatörün değişmesi gerektiğinin söylendiğini yazıyor.",
+            "cozum": "Yetkili serviste alternatör değişimi; garanti dışında ücretli. 2023 model bir sahip 36.000 km'de hibrit sistem / alternatör arızası için parçanın ücretsiz değiştirilmesini talep ediyor.",
+            "maliyet": "Şikâyetvar'da kullanıcı beyanlarına göre: alternatör parçası 166.619 TL, serviste yapılan bakım karşılığında 76.500 TL'ye indirilebileceği söylenmiş; 49.000 km'de 77.000 TL katkı payı talebi; Ekşi Sözlük'te garanti dışı yaklaşık 150.000 TL iddiası. Tek tek şikâyet, tarihleri farklı; güncel fiyat olarak okumayın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/audi/a3/a3-35-tfsi",
+            "https://www.sikayetvar.com/audi/a3/alternator-arizasi",
+            "https://www.sikayetvar.com/audi/audi-a3-alternator-degisimi-ucreti-asiri-yuksek",
+            "https://www.sikayetvar.com/audi/a3/a3-alternator",
+            "https://eksisozluk.com/audi-a3--283347?p=85",
+            "https://eksisozluk.com/audi-a3--283347?p=76"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Audi",
       "model": "A4 (B8, 2008-2015)",
       "motor": "1.8 TFSI / 2.0 TFSI (EA888 Gen2)",
       "uretim_yillari": {
@@ -1081,6 +1113,42 @@
               "bitis": null,
               "durum": "Görülebilir",
               "not": "54 kWh / 115 kW (156 PS) güncel sürüm; Türkiye'de 2025 model ë-C4 X Max (156 HP) ikinci el ilanı var. Şikâyetvar'daki yeni araç şikâyetleri batarya kapasitesi yazmadığı için hangi sürüme ait oldukları belli değil."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Cupra",
+      "model": "Formentor (2020-)",
+      "motor": "1.5 eTSI 150 (48V hafif hibrit, DSG)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "48V hafif hibrit sistem ve alternatör arızası",
+          "etkilenen_parca": "48 V akü ve alternatör/marş jeneratörü, 12 V akü uyarısı",
+          "belirtiler": "Alternatör arızası ve 12 V / 48 V elektrik uyarıları (aynı sistemde 'tahrik sistemi arızası', start-stop'un devre dışı kalması ve yolda kalma bildiriliyor)",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Formentor'a özel kaynak tek bir Ekşi Sözlük yorumu: yorumcu 2024 makyajıyla gelen 1.5 eTSI mild hybrid motoru 'kronik alternatör arızası tescilli' diye anıyor ve maliyet nedeniyle seçildiğini ileri sürüyor (görüş, doğrulanmadı); aynı başlıkta başka bir yorumcu aracın (VZ) kronik arızası olmadığını yazıyor. Diğer kaynaklar eTSI ailesini anlatıyor: DonanımHaber'de DSG'li eTSI modellerinde alternatör sorununun 12 V ve 48 V arızalarına yol açtığı ve üreticinin kalıcı çözüm üretmediği iddia ediliyor; Şikâyetvar'da bir VW 1.0 eTSI sahibi alternatör değişimine rağmen arızanın döndüğünü yazıyor. Yani bu kayıt kardeş modellerin kaynaklarına dayanıyor.",
+            "teshis": "Formentor için ayrıntılı teşhis anlatısı bulunamadı; Golf 8, Octavia ve Leon kayıtlarındaki 'tahrik sistemi / 48 V' uyarıları aynı sistem için geçerli.",
+            "cozum": "Formentor için onarım ya da maliyet bilgisi bulunamadı; Leon, Golf 8 ve Octavia kayıtlarında garanti içinde ücretsiz onarım, garanti dışında yüksek fatura anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://eksisozluk.com/cupra-formentor--5969524?p=17",
+            "https://forum.donanimhaber.com/dsg-etsi-alternator-sorunu--161956122",
+            "https://www.sikayetvar.com/volkswagen/aracimda-tekrarlayan-12v-ve-48v-arizalari-serviste-cozulemiyor"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2024,
+              "bitis": null,
+              "durum": "Görülebilir",
+              "not": "Ekşi Sözlük'te bir yorumcu 1.5 eTSI mild hybrid motorun Formentor'a 2024 makyajıyla geldiğini, öncesinde 48V sistemi olmayan düz 1.5 TSI bulunduğunu yazıyor; alternatör arızası bu yorumda bilinen sorun olarak anılıyor (tek yorum, üretici doğrulaması yok)."
             }
           ]
         }
@@ -5993,6 +6061,40 @@
       ]
     },
     {
+      "marka": "Seat",
+      "model": "Leon (KL, 2020-)",
+      "motor": "1.0 eTSI 110 / 1.5 eTSI 130/150 (48V hafif hibrit, DSG)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "48V hafif hibrit sistem ve alternatör-marş jeneratörü arızası",
+          "etkilenen_parca": "48 V akü, alternatör/marş jeneratörü, 12 V akü ve SOS/tahrik sistemi uyarısı",
+          "belirtiler": "'Hata: 48V beslemesi' ve 'Aracı sürmeyin' benzeri uyarılar, her çalıştırmada sesli SOS arıza uyarısı, 12 V / 48 V akü uyarıları, yolda kalma",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklar kök nedeni doğrulamıyor. Şikâyetvar'da bir Leon FR 1.5 eTSI sahibine 39.000 km'de marş alternatörünün bozulduğu ve hibrit akünün çalışmadığı söylenmiş; 2024 model bir Leon 1.0 eTSI sahibi fabrika aküsünün alternatör dahil ciddi bir arızaya yol açtığını düşünüyor (iddia); bir kullanıcı SOS arızasının bu modelde kronik olduğunu yazıyor. İki DonanımHaber başlığı Leon'a özel değil, DSG'li eTSI ve Skoda e-TEC ailesindeki aynı 48 V sistemi anlatıyor: alternatör sorunu 12 V ve 48 V arızalarına yol açıyor, 1.0 motorda daha sık ama 1.5'te de görülüyor, üretici kalıcı çözüm üretmemiş (ikinci el anlatım, doğrulanmadı).",
+            "teshis": "Şikâyetvar'da bir 2021 Leon 1.5 TSI 130 sahibi SOS arızasının her çalıştırmada sesli uyarı verdiğini ve sürüşte ekranda sürekli uyarı gösterdiğini yazıyor; 2024 model bir Leon 1.0 eTSI garanti kapsamındayken 48 V arızası nedeniyle yolda kalmış. Volkswagen 1.0 eTSI kaydında (aynı sistem) 12 V ve 48 V uyarılarının araç uzun süre park edip sabah çalıştırılınca çıktığı, servisin alternatörü suçladığı ve yeni alternatöre rağmen arızanın birkaç gün içinde döndüğü anlatılıyor.",
+            "cozum": "Şikâyetvar'da garanti kapsamındaki araçta parça bekleme süresinin uzadığı ve ikame araç verilmediği, garanti süresi dolduktan sonra ise arızaların ücretli çözüldüğü ya da iyi niyet desteğinin reddedildiği (39.000 km'deki Leon FR 1.5 eTSI dahil) anlatılıyor.",
+            "maliyet": "Leon için net TL rakamı bulunamadı; aynı 48 V sistem için Golf 8 ve Octavia kayıtlarında garanti dışı yüksek ücret talepleri bildiriliyor.",
+            "onlem": "Şikâyetvar yorumlarında yedek parça olarak VW ya da Audi markalı alternatör tercih edilmesi öneriliyor (grup son yıllarda kendi alternatörünü üretmiş); 2021-2023 VAG hafif hibrit modellerinde fabrika çıkışlı Valeo alternatör kullanıldığı iddiası aynı yorumlarda geçiyor (doğrulanmadı)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/seat/seat-leon-2021-sos-arama-uyarisi",
+            "https://www.sikayetvar.com/seat/leon/kronik",
+            "https://www.sikayetvar.com/seat/leon/tsi",
+            "https://www.sikayetvar.com/seat/aku/leon",
+            "https://www.sikayetvar.com/volkswagen/aracimda-tekrarlayan-12v-ve-48v-arizalari-serviste-cozulemiyor",
+            "https://forum.donanimhaber.com/dsg-etsi-alternator-sorunu--161956122",
+            "https://forum.donanimhaber.com/1-5-e-tec-motor-48v-aku-arizasi-anlasilir-mi--161442841"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Skoda",
       "model": "Kamiq / Scala (2019-)",
       "motor": "1.0 TSI 95/110 (DSG)",
@@ -6019,6 +6121,51 @@
             "https://www.sikayetvar.com/skoda/scala/kronik",
             "https://www.sikayetvar.com/skoda/dsg",
             "https://forum.donanimhaber.com/skoda-kamiq-1-0-tsi-110-ps-65-bin-km-dsg-hakkinda--160973955"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Karoq (2017-)",
+      "motor": "1.5 TSI 150 (EA211 evo, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağ eksiltme ve düşük yağ uyarısı",
+          "etkilenen_parca": "1.5 TSI motor: segman, supap sapı keçeleri, karter havalandırma (PCV) ve yağ sistemi (kaynaklarda neden netleşmiyor)",
+          "belirtiler": "Bakım gelmeden 'yağ seviyesi düşük' uyarısı (bir sahipte yeni araçta her 5.000 km'de), yarım ila bir litre yağ takviyesi; yetkili servisler eksiltmeyi kılavuzda yazan normal bir durum olarak değerlendiriyor",
+          "tahmini_km_araligi": "5.000 - 60.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net neden verilmiyor. Şikâyetvar'da Mart 2024'te alınan bir Karoq 1.5 TSI sahibi ilk günden itibaren her 5.000 km'de yağ seviyesi uyarısı aldığını ve yarım litre yağ eklediğini, iki yetkili servise en az 4 kez başvurduğunu ve iki serviste de eksiltmenin kitapçıkta yazan normal bir durum olduğunun söylendiğini yazıyor. Otopark'taki 1.5 TSI başlıklarında Karoq sahipleri yaklaşık 11 bin km'de 1 litre ve 15 bin km'de 1 litre eksilme bildiriyor; yanıtlayanlar ince (0W-20) yağı ve karter havalandırma sorunlarını suçluyor. Biri 30.000 km'de yağı komple değiştirdikten sonra 45.000 km'de eksilmenin durduğunu yazıyor.",
+            "cozum": "Kesin bir onarım yöntemi ya da resmî bülten bulunamadı. Otopark'ta bir kullanıcı 0W-30'a geçince fark hissetmediğini, bir başkası 0W-30'un denenebileceğini yazıyor (servisin kabul edip etmeyeceği belirsiz).",
+            "onlem": "Aynı motorun T-Roc ve Tiguan kayıtlarındaki önlemler geçerli: VW onaylı yağ kullanmak, yağ seviyesini düzenli ölçüp kilometre ve litre kaydı tutmak, garanti süresinde tekrarlayan eksiltmeyi servise yazılı bildirmek."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/surekli-yag-eklemekten-biktim-cozum-bekliyorum",
+            "https://otopark.com/forum/threads/1-5-tsi-yasadigim-problemler-titresim-ve-genel-parca-kalitesizligi-yardim.16331/",
+            "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/",
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392"
+          ]
+        },
+        {
+          "sorun_adi": "Düşük devirde titreşim ve düzensiz rölanti (ACT silindir kapatma)",
+          "etkilenen_parca": "ACT (2. ve 3. silindir kapatma) geçişi, motor takozları, karter havalandırma (PCV) hattı ve emme tarafı kurumu, volan (kaynaklarda neden netleşmiyor)",
+          "belirtiler": "1.000 devir altında ve araç dururken düzensiz titreşim, soğuk çalıştırmada sesli çalışma; ACT iki silindir moduna geçince düşük devirde hırıltılı sürekli titreme (ACT devreden çıkınca kesilebiliyor)",
+          "tahmini_km_araligi": "5.000 - 60.000 km",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok ve kilometre bilgisi net değil (aralık tahmindir). Otopark'taki Karoq 1.5 TSI başlığında yanıtlayanlar sırasıyla motor takozlarını (titreşim motor sıcakken de oluyorsa ilk bakılacak yer), PCV hattından dönen yağın emme manifoldu ve supaplarda bıraktığı karbonu ve düzensiz titreşimde LSPI ihtimalini sayıyor; volan ve nadiren ateşleme kaçığı da anılıyor, ateşleme kaçığı olsaydı arıza kaydı oluşurdu deniyor. İkinci kaynak DonanımHaber'deki bir Golf 1.5 TSI ACT 150 başlığı (aynı motor, Karoq'a ait değil): sahibi iki silindir moduna geçince düşük devirde sürekli hırıltılı titreme anlatıyor.",
+            "teshis": "Otopark'ta Karoq sahibi servise başvurduğunda durumun motor karakteristiği olduğu söylenmiş. DonanımHaber'de Golf sahibi servise iki kez gittiğini, servisin bunu iki silindir moduna geçişte olağan titreşim saydığını ve servisteki test aracında da aynı titremeyi gördüğünü yazıyor; aynı başlıkta başka bir kullanıcı ACT'yi hiç hissetmediğini söylüyor.",
+            "cozum": "Kesin çözüm yok. DonanımHaber başlığında bir kullanıcı buji, bobin, yüksek basınç pompası ve enjeksiyon parçalarını değiştirdiği ve emme manifoldu temizliği yaptırdığı halde titremenin geçmediğini yazıyor. Otopark'ta motor takozunun mümkünse orijinaliyle değiştirilmesi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/1-5-tsi-yasadigim-problemler-titresim-ve-genel-parca-kalitesizligi-yardim.16331/",
+            "https://forum.donanimhaber.com/golf-1-5-tsi-act-150hp-2-silindir-modunda-titreme-sorunu--148387757"
           ]
         }
       ]
@@ -6335,6 +6482,56 @@
             "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
             "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
             "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb (IV, 2024-)",
+      "motor": "1.5 TSI 150 MHEV (48V hafif hibrit, DSG)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "48V hafif hibrit sistem ve alternatör arızası",
+          "etkilenen_parca": "48 V akü, alternatör/marş jeneratörü ve 12 V akü uyarısı",
+          "belirtiler": "'Akü şarj etme arızası', '12 V akü' ve 48 V hata uyarıları, 48 V elektrik motorunun bazen devreye girip bazen girmemesi, yolda kalma; servis alternatör değişimi gerektiğini söyleyebiliyor",
+          "tahmini_km_araligi": "1.000 - 50.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklar kök nedeni doğrulamıyor. Şikâyetvar'da bir Superb Prestige 1.5 TSI sahibi teslimden sonraki ilk haftada 'akü şarj etme arızası' ile yolda kaldığını ve sorunun 45.000 km'de de sürdüğünü, bir başkası 48 V hatasında servisin alternatör parçasının değişmesi gerektiğini söylediğini yazıyor. Aynı sistem Octavia 1.5 e-TEC'te de bildiriliyor (DonanımHaber ve Şikâyetvar kaynakları Octavia sahiplerine ait): DonanımHaber'de 48 V alternatör ve akü sorununun bazı sahiplerde yaşandığı, mild hibrit bataryanın küçük ve ömrünün kısa olduğu yazılıyor (yorum, teşhis değil).",
+            "teshis": "Superb sahipleri ekranda '12 V akü' (Haziran 2025'te alınan sıfır araçta Ekim'de) ve 48 V hata uyarısı bildiriyor; bir 1.5 TSI Hybrid sahibi 48 V elektrik motorunun aynı koşullarda bazen devreye girip bazen girmediğini ve bayiden somut çözüm alamadığını yazıyor.",
+            "cozum": "Bir Superb sahibine servis alternatör parçası gelene kadar aracın kullanılabileceğini söylemiş; sonrasında göstergedeki uyarılar kırmızıya dönmüş. Şikâyetvar'da bir Octavia 1.5 TSI e-TEC sahibi 48 V batarya değişimi için servisin parçayı bakım kapsamı dışında sayıp yüksek ücret istediğini, kendisinin ise bunu kronik bir arıza saydığını yazıyor.",
+            "maliyet": "Superb için net rakam bulunamadı; Octavia 1.5 e-TEC için DonanımHaber'de servis fiyat aralığı '50-150' olarak geçiyor (birim ve tarih belirtilmemiş, güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/superb/aku",
+            "https://www.sikayetvar.com/skoda/superb/ariza",
+            "https://www.sikayetvar.com/skoda/skoda-superbte-rastgele-elektronik-arizalar-ve-cozum-eksikligi",
+            "https://www.sikayetvar.com/skoda/skoda-super-b-prestij",
+            "https://www.sikayetvar.com/skoda/48v-batarya-degisimi-icin-yuksek-ucret-ve-iyi-niyet-destegi-talebi",
+            "https://forum.donanimhaber.com/1-5-e-tec-motor-48v-aku-arizasi-anlasilir-mi--161442841",
+            "https://forum.donanimhaber.com/dsg-etsi-alternator-sorunu--161956122"
+          ]
+        },
+        {
+          "sorun_adi": "Yağ eksiltme ve düşük yağ uyarısı",
+          "etkilenen_parca": "1.5 TSI motor: segman, supap sapı keçeleri ve yağ sistemi (kaynaklarda neden netleşmiyor)",
+          "belirtiler": "Yeni araçta 5.000 km gibi erken bir kilometrede yağ eksiltme; bir şikâyette yağ eksiltmeyle birlikte hararet şikâyeti ve iki ücretli servis ziyaretine rağmen sürmesi",
+          "tahmini_km_araligi": "5.000 - 60.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net neden verilmiyor. Şikâyetvar'ın Superb yağ sayfasında 2024 model bir Superb 1.5 TSI MHEV 150 PS sahibi aracı 5.000 km'deyken yağ eksiltme yaşadığını ve iki servis denemesine rağmen sorunun sürdüğünü yazıyor; sayfada ayrıca bir sahibin aracını yağ eksiltme ve hararet şikâyetiyle iki kez servise götürüp sırasıyla yaklaşık 23 bin ve 44 bin TL ödediği ve sorunun sürdüğü anlatılıyor (kullanıcı beyanı; bu kaydın aynı araca mı başka araca mı ait olduğu özetten anlaşılmıyor). Forumlarda TSI yağ eksiltmesi için segman, supap sapı keçesi ve ince (0W-20) ya da düşük kaliteli yağ öne sürülüyor; bunlar Superb'e özgü değil.",
+            "cozum": "Kesin bir onarım yöntemi ya da resmî bülten bulunamadı; iki ücretli servis ziyaretinden sonra da sorunun sürdüğü bildiriliyor.",
+            "onlem": "Aynı motorun T-Roc, Tiguan ve Karoq kayıtlarındaki önlemler geçerli: VW onaylı yağ kullanmak, yağ seviyesini düzenli ölçüp kilometre ve litre kaydı tutmak, garanti süresinde tekrarlayan eksiltmeyi servise yazılı bildirmek."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/superb/yag",
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
+            "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/"
           ]
         }
       ]
@@ -7106,6 +7303,37 @@
             "https://forum.donanimhaber.com/passat-b7-tdi-enjektor-temizleyici--129201106",
             "https://www.araclo.com/vehicles/volkswagen-passat/b7/1-6-tdi/kronik-sorunlar",
             "https://forum.donanimhaber.com/1-6-tdi-siemens-enjektor-tamiri--127464488"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat (B8, 2015-2023)",
+      "motor": "1.5 TSI 150 (EA211 evo, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağ eksiltme ve düşük yağ uyarısı",
+          "etkilenen_parca": "1.5 TSI motor: segman, supap sapı keçeleri ve yağ sistemi (kaynaklarda neden netleşmiyor)",
+          "belirtiler": "İlk bakımdan önce 'yağ seviyesi düşük' uyarısı; yetkili servis eksilmeyi normal sayıp yağ takviyesi için ücret istiyor",
+          "tahmini_km_araligi": "5.000 - 60.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net neden verilmiyor. Şikâyetvar'da 2021 model Passat 1.5 TSI sahipleri 12.000-14.200 km'de, ilk bakımdan önce yağ seviyesi uyarısı aldıklarını yazıyor; yetkili servis eksilmenin normal olduğunu söylemiş ve yarım litre yağın ücretini istemiş, müşteri ilişkilerinin '2000 km'de bir yağ eksilebilir' dediği aktarılıyor ve kullanıcı buna katılmıyor. Forumlarda TSI yağ eksiltmesi için segman, supap sapı keçesi ve yağ kalitesi öne sürülüyor; bunlar Passat'a özgü değil.",
+            "teshis": "Şikâyetvar'da 110 bin km'deki 2020 model bir Passat 1.5 TSI sahibi yağ seviyesi tam görünürken sürüşte yağ uyarısı aldığını, araç durdurulup çalıştırılınca uyarının kaybolduğunu yazıyor; bu, seviye sensörü ya da yağ basıncı kaynaklı bir sorun olabileceğini düşündürüyor ama kesin bir teşhis yok.",
+            "cozum": "Kesin bir onarım yöntemi ya da resmî bülten bulunamadı; servisin eksilmeyi normal sayıp yağı ücretli tamamladığı anlatılıyor.",
+            "onlem": "Aynı motorun T-Roc, Tiguan ve Karoq kayıtlarındaki önlemler geçerli: VW onaylı yağ kullanmak, yağ seviyesini düzenli ölçüp kilometre ve litre kaydı tutmak, garanti süresinde tekrarlayan eksiltmeyi servise yazılı bildirmek."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/passat/yag",
+            "https://www.sikayetvar.com/volkswagen/passat/tsi",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-passat-15-tsi",
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
+            "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/"
           ]
         }
       ]

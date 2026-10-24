@@ -121,6 +121,11 @@ makyaj. Veritabanı bunları şu kurala göre ele alır:
 - Aynı motoru paylaşan modeller ayrı kayıt olarak durur (ör. 1.6 TDI CAYC: Polo ve Caddy). Bir kaydın verisi başka
   bir modelin kayıtlarından alındıysa bu metinde belirtilir (ör. Opel Grandland X DV5 kilometre aralığı Peugeot / Citroën
   kaydındaki kaynaklardan).
+- Motor kaynaklı sorunlar (ör. 1.5 TSI yağ eksiltmesi, 48V hafif hibrit sistem arızası) her modelde ayrı kayıt olarak
+  durur ve yalnızca o modele ait şikâyeti olan modellere yazılır; şikâyeti tekil kalan modeller planda `–` olarak
+  işlenir (ör. Ateca, Arteon, Golf 7.5 1.5 TSI). Modele özgü ikinci site yoksa aynı motoru taşıyan başka modelin
+  kaynağı kullanılabilir, ancak bu kaydın `detay` metninde açıkça yazılır ve kayıt doğrudan kanıtı sınırlı sayılır
+  (ör. Karoq ACT titreşimi, Formentor 48V).
 
 ## Elektrikli araçlar
 

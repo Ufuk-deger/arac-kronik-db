@@ -2,7 +2,7 @@
 
 Tarih: 2026-10-24
 
-Rapor yedi aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını, [6. aşama](#6-aşama-astra-electric-açığı-ve-diğer-elektrikliler) Astra Electric açığının ve diğer eksik elektrikli modellerin ele alınmasını anlatır, [7. aşama](#7-aşama-çok-ilanlı-modellerin-kapsam-kontrolü) çok ilanlı modellerin kapsam kontrolünü ve motor boşluklarının kapatılmasını anlatır.
+Rapor sekiz aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını, [6. aşama](#6-aşama-astra-electric-açığı-ve-diğer-elektrikliler) Astra Electric açığının ve diğer eksik elektrikli modellerin ele alınmasını anlatır, [7. aşama](#7-aşama-çok-ilanlı-modellerin-kapsam-kontrolü) çok ilanlı modellerin kapsam kontrolünü ve motor boşluklarının kapatılmasını, [8. aşama](#8-aşama-15-tsi-ve-etsi-motoru-ve-kullanan-modeller) 1.5 TSI ve eTSI motorunu ve onu kullanan modellerin ele alınmasını anlatır.
 
 ## 1. aşama: ilk sürümün doğrulanması
 
@@ -767,12 +767,103 @@ Planın dışında kalan çok ilanlı gruplar:
 - "Çok ilanlı" ile "çok kronik sorunlu" aynı şey değil: ilanı çok olan bir motorun veritabanında olmaması çoğu zaman o motorda tekrar eden bir sorun bulunamadığı anlamına geliyor (örn. Mercedes M274, Honda Civic FB7).
 - Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir.
 
+## 8. aşama: 1.5 TSI ve eTSI motoru ve kullanan modeller
+
+Tarih: 2026-10-24
+
+Sekizinci aşamanın isteği şuydu: 1.5 eTSI motorunu ve onu kullanan modelleri de ele almak. Bu motor VW grubunun 1.5 TSI (EA211 evo) ailesi: iki ve üçüncü silindiri kapatan ACT sürümü ile 48V hafif hibrit sürümü (VW'de eTSI, Skoda'da e-TEC ya da MHEV, Audi'de 35 TFSI). Önceki aşamalarda yalnızca Golf 8 ve Octavia A8 (vites kolu ve 48V), T-Roc ve Tiguan (yağ eksiltme) kayıtlıydı. Bu aşamada motoru kullanan diğer modeller tek tek arandı: Şikâyetvar, DonanımHaber, Otopark ve Ekşi Sözlük'te model ve motor adıyla; yabancı kaynaklarda geri çağırma ve forum taraması. `WebFetch` bu aşamada da kapalıydı, her şey arama özetleriyle yapıldı.
+
+### Sonuç
+
+Motorun iki tekrar eden sorunu var ve her ikisi de birçok modelde Türkçe kaynaklarda geçiyor: **48V hafif hibrit sistem ve alternatör-marş jeneratörü arızası** (eTSI, e-TEC, MHEV, 35 TFSI) ve **yağ eksiltme / düşük yağ uyarısı** (ACT'li 1.5 TSI). ACT'nin düşük devirde titreşimi üçüncü bir konu ama kanıtı daha zayıf. Altı model kayıt eşiğini geçti; bu modellerin her birinde yalnızca modele ait şikâyeti olan sorunlar yazıldı:
+
+| Model | Motor | Kayıtlı sorunlar |
+| --- | --- | --- |
+| Volkswagen Golf 8 | 1.0 / 1.5 eTSI | vites kolu, 48V (önceki aşamalar) |
+| Skoda Octavia A8 | 1.0 e-TEC / 1.5 TSI | vites kolu, 48V (önceki aşamalar) |
+| Volkswagen T-Roc, Tiguan | 1.5 TSI | yağ eksiltme (önceki aşamalar) |
+| **Seat Leon (KL, 2020-)** | 1.0 / 1.5 eTSI | 48V |
+| **Cupra Formentor** | 1.5 eTSI | 48V (kardeş modellerin kaynaklarıyla, bkz. aşağıda) |
+| **Skoda Superb (IV, 2024-)** | 1.5 TSI MHEV | 48V, yağ eksiltme |
+| **Skoda Karoq** | 1.5 TSI | yağ eksiltme, düşük devirde titreşim (ACT) |
+| **Volkswagen Passat (B8)** | 1.5 TSI | yağ eksiltme |
+| **Audi A3 (8Y)** | 35 TFSI (1.5) | 48V ve "araç tahrik arızası" |
+
+Kayıtlanmayıp plana `–` olarak yazılanlar (nedenleri [KAPSAM.md](KAPSAM.md) içinde): Golf 7.5 1.5 TSI, Seat Leon 5F 1.5 TSI, Ateca 1.5 TSI, Arteon 1.5 TSI, Kodiaq 1.5 TSI, Kamiq / Scala 1.5 TSI, Superb III 1.5 TSI, Audi Q2 / Q3 35 TFSI ve Passat B9 1.5 eTSI.
+
+| | 7. aşama sonu | 8. aşama sonu |
+| --- | ---: | ---: |
+| Araç/motor kaydı | 158 | 164 |
+| Kronik sorun | 241 | 249 |
+| Ayrıntısı olan sorun | 241 | 249 |
+| Yıl kırılımı olan sorun | 59 | 60 |
+| Marka | 28 | 28 |
+| Sorunlara bağlı kaynak bağlantısı | 1406 | 1443 |
+| Farklı kaynak sitesi | 78 | 78 |
+| Yalnızca iki siteyle desteklenen sorun | 49 | 53 |
+| Plan satırı | 296 | 308 |
+| Plan durumu (✓ / – / ○) | 154 / 142 / 0 | 160 / 148 / 0 |
+
+### Eklenen kayıtlar
+
+- **Seat Leon (KL, 2020-), 1.0 eTSI / 1.5 eTSI (1 sorun):** 48V hafif hibrit sistem ve alternatör-marş jeneratörü arızası (SOS ve "Hata: 48V beslemesi" uyarıları, yolda kalma; Şikâyetvar'da 39.000 km'de marş alternatörü ve hibrit akü vakası, iyi niyet desteği verilmemiş).
+- **Cupra Formentor (2020-), 1.5 eTSI (1 sorun):** aynı 48V sorunu. Modele özgü kaynak tek bir Ekşi Sözlük yorumu ("kronik alternatör arızası tescilli", 1.5 eTSI'nin 2024 makyajıyla geldiği iddiası; aynı başlıkta bir başka yorumcu aracın kronik arızası olmadığını yazıyor). Diğer kaynaklar eTSI ailesinin DonanımHaber ve Şikâyetvar anlatıları; bu kayıt `detay` metninde de bu şekilde işaretli, risk `Orta`, 2024 sonrası için `Görülebilir` dönem kırılımı var.
+- **Skoda Superb (IV, 2024-), 1.5 TSI MHEV (2 sorun):** 48V sistem ve alternatör arızası (Şikâyetvar'da "akü şarj etme arızası" ile ilk haftada yolda kalma, 45.000 km'de de süren sorun, alternatör değişimi gerektiği söylenen vaka); yağ eksiltme (5.000 km'de eksiltme, iki ücretli servis ziyaretine rağmen süren vaka).
+- **Skoda Karoq (2017-), 1.5 TSI 150 (2 sorun):** yağ eksiltme (Şikâyetvar'da Mart 2024 tarihli Karoq 1.5 TSI'da ilk günden her 5.000 km'de uyarı, iki yetkili serviste "kitapçıkta yazan normal durum"; Otopark'ta 11 bin km'de 1 litre ve 15 bin km'de 1 litre vakaları); düşük devirde titreşim ve düzensiz rölanti (ACT silindir kapatma, motor takozu, PCV kurumu, LSPI; risk `Düşük`).
+- **Volkswagen Passat (B8, 2015-2023), 1.5 TSI 150 (1 sorun):** yağ eksiltme (2021 modeller 12.000-14.200 km'de, ilk bakımdan önce uyarı; servis "normal" diyor ve yağı ücretli tamamlıyor).
+- **Audi A3 (8Y, 2020-), 35 TFSI 1.5 (1 sorun):** 48V sistem ve alternatör arızası, "araç tahrik arızası" uyarısı (72.000 km'de çekiciyle servise gitme, 49.000 km'de 77.000 TL katkı payı talebi, alternatör parçası 166.619 TL / bakım karşılığı 76.500 TL beyanı; Ekşi Sözlük'te "35 TFSI olarak geçen yeni nesil VAG araçlarında kronik alternatör arızası" iddiası).
+- Yeni 8 sorunun 4'ü `Orta`, 3'ü `Yüksek`, 1'i `Düşük` risk; hepsinde `detay` var (neden 8, teşhis 6, çözüm 8, maliyet 3, önlem 4). 37 bağlantı eklendi, yeni site girmedi.
+
+### Plan değişiklikleri
+
+- **Cupra Formentor** `–` iken kayıtlandı (✓).
+- **Passat B8 "2.0 TDI / 1.5 TSI / 1.4 TSI"** satırı bölündü: 1.5 TSI kayıtlandı, 2.0 TDI / 1.4 TSI `–` kaldı.
+- **Karoq / Kodiaq "1.5 TSI / 2.0 TDI"** satırı bölündü: Karoq 1.5 TSI kayıtlandı; Kodiaq ve Karoq 2.0 TDI `–` kaldı.
+- **Seat Leon 5F / 1P**, **Skoda Superb** ve **Fabia / Superb** satırlarının model eşleşmesi daraltıldı; yeni Leon KL ve Superb IV kayıtları bu satırlara karışmasın diye.
+- **Yeni `–` satırları (7):** Golf 7.5 1.5 TSI, Seat Leon 5F 1.5 TSI, Kamiq / Scala 1.5 TSI, Arteon 1.5 TSI, Audi Q2 / Q3 35 TFSI, Passat B9 1.5 eTSI ve Karoq 2.0 TDI (Karoq / Kodiaq satırının bölünmesinden çıkan satır). Ateca ve Superb III satırlarına yeniden arama notu eklendi.
+- `KAPSAM.md` ölçütlerine ve README'ye "aynı motoru paylaşan modeller" kuralı yazıldı.
+
+### Bulunup kayıt dışı bırakılan konular
+
+- **2019 düşük devir tork geri çağırması (ÖAMTC, Avusturya):** 1.5 l TSI EVO 110 kW (EU6AG) ve 180 A alternatör kombinasyonunda motor kontrol ünitesi yazılım güncellemesi; VW Arteon, Passat, Tiguan, Tiguan Allspace ve Touran (123 araç), Skoda Karoq, Kodiaq ve Superb (494 araç), Seat Ateca ve Tarraco (634 araç), 2019 model yılı. Kayıt alınmadı: tek site (ÖAMTC), Türkiye'deki araçların kapsamı doğrulanamadı ve "kronik arıza" değil tek seferlik bir yazılım kampanyası.
+- **Motor kapağı geri çağırması (KBA 011703, 2020-2022 Arteon, Golf, Tiguan, T-Roc, Passat):** haberler motor tipini belirtmiyor; 1.5 TSI ile bağlantısı kurulamadı.
+- **Seat / Skoda / VW enjeksiyon geri çağırması:** haberde "üç silindirli TSI" deniyor, yani 1.0 TSI; 1.5 TSI ile ilgisiz.
+- **Triger zinciri:** Autodoc'un bir sayfası 1.5 TSI 150'de 80-120 bin km'de erken zincir aşınması diyor, başka bir sayfası geliştirilmiş zincir ve güvenilirlik diyor; çelişiyor, alınmadı. carwiki.de'deki liste (soğuk devir tutma, kalkışta ruckeln, EGR, turbo) arama özetinde kesik ve Türkçe kaynak yok, alınmadı.
+- **Termostat / su pompası gövdesi kaçağı:** tek vwvortex başlığı; 1.4 TSI kayıtlarındaki aynı sorun 1.5'e taşınmadı.
+- **Superb IV titreme:** Şikâyetvar'da 2025 model 1.5 TSI Hybrid'de kavrama, volan ve motor takozu değişimine rağmen süren, yaklaşık 14-15 bin TL ücretli titreme vakası var; iki sayfa ama tek site ve tek vaka, kayıt alınmadı.
+- **Octavia 2020 rölanti titremesi (Otopark):** P0456 (buharlaşma emisyon) kodu ve MAF sensörü tartışılıyor; 1.5 TSI ile bağlantısı kurulamadı.
+- **Golf 1.5 TSI ACT 150 titreme başlığı (DonanımHaber):** sahibi "2020 model" diyor, Golf 7.5 mi Golf 8 mi belli değil; bu yüzden Golf kaydına yazılmadı, Karoq titreşim kaydında "aynı motor" kaynağı olarak anıldı.
+
+### Kanıtı sınırlı ayrıntılar
+
+- **48V kök nedeni:** hiçbir kaynakta doğrulanmış kök neden yok. "Valeo alternatör", "üretici kalıcı çözüm üretmedi" ve "ABD ve Kanada'da 7 yıl ek alternatör garantisi" iddiaları kullanıcı yorumlarında geçiyor, doğrulanmadı ve kayıtlarda iddia olarak anıldı.
+- **Seat Leon KL ve Skoda Superb IV 48V:** modele özgü deneyim Şikâyetvar'da; DonanımHaber kaynakları Leon ve Superb'e özgü değil, DSG'li eTSI ve Skoda e-TEC ailesini genel anlatıyor. Bu iki sorun yalnızca iki siteyle destekleniyor.
+- **Formentor 48V:** yukarıda yazıldığı gibi tek Ekşi yorumu ve kardeş model kaynakları; `Orta` risk. Bağımsız bir Formentor şikâyeti bulunursa kayıt güçlenir.
+- **Audi A3 8Y 48V:** Şikâyetvar başlıkları "35 TFSI Hybrid" ve "tahrik arızası" diyor; sistemin 48V olduğunu Ekşi Sözlük'teki iki yorum (A3 35 TFSI'nın Türkiye'de mild hibrit olduğu, kronik alternatör iddiası) söylüyor; alternatör kaynaklı olduğu servis sözüne dayanıyor.
+- **Karoq titreşimi:** iki başlık (Otopark Karoq, DonanımHaber Golf), biri başka modele ait; servis çoğunlukla "motor karakteristiği" diyor, yanıtlayanlar farklı nedenler öne sürüyor. Kilometre kaynaklarda yok, aralık kaba tahmin; `detay` metninde söylendi.
+- **Superb IV yağ eksiltmesi:** Şikâyetvar'ın Superb yağ sayfasındaki 5.000 km vakası ile iki ücretli servis ziyareti (yaklaşık 23 bin ve 44 bin TL) olan vakanın aynı araca mı ait olduğu arama özetinden anlaşılmıyor; `detay` metninde ayrı anlatıldı.
+- **Yağ eksiltmesi kök nedeni:** segman, supap sapı keçesi, PCV, ince (0W-20) yağ ve düşük kaliteli yağ gibi teoriler forum yorumu; hiçbir resmî bülten bulunamadı. Yağ eksiltmesi modelde "normal" kabul edildiği sürece garanti kapsamı belirsiz.
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- **Karoq yağ eksiltmesi:** ilk arama özeti "12.000 km'de yağ uyarısı, 2,6 litre ekleme" vakasını Karoq'a bağlamıştı; ikinci aramada bu sayfanın Kamiq (1.0 TSI) şikâyeti olduğu görüldü ve Karoq kaydından çıkarıldı.
+- **Karoq titreşimi:** Ekşi Sözlük "aktif silindir yönetimi" başlığı yalnızca ACT'nin çalışmasını anlatıyor, titreşimin normal olup olmadığını söylemiyor; kayda kaynak olarak alınmadı.
+- **Leon 48V:** Şikâyetvar'daki Cupra Leon vakası ışıklı logo ve ekran sorunu, 48V ile ilgisiz; kaynak listesinden çıkarıldı.
+- **Superb yağ:** "farlarda buğulanma, viteste boşluk" cümlesi ikinci aramada doğrulanamadı, alınmadı. Passat için "19.500 km'de dört kez yağ uyarısı" cümlesi de ikinci aramada bulunamadı, alınmadı.
+- **Ateca:** bir arama özeti Şikâyetvar'daki Ateca yağ uyarısı kaydının aracını 1.4 EcoTSI olarak yazıyordu, ancak kayıt 2024 model; doğrulanamadığı için plan notunda motor ataması yapılmadı.
+
+### Dikkat edilecek sınırlar
+
+- Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir. Arama özetleri bazen farklı sayfaların cümlelerini karıştırdı (Karoq / Kamiq örneği); bu yüzden mümkün olan her yerde ayrı sorgularla çapraz kontrol yapıldı ve emin olunamayan yerlerde sayfa adı yerine site adı yazıldı.
+- Şikâyet siteleri memnun olmayan kullanıcıların yazdığı örneklerdir; "kronik" ifadesi çoğunlukla sahiplerin ve forum yorumcularının kendi sözüdür, yaygınlık oranı verilemez.
+- Kilometre aralıkları kaynakların yazdığı vakalardan çıkarıldı (48V için 1.000-80.000 km); Karoq titreşimi ve yağ eksiltmesi için kaba tahmin.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen 49 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı; 7. aşamada Astra 1.3 CDTI Easytronic eklendi) üçüncü bir kaynak eklenebilir.
-3. Kanıtı yetersiz bulunan 142 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
-4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 95 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
+2. Yalnızca iki siteyle desteklenen 53 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı; 7. aşamada Astra 1.3 CDTI Easytronic eklendi; 8. aşamada Leon KL 48V, Superb IV 48V, Karoq titreşimi ve Audi A3 8Y 48V eklendi) üçüncü bir kaynak eklenebilir.
+3. Kanıtı yetersiz bulunan 148 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
+4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 100 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
 5. Elektrikli araçlarda geri çağırma kaydı bulunan ama Türkiye kapsamı doğrulanamayan aileler (Volvo EX30, VW ID. serisi, Mini Cooper SE, BMW iX / i4, Audi e-tron GT) için Türkiye distribütörlerinin duyuruları ya da Ticaret Bakanlığı geri çağırma kayıtları bulunursa kayıt açılabilir.
 6. Hibrit ve plug-in hibrit araçlar (Toyota hibritleri, BYD Seal U DM-i gibi) bu aşamada kapsam dışı bırakıldı; istenirse aynı kurallarla eklenebilir.
 7. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.
