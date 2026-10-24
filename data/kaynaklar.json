@@ -602,6 +602,62 @@
       "guven": "orta",
       "ana_sayfa": "https://www.electrive.com/",
       "not": "Elektrikli araç ve şarj haberleri; Avrupa geri çağırmaları ve KBA kayıtlarına atıflar."
+    },
+    "auto-motor-und-sport.de": {
+      "ad": "auto motor und sport",
+      "ulke": "DE",
+      "tur": "haber",
+      "guven": "yüksek",
+      "ana_sayfa": "https://www.auto-motor-und-sport.de/",
+      "not": "Alman otomotiv dergisi; geri çağırma haberlerinde KBA (Federal Motorlu Taşıtlar Dairesi) bildirimlerine dayanır."
+    },
+    "autohaus.de": {
+      "ad": "autohaus.de",
+      "ulke": "DE",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://www.autohaus.de/",
+      "not": "Alman otomotiv ticareti yayını; geri çağırma haberlerinde KBA referans numaralarını aktarır."
+    },
+    "quechoisir.org": {
+      "ad": "Que Choisir",
+      "ulke": "FR",
+      "tur": "dava-haberi",
+      "guven": "orta",
+      "ana_sayfa": "https://www.quechoisir.org/",
+      "not": "Fransız tüketici örgütü (UFC-Que Choisir); sahip bildirimlerine dayanan araştırmalar yayımlar."
+    },
+    "sifiraracal.com": {
+      "ad": "SıfırAraçAl",
+      "ulke": "TR",
+      "tur": "haber",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.sifiraracal.com/",
+      "not": "Türkiye'de yeni araç haberleri ve fiyat listeleri; model yenilemeleri ve motor/batarya verileri için."
+    },
+    "stellantis.com": {
+      "ad": "Stellantis Medya",
+      "ulke": "Global",
+      "tur": "editoryal",
+      "guven": "yüksek",
+      "ana_sayfa": "https://www.media.stellantis.com/",
+      "not": "Üretici basın bültenleri (Türkiye bölümü dahil); batarya, güç ve menzil gibi teknik veriler için güvenilir, arıza kanıtı değildir."
+    },
+    "testcoches.es": {
+      "ad": "Testcoches",
+      "ulke": "ES",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://testcoches.es/",
+      "not": "İspanyol otomobil haber sitesi; model bazlı arıza ve geri çağırma haberleri."
+    },
+    "oeamtc.at": {
+      "ad": "ÖAMTC",
+      "ulke": "AT",
+      "tur": "dava-haberi",
+      "guven": "yüksek",
+      "ana_sayfa": "https://www.oeamtc.at/",
+      "not": "Avusturya otomobil kulübü; geri çağırma duyurularını model ve üretim dönemiyle listeler."
     }
   }
 }

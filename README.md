@@ -131,6 +131,8 @@ araçlara özgü noktalar:
 - `motor` alanı `Elektrik` ile başlar; sorunlar batarya, şarj (dahili şarj cihazı OBC, entegre şarj kontrol ünitesi ICCU), 12V yardımcı akü, elektrik tahrik sistemi ve yazılım gibi parçalara aittir.
 - Filtre kutusundaki "Yalnızca elektrikli araçlar" seçeneği ya da arama kutusuna `elektrik` yazmak yalnızca bu kayıtları gösterir.
 - Filo genç olduğu için (Türkiye'de çoğu 2022 sonrası) kilometre verisi azdır; şikâyet sahipleri çoğu zaman kilometre yazmaz. Kaynakta kilometre yoksa aralık araçların yaşına göre kaba tahmin edilir ve bu ilgili `detay` metninde söylenir.
+- Aynı batarya ve motor değerlerine sahip kardeş modellerde (ör. Opel Astra Electric ve Peugeot e-308: 54 kWh, 115 kW / 156 PS) modele özgü ikinci site bulunamazsa kardeş modelin kaynağı kullanılabilir; bu durum ilgili kaydın `detay` metninde açıkça yazılır ve o kayıt doğrudan kanıtı sınırlı sayılır (Astra Electric gibi).
+- Bir model iki batarya / güç sürümüyle satılıyorsa (ör. Peugeot e-208 / e-2008, Opel Mokka, Citroën ë-C4: 50 kWh / 136 PS ve 2024 sonrası 54 kWh / 156 PS) ve kaynaklar sürümleri ayırt etmiyorsa kayıt bölünmez; `motor` alanı iki sürümü söyler, `donem_kirilimi` hangi dönemin hangi sürüme denk geldiğini açıklar.
 - Geri çağırma kayıtlarının çoğu ABD (NHTSA) ya da Avrupa (KBA) kaynaklıdır. Türkiye'deki araçların kapsamı doğrulanamıyorsa bu kayıtta belirtilir; doğrulanamayan aileler `KAPSAM.md` içinde nedenleriyle `–` olarak durur.
 
 ## Ayrıntılar (`detay`)

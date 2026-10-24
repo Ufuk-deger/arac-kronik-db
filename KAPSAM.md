@@ -6,7 +6,7 @@ Bu dosya `scripts/kapsam_md_uret.py` ile `data/kapsam.json` (plan) ve `data/arac
 
 - **Zaman penceresi:** Son 10-15 yılın araçları, yani yaklaşık 2011 model yılı ve sonrası. Daha eski yıllar yalnızca ilk aşamada eklenmiş kayıtlarda kaldı (aşağıda ayrıca listelenir).
 - **Marka seçimi:** Türkiye'de en çok satılan markalar (aşağıdaki tablo). İlk dört aşamada elektrikli ya da 2023 sonrası girmiş markalar (BYD, Togg, Tesla, Chery) "motor grubu ve ikinci el geçmişi yok" gerekçesiyle dışarıda bırakılmıştı; 5. aşamada elektrikli araçlar kapsama alındı ve bu markalar plana girdi. Bu listenin dışındaki markalar (`ek` kapsamı) ikinci el yaygınlığı ve kaynak bulunabilirliği gözetilerek editoryal olarak eklendi; satış adetleri doğrulanamadı.
-- **Elektrikli araçlar:** `motor` alanı elektrik motoru ve batarya sürümünü gösterir (ör. `Elektrik (52,4 kWh ve 88,5 kWh)`). Sorunlar batarya, şarj (OBC, ICCU), 12V akü ve yazılım gibi elektrikli araca özgü parçalara aittir. Geri çağırma kaydı olan sorunlarda Türkiye kapsamı doğrulanamıyorsa bu kayıtta ve plan notunda belirtilir. Plug-in hibritler (ör. BYD Seal U DM-i) bu aşamada kapsam dışıdır.
+- **Elektrikli araçlar:** `motor` alanı elektrik motoru ve batarya sürümünü gösterir (ör. `Elektrik (52,4 kWh ve 88,5 kWh)`). Sorunlar batarya, şarj (OBC, ICCU), 12V akü ve yazılım gibi elektrikli araca özgü parçalara aittir. Geri çağırma kaydı olan sorunlarda Türkiye kapsamı doğrulanamıyorsa bu kayıtta ve plan notunda belirtilir. Aynı batarya ve motor değerlerine sahip kardeş modelin kaynağı yalnızca ilgili kayıtta açıkça belirtilerek kullanılabilir (ör. Astra Electric ve Peugeot e-308). Plug-in hibritler (ör. BYD Seal U DM-i) bu aşamada kapsam dışıdır.
 - **Sıralama:** Genelden özele gidilir. Önce her markanın en çok satılan ve en çok sorgulanan modelleri ile ana motor grupları (kademe 1), sonra yaygın ama daha az sorgulananlar (kademe 2), en son niş gruplar (kademe 3).
 - **Yıl kırılımı:** Kaynaklar üretim yılına göre fark belirtiyorsa sorun `donem_kirilimi` ile yıl aralıklarına ayrılır (ör. revizyon öncesi ve sonrası).
 - **Motor versiyonları:** Kaynaklar iki versiyonu motor kodu, güç, şanzıman ya da kasa/nesil ile ayırt ediyorsa ayrı kayıt açılır (ör. M271 Kompressor ve M271 EVO; N47D16 ve N47D20; Qashqai J11 1.5 dCi ve 1.6 dCi Xtronic). Ayırt etmiyorlarsa kayıt bölünmez, fark metinde ya da `donem_kirilimi` içinde belirtilir ([README](README.md#motor-versiyonları)).
@@ -22,33 +22,33 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **276** model/motor grubu
-- Tamamlanan (✓): **144**
-- Araştırılıp eklenmeyen (–): **132**
+- Plan: **295** model/motor grubu
+- Tamamlanan (✓): **150**
+- Araştırılıp eklenmeyen (–): **145**
 - Sırada (○): **0**
 - Kademe 1: **94/94** işlendi (✓ ya da –)
-- Veritabanı: **148** kayıt, **220** kronik sorun
+- Veritabanı: **154** kayıt, **227** kronik sorun
 
 | Marka | Plan | ✓ | – | ○ | Kademe 1 işlenen |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Renault | 21 | 13 | 8 | 0 | 8/8 |
+| Renault | 22 | 13 | 9 | 0 | 8/8 |
 | Volkswagen | 22 | 15 | 7 | 0 | 9/9 |
 | Toyota | 13 | 4 | 9 | 0 | 5/5 |
-| Fiat | 14 | 9 | 5 | 0 | 5/5 |
+| Fiat | 16 | 10 | 6 | 0 | 5/5 |
 | Hyundai | 21 | 11 | 10 | 0 | 10/10 |
-| Peugeot | 11 | 7 | 4 | 0 | 5/5 |
-| Opel | 19 | 11 | 8 | 0 | 4/4 |
-| Citroen | 9 | 6 | 3 | 0 | 3/3 |
+| Peugeot | 13 | 8 | 5 | 0 | 5/5 |
+| Opel | 21 | 12 | 9 | 0 | 4/4 |
+| Citroen | 10 | 6 | 4 | 0 | 3/3 |
 | BYD | 2 | 1 | 1 | 0 | 1/1 |
 | Skoda | 13 | 7 | 6 | 0 | 5/5 |
-| Mercedes-Benz | 15 | 9 | 6 | 0 | 6/6 |
-| Togg | 1 | 1 | 0 | 0 | 1/1 |
+| Mercedes-Benz | 17 | 10 | 7 | 0 | 6/6 |
+| Togg | 2 | 1 | 1 | 0 | 1/1 |
 | BMW | 12 | 5 | 7 | 0 | 4/4 |
 | Tesla | 2 | 1 | 1 | 0 | 1/1 |
 | Nissan | 13 | 7 | 6 | 0 | 4/4 |
 | Chery | 1 | 0 | 1 | 0 | 0/0 |
-| Ford | 16 | 7 | 9 | 0 | 7/7 |
-| Kia | 15 | 7 | 8 | 0 | 5/5 |
+| Ford | 17 | 7 | 10 | 0 | 7/7 |
+| Kia | 17 | 8 | 9 | 0 | 5/5 |
 | Dacia | 12 | 8 | 4 | 0 | 3/3 |
 | Audi | 11 | 5 | 6 | 0 | 4/4 |
 | Honda | 7 | 3 | 4 | 0 | 2/2 |
@@ -57,8 +57,8 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Volvo | 2 | 1 | 1 | 0 | 0/0 |
 | Subaru | 1 | 1 | 0 | 0 | 0/0 |
 | Mini | 3 | 1 | 2 | 0 | 0/0 |
-| Jeep | 1 | 0 | 1 | 0 | 0/0 |
-| Alfa Romeo | 1 | 0 | 1 | 0 | 0/0 |
+| Jeep | 2 | 1 | 1 | 0 | 0/0 |
+| Alfa Romeo | 2 | 0 | 2 | 0 | 0/0 |
 | Mazda | 1 | 0 | 1 | 0 | 0/0 |
 | Suzuki | 1 | 0 | 1 | 0 | 0/0 |
 | Mitsubishi | 1 | 0 | 1 | 0 | 0/0 |
@@ -69,6 +69,9 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Isuzu | 1 | 0 | 1 | 0 | 0/0 |
 | Smart | 1 | 0 | 1 | 0 | 0/0 |
 | Porsche | 1 | 1 | 0 | 0 | 0/0 |
+| Zeekr | 1 | 0 | 1 | 0 | 0/0 |
+| Xpeng | 1 | 0 | 1 | 0 | 0/0 |
+| Leapmotor | 1 | 0 | 1 | 0 | 0/0 |
 
 ## Markalar
 
@@ -102,8 +105,8 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | 11+ | Volvo | — | Ek kademe | Ek kademe: Faz 4'te S60 / V40 1.6 D Powershift eklendi. Satış adedi doğrulanamadı. |
 | 11+ | Subaru | — | Ek kademe | Ek kademe: Faz 4'te XV 2.0 yağ tüketimi eklendi. Satış adedi doğrulanamadı. |
 | 11+ | Mini | — | Ek kademe | Ek kademe: Faz 4'te Cooper S / Countryman S 1.6 turbo yüksek basınç yakıt pompası eklendi. Satış adedi doğrulanamadı. |
-| 11+ | Jeep | — | Ek kademe | Ek kademe: Faz 4'te arandı; ikinci bağımsız kaynak bulunamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
-| 11+ | Alfa Romeo | — | Ek kademe | Ek kademe: Faz 4'te arandı; motorlara özgü kaynaklı bulgu çıkmadığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
+| 11+ | Jeep | — | Ek kademe | Ek kademe: Faz 4'te benzinli / dizel Renegade-Compass arandı, ikinci bağımsız kaynak bulunamadı. Faz 6'da elektrikli Avenger kaydedildi (KBA geri çağırması ve Şikâyetvar). Satış adedi doğrulanamadı. |
+| 11+ | Alfa Romeo | — | Ek kademe | Ek kademe: Faz 4'te arandı; motorlara özgü kaynaklı bulgu çıkmadığı için kayıt eklenmedi. Faz 6'da elektrikli Junior arandı; ikinci bağımsız kaynak bulunamadı. Satış adedi doğrulanamadı. |
 | 11+ | Mazda | — | Ek kademe | Ek kademe: Faz 4'te arandı; Türkiye'ye özgü kronik sorun kaynağı çıkmadığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
 | 11+ | Suzuki | — | Ek kademe | Ek kademe: Faz 4'te arandı; bulgular tek rehber sitesi ve elektronik şikâyetlerle sınırlı kaldığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
 | 11+ | Mitsubishi | — | Ek kademe | Ek kademe: Faz 4'te arandı; ikinci bağımsız kaynak bulunamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
@@ -114,6 +117,9 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | 11+ | Isuzu | — | Ek kademe | Ek kademe: Faz 4'te arandı; D-Max anlatıları forum yorumu ve tek rehber sitesiyle sınırlı kaldığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
 | 11+ | Smart | — | Ek kademe | Ek kademe: 5. aşamada #1 arandı; Türkiye'ye ait sonuç çıkmadı. Satış adedi doğrulanamadı. |
 | 11+ | Porsche | — | Ek kademe | Ek kademe: 5. aşamada Taycan yüksek gerilim batarya modülü geri çağırmasıyla eklendi. Satış adedi doğrulanamadı. |
+| 11+ | Zeekr | — | Ek kademe | Ek kademe: Faz 6'da arandı; Şikâyetvar'da kayıt çıkmadı, Ekşi Sözlük'te yalnızca tekil yorumlar var. Satış adedi doğrulanamadı. |
+| 11+ | Xpeng | — | Ek kademe | Ek kademe: Faz 6'da arandı; Türkiye'ye ait şikâyet kaydı çıkmadı. Satış adedi doğrulanamadı. |
+| 11+ | Leapmotor | — | Ek kademe | Ek kademe: Faz 6'da arandı; T03 için tekil şikâyetler var, ikinci bağımsız kaynak çıkmadı. Satış adedi doğrulanamadı. |
 
 \* İlk 10 sıra birden fazla haberde tutarlıdır (Volkswagen ve Toyota için küçük rakam farkları notlandı). 11. sıradan sonrası rakamlar tek bir tablodan alınmış ve ikinci bir kaynakta doğrulanamamıştır; bu yüzden sıra numarası verilmedi ve liste adet sırasındadır. Ford'un otomobil adedi bulunamadı. Kapsamdaki 18 marka bu belirsizliklerden etkilenmez, ancak 11-20. sıradaki markaların kendi aralarındaki sırası kesin değildir. Resmî tablo için ODMD'nin yıllık bülteni esas alınmalıdır.
 
@@ -153,6 +159,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 3 | Kangoo | 2008-2021 | 1.5 dCi (K9K) | – eklenmedi: Kangoo'ya özgü ayrı kaynak yok; K9K enjektör ve EGR anlatıları Clio, Megane ve Duster kayıtlarında ele alındı. |
 | 3 | Master / Trafic | 2010- | 2.3 dCi (M9T) | – eklenmedi: M9T için kol yatağı, turbo ve enjektör kanıtı yok; EGR / DPF anlatıları tek rehber sitesinden. |
 | 3 | Megane 3 / Fluence | 2009-2016 | 1.6 16V (K4M) | – eklenmedi: K4M için en somut tema bobin arızası ve tek bir forum başlığında; yağ tüketimi ve termostat kaynakları motoru belirtmiyor. |
+| 3 | Scenic E-Tech / 5 E-Tech | 2024- | Elektrik | – eklenmedi: Scenic E-Tech ve Renault 5 E-Tech'e özgü arıza kaydı çıkmadı; Şikâyetvar'daki R5 kayıtları kaza sonrası ekspertiz ve kampanya şikâyetleri, E-Tech arızaları ise Megane E-Tech'e ait. |
 | 3 | Talisman | 2016-2022 | 1.6 dCi / 1.5 dCi (EDC) | ✓ 1 sorun |
 
 ### Volkswagen
@@ -211,12 +218,14 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Linea | 2007-2015 | 1.3 Multijet (Dualogic) | ✓ 4 sorun |
 | 2 | 500 | 2008- | 1.2 Fire / 0.9 TwinAir | ✓ 1 sorun |
 | 2 | 500e | 2021- | Elektrik (42 kWh) | – eklenmedi: Şikâyetvar'da şarj sorunları ve batarya arızası (menzil göstergesinin 320 km'den 260 km'ye düşmesi) tekil; DonanımHaber yorumu olumlu, Ekşi Sözlük yorumları ABD'deki eski modellere ait. |
+| 2 | 600e | 2024- | Elektrik (54 kWh, 156 PS) | ✓ 1 sorun |
 | 2 | Egea | 2016- | 1.6 E-Torq 110 | – eklenmedi: Aramalarda öne çıkan kronik sorun bulunamadı. |
 | 2 | Linea | 2007-2015 | 1.4 Fire / 1.4 T-Jet | – eklenmedi: Dağınık şikâyetler var, tekrar eden bir sorun için iki bağımsız site bulunamadı. |
 | 2 | Punto Evo / Grande Punto | 2009-2018 | 1.3 Multijet 75/95 | ✓ 2 sorun |
 | 2 | Punto Evo / Grande Punto | 2009-2018 | 1.4 Fire 77 | ✓ 2 sorun |
 | 3 | Ducato | 2010- | 2.2 / 2.3 MultiJet | – eklenmedi: AdBlue, DPF ve NOx sensörü şikâyetleri yalnızca Şikâyetvar'da; Boxer ve Jumper için ayrı veri çıkmadı. |
 | 3 | Fiorino / Qubo | 2008-2020 | 1.3 Multijet | ✓ 3 sorun |
+| 3 | Grande Panda Electric | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da şarj ve kilit sorunu sonrası 8 saat yol yardımı beklemek, şarj soketinin erimesi ve teslimde arıza ışığı tekil; tek taramada ikinci bağımsız site çıkmadı. |
 | 3 | Linea / Punto | 2007-2015 | 1.4 T-Jet | – eklenmedi: T-Jet'e özgü kaynak çıkmadı; Punto şikâyetleri ağırlıkla direksiyon (EPS) üzerine ve ayrı kayıtta. |
 
 ### Hyundai
@@ -234,7 +243,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | i20 | 2020- | 1.4 MPI 100 | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | i30 | 2012-2020 | 1.6 CRDi | – eklenmedi: Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; model/motor bazında tekrar eden sorun için iki bağımsız site bulunamadı. |
 | 2 | Elantra | 2011-2020 | 1.6 MPI / 1.6 CRDi | – eklenmedi: Tek bir 7DCT kalkış titremesi şikâyeti dışında tekrar eden sorun bulunamadı. |
-| 2 | Kona Electric | 2021-2023 | Elektrik (39,2 / 64 kWh) | – eklenmedi: Batarya yangını geri çağırması 2017-2020 arası üretimi kapsıyor; Türkiye'de elektrikli Kona'nın resmî satışı Eylül 2021'de başladı ve kapsam doğrulanamadı. Türkiye'deki batarya modülü arızası ve parça bekleme şikâyetleri yalnızca Şikâyetvar'da. |
+| 2 | Kona Electric / Inster | 2021- | Elektrik (39,2 / 64 kWh) | – eklenmedi: Batarya yangını geri çağırması 2017-2020 arası üretimi kapsıyor; Türkiye'de elektrikli Kona'nın resmî satışı Eylül 2021'de başladı ve kapsam doğrulanamadı. Türkiye'deki batarya modülü arızası ve parça bekleme şikâyetleri yalnızca Şikâyetvar'da. Faz 6'da yeniden arandı (2. nesil Kona ve Inster dahil): Inster'de şarj sırasında duman ve teslim günü şarj olmama tekil, Kona'da batarya modülü arızası, parça bekleme ve %81'de şarjın sonlanması yalnızca Şikâyetvar'da; ikinci bağımsız site çıkmadı. |
 | 2 | Tucson (NX4) | 2021- | 1.6 T-GDI / 1.6 CRDi | ✓ 2 sorun |
 | 2 | i20 (PB) | 2009-2014 | 1.4 MPI / 1.4 CRDi | ✓ 1 sorun |
 | 2 | i30 | 2012-2020 | 1.4 / 1.6 MPI, 1.0 / 1.4 T-GDI | – eklenmedi: Benzinli motorlar (MPI, T-GDI) için i30'a özgü kronik sorun çıkmadı; aramalar 1.6 CRDi (DPF) ve DCT şikâyetlerine yöneldi ve i30'a özgü olmayan kaynaklardan geldi. |
@@ -253,8 +262,10 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | 208 / 2008 / 308 / 3008 | 2012-2021 | 1.6 BlueHDi / e-HDi (DV6) | – eklenmedi: Enjektör, EGR ve turbo anıları dağınık ve tek tek vaka; 301 kaydındaki DV6 sorunları aynı motor ailesi için geçerlidir. |
 | 1 | 208 / 2008 / 308 / 3008 / 5008 | 2019- | 1.5 BlueHDi 100/130 (DV5) | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | 301 | 2012- | 1.6 HDi / BlueHDi (DV6) | ✓ 3 sorun |
-| 1 | e-208 / e-2008 | 2022- | Elektrik (50 kWh) | ✓ 1 sorun |
+| 1 | e-208 / e-2008 | 2022- | Elektrik (50 kWh; 2024 sonrası 54 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | 308 / 3008 | 2007-2014 | 1.6 THP (EP6) | ✓ 3 sorun, 1 yıl kırılımı |
+| 2 | e-3008 / e-5008 | 2024- | Elektrik | – eklenmedi: Şikâyetvar'da 2024 model e-3008 için seyir halinde 'elektrikli çekiş sistemi arızası' uyarısıyla durma ve şarj almama (çekici) şikâyetleri var. İkinci bağımsız site bulunamadı: Ekşi Sözlük ve DonanımHaber yorumları yalnızca gerçek menzil ve şarj eğrisi hakkında; SpeakEV'de batarya boyutu yazmayan tek bir erken e-3008 şikâyeti var; e-3008 / e-5008 için geri çağırma kaydı çıkmadı (ÖAMTC'nin 3008 / 508 kaydı plug-in hibritlere ait). |
+| 2 | e-308 | 2023-2025 | Elektrik (54 kWh, 156 PS) | ✓ 1 sorun |
 | 3 | 207 / 206 | 2006-2014 | 1.6 VTi (EP6) | – eklenmedi: EP6 zincir uzaması iddiası tek bir rehber sitesine (Araclo) dayanıyor; forum ve şikâyet kaynaklarında doğrulanmadı. |
 | 3 | 301 | 2012- | 1.2 VTi / PureTech | ✓ 2 sorun |
 | 3 | 308 / 3008 | 2014-2021 | 1.6 HDi / BlueHDi (DV6) | – eklenmedi: DV6'ya özgü enjektör, turbo ya da DPF kaynağı çıkmadı; bir Ekşi yorumu 1.6 HDi + EAT6 serisini en sağlam seçenek olarak tanımlıyor (AdBlue hariç). |
@@ -269,11 +280,12 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Astra K | 2015-2021 | 1.4 Turbo 125/150 | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Corsa D / E | 2006-2019 | 1.3 CDTI 75/95 | ✓ 2 sorun |
 | 1 | Mokka | 2012-2019 | 1.4 Turbo (A14NET) | – eklenmedi: Mokka'ya özgü, A14NET'i açıkça belirten tekrar eden bir şikâyet bulunamadı; aynı motor için Astra J ve Astra K kayıtlarına bakın. |
+| 2 | Astra Electric | 2023-2025 | Elektrik (54 kWh, 156 PS) | ✓ 2 sorun, 2 yıl kırılımı |
 | 2 | Astra J | 2013-2015 | 1.6 CDTI 110/136 | ✓ 1 sorun |
 | 2 | Astra J | 2010-2015 | 1.6 benzinli atmosferik (Ecotec) | ✓ 1 sorun |
 | 2 | Astra K | 2015-2021 | 1.6 CDTI 110/136 | ✓ 1 sorun |
 | 2 | Corsa D / E | 2006-2019 | 1.2 / 1.4 benzinli (A12XER, A14XER) | – eklenmedi: Aramalarda A12XER/A14XER için kronik sorun bulunamadı; sonuçlar PureTech'e ait. |
-| 2 | Corsa-e / Mokka-e | 2020- | Elektrik (50 kWh) | ✓ 1 sorun |
+| 2 | Corsa-e / Mokka-e | 2020- | Elektrik (50 kWh; 2024 sonrası Mokka'da 54 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | Crossland / Corsa F | 2017- | 1.2 PureTech 83/100/110/130 | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | Insignia A | 2014-2017 | 1.6 CDTI 136 | ✓ 2 sorun |
 | 2 | Insignia A | 2008-2017 | 2.0 CDTI / 1.6 Turbo / 1.4 Turbo | – eklenmedi: Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı. |
@@ -281,6 +293,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 3 | Astra J | 2010-2015 | 1.7 / 2.0 CDTI | – eklenmedi: 1.7 ve 2.0 CDTI'ya özgü tekrar eden sorun çıkmadı; sonuçlar 1.6 ve 1.3 CDTI'ya ait. |
 | 3 | Corsa D | 2006-2014 | 1.2 / 1.3 CDTI (Easytronic) | ✓ 1 sorun |
 | 3 | Crossland | 2017- | 1.5 BlueHDi | – eklenmedi: Crossland şikâyetleri motor beyni ve şanzıman tarafında tekil; 1.5 BlueHDi zincir sorunu Grandland X kaydında ele alındı. |
+| 3 | Frontera Electric | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da 112 şikâyet listeleniyor (batarya arızası, uzun servis bekleme, kalkışta geri kayma, fren diski korozyonu); tek taramada ikinci bağımsız site çıkmadı. |
 | 3 | Grandland X / Grandland | 2017- | 1.5 BlueHDi | ✓ 1 sorun, 1 yıl kırılımı |
 | 3 | Insignia A | 2008-2017 | 2.0 CDTI (A20DTH) | – eklenmedi: A20DTH'ye özgü kronik sorun listesi çıkmadı; turbo hortumu şikâyetleri çoğunlukla 1.6 CDTI'a ait ve o kayıtta. |
 | 3 | Mokka / Mokka X | 2012-2020 | 1.4 Turbo (A14NET) / 1.6 CDTI | – eklenmedi: Mokka 1.6 CDTI zincir sesi ve otomatik şanzıman (P0741) şikâyetleri yalnızca Şikâyetvar'da; A14NET 1.4 Turbo için Mokka'ya özgü kaynak çıkmadı. |
@@ -295,16 +308,17 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | C-Elysee | 2012-2020 | 1.2 PureTech / 1.6 VTi | ✓ 1 sorun |
 | 2 | C3 | 2009-2016 | 1.4 HDi / 1.6 HDi | – eklenmedi: Enjektör ve turbo anıları tekil ve eski forum yazıları; uzun dönem bir kullanıcı turbo arızasını 230.000 km'de, enjektör revizyonunu 310.000 km'de bildiriyor; kronik sorun için yeterli kanıt yok. |
 | 2 | C4 / C4 Cactus | 2011-2020 | 1.6 e-HDi / BlueHDi, 1.2 PureTech | ✓ 1 sorun |
-| 2 | ë-C4 / ë-C4 X | 2021- | Elektrik (50 kWh) | ✓ 1 sorun |
+| 2 | ë-C4 / ë-C4 X | 2021- | Elektrik (50 kWh; 2024 sonrası 54 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
 | 3 | Berlingo / Partner | 2008-2018 | 1.6 HDi (DV6) | – eklenmedi: Turbo yağ besleme borusu tıkanıklığı tek bir forum yanıtına dayanıyor; Şikâyetvar'daki Berlingo kayıtları ağırlıkla 1.5 BlueHDi zinciri (ayrı kayıtta). |
 | 3 | C4 / C4 Picasso | 2010-2018 | 1.6 e-HDi (MCP robotize şanzıman) | – eklenmedi: MCP şanzıman için forum görüşleri karışık ('anlatıldığı kadar kötü değil'), kilometre ve maliyet verisi yok; aynı şanzıman 508 kaydında ele alındı. |
+| 3 | ë-C3 | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da sıfır km araçlarda çekiş sistemi uyarısı, şarj soketinin kilitlenmesi ve şarj sırasında bataryadan ses gelmesi tekil; tek taramada ikinci bağımsız site çıkmadı. |
 
 ### BYD
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | Atto 3 | 2023- | Elektrik (60,4 kWh) | ✓ 1 sorun |
-| 2 | Dolphin / Seal | 2024- | Elektrik | – eklenmedi: Şikâyetvar'da şarj kapağının açılmaması, ani şarj düşüşü, uygulama ve dijital anahtar sorunları tekil; ikinci site yok. 12V akü sorunu Atto 3 kaydında. |
+| 2 | Dolphin / Seal / Seal U / Sealion 7 | 2024- | Elektrik | – eklenmedi: Şikâyetvar'da şarj kapağının açılmaması, ani şarj düşüşü, uygulama ve dijital anahtar sorunları tekil; ikinci site yok. Faz 6'da Seal U (elektrikli), Sealion 7 ve Atto 2 de arandı: şarj yüzde 25'teyken uyarısız durma, güç kaybı uyarısı, gerçek menzil ve batarya soğutma radyatörü garanti reddi tekil; Atto 2 için kayıt çıkmadı. 12V akü sorunu Atto 3 kaydında. |
 
 ### Skoda
 
@@ -340,7 +354,9 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | C Serisi W204 | 2009-2014 | C180 / C200 / C250 CGI 1.8 turbo (M271 EVO) | ✓ 1 sorun |
 | 2 | C Serisi W205 | 2014-2021 | C220d 2.0 (OM651 / OM654) | – eklenmedi: C220d (OM651 / OM654) için W205'e özgü kaynak bulunamadı; bulunan şikâyetler C200d (R9M) NOx / AdBlue / turbo yağ kaçağı üzerine ve ayrı kayıtta. |
 | 2 | E Serisi W213 | 2016- | E180 / E200 / E220d | – eklenmedi: W213 için sistematik veri yok; Şikâyetvar'da tekil SBC fren, ekran ve direksiyon şikâyetleri var ve bir kısmı W212 / W214'e ait. |
+| 2 | EQC | 2019-2023 | Elektrik (80 kWh) | ✓ 1 sorun, 1 yıl kırılımı |
 | 3 | CLA | 2013-2019 | 180 CDI (dizel) | ✓ 1 sorun |
+| 3 | EQE / EQS | 2022- | Elektrik | – eklenmedi: Şikâyetvar'da EQS için şarj almama ve yolda kalma, EQE için menzil kaybı şikâyetleri tekil. NHTSA 24V372 (EQE / EQS batarya yönetimi yazılımı, sürüş gücü kaybı) ABD'deki araçlara ait ve Türkiye şikâyetleriyle aynı belirtiyi göstermiyor. DonanımHaber'de 'Mercedes EQE ve EQS Kullanıcı Deneyimleri' başlığı var ancak eşleşen bir arıza çıkmadı. |
 | 3 | GLA | 2013-2019 | 1.5 d / 1.6 / 2.0 (OM607 / M270 / M274) | – eklenmedi: GLA'ya özgü ayrı kaynak bulunamadı; DonanımHaber'deki Pre-Safe başlığı GLA'yı da anıyor, kapsam A Serisi / CLA kaydında. |
 | 3 | Vito / Sprinter | 2010- | 2.2 CDI (OM651) | – eklenmedi: OM651 anlatıları C ve E Serisi kayıtlarında; Vito ve Sprinter'a özgü ayrı kaynak yok. |
 
@@ -349,6 +365,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | T10X | 2023- | Elektrik (52,4 / 88,5 kWh) | ✓ 3 sorun |
+| 2 | T10F | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da T10F için yüzlerce şikâyet listeleniyor (AC şarj almama / OBC, 12V akü, yazılım donması, Trugo soketinin takılması). DonanımHaber ve Ekşi Sözlük'te T10F'ye özgü eşleşen kayıt çıkmadı: 12V akü ve enerji sistemi başlıkları T10X'e ait (T10X kaydında), T10F için yalnızca test sürüşüne dayanan bir yazılım yorumu var. T10F'nin T10X ile aynı sürücü paketi ve yazılımı paylaştığı kaynakla doğrulanamadı. |
 
 ### BMW
 
@@ -416,6 +433,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | Puma | 2019- | 1.0 EcoBoost mHEV | – eklenmedi: Forum görüşleri çelişkili (bazıları en sorunsuz 3 silindirli diyor); tekrar eden bir motor sorunu için kanıt yok. |
 | 3 | EcoSport | 2013-2022 | 1.0 EcoBoost | ✓ 1 sorun |
 | 3 | Mondeo / Transit Connect / Courier | 2007-2019 | 2.0 / 1.6 TDCi, 1.5 TDCi | – eklenmedi: Mondeo için tekil direksiyon, enjektör ve DPF anlatıları var; Transit Connect ve Courier 1.5 TDCi için sonuç çıkmadı. |
+| 3 | Puma Gen-E / Mustang Mach-E / Explorer Electric | 2022- | Elektrik | – eklenmedi: Şikâyetvar'da Puma Gen-E için sürüş sırasında şarj hatası (iki kez yol yardımı) ve batarya su sızıntısı tekil; Mustang Mach-E ve Explorer Electric için kayıt çıkmadı. |
 | 3 | Ranger | 2012- | 2.2 / 3.2 TDCi | – eklenmedi: Şikâyetvar'da turbo ve hortum şikâyetleri var; 2.2 ve 3.2 TDCi'ye özgü ikinci bağımsız kaynak çıkmadı. |
 | 3 | Transit Custom | 2012- | 2.0 EcoBlue | – eklenmedi: Yağ tüketimi ve turbo şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız kaynak bulunamadı. |
 
@@ -429,11 +447,13 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Sportage SL / QL | 2010-2021 | 1.6 CRDi / 1.7 CRDi | ✓ 1 sorun |
 | 1 | Sportage SL / QL | 2010-2021 | 1.6 GDI / 1.6 T-GDI | ✓ 1 sorun |
 | 2 | Ceed | 2012-2021 | 1.4 / 1.6 MPI | – eklenmedi: 1.4 ve 1.6 MPI benzinlilerde motora özgü kronik sorun çıkmadı; torpido ve konsol kabarması motor tipinden bağımsız. |
-| 2 | Niro EV / EV3 | 2019- | Elektrik | – eklenmedi: Şikâyetvar'da menzil, DC şarj süresi, batarya bağlantı ünitesi (parçanın Türkiye'de bulunmaması) ve EV3'te ICCU / şarj ünitesi şikâyetleri tekil; ikinci bağımsız kaynak yok. ICCU geri çağırması Kia EV6 kaydında. |
+| 2 | EV3 | 2024- | Elektrik (58,3 / 81,4 kWh) | ✓ 1 sorun |
+| 2 | Niro EV | 2019- | Elektrik | – eklenmedi: Şikâyetvar'da menzil, DC şarj süresi ve batarya bağlantı ünitesi (parçanın Türkiye'de bulunmaması) şikâyetleri tekil; ikinci bağımsız kaynak yok. EV3 ICCU arızası Faz 6'da ayrı kayıt oldu; ICCU geri çağırması Kia EV6 kaydında. |
 | 2 | Picanto | 2017- | 1.0 / 1.2 MPI | ✓ 1 sorun |
 | 2 | Rio | 2011-2017 | 1.4 MPI 100 | – eklenmedi: Forumlarda sorunsuz olarak anılıyor; kronik sorun bulunamadı. |
 | 2 | Stonic | 2017- | 1.4 MPI 100 (6 ileri otomatik) | ✓ 1 sorun, 1 yıl kırılımı |
 | 3 | Cerato | 2013-2018 | 1.6 (arka stop ve bagajdan su alma) | – eklenmedi: Su alma şikâyetleri Şikâyetvar'da çok, ancak kilometre ve model yılı verisi yok ve ikinci bağımsız kaynak (Ekşi'de tek yorum) sınırlı. |
+| 3 | EV9 | 2024- | Elektrik | – eklenmedi: Şikâyetvar'da hızlı şarjın araç tarafından durdurulması (yaklaşık 20.000 km) ve batarya elektrik arızası (üç hafta serviste) tekil. CarComplaints'te ABD'deki 2024 EV9'lara ait elektrik sistemi şikâyetleri var ancak Türkiye şikâyetleriyle aynı arıza değil; NHTSA'nın ICCU geri çağırmasının EV9'u kapsadığı doğrulanamadı (EV6 kaydı). |
 | 3 | Niro / Cerato / Sorento | 2011- | Hybrid / 1.6 / 2.2 CRDi | – eklenmedi: Cerato ve Niro için sonuç çıkmadı; Sorento 2.2 CRDi için yalnızca tekil şikâyetler var. |
 | 3 | Sorento / Venga | 2010-2018 | 2.2 CRDi / 1.4 CRDi | – eklenmedi: Sorento 2.2 CRDi ve Venga 1.4 CRDi için kaynak çıkmadı. |
 | 3 | Sportage / Ceed / Rio | 2010-2021 | 1.7 CRDi, 1.4 MPI, 1.25 | – eklenmedi: Sportage 1.7 CRDi, Ceed 1.4 MPI ve Rio 1.25 için motor kaynaklı kronik sorun çıkmadı; Ceed şikâyetleri torpido / konsol çatlaması ve start-stop üzerine. |
@@ -524,6 +544,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
+| 2 | Avenger Electric | 2023- | Elektrik (54 kWh, 156 PS) | ✓ 1 sorun, 1 yıl kırılımı |
 | 3 | Renegade / Compass | 2015- | 1.6 MultiJet (DDCT) / 1.4 MultiAir | – eklenmedi: Renegade DDCT'ye özgü kaynak çıkmadı (sonuçlar Egea üzerinden geldi); Compass şanzıman şikâyetlerinde motor ve şanzıman kombinasyonu belirsiz. |
 
 ### Alfa Romeo (ek kademe)
@@ -531,6 +552,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 3 | Giulietta | 2010-2020 | 1.4 MultiAir / 1.6 JTDM | – eklenmedi: Şikâyetler gövde ve elektronikte (yolcu airbag kapağı şişmesi, klima); motorlara özgü kaynaklı bulgu yok. |
+| 3 | Junior Elettrica | 2024- | Elektrik (54 kWh, 156 PS) | – eklenmedi: Şikâyetvar'da 2025-2026 tarihli tekrarlayan 'elektrikli çekiş sistemi arızası' uyarısı (bir araç yaklaşık 90 gün serviste), 900 km'de yolda kalıp şarj almama ve batarya sızıntısı şikâyetleri var; ikinci bağımsız site bulunamadı. Aynı 54 kWh / 156 PS değerlerine sahip Avenger Electric ve Fiat 600e ayrı kayıtlarda. |
 
 ### Mazda (ek kademe)
 
@@ -587,13 +609,31 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 3 | #1 | 2023- | Elektrik | – eklenmedi: Aramada Smart #1 için Türkiye'ye ait sonuç çıkmadı. |
+| 3 | #1 / #3 | 2023- | Elektrik | – eklenmedi: Aramada Smart #1 için Türkiye'ye ait sonuç çıkmadı. Faz 6'da #3 de arandı: Smart adını taşıyan telefon ve TV servisi şikâyetleri dışında Türkiye'ye ait araç kaydı çıkmadı. |
 
 ### Porsche (ek kademe)
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 2 | Taycan | 2020- | Elektrik (4S / Turbo) | ✓ 1 sorun, 1 yıl kırılımı |
+
+### Zeekr (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | 001 / X | 2023- | Elektrik | – eklenmedi: Şikâyetvar'da Zeekr'e ait kayıt çıkmadı; Ekşi Sözlük'te yalnızca sürücü ayık tutma modu, kafa tarama modu ve fiyat tartışması gibi tekil yorumlar var. |
+
+### Xpeng (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | G6 / G9 / P7 | 2024- | Elektrik | – eklenmedi: Şikâyetvar'da Xpeng'e ait kayıt çıkmadı; Ekşi Sözlük'te yalnızca bir P7+ test sürüşü izlenimi var. |
+
+### Leapmotor (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | T03 / C10 | 2022- | Elektrik | – eklenmedi: Şikâyetvar'da T03 için şarj edilememe, gerçek menzilin 200-250 km'ye gerilemesi, aracın iki kez kendini kilitlemesi ve Çince menü şikâyetleri tekil; Ekşi Sözlük'te yalnızca menzil yorumları var; C10 için kayıt çıkmadı. |
 
 ## Plan dışı kayıtlar
 

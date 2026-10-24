@@ -2,7 +2,7 @@
 
 Tarih: 2026-10-24
 
-Rapor beş aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını anlatır.
+Rapor altı aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını, [6. aşama](#6-aşama-astra-electric-açığı-ve-diğer-elektrikliler) Astra Electric açığının ve diğer eksik elektrikli modellerin ele alınmasını anlatır.
 
 ## 1. aşama: ilk sürümün doğrulanması
 
@@ -595,12 +595,98 @@ Plana 19 yeni `–` satırı işlendi (toplam 132). Her satırın nedeni [KAPSAM
 - Geri çağırma bilgileri ABD, Avrupa ve Çin kayıtlarına dayanıyor; kapsam için şasi numarasıyla yetkili servise ya da Ticaret Bakanlığı'nın geri çağırma kayıtlarına bakmak gerekir.
 - Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir.
 
+## 6. aşama: Astra Electric açığı ve diğer elektrikliler
+
+Tarih: 2026-10-24
+
+Altıncı aşama bir kullanıcı sorusundan çıktı: Opel Astra Electric (54 kWh, 115 kW / 156 PS) listede yoktu ve neden alınmadığı soruldu. Dürüst cevap, Astra Electric'in kanıt yetersizliği yüzünden elenmediği, hiç aranmadığıdır: 5. aşamada elektrikli model listesi satış ve şikâyet hacmine göre elle kurulmuştu (Tesla, Togg, BYD, MG, Hyundai / Kia, Mercedes EQA / EQB, Peugeot e-208 / e-2008 gibi) ve Stellantis'in 54 kWh / 156 PS sürücü paketli yeni modelleri (Astra Electric, e-308, Avenger Electric, Fiat 600e, Alfa Romeo Junior) plana hiç girmemişti. Eksiklik kanıt eşiğinden değil, kapsamın kuruluşundan kaynaklandı. Bu aşamada Türkiye'de satılan elektrikli modellerden planda olmayanlar sistematik olarak arandı. Kurallar aynı kaldı.
+
+| | 5. aşama sonu | 6. aşama sonu |
+| --- | ---: | ---: |
+| Araç/motor kaydı | 148 | 154 |
+| Kronik sorun | 220 | 227 |
+| Ayrıntısı olan sorun | 220 | 227 |
+| Yıl kırılımı olan sorun | 52 | 59 |
+| Marka | 27 | 28 |
+| Sorunlara bağlı kaynak bağlantısı | 1281 | 1321 |
+| Farklı kaynak sitesi | 71 | 78 |
+| Yalnızca iki siteyle desteklenen sorun | 46 | 48 |
+| Plan satırı | 276 | 295 |
+| Plan durumu (✓ / – / ○) | 144 / 132 / 0 | 150 / 145 / 0 |
+
+### Ne yapıldı
+
+- **Yeni kayıt:** 6 yeni araç/motor kaydı ve 7 yeni sorun; bir yeni marka (Jeep). Yeni sorunların 6'sı `Yüksek`, 1'i `Orta` risk seviyesinde. Hepsinde `detay` var; alan doluluğu: neden 7, teşhis 7, çözüm 7, maliyet 2.
+- **Sürüm notları:** Peugeot e-208 / e-2008, Opel Corsa-e / Mokka-e ve Citroën ë-C4 kayıtlarının `motor` alanı artık iki sürümü söylüyor (50 kWh / 136 PS ve 2024 sonrası 54 kWh / 156 PS); ana sorunlara bu iki dönemi açıklayan `donem_kirilimi` eklendi.
+- **Plan:** 276 satırdan 295'e çıktı (+19): 6'sı veritabanına girdi, 13'ü kanıt yetersiz olduğu için eklenmedi. Zeekr, Xpeng ve Leapmotor `ek` kademeyle marka listesine girdi; Jeep ve Alfa Romeo notları güncellendi. Dört mevcut `–` satırı genişletildi (Kia Niro EV, Smart, BYD, Hyundai Kona / Inster).
+- **Kaynaklar:** 40 bağlantı eklendi (37'si yeni sorunlarda, 3'ü sürüm notlarında). Kayıt defterine yedi site girdi: auto motor und sport, autohaus.de, ÖAMTC, Que Choisir, SıfırAraçAl, Stellantis Medya ve Testcoches. Her adresin arama sonuçlarında tam eşleşmeyle geçtiği yazım sırasında otomatik denetlendi.
+- **Yöntem aynı:** sayfalar açılamadı (bu oturumda `WebFetch` ağ hatası veriyor); Türkçe aramalar Şikâyetvar, DonanımHaber, OTOPARK.COM ve Ekşi Sözlük'e sınırlandı; geri çağırma ve yabancı kaynak aramaları kısıtsız ya da NHTSA, CarComplaints, SpeakEV, InsideEVs, electrive ve Alman otomotiv sitelerine sınırlandırılarak yapıldı.
+
+### Eklenen kayıtlar
+
+- **Opel Astra Electric (2023-2025), 54 kWh, 115 kW / 156 PS (2 sorun):** elektrik çekiş sistemi arızası uyarısı ve yolda kalma; yokuşta kalkışta aracın ters yönde hareket etmesi (motor ve gövde kontrol ünitesi yazılımı geri çağırması, Mart-Ağustos 2023 üretimi).
+- **Peugeot e-308 (2023-2025), aynı 54 kWh / 115 kW sürücü paketi (1 sorun):** elektrik çekiş sistemi arızası uyarısı ve yolda kalma (Şikâyetvar, DonanımHaber).
+- **Jeep Avenger Electric (2023-) (1 sorun):** elektrikli çekiş sistemi arızası ve ani güç kaybı; KBA'nın 15947R numaralı geri çağırması elektrikli park kilidi bağlantılarındaki korozyonu neden gösteriyor.
+- **Fiat 600e (2024-) (1 sorun):** elektrikli çekiş sistemi arızası ve ani motor kesilmesi (Şikâyetvar, Que Choisir soruşturması).
+- **Kia EV3 (2024-) (1 sorun):** ICCU arızası, AC şarj almama, 12V akü sorunu ve yolda kalma (Şikâyetvar, DonanımHaber, Ekşi Sözlük, Testcoches).
+- **Mercedes-Benz EQC (2019-2023) (1 sorun):** yüksek gerilim batarya arızası ve pahalı onarım; 2019 üretimi batarya gövdesi sızdırmazlığı geri çağırması (KBA 010923).
+
+### Astra Electric'in kanıt durumu
+
+- **Astra'ya özgü bağımsız ikinci site yok.** Çekiş sistemi arızası şikâyetleri yalnızca Şikâyetvar'da (2024 ve 2025 model GS ile Ultimate araçlar). Ekşi Sözlük'teki "opel astra elektrik" başlığı ağırlıkla olumlu; arıza olarak çekiş sistemi değil, servislerin elektrikli araçlara pek hâkim olmadığı yorumu öne çıkıyor. Bu yüzden Astra kaydı, aynı 54 kWh batarya ve 115 kW / 270 Nm motor değerlerine sahip Peugeot e-308 sahiplerinin DonanımHaber başlığını da kaynak olarak kullanıyor ve bunu `detay` metninde açıkça söylüyor. Bu bağlantı kayıt kuralını (iki site) sağlar, ancak Astra için doğrudan kanıt değildir.
+- **Geri çağırma:** auto motor und sport'a göre KBA kaydı 1.466 aracı (843'ü Almanya'da) kapsıyor; Türkiye'deki araçların kapsamı doğrulanamadı. İkinci kaynak Araclo (düşük güvenli); kayıt bu yüzden "yalnızca iki siteyle desteklenen" listesinde.
+- **Sürüm sınırı:** Astra Electric ve e-308 2025 sonunda / 2026 başında 58 kWh bataryalı güncel sürüme geçti (electrive, ev-database; Türkiye'de e-308 için satış Şubat 2026 olarak bekleniyordu). Bu sürüm için kaynak yok; kayıtlar 2023-2025 ile sınırlandı.
+- **Kullanılmayan kaynak:** Araclo'nun "Astra-e Ultimate" sayfası (termal yönetim, OBC arızası) kullanılmadı: sayfa Astra L'nin STLA Medium platformunda olduğunu yazıyor (doğru değil) ve arıza listesi şablon gibi.
+
+### 50 kWh / 136 PS ve 54 kWh / 156 PS sürümleri
+
+- Peugeot e-208 / e-2008, Opel Mokka (Electric) ve Citroën ë-C4 Avrupa'da 2024'te 54 kWh / 115 kW (156 PS) sürüme geçti. Türkiye'de e-2008'in 156 PS sürümü (haber), Mokka Electric'in 54 kWh sürümü (Stellantis Türkiye bülteni) ve 2025 model ë-C4 X Max (156 HP) ikinci el ilanı var; Corsa Electric'in Türkiye'deki güncel sürümü doğrulanamadı.
+- Şikâyetvar kayıtları batarya kapasitesi yazmadığı için bu üç ailenin sorunları sürüme göre ayrılamıyor. Kural gereği kayıtlar bölünmedi; `motor` alanı iki sürümü anıyor, `donem_kirilimi` hangi dönemin hangi sürüme denk geldiğini açıklıyor (durum her iki dönemde `Görülebilir`).
+
+### Araştırılıp eklenmeyen gruplar
+
+Plana 13 yeni `–` satırı işlendi (toplam 145). Her satırın nedeni [KAPSAM.md](KAPSAM.md) içinde yazılıdır. Başlıca nedenler:
+
+- **Kanıt tek siteye dayanıyor (Şikâyetvar):** Peugeot e-3008 / e-5008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9, Opel Frontera Electric, Citroën ë-C3, Fiat Grande Panda, Ford Puma Gen-E, Leapmotor T03, Hyundai Inster. Stellantis modellerinde (e-3008, Junior, ë-C3) Şikâyetvar'da "elektrikli çekiş sistemi arızası" şikâyetleri tekrar ediyor; ikinci bağımsız site bulunamadığı için kayıt açılmadı.
+- **Modele özgü kayıt çıkmadı:** Zeekr, Xpeng, Renault Scenic E-Tech / 5 E-Tech, Ford Mustang Mach-E ve Explorer Electric, Smart #3.
+- **Geri çağırma var ama belirtisi Türkiye şikâyetleriyle uyuşmuyor:** Mercedes EQE / EQS (NHTSA 24V372 sürüş gücü kaybı; Türkiye'de şarj almama ve menzil şikâyetleri).
+- **Derinlik notu:** Frontera Electric, ë-C3, Grande Panda, Puma Gen-E ve Inster için tek bir tarama sorgusuyla bakıldı; ayrıca ikinci site araması yapılmadı. Daha derin aramayla kayıt açılabilir.
+
+### Kanıtı sınırlı ayrıntılar
+
+- **Kilometre aralıkları:** Astra Electric, e-308, Avenger Electric, 600e, EV3 ve EQC kayıtlarında kilometre çoğu şikâyette yok; aralıklar kaba tahmin ve ilgili `detay` metninde söylendi. Astra geri çağırması yazılım hatası olduğu için kilometreyle ilişkili değil, aralık biçim gereği verildi.
+- **Avenger Electric:** geri çağırmanın yalnızca tam elektrikli Avenger'ları kapsadığı auto motor und sport'un araştırmasına dayanıyor; Jeep doğrulamadı. Türkiye kapsamı doğrulanamadı. Aynı marka için başka bir yazılım geri çağırması (Fiat 600e, Avenger Electric ve Alfa Romeo Junior için rejeneratif fren yazılımı, 13.458 araç) arıza kaydı olarak eklenmedi: etkisi yüksek enerji tüketimi, güvenlik riski yok.
+- **Fiat 600e:** Que Choisir soruşturmasının tam metni açılamadı (arama özeti); veriler Fransa'dan. Şikâyetvar'ın "Fiat Genel Merkez" sayfası bir araç değişimi talebini listeliyor, 600 Hybrid sayfasındaki 600e yorumu tek vaka.
+- **Kia EV3:** ICCU geri çağırması EV3'ü kapsamıyor (ABD listeleri EV6, Ioniq 5 / 6 ve Genesis); MOSFET açıklaması bir kullanıcı tahmini, Testcoches İspanyol haber sitesi sorunun E-GMP ailesinde görüldüğünü yazıyor ve kendi bilgisinin sınırlı olduğunu söylüyor.
+- **Mercedes EQC:** geri çağırma yalnızca 2019 üretimini kapsıyor; Şikâyetvar vakaları 2020 model. Bir şikâyette garanti, aracın gri piyasadan gelmesi nedeniyle reddedilmiş; Ekşi Sözlük'teki "kronik batarya sorunu" yorumu tek kullanıcı.
+- **Peugeot e-308:** hangi şikâyetin hangi sahibe ait olduğu özetlerde tam ayrılamadı; "son 6 ayda 4 kez yolda kaldı" ve "87 gün serviste" bilgileri aynı sahibe ait yazıldı.
+
+### Yalnızca iki siteyle desteklenen yeni maddeler
+
+- Opel Astra Electric (2023-2025): Yokuşta kalkışta aracın ters yönde hareket etmesi (auto-motor-und-sport.de, Araclo)
+- Peugeot e-308 (2023-2025): Elektrik çekiş sistemi arızası uyarısı ve yolda kalma (DonanımHaber Forum, Şikâyetvar)
+- Fiat 600e (2024-): Elektrikli çekiş sistemi arızası ve ani motor kesilmesi (Que Choisir, Şikâyetvar)
+- Citroën ë-C4, sürüm notuna eklenen bir ikinci el ilanı sayesinde üç siteye çıktı ve bu listeden çıktı (Şikâyetvar, electrive.com, arabam.com).
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- **Peugeot e-308:** taslaktaki "aynı uyarı e-3008 sahiplerinden de bildiriliyor" cümlesi, ilgili sayfa kaynak listesinde olmadığı için çıkarıldı.
+- **Mercedes EQC:** "Şikâyetvar'daki arızalar 2020 model araçlara ait" genellemesi, yalnızca iki şikâyetin model yılı bilindiği için yumuşatıldı.
+- **Astra Electric:** Araclo sayfasındaki termal yönetim ve OBC başlıkları arıza kanıtı olarak alınmadı (yukarıya bakın).
+
+### Dikkat edilecek sınırlar
+
+- Elektrikli filo genç ve küçük; "kronik" burada "birkaç bağımsız kullanıcı aynı arızayı tekrar bildiriyor" düzeyinde. Şikâyetvar ağırlığı yüksek; bu site sorunlu vakaları öne çıkarır, bir sorunun orada görünmesi sıklığı göstermez.
+- Stellantis'in 54 kWh / 156 PS ailesinde (Astra Electric, e-308, Avenger Electric, 600e, Junior, Mokka, e-2008) Şikâyetvar'da aynı "elektrikli çekiş sistemi arızası" belirtisi tekrar ediyor; nedenler modele göre farklı (Avenger'da park kilidi bağlantıları, 600e'de 12V akü ve invertör ipuçları, diğerlerinde kaynaklarda açık neden yok). Ortak belirtiyi ortak neden saymak doğrulanmadı.
+- Geri çağırma bilgileri Almanya (KBA), ABD ve Çin kayıtlarına dayanıyor; kapsam için şasi numarasıyla yetkili servise ya da Ticaret Bakanlığı'nın geri çağırma kayıtlarına bakmak gerekir.
+- Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen 46 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22 ve 5. aşamada eklenen 2) üçüncü bir kaynak eklenebilir.
-3. Kanıtı yetersiz bulunan 132 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
-4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 82 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
+2. Yalnızca iki siteyle desteklenen 48 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı) üçüncü bir kaynak eklenebilir.
+3. Kanıtı yetersiz bulunan 145 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
+4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 87 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
 5. Elektrikli araçlarda geri çağırma kaydı bulunan ama Türkiye kapsamı doğrulanamayan aileler (Volvo EX30, VW ID. serisi, Mini Cooper SE, BMW iX / i4, Audi e-tron GT) için Türkiye distribütörlerinin duyuruları ya da Ticaret Bakanlığı geri çağırma kayıtları bulunursa kayıt açılabilir.
 6. Hibrit ve plug-in hibrit araçlar (Toyota hibritleri, BYD Seal U DM-i gibi) bu aşamada kapsam dışı bırakıldı; istenirse aynı kurallarla eklenebilir.
 7. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.

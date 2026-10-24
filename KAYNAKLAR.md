@@ -42,22 +42,23 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 71 farklı site, 220 sorun için kullanıldı.
+Toplam 78 farklı site, 227 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 171 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
-| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 152 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
-| [Araclo](https://www.araclo.com/) | TR | düşük | 92 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
+| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 174 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
+| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 158 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
+| [Araclo](https://www.araclo.com/) | TR | düşük | 93 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
 | [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 77 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
 | [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 60 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. |
-| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 43 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
+| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 46 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
 | [Autopartia](https://autopartia.com/) | TR | düşük | 5 | Yedek parça satıcısı; motor bazlı blog ve 'uzman' sayfaları. Ticari site, belirli bir OEM parçayı sürekli öneriyor; tek başına yeterli sayılmaz. |
 | [Carsece](https://www.carsece.com/) | TR | düşük | 5 | Araç rehberi ve bakım blogu. Maliyet tahminlerinin kaynağını göstermiyor; tek başına yeterli sayılmaz. |
+| [arabam.com Blog](https://www.arabam.com/blog/) | TR | düşük | 5 | İlan sitesinin blog yazıları. Genel bilgi verir; bazı yazılar motorun 'büyük bir kronik sorunu yoktur' gibi genellemeler içeriyor. |
 | [Drivisual](https://www.drivisual.tv/) | TR | düşük | 4 | Motor bazlı satın alma ve kronik sorun rehberleri (Türkçe ve İngilizce). Tek bir blog; bağımsız kaynakla karşılaştırılmalı. |
-| [arabam.com Blog](https://www.arabam.com/blog/) | TR | düşük | 4 | İlan sitesinin blog yazıları. Genel bilgi verir; bazı yazılar motorun 'büyük bir kronik sorunu yoktur' gibi genellemeler içeriyor. |
+| [SıfırAraçAl](https://www.sifiraracal.com/) | TR | düşük | 1 | Türkiye'de yeni araç haberleri ve fiyat listeleri; model yenilemeleri ve motor/batarya verileri için. |
 
 ## Yurtdışı kaynaklar
 
@@ -70,7 +71,9 @@ Toplam 71 farklı site, 220 sorun için kullanıldı.
 | [ClassAction.org](https://www.classaction.org/) | US | orta | 2 | Toplu dava haberleri. Dava iddiaları kanıtlanmış kusur anlamına gelmez. |
 | [OCU (İspanya)](https://www.ocu.org/) | ES | orta | 2 | İspanyol tüketici örgütünün Renault motoru için toplu başvuru sayfası. |
 | [Ammons Law Firm](https://www.ammonslaw.com/) | US | düşük | 1 | Hukuk bürosu sayfası. Honda arka lastik aşınması için servis bülteni özetini içeriyor. |
+| [Que Choisir](https://www.quechoisir.org/) | FR | orta | 1 | Fransız tüketici örgütü (UFC-Que Choisir); sahip bildirimlerine dayanan araştırmalar yayımlar. |
 | [Top Class Actions](https://topclassactions.com/) | US | orta | 1 | Toplu dava ve uzlaşma haberleri. |
+| [ÖAMTC](https://www.oeamtc.at/) | AT | yüksek | 1 | Avusturya otomobil kulübü; geri çağırma duyurularını model ve üretim dönemiyle listeler. |
 
 ### Forumlar
 
@@ -122,18 +125,22 @@ Toplam 71 farklı site, 220 sorun için kullanıldı.
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
 | [Parkers](https://www.parkers.co.uk/) | UK | orta | 7 | İkinci el alım rehberleri ve haberler. |
-| [InsideEVs](https://insideevs.com/) | US | orta | 4 | Elektrikli araç haberleri; geri çağırma ve yaygın arıza özetleri. |
+| [InsideEVs](https://insideevs.com/) | US | orta | 5 | Elektrikli araç haberleri; geri çağırma ve yaygın arıza özetleri. |
 | [L'argus](https://www.largus.fr/) | FR | yüksek | 4 | Fransız otomotiv yayını. Güvenilirlik yazıları, tekrarlayan arıza listeleri ve geri çağırma haberleri. |
+| [electrive.com](https://www.electrive.com/) | DE | orta | 4 | Elektrikli araç ve şarj haberleri; Avrupa geri çağırmaları ve KBA kayıtlarına atıflar. |
 | [CompleteCar.ie](https://www.completecar.ie/) | IE | düşük | 3 | İrlanda merkezli araç sitesi; okur sorularına yanıt veriyor. |
-| [electrive.com](https://www.electrive.com/) | DE | orta | 3 | Elektrikli araç ve şarj haberleri; Avrupa geri çağırmaları ve KBA kayıtlarına atıflar. |
+| [auto motor und sport](https://www.auto-motor-und-sport.de/) | DE | yüksek | 3 | Alman otomotiv dergisi; geri çağırma haberlerinde KBA (Federal Motorlu Taşıtlar Dairesi) bildirimlerine dayanır. |
 | [AUTO BILD](https://www.autobild.de/) | DE | yüksek | 2 | Alman otomotiv yayını. Şikâyet sayıları ve üretici açıklamaları. |
 | [Malay Mail](https://www.malaymail.com/) | MY | orta | 2 | Malezya haber sitesi; Passat 2.0 TDI yağ pompası geri çağırma haberi. |
 | [The Connexion](https://www.connexionfrance.com/) | FR | orta | 2 | Fransa haberleri (İngilizce). UFC-Que Choisir'in 1.2 TCe yağ tüketimi uyarısını aktarıyor. |
 | [CarGuide.PH](https://www.carguide.ph/) | PH | orta | 1 | Filipinler otomotiv haberleri. BMW geri çağırma duyurusu. |
 | [Caradisiac](https://www.caradisiac.com/) | FR | orta | 1 | Fransız otomotiv yayını. Güvenilirlik dosyaları ve forum bölümü var. |
 | [Gebrauchtwagenberater](https://gebrauchtwagenberater.de/) | DE | düşük | 1 | Almanca ikinci el rehberi (Astra K). Resmî bir Opel belgesi değil. |
+| [Stellantis Medya](https://www.media.stellantis.com/) | Global | yüksek | 1 | Üretici basın bültenleri (Türkiye bölümü dahil); batarya, güç ve menzil gibi teknik veriler için güvenilir, arıza kanıtı değildir. |
+| [Testcoches](https://testcoches.es/) | ES | orta | 1 | İspanyol otomobil haber sitesi; model bazlı arıza ve geri çağırma haberleri. |
 | [WardsAuto](https://www.wardsauto.com/) | US | orta | 1 | ABD otomotiv sektörü haber ve analiz yayını; üretici kampanyalarını aktarır. |
 | [WheelStreet](https://www.wheelstreet.lt/) | LT | düşük | 1 | Litvanyaca ikinci el rehberi (Passat B6). |
+| [autohaus.de](https://www.autohaus.de/) | DE | orta | 1 | Alman otomotiv ticareti yayını; geri çağırma haberlerinde KBA referans numaralarını aktarır. |
 | [Autónavigátor](https://www.autonavigator.hu/) | HU | orta | yalnızca rapor | Macarca yayın. 1.5 dCi için motor yenileyici görüşü içeren yazı (K9K biyel yatağı). |
 
 ### Parça ve atölye rehberleri

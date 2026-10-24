@@ -1043,7 +1043,7 @@
     {
       "marka": "Citroen",
       "model": "ë-C4 / ë-C4 X (2021-)",
-      "motor": "Elektrik (50 kWh, 136 PS)",
+      "motor": "Elektrik (50 kWh, 136 PS; 2024 sonrası 54 kWh, 156 PS)",
       "uretim_yillari": {
         "baslangic": 2021,
         "bitis": null
@@ -1066,7 +1066,22 @@
             "https://www.sikayetvar.com/citroen/citroen-e-c4-sarj-hatasi",
             "https://www.sikayetvar.com/citroen/garanti-kapsamindaki-yeni-citroen-e-c4x-aracta-tekrarlanan-cekis-motoru-arizasi-ve-ikame-arac-saglanamamasi",
             "https://www.sikayetvar.com/citroen/e-c4-x/ec4x",
-            "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+            "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+            "https://www.arabam.com/ilan/galeriden-satilik-citroen-e-c4-x-max/hatasiz-2025-citroen-e-c4-x-max-cam-tavan-13-000-km-de/42607040"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2021,
+              "bitis": 2023,
+              "durum": "Görülebilir",
+              "not": "50 kWh / 136 PS sürümü; çekiş bataryası kontrol ünitesi geri çağırması 2022 üretimini kapsıyor."
+            },
+            {
+              "baslangic": 2024,
+              "bitis": null,
+              "durum": "Görülebilir",
+              "not": "54 kWh / 115 kW (156 PS) güncel sürüm; Türkiye'de 2025 model ë-C4 X Max (156 HP) ikinci el ilanı var. Şikâyetvar'daki yeni araç şikâyetleri batarya kapasitesi yazmadığı için hangi sürüme ait oldukları belli değil."
+            }
           ]
         }
       ]
@@ -1382,6 +1397,35 @@
             "https://www.sikayetvar.com/fiat/500-ailesi/problem",
             "https://www.sikayetvar.com/fiat/500-ailesi/kronik",
             "https://forum.donanimhaber.com/fiat-markasinin-torpido-airbag-sismesi--127413754"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "600e (2024-)",
+      "motor": "Elektrik (54 kWh, 115 kW / 156 PS)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli çekiş sistemi arızası ve ani motor kesilmesi",
+          "etkilenen_parca": "Elektrik tahrik sistemi kontrol zinciri (12V akü, invertör, çekiş motoru gibi bileşenler; nedeni araca göre değişiyor)",
+          "belirtiler": "Uyarısız ani motor kesilmesi ve aracın durması; ekranda 'elektrikli çekiş sistemi arızası' uyarısı; durduktan sonra tekerleklerin kilitli kalması (fren ya da P konumu) ve aracın yeniden çalışmaması; bazı sahiplerde 12V akü arızasıyla yolda kalma; haftalarca süren servis",
+          "tahmini_km_araligi": "1.000 - 20.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Que Choisir'in 20 Ağustos 2026'da yayımladığı soruşturmaya göre birçok 600e sahibi uyarısız motor kesilmesi yaşıyor ve tek uyarı çekiş sistemi arızası mesajı; olası nedenlerden biri 12V akü arızası, ancak aküyü sökmek her zaman çözmüyor. Dergi, yazılımın yeniden programlanması ve/veya elektrik parçalarının değiştirilmesi gerekebildiğini yazıyor. Şikâyetvar'da 5.473 km'deki bir 600e'nin motor, klima kompresörü ve invertör gibi büyük parçalarının değişmesi gerektiği anlatılıyor. Stellantis'in resmî bir yanıtı ya da bu arızaya özgü geri çağırma kaynaklarda yok.",
+            "teshis": "Şikâyetvar'da bir 600e sahibi 5.473 km'de aracı 12.06.2025'te Edirne'deki servise bıraktığını ve elektrik çekiş sistemi arızası nedeniyle can güvenliği tehlikesi gerekçesiyle araç değişimi istediğini yazıyor; başka bir sahip 8 Nisan 2026'da akü arızası yüzünden yolda kaldığını ve aracın 10 gündür serviste olduğunu; bir 600 Hybrid sahibi 5 ayda 4 kez çekiş sistemi arızası yaşadığını anlatıyor, aynı sayfadaki bir yorumda bir 600e sahibi aracı bir aydan kısa süre önce aldığını ve aynı arızayı yaşadığını yazıyor. Que Choisir'e göre arıza durduktan sonra tekerleklerin kilitli kalmasıyla da birlikte görülebiliyor. Çoğu kayıtta km yok; aralık kaba tahmindir.",
+            "cozum": "Que Choisir'e göre Fiat ya da Stellantis satış sonrası servislerine taahhütlü mektup gönderen sahipler yanıt alamamış; bazı sürücüler haftalar, hatta aylar süren tekrarlayan arıza ve immobilizasyon yaşamış. Şikâyetvar'daki akü arızası vakasında akü garanti kapsamında ücretsiz yenilenmemiş, ikame araç olarak Egea verilmiş."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/genel-merkez/servis",
+            "https://www.sikayetvar.com/fiat/fiat-600-hybrid-trafikte-kendini-kapatiyor-cozum-bulunamiyor",
+            "https://www.sikayetvar.com/enriko-aliberti/fiat-600e-aku-arizasi-ve-garanti-kapsaminda-destek-eksikligi",
+            "https://www.quechoisir.org/enquete-fiat-600e-des-coupures-moteur-brutales-et-un-service-client-aux-abonnes-absents-n177702/"
           ]
         }
       ]
@@ -2917,6 +2961,51 @@
       ]
     },
     {
+      "marka": "Jeep",
+      "model": "Avenger Electric (2023-)",
+      "motor": "Elektrik (54 kWh, 115 kW / 156 PS)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli çekiş sistemi arızası ve ani güç kaybı (elektrikli park kilidi bağlantıları, geri çağırma)",
+          "etkilenen_parca": "Elektrikli park kilidi modülü (ePLU) bağlantı elemanları ve kablo demeti; çekiş motoru kontrol zinciri",
+          "belirtiler": "Seyir halinde 'elektrikli çekiş arızası' uyarısı ve aracın aniden durması; motorun torku kesmesi, bazı sahiplerde takırtı sesi; aracın çekiciyle servise götürülmesi; parça beklemeyle haftalarca, bazen aylarca serviste kalma",
+          "tahmini_km_araligi": "1.000 - 20.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "auto motor und sport ve autohaus.de'ye göre KBA'nın 15947R numaralı geri çağırmasında neden, elektrikli park kilidinin (ePLU) bağlantılarında oluşan sürtünmeli korozyon: Jeep sözcüsü kontakların farklı metallerden olduğunu ve bunun CAN-bus iletişiminde kesintilere yol açtığını söylüyor; motor torku tamamen kesiyor, 6 km/s'de park kilidi modülü otomatik olarak park konumuna geçebiliyor. Kapsam 2023-2024 üretimi, dünya genelinde yaklaşık 21.000 araç (Almanya'da 5.550). auto motor und sport yalnızca tam elektrikli Avenger'ların etkilendiğini yazıyor; Jeep bunu doğrulamadı.",
+            "teshis": "Şikâyetvar'da Eylül 2025'te sıfır alınan bir Avenger Elektrikli'nin 19 Mayıs 2026'da seyir halindeyken 'elektrikli çekiş arızası' uyarısıyla durduğu, çekicinin yaklaşık 4 saatte geldiği ve aracın bir aydan uzun serviste kaldığı (servis arızayı iki parçaya bağlamış); 28 Temmuz 2026'da alınan bir aracın dördüncü günde arıza verip yaklaşık 2 ayda 3 kez yolda kaldığı; başka bir sahibin 13 günde iki kez seyir halindeyken araç tamamen durduğu için iade istediği; bir kullanıcının yaklaşık 19.000 km'de beş kez aynı uyarıyla karşılaştığı yazılıyor. Bir Summit sahibi motor değişimine rağmen aracın yine yolda kaldığını bildiriyor.",
+            "cozum": "KBA geri çağırmasında çözüm elektrikli park kilidinin değişimi ve kablo demetinin onarımı; auto motor und sport'a göre Jeep'in önce önerdiği yazılım güncellemesi işe yaramamış ve sahipler boşuna servis ziyareti yapmış. Türkiye'deki araçların bu kampanyanın kapsamında olup olmadığı kaynaklarda yok. Şikâyetvar'da çekiş arızasıyla Fethiye'de servise çekilen bir araç 4 aydır parça bekliyor; bir sahibe verilen ikame araç benzinli, yakıt masrafı sonradan karşılanmış (tek vaka)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/jeep/avenger/elektrikli",
+            "https://www.sikayetvar.com/jeep/elektrikli-jeep-avenger-arizasi-sonrasi-belirsiz-onarim-sureci-ve-yaniltici-ikame-arac",
+            "https://www.sikayetvar.com/jeep/avenger/summit",
+            "https://www.auto-motor-und-sport.de/verkehr/totalausfall-elektrischer-jeep-avenger/",
+            "https://www.auto-motor-und-sport.de/verkehr/rueckruf-jeep-avenger-rost-fuehrt-zu-vortriebsverlust/",
+            "https://www.autohaus.de/nachrichten/autohandel/jeep-avenger-rueckruf-wegen-moeglichem-antriebsverlust-3753755"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2023,
+              "bitis": 2024,
+              "durum": "Görülebilir",
+              "not": "KBA geri çağırması 2023-2024 üretimini kapsıyor (dünya genelinde yaklaşık 21.000 araç)."
+            },
+            {
+              "baslangic": 2025,
+              "bitis": null,
+              "durum": "Görülebilir",
+              "not": "Şikâyetvar'daki 2025 ve sonrası teslim araçlarda da aynı uyarı bildiriliyor; geri çağırmanın bu üretimi kapsayıp kapsamadığı kaynaklarda yok."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Kia",
       "model": "Ceed (ED / JD, 2009-2016)",
       "motor": "1.6 CRDi 115/128",
@@ -2941,6 +3030,40 @@
             "https://forum.donanimhaber.com/kia-ceed-1-6-crdi-silkeleme-sorunu--134474492",
             "https://www.sikayetvar.com/kia/enjektor",
             "https://www.araclo.com/blog/kia-ceed-1.6-crdi-ikinci-el-alim-rehberi-kontroller-bilinen-sorunlar-ve-bakim-onerileri"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "EV3 (2024-)",
+      "motor": "Elektrik (58,3 / 81,4 kWh, 204 PS)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "ICCU (entegre şarj kontrol ünitesi) arızası: AC şarj almama, 12V akü sorunu ve yolda kalma",
+          "etkilenen_parca": "ICCU (yüksek gerilim sistemi ile 12V sistemi arasındaki entegre şarj kontrol ünitesi) ve 12V akü",
+          "belirtiler": "Aracın AC şarj almaması (yalnızca DC kabul etmesi), 12V akünün şarj olmaması, kademeli güç kaybı ve yolda kalma; parçanın gelmesini beklerken araç haftalarca serviste kalıyor",
+          "tahmini_km_araligi": "1.000 - 30.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda resmî teşhis yok. Testcoches, ICCU'nun yüksek gerilim ve 12V sistemi arasındaki modül olduğunu, sorunun yalnızca EV3'e özgü olmayıp E-GMP platformlu Kia ve Hyundai elektriklilerinde görüldüğünü yazıyor. InsideEVs'e göre Hyundai ve Kia aynı ICCU arızası için ABD'de EV6, Ioniq 5 ve Ioniq 6'yı geri çağırdı (12V aküyü şarj edememe, sürüş gücü kaybı); EV3 bu kampanyalarda anılmıyor. DonanımHaber'de bir sahip ICCU sorununda aracın AC şarj almayıp yalnızca DC kabul ettiğini ve arızayı 12V devresindeki bir MOSFET'in yanmasına bağlıyor (kullanıcı tahmini, teyit yok).",
+            "teshis": "Şikâyetvar'da bir EV3 sahibi 400 km'de yeni aracında ICCU arızası çıktığını ve parçanın 20 gündür serviste beklediğini; başka bir sahip parçanın Kore'den gelmesi gerektiğini ve bekleyişin 45 güne kadar sürebildiğini; bir diğeri arıza tekrarlayınca aracı altı ayda iki ay serviste bıraktığını yazıyor. Ekşi Sözlük'te bir yorumcu bu arızanın 'yola devam edebileceğin bir arıza olmadığını, yolda bıraktığını' belirtiyor. Çoğu kayıtta km yok; aralık kaba tahmindir.",
+            "cozum": "Ekşi Sözlük'te arızanın garanti kapsamında onarıldığı ve bayide güncelleme gerektiği yazılıyor; Türkiye'de ICCU güncellemesinin bayi ziyaretiyle yapıldığı iddiası doğrulanmadı. DonanımHaber'de bir kullanıcı AGM akü takılmasının sorunu büyük oranda azalttığı yorumlarını aktarıyor (kesin çözüm değil, tek kullanıcı). Şikâyetvar'da bir sahibe parça beklerken benzinli ikame araç verilmiş."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/kia/ev3/iccu-arizasi",
+            "https://www.sikayetvar.com/kia/kia-ev3-kronik-ariza-sonrasi-45-gun-parca-bekleme-saskinligi",
+            "https://www.sikayetvar.com/kia/kia-ev3un-sarj-unitesi-arizasiyla-hayal-kirikligi",
+            "https://www.sikayetvar.com/en/kia-us/kia-has-not-fixed-iccu-issue-on-my-ev3-and-gave-me-a-gas-car-instead",
+            "https://forum.donanimhaber.com/kia-ev3-deneyimler-kullanici-yorumlari--159651385-24",
+            "https://forum.donanimhaber.com/kia-ev3-deneyimler-kullanici-yorumlari--159651385-26",
+            "https://eksisozluk.com/kia-ev3--7721731?p=6",
+            "https://testcoches.es/noticias/el-exitoso-kia-ev3-tiene-problemas-falla-el-iccu-dejando-tirados-a-sus-clientes/",
+            "https://insideevs.com/news/742007/hyunda-kia-iccu-12-volt-recall/"
           ]
         }
       ]
@@ -3517,6 +3640,46 @@
       ]
     },
     {
+      "marka": "Mercedes-Benz",
+      "model": "EQC (2019-2023)",
+      "motor": "Elektrik (80 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yüksek gerilim batarya arızası ve pahalı onarım (2019 üretimi batarya gövdesi sızdırmazlık geri çağırması)",
+          "etkilenen_parca": "Yüksek gerilim batarya (gövde sızdırmazlığı, batarya yönetimi) ve arka elektrik motoru",
+          "belirtiler": "Bataryada hata uyarısı ve aracın yeniden çalışmaması; batarya aşırı voltaj uyarısı ve batarya değişimi gerekmesi; arka motor değiştirildiği halde aynı hatanın aylar sonra dönmesi; 2019 üretimi araçlarda batarya gövdesine nem girmesi, yeniden çalıştırma imkânsızlığı ve yangın riski (geri çağırma)",
+          "tahmini_km_araligi": "10.000 - 60.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Temmuz 2021 geri çağırmasında (KBA referansı 010923) neden, yüksek gerilim batarya gövdesinin yetersiz sızdırmazlığı: korozyon nem girmesine yol açabiliyor, araç yeniden çalıştırılamayabiliyor ve yangın riski artıyor. Dünya genelinde 1.463 EQC (Almanya'da 136) kapsanıyor; ÖAMTC'ye göre Şubat-Kasım 2019 üretimi (BR 293). Onarım yerinde sızdırmazlığın yeniden yapılması. Kampanya 2019 üretimiyle sınırlı; Şikâyetvar'da anlatılan 2020 model araçlardaki arızaların nedeni kaynaklarda açıklanmıyor.",
+            "teshis": "Şikâyetvar'da 2020 model bir EQC sahibi yaklaşık 36.000 km'de bataryaya aşırı voltaj geldiğinin söylendiğini ve batarya değişiminin yaklaşık 130.000 TL tuttuğunu yazıyor; başka bir sahip arka motorun değiştirildiğini, aracın 3 ay serviste kaldığını ve aynı hatanın birkaç ay sonra yeniden çıktığını (kendisi sorunun batarya kaynaklı olduğunu savunuyor) anlatıyor. Ekşi Sözlük'te bir kullanıcı EQC'de kronik batarya sorunu olduğunu yazıyor (tek kullanıcı, kanıt yok). Çoğu kayıtta km yok; aralık kaba tahmindir.",
+            "cozum": "Geri çağırma kapsamındaki 2019 araçlarda sızdırmazlık ücretsiz yeniden yapılıyor. Şikâyetvar'da diğer vakalarda garanti reddi anlatılıyor: sahiplerden biri aracın yurt dışından ithal (gri piyasa) olduğu için garantisinin olmadığının ve onarımı kendisinin ödemesi gerektiğinin söylendiğini yazıyor.",
+            "maliyet": "Şikâyetvar'da batarya değişimi için yaklaşık 130.000 TL, arka motor değişimi için yaklaşık 220.000 TL (tarihler belirsiz, güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/mercedes-benz/eqc",
+            "https://www.sikayetvar.com/en/mercedes-benz-us/mercedes-sold-me-a-defective-2020-eqc-keeps-charging-me-for-costly-repairs",
+            "https://eksisozluk.com/mercedes-eqc--5763230?p=3",
+            "https://www.auto-motor-und-sport.de/tech-zukunft/alternative-antriebe/rueckruf-mercedes-benz-eqc-brandgefahr-bei-neuem-elektroauto/",
+            "https://www.oeamtc.at/rueckrufaktionen/mercedes-benz-eqc-probleme-mit-dem-hochvoltbatteriegehaeuse-45979348",
+            "https://www.electrive.com/2021/07/15/not-smart-if-you-cant-start/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2019,
+              "bitis": 2019,
+              "durum": "Görülebilir",
+              "not": "Geri çağırma yalnızca Şubat-Kasım 2019 üretimini (BR 293) kapsıyor; sonraki üretim yılları için kaynaklarda ayrı bilgi yok."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Mini",
       "model": "Cooper S / Countryman S (R56 / R60, 2007-2016)",
       "motor": "1.6 turbo benzinli (N14 / N18)",
@@ -3879,6 +4042,69 @@
     },
     {
       "marka": "Opel",
+      "model": "Astra Electric (2023-2025)",
+      "motor": "Elektrik (54 kWh, 115 kW / 156 PS)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": 2025
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrik çekiş sistemi arızası uyarısı ve yolda kalma",
+          "etkilenen_parca": "Elektrik tahrik sistemi kontrol zinciri (tahrik kontrol ünitesi, dahili şarj cihazı, 12V akü gibi bileşenler; servislerin değiştirdiği parça şikâyete göre değişiyor)",
+          "belirtiler": "Rastgele anlarda ya da araç çalıştırıldıktan birkaç saniye sonra 'Elektrikli çekiş sistemi arızası, onarım gerekiyor' uyarısı; aracı kapatıp açınca geçse de tekrarlaması, bazı sahiplerde yolda kalma ve çekici gerektirmesi, yazılım güncellemesinden sonra da dönmesi",
+          "tahmini_km_araligi": "1.000 - 30.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok. Şikâyetvar'da servislerin her ziyarette farklı bir teşhis koyduğu ve yazılım güncellemesi yüklediği, bir Ultimate sahibine ise 'beyin' (kontrol ünitesi) arızası denerek parçanın garantiyle değiştirileceğinin söylendiği anlatılıyor; bazı yorumlar çekiş ve motor uyarılarının hızlı şarjdan sonra geldiğini belirtiyor. Astra Electric'e özgü ikinci bağımsız site bulunamadı: kayıttaki DonanımHaber başlığı, aynı 54 kWh batarya ile 115 kW / 270 Nm motor değerlerine sahip Peugeot e-308 sahiplerine ait ve benzer bir arızayı (yolda kalma, batarya ile ilgili parça değişimi, arızanın sürmesi) anlatıyor. Bu yüzden Astra için kanıt ağırlıkla Şikâyetvar'a dayanıyor.",
+            "teshis": "Şikâyetvar'da 2025 model bir Astra Elektrik GS sahibi uyarının rastgele geldiğini, aracı 8 kez servise götürdüğünü ve her seferinde farklı teşhis konduğunu yazıyor; başka bir 2025 GS sahibi yaklaşık beş ay çözülemeyen arıza yüzünden araç değişimi istiyor. 2024 model bir Astra-e'nin servise giderken yolda kalıp çekiciyle taşındığı, bir Ultimate sahibinin şarj olmayan aracını çekiciyle İstanbul'daki yetkili servise götürdüğü anlatılıyor. Aynı sitede 4.000 km'deki bir Ultimate'in pil göstergesinin aniden sıfırlanıp sonra sürekli %100 gösterdiği, servisin parçalar Türkiye sisteminde tanımlı olmadığı için sipariş veremediği yazılıyor. Çoğu şikâyette km yok; aralık kaba tahmindir.",
+            "cozum": "Anlatımlarda servis yazılım güncellemesi yüklüyor, arıza bir süre sonra aynı biçimde geri dönüyor; bir vakada kontrol ünitesinin garantiyle değiştirileceği söylenmiş. Kalıcı çözüm alamayan sahipler araç değişimi talep ediyor. Servis süreleri uzun: bir şikâyette araç 60 gün, bir başkasında ilk arızada 9 ay serviste kalmış; ikame araç yetersiz bulunuyor. Ekşi Sözlük'te bir sahip Türkiye'deki servislerin elektrikli araçlara pek hâkim olmadığını yazıyor (tek kullanıcı; aynı başlıkta menzil ve genel memnuniyet olumlu)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/astra/astra-elektrikli",
+            "https://www.sikayetvar.com/opel/tekrarlayan-elektrikli-cekis-sistemi-arizasi-ve-guvenlik-riski-nedeniyle-arac-degisimi-talebi",
+            "https://www.sikayetvar.com/opel/opel-astra-elektrik-ultimate-aracimin-pil-sorunu-ve-servis-surecindeki-magduriyet",
+            "https://eksisozluk.com/opel-astra-elektrik--7933299",
+            "https://forum.donanimhaber.com/peugeot-308-e-gt-kullanicilari--158018321"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2024,
+              "bitis": 2025,
+              "durum": "Görülebilir",
+              "not": "Şikâyetvar kayıtları 2024 ve 2025 model araçlara (GS, Ultimate) ait; 2023 model için kaynaklarda arıza kaydı yok. Kayıtlar tek tek sahip anlatımıdır, oran göstermez."
+            }
+          ]
+        },
+        {
+          "sorun_adi": "Yokuşta kalkışta aracın ters yönde hareket etmesi (motor ve gövde kontrol ünitesi yazılımı, geri çağırma)",
+          "etkilenen_parca": "Motor kontrol ünitesi yazılımı (motor ile gövde kontrol ünitesi arasındaki iletişim, çalıştırma yetkisi / immobilizer verisi)",
+          "belirtiler": "Yokuşta kalkışta aracın sürücünün istediğinin tersi yönde, sürücü frene basana kadar hareket etmesi; kaza riskinin arttığı değerlendiriliyor",
+          "tahmini_km_araligi": "1.000 - 20.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "auto motor und sport'a göre Alman KBA'ya bildirilen geri çağırmanın nedeni motor ve gövde kontrol üniteleri arasındaki iletişim sorunu: araç çalıştırma yetkisi (immobilizer) verisini yanlış yorumluyor. Dünya genelinde 1.466 araç kapsanıyor, 843'ü Almanya'da kayıtlı; Mart-Ağustos 2023 üretimi. Araclo'nun Türkçe 'Astra L Elektrik' sayfasında da 2023 modeller için aynı geri çağırma 'motor ve gövde beyni arasında iletişim hatası' olarak listeleniyor. Yazılım hatası olduğu için km ile ilişkisi yok; aralık biçim gereği kaba verildi.",
+            "teshis": "Yokuşta kalkışta araç yanlış yönde (geri) hareket edebiliyor ve sürücü frene basana kadar sürüyor. Üreticiye göre bildirim sırasında kişi ya da mal hasarı bilinmiyordu. Türkiye'deki araçların bu kampanya kapsamında olup olmadığı resmî bir kaynakla doğrulanamadı; Araclo, alıcının şasi numarasıyla yetkili servisten yazılım güncellemesinin yapılıp yapılmadığını sormasını öneriyor.",
+            "cozum": "Yetkili servis motor kontrol ünitesinin yazılımını ücretsiz güncelliyor; işlem yaklaşık 20 dakika sürüyor (Opel iç kodu KIM).",
+            "maliyet": "Geri çağırma kapsamında ücretsiz."
+          },
+          "kaynaklar": [
+            "https://www.auto-motor-und-sport.de/verkehr/rueckruf-opel-astra-electric-wegfahrsperre-v1/",
+            "https://www.araclo.com/vehicles/opel-astra/l/elektrik/kronik-sorunlar"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2023,
+              "bitis": 2023,
+              "durum": "Görülebilir",
+              "not": "Geri çağırma yalnızca Mart-Ağustos 2023 üretimini kapsıyor; Türkiye'de 2023 Eylül'de başlayan satışla ne kadar örtüştüğü bilinmiyor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Astra H (2004-2010)",
       "motor": "1.6 Twinport (Z16XEP / Z16XER, Easytronic)",
       "uretim_yillari": {
@@ -4185,7 +4411,7 @@
     {
       "marka": "Opel",
       "model": "Corsa-e / Mokka-e (2020-)",
-      "motor": "Elektrik (50 kWh, 136 PS)",
+      "motor": "Elektrik (50 kWh, 136 PS; 2024 sonrası Mokka'da 54 kWh, 156 PS)",
       "uretim_yillari": {
         "baslangic": 2020,
         "bitis": null
@@ -4211,7 +4437,22 @@
             "https://www.speakev.com/threads/battery-charge-fault-stop-the-vehicle-electric-traction-system-fault-repair-needed.185256/",
             "https://www.speakev.com/threads/corsa-e-wont-charge-any-ideas.159288/",
             "https://www.speakev.com/threads/corsa-e-with-strange-charging-issue-any-ideas.170663/",
-            "https://forum.donanimhaber.com/opel-mokka-e-55-kilometrede-yolda-kaldi--157778750"
+            "https://forum.donanimhaber.com/opel-mokka-e-55-kilometrede-yolda-kaldi--157778750",
+            "https://www.media.stellantis.com/me-tr/opel/press/turkey-opel-mokka-elektrik-menzil-artirdi"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2020,
+              "bitis": 2023,
+              "durum": "Görülebilir",
+              "not": "50 kWh / 136 PS sürümü (Corsa-e, Mokka-e); SpeakEV konuşmaları bu sürümle ilgili."
+            },
+            {
+              "baslangic": 2024,
+              "bitis": null,
+              "durum": "Görülebilir",
+              "not": "Mokka Electric 54 kWh / 115 kW (156 PS) sürüme geçti ve Türkiye'de bu sürüm satılıyor (Stellantis Türkiye bülteni). Şikâyetvar'daki 2024-2026 tarihli Mokka şikâyetleri batarya kapasitesi yazmadığı için hangi sürüme ait oldukları belli değil; Corsa Electric'in Türkiye'deki güncel sürümü doğrulanamadı."
+            }
           ]
         }
       ]
@@ -4707,7 +4948,7 @@
     {
       "marka": "Peugeot",
       "model": "e-208 / e-2008 (2022-)",
-      "motor": "Elektrik (50 kWh, 136 PS)",
+      "motor": "Elektrik (50 kWh, 136 PS; 2024 sonrası 54 kWh, 156 PS)",
       "uretim_yillari": {
         "baslangic": 2022,
         "bitis": null
@@ -4735,7 +4976,52 @@
             "https://www.speakev.com/threads/e-208-traction-fault.182517/",
             "https://www.speakev.com/threads/recall-for-e208-2008.166644/",
             "https://www.speakev.com/threads/traction-battery-fault-stellantis.184158/",
-            "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/"
+            "https://www.electrive.com/2023/03/01/stellantis-toyota-launch-recall-due-to-battery-issues/",
+            "https://www.sifiraracal.com/peugeot-haberleri/yeni-peugeot-e-2008--simdi-daha-guclu,-daha-sik-ve-daha-uzun-menzilli/16072"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2022,
+              "bitis": 2023,
+              "durum": "Görülebilir",
+              "not": "50 kWh / 136 PS sürümü; SpeakEV konuşmaları ve 2022 üretimi için çekiş bataryası kontrol ünitesi geri çağırması bu sürümle ilgili."
+            },
+            {
+              "baslangic": 2024,
+              "bitis": null,
+              "durum": "Görülebilir",
+              "not": "Makyajlı 54 kWh / 115 kW (156 PS) sürüm; Türkiye'de e-2008'in 156 PS sürümü satışta. Şikâyetvar'daki 2025-2026 tarihli e-2008 şikâyetleri bu sürümle uyumlu, ancak şikâyetlerde batarya kapasitesi yazmıyor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "e-308 (2023-2025)",
+      "motor": "Elektrik (54 kWh, 115 kW / 156 PS)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": 2025
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrik çekiş sistemi arızası uyarısı ve yolda kalma",
+          "etkilenen_parca": "Elektrik tahrik sistemi kontrol zinciri (batarya ile ilgili parça, kontrol üniteleri, 12V akü gibi bileşenler; servislerin değiştirdiği parça şikâyete göre değişiyor)",
+          "belirtiler": "'Elektrikli çekiş sistemi arızası' uyarısı, araç hareket edemez hale gelip yolda ya da şarj istasyonunda kalma ve çekici gerektirmesi; yazılım güncellemesinden sonra da aynı hataların birkaç gün içinde dönmesi; uzun servis süreleri",
+          "tahmini_km_araligi": "1.000 - 30.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok. Şikâyetvar'da bir sahipte servis önce yazılım güncellemesi, sonra iki parça değişimi yapmış ve arıza yine dönmüş; bir başka sahibe aracı aldıktan kısa süre sonra yazılımla sorunun giderildiği söylenmiş, iki gün içinde aynı hatalar geri gelmiş. DonanımHaber'de bir e-308 GT sahibine servisin 'bir tür akü' değiştireceğini söylediği, parça takıldıktan sonra da sorunun sürdüğü yazılıyor.",
+            "teshis": "Şikâyetvar'da bir sahip son 6 ayda 4 kez yolda kaldığını, 3'ünde aracın çekiciyle İstanbul'daki yetkili servise gittiğini ve aracın toplam 87 gün serviste kaldığını yazıyor; başka bir sahip 700 km'de DC şarj sırasında 'Elektrikli Çekiş Sistemi Arızası' uyarısıyla aracın istasyonda hareket edemez hale geldiğini anlatıyor. DonanımHaber'de bir e-308 GT sahibi 15 Kasım 2024'te aracını çekiciyle servise götürdüğünü, teşhisin bir hafta sürdüğünü ve bu sürede ikame araç verilmediğini yazıyor. Çoğu şikâyette km yok; aralık kaba tahmindir.",
+            "cozum": "Anlatımlarda servis önce yazılım güncellemesi yapıyor, sonra parça değiştiriyor; arıza yazılım güncellemesinden sonra aynen sürüyor ya da birkaç gün içinde dönüyor. Araç değişimi talep eden şikâyetler var. DonanımHaber'de bir sahip bir hafta sonra 2021 model bir 208'in ikame olarak verildiğini, servisin parça için 1-1,5 ay süre verdiğini ve parça takıldıktan sonra da sorunun devam ettiğini yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-e-308-elektrik-cekis-sistemi-arizasi-nedeniyle-arac-87-gun-serviste-kaldi",
+            "https://www.sikayetvar.com/peugeot/tekrarlayan-elektrik-cekis-arizasi-ve-uzun-servis-surecleri-nedeniyle-arac-degisimi-talebi",
+            "https://www.sikayetvar.com/peugeot/peugeot-e-308-ile-bitmeyen-sorunlar",
+            "https://www.sikayetvar.com/peugeot/308/e-308",
+            "https://forum.donanimhaber.com/peugeot-308-e-gt-kullanicilari--158018321"
           ]
         }
       ]
