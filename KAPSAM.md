@@ -25,13 +25,13 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **569** model/motor grubu
+- Plan: **575** model/motor grubu
 - Tamamlanan (✓, modele özgü kaynaklı sorun var): **168**
-- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **137**
-- Araştırılıp eklenmeyen (–): **168**
-- Sırada (○): **96**
+- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **142**
+- Araştırılıp eklenmeyen (–): **177**
+- Sırada (○): **88**
 - Kademe 1: **120/120** işlendi (✓, ◐ ya da –)
-- Veritabanı: **323** kayıt, **258** kayda özgü kronik sorun, **48** motor/şanzıman ailesi (**82** ortak sorun)
+- Veritabanı: **328** kayıt, **258** kayda özgü kronik sorun, **48** motor/şanzıman ailesi (**82** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -47,7 +47,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Skoda | 27 | 9 | 8 | 8 | 2 | 6/6 |
 | Mercedes-Benz | 37 | 10 | 12 | 8 | 7 | 6/6 |
 | Togg | 2 | 1 | 0 | 1 | 0 | 1/1 |
-| BMW | 34 | 5 | 12 | 9 | 8 | 13/13 |
+| BMW | 40 | 5 | 17 | 13 | 5 | 13/13 |
 | Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 |
 | Nissan | 19 | 8 | 4 | 4 | 3 | 4/4 |
 | Chery | 2 | 0 | 0 | 2 | 0 | 0/0 |
@@ -58,7 +58,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Honda | 12 | 4 | 3 | 5 | 0 | 2/2 |
 | Seat | 12 | 3 | 5 | 1 | 3 | 2/2 |
 | Chevrolet | 1 | 0 | 0 | 1 | 0 | 0/0 |
-| Volvo | 12 | 1 | 1 | 4 | 6 | 2/2 |
+| Volvo | 12 | 1 | 1 | 9 | 1 | 2/2 |
 | Subaru | 6 | 1 | 2 | 0 | 3 | 0/0 |
 | Mini | 4 | 1 | 1 | 1 | 1 | 0/0 |
 | Jeep | 7 | 1 | 2 | 1 | 3 | 0/0 |
@@ -537,22 +537,28 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | X5 F15 | 2013-2018 | xDrive25d / 30d / 40d (N57) | ◐ 1 ortak aile sorunu — N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir. |
 | 2 | 1 Serisi F20 | 2011-2015 | 116d 1.6 (N47D16) | ✓ 1 sorun (+1 ortak aile) |
 | 2 | 1 Serisi F20 | 2011-2019 | 118d 2.0 (N47D20 / B47) | – eklenmedi: 118d / B47 için F20'ye özgü ayrı kaynak bulunamadı; N47D20 zincir sorunu 320d ve 520d kayıtlarında ele alındı. |
-| 2 | 2 Serisi F22 / F45 / F44 | 2014- | 216d / 218i / 218d (B37 / B38 / B47) | ○ sırada |
+| 2 | 2 Serisi F22 / F45 | 2014-2021 | 216d / 218d (B37 / B47) | – eklenmedi: Bu oturumdaki aramada 216d (B37) için çoğunlukla olumlu yorumlar çıktı; F22 ve 216d'ye özgü veri yok. F45 için akü boşalması, elektronik el freni ve şanzıman gibi genel şikâyetler DonanımHaber'de dağınık geçiyor; ortak bir arıza oluşmadı. |
+| 2 | 2 Serisi F22 / F45 | 2014-2021 | 218i 1.5 turbo (B38) | ◐ 1 ortak aile sorunu — Bu oturumdaki 2 Serisi aramasında B38 turbo manifoldu çatlaması anlatıları Şikâyetvar, Ekşi Sözlük ve DonanımHaber'de yinelendi (aile sorununda kayıtlı); 218i'ye özgü kilometre bilgili ayrı kayıt oluşmadı. Gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır. |
+| 2 | 2 Serisi F44 Gran Coupé | 2020- | 216d / 218i / 220i | ○ sırada |
 | 2 | 3 Serisi F30 | 2012-2015 | 316i 1.6 turbo (N13) | ◐ 7 ortak aile sorunu — 316i'ye özgü kaynak aranmadı; gösterilen sorunlar aynı N13 motorunu kullanan 116i / 118i (F20) kaydının kaynaklarına dayanır. |
-| 2 | 4 Serisi F32 / F36 | 2013-2020 | 418i / 420i (N20 / B48), 420d (B47) | ○ sırada |
+| 2 | 4 Serisi F32 / F36 | 2016-2020 | 420i (B48) / 420d (B47) | – eklenmedi: Bu oturumdaki aramada 4 Serisi 420d / 420i için triger zinciri ya da motora özgü kayıt çıkmadı; çıkanlar ön cam contası, iç kapı kolu ve soğutma sıvısı gibi tekil ya da model geneli konular. B47 / B48 için ayrı kaynak bulunamadı. |
+| 2 | 4 Serisi F32 / F36 | 2013-2016 | 420i 2.0 turbo benzin (N20) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — 420i'ye özgü kaynak çıkmadı (bu oturumdaki aramada zincir anlatısı yok); gösterilen triger zinciri, devirdaim pompası ve yağ filtresi yuvası sorunları aynı N20 motorunu kullanan 320i / 328i (F30) kaydının kaynaklarına dayanır. |
+| 2 | 4 Serisi F32 / F36 | 2013-2015 | 420d 2.0 dizel (N47) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — 420d'ye özgü kaynak çıkmadı (bu oturumdaki aramada zincir anlatısı yok); gösterilen triger zinciri ve EGR soğutucusu sorunları aynı N47 motorunu kullanan 320d (F30) ve 520d (F10) kayıtlarının kaynaklarına dayanır. |
 | 2 | 5 Serisi F10 | 2010-2015 | 520d 2.0 (N47D20) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 2 | 5 Serisi F10 | 2011-2016 | 520i / 528i (N20) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı |
-| 2 | 5 Serisi F10 | 2015-2017 | 520d (B47) | ○ sırada |
+| 2 | 5 Serisi F10 | 2015-2017 | 520d (B47) | – eklenmedi: Bu oturumdaki aramada B47'ye özgü kayıt çıkmadı: sonuçlar N47 zincir tartışmalarına ve ZF 8 ileri şanzımanı sorunsuz bulan yorumlara ait; bir yorum B47'yi düzeltilmiş N47 olarak anıyor (tekil görüş). |
 | 2 | X1 E84 | 2011-2015 | sDrive20i / xDrive28i (N20) | ◐ 4 ortak aile sorunu, 1 yıl kırılımı |
 | 2 | X3 F25 | 2012-2017 | xDrive28i (N20) | ◐ 4 ortak aile sorunu, 1 yıl kırılımı |
 | 2 | X3 F25 | 2011-2017 | xDrive30d (N57) | ◐ 1 ortak aile sorunu — N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir. |
-| 2 | X5 G05 | 2018- | xDrive30d / xDrive40d (B57) | ○ sırada |
+| 2 | X5 G05 | 2018- | xDrive30d / xDrive40d (B57) | – eklenmedi: Bu oturumdaki aramada G05'e özgü kayıt çıkmadı: sonuçlar SOS (acil çağrı) sistemi gibi tekil konular, motor kodu belirtilmemiş bir 2018 model X5'te yaklaşık 141.000 km'de motor değişimi anlatısı (G05 mi F15 mi belli değil) ve eski kuşak listelerinden oluşuyor. |
 | 2 | iX / iX1 / iX3 / i4 | 2021- | Elektrik | – eklenmedi: Şikâyetvar'da hızlı şarjta düşük güç, şarj kapağı kilidi ve şarj soketi arızaları tekil; DonanımHaber'de yalnızca i4 menzil göstergesi tartışması var, ortak bir örüntü doğrulanamadı. NHTSA kayıtlarında iX / i4 için batarya (22V-541), birleşik şarj ünitesi (23V-449) ve 2024 i4 modül kaynak dikişi (24V-135) geri çağırmaları var; Türkiye kapsamı doğrulanamadı. |
 | 3 | 1 Serisi F40 / X1 F48 | 2015- | 116d / 118i / sDrive16d / sDrive18d | – eklenmedi: Faz 9'da arandı (tek sorgu): Türkçe şikâyet ya da forum kaydı çıkmadı; bir Türkçe alım rehberi zincir / Valvetronic sorunlarının E84'ün 2.0 motoruna ait olduğunu, F48 18i'nin 1.5 üç silindirli turbo olduğunu yazıyor; AUTO BILD TÜV testi geri çağırmaları sıralıyor (EGR sızıntısı, airbag ateşleme, DKG bağlantıları). |
 | 3 | 3 Serisi E90 / 5 Serisi E60 | 2005-2013 | 316i / 318i / 320i (N46 / N52), 520i | – eklenmedi: N46 / N52'ye özgü ayrıntılı kaynak çıkmadı; soğutma sistemi ve yağ kaçağı anlatıları tekil. N47 zincir sorunu ayrı kayıtlarda. |
 | 3 | 3 Serisi F30 LCI | 2015-2019 | 318i 1.5 turbo (B38) | ◐ 1 ortak aile sorunu — 318i'ye özgü kaynak aranmadı; gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır. |
+| 3 | 4 Serisi F32 / F36 | 2016-2020 | 418i 1.5 turbo (B38) | ◐ 1 ortak aile sorunu — 418i'ye özgü sorun kaydı oluşmadı; bu oturumdaki aramada bir 418i'de turbo manifoldu anlatısı geçti (B38 ailesindeki sorunla aynı). Gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır. |
 | 3 | 7 Serisi F01 / G11 | 2009- | 730d / 740d (N57 / B57) | ○ sırada |
-| 3 | X2 F39 | 2018-2023 | sDrive18i / sDrive18d / xDrive20d (B38 / B47) | ○ sırada |
+| 3 | X2 F39 | 2018-2023 | sDrive18d / xDrive20d (B47) | ○ sırada |
+| 3 | X2 F39 | 2018-2023 | sDrive18i 1.5 turbo (B38) | ◐ 1 ortak aile sorunu — X2'ye özgü kaynak aranmadı; gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır. |
 | 3 | X4 F26 / G02 | 2014- | xDrive20d / xDrive30d (B47 / N57) | ○ sırada |
 | 3 | X6 E71 / F16 | 2008-2019 | xDrive30d / xDrive40d (N57) | ○ sırada |
 | 3 | i3 | 2014-2022 | Elektrik | – eklenmedi: Türkiye'deki i3'lerde range extender bulunmadığı yazılıyor; batarya kapasite kaybı (5 yılda %30'dan fazla) ve batarya testi ücreti tek bir Şikâyetvar kaydında, menzil yorumları Ekşi Sözlük'te; tekrar eden arıza örüntüsü çıkmadı. |
@@ -765,13 +771,13 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | S60 II / V60 | 2010-2018 | D3 / D4 / D5, T4 / T5 | – eklenmedi: Bu oturumdaki aramada Türkçe kaynakların çoğu S60'a ait ve en çok tekrarlanan konu D2 Powershift (ayrı kayıtta); V60 ve D3 / D4 / D5 Drive-E için özel veri az. 1.6 T4 EcoBoost için hararet, soğutma suyu eksilmesi ve silindir kapağı contası iddiaları var (Şikâyetvar ve DonanımHaber; 65-70 bin TL'lik blok değişimi teklifi gibi eski tarihli tekil vakalar), ancak kilometre bilgisi ve tekrar örüntüsü doğrulanamadı. |
 | 1 | XC60 (2008-2017) | 2008-2017 | 2.4 D5 / D4 2.0 (Drive-E) / T5 | – eklenmedi: Bu oturumdaki aramada DonanımHaber'de 2011 model XC60 D5'te otomatik şanzımanda D'ye alırken sektirme (yağ değişiminin biraz iyileştirdiği) ve 2016 model D4'te yaklaşık 300.000 km'de blok çatlağı gibi tekil anlatılar çıktı; enjektör için kayıt yok. Tekrar eden bir sorun için iki bağımsız site çıkmadı. |
 | 2 | EX30 / XC40 Recharge | 2021- | Elektrik | – eklenmedi: EX30 için hücre kusuru geri çağırması var (Sunwoda hücreleri, %70 şarj sınırı, modül değişimi); Avrupa'da yalnızca sağ direksiyonlu 69 kWh modelleri kapsadığı yazılıyor ve Türkiye kapsamı doğrulanamadı. Şikâyetvar'daki hızlı şarj, 'Electric Drive Fault' ve XC40 Recharge motor / batarya şikâyetleri tekil. |
-| 2 | S90 / V90 | 2016- | D4 / D5 / T5 / T6 | ○ sırada |
-| 2 | V40 (2012-2019) | 2012-2019 | D4 2.0 (Drive-E) / T3 / T4 / T5 | ○ sırada |
+| 2 | S90 / V90 | 2016- | D4 / D5 / T5 / T6 | – eklenmedi: Bu oturumdaki aramada S90 / V90 için motora özgü tekrar eden sorun çıkmadı; belirgin vakalar tekil: DonanımHaber'de 2017 model S90 D5'te piston deformasyonu ve yağın turbolara kaçması nedeniyle motor değişimi (tüketici hakem heyeti süreci ve Yargıtay'ın Mart 2025'te araç değişimi kararını onaması; konuda bir yorumcu sorunun kronik görünmediğini yazıyor), Şikâyetvar'da dizel hibrit bir S90'da 102.500 km'de tekrarlayan soğutma suyu arızası ve 2021 model S90 B5'te termostat arızası → conta yanması → 126.000 km'de motor indirme. Diğer şikâyetler bilgi-eğlence donmaları, sunroof tahliye kanalı, titreşim ve garanti / servis uyuşmazlıkları; kayıt açılmadı. |
+| 2 | V40 (2012-2019) | 2012-2019 | D4 2.0 (Drive-E) / T3 / T4 / T5 | – eklenmedi: Bu oturumdaki aramada V40 D4 / T3 / T4 için tekrar eden tek bir sorun çıkmadı: T3 ile gelen Aisin Geartronic için forum yorumları olumlu, dizeldeki Powershift şikâyetleri D2 kaydında ayrı ele alınıyor. Şikâyetvar'da T3 için 4 yılda 4. kez turbo arızası ve 2017 modelde su haznesi kaynaklı ısınma uyarısı tekil vakalar; Ekşi Sözlük'te tekrarlayan düşük motor performansı uyarısı ve dizelde partikül filtresi anlatıları tekil. Kilometre bilgisi ve ikinci bağımsız doğrulama yetersiz olduğundan kayıt açılmadı. |
 | 2 | V60 | 2013-2018 | D2 1.6 D DRIVe (Powershift) | ◐ 5 ortak aile sorunu, 1 yıl kırılımı — V60 D2'ye özgü kaynak aranmadı (S60 / V40 D2 ile aynı motor ve şanzıman); gösterilen sorunlar S60 / V40 D2 Powershift ve DV6 kayıtlarına dayanır. |
-| 2 | XC40 (2018-) | 2018- | T3 / T4 / D3 / B4 (hafif hibrit) | ○ sırada |
+| 2 | XC40 (2018-) | 2018- | T3 / T4 / D3 / B4 (hafif hibrit) | – eklenmedi: Bu oturumdaki aramada motor tipine göre ayrılabilen tekrar eden sorun çıkmadı. Şikâyetvar'da 2020 model XC40 T3 için 5 yılda 6 aks değişimi ve garanti reddi (tek vaka), 2021 modelde 8 kez SRS (hava yastığı) arızası, 2023 modelde (motor tipi belirtilmemiş) tahrik sistemi arızasıyla 6 ayda 4 kez yolda kalma anlatıları var; DonanımHaber'de T3 üç silindirli motorda yağ eksilmesi kronik mi diye tartışmalı (bir kullanıcı sorun yaşamadığını yazıyor). Ön takım tıkırtısı yeni araçlarda (XC40 / EX40) dünya genelinde bilinen sorun olarak anılıyor (tek kaynak). Kilometre bilgisi ve ikinci bağımsız doğrulama yetersiz olduğundan kayıt açılmadı. |
 | 2 | XC60 (2017-) | 2017- | D4 / D5 / T5 / B4 | – eklenmedi: Bu oturumdaki aramada Şikâyetvar'da 2020 model XC60'larda turbo arızası (70.000 km) ve B4 dizelde partikül sensörü şikâyeti gibi tekil kayıtlar çıktı; ikinci bağımsız kaynak yok. |
-| 2 | XC90 (2002-2014) | 2002-2014 | 2.4 D5 / 3.2 | ○ sırada |
-| 2 | XC90 (2015-) | 2015- | D5 / T5 / T6 | ○ sırada |
+| 2 | XC90 (2002-2014) | 2002-2014 | 2.4 D5 / 3.2 | – eklenmedi: Bu oturumdaki aramada DonanımHaber'de XC90 2.4 D5 için kronik sorunları da kapsayan bir inceleme başlığı ve 2007 model 2.4 D5 sorunları başlığı çıktı; bir kullanıcı T (benzinli) motorların arızalı olduğunu duyduğunu, 2.4 D motorlardan şikâyet duymadığını yazıyor (tekil yorum). Şanzımanda sorunun sık yaşandığı ama tamirden sonra yeniden çıkmadığı yazılıyor; Şikâyetvar'da bir şanzıman arızası, yüksek masraf ve uzun parça bekleme süresi şikâyeti var (tek vaka). 2.4 D5 enjektörü için doğrudan kayıt çıkmadı; kilometre bilgili, ikinci siteyle doğrulanmış sorun oluşmadı. |
+| 2 | XC90 (2015-) | 2015- | D5 / T5 / T6 | – eklenmedi: Bu oturumdaki aramada 2015 sonrası D5 / T5 / T6'yı kuşak olarak ayırabilen kayıt çıkmadı (sonuçlar çoğunlukla eski kuşağa ait). Bir forum yorumu benzinli T6 için erken vites kaydırma ve güç kaybı şanzıman sorunlarını anıyor (kuşak belirtilmemiş); Şikâyetvar'da far içine su alması ve garanti uygulamaları üzerine bir şikâyet var (tek vaka). |
 | 3 | S60 / V40 | 2011-2018 | 1.6 D DRIVe (Powershift) | ✓ 1 sorun (+4 ortak aile) |
 | 3 | S80 / V70 / XC70 | 2007-2016 | D5 2.4 / D4 | ○ sırada |
 

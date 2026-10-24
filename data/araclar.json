@@ -32,7 +32,7 @@
       "id": "bmw-b38-1-5",
       "ad": "BMW B38 1.5 üç silindir turbo benzin",
       "tur": "motor",
-      "aciklama": "BMW ve Mini'nin 2014'ten itibaren 1 Serisi, 2 Serisi, 3 Serisi (318i), X1 ve Mini Cooper'da kullandığı 1.5 litre üç silindirli turbo benzinli motor (B38; 102-136 PS). Turbo manifoldu çatlaması bu motor için anlatılıyor.",
+      "aciklama": "BMW ve Mini'nin 2014'ten itibaren 1 Serisi, 2 Serisi (218i), 3 Serisi (318i), 4 Serisi (418i), X1, X2 ve Mini Cooper'da kullandığı 1.5 litre üç silindirli turbo benzinli motor (B38; 102-136 PS). Turbo manifoldu çatlaması bu motor için anlatılıyor.",
       "kronik_sorunlar": [
         {
           "id": "turbo-manifoldu",
@@ -239,7 +239,7 @@
       "id": "bmw-n20",
       "ad": "BMW N20 2.0 turbo benzin",
       "tur": "motor",
-      "aciklama": "BMW'nin 2011-2016 arasında 3, 4 ve 5 Serisi, X1 ve X3'te kullandığı 2.0 litre turbo benzinli (320i / 328i, 520i / 528i, X1 sDrive20i / xDrive28i, X3 xDrive28i). Sonradan yerini B48 aldı. Kaynak anlatıları ağırlıkla F30 sahiplerine ve ABD forumlarına aittir.",
+      "aciklama": "BMW'nin 2011-2016 arasında 3, 4 ve 5 Serisi, X1 ve X3'te kullandığı 2.0 litre turbo benzinli (320i / 328i, 420i, 520i / 528i, X1 sDrive20i / xDrive28i, X3 xDrive28i). Sonradan yerini B48 aldı. Kaynak anlatıları ağırlıkla F30 sahiplerine ve ABD forumlarına aittir.",
       "kronik_sorunlar": [
         {
           "id": "triger-zinciri",
@@ -318,7 +318,7 @@
       "id": "bmw-n47",
       "ad": "BMW N47 2.0 dizel",
       "tur": "motor",
-      "aciklama": "BMW'nin 2007-2014 arasında 1, 3 ve 5 Serisi, X1 ve X3'te kullandığı 2.0 litre dizel (116d N47D16; 118d, 318d, 320d, 520d, X1 18d / 20d, X3 20d N47D20). Sonradan yerini B47 aldı. Zinciri motorun arkasındadır. Kaynak anlatıları çoğunlukla 1, 3 ve 5 Serisi sahiplerine aittir.",
+      "aciklama": "BMW'nin 2007-2015 arasında 1, 3, 4 ve 5 Serisi, X1 ve X3'te kullandığı 2.0 litre dizel (116d N47D16; 118d, 318d, 320d, 420d, 520d, X1 18d / 20d, X3 20d N47D20). Sonradan yerini B47 aldı. Zinciri motorun arkasındadır. Kaynak anlatıları çoğunlukla 1, 3 ve 5 Serisi sahiplerine aittir.",
       "kronik_sorunlar": [
         {
           "id": "triger-zinciri",
@@ -3393,6 +3393,19 @@
     },
     {
       "marka": "BMW",
+      "model": "2 Serisi (F22 / F45, 2014-2021)",
+      "motor": "218i 1.5 turbo (B38)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "BMW",
       "model": "3 Serisi (E90 / F30, 2007-2015)",
       "motor": "320d 2.0 dizel (N47D20)",
       "uretim_yillari": {
@@ -3573,6 +3586,45 @@
     },
     {
       "marka": "BMW",
+      "model": "4 Serisi (F32 / F36, 2013-2015)",
+      "motor": "420d 2.0 dizel (N47D20)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n47"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi (F32 / F36, 2013-2016)",
+      "motor": "420i 2.0 turbo benzin (N20B20)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n20"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi (F32 / F36, 2016-2020)",
+      "motor": "418i 1.5 turbo (B38)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "BMW",
       "model": "5 Serisi (F10, 2010-2015)",
       "motor": "520d 2.0 dizel (N47D20)",
       "uretim_yillari": {
@@ -3662,6 +3714,19 @@
       "uretim_yillari": {
         "baslangic": 2015,
         "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X2 (F39, 2018-2023)",
+      "motor": "sDrive18i 1.5 turbo (B38)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": 2023
       },
       "kronik_sorunlar": [],
       "aileler": [

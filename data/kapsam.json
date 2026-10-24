@@ -5931,7 +5931,9 @@
         "motor": [
           "B47"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada B47'ye özgü kayıt çıkmadı: sonuçlar N47 zincir tartışmalarına ve ZF 8 ileri şanzımanı sorunsuz bulan yorumlara ait; bir yorum B47'yi düzeltilmiş N47 olarak anıyor (tekil görüş)."
     },
     {
       "marka": "BMW",
@@ -7204,53 +7206,59 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada G05'e özgü kayıt çıkmadı: sonuçlar SOS (acil çağrı) sistemi gibi tekil konular, motor kodu belirtilmemiş bir 2018 model X5'te yaklaşık 141.000 km'de motor değişimi anlatısı (G05 mi F15 mi belli değil) ve eski kuşak listelerinden oluşuyor."
     },
     {
       "marka": "BMW",
       "model": "4 Serisi F32 / F36",
-      "yillar": "2013-2020",
-      "motor": "418i / 420i (N20 / B48), 420d (B47)",
+      "yillar": "2016-2020",
+      "motor": "420i (B48) / 420d (B47)",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "F32",
-          "F36"
+          "F32 / F36"
         ],
         "motor": [
-          ""
+          "B48",
+          "B47"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada 4 Serisi 420d / 420i için triger zinciri ya da motora özgü kayıt çıkmadı; çıkanlar ön cam contası, iç kapı kolu ve soğutma sıvısı gibi tekil ya da model geneli konular. B47 / B48 için ayrı kaynak bulunamadı."
     },
     {
       "marka": "BMW",
-      "model": "2 Serisi F22 / F45 / F44",
-      "yillar": "2014-",
-      "motor": "216d / 218i / 218d (B37 / B38 / B47)",
+      "model": "2 Serisi F22 / F45",
+      "yillar": "2014-2021",
+      "motor": "216d / 218d (B37 / B47)",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "F22",
-          "F45",
-          "F44"
+          "F22 / F45"
         ],
         "motor": [
-          ""
+          "216d",
+          "218d"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada 216d (B37) için çoğunlukla olumlu yorumlar çıktı; F22 ve 216d'ye özgü veri yok. F45 için akü boşalması, elektronik el freni ve şanzıman gibi genel şikâyetler DonanımHaber'de dağınık geçiyor; ortak bir arıza oluşmadı."
     },
     {
       "marka": "BMW",
       "model": "X2 F39",
       "yillar": "2018-2023",
-      "motor": "sDrive18i / sDrive18d / xDrive20d (B38 / B47)",
+      "motor": "sDrive18d / xDrive20d (B47)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "F39"
         ],
         "motor": [
-          ""
+          "sDrive18d",
+          "xDrive20d"
         ]
       }
     },
@@ -7469,7 +7477,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada DonanımHaber'de XC90 2.4 D5 için kronik sorunları da kapsayan bir inceleme başlığı ve 2007 model 2.4 D5 sorunları başlığı çıktı; bir kullanıcı T (benzinli) motorların arızalı olduğunu duyduğunu, 2.4 D motorlardan şikâyet duymadığını yazıyor (tekil yorum). Şanzımanda sorunun sık yaşandığı ama tamirden sonra yeniden çıkmadığı yazılıyor; Şikâyetvar'da bir şanzıman arızası, yüksek masraf ve uzun parça bekleme süresi şikâyeti var (tek vaka). 2.4 D5 enjektörü için doğrudan kayıt çıkmadı; kilometre bilgili, ikinci siteyle doğrulanmış sorun oluşmadı."
     },
     {
       "marka": "Volvo",
@@ -7484,7 +7494,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada 2015 sonrası D5 / T5 / T6'yı kuşak olarak ayırabilen kayıt çıkmadı (sonuçlar çoğunlukla eski kuşağa ait). Bir forum yorumu benzinli T6 için erken vites kaydırma ve güç kaybı şanzıman sorunlarını anıyor (kuşak belirtilmemiş); Şikâyetvar'da far içine su alması ve garanti uygulamaları üzerine bir şikâyet var (tek vaka)."
     },
     {
       "marka": "Volvo",
@@ -7521,7 +7533,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada V40 D4 / T3 / T4 için tekrar eden tek bir sorun çıkmadı: T3 ile gelen Aisin Geartronic için forum yorumları olumlu, dizeldeki Powershift şikâyetleri D2 kaydında ayrı ele alınıyor. Şikâyetvar'da T3 için 4 yılda 4. kez turbo arızası ve 2017 modelde su haznesi kaynaklı ısınma uyarısı tekil vakalar; Ekşi Sözlük'te tekrarlayan düşük motor performansı uyarısı ve dizelde partikül filtresi anlatıları tekil. Kilometre bilgisi ve ikinci bağımsız doğrulama yetersiz olduğundan kayıt açılmadı."
     },
     {
       "marka": "Volvo",
@@ -7537,7 +7551,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada S90 / V90 için motora özgü tekrar eden sorun çıkmadı; belirgin vakalar tekil: DonanımHaber'de 2017 model S90 D5'te piston deformasyonu ve yağın turbolara kaçması nedeniyle motor değişimi (tüketici hakem heyeti süreci ve Yargıtay'ın Mart 2025'te araç değişimi kararını onaması; konuda bir yorumcu sorunun kronik görünmediğini yazıyor), Şikâyetvar'da dizel hibrit bir S90'da 102.500 km'de tekrarlayan soğutma suyu arızası ve 2021 model S90 B5'te termostat arızası → conta yanması → 126.000 km'de motor indirme. Diğer şikâyetler bilgi-eğlence donmaları, sunroof tahliye kanalı, titreşim ve garanti / servis uyuşmazlıkları; kayıt açılmadı."
     },
     {
       "marka": "Volvo",
@@ -7552,7 +7568,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada motor tipine göre ayrılabilen tekrar eden sorun çıkmadı. Şikâyetvar'da 2020 model XC40 T3 için 5 yılda 6 aks değişimi ve garanti reddi (tek vaka), 2021 modelde 8 kez SRS (hava yastığı) arızası, 2023 modelde (motor tipi belirtilmemiş) tahrik sistemi arızasıyla 6 ayda 4 kez yolda kalma anlatıları var; DonanımHaber'de T3 üç silindirli motorda yağ eksilmesi kronik mi diye tartışmalı (bir kullanıcı sorun yaşamadığını yazıyor). Ön takım tıkırtısı yeni araçlarda (XC40 / EX40) dünya genelinde bilinen sorun olarak anılıyor (tek kaynak). Kilometre bilgisi ve ikinci bağımsız doğrulama yetersiz olduğundan kayıt açılmadı."
     },
     {
       "marka": "Volvo",
@@ -9365,6 +9383,103 @@
         ]
       },
       "not": "Bu oturumdaki aramada Insignia B (GrandSport) 1.6 CDTI için DonanımHaber, Şikâyetvar ve Ekşi Sözlük'te turbo hortumunun bağlantı yerinden yırtılması (50 bin ve 72 bin km vakaları), enjektör şakırtısı ve zincir sesi anlatıları, otomatik şanzımanda titreme ve selenoid arızası (Şikâyetvar'da 187 bin km'de 202 bin TL'lik revizyon) çıktı; modele özgü kilometre bilgisi ve ikinci kaynakla doğrulanmış ayrı kayıt oluşmadı. Gösterilen triger zinciri ve turbo hortumu sorunları Astra J / K ve Insignia A kaynaklarına dayanır."
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi F32 / F36",
+      "yillar": "2013-2016",
+      "motor": "420i 2.0 turbo benzin (N20)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "F32 / F36, 2013"
+        ],
+        "motor": [
+          "420i"
+        ]
+      },
+      "not": "420i'ye özgü kaynak çıkmadı (bu oturumdaki aramada zincir anlatısı yok); gösterilen triger zinciri, devirdaim pompası ve yağ filtresi yuvası sorunları aynı N20 motorunu kullanan 320i / 328i (F30) kaydının kaynaklarına dayanır."
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi F32 / F36",
+      "yillar": "2013-2015",
+      "motor": "420d 2.0 dizel (N47)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "F32 / F36, 2013"
+        ],
+        "motor": [
+          "420d"
+        ]
+      },
+      "not": "420d'ye özgü kaynak çıkmadı (bu oturumdaki aramada zincir anlatısı yok); gösterilen triger zinciri ve EGR soğutucusu sorunları aynı N47 motorunu kullanan 320d (F30) ve 520d (F10) kayıtlarının kaynaklarına dayanır."
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi F32 / F36",
+      "yillar": "2016-2020",
+      "motor": "418i 1.5 turbo (B38)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F32 / F36, 2016"
+        ],
+        "motor": [
+          "418i"
+        ]
+      },
+      "not": "418i'ye özgü sorun kaydı oluşmadı; bu oturumdaki aramada bir 418i'de turbo manifoldu anlatısı geçti (B38 ailesindeki sorunla aynı). Gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır."
+    },
+    {
+      "marka": "BMW",
+      "model": "2 Serisi F22 / F45",
+      "yillar": "2014-2021",
+      "motor": "218i 1.5 turbo (B38)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "F22 / F45"
+        ],
+        "motor": [
+          "218i"
+        ]
+      },
+      "not": "Bu oturumdaki 2 Serisi aramasında B38 turbo manifoldu çatlaması anlatıları Şikâyetvar, Ekşi Sözlük ve DonanımHaber'de yinelendi (aile sorununda kayıtlı); 218i'ye özgü kilometre bilgili ayrı kayıt oluşmadı. Gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır."
+    },
+    {
+      "marka": "BMW",
+      "model": "2 Serisi F44 Gran Coupé",
+      "yillar": "2020-",
+      "motor": "216d / 218i / 220i",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "F44"
+        ],
+        "motor": [
+          "216d",
+          "218i",
+          "220i"
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "X2 F39",
+      "yillar": "2018-2023",
+      "motor": "sDrive18i 1.5 turbo (B38)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F39"
+        ],
+        "motor": [
+          "sDrive18i"
+        ]
+      },
+      "not": "X2'ye özgü kaynak aranmadı; gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır."
     }
   ]
 }

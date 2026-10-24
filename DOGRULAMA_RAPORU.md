@@ -975,31 +975,31 @@ Bu aşama iki mesajla başladı. Birincisi: "Biz şu mantıkla mı ilerliyoruz; 
 2. **Doğrulayıcı, şema ve testler:** aile kimliği benzersiz ve biçimli olmalı, her aile kullanılmalı, `aile_sorunu` var olan bir aile sorununa ve kaydın bağlı olduğu aileye işaret etmeli, bir kaydın en az bir sorunu ya da en az bir ailesi olmalı. Test sayısı 37'den 60'a çıktı (aile kuralları, şema ve yeni üretici davranışları).
 3. **Üreticiler:** `KAPSAM.md` artık ◐ durumunu, `KAYNAKLAR.md` aile sorunlarının kaynaklarını sayıyor. Görüntüleyici aile etiketlerini, "arandı" ve "sırada" ayrımını ve sayfanın üstünden "kayıt açılmayan gruplar" bölümüne kısayolu gösteriyor. Kısa model kodları ("Q3", "X5") artık kelime başında aranıyor; önceden "Q3" araması "DQ381" içindeki "q3"ü de bulup Kodiaq ve Tiguan kayıtlarını getiriyordu.
 4. **Aileler kuruldu ve kardeş modeller eklendi** (aşağıda).
-5. **Model kataloğu:** Türkiye ikinci el pazarında yaygın olup planda hiç yer almayan 114 model ve motor grubu "sırada" (○) olarak plana eklendi; bunların bir kısmı aynı aşamada araştırılıp ◐ ya da `–` oldu, 96'sı sırada kaldı.
+5. **Model kataloğu:** Türkiye ikinci el pazarında yaygın olup planda hiç yer almayan 114 model ve motor grubu "sırada" (○) olarak plana eklendi; bunların bir kısmı aynı aşamada araştırılıp ◐ ya da `–` oldu, 88'i sırada kaldı.
 6. **Aile tasarımı kanıt kapsamına göre daraltıldı.** İlk taslakta VAG 1.6 TDI için tek aile vardı (enjektör + EGR / DPF) ve EA288 motorlu modellere de EA189'a özgü enjektör sorunu yazılıyordu; EA189 enjektörü ile 1.6 TDI EGR / DPF ayrıldı. Aynı şekilde VAG 1.2 ve 1.4 TSI (EA111 / EA211) ve EA111 1.2'ye özgü yağ tüketimi ayrı ailelere bölündü. Kural: aile, sorunun kanıtlandığı motor sürümünü aşmıyor.
 
 ### Sonuç
 
 | | 9. aşama sonu | 10. aşama sonu |
 | --- | ---: | ---: |
-| Araç/motor kaydı | 172 | 323 |
+| Araç/motor kaydı | 172 | 328 |
 | – bunlardan kayda özgü kaynaklı sorunu olan (✓) | 172 | 172 |
-| – bunlardan yalnızca aile kaynaklı (◐) | 0 | 151 |
+| – bunlardan yalnızca aile kaynaklı (◐) | 0 | 156 |
 | Kayda özgü kronik sorun | 258 | 258 |
 | Motor / şanzıman ailesi | 0 | 48 |
 | Ortak (aile) sorunu | 0 | 82 |
-| Aileye bağlı kayıt | 0 | 280 |
-| Görüntüleyicide gösterilen sorun (kayda özgü + ortak) | 258 | 704 |
+| Aileye bağlı kayıt | 0 | 285 |
+| Görüntüleyicide gösterilen sorun (kayda özgü + ortak) | 258 | 712 |
 | Marka | 29 | 30 (Alfa Romeo) |
 | Farklı kaynak sitesi | 79 | 80 (Sözcü) |
 | Kayda özgü sorunlara bağlı kaynak bağlantısı | 1495 | 1495 |
 | Aile sorunlarına bağlı kaynak bağlantısı | 0 | 654 |
-| Plan satırı | 355 | 569 |
-| Plan durumu (✓ / ◐ / – / ○) | 168 / 0 / 187 / 0 | 168 / 137 / 168 / 96 |
+| Plan satırı | 355 | 575 |
+| Plan durumu (✓ / ◐ / – / ○) | 168 / 0 / 187 / 0 | 168 / 142 / 177 / 88 |
 | Kademe 1 satırı (işlenen) | 109 (109) | 120 (120) |
 | Test | 37 | 60 |
 
-Kayda özgü sorun sayısı değişmedi: bu aşamada yeni bir modele özgü sorun eklenmedi, çünkü yapılan aramalar (aşağıda) iki bağımsız site ve kilometre bilgisi eşiğini geçen yeni bir modele özgü sorun çıkarmadı. Artan şey kapsam: 151 modelin kaydı artık aynı motor ya da şanzımanı kullanan diğer modellerin kaynaklarıyla görünür. Faz 9 sonundaki 187 `–` satırının 22'si doğrudan ◐ oldu, 58'i bölündü ya da yeniden adlandırıldı (parçaları ◐ ya da `–` oldu), 107'si olduğu gibi kaldı.
+Kayda özgü sorun sayısı değişmedi: bu aşamada yeni bir modele özgü sorun eklenmedi, çünkü yapılan aramalar (aşağıda) iki bağımsız site ve kilometre bilgisi eşiğini geçen yeni bir modele özgü sorun çıkarmadı. Artan şey kapsam: 156 modelin kaydı artık aynı motor ya da şanzımanı kullanan diğer modellerin kaynaklarıyla görünür. Faz 9 sonundaki 187 `–` satırının 22'si doğrudan ◐ oldu, 58'i bölündü ya da yeniden adlandırıldı (parçaları ◐ ya da `–` oldu), 107'si olduğu gibi kaldı.
 
 ### Aileler
 
@@ -1008,10 +1008,10 @@ Kayda özgü sorun sayısı değişmedi: bu aşamada yeni bir modele özgü soru
 | Aile | Tür | Ortak sorun | Bağlı kayıt | Yalnızca aileli (◐) |
 | --- | --- | ---: | ---: | ---: |
 | Audi Multitronic (0AW) sürekli değişken şanzıman | şanzıman | 1 | 3 | 1 |
-| BMW B38 1.5 üç silindir turbo benzin | motor | 1 | 4 | 3 |
+| BMW B38 1.5 üç silindir turbo benzin | motor | 1 | 7 | 6 |
 | BMW N13 1.6 turbo benzin (116i / 118i / 316i) | motor | 7 | 2 | 1 |
-| BMW N20 2.0 turbo benzin | motor | 3 | 4 | 3 |
-| BMW N47 2.0 dizel | motor | 2 | 5 | 2 |
+| BMW N20 2.0 turbo benzin | motor | 3 | 5 | 4 |
+| BMW N47 2.0 dizel | motor | 2 | 6 | 3 |
 | BMW xDrive transfer kutusu (ATC) | sistem | 1 | 8 | 8 |
 | Fiat / Jeep / Alfa 1.6 Multijet II - JTDm (common rail dizel) | motor | 2 | 5 | 4 |
 | Fiat / Opel 1.3 Multijet - CDTI (common rail dizel, zincirli) | motor | 5 | 11 | 3 |
@@ -1056,14 +1056,14 @@ Kayda özgü sorun sayısı değişmedi: bu aşamada yeni bir modele özgü soru
 | VAG EA211 1.4 TSI-TFSI (125 / 150 PS, ACT) | motor | 1 | 10 | 7 |
 | VAG EA888 (Gen1 / Gen2) 1.8 / 2.0 TFSI-TSI | motor | 3 | 6 | 4 |
 
-### Eklenen kardeş model kayıtları (◐, 151)
+### Eklenen kardeş model kayıtları (◐, 156)
 
 Bu kayıtlar yalnızca ailelerden beslenir: modele özgü bildirim aranmadı ya da bulunamadı, plan notunda yazılı. Listeler marka bazında:
 
 - **Skoda (15):** Fabia 5J ×2 ve NJ, Octavia A5 FL ×2 ve A7 (1.2 TSI), Superb II ×3 ve III ×3, Kodiaq ×2, Kamiq / Scala 1.5 TSI.
 - **Volkswagen (14):** Golf 6 (1.2 TSI), Golf 7.5 (1.5 TSI), Passat B7 / B8 (1.4 TSI) ve B9 (1.5 eTSI), Tiguan AD1 (1.4 TSI), Touran 1T3 ×2 ve 5T ×2, Caddy SA, Arteon, T-Cross / Taigo ve T-Roc (1.0 TSI DSG).
 - **Opel (13):** Mokka 1.4 Turbo / 1.6 CDTI / 1.6 benzinli, Insignia A 1.4 Turbo / 1.6 benzinli, Insignia B 1.6 CDTI, Meriva B 1.3 CDTI / 1.4 Turbo, Zafira Tourer 1.4 Turbo / 1.6 CDTI, Combo D, Crossland ve Mokka B 1.5 BlueHDi.
-- **BMW (12):** X1 E84 ×2 ve F48, X3 F25 ×4 (N47, B47, N20, N57), X5 E70 ve F15, 5 Serisi F10 520i / 528i, 3 Serisi F30 316i ve 318i.
+- **BMW (17):** X1 E84 ×2 ve F48, X2 F39 sDrive18i, X3 F25 ×4 (N47, B47, N20, N57), X5 E70 ve F15, 5 Serisi F10 520i / 528i, 3 Serisi F30 316i ve 318i, 4 Serisi F32 / F36 ×3 (420i N20, 420d N47, 418i B38), 2 Serisi F22 / F45 218i (B38).
 - **Mercedes-Benz (12):** A Serisi W176 (A200 / A220 CDI) ve W177 (A180 d), B Serisi ×2, GLA ×2, GLC, GLK, C Serisi W205 (C220d), Citan, Vito / V-Class, Sprinter.
 - **Audi (11):** Q2 ×3, Q3 8U ×2 ve F3, A1 ×2, A3 8V 1.2 TFSI, A5 8T, A6 C7 2.0 TDI.
 - **Ford (11):** C-Max ×3, B-Max ×2, Transit Connect, Courier, EcoSport 1.5 Powershift, Focus 3 ve 4 (1.5 EcoBoost), Puma.
@@ -1073,7 +1073,7 @@ Bu kayıtlar yalnızca ailelerden beslenir: modele özgü bildirim aranmadı ya 
 - **Peugeot (5), Citroën (5):** 207, 308 T7, 508 1.6 THP, Partner, Rifter / Partner; C3, C4, C4 (2020-), Berlingo ×2.
 - **Toyota (5), Honda (3), Fiat (4), Jeep (2), Subaru (2), Alfa Romeo (1), Mini (1), Volvo (1):** Yaris XP130 ×2 ve XP210, Corolla E170, Auris E180; Civic FB7, HR-V, CR-V RW; Panda, 500 Dualogic, 500L, 500X; Renegade, Compass; Forester, Impreza; Giulietta; Cooper F56; V60 D2.
 
-Sizin sorduğunuz modeller: **Q3** (8U 2.0 TFSI ve 1.4 TFSI, F3 35 TFSI), **X1 / X3 / X5** (X1 E84 ×2 ve F48, X3 F25 ×4, X5 E70 ve F15) ve **Q2 / A1 / A5 / A6 / Touran / Superb II-III / Kodiaq** artık kayıtlı. **Q5** için yalnızca 8R 2.0 TFSI (yağ tüketimi) kayıtlı; Q5 2.0 TDI (8R) ve Q5 FY araştırıldı, `–` kaldı. BMW **G20 / G30 / X3 G01 / X5 G05** (2017 sonrası nesiller) için G20, G30 ve X3 G01 araştırıldı ve `–`, X5 G05 sırada.
+Sizin sorduğunuz modeller: **Q3** (8U 2.0 TFSI ve 1.4 TFSI, F3 35 TFSI), **X1 / X3 / X5** (X1 E84 ×2 ve F48, X3 F25 ×4, X5 E70 ve F15) ve **Q2 / A1 / A5 / A6 / Touran / Superb II-III / Kodiaq** artık kayıtlı. **Q5** için yalnızca 8R 2.0 TFSI (yağ tüketimi) kayıtlı; Q5 2.0 TDI (8R) ve Q5 FY araştırıldı, `–` kaldı. BMW **G20 / G30 / X3 G01 / X5 G05** (2017 sonrası nesiller) için dördü de araştırıldı ve `–`; BMW **4 Serisi** ve **2 Serisi (F22 / F45)** ile **X2** benzinli sürümleriyle (420i, 420d, 418i, 218i, sDrive18i) ◐ olarak kayıtlı.
 
 ### Araştırılıp eklenmeyen gruplar (bu aşamadaki aramalar)
 
@@ -1083,6 +1083,8 @@ Bu aşamada Şikâyetvar, DonanımHaber, Otopark ve Ekşi Sözlük'te şu grupla
 - **BMW 3 Serisi G20, 5 Serisi G30, X3 G01:** Şikâyetvar'da tekil kayıtlar (G20'de 45.000 km'de su pompası uyarısı, 60 bin km'de park freni, 74.000 km'de diferansiyel uğultusu; G30'da ambiyans aydınlatma, kapı kolu içi erimesi, sunroof perdesi; G01'de acil çağrı pili ve geri görüş kamerası). DonanımHaber ve Ekşi Sözlük'te B48 / B47'nin daha az sorunlu sayıldığı yorumlar var.
 - **Audi Q5 (8R) 2.0 TDI, Q5 FY 2.0 TDI, A3 8V 2.0 TDI / 1.8 TFSI:** kronik iddialar kaynaksız ve aynı başlıklardaki kullanıcılarca reddediliyor ya da S tronic şanzımana ve eski modellere ait.
 - **Volvo XC60 (2008-2017 ve 2017-), S60 II / V60 (D3 / D4 / D5, T4 / T5):** tekil vakalar (2011 XC60 D5'te şanzıman sektirmesi, 2016 D4'te 300.000 km'de blok çatlağı, 2020 XC60'ta 70.000 km'de turbo); 1.6 T4 EcoBoost için hararet ve su eksilmesi iddiaları Şikâyetvar ve DonanımHaber'de geçiyor ama kilometre bilgisi yok.
+- **BMW X5 G05, 5 Serisi F10 520d (B47), 4 Serisi 420d / 420i (B47 / B48), 2 Serisi 216d / 218d:** G05'e özgü kayıt çıkmadı (SOS sistemi, motor kodu belirtilmemiş bir 2018 model X5'te yaklaşık 141.000 km'de motor değişimi anlatısı); B47 için N47 zincir tartışmaları, ZF 8 ileri şanzımanı sorunsuz bulan yorumlar ve B47'yi düzeltilmiş N47 olarak anan tekil bir görüş çıktı; 4 Serisi için ön cam contası, iç kapı kolu ve soğutma sıvısı gibi tekil konular, 216d (B37) için çoğunlukla olumlu yorumlar çıktı.
+- **Volvo XC90 (2002-2014 ve 2015-), V40, S90 / V90, XC40:** XC90 2.4 D5 için DonanımHaber'de bir inceleme başlığı var ama kilometre bilgili, ikinci siteyle doğrulanmış enjektör ya da şanzıman sorunu çıkmadı; V40'ta T3 Geartronic için olumlu yorumlar ve tekil turbo / hararet vakaları; S90'da 2017 model D5'te piston deformasyonu nedeniyle motor değişimi (tüketici hakem heyeti ve Yargıtay'ın Mart 2025'te araç değişimi kararını onaması; konuda bir yorumcu sorunu kronik bulmuyor) ve 2021 model B5'te termostat arızasından motor indirmeye varan tekil vaka; XC40'ta 2020 model T3'te 5 yılda 6 aks değişimi, tekrarlayan SRS arızası ve T3 yağ eksilmesi tartışması (tek site ya da tartışmalı).
 - **Hafif ticari:** Ford Transit (enjektör, turbo, volan, 2017 model 2.2'de 150 bin km'de piston delinmesi), Peugeot Boxer / Citroën Jumper (enjektör şakırtısı, debriyaj hidroliği), Peugeot Expert / Citroën Jumpy, VW Crafter, Fiat Ducato (AdBlue / NOx, enjektör, debriyaj hidrolik hortumu; debriyaj iki sitede geçiyor ama kilometre bilgisi yok), Opel Vivaro.
 - **Diğer:** Toyota Verso (1.6 D-4D krank kasnağı kırılması iki kullanıcıda, kilometre yok), Suzuki Swift, VW Sharan 7N, Ford S-Max / Galaxy, Opel Insignia B 1.5 Turbo.
 
@@ -1104,19 +1106,19 @@ Bu aşamada Şikâyetvar, DonanımHaber, Otopark ve Ekşi Sözlük'te şu grupla
 ### Dikkat edilecek sınırlar
 
 - Doğrulama yine arama özetleriyle yapıldı; `WebFetch` kapalıydı. Özetler, sayfaları yorumlayan bir araçtan geliyor; rakam ve alıntılar için asıl sayfaya bakmak gerekir.
-- **2017 sonrası araçlar için Türkçe kaynak büyük ölçüde Şikâyetvar'dan ibaret;** ikinci bağımsız site çıkmadığı için G20 / G30 / X3 G01 / XC60 II / Q5 FY gibi yeni nesiller `–` kalıyor. Bu "sorun yok" demek değildir.
+- **2017 sonrası araçlar için Türkçe kaynak büyük ölçüde Şikâyetvar'dan ibaret;** ikinci bağımsız site çıkmadığı için G20 / G30 / X3 G01 / X5 G05 / XC60 II / S90 / V90 / XC40 / Q5 FY gibi yeni nesiller `–` kalıyor. Bu "sorun yok" demek değildir.
 - **Kapsam soruları açık:** (1) 2011 öncesi model yılı penceresi hâlâ dışarıda (Tofaş Şahin / Doğan / Kartal, Renault R12-Toros, R9-Broadway). (2) Motor ve şanzıman dışı modele özgü kronikler (iç mekân, elektronik, gövde; ör. BMW kapı kolu erimesi, G30 ambiyans aydınlatma, Jetta'nın tahrik dışı sorunları) hâlâ toplanmıyor. (3) Hibrit ve plug-in hibritler kapsam dışı.
-- **96 satır "sırada":** BMW 4 / 2 Serisi, X2, X4, X5 G05, X6, 7 Serisi; Mercedes GLE, CLA C118, CLS, S Serisi, Viano; Volvo XC90, V40, S90, XC40; Land Rover, Jeep, Alfa Romeo, Porsche modelleri; Audi A3 8Y, A5 F5, A6 C8, A7, Q7, A1 GB, TT; VW Touareg, Scirocco, Beetle, up!; Seat Altea, Alhambra, Mii; Opel Zafira B, Astra L, Adam / Karl, Antara; Peugeot 5008 I, 107 / 108; Citroën C5, Nemo, DS3 / DS4; Fiat Bravo, Scudo, Fullback; Renault Twingo, Espace, Austral; Nissan Pulsar, X-Trail T31, Murano; Mitsubishi, Suzuki, Subaru, Hyundai, Kia, MG, Ssangyong, Smart modellerinin bir kısmı. Hepsi görüntüleyicinin "Kayıt açılmayan gruplar" bölümünde "Sırada" etiketiyle görünür.
+- **88 satır "sırada":** BMW 2 Serisi F44, X2 (dizel), X4, X6, 7 Serisi; Mercedes GLE, CLA C118, CLS, S Serisi, Viano; Volvo S80 / V70 / XC70; Land Rover, Jeep, Alfa Romeo, Porsche modelleri; Audi A3 8Y, A5 F5, A6 C8, A7, Q7, A1 GB, TT; VW Touareg, Scirocco, Beetle, up!; Seat Altea, Alhambra, Mii; Opel Zafira B, Astra L, Adam / Karl, Antara; Peugeot 5008 I, 107 / 108; Citroën C5, Nemo, DS3 / DS4; Fiat Bravo, Scudo, Fullback; Renault Twingo, Espace, Austral; Nissan Pulsar, X-Trail T31, Murano; Mitsubishi, Suzuki, Subaru, Hyundai, Kia, MG, Ssangyong, Smart modellerinin bir kısmı. Hepsi görüntüleyicinin "Kayıt açılmayan gruplar" bölümünde "Sırada" etiketiyle görünür.
 
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
 2. Yalnızca iki siteyle desteklenen 57 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı; 7. aşamada Astra 1.3 CDTI Easytronic eklendi; 8. aşamada Leon KL 48V, Superb IV 48V, Karoq titreşimi ve Audi A3 8Y 48V eklendi; 9. aşamada Jetta DSG mekatroniği, Ceed 7DCT ve Qashqai 1.3 DIG-T'nin iki sorunu eklendi) üçüncü bir kaynak eklenebilir.
-3. Kanıtı yetersiz bulunan 168 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
+3. Kanıtı yetersiz bulunan 177 grup için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
 4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 104 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
 5. Elektrikli araçlarda geri çağırma kaydı bulunan ama Türkiye kapsamı doğrulanamayan aileler (Volvo EX30, VW ID. serisi, Mini Cooper SE, BMW iX / i4, Audi e-tron GT) için Türkiye distribütörlerinin duyuruları ya da Ticaret Bakanlığı geri çağırma kayıtları bulunursa kayıt açılabilir.
 6. Hibrit ve plug-in hibrit araçlar (Toyota hibritleri, BYD Seal U DM-i gibi) bu aşamada kapsam dışı bırakıldı; istenirse aynı kurallarla eklenebilir.
 7. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.
-8. **Aile bağlarının doğrulanması:** 280 kaydın hangi motor ve şanzımanla satıldığı üretici ya da distribütör kataloglarından tek tek kontrol edilebilir; özellikle Türkiye'de satılıp satılmadığı belirsiz kombinasyonlar (ör. Stonic 1.6 CRDi, Rio YB 1.0 T-GDI 7DCT, Yaris XP210 benzinli 1.5) için.
+8. **Aile bağlarının doğrulanması:** 285 kaydın hangi motor ve şanzımanla satıldığı üretici ya da distribütör kataloglarından tek tek kontrol edilebilir; özellikle Türkiye'de satılıp satılmadığı belirsiz kombinasyonlar (ör. Stonic 1.6 CRDi, Rio YB 1.0 T-GDI 7DCT, Yaris XP210 benzinli 1.5) için.
 9. **Aile sorunlarının güçlendirilmesi:** tek modelin kaynağına dayanan aile sorunları (ör. 7G-Tronic iletken plaka, Multitronic, Subaru FB20, A16XER) başka bir modelin kaynağıyla desteklenebilir; 2.0 TDI (EA189 / EA288), 1.0 TSI (EA211 üç silindir) ve R9M 1.6 dCi gibi büyük ailelerin henüz sorunu yok.
-10. **96 "sırada" satırı** aynı döngüyle (önce aile, sonra Türkçe arama) işlenebilir; öncelik BMW 4 / 2 Serisi ve X5 G05, Volvo XC90 / V40 / S90 / XC40, Land Rover Evoque ve Discovery Sport, Audi A3 8Y / A6 C8, Fiat Bravo ve Panda 1.3, Renault Kangoo 3.
+10. **88 "sırada" satırı** aynı döngüyle (önce aile, sonra Türkçe arama) işlenebilir; öncelik BMW 2 Serisi F44 ve X2 dizel, Land Rover Evoque ve Discovery Sport, Audi A3 8Y / A6 C8, Fiat Bravo ve Panda 1.3, Renault Kangoo 3.
