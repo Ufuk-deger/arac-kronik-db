@@ -210,7 +210,9 @@
           "1.2 16V",
           "D4F"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da tek tek soğukta marş uzaması ve klima şikâyetleri var; D4F motoruna özgü tekrar eden bir sorun için iki bağımsız site bulunamadı."
     },
     {
       "marka": "Renault",
@@ -270,7 +272,9 @@
         "motor": [
           "1.6 SCe"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Aramalarda H4M motoruna özgü arıza çıkmadı; şikâyetler motor tipi belirtmeyen genel Megane 4 konularına (yağ sızıntısı, soğutma, enjeksiyon uyarısı) ve LPG'li araçlara ait."
     },
     {
       "marka": "Renault",
@@ -334,7 +338,9 @@
           "1.2 16V",
           "D4F"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Aramalarda D4F motoruna özgü tekrar eden sorun çıkmadı; şikâyetler soğukta marş ve klima gibi tekil konularda."
     },
     {
       "marka": "Renault",
@@ -873,7 +879,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetler iç trim, 4x4 şanzıman dişlisi ve LPG'li soğuk çalıştırma gibi tekil konularda; 1.7 CRDi Türkiye'de neredeyse hiç satılmamış."
     },
     {
       "marka": "Hyundai",
@@ -989,14 +997,14 @@
       "marka": "Peugeot",
       "model": "508",
       "yillar": "2011-2018",
-      "motor": "1.6 THP / 1.6 e-HDi / 2.0 HDi",
+      "motor": "1.6 e-HDi 115 (MCP / Auto6R robotize)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "508"
         ],
         "motor": [
-          ""
+          "e-HDi"
         ]
       }
     },
@@ -1123,7 +1131,9 @@
         "motor": [
           "CDTI"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Zincir sesi ve otomatik şanzıman şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız site bulunamadı."
     },
     {
       "marka": "Opel",
@@ -1229,7 +1239,9 @@
         "motor": [
           "HDi"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Enjektör ve turbo anıları tekil ve eski forum yazıları; uzun dönem bir kullanıcı turbo arızasını 230.000 km'de, enjektör revizyonunu 310.000 km'de bildiriyor; kronik sorun için yeterli kanıt yok."
     },
     {
       "marka": "Citroen",
@@ -1239,6 +1251,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
+          "C4 Cactus",
           "C4 (2011"
         ],
         "motor": [
@@ -1351,7 +1364,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Fabia için motor bazında tekrar eden sorun çıkmadı (1.4 TDI kavrama/volan, 1.2 krank keçesi ve 1.0 direksiyon uyarısı gibi tekil iddialar)."
     },
     {
       "marka": "Skoda",
@@ -1366,7 +1381,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "1.4 TSI, 1.6 TDI ve 2.0 TDI için tekil şikâyetler çıktı (arıza lambası, start-stop); 1.6 TDI DSG kavrama sorunu Octavia ve Rapid kayıtlarında."
     },
     {
       "marka": "Skoda",
@@ -1411,7 +1428,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "1.2 TSI zincir iddiaları eski ve tekil (ayrıntısı Octavia A5 1.2 TSI kaydında); DSG görüşleri çelişkili."
     },
     {
       "marka": "Volkswagen",
@@ -1547,7 +1566,9 @@
           "2.0 TDI",
           "1.4 TSI"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Aramalarda 2.0 TDI'ya özgü tekrar eden sorun çıkmadı; forum yorumlarının çoğu eski PD motorlara (B6) ve DSG'ye ait, enjektör iddiaları tekil."
     },
     {
       "marka": "Volkswagen",
@@ -1579,7 +1600,9 @@
           "1.5 TSI",
           "1.4 TSI"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Aramalarda B8 2.0 TDI için EGR, DPF ya da AdBlue kaynaklı tekrar eden Türkçe kaynak çıkmadı; en çok DSG şikâyeti var (B8 1.6 TDI kaydında)."
     },
     {
       "marka": "Volkswagen",
@@ -1609,7 +1632,9 @@
         "motor": [
           "2.0 TDI"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "5N 2.0 TDI'ya özgü turbo, EGR, DPF ya da zincir sorunu için kaynak çıkmadı; sonuçlar 1.4 TSI ve genel Passat 2.0 TDI yorumlarına ait."
     },
     {
       "marka": "Volkswagen",
@@ -1746,7 +1771,9 @@
         "motor": [
           "D-4D"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Aramalar E150 ve E170 ayrımı yapmıyor; turbo ve DPF anıları dağınık; enjektör ve yağ tüketimi E150 1.4 D-4D kaydında."
     },
     {
       "marka": "Toyota",
@@ -1761,7 +1788,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı."
     },
     {
       "marka": "Toyota",
@@ -1810,7 +1839,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "1.33'te yağ tüketimi ve oksijen sensörü tekil şikâyetler (yağ tüketimi Corolla 1.33 kaydında); 1.4 D-4D için güvenilir kaynak yok."
     },
     {
       "marka": "Toyota",
@@ -2367,7 +2398,9 @@
         "motor": [
           "MPI"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "1.4 ve 1.6 MPI benzinlilerde motora özgü kronik sorun çıkmadı; torpido ve konsol kabarması motor tipinden bağımsız."
     },
     {
       "marka": "Kia",
@@ -2387,7 +2420,7 @@
     {
       "marka": "Kia",
       "model": "Picanto",
-      "yillar": "2011-2023",
+      "yillar": "2017-",
       "motor": "1.0 / 1.2 MPI",
       "kademe": 2,
       "eslesme": {
@@ -2403,14 +2436,14 @@
       "marka": "Kia",
       "model": "Stonic",
       "yillar": "2017-",
-      "motor": "1.0 T-GDI / 1.4 MPI / 1.6 CRDi",
+      "motor": "1.4 MPI 100 (6 ileri otomatik)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Stonic"
         ],
         "motor": [
-          ""
+          "1.4 MPI"
         ]
       }
     },
@@ -2427,7 +2460,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Cerato ve Niro için sonuç çıkmadı; Sorento 2.2 CRDi için yalnızca tekil şikâyetler var."
     },
     {
       "marka": "Honda",
@@ -2776,7 +2811,9 @@
           "1.6 Turbo",
           "1.4 Turbo"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı."
     },
     {
       "marka": "Opel",
@@ -2792,7 +2829,9 @@
           "1.7 CDTI",
           "2.0 CDTI"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "1.7 ve 2.0 CDTI'ya özgü tekrar eden sorun çıkmadı; sonuçlar 1.6 ve 1.3 CDTI'ya ait."
     },
     {
       "marka": "Kia",
@@ -2903,6 +2942,42 @@
           ""
         ]
       }
+    },
+    {
+      "marka": "Peugeot",
+      "model": "508",
+      "yillar": "2011-2018",
+      "motor": "1.6 THP / 2.0 HDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "508 (2011"
+        ],
+        "motor": [
+          "THP",
+          "2.0 HDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "1.6 THP için tek bir kullanıcı 2011-2012 yüksek basınç pompası sorununu anıyor (308/3008 1.6 THP kaydına bakın); 2.0 HDi için kaynak bulunamadı."
+    },
+    {
+      "marka": "Kia",
+      "model": "Stonic",
+      "yillar": "2017-",
+      "motor": "1.0 T-GDI / 1.6 CRDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Stonic"
+        ],
+        "motor": [
+          "1.0 T-GDI",
+          "1.6 CRDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "1.0 T-GDI için tekil titreme ve arıza lambası şikâyetleri; 1.6 CRDi için sonuç çıkmadı."
     }
   ]
 }

@@ -849,6 +849,35 @@
       ]
     },
     {
+      "marka": "Citroen",
+      "model": "C4 Cactus (2014-2020)",
+      "motor": "1.2 PureTech 82/110 (EB2)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağ banyolu triger kayışının çatlaması ve dağılması",
+          "etkilenen_parca": "Yağ banyosunda çalışan triger kayışı, yağ pompası emiş süzgeci",
+          "belirtiler": "Triger kayışında çatlama ve ufalanma, parçaların yağ pompasına kaçması, yağ basıncı sorunu ve yağ tüketimi; kayış kopması halinde ağır motor hasarı",
+          "tahmini_km_araligi": "40.000 - 100.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar'da bir C4 Cactus sahibi triger kayışının yağın içinde çalışmasından dolayı ufalanıp parçalandığını, kopan parçaların yağ pompasına kaçıp motorun yağ yakmasına yol açtığını yazıyor ve üreticinin geri çağırma talebine yanıt vermediğinden yakınıyor. Aynı motor ailesi Peugeot, Citroen ve Opel PureTech kayıtlarında da ayrıntılı anlatılıyor (kaynaklar aynı motor ailesine ait).",
+            "teshis": "Başka bir Şikâyetvar kaydında 45.000 km'de triger kayışında çatlama görüldüğü ve ücretsiz değişim talep edildiği yazılıyor. Silkeleme ve titreme (örneğin 1.500-1.900 devir aralığında) ile motor beyni arızaları da aynı model için bildiriliyor.",
+            "cozum": "Bir kullanıcı geri çağırma talebine yanıt alamadığını, başka bir kullanıcı 45.000 km'de çatlayan kayış için ücretsiz değişim talep ettiğini yazıyor; resmî bir Citroen Türkiye geri çağırması bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/citroen/citroen-c4-cactus-triger-kayisi-arizasi-ve-geri-cagirma-talebine-yanit-almiyor",
+            "https://www.sikayetvar.com/citroen/c4/puretech",
+            "https://forum.donanimhaber.com/1-2-puretech-motor-sorunlari--130023944",
+            "https://eksisozluk.com/peugeot-puretech-1-2-rezaleti--5458201?p=4"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Dacia",
       "model": "Duster (2010-2017)",
       "motor": "1.5 dCi (K9K)",
@@ -1110,6 +1139,34 @@
     },
     {
       "marka": "Fiat",
+      "model": "500 (2008-)",
+      "motor": "1.2 Fire 69 / 0.9 TwinAir (airbag kapağı sorunu tüm motorlarda ortak)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolcu airbag kapağı (torpido göğüs kısmı) şişmesi ve çatlaması",
+          "etkilenen_parca": "Yolcu hava yastığı kapağı (torpido göğüs kısmı)",
+          "belirtiler": "Kaza olmadan yolcu airbag konsolunun şişmesi ve çatlaması",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da birden fazla kullanıcı, 1.2 motorlu 2011 model 149.000 km'deki aracında kaza olmadan yolcu airbag konsolunda şişme ve çatlak oluştuğunu bildiriyor. Aynı sorun DonanımHaber'deki bir başlıkta Fiat markasının genel sorunu olarak anlatılıyor (Punto Evo kaydına bakın).",
+            "cozum": "Bir kullanıcı Fiat'ın bunu üretim hatası olarak kabul etmediğini ve göğüs kısmının değişimi için yaklaşık 40-50 bin TL ödeme istendiğini yazıyor. Resmî bir geri çağırma ya da kampanya bulunamadı.",
+            "maliyet": "Şikâyetvar'daki bir kullanıcı göğüs kısmı değişimi için 40-50 bin TL civarı ödeme istendiğini yazıyor (tek şikâyet, tarihi sayfada; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/500-ailesi/problem",
+            "https://www.sikayetvar.com/fiat/500-ailesi/kronik",
+            "https://forum.donanimhaber.com/fiat-markasinin-torpido-airbag-sismesi--127413754"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
       "model": "Doblo (2010-2022)",
       "motor": "1.3 / 1.6 Multijet (90/105/120)",
       "uretim_yillari": {
@@ -1351,6 +1408,73 @@
     },
     {
       "marka": "Fiat",
+      "model": "Fiorino / Qubo (2008-2020)",
+      "motor": "1.3 Multijet 75/80/95",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Enjektör arızası ve enjektör pulu kaçağı",
+          "etkilenen_parca": "Common-rail enjektörleri ve enjektör pulları",
+          "belirtiler": "Güç kaybı, duman, yakıt tüketiminde artış, egzoz kokusu, soğuk havada rölanti dalgalanması ve tekleme, sıcak motorda marş sorunu",
+          "tahmini_km_araligi": "60.000 - 180.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı 158 bin km'de egzoz kokusu şikâyetinin enjektör pullarındaki kaçaktan kaynaklandığını, pullar değişince çekişin belirgin arttığını yazıyor; başka bir kaynak enjektör arızasının güç kaybı, duman ve yakıt tüketimi artışına yol açabildiğini belirtiyor. Yakıt tüketimi artışı her zaman enjektörden gelmeyebiliyor: bir kullanıcı sorunun MAP sensörü, gaz kelebeği ve EGR kurumlanmasından kaynaklandığını, temizlikle geçici düzeldiğini yazıyor.",
+            "teshis": "Şikâyetvar'da Fiorino 1.3 Multijet sahipleri soğuk havada rölanti dalgalanması ve tekleme, sıcak motorda marş sorunu ve enjektör arızası bildiriyor.",
+            "cozum": "Pulların değiştirilmesi bir kullanıcıda çekişi belirgin artırmış. Şikâyetvar'da yeni araçlarda enjektör arızalarının garanti dışı bırakıldığına dair şikâyetler var (garanti kapsamını yetkili servisten yazılı teyit edin).",
+            "maliyet": "Kaynaklarda bu araç için net bir enjektör ya da pul fiyatı verilmiyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiorino/kronik",
+            "https://www.sikayetvar.com/fiat/fiorino/13-multijet",
+            "https://www.sikayetvar.com/fiat/fiorino/multijet",
+            "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
+            "https://forum.donanimhaber.com/fiorino-alacagim-dikkat-etmem-gerekenler--104624344"
+          ]
+        },
+        {
+          "sorun_adi": "Euro 5 motorda aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları, karter havalandırma (PCV) ve egzoz karşı basıncı",
+          "belirtiler": "Yağ seviyesinin hızla düşmesi (bir kullanıcı 1.000 km'de 1 litre), erken yağ seviyesi uyarısı",
+          "tahmini_km_araligi": "20.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da bir kullanıcı 'Fiat 1.3 Multijet Euro 5 olarak ürettiğimiz tüm motorlarda yağ eksiltme sorunu ile karşı karşıyayız' diye yazıyor. Bir forum yorumu Euro 5 motorlarda DPF ve egzoz manifoldu ilerleyen kilometrelerde kurumlanıp tıkanırsa karşı basınç yüzünden yağ segmanlarının erken aşındığını ve motorun yağ yakmaya başladığını öne sürüyor (teşhis değil, forum görüşü). Havalandırma kapağında buhar ve yanık kokusu olan bir örnekte PCV valfinin değiştirilmesi önerilmiş.",
+            "teshis": "Şikâyetvar'da erken yağ uyarısı ve yağ değişimi taleplerinin garanti dışı tutulduğu şikâyetler var: bir kullanıcı bakımı 20.000 km'de olduğu halde yağ lambasının 15.500 km'de yandığını yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiorino/kronik",
+            "https://www.sikayetvar.com/fiat/fiat-fiorino-13-multijet",
+            "https://forum.donanimhaber.com/1-3-multijet-yag-yakma--161576146",
+            "https://otopark.com/forum/threads/1-3-multijet-doblo-yag-eksiltme.11857/"
+          ]
+        },
+        {
+          "sorun_adi": "Turbo arızası ve revizyon sonrası yağ kaçağı",
+          "etkilenen_parca": "Turboşarj, yağ besleme ve dönüş hatları",
+          "belirtiler": "Turbo ıslığı, güç kaybı, turbo değişimi ya da revizyonu sonrası yağ eksilmesi ve intercooler/manifold tarafında yağ",
+          "tahmini_km_araligi": "80.000 - 200.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı yeni takılan revizyonlu turboyla yaklaşık 300 km sonra 1 litre yağ eksildiğini bildiriyor; yanıtlarda turbonun yağı intercooler tarafına basıyor olabileceği yazılıyor. Başka bir forumda revizyonun tutmayabileceği, hortum ve contaların da kontrol edilmesi gerektiği, sorun yoksa sıfır turbo alınmasının en doğrusu olduğu belirtiliyor. Turbo ıslığının bazen sadece gevşek bir hortumdan geldiği de aktarılıyor.",
+            "teshis": "Şikâyetvar'da Fiorino sahipleri turbo arızası ve motor arıza ikazı bildiriyor; bir kullanıcı turbo montajından üç gün sonra turbonun yağ verdiğini, intercooler'den manifolda ve egzoza kadar yağ bulunduğunu yazıyor.",
+            "cozum": "Revizyon yerine sıfır turbo önerisi forumda geçiyor. Aynı Şikâyetvar kaydında yağ kaçağı nedeniyle dört pistonun eridiği ve toplam masrafın 117 bin TL'yi bulduğu anlatılıyor (tek ve uç bir vaka).",
+            "maliyet": "Şikâyetvar'daki tek vaka: turbo değişiminden sonra yağ kaçağı sonucu piston hasarıyla toplam 117 bin TL masraf (tarihi sayfada; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiorino/kronik",
+            "https://www.sikayetvar.com/fiat/fiorino/multijet",
+            "https://forum.donanimhaber.com/1-3-multijet-motor-sorunu--67331762",
+            "https://otopark.com/forum/threads/multijet-turbo-islik-sesi.6125/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
       "model": "Linea (2007-2015)",
       "motor": "1.3 Multijet (Dualogic)",
       "uretim_yillari": {
@@ -1442,6 +1566,55 @@
             "https://fiatforum.com/threads/what-goes-wrong-with-multijet-pandas.492092",
             "https://forum.donanimhaber.com/triger-zinciri-degisim-masrafi--83339532",
             "https://forum.donanimhaber.com/2015-linea-1-3-mjet-euro-5-motor-triger-zincir-degisim-maliyeti--139580456"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Punto Evo / Grande Punto (2009-2018)",
+      "motor": "1.3 Multijet 75/95 ve 1.4 Fire 77 (direksiyon ve airbag sorunları tüm motorlarda ortak)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli direksiyon (EPS) açı ve tork sensörü arızası",
+          "etkilenen_parca": "Elektrikli direksiyon (EPS) ünitesi, direksiyon açı ve tork sensörleri",
+          "belirtiler": "Direksiyonun aniden sertleşmesi ve bazen kilitlenmesi, 'direksiyonu kontrol ettirin' uyarısı, 'city' modu arızası; kontağı kapatıp açınca geçici düzelme",
+          "tahmini_km_araligi": "40.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar'da bir serviste arızanın açı sensörü ve tork sensörü kaynaklı olduğu ve bu modellerde kronik olduğu söylenmiş. DonanımHaber'de bir kullanıcı arızanın EPS içindeki tork sensöründen kaynaklandığını, sensörün değiştirilip kalibrasyon yapılması gerektiğini yazıyor (sensörün üreticisine dair iddia doğrulanmadı). Bir Punto kulübü başlığında nemli ve yağmurlu havalarda açı/tork sensörü arızalarının tetiklenebileceği, akü bağlantılarındaki oksidasyonun da etkili olabileceği yazılıyor (kullanıcı tecrübesi).",
+            "teshis": "Sürücüler direksiyonun aniden sertleştiğini, bazen 'direksiyonu kontrol ettirin' uyarısı çıktığını ve kontağı kapatıp açınca geçici olarak düzeldiğini bildiriyor; bazıları kilitlenmenin seyir halinde yaşandığını ve kaza riski oluşturduğunu, yaklaşık 20 gündür ciddi direksiyon arızası yaşayan bir kullanıcı da bir kazadan döndüğünü yazıyor. 'City' modu arızası da Punto Evo 1.3 ve 1.4 kullanıcılarında bildiriliyor.",
+            "cozum": "DonanımHaber'deki kullanıcı sensör değişimi ve kalibrasyon öneriyor. Birçok şikâyet sahibi sorunun kronik olduğunu ve servislerin ücretsiz değişim yapmadığını yazıyor; resmî bir Fiat servis bülteni ya da kalıcı çözüm bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/punto/multijet",
+            "https://www.sikayetvar.com/fiat/punto?k=eps",
+            "https://www.sikayetvar.com/direksiyon/punto-evo",
+            "https://www.sikayetvar.com/fiat/punto/kronik",
+            "https://forum.donanimhaber.com/grande-punto-city-direksiyon-arizasi--124192892-3"
+          ]
+        },
+        {
+          "sorun_adi": "Yolcu airbag kapağı (torpido göğüs kısmı) şişmesi ve çatlaması",
+          "etkilenen_parca": "Yolcu hava yastığı kapağı (torpido üst/göğüs kısmı)",
+          "belirtiler": "Kaza olmadan kapağın şişmesi, üzerinde çatlak oluşması ve çatlağın büyümesi",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklar nedeni açıklamıyor; sahipler kapağın darbe olmadan şiştiğini ve çatladığını anlatıyor. Bir Punto Evo sahibi bayinin bunun bu araçlarda kronik bir sorun olduğunu söylediğini yazıyor.",
+            "cozum": "Resmî bir geri çağırma ya da ücretsiz değişim kampanyası bulunamadı; sonuçlar karışık. Bazı sahipler kapağın (göğüs kısmı) tekrarlanan şikâyet sonrası ücretsiz değiştirildiğini, bir kullanıcı bayilerin yaklaşık 10 yaş altı araçlarda ücretsiz değişim yaptığını duyduğunu yazıyor (ikinci elden aktarım). Fiat müşteri hizmetinin araç 10 yıl ve 150.000 km'ye ulaştıysa iyi niyet kapsamına girmediğini söylediği, bir sahibe TOFAŞ'ın değişim ücretinin yüzde 25'ini karşılayıp kalanını sahibine bıraktığı, bazı sahiplere ise ücretsiz değişimin artık mümkün olmadığının söylendiği anlatılıyor.",
+            "maliyet": "Kullanıcı beyanları (çoğu 2017-2022 arası şikâyetler): garanti dışı bir Punto Evo için 15.000 TL; TOFAŞ'ın 6.000 TL'lik değişim ücretinde yüzde 25 katkı teklifi. Güncel fiyat olarak okumayın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiat-punto-evo-torpido-catlagi-8",
+            "https://www.sikayetvar.com/fiat/fiat-punto-airbag-catlagi-12",
+            "https://forum.donanimhaber.com/fiat-markasinin-torpido-airbag-sismesi--127413754",
+            "https://forum.donanimhaber.com/fiat-punto-evo-airbag-ustundeki-catlak--126461301",
+            "https://forum.donanimhaber.com/punto-airbag-catlagi-cozumu--117736274"
           ]
         }
       ]
@@ -2435,6 +2608,34 @@
     },
     {
       "marka": "Kia",
+      "model": "Picanto (JA, 2017-)",
+      "motor": "1.0 / 1.2 MPI (akü ve marş sorunu tüm motorlarda ortak)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Akü boşalması ve soğuk havada marş sorunu",
+          "etkilenen_parca": "12 V akü, akü sensörü ve şarj sistemi",
+          "belirtiler": "Soğukta marş almama, kısa sürede akünün boşalması, akünün birkaç kez değiştirilmesine rağmen sorunun tekrarlaması",
+          "tahmini_km_araligi": "10.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Bir kullanıcı fabrika çıkışı aküsünün bu araç için yetersiz kaldığını ve yetersizliğin özellikle soğuk havalarda ortaya çıktığını düşünüyor; forumlarda şarj dinamosu arızası ve elektrik kaçağı da akü boşalmasının olası nedenleri olarak sayılıyor, sonradan takılan alarm ya da cam modülü gibi donanımların da boşaltabileceği öneriliyor (genel forum tartışması, Picanto'ya özgü teşhis değil).",
+            "teshis": "Şikâyetvar'da bir sürücü dört yılda aküyü dört kez değiştirmek zorunda kaldığını yazıyor; bir kullanıcı hava sıcaklığı eksi on dereceyi görünce aracın çalışmadığını, 2024 model bir araç sahibi aküsünün her 2-3 günde bir tamamen boştuğunu ve takviye kablosuyla çalıştırdığını bildiriyor. Bazı yetkili servislerin ölçümde aküyü normal bulduğu, bazılarının akü sensörü arızası dediği ve sensörü değiştirdiği aktarılıyor; bazı servislerin sorunu soğuk havaya ya da farların açık bırakılmasına bağladığı yazılıyor.",
+            "cozum": "Garanti kapsamında olması gereken durumlarda bile akünün garantisinin dolduğu yanıtının alındığı şikâyetler var. Kullanıcılar Kia Türkiye'ye ve Tüketici Hakem Heyeti'ne başvuru seçeneğini gündeme getiriyor (hukuki tavsiye değil)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/kia/picanto/picanto-aku-sorunu",
+            "https://www.sikayetvar.com/kia/picanto",
+            "https://forum.donanimhaber.com/kia-ve-picanto-rezaleti--157915472"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Kia",
       "model": "Rio (UB, 2011-2017)",
       "motor": "1.4 CRDi 90",
       "uretim_yillari": {
@@ -2525,6 +2726,43 @@
             "https://www.sikayetvar.com/sportage/yag",
             "https://otopark.com/forum/threads/kia-sportage-1-6-gdi.15101/",
             "https://www.sikayetvar.com/kia/sportage-crossover"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Stonic (2017-)",
+      "motor": "1.4 MPI 100 (6 ileri otomatik)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Otomatik şanzımanda 5.-6. vitese geçememe ve uğultu",
+          "etkilenen_parca": "6 ileri otomatik şanzıman",
+          "belirtiler": "5. vitesten 6.'ya ve 4.'den 5.'ye geçişin olmaması, şanzımandan uğultu ya da vınlama, vites geçişlerinde sarsıntı",
+          "tahmini_km_araligi": "10.000 - 60.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklar nedeni açıklamıyor. Şikâyetvar'da 2022 ve 2023 model 1.4 otomatik Stonic sahipleri 5. vitesten 6.'ya ve 4. vitesten 5.'ye geçişin olmadığını, bu sırada şanzımandan uğultu ya da vınlama geldiğini bildiriyor; bir kullanıcı sorunun bayi tarafından kronik olarak kabul edildiğini, üreticiden yanıt beklendiğini yazıyor. Ekşi Sözlük'te bir kullanıcı uzun yolda vites geçişlerinde sorun yaşandığını ve şanzımanda üretim hatası olabileceğini öne sürüyor (doğrulanmadı).",
+            "teshis": "1.4 otomatik için en sık tekrarlanan şikâyet 5-6. vites geçişinde takılma ve şanzımandan gelen ses; bazı kullanıcılar 1.-2. viteslere geçişte sarsıntı da yazıyor. Sarsıntı ve vuruntu şikâyetleri daha çok 1.0 T-GDI Stonic ve Rio'da (farklı şanzıman) geçiyor. Aynı başlıkta 1.4 otomatik Stonic'inde kalkışın seri olduğunu ve sarsıntı yaşamadığını yazan bir kullanıcı da var.",
+            "cozum": "Bazı kullanıcılar yetkili servisin şanzıman değişimi yaptığını yazıyor. Resmî bir Kia servis kampanyası ya da bülteni bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/kia/stonic/sanziman",
+            "https://www.sikayetvar.com/kia/stonic/kronik",
+            "https://forum.donanimhaber.com/kia-stonic-sanziman-sorunu--154210525",
+            "https://eksisozluk.com/kia-stonic--5394901?p=5"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2022,
+              "bitis": 2023,
+              "durum": "Görülebilir",
+              "not": "Şikâyetler 2022 ve 2023 model 1.4 otomatik sahiplerinden geliyor; önceki ve sonraki model yılları için kaynakta ayrı bilgi yok."
+            }
           ]
         }
       ]
@@ -3110,6 +3348,37 @@
     },
     {
       "marka": "Opel",
+      "model": "Astra K (2015-2021)",
+      "motor": "1.6 CDTI 110/136",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Triger zinciri sesi ve zincir değişimi",
+          "etkilenen_parca": "Triger zinciri, gergi ve kızaklar",
+          "belirtiler": "Soğuk motorda ısınana kadar zincir sesi, belirli kilometreden sonra tekrar eden ses",
+          "tahmini_km_araligi": "60.000 - 110.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Ekşi Sözlük'te bir yorum 1.6 dizel modellerin belli bir kilometreden sonra ısınana kadar zincir sesi çıkardığını ve bu konuda çok sayıda şikâyet olduğunu yazıyor. DonanımHaber'de bir yorumcu sesin çoğu zaman yağa bağlı olduğunu ve kaliteli yağla azaldığını belirtiyor (kullanıcı görüşü). Bir 2016 yorumunda sesin Denso enjektörlerden geldiği iddia ediliyor; yorumcu kendi tespitinden emin değil (doğrulanmadı).",
+            "teshis": "Şikâyetvar'da bir kullanıcı 80 bin km'de zincir sesi nedeniyle aracı satmak zorunda kaldığını, bir başkası 70 bin km'de zincir setinin değişmesi gerektiğinin söylendiğini yazıyor. Ekşi Sözlük'te turbonun şehir içinde geç dolması ve kick-down gecikmesi gibi başka şikâyetler de geçiyor; DonanımHaber'deki 'kronik sorunlar' yazısı Astra J 1.6 CDTI'ya ait ve Astra K'ya doğrudan uygulanamaz.",
+            "cozum": "Bir yorumcu zincirin şanzıman tarafında olduğunu, bu yüzden değişiminin motorun indirilmesini gerektirdiğini yazıyor.",
+            "maliyet": "Kullanıcı beyanları: Şikâyetvar'da 70 bin km'de zincir seti için 10.500 TL (eski tarih); daha yeni bir forum başlığında bir Opel servisinin zincir değişimini işçilik dahil 55 bin TL'yi bulur dediği yazılıyor. Tarihleri farklı, güncel fiyat olarak okumayın.",
+            "onlem": "Kullanıcılar kaliteli ve doğru yağ kullanımının sesi azaltabildiğini yazıyor (kişisel gözlem)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/astra/astra-motor?page=5",
+            "https://www.sikayetvar.com/opel/dizel/ses",
+            "https://forum.donanimhaber.com/astra-k-1-6-ctdi-model-sorunlari--159820282",
+            "https://eksisozluk.com/opel-astra-k--4637326?p=14"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Corsa D / E (2006-2019)",
       "motor": "1.3 CDTI 75/95 (Multijet)",
       "uretim_yillari": {
@@ -3288,6 +3557,53 @@
               "durum": "Seyrek",
               "not": "Güçlendirilmiş 8 mm zincir kullanılıyor; yeni üretimde şikâyet az (veri sınırlı)."
             }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "301 (2012-)",
+      "motor": "1.2 VTi / PureTech 82 (EB2F)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları ve motor yağlama sistemi",
+          "belirtiler": "Yağ seviyesinin hızla düşmesi (bir kullanıcıda yeni yağ değişiminden yaklaşık 2.000 km sonra 3 litre eksilme), yağ basıncı uyarısı riski",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklar nedeni açıklamıyor. Şikâyetvar'da 2013 model 301 1.2 VTi sahibi aracının yaklaşık 100 bin km'de yağ yakmaya başladığını ve hangi ustaya gitse bunun bu araçta kronik bir sorun olduğu uyarısını aldığını yazıyor. Ekşi Sözlük'te bir yorum 1.2 motorlarda yağ eksiltme sorununun yaygın olduğunu, yağ eksiltmeyen motor olmadığını öne sürüyor (kişisel görüş).",
+            "teshis": "Bir kullanıcı yeni yağ değişiminden yaklaşık 2.000 km sonra 3 litre eksilttiğini bildiriyor. Aynı Ekşi yorumunda triger kayışının zamanında değiştirilmesi ve yağ basıncı arızası konusunda uyarı var; PureTech'in yağ banyolu kayış sorunu için Citroen ve Peugeot PureTech kayıtlarına bakın.",
+            "onlem": "Yağ seviyesini düzenli ölçmek ve tüketimi kayıt altına almak; satın almadan önce yağ tüketimini sorgulamak (kullanıcı tavsiyesi)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/301/motor",
+            "https://www.sikayetvar.com/motor/vti",
+            "https://www.sikayetvar.com/peugeot/peugeot-12-puretech-aracim-yag-sorunu",
+            "https://eksisozluk.com/peugeot-puretech-1-2-rezaleti--5458201?p=8"
+          ]
+        },
+        {
+          "sorun_adi": "Katalitik konvertör arızası ve motor arıza lambası",
+          "etkilenen_parca": "Katalitik konvertör (katalizör)",
+          "belirtiler": "Motor arıza lambası, katalitik konvertör arızası kodu, çekiş kaybı",
+          "tahmini_km_araligi": "40.000 - 90.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklar nedeni açıklamıyor. DonanımHaber'de arıza lambasının nedenleri arasında eksik motor yağı, oksijen sensörü ve katalitik konvertör arızası sayılıyor (genel liste); bir kullanıcı katalizörün temizlenmesiyle arızanın ortadan kalktığını, aynı konuda EGR, DPF, MAF ve MAP sensörlerinin de kontrol edilmesi gerektiğini yazıyor.",
+            "teshis": "Şikâyetvar'da 2019 model 301 1.2 PureTech'te 40 bin km'de motor arıza lambası yanıp katalitik konvertör arızası teşhisi konulmuş; 301 1.2 VTi'da 84 bin km'de katalizör hatası olan bir sahibe servisin 'bu 75-80.000'de bir oluyor' dediği, 2014 model 1.2 VTi'da 50 bin km'de arıza verip servis dışı değişimden sonra yaklaşık 90 bin km'de yeniden çıktığı yazılıyor. Forum yazarları sorunun bu araçlarda yaygın olduğunu belirtiyor (kullanıcı görüşü).",
+            "cozum": "Bir kullanıcı servis fiyatı çok yüksek olduğu için katalizörü servis dışında değiştirmiş; DonanımHaber'deki bir kullanıcıda temizlik arızayı gidermiş."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/301/motor",
+            "https://www.sikayetvar.com/peugeot/301/kronik",
+            "https://forum.donanimhaber.com/peugeot-301-motor-ariza-ikaz-lambasi--143488904",
+            "https://forum.donanimhaber.com/pejo-301-motor-ariza-lambasi--152637853"
           ]
         }
       ]
@@ -3503,6 +3819,34 @@
             "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
             "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
             "https://eksisozluk.com/1-2-puretech--6399271?p=4"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "508 (2011-2018)",
+      "motor": "1.6 e-HDi 115 (MCP / Auto6R robotize şanzıman)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Robotize (MCP / Auto6R) şanzıman sarsıntısı ve titremesi",
+          "etkilenen_parca": "Tek kavramalı robotize şanzıman: kavrama, vites konum sensörü",
+          "belirtiler": "Kalkışta ve 1.-2. viteslerde sarsıntı ve titreme, zaman zaman vites geçişinde vuruntu",
+          "tahmini_km_araligi": "50.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2012 model 508 1.6 e-HDi'deki MCP robotize şanzımanda görülen sarsıntı ve titremenin vites konum sensörünün sinyal göndermesindeki sorundan kaynaklandığı yazılıyor; aynı kayıtta sensörün çalıştığı boşlukta metal içerikli debriyaj tozu biriktiği belirtiliyor. DonanımHaber'de Auto6R/ETG/MCP şanzımanların çift değil tek kavramalı, klasik debriyaj balatalı robotize manuel yapıda olduğu, bu yüzden sarsıntının çift kavramalı DSG'lerden daha belirgin olabileceği yazılıyor.",
+            "teshis": "Bir kullanıcı sarsıntının 1. ve 2. viteste yoğunlaştığını, 3-6. viteslerde sorun olmadığını yazıyor; Ekşi Sözlük'te kalkışta gazı daha kontrollü vermenin yardımcı olduğu anlatılıyor (eski ve kişisel yorumlar). Tam otomatik EAT6 şanzımanın bu sorundan etkilenmediği belirtiliyor.",
+            "cozum": "Şikâyetvar kaydı sorunu vites konum sensörüne ve sensörün çalıştığı boşluktaki debriyaj tozuna bağlıyor; resmî bir servis kampanyası ya da bülten bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-508-mcp-robotize-sanziman-arizasi",
+            "https://forum.donanimhaber.com/508-1-6-e-hdi-ve-auto6r-hakkinda--128357643",
+            "https://eksisozluk.com/peugeot-508--2244708?p=7"
           ]
         }
       ]
