@@ -789,7 +789,8 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "i30"
+          "i30 (GD",
+          "i30 (PD"
         ],
         "motor": [
           "MPI",
@@ -2885,6 +2886,21 @@
         ],
         "motor": [
           "C220d"
+        ]
+      }
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i30 (FD)",
+      "yillar": "2008-2012",
+      "motor": "1.4 / 1.6 MPI, 1.6 GDI (EPS)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "i30 (FD"
+        ],
+        "motor": [
+          ""
         ]
       }
     }

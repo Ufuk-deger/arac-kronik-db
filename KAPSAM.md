@@ -20,24 +20,24 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **178** model/motor grubu
-- Tamamlanan (✓): **90**
+- Plan: **179** model/motor grubu
+- Tamamlanan (✓): **98**
 - Araştırılıp eklenmeyen (–): **22**
-- Sırada (○): **66**
+- Sırada (○): **59**
 - Kademe 1: **85/85** işlendi (✓ ya da –)
-- Veritabanı: **97** kayıt, **160** kronik sorun
+- Veritabanı: **105** kayıt, **170** kronik sorun
 
 | Marka | Plan | ✓ | – | ○ | Kademe 1 işlenen |
 | --- | ---: | ---: | ---: | ---: | ---: |
 | Renault | 14 | 10 | 1 | 3 | 7/7 |
-| Volkswagen | 18 | 10 | 0 | 8 | 9/9 |
+| Volkswagen | 18 | 14 | 0 | 4 | 9/9 |
 | Toyota | 11 | 3 | 4 | 4 | 5/5 |
 | Fiat | 11 | 5 | 2 | 4 | 5/5 |
-| Hyundai | 15 | 8 | 3 | 4 | 9/9 |
+| Hyundai | 16 | 10 | 3 | 3 | 9/9 |
 | Peugeot | 7 | 4 | 1 | 2 | 4/4 |
 | Opel | 13 | 6 | 2 | 5 | 4/4 |
 | Citroen | 6 | 4 | 0 | 2 | 3/3 |
-| Skoda | 11 | 5 | 0 | 6 | 5/5 |
+| Skoda | 11 | 7 | 0 | 4 | 5/5 |
 | Mercedes-Benz | 10 | 4 | 1 | 5 | 5/5 |
 | BMW | 7 | 3 | 1 | 3 | 4/4 |
 | Nissan | 8 | 4 | 0 | 4 | 4/4 |
@@ -124,14 +124,14 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Tiguan 5N | 2008-2016 | 1.4 TSI 122/150/160 (EA111) | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Tiguan AD1 | 2016- | 1.4 TSI / 1.5 TSI | ✓ 1 sorun |
 | 2 | Caddy | 2010-2020 | 1.6 TDI / 2.0 TDI | ○ sırada |
-| 2 | Golf 7 | 2012-2019 | 1.2 TSI 85/105 | ○ sırada |
-| 2 | Golf 8 | 2020- | 1.0 TSI / 1.5 TSI | ○ sırada |
+| 2 | Golf 7 | 2012-2019 | 1.2 TSI 85/105 | ✓ 1 sorun |
+| 2 | Golf 8 | 2020- | 1.0 TSI / 1.5 TSI | ✓ 2 sorun, 1 yıl kırılımı |
 | 2 | Jetta | 2011-2018 | 1.2 TSI / 1.4 TSI / 1.6 TDI | ✓ 2 sorun, 1 yıl kırılımı |
 | 2 | Passat B7 | 2010-2014 | 2.0 TDI / 1.4 TSI | ○ sırada |
 | 2 | Passat B8 | 2015-2023 | 2.0 TDI / 1.5 TSI / 1.4 TSI | ○ sırada |
-| 2 | Polo 6R / 6C | 2009-2017 | 1.4 TDI / 1.6 TDI | ○ sırada |
+| 2 | Polo 6R / 6C | 2009-2017 | 1.4 TDI / 1.6 TDI | ✓ 1 sorun |
 | 2 | Tiguan 5N | 2008-2016 | 2.0 TDI | ○ sırada |
-| 2 | Tiguan AD1 | 2016- | 2.0 TDI | ○ sırada |
+| 2 | Tiguan AD1 | 2016- | 2.0 TDI | ✓ 1 sorun |
 
 ### Toyota
 
@@ -180,8 +180,9 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | i30 | 2012-2020 | 1.6 CRDi | – eklenmedi: Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; model/motor bazında tekrar eden sorun için iki bağımsız site bulunamadı. |
 | 2 | Elantra | 2011-2020 | 1.6 MPI / 1.6 CRDi | – eklenmedi: Tek bir 7DCT kalkış titremesi şikâyeti dışında tekrar eden sorun bulunamadı. |
 | 2 | Tucson (NX4) | 2021- | 1.6 T-GDI / 1.6 CRDi | ✓ 2 sorun |
-| 2 | i20 (PB) | 2009-2014 | 1.4 MPI / 1.4 CRDi | ○ sırada |
+| 2 | i20 (PB) | 2009-2014 | 1.4 MPI / 1.4 CRDi | ✓ 1 sorun |
 | 2 | i30 | 2012-2020 | 1.4 / 1.6 MPI, 1.0 / 1.4 T-GDI | ○ sırada |
+| 2 | i30 (FD) | 2008-2012 | 1.4 / 1.6 MPI, 1.6 GDI (EPS) | ✓ 1 sorun |
 | 2 | ix35 | 2010-2015 | 1.6 GDI / 1.7 CRDi | ○ sırada |
 | 3 | Kona | 2018- | 1.0 T-GDI / 1.6 T-GDI / 1.6 CRDi | ○ sırada |
 
@@ -236,9 +237,9 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Rapid | 2012-2019 | 1.2 TSI 90/105 | ✓ 1 sorun |
 | 1 | Rapid | 2012-2019 | 1.6 TDI / 1.6 MPI | ✓ 1 sorun |
 | 2 | Fabia | 2014-2021 | 1.0 MPI / 1.2 TSI / 1.4 TDI | ○ sırada |
-| 2 | Kamiq / Scala | 2019- | 1.0 TSI 95/115 | ○ sırada |
+| 2 | Kamiq / Scala | 2019- | 1.0 TSI 95/115 | ✓ 1 sorun |
 | 2 | Karoq / Kodiaq | 2017- | 1.5 TSI / 2.0 TDI | ○ sırada |
-| 2 | Octavia A7 / A8 | 2018- | 1.0 TSI / 1.5 TSI | ○ sırada |
+| 2 | Octavia A7 / A8 | 2018- | 1.0 TSI / 1.5 TSI | ✓ 2 sorun |
 | 2 | Superb | 2015-2023 | 1.4 TSI / 1.6 TDI / 2.0 TDI | ○ sırada |
 | 3 | Yeti | 2009-2017 | 1.2 TSI / 1.4 TSI / 1.6 TDI | ○ sırada |
 

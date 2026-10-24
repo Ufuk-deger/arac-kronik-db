@@ -2342,6 +2342,69 @@
       ]
     },
     {
+      "marka": "Hyundai",
+      "model": "i20 (PB, 2009-2014)",
+      "motor": "1.4 MPI / 1.4 CRDi (EPS tüm motorlarda ortak)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli direksiyon (EPS) sertleşmesi ve arızası",
+          "etkilenen_parca": "Elektrikli direksiyon (EPS) kontrol ünitesi, motoru ve sensörleri",
+          "belirtiler": "Direksiyonun aniden ağırlaşması, bazı durumlarda kilitlenmiş gibi hissedilmesi, EPS ve ESP uyarı lambaları",
+          "tahmini_km_araligi": "40.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'deki bir yazı EPS arızası nedenleri olarak arızalı EPS kontrol ünitesini, hasarlı kablolamayı, direksiyon sensörü arızasını ve düşük akü voltajını sayıyor (genel liste, i20'ye özgü teknik doğrulama değil). Şikâyetvar'da 2010 ve 2014 model i20 sahipleri direksiyonun hiçbir belirti olmadan aniden sertleştiğini ve bunun kronik bir sorun olduğunu öğrendiklerini yazıyor.",
+            "teshis": "Direksiyonun aniden ağırlaşması ve bazen tamamen kilitlenmesi tekrar tekrar anlatılıyor. Bir kullanıcı 2017 model i20'sinde (farklı nesil) 100 km/sa hızla giderken direksiyonun birden sertleşip kilitlendiğini ve aynı anda ESP arızası verdiğini bildiriyor; bu sürüş güvenliği açısından risk. Direksiyon sertleşirse aracı kullanmaya devam etmeden servise başvurulması kullanıcı tavsiyesi olarak geçiyor.",
+            "cozum": "Bir kullanıcı sorunun EPS kaynaklı kronik olduğu ve ücretsiz değişim yapılacağı bilgisini aldığını, ancak servislerin önce kontrol yapıp ücret talep ettiğini yazıyor. Bir başka kullanıcı elektrikli direksiyonun ömürlük garanti kapsamında olduğunu iddia ediyor (resmî kaynakla doğrulanmadı); başka yorumlarda kronik sayılmadığı sürece servislerin ücretsiz onarım yapmadığı yazılıyor. Garanti durumu yetkili servisten teyit edilmeli.",
+            "maliyet": "DonanımHaber'de onarım ücretinin ortalama 1.000-3.000 TL olabileceği (genel tahmin), Şikâyetvar'da bir kullanıcıya servisin 12.000 TL'ye kadar ücret söylediği yazılıyor. Tarihsiz kullanıcı beyanları; güncel fiyat değil."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/i20/kronik",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-assan-i20-aracin-elektrikli-direksiyon-sertlesmesi",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-i20-kronik-direksiyon-agirlasmasi",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-motor-seyir-halindeyken-direksiyonun-kilitlenmesi-nedeniyle-magduriyet",
+            "https://forum.donanimhaber.com/hyundai-i20-eps-direksiyon-arizasi-hakkinda--137038114"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i30 (FD, 2008-2012)",
+      "motor": "1.4 / 1.6 MPI ve 1.6 GDI (EPS tüm motorlarda ortak)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli direksiyon (EPS) sertleşmesi ve arızası",
+          "etkilenen_parca": "Elektrikli direksiyon (EPS) kontrol ünitesi, motoru ve sensörleri",
+          "belirtiler": "EPS lambasının yanması, direksiyonun aniden ağırlaşması ve bazen kilitlenmiş gibi hissedilmesi; kontağı kapatıp açınca geçici düzelme",
+          "tahmini_km_araligi": "40.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar ve forum kayıtları i30'da EPS sorununun en sık 2009-2012 model yıllarında 1.4 ve 1.6 benzinli araçlarda geçtiğini gösteriyor. Kaynaklar teknik nedeni açıklamıyor; DonanımHaber'deki genel EPS yazıları kontrol ünitesi, kablolama, sensör ve düşük akü voltajı gibi olası nedenleri sayıyor (i30'a özgü doğrulama değil).",
+            "teshis": "Kullanıcılar EPS ışığı yanarken direksiyonun aniden ağırlaştığını, bazı durumlarda kilitlenmiş gibi hissedildiğini ve aracı durdurup yeniden çalıştırınca sistemin geçici olarak eski haline döndüğünü yazıyor. 2011 model bir i30 sahibi 2023'te EPS ışığının sürekli yandığını ve bunun kronik bir arıza olduğunu öğrendiğini anlatıyor.",
+            "cozum": "Kullanıcılar Hyundai'nin sorunu kronik arıza saymadığını ve ücretsiz onarım yapmadığını yazıyor; bazı kullanıcılar ise serviste bir şekilde ücretsiz değişim yapıldığını bildiriyor. Garanti durumu yetkili servise sorulmalı.",
+            "maliyet": "Fiyatlar birbirinden çok farklı: eski bir forum yazısında yetkili servisin 150 TL istediği, bir sürücünün 2019'da sanayi ustasına 2.500 TL ödediği ve aynı arızanın 2022'de yeniden çıktığı yazılıyor; bir i20 konusunda genel tahmin 1.000-3.000 TL. Tarihsiz kullanıcı beyanları, i30 için doğrulanmış bir fiyat değil."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/i30/eps",
+            "https://www.sikayetvar.com/hyundai-motor/i30/eps-arizasi",
+            "https://www.sikayetvar.com/hyundai-assan/eps-arizasi/i30",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-i30-eps-arizasi-2",
+            "https://forum.donanimhaber.com/eps-problemi-nedir--36967271",
+            "https://forum.donanimhaber.com/eps-direksiyon-arizasi--34563676"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Kia",
       "model": "Ceed (ED / JD, 2009-2016)",
       "motor": "1.6 CRDi 115/128",
@@ -3967,6 +4030,37 @@
     },
     {
       "marka": "Skoda",
+      "model": "Kamiq / Scala (2019-)",
+      "motor": "1.0 TSI 95/110 (DSG)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "DSG kavrama ısınması, sarsıntı ve mekatronik arızası",
+          "etkilenen_parca": "Çift kavramalı DSG şanzıman: kavrama paketi ve mekatronik",
+          "belirtiler": "Düşük hızda ve bozuk yolda çatırtı sesi, kalkışta hafif sarsıntı, 'şanzıman aşırı ısındı' uyarısı, acil işletim; mekatronik arızasında şanzımanın değiştirilmesi",
+          "tahmini_km_araligi": "5.000 - 70.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklar kök nedeni belirtmiyor. Bir Kamiq sahibi servisin 'kavramanın ısındığını' söylediğini ama sorunların sürdüğünü yazıyor. DonanımHaber'de bir kullanıcı 1.0 TSI Kamiq DSG'de basınç tüpünün o-ring kısmından yaklaşık iki yılda bir kaçak olduğunu ve bunun mekatronik için risk oluşturduğunu iddia ediyor (tek kullanıcı, doğrulanmadı).",
+            "teshis": "Şikâyetvar'da bir Kamiq sahibi az bozuk yolda yavaş giderken, boşa alındığında bile çatır çutur sesler geldiğini, başka bir sahip 5.800 km'de normal seyirde 'şanzıman aşırı ısındı' uyarısı aldığını yazıyor. Bir Scala sahibi 2024 model aracında 4.029 km'de şanzıman arızası verdiğini, ardından mekatronik arızası nedeniyle DSG'nin değiştirildiğini bildiriyor. DonanımHaber'de 62.000 km'deki bir kullanıcı sorun yaşamadığını, ancak düşük hızda kalkış ve dönüşlerde hafif sarsıntı hissettiğini, servisin bunu DSG'nin çalışma karakteristiği olarak açıkladığını yazıyor.",
+            "cozum": "Garanti içinde şanzıman ya da mekatronik değişiminin yapıldığı anlatılıyor; Skoda'nın 5.800 km'deki aşırı ısınma uyarısında sorumluluk almadığı bir şikâyette yazılıyor. Yağ bakımında kontrol yapılacağı söylenen vakalarda sorun sürmüş.",
+            "onlem": "Şanzıman tipi (kuru ya da ıslak kavrama) şikâyetlerde belirtilmiyor. İkinci elde DSG'nin servis ve yazılım güncelleme geçmişi ile kavrama/mekatronik değişimi yapılıp yapılmadığı sorulmalı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/scala/dsg",
+            "https://www.sikayetvar.com/skoda/kamiq/problem",
+            "https://www.sikayetvar.com/skoda/scala/kronik",
+            "https://www.sikayetvar.com/skoda/dsg",
+            "https://forum.donanimhaber.com/skoda-kamiq-1-0-tsi-110-ps-65-bin-km-dsg-hakkinda--160973955"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Skoda",
       "model": "Octavia (A5 / A7, 2010-2020)",
       "motor": "1.6 TDI 105/110 (DSG DQ200)",
       "uretim_yillari": {
@@ -4137,6 +4231,57 @@
             "https://forum.donanimhaber.com/golf-7-devirdaim-pompasi--140667110",
             "https://www.sikayetvar.com/volkswagen/golf/devirdaim-pompasi",
             "https://www.sikayetvar.com/volkswagen/devirdaim"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia (A8, 2020-)",
+      "motor": "1.0 TSI e-TEC 110 / 1.5 TSI 150 (48V hafif hibrit, DSG)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Vites kolu (seçici) arızası",
+          "etkilenen_parca": "Vites kolu (seçici) modülü ve mekanizması",
+          "belirtiler": "'Vites kolu' uyarısının tekrar etmesi, 48 V sistemi uyarısıyla birlikte gelebilmesi; garanti dışında yüksek onarım ücreti",
+          "tahmini_km_araligi": "10.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2021 ve sonrası Octavia'larda (özellikle 1.0 e-TEC ve hibrit) 'vites kolu' uyarısının tekrar ettiği, bazı kullanıcıların arızanın şanzımandaki bir boşlukla ilgili olduğu teşhisini aldığı yazılıyor; bazıları 48 V sistemi arızasının vites kolu uyarısıyla birlikte geldiğini belirtiyor. Aynı arıza Golf 8'de de bildiriliyor (DonanımHaber ve Ekşi Sözlük kayıtları Golf/VAG genelini kapsıyor, Octavia'ya özgü değil).",
+            "teshis": "Octavia kayıtlarında 'vites kolu' uyarısının tekrarladığı, bazı sahiplerde 48 V sistemi arızasıyla birlikte geldiği yazılıyor. Aynı arıza Golf 8'de 'Hata: Vites kolu. Sürmeye devam edilebilir. Lütfen servise gidin.' mesajıyla ve kontağı kapatıp açınca geçici düzelmeyle anlatılıyor (Golf 8 kayıtları).",
+            "cozum": "Garanti süresi dolduktan sonra servislerin genellikle ücret istediği, bazı kullanıcıların 'iyi niyet garantisi' uygulanmadığını ya da reddedildiğini yazdığı anlatılıyor; bir kullanıcı çıkarılan tutarın düşük olduğu gerekçesiyle iyi niyet desteği verilmediğini aktarıyor.",
+            "maliyet": "Kullanıcı beyanları: iyi niyet kapsamında yaklaşık 7.000 TL; 33.000 TL masraf çıkarılıp iyi niyetle 27.000 TL'ye indirilebileceği söylenen bir vaka; parça ve işçilik toplamı 22.000 TL (iyi niyet uygulanmamış); eski tarihli bir yorumda mekanizma değişimi için 16.000 TL. Tek tek şikâyetler, tarihleri farklı; güncel fiyat olarak okumayın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/skoda-octavia-48-v-ve-vites-kolu-kronik-arizalari",
+            "https://www.sikayetvar.com/skoda/octavia/vites",
+            "https://www.sikayetvar.com/skoda/octavia/kronik",
+            "https://forum.donanimhaber.com/golf-8-vites-kolu-hatasi--159081900",
+            "https://eksisozluk.com/vites-kolu-arizasi--7799136"
+          ]
+        },
+        {
+          "sorun_adi": "48V hafif hibrit (e-TEC) sistem ve alternatör arızası",
+          "etkilenen_parca": "48 V akü, alternatör/marş jeneratörü ve tahrik sistemi uyarısı",
+          "belirtiler": "'Tahrik sistemi arızası', '48V akü arızası', '12V akü arızası' uyarıları, start-stop arızası, yolda kalma",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Bir forum yorumcusu (Golf 8 konusu) sorunun hafif hibrit sisteminin aküsünden ya da alternatör-marş motoru elemanından kaynaklanabileceğini yazıyor (kişisel görüş, teşhis değil). Octavia 1.0 e-TEC sahiplerinden biri iki yıl içinde aynı arıza nedeniyle üç kez yolda kaldığını bildiriyor; bir başkası Almanya kaynaklarına dayanarak arızanın bilinen bir kusur sayıldığını ve garanti kapsamında giderildiğini yazıyor (iddia).",
+            "teshis": "Octavia e-TEC'te '48V arızası', 'tahrik sistemi arızası', '12V akü arızası' ve 'şanzıman arızası' uyarıları ile start-stop hatası birlikte bildiriliyor.",
+            "cozum": "Garanti içinde ücretsiz onarım bildiriliyor; garanti dışında yüksek masraf ve iyi niyet indirimi tartışmaları anlatılıyor. Bir kullanıcı tüm bakımları serviste yapılan araç için 107.000 TL gibi yüksek bir fatura bildiriyor.",
+            "maliyet": "Şikâyetvar'da alternatör/marş jeneratörü arızası için 107.000 TL ve 130.000 TL gibi garanti dışı ücret talepleri bildiriliyor (tek tek şikâyet, Golf ve Octavia kayıtları; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/skoda-octaviada-kronik-tahrik-sistemi-ve-alternator-sorununa-yetersiz-cozum-ve-iyi-niyet-indirimi",
+            "https://www.sikayetvar.com/skoda/skoda-octavia-10-etec-alternator-arizasi-garanti-kapsamina-alinmali",
+            "https://www.sikayetvar.com/skoda/yeni-skoda-octaviada-v48-ve-startstop-arizasi-garanti-disi-yuksek-masraflar-ve-guven-sarsintisi",
+            "https://www.sikayetvar.com/skoda/octavia-hybrid/tahrik-sistemi",
+            "https://forum.donanimhaber.com/sifir-golf-8-ile-yasadigim-sorunlar--150729664"
           ]
         }
       ]
@@ -4416,6 +4561,36 @@
     {
       "marka": "Volkswagen",
       "model": "Golf 7 (2012-2019)",
+      "motor": "1.2 TSI 85/105 (EA211)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları, valf sapı keçeleri, turbo",
+          "belirtiler": "Yağ seviyesinin sık düşmesi (bazı araçlarda 1.000-3.000 km'de 1 litre), yağ seviyesi uyarısı",
+          "tahmini_km_araligi": "40.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de forum kullanıcıları olası nedenler olarak piston segmanlarının aşınmasını ya da hasarını, turboşarj arızasını, valf sapı keçelerinin bozulmasını ve silindir duvarı aşınmasını sayıyor (teşhis değil, forum görüşü). Şikâyetvar'da 2012 model bir 1.2 TSI sahibi gaza bastıkça yağ yaktığını, üreticinin çözüm sunmadığını yazıyor.",
+            "teshis": "Bazı sahipler yaklaşık 3.000 km'de 1 litre, bazıları 1.000-1.200 km'de 1 litre eksilttiğini bildiriyor; bir kullanıcı kullanım kılavuzunda 2.000 km'de 1 litre yağ gidebileceğinin yazdığını belirtiyor (kılavuzdan kendiniz doğrulayın). Forumda ilk adım olarak kompresyon testi ve dört silindirin değerlerinin karşılaştırılması ile araç altında kaçak kontrolü öneriliyor.",
+            "cozum": "Forumda en kalıcı çözüm olarak segman değişimi öne çıkıyor; turbo ya da valf conta onarımı ve aşınmış silindirler için honlama da anılıyor. Bir kullanıcı segman değişiminin 25-30 bin TL civarında olabileceğini yazıyor (tek kişinin tahmini). Bazı kullanıcılar daha kaliteli yağa geçince eksiltmenin azaldığını, bazıları değişmediğini söylüyor; 502.00 onaylı 5W-40 gibi VW onaylı yağlar önerilmiş.",
+            "onlem": "Yağ seviyesini düzenli kontrol edip kayıt tutmak ve max çizgisini aşmamak; test sürüşünde yağ tüketimini sorgulamak. Forumda 'yetkili servis bakımlı, zorlanmamış, düşük kilometreli' araçların tercih edilmesi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/1-2-tsi-yag-eksiltme-sorunu-yasayanlara-cozum--118274718",
+            "https://forum.donanimhaber.com/golf-7-yag-eksiltme-sorunu--157538645",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-golf-7de-kronik-yag-yakma-sorunu-ve-cozum-eksikligi",
+            "https://otopark.com/forum/threads/golf-7-motor-yagi.4665/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 7 (2012-2019)",
       "motor": "1.4 TSI 122/140 (EA211)",
       "uretim_yillari": {
         "baslangic": 2012,
@@ -4509,6 +4684,63 @@
             "https://forum.donanimhaber.com/dpf-temizligi-hakkinda-passat-1-6tdi--148242926",
             "https://otopark.com/forum/threads/egr-ve-dpf-agrizasi-mk6-golf-1-6-tdi.2529/",
             "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 8 (2020-)",
+      "motor": "1.0 eTSI 110 / 1.5 eTSI 130/150 (48V hafif hibrit, DSG)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Vites kolu (seçici) modülü arızası",
+          "etkilenen_parca": "Vites kolu (seçici) modülü ve altındaki parça",
+          "belirtiler": "Ekranda 'Hata: Vites kolu. Sürmeye devam edilebilir. Lütfen servise gidin.' uyarısı; aracı durdurup yeniden çalıştırınca geçici düzelme, soğuk motorda daha sık",
+          "tahmini_km_araligi": "10.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklar nedeni açıklamıyor. Bir forum yorumu sorunun vites kolunun altındaki bir parçanın değişimiyle çözüldüğünü, bazı servislerin yazılımla düzeltme yaptığını iddia ediyor (doğrulanmadı). Ekşi Sözlük'te arıza 2021 sonrası yeni kasa VAG araçlarıyla (Golf, Seat, Skoda) ilişkilendiriliyor; Bir kullanıcı sorunun 2021-Haziran 2022 arası üretilen Golf'lerde kronik olduğunu gözlemlediğini yazıyor.",
+            "teshis": "Ekranda 'Hata: Vites kolu. Sürmeye devam edilebilir. Lütfen servise gidin.' mesajı çıkıyor; kontağı kapatıp açmak uyarıyı geçici olarak gideriyor. Bazı kullanıcılar uyarının özellikle soğuk motorda geldiğini yazıyor. Kullanıcılar önce yetkili serviste tanı yaptırılmasını öneriyor.",
+            "cozum": "Garanti içindeki araçlarda parçanın ücretsiz değiştirildiği bildiriliyor. Garanti dışında istenen ücret çok değişken; birkaç kullanıcı itiraz edince fiyatın düştüğünü ve 'iyi niyet' indirimi uygulandığını yazıyor (oran servise göre değişiyor). Servislerin sorunu bazen kullanıcı hatası saydığı, anlaşmazlıkta bazı kullanıcıların Tüketici Hakem Heyeti'ne başvurmayı düşündüğü anlatılıyor (hukuki tavsiye değil).",
+            "maliyet": "Garanti dışı ücretler kullanıcı beyanlarına göre kabaca 4.300 TL ile 40.000 TL arasında; bir kullanıcı 'fabrikanın' kusurlu malzeme değişimi için önce 40.000 TL istediğini yazıyor. Tarihler şikâyet sayfalarında; güncel fiyat olarak okumayın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/golf-8-vites-kolu-arizasi-ve-servis-magduriyeti",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-golf-8-kronik-vites-kolu-sorunu-ve-yetersiz-servis-destegi",
+            "https://forum.donanimhaber.com/golf-8-vites-kolu-hatasi--159081900",
+            "https://eksisozluk.com/vites-kolu-arizasi--7799136"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2021,
+              "bitis": 2022,
+              "durum": "Yaygın",
+              "not": "Bir kullanıcı 2021-Haziran 2022 üretimlerinde sorunu kronik buluyor; Ekşi Sözlük 2021 sonrası yeni kasa VAG araçlarını anıyor. Üretici açıklaması bulunamadı; sonraki üretim yılları için kaynakta ayrı bilgi yok."
+            }
+          ]
+        },
+        {
+          "sorun_adi": "48V hafif hibrit sistem ve alternatör-marş jeneratörü arızası",
+          "etkilenen_parca": "48 V akü ve alternatör/marş jeneratörü, tahrik sistemi uyarısı",
+          "belirtiler": "'Tahrik sistemi arızası' ve '48 V arızası' uyarısı, start-stop'un devre dışı kalması, yolda kalma",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Bir forum yorumcusu sorunun hafif hibrit sisteminin aküsünden ya da alternatör-marş motoru elemanından kaynaklanabileceğini, motorun tam gazda gereken desteği verememesinin tahrik arızasına yol açabileceğini ve start-stop'un devre dışı kalmasının bir gösterge olabileceğini yazıyor (kişisel görüş, teşhis değil). Bir Octavia e-TEC sahibi Almanya kaynaklarına dayanarak arızanın bilinen bir kusur sayıldığını ve garanti kapsamında giderildiğini öğrendiğini yazıyor (iddia).",
+            "teshis": "Golf 8 eTSI sahiplerinde 'tahrik sistemi / 48 V arızası' uyarısı sık bildiriliyor; aynı sistemi kullanan Skoda e-TEC'te '48V akü', '12V akü' ve 'şanzıman arızası' uyarıları olarak da geçiyor. Şikâyetvar'da 48 V uyarısıyla servise giren bir 1.5 eTSI sahibi parça bekleme süresi nedeniyle mağdur olduğunu yazıyor.",
+            "cozum": "Garanti içinde ücretsiz onarım bildiriliyor. Garanti dışında kullanıcılar yüksek fatura aktarıyor; bir Golf 8 sahibi kronik olduğu bilinen arızanın kullanıcı hatası gibi sayılıp masrafın tamamının kendisine yansıtılmasına itiraz ediyor.",
+            "maliyet": "Şikâyetvar'da alternatör/marş jeneratörü arızası için garanti dışı 107.000 TL ve 130.000 TL gibi ücret talepleri bildiriliyor (tek tek şikâyet, Golf ve Octavia kayıtları; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/golf-hybrid/alternator-arizasi",
+            "https://www.sikayetvar.com/volkswagen/golf-hybrid/golf-8-etsi",
+            "https://www.sikayetvar.com/volkswagen/garanti-disi-alternator-arizasi-ve-130-bin-tl-ucret-talebi",
+            "https://forum.donanimhaber.com/sifir-golf-8-ile-yasadigim-sorunlar--150729664"
           ]
         }
       ]
@@ -4796,6 +5028,36 @@
     },
     {
       "marka": "Volkswagen",
+      "model": "Polo 6R / 6C (2009-2017)",
+      "motor": "1.6 TDI (EA189 CAYC / CAYE)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Enjektör arızası",
+          "etkilenen_parca": "Common-rail enjektörleri (piezo)",
+          "belirtiler": "Soğukta ilk çalıştırmada titreme, rölantide dalgalanma, şakırdama, yakıt tüketiminde artış",
+          "tahmini_km_araligi": "90.000 - 160.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı CAYC motorda yaklaşık 150 bin km sonrası enjektör işemesi sorununun yaygın ve kronik olduğunu yazıyor. Başka bir kullanıcı CAYC kodlu 1.6 TDI/Euro 5 araçların enjektörlerinin Siemens değil Continental VDO piezo tipte olduğunu belirtiyor. Şikâyetvar'da kullanıcılar servislerden ve internetten edindikleri bilgiye dayanarak bunun TDI motorların kronik sorunu olduğunu yazıyor.",
+            "teshis": "Şikâyetvar'da 2011 model Polo 1.6 TDI sahipleri 120 bin ve 155 bin km'de şakırdama, hafif titreme ve yakıt fazlalığı bildiriyor; 2013 model bir 90 hp sahibi üç aydır ilk çalıştırmada titreme ve rölantide saat ibresinin sabitlenememesi yaşıyor. DonanımHaber'de bir CAYE sahibi enjektörlere baktırdığında dördünde püskürtme oranlarının yüksek çıktığını yazıyor. Sorunların bir kısmının turbo, turbo hortumu ya da EGR kaynaklı çıktığı da bildiriliyor; ayrım için ayrıntılı arıza kodu kontrolü gerekir.",
+            "cozum": "DonanımHaber'de bir kullanıcı VW servisinde motor yazılımı güncellemesinin bazı araçlarda sorunu giderdiğini duyduğunu yazıyor (garanti edilmiş bir çözüm değil). Şikâyetvar'da enjektörleri değiştirilen bir araçta titreme ve yakıt tüketimi sorununun çözülmediği anlatılıyor. Volkswagen Türkiye bir 2011 model şikâyetine konunun ilgili birimle ele alınacağını yanıtlamış; bu bir kusur kabulü olarak okunmamalı.",
+            "maliyet": "DonanımHaber'de bir kullanıcı CAYC'de bir enjektörün o dönemde 4.000-5.000 TL civarında olduğunu yazıyor (tarihsiz kullanıcı beyanı, güncel fiyat değil)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/volkswagen-polo-16-tdi-enjektor-arizasi",
+            "https://www.sikayetvar.com/enjektor/polo",
+            "https://forum.donanimhaber.com/polo-6r-1-6-dizel-enjektor-sesi-caye-motor--142997883",
+            "https://forum.donanimhaber.com/2013-polo-1-6-tdi-manuel-250-bin-kilometrede-alinir-mi--153064561"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
       "model": "T-Roc (2018-)",
       "motor": "1.5 TSI 150 (EA211 evo)",
       "uretim_yillari": {
@@ -4900,6 +5162,36 @@
             "https://www.sikayetvar.com/volkswagen/volkswagen-t-roc-yag-eksiltme-problemi",
             "https://www.sikayetvar.com/volkswagen/volkswagen-t-roc-surekli-yag-sorunlari-ve-hayal-kirikligi",
             "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Tiguan (AD1 / CR7, 2018-)",
+      "motor": "2.0 TDI (DSG DQ381)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "DSG mekatronik ve acil işletim arızası",
+          "etkilenen_parca": "DSG (DQ381) mekatronik ünitesi, kavrama konum sensörleri",
+          "belirtiler": "'Şanzıman acil işletim' uyarısı, aracın hareket etmemesi ya da vites değiştirememesi, P1735/P1736 hata kodları",
+          "tahmini_km_araligi": "15.000 - 90.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Ekşi Sözlük'teki bir rehber Tiguan'ın DQ381 kodlu 7 ileri ıslak kavramalı DSG'ye sahip olduğunu, yoğun kullanımda mekatronik üzerindeki kavrama konum sensörlerinin arızalanabildiğini ve bunun P1735/P1736 kodlarıyla acil (limp) moda geçişe yol açabildiğini yazıyor. Bir forum kullanıcısı eski nesil yağ kullanımının mekatronikte korozyona yol açabildiğini aktarıyor (anekdot).",
+            "teshis": "Şikâyetvar'da 2019 model bir Tiguan'da 'şanzıman acil işletim' uyarısı gelmiş ve yetkili serviste mekatronik değişimi önerilmiş; 2020 model, 16.800 km'deki bir Tiguan'da mekatronik kartın değişmesi gerektiği söylenmiş ve araç yaklaşık üç hafta servisten çıkmamış. DonanımHaber rehberi mekatronik arızasında aracın hareket etmeyebileceğini ya da vites değiştiremeyebileceğini, vites kayması ve boşa düşmenin de mekatronik kaynaklı olabileceğini yazıyor. Bir kullanıcı N'ye alıp tekrar D'ye almanın geçici işe yaradığını ama gaz verince sorunun tekrarladığını anlatıyor.",
+            "cozum": "Kaynaklar VAG teşhis cihazıyla hata kodlarının okunmasını ve yetkili serviste onarımı öneriyor; forumlarda yağ değişimi, yazılım güncellemesi ve bakım geçmişi tartışılıyor (bireysel görüşler).",
+            "maliyet": "Şikâyetvar'da bir kullanıcıya mekatronik onarımı için 66.600 TL ücret talep edildiği ve bunun gizli ayıp olduğu iddia ediliyor (tek şikâyet, tarihi sayfada; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/tiguan/sanziman",
+            "https://www.sikayetvar.com/volkswagen/yetkili-servis-bakimli-volkswagen-tiguanda-dsg-sanziman-arizasi-ve-yuksek-onarim-ucreti-magduriyeti",
+            "https://eksisozluk.com/suv-alma-rehberi--8092747",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339"
           ]
         }
       ]
