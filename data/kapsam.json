@@ -760,7 +760,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "500"
+          "500 (2008"
         ],
         "motor": [
           "TwinAir",
@@ -3297,14 +3297,15 @@
       "marka": "Audi",
       "model": "A6 C7",
       "yillar": "2011-2018",
-      "motor": "2.0 TDI / 3.0 TDI / 2.0 TFSI",
+      "motor": "3.0 TDI / 2.0 TFSI",
       "kademe": 3,
       "eslesme": {
         "model": [
           "A6 (C7"
         ],
         "motor": [
-          "TDI"
+          "3.0 TDI",
+          "2.0 TFSI"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -3735,35 +3736,35 @@
       "marka": "Jeep",
       "model": "Renegade / Compass",
       "yillar": "2015-",
-      "motor": "1.6 MultiJet (DDCT) / 1.4 MultiAir",
+      "motor": "1.4 MultiAir",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Renegade"
         ],
         "motor": [
-          "MultiJet"
+          "MultiAir"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Renegade DDCT'ye özgü kaynak çıkmadı (sonuçlar Egea üzerinden geldi); Compass şanzıman şikâyetlerinde motor ve şanzıman kombinasyonu belirsiz."
+      "not": "Renegade ve Compass 1.4 MultiAir için kaynak çıkmadı."
     },
     {
       "marka": "Alfa Romeo",
       "model": "Giulietta",
       "yillar": "2010-2020",
-      "motor": "1.4 MultiAir / 1.6 JTDM",
+      "motor": "1.4 MultiAir",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Giulietta"
         ],
         "motor": [
-          "Multi"
+          "1.4 MultiAir"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetler gövde ve elektronikte (yolcu airbag kapağı şişmesi, klima); motorlara özgü kaynaklı bulgu yok."
+      "not": "Giulietta 1.4 MultiAir için kaynak çıkmadı; şikâyetler gövde ve elektronikte (yolcu airbag kapağı şişmesi, klima)."
     },
     {
       "marka": "Mazda",
@@ -3786,7 +3787,7 @@
       "marka": "Suzuki",
       "model": "SX4 S-Cross / Vitara / Swift",
       "yillar": "2014-",
-      "motor": "1.4 BoosterJet",
+      "motor": "1.4 BoosterJet / 1.6 DDiS",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -4101,7 +4102,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "AdBlue, DPF ve NOx sensörü şikâyetleri yalnızca Şikâyetvar'da; Boxer ve Jumper için ayrı veri çıkmadı."
+      "not": "AdBlue, DPF ve NOx sensörü şikâyetleri yalnızca Şikâyetvar'da; Boxer ve Jumper için ayrı veri çıkmadı. Bu oturumdaki aramada Şikâyetvar'da 2023 model 2.3'te tekrarlayan AdBlue / partikül / NOx sensörü arızaları, enjektör değişimine rağmen süren hata, turbo parçalarının motora kaçması ve debriyaj hidrolik hortumu kaçağı anlatıları var; DonanımHaber'de de Ducato debriyaj arızası başlığı çıktı. Debriyaj hidroliği iki sitede geçse de kilometre bilgisi ve tekrar örüntüsü yetersiz olduğu için kayıt açılmadı."
     },
     {
       "marka": "Tesla",
@@ -6619,7 +6620,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Partner / Rifter (2008"
+          "Partner (2008"
         ],
         "motor": [
           "1.6 HDi"
@@ -6834,22 +6835,6 @@
         ]
       },
       "not": "Transit Connect 1.5 TDCi için sonuç çıkmadı; 1.6 TDCi için modele özgü kaynak aranmadı. Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır."
-    },
-    {
-      "marka": "Suzuki",
-      "model": "SX4 S-Cross / Vitara",
-      "yillar": "2013-",
-      "motor": "1.6 DDiS 120 (DV6)",
-      "kademe": 2,
-      "eslesme": {
-        "model": [
-          "S-Cross / Vitara"
-        ],
-        "motor": [
-          "DDiS"
-        ]
-      },
-      "not": "S-Cross ve Vitara 1.6 DDiS'e özgü kaynak bulunamadı (şikâyetler elektronik ve multimedya konusunda). Gösterilen enjektör, turbo yağ süzgeci ve EGR / DPF sorunları aynı DV6 motorunu kullanan Peugeot 301, Citroën C-Elysée, Ford Focus ve Fiesta kaynaklarına dayanır."
     },
     {
       "marka": "Opel",
@@ -7143,7 +7128,7 @@
       "marka": "Mercedes-Benz",
       "model": "Sprinter",
       "yillar": "2006-2018",
-      "motor": "211-319 CDI (OM651)",
+      "motor": "209-316 CDI (OM651)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -7797,7 +7782,9 @@
           "2.0 TDI",
           "1.8 TFSI"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada 8V 2.0 TDI 150 için model ya da motora özgü şikâyet çıkmadı; forumlarda en çok konuşulan konu S tronic şanzıman (titreme ve vuruntuyla başlayıp mekatronik arızasıyla biten anlatılar; kullanım alışkanlığına bağlayan yorumlar), enjektör ve DPF anlatıları ise genel ya da eski (2006 model) araçlara ait. Bir forum kullanıcısı 2.0 TDI'larda 6 ileri DQ250 kullanıldığını ve nadiren sorun çıkardığını yazıyor; kuru kavramalı DQ200 kaydı 1.4 TFSI ve 1.6 TDI için ayrı."
     },
     {
       "marka": "Audi",
@@ -7933,7 +7920,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada Şikâyetvar'da enjektör (2015 Crafter'da enjektörün yerinden fırlaması), turbo (2020 modelde turbo hortumu ve turbo değişimine rağmen süren arıza), yağ basıncı uyarısı (2016 model) ve rot-balans gibi tekil şikâyetler çıktı; Otopark'ta Crafter için olumlu yorumlar var (makyajlı 2.0 BiTDI'da kronik sorunların daha az olduğu yazılıyor). İkinci bağımsız kaynakla doğrulanan tekrar eden sorun çıkmadı."
     },
     {
       "marka": "Volkswagen",
@@ -7948,7 +7937,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Sharan'a özgü sonuç çıkmadı; sonuçlar VW DSG geneline ait (Şikâyetvar'da Passat, Tiguan ve Caddy vakaları). Bir forum kullanıcısı 2.0 TDI'larda 6 ileri DQ250 kullanıldığını ve nadiren sorun çıkardığını yazıyor; Sharan 7N'nin şanzıman kodu doğrulanamadı."
     },
     {
       "marka": "Volkswagen",
@@ -8131,7 +8122,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "S-Max / Galaxy 2.0 TDCi'ya özgü kronik sorun kaynağı çıkmadı: bir forum yorumu 2.0 TDCi'da yakıt kalitesine bağlı enjektör ve volan sorunlarını anıyor, bir S-Max sahibi 3,5 yılda sorun yaşamadığını yazıyor; Powershift titremesi anlatıları modelsiz."
     },
     {
       "marka": "Ford",
@@ -8167,16 +8160,18 @@
       "marka": "Opel",
       "model": "Insignia B",
       "yillar": "2017-2022",
-      "motor": "1.6 CDTI / 1.5 Turbo / 2.0 CDTI",
+      "motor": "1.5 Turbo / 2.0 CDTI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Insignia B"
         ],
         "motor": [
-          ""
+          "1.5 Turbo",
+          "2.0 CDTI"
         ]
-      }
+      },
+      "not": "Insignia B 1.5 Turbo için bu oturumdaki aramada sonuç çıkmadı; 2.0 CDTI aranmadı (sırada)."
     },
     {
       "marka": "Opel",
@@ -8191,7 +8186,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Vivaro 1.6 CDTI biturbo'ya özgü kaynak çıkmadı; sonuçlar Insignia 1.6 CDTI'ya (turbo hortumu, enjektör şakırtısı, DPF) ait."
     },
     {
       "marka": "Opel",
@@ -8268,7 +8265,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada 2.0 HDi / BlueHDi için kronik enjektör ya da DPF kaynağı çıkmadı; Şikâyetvar'da Expert 2.0 BlueHDi için geç marş ve şanzıman sesi, Jumpy için 2022 model bir araçta garanti kapsamında motor değişimi gibi tekil şikâyetler var; DonanımHaber'deki bir başlıkta eski 2.0 HDi'ların ilk sürümlerinin önerilmediği yazılıyor (yaklaşık 15 yıllık yorum)."
     },
     {
       "marka": "Peugeot",
@@ -8283,7 +8282,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da Boxer / Jumper için tekrar eden konular enjektör şakırtısı (enjektör değişiminden sonra da süren), debriyaj alt merkezi / hidrolik boru sızıntısı ve pedalın takılı kalması (bazı kullanıcılarda ilk 25.000 km'de), tek vaka turbo arızası ve AdBlue uyarıları; şikâyetlerin çoğu 2023 sonrası 2.2 BlueHDi 140 / 180 araçlara ait. Anlatılar tek siteye (Şikâyetvar) dayanıyor ve kilometre bilgisi kullanıcı beyanı; ikinci bağımsız kaynak çıkmadı."
     },
     {
       "marka": "Peugeot",
@@ -8328,7 +8329,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bu oturumdaki aramada 2.0 HDi / BlueHDi için kronik enjektör ya da DPF kaynağı çıkmadı; Şikâyetvar'da Expert 2.0 BlueHDi için geç marş ve şanzıman sesi, Jumpy için 2022 model bir araçta garanti kapsamında motor değişimi gibi tekil şikâyetler var; DonanımHaber'deki bir başlıkta eski 2.0 HDi'ların ilk sürümlerinin önerilmediği yazılıyor (yaklaşık 15 yıllık yorum)."
     },
     {
       "marka": "Citroen",
@@ -8343,7 +8346,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da Boxer / Jumper için tekrar eden konular enjektör şakırtısı (enjektör değişiminden sonra da süren), debriyaj alt merkezi / hidrolik boru sızıntısı ve pedalın takılı kalması (bazı kullanıcılarda ilk 25.000 km'de), tek vaka turbo arızası ve AdBlue uyarıları; şikâyetlerin çoğu 2023 sonrası 2.2 BlueHDi 140 / 180 araçlara ait. Anlatılar tek siteye (Şikâyetvar) dayanıyor ve kilometre bilgisi kullanıcı beyanı; ikinci bağımsız kaynak çıkmadı."
     },
     {
       "marka": "Citroen",
@@ -8395,16 +8400,17 @@
       "marka": "Fiat",
       "model": "Panda",
       "yillar": "2012-2020",
-      "motor": "0.9 TwinAir / 1.2 Fire / 1.3 Multijet",
+      "motor": "1.3 Multijet",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Panda ("
         ],
         "motor": [
-          ""
+          "1.3 Multijet"
         ]
-      }
+      },
+      "not": "Panda 1.3 Multijet için bu oturumda aranmadı (sırada)."
     },
     {
       "marka": "Fiat",
@@ -8425,14 +8431,15 @@
       "marka": "Fiat",
       "model": "500X",
       "yillar": "2015-",
-      "motor": "1.6 Multijet / 1.4 MultiAir / 1.3 FireFly Turbo",
+      "motor": "1.4 MultiAir / 1.3 FireFly Turbo",
       "kademe": 2,
       "eslesme": {
         "model": [
           "500X"
         ],
         "motor": [
-          ""
+          "MultiAir",
+          "FireFly"
         ]
       }
     },
@@ -8585,7 +8592,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da 1.6 D-4D için krank kasnağının kırılması (yolda kalma, yaklaşık 4.500 TL onarım ve garanti reddi) iki ayrı kullanıcıda geçiyor; bir forumda Toyota Türkiye'nin 1.6 dizel iddialarını doğrulamadığı yazılıyor. 1.8 Valvematic / Multidrive için çıkan şikâyetler 2004-2007 MMT'li Verso'lara ait. Kilometre bilgisi ve ikinci bağımsız doğrulama yetersiz olduğundan kayıt açılmadı."
     },
     {
       "marka": "Toyota",
@@ -8675,7 +8684,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da en tekrarlanan konu multimedya / navigasyon donması ve geri görüş kamerası; Ekşi Sözlük ve Otopark'ta 4x4 şanzıman arızası, DonanımHaber'de direksiyon kutusu iddiaları tekil. 1.2 K12B için motor sorunu çıkmadı (DonanımHaber'de 1.2 GL otomatik sahibi bilinen kronik sorun olmadığını yazıyor)."
     },
     {
       "marka": "Suzuki",
@@ -8712,26 +8723,25 @@
       "marka": "Subaru",
       "model": "Forester",
       "yillar": "2013-2018",
-      "motor": "2.0 / 2.0D",
+      "motor": "2.0D",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Forester"
         ],
         "motor": [
-          ""
+          "2.0D"
         ]
       }
     },
     {
       "marka": "Subaru",
-      "model": "Impreza / Outback",
-      "yillar": "2011-",
-      "motor": "1.6 / 2.0 / 2.5",
+      "model": "Outback",
+      "yillar": "2010-2020",
+      "motor": "2.5 / 2.0D",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Impreza",
           "Outback"
         ],
         "motor": [
@@ -9148,6 +9158,213 @@
         ]
       },
       "not": "V60 D2'ye özgü kaynak aranmadı (S60 / V40 D2 ile aynı motor ve şanzıman); gösterilen sorunlar S60 / V40 D2 Powershift ve DV6 kayıtlarına dayanır."
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 C7",
+      "yillar": "2011-2014",
+      "motor": "2.0 TDI 177 (Multitronic)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A6 (C7"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "not": "A6 C7'ye özgü kaynak bulunamadı; bulunan A6 2.0 TDI başlıkları C6 dönemine (2009-2011) ait. Gösterilen Multitronic sorunu A4 B8 (aynı 0AW şanzıman) kayıtlarına dayanır."
+    },
+    {
+      "marka": "Subaru",
+      "model": "Forester SJ",
+      "yillar": "2013-2018",
+      "motor": "2.0 boxer 150 (FB20)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Forester (SJ"
+        ],
+        "motor": [
+          "FB20"
+        ]
+      },
+      "not": "Forester'a özgü kaynak aranmadı; gösterilen aşırı yağ tüketimi aynı FB20 motorunu kullanan XV kaydına dayanır."
+    },
+    {
+      "marka": "Subaru",
+      "model": "Impreza GJ / GK",
+      "yillar": "2012-2022",
+      "motor": "2.0 boxer 150 (FB20)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Impreza (GJ"
+        ],
+        "motor": [
+          "FB20"
+        ]
+      },
+      "not": "Impreza'ya özgü kaynak aranmadı; gösterilen aşırı yağ tüketimi aynı FB20 motorunu kullanan XV kaydına dayanır."
+    },
+    {
+      "marka": "Subaru",
+      "model": "Impreza GJ / GK",
+      "yillar": "2012-2022",
+      "motor": "1.6 (FB16)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Impreza (GJ"
+        ],
+        "motor": [
+          "1.6"
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Insignia A",
+      "yillar": "2008-2017",
+      "motor": "1.6 115 (A16XER)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Insignia A"
+        ],
+        "motor": [
+          "A16XER"
+        ]
+      },
+      "not": "Insignia 1.6 benzinliye özgü kaynak aranmadı; gösterilen termostat gövdesi, soğutma suyu eksilmesi ve yağ soğutucu sorunu aynı A16XER motorunu kullanan Astra J kaydına dayanır."
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka / Mokka X",
+      "yillar": "2012-2016",
+      "motor": "1.6 115 (A16XER)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Mokka / Mokka X (2012-2016"
+        ],
+        "motor": [
+          "A16XER"
+        ]
+      },
+      "not": "Mokka 1.6 benzinliye özgü kaynak aranmadı; gösterilen termostat gövdesi, soğutma suyu eksilmesi ve yağ soğutucu sorunu aynı A16XER motorunu kullanan Astra J kaydına dayanır."
+    },
+    {
+      "marka": "Jeep",
+      "model": "Renegade",
+      "yillar": "2015-",
+      "motor": "1.6 MultiJet 120 (6MT ve DDCT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Renegade ("
+        ],
+        "motor": [
+          "1.6 MultiJet"
+        ]
+      },
+      "not": "Renegade DDCT'ye özgü kaynak çıkmadı (sonuçlar Egea üzerinden geldi). Gösterilen çift kütleli volan ve EGR / DPF sorunları aynı Multijet II motorunu kullanan Egea 1.6 kaydına dayanır. DDCT kavrama sorunu Egea 1.6 kaydına dayanır."
+    },
+    {
+      "marka": "Jeep",
+      "model": "Compass",
+      "yillar": "2017-",
+      "motor": "1.6 MultiJet 120 (6MT ve DDCT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Compass ("
+        ],
+        "motor": [
+          "1.6 MultiJet"
+        ]
+      },
+      "not": "Compass şanzıman şikâyetlerinde motor ve şanzıman kombinasyonu belirsiz. Gösterilen çift kütleli volan ve EGR / DPF sorunları aynı Multijet II motorunu kullanan Egea 1.6 kaydına dayanır."
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Giulietta",
+      "yillar": "2014-2020",
+      "motor": "1.6 JTDm 120 (Multijet II)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Giulietta (2014"
+        ],
+        "motor": [
+          "1.6 JTDm"
+        ]
+      },
+      "not": "Şikâyetler gövde ve elektronikte (yolcu airbag kapağı şişmesi, klima); motora özgü kaynaklı bulgu yok. Gösterilen çift kütleli volan ve EGR / DPF sorunları aynı Multijet II motorunu kullanan Egea 1.6 kaydına dayanır."
+    },
+    {
+      "marka": "Fiat",
+      "model": "500X",
+      "yillar": "2015-",
+      "motor": "1.6 MultiJet 120",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "500X ("
+        ],
+        "motor": [
+          "1.6 MultiJet"
+        ]
+      },
+      "not": "500X'e özgü kaynak aranmadı; gösterilen çift kütleli volan ve EGR / DPF sorunları aynı Multijet II motorunu kullanan Egea 1.6 kaydına dayanır."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Panda",
+      "yillar": "2012-2020",
+      "motor": "0.9 TwinAir / 1.2 Fire (Dualogic)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Panda ("
+        ],
+        "motor": [
+          "Dualogic"
+        ]
+      },
+      "not": "Panda 0.9 TwinAir için yağ tüketimi sonucu çıkmadı, motor yorumları genelde olumlu (şehir içinde yaklaşık 6 litre); Dualogic için DonanımHaber ve Ekşi Sözlük'te yağın azalıp katranlaşması, aktüatör pistonunda talaş birikimi (bir Lancia sahibinin anlatısı), vites yükseltmeme ve direksiyon sertleşmesi anlatıları var. Gösterilen hidrolik ünite, aktüatör ve kavrama sorunları aynı Dualogic şanzımanı kullanan Linea kaydına dayanır."
+    },
+    {
+      "marka": "Fiat",
+      "model": "500 Dualogic",
+      "yillar": "2008-",
+      "motor": "0.9 TwinAir / 1.2 Fire (Dualogic)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "500 Dualogic"
+        ],
+        "motor": [
+          "Dualogic"
+        ]
+      },
+      "not": "500 Dualogic'e özgü kaynak aranmadı; gösterilen hidrolik ünite, aktüatör ve kavrama sorunları aynı Dualogic şanzımanı kullanan Linea kaydına dayanır."
+    },
+    {
+      "marka": "Opel",
+      "model": "Insignia B",
+      "yillar": "2017-2022",
+      "motor": "1.6 CDTI 136",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Insignia B"
+        ],
+        "motor": [
+          "1.6 CDTI"
+        ]
+      },
+      "not": "Bu oturumdaki aramada Insignia B (GrandSport) 1.6 CDTI için DonanımHaber, Şikâyetvar ve Ekşi Sözlük'te turbo hortumunun bağlantı yerinden yırtılması (50 bin ve 72 bin km vakaları), enjektör şakırtısı ve zincir sesi anlatıları, otomatik şanzımanda titreme ve selenoid arızası (Şikâyetvar'da 187 bin km'de 202 bin TL'lik revizyon) çıktı; modele özgü kilometre bilgisi ve ikinci kaynakla doğrulanmış ayrı kayıt oluşmadı. Gösterilen triger zinciri ve turbo hortumu sorunları Astra J / K ve Insignia A kaynaklarına dayanır."
     }
   ]
 }

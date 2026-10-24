@@ -25,7 +25,8 @@ araçlar da kapsamdadır. Sorunlar, kaynaklar destekliyorsa üretim yılına gö
 | `scripts/kapsam_md_uret.py` | `KAPSAM.md` dosyasını plan ve veriden üretir |
 | `scripts/viewer_uret.py` | Tarayıcıda açılan tek dosyalık görüntüleyiciyi (`viewer/index.html`) üretir |
 | `viewer/sablon.html` | Görüntüleyicinin şablonu (arama, marka, model yılı, kilometre ve risk filtreleri) |
-| `tests/test_dogrula.py` | Doğrulayıcının birim testleri |
+| `tests/test_dogrula.py` | Doğrulayıcının birim testleri (aile kuralları dahil) |
+| `tests/test_kapsam.py` | Plan satırlarının kayıtlarla eşleşme kuralları ve `KAPSAM.md` üretimi testleri |
 | `KAYNAKLAR.md` | Kullanılan forum ve sitelerin listesi, türleri ve güvenilirlik notları |
 | `KAPSAM.md` | Hangi marka, model ve motor gruplarının planlandığı, hangilerinin tamamlandığı |
 | `DOGRULAMA_RAPORU.md` | Hangi maddelerin doğrulandığı, kaldırıldığı, düzeltildiği ve eklendiği |
@@ -84,6 +85,53 @@ Risk seviyeleri:
 - **Yüksek:** Motor/şanzıman hasarına veya aracın yolda kalmasına yol açabilen,
   onarımı pahalı sorunlar (elektrikli araçlarda batarya, şarj ünitesi ya da 12V akü kaynaklı güç kaybı dahil).
 
+## Ortak motor ve şanzıman aileleri (`aileler`)
+
+Aynı motoru ya da şanzımanı kullanan modeller aynı sorunları paylaşır (ör. 1.5 dCi K9K enjektörü Clio'da da Duster'da da,
+DQ200 DSG mekatroniği Polo'da da Octavia'da da). Bu sorunları her modelde baştan yazmak yerine kökte bir `aileler`
+listesi tutulur ve kayıtlar aileye bağlanır:
+
+```json
+{
+  "aileler": [
+    {
+      "id": "renault-k9k", "ad": "Renault K9K 1.5 dCi (common rail dizel)", "tur": "motor",
+      "aciklama": "...",
+      "kronik_sorunlar": [ { "id": "enjektor", "sorun_adi": "...", "kaynaklar": ["...", "..."] } ]
+    }
+  ],
+  "arac_listesi": [
+    { "marka": "Nissan", "model": "Note (E12, 2013-2017)", "motor": "1.5 dCi 90 (K9K)",
+      "aileler": ["renault-k9k"], "kronik_sorunlar": [] },
+    { "marka": "Renault", "model": "Clio 4 (2013-2019)", "motor": "1.5 dCi 75/90 (K9K)",
+      "aileler": ["renault-k9k"],
+      "kronik_sorunlar": [ { "sorun_adi": "Enjektör arızası", "aile_sorunu": "renault-k9k/enjektor", "...": "..." } ] }
+  ]
+}
+```
+
+| Alan | Açıklama |
+| --- | --- |
+| `aileler[].id` | Küçük harf, rakam ve tirelerden oluşan benzersiz kimlik |
+| `aileler[].tur` | `motor`, `sanziman` ya da `sistem` (ör. AdBlue, 48V hafif hibrit, xDrive aktarma) |
+| `aileler[].aciklama` | Ailenin hangi modellerde ve hangi yıllarda kullanıldığı (en fazla 500 karakter) |
+| `aileler[].kronik_sorunlar[]` | Kayda özgü sorunlarla aynı yapı ve aynı kaynak kuralı (en az iki site); ek olarak aile içinde benzersiz `id` |
+| `arac_listesi[].aileler` | Kaydın bağlı olduğu aile kimlikleri |
+| `kronik_sorunlar[].aile_sorunu` | `aile_id/sorun_id`. Kaydın kendi sorununun, o aile sorununun bu modelde de bildirildiğini gösterir; görüntüleyicide aile sorunu yerine bu kayıt gösterilir |
+
+Kurallar:
+
+- Bir kaydın en az bir kayda özgü sorunu **ya da** en az bir ailesi olmalıdır. Kayda özgü sorunu olmayıp yalnızca ailesi
+  olan kayıt **◐ (yalnızca ortak aile kaynağıyla)** sayılır: o modele özgü bir şikâyet doğrulanmamıştır, gösterilen sorunlar
+  aynı motoru ya da şanzımanı kullanan diğer modellerin kaynaklarına dayanır. Görüntüleyicide bu sorunlar kesik
+  çerçeveli "Ortak aile" etiketiyle, kayda özgü bildirimi de olanlar "Aile: ... · bu modelde de bildirilmiş" etiketiyle gösterilir.
+- Aile bağı otomatik kurulmaz: her bağ modelin, üretim yılının ve motor kodunun eşleştiği bilinen bir kombinasyona
+  dayanır; emin olunmayan eşleşme eklenmez. Kanıt yalnızca bir motor sürümü için varsa aile o sürüme göre daraltılır
+  (ör. VAG 1.2 TSI ve 1.4 TSI ayrı aileler; 1.6 TDI enjektörü ayrı, EGR / DPF ayrı).
+- Her aile en az bir kayıtta kullanılmalıdır; bilinmeyen aileye ya da aile sorununa işaret eden ya da kaydın bağlı olmadığı
+  aileden `aile_sorunu` yazan kayıt doğrulayıcı hatasıdır.
+- Aile sorunlarının kaynakları da `KAYNAKLAR.md` site ve kullanım sayımlarına dahildir.
+
 ## Dönem kırılımı
 
 Aynı motor her üretim yılında aynı sorunu yaşamaz: bir revizyon sorunu azaltabilir,
@@ -121,11 +169,11 @@ makyaj. Veritabanı bunları şu kurala göre ele alır:
 - Aynı motoru paylaşan modeller ayrı kayıt olarak durur (ör. 1.6 TDI CAYC: Polo ve Caddy). Bir kaydın verisi başka
   bir modelin kayıtlarından alındıysa bu metinde belirtilir (ör. Opel Grandland X DV5 kilometre aralığı Peugeot / Citroën
   kaydındaki kaynaklardan).
-- Motor kaynaklı sorunlar (ör. 1.5 TSI yağ eksiltmesi, 48V hafif hibrit sistem arızası) her modelde ayrı kayıt olarak
-  durur ve yalnızca o modele ait şikâyeti olan modellere yazılır; şikâyeti tekil kalan modeller planda `–` olarak
-  işlenir (ör. Ateca, Arteon, Golf 7.5 1.5 TSI). Modele özgü ikinci site yoksa aynı motoru taşıyan başka modelin
-  kaynağı kullanılabilir, ancak bu kaydın `detay` metninde açıkça yazılır ve kayıt doğrudan kanıtı sınırlı sayılır
-  (ör. Karoq ACT titreşimi, Formentor 48V).
+- Motor ve şanzıman kaynaklı sorunlar (ör. 1.5 TSI yağ eksiltmesi, 48V hafif hibrit sistem arızası, K9K enjektörü) ortak
+  aileye yazılır ([Ortak motor ve şanzıman aileleri](#ortak-motor-ve-şanzıman-aileleri-aileler)). Modele özgü şikâyeti de
+  olan kayıtlar kendi sorununu `aile_sorunu` ile aileye bağlar; modele özgü kaynağı olmayanlar ◐ olarak yalnızca aile
+  sorunlarını gösterir ve planda notla belirtilir. Aile sorunu başka bir modelin kaynağına dayandığı için bu kayıtlar
+  doğrudan kanıtı sınırlı sayılır.
 
 ## Elektrikli araçlar
 
@@ -191,10 +239,11 @@ görebilirsiniz. Yıl kırılımı olan sorunlarda girdiğiniz model yılının 
 Ayrıntısı olan sorunlarda "Ayrıntılar" bölümü açılır; "Tüm ayrıntıları aç" kutusu hepsini birden açar ve
 arama kutusu ayrıntı metinlerinde de arar.
 
-Sayfanın altındaki "Arandı ama kayıt açılmayan gruplar" bölümü, `data/kapsam.json` içindeki `–` satırlarını
-(kaynak arandı ama iki siteyle desteklenen, o motora özgü bir sorun bulunamadı) nedenleriyle gösterir;
-arama kutusu, marka, model yılı ve elektrikli filtresi bu bölüme de uygulanır. Bir araç ne kayıtlarda ne de bu
-bölümde yoksa henüz hiç aranmamıştır.
+Sayfanın altındaki "Kayıt açılmayan gruplar" bölümü, `data/kapsam.json` içinde kaydı olmayan satırları gösterir:
+**Arandı** işaretlilerde kaynak arandı ama iki siteyle desteklenen, o motora özgü bir sorun bulunamadı (nedeni yazılıdır);
+**Sırada** işaretliler listeye alındı ama henüz araştırılmadı. Arama kutusu, marka, model yılı ve elektrikli filtresi bu
+bölüme de uygulanır; sayfanın üstündeki bağlantı bölümü açar. Bir araç ne kayıtlarda ne de bu bölümde yoksa planda hiç
+yer almıyordur. "Q3", "X5" gibi kısa model kodları kelime başında aranır (ör. "DQ381" içindeki "q3" eşleşmez).
 
 ## Doğrulama
 
@@ -206,7 +255,8 @@ python3 -m unittest discover tests
 Betik; zorunlu alanları, tanımsız alanları, risk seviyesi değerlerini,
 kilometre aralığı biçimini (alt sınırın üst sınırdan küçük olması dahil),
 üretim yıllarını ve dönem kırılımı kurallarını (sıralı, çakışmayan, üretim yılları
-içinde), `detay` alanlarını (tanımlı beş alan, boş olmayan, en fazla 800 karakter), aynı marka/model/motor üçlüsünün tekrar edilmemesini ve kaynak kuralını
+içinde), `detay` alanlarını (tanımlı beş alan, boş olmayan, en fazla 800 karakter), aynı marka/model/motor üçlüsünün tekrar edilmemesini, aile kurallarını
+(benzersiz kimlik, bilinen ve kullanılan aile, geçerli `aile_sorunu` bağı, en az bir sorun ya da aile) ve kaynak kuralını
 kontrol eder. Hata bulunursa sıfırdan farklı bir çıkış koduyla sonlanır; başarılı
 çalışmada yalnızca iki siteyle desteklenen (sınırlı doğrulamalı) madde sayısını da yazar.
 
@@ -228,3 +278,7 @@ kontrol eder. Hata bulunursa sıfırdan farklı bir çıkış koduyla sonlanır;
 6. `data/kapsam.json` satırlarında birleşik etiket (ör. `1.4 TSI / 1.6 TDI`) kullanıyorsanız her
    alternatif `eslesme` içinde ayrı parça olmalı ve en az bir kayda denk gelmelidir; yalnızca bir
    kısmı kayıtlıysa satırı bölün (testler denetler).
+7. Bir motor ya da şanzıman sorunu en az iki modelde bildiriliyorsa onu `aileler` içine alın; aynı motoru kullandığı
+   kesin olan modelleri aileye bağlayın (kayıt yoksa `kronik_sorunlar: []` ile yalnızca aileli kayıt açın) ve plan
+   satırına modele özgü kaynak aranmadığını ya da bulunmadığını not edin. Motor kodu, model yılı ya da piyasa
+   (Türkiye'de satılıp satılmadığı) belirsizse bağ kurmayın.

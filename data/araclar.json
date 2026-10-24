@@ -1,6 +1,34 @@
 {
   "aileler": [
     {
+      "id": "audi-multitronic-0aw",
+      "ad": "Audi Multitronic (0AW) sürekli değişken şanzıman",
+      "tur": "sanziman",
+      "aciklama": "Audi'nin 2008-2014 arasında ön çekişli A4 (B8), A5 (8T) ve A6 (C7) modellerinde benzinli ve dizel motorlarla kullandığı Multitronic (0AW) zincirli sürekli değişken şanzıman (CVT).",
+      "kronik_sorunlar": [
+        {
+          "id": "multitronic-arizasi",
+          "sorun_adi": "Multitronic şanzıman titremesi ve arızası",
+          "etkilenen_parca": "Multitronic (CVT) şanzıman",
+          "belirtiler": "Kalkışta titreme, vuruntu, geç kavrama ve şanzıman arızası; onarım maliyeti yüksek",
+          "tahmini_km_araligi": "100.000 - 200.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "AudiWorld'ün B8 Multitronic yazısı şanzıman kontrol modülünü (TCM) en yaygın arıza noktalarından biri sayıyor ve düzenli yağ değişimiyle önlenebilecek erken yıpranma vakalarından söz ediyor. DonanımHaber'de 2.0 TDI Multitronic sahipleri kalkışta titremeyi ayrı konularda bildiriyor.",
+            "cozum": "TCM değişimi ya da yeniden programlama; onarım maliyeti yüksek bulunuyor (mevcut belirti).",
+            "onlem": "Şanzıman yağı değişimini zamanında yaptırmak; teşhis cihazıyla arıza kodlarını okutmak."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/audi-a4-2-0-tdi-multitronic-arac-sanziman-sorunu--154811654",
+            "https://forum.donanimhaber.com/audi-a4-2-0-tdi-multitronic-kalkista-titreme--83123761",
+            "https://www.araclo.com/blog/audi-a4-2.0-tdi-satin-alma-rehberi-kronik-sorunlar-bakim-maliyetleri-2026",
+            "https://www.audiworld.com/how-tos/a/audi-a4-b8-multitronic-cvt-problems-421233",
+            "https://www.arabam.com/blog/danisman/multitronic-sanziman-nedir/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "bmw-b38-1-5",
       "ad": "BMW B38 1.5 üç silindir turbo benzin",
       "tur": "motor",
@@ -530,6 +558,139 @@
             "https://www.vauxhallownersnetwork.co.uk/threads/astra-1-3-cdti-timing-chain.316850/",
             "https://www.araclo.com/blog/opel-corsa-1.3-cdti-alinir-mi-kronik-sorunlar-kullanici-yorumlari-ve-ikinci-el-alim-rehberi",
             "https://forum.donanimhaber.com/corsa-1-3-cdti-multijet-160k-km-titretisim-problemi--134600465"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiat-1-6-multijet-ii",
+      "ad": "Fiat / Jeep / Alfa 1.6 Multijet II - JTDm (common rail dizel)",
+      "tur": "motor",
+      "aciklama": "Fiat Grubu'nun 2013-2014'ten itibaren Egea (Tipo), 500X, Jeep Renegade, Compass ve Alfa Romeo Giulietta'da kullandığı 1.6 litre common rail dizel motor (Multijet II; 120 PS). Çift kütleli volan ve EGR / DPF sorunları motor genelinde anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "cift-kutleli-volan",
+          "sorun_adi": "Çift kütleli volan arızası",
+          "etkilenen_parca": "Çift kütleli volan (manuel şanzımanlı versiyon)",
+          "belirtiler": "Kalkışta titreme, rölantide tıkırtı, kontak kapatılırken sarsıntı",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Egea'ya özgü doğrudan kanıt sınırlı. Fiat Forum'da bir Tipo (Egea'nın Avrupa'daki adı) sahibi sorunun şanzıman değil volan olduğunu ve bu volan tipinin diğer araçlarda da bilinen bir sorun olduğunu yazıyor; başka bir kullanıcıda çift kütleli volan içeriden bozulmuş. CarChecker.pro rehberi (zayıf kaynak) aşınmayı motor torkunun debriyaj ve volana bindirmesine bağlıyor, dur-kalk şehir trafiğinde daha sık olduğunu söylüyor. Şikâyetvar'daki Egea 'volan' şikâyetleri çoğunlukla baskı-balata ve volan değişimini konu alıyor; şanzıman tipi (manuel/DCT) her zaman belirtilmiyor.",
+            "teshis": "Rölantide gelen ve debriyaj pedalına basınca azalan tıkırtı çift kütleli volan sorununa uyuyor (CarChecker.pro, Fiat Forum). Şanzıman çıkarılınca volanda aşırı dönme boşluğu, pürüz ya da ısı izi varsa değişim gerekiyor. Tıkırtının volandan geldiği her zaman kesin değil: bir forum kullanıcısı DCT'li aracında balata değişiminde volanın sağlam çıktığını ve değiştirilmediğini yazıyor.",
+            "cozum": "Forum tavsiyesi, işçiliği iki kez ödememek için debriyaj ve volanı birlikte değiştirmek (Fiat Forum). Bir DonanımHaber kullanıcısı yetkili servisin baskı, balata, bilya ve volan değişimi için yaklaşık 25 bin TL teklif ettiğini yazıyor.",
+            "maliyet": "2023-2025 dönemi kullanıcı beyanları: baskı-balata-bilya-volan değişimi yetkili serviste yaklaşık 25 bin, özel serviste yaklaşık 20 bin TL; bir yorumcu volan parçasını yaklaşık 12 bin, kavrama setini yaklaşık 5 bin TL tahmin ediyor. Şikâyetvar'da 96 bin km'deki otomatik bir Egea için ücretli baskı-balata ve volan değişimine 52.697 TL alındığı bildiriliyor. CarChecker.pro Avrupa'da bu iş için bağımsız serviste 900-1.200 €, bayide 1.500-1.800 € tahmin ediyor. Hepsi tek tek beyan, resmî liste değil."
+          },
+          "kaynaklar": [
+            "https://www.fiatforum.com/threads/tipo-clutch-replacement.522340/",
+            "https://www.sikayetvar.com/fiat/egea/volan",
+            "https://www.carchecker.pro/reports/fiat_tipo_mk2_1.6_multijet.html",
+            "https://forum.donanimhaber.com/baski-balata-bilya-volant-degisimi-25bin-tl-egea-1-6-multijet--157442527",
+            "https://www.sikayetvar.com/fiat/egea/dizel-otomatik"
+          ]
+        },
+        {
+          "id": "egr-dpf",
+          "sorun_adi": "EGR ve DPF tıkanması",
+          "etkilenen_parca": "EGR valfi, dizel partikül filtresi (DPF)",
+          "belirtiler": "Çekiş kaybı, DPF uyarısı, sık rejenerasyon, motor arıza lambası",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe ve şehir içi kullanımda DPF'nin kendini temizleme (rejenerasyon) döngüsünü tamamlayamaması ve EGR valfinin kurumla kirlenmesi, kullanıcıların en sık aktardığı neden (Araclo, DonanımHaber). Bir forum kullanıcısı filtrenin dolmasından kalın mazotu sorumlu tutuyor (kanıtlanmamış görüş).",
+            "teshis": "Çekiş kaybı, motor arıza lambası, rölantide stop etme, DPF uyarısı ve sık rejenerasyon. Beyaz duman ve aşırı yakıt tüketiminde EGR, DPF, enjektör ve turbo birlikte kontrol edilmeli; önce arıza kodları okutulmalı (DonanımHaber).",
+            "cozum": "EGR valfi kirlenmesinde periyodik temizlik çoğu vakada işe yarıyor, ileri durumda valf değişimi gerekebiliyor (DonanımHaber). DPF için temizlik (bir kullanıcı 7.500 TL ödeyerek temizlettiğini yazıyor) ya da değişim. Forumlarda EGR/DPF iptali de yaygın ama uygulamanın kalitesi çok değişiyor, muayeneden kalma ve hukuki risk taşıyor; bir kullanıcı iptal sonrası arıza lambasının sönmediğini yazıyor.",
+            "maliyet": "Eski ve tarihli forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), EGR valfi servis fiyatı 1.515 TL / yan sanayi parçası ~400 TL ve işçilik ~150 TL, DPF temizliği 7.500 TL; bir kullanıcıya DPF değişimi için servis ~45 bin TL söylenmiş; bir atölyeye EGR ve partikül temizliği için 6.000 TL ödenip sonuç tatmin edici olmamış. Güncel teklif için servisten yazılı fiyat alın.",
+            "onlem": "Forumlarda DPF'nin kendini temizleyebilmesi için düzenli aralıklarla en az 20-30 dakika orta-yüksek devirli sürüş öneriliyor. İkinci elde EGR/DPF'si iptal edilmiş araçlardan uzak durulması öneriliyor: hem muayene hem hukuki risk taşıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/egea/partikul-filtresi",
+            "https://otopark.com/forum/threads/egea-dpf-iptali-sonrasi-yasanan-sorunlar.15711/",
+            "https://www.fiatforum.com/threads/1-3-multijet.476537/",
+            "https://forum.donanimhaber.com/egea-1-3-multijet-beyaz-duman-fazla-yakit-cozuldu--147630865",
+            "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
+            "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiat-ddct-6",
+      "ad": "Fiat Grubu 6 ileri kuru çift kavramalı DCT (DDCT)",
+      "tur": "sanziman",
+      "aciklama": "Fiat Grubu'nun Egea (Tipo) 1.6 Multijet, Jeep Renegade ve Compass'ta kullandığı 6 ileri kuru kavramalı çift kavramalı şanzıman (DDCT). Kavrama aşınması ve yazılım sorunları anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "kavrama-asinmasi-yazilim",
+          "sorun_adi": "DCT şanzıman kavrama aşınması ve yazılım sorunları",
+          "etkilenen_parca": "Çift kavramalı şanzıman (DCT) kavrama takımı ve şanzıman beyni",
+          "belirtiler": "Düşük hızda silkeleme, kalkışta gecikme ve ani hamle, vites geçişlerinde sarsıntı",
+          "tahmini_km_araligi": "40.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DCT kuru kavramalı çift kavramalı şanzımandır. Araclo ağır dur-kalk şehir trafiğinde debriyaj balatalarının erken aşındığını, bazı kullanıcıların 30.000-50.000 km gibi düşük kilometrelerde şanzıman arızası yaşadığını yazıyor. Araclo'nun Egea Cross incelemesi kalkışta gecikme ve ani hamleyi, Fiat'ın şanzımanı 320 Nm torktan koruyan yazılımına bağlıyor (tek kaynak).",
+            "teshis": "Düşük hızda silkeleme, kalkışta gecikme ve ani hamle, vites geçişlerinde sarsıntı.",
+            "cozum": "DonanımHaber'de uzun süreli bir sahip çift kavramalı şanzımanların er geç kavrama değişimi gerektirdiğini, bunun için 80-100 bin km'yi tipik gördüğünü yazıyor (tek kişi deneyimi). Şikâyetvar'da garanti tartışmaları öne çıkıyor: 39.000 km'de baskı balata ve volan arızası bayice garanti dışı bırakılan bir 2025 Egea, 96.000 km'de baskı balata ve volanı ücretli değiştirten bir sahip ve garanti dışı 90.000 TL talep edilen bir baskı balata/volan arızası itirazı gibi başlıklar var.",
+            "maliyet": "Şikâyetvar'daki bir başlıkta garanti dışı baskı balata ve volan arızası için 90.000 TL talep edildiği yazılı (tek vaka, tarihi belirsiz); başka ücret verisi bulunamadı.",
+            "onlem": "Garanti süresindeyken sorunu yazılı kayda geçirtmek; yoğun dur-kalk kullanımda kavrama ömrünün kısaldığı yazılıyor (Araclo)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/egea/otomatik-sanziman",
+            "https://forum.donanimhaber.com/egea-1-6-multijet2-dct-detayli-inceleme-80-bin-km-geride-kaldi--130178669-28",
+            "https://www.araclo.com/blog/fiat-egea-1.6-multijet-130-hp-dct-incelemesi-ne-kadar-yakar-alinir-mi",
+            "https://www.sikayetvar.com/fiat/egea/volan",
+            "https://www.araclo.com/blog/fiat-egea-cross-incelemesi-motor-secenekleri-sorunlar-ve-kullanici-yorumlari-alinir-mi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiat-dualogic",
+      "ad": "Fiat Dualogic tek kavramalı robotize şanzıman",
+      "tur": "sanziman",
+      "aciklama": "Fiat'ın Linea, Panda, 500, Punto ve Bravo'da benzinli ve Multijet dizel motorlarla kullandığı 5 / 6 ileri tek kuru kavramalı robotize şanzıman (Dualogic). Hidrolik ünite, aktüatör ve kavrama aşınması sorunları anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "hidrolik-aktuator",
+          "sorun_adi": "Dualogic hidrolik ünite ve aktüatör arızası",
+          "etkilenen_parca": "Dualogic robotize şanzıman hidrolik pompası ve aktüatörleri",
+          "belirtiler": "Vites geçmeme, şanzıman arıza uyarısı, göstergede vites harfinin yanıp sönmesi, hidrolik yağ kaçağı, hidrolik pompanın sürekli çalışma sesi",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Dualogic robotize bir şanzımandır. Punto/Fiorino/Linea konularında vites geçmeme ya da boşa atma sorununun robot üzerindeki aktüatöre kir/çapak birikmesinden kaynaklanabildiği, çözümün parçanın temizlenip gresleyerek takılması olduğu (yaklaşık 30 dakikalık işlem) yazılı. Benzinli Dualogic'lerde kronik yağ kaçağı olduğu da belirtiliyor.",
+            "teshis": "Vites geçmeme, şanzıman uyarısı, göstergede vites harfinin yanıp sönmesi, hidrolik yağ kaçağı. Bir kullanıcı dizel Dualogic'lerde kronik sorun görülmediğini yazıyor; görüşler ayrışıyor.",
+            "cozum": "Basit vakada aktüatörün temizlenip gresslenmesi. Kavrama ya da hidrolik bileşenlerde sorun varsa yetkili servis ya da Dualogic bilen bir usta; bir kullanıcıya servis doğrudan değişim önermiş ve masraf 6-7 bin TL'ye varabilmiş (eski rakam).",
+            "maliyet": "Eski forum rakamları: aktüatör temizliği düşük maliyetli; doğrudan değişim önerilen vakada 6-7 bin TL (yıl belirsiz, güncel değil)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiat-linea-otomatik-sanziman-arizasi",
+            "https://forum.donanimhaber.com/dualogic-linea-almayi-dusunuyorum-almali-miyim--146854142",
+            "https://www.fiatforum.com/threads/hydraulic-pump-problems.310766",
+            "https://www.fiatforum.com/500/425006-one-only-dualogic-failure-thread-23.html?p=4279881",
+            "https://www.service4service.co.uk/car-repairs/gearboxes/fiat-gearboxes",
+            "https://otopark.com/forum/threads/fiat-dualogic-sanziman-bilgi.14475/",
+            "https://forum.donanimhaber.com/fiat-fiorino-dualogic-tamiri--153251999"
+          ]
+        },
+        {
+          "id": "kavrama-asinmasi",
+          "sorun_adi": "Dualogic kavrama (debriyaj) aşınması",
+          "etkilenen_parca": "Robotize şanzıman debriyaj seti",
+          "belirtiler": "Kalkışta tereddüt, trafik ışığında vitese geçmeme, yokuşta kayma hissi",
+          "tahmini_km_araligi": "50.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Robotize şanzımanın kuru debriyajı kalkışta ve dur-kalkta yıpranıyor; forumlarda baskı balata değişimi Dualogic'in en bilinen bakım kalemlerinden biri olarak geçiyor.",
+            "teshis": "Kalkışta tereddüt, trafik ışığında vitese geçmeme, yokuşta kayma hissi (mevcut belirtiler).",
+            "cozum": "Kavrama (baskı balata) değişimi.",
+            "maliyet": "Eski forum rakamlarında kavrama değişimi 1.500-4.000 TL ve ~3 bin TL arasında, Fiorino yorumunda komple değişim birkaç bin TL; yıllar öncesine ait, güncel fiyatları yansıtmıyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/dualogic-linea-almayi-dusunuyorum-almali-miyim--146854142",
+            "https://www.fiatforum.com/threads/dualogic-problem-or-clutch.521638/",
+            "https://www.sikayetvar.com/fiat/fiat-linea-otomatik-sanziman-arizasi",
+            "https://forum.donanimhaber.com/fiat-fiorino-dualogic-tamiri--153251999"
           ]
         }
       ]
@@ -1116,6 +1277,36 @@
       ]
     },
     {
+      "id": "opel-a16xer-1-6",
+      "ad": "Opel 1.6 Ecotec (A16XER) atmosferik benzin",
+      "tur": "motor",
+      "aciklama": "Opel'in 2009'dan itibaren Astra J, Insignia A ve Mokka'da kullandığı 1.6 litre atmosferik benzinli motor (A16XER; 115 PS). Termostat gövdesi sızıntısı, soğutma suyu eksilmesi ve yağ soğutucu arızası bu motor için anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "termostat-yag-sogutucusu",
+          "sorun_adi": "Termostat gövdesi sızıntısı, soğutma suyu eksilmesi ve yağ soğutucu arızası",
+          "etkilenen_parca": "Plastik termostat gövdesi, yağ soğutucu (yağ-su eşanjörü) ve contaları",
+          "belirtiler": "Soğutma suyu seviyesinin düşmesi ve uyarısı, hararet, bazı vakalarda soğutma suyuna yağ ya da yağa su karışması",
+          "tahmini_km_araligi": "30.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı Astra J 1.6 benzinlide termostat arızası, eksantrik dişlisi arızası, yağ soğutucu arızası ve subap erimesini tekrar eden kronik arızalar olarak sayıyor; başka bir kullanıcı 1.6 Ecotec'te termostat kütüğünün de kaçırdığını yazıyor. Kaynaklarda orijinal termostatın yaklaşık 103 °C'de açacak şekilde ayarlı olduğu ve plastik gövdenin zamanla sızdırabildiği belirtiliyor. Yağa su karışmasının termostat ve yağ soğutucunun birlikte arızalanmasından kaynaklandığını gösteren bir teknik kaynak bulunamadı.",
+            "teshis": "DonanımHaber'de bir kullanıcı 1.6 Astra J'de 6 ayda bir soğutucu uyarısı aldığını, servislerin kaçak bulamadığını, sonunda sorunun termostat bölümünden çıktığını yazıyor; LPG hatları ve su pompası da olası neden olarak anılıyor.",
+            "cozum": "Bir kullanıcı 34.000 km'de orijinal termostatı değiştirdiğini, 67.000 km'de aynı parçanın yeniden sızdırdığını bildiriyor. Bir forumda yağ soğutucu radyatörünün 100 bin km'den sonra patlayıp yağa su karıştırabildiği yazılıyor (tek yorum).",
+            "maliyet": "DonanımHaber'de bir kullanıcı 2011 model Astra J'de soğutma suyuna yağ karışması sorununu iki kez yaşadığını, son onarımda radyatör dahil birçok parçanın değiştiğini ve yaklaşık 6.000 TL ödediğini yazıyor (tarih belirsiz; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/atmosferik-benzinli-opel-astralarin-kronik-sorunu-icin-cozum-oneriniz--145695479",
+            "https://forum.donanimhaber.com/astra-j-su-eksiltme-sorunu--153143656",
+            "https://forum.donanimhaber.com/astra-j-6-ayda-bir-su-eksiltiyor--101063076",
+            "https://forum.donanimhaber.com/opel-markasi-neden-hararetli-calisir--89682895-2",
+            "https://otopark.com/forum/threads/astra-j-1-6-otomatik-nasildir-kronik-problemleri-var-mi.14812/",
+            "https://www.araclo.com/blog/opel-astra-1.6-atmosferik-alinir-mi-kronik-sorunlar-ve-yorumlar"
+          ]
+        }
+      ]
+    },
+    {
       "id": "psa-bluehdi-adblue",
       "ad": "PSA BlueHDi AdBlue (SCR) sistemi",
       "tur": "sistem",
@@ -1229,7 +1420,7 @@
       "id": "psa-dv6-hdi-tdci",
       "ad": "PSA / Ford 1.6 HDi - e-HDi - BlueHDi - TDCi (DV6)",
       "tur": "motor",
-      "aciklama": "Peugeot, Citroën, Ford (1.6 TDCi), Volvo (D2 / D DRIVe), Suzuki (1.6 DDiS) ve Mazda'nın (1.6 MZ-CD) kullandığı 1.6 litre common rail dizel motor (DV6). 207, 208, 301, 308, 3008, C3, C4, C-Elysée, Berlingo, Partner, Focus, Fiesta, C-Max, Transit Connect, V40, S60 ve S-Cross'ta bulunur.",
+      "aciklama": "Peugeot, Citroën, Ford (1.6 TDCi), Volvo (D2 / D DRIVe), Mazda'nın (1.6 MZ-CD) kullandığı 1.6 litre common rail dizel motor (DV6). 207, 208, 301, 308, 3008, C3, C4, C-Elysée, Berlingo, Partner, Focus, Fiesta, C-Max, Transit Connect, V40, S60 ve V60'ta bulunur.",
       "kronik_sorunlar": [
         {
           "id": "enjektor",
@@ -1732,6 +1923,47 @@
             "https://forum.donanimhaber.com/egr-valfi-temizligi--30929546",
             "https://forum.donanimhaber.com/egr-belirli-araliklar-ile-temizlenmeli-mi--132082187",
             "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "subaru-fb20",
+      "ad": "Subaru FB20 2.0 boxer (atmosferik benzin)",
+      "tur": "motor",
+      "aciklama": "Subaru'nun 2011'den itibaren XV, Forester ve Impreza'da kullandığı 2.0 litre dört silindirli boxer benzinli motor (FB20; 150 PS). Aşırı yağ tüketimi bu motor için anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "yag-tuketimi",
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Motor (piston segmanları / yağ sıyırma sistemi; kaynaklarda kesin parça belirtilmiyor)",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ lambasının yanması, servis tarafından 'normal' denilen tüketim",
+          "tahmini_km_araligi": "10.000 - 125.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda neden açıklanmıyor. DonanımHaber'de bir kullanıcı 2015 öncesi XV'lerde kronik yağ yakma problemi olduğunu yazıyor; aynı kullanıcı üreticinin önerdiği 0W-20 yağın Türkiye'de çoğu zaman bulunamadığı için 5W-30 kullanıldığını ve daha ince spesifikasyonlu yağın sonradan yağ kaybına yol açmış gibi göründüğünü ekliyor (tek kullanıcının görüşü, doğrulanmadı).",
+            "teshis": "Şikâyetvar'da 2015 model ikinci el bir XV sahibi 125 bin km'de 1.000 km'de yaklaşık 600 ml yağ yaktığını ve yağ lambasının üç kez yandığını yazıyor; başka bir kullanıcı 2013 model aracında 10 bin km'de yaklaşık 3 litre yağ tüketildiğini ve servisin bunun normal olduğunu söylediğini bildiriyor. Bir forum yorumunda 2014 model bir XV'nin 6.000 km'de yağsızlık nedeniyle motorunun değiştirildiği, bir şikâyette yağ uyarısı nedeniyle motorun indirilmesi gerektiği ve bunun yüksek maliyetli olacağı anlatılıyor.",
+            "cozum": "Birkaç şikâyette yetkili servislerin tüketimi 'normal' sayıp yağı tamamladığı, sorunun kökünün bulunamadığı yazılıyor. Resmî bir Subaru servis bülteni ya da kampanyası bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/subaru/subaru-motorun-yag-eksiltmesi",
+            "https://www.sikayetvar.com/subaru/2017-model-subaru-xv-yag-eksiltiyor",
+            "https://www.sikayetvar.com/subaru/xv",
+            "https://forum.donanimhaber.com/subaru-xv-yakit-tuketimi-video-eklendi--146259158"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2012,
+              "bitis": 2014,
+              "durum": "Yaygın",
+              "not": "Bir kullanıcı 2012-2014 model XV'lerin kronik sorununun yağ yakan motor olduğunu yazıyor; DonanımHaber'de de 2015 öncesi için benzer bir yorum var."
+            },
+            {
+              "baslangic": 2015,
+              "bitis": 2017,
+              "durum": "Görülebilir",
+              "not": "Şikâyetvar'da 2015 ve 2017 model XV'ler için yağ eksiltme şikâyetleri var; sıklığı kaynaklardan anlaşılmıyor."
+            }
           ]
         }
       ]
@@ -2387,6 +2619,19 @@
   ],
   "arac_listesi": [
     {
+      "marka": "Alfa Romeo",
+      "model": "Giulietta (2014-2020)",
+      "motor": "1.6 JTDm 120 (Multijet II)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-6-multijet-ii"
+      ]
+    },
+    {
       "marka": "Audi",
       "model": "A1 (8X, 2010-2014)",
       "motor": "1.4 TFSI 122 (EA111, S tronic DQ200)",
@@ -2695,10 +2940,12 @@
             "https://www.araclo.com/blog/audi-a4-2.0-tdi-satin-alma-rehberi-kronik-sorunlar-bakim-maliyetleri-2026",
             "https://forum.donanimhaber.com/audi-a4-2-0-tdi-multitronic-arac-sanziman-sorunu--154811654",
             "https://www.arabam.com/blog/danisman/multitronic-sanziman-nedir/"
-          ]
+          ],
+          "aile_sorunu": "audi-multitronic-0aw/multitronic-arizasi"
         }
       ],
       "aileler": [
+        "audi-multitronic-0aw",
         "vag-ea888-gen2"
       ]
     },
@@ -2727,8 +2974,12 @@
             "https://forum.donanimhaber.com/audi-a4-2-0-tdi-multitronic-kalkista-titreme--83123761",
             "https://www.araclo.com/blog/audi-a4-2.0-tdi-satin-alma-rehberi-kronik-sorunlar-bakim-maliyetleri-2026",
             "https://www.audiworld.com/how-tos/a/audi-a4-b8-multitronic-cvt-problems-421233"
-          ]
+          ],
+          "aile_sorunu": "audi-multitronic-0aw/multitronic-arizasi"
         }
+      ],
+      "aileler": [
+        "audi-multitronic-0aw"
       ]
     },
     {
@@ -2742,6 +2993,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-ea888-gen2"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 (C7, 2011-2014)",
+      "motor": "2.0 TDI 177 (Multitronic)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "audi-multitronic-0aw"
       ]
     },
     {
@@ -4348,6 +4612,19 @@
     },
     {
       "marka": "Fiat",
+      "model": "500 Dualogic (2008-)",
+      "motor": "0.9 TwinAir / 1.2 Fire (Dualogic)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-dualogic"
+      ]
+    },
+    {
+      "marka": "Fiat",
       "model": "500L (2013-2022)",
       "motor": "1.3 Multijet 95",
       "uretim_yillari": {
@@ -4357,6 +4634,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "fiat-1-3-multijet"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "500X (2015-)",
+      "motor": "1.6 MultiJet 120",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-6-multijet-ii"
       ]
     },
     {
@@ -4593,7 +4883,8 @@
             "https://www.carchecker.pro/reports/fiat_tipo_mk2_1.6_multijet.html",
             "https://forum.donanimhaber.com/baski-balata-bilya-volant-degisimi-25bin-tl-egea-1-6-multijet--157442527",
             "https://www.sikayetvar.com/fiat/egea/dizel-otomatik"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-6-multijet-ii/cift-kutleli-volan"
         },
         {
           "sorun_adi": "EGR ve DPF tıkanması",
@@ -4615,7 +4906,8 @@
             "https://forum.donanimhaber.com/egea-1-3-multijet-beyaz-duman-fazla-yakit-cozuldu--147630865",
             "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
             "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806"
-          ]
+          ],
+          "aile_sorunu": "fiat-1-6-multijet-ii/egr-dpf"
         },
         {
           "sorun_adi": "DCT şanzıman kavrama aşınması ve yazılım sorunları",
@@ -4636,8 +4928,13 @@
             "https://www.araclo.com/blog/fiat-egea-1.6-multijet-130-hp-dct-incelemesi-ne-kadar-yakar-alinir-mi",
             "https://www.sikayetvar.com/fiat/egea/volan",
             "https://www.araclo.com/blog/fiat-egea-cross-incelemesi-motor-secenekleri-sorunlar-ve-kullanici-yorumlari-alinir-mi"
-          ]
+          ],
+          "aile_sorunu": "fiat-ddct-6/kavrama-asinmasi-yazilim"
         }
+      ],
+      "aileler": [
+        "fiat-1-6-multijet-ii",
+        "fiat-ddct-6"
       ]
     },
     {
@@ -4770,7 +5067,8 @@
             "https://www.service4service.co.uk/car-repairs/gearboxes/fiat-gearboxes",
             "https://otopark.com/forum/threads/fiat-dualogic-sanziman-bilgi.14475/",
             "https://forum.donanimhaber.com/fiat-fiorino-dualogic-tamiri--153251999"
-          ]
+          ],
+          "aile_sorunu": "fiat-dualogic/hidrolik-aktuator"
         },
         {
           "sorun_adi": "Dualogic kavrama (debriyaj) aşınması",
@@ -4789,7 +5087,8 @@
             "https://www.fiatforum.com/threads/dualogic-problem-or-clutch.521638/",
             "https://www.sikayetvar.com/fiat/fiat-linea-otomatik-sanziman-arizasi",
             "https://forum.donanimhaber.com/fiat-fiorino-dualogic-tamiri--153251999"
-          ]
+          ],
+          "aile_sorunu": "fiat-dualogic/kavrama-asinmasi"
         },
         {
           "sorun_adi": "EGR valfi tıkanması",
@@ -4840,7 +5139,21 @@
         }
       ],
       "aileler": [
-        "fiat-1-3-multijet"
+        "fiat-1-3-multijet",
+        "fiat-dualogic"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Panda (2012-2020)",
+      "motor": "0.9 TwinAir / 1.2 Fire (Dualogic)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-dualogic"
       ]
     },
     {
@@ -6510,6 +6823,34 @@
       ]
     },
     {
+      "marka": "Jeep",
+      "model": "Compass (2017-)",
+      "motor": "1.6 MultiJet 120 (6MT ve DDCT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-6-multijet-ii",
+        "fiat-ddct-6"
+      ]
+    },
+    {
+      "marka": "Jeep",
+      "model": "Renegade (2015-)",
+      "motor": "1.6 MultiJet 120 (6MT ve DDCT)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-6-multijet-ii",
+        "fiat-ddct-6"
+      ]
+    },
+    {
       "marka": "Kia",
       "model": "Ceed (CD, 2018-)",
       "motor": "1.6 CRDi 115/136 (6MT ve 7DCT)",
@@ -7463,7 +7804,7 @@
     {
       "marka": "Mercedes-Benz",
       "model": "Sprinter (W906, 2006-2018)",
-      "motor": "211-319 CDI 2.1 (OM651)",
+      "motor": "209-316 CDI 2.1 (OM651)",
       "uretim_yillari": {
         "baslangic": 2006,
         "bitis": 2018
@@ -8275,8 +8616,12 @@
             "https://forum.donanimhaber.com/opel-markasi-neden-hararetli-calisir--89682895-2",
             "https://otopark.com/forum/threads/astra-j-1-6-otomatik-nasildir-kronik-problemleri-var-mi.14812/",
             "https://www.araclo.com/blog/opel-astra-1.6-atmosferik-alinir-mi-kronik-sorunlar-ve-yorumlar"
-          ]
+          ],
+          "aile_sorunu": "opel-a16xer-1-6/termostat-yag-sogutucusu"
         }
+      ],
+      "aileler": [
+        "opel-a16xer-1-6"
       ]
     },
     {
@@ -8663,6 +9008,19 @@
     },
     {
       "marka": "Opel",
+      "model": "Insignia A (2008-2017)",
+      "motor": "1.6 115 (A16XER)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "opel-a16xer-1-6"
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Insignia A (2014-2017)",
       "motor": "1.6 CDTI 136",
       "uretim_yillari": {
@@ -8712,6 +9070,19 @@
           "aile_sorunu": "opel-1-6-cdti/triger-zinciri"
         }
       ],
+      "aileler": [
+        "opel-1-6-cdti"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Insignia B (2017-2022)",
+      "motor": "1.6 CDTI 136",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
       "aileler": [
         "opel-1-6-cdti"
       ]
@@ -8789,6 +9160,19 @@
       "aileler": [
         "psa-bluehdi-adblue",
         "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka / Mokka X (2012-2016)",
+      "motor": "1.6 115 (A16XER)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "opel-a16xer-1-6"
       ]
     },
     {
@@ -9383,7 +9767,7 @@
     },
     {
       "marka": "Peugeot",
-      "model": "Partner / Rifter (2008-2018)",
+      "model": "Partner (2008-2018)",
       "motor": "1.6 HDi 75/92/100/115 (DV6)",
       "uretim_yillari": {
         "baslangic": 2008,
@@ -11228,6 +11612,32 @@
     },
     {
       "marka": "Subaru",
+      "model": "Forester (SJ, 2013-2018)",
+      "motor": "2.0 boxer 150 (FB20)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "subaru-fb20"
+      ]
+    },
+    {
+      "marka": "Subaru",
+      "model": "Impreza (GJ / GK, 2012-2022)",
+      "motor": "2.0 boxer 150 (FB20)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "subaru-fb20"
+      ]
+    },
+    {
+      "marka": "Subaru",
       "model": "XV (2012-2017)",
       "motor": "2.0 benzinli boxer",
       "uretim_yillari": {
@@ -11265,21 +11675,12 @@
               "durum": "Görülebilir",
               "not": "Şikâyetvar'da 2015 ve 2017 model XV'ler için yağ eksiltme şikâyetleri var; sıklığı kaynaklardan anlaşılmıyor."
             }
-          ]
+          ],
+          "aile_sorunu": "subaru-fb20/yag-tuketimi"
         }
-      ]
-    },
-    {
-      "marka": "Suzuki",
-      "model": "SX4 S-Cross / Vitara (2013-)",
-      "motor": "1.6 DDiS 120 (DV6)",
-      "uretim_yillari": {
-        "baslangic": 2013,
-        "bitis": null
-      },
-      "kronik_sorunlar": [],
+      ],
       "aileler": [
-        "psa-dv6-hdi-tdci"
+        "subaru-fb20"
       ]
     },
     {

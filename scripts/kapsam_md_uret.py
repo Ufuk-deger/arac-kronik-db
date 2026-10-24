@@ -124,16 +124,18 @@ def uret():
         "- **Motor versiyonları:** Kaynaklar iki versiyonu motor kodu, güç, şanzıman ya da kasa/nesil ile ayırt ediyorsa ayrı kayıt açılır "
         "(ör. M271 Kompressor ve M271 EVO; N47D16 ve N47D20; Qashqai J11 1.5 dCi ve 1.6 dCi Xtronic). "
         "Ayırt etmiyorlarsa kayıt bölünmez, fark metinde ya da `donem_kirilimi` içinde belirtilir ([README](README.md#motor-versiyonları)).",
-        "- **Aynı motoru paylaşan modeller:** Motor kaynaklı sorunlar (ör. 1.5 TSI yağ eksiltmesi, 48V hafif hibrit sistem) her modelde ayrı kayıt olarak durur "
-        "ve yalnızca o modele ait şikâyeti olan modellere yazılır. Modele özgü ikinci site bulunamazsa aynı motoru taşıyan başka modelin kaynağı kullanılabilir; "
-        "bu durum kaydın `detay` metninde açıkça yazılır ve kayıt doğrudan kanıtı sınırlı sayılır (ör. Karoq ACT titreşimi, Formentor 48V).",
+        "- **Aynı motoru ya da şanzımanı paylaşan modeller (10. aşamadan itibaren):** Motor ve şanzıman kaynaklı sorunlar ortak ailelere yazılır "
+        "([README](README.md#ortak-motor-ve-şanzıman-aileleri-aileler)); aynı motoru ya da şanzımanı kullandığı bilinen modeller aileye bağlanır. "
+        "Modele özgü kaynağı olan kayıtlar kendi sorununu aile sorununa bağlar (✓); modele özgü kaynağı olmayanlar yalnızca ortak aile kaynağıyla kayıtlıdır (◐) "
+        "ve plan notunda modele özgü kaynağın aranmadığı ya da bulunmadığı yazılır. Bu kayıtlar doğrudan kanıtı sınırlı sayılır ve görüntüleyicide \"Ortak aile\" etiketiyle ayrılır. "
+        "Aile bağı yalnızca model, yıl ve motor kodunun eşleştiği bilinen kombinasyonlar için kurulur.",
         "- **İlan sayısı kontrolü:** 7. aşamada plan, arabam.com'un aylık ilan sıralamaları ve Cardata listeleriyle karşılaştırıldı "
         "(sahibinden.com'un canlı model sayıları okunamadı) ve en çok ilanlı modellerin motor boşlukları kapatıldı. \"Çok ilanlı\" olmak tek başına "
         "kayıt gerekçesi değildir: tekrar eden bir kronik sorun için iki bağımsız kaynak bulunamazsa grup `–` olarak kalır.",
         "- **Çok kullanılan araç denetimi:** 9. aşamada plan, trafikteki araç sayıları (TÜİK verisine dayanan yaklaşık 2024 listeleri) ve ikinci el satış sıralamalarıyla "
         "model, nesil ve motor düzeyinde yeniden karşılaştırıldı. Bir satırın `eslesme` parçalarından her biri en az bir kayda denk gelmelidir (test denetler); "
         "\"1.4 TSI / 1.6 TDI\" gibi birleşik bir satırın yalnızca bir parçası kayıtlıysa satır bölünür, böylece ✓ kayıtsız bir motoru gizleyemez. "
-        "Aranıp eklenmeyen (–) gruplar görüntüleyicide \"Arandı ama kayıt açılmayan gruplar\" bölümünde nedenleriyle gösterilir.",
+        "Aranıp eklenmeyen (–) gruplar ile sıraya alınmış (○) gruplar görüntüleyicide \"Kayıt açılmayan gruplar\" bölümünde gösterilir.",
         "- **Kanıt eşiği:** Her sorun için en az iki farklı site ve en az bir deneyim/resmî türünde kaynak gerekir "
         "([README](README.md#kaynak-kuralı)). Kaynak bulunamayan gruplar plana `–` olarak işlenir; sorun uydurulmaz.",
         "",
