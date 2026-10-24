@@ -17,11 +17,14 @@ kaynaklar destekliyorsa üretim yılına göre kırılır (ör. revizyon öncesi
 | --- | --- |
 | `data/araclar.json` | Veritabanının kendisi |
 | `data/kaynaklar.json` | Kaynak sitelerin kayıt defteri (ad, ülke, tür, güvenilirlik) |
+| `data/kapsam.json` | Kapsam planı: markalar, modeller, motor grupları ve kademeleri |
 | `schema/araclar.schema.json` | Veri yapısını tanımlayan JSON Schema (draft 2020-12) |
 | `scripts/dogrula.py` | Veriyi ve kaynak kurallarını doğrulayan betik (yalnızca Python standart kütüphanesi) |
 | `scripts/kaynaklar_md_uret.py` | `KAYNAKLAR.md` dosyasını üretir |
+| `scripts/kapsam_md_uret.py` | `KAPSAM.md` dosyasını plan ve veriden üretir |
 | `tests/test_dogrula.py` | Doğrulayıcının birim testleri |
 | `KAYNAKLAR.md` | Kullanılan forum ve sitelerin listesi, türleri ve güvenilirlik notları |
+| `KAPSAM.md` | Hangi marka, model ve motor gruplarının planlandığı, hangilerinin tamamlandığı |
 | `DOGRULAMA_RAPORU.md` | Hangi maddelerin doğrulandığı, kaldırıldığı, düzeltildiği ve eklendiği |
 
 ## Veri yapısı
@@ -107,7 +110,8 @@ Bir sorun veritabanına ancak şu koşullarla girer:
 
 Kullanılan sitelerin listesi ve güvenilirlik notları için
 [KAYNAKLAR.md](KAYNAKLAR.md), doğrulama sırasında yapılan değişiklikler için
-[DOGRULAMA_RAPORU.md](DOGRULAMA_RAPORU.md) dosyalarına bakın.
+[DOGRULAMA_RAPORU.md](DOGRULAMA_RAPORU.md), kapsam ve ilerleme için [KAPSAM.md](KAPSAM.md)
+dosyalarına bakın.
 
 ## Doğrulama
 
@@ -132,4 +136,7 @@ kontrol eder. Hata bulunursa sıfırdan farklı bir çıkış koduyla sonlanır;
 3. Aynı motoru paylaşan araçlar (ör. 1.5 dCi kullanan Renault ve Dacia
    modelleri) her biri ayrı kayıt olarak eklenir.
 4. `python3 scripts/dogrula.py` komutunun hatasız tamamlandığından emin olun,
-   ardından `python3 scripts/kaynaklar_md_uret.py` ile `KAYNAKLAR.md` dosyasını yenileyin.
+   ardından `python3 scripts/kaynaklar_md_uret.py` ve `python3 scripts/kapsam_md_uret.py` ile
+   `KAYNAKLAR.md` ve `KAPSAM.md` dosyalarını yenileyin.
+5. Kaynak bulunamayan bir model/motor grubu için sorun uydurmayın; `data/kapsam.json`
+   içinde ilgili satıra `"sonuc": "yetersiz-kanit"` ve nedenini yazın.
