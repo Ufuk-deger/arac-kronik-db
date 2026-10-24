@@ -141,6 +141,84 @@
         "adet": 9857,
         "kapsam": "ek",
         "not": "Ek kademe: Leon ve Ibiza ikinci elde yaygın. Rakam doğrulanamadı."
+      },
+      {
+        "marka": "Chevrolet",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Cruze kaydı ilk aşamadan; Captiva / Aveo Faz 4'te arandı, kanıt tek rehber sitesinde kaldığı için eklenmedi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Volvo",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te S60 / V40 1.6 D Powershift eklendi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Subaru",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te XV 2.0 yağ tüketimi eklendi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Mini",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te arandı; ikinci bağımsız kaynak bulunamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Jeep",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te arandı; ikinci bağımsız kaynak bulunamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Alfa Romeo",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te arandı; motorlara özgü kaynaklı bulgu çıkmadığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Mazda",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te arandı; Türkiye'ye özgü kronik sorun kaynağı çıkmadığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Suzuki",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te arandı; bulgular tek rehber sitesi ve elektronik şikâyetlerle sınırlı kaldığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Mitsubishi",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te arandı; ikinci bağımsız kaynak bulunamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Land Rover",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te arandı; ikinci bağımsız kaynak bulunamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Cupra",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te arandı; şikâyetler tekil kaldığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "MG",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te arandı; HS şanzıman şikâyetleri yalnızca Şikâyetvar'da, model yılı ve sürüm bilgisi doğrulanamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Lexus",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 4'te arandı; sonuç çıkmadı. Satış adedi doğrulanamadı."
       }
     ],
     "kaynaklar": [
@@ -1100,8 +1178,8 @@
           "Corsa D"
         ],
         "motor": [
-          "1.2",
-          "1.4"
+          "A12XER",
+          "A14XER"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -1838,18 +1916,19 @@
       "marka": "Toyota",
       "model": "Auris",
       "yillar": "2013-2018",
-      "motor": "1.33 / 1.6 / 1.4 D-4D",
+      "motor": "1.33 / 1.6 (benzinli)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Auris"
         ],
         "motor": [
-          ""
+          "1.33",
+          "1.6"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "1.33'te yağ tüketimi ve oksijen sensörü tekil şikâyetler (yağ tüketimi Corolla 1.33 kaydında); 1.4 D-4D için güvenilir kaynak yok."
+      "not": "1.33'te yağ tüketimi ve oksijen sensörü tekil şikâyetler (yağ tüketimi Corolla 1.33 kaydında); 1.6 için kaynak yok. 1.4 D-4D, Faz 4'te ayrı satır ve kayıt olarak eklendi."
     },
     {
       "marka": "Toyota",
@@ -3248,6 +3327,585 @@
       },
       "sonuc": "yetersiz-kanit",
       "not": "Q3'e özgü kaynak bulunamadı; 2.0 TFSI yağ tüketimi Q5 ve A4 kayıtlarında ele alındı."
+    },
+    {
+      "marka": "Opel",
+      "model": "Corsa D",
+      "yillar": "2006-2014",
+      "motor": "1.2 / 1.3 CDTI (Easytronic)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Corsa D (2006"
+        ],
+        "motor": [
+          "Easytronic"
+        ]
+      }
+    },
+    {
+      "marka": "Toyota",
+      "model": "Auris",
+      "yillar": "2007-2018",
+      "motor": "1.4 D-4D (1ND-TV)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Auris"
+        ],
+        "motor": [
+          "1.4 D-4D"
+        ]
+      }
+    },
+    {
+      "marka": "Renault",
+      "model": "Captur",
+      "yillar": "2013-2019",
+      "motor": "1.5 dCi (K9K, EDC)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Captur (2013"
+        ],
+        "motor": [
+          "1.5 dCi"
+        ]
+      }
+    },
+    {
+      "marka": "Renault",
+      "model": "Talisman",
+      "yillar": "2016-2022",
+      "motor": "1.6 dCi / 1.5 dCi (EDC)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Talisman"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Ford",
+      "model": "EcoSport",
+      "yillar": "2013-2022",
+      "motor": "1.0 EcoBoost",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "EcoSport"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Nissan",
+      "model": "Qashqai J11",
+      "yillar": "2014-2020",
+      "motor": "1.6 dCi 130 (R9M, Xtronic CVT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Qashqai (J11"
+        ],
+        "motor": [
+          "R9M, Xtronic"
+        ]
+      }
+    },
+    {
+      "marka": "Volvo",
+      "model": "S60 / V40",
+      "yillar": "2011-2018",
+      "motor": "1.6 D DRIVe (Powershift)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "S60"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Subaru",
+      "model": "XV",
+      "yillar": "2012-2017",
+      "motor": "2.0 benzinli boxer",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "XV"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Renault",
+      "model": "Kangoo",
+      "yillar": "2008-2021",
+      "motor": "1.5 dCi (K9K)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Kangoo"
+        ],
+        "motor": [
+          "1.5 dCi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Kangoo'ya özgü ayrı kaynak yok; K9K enjektör ve EGR anlatıları Clio, Megane ve Duster kayıtlarında ele alındı."
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka / Mokka X",
+      "yillar": "2012-2020",
+      "motor": "1.4 Turbo (A14NET) / 1.6 CDTI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Mokka"
+        ],
+        "motor": [
+          "CDTI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Mokka 1.6 CDTI zincir sesi ve otomatik şanzıman (P0741) şikâyetleri yalnızca Şikâyetvar'da; A14NET 1.4 Turbo için Mokka'ya özgü kaynak çıkmadı."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "207 / 206",
+      "yillar": "2006-2014",
+      "motor": "1.6 VTi (EP6)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "207"
+        ],
+        "motor": [
+          "VTi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "EP6 zincir uzaması iddiası tek bir rehber sitesine (Araclo) dayanıyor; forum ve şikâyet kaynaklarında doğrulanmadı."
+    },
+    {
+      "marka": "Citroen",
+      "model": "Berlingo / Partner",
+      "yillar": "2008-2018",
+      "motor": "1.6 HDi (DV6)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Berlingo"
+        ],
+        "motor": [
+          "HDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Turbo yağ besleme borusu tıkanıklığı tek bir forum yanıtına dayanıyor; Şikâyetvar'daki Berlingo kayıtları ağırlıkla 1.5 BlueHDi zinciri (ayrı kayıtta)."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "ix35 / Santa Fe",
+      "yillar": "2010-2018",
+      "motor": "1.7 / 2.0 / 2.2 CRDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "ix35"
+        ],
+        "motor": [
+          "CRDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "ix35 1.7 / 2.0 CRDi ve Santa Fe 2.2 CRDi için model özelinde kaynak çıkmadı; bulunanlar ix35 1.6 GDI için tek rehber sitesi."
+    },
+    {
+      "marka": "Kia",
+      "model": "Sorento / Venga",
+      "yillar": "2010-2018",
+      "motor": "2.2 CRDi / 1.4 CRDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Sorento"
+        ],
+        "motor": [
+          "CRDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Sorento 2.2 CRDi ve Venga 1.4 CRDi için kaynak çıkmadı."
+    },
+    {
+      "marka": "Kia",
+      "model": "Cerato",
+      "yillar": "2013-2018",
+      "motor": "1.6 (arka stop ve bagajdan su alma)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Cerato"
+        ],
+        "motor": [
+          "1.6"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Su alma şikâyetleri Şikâyetvar'da çok, ancak kilometre ve model yılı verisi yok ve ikinci bağımsız kaynak (Ekşi'de tek yorum) sınırlı."
+    },
+    {
+      "marka": "Ford",
+      "model": "Mondeo / Transit Connect / Courier",
+      "yillar": "2007-2019",
+      "motor": "2.0 / 1.6 TDCi, 1.5 TDCi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Mondeo"
+        ],
+        "motor": [
+          "TDCi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Mondeo için tekil direksiyon, enjektör ve DPF anlatıları var; Transit Connect ve Courier 1.5 TDCi için sonuç çıkmadı."
+    },
+    {
+      "marka": "Ford",
+      "model": "Transit Custom",
+      "yillar": "2012-",
+      "motor": "2.0 EcoBlue",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Transit Custom"
+        ],
+        "motor": [
+          "EcoBlue"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Yağ tüketimi ve turbo şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız kaynak bulunamadı."
+    },
+    {
+      "marka": "Chevrolet",
+      "model": "Captiva / Aveo / Lacetti",
+      "yillar": "2007-2016",
+      "motor": "2.0 VCDi, 1.4 / 1.2",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Captiva"
+        ],
+        "motor": [
+          "VCDi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Captiva 2.0 D ve Aveo 1.4 zincir iddiaları tek rehber sitesine dayanıyor; Lacetti için sonuç çıkmadı."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Transporter T5 / T6",
+      "yillar": "2003-",
+      "motor": "2.0 TDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Transporter"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "T5 / T6 2.0 TDI için kronik arıza listesi çıkmadı; yalnızca tekil enjektör ve turbo anlatıları."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat B7",
+      "yillar": "2010-2014",
+      "motor": "2.0 TDI (CFFB / CBAB)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Passat (B7"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "B7'ye özgü zincir ya da yüksek basınç pompası kaynağı çıkmadı; enjektör anlatıları PD motorlu B6 kaydında."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Linea / Punto",
+      "yillar": "2007-2015",
+      "motor": "1.4 T-Jet",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Linea"
+        ],
+        "motor": [
+          "T-Jet"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "T-Jet'e özgü kaynak çıkmadı; Punto şikâyetleri ağırlıkla direksiyon (EPS) üzerine ve ayrı kayıtta."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Vito / Sprinter",
+      "yillar": "2010-",
+      "motor": "2.2 CDI (OM651)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Vito"
+        ],
+        "motor": [
+          "CDI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "OM651 anlatıları C ve E Serisi kayıtlarında; Vito ve Sprinter'a özgü ayrı kaynak yok."
+    },
+    {
+      "marka": "Renault",
+      "model": "Master / Trafic",
+      "yillar": "2010-",
+      "motor": "2.3 dCi (M9T)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Master"
+        ],
+        "motor": [
+          "2.3 dCi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "M9T için kol yatağı, turbo ve enjektör kanıtı yok; EGR / DPF anlatıları tek rehber sitesinden."
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi E90 / 5 Serisi E60",
+      "yillar": "2005-2013",
+      "motor": "316i / 318i / 320i (N46 / N52), 520i",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "E90"
+        ],
+        "motor": [
+          "N46"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "N46 / N52'ye özgü ayrıntılı kaynak çıkmadı; soğutma sistemi ve yağ kaçağı anlatıları tekil. N47 zincir sorunu ayrı kayıtlarda."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Yaris / Avensis",
+      "yillar": "2011-",
+      "motor": "1.33 / hibrit / 2.0 D-4D",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Yaris"
+        ],
+        "motor": [
+          "1.33"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Yaris (1.33, hibrit) ve Avensis 2.0 D-4D için güvenilir bir kronik sorun listesi çıkmadı; yalnızca tekil şikâyetler."
+    },
+    {
+      "marka": "Mini",
+      "model": "Cooper (R56 / F56)",
+      "yillar": "2007-2020",
+      "motor": "1.6 (N14) / 1.5 üç silindir",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Cooper"
+        ],
+        "motor": [
+          "N14"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Zincir ve devirdaim / termostat anlatıları tek tek forum yorumları; N14'e özgü ikinci kaynak yok."
+    },
+    {
+      "marka": "Jeep",
+      "model": "Renegade / Compass",
+      "yillar": "2015-",
+      "motor": "1.6 MultiJet (DDCT) / 1.4 MultiAir",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Renegade"
+        ],
+        "motor": [
+          "MultiJet"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Renegade DDCT'ye özgü kaynak çıkmadı (sonuçlar Egea üzerinden geldi); Compass şanzıman şikâyetlerinde motor ve şanzıman kombinasyonu belirsiz."
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Giulietta",
+      "yillar": "2010-2020",
+      "motor": "1.4 MultiAir / 1.6 JTDM",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Giulietta"
+        ],
+        "motor": [
+          "Multi"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetler gövde ve elektronikte (yolcu airbag kapağı şişmesi, klima); motorlara özgü kaynaklı bulgu yok."
+    },
+    {
+      "marka": "Mazda",
+      "model": "3 / 6 / CX-5",
+      "yillar": "2013-",
+      "motor": "Skyactiv-G / Skyactiv-D",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Mazda"
+        ],
+        "motor": [
+          "Skyactiv"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Skyactiv motorlar için Türkiye'ye özgü kronik sorun kaynağı çıkmadı; 2.2 dizelin Türkiye'de satılmadığı yazılıyor."
+    },
+    {
+      "marka": "Suzuki",
+      "model": "SX4 S-Cross / Vitara / Swift",
+      "yillar": "2014-",
+      "motor": "1.4 BoosterJet / 1.6 DDiS",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "S-Cross"
+        ],
+        "motor": [
+          "Booster"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Bulgular tek rehber sitesi (Araclo) ve Şikâyetvar'ın elektronik / multimedya şikâyetleriyle sınırlı."
+    },
+    {
+      "marka": "Mitsubishi",
+      "model": "L200 / ASX / Lancer",
+      "yillar": "2010-",
+      "motor": "2.5 DI-D / 1.6 MIVEC",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "L200"
+        ],
+        "motor": [
+          "DI-D"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "L200 DPF ve turbo anlatıları rehber siteleri ve tekil Şikâyetvar kayıtları; ASX 1.6 MIVEC sıcak marş sorunu yalnızca Ekşi'de."
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Freelander 2",
+      "yillar": "2007-2014",
+      "motor": "2.2 TD4",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Freelander"
+        ],
+        "motor": [
+          "TD4"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Turbo hortumu ve Haldex anlatıları tekil; Discovery Sport ve Evoque için güvenilir kaynak yok."
+    },
+    {
+      "marka": "Cupra",
+      "model": "Formentor",
+      "yillar": "2020-",
+      "motor": "1.5 eTSI (DSG)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Formentor"
+        ],
+        "motor": [
+          "eTSI"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetler tekil (DSG, alternatör, multimedya); bağımsız ikinci kaynak yok."
+    },
+    {
+      "marka": "MG",
+      "model": "HS",
+      "yillar": "2021-",
+      "motor": "1.5 T (DCT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "HS"
+        ],
+        "motor": [
+          "DCT"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şanzıman gecikmesi şikâyetleri yalnızca Şikâyetvar'da; model yılı ve sürüm bilgisi doğrulanamadı."
+    },
+    {
+      "marka": "Lexus",
+      "model": "IS / CT 200h",
+      "yillar": "2011-",
+      "motor": "2.5 / 1.8 hibrit",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "IS"
+        ],
+        "motor": [
+          "hibrit"
+        ]
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Aramada sonuç çıkmadı."
     }
   ]
 }

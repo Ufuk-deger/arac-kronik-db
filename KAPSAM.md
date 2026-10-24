@@ -20,33 +20,46 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **195** model/motor grubu
-- Tamamlanan (✓): **122**
-- Araştırılıp eklenmeyen (–): **73**
+- Plan: **230** model/motor grubu
+- Tamamlanan (✓): **130**
+- Araştırılıp eklenmeyen (–): **100**
 - Sırada (○): **0**
 - Kademe 1: **85/85** işlendi (✓ ya da –)
-- Veritabanı: **126** kayıt, **195** kronik sorun
+- Veritabanı: **134** kayıt, **203** kronik sorun
 
 | Marka | Plan | ✓ | – | ○ | Kademe 1 işlenen |
 | --- | ---: | ---: | ---: | ---: | ---: |
-| Renault | 14 | 10 | 4 | 0 | 7/7 |
-| Volkswagen | 19 | 15 | 4 | 0 | 9/9 |
-| Toyota | 11 | 3 | 8 | 0 | 5/5 |
-| Fiat | 11 | 9 | 2 | 0 | 5/5 |
-| Hyundai | 16 | 10 | 6 | 0 | 9/9 |
-| Peugeot | 8 | 6 | 2 | 0 | 4/4 |
-| Opel | 14 | 8 | 6 | 0 | 4/4 |
-| Citroen | 6 | 5 | 1 | 0 | 3/3 |
+| Renault | 18 | 12 | 6 | 0 | 7/7 |
+| Volkswagen | 21 | 15 | 6 | 0 | 9/9 |
+| Toyota | 13 | 4 | 9 | 0 | 5/5 |
+| Fiat | 12 | 9 | 3 | 0 | 5/5 |
+| Hyundai | 17 | 10 | 7 | 0 | 9/9 |
+| Peugeot | 9 | 6 | 3 | 0 | 4/4 |
+| Opel | 16 | 9 | 7 | 0 | 4/4 |
+| Citroen | 7 | 5 | 2 | 0 | 3/3 |
 | Skoda | 11 | 7 | 4 | 0 | 5/5 |
-| Mercedes-Benz | 13 | 8 | 5 | 0 | 5/5 |
-| BMW | 9 | 5 | 4 | 0 | 4/4 |
-| Nissan | 10 | 6 | 4 | 0 | 4/4 |
-| Ford | 12 | 6 | 6 | 0 | 7/7 |
-| Kia | 10 | 6 | 4 | 0 | 4/4 |
+| Mercedes-Benz | 14 | 8 | 6 | 0 | 5/5 |
+| BMW | 10 | 5 | 5 | 0 | 4/4 |
+| Nissan | 11 | 7 | 4 | 0 | 4/4 |
+| Ford | 15 | 7 | 8 | 0 | 7/7 |
+| Kia | 12 | 6 | 6 | 0 | 4/4 |
 | Dacia | 11 | 8 | 3 | 0 | 3/3 |
 | Audi | 9 | 5 | 4 | 0 | 4/4 |
 | Honda | 7 | 3 | 4 | 0 | 2/2 |
 | Seat | 4 | 2 | 2 | 0 | 1/1 |
+| Chevrolet | 1 | 0 | 1 | 0 | 0/0 |
+| Volvo | 1 | 1 | 0 | 0 | 0/0 |
+| Subaru | 1 | 1 | 0 | 0 | 0/0 |
+| Mini | 1 | 0 | 1 | 0 | 0/0 |
+| Jeep | 1 | 0 | 1 | 0 | 0/0 |
+| Alfa Romeo | 1 | 0 | 1 | 0 | 0/0 |
+| Mazda | 1 | 0 | 1 | 0 | 0/0 |
+| Suzuki | 1 | 0 | 1 | 0 | 0/0 |
+| Mitsubishi | 1 | 0 | 1 | 0 | 0/0 |
+| Land Rover | 1 | 0 | 1 | 0 | 0/0 |
+| Cupra | 1 | 0 | 1 | 0 | 0/0 |
+| MG | 1 | 0 | 1 | 0 | 0/0 |
+| Lexus | 1 | 0 | 1 | 0 | 0/0 |
 
 ## Markalar
 
@@ -76,6 +89,19 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | 11+ | Audi | 24.832 | Ek kademe | Ek kademe: ikinci el pazarındaki yaygınlığı nedeniyle sonra eklenecek. Rakam doğrulanamadı. |
 | 11+ | Honda | 16.137 | Ek kademe | Ek kademe: Civic ikinci elde çok sorgulanıyor. Rakam doğrulanamadı. |
 | 11+ | Seat | 9.857 | Ek kademe | Ek kademe: Leon ve Ibiza ikinci elde yaygın. Rakam doğrulanamadı. |
+| 11+ | Chevrolet | — | Ek kademe | Ek kademe: Cruze kaydı ilk aşamadan; Captiva / Aveo Faz 4'te arandı, kanıt tek rehber sitesinde kaldığı için eklenmedi. Satış adedi doğrulanamadı. |
+| 11+ | Volvo | — | Ek kademe | Ek kademe: Faz 4'te S60 / V40 1.6 D Powershift eklendi. Satış adedi doğrulanamadı. |
+| 11+ | Subaru | — | Ek kademe | Ek kademe: Faz 4'te XV 2.0 yağ tüketimi eklendi. Satış adedi doğrulanamadı. |
+| 11+ | Mini | — | Ek kademe | Ek kademe: Faz 4'te arandı; ikinci bağımsız kaynak bulunamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
+| 11+ | Jeep | — | Ek kademe | Ek kademe: Faz 4'te arandı; ikinci bağımsız kaynak bulunamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
+| 11+ | Alfa Romeo | — | Ek kademe | Ek kademe: Faz 4'te arandı; motorlara özgü kaynaklı bulgu çıkmadığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
+| 11+ | Mazda | — | Ek kademe | Ek kademe: Faz 4'te arandı; Türkiye'ye özgü kronik sorun kaynağı çıkmadığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
+| 11+ | Suzuki | — | Ek kademe | Ek kademe: Faz 4'te arandı; bulgular tek rehber sitesi ve elektronik şikâyetlerle sınırlı kaldığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
+| 11+ | Mitsubishi | — | Ek kademe | Ek kademe: Faz 4'te arandı; ikinci bağımsız kaynak bulunamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
+| 11+ | Land Rover | — | Ek kademe | Ek kademe: Faz 4'te arandı; ikinci bağımsız kaynak bulunamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
+| 11+ | Cupra | — | Ek kademe | Ek kademe: Faz 4'te arandı; şikâyetler tekil kaldığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
+| 11+ | MG | — | Ek kademe | Ek kademe: Faz 4'te arandı; HS şanzıman şikâyetleri yalnızca Şikâyetvar'da, model yılı ve sürüm bilgisi doğrulanamadığı için kayıt eklenmedi. Satış adedi doğrulanamadı. |
+| 11+ | Lexus | — | Ek kademe | Ek kademe: Faz 4'te arandı; sonuç çıkmadı. Satış adedi doğrulanamadı. |
 
 \* İlk 10 sıra birden fazla haberde tutarlıdır (Volkswagen ve Toyota için küçük rakam farkları notlandı). 11. sıradan sonrası rakamlar tek bir tablodan alınmış ve ikinci bir kaynakta doğrulanamamıştır; bu yüzden sıra numarası verilmedi ve liste adet sırasındadır. Ford'un otomobil adedi bulunamadı. Kapsamdaki 15 marka bu belirsizliklerden etkilenmez, ancak 11-20. sıradaki markaların kendi aralarındaki sırası kesin değildir. Resmî tablo için ODMD'nin yıllık bülteni esas alınmalıdır.
 
@@ -109,6 +135,10 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | Megane 3 / Fluence | 2009-2016 | 1.6 16V (K4M, LPG'li dahil) | – eklenmedi: Aramalarda LPG'li K4M supap oturması anılıyor ama iki bağımsız site bulunamadı. |
 | 2 | Megane 4 | 2016- | 1.6 SCe 115 (H4M) | – eklenmedi: Aramalarda H4M motoruna özgü arıza çıkmadı; şikâyetler motor tipi belirtmeyen genel Megane 4 konularına (yağ sızıntısı, soğutma, enjeksiyon uyarısı) ve LPG'li araçlara ait. |
 | 2 | Symbol | 2008-2020 | 1.2 16V 75 (D4F) | – eklenmedi: Aramalarda D4F motoruna özgü tekrar eden sorun çıkmadı; şikâyetler soğukta marş ve klima gibi tekil konularda. |
+| 3 | Captur | 2013-2019 | 1.5 dCi (K9K, EDC) | ✓ 1 sorun |
+| 3 | Kangoo | 2008-2021 | 1.5 dCi (K9K) | – eklenmedi: Kangoo'ya özgü ayrı kaynak yok; K9K enjektör ve EGR anlatıları Clio, Megane ve Duster kayıtlarında ele alındı. |
+| 3 | Master / Trafic | 2010- | 2.3 dCi (M9T) | – eklenmedi: M9T için kol yatağı, turbo ve enjektör kanıtı yok; EGR / DPF anlatıları tek rehber sitesinden. |
+| 3 | Talisman | 2016-2022 | 1.6 dCi / 1.5 dCi (EDC) | ✓ 1 sorun |
 
 ### Volkswagen
 
@@ -133,6 +163,8 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | Polo 6R / 6C | 2009-2017 | 1.4 TDI / 1.6 TDI | ✓ 1 sorun |
 | 2 | Tiguan 5N | 2008-2016 | 2.0 TDI | – eklenmedi: 5N 2.0 TDI'ya özgü turbo, EGR, DPF ya da zincir sorunu için kaynak çıkmadı; sonuçlar 1.4 TSI ve genel Passat 2.0 TDI yorumlarına ait. |
 | 2 | Tiguan AD1 | 2016- | 2.0 TDI | ✓ 1 sorun |
+| 3 | Passat B7 | 2010-2014 | 2.0 TDI (CFFB / CBAB) | – eklenmedi: B7'ye özgü zincir ya da yüksek basınç pompası kaynağı çıkmadı; enjektör anlatıları PD motorlu B6 kaydında. |
+| 3 | Transporter T5 / T6 | 2003- | 2.0 TDI | – eklenmedi: T5 / T6 2.0 TDI için kronik arıza listesi çıkmadı; yalnızca tekil enjektör ve turbo anlatıları. |
 
 ### Toyota
 
@@ -143,12 +175,14 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | Corolla E150 FL / E170 | 2009-2018 | 1.33 Dual VVT-i 99 | ✓ 1 sorun |
 | 1 | Corolla E210 | 2019- | 1.5 Dynamic Force (M15A-FKS) | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | Corolla E210 | 2019- | 1.8 Hybrid (2ZR-FXE) | – eklenmedi: Şikâyetler ses yalıtımı, fren diski paslanması ve 12V akü gibi mekanik olmayan konularda; tekrar eden mekanik sorun bulunamadı. |
-| 2 | Auris | 2013-2018 | 1.33 / 1.6 / 1.4 D-4D | – eklenmedi: 1.33'te yağ tüketimi ve oksijen sensörü tekil şikâyetler (yağ tüketimi Corolla 1.33 kaydında); 1.4 D-4D için güvenilir kaynak yok. |
+| 2 | Auris | 2013-2018 | 1.33 / 1.6 (benzinli) | – eklenmedi: 1.33'te yağ tüketimi ve oksijen sensörü tekil şikâyetler (yağ tüketimi Corolla 1.33 kaydında); 1.6 için kaynak yok. 1.4 D-4D, Faz 4'te ayrı satır ve kayıt olarak eklendi. |
 | 2 | Corolla E170 | 2013-2018 | 1.4 D-4D | – eklenmedi: Aramalar E150 ve E170 ayrımı yapmıyor; turbo ve DPF anıları dağınık; enjektör ve yağ tüketimi E150 1.4 D-4D kaydında. |
 | 2 | Corolla E170 | 2013-2018 | 1.6 Valvematic (Multidrive S) | – eklenmedi: Şikâyet sitelerinde 1.6 Valvematic ve Multidrive S için tekrar eden bir sorun kümesi bulunamadı. |
 | 2 | Yaris | 2011-2019 | 1.33 / 1.5 Hybrid | – eklenmedi: Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı. |
+| 3 | Auris | 2007-2018 | 1.4 D-4D (1ND-TV) | ✓ 1 sorun, 1 yıl kırılımı |
 | 3 | Corolla E150 | 2007-2013 | 1.4 D-4D (1ND-TV) | ✓ 2 sorun |
 | 3 | RAV4 / Hilux | 2013- | 2.0 / 2.5 Hybrid / 2.4 D-4D | – eklenmedi: RAV4 için sistematik sorun çıkmadı; Hilux 2.4 DPF / PCS arıza şikâyetleri yalnızca Şikâyetvar'da (ikinci bağımsız kaynak yok). |
+| 3 | Yaris / Avensis | 2011- | 1.33 / hibrit / 2.0 D-4D | – eklenmedi: Yaris (1.33, hibrit) ve Avensis 2.0 D-4D için güvenilir bir kronik sorun listesi çıkmadı; yalnızca tekil şikâyetler. |
 
 ### Fiat
 
@@ -165,6 +199,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | Punto Evo / Grande Punto | 2009-2018 | 1.3 Multijet 75/95 | ✓ 2 sorun |
 | 2 | Punto Evo / Grande Punto | 2009-2018 | 1.4 Fire 77 | ✓ 2 sorun |
 | 3 | Fiorino / Qubo | 2008-2020 | 1.3 Multijet | ✓ 3 sorun |
+| 3 | Linea / Punto | 2007-2015 | 1.4 T-Jet | – eklenmedi: T-Jet'e özgü kaynak çıkmadı; Punto şikâyetleri ağırlıkla direksiyon (EPS) üzerine ve ayrı kayıtta. |
 
 ### Hyundai
 
@@ -186,6 +221,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | i30 (FD) | 2008-2012 | 1.4 / 1.6 MPI, 1.6 GDI (EPS) | ✓ 1 sorun |
 | 2 | ix35 | 2010-2015 | 1.6 GDI / 1.7 CRDi | – eklenmedi: Şikâyetler iç trim, 4x4 şanzıman dişlisi ve LPG'li soğuk çalıştırma gibi tekil konularda; 1.7 CRDi Türkiye'de neredeyse hiç satılmamış. |
 | 3 | Kona | 2018- | 1.0 T-GDI / 1.6 T-GDI / 1.6 CRDi | – eklenmedi: 1.6 CRDi DCT kalkış titremesi yalnızca Şikâyetvar kayıtlarında; ikinci bağımsız kaynak bulunamadı. Benzer 7DCT kavrama titremesi Tucson, Bayon, i20 (BC3) ve Sportage kayıtlarında ele alındı. |
+| 3 | ix35 / Santa Fe | 2010-2018 | 1.7 / 2.0 / 2.2 CRDi | – eklenmedi: ix35 1.7 / 2.0 CRDi ve Santa Fe 2.2 CRDi için model özelinde kaynak çıkmadı; bulunanlar ix35 1.6 GDI için tek rehber sitesi. |
 
 ### Peugeot
 
@@ -196,6 +232,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 1 | 208 / 2008 / 308 / 3008 / 5008 | 2019- | 1.5 BlueHDi 100/130 (DV5) | ✓ 1 sorun, 1 yıl kırılımı |
 | 1 | 301 | 2012- | 1.6 HDi / BlueHDi (DV6) | ✓ 3 sorun |
 | 2 | 308 / 3008 | 2007-2014 | 1.6 THP (EP6) | ✓ 3 sorun, 1 yıl kırılımı |
+| 3 | 207 / 206 | 2006-2014 | 1.6 VTi (EP6) | – eklenmedi: EP6 zincir uzaması iddiası tek bir rehber sitesine (Araclo) dayanıyor; forum ve şikâyet kaynaklarında doğrulanmadı. |
 | 3 | 301 | 2012- | 1.2 VTi / PureTech | ✓ 2 sorun |
 | 3 | 508 | 2011-2018 | 1.6 e-HDi 115 (MCP / Auto6R robotize) | ✓ 1 sorun |
 | 3 | 508 | 2011-2018 | 1.6 THP / 2.0 HDi | – eklenmedi: 1.6 THP için tek bir kullanıcı 2011-2012 yüksek basınç pompası sorununu anıyor (308/3008 1.6 THP kaydına bakın); 2.0 HDi için kaynak bulunamadı. |
@@ -206,7 +243,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | :---: | --- | --- | --- | --- |
 | 1 | Astra J | 2010-2015 | 1.4 Turbo (A14NET) | ✓ 1 sorun |
 | 1 | Astra K | 2015-2021 | 1.4 Turbo 125/150 | ✓ 1 sorun, 1 yıl kırılımı |
-| 1 | Corsa D / E | 2006-2019 | 1.3 CDTI 75/95 | ✓ 1 sorun |
+| 1 | Corsa D / E | 2006-2019 | 1.3 CDTI 75/95 | ✓ 2 sorun |
 | 1 | Mokka | 2012-2019 | 1.4 Turbo (A14NET) | – eklenmedi: Mokka'ya özgü, A14NET'i açıkça belirten tekrar eden bir şikâyet bulunamadı; aynı motor için Astra J ve Astra K kayıtlarına bakın. |
 | 2 | Astra J | 2013-2015 | 1.6 CDTI 110/136 | ✓ 1 sorun |
 | 2 | Astra K | 2015-2021 | 1.6 CDTI 110/136 | ✓ 1 sorun |
@@ -216,8 +253,10 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | Insignia A | 2008-2017 | 2.0 CDTI / 1.6 Turbo / 1.4 Turbo | – eklenmedi: Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı. |
 | 2 | Mokka | 2012-2019 | 1.6 CDTI | – eklenmedi: Zincir sesi ve otomatik şanzıman şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız site bulunamadı. |
 | 3 | Astra J | 2010-2015 | 1.7 / 2.0 CDTI | – eklenmedi: 1.7 ve 2.0 CDTI'ya özgü tekrar eden sorun çıkmadı; sonuçlar 1.6 ve 1.3 CDTI'ya ait. |
+| 3 | Corsa D | 2006-2014 | 1.2 / 1.3 CDTI (Easytronic) | ✓ 1 sorun |
 | 3 | Crossland | 2017- | 1.5 BlueHDi | – eklenmedi: Crossland şikâyetleri motor beyni ve şanzıman tarafında tekil; 1.5 BlueHDi zincir sorunu Grandland X kaydında ele alındı. |
 | 3 | Grandland X / Grandland | 2017- | 1.5 BlueHDi | ✓ 1 sorun, 1 yıl kırılımı |
+| 3 | Mokka / Mokka X | 2012-2020 | 1.4 Turbo (A14NET) / 1.6 CDTI | – eklenmedi: Mokka 1.6 CDTI zincir sesi ve otomatik şanzıman (P0741) şikâyetleri yalnızca Şikâyetvar'da; A14NET 1.4 Turbo için Mokka'ya özgü kaynak çıkmadı. |
 
 ### Citroen
 
@@ -229,6 +268,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | C-Elysee | 2012-2020 | 1.2 PureTech / 1.6 VTi | ✓ 1 sorun |
 | 2 | C3 | 2009-2016 | 1.4 HDi / 1.6 HDi | – eklenmedi: Enjektör ve turbo anıları tekil ve eski forum yazıları; uzun dönem bir kullanıcı turbo arızasını 230.000 km'de, enjektör revizyonunu 310.000 km'de bildiriyor; kronik sorun için yeterli kanıt yok. |
 | 2 | C4 / C4 Cactus | 2011-2020 | 1.6 e-HDi / BlueHDi, 1.2 PureTech | ✓ 1 sorun |
+| 3 | Berlingo / Partner | 2008-2018 | 1.6 HDi (DV6) | – eklenmedi: Turbo yağ besleme borusu tıkanıklığı tek bir forum yanıtına dayanıyor; Şikâyetvar'daki Berlingo kayıtları ağırlıkla 1.5 BlueHDi zinciri (ayrı kayıtta). |
 
 ### Skoda
 
@@ -263,6 +303,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | E Serisi W213 | 2016- | E180 / E200 / E220d | – eklenmedi: W213 için sistematik veri yok; Şikâyetvar'da tekil SBC fren, ekran ve direksiyon şikâyetleri var ve bir kısmı W212 / W214'e ait. |
 | 3 | CLA | 2013-2019 | 180 CDI (dizel) | ✓ 1 sorun |
 | 3 | GLA | 2013-2019 | 1.5 d / 1.6 / 2.0 (OM607 / M270 / M274) | – eklenmedi: GLA'ya özgü ayrı kaynak bulunamadı; DonanımHaber'deki Pre-Safe başlığı GLA'yı da anıyor, kapsam A Serisi / CLA kaydında. |
+| 3 | Vito / Sprinter | 2010- | 2.2 CDI (OM651) | – eklenmedi: OM651 anlatıları C ve E Serisi kayıtlarında; Vito ve Sprinter'a özgü ayrı kaynak yok. |
 
 ### BMW
 
@@ -276,6 +317,7 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | 1 Serisi F20 | 2011-2019 | 118d 2.0 (N47D20 / B47) | – eklenmedi: 118d / B47 için F20'ye özgü ayrı kaynak bulunamadı; N47D20 zincir sorunu 320d ve 520d kayıtlarında ele alındı. |
 | 2 | 5 Serisi F10 | 2010-2015 | 520d 2.0 (N47D20) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | 5 Serisi F10 | 2010-2017 | 520i (N20) / 520d (B47) | – eklenmedi: N20 520i için zincir sorununa dair kaynak çıkmadı; B47 için yalnızca N47'den daha sorunsuz olduğunu yazan tekil forum görüşleri var. |
+| 3 | 3 Serisi E90 / 5 Serisi E60 | 2005-2013 | 316i / 318i / 320i (N46 / N52), 520i | – eklenmedi: N46 / N52'ye özgü ayrıntılı kaynak çıkmadı; soğutma sistemi ve yağ kaçağı anlatıları tekil. N47 zincir sorunu ayrı kayıtlarda. |
 | 3 | X1 / X3 | 2010-2018 | 1.8d / 2.0d (N47 / B47) | – eklenmedi: X1 / X3 için modele özgü kaynak çıkmadı; N47 zincir sorunu 320d, 116d ve 520d kayıtlarında ele alındı. |
 
 ### Nissan
@@ -284,12 +326,13 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | :---: | --- | --- | --- | --- |
 | 1 | Juke | 2010-2019 | 1.6 (CVT Xtronic) | ✓ 1 sorun |
 | 1 | Juke | 2014-2019 | 1.2 DIG-T 115 (HRA2DDT) | ✓ 1 sorun |
-| 1 | Qashqai J11 | 2014-2020 | 1.5 dCi 110 (K9K) / 1.6 dCi 130 (R9M) | ✓ 1 sorun |
+| 1 | Qashqai J11 | 2014-2020 | 1.5 dCi 110 (K9K) / 1.6 dCi 130 (R9M) | ✓ 2 sorun, 1 yıl kırılımı |
 | 1 | Qashqai J11 | 2014-2021 | 1.2 DIG-T (HRA2DDT, Xtronic) | ✓ 3 sorun |
 | 2 | Juke | 2010-2019 | 1.5 dCi 110 (K9K) | – eklenmedi: Juke 1.5 dCi için kaynak ağırlıkla tek bir rehber (Araclo); turbo yağ borusu ve DPF anlatıları ikinci bağımsız kaynakla desteklenmedi. K9K turbo hortumu sorunu Qashqai J11 kaydında. |
 | 2 | Micra | 2010-2017 | 1.2 (CVT otomatik) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | Micra | 2013-2019 | 0.9 IG-T | – eklenmedi: 0.9 IG-T motoruna özgü kronik sorun sonuçlarda yer almadı; şikâyetler 1.2 CVT'de toplanıyor. |
 | 2 | Qashqai J10 | 2007-2013 | 1.5 dCi / 1.6 | – eklenmedi: J10 dönemine (2007-2013) özgü kaynak bulunamadı; Qashqai 1.5 dCi turbo hortumu şikâyetleri 2012 model ve sonrasında yoğunlaşıyor, J11 kaydında ele alındı. |
+| 2 | Qashqai J11 | 2014-2020 | 1.6 dCi 130 (R9M, Xtronic CVT) | ✓ 1 sorun, 1 yıl kırılımı |
 | 3 | Note | 2013- | 1.2 / 1.5 dCi | – eklenmedi: Note 1.2 / 1.5 dCi için ilgili şikâyet bulunamadı (aramada yalnızca X-Trail 1.6 dCi öne çıktı). |
 | 3 | X-Trail T32 | 2014-2021 | 1.6 dCi (R9M, Xtronic CVT) | ✓ 1 sorun |
 
@@ -309,6 +352,9 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | Focus 3 | 2011-2018 | 1.5 EcoBoost 150/182 | – eklenmedi: Focus için sonuçlar ağırlıkla 1.0 EcoBoost; 1.5 EcoBoost silindir kapağı sorunu Kuga 2 / Mondeo kaydında ele alındı, Focus'a özgü kaynak yok. |
 | 2 | Kuga 2 | 2013-2019 | 1.5 EcoBoost / 2.0 TDCi | ✓ 1 sorun |
 | 2 | Puma | 2019- | 1.0 EcoBoost mHEV | – eklenmedi: Forum görüşleri çelişkili (bazıları en sorunsuz 3 silindirli diyor); tekrar eden bir motor sorunu için kanıt yok. |
+| 3 | EcoSport | 2013-2022 | 1.0 EcoBoost | ✓ 1 sorun |
+| 3 | Mondeo / Transit Connect / Courier | 2007-2019 | 2.0 / 1.6 TDCi, 1.5 TDCi | – eklenmedi: Mondeo için tekil direksiyon, enjektör ve DPF anlatıları var; Transit Connect ve Courier 1.5 TDCi için sonuç çıkmadı. |
+| 3 | Transit Custom | 2012- | 2.0 EcoBlue | – eklenmedi: Yağ tüketimi ve turbo şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız kaynak bulunamadı. |
 
 ### Kia
 
@@ -322,7 +368,9 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | Picanto | 2017- | 1.0 / 1.2 MPI | ✓ 1 sorun |
 | 2 | Rio | 2011-2017 | 1.4 MPI 100 | – eklenmedi: Forumlarda sorunsuz olarak anılıyor; kronik sorun bulunamadı. |
 | 2 | Stonic | 2017- | 1.4 MPI 100 (6 ileri otomatik) | ✓ 1 sorun, 1 yıl kırılımı |
+| 3 | Cerato | 2013-2018 | 1.6 (arka stop ve bagajdan su alma) | – eklenmedi: Su alma şikâyetleri Şikâyetvar'da çok, ancak kilometre ve model yılı verisi yok ve ikinci bağımsız kaynak (Ekşi'de tek yorum) sınırlı. |
 | 3 | Niro / Cerato / Sorento | 2011- | Hybrid / 1.6 / 2.2 CRDi | – eklenmedi: Cerato ve Niro için sonuç çıkmadı; Sorento 2.2 CRDi için yalnızca tekil şikâyetler var. |
+| 3 | Sorento / Venga | 2010-2018 | 2.2 CRDi / 1.4 CRDi | – eklenmedi: Sorento 2.2 CRDi ve Venga 1.4 CRDi için kaynak çıkmadı. |
 | 3 | Stonic | 2017- | 1.0 T-GDI / 1.6 CRDi | – eklenmedi: 1.0 T-GDI için tekil titreme ve arıza lambası şikâyetleri; 1.6 CRDi için sonuç çıkmadı. |
 
 ### Dacia
@@ -375,6 +423,84 @@ Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıld�
 | 2 | Ibiza 6J / 6P | 2008-2017 | 1.2 TSI (DSG DQ200) | ✓ 1 sorun |
 | 2 | Ibiza 6J / 6P | 2008-2017 | 1.0 TSI / 1.6 TDI | – eklenmedi: Ibiza 1.6 TDI için yalnızca tekil bir direksiyon (EPS) şikâyeti çıktı; 1.0 TSI için kaynak bulunamadı. Zincir iddiası Ibiza'ya özgü değil. |
 | 3 | Ateca / Arona | 2016- | 1.0 TSI / 1.5 TSI | – eklenmedi: Arona 1.0 TSI DSG ve Ateca 1.5 TSI için yalnızca Şikâyetvar'daki tekil kayıtlar (DSG vuruntusu, yağ uyarısı, yağ kaçağı); yaygınlığı gösteren bağımsız kaynak yok. |
+
+### Chevrolet (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | Captiva / Aveo / Lacetti | 2007-2016 | 2.0 VCDi, 1.4 / 1.2 | – eklenmedi: Captiva 2.0 D ve Aveo 1.4 zincir iddiaları tek rehber sitesine dayanıyor; Lacetti için sonuç çıkmadı. |
+
+### Volvo (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | S60 / V40 | 2011-2018 | 1.6 D DRIVe (Powershift) | ✓ 1 sorun |
+
+### Subaru (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | XV | 2012-2017 | 2.0 benzinli boxer | ✓ 1 sorun, 1 yıl kırılımı |
+
+### Mini (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | Cooper (R56 / F56) | 2007-2020 | 1.6 (N14) / 1.5 üç silindir | – eklenmedi: Zincir ve devirdaim / termostat anlatıları tek tek forum yorumları; N14'e özgü ikinci kaynak yok. |
+
+### Jeep (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | Renegade / Compass | 2015- | 1.6 MultiJet (DDCT) / 1.4 MultiAir | – eklenmedi: Renegade DDCT'ye özgü kaynak çıkmadı (sonuçlar Egea üzerinden geldi); Compass şanzıman şikâyetlerinde motor ve şanzıman kombinasyonu belirsiz. |
+
+### Alfa Romeo (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | Giulietta | 2010-2020 | 1.4 MultiAir / 1.6 JTDM | – eklenmedi: Şikâyetler gövde ve elektronikte (yolcu airbag kapağı şişmesi, klima); motorlara özgü kaynaklı bulgu yok. |
+
+### Mazda (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | 3 / 6 / CX-5 | 2013- | Skyactiv-G / Skyactiv-D | – eklenmedi: Skyactiv motorlar için Türkiye'ye özgü kronik sorun kaynağı çıkmadı; 2.2 dizelin Türkiye'de satılmadığı yazılıyor. |
+
+### Suzuki (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | SX4 S-Cross / Vitara / Swift | 2014- | 1.4 BoosterJet / 1.6 DDiS | – eklenmedi: Bulgular tek rehber sitesi (Araclo) ve Şikâyetvar'ın elektronik / multimedya şikâyetleriyle sınırlı. |
+
+### Mitsubishi (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | L200 / ASX / Lancer | 2010- | 2.5 DI-D / 1.6 MIVEC | – eklenmedi: L200 DPF ve turbo anlatıları rehber siteleri ve tekil Şikâyetvar kayıtları; ASX 1.6 MIVEC sıcak marş sorunu yalnızca Ekşi'de. |
+
+### Land Rover (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | Freelander 2 | 2007-2014 | 2.2 TD4 | – eklenmedi: Turbo hortumu ve Haldex anlatıları tekil; Discovery Sport ve Evoque için güvenilir kaynak yok. |
+
+### Cupra (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | Formentor | 2020- | 1.5 eTSI (DSG) | – eklenmedi: Şikâyetler tekil (DSG, alternatör, multimedya); bağımsız ikinci kaynak yok. |
+
+### MG (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | HS | 2021- | 1.5 T (DCT) | – eklenmedi: Şanzıman gecikmesi şikâyetleri yalnızca Şikâyetvar'da; model yılı ve sürüm bilgisi doğrulanamadı. |
+
+### Lexus (ek kademe)
+
+| Kademe | Model | Yıllar | Motor grubu | Durum |
+| :---: | --- | --- | --- | --- |
+| 3 | IS / CT 200h | 2011- | 2.5 / 1.8 hibrit | – eklenmedi: Aramada sonuç çıkmadı. |
 
 ## Plan dışı kayıtlar
 

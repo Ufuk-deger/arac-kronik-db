@@ -1765,6 +1765,36 @@
     },
     {
       "marka": "Ford",
+      "model": "EcoSport (2013-2022)",
+      "motor": "1.0 EcoBoost (yağ banyolu triger kayışı)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağ pompası kayışının / yağ banyolu kayışın aşınması",
+          "etkilenen_parca": "Yağ içinde çalışan triger kayışı, yağ pompası kayışı ve gergisi, yağ pompası emiş süzgeci",
+          "belirtiler": "Düşük yağ basıncı uyarısı, ardından ağır motor hasarı; motor açıldığında kayışın sıyrılmış ve parçalarının yağ pompasını tıkamış olması",
+          "tahmini_km_araligi": "90.000 - 135.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar'da bir kullanıcı motor açıldığında yağ pompası kayışının kısmen sıyrıldığını ve kopan parçaların yağ pompasını tıkadığını yazıyor; başka bir şikâyet bunun aracın kronik sorunu olduğunu belirtiyor. Forum ve şikâyet metinlerine göre sorun, yağ içinde çalışan triger kayışının zamanla aşınıp parçalarının yağ pompası emişini tıkaması; bir kullanıcı hasarın büyük kısmının bu kaynaklı olduğunu öne sürüyor (kendi yorumu). Aynı mekanizma Fiesta / Focus 1.0 EcoBoost kaydında da anlatılıyor.",
+            "teshis": "DonanımHaber'de triger değişiminin servis periyodunda 135.000 km olarak yazdığı, kullanıcıların ise daha erken yaptırılması gerektiğini düşündüğü aktarılıyor. Kilometre aralığı bu servis periyoduna ve kullanıcı görüşlerine dayanıyor; EcoSport'a özgü ölçülmüş bir arıza kilometresi verilmiyor.",
+            "cozum": "Şikâyetvar'da bir kullanıcı Ford Otosan'ın geri çağrıyı uygulamaması nedeniyle ücretsiz onarım talep ediyor; başka bir kullanıcı Avrupa ve Amerika'da müşteri memnuniyeti programı kapsamında kayış ve bileşenlerin değiştirildiğini, Türkiye'de benzer bir uygulama olmadığını yazıyor. Bir şikâyet sayfası Ford'un bu arıza için 'Safety Recall FSA 23S64' bülteni yayımladığını söylüyor; Ekşi Sözlük'te ABD'de 2016-2018 Focus (26 bin) ve 2018-2022 EcoSport (113 bin) için geri çağırma yapıldığı aktarılıyor, Türkiye'deki araçların kapsamda olup olmadığı belirsiz. Hiçbiri resmî kaynakla doğrulanmadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/ford/ecosport/motor",
+            "https://www.sikayetvar.com/ford/ecoboost",
+            "https://eksisozluk.com/ford-ecosport--1178805?p=6",
+            "https://forum.donanimhaber.com/1-0-ecoboost-kullanim-omru--94004403-3",
+            "https://www.sikayetvar.com/ford/ford-focus-2016-10-ecoboost-motor-arizasi-ve-komple-degisimi"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Ford",
       "model": "Fiesta (Mk7, 2011-2017)",
       "motor": "1.6 Ti-VCT 105 (Powershift DPS6)",
       "uretim_yillari": {
@@ -3375,6 +3405,51 @@
     },
     {
       "marka": "Nissan",
+      "model": "Qashqai (J11, 2014-2020)",
+      "motor": "1.6 dCi 130 (R9M, Xtronic CVT)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Xtronic CVT şanzıman beyni arızası (P17F1) ve silkeleme",
+          "etkilenen_parca": "Xtronic CVT şanzıman kontrol ünitesi (beyin) ve yazılımı",
+          "belirtiler": "Kalkışta silkeleme ve titreme, P17F1 arıza kodu, şanzımanın kilitlenmesi",
+          "tahmini_km_araligi": "30.000 - 90.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda neden açıklanmıyor. Bir kullanıcı sorunun 2014-2016 arasında üretilen birçok Nissan modelinde kronik olduğunu öğrendiğini aktarıyor; aynı motor ve şanzıman X-Trail T32 kaydında da ele alınıyor. Bir kullanıcı arızanın PİM ve konnektör bağlantılarından kaynaklanabileceğini düşünüyor (doğrulanmadı).",
+            "teshis": "Silkeleme ve kalkış titremesi şikâyetlerinde P17F1 kodu anılıyor. Bazı vakalarda akü değişimiyle hatalar kendiliğinden silinmiş; başka bir sürücü şanzıman beyni hatasının akü kaynaklı olmadığını, silinemeyen bir hata olduğunu yazıyor. Arızanın zamanla şanzımanın kilitlenmesine ve yüksek masrafa yol açabileceği anlatılıyor.",
+            "cozum": "Silkeleme şikâyetlerinde en sık geçen çözüm şanzıman yazılım güncellemesi: bir kullanıcı ilk bakımda yazılım değiştirildikten sonra sorunun kaybolduğunu, yaklaşık 40 bin km'de silkemenin geri geldiğini yazıyor. Bir kaynakta Consult 3 Plus donanımlı servislerin arızayı silebildiği, kodun tekrar edebileceği belirtiliyor. Yetkili servisler çoğunlukla şanzıman beynini değiştirmeyi öneriyor.",
+            "maliyet": "Bir kullanıcıdan şanzıman beyni değişimi için 23.560 TL istendiği yazılıyor (kayıt tarihi belirsiz)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/nissan-qashqai-kronik-sanziman-beyni-arizasi-p17f1--150424911",
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-kronik-sanziman-beyni-arizasi-p17f1",
+            "https://www.sikayetvar.com/nissan/qashqai/sanziman-arizasi",
+            "https://www.sikayetvar.com/nissan/qashqai/dizel-otomatik",
+            "https://forum.donanimhaber.com/qashqai-cvt-arizasi--109147510"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2014,
+              "bitis": 2016,
+              "durum": "Yaygın",
+              "not": "Şikâyetvar ve DonanımHaber'de P17F1 şikâyetleri 2014-2016 model dizel otomatiklerde yoğunlaşıyor."
+            },
+            {
+              "baslangic": 2017,
+              "bitis": 2020,
+              "durum": "Seyrek",
+              "not": "Bir kullanıcı Nissan'ın 2017 modelinden itibaren şanzıman beyninin iyileştirilmiş bir sürümünü kullanmaya başladığını yazıyor (doğrulanmadı)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Nissan",
       "model": "Qashqai (J11, 2014-2021)",
       "motor": "1.2 DIG-T (HRA2DDT, Xtronic)",
       "uretim_yillari": {
@@ -3684,6 +3759,38 @@
             "https://www.sikayetvar.com/opel/dizel/ses",
             "https://forum.donanimhaber.com/astra-k-1-6-ctdi-model-sorunlari--159820282",
             "https://eksisozluk.com/opel-astra-k--4637326?p=14"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Corsa D (2006-2014)",
+      "motor": "1.2 / 1.3 CDTI (Easytronic robotize şanzıman)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Easytronic robotize şanzıman arızası (mekatronik, balata, hidrolik)",
+          "etkilenen_parca": "Easytronic robotize manuel şanzıman: mekatronik ünite, hidrolik sistem ve debriyaj balatası",
+          "belirtiler": "Vites geçişinde silkelenme ve sert geçiş, gösterge panelinde 'F' hatası ve aracın boşta kalması, vitese geçememe",
+          "tahmini_km_araligi": "40.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Bir forumda Corsa D otomatik için kavrama kaybı, ardından şanzıman yağının aşırı ısınması, balataların bitmesi ve yanlış şanzıman yağı seçimi genel nedenler olarak sayılıyor. Bir forum yorumuna göre bu şanzıman fazla elektrik ihtiyacına yol açıyor ve akü zayıfken araç vitese geçmeyebiliyor (tek yorum).",
+            "teshis": "Kullanıcılar arızadan önce silkelenme ve vitese sert geçiş görüldüğünü, gösterge panelinde 'F' hatası çıkıp aracın boşta kaldığını bildiriyor.",
+            "cozum": "Bir kullanıcı 2014 model 1.2 Easytronic'te mekatronik ünitenin revizyona girdiğini ve baskı balatanın da değiştiğini, toplamda yaklaşık 5.000 TL ödediğini yazıyor; başka bir kullanıcı hidrolik yağ eksikliğine bağlı arızayı DOT 4 hidrolik yağıyla kendisinin giderdiğini aktarıyor (doğrulanmadı). Garanti dışı kalma şikâyetleri de var.",
+            "maliyet": "Şikâyetvar'da 1.3 CDTi Easytronic için 48.000 km'de şanzıman arızası çıktığı ve yetkili servisin yaklaşık 11.000 TL ücret çıkardığı bildirilmiş (kayıt tarihi belirsiz). Bir kullanıcı ilk nesil Easytronic'li dizel Corsa ile yaklaşık 215 bin km yaptığını ve tamir gerekmediğini yazıyor; tüm sahipler sorunu kronik görmüyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/opel-corsa-d-sanziman-sorunu--135064636",
+            "https://forum.donanimhaber.com/corsa-d-2007-otomatik-sanzuman-mi-arizali--149681703",
+            "https://forum.donanimhaber.com/club-easytronic--34438084-16",
+            "https://www.sikayetvar.com/opel/corsa/sanziman",
+            "https://www.sikayetvar.com/easytronic/sanziman",
+            "https://eksisozluk.com/easytronic--421247?p=4"
           ]
         }
       ]
@@ -4208,6 +4315,37 @@
     },
     {
       "marka": "Renault",
+      "model": "Captur (2013-2019)",
+      "motor": "1.5 dCi (K9K, EDC)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "EDC şanzıman beyni arızası ('vites kutusunu kontrol ettirin')",
+          "etkilenen_parca": "EDC çift kavramalı şanzıman: kontrol ünitesi (beyin), kavrama ve aktüatör",
+          "belirtiler": "Gösterge panelinde 'vites kutusunu kontrol ettirin' uyarısı, aracın yolda kalması, düşük kilometrede vites geçişlerinde ses ve sarsıntı",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda neden açıklanmıyor. Araclo'nun ikinci el rehberi EDC'li Captur'ları en büyük riskli kalem olarak gösteriyor ve kullanıcı bildirimlerindeki en sık tabloyu 'vites kutusunu kontrol ettirin' uyarısı, ardından yolda kalma ve şanzıman beyni değişimi olarak özetliyor. Manuel şanzımanlı sürümde belirgin bir şikâyet yoğunluğu yok.",
+            "teshis": "Şikâyetvar'da 2016 model bir Captur Icon 1.5 dCi EDC sahibi 149.662 km'de, 2015 model bir Icon sahibi yaklaşık 80 bin km'de şanzıman beyni arızası bildiriyor. Düşük kilometrede vites geçişlerinde ses ve sarsıntı, kavrama balatası ve ıslık benzeri ses şikâyetleri de var.",
+            "cozum": "Bazı kullanıcılar arızanın yazılım güncellemesiyle çözülebileceğinin söylendiğini ve garanti süresinin bu oyalamalarla geçtiğini anlatıyor; garanti kapsamında kavrama setinin yenilendiğini yazanlar da, servisin sesi arıza yerine konfor sorunu saydığını yazanlar da var. Ekşi Sözlük'te garanti dışı kalmış ve bakımı servis dışında yaptırılmış aracın indirim alamadığı yazılıyor.",
+            "maliyet": "Şikâyetvar ve Ekşi'deki tek tek beyanlar, tarihleri farklı: yetkili serviste onarım için 144.936,11 TL fatura; şanzıman beyni için 25.000 TL istenmesi; şanzıman değişimi için 160 bin TL teklif; 2015 model için yalnızca parça 42.000 TL. Ekşi Sözlük'te Nisan 2024 itibarıyla özel serviste EDC beyin ve kavrama değişiminin 120-130 bin lira civarında olduğu yazılıyor. Farklı servisler çok farklı fiyatlar veriyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/captur/sanziman",
+            "https://www.sikayetvar.com/renault/captur/kronik",
+            "https://www.sikayetvar.com/renault/captur/arac?page=2",
+            "https://eksisozluk.com/renault-araclarda-kronik-edc-sorunu--6637087",
+            "https://www.araclo.com/blog/renault-captur-1.5-dci-alinir-mi-kronik-sorunlar-kullanici-yorumlari-ve-ikinci-el-rehberi"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
       "model": "Clio 3 / Symbol (2008-2013)",
       "motor": "1.5 dCi 70/85/90 (K9K)",
       "uretim_yillari": {
@@ -4690,6 +4828,36 @@
       ]
     },
     {
+      "marka": "Renault",
+      "model": "Talisman (2016-2022)",
+      "motor": "1.6 dCi 130 / 1.5 dCi (EDC)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "EDC şanzıman vuruntusu ve arızası",
+          "etkilenen_parca": "EDC çift kavramalı şanzıman: kavrama ve kontrol ünitesi",
+          "belirtiler": "Vites geçişlerinde ve arasında vuruntu, kalkışta silkelenme, ara sıra 'vites kutusunu kontrol ettirin' uyarısı ve bir vitese kilitlenme",
+          "tahmini_km_araligi": "60.000 - 140.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda neden açıklanmıyor. Araclo'nun ikinci el rehberi kullanıcı bildirimlerinde en sık gündeme gelen konunun EDC şanzıman olduğunu yazıyor. Forumlarda görüşler ayrışıyor: bir kullanıcı EDC'nin tonla şikâyeti olduğunu savunurken diğerleri sorunu ilk seri üretim araçlara bağlıyor, EDC'nin sorunlu olmadığını savunanlar da var. DonanımHaber'deki bir başlık Megane ve Fluence EDC şikâyetlerini ayrıca ele alıyor.",
+            "teshis": "Şikâyetvar'da bir kullanıcı 64.000 km'de şanzıman arızası nedeniyle yetkili servise gittiğini, bir başkası yaklaşık 140.000 km'de vites geçişlerinde vurma başladığını yazıyor; 2016 model 1.5 EDC'de 96.000 km civarında bir şikâyet daha var (1.5 ve 1.6 kayıtları karışmış olabilir). Bir sürücü vuruntunun vites geçişlerinde değil aralarında olduğunu, bir kullanıcı ara sıra 'vites kutusunu kontrol ettirin' uyarısı çıkıp aracın bir vitese kilitlendiğini bildiriyor.",
+            "cozum": "Bir kullanıcı garanti kapsamında debriyaj setinin değiştirildiğini ancak bir yıl içinde arızanın tekrarladığını yazıyor. Birçok şikâyette yetkili servisin net bir çözüm sunamadığı, garanti kapsamının tartışıldığı ve parça değişimi için yüksek ücret istendiği anlatılıyor. Resmî bir Renault kampanyası bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/talisman/talisman-kronik",
+            "https://www.sikayetvar.com/renault/talisman/kronik",
+            "https://forum.donanimhaber.com/renault-talisman-touch-1-6-dci-edc-130-bg--116513134-2",
+            "https://forum.donanimhaber.com/renault-edc-sorunu--58692943",
+            "https://www.araclo.com/blog/renault-talisman-1.5-mi-1.6-mi-sorunlar-yorumlar-ve-ikinci-el-rehberi"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Seat",
       "model": "Ibiza (6J / 6P, 2008-2017)",
       "motor": "1.2 TSI (DSG DQ200)",
@@ -5088,6 +5256,93 @@
             "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
             "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
             "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Subaru",
+      "model": "XV (2012-2017)",
+      "motor": "2.0 benzinli boxer",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Motor (piston segmanları / yağ sıyırma sistemi; kaynaklarda kesin parça belirtilmiyor)",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ lambasının yanması, servis tarafından 'normal' denilen tüketim",
+          "tahmini_km_araligi": "10.000 - 125.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda neden açıklanmıyor. DonanımHaber'de bir kullanıcı 2015 öncesi XV'lerde kronik yağ yakma problemi olduğunu yazıyor; aynı kullanıcı üreticinin önerdiği 0W-20 yağın Türkiye'de çoğu zaman bulunamadığı için 5W-30 kullanıldığını ve daha ince spesifikasyonlu yağın sonradan yağ kaybına yol açmış gibi göründüğünü ekliyor (tek kullanıcının görüşü, doğrulanmadı).",
+            "teshis": "Şikâyetvar'da 2015 model ikinci el bir XV sahibi 125 bin km'de 1.000 km'de yaklaşık 600 ml yağ yaktığını ve yağ lambasının üç kez yandığını yazıyor; başka bir kullanıcı 2013 model aracında 10 bin km'de yaklaşık 3 litre yağ tüketildiğini ve servisin bunun normal olduğunu söylediğini bildiriyor. Bir forum yorumunda 2014 model bir XV'nin 6.000 km'de yağsızlık nedeniyle motorunun değiştirildiği, bir şikâyette yağ uyarısı nedeniyle motorun indirilmesi gerektiği ve bunun yüksek maliyetli olacağı anlatılıyor.",
+            "cozum": "Birkaç şikâyette yetkili servislerin tüketimi 'normal' sayıp yağı tamamladığı, sorunun kökünün bulunamadığı yazılıyor. Resmî bir Subaru servis bülteni ya da kampanyası bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/subaru/subaru-motorun-yag-eksiltmesi",
+            "https://www.sikayetvar.com/subaru/2017-model-subaru-xv-yag-eksiltiyor",
+            "https://www.sikayetvar.com/subaru/xv",
+            "https://forum.donanimhaber.com/subaru-xv-yakit-tuketimi-video-eklendi--146259158"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2012,
+              "bitis": 2014,
+              "durum": "Yaygın",
+              "not": "Bir kullanıcı 2012-2014 model XV'lerin kronik sorununun yağ yakan motor olduğunu yazıyor; DonanımHaber'de de 2015 öncesi için benzer bir yorum var."
+            },
+            {
+              "baslangic": 2015,
+              "bitis": 2017,
+              "durum": "Görülebilir",
+              "not": "Şikâyetvar'da 2015 ve 2017 model XV'ler için yağ eksiltme şikâyetleri var; sıklığı kaynaklardan anlaşılmıyor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Auris (E150 / E180, 2007-2018)",
+      "motor": "1.4 D-4D (1ND-TV)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları, vakum pompası ve turboşarj",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, tekrarlayan yağ seviyesi uyarısı, egzozdan duman",
+          "tahmini_km_araligi": "10.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de blog kaynaklı bir yazı 1ND-TV motorunun 2009'da 190 Nm'den 205 Nm'ye çıkarıldığını ve bu tarihten sonra vakum pompası ile turboşarjda sorunlar görüldüğünü öne sürüyor; aynı yazar bir Toyota servis bülteninde üç nedenin sayıldığını söylüyor: uygun olmayan vakum pompası, turboşarj sorunu ve yetersiz piston segman gerilimi (bülten doğrulanmadı). Başka bir kullanıcı segman, silindir ve yazılım koordinasyonunda sorun olduğunu, Toyota'nın nedeni açıklamadığını yazıyor. Aynı motor Corolla E150 kaydında da ele alınıyor.",
+            "teshis": "Forumlarda servislerin yeni araçlarda bunu normal sayıp eksilen yağı tamamladığı, yağ uyarısının 6-7 bin km sonra tekrarladığı anlatılıyor. Şikâyetvar'da bir kullanıcı 2014 model Auris'te yaklaşık 3.000 km'de 2 litre yağ eksildiğini, başka bir şikâyet 2016 model Auris'te yağ yakmanın serviste tespit edildiğini bildiriyor.",
+            "cozum": "Bir 2010 model sahibi 20.000 km'de geliştirilmiş turbo takıldığını ama sorunun çözülmediğini yazıyor. Bazı kullanıcılar 5W-30 tam sentetik yağın tüketimi azalttığını bildiriyor; bir yoruma göre revizyon sonrası ve 2012 modelden sonraki araçlarda 5W-30 yağ kullanılıyor (kullanıcı gözlemi)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/toyota-1-4-d4-d-motorlarda-sorun-mu-var--71152236",
+            "https://forum.donanimhaber.com/2011-model-toyota-auris-d-4d-yag-eksiltme-sorunu--46223387",
+            "https://forum.donanimhaber.com/2011-auris-1-4-dizel-cok-yakiyor--129420416",
+            "https://forum.donanimhaber.com/toyota-yag-eksiltme-sorunu--42411298-6",
+            "https://www.sikayetvar.com/toyota/auris/kronik"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2009,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "Forumlarda sorunun 2009'daki motor değişikliğinden sonra, özellikle 2010-2011 araçlarda görüldüğü yazılıyor (kullanıcı anlatımı; Toyota bülteni doğrulanmadı)."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2018,
+              "durum": "Görülebilir",
+              "not": "Bir kullanıcı sorunun birkaç yıl önce çıkan araçlarda giderildiğini yazıyor; yine de Şikâyetvar'da 2014 ve 2016 model Auris için yağ eksiltme / yakma şikâyetleri var."
+            }
           ]
         }
       ]
@@ -5951,6 +6206,37 @@
             "https://www.sikayetvar.com/volkswagen/yetkili-servis-bakimli-volkswagen-tiguanda-dsg-sanziman-arizasi-ve-yuksek-onarim-ucreti-magduriyeti",
             "https://eksisozluk.com/suv-alma-rehberi--8092747",
             "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "S60 / V40 (2011-2018)",
+      "motor": "1.6 D DRIVe (Powershift)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Powershift kuru kavrama titremesi ve kavrama değişimi",
+          "etkilenen_parca": "Powershift (çift kavramalı) şanzıman: kavrama seti",
+          "belirtiler": "Kalkışta ve düşük hızda titreme, şanzımanda sarsıntı ve tutukluk",
+          "tahmini_km_araligi": "30.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda neden açıklanmıyor. Araclo, bazı kullanıcıların şanzımanda titreme (sarsıntı), düşük hızlarda tutukluk ve düzenli bakım / yağ değişimi ihtiyacı yaşadığını iddia ettiğini, bakım geçmişi düzenli olan Powershift araçlarda riskin daha düşük olduğunu yazıyor. Forum yorumlarında bu şanzımanın 100 bin km civarında arıza verebileceği iddiası da geçiyor (anekdot).",
+            "teshis": "DonanımHaber'de bir S60 sahibi titremenin 30 bin km'de başladığını, 40 bin km'deki şikâyetlerin çözülmediğini, 50 bin km'de artan titreme üzerine servisin kavrama değişimine karar verdiğini yazıyor; 2012 model bir S60 sahibi titremeyi 67.000 km'de fark ettiğini, 2013 model bir S60 sahibi ise 80.000 km'de titreme olmadığını bildiriyor.",
+            "cozum": "Kavrama seti değişimi yapılıyor; bir V40 sahibi kavrama değiştirildikten sonra aracın belirgin biçimde daha yumuşak çalıştığını yazıyor.",
+            "maliyet": "DonanımHaber'deki kullanıcı beyanları yaklaşık 2014-2017 dönemine ait, enflasyon öncesi rakamlar: bir bayi kavrama seti değişimi için işçilik dahil yaklaşık 5.000 TL, bir yetkili servis kavrama, filtreler ve yağ dahil yaklaşık 5.500 TL, bir bağımsız atölye yalnızca kavrama seti için yaklaşık 4.000 TL teklif etmiş. Güncel fiyat olarak okumayın."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/volvo-s60-1-6d-powershift-sanziman-titretme-sorunu--108560311",
+            "https://forum.donanimhaber.com/powershift-kavrama-degisimi-volvo--88413042",
+            "https://forum.donanimhaber.com/volvo-s60-1-6d-drive-powershift-hakkinda--140574146",
+            "https://forum.donanimhaber.com/powershift-sanziman-hakkinda--125031314",
+            "https://www.araclo.com/blog/volvo-s60-1.6-d-alinir-mi-yakit-tuketimi-sorunlari-ve-kullanici-yorumlari-2026"
           ]
         }
       ]
