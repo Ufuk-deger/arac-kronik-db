@@ -1367,7 +1367,7 @@
         {
           "sorun_adi": "7DCT kuru kavrama titremesi ve kalibrasyon sorunu",
           "etkilenen_parca": "Kuru kavrama paketi ve şanzıman yazılımı (TCU)",
-          "belirtiler": "1. ve 2. viteste kalkışta sarsıntı, eğimde kararsızlık, geri vitese geçişte vuruntu; yazılım güncellemesiyle azalabiliyor",
+          "belirtiler": "1. ve 2. viteste kalkışta sarsıntı, eğimde kararsızlık, geri vitese geçişte vuruntu; yazılım güncellemesiyle azalabiliyor. Kaynaklardaki şikâyetlerin çoğu aynı platformu ve motoru kullanan i20 modeline aittir.",
           "tahmini_km_araligi": "10.000 - 80.000 km",
           "risk_seviyesi": "Orta",
           "kaynaklar": [
@@ -1380,7 +1380,7 @@
         {
           "sorun_adi": "Yakıt pompası arızası",
           "etkilenen_parca": "Yakıt pompası",
-          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın",
+          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın. Kaynaklardaki şikâyetlerin çoğu aynı platformu ve motoru kullanan i20 modeline aittir.",
           "tahmini_km_araligi": "20.000 - 60.000 km",
           "risk_seviyesi": "Yüksek",
           "kaynaklar": [
@@ -1417,7 +1417,7 @@
         {
           "sorun_adi": "Yakıt pompası arızası",
           "etkilenen_parca": "Yakıt pompası",
-          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın",
+          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın. Kaynaklardaki şikâyetlerin çoğu aynı platformu ve motoru kullanan i20 modeline aittir.",
           "tahmini_km_araligi": "20.000 - 60.000 km",
           "risk_seviyesi": "Yüksek",
           "kaynaklar": [
@@ -1547,7 +1547,7 @@
         {
           "sorun_adi": "7DCT kuru kavrama titremesi ve kalibrasyon sorunu",
           "etkilenen_parca": "Kuru kavrama paketi ve şanzıman yazılımı (TCU)",
-          "belirtiler": "1. ve 2. viteste kalkışta sarsıntı, eğimde kararsızlık, geri vitese geçişte vuruntu; yazılım güncellemesiyle azalabiliyor",
+          "belirtiler": "1. ve 2. viteste kalkışta sarsıntı, eğimde kararsızlık, geri vitese geçişte vuruntu; yazılım güncellemesiyle azalabiliyor.",
           "tahmini_km_araligi": "10.000 - 80.000 km",
           "risk_seviyesi": "Orta",
           "kaynaklar": [
@@ -1560,7 +1560,7 @@
         {
           "sorun_adi": "Yakıt pompası arızası",
           "etkilenen_parca": "Yakıt pompası",
-          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın",
+          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın.",
           "tahmini_km_araligi": "20.000 - 60.000 km",
           "risk_seviyesi": "Yüksek",
           "kaynaklar": [
@@ -1597,7 +1597,7 @@
         {
           "sorun_adi": "Yakıt pompası arızası",
           "etkilenen_parca": "Yakıt pompası",
-          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın",
+          "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın.",
           "tahmini_km_araligi": "20.000 - 60.000 km",
           "risk_seviyesi": "Yüksek",
           "kaynaklar": [
@@ -2165,7 +2165,8 @@
           "risk_seviyesi": "Orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/opel-corsa-1.3-cdti-alinir-mi-kronik-sorunlar-kullanici-yorumlari-ve-ikinci-el-alim-rehberi",
-            "https://forum.donanimhaber.com/corsa-1-3-cdti-multijet-160k-km-titretisim-problemi--134600465"
+            "https://forum.donanimhaber.com/corsa-1-3-cdti-multijet-160k-km-titretisim-problemi--134600465",
+            "https://forum.donanimhaber.com/1-3-multijet-triger-zincir-degisim-zamani-yardim--130469575"
           ]
         }
       ]
@@ -3183,6 +3184,7 @@
           "risk_seviyesi": "Orta",
           "kaynaklar": [
             "https://www.araclo.com/blog/volkswagen-golf-1.6-tdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+            "https://www.sikayetvar.com/volkswagen/dizel/partikul-filtresi",
             "https://otopark.com/forum/threads/golf-1-6-tdi-dpf-problemi.9143/"
           ]
         }
@@ -3276,8 +3278,8 @@
           "risk_seviyesi": "Orta",
           "kaynaklar": [
             "https://www.sikayetvar.com/volkswagen/passat/dsg",
-            "https://www.sikayetvar.com/volkswagen/passat/kronik",
-            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
+            "https://www.sikayetvar.com/otomerkezinet/otomerkezinet-passat-b8-kavrama-ve-mekatronik-arizasi",
+            "https://forum.donanimhaber.com/passat-b8-dsg-arizasi-2018-guncelleme-yine-bozuldu--116297212-15"
           ]
         }
       ]

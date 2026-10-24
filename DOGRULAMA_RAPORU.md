@@ -2,6 +2,10 @@
 
 Tarih: 2026-10-24
 
+Rapor iki aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını anlatır.
+
+## 1. aşama: ilk sürümün doğrulanması
+
 İlk sürüm 31 araç ve 82 kronik sorun içeriyordu. Bu sorunların çoğu hafızadan yazılmıştı ve kaynağı yoktu. Bu çalışmada her sorun web aramasıyla kaynaklara karşı kontrol edildi, desteklenmeyenler çıkarıldı, yeni bulunanlar eklendi.
 
 | | Önce | Sonra |
@@ -117,13 +121,175 @@ Yalnızca yurtdışı kaynaklı 12 madde var (Türkçe kaynak bulunamadı): örn
 
 - Ford Focus MK3 direksiyon kutusu yağ kaçağı (OTOPARK.COM forumu)
 - Peugeot 307 "Antipollution Fault" (EGR elektrovanası, yakıt filtresi) (OTOPARK.COM forumu)
-- Opel Astra K 1.4 Turbo LSPI ve piston kırılması (Astra K veritabanında yok)
+- Opel Astra K 1.4 Turbo LSPI ve piston kırılması (1. aşamada Astra K veritabanında yoktu; 2. aşamada eklendi)
 - Mercedes OM651 zincir gergisi conta geri çağırması, 2015 (tek kaynak, AustralianCar.Reviews)
 - Peugeot 3008 (2020) kam zinciri geri çağırması (Şikâyetvar alıntısı; 1.6 THP'yi kapsayıp kapsamadığı belirsiz)
 - Ford 1.0 EcoBoost yağ pompası kayışı gergi kolu geri çağırması (ABD pazarındaki Focus ve EcoSport)
 
+## 2. aşama: en çok satan modellerin motor grupları ve yıl kırılımı
+
+Tarih: 2026-10-24
+
+İkinci aşamada kapsam son 10-15 yılın en çok satan araçlarına (yaklaşık 2011 model yılı ve sonrası) genişletildi ve sorunlar üretim yılına göre kırılmaya başlandı. Kapsamın tamamı [KAPSAM.md](KAPSAM.md) dosyasında; plan `data/kapsam.json` içinde.
+
+| | 1. aşama sonu | 2. aşama sonu |
+| --- | ---: | ---: |
+| Araç/motor kaydı | 30 | 97 |
+| Kronik sorun | 72 | 156 |
+| Yıl kırılımı olan sorun | 0 | 32 |
+| Marka | 17 | 19 |
+| Farklı kaynak sitesi | 55 | 60 |
+
+### Ne yapıldı
+
+- **Marka seti:** 2025 ODMD otomobil satışlarında ilk 15 marka. BYD, Togg, Tesla ve Chery elektrikli ya da 2023 sonrası girmiş markalar olduğu için dışarıda; yerlerine sıradaki markalar (Nissan, Ford, Kia, Dacia) alındı. İlk 10 sıra birden fazla haberde tutarlı, 11. sıradan sonrası rakamlar tek bir tablodan alındı ve doğrulanamadı; ayrıntı KAPSAM.md'de.
+- **Genelden özele:** Plan 178 model/motor grubundan oluşuyor ve üç kademeye ayrıldı. Kademe 1'in 85 satırının hepsi işlendi: 74'ü veritabanına girdi, 11'i kanıt yetersiz olduğu için eklenmedi (aşağıda). Kademe 2 ve 3'te 66 satır sırada.
+- **Yeni alanlar:** her kayıtta `uretim_yillari`, kaynaklar fark belirtiyorsa sorunda `donem_kirilimi` (dönem, `Yaygın`/`Görülebilir`/`Seyrek` ve not). Eski 30 kayda yıllar eklendi; eski kayıtlardaki 16 soruna, yeni kayıtlardaki 16 soruna yıl kırılımı işlendi.
+- **Kural aynı:** her sorun için en az iki farklı site, en az biri forum/şikâyet/haber/resmî türünde. Bu aşamada eklenen 84 sorunun hepsi bu kuralı geçiyor.
+
+### Kaynakların toplanması ve denetimi
+
+- Genel web aramaları çoğunlukla blog ve rehber siteleri döndürdüğü için aramalar şikâyet ve forum sitelerine (Şikâyetvar, DonanımHaber, OTOPARK.COM, Ekşi Sözlük) sınırlanarak tekrarlandı; böylece her sorunun en az bir deneyim kaynağı olması sağlandı.
+- Sayfalar yine açılamadı. Bağlantılar arama sonucunda göründüğü başlık ve özete göre sorunlarla eşlendi.
+- Yeni eklenen her bağlantının gerçekten arama sonuçlarında geçtiği otomatik denetlendi (uydurma ya da hafızadan yazılmış adres yok). Ardından her kaynağın başlığı ilgili sorunla karşılaştırıldı; bu turda altı zayıf eşleme düzeltildi (aşağıdaki "Düzeltmeler").
+
+### Astra örneği
+
+İstekte Astra J 1.4 Turbo'nun 2019 öncesinde daha sorunlu olduğu, sonrasında güncellendiği belirtilmişti. Kaynaklarda bu tablo **Astra J'de değil Astra K'da** çıkıyor:
+
+- **Astra J (2010-2015) 1.4 Turbo (A14NET)** 1. aşamada kayıtlı (PCV diyaframı ve emme manifoldu kontrol valfi arızası). 2019 gibi bir revizyon yılı bu motor için kaynaklarda çıkmadı; üretim 2015'te bitiyor.
+- **Astra K (2015-2021) 1.4 Turbo (B14XFL/B14XFT, 2019 sonrası D14XFL/D14XFT)** için LSPI kaynaklı piston ve segman kırılması 2015-2018 için `Yaygın`, 2019-2021 için `Görülebilir` olarak işlendi. Alman bir ikinci el rehberi 2018 sonundan itibaren OPF'li D10/D14 motorlarda yağ sıyırma segmanlarının yeniden tasarlandığını ve LSPI riskinin belirgin düştüğünü yazıyor. Aynı dönemden 2019-2020 araçlarda da piston kırılması bildiren Şikâyetvar kayıtları var; bu yüzden sorun azaldı ama bitti diye işaretlenmedi. Yıl bazında şikâyet sayısı veren bir kaynak yok; sınıflandırma editoryaldir.
+
+### Yıl kırılımı olan sorunlar
+
+Listelenmeyen yıllar için kaynaklarda ayrı bilgi bulunamadı; bu, sorun olmadığı anlamına gelmez. Dönem notları `data/araclar.json` içinde.
+
+| Model | Motor | Sorun | Dönemler |
+| --- | --- | --- | --- |
+| Audi A4 (B8, 2008-2015) | 1.8 TFSI / 2.0 TFSI (EA888 Gen2) | Aşırı yağ tüketimi | 2008–2011 Yaygın · 2012–2015 Görülebilir |
+| Audi A4 (B8, 2008-2015) | 1.8 TFSI / 2.0 TFSI (EA888 Gen2) | Triger zinciri gergisi arızası | 2008–2011 Yaygın · 2012–2015 Görülebilir |
+| BMW 3 Serisi (E90 / F30, 2007-2015) | 320d 2.0 dizel (N47D20) | Triger zinciri uzaması | 2007–2009 Yaygın · 2010–2015 Görülebilir |
+| BMW 3 Serisi (F30, 2012-2015) | 320i / 328i 2.0 turbo benzin (N20B20) | Triger zinciri ve plastik kızak arızası | 2012–2014 Yaygın · 2015 Görülebilir |
+| Citroen C3 / C3 Aircross (2016-) | 1.2 PureTech 82/110 (EB2) | Yağ banyolu triger kayışının dağılması | 2016–2020 Yaygın · 2021– Görülebilir |
+| Citroen C3 / C4 / C5 Aircross (2019-) | 1.5 BlueHDi 100/130 (DV5) | Eksantrik zinciri sesi ve kopması (7 mm zincir) | 2019–2020 Yaygın · 2021–2022 Görülebilir · 2023– Seyrek |
+| Ford Fiesta / Focus (2012-2023) | 1.0 EcoBoost | Soğutma sistemi kaçağı ve hararet | 2012–2014 Yaygın · 2015–2016 Görülebilir |
+| Ford Fiesta / Focus (2012-2023) | 1.0 EcoBoost | Yağ banyolu triger kayışının aşınması | 2012–2017 Yaygın · 2018–2020 Görülebilir · 2021–2023 Seyrek |
+| Ford Focus 3 (2011-2018) | 1.6 Ti-VCT (Powershift DPS6) | Powershift kavrama silkelemesi ve kavrama yuvası sızıntısı | 2012–2016 Yaygın |
+| Honda Civic (FC5, 2016-2021) | 1.5 VTEC Turbo (L15B7) | Yağa yakıt karışması | 2016–2018 Yaygın · 2019–2021 Seyrek |
+| Honda Civic (FD6, 2006-2011) | 1.6 i-VTEC | Arka lastiklerde düzensiz aşınma (2006-2007 üretimde Honda servis bülteni) | 2006–2007 Görülebilir |
+| Hyundai Bayon (2021-) | 1.0 T-GDI 100/120 (7DCT) | Yakıt pompası arızası | 2021–2023 Yaygın · 2024– Seyrek |
+| Hyundai Bayon (2021-) | 1.4 MPI 100 | Yakıt pompası arızası | 2021–2023 Yaygın · 2024– Seyrek |
+| Hyundai Tucson (TL, 2015-2020) | 1.6 T-GDI (7DCT) | 7DCT kalkışta tereddüt ve silkeleme | 2016–2017 Görülebilir |
+| Hyundai i20 (BC3, 2020-) | 1.0 T-GDI 100/120 (7DCT) | Yakıt pompası arızası | 2020–2022 Yaygın · 2023– Seyrek |
+| Hyundai i20 (BC3, 2020-) | 1.4 MPI 100 | Yakıt pompası arızası | 2020–2022 Yaygın · 2023– Seyrek |
+| Mercedes-Benz C Serisi (W204, 2007-2014) | C220 / C250 CDI 2.1 (OM651) | Delphi piezo enjektör arızası | 2008–2012 Yaygın · 2013–2014 Seyrek |
+| Mercedes-Benz E Serisi (W212, 2009-2016) | E250 CDI 2.1 (OM651) | Piezo enjektör arızası | 2009–2011 Yaygın · 2012–2016 Seyrek |
+| Opel Astra K (2015-2021) | 1.4 Turbo 125/150 (B14XFL/B14XFT, 2019 sonrası D14XFL/D14XFT) | LSPI kaynaklı piston ve segman kırılması | 2015–2018 Yaygın · 2019–2021 Görülebilir |
+| Opel Crossland / Corsa F (2017-) | 1.2 PureTech 83/100/110/130 (EB2) | Yağ banyolu triger kayışının dağılması | 2017–2020 Yaygın · 2021– Görülebilir |
+| Peugeot 208 / 2008 / 308 / 3008 / 5008 (2019-) | 1.5 BlueHDi 100/130 (DV5) | Eksantrik zinciri sesi ve kopması (7 mm zincir) | 2019–2020 Yaygın · 2021–2022 Görülebilir · 2023– Seyrek |
+| Peugeot 308 / 3008 (2007-2014) | 1.6 THP (EP6) | Yüksek basınç yakıt pompası arızası | 2007–2012 Görülebilir · 2013–2014 Seyrek |
+| Peugeot 308 / 3008 / 208 / 2008 (2014-2021) | 1.2 PureTech (EB2) | Yağ banyolu triger kayışının dağılması | 2014–2020 Yaygın · 2021 Görülebilir |
+| Renault Clio 4 (2013-2019) | 0.9 TCe 90 (H4Bt) | Triger zinciri ve gergi sesi (ilk üretim) | 2013–2014 Görülebilir · 2015–2019 Seyrek |
+| Renault Clio 4 / Captur (2013-2019) | 1.2 TCe (H5Ft) | Aşırı yağ tüketimi | 2013–2016 Yaygın |
+| Skoda Octavia (A7, 2013-2020) | 1.4 TSI (EA211, DSG DQ200) | DSG mekatronik arızası | 2013–2020 Görülebilir |
+| Toyota Corolla (E210, 2019-) | 1.5 Dynamic Force (M15A-FKS) | Krank ve biyel yatağı sarması | 2021–2022 Yaygın · 2023–2025 Görülebilir |
+| Volkswagen Golf 6 / Jetta (2008-2013) | 1.4 TSI (EA111, DSG DQ200) | DSG mekatronik arızası | 2008–2011 Yaygın · 2012–2013 Görülebilir |
+| Volkswagen Golf 7 (2012-2019) | 1.4 TSI 122/140 (EA211) | DQ200 kuru kavrama aşınması ve mekatronik arızası | 2013–2019 Görülebilir |
+| Volkswagen Polo 6R / 6C (2009-2017) | 1.2 TSI 90/105/110 (EA111 CBZA/CBZB, sonra EA211 CJZ) | Triger zinciri gergisi arızası ve zincir uzaması | 2009–2013 Yaygın · 2014–2017 Seyrek |
+| Volkswagen Polo 6R / 6C (2009-2017) | 1.2 TSI 90/105/110 (EA111 CBZA/CBZB, sonra EA211 CJZ) | Aşırı yağ tüketimi ve supap yayı kırılması | 2009–2013 Görülebilir · 2014–2017 Seyrek |
+| Volkswagen Tiguan (5N, 2008-2016) | 1.4 TSI 122/150/160 (EA111) | Triger zinciri gergisi arızası | 2008–2011 Yaygın · 2012–2016 Görülebilir |
+
+### Kanıtı yetersiz bulunan gruplar
+
+Aşağıdaki gruplar araştırıldı, iki bağımsız sitede tekrar eden bir sorun bulunamadı ve veritabanına eklenmedi. Bu "sorunsuz" demek değildir; kaynak bulunursa `data/araclar.json` içine eklenebilir.
+
+| Model | Motor | Neden |
+| --- | --- | --- |
+| BMW 3 Serisi F30 (2015-2019) | 320d (B47) / 320i (B48) | Kaynaklar B47'nin N47 sorunlarını büyük ölçüde çözdüğünü yazıyor ama çelişkili; B48 zincir/turbo yağ terlemesi tek kaynakta kaldı. |
+| Dacia Duster (2018-2021) | 1.6 SCe 115 | Kaynaklarda bu motor için öne çıkan bir sorun bulunamadı. |
+| Fiat Egea (2016-) | 1.6 E-Torq 110 | Aramalarda öne çıkan kronik sorun bulunamadı. |
+| Fiat Linea (2007-2015) | 1.4 Fire / 1.4 T-Jet | Dağınık şikâyetler var, tekrar eden bir sorun için iki bağımsız site bulunamadı. |
+| Ford Courier / Tourneo Courier (2014-) | 1.5 TDCi / 1.0 EcoBoost | Şikâyetler fren sesi, gıcırtı ve genel motor arıza lambası gibi dağınık konularda; ortak bir arıza için iki bağımsız site bulunamadı. |
+| Ford Fiesta (2008-2023) | 1.25 / 1.4 Duratec | Kullanıcılar 1.25 ve 1.4 benzinlileri sorunsuz olarak anıyor; kronik sorun bulunamadı. |
+| Ford Fiesta (2008-2017) | 1.4 / 1.6 TDCi | Enjektör ve turbo anıları genel TDCi başlıklarıyla karışık; Fiesta'ya özgü tekrar eden sorun bulunamadı. |
+| Ford Focus 3 (2011-2018) | 1.5 TDCi 95/120 | Enjektör ve DPF şikâyetleri dağınık, DPF şikâyetleri ağırlıkla 2019 sonrası EcoBlue'ya ait; 2015-2018 1.5 TDCi için ortak sorun yok. |
+| Ford Puma (2019-) | 1.0 EcoBoost mHEV | Forum görüşleri çelişkili (bazıları en sorunsuz 3 silindirli diyor); tekrar eden bir motor sorunu için kanıt yok. |
+| Hyundai Accent Blue (2011-2019) | 1.4 MPI / 1.6 GDI | 1.4 MPI ve 1.6 GDI için tekrar eden sorun bulunamadı (yalnızca tek tek külbütör kapağı yağ kaçağı ve sübap iddiaları). |
+| Hyundai Elantra (2011-2020) | 1.6 MPI / 1.6 CRDi | Tek bir 7DCT kalkış titremesi şikâyeti dışında tekrar eden sorun bulunamadı. |
+| Hyundai i30 (2012-2020) | 1.6 CRDi | Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; model/motor bazında tekrar eden sorun için iki bağımsız site bulunamadı. |
+| Kia Rio (2011-2017) | 1.4 MPI 100 | Forumlarda sorunsuz olarak anılıyor; kronik sorun bulunamadı. |
+| Mercedes-Benz C Serisi W205 (2014-2021) | C180 / C200 benzinli (M274) | Kaynaklar M274'ü zincir konusunda M271'e göre daha sorunsuz buluyor; belirgin kronik sorun yok (7G-Tronic için dağınık şikâyetler var). |
+| Opel Corsa D / E (2006-2019) | 1.2 / 1.4 benzinli (A12XER, A14XER) | Aramalarda A12XER/A14XER için kronik sorun bulunamadı; sonuçlar PureTech'e ait. |
+| Opel Mokka (2012-2019) | 1.4 Turbo (A14NET) | Mokka'ya özgü, A14NET'i açıkça belirten tekrar eden bir şikâyet bulunamadı; aynı motor için Astra J ve Astra K kayıtlarına bakın. |
+| Peugeot 208 / 2008 / 308 / 3008 (2012-2021) | 1.6 BlueHDi / e-HDi (DV6) | Enjektör, EGR ve turbo anıları dağınık ve tek tek vaka; 301 kaydındaki DV6 sorunları aynı motor ailesi için geçerlidir. |
+| Renault Megane 3 / Fluence (2009-2016) | 1.6 16V (K4M, LPG'li dahil) | Aramalarda LPG'li K4M supap oturması anılıyor ama iki bağımsız site bulunamadı. |
+| Toyota C-HR (2016-) | 1.2 Turbo (8NR-FTS) | Yağ yakma ve şanzıman anıları motor tipi belirtilmeden, tek tek vaka; iki bağımsız site bulunamadı. |
+| Toyota C-HR (2016-) | 1.8 Hybrid (2ZR-FXE) | Hibrit sistem uyarısı dışında tekrar eden mekanik sorun bulunamadı. |
+| Toyota Corolla E170 (2013-2018) | 1.6 Valvematic (Multidrive S) | Şikâyet sitelerinde 1.6 Valvematic ve Multidrive S için tekrar eden bir sorun kümesi bulunamadı. |
+| Toyota Corolla E210 (2019-) | 1.8 Hybrid (2ZR-FXE) | Şikâyetler ses yalıtımı, fren diski paslanması ve 12V akü gibi mekanik olmayan konularda; tekrar eden mekanik sorun bulunamadı. |
+
+### Yalnızca iki siteyle desteklenen yeni maddeler
+
+Kuralı geçiyor ama sınırda. Önce bunlara üçüncü bir kaynak aranması yararlı olur:
+
+- Audi A3 (8V, 2012-2020): EGR valfi ve DPF tıkanması (araclo.com, donanimhaber.com)
+- Audi A4 (B8, 2008-2015): Multitronic şanzıman titremesi ve arızası (araclo.com, donanimhaber.com)
+- BMW 1 Serisi (F20 LCI, 2015-2019): Turbo manifoldu çatlaması ve soğutma suyu eksilmesi (andcetin.com, sikayetvar.com)
+- Dacia Duster (2018-2021): Enjektör ve yüksek basınç borusu arızası (araclo.com, sikayetvar.com)
+- Dacia Sandero / Logan (2013-2020): Enjektör ve yakıt sistemi arızası (araclo.com, donanimhaber.com)
+- Fiat Doblo (2010-2022): Enjektör arızası (donanimhaber.com, sikayetvar.com)
+- Fiat Doblo (2010-2022): Turbo arızası (donanimhaber.com, sikayetvar.com)
+- Fiat Doblo (2010-2022): EGR ve DPF tıkanması (kısa mesafe kullanımında) (donanimhaber.com, eksisozluk.com)
+- Ford Fiesta (Mk7, 2011-2017): Powershift kavrama ve şanzıman kontrol modülü (TCM) arızası (donanimhaber.com, sikayetvar.com)
+- Ford Kuga 2 / Mondeo (2015-2019): Silindir kapağı çatlağı ve conta yanması (donanimhaber.com, sikayetvar.com)
+- Hyundai Bayon (2021-): Yakıt pompası arızası (andcetin.com, sikayetvar.com)
+- Hyundai Tucson (NX4, 2021-): DPF tıkanması ve yağa mazot karışması (andcetin.com, sikayetvar.com)
+- Hyundai Tucson (NX4, 2021-): 7DCT kavrama titremesi (araclo.com, sikayetvar.com)
+- Hyundai Tucson (TL FL, 2018-2020): 7DCT kavrama titremesi (araclo.com, sikayetvar.com)
+- Hyundai i20 (BC3, 2020-): Yakıt pompası arızası (andcetin.com, sikayetvar.com)
+- Mercedes-Benz C Serisi (W205, 2015-2021): NOx sensörü ve AdBlue sistemi arızası (donanimhaber.com, sikayetvar.com)
+- Nissan Juke (F15, 2010-2019): CVT şanzıman sarsıntısı ve çekiş kaybı (donanimhaber.com, sikayetvar.com)
+- Nissan Qashqai (J11, 2014-2020): Turbo basınç hortumu patlaması ve turbo arızası (araclo.com, sikayetvar.com)
+- Opel Corsa D / E (2006-2019): Triger zinciri uzaması (araclo.com, donanimhaber.com)
+- Opel Insignia A (2014-2017): Turbo basınç hortumu patlaması (eksisozluk.com, sikayetvar.com)
+- Opel Insignia A (2014-2017): Triger zinciri sesi (eksisozluk.com, sikayetvar.com)
+- Renault Clio 4 (2013-2019): Triger zinciri ve gergi sesi (ilk üretim) (araclo.com, donanimhaber.com)
+- Renault Clio 5 (2019-): Motor takozu yıpranması (araclo.com, sikayetvar.com)
+- Renault Kadjar (2015-2022): Külbütör kapağı çevresinden yağ terlemesi (araclo.com, sikayetvar.com)
+- Renault Kadjar (2015-2022): EDC şanzıman vites geçiş sesi ve kavrama silkelemesi (eksisozluk.com, sikayetvar.com)
+- Toyota Corolla (E150 FL / E170, 2009-2018): Aşırı yağ tüketimi (donanimhaber.com, sikayetvar.com)
+- Volkswagen Passat (B7, 2010-2014): Enjektör şakırtısı ve arızası (araclo.com, donanimhaber.com)
+- Volkswagen Passat (B8, 2015-2023): DSG kavrama ve mekatronik arızası (donanimhaber.com, sikayetvar.com)
+- Volkswagen Polo 6R / 6C (2009-2017): Triger zinciri gergisi arızası ve zincir uzaması (andcetin.com, donanimhaber.com)
+- Volkswagen Polo 6R / 6C (2009-2017): Aşırı yağ tüketimi ve supap yayı kırılması (andcetin.com, donanimhaber.com)
+- Volkswagen T-Roc (2018-): Yağ eksiltme ve düşük yağ uyarısı (donanimhaber.com, sikayetvar.com)
+- Volkswagen Tiguan (AD1 / CR7, 2018-): Yağ eksiltme ve düşük yağ uyarısı (donanimhaber.com, sikayetvar.com)
+
+### Dikkat edilecek sınırlar
+
+- Şikâyet siteleri sorunlu vakaları öne çıkarır; bir sorunun şikâyet sayfasında görülmesi sıklığı göstermez. Yıl kırılımındaki `Yaygın`/`Görülebilir`/`Seyrek` değerleri bildirim yoğunluğuna dayanan editoryal bir sınıflandırmadır.
+- Aynı motoru paylaşan modellerde kaynak aktarımı yapıldı ve kayıtta belirtildi: Bayon kayıtları büyük ölçüde i20 şikâyetlerine, Juke 1.2 DIG-T kaydı kısmen Qashqai şikâyetlerine dayanıyor; PureTech kayıtları (Peugeot, Citroen, Opel) aynı motor ailesinin kaynaklarını kullanıyor.
+- Yıl kırılımlarından biri tek kaynağa dayanıyor ve kayıtta "tek kaynak" yazıyor (Hyundai i20/Bayon yakıt pompası makyaj tarihleri, PureTech 2021 kayış malzemesi, Tiguan 5N erken CAV motor notu).
+- Honda 1.5 Turbo kampanyası ABD ve Kanada için duyuruldu; Türkiye araçları için kapsamı doğrulanamadı. BMW N20 için 2015 güncellemesi forum ve parça rehberi yorumlarına dayanıyor, BMW belgesi bulunamadı.
+- Kilometre aralıkları yine tahmindir; kaynakta rakam varsa ona göre, yoksa benzer vakalara göre yazıldı.
+- Dış sitelere doğrudan erişim bu aşamada da kapalıydı; bkz. [KAYNAKLAR.md](KAYNAKLAR.md).
+
+### Düzeltmeler
+
+Bu aşamada kendi eklediğim kayıtlarda yaptığım denetimde şunlar düzeltildi:
+
+- **Tiguan (5N) 1.4 TSI zincir gergisi:** parça açıklamasına kaynaklarda bulunmayan bir "yağ emiş süzgeci tıkanıklığı" notu yazılmıştı, çıkarıldı. Aynı kayda kaynaklardaki erken CAV motor notu yıl kırılımı olarak işlendi.
+- **Opel Corsa D/E 1.3 CDTI zincir:** kaynaklar arasına Fiat Linea'ya ait bir forum başlığı girmişti, çıkarıldı.
+- **Renault Clio 3 / Symbol 1.5 dCi enjektör:** genel bir "enjeksiyon arızası" şikâyet sayfası dCi'ye özgü olmadığı için çıkarıldı.
+- **VW Passat B8 DSG:** B8'in şanzımanının DQ200 olduğu kesin olmadığından DQ200 makalesi yerine B8'e özgü şikâyet ve forum başlıkları kullanıldı.
+- **Skoda Octavia 1.6 TDI DSG:** forum başlığı A5 dönemine ait olduğundan kayıt "A5 / A7" olarak adlandırıldı.
+- **Bayon:** kaynakların i20'ye ait olduğu kayıt metnine eklendi.
+- **Kademe 1 commit mesajı:** "63'ü kayıtlı" yazıyordu, doğrusu 74 (yukarıdaki sayı doğrudur; geçmiş değiştirilmedi).
+
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen maddelere üçüncü bir kaynak eklenebilir.
-3. Eksik modeller (Hyundai i20, Kia, Skoda Superb vb.) aynı kuralla eklenebilir.
+2. Yalnızca iki siteyle desteklenen maddelere üçüncü bir kaynak eklenebilir (1. aşamadan 7, 2. aşamadan 32 madde).
+3. Kademe 2 ve 3: [KAPSAM.md](KAPSAM.md) içinde `○` ile işaretli 66 model/motor grubu aynı kuralla eklenebilir.
+4. Kanıtı yetersiz bulunan 22 grup için yeni kaynak çıkarsa eklenebilir.
