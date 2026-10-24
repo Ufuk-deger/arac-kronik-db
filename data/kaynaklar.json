@@ -498,6 +498,22 @@
       "guven": "düşük",
       "ana_sayfa": "https://www.autopartspro.co.uk/",
       "not": "Parça satıcısının genel arıza yazıları (SEO ağırlıklı); tek başına yeterli sayılmaz."
+    },
+    "wardsauto.com": {
+      "ad": "WardsAuto",
+      "ulke": "US",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://www.wardsauto.com/",
+      "not": "ABD otomotiv sektörü haber ve analiz yayını; üretici kampanyalarını aktarır."
+    },
+    "completecar.ie": {
+      "ad": "CompleteCar.ie",
+      "ulke": "IE",
+      "tur": "editoryal",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.completecar.ie/",
+      "not": "İrlanda merkezli araç sitesi; okur sorularına yanıt veriyor."
     }
   }
 }

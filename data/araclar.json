@@ -312,7 +312,22 @@
           "kaynaklar": [
             "https://f30.bimmerpost.com/forums/showthread.php?t=1622988",
             "https://www.carcomplaints.com/news/2020/bmw-timing-chain-lawsuit-settlement-reached.shtml",
-            "https://www.fcpeuro.com/blog/how-to-replace-the-bmw-n20-timing-chain-part-1-removal"
+            "https://www.fcpeuro.com/blog/how-to-replace-the-bmw-n20-timing-chain-part-1-removal",
+            "https://f30.bimmerpost.com/forums/showthread.php?t=2009697"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2012,
+              "bitis": 2014,
+              "durum": "Yaygın",
+              "not": "Forumlar ve parça rehberleri sorunu ağırlıkla 2013 ile Şubat-Mart 2015 arası üretimdeki N20'lerle ilişkilendiriyor; plastik zincir kılavuzları çatlıyor."
+            },
+            {
+              "baslangic": 2015,
+              "bitis": 2015,
+              "durum": "Görülebilir",
+              "not": "Forumlar zincir ve kılavuzların Şubat-Mart 2015 üretiminden itibaren güncellendiğini yazıyor (kaynaklar güncellenenin kılavuz mu yalnızca zincir mi olduğunda çelişiyor); 320i LCI ile B48 motora geçti."
+            }
           ]
         },
         {
@@ -480,7 +495,22 @@
             "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
             "https://forum.donanimhaber.com/1-2-puretech-triger-degisimi--161243255",
             "https://eksisozluk.com/1-2-puretech--6399271",
-            "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/"
+            "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
+            "https://www.completecar.ie/askusanything/question/18081/Do-all-Peugeot-PureTech-engines-have-wet-belt-issues"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2016,
+              "bitis": 2020,
+              "durum": "Yaygın",
+              "not": "İlk kayışlar yağda dağılan parçacıklar bırakıyor; Stellantis uzatılmış garanti ve tazminat programı yürütüyor."
+            },
+            {
+              "baslangic": 2021,
+              "bitis": null,
+              "durum": "Görülebilir",
+              "not": "Bir kaynak kayış malzemesinin yaklaşık 2021'de değiştirildiğini yazıyor ama tüm motorların etkilenmediğini, düzelme düzeyinin bilinmediğini belirtiyor (tek kaynak)."
+            }
           ]
         }
       ]
@@ -1199,7 +1229,22 @@
             "https://www.carcomplaints.com/news/2019/honda-civic-cr-v-oil-dilution-warranties-extended.shtml",
             "https://www.civicx.com/forum/threads/oil-dilution.40590/",
             "https://www.araclo.com/blog/honda-civic-1.5-turbo-vs-1.6-i-vtec-hangisi-daha-avantajli-2026",
-            "https://forum.donanimhaber.com/honda-civic-1-5-turbo-rs-88-000km-yag-fazlalasmasi--160945633"
+            "https://forum.donanimhaber.com/honda-civic-1-5-turbo-rs-88-000km-yag-fazlalasmasi--160945633",
+            "https://www.wardsauto.com/internal-combustion-engines/honda-extends-warranty-to-address-1-5l-gas-oil-dilution-problem"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2016,
+              "bitis": 2018,
+              "durum": "Yaygın",
+              "not": "Honda ABD ve Kanada'da 2016-2018 Civic için yazılım güncellemesi ve uzatılmış garanti kampanyası yürüttü; Türkiye araçları için kampanya kapsamı doğrulanamadı."
+            },
+            {
+              "baslangic": 2019,
+              "bitis": 2021,
+              "durum": "Seyrek",
+              "not": "Wards'a göre 2019 model yılı araçlar fabrikada güncellenmiş yazılımla çıkıyor; güncellemenin kalıcı etkisi bu kaynaklarla doğrulanamadı."
+            }
           ]
         },
         {
@@ -2145,7 +2190,22 @@
             "https://www.sikayetvar.com/opel/corsa/problem",
             "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026",
             "https://www.araclo.com/blog/opel-crossland-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026",
-            "https://eksisozluk.com/1-2-puretech--6399271?p=2"
+            "https://eksisozluk.com/1-2-puretech--6399271?p=2",
+            "https://www.completecar.ie/askusanything/question/18081/Do-all-Peugeot-PureTech-engines-have-wet-belt-issues"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2017,
+              "bitis": 2020,
+              "durum": "Yaygın",
+              "not": "İlk kayışlar yağda dağılan parçacıklar bırakıyor; Stellantis uzatılmış garanti ve tazminat programı yürütüyor."
+            },
+            {
+              "baslangic": 2021,
+              "bitis": null,
+              "durum": "Görülebilir",
+              "not": "Bir kaynak kayış malzemesinin yaklaşık 2021'de değiştirildiğini yazıyor ama tüm motorların etkilenmediğini belirtiyor (tek kaynak); 2022 model Corsa'da 34.000 km'de aşınma bildiren sahip var."
+            }
           ]
         }
       ]
@@ -2360,7 +2420,22 @@
             "https://www.parkers.co.uk/car-news/stellantis-wet-belt-compensation/",
             "https://andcetin.com/12-puretech-sorunlar-ve-idare-etmenin-yollar-40/",
             "https://www.sikayetvar.com/peugeot/peugeot-308-purtech-triger-kayisi-ve-yag-eksiltme-sorunu",
-            "https://www.honestjohn.co.uk/forum/post/159060/peugeot-308-sw--"
+            "https://www.honestjohn.co.uk/forum/post/159060/peugeot-308-sw--",
+            "https://www.completecar.ie/askusanything/question/18081/Do-all-Peugeot-PureTech-engines-have-wet-belt-issues"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2014,
+              "bitis": 2020,
+              "durum": "Yaygın",
+              "not": "İlk kayışlar yağda dağılan parçacıklar bırakıyor; Stellantis uzatılmış garanti ve tazminat programı yürütüyor."
+            },
+            {
+              "baslangic": 2021,
+              "bitis": 2021,
+              "durum": "Görülebilir",
+              "not": "Bir kaynak kayış malzemesinin yaklaşık 2021'de değiştirildiğini yazıyor ama tüm motorların etkilenmediğini, düzelme düzeyinin bilinmediğini belirtiyor (tek kaynak)."
+            }
           ]
         },
         {

@@ -22,6 +22,8 @@ kaynaklar destekliyorsa üretim yılına göre kırılır (ör. revizyon öncesi
 | `scripts/dogrula.py` | Veriyi ve kaynak kurallarını doğrulayan betik (yalnızca Python standart kütüphanesi) |
 | `scripts/kaynaklar_md_uret.py` | `KAYNAKLAR.md` dosyasını üretir |
 | `scripts/kapsam_md_uret.py` | `KAPSAM.md` dosyasını plan ve veriden üretir |
+| `scripts/viewer_uret.py` | Tarayıcıda açılan tek dosyalık görüntüleyiciyi (`viewer/index.html`) üretir |
+| `viewer/sablon.html` | Görüntüleyicinin şablonu (arama, marka, model yılı, kilometre ve risk filtreleri) |
 | `tests/test_dogrula.py` | Doğrulayıcının birim testleri |
 | `KAYNAKLAR.md` | Kullanılan forum ve sitelerin listesi, türleri ve güvenilirlik notları |
 | `KAPSAM.md` | Hangi marka, model ve motor gruplarının planlandığı, hangilerinin tamamlandığı |
@@ -112,6 +114,16 @@ Kullanılan sitelerin listesi ve güvenilirlik notları için
 [KAYNAKLAR.md](KAYNAKLAR.md), doğrulama sırasında yapılan değişiklikler için
 [DOGRULAMA_RAPORU.md](DOGRULAMA_RAPORU.md), kapsam ve ilerleme için [KAPSAM.md](KAPSAM.md)
 dosyalarına bakın.
+
+## Görüntüleme
+
+```sh
+python3 scripts/viewer_uret.py
+```
+
+`viewer/index.html` oluşur; veriler dosyanın içine gömülür, sunucu gerekmez. Sayfada marka, model, motor
+koduna göre arama yapabilir, model yılı ve kilometre girerek o yıl ve kilometre için geçerli sorunları
+görebilirsiniz. Yıl kırılımı olan sorunlarda girdiğiniz model yılının hangi döneme düştüğü işaretlenir.
 
 ## Doğrulama
 

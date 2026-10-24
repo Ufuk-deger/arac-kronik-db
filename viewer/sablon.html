@@ -1,0 +1,1092 @@
+<title>Araç Kronik DB</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Barlow:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+  :root {
+    /* Layout: servis kılavuzu dizini; marka başlıkları altında solda araç kimliği, sağda sorun satırları ve ortak ölçekli km çizelgesi; telefonda alt alta */
+    --bg: #eef1f4;
+    --surface: #ffffff;
+    --ink: #15202b;
+    --muted: #586574;
+    --line: #d5dbe2;
+    --grid: #bcc5cf;
+    --track: #e4e9ee;
+    --accent: #0d5868;
+    --accent-ink: #ffffff;
+    --accent-soft: #d9ebef;
+    --focus: #1b7f96;
+    --high: #a8231b;
+    --high-bg: #fae6e3;
+    --high-fill: #d64a3d;
+    --mid: #7f4c00;
+    --mid-bg: #fcefd3;
+    --mid-fill: #e09a1f;
+    --low: #22653e;
+    --low-bg: #dff0e5;
+    --low-fill: #3e9862;
+    --font-display: "Barlow Condensed", "Roboto Condensed", "Arial Narrow", sans-serif;
+    --font-body: "Barlow", "Segoe UI", Roboto, system-ui, sans-serif;
+    --font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+    --radius: 10px;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #0e141a;
+      --surface: #151d25;
+      --ink: #e3e8ed;
+      --muted: #95a2af;
+      --line: #25313b;
+      --grid: #3a4955;
+      --track: #1e2830;
+      --accent: #5dbdd1;
+      --accent-ink: #06222a;
+      --accent-soft: #123039;
+      --focus: #7fd3e4;
+      --high: #ff9d93;
+      --high-bg: #3a1916;
+      --high-fill: #e0584b;
+      --mid: #f5c064;
+      --mid-bg: #36280e;
+      --mid-fill: #d89a2c;
+      --low: #88d5a6;
+      --low-bg: #12301e;
+      --low-fill: #49a76d;
+      color-scheme: dark;
+    }
+  }
+  :root[data-theme="dark"] {
+    --bg: #0e141a;
+    --surface: #151d25;
+    --ink: #e3e8ed;
+    --muted: #95a2af;
+    --line: #25313b;
+    --grid: #3a4955;
+    --track: #1e2830;
+    --accent: #5dbdd1;
+    --accent-ink: #06222a;
+    --accent-soft: #123039;
+    --focus: #7fd3e4;
+    --high: #ff9d93;
+    --high-bg: #3a1916;
+    --high-fill: #e0584b;
+    --mid: #f5c064;
+    --mid-bg: #36280e;
+    --mid-fill: #d89a2c;
+    --low: #88d5a6;
+    --low-bg: #12301e;
+    --low-fill: #49a76d;
+    color-scheme: dark;
+  }
+
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+  [hidden] {
+    display: none !important;
+  }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.5;
+  }
+  body::before {
+    content: "";
+    position: fixed;
+    inset: 0 0 auto;
+    height: env(safe-area-inset-top, 0px);
+    z-index: 10;
+    background: var(--bg);
+  }
+  .sayfa {
+    padding-left: max(16px, env(safe-area-inset-left, 0px));
+    padding-right: max(16px, env(safe-area-inset-right, 0px));
+    padding-block: 0 48px;
+  }
+  .kap {
+    max-width: 72rem;
+    margin-inline: auto;
+  }
+  .etiket {
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+
+  /* Başlık */
+  .ust {
+    padding-block: 32px 20px;
+    display: grid;
+    gap: 12px;
+  }
+  .ust h1 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: clamp(2.2rem, 5vw, 3.1rem);
+    line-height: 1;
+    letter-spacing: 0.01em;
+    text-wrap: balance;
+  }
+  .giris {
+    margin: 0;
+    max-width: 62ch;
+    color: var(--muted);
+  }
+  .ozet {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+  }
+
+  /* Filtreler */
+  .filtre {
+    padding-block: 12px 14px;
+    border-bottom: 1px solid var(--line);
+    background: var(--bg);
+  }
+  .filtre-ic {
+    display: grid;
+    gap: 12px;
+  }
+  .filtre-satir {
+    display: grid;
+    grid-template-columns: minmax(0, 2fr) minmax(0, 1fr) minmax(0, 0.8fr) minmax(0, 1fr);
+    gap: 12px 16px;
+    align-items: end;
+  }
+  .filtre-satir.ikinci {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 10px 20px;
+  }
+  .alan {
+    display: grid;
+    gap: 4px;
+    min-width: 0;
+  }
+  input[type="search"],
+  input[type="text"],
+  select {
+    width: 100%;
+    min-width: 0;
+    font: inherit;
+    font-size: 1rem;
+    color: var(--ink);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    padding: 9px 12px;
+  }
+  input::placeholder {
+    color: var(--muted);
+    opacity: 0.85;
+  }
+  .km-giris {
+    position: relative;
+  }
+  .yil-giris {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.04em;
+  }
+  .km-giris input {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+    letter-spacing: 0.04em;
+    padding-right: 3rem;
+  }
+  .km-giris .birim {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--muted);
+    pointer-events: none;
+  }
+  .risk-sec {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px;
+    min-width: 0;
+  }
+  .risk-sec > .etiket {
+    margin-right: 4px;
+  }
+  .cip {
+    position: relative;
+  }
+  .cip input {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: 0;
+    opacity: 0;
+  }
+  .cip span {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 5px 12px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--surface);
+    font-size: 0.9rem;
+    font-weight: 500;
+    cursor: pointer;
+    user-select: none;
+  }
+  .cip span:hover {
+    border-color: var(--muted);
+  }
+  .cip input:checked + span {
+    background: var(--ink);
+    border-color: var(--ink);
+    color: var(--bg);
+  }
+  .cip .say {
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+  }
+  .cip input:checked + span .say {
+    color: inherit;
+    opacity: 0.75;
+  }
+  .lamba {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    flex: none;
+  }
+  [data-risk="yuksek"] .lamba { background: var(--high-fill); }
+  [data-risk="orta"] .lamba { background: var(--mid-fill); }
+  [data-risk="dusuk"] .lamba { background: var(--low-fill); }
+  .onay {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 0.92rem;
+    cursor: pointer;
+  }
+  .onay input {
+    width: 18px;
+    height: 18px;
+    margin: 0;
+    accent-color: var(--accent);
+  }
+  .onay:has(input:disabled) {
+    color: var(--muted);
+    cursor: default;
+  }
+  button {
+    font: inherit;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--accent);
+    background: transparent;
+    border: 1px solid var(--accent);
+    border-radius: 8px;
+    padding: 6px 14px;
+    cursor: pointer;
+  }
+  button:hover {
+    background: var(--accent-soft);
+  }
+  input:focus-visible,
+  select:focus-visible,
+  button:focus-visible,
+  a:focus-visible,
+  .cip input:focus-visible + span {
+    outline: 2px solid var(--focus);
+    outline-offset: 2px;
+  }
+  .sonuc {
+    margin: 14px 0 0;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+  }
+
+  /* Liste */
+  .marka-grup {
+    margin-top: 28px;
+  }
+  .marka-grup > h2 {
+    margin: 0 0 10px;
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+    font-family: var(--font-display);
+    font-weight: 700;
+    font-size: 1.65rem;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+  }
+  .marka-grup > h2 .say {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-weight: 400;
+    letter-spacing: 0;
+    color: var(--muted);
+  }
+  .araclar {
+    display: grid;
+    gap: 12px;
+  }
+  .arac {
+    display: grid;
+    grid-template-columns: 15rem minmax(0, 1fr);
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+  .arac-kimlik {
+    padding: 18px 20px;
+    border-right: 1px solid var(--line);
+    display: grid;
+    align-content: start;
+    gap: 6px;
+  }
+  .arac-kimlik h3 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.3rem;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+  .motor {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.85rem;
+    color: var(--accent);
+    overflow-wrap: anywhere;
+  }
+  .arac-say {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+  }
+  .sorun-alani {
+    min-width: 0;
+  }
+  .eksen,
+  .sorun {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 14rem;
+    gap: 8px 24px;
+    padding: 14px 20px;
+  }
+  .eksen {
+    padding-block: 12px 8px;
+    align-items: end;
+  }
+  .olcek {
+    position: relative;
+    height: 1.1rem;
+    margin-top: 4px;
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+  }
+  .olcek span {
+    position: absolute;
+    top: 0;
+    transform: translateX(-50%);
+  }
+  .olcek span:first-child { transform: none; }
+  .olcek span:last-child { transform: translateX(-100%); }
+  .sorunlar {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  .sorun {
+    border-top: 1px solid var(--line);
+  }
+  .sorun[data-risk="yuksek"] { --fill: var(--high-fill); }
+  .sorun[data-risk="orta"] { --fill: var(--mid-fill); }
+  .sorun[data-risk="dusuk"] { --fill: var(--low-fill); }
+  .sorun-metin {
+    min-width: 0;
+  }
+  .sorun-bas {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 10px;
+  }
+  .sorun-bas h4 {
+    margin: 0;
+    font-size: 1.02rem;
+    font-weight: 600;
+    line-height: 1.3;
+  }
+  .risk {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 2px 9px 2px 7px;
+    border-radius: 999px;
+    font-size: 0.76rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  .risk[data-risk="yuksek"] { color: var(--high); background: var(--high-bg); }
+  .risk[data-risk="orta"] { color: var(--mid); background: var(--mid-bg); }
+  .risk[data-risk="dusuk"] { color: var(--low); background: var(--low-bg); }
+  .risk .lamba {
+    width: 7px;
+    height: 7px;
+  }
+  .sorun-dl {
+    margin: 8px 0 0;
+    display: grid;
+    gap: 4px;
+  }
+  .sorun-dl > div {
+    display: grid;
+    grid-template-columns: 6.5rem minmax(0, 1fr);
+    gap: 8px;
+  }
+  .sorun-dl dt {
+    padding-top: 3px;
+  }
+  .sorun-dl dd {
+    margin: 0;
+    font-size: 0.95rem;
+  }
+  .sorun-dl dd.kaynaklar {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px 6px;
+  }
+  .kaynaklar a {
+    display: inline-block;
+    padding: 1px 9px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--bg);
+    color: var(--accent);
+    font-size: 0.78rem;
+    line-height: 1.5;
+    text-decoration: none;
+  }
+  .kaynaklar a:hover {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
+  .kaynaklar a[data-guven="dusuk"] {
+    color: var(--muted);
+  }
+  .arac-yil {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.78rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+  }
+  .donem {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    gap: 4px;
+  }
+  .donem li {
+    display: grid;
+    grid-template-columns: 5.6rem minmax(0, 1fr);
+    gap: 2px 10px;
+    padding: 6px 8px;
+    margin-left: -8px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+  }
+  .donem li[data-secili] {
+    border-color: var(--accent);
+    background: var(--accent-soft);
+  }
+  .donem .aral {
+    padding-top: 2px;
+    font-family: var(--font-mono);
+    font-size: 0.82rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .donem-ic {
+    min-width: 0;
+    display: grid;
+    gap: 2px;
+  }
+  .donem-metin {
+    font-size: 0.88rem;
+    color: var(--muted);
+  }
+  .donem-durum,
+  .yil-etiket {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    width: fit-content;
+    padding: 1px 9px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    font-size: 0.76rem;
+    font-weight: 600;
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+  .donem-durum .nokta {
+    font-family: var(--font-mono);
+    letter-spacing: 0.06em;
+  }
+  [data-d="yaygin"] { color: var(--high); border-color: var(--high); }
+  [data-d="gorulebilir"] { color: var(--mid); border-color: var(--mid); }
+  [data-d="seyrek"] { color: var(--low); border-color: var(--low); }
+  [data-d="yok"] { color: var(--muted); border-color: var(--line); }
+  .donem-not {
+    margin: 4px 0 0;
+    font-size: 0.8rem;
+    color: var(--muted);
+  }
+  .kaynak-say {
+    font-family: var(--font-mono);
+    font-size: 0.75rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--muted);
+    white-space: nowrap;
+  }
+  .sorun-km {
+    min-width: 0;
+    padding-top: 4px;
+  }
+  .cubuk {
+    position: relative;
+    height: 10px;
+    border-radius: 5px;
+    background-color: var(--track);
+    background-image: repeating-linear-gradient(90deg, transparent 0 calc(20% - 1px), var(--grid) calc(20% - 1px) 20%);
+  }
+  .aralik {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    border-radius: 5px;
+    background: var(--fill);
+  }
+  .isaret {
+    position: absolute;
+    top: -5px;
+    bottom: -5px;
+    width: 2px;
+    margin-left: -1px;
+    border-radius: 1px;
+    background: var(--ink);
+  }
+  .km-alt {
+    margin-top: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4px 8px;
+  }
+  .km-etiket {
+    font-family: var(--font-mono);
+    font-size: 0.8rem;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+  .durum {
+    padding: 1px 8px;
+    border-radius: 999px;
+    font-size: 0.72rem;
+    font-weight: 600;
+    white-space: nowrap;
+  }
+  .durum[data-durum="icinde"] {
+    background: var(--accent);
+    color: var(--accent-ink);
+  }
+  .durum[data-durum="yakin"] {
+    border: 1px solid var(--accent);
+    color: var(--accent);
+  }
+  .bos {
+    margin-top: 28px;
+    padding: 24px 20px;
+    border: 1px dashed var(--grid);
+    border-radius: var(--radius);
+    display: grid;
+    justify-items: start;
+    gap: 12px;
+  }
+  .bos p {
+    margin: 0;
+    max-width: 60ch;
+  }
+
+  /* Alt bilgi */
+  .alt {
+    margin-top: 40px;
+    padding-top: 16px;
+    border-top: 1px solid var(--line);
+    display: grid;
+    gap: 8px;
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+  .alt p {
+    margin: 0;
+    max-width: 75ch;
+  }
+  .alt a {
+    color: var(--accent);
+  }
+
+  @media (min-width: 900px) {
+    .filtre {
+      position: sticky;
+      top: env(safe-area-inset-top, 0px);
+      z-index: 5;
+    }
+  }
+  @media (max-width: 960px) {
+    .arac {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .arac-kimlik {
+      border-right: 0;
+      border-bottom: 1px solid var(--line);
+    }
+  }
+  @media (max-width: 640px) {
+    .filtre-satir {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    }
+    .donem li {
+      grid-template-columns: minmax(0, 1fr);
+    }
+    .alan-ara {
+      grid-column: 1 / -1;
+    }
+    .eksen,
+    .sorun {
+      grid-template-columns: minmax(0, 1fr);
+      padding-inline: 16px;
+    }
+    .arac-kimlik {
+      padding: 16px;
+    }
+    .eksen-sol {
+      display: none;
+    }
+    .sorun-dl > div {
+      grid-template-columns: minmax(0, 1fr);
+      gap: 0;
+    }
+  }
+</style>
+
+<div class="sayfa" lang="tr">
+  <header class="ust kap">
+    <h1>Araç Kronik DB</h1>
+    <p class="giris">Türkiye'de yaygın araçların bilinen kronik sorunları, marka ve motor bazında. Aracınızı marka, model ya da motor koduyla arayın; model yılınızı girerseniz yalnızca o yılı kapsayan kayıtlar kalır ve revizyon öncesi/sonrası farkı olan sorunlarda yılınız işaretlenir. Kilometrenizi girerseniz hangi sorunların o aralıkta görüldüğü gösterilir. Her sorun en az iki farklı sitedeki sayfayla desteklenir; bağlantılar sorunun altında.</p>
+    <p class="ozet" id="ozet"></p>
+  </header>
+
+  <section class="filtre" aria-label="Filtreler">
+    <div class="kap filtre-ic">
+      <div class="filtre-satir">
+        <label class="alan alan-ara">
+          <span class="etiket">Ara</span>
+          <input id="ara" type="search" placeholder="ör. Egea, K9K, DSG, triger" autocomplete="off">
+        </label>
+        <label class="alan">
+          <span class="etiket">Marka</span>
+          <select id="marka">
+            <option value="">Tüm markalar</option>
+          </select>
+        </label>
+        <label class="alan">
+          <span class="etiket">Model yılı</span>
+          <input id="yil" class="yil-giris" type="text" inputmode="numeric" maxlength="4" placeholder="2018" autocomplete="off">
+        </label>
+        <label class="alan">
+          <span class="etiket">Aracınızın kilometresi</span>
+          <span class="km-giris">
+            <input id="km" type="text" inputmode="numeric" placeholder="120.000" autocomplete="off">
+            <span class="birim">km</span>
+          </span>
+        </label>
+      </div>
+      <div class="filtre-satir ikinci">
+        <div class="risk-sec" role="radiogroup" aria-labelledby="risk-baslik">
+          <span class="etiket" id="risk-baslik">Risk</span>
+          <label class="cip"><input type="radio" name="risk" id="risk-tumu" value="" checked><span>Tümü <b class="say" data-say=""></b></span></label>
+          <label class="cip" data-risk="yuksek"><input type="radio" name="risk" id="risk-yuksek" value="yuksek"><span><i class="lamba"></i>Yüksek <b class="say" data-say="yuksek"></b></span></label>
+          <label class="cip" data-risk="orta"><input type="radio" name="risk" id="risk-orta" value="orta"><span><i class="lamba"></i>Orta <b class="say" data-say="orta"></b></span></label>
+          <label class="cip" data-risk="dusuk"><input type="radio" name="risk" id="risk-dusuk" value="dusuk"><span><i class="lamba"></i>Düşük <b class="say" data-say="dusuk"></b></span></label>
+        </div>
+        <label class="onay"><input id="kmfiltre" type="checkbox" disabled> Yalnızca bu kilometrede görülenler</label>
+        <button type="button" id="temizle" hidden>Filtreleri temizle</button>
+      </div>
+    </div>
+  </section>
+
+  <main class="kap">
+    <p class="sonuc" id="sonuc" aria-live="polite"></p>
+    <div id="liste"></div>
+    <div class="bos" id="bos" hidden>
+      <p><strong>Eşleşen kayıt yok.</strong> Farklı bir marka, motor kodu ya da parça adı deneyin. Model yılı girdiyseniz veritabanında o yılı kapsayan kayıt olmayabilir; kilometre filtresi açıksa girdiğiniz değer hiçbir sorunun aralığına düşmüyor olabilir.</p>
+      <button type="button" id="temizle-bos">Filtreleri temizle</button>
+    </div>
+
+    <footer class="alt">
+      <p>Çubuklar 0–250.000 km ölçeğindedir; ince çizgiler 50.000 km aralıklarını gösterir. Kilometre girdiğinizde aracınızın konumu koyu bir çizgiyle işaretlenir. Aralığın içindeyse "Bu kilometrede", aralığın başlangıcına 20.000 km'den az kaldıysa "Yaklaşıyor" yazar.</p>
+      <p>"Dönem" satırı, kaynakların üretim yılına göre fark belirttiği sorunlarda görünür: ●●● Yaygın, ●●○ Görülebilir, ●○○ Seyrek. Bu sınıflandırma kaynaklardaki bildirim yoğunluğuna dayanan editoryal bir değerlendirmedir, istatistik değildir. Listelenmeyen yıllar için kaynaklarda ayrı bilgi bulunamamıştır; "sorun yok" anlamına gelmez. Kapsam son 10-15 yılın araçlarıdır (yaklaşık 2011 sonrası); ilk aşamadan kalan birkaç eski kayıt silinmedi.</p>
+      <p>Kaynak bağlantıları web araması sonuçlarından toplandı ve sayfa başlığı ile özetine göre sorunlarla eşlendi; sayfaların tamamı okunmadı. Soluk renkli bağlantılar daha zayıf kaynaklardır (ticari site, blog veya kısa kullanıcı girdisi). Km aralıkları tahminidir ve kullanım, bakım geçmişi ve üretim yılına göre değişir. Karar vermeden önce aracı yetkili servise kontrol ettirin.</p>
+      <p>Ayrıntılar: <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/KAYNAKLAR.md">KAYNAKLAR.md</a> (site listesi), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/DOGRULAMA_RAPORU.md">DOGRULAMA_RAPORU.md</a> (neyin kaldırıldığı ve neden), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/KAPSAM.md">KAPSAM.md</a> (hangi marka, model ve motorlar planlandı, hangileri tamam), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/data/araclar.json">data/araclar.json</a>.</p>
+    </footer>
+  </main>
+</div>
+
+<script type="application/json" id="veri">__VERI__</script>
+<script type="application/json" id="kaynak-veri">__KAYNAK__</script>
+<script>
+  (() => {
+    const veri = JSON.parse(document.getElementById("veri").textContent);
+    const kayit = JSON.parse(document.getElementById("kaynak-veri").textContent).siteler;
+    const IKI_PARCALI = new Set(["co.uk", "org.uk", "com.au", "com.tr", "org.tr"]);
+    const GUVEN = { "yüksek": "yuksek", "orta": "orta", "düşük": "dusuk" };
+
+    function alanAdi(url) {
+      let host = "";
+      try { host = new URL(url).hostname.toLowerCase(); } catch (e) { return ""; }
+      const p = host.split(".");
+      if (p.length >= 3 && IKI_PARCALI.has(p.slice(-2).join("."))) return p.slice(-3).join(".");
+      return p.slice(-2).join(".");
+    }
+    const DURUM = { "Yaygın": ["yaygin", "●●●"], "Görülebilir": ["gorulebilir", "●●○"], "Seyrek": ["seyrek", "●○○"] };
+    const yilMetni = (b, e) => (e == null ? `${b}–` : b === e ? `${b}` : `${b}–${e}`);
+    const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, "").replace(/,\s*\d{4}-(?:\d{4})?\)/, ")");
+    const KM_UST = 250000;
+    const YAKIN = 20000;
+    const RISK_ANAHTARI = { "Yüksek": "yuksek", "Orta": "orta", "Düşük": "dusuk" };
+
+    const katla = (s) => s.toLocaleLowerCase("tr-TR").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ı/g, "i");
+    const sayi = (n) => n.toLocaleString("tr-TR");
+    const yuzde = (km) => (Math.min(km, KM_UST) / KM_UST) * 100;
+
+    function aralik(metin) {
+      const m = /^([\d.]+) - ([\d.]+) km$/.exec(metin);
+      return m ? [Number(m[1].replace(/\./g, "")), Number(m[2].replace(/\./g, ""))] : null;
+    }
+
+    function el(etiket, sinif, metin) {
+      const e = document.createElement(etiket);
+      if (sinif) e.className = sinif;
+      if (metin != null) e.textContent = metin;
+      return e;
+    }
+
+    function eksenOlustur() {
+      const eksen = el("div", "eksen");
+      eksen.setAttribute("aria-hidden", "true");
+      const sag = el("div");
+      const olcek = el("div", "olcek");
+      for (let km = 0; km <= KM_UST; km += 50000) {
+        const s = el("span", null, String(km / 1000));
+        s.style.left = yuzde(km) + "%";
+        olcek.append(s);
+      }
+      sag.append(el("span", "etiket", "Tahmini km (bin)"), olcek);
+      eksen.append(el("span", "etiket eksen-sol", "Sorun"), sag);
+      return eksen;
+    }
+
+    function sorunOlustur(arac, sorun) {
+      const risk = RISK_ANAHTARI[sorun.risk_seviyesi];
+      const km = aralik(sorun.tahmini_km_araligi);
+      const li = el("li", "sorun");
+      li.dataset.risk = risk;
+
+      const metin = el("div", "sorun-metin");
+      const bas = el("div", "sorun-bas");
+      const rozet = el("span", "risk");
+      rozet.dataset.risk = risk;
+      rozet.append(el("i", "lamba"), document.createTextNode(sorun.risk_seviyesi));
+      const yilEtiket = el("span", "yil-etiket");
+      yilEtiket.hidden = true;
+      bas.append(el("h4", null, sorun.sorun_adi), rozet, yilEtiket);
+      const dl = el("dl", "sorun-dl");
+      for (const [baslik, deger] of [["Parça", sorun.etkilenen_parca], ["Belirtiler", sorun.belirtiler]]) {
+        const satir = el("div");
+        satir.append(el("dt", "etiket", baslik), el("dd", null, deger));
+        dl.append(satir);
+      }
+      const donemler = [];
+      if (sorun.donem_kirilimi) {
+        const donemSatiri = el("div");
+        const dd = el("dd");
+        const ul = el("ul", "donem");
+        for (const d of sorun.donem_kirilimi) {
+          const [anahtar, nokta] = DURUM[d.durum];
+          const madde = el("li");
+          const ic = el("div", "donem-ic");
+          const rozetD = el("span", "donem-durum");
+          rozetD.dataset.d = anahtar;
+          rozetD.append(el("span", "nokta", nokta), document.createTextNode(d.durum));
+          ic.append(rozetD, el("span", "donem-metin", d.not));
+          madde.append(el("span", "aral", yilMetni(d.baslangic, d.bitis)), ic);
+          ul.append(madde);
+          donemler.push({ madde, b: d.baslangic, e: d.bitis, durum: d.durum, anahtar });
+        }
+        dd.append(ul, el("p", "donem-not", "Listelenmeyen yıllar için kaynaklarda ayrı bilgi bulunamadı; bu, sorunun olmadığı anlamına gelmez."));
+        donemSatiri.append(el("dt", "etiket", "Dönem"), dd);
+        dl.append(donemSatiri);
+      }
+      const siteler = new Set(sorun.kaynaklar.map(alanAdi));
+      const kaynakSatiri = el("div");
+      const kaynakDd = el("dd", "kaynaklar");
+      const sirasi = {};
+      for (const url of sorun.kaynaklar) {
+        const alan = alanAdi(url);
+        const site = kayit[alan];
+        sirasi[alan] = (sirasi[alan] || 0) + 1;
+        const tekrar = sorun.kaynaklar.filter((u) => alanAdi(u) === alan).length > 1 ? ` ${sirasi[alan]}` : "";
+        const a = el("a", null, (site ? site.ad : alan) + tekrar);
+        a.href = url;
+        a.target = "_blank";
+        a.rel = "noopener noreferrer";
+        if (site) {
+          a.dataset.guven = GUVEN[site.guven] || "orta";
+          a.title = `${site.ad} · ${site.ulke}`;
+        }
+        kaynakDd.append(a);
+      }
+      kaynakSatiri.append(el("dt", "etiket", "Kaynak"), kaynakDd);
+      dl.append(kaynakSatiri);
+      bas.append(el("span", "kaynak-say", `${siteler.size} site`));
+      metin.append(bas, dl);
+
+      const kmAlan = el("div", "sorun-km");
+      const etiket = km ? `${sayi(km[0])} – ${sayi(km[1])} km` : sorun.tahmini_km_araligi;
+      const cubuk = el("div", "cubuk");
+      cubuk.setAttribute("role", "img");
+      cubuk.setAttribute("aria-label", `Tahmini aralık: ${etiket}`);
+      if (km) {
+        const dolgu = el("span", "aralik");
+        dolgu.style.left = yuzde(km[0]) + "%";
+        dolgu.style.width = yuzde(km[1]) - yuzde(km[0]) + "%";
+        cubuk.append(dolgu);
+      }
+      const isaret = el("span", "isaret");
+      isaret.hidden = true;
+      cubuk.append(isaret);
+      const alt = el("div", "km-alt");
+      const durum = el("span", "durum");
+      durum.hidden = true;
+      alt.append(el("span", "km-etiket", etiket), durum);
+      kmAlan.append(cubuk, alt);
+
+      li.append(metin, kmAlan);
+      const kaynakAdlari = sorun.kaynaklar.map((u) => (kayit[alanAdi(u)] || {}).ad || alanAdi(u));
+      const aranan = [arac.marka, arac.model, arac.motor, sorun.sorun_adi, sorun.etkilenen_parca, sorun.belirtiler, sorun.risk_seviyesi, ...kaynakAdlari].join(" ");
+      return { li, risk, km, metin: katla(aranan), isaret, durum, donemler, yilEtiket };
+    }
+
+    const araclar = veri.arac_listesi.slice().sort((a, b) =>
+      a.marka.localeCompare(b.marka, "tr") || a.model.localeCompare(b.model, "tr") || a.motor.localeCompare(b.motor, "tr"));
+
+    const liste = document.getElementById("liste");
+    const gruplar = new Map();
+    const kayitlar = [];
+
+    for (const arac of araclar) {
+      let grup = gruplar.get(arac.marka);
+      if (!grup) {
+        const bolum = el("section", "marka-grup");
+        const baslik = el("h2", null, arac.marka);
+        const say = el("span", "say");
+        baslik.append(say);
+        const kap = el("div", "araclar");
+        bolum.append(baslik, kap);
+        liste.append(bolum);
+        grup = { bolum, say, kap, toplam: 0, gorunen: 0 };
+        gruplar.set(arac.marka, grup);
+      }
+      grup.toplam += 1;
+
+      const kart = el("article", "arac");
+      const kimlik = el("header", "arac-kimlik");
+      const aracSay = el("p", "arac-say");
+      const yb = arac.uretim_yillari;
+      kimlik.append(el("h3", null, modelAdi(arac.model)), el("p", "motor", arac.motor),
+        el("p", "arac-yil", `Üretim ${yilMetni(yb.baslangic, yb.bitis).replace(/–$/, "–günümüz")}`), aracSay);
+      const alan = el("div", "sorun-alani");
+      const ul = el("ul", "sorunlar");
+      const sorunlar = arac.kronik_sorunlar.map((s) => sorunOlustur(arac, s));
+      for (const s of sorunlar) ul.append(s.li);
+      alan.append(eksenOlustur(), ul);
+      kart.append(kimlik, alan);
+      grup.kap.append(kart);
+      kayitlar.push({ arac, kart, aracSay, grup, sorunlar });
+    }
+
+    const toplamSorun = kayitlar.reduce((t, k) => t + k.sorunlar.length, 0);
+    const tumSiteler = new Set(araclar.flatMap((a) => a.kronik_sorunlar.flatMap((s) => s.kaynaklar.map(alanAdi))));
+    const kirilimli = kayitlar.reduce((t, k) => t + k.sorunlar.filter((s) => s.donemler.length).length, 0);
+    document.getElementById("ozet").textContent =
+      `${kayitlar.length} araç/motor kaydı · ${gruplar.size} marka · ${toplamSorun} kronik sorun (${kirilimli} tanesinde yıl kırılımı) · ${tumSiteler.size} kaynak sitesi`;
+
+    const ara = document.getElementById("ara");
+    const markaSec = document.getElementById("marka");
+    const kmGiris = document.getElementById("km");
+    const yilGiris = document.getElementById("yil");
+    const kmFiltre = document.getElementById("kmfiltre");
+    const riskler = [...document.querySelectorAll('input[name="risk"]')];
+    const sayaclar = [...document.querySelectorAll("[data-say]")];
+    const sonuc = document.getElementById("sonuc");
+    const bos = document.getElementById("bos");
+    const temizle = document.getElementById("temizle");
+
+    for (const [marka, grup] of gruplar) {
+      markaSec.append(new Option(`${marka} (${grup.toplam})`, marka));
+    }
+
+    function yilOku() {
+      const rakamlar = yilGiris.value.replace(/\D/g, "");
+      const y = rakamlar.length === 4 ? Number(rakamlar) : null;
+      return y != null && y >= 1990 && y <= 2100 ? y : null;
+    }
+
+    function kmOku() {
+      const rakamlar = kmGiris.value.replace(/\D/g, "");
+      return rakamlar ? Number(rakamlar) : null;
+    }
+
+    function guncelle() {
+      const terimler = katla(ara.value).split(/\s+/).filter(Boolean);
+      const marka = markaSec.value;
+      const risk = riskler.find((r) => r.checked)?.value ?? "";
+      const km = kmOku();
+      const yil = yilOku();
+      kmFiltre.disabled = km == null;
+      const sadeceKm = km != null && kmFiltre.checked;
+
+      const riskSay = { "": 0, yuksek: 0, orta: 0, dusuk: 0 };
+      let aracAdet = 0;
+      let sorunAdet = 0;
+      for (const grup of gruplar.values()) grup.gorunen = 0;
+
+      for (const kayit of kayitlar) {
+        const yb = kayit.arac.uretim_yillari;
+        const yilUyar = yil == null || (yil >= yb.baslangic && (yb.bitis == null || yil <= yb.bitis));
+        const markaUyar = (!marka || kayit.arac.marka === marka) && yilUyar;
+        let gorunen = 0;
+        for (const s of kayit.sorunlar) {
+          let durum = null;
+          if (km != null && s.km) {
+            if (km >= s.km[0] && km <= s.km[1]) durum = "icinde";
+            else if (km < s.km[0] && s.km[0] - km <= YAKIN) durum = "yakin";
+          }
+          s.isaret.hidden = km == null;
+          if (km != null) s.isaret.style.left = yuzde(km) + "%";
+          s.durum.hidden = !durum;
+          if (durum) {
+            s.durum.dataset.durum = durum;
+            s.durum.textContent = durum === "icinde" ? "Bu kilometrede" : "Yaklaşıyor";
+          }
+
+          if (s.donemler.length) {
+            const eslesen = yil == null ? null : s.donemler.find((d) => yil >= d.b && (d.e == null || yil <= d.e)) || null;
+            for (const d of s.donemler) {
+              if (d === eslesen) d.madde.dataset.secili = "";
+              else delete d.madde.dataset.secili;
+            }
+            s.yilEtiket.hidden = yil == null;
+            if (yil != null) {
+              s.yilEtiket.textContent = eslesen ? `${yil} modeli: ${eslesen.durum}` : `${yil} modeli: ayrı bilgi yok`;
+              s.yilEtiket.dataset.d = eslesen ? eslesen.anahtar : "yok";
+            }
+          }
+
+          const uyar = markaUyar && terimler.every((t) => s.metin.includes(t)) && (!sadeceKm || durum === "icinde");
+          if (uyar) {
+            riskSay[""] += 1;
+            riskSay[s.risk] += 1;
+          }
+          const goster = uyar && (!risk || s.risk === risk);
+          s.li.hidden = !goster;
+          if (goster) gorunen += 1;
+        }
+        kayit.kart.hidden = gorunen === 0;
+        kayit.aracSay.textContent = gorunen === kayit.sorunlar.length
+          ? `${gorunen} sorun`
+          : `${gorunen} / ${kayit.sorunlar.length} sorun gösteriliyor`;
+        if (gorunen) {
+          aracAdet += 1;
+          sorunAdet += gorunen;
+          kayit.grup.gorunen += 1;
+        }
+      }
+
+      for (const grup of gruplar.values()) {
+        grup.bolum.hidden = grup.gorunen === 0;
+        grup.say.textContent = `${grup.gorunen} kayıt`;
+      }
+      for (const span of sayaclar) span.textContent = riskSay[span.dataset.say];
+
+      const filtreli = terimler.length > 0 || marka !== "" || risk !== "" || sadeceKm || yil != null;
+      sonuc.textContent = filtreli
+        ? `${aracAdet} kayıtta ${sorunAdet} sorun gösteriliyor`
+        : `Tüm kayıtlar gösteriliyor: ${kayitlar.length} araç/motor, ${toplamSorun} sorun`;
+      bos.hidden = sorunAdet > 0;
+      temizle.hidden = !(filtreli || km != null || yilGiris.value !== "");
+    }
+
+    function sifirla() {
+      ara.value = "";
+      markaSec.value = "";
+      kmGiris.value = "";
+      yilGiris.value = "";
+      kmFiltre.checked = false;
+      riskler[0].checked = true;
+      guncelle();
+    }
+
+    ara.addEventListener("input", guncelle);
+    markaSec.addEventListener("change", guncelle);
+    yilGiris.addEventListener("input", guncelle);
+    kmGiris.addEventListener("input", guncelle);
+    kmGiris.addEventListener("change", () => {
+      const km = kmOku();
+      kmGiris.value = km == null ? "" : sayi(km);
+    });
+    kmFiltre.addEventListener("change", guncelle);
+    for (const r of riskler) r.addEventListener("change", guncelle);
+    temizle.addEventListener("click", sifirla);
+    document.getElementById("temizle-bos").addEventListener("click", sifirla);
+
+    guncelle();
+  })();
+</script>
