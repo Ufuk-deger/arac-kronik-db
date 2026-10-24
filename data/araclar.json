@@ -4524,7 +4524,7 @@
       "kronik_sorunlar": [
         {
           "sorun_adi": "Yağ pompası tahrik mili aşınması",
-          "etkilenen_parca": "Denge mili modülü ve yağ pompası altıgen tahrik mili",
+          "etkilenen_parca": "Denge mili modülü ve yağ pompası tahriki (kaynaklarda altıgen mil ya da zincir düzeneği olarak anlatılıyor)",
           "belirtiler": "Ani yağ basıncı kaybı, kırmızı yağ lambası, çoğu zaman önceden belirti vermeden kısa sürede motor hasarı",
           "tahmini_km_araligi": "150.000 - 250.000 km",
           "risk_seviyesi": "Yüksek",

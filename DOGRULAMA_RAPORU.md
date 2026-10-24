@@ -2,7 +2,7 @@
 
 Tarih: 2026-10-24
 
-Rapor iki aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını anlatır.
+Rapor üç aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları anlatır.
 
 ## 1. aşama: ilk sürümün doğrulanması
 
@@ -286,10 +286,102 @@ Bu aşamada kendi eklediğim kayıtlarda yaptığım denetimde şunlar düzeltil
 - **Bayon:** kaynakların i20'ye ait olduğu kayıt metnine eklendi.
 - **Kademe 1 commit mesajı:** "63'ü kayıtlı" yazıyordu, doğrusu 74 (yukarıdaki sayı doğrudur; geçmiş değiştirilmedi).
 
+## 3. aşama: sorun ayrıntıları
+
+Tarih: 2026-10-24
+
+Üçüncü aşamada her soruna, "neden oluyor, nasıl anlaşılır, ne yapılıyor, ne kadar tutuyor, nasıl önlenir" sorularını kaynakların anlattığı kadarıyla yanıtlayan isteğe bağlı bir `detay` bölümü eklendi. Çıkış noktası, BMW N13 için Google'da veritabanında yazandan çok daha fazla bilgi bulunduğu gözlemiydi. Gözlem doğruydu: önce N13 üzerinde bir pilot yapıldı, sonra aynı yöntem motor aileleri sırasıyla bütün kayıtlara uygulandı.
+
+| | 2. aşama sonu | 3. aşama sonu |
+| --- | ---: | ---: |
+| Araç/motor kaydı | 97 | 97 |
+| Kronik sorun | 156 | 160 |
+| Ayrıntısı olan sorun | 0 | 160 |
+| Sorunlara bağlı kaynak bağlantısı | 578 | 958 |
+| Farklı kaynak sitesi | 60 | 68 |
+| Yalnızca iki siteyle desteklenen sorun | 43 | 22 |
+
+### Ne yapıldı
+
+- **Yeni alan:** `detay` (`neden`, `teshis`, `cozum`, `maliyet`, `onlem`). Hepsi isteğe bağlı, her biri en fazla 800 karakter. Şema, doğrulayıcı (yeni birim testleriyle), görüntüleyici ve README güncellendi. Kaynakta karşılığı olmayan alan boş bırakıldı: neden 159, teşhis 143, çözüm 156, maliyet 108, önlem 123 sorunda dolu.
+- **N13 pilotu:** 1 Serisi (F20) N13 kaydındaki sorunların ayrıntıları yazıldı ve veritabanında hiç olmayan dört sorun eklendi: turbo soğutma hattı O-ring'i ve motor arkası boru/flanş kaçağı; termostat ve soğutma suyu flanşı arızası; yağ kaçağı (valf kapağı, PCV diyaframı, yağ filtresi yuvası); tahrik arızası uyarısı ve güç kısıtlaması.
+- **Aile aile ilerleme** (ayrıntısı olan sorun sayısı, birikimli): N13 pilotu 7; VAG DQ200 DSG ile Renault/Dacia/Nissan 45; Fiat, Ford, Opel ve PureTech 76; VAG TSI/TDI/EA888/Multitronic 95; Hyundai, Kia, Toyota ve Honda 116; BMW, Mercedes ve PSA 153; kalanlar 160.
+- **Ek kaynaklar:** ayrıntıları dayandırmak için 380 bağlantı eklendi (21'i yeni dört soruna ait). Bu sayede 21 madde üçüncü bir siteye kavuştu. Kayıt defterine sekiz yeni site girdi: Autopartia, Carsece, Drivisual (editoryal/parça, düşük güven), Volkswagen Yeni Zelanda (resmî), Malay Mail (haber), GoParts, Foreign Automotive (parça/atölye, düşük güven), ElectricVehicleForums (forum, düşük güven). Düşük güvenli siteler yalnızca bir ayrıntının nereden geldiğini gösterir; kaynak kuralındaki deneyim ya da resmî belge koşulunun yerine geçmez.
+- **Alan adı düzeltmesi:** `volkswagen.co.nz` adresi doğrulayıcıda ve görüntüleyicide `co.nz` olarak sayılıyordu; ikinci düzey uzantı listesine `co.nz` eklendi (test dahil).
+
+### Ayrıntılar nasıl yazıldı
+
+- Ayrıntılar arama özetlerinde görülen iddialardan yazıldı; kaynağı belirsiz ya da yalnızca hafızadan gelen bilgi bilerek yazılmadı. Kaynağın adı metinde geçer ("Carsece rehberi ... yazıyor", "Şikâyetvar'da bir kullanıcı ..."). Kısa bağlam notları (ör. Egea'nın Avrupa'daki adının Tipo olması) kaynaktan değil genel bilgiden gelir.
+- Sayfalar yine açılamadı; bir iddianın hangi sayfadan geldiği başlık ve özet eşlemesine dayanıyor (bkz. Yöntem ve sınırlar).
+- **Maliyet** yalnızca kaynakta rakam varsa yazıldı; ülke ve tarih belirtildi, yabancı para birimleri TL'ye çevrilmedi, başka motora ait rakamlar alınmadı. Rakam bulunamayan 52 sorunda alan boş.
+- Kaynaklar ayrıştığında değerler tek rakama indirilmedi: N20 pompa arıza sıklığı, Civic FC5 kondenser kapsamı ve bülten numarası, Civic FD6 bülten tarihi, kabul edilebilir yağ eksiltme sınırları gibi.
+- Satıcı ve blog kaynaklarının ticari çıkarı metinde belirtildi (BimmerWorld, FCP Euro, Foreign Automotive, CarChecker.pro, Carsece, Autopartia).
+- DPF, EGR ve AdBlue iptali forumlarda geçtiği yerde "riskli ya da yasa dışı olabilir, ikinci elde bu tür araçlardan uzak durulmalı" notuyla yazıldı; öneri olarak sunulmadı.
+- ABD servis bültenleri, geri çağırmalar ve fiyatlar için "Türkiye kapsamı/fiyatı doğrulanmadı" notu düşüldü.
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- **N13 pilotu:** Şikâyetvar'daki "100 bin TL" tamir örneği, motoru N13 değil N20 olabilen bir 3.20i'ye ait olabileceğinden alınmadı. 2017 model 118i (B38) turbo wastegate şikâyetleri N13 kanıtı sayılmadı. And Mehmet Çetin'in N13 sayfası, sınırlı bir aramada genleşme kabı ve zincir iddialarını doğrulamadı; bu iddialar Carsece, Drivisual, Araclo ve OTOPARK.COM'a dayanıyor.
+- **Tahrik arızası uyarısı (N13):** kaynaklarda bulunmayan lambda, akü ve manifold maddeleri çıkarıldı.
+- **2.0 TDI Multitronic:** çıkarıma dayanan bir neden cümlesi kaynağın söylediğine göre yeniden yazıldı.
+- **1.2 TSI:** Polo'ya özgü yağ kapasitesi bilgisi genel 1.2 TSI metninden çıkarıldı.
+- **Araclo:** "parça maliyeti düşük" iddiası doğrulanamadığı için çıkarıldı.
+- **Passat B6 2.0 TDI (BKP) yağ pompası:** ilk yazılan metin altıgen mil arızasının daha çok sonraki CBEA/CKRA motorlarında belgelendiğini söylüyordu. Son turda bulunan bir bilgiye göre WheelStreet rehberi BKP/BMP sürümünü altıgen tahrik riskiyle anıyor, bir VAG forum başlığı ise aynı motor ailesinde zincirle tahrik edilen denge mili/yağ pompası düzeneğinin bozulmasını ve bunu dişli tahrike çeviren bir seti anlatıyor. Metin buna göre düzeltildi ve `etkilenen_parca` "altıgen tahrik mili" yerine tahrik düzeneğinin iki biçimini yazacak şekilde değiştirildi. Hangi parçanın ne sıklıkla bozulduğu hâlâ net değil.
+- **Passat B6 yağ basıncı uyarısı:** DonanımHaber başlığında geçen 22.000 TL'lik yetkili servis faturası, hangi sayfadan ve hangi Passat neslinden geldiği ayırt edilemediği için alınmadı.
+
+### Kanıtı sınırlı ayrıntılar
+
+Bu sorunların ayrıntısı yazıldı ama dayanağı zayıf ya da dolaylı; metinlerinde de bu belirtilmiştir:
+
+- **Cruze 1.6 ateşleme bobini:** tek zayıf kaynak (CarChecker.pro); Cruze bobin rehberlerinin çoğu 1.4/1.8 içindir.
+- **Egea 1.6 çift kütleli volan:** Egea'ya özgü doğrudan kanıt sınırlı; Tipo forumu ve genel bir rehbere dayanıyor. Şikâyetvar'daki volan şikâyetlerinin bir kısmı DCT'li araçlara ait ve şanzıman tipi hep belirtilmiyor.
+- **Polo 1.2 (3 silindir) zincir:** dolaylı kanıt. Aynı sayfalardaki 1.2 TSI zincir kayıtları bu motor için geçerli değil; Honest John'da silindir kapağı arızası da kayıtlı.
+- **Passat B6 BKP yağ pompası:** BKP'ye özgü bülten yok. Güney Kore'deki 2.425 araçlık geri çağırma (2005-2008 üretim) BKP'ye ya da belirli bir arıza moduna bağlanamadı.
+- **Passat B6 DQ250:** tek resmî dayanak 2013'te 2008-09 modelleri kapsayan geri çağırma; mekatronik anlatımı bir parça üreticisi (VAICO) kaynaklı makaleye dayanıyor. Kavrama aşınması şikâyetleri çoğunlukla kuru kavramalı DQ200'e ait; DQ250 ıslak kavramalıdır.
+- **Kadjar 1.3 TCe külbütör kapağı:** Kadjar'a özgü kayıt bulunamadı; metin aynı motor ailesinin Megane 4 ve Clio kayıtlarına dayanıyor.
+- **Qashqai ve Clio 4/Captur 1.2 zincir:** zincir sesinin yağ tüketimiyle ilişkisi net değil; Nissan bülteni (TB EM 15/05) ikinci elden aktarılıyor, Renault kusuru reddediyor.
+- **Honda Civic FC5 klima kondenseri ve FD6 arka lastik:** ABD bültenleri ve kampanyaları; Türkiye'deki araçlar için kapsam doğrulanmadı, bülten tarihleri kaynaklarda farklı.
+- **BMW N20 pompa/konnektör:** ABD geri çağırma kampanyası (24V-608) bir forum yazısında alıntılanan metne dayanıyor; Türkiye kapsamı doğrulanmadı.
+- **Mercedes M271 eksantrik mıknatısı:** M271'e özgü resmî bülten bulunamadı; anılan Nisan 2011 bülteni M112 V6 içindir.
+
+### Yalnızca iki siteyle desteklenen maddeler (3. aşama sonu)
+
+Kuralı geçiyorlar ama sınırda. 2. aşama sonunda doğrulayıcı 43 madde sayıyordu (o raporun 7 + 32 maddelik listeleri bu sayının tamamını göstermiyordu); ayrıntılar için eklenen kaynaklarla 22'ye indi. Üçüncü kaynak aramasında önce bunlara bakılması yararlı olur:
+
+- BMW 3 Serisi (F30, 2012-2015): Yağ filtresi yuvası contası kaçağı (Bimmerpost, FCP Euro)
+- Fiat Doblo (2010-2022): Enjektör arızası (DonanımHaber Forum, Şikâyetvar)
+- Fiat Doblo (2010-2022): Turbo arızası (DonanımHaber Forum, Şikâyetvar)
+- Fiat Doblo (2010-2022): EGR ve DPF tıkanması (kısa mesafe kullanımında) (DonanımHaber Forum, Ekşi Sözlük)
+- Ford Focus (2008-2018): Turbo yağ besleme süzgecinin tıkanması (Ford Owners Club, Honest John)
+- Ford Focus (2008-2018): DPF tıkanması (Ford Owners Club, Honest John)
+- Ford Kuga 2 / Mondeo (2015-2019): Silindir kapağı çatlağı ve conta yanması (DonanımHaber Forum, Şikâyetvar)
+- Hyundai Bayon (2021-): Yakıt pompası arızası (And Mehmet Çetin, Şikâyetvar)
+- Hyundai Bayon (2021-): Yakıt pompası arızası (And Mehmet Çetin, Şikâyetvar)
+- Hyundai Tucson (NX4, 2021-): 7DCT kavrama titremesi (Araclo, Şikâyetvar)
+- Hyundai Tucson (TL FL, 2018-2020): 7DCT kavrama titremesi (Araclo, Şikâyetvar)
+- Hyundai i20 (BC3, 2020-): Yakıt pompası arızası (And Mehmet Çetin, Şikâyetvar)
+- Hyundai i20 (BC3, 2020-): Yakıt pompası arızası (And Mehmet Çetin, Şikâyetvar)
+- Mercedes-Benz C Serisi (W205, 2015-2021): NOx sensörü ve AdBlue sistemi arızası (DonanımHaber Forum, Şikâyetvar)
+- Opel Corsa D / E (2006-2019): Triger zinciri uzaması (Araclo, DonanımHaber Forum)
+- Renault Clio 4 (2013-2019): Triger zinciri ve gergi sesi (ilk üretim) (Araclo, DonanımHaber Forum)
+- Renault Clio 5 (2019-): Motor takozu yıpranması (Araclo, Şikâyetvar)
+- Renault Kadjar (2015-2022): Külbütör kapağı çevresinden yağ terlemesi (Araclo, Şikâyetvar)
+- Toyota Corolla (E150 FL / E170, 2009-2018): Aşırı yağ tüketimi (DonanımHaber Forum, Şikâyetvar)
+- Volkswagen Passat (B6, 2005-2010): DSG (DQ250) mekatronik ve kavrama sorunları (AustralianCar.Reviews, Şikâyetvar)
+- Volkswagen Passat (B7, 2010-2014): Enjektör şakırtısı ve arızası (Araclo, DonanımHaber Forum)
+- Volkswagen Polo (9N / 6R, 2002-2014): Triger zinciri uzaması (Honest John, PicoAuto Forum)
+
+### Dikkat edilecek sınırlar
+
+- Ayrıntılar kaynak anlatımlarının özetidir; üreticinin ya da yetkili servisin talimatı, hukuki ya da mali tavsiye değildir. `neden` alanı kesin teknik tespit olmayabilir.
+- Maliyetler tarihlidir ve çoğu başka ülke ve para biriminden gelir; büyüklük sırası olarak okuyun.
+- Aynı olay birden fazla sayfada tekrarlandığı için çok sayıda kaynak bağlantısı bağımsız doğrulama anlamına gelmez.
+- Doğrulama yine arama özetleriyle yapıldı; rakamlar, alıntılar ve model yılı için asıl sayfaya bakmak gerekir.
 
 ## Sonraki adımlar
 
-1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen maddelere üçüncü bir kaynak eklenebilir (1. aşamadan 7, 2. aşamadan 32 madde).
-3. Kademe 2 ve 3: [KAPSAM.md](KAPSAM.md) içinde `○` ile işaretli 66 model/motor grubu aynı kuralla eklenebilir.
+1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
+2. Yalnızca iki siteyle desteklenen 22 maddeye (yukarıdaki liste) üçüncü bir kaynak eklenebilir.
+3. Kademe 2 ve 3: [KAPSAM.md](KAPSAM.md) içinde `○` ile işaretli 66 model/motor grubu aynı kuralla ve aynı ayrıntı düzeniyle eklenebilir.
 4. Kanıtı yetersiz bulunan 22 grup için yeni kaynak çıkarsa eklenebilir.
+5. "Kanıtı sınırlı ayrıntılar" listesindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 52 soruna güncel Türkiye fiyatı bulunursa eklenebilir.

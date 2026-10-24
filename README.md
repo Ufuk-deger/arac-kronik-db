@@ -125,6 +125,8 @@ Okurken dikkat edilecekler:
 - Maliyetler bildirim tarihine göre eskir; güncel fiyat değil büyüklük sırası olarak okuyun. Tarihi belli olmayan ya da başka motora ait rakamlar alınmaz.
 - Bilgi tek bir kaynaktan geliyorsa metinde kaynağın adı geçer (ör. "Carsece rehberi ... tahmin ediyor"); bilgi yalnızca bir parça satıcısı ya da blogdan geliyorsa bu belirtilir.
 - Kaynakların ayrıştığı noktalar (ör. kabul edilebilir yağ eksiltme sınırı) tek bir değere indirilmez, değerler kaynaklarıyla birlikte sıralanır.
+- Başka bir model, motor ya da pazarın (ör. ABD servis bülteni, geri çağırma ya da fiyatı) bilgisi kullanıldıysa bu metinde söylenir; Türkiye için geçerliliği doğrulanmadıysa o da belirtilir.
+- Kaynakta bulunmayan alan yazılmaz: bütün sorunların ayrıntısı vardır ama her sorunda beş alanın hepsi dolu değildir.
 
 ## Kaynak kuralı
 
