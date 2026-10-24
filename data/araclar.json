@@ -616,6 +616,79 @@
       ]
     },
     {
+      "id": "mercedes-7g-tronic",
+      "ad": "Mercedes 7G-Tronic (722.9) otomatik şanzıman",
+      "tur": "sanziman",
+      "aciklama": "Mercedes'in 2003'ten itibaren C, E, GLK, ML, CLS, Vito, Viano ve Sprinter'da kullandığı 7 ileri tork konvertörlü otomatik şanzıman (722.9; 7G-Tronic Plus dahil). Valf gövdesine bağlı iletken plaka (conductor plate) ve sensörler en sık anlatılan arıza kaynağı.",
+      "kronik_sorunlar": [
+        {
+          "id": "iletken-plaka",
+          "sorun_adi": "7G-Tronic iletken plaka arızası",
+          "etkilenen_parca": "7G-Tronic (722.9) şanzıman iletken plakası ve hız sensörleri",
+          "belirtiler": "Şanzımanın acil moda geçip tek viteste (çoğunlukla 2.) kalması, sert vites geçişleri, şanzıman uyarı mesajı",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "İletken plakadaki dahili hız sensörleri ve lehim noktaları ısı çevrimiyle bozuluyor ve şanzıman acil moda geçiyor; bir bilinen-sorunlar veritabanı bunun çoğunlukla 2. viteste kilitli kalmayla görüldüğünü yazıyor (R171 SLK için, 50-90 bin mil). Kaynakların çoğu atölye siteleri ve forumlar; Mercedes belgesi yok.",
+            "teshis": "2. viteste takılı kalma, vites yükseltememe, yaklaşık 40 mil/saat (64 km/s) üstüne çıkamama, motor arıza lambası, sert ya da vuruntulu vites geçişleri. Hız sensörleri ve plakayla ilişkili kodlar olarak P0718, P2768 ve P0706 anılıyor.",
+            "cozum": "Motoru kapatıp yeniden çalıştırmak bazen geçici olarak normale döndürüyor ama TCU'yu yeniden programlamak donanım arızasını gidermez. Bazı uzmanlar orijinal iletken plakayı onarıyor (bayi programlamasından ucuz olabiliyor).",
+            "maliyet": "Bir atölye sitesi ABD'de bayide yaklaşık 2.000-3.000 dolar olduğunu, parçanın bağımsız servislere kısıtlı sattığını yazıyor (ticari kaynak, Türkiye için doğrudan geçerli değil)."
+          },
+          "kaynaklar": [
+            "https://www.mercedesmedic.com/722-9-7g-tronic-automatic-transmission-problems-solutions/",
+            "https://mbworld.org/forums/s-class-w220/786318-722-9-woes.html",
+            "https://au7o.io/known-issues/dtc/p2768/mercedes-benz",
+            "https://forums.mbclub.co.uk/threads/cls-350-help.195078"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mercedes-om651",
+      "ad": "Mercedes OM651 2.1 CDI (2.143 cc dizel, piezo enjektörlü)",
+      "tur": "motor",
+      "aciklama": "Mercedes'in 2008'den itibaren C, E, A, B, CLA, GLA, GLC, GLK, Vito, Viano ve Sprinter'da kullandığı 2.1 litre common rail dizel motor (OM651; 110-204 PS). Piezo enjektörler ilk üretimde Delphi, sonra Bosch tedarikli.",
+      "kronik_sorunlar": [
+        {
+          "id": "piezo-enjektor",
+          "sorun_adi": "Delphi piezo enjektör arızası",
+          "etkilenen_parca": "Delphi piezo enjektörleri (C200 CDI manyetik enjektörlü olduğundan etkilenmez)",
+          "belirtiler": "Motor arıza lambası, acil moda geçme, düzensiz çalışma, zor çalışma",
+          "tahmini_km_araligi": "50.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "OM651'in 125-150 kW (220 CDI ve 250 CDI) sürümlerindeki Delphi piezo enjektörler yüksek arıza oranı gösterdi; çoğunlukla 50.000 km sonrası görülüyor. Bir Alman raporuna göre 220/250 CDI için yaklaşık 2.800 şikâyet var; 200 CDI manyetik enjektörlü olduğu için etkilenmiyor (Auto Bild, AustralianCar.Reviews). Araclo piezo enjektörlerin hassas yapısı nedeniyle arızaya eğilimli olduğunu yazıyor.",
+            "teshis": "Motor arıza lambası, acil moda (limp home) geçme, düzensiz çalışma, zor çalışma, titreme ve yüksek yakıt tüketimi.",
+            "cozum": "Mercedes önce revize piezo enjektörler çıkardı, sonra geri çağırma değil bir müşteri hizmet aksiyonuyla bunları solenoid enjektörlerle değiştirdi; işlem yeni bir ECU, geri dönüş yakıt hattı ve motor kapağı yenilemesini de içeriyordu. Yaklaşık 2012 ortasından itibaren bu motorlarda piezo yerine solenoid enjektör kullanılıyor. Şasi numarasıyla Mercedes kampanya sorgusu yaptırın (kaynaklar ağırlıkla C204/S204 için; W204 sedanı doğrudan kapsamayabilir).",
+            "maliyet": "OM651'e özgü güncel enjektör fiyatı aramada bulunamadı; piezo enjektörlerde yetkili servis fiyatları genellikle yüksek olur."
+          },
+          "kaynaklar": [
+            "https://www.autobild.de/artikel/diesel-probleme-bei-e-klasse-c-klasse-und-glk-988549.html",
+            "https://australiancar.reviews/recalls-faults-mercedes-benz-s204-c-class-estate-2008-14/",
+            "https://www.germancarforum.com/threads/mercedes-benz-troubles-with-newest-om651-diesel-engine.31035/latest",
+            "https://www.araclo.com/vehicles/mercedes-benz-c-serisi-c-220-cdi/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/mercedes-e-250-cdi-hakkinda-bildikleriniz--43652348",
+            "https://forum.donanimhaber.com/mercedes-e250-cgi-ve-cdi-hakkinda-yardim--90317222",
+            "https://otopark.com/forum/threads/w212-mercedes-e250-cgi-mi-e250-cdi-mi.12959/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2008,
+              "bitis": 2012,
+              "durum": "Yaygın",
+              "not": "Piezo enjektörlü 220/250 CDI sürümlerinde 50.000 km sonrası yüksek arıza oranı."
+            },
+            {
+              "baslangic": 2013,
+              "bitis": 2014,
+              "durum": "Seyrek",
+              "not": "2012 ortasından itibaren piezo yerine solenoid enjektör kullanılmaya başlandı."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "id": "opel-1-6-cdti",
       "ad": "Opel 1.6 CDTI (B16DTH / B16DTL)",
       "tur": "motor",
@@ -6234,6 +6307,19 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "A Serisi (W176, 2012-2018)",
+      "motor": "A200 CDI / A220 CDI 2.1 (OM651, 7G-DCT)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "A Serisi (W177, 2018-)",
       "motor": "A180 d 1.5 (OM608, K9K)",
       "uretim_yillari": {
@@ -6288,6 +6374,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "B Serisi (W246, 2011-2018)",
+      "motor": "B200 CDI / B220 CDI 2.1 (OM651, 7G-DCT)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om651"
       ]
     },
     {
@@ -6382,7 +6481,8 @@
               "durum": "Seyrek",
               "not": "2012 ortasından itibaren piezo yerine solenoid enjektör kullanılmaya başlandı."
             }
-          ]
+          ],
+          "aile_sorunu": "mercedes-om651/piezo-enjektor"
         },
         {
           "sorun_adi": "7G-Tronic iletken plaka arızası",
@@ -6401,8 +6501,13 @@
             "https://mbworld.org/forums/s-class-w220/786318-722-9-woes.html",
             "https://au7o.io/known-issues/dtc/p2768/mercedes-benz",
             "https://forums.mbclub.co.uk/threads/cls-350-help.195078"
-          ]
+          ],
+          "aile_sorunu": "mercedes-7g-tronic/iletken-plaka"
         }
+      ],
+      "aileler": [
+        "mercedes-7g-tronic",
+        "mercedes-om651"
       ]
     },
     {
@@ -6435,6 +6540,19 @@
             "https://www.carcomplaints.com/Mercedes-Benz/C250/2013/engine/faulty_camshaft_adjuster_solenoid.shtml"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi (W205, 2014-2018)",
+      "motor": "C220d / C250d 2.1 (OM651)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om651"
       ]
     },
     {
@@ -6557,8 +6675,13 @@
               "durum": "Seyrek",
               "not": "2012 ortasından itibaren piezo yerine solenoid enjektör kullanılmaya başlandı (C Serisi OM651 kaydındaki aynı notla tutarlı)."
             }
-          ]
+          ],
+          "aile_sorunu": "mercedes-om651/piezo-enjektor"
         }
+      ],
+      "aileler": [
+        "mercedes-7g-tronic",
+        "mercedes-om651"
       ]
     },
     {
@@ -6657,6 +6780,73 @@
       "kronik_sorunlar": [],
       "aileler": [
         "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLA (X156, 2013-2019)",
+      "motor": "GLA 200 CDI / 220 CDI 2.1 (OM651, 7G-DCT)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLC (X253, 2015-2019)",
+      "motor": "GLC 220 d / 250 d 2.1 (OM651, 9G-Tronic)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLK (X204, 2008-2015)",
+      "motor": "GLK 220 CDI 4MATIC 2.1 (OM651, 7G-Tronic)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-7g-tronic",
+        "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Sprinter (W906, 2006-2018)",
+      "motor": "211-319 CDI 2.1 (OM651)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Vito / V-Class (W447, 2014-)",
+      "motor": "114 / 116 / 119 CDI 2.1 (OM651; manuel ve 7G-Tronic Plus)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-7g-tronic",
+        "mercedes-om651"
       ]
     },
     {

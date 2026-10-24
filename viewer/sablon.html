@@ -815,6 +815,20 @@
     font-size: 0.85rem;
     color: var(--muted);
   }
+  .kapsam-durum {
+    font-family: var(--font-mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--muted);
+  }
+  .kapsam-marka li[data-durum="sirada"] {
+    border-left-style: dashed;
+    border-left-color: var(--accent);
+  }
+  .kapsam-marka li[data-durum="sirada"] .kapsam-durum {
+    color: var(--accent);
+  }
 
   /* Alt bilgi */
   .alt {
@@ -932,14 +946,14 @@
     <div class="bos" id="bos" hidden>
       <p><strong>Eşleşen kayıt yok.</strong> Farklı bir marka, motor kodu ya da parça adı deneyin. Model yılı girdiyseniz veritabanında o yılı kapsayan kayıt olmayabilir; kilometre filtresi açıksa girdiğiniz değer hiçbir sorunun aralığına düşmüyor olabilir.</p>
       <p id="bos-kapsam" hidden></p>
-      <button type="button" id="kapsam-git" hidden>Arandı ama kayıt açılmayan grupları göster</button>
+      <button type="button" id="kapsam-git" hidden>Kayıt açılmayan grupları göster</button>
       <button type="button" id="temizle-bos">Filtreleri temizle</button>
     </div>
 
     <details class="kapsam" id="kapsam" hidden>
-      <summary><span>Arandı ama kayıt açılmayan gruplar</span><span class="kapsam-say" id="kapsam-say"></span></summary>
+      <summary><span>Kayıt açılmayan gruplar</span><span class="kapsam-say" id="kapsam-say"></span></summary>
       <div class="kapsam-icerik">
-        <p class="kapsam-not">Bu araç ve motor grupları için kaynak arandı, ancak en az iki farklı siteyle desteklenen ve o motora ya da modele özgü bir kronik sorun bulunamadığı için aşağıdakilerin kaydı yok. Bu "sorun yok" demek değildir; bulunanlar çoğunlukla tekil şikâyetler ya da başka motor ve modellere ait anlatılardır. Arama kutusu, marka, model yılı ve elektrikli filtreleri bu bölüme de uygulanır; risk ve kilometre filtreleri uygulanmaz, o filtreler açıkken bölüm gizlenir.</p>
+        <p class="kapsam-not">Bu gruplar için henüz kayıt yok. <strong>Arandı</strong> işaretlilerde kaynak arandı, ancak en az iki farklı siteyle desteklenen ve o motora ya da modele özgü bir kronik sorun bulunamadı; bu "sorun yok" demek değildir, bulunanlar çoğunlukla tekil şikâyetler ya da başka motor ve modellere ait anlatılardır. <strong>Sırada</strong> işaretliler listeye alındı ama henüz araştırılmadı. Arama kutusu, marka, model yılı ve elektrikli filtreleri bu bölüme de uygulanır; risk ve kilometre filtreleri uygulanmaz, o filtreler açıkken bölüm gizlenir.</p>
         <div id="kapsam-liste"></div>
       </div>
     </details>
@@ -949,7 +963,7 @@
       <p>"Dönem" satırı, kaynakların üretim yılına göre fark belirttiği sorunlarda görünür: ●●● Yaygın, ●●○ Görülebilir, ●○○ Seyrek. Bu sınıflandırma kaynaklardaki bildirim yoğunluğuna dayanan editoryal bir değerlendirmedir, istatistik değildir. Listelenmeyen yıllar için kaynaklarda ayrı bilgi bulunamamıştır; "sorun yok" anlamına gelmez. Kapsam son 10-15 yılın araçlarıdır (yaklaşık 2011 sonrası); ilk aşamadan kalan birkaç eski kayıt silinmedi.</p>
       <p>"Ayrıntılar" bölümü, sorunun kaynaklarında kullanıcı, usta ve rehber anlatımlarında geçen bilgileri özetler; yetkili servis talimatı değildir. Maliyetler yalnızca kaynaklarda bildirildiği kadarıyla ve bildirim yılıyla yazılmıştır, güncel fiyat değildir; parça fiyatı ve işçilik zamana ve servise göre değişir. Nedenler, kaynaklarda öne sürülen açıklamalardır, üreticinin teknik tespiti olmayabilir.</p>
       <p>Kaynak bağlantıları web araması sonuçlarından toplandı ve sayfa başlığı ile özetine göre sorunlarla eşlendi; sayfaların tamamı okunmadı. Soluk renkli bağlantılar daha zayıf kaynaklardır (ticari site, blog veya kısa kullanıcı girdisi). Km aralıkları tahminidir ve kullanım, bakım geçmişi ve üretim yılına göre değişir. Karar vermeden önce aracı yetkili servise kontrol ettirin.</p>
-      <p>Aradığınız araç ya da motor listede yoksa sayfanın altındaki "Arandı ama kayıt açılmayan gruplar" bölümüne bakın: orada kaynak arandığı halde yeterli kanıt bulunamayan gruplar ve nedenleri yazılıdır. Orada da yoksa henüz hiç aranmamış olabilir.</p>
+      <p>Aradığınız araç ya da motor listede yoksa sayfanın altındaki "Kayıt açılmayan gruplar" bölümüne bakın: orada kaynak arandığı halde yeterli kanıt bulunamayan gruplar ve nedenleri ile sıraya alınmış (henüz aranmamış) gruplar yazılıdır. Orada da yoksa planda hiç yer almıyor demektir.</p>
       <p>Ayrıntılar: <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/KAYNAKLAR.md">KAYNAKLAR.md</a> (site listesi), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/DOGRULAMA_RAPORU.md">DOGRULAMA_RAPORU.md</a> (neyin kaldırıldığı ve neden), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/KAPSAM.md">KAPSAM.md</a> (hangi marka, model ve motorlar planlandı, hangileri tamam), <a href="https://github.com/Ufuk-deger/arac-kronik-db/blob/claude/fervent-goldberg-0vaev1/data/araclar.json">data/araclar.json</a>.</p>
     </footer>
   </main>
@@ -982,6 +996,15 @@
     const RISK_ANAHTARI = { "Yüksek": "yuksek", "Orta": "orta", "Düşük": "dusuk" };
 
     const katla = (s) => s.toLocaleLowerCase("tr-TR").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ı/g, "i");
+    // "q3", "x5", "a4" gibi kısa model kodları kelime başında aranır ("DQ381" içindeki "q3" eşleşmesin); diğer terimler alt dizgi olarak aranır.
+    const KISA_KOD = /^(?=.*\d)[a-z0-9-]{1,3}$/;
+    function eslesir(metin, terim) {
+      if (!KISA_KOD.test(terim)) return metin.includes(terim);
+      for (let i = metin.indexOf(terim); i !== -1; i = metin.indexOf(terim, i + 1)) {
+        if (i === 0 || !/[a-z0-9]/.test(metin[i - 1])) return true;
+      }
+      return false;
+    }
     const sayi = (n) => n.toLocaleString("tr-TR");
     const yuzde = (km) => (Math.min(km, KM_UST) / KM_UST) * 100;
 
@@ -1193,6 +1216,8 @@
       kayitlar.push({ arac, kart, aracSay, grup, sorunlar });
     }
 
+    const planElendi = plan.filter((o) => o.durum !== "sirada").length;
+    const planSirada = plan.length - planElendi;
     const toplamSorun = kayitlar.reduce((t, k) => t + k.sorunlar.length, 0);
     const tumSiteler = new Set([
       ...araclar.flatMap((a) => a.kronik_sorunlar.flatMap((s) => s.kaynaklar.map(alanAdi))),
@@ -1205,7 +1230,8 @@
       `${kayitlar.length} araç/motor kaydı · ${gruplar.size} marka · ${toplamSorun} kronik sorun` +
       (ortakSorun ? ` (${ortakSorun} tanesi ortak motor/şanzıman ailesinden)` : "") +
       ` (${kirilimli} tanesinde yıl kırılımı, ${detayli} tanesinde ayrıntı) · ${tumSiteler.size} kaynak sitesi` +
-      (plan.length ? ` · ${plan.length} grup arandı ama kaydı açılmadı` : "");
+      (planElendi ? ` · ${planElendi} grup arandı ama kaydı açılmadı` : "") +
+      (planSirada ? ` · ${planSirada} grup sırada` : "");
     const detayAc = document.getElementById("detayac");
     if (!detayli) detayAc.closest("label").hidden = true;
     detayAc.addEventListener("change", () => {
@@ -1249,13 +1275,15 @@
         kapsamBolumleri.set(o.marka, bolum);
       }
       const li = el("li");
+      li.dataset.durum = o.durum;
       const bas = el("div", "kapsam-baslik");
-      bas.append(el("strong", null, o.model), el("span", "motor", o.motor), el("span", "arac-yil", o.yillar));
+      bas.append(el("strong", null, o.model), el("span", "motor", o.motor), el("span", "arac-yil", o.yillar),
+        el("span", "kapsam-durum", o.durum === "sirada" ? "Sırada" : "Arandı"));
       li.append(bas, el("p", "kapsam-ayrinti", o.durum === "sirada" ? "Henüz aranmadı (sırada)." : o.not));
       bolum.ul.append(li);
       const y = /^(\d{4})-(\d{4})?$/.exec(o.yillar);
       kapsamOgeleri.push({
-        li, bolum, elektrik: o.motor.startsWith("Elektrik"),
+        li, bolum, durum: o.durum, elektrik: o.motor.startsWith("Elektrik"),
         y: y ? [Number(y[1]), y[2] ? Number(y[2]) : null] : null,
         metin: katla([o.marka, o.model, o.yillar, o.motor, o.not || ""].join(" ")),
         marka: o.marka,
@@ -1264,20 +1292,22 @@
 
     function kapsamGuncelle(terimler, marka, yil, elektrik, gizle) {
       let adet = 0;
+      let siradaAdet = 0;
       for (const b of kapsamBolumleri.values()) b.gorunen = 0;
       for (const o of kapsamOgeleri) {
         const yilUyar = yil == null || o.y == null || (yil >= o.y[0] && (o.y[1] == null || yil <= o.y[1]));
         const uyar = !gizle && (!marka || o.marka === marka) && yilUyar && (!elektrik || o.elektrik) &&
-          terimler.every((t) => o.metin.includes(t));
+          terimler.every((t) => eslesir(o.metin, t));
         o.li.hidden = !uyar;
         if (uyar) {
           adet += 1;
+          if (o.durum === "sirada") siradaAdet += 1;
           o.bolum.gorunen += 1;
         }
       }
       for (const b of kapsamBolumleri.values()) b.kap.hidden = b.gorunen === 0;
       kapsamKutu.hidden = adet === 0;
-      kapsamSay.textContent = `${adet} grup`;
+      kapsamSay.textContent = siradaAdet ? `${adet - siradaAdet} arandı · ${siradaAdet} sırada` : `${adet} grup`;
       return adet;
     }
 
@@ -1339,7 +1369,7 @@
             }
           }
 
-          const uyar = markaUyar && terimler.every((t) => s.metin.includes(t)) && (!sadeceKm || durum === "icinde");
+          const uyar = markaUyar && terimler.every((t) => eslesir(s.metin, t)) && (!sadeceKm || durum === "icinde");
           if (uyar) {
             riskSay[""] += 1;
             riskSay[s.risk] += 1;
@@ -1374,7 +1404,7 @@
       const kapsamIpucu = sorunAdet === 0 && kapsamAdet > 0;
       bosKapsam.hidden = !kapsamIpucu;
       kapsamGit.hidden = !kapsamIpucu;
-      if (kapsamIpucu) bosKapsam.textContent = `Bu aramayla, kaynak arandığı halde kaydı açılmayan gruplar arasında ${kapsamAdet} eşleşme var.`;
+      if (kapsamIpucu) bosKapsam.textContent = `Bu aramayla, kaydı açılmayan (arandı ya da sırada) gruplar arasında ${kapsamAdet} eşleşme var.`;
       temizle.hidden = !(filtreli || km != null || yilGiris.value !== "");
     }
 

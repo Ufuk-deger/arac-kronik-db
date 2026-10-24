@@ -255,6 +255,12 @@
         "adet": null,
         "kapsam": "ek",
         "not": "Ek kademe: Faz 6'da arandı; T03 için tekil şikâyetler var, ikinci bağımsız kaynak çıkmadı. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Ssangyong",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: Faz 10'da sıraya alındı, henüz aranmadı. Satış adedi doğrulanamadı."
       }
     ],
     "kaynaklar": [
@@ -2076,7 +2082,7 @@
           "W176"
         ],
         "motor": [
-          ""
+          "A180 CDI"
         ]
       }
     },
@@ -3030,19 +3036,19 @@
     {
       "marka": "Mercedes-Benz",
       "model": "C Serisi W205",
-      "yillar": "2014-2021",
-      "motor": "C220d 2.0 (OM651 / OM654)",
+      "yillar": "2018-2021",
+      "motor": "C220d 2.0 (OM654)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "W205"
         ],
         "motor": [
-          "C220d"
+          "OM654"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "C220d (OM651 / OM654) için W205'e özgü kaynak bulunamadı; bulunan şikâyetler C200d (R9M) NOx / AdBlue / turbo yağ kaçağı üzerine ve ayrı kayıtta."
+      "not": "C220d (OM654) için W205'e özgü kaynak bulunamadı; bulunan şikâyetler C200d (R9M) NOx / AdBlue / turbo yağ kaçağı üzerine ve ayrı kayıtta."
     },
     {
       "marka": "Hyundai",
@@ -3097,14 +3103,14 @@
       "marka": "Mercedes-Benz",
       "model": "A Serisi W176",
       "yillar": "2012-2018",
-      "motor": "A200 CDI / A180 1.6 benzinli (enjektör, 7G-DCT)",
+      "motor": "A180 1.6 benzinli (M270, 7G-DCT)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "W176"
         ],
         "motor": [
-          "A200"
+          "A180 1.6"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -3650,9 +3656,9 @@
     },
     {
       "marka": "Mercedes-Benz",
-      "model": "Vito / Sprinter",
-      "yillar": "2010-",
-      "motor": "2.2 CDI (OM651)",
+      "model": "Vito / V-Class",
+      "yillar": "2014-",
+      "motor": "114 / 116 / 119 CDI (OM651)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -3662,8 +3668,7 @@
           "CDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "OM651 anlatıları C ve E Serisi kayıtlarında; Vito ve Sprinter'a özgü ayrı kaynak yok."
+      "not": "Vito ve Sprinter'a özgü ayrı kaynak yok; gösterilen piezo enjektör ve 7G-Tronic iletken plaka sorunları C ve E Serisi (OM651) kayıtlarına dayanır."
     },
     {
       "marka": "Renault",
@@ -5724,7 +5729,7 @@
       "marka": "Mercedes-Benz",
       "model": "B Serisi W246",
       "yillar": "2011-2018",
-      "motor": "B200 CDI 2.1 (OM651)",
+      "motor": "B200 CDI / B220 CDI 2.1 (OM651)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -5734,14 +5739,13 @@
           "B200"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da iki sorguyla arandı: Türkçe şikâyet ya da forum kaydı çıkmadı; Carchecker ve Au7o'daki rehber ve ABD sahip raporları OM651 dizelde DPF-EGR tıkanması ve 7G-DCT'de kalkış titreşimi gösteriyor (A Serisi / W176 kaydındaki bulgularla örtüşüyor); DonanımHaber'de bir kullanıcı B200'ün 7G-DCT'sinin sorunsuz olduğunu yazıyor."
+      "not": "Faz 9'da iki sorguyla arandı: Türkçe şikâyet ya da forum kaydı çıkmadı; Carchecker ve Au7o'daki rehber ve ABD sahip raporları OM651 dizelde DPF-EGR tıkanması ve 7G-DCT'de kalkış titreşimi gösteriyor (A Serisi / W176 kaydındaki bulgularla örtüşüyor); DonanımHaber'de bir kullanıcı B200'ün 7G-DCT'sinin sorunsuz olduğunu yazıyor. Gösterilen piezo enjektör sorunu C Serisi W204 ve E Serisi W212 (OM651) kayıtlarına dayanır."
     },
     {
       "marka": "Mercedes-Benz",
-      "model": "GLC / GLA",
+      "model": "GLC / GLA benzinli",
       "yillar": "2013-",
-      "motor": "220d / 200 / 250",
+      "motor": "200 / 250 (M274 / M270)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -5749,13 +5753,11 @@
           "GLA (X156"
         ],
         "motor": [
-          "220d",
-          "200",
-          "250"
+          "M274"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da iki sorguyla arandı: Şikâyetvar'da 2020 model bir GLC 220d'nin yolda kalması ve şanzıman arızası şikâyeti var (tek vaka); Araclo'nun GLC 200 ve GLA 200 sayfaları 9G-Tronic sarsıntısı ve GLA'da çift kavramalı şanzıman başlığını gösteriyor; yabancı rehberler OM651'de EGR kurumu ve NOx / AdBlue arızalarını sayıyor. Türkçe deneyim kaynağı tek vakada kaldı."
+      "not": "Faz 9'da iki sorguyla arandı: Şikâyetvar'da 2020 model bir GLC 220d'nin yolda kalması ve şanzıman arızası şikâyeti var (tek vaka; 2019 sonrası araçlar OM654 motorludur); Araclo'nun GLC 200 ve GLA 200 sayfaları 9G-Tronic sarsıntısı ve GLA'da çift kavramalı şanzıman başlığını gösteriyor; yabancı rehberler OM651'de EGR kurumu ve NOx / AdBlue arızalarını sayıyor. Türkçe deneyim kaynağı tek vakada kaldı."
     },
     {
       "marka": "Hyundai",
@@ -7060,6 +7062,1836 @@
         ]
       },
       "not": "Rio 1.0 T-GDI için kaynak çıkmadı; gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi W205",
+      "yillar": "2014-2018",
+      "motor": "C220d / C250d 2.1 (OM651)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "W205"
+        ],
+        "motor": [
+          "OM651"
+        ]
+      },
+      "not": "C220d (OM651) için W205'e özgü kaynak bulunamadı; bulunan şikâyetler C200d (R9M) NOx / AdBlue / turbo yağ kaçağı üzerine ve ayrı kayıtta. Gösterilen piezo enjektör sorunu C Serisi W204 ve E Serisi W212 (OM651) kayıtlarına dayanır."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "A Serisi W176",
+      "yillar": "2012-2018",
+      "motor": "A200 CDI / A220 CDI 2.1 (OM651)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "W176"
+        ],
+        "motor": [
+          "A200"
+        ]
+      },
+      "not": "Enjektör ve 7G-DCT iddiaları için güçlü kanıt bulunamadı; tekrarlayan şikâyet Pre-Safe / açı sensörü (CLA ile birlikte ele alındı). Gösterilen piezo enjektör sorunu C Serisi W204 ve E Serisi W212 (OM651) kayıtlarına dayanır."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLC",
+      "yillar": "2015-2019",
+      "motor": "GLC 220 d / 250 d 2.1 (OM651, 9G-Tronic)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "GLC (X253"
+        ],
+        "motor": [
+          "GLC 220 d"
+        ]
+      },
+      "not": "GLC 220 d için Türkçe deneyim kaynağı tek vakada kaldı (2020 model araç, OM654 olabilir); yabancı rehberler OM651'de EGR kurumu ve NOx / AdBlue arızalarını sayıyor. Gösterilen piezo enjektör sorunu C Serisi W204 ve E Serisi W212 (OM651) kayıtlarına dayanır."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLA",
+      "yillar": "2013-2019",
+      "motor": "GLA 200 CDI / 220 CDI 2.1 (OM651, 7G-DCT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "GLA (X156"
+        ],
+        "motor": [
+          "200 CDI"
+        ]
+      },
+      "not": "GLA'ya özgü ayrı kaynak bulunamadı; DonanımHaber'deki Pre-Safe başlığı GLA'yı da anıyor. Gösterilen piezo enjektör sorunu C Serisi W204 ve E Serisi W212 (OM651) kayıtlarına dayanır."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLK",
+      "yillar": "2008-2015",
+      "motor": "GLK 220 CDI 4MATIC 2.1 (OM651, 7G-Tronic)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "GLK"
+        ],
+        "motor": [
+          "GLK 220"
+        ]
+      },
+      "not": "GLK'ya özgü kaynak aranmadı; gösterilen piezo enjektör ve 7G-Tronic iletken plaka sorunları C Serisi W204 ve E Serisi W212 kayıtlarına dayanır."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Sprinter",
+      "yillar": "2006-2018",
+      "motor": "211-319 CDI (OM651)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Sprinter"
+        ],
+        "motor": [
+          "CDI"
+        ]
+      },
+      "not": "Sprinter'a özgü ayrı kaynak yok; gösterilen piezo enjektör sorunu C ve E Serisi (OM651) kayıtlarına dayanır."
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi G20",
+      "yillar": "2019-",
+      "motor": "320i (B48) / 320d (B47)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "G20"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi G30",
+      "yillar": "2017-2023",
+      "motor": "520i (B48) / 520d (B47)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "G30"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 G01",
+      "yillar": "2017-",
+      "motor": "xDrive20d (B47) / xDrive20i (B48) / xDrive30i",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "G01"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "X5 G05",
+      "yillar": "2018-",
+      "motor": "xDrive30d / xDrive40d (B57)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "G05"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi F32 / F36",
+      "yillar": "2013-2020",
+      "motor": "418i / 420i (N20 / B48), 420d (B47)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "F32",
+          "F36"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "2 Serisi F22 / F45 / F44",
+      "yillar": "2014-",
+      "motor": "216d / 218i / 218d (B37 / B38 / B47)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "F22",
+          "F45",
+          "F44"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "X2 F39",
+      "yillar": "2018-2023",
+      "motor": "sDrive18i / sDrive18d / xDrive20d (B38 / B47)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F39"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "X4 F26 / G02",
+      "yillar": "2014-",
+      "motor": "xDrive20d / xDrive30d (B47 / N57)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F26",
+          "G02"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "X6 E71 / F16",
+      "yillar": "2008-2019",
+      "motor": "xDrive30d / xDrive40d (N57)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "E71",
+          "F16"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "7 Serisi F01 / G11",
+      "yillar": "2009-",
+      "motor": "730d / 740d (N57 / B57)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F01",
+          "G11"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mini",
+      "model": "Countryman F60",
+      "yillar": "2017-",
+      "motor": "Cooper / Cooper S 1.5 - 2.0 (B38 / B48)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F60"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLE W166 (ML)",
+      "yillar": "2011-2018",
+      "motor": "250 d (OM651) / 350 d (OM642)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "W166"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "CLA C118",
+      "yillar": "2019-",
+      "motor": "CLA 180 (M282) / 200 d (OM654)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C118"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "CLS C218",
+      "yillar": "2011-2017",
+      "motor": "CLS 250 CDI (OM651) / 350 CDI (OM642)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C218"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "S Serisi W222",
+      "yillar": "2013-2020",
+      "motor": "S 350 d (OM642) / S 400",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "W222"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Viano W639",
+      "yillar": "2003-2014",
+      "motor": "2.2 CDI (OM646)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "W639"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Sprinter W907",
+      "yillar": "2018-",
+      "motor": "316 CDI (OM654)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "W907"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Vito W447 (1.6)",
+      "yillar": "2014-",
+      "motor": "109 / 111 CDI 1.6 (OM622, R9M)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "W447"
+        ],
+        "motor": [
+          "109"
+        ]
+      }
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (2008-2017)",
+      "yillar": "2008-2017",
+      "motor": "2.4 D5 / D4 2.0 (Drive-E) / T5",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "XC60 (2008"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (2017-)",
+      "yillar": "2017-",
+      "motor": "D4 / D5 / T5 / B4",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "XC60 (2017"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC90 (2002-2014)",
+      "yillar": "2002-2014",
+      "motor": "2.4 D5 / 3.2",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "XC90 (2002"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC90 (2015-)",
+      "yillar": "2015-",
+      "motor": "D5 / T5 / T6",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "XC90 (2015"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volvo",
+      "model": "S60 II / V60",
+      "yillar": "2010-2018",
+      "motor": "D3 / D4 / D5, T4 / T5 (Drive-E)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "S60 II",
+          "V60"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volvo",
+      "model": "V40 (2012-2019)",
+      "yillar": "2012-2019",
+      "motor": "D4 2.0 (Drive-E) / T3 / T4 / T5",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "V40 (2012"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volvo",
+      "model": "S90 / V90",
+      "yillar": "2016-",
+      "motor": "D4 / D5 / T5 / T6",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "S90",
+          "V90"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC40 (2018-)",
+      "yillar": "2018-",
+      "motor": "T3 / T4 / D3 / B4 (hafif hibrit)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "XC40 (2018"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volvo",
+      "model": "S80 / V70 / XC70",
+      "yillar": "2007-2016",
+      "motor": "D5 2.4 / D4",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "S80",
+          "V70",
+          "XC70"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Range Rover Evoque",
+      "yillar": "2011-2019",
+      "motor": "2.2 SD4 / 2.0 TD4 (Ingenium) / 2.0 Si4",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Evoque"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Discovery Sport",
+      "yillar": "2015-",
+      "motor": "2.0 TD4 / SD4 (Ingenium)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Discovery Sport"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Range Rover Sport",
+      "yillar": "2005-",
+      "motor": "3.0 TDV6 / SDV6",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Range Rover Sport"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Discovery 4",
+      "yillar": "2009-2016",
+      "motor": "2.7 TDV6 / 3.0 SDV6",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Discovery 4"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Jeep",
+      "model": "Grand Cherokee WK2",
+      "yillar": "2011-2021",
+      "motor": "3.0 CRD / 3.6 V6",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Grand Cherokee"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Jeep",
+      "model": "Wrangler JK / JL",
+      "yillar": "2007-",
+      "motor": "2.8 CRD / 3.6 V6 / 2.0 turbo",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Wrangler"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Jeep",
+      "model": "Cherokee KL",
+      "yillar": "2014-",
+      "motor": "2.0 MultiJet / 2.4 MultiAir",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Cherokee KL"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Giulia",
+      "yillar": "2016-",
+      "motor": "2.0 Turbo / 2.2 JTDm",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Giulia ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Stelvio",
+      "yillar": "2017-",
+      "motor": "2.0 Turbo / 2.2 JTDm",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Stelvio"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "MiTo",
+      "yillar": "2008-2018",
+      "motor": "1.4 MultiAir / 1.3 JTDm",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "MiTo"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Porsche",
+      "model": "Macan",
+      "yillar": "2014-",
+      "motor": "2.0 turbo / 3.0 S Diesel",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Macan"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Porsche",
+      "model": "Cayenne (958)",
+      "yillar": "2010-2017",
+      "motor": "3.0 diesel / 3.6 V6",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Cayenne"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "Q5 FY",
+      "yillar": "2017-",
+      "motor": "40 TDI 2.0 (quattro S tronic) / 45 TFSI",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Q5 (FY"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 8V (2.0 TDI / 1.8 TFSI)",
+      "yillar": "2012-2020",
+      "motor": "2.0 TDI 150 / 1.8 TFSI 180",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A3 (8V"
+        ],
+        "motor": [
+          "2.0 TDI",
+          "1.8 TFSI"
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 8Y (30 TFSI / 2.0 TDI)",
+      "yillar": "2020-",
+      "motor": "30 TFSI 1.0 / 35 TDI 2.0",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A3 (8Y"
+        ],
+        "motor": [
+          "30 TFSI",
+          "35 TDI"
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "Q3 F3 (dizel)",
+      "yillar": "2018-",
+      "motor": "35 TDI 2.0",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Q3 (F3"
+        ],
+        "motor": [
+          "35 TDI"
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 C8",
+      "yillar": "2018-",
+      "motor": "40 TDI 2.0 / 45 TFSI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A6 (C8"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "A5 F5",
+      "yillar": "2017-",
+      "motor": "40 TDI / 40 TFSI 2.0",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A5 (F5"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "A7 4G",
+      "yillar": "2010-2018",
+      "motor": "3.0 TDI / 2.0 TFSI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A7 (4G"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "Q7 4L / 4M",
+      "yillar": "2006-",
+      "motor": "3.0 TDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Q7"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "A1 GB",
+      "yillar": "2018-",
+      "motor": "25 TFSI 1.0 / 30 TFSI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A1 (GB"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "TT 8S",
+      "yillar": "2014-2023",
+      "motor": "2.0 TFSI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "TT ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Crafter",
+      "yillar": "2006-",
+      "motor": "2.0 TDI",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Crafter"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Sharan 7N",
+      "yillar": "2010-2020",
+      "motor": "2.0 TDI / 1.4 TSI",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Sharan"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touareg",
+      "yillar": "2010-",
+      "motor": "3.0 TDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Touareg"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Scirocco",
+      "yillar": "2008-2017",
+      "motor": "1.4 TSI / 2.0 TSI / 2.0 TDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Scirocco"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Beetle",
+      "yillar": "2011-2019",
+      "motor": "1.2 TSI / 1.4 TSI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Beetle"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf Sportsvan",
+      "yillar": "2014-2020",
+      "motor": "1.2 / 1.4 TSI, 1.6 TDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Sportsvan"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "up!",
+      "yillar": "2011-2023",
+      "motor": "1.0 MPI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "up! ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Skoda",
+      "model": "Roomster",
+      "yillar": "2006-2015",
+      "motor": "1.2 TSI / 1.6 TDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Roomster"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Skoda",
+      "model": "Citigo",
+      "yillar": "2012-2019",
+      "motor": "1.0 MPI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Citigo"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Seat",
+      "model": "Altea / Altea XL",
+      "yillar": "2004-2015",
+      "motor": "1.2 TSI / 1.6 TDI / 2.0 TDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Altea"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Seat",
+      "model": "Alhambra",
+      "yillar": "2010-2020",
+      "motor": "2.0 TDI / 1.4 TSI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Alhambra"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Seat",
+      "model": "Mii",
+      "yillar": "2012-2021",
+      "motor": "1.0 MPI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Mii ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Ford",
+      "model": "Transit",
+      "yillar": "2006-",
+      "motor": "2.2 TDCi / 2.0 EcoBlue",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Transit ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Ford",
+      "model": "S-Max / Galaxy",
+      "yillar": "2006-2023",
+      "motor": "2.0 TDCi / 2.0 EcoBlue",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "S-Max",
+          "Galaxy"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Ford",
+      "model": "Kuga 1",
+      "yillar": "2008-2012",
+      "motor": "2.0 TDCi (Powershift)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Kuga 1"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Ford",
+      "model": "Ka",
+      "yillar": "2008-2016",
+      "motor": "1.2 benzinli",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Ka ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Insignia B",
+      "yillar": "2017-2022",
+      "motor": "1.6 CDTI / 1.5 Turbo / 2.0 CDTI",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Insignia B"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Vivaro",
+      "yillar": "2014-",
+      "motor": "1.6 CDTI (Biturbo)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Vivaro"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Zafira B",
+      "yillar": "2005-2014",
+      "motor": "1.6 / 1.9 CDTI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Zafira B"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra L",
+      "yillar": "2022-",
+      "motor": "1.2 Turbo / 1.5 Dizel",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Astra L"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Adam / Karl",
+      "yillar": "2013-2019",
+      "motor": "1.2 / 1.4",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Adam",
+          "Karl"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Opel",
+      "model": "Antara",
+      "yillar": "2007-2015",
+      "motor": "2.2 CDTI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Antara"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Peugeot",
+      "model": "Expert / Traveller",
+      "yillar": "2007-",
+      "motor": "2.0 HDi / BlueHDi",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Expert",
+          "Traveller"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Peugeot",
+      "model": "Boxer",
+      "yillar": "2006-",
+      "motor": "2.2 HDi / 2.0 BlueHDi",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Boxer"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Peugeot",
+      "model": "5008 I",
+      "yillar": "2009-2016",
+      "motor": "1.6 THP / 1.6 e-HDi / 2.0 HDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "5008 (I,"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Peugeot",
+      "model": "107 / 108",
+      "yillar": "2005-2021",
+      "motor": "1.0 VTi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "108"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Citroen",
+      "model": "Jumpy",
+      "yillar": "2007-",
+      "motor": "2.0 HDi / BlueHDi",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Jumpy"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Citroen",
+      "model": "Jumper",
+      "yillar": "2006-",
+      "motor": "2.2 HDi / 2.0 BlueHDi",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Jumper"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Citroen",
+      "model": "C5",
+      "yillar": "2008-2017",
+      "motor": "1.6 e-HDi / 2.0 HDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C5 ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Citroen",
+      "model": "Nemo / Peugeot Bipper",
+      "yillar": "2008-2018",
+      "motor": "1.3 HDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Nemo"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Citroen",
+      "model": "DS3 / DS4",
+      "yillar": "2010-2018",
+      "motor": "1.6 THP / 1.6 e-HDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "DS3",
+          "DS4"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Fiat",
+      "model": "Panda",
+      "yillar": "2012-2020",
+      "motor": "0.9 TwinAir / 1.2 Fire / 1.3 Multijet",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Panda ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Fiat",
+      "model": "Bravo",
+      "yillar": "2007-2014",
+      "motor": "1.4 T-Jet / 1.6 Multijet",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Bravo"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Fiat",
+      "model": "500X",
+      "yillar": "2015-",
+      "motor": "1.6 Multijet / 1.4 MultiAir / 1.3 FireFly Turbo",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "500X"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Fiat",
+      "model": "Scudo / Talento",
+      "yillar": "2007-2021",
+      "motor": "2.0 Multijet",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Scudo",
+          "Talento"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Fiat",
+      "model": "Fullback",
+      "yillar": "2016-2019",
+      "motor": "2.4 Dizel",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Fullback"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Renault",
+      "model": "Twingo III",
+      "yillar": "2014-2019",
+      "motor": "0.9 TCe 90 (H4Bt) / 1.0 SCe 70",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Twingo"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Renault",
+      "model": "Espace V",
+      "yillar": "2015-",
+      "motor": "1.6 dCi 130/160 (R9M) / 1.6 TCe",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Espace"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Renault",
+      "model": "Kangoo 3",
+      "yillar": "2021-",
+      "motor": "1.5 Blue dCi / 1.3 TCe",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Kangoo 3"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Renault",
+      "model": "Austral",
+      "yillar": "2022-",
+      "motor": "1.2 hafif hibrit / 1.3 TCe",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Austral"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Nissan",
+      "model": "Pulsar C13",
+      "yillar": "2014-2018",
+      "motor": "1.2 DIG-T / 1.5 dCi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Pulsar"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Nissan",
+      "model": "X-Trail T31",
+      "yillar": "2007-2014",
+      "motor": "2.0 dCi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "X-Trail T31"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Nissan",
+      "model": "Murano Z51",
+      "yillar": "2008-2014",
+      "motor": "3.5 V6 (CVT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Murano"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Toyota",
+      "model": "Verso",
+      "yillar": "2009-2018",
+      "motor": "1.6 D-4D / 1.8 Valvematic",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Verso"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Toyota",
+      "model": "Land Cruiser Prado",
+      "yillar": "2009-",
+      "motor": "3.0 D-4D / 2.7",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Prado"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Toyota",
+      "model": "Proace / Proace City",
+      "yillar": "2013-",
+      "motor": "1.6 / 2.0 D-4D",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Proace"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mitsubishi",
+      "model": "Outlander",
+      "yillar": "2012-",
+      "motor": "2.0 MIVEC / 2.2 DI-D",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Outlander"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mitsubishi",
+      "model": "Pajero",
+      "yillar": "2006-2021",
+      "motor": "3.2 DI-D",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Pajero"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mitsubishi",
+      "model": "Eclipse Cross",
+      "yillar": "2018-",
+      "motor": "1.5 T",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Eclipse Cross"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Suzuki",
+      "model": "Swift",
+      "yillar": "2011-2017",
+      "motor": "1.2 (K12B) / 1.3 DDiS",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Swift ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Suzuki",
+      "model": "Jimny",
+      "yillar": "2018-",
+      "motor": "1.5",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Jimny"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Suzuki",
+      "model": "Baleno / Ignis",
+      "yillar": "2016-",
+      "motor": "1.2 Dualjet",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Baleno",
+          "Ignis"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Subaru",
+      "model": "Forester",
+      "yillar": "2013-2018",
+      "motor": "2.0 / 2.0D",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Forester"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Subaru",
+      "model": "Impreza / Outback",
+      "yillar": "2011-",
+      "motor": "1.6 / 2.0 / 2.5",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Impreza",
+          "Outback"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i40",
+      "yillar": "2011-2019",
+      "motor": "1.7 CRDi / 1.6 GDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "i40"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Creta / Venue",
+      "yillar": "2019-",
+      "motor": "1.5 / 1.6 MPI, 1.0 T-GDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Creta",
+          "Venue"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Kia",
+      "model": "Carens",
+      "yillar": "2013-2019",
+      "motor": "1.7 CRDi / 1.6 GDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Carens"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Kia",
+      "model": "Soul",
+      "yillar": "2009-2019",
+      "motor": "1.6 CRDi / 1.6 GDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Soul"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Kia",
+      "model": "Optima",
+      "yillar": "2012-2020",
+      "motor": "1.7 CRDi / 2.0",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Optima"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Kia",
+      "model": "Seltos / XCeed",
+      "yillar": "2019-",
+      "motor": "1.6 MPI / 1.0 / 1.4 T-GDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Seltos",
+          "XCeed"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "MG",
+      "model": "ZS",
+      "yillar": "2017-",
+      "motor": "1.5 VTi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "ZS ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Ssangyong",
+      "model": "Korando / Tivoli",
+      "yillar": "2011-",
+      "motor": "2.0 e-XDi / 1.6",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Korando",
+          "Tivoli"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Ssangyong",
+      "model": "Rexton",
+      "yillar": "2012-",
+      "motor": "2.0 / 2.2 e-XDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Rexton"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Smart",
+      "model": "fortwo / forfour 453",
+      "yillar": "2015-2023",
+      "motor": "0.9 TCe 90 (H4Bt) / 1.0",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "453"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Audi",
+      "model": "Q5 8R",
+      "yillar": "2008-2017",
+      "motor": "2.0 TDI",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Q5 (8R"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "not": "Q5 2.0 TDI için modele özgü kaynak çıkmadı: DonanımHaber'de Q5 başlıkları 2.0 TFSI yağ yakma (ayrı kayıtta), S tronic ve akü / alternatör üzerine; 2.0 TDI enjektör ve DPF anlatıları A5 / A6 başlıklarında ve eski 143-170 hp motorlara ait, 2.0 TDI için doğrulanmış bir sorun listesi çıkmadı.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }
