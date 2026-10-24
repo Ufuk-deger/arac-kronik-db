@@ -1011,12 +1011,17 @@
     const RISK_ANAHTARI = { "Yüksek": "yuksek", "Orta": "orta", "Düşük": "dusuk" };
 
     const katla = (s) => s.toLocaleLowerCase("tr-TR").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ı/g, "i");
-    // "q3", "x5", "a4" gibi kısa model kodları kelime başında aranır ("DQ381" içindeki "q3" eşleşmesin); diğer terimler alt dizgi olarak aranır.
+    // "q3", "x5", "a4" gibi kısa model kodları kelime başında aranır ("DQ381" içindeki "q3" eşleşmesin); harf + tek rakamlı kodların ("x2", "s6") ardından rakam da gelmez ("X243", "S60" gelmesin).
+    // Diğer terimler alt dizgi olarak aranır.
     const KISA_KOD = /^(?=.*\d)[a-z0-9-]{1,3}$/;
+    const HARF_RAKAM = /^[a-z]\d$/;
     function eslesir(metin, terim) {
       if (!KISA_KOD.test(terim)) return metin.includes(terim);
+      const sonrasiRakamOlmasin = HARF_RAKAM.test(terim);
       for (let i = metin.indexOf(terim); i !== -1; i = metin.indexOf(terim, i + 1)) {
-        if (i === 0 || !/[a-z0-9]/.test(metin[i - 1])) return true;
+        if (i !== 0 && /[a-z0-9]/.test(metin[i - 1])) continue;
+        if (sonrasiRakamOlmasin && /\d/.test(metin[i + terim.length] || "")) continue;
+        return true;
       }
       return false;
     }
