@@ -590,8 +590,7 @@
           "1.5 dCi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Lodgy / Dokker 1.5 dCi için turbo ya da enjektör örüntüsü çıkmadı; şikâyetler teyp ekranı ve elektrikte, enjektör anlatıları diğer Renault dizellerinden."
+      "not": "Lodgy / Dokker 1.5 dCi için turbo ya da enjektör örüntüsü çıkmadı; şikâyetler teyp ekranı ve elektrikte. Gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Duster, Sandero ve Renault kayıtlarına dayanır."
     },
     {
       "marka": "Dacia",
@@ -1468,35 +1467,37 @@
       "marka": "Skoda",
       "model": "Fabia",
       "yillar": "2014-2021",
-      "motor": "1.0 MPI / 1.2 TSI / 1.4 TDI",
+      "motor": "1.0 MPI / 1.4 TDI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Fabia"
         ],
         "motor": [
-          ""
+          "1.0 MPI",
+          "1.4 TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Fabia için motor bazında tekrar eden sorun çıkmadı (1.4 TDI kavrama/volan, 1.2 krank keçesi ve 1.0 direksiyon uyarısı gibi tekil iddialar)."
+      "not": "Fabia için motor bazında tekrar eden sorun çıkmadı (1.4 TDI kavrama / volan ve 1.0 direksiyon uyarısı gibi tekil iddialar)."
     },
     {
       "marka": "Skoda",
       "model": "Superb III",
       "yillar": "2015-2023",
-      "motor": "1.4 TSI / 1.5 TSI / 1.6 TDI / 2.0 TDI",
+      "motor": "1.4 TSI / 1.5 TSI / 1.6 TDI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Superb (III"
         ],
         "motor": [
-          ""
+          "1.4 TSI",
+          "1.5 TSI",
+          "1.6 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "1.4 TSI, 1.6 TDI ve 2.0 TDI için tekil şikâyetler çıktı (arıza lambası, start-stop); 1.6 TDI DSG kavrama sorunu Octavia ve Rapid kayıtlarında. Faz 8'de 1.5 TSI ACT (2019-2023) de arandı: Superb 1.5 TSI şikâyetleri (48V, yağ eksiltme, titreme) 2024 sonrası Superb IV'e ait; III kuşak 1.5 TSI için ayrı kaynak çıkmadı. Superb IV ayrı satırda kayıtlandı."
+      "not": "Superb III'e özgü motor kaynağı çıkmadı (1.4 TSI ve 1.6 TDI için tekil arıza lambası / start-stop şikâyetleri). 1.5 TSI ACT için Superb şikâyetleri (48V, yağ eksiltme, titreme) 2024 sonrası Superb IV'e ait; gösterilen sorunlar aynı motorları kullanan Octavia, Golf, Karoq ve Passat kayıtlarına dayanır."
     },
     {
       "marka": "Skoda",
@@ -1512,8 +1513,7 @@
           ""
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Kodiaq için motor bazında tekrar eden sorun çıkmadı: Şikâyetvar'da su alma, AKF valf hortumu çatlağı, start-stop uyarısı, mekatronik / şanzıman acil işletim ve yazılım şikâyetleri var ve çoğunda motor tipi belirtilmemiş; 2020 model bir 1.5 Elite sahibi bagajdan su aldığını yazıyor. Aynı motorun yağ eksiltmesi ve ACT titreşimi Karoq 1.5 TSI kaydında ele alındı (Faz 8)."
+      "not": "Kodiaq'a özgü tekrar eden motor sorunu çıkmadı: Şikâyetvar'da su alma, AKF valf hortumu çatlağı, start-stop uyarısı, mekatronik / şanzıman acil işletim ve yazılım şikâyetleri var ve çoğunda motor tipi belirtilmemiş. Gösterilen sorunlar 1.5 TSI için Karoq, Passat ve Tiguan; 2.0 TDI DSG için Tiguan kaynaklarına dayanır."
     },
     {
       "marka": "Skoda",
@@ -1526,7 +1526,7 @@
           "Kamiq"
         ],
         "motor": [
-          ""
+          "1.0 TSI"
         ]
       }
     },
@@ -1671,15 +1671,14 @@
       "marka": "Volkswagen",
       "model": "Passat B7",
       "yillar": "2010-2014",
-      "motor": "2.0 TDI / 1.4 TSI",
+      "motor": "2.0 TDI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Passat (B7"
         ],
         "motor": [
-          "2.0 TDI",
-          "1.4 TSI"
+          "2.0 TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -1704,15 +1703,14 @@
       "marka": "Volkswagen",
       "model": "Passat B8",
       "yillar": "2015-2023",
-      "motor": "2.0 TDI / 1.4 TSI",
+      "motor": "2.0 TDI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Passat (B8"
         ],
         "motor": [
-          "2.0 TDI",
-          "1.4 TSI"
+          "2.0 TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -1803,7 +1801,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Caddy"
+          "Caddy (2K"
         ],
         "motor": [
           "TDI"
@@ -2195,23 +2193,6 @@
       }
     },
     {
-      "marka": "BMW",
-      "model": "X1 / X3",
-      "yillar": "2010-2018",
-      "motor": "1.8d / 2.0d (N47 / B47)",
-      "kademe": 3,
-      "eslesme": {
-        "model": [
-          "X1"
-        ],
-        "motor": [
-          ""
-        ]
-      },
-      "sonuc": "yetersiz-kanit",
-      "not": "X1 / X3 için modele özgü kaynak çıkmadı; N47 zincir sorunu 320d, 116d ve 520d kayıtlarında ele alındı."
-    },
-    {
       "marka": "Nissan",
       "model": "Qashqai J11",
       "yillar": "2014-2020",
@@ -2245,18 +2226,18 @@
       "marka": "Nissan",
       "model": "Qashqai J10",
       "yillar": "2007-2013",
-      "motor": "1.5 dCi / 1.6",
+      "motor": "1.6 (benzinli)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Qashqai (J10"
         ],
         "motor": [
-          ""
+          "1.6"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "J10 dönemine (2007-2013) özgü kaynak bulunamadı; Qashqai 1.5 dCi turbo hortumu şikâyetleri 2012 model ve sonrasında yoğunlaşıyor, J11 kaydında ele alındı."
+      "not": "J10 dönemine (2007-2013) özgü kaynak bulunamadı; 1.6 benzinli için ayrıca sonuç çıkmadı."
     },
     {
       "marka": "Nissan",
@@ -2266,7 +2247,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Micra"
+          "Micra (K13"
         ],
         "motor": [
           ""
@@ -2784,7 +2765,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Ibiza"
+          "Ibiza (6J"
         ],
         "motor": [
           ""
@@ -2799,14 +2780,15 @@
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Ateca"
+          "Ateca",
+          "Arona"
         ],
         "motor": [
-          ""
+          "1.0 TSI",
+          "1.5 TSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Arona 1.0 TSI DSG ve Ateca 1.5 TSI için yalnızca Şikâyetvar'daki tekil kayıtlar (DSG vuruntusu, yağ uyarısı, yağ kaçağı); yaygınlığı gösteren bağımsız kaynak yok. Faz 8'de 1.5 TSI için yeniden arandı: Şikâyetvar'daki Ateca kaydı (24.000 km'de dört kez yağ eksik uyarısı) tek başına; DonanımHaber'de Ateca için yağ eksiltme anlatıları genel TSI başlıklarında geçiyor, Ateca 1.5 TSI'ya özgü ikinci bağımsız kaynak çıkmadı."
+      "not": "Ateca'ya özgü ikinci bağımsız kaynak çıkmadı: Şikâyetvar'da tek kayıt var (24.000 km'de dört kez yağ eksik uyarısı). Arona 1.0 TSI DSG için yalnızca tekil kayıtlar (DSG vuruntusu, yağ kaçağı). Gösterilen sorunlar aynı motor ve şanzımanı kullanan diğer VAG kayıtlarına dayanır."
     },
     {
       "marka": "Toyota",
@@ -2869,8 +2851,7 @@
           "1.5 dCi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Juke 1.5 dCi için kaynak ağırlıkla tek bir rehber (Araclo); turbo yağ borusu ve DPF anlatıları ikinci bağımsız kaynakla desteklenmedi. K9K turbo hortumu sorunu Qashqai J11 kaydında."
+      "not": "Juke 1.5 dCi için kaynak ağırlıkla tek bir rehber (Araclo); turbo yağ borusu ve DPF anlatıları ikinci bağımsız kaynakla desteklenmedi. Gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Renault ve Dacia kayıtlarına, K9K turbo hortumu sorunu ise Qashqai J11 kaydına dayanır."
     },
     {
       "marka": "Mercedes-Benz",
@@ -3037,19 +3018,18 @@
       "marka": "Audi",
       "model": "A3 8V",
       "yillar": "2012-2020",
-      "motor": "1.0 TFSI / 1.2 TFSI",
+      "motor": "1.0 TFSI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "A3 (8V"
         ],
         "motor": [
-          "1.0 TFSI",
-          "1.2 TFSI"
+          "1.0 TFSI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "1.2 TFSI için sonuç çıkmadı; 1.0 TFSI için yalnızca tekil anekdotlar (start-stop sonrası kalkış, far). S tronic şikâyetleri 1.4 TFSI ve 1.6 TDI kayıtlarında ele alındı."
+      "not": "1.0 TFSI için yalnızca tekil anekdotlar (start-stop sonrası kalkış, far)."
     },
     {
       "marka": "Mercedes-Benz",
@@ -3140,14 +3120,15 @@
       "marka": "Mercedes-Benz",
       "model": "GLA",
       "yillar": "2013-2019",
-      "motor": "1.5 d / 1.6 / 2.0 (OM607 / M270 / M274)",
+      "motor": "1.6 / 2.0 benzinli (M270 / M274)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "GLA"
+          "GLA ("
         ],
         "motor": [
-          ""
+          "M270",
+          "M274"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -3173,53 +3154,50 @@
     {
       "marka": "BMW",
       "model": "5 Serisi F10",
-      "yillar": "2010-2017",
-      "motor": "520i (N20) / 520d (B47)",
+      "yillar": "2011-2016",
+      "motor": "520i / 528i (N20)",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "F10"
+          "5 Serisi (F10, 2011"
         ],
         "motor": [
-          "520i"
+          "N20"
         ]
-      },
-      "sonuc": "yetersiz-kanit",
-      "not": "N20 520i için zincir sorununa dair kaynak çıkmadı; B47 için yalnızca N47'den daha sorunsuz olduğunu yazan tekil forum görüşleri var."
+      }
     },
     {
       "marka": "Nissan",
-      "model": "Micra",
-      "yillar": "2013-2019",
-      "motor": "0.9 IG-T",
+      "model": "Micra K14",
+      "yillar": "2017-2023",
+      "motor": "0.9 IG-T 90 (H4Bt)",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Micra"
+          "Micra (K14"
         ],
         "motor": [
           "0.9 IG-T"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "0.9 IG-T motoruna özgü kronik sorun sonuçlarda yer almadı; şikâyetler 1.2 CVT'de toplanıyor."
+      "not": "0.9 IG-T motoruna özgü kronik sorun sonuçlarda yer almadı; şikâyetler 1.2 CVT'de toplanıyor. Gösterilen turbo wastegate sorunu aynı H4Bt motorunu kullanan Sandero ve Clio 4 kayıtlarına dayanır."
     },
     {
       "marka": "Nissan",
       "model": "Note",
       "yillar": "2013-",
-      "motor": "1.2 / 1.5 dCi",
+      "motor": "1.2 (benzinli)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Note"
         ],
         "motor": [
-          ""
+          "1.2"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Note 1.2 / 1.5 dCi için ilgili şikâyet bulunamadı (aramada yalnızca X-Trail 1.6 dCi öne çıktı)."
+      "not": "Note 1.2 için ilgili şikâyet bulunamadı (aramada yalnızca X-Trail 1.6 dCi öne çıktı)."
     },
     {
       "marka": "Dacia",
@@ -3308,19 +3286,18 @@
       "marka": "Seat",
       "model": "Ibiza 6J / 6P",
       "yillar": "2008-2017",
-      "motor": "1.0 TSI / 1.6 TDI",
+      "motor": "1.6 TDI",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Ibiza"
+          "Ibiza (6J"
         ],
         "motor": [
-          "1.0 TSI",
           "1.6 TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Ibiza 1.6 TDI için yalnızca tekil bir direksiyon (EPS) şikâyeti çıktı; 1.0 TSI için kaynak bulunamadı. Zincir iddiası Ibiza'ya özgü değil."
+      "not": "Ibiza 1.6 TDI için yalnızca tekil bir direksiyon (EPS) şikâyeti çıktı. Zincir iddiası Ibiza'ya özgü değil."
     },
     {
       "marka": "Audi",
@@ -3341,20 +3318,20 @@
     },
     {
       "marka": "Audi",
-      "model": "Q3",
+      "model": "Q3 8U",
       "yillar": "2011-2018",
-      "motor": "2.0 TDI / 2.0 TFSI",
+      "motor": "2.0 TDI",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Q3"
+          "Q3 (8U"
         ],
         "motor": [
-          ""
+          "2.0 TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Q3'e özgü kaynak bulunamadı; 2.0 TFSI yağ tüketimi Q5 ve A4 kayıtlarında ele alındı."
+      "not": "Q3 2.0 TDI için modele özgü kaynak bulunamadı."
     },
     {
       "marka": "Opel",
@@ -3490,8 +3467,7 @@
           "1.5 dCi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Kangoo'ya özgü ayrı kaynak yok; K9K enjektör ve EGR anlatıları Clio, Megane ve Duster kayıtlarında ele alındı."
+      "not": "Kangoo'ya özgü ayrı kaynak yok; gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Clio, Megane, Duster ve Sandero kaynaklarına dayanır."
     },
     {
       "marka": "Opel",
@@ -3983,19 +3959,18 @@
     {
       "marka": "Audi",
       "model": "A1 (8X)",
-      "yillar": "2010-2018",
-      "motor": "1.2 / 1.4 TFSI (S tronic)",
+      "yillar": "2010-2014",
+      "motor": "1.4 TFSI 122 (S tronic)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "A1 (8X"
         ],
         "motor": [
-          "TFSI"
+          "1.4 TFSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "A1'e özgü veri sınırlı; yağ tüketimi ve S tronic anlatıları A3 ve A4 kayıtlarında ele alındı."
+      "not": "A1'e özgü kaynak çıkmadı; gösterilen sorunlar aynı motor ve şanzımanı kullanan Golf 6, Polo ve A3 kayıtlarına dayanır. A1 1.2 TFSI için kayıt açılmadı."
     },
     {
       "marka": "Hyundai",
@@ -4067,25 +4042,6 @@
       },
       "sonuc": "yetersiz-kanit",
       "not": "A20DTH'ye özgü kronik sorun listesi çıkmadı; turbo hortumu şikâyetleri çoğunlukla 1.6 CDTI'a ait ve o kayıtta."
-    },
-    {
-      "marka": "Skoda",
-      "model": "Fabia / Superb",
-      "yillar": "2015-",
-      "motor": "1.2 TSI DSG, 2.0 TDI",
-      "kademe": 3,
-      "eslesme": {
-        "model": [
-          "Fabia",
-          "Superb (III"
-        ],
-        "motor": [
-          "TSI",
-          "TDI"
-        ]
-      },
-      "sonuc": "yetersiz-kanit",
-      "not": "Fabia 1.2 TSI DSG ve Superb 2.0 TDI için yalnızca tekil Şikâyetvar kayıtları ve genel DSG anlatıları; Fabia 1.4 TDI için sonuç çıkmadı."
     },
     {
       "marka": "Kia",
@@ -5138,8 +5094,7 @@
           "1.5 TSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "DonanımHaber'de tek başlık var (Golf 1.5 TSI ACT 150, iki silindir modunda titreme); sahibi 2020 model diyor ve Golf 7.5 / Golf 8 ayrımı yapılamıyor. 'Golf 7 yağ eksiltme sorunu' başlığındaki anlatılar ağırlıkla 1.2 / 1.4 TSI'ya ait; bir başka başlıkta 1.5 TSI 150 Golf sahibi 112 bin km'de DSG kavramasını değiştirdiğini yazıyor (tekil). Aynı motorun ACT titreşimi ve yağ eksiltmesi Karoq ve Passat kayıtlarında ele alındı."
+      "not": "Golf 7.5'a özgü kaynak sınırlı: DonanımHaber'de tek başlık var (Golf 1.5 TSI ACT 150, iki silindir modunda titreme); sahibi 2020 model diyor ve Golf 7.5 / Golf 8 ayrımı yapılamıyor. 'Golf 7 yağ eksiltme sorunu' başlığındaki anlatılar ağırlıkla 1.2 / 1.4 TSI'ya ait. Gösterilen sorunlar aynı motoru kullanan Karoq, Passat ve Tiguan kayıtlarına dayanır."
     },
     {
       "marka": "Seat",
@@ -5155,8 +5110,7 @@
           "1.5 TSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da 2018 model 1.5 TSI Leon sahibi yetkili servisin bir litreye yakın yağ eksiltmeyi normal saydığını ve litre başına ücret istediğini yazıyor; DonanımHaber'deki 2019 Leon FR 1.5 TSI 150 başlığında cam tavan titremesi ve DSG mekatronik değişimi anılıyor. Tekil kayıtlar; aynı motorun yağ eksiltmesi Karoq ve Passat kayıtlarında ele alındı."
+      "not": "Şikâyetvar'da 2018 model 1.5 TSI Leon sahibi yetkili servisin bir litreye yakın yağ eksiltmeyi normal saydığını ve litre başına ücret istediğini yazıyor; DonanımHaber'deki 2019 Leon FR 1.5 TSI 150 başlığında cam tavan titremesi ve DSG mekatronik değişimi anılıyor. Tekil kayıtlar; gösterilen yağ eksiltmesi aynı motoru kullanan Karoq ve Passat kayıtlarına dayanır."
     },
     {
       "marka": "Skoda",
@@ -5173,13 +5127,12 @@
           "1.5 TSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Kamiq ve Scala şikâyetleri (4 ayda 4 kez şanzıman uyarısı, 12.000 km'de yağ seviyesi uyarısı, titreşim) 1.0 TSI araçlara ait görünüyor; 1.5 TSI 150 için modele özgü kaynak çıkmadı. 1.0 TSI DSG sorunları Kamiq / Scala 1.0 TSI kaydında."
+      "not": "Kamiq ve Scala şikâyetleri (4 ayda 4 kez şanzıman uyarısı, 12.000 km'de yağ seviyesi uyarısı, titreşim) 1.0 TSI araçlara ait görünüyor; 1.5 TSI 150 için modele özgü kaynak çıkmadı. Gösterilen sorunlar 1.5 TSI evo ailesinin Karoq, Passat ve Tiguan kayıtlarına dayanır."
     },
     {
       "marka": "Volkswagen",
       "model": "Arteon",
-      "yillar": "2017-",
+      "yillar": "2017-2023",
       "motor": "1.5 TSI 150 (ACT, DSG)",
       "kademe": 3,
       "eslesme": {
@@ -5190,8 +5143,7 @@
           "1.5 TSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "DonanımHaber ve Otopark'ta Arteon 1.5 TSI test ve ilk sürüş başlıkları var, arıza anlatısı yok; Şikâyetvar'daki tek Arteon DSG şikâyeti (2018 model, mekatronik değişiminden sonra şanzıman yağı eksik) 1.5 TSI'ya bağlanamıyor. 1.5 TSI yağ eksiltmesi Karoq ve Passat kayıtlarında ele alındı."
+      "not": "DonanımHaber ve Otopark'ta Arteon 1.5 TSI test ve ilk sürüş başlıkları var, arıza anlatısı yok; Şikâyetvar'daki tek Arteon DSG şikâyeti (2018 model, mekatronik değişiminden sonra şanzıman yağı eksik) 1.5 TSI'ya bağlanamıyor. Gösterilen sorunlar aynı motoru kullanan Karoq, Passat ve Tiguan kayıtlarına dayanır."
     },
     {
       "marka": "Audi",
@@ -5208,8 +5160,7 @@
           "35 TFSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da Q2 35 TFSI için 2024 model bir araçta sürekli tahrik hatası, Q3 için alternatör şüphesiyle yolda kalma gibi tekil kayıtlar var; Q2 / Q3'e özgü ikinci bağımsız kaynak çıkmadı. Aynı 1.5 TFSI motorlu A3 (8Y) 35 TFSI kaydında 48 V / alternatör arızası ele alındı."
+      "not": "Şikâyetvar'da Q2 35 TFSI için 2024 model bir araçta sürekli tahrik hatası, Q3 için alternatör şüphesiyle yolda kalma gibi tekil kayıtlar var; Q2 / Q3'e özgü ikinci bağımsız kaynak çıkmadı. Gösterilen yağ eksiltme ve titreşim sorunları aynı motoru kullanan Karoq, Passat ve Tiguan kayıtlarına dayanır."
     },
     {
       "marka": "Volkswagen",
@@ -5225,8 +5176,7 @@
           "eTSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "B9 için bulunan başlıklar plug-in hibrit (E-Hybrid) sürümüne ait; 1.5 eTSI (48V hafif hibrit) için B9'a özgü Şikâyetvar ya da forum kaydı çıkmadı. Aynı 48 V sistem Golf 8, Octavia, Leon, Superb, Formentor ve A3 (8Y) kayıtlarında ele alındı."
+      "not": "B9 için bulunan başlıklar plug-in hibrit (E-Hybrid) sürümüne ait; 1.5 eTSI (48V hafif hibrit) için B9'a özgü Şikâyetvar ya da forum kaydı çıkmadı. Gösterilen sorunlar aynı motor ve 48V sistemini kullanan Superb IV, Octavia A8, Golf 8 kayıtlarına dayanır."
     },
     {
       "marka": "Hyundai",
@@ -5316,7 +5266,7 @@
     {
       "marka": "Volkswagen",
       "model": "Tiguan AD1",
-      "yillar": "2016-",
+      "yillar": "2016-2020",
       "motor": "1.4 TSI 125/150 (ACT)",
       "kademe": 1,
       "eslesme": {
@@ -5327,8 +5277,7 @@
           "1.4 TSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: Tiguan 1.4 TSI için piston kırılması, titreme ve yağ eksiltme anlatılarının çoğu 2010-2013 (5N) modellere ait; AD1 dönemi için Şikâyetvar'da 2024 model bir Tiguan'da 7-8 bin km'de yağ eksiltme uyarısı (motor tipi belirtilmiyor) ve 2021 model bir Tiguan'da mekatronik kartı arızası gibi tekil kayıtlar var. 5N 1.4 TSI zincir gergisi arızası ve AD1 1.5 TSI yağ eksiltmesi ayrı kayıtlarda."
+      "not": "Faz 9'da arandı: Tiguan 1.4 TSI için piston kırılması, titreme ve yağ eksiltme anlatılarının çoğu 2010-2013 (5N) modellere ait; AD1 dönemi için Şikâyetvar'da 2024 model bir Tiguan'da 7-8 bin km'de yağ eksiltme uyarısı (motor tipi belirtilmiyor) ve 2021 model bir Tiguan'da mekatronik kartı arızası gibi tekil kayıtlar var. Gösterilen devirdaim sorunu aynı motoru kullanan Octavia A7 ve Golf 7 kayıtlarına dayanır."
     },
     {
       "marka": "Volkswagen",
@@ -5344,8 +5293,7 @@
           "1.0 TSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: T-Roc yağ eksiltme şikâyetleri 1.5 TSI'ya ve 2022 modellere ait, DSG şikâyetleri genel T-Roc DSG'sine ait; DonanımHaber'de 1.0 TSI zincir ve yağ tüketimi motor genelinde anılıyor. 1.0 TSI 115'e özgü kaynak çıkmadı (yağ eksiltme T-Roc 1.5 TSI kaydında)."
+      "not": "Faz 9'da arandı: T-Roc yağ eksiltme şikâyetleri 1.5 TSI'ya ve 2022 modellere ait, DSG şikâyetleri genel T-Roc DSG'sine ait; DonanımHaber'de 1.0 TSI zincir ve yağ tüketimi motor genelinde anılıyor. 1.0 TSI 115'e özgü kaynak çıkmadı (yağ eksiltme T-Roc 1.5 TSI kaydında). Gösterilen DSG sorunları DQ200 kayıtlarına dayanır."
     },
     {
       "marka": "Volkswagen",
@@ -5417,7 +5365,7 @@
     {
       "marka": "Seat",
       "model": "Leon 5F",
-      "yillar": "2005-2020",
+      "yillar": "2012-2020",
       "motor": "1.4 TSI 122/125/140/150 (EA211, ACT)",
       "kademe": 1,
       "eslesme": {
@@ -5428,8 +5376,7 @@
           "1.4 TSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: 1.4 TSI ACT için zincir ve yağ eksiltme anlatıları çoğunlukla 1.2 TSI'ya ait; Şikâyetvar'da 1.4 TSI Leon sahibinin zincir şüphesi (ustanın doğrulanmamış teşhisi) ve 2020 model bir Leon'da ACT valf hortumu yırtığı tekil vakaları var. DSG kavrama ve mekatronik sorunları Leon 5F 1.2 TSI / 1.6 TDI (DSG DQ200) kaydında."
+      "not": "Faz 9'da arandı: 1.4 TSI ACT için zincir ve yağ eksiltme anlatıları çoğunlukla 1.2 TSI'ya ait; Şikâyetvar'da 1.4 TSI Leon sahibinin zincir şüphesi (ustanın doğrulanmamış teşhisi) ve 2020 model bir Leon'da ACT valf hortumu yırtığı tekil vakaları var. Gösterilen devirdaim sorunu Octavia A7 ve Golf 7 kayıtlarına dayanır; DSG kavrama ve mekatronik sorunları Leon 5F 1.2 TSI / 1.6 TDI (DSG DQ200) kaydında."
     },
     {
       "marka": "Hyundai",
@@ -5551,18 +5498,18 @@
       "marka": "Volkswagen",
       "model": "Touran",
       "yillar": "2010-2022",
-      "motor": "1.6 TDI / 2.0 TDI / 1.4 TSI (DSG)",
+      "motor": "2.0 TDI (DSG)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Touran"
         ],
         "motor": [
-          ""
+          "2.0 TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: Şikâyetvar'da Touran için yalnızca 2 şikâyet var (parça temini, antifriz kaçağı); Touran'a özgü ikinci kaynak çıkmadı. DSG ve TDI yağ tüketimi anlatıları VW grubunun geneline ait."
+      "not": "Faz 9'da arandı: Şikâyetvar'da Touran için yalnızca 2 şikâyet var (parça temini, antifriz kaçağı); Touran'a özgü ikinci kaynak çıkmadı."
     },
     {
       "marka": "Volkswagen",
@@ -5578,8 +5525,7 @@
           "1.0 TSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: Şikâyetvar'da sıfır bir T-Cross 1.0 DSG'de acil işletim ve geri vites uyarıları ile 2025 model 1.0 TSI 116 PS DSG'de servisin şanzıman arızasını kullanıcı hatası saydığı bir şikâyet var (tekil vakalar); 1.0 TSI zincir ve yağ tüketimi DonanımHaber'de motor genelinde anılıyor. T-Cross'a özgü ikinci kaynak çıkmadı."
+      "not": "Faz 9'da arandı: Şikâyetvar'da sıfır bir T-Cross 1.0 DSG'de acil işletim ve geri vites uyarıları ile 2025 model 1.0 TSI 116 PS DSG'de servisin şanzıman arızasını kullanıcı hatası saydığı bir şikâyet var (tekil vakalar); 1.0 TSI zincir ve yağ tüketimi DonanımHaber'de motor genelinde anılıyor. T-Cross'a özgü ikinci kaynak çıkmadı; gösterilen DSG sorunları DQ200 kayıtlarına dayanır."
     },
     {
       "marka": "Volkswagen",
@@ -5700,14 +5646,14 @@
       "marka": "Renault",
       "model": "Laguna 3",
       "yillar": "2007-2015",
-      "motor": "1.5 dCi / 2.0 dCi",
+      "motor": "2.0 dCi",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Laguna"
         ],
         "motor": [
-          ""
+          "2.0 dCi"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -5762,57 +5708,55 @@
           ""
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı (tek sorgu): Türkçe kaynak çıkmadı; sonuçlar tanıtım ve ilan sayfaları ile İspanyolca bir sorun sayfasından oluştu (DQ200'de kalkışta kayma ve sarsıntı, 1.6 TDI'da DPF tıkanma eğilimi). DQ200 sorunları Leon 5F, Rapid ve Polo kayıtlarında."
+      "not": "Faz 9'da arandı (tek sorgu): Türkçe kaynak çıkmadı; sonuçlar tanıtım ve ilan sayfaları ile İspanyolca bir sorun sayfasından oluştu (DQ200'de kalkışta kayma ve sarsıntı, 1.6 TDI'da DPF tıkanma eğilimi). Gösterilen sorunlar aynı motor ve şanzımanı kullanan Leon 5F, Rapid ve Polo kayıtlarına dayanır."
     },
     {
       "marka": "Skoda",
       "model": "Octavia A7",
       "yillar": "2013-2020",
-      "motor": "1.2 TSI / 1.6 MPI / 2.0 TDI",
+      "motor": "1.6 MPI / 2.0 TDI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Octavia (A7"
         ],
         "motor": [
-          "1.2 TSI",
           "1.6 MPI",
           "2.0 TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: Şikâyetvar'da DSG 'aracı P konumunda terk edin' uyarısı, mekatronik değişimi ve mikro şalter anlatılıyor; DonanımHaber'de 1.6 TDI için şakırdama, Ekşi Sözlük'te VAG DSG ve TDI geneli için kronik listesi var. 1.2 TSI, 1.6 MPI ve 2.0 TDI için motor bazında liste çıkmadı (DSG sorunları Octavia 1.6 TDI ve 1.4 TSI kayıtlarında)."
+      "not": "Faz 9'da arandı: Şikâyetvar'da DSG 'aracı P konumunda terk edin' uyarısı, mekatronik değişimi ve mikro şalter anlatılıyor; DonanımHaber'de 1.6 TDI için şakırdama, Ekşi Sözlük'te VAG DSG ve TDI geneli için kronik listesi var. 1.6 MPI ve 2.0 TDI için motor bazında liste çıkmadı."
     },
     {
       "marka": "Skoda",
       "model": "Superb II",
       "yillar": "2008-2015",
-      "motor": "1.6 TDI / 2.0 TDI / 1.8 TSI",
+      "motor": "2.0 TDI",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Superb (II"
+          "Superb (II,"
         ],
         "motor": [
-          ""
+          "2.0 TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da iki sorguyla arandı: Şikâyetvar ya da DonanımHaber kaydı çıkmadı; Araclo'nun Superb II sayfaları (1.6 TDI'da enjektör, 2.0 TDI'da DSG mekatronik valf burcu ve yüksek basınç pompası, 1.8 TSI'da zincir ve DSG) ve yabancı rehberler var; deneyim türünde (şikâyet / forum) kaynak yok, Araclo tek başına yeterli sayılmıyor."
+      "not": "Faz 9'da iki sorguyla arandı: Şikâyetvar ya da DonanımHaber kaydı çıkmadı; Araclo'nun Superb II sayfalarında 2.0 TDI için DSG mekatronik valf burcu ve yüksek basınç pompası var; deneyim türünde (şikâyet / forum) kaynak yok, Araclo tek başına yeterli sayılmıyor."
     },
     {
       "marka": "Mercedes-Benz",
       "model": "B Serisi W246",
       "yillar": "2011-2018",
-      "motor": "B180 / B200 CDI / 1.5 d",
+      "motor": "B200 CDI 2.1 (OM651)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "B Serisi"
         ],
         "motor": [
-          ""
+          "B200"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -5827,32 +5771,16 @@
       "eslesme": {
         "model": [
           "GLC",
-          "GLA ("
+          "GLA (X156"
         ],
         "motor": [
-          ""
+          "220d",
+          "200",
+          "250"
         ]
       },
       "sonuc": "yetersiz-kanit",
       "not": "Faz 9'da iki sorguyla arandı: Şikâyetvar'da 2020 model bir GLC 220d'nin yolda kalması ve şanzıman arızası şikâyeti var (tek vaka); Araclo'nun GLC 200 ve GLA 200 sayfaları 9G-Tronic sarsıntısı ve GLA'da çift kavramalı şanzıman başlığını gösteriyor; yabancı rehberler OM651'de EGR kurumu ve NOx / AdBlue arızalarını sayıyor. Türkçe deneyim kaynağı tek vakada kaldı."
-    },
-    {
-      "marka": "BMW",
-      "model": "X3 / X5",
-      "yillar": "2010-",
-      "motor": "xDrive 25d / 30d / 3.0d",
-      "kademe": 3,
-      "eslesme": {
-        "model": [
-          "X3 (",
-          "X5"
-        ],
-        "motor": [
-          ""
-        ]
-      },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da iki sorguyla arandı: Türkçe şikâyet ya da forum kaydı çıkmadı; Araclo sayfaları ve yabancı rehberler N57 zincir gergisi aşınması, EGR soğutucusu ve DPF'yi anıyor (bazı rehberler zincir sorununu asıl N47'ye bağlıyor); deneyim türünde kaynak yok."
     },
     {
       "marka": "Hyundai",
@@ -5905,18 +5833,17 @@
       "marka": "Mercedes-Benz",
       "model": "A Serisi W177",
       "yillar": "2018-",
-      "motor": "A180 1.3 / A180d 1.5 / A200",
+      "motor": "A180 d 1.5 (OM608, K9K)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "W177"
         ],
         "motor": [
-          ""
+          "A180 d"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: W177'ye özgü kaynak çok az; 7G-DCT vuruntu ve geri vites uyarısı ile PRE-SAFE / ESP uyarıları çoğunlukla W176 dönemine ait (A Serisi / CLA W176 kaydı), MBUX ekranına özgü kronik sorun bulunamadı; 1.3 benzinli ve 1.5 dizel için kaynak çıkmadı."
+      "not": "Faz 9'da arandı: W177'ye özgü kaynak çok az; 7G-DCT vuruntu ve geri vites uyarısı ile PRE-SAFE / ESP uyarıları çoğunlukla W176 dönemine ait (A Serisi / CLA W176 kaydı), MBUX ekranına özgü kronik sorun bulunamadı. Gösterilen enjektör ve EGR sorunları 1.5 dizelin Renault K9K ile ortak olması nedeniyle Renault ve Dacia kaynaklarına dayanır."
     },
     {
       "marka": "Kia",
@@ -6018,6 +5945,652 @@
       },
       "sonuc": "yetersiz-kanit",
       "not": "Faz 9'da arandı: tek bir forum yorumu (2013 tarihli) 1.6 16V'de açı kaydırıcı (VVT) arızasını ve Sagem ateşleme bobinlerini anıyor; ikinci kaynak çıkmadı. 1.5 dCi EDC (şanzıman beyni arızası) ayrı satırda kayıtlandı."
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi F10",
+      "yillar": "2015-2017",
+      "motor": "520d (B47)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "F10"
+        ],
+        "motor": [
+          "B47"
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 E84",
+      "yillar": "2009-2015",
+      "motor": "sDrive18d / xDrive18d / xDrive20d (N47)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "X1 (E84, 2009"
+        ],
+        "motor": [
+          "N47"
+        ]
+      },
+      "not": "Modele özgü şikâyet çıkmadı; Şikâyetvar'daki X1 şikâyetleri şanzıman, direksiyon, fren ve kapı gıcırtısında toplanıyor. Gösterilen N47 zincir sorunu 1, 3 ve 5 Serisi kaynaklarına dayanır; bir yabancı rehber (Carpedia) zincir sorununun Mart 2011 sonrası üretimde belirgin azaldığını yazıyor."
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 E84",
+      "yillar": "2011-2015",
+      "motor": "sDrive20i / xDrive28i (N20)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X1 (E84, 2011"
+        ],
+        "motor": [
+          "N20"
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 F25",
+      "yillar": "2010-2014",
+      "motor": "sDrive18d / xDrive20d (N47)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "X3 (F25, 2010"
+        ],
+        "motor": [
+          "N47"
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 F25 LCI",
+      "yillar": "2014-2017",
+      "motor": "sDrive18d / xDrive20d (B47)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "X3 (F25 LCI"
+        ],
+        "motor": [
+          "B47"
+        ]
+      },
+      "not": "B47 motoruna özgü kronik sorun aranmadı; yalnızca xDrive transfer kutusu ailesi gösteriliyor."
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 F25",
+      "yillar": "2012-2017",
+      "motor": "xDrive28i (N20)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X3 (F25, 2012"
+        ],
+        "motor": [
+          "N20"
+        ]
+      }
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 F25",
+      "yillar": "2011-2017",
+      "motor": "xDrive30d (N57)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X3 (F25, 2011"
+        ],
+        "motor": [
+          "N57"
+        ]
+      },
+      "not": "N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir."
+    },
+    {
+      "marka": "BMW",
+      "model": "X5 E70",
+      "yillar": "2007-2013",
+      "motor": "xDrive30d / xDrive40d (M57 / N57)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "X5 (E70"
+        ],
+        "motor": [
+          "N57"
+        ]
+      },
+      "not": "N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir."
+    },
+    {
+      "marka": "BMW",
+      "model": "X5 F15",
+      "yillar": "2013-2018",
+      "motor": "xDrive25d / 30d / 40d (N57)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "X5 (F15"
+        ],
+        "motor": [
+          "N57"
+        ]
+      },
+      "not": "N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Fabia 5J",
+      "yillar": "2010-2014",
+      "motor": "1.2 TSI 86/105 / 1.6 TDI 90/105",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Fabia (5J"
+        ],
+        "motor": [
+          "1.2 TSI",
+          "1.6 TDI"
+        ]
+      },
+      "not": "Fabia'ya özgü tekrar eden motor sorunu çıkmadı (1.2 krank keçesi gibi tekil iddialar); gösterilen sorunlar aynı motorları kullanan Polo, Golf ve Octavia kaynaklarına dayanır."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Fabia NJ",
+      "yillar": "2015-2021",
+      "motor": "1.2 TSI 90/110 (EA211)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Fabia (NJ"
+        ],
+        "motor": [
+          "1.2 TSI"
+        ]
+      },
+      "not": "Fabia'ya özgü tekrar eden motor sorunu çıkmadı; gösterilen yağ tüketimi anlatısı aynı motoru kullanan Golf 7 kaynaklarına dayanır."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb III",
+      "yillar": "2015-2023",
+      "motor": "2.0 TDI",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Superb (III"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "not": "2.0 TDI için yalnızca tekil şikâyetler çıktı (arıza lambası, start-stop); tekrar eden sorun yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A7",
+      "yillar": "2013-2020",
+      "motor": "1.2 TSI 86/105 (manuel ve DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Octavia (A7"
+        ],
+        "motor": [
+          "1.2 TSI"
+        ]
+      },
+      "not": "1.2 TSI için motor bazında liste çıkmadı; gösterilen sorunlar aynı motor ve DQ200 DSG için Golf 7 ve Octavia 1.4 TSI kaynaklarına dayanır."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A5 FL",
+      "yillar": "2009-2013",
+      "motor": "1.4 TSI 122 / 1.8 TSI 160",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Octavia (A5 FL"
+        ],
+        "motor": [
+          "1.4 TSI",
+          "1.8 TSI"
+        ]
+      },
+      "not": "Octavia A5 FL'ye özgü kaynak aranmadı; gösterilen sorunlar aynı motorları kullanan Golf 6, Polo, Tiguan (EA111) ile A4, Q5 (EA888) kaynaklarına dayanır."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb II",
+      "yillar": "2009-2015",
+      "motor": "1.4 TSI 125 / 1.6 TDI 105 / 1.8 TSI 160",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Superb (II,"
+        ],
+        "motor": [
+          "1.4 TSI",
+          "1.6 TDI",
+          "1.8 TSI"
+        ]
+      },
+      "not": "Superb II'ye özgü deneyim kaynağı çıkmadı (yalnızca Araclo sayfaları ve yabancı rehberler: 1.6 TDI'da enjektör, 1.8 TSI'da zincir ve DSG); gösterilen sorunlar aynı motorları kullanan diğer VAG kayıtlarına dayanır."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat B7",
+      "yillar": "2010-2014",
+      "motor": "1.4 TSI 122 (EA111)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Passat (B7"
+        ],
+        "motor": [
+          "1.4 TSI"
+        ]
+      },
+      "not": "Passat B7 1.4 TSI'ya özgü kaynak çıkmadı; gösterilen zincir sorunu aynı EA111 motorunu kullanan Golf 6, Polo ve Tiguan kaynaklarına dayanır."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat B8",
+      "yillar": "2015-2023",
+      "motor": "1.4 TSI 125/150 (EA211, ACT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Passat (B8"
+        ],
+        "motor": [
+          "1.4 TSI"
+        ]
+      },
+      "not": "Passat B8 1.4 TSI'ya özgü kaynak çıkmadı; gösterilen devirdaim sorunu aynı motoru kullanan Octavia A7 ve Golf 7 kaynaklarına dayanır."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touran 1T3",
+      "yillar": "2010-2015",
+      "motor": "1.4 TSI 140 / 1.6 TDI 105",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Touran (1T3"
+        ],
+        "motor": [
+          "1.4 TSI",
+          "1.6 TDI"
+        ]
+      },
+      "not": "Şikâyetvar'da Touran için yalnızca 2 şikâyet var (parça temini, antifriz kaçağı); Touran'a özgü ikinci kaynak çıkmadı. Gösterilen sorunlar aynı motorları kullanan diğer VAG kayıtlarına dayanır."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touran 5T",
+      "yillar": "2015-2022",
+      "motor": "1.4 TSI 125/150 / 1.6 TDI 115",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Touran (5T"
+        ],
+        "motor": [
+          "1.4 TSI",
+          "1.6 TDI"
+        ]
+      },
+      "not": "Şikâyetvar'da Touran için yalnızca 2 şikâyet var (parça temini, antifriz kaçağı); Touran'a özgü ikinci kaynak çıkmadı. Gösterilen sorunlar aynı motorları kullanan diğer VAG kayıtlarına dayanır."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 6",
+      "yillar": "2008-2013",
+      "motor": "1.2 TSI 105 (EA111, manuel ve DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Golf 6 (2008"
+        ],
+        "motor": [
+          "1.2 TSI"
+        ]
+      },
+      "not": "Golf 6 1.2 TSI'ya özgü kaynak aranmadı; gösterilen sorunlar aynı motorları kullanan Polo 6R ve Octavia A5 (1.2 TSI), Golf 6 1.4 TSI (zincir) ve DQ200 DSG kayıtlarına dayanır."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Caddy SA",
+      "yillar": "2015-2020",
+      "motor": "1.6 TDI 102 (EA288)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Caddy (SA"
+        ],
+        "motor": [
+          "1.6 TDI"
+        ]
+      },
+      "not": "Caddy SA 1.6 TDI'ya özgü kaynak aranmadı; gösterilen EGR / DPF sorunu 1.6 TDI kayıtlarının ortak kaynaklarına dayanır."
+    },
+    {
+      "marka": "Seat",
+      "model": "Ibiza 6F",
+      "yillar": "2017-",
+      "motor": "1.0 TSI 95/115 (DSG DQ200)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Ibiza (6F"
+        ],
+        "motor": [
+          "1.0 TSI"
+        ]
+      },
+      "not": "Ibiza 1.0 TSI için kaynak bulunamadı; gösterilen DSG sorunları DQ200 kayıtlarına dayanır."
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 8V",
+      "yillar": "2012-2020",
+      "motor": "1.2 TFSI 105 (EA211)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A3 (8V"
+        ],
+        "motor": [
+          "1.2 TFSI"
+        ]
+      },
+      "not": "1.2 TFSI için A3'e özgü sonuç çıkmadı; gösterilen yağ tüketimi anlatısı aynı EA211 1.2 TSI motorunu kullanan Golf 7 kaynaklarına dayanır. S tronic şikâyetleri 1.4 TFSI ve 1.6 TDI kayıtlarında."
+    },
+    {
+      "marka": "Audi",
+      "model": "Q3 8U",
+      "yillar": "2011-2014",
+      "motor": "2.0 TFSI 170/211 (EA888 Gen2)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Q3 (8U"
+        ],
+        "motor": [
+          "2.0 TFSI"
+        ]
+      },
+      "not": "Q3'e özgü kaynak bulunamadı; gösterilen sorunlar aynı motorları kullanan A4 / Q5 (2.0 TFSI) ve Golf / Octavia (1.4 TSI) kayıtlarına dayanır."
+    },
+    {
+      "marka": "Audi",
+      "model": "Q3 8U",
+      "yillar": "2014-2018",
+      "motor": "1.4 TFSI 150 (ACT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Q3 (8U"
+        ],
+        "motor": [
+          "1.4 TFSI"
+        ]
+      },
+      "not": "Q3'e özgü kaynak bulunamadı; gösterilen sorunlar aynı motorları kullanan A4 / Q5 (2.0 TFSI) ve Golf / Octavia (1.4 TSI) kayıtlarına dayanır."
+    },
+    {
+      "marka": "Audi",
+      "model": "Q2",
+      "yillar": "2016-",
+      "motor": "1.0 TFSI 116 / 1.4 TFSI 150",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Q2 (GA"
+        ],
+        "motor": [
+          "1.0 TFSI",
+          "1.4 TFSI"
+        ]
+      },
+      "not": "Q2'ye özgü kaynak aranmadı; gösterilen sorunlar aynı motor ve S tronic şanzımanı kullanan Polo, Golf 7 ve Octavia kayıtlarına dayanır."
+    },
+    {
+      "marka": "Audi",
+      "model": "A5 8T",
+      "yillar": "2008-2016",
+      "motor": "1.8 TFSI / 2.0 TFSI (EA888)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A5 (8T"
+        ],
+        "motor": [
+          "TFSI"
+        ]
+      },
+      "not": "A5'e özgü kaynak aranmadı; gösterilen sorunlar aynı EA888 motorunu kullanan A4 B8 ve Q5 kaynaklarına dayanır."
+    },
+    {
+      "marka": "Audi",
+      "model": "A1 (8X)",
+      "yillar": "2010-2018",
+      "motor": "1.6 TDI 90/116",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A1 (8X"
+        ],
+        "motor": [
+          "1.6 TDI"
+        ]
+      },
+      "not": "A1 1.6 TDI'ya özgü kaynak aranmadı; gösterilen sorunlar 1.6 TDI kayıtlarının ortak kaynaklarına dayanır."
+    },
+    {
+      "marka": "Renault",
+      "model": "Laguna 3",
+      "yillar": "2007-2015",
+      "motor": "1.5 dCi 110 (K9K)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Laguna 3"
+        ],
+        "motor": [
+          "1.5 dCi"
+        ]
+      },
+      "not": "Laguna 3'e özgü Türkçe kaynak çıkmadı; Fransızca sürücü yorumlarında 1.5 dCi 110'da biyel kolu kırılganlığı ve enjektör sorunları geçiyor (tekil). Gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Clio, Megane, Duster ve Sandero kaynaklarına dayanır."
+    },
+    {
+      "marka": "Renault",
+      "model": "Scenic 4",
+      "yillar": "2016-2022",
+      "motor": "1.5 dCi 110 (K9K, EDC)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Scenic 4"
+        ],
+        "motor": [
+          "1.5 dCi"
+        ]
+      },
+      "not": "Scenic 4'e özgü kaynak aranmadı; gösterilen sorunlar aynı K9K motoru ve EDC şanzımanı kullanan Megane, Kadjar ve Captur kayıtlarına dayanır."
+    },
+    {
+      "marka": "Renault",
+      "model": "Captur 2",
+      "yillar": "2020-",
+      "motor": "1.3 TCe 130/155 (EDC)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Captur 2"
+        ],
+        "motor": [
+          "1.3 TCe"
+        ]
+      },
+      "not": "Captur 2'ye özgü kaynak aranmadı; gösterilen EDC sorunları Kadjar, Megane 4 ve Duster kayıtlarına dayanır."
+    },
+    {
+      "marka": "Renault",
+      "model": "Captur 2",
+      "yillar": "2020-",
+      "motor": "1.0 TCe 100 (H4Dt)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Captur 2"
+        ],
+        "motor": [
+          "1.0 TCe"
+        ]
+      },
+      "not": "Captur 2'ye özgü kaynak aranmadı; gösterilen turbo wastegate sorunu aynı H4Dt motorunu kullanan Clio 5, Sandero ve Duster kayıtlarına dayanır."
+    },
+    {
+      "marka": "Renault",
+      "model": "Arkana",
+      "yillar": "2022-",
+      "motor": "1.3 TCe 140 (EDC)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Arkana"
+        ],
+        "motor": [
+          "1.3 TCe"
+        ]
+      },
+      "not": "Arkana'ya özgü kaynak aranmadı; gösterilen EDC sorunları Kadjar, Megane 4 ve Duster kayıtlarına dayanır."
+    },
+    {
+      "marka": "Renault",
+      "model": "Kadjar",
+      "yillar": "2015-2018",
+      "motor": "1.2 TCe 130 (H5Ft, manuel ve EDC)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Kadjar (2015-2018"
+        ],
+        "motor": [
+          "1.2 TCe"
+        ]
+      },
+      "not": "Kadjar 1.2 TCe'ye özgü kaynak aranmadı; gösterilen yağ tüketimi ve zincir sorunları aynı H5Ft motorunu kullanan Clio 4, Captur, Juke ve Qashqai kayıtlarına, EDC sorunları Kadjar 1.3 TCe ve 1.5 dCi kayıtlarına dayanır."
+    },
+    {
+      "marka": "Nissan",
+      "model": "Qashqai J10",
+      "yillar": "2007-2013",
+      "motor": "1.5 dCi 106 (K9K)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Qashqai (J10"
+        ],
+        "motor": [
+          "1.5 dCi"
+        ]
+      },
+      "not": "J10 dönemine (2007-2013) özgü kaynak bulunamadı; Qashqai 1.5 dCi turbo hortumu şikâyetleri 2012 model ve sonrasında yoğunlaşıyor, J11 kaydında ele alındı. Gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Clio, Megane, Duster ve Sandero kaynaklarına dayanır."
+    },
+    {
+      "marka": "Nissan",
+      "model": "Note E12",
+      "yillar": "2013-2017",
+      "motor": "1.5 dCi 90 (K9K)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Note (E12"
+        ],
+        "motor": [
+          "1.5 dCi"
+        ]
+      },
+      "not": "Note 1.5 dCi için ilgili şikâyet bulunamadı (aramada yalnızca X-Trail 1.6 dCi öne çıktı); gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Clio, Megane, Duster ve Sandero kaynaklarına dayanır."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "A Serisi W177",
+      "yillar": "2018-",
+      "motor": "A180 1.3 / A200",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "W177"
+        ],
+        "motor": [
+          "A180 1.3",
+          "A200"
+        ]
+      },
+      "not": "1.3 benzinli (M282) ve A200 için kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "B Serisi W246",
+      "yillar": "2011-2018",
+      "motor": "B180 CDI 1.5 (OM607, 7G-DCT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "B Serisi"
+        ],
+        "motor": [
+          "B180 CDI"
+        ]
+      },
+      "not": "B Serisi'ne özgü Türkçe şikâyet ya da forum kaydı çıkmadı; gösterilen enjektör ve EGR sorunları 1.5 dizelin Renault K9K ile ortak olması nedeniyle Renault ve Dacia kaynaklarına dayanır. 7G-DCT bu kayıtta yer almıyor."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLA",
+      "yillar": "2013-2019",
+      "motor": "GLA 180 d 1.5 (OM607)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "GLA (X156"
+        ],
+        "motor": [
+          "GLA 180 d"
+        ]
+      },
+      "not": "GLA'ya özgü ayrı kaynak bulunamadı; DonanımHaber'deki Pre-Safe başlığı GLA'yı da anıyor. Gösterilen enjektör ve EGR sorunları 1.5 dizelin Renault K9K ile ortak olması nedeniyle Renault ve Dacia kaynaklarına dayanır."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Citan",
+      "yillar": "2012-2021",
+      "motor": "108 / 109 / 111 CDI 1.5 (OM607, K9K)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Citan"
+        ],
+        "motor": [
+          "CDI"
+        ]
+      },
+      "not": "Citan'a özgü kaynak aranmadı; gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Renault Kangoo, Clio ve Dacia kayıtlarına dayanır."
     }
   ]
 }

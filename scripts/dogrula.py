@@ -19,6 +19,11 @@ VARSAYILAN_DOSYA = KOK / "data" / "araclar.json"
 KAYIT_DOSYASI = KOK / "data" / "kaynaklar.json"
 
 ARAC_ALANLARI = ("marka", "model", "motor", "uretim_yillari", "kronik_sorunlar")
+ISTEGE_BAGLI_ARAC_ALANLARI = ("aileler",)
+AILE_ALANLARI = ("id", "ad", "tur", "aciklama", "kronik_sorunlar")
+AILE_TURLERI = ("motor", "sanziman", "sistem")
+ACIKLAMA_UZUNLUK_UST = 500
+KIMLIK_DESENI = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
 SORUN_ALANLARI = (
     "sorun_adi",
     "etkilenen_parca",
@@ -168,8 +173,10 @@ def kaynaklari_dogrula(kaynaklar, konum, kayit, hatalar):
     return len(alanlar)
 
 
-def sorunu_dogrula(sorun, konum, kayit, hatalar, sayilar, arac_yillari=None):
-    if not alanlari_kontrol_et(sorun, SORUN_ALANLARI + ISTEGE_BAGLI_SORUN_ALANLARI, konum, hatalar, istege_bagli=ISTEGE_BAGLI_SORUN_ALANLARI):
+def sorunu_dogrula(sorun, konum, kayit, hatalar, sayilar, arac_yillari=None, ek_alanlar=(), zorunlu_ek_alanlar=()):
+    """ek_alanlar: bu bağlamda izin verilen ek alanlar (aile sorunlarında 'id' zorunlu, araç sorunlarında 'aile_sorunu' isteğe bağlı)."""
+    isteyerek = ISTEGE_BAGLI_SORUN_ALANLARI + tuple(a for a in ek_alanlar if a not in zorunlu_ek_alanlar)
+    if not alanlari_kontrol_et(sorun, SORUN_ALANLARI + ISTEGE_BAGLI_SORUN_ALANLARI + ek_alanlar, konum, hatalar, istege_bagli=isteyerek):
         return
     for alan in SORUN_ALANLARI[:-1]:
         metin_mi(sorun[alan], f"{konum}.{alan}", hatalar)
@@ -197,19 +204,67 @@ def sorunu_dogrula(sorun, konum, kayit, hatalar, sayilar, arac_yillari=None):
         detayi_dogrula(sorun["detay"], f"{konum}.detay", hatalar)
 
 
+def aileleri_dogrula(aileler, kayit, hatalar, sayilar):
+    """Aile listesini denetler; geçerli 'aile_id/sorun_id' bağlantılarının kümesini döndürür."""
+    if not isinstance(aileler, list):
+        hatalar.append("aileler: dizi olmalı")
+        return set(), set()
+    aile_idleri = set()
+    sorun_baglari = set()
+    for i, aile in enumerate(aileler):
+        konum = f"aileler[{i}]"
+        if not alanlari_kontrol_et(aile, AILE_ALANLARI, konum, hatalar):
+            continue
+        kimlik = aile["id"]
+        if not isinstance(kimlik, str) or not KIMLIK_DESENI.match(kimlik):
+            hatalar.append(f"{konum}.id: küçük harf, rakam ve tire içeren bir kimlik olmalı")
+        elif kimlik in aile_idleri:
+            hatalar.append(f"{konum}.id: '{kimlik}' birden fazla kez tanımlı")
+        else:
+            aile_idleri.add(kimlik)
+        metin_mi(aile["ad"], f"{konum}.ad", hatalar)
+        if aile["tur"] not in AILE_TURLERI:
+            hatalar.append(f"{konum}.tur: '{aile['tur']}' geçersiz, beklenen: {'/'.join(AILE_TURLERI)}")
+        if metin_mi(aile["aciklama"], f"{konum}.aciklama", hatalar) and len(aile["aciklama"]) > ACIKLAMA_UZUNLUK_UST:
+            hatalar.append(f"{konum}.aciklama: en fazla {ACIKLAMA_UZUNLUK_UST} karakter olmalı")
+        sorunlar = aile["kronik_sorunlar"]
+        if not isinstance(sorunlar, list) or not sorunlar:
+            hatalar.append(f"{konum}.kronik_sorunlar: en az bir sorun içeren dizi olmalı")
+            continue
+        sorun_idleri = set()
+        for j, sorun in enumerate(sorunlar):
+            yer = f"{konum}.kronik_sorunlar[{j}]"
+            sorunu_dogrula(sorun, yer, kayit, hatalar, sayilar, None, ek_alanlar=("id",), zorunlu_ek_alanlar=("id",))
+            sid = sorun.get("id") if isinstance(sorun, dict) else None
+            if sid is None:
+                continue
+            if not isinstance(sid, str) or not KIMLIK_DESENI.match(sid):
+                hatalar.append(f"{yer}.id: küçük harf, rakam ve tire içeren bir kimlik olmalı")
+            elif sid in sorun_idleri:
+                hatalar.append(f"{yer}.id: '{sid}' bu ailede birden fazla kez tanımlı")
+            else:
+                sorun_idleri.add(sid)
+                if isinstance(kimlik, str):
+                    sorun_baglari.add(f"{kimlik}/{sid}")
+    return aile_idleri, sorun_baglari
+
+
 def dogrula(veri, kayit):
     hatalar = []
     sayilar = []
-    if not alanlari_kontrol_et(veri, ("arac_listesi",), "kök", hatalar):
+    if not alanlari_kontrol_et(veri, ("arac_listesi", "aileler"), "kök", hatalar, istege_bagli=("aileler",)):
         return hatalar, sayilar
     araclar = veri["arac_listesi"]
     if not isinstance(araclar, list):
         return hatalar + ["arac_listesi: dizi olmalı"], sayilar
 
+    aile_idleri, sorun_baglari = aileleri_dogrula(veri.get("aileler", []), kayit, hatalar, sayilar)
+    kullanilan_aileler = set()
+
     gorulenler = set()
     for i, arac in enumerate(araclar):
         konum = f"arac_listesi[{i}]"
-        if not alanlari_kontrol_et(arac, ARAC_ALANLARI, konum, hatalar):
+        if not alanlari_kontrol_et(arac, ARAC_ALANLARI + ISTEGE_BAGLI_ARAC_ALANLARI, konum, hatalar, istege_bagli=ISTEGE_BAGLI_ARAC_ALANLARI):
             continue
         for alan in ("marka", "model", "motor"):
             metin_mi(arac[alan], f"{konum}.{alan}", hatalar)
@@ -220,12 +275,34 @@ def dogrula(veri, kayit):
             hatalar.append(f"{konum}: aynı marka/model/motor birden fazla kez tanımlı")
         gorulenler.add(anahtar)
 
+        aile_listesi = arac.get("aileler", [])
+        if "aileler" in arac and (not isinstance(aile_listesi, list) or not aile_listesi):
+            hatalar.append(f"{konum}.aileler: en az bir aile kimliği içeren dizi olmalı")
+            aile_listesi = []
+        for kimlik in aile_listesi:
+            if kimlik not in aile_idleri:
+                hatalar.append(f"{konum}.aileler: '{kimlik}' aileler içinde tanımlı değil")
+            elif aile_listesi.count(kimlik) > 1:
+                hatalar.append(f"{konum}.aileler: '{kimlik}' birden fazla kez yazılmış")
+            kullanilan_aileler.add(kimlik)
+
         sorunlar = arac["kronik_sorunlar"]
-        if not isinstance(sorunlar, list) or not sorunlar:
-            hatalar.append(f"{konum}.kronik_sorunlar: en az bir sorun içeren dizi olmalı")
+        if not isinstance(sorunlar, list) or (not sorunlar and not aile_listesi):
+            hatalar.append(f"{konum}.kronik_sorunlar: en az bir sorun ya da en az bir aile gerekir")
             continue
         for j, sorun in enumerate(sorunlar):
-            sorunu_dogrula(sorun, f"{konum}.kronik_sorunlar[{j}]", kayit, hatalar, sayilar, arac_yillari)
+            yer = f"{konum}.kronik_sorunlar[{j}]"
+            sorunu_dogrula(sorun, yer, kayit, hatalar, sayilar, arac_yillari, ek_alanlar=("aile_sorunu",))
+            bag = sorun.get("aile_sorunu") if isinstance(sorun, dict) else None
+            if bag is None:
+                continue
+            if bag not in sorun_baglari:
+                hatalar.append(f"{yer}.aile_sorunu: '{bag}' tanımlı bir aile sorunu değil")
+            elif bag.split("/")[0] not in aile_listesi:
+                hatalar.append(f"{yer}.aile_sorunu: '{bag.split('/')[0]}' bu aracın aileler listesinde yok")
+
+    for kimlik in sorted(aile_idleri - kullanilan_aileler):
+        hatalar.append(f"aileler: '{kimlik}' hiçbir araç kaydına bağlı değil")
     return hatalar, sayilar
 
 
@@ -246,13 +323,17 @@ def main():
         return 1
 
     araclar = veri["arac_listesi"]
-    kullanilan = {alan_adi(u) for a in araclar for s in a["kronik_sorunlar"] for u in s["kaynaklar"]}
+    aileler = veri.get("aileler", [])
+    sorunlar = [s for a in araclar for s in a["kronik_sorunlar"]] + [s for f in aileler for s in f["kronik_sorunlar"]]
+    kullanilan = {alan_adi(u) for s in sorunlar for u in s["kaynaklar"]}
     sinirli = sum(1 for n in sayilar if n == EN_AZ_ALAN_ADI)
-    kirilimli = sum(1 for a in araclar for s in a["kronik_sorunlar"] if "donem_kirilimi" in s)
-    detayli = sum(1 for a in araclar for s in a["kronik_sorunlar"] if "detay" in s)
+    kirilimli = sum(1 for s in sorunlar if "donem_kirilimi" in s)
+    detayli = sum(1 for s in sorunlar if "detay" in s)
+    kendi = sum(len(a["kronik_sorunlar"]) for a in araclar)
+    ortak = sum(len(f["kronik_sorunlar"]) for f in aileler)
     print(
-        f"Geçerli: {len(araclar)} araç, {len(sayilar)} kronik sorun, "
-        f"{len(kullanilan)} farklı kaynak sitesi."
+        f"Geçerli: {len(araclar)} araç, {kendi} kayda özgü kronik sorun, "
+        f"{len(aileler)} aile ({ortak} ortak sorun), {len(kullanilan)} farklı kaynak sitesi."
     )
     print(f"{sinirli} sorun yalnızca {EN_AZ_ALAN_ADI} siteyle destekleniyor (sınırlı doğrulama).")
     print(f"{kirilimli} sorunda üretim yılına göre dönem kırılımı var.")

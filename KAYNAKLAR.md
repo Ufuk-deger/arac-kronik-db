@@ -4,7 +4,7 @@ Bu dosya `scripts/kaynaklar_md_uret.py` ile `data/kaynaklar.json` ve `data/aracl
 
 ## Kural
 
-`data/araclar.json` içindeki her kronik sorun, `kaynaklar` alanında **en az iki farklı sitenin** sayfasıyla desteklenir. Kaynaklardan en az biri deneyime ya da resmî belgeye dayanmalıdır (forum, şikâyet, anket, dava haberi, haber veya resmî belge). Yalnızca blog, parça satıcısı ya da derleme sitesi olan sorunlar veritabanına alınmaz. `python3 scripts/dogrula.py` bu kuralı denetler.
+`data/araclar.json` içindeki her kronik sorun (araç kayıtlarındakiler ve motor/şanzıman ailelerinin ortak sorunları), `kaynaklar` alanında **en az iki farklı sitenin** sayfasıyla desteklenir. Kaynaklardan en az biri deneyime ya da resmî belgeye dayanmalıdır (forum, şikâyet, anket, dava haberi, haber veya resmî belge). Yalnızca blog, parça satıcısı ya da derleme sitesi olan sorunlar veritabanına alınmaz. `python3 scripts/dogrula.py` bu kuralı denetler.
 
 ## Nasıl okunmalı
 
@@ -42,22 +42,23 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 79 farklı site, 258 sorun için kullanıldı.
+Toplam 80 farklı site, 258 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 202 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
-| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 180 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
-| [Araclo](https://www.araclo.com/) | TR | düşük | 97 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
-| [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 88 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
-| [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 62 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. |
-| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 55 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
+| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 223 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
+| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 198 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
+| [Araclo](https://www.araclo.com/) | TR | düşük | 112 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
+| [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 99 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
+| [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 70 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. |
+| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 62 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
+| [arabam.com Blog](https://www.arabam.com/blog/) | TR | düşük | 6 | İlan sitesinin blog yazıları. Genel bilgi verir; bazı yazılar motorun 'büyük bir kronik sorunu yoktur' gibi genellemeler içeriyor. |
 | [Autopartia](https://autopartia.com/) | TR | düşük | 5 | Yedek parça satıcısı; motor bazlı blog ve 'uzman' sayfaları. Ticari site, belirli bir OEM parçayı sürekli öneriyor; tek başına yeterli sayılmaz. |
 | [Carsece](https://www.carsece.com/) | TR | düşük | 5 | Araç rehberi ve bakım blogu. Maliyet tahminlerinin kaynağını göstermiyor; tek başına yeterli sayılmaz. |
-| [arabam.com Blog](https://www.arabam.com/blog/) | TR | düşük | 5 | İlan sitesinin blog yazıları. Genel bilgi verir; bazı yazılar motorun 'büyük bir kronik sorunu yoktur' gibi genellemeler içeriyor. |
 | [Drivisual](https://www.drivisual.tv/) | TR | düşük | 4 | Motor bazlı satın alma ve kronik sorun rehberleri (Türkçe ve İngilizce). Tek bir blog; bağımsız kaynakla karşılaştırılmalı. |
+| [Sözcü](https://www.sozcu.com.tr/) | TR | orta | 1 | Ulusal gazete. Burada yalnızca yabancı toplu dava ve geri çağırma haberlerinin Türkçe aktarımı için kullanıldı. |
 | [SıfırAraçAl](https://www.sifiraracal.com/) | TR | düşük | 1 | Türkiye'de yeni araç haberleri ve fiyat listeleri; model yenilemeleri ve motor/batarya verileri için. |
 
 ## Yurtdışı kaynaklar
@@ -66,10 +67,10 @@ Toplam 79 farklı site, 258 sorun için kullanıldı.
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [Volkswagen Yeni Zelanda](https://www.volkswagen.co.nz/) | NZ | yüksek | 9 | Üretici kampanya sayfası (DQ200 mekatronik ünitesi, kampanya 35E5). Yeni Zelanda pazarı için yayımlanmış; Türkiye'de geçerliliği ayrıca doğrulanmalı. |
+| [Volkswagen Yeni Zelanda](https://www.volkswagen.co.nz/) | NZ | yüksek | 10 | Üretici kampanya sayfası (DQ200 mekatronik ünitesi, kampanya 35E5). Yeni Zelanda pazarı için yayımlanmış; Türkiye'de geçerliliği ayrıca doğrulanmalı. |
 | [NHTSA (ABD)](https://www.nhtsa.gov/) | US | yüksek | 8 | Resmî geri çağırma, servis bülteni (TSB) ve şikâyet kayıtları. |
-| [ClassAction.org](https://www.classaction.org/) | US | orta | 2 | Toplu dava haberleri. Dava iddiaları kanıtlanmış kusur anlamına gelmez. |
-| [OCU (İspanya)](https://www.ocu.org/) | ES | orta | 2 | İspanyol tüketici örgütünün Renault motoru için toplu başvuru sayfası. |
+| [ClassAction.org](https://www.classaction.org/) | US | orta | 3 | Toplu dava haberleri. Dava iddiaları kanıtlanmış kusur anlamına gelmez. |
+| [OCU (İspanya)](https://www.ocu.org/) | ES | orta | 3 | İspanyol tüketici örgütünün Renault motoru için toplu başvuru sayfası. |
 | [Ammons Law Firm](https://www.ammonslaw.com/) | US | düşük | 1 | Hukuk bürosu sayfası. Honda arka lastik aşınması için servis bülteni özetini içeriyor. |
 | [Que Choisir](https://www.quechoisir.org/) | FR | orta | 1 | Fransız tüketici örgütü (UFC-Que Choisir); sahip bildirimlerine dayanan araştırmalar yayımlar. |
 | [Top Class Actions](https://topclassactions.com/) | US | orta | 1 | Toplu dava ve uzlaşma haberleri. |
@@ -79,41 +80,41 @@ Toplam 79 farklı site, 258 sorun için kullanıldı.
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [Honest John](https://www.honestjohn.co.uk/) | UK | orta | 12 | Forum ve editör yanıtları ('Ask HJ'). Forum yazıları çoğunlukla 10 yıldan eski olabiliyor. |
+| [Honest John](https://www.honestjohn.co.uk/) | UK | orta | 14 | Forum ve editör yanıtları ('Ask HJ'). Forum yazıları çoğunlukla 10 yıldan eski olabiliyor. |
 | [French Car Forum](https://www.frenchcarforum.co.uk/) | UK | orta | 11 | Peugeot, Citroën ve Renault forumu. |
+| [VWVortex](https://www.vwvortex.com/) | US | orta | 10 | Volkswagen forumu. |
+| [BRISKODA](https://www.briskoda.net/forums/) | UK | orta | 9 | Škoda sahipleri forumu. |
 | [Fiat Forum](https://www.fiatforum.com/) | UK | orta | 8 | Fiat sahipleri forumu (Dualogic, Multijet, Tipo). |
 | [Ford Owners Club](https://www.fordownersclub.com/) | UK | orta | 8 | Ford sahipleri forumu (Focus, Fiesta, EcoBoost). |
+| [Bimmerpost](https://f30.bimmerpost.com/) | US | orta | 7 | BMW F30 ve diğer kasa forumları. |
+| [AudiWorld](https://www.audiworld.com/) | US | orta | 6 | Audi forumu ve rehber yazıları. |
 | [Vauxhall Owners Network](https://www.vauxhallownersnetwork.co.uk/) | UK | orta | 6 | Vauxhall/Opel sahipleri forumu. |
-| [BRISKODA](https://www.briskoda.net/forums/) | UK | orta | 5 | Škoda sahipleri forumu. |
-| [VWVortex](https://www.vwvortex.com/) | US | orta | 5 | Volkswagen forumu. |
-| [AudiWorld](https://www.audiworld.com/) | US | orta | 4 | Audi forumu ve rehber yazıları. |
-| [Bimmerpost](https://f30.bimmerpost.com/) | US | orta | 4 | BMW F30 ve diğer kasa forumları. |
 | [MBWorld](https://mbworld.org/) | US | orta | 4 | Mercedes-Benz forumu. |
+| [Nissan QashQai Forums](https://www.qashqaiforums.co.uk/) | UK | orta | 4 | Nissan Qashqai sahipleri forumu. |
 | [SpeakEV](https://www.speakev.com/) | UK | orta | 4 | İngiltere merkezli elektrikli araç sahibi forumu; Zoe, Peugeot e-208, BYD gibi modellerde 12V akü, şarj ve tahrik arızası konuları. |
 | [Astra Owners Network](https://www.astraownersnetwork.co.uk/) | UK | orta | 3 | Opel/Vauxhall Astra forumu. |
 | [Berlingo Forum](https://www.berlingoforum.com/) | UK | orta | 3 | Citroën Berlingo ve PSA dizel (HDi) forumu. |
 | [CruzeTalk](https://www.cruzetalk.com/) | US | orta | 3 | Chevrolet Cruze forumu. Konular çoğunlukla ABD'deki 1.4T ve 1.8 motorlar için. |
-| [Nissan QashQai Forums](https://www.qashqaiforums.co.uk/) | UK | orta | 3 | Nissan Qashqai sahipleri forumu. |
+| [Audizine](https://www.audizine.com/) | US | orta | 2 | Audi forumu. |
 | [BenzWorld](https://www.benzworld.org/) | US | orta | 2 | Mercedes-Benz forumu. |
 | [CivicX](https://www.civicx.com/) | US | orta | 2 | Honda Civic (10. nesil) forumu. |
+| [E90Post](https://www.e90post.com/) | US | orta | 2 | BMW 3 Serisi E90/E92 forumu. |
 | [German Car Forum](https://www.germancarforum.com/) | Global | orta | 2 | Alman markaları forumu. |
 | [MB Club UK](https://forums.mbclub.co.uk/) | UK | orta | 2 | Mercedes-Benz sahipleri forumu. |
+| [Planète Renault](https://www.planeterenault.com/forum/) | FR | orta | 2 | Fransızca Renault forumu. K9K yatak sorunu için moderatör yazısı bu sitede. |
 | [8thCivic](https://www.8thcivic.com/) | US | orta | 1 | Honda Civic (8. nesil, FD) forumu. |
 | [AudiSRS](https://audisrs.com/) | UK | orta | 1 | Audi ve VAG forumu. |
-| [Audizine](https://www.audizine.com/) | US | orta | 1 | Audi forumu. |
-| [E90Post](https://www.e90post.com/) | US | orta | 1 | BMW 3 Serisi E90/E92 forumu. |
 | [ElectricVehicleForums](https://electricvehicleforums.com/) | US | düşük | 1 | Civic Hybrid forumu; Honda 08-001 bülteni aktarımı içeriyor. |
 | [Forum Peugeot](https://www.forum-peugeot.com/) | FR | orta | 1 | Fransızca Peugeot forumu. |
 | [PicoAuto Forum](https://www.picoauto.com/support/) | UK | düşük | 1 | Tanı cihazı üreticisinin destek forumu. |
-| [Planète Renault](https://www.planeterenault.com/forum/) | FR | orta | 1 | Fransızca Renault forumu. K9K yatak sorunu için moderatör yazısı bu sitede. |
 | [Toyota Owners Club](https://toyotaownersclub.com/) | UK | orta | 1 | Toyota sahipleri forumu (Auris/Corolla D-4D). |
 
 ### Şikâyet platformları, sahip anketleri ve derlemeler
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [CarComplaints.com](https://www.carcomplaints.com/) | US | yüksek | 17 | NHTSA şikâyetlerini ve dava haberlerini model yılı bazında derler. Yalnızca ABD pazarındaki araçları kapsar. |
-| [Fiches-Auto.fr](https://www.fiches-auto.fr/) | FR | orta | 7 | Sürücü yorumlarından derlenen arıza ve güvenilirlik sayfaları. |
+| [CarComplaints.com](https://www.carcomplaints.com/) | US | yüksek | 20 | NHTSA şikâyetlerini ve dava haberlerini model yılı bazında derler. Yalnızca ABD pazarındaki araçları kapsar. |
+| [Fiches-Auto.fr](https://www.fiches-auto.fr/) | FR | orta | 12 | Sürücü yorumlarından derlenen arıza ve güvenilirlik sayfaları. |
 | [AustralianCar.Reviews](https://australiancar.reviews/) | AU | orta | 3 | Model bazında geri çağırma ve arıza listeleri. |
 | [CarChecker.pro](https://www.carchecker.pro/) | Global | düşük | 2 | Genel amaçlı model raporları; iddialar zayıf kaynaklıdır. |
 | [Consumer Reports](https://www.consumerreports.org/) | US | yüksek | 2 | Sahip anketlerine dayalı güvenilirlik verisi ve kampanya haberleri. |
@@ -124,17 +125,17 @@ Toplam 79 farklı site, 258 sorun için kullanıldı.
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
+| [L'argus](https://www.largus.fr/) | FR | yüksek | 7 | Fransız otomotiv yayını. Güvenilirlik yazıları, tekrarlayan arıza listeleri ve geri çağırma haberleri. |
 | [Parkers](https://www.parkers.co.uk/) | UK | orta | 7 | İkinci el alım rehberleri ve haberler. |
 | [InsideEVs](https://insideevs.com/) | US | orta | 5 | Elektrikli araç haberleri; geri çağırma ve yaygın arıza özetleri. |
-| [L'argus](https://www.largus.fr/) | FR | yüksek | 4 | Fransız otomotiv yayını. Güvenilirlik yazıları, tekrarlayan arıza listeleri ve geri çağırma haberleri. |
 | [electrive.com](https://www.electrive.com/) | DE | orta | 4 | Elektrikli araç ve şarj haberleri; Avrupa geri çağırmaları ve KBA kayıtlarına atıflar. |
 | [CompleteCar.ie](https://www.completecar.ie/) | IE | düşük | 3 | İrlanda merkezli araç sitesi; okur sorularına yanıt veriyor. |
+| [The Connexion](https://www.connexionfrance.com/) | FR | orta | 3 | Fransa haberleri (İngilizce). UFC-Que Choisir'in 1.2 TCe yağ tüketimi uyarısını aktarıyor. |
 | [auto motor und sport](https://www.auto-motor-und-sport.de/) | DE | yüksek | 3 | Alman otomotiv dergisi; geri çağırma haberlerinde KBA (Federal Motorlu Taşıtlar Dairesi) bildirimlerine dayanır. |
 | [AUTO BILD](https://www.autobild.de/) | DE | yüksek | 2 | Alman otomotiv yayını. Şikâyet sayıları ve üretici açıklamaları. |
+| [CarGuide.PH](https://www.carguide.ph/) | PH | orta | 2 | Filipinler otomotiv haberleri. BMW geri çağırma duyurusu. |
+| [Caradisiac](https://www.caradisiac.com/) | FR | orta | 2 | Fransız otomotiv yayını. Güvenilirlik dosyaları ve forum bölümü var. |
 | [Malay Mail](https://www.malaymail.com/) | MY | orta | 2 | Malezya haber sitesi; Passat 2.0 TDI yağ pompası geri çağırma haberi. |
-| [The Connexion](https://www.connexionfrance.com/) | FR | orta | 2 | Fransa haberleri (İngilizce). UFC-Que Choisir'in 1.2 TCe yağ tüketimi uyarısını aktarıyor. |
-| [CarGuide.PH](https://www.carguide.ph/) | PH | orta | 1 | Filipinler otomotiv haberleri. BMW geri çağırma duyurusu. |
-| [Caradisiac](https://www.caradisiac.com/) | FR | orta | 1 | Fransız otomotiv yayını. Güvenilirlik dosyaları ve forum bölümü var. |
 | [Gebrauchtwagenberater](https://gebrauchtwagenberater.de/) | DE | düşük | 1 | Almanca ikinci el rehberi (Astra K). Resmî bir Opel belgesi değil. |
 | [Stellantis Medya](https://www.media.stellantis.com/) | Global | yüksek | 1 | Üretici basın bültenleri (Türkiye bölümü dahil); batarya, güç ve menzil gibi teknik veriler için güvenilir, arıza kanıtı değildir. |
 | [Testcoches](https://testcoches.es/) | ES | orta | 1 | İspanyol otomobil haber sitesi; model bazlı arıza ve geri çağırma haberleri. |
@@ -147,10 +148,10 @@ Toplam 79 farklı site, 258 sorun için kullanıldı.
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [FCP Euro](https://www.fcpeuro.com/blog) | US | orta | 3 | Parça satıcısının adım adım onarım rehberleri. Ticari çıkarı olan bir kaynak. |
-| [AutoPartsPro](https://www.autopartspro.co.uk/) | UK | düşük | 1 | Parça satıcısının genel arıza yazıları (SEO ağırlıklı); tek başına yeterli sayılmaz. |
-| [BimmerWorld](https://www.bimmerworld.com/) | US | düşük | 1 | Parça satıcısı. Ürün sayfalarındaki arıza anlatımları ticari amaçlı. |
-| [Foreign Automotive](https://foreignautomotive.ca/) | CA | düşük | 1 | Kanada'da BMW atölyesi; blog yazıları pazarlama dilindedir. |
+| [FCP Euro](https://www.fcpeuro.com/blog) | US | orta | 6 | Parça satıcısının adım adım onarım rehberleri. Ticari çıkarı olan bir kaynak. |
+| [AutoPartsPro](https://www.autopartspro.co.uk/) | UK | düşük | 3 | Parça satıcısının genel arıza yazıları (SEO ağırlıklı); tek başına yeterli sayılmaz. |
+| [BimmerWorld](https://www.bimmerworld.com/) | US | düşük | 2 | Parça satıcısı. Ürün sayfalarındaki arıza anlatımları ticari amaçlı. |
+| [Foreign Automotive](https://foreignautomotive.ca/) | CA | düşük | 2 | Kanada'da BMW atölyesi; blog yazıları pazarlama dilindedir. |
 | [GoParts](https://www.go-parts.com/) | US | düşük | 1 | Parça satıcısı; OBD kodu ve parça rehberleri ticari amaçlıdır. |
 | [HELLA TechWorld](https://www.hella.com/techworld/) | Global | orta | 1 | Parça üreticisinin atölye teknik bültenleri. Üretici (Opel/BMW) belgesi değil. |
 | [Mercedes Medic](https://www.mercedesmedic.com/) | US | düşük | 1 | Mercedes şanzıman onarım atölyesi blogu. |

@@ -47,10 +47,11 @@ EK_KAYNAKLAR = [
 
 def kullanim_say(veri):
     sayac = Counter()
-    for arac in veri["arac_listesi"]:
-        for sorun in arac["kronik_sorunlar"]:
-            for site in {alan_adi(url) for url in sorun["kaynaklar"]}:
-                sayac[site] += 1
+    sorunlar = [s for a in veri["arac_listesi"] for s in a["kronik_sorunlar"]]
+    sorunlar += [s for f in veri.get("aileler", []) for s in f["kronik_sorunlar"]]
+    for sorun in sorunlar:
+        for site in {alan_adi(url) for url in sorun["kaynaklar"]}:
+            sayac[site] += 1
     return sayac
 
 
@@ -80,7 +81,7 @@ def uret():
         "",
         "## Kural",
         "",
-        "`data/araclar.json` içindeki her kronik sorun, `kaynaklar` alanında **en az iki farklı sitenin** sayfasıyla desteklenir. "
+        "`data/araclar.json` içindeki her kronik sorun (araç kayıtlarındakiler ve motor/şanzıman ailelerinin ortak sorunları), `kaynaklar` alanında **en az iki farklı sitenin** sayfasıyla desteklenir. "
         "Kaynaklardan en az biri deneyime ya da resmî belgeye dayanmalıdır (forum, şikâyet, anket, dava haberi, haber veya resmî belge). "
         "Yalnızca blog, parça satıcısı ya da derleme sitesi olan sorunlar veritabanına alınmaz. "
         "`python3 scripts/dogrula.py` bu kuralı denetler.",

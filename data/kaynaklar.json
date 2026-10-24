@@ -658,6 +658,14 @@
       "guven": "yüksek",
       "ana_sayfa": "https://www.oeamtc.at/",
       "not": "Avusturya otomobil kulübü; geri çağırma duyurularını model ve üretim dönemiyle listeler."
+    },
+    "sozcu.com.tr": {
+      "ad": "Sözcü",
+      "ulke": "TR",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://www.sozcu.com.tr/",
+      "not": "Ulusal gazete. Burada yalnızca yabancı toplu dava ve geri çağırma haberlerinin Türkçe aktarımı için kullanıldı."
     }
   }
 }

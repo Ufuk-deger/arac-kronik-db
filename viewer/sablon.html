@@ -689,6 +689,45 @@
     max-width: 60ch;
   }
 
+  /* Motor / şanzıman ailesi */
+  .aile-satir {
+    margin: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 6px;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  .aile-cip,
+  .aile-etiket {
+    display: inline-block;
+    padding: 1px 9px;
+    border: 1px solid var(--accent);
+    border-radius: 999px;
+    background: var(--accent-soft);
+    color: var(--accent);
+    font-size: 0.74rem;
+    font-weight: 600;
+    line-height: 1.5;
+  }
+  .aile-etiket {
+    background: transparent;
+    border-style: dashed;
+    cursor: help;
+  }
+  .aile-etiket.dogrudan {
+    border-style: solid;
+    cursor: default;
+  }
+  .aile-not {
+    margin: 0;
+    padding: 10px 20px;
+    border-bottom: 1px solid var(--line);
+    font-size: 0.85rem;
+    color: var(--muted);
+  }
+
   /* Arandı ama kayıt açılmayan gruplar */
   .kapsam {
     margin-top: 32px;
@@ -842,7 +881,7 @@
 <div class="sayfa" lang="tr">
   <header class="ust kap">
     <h1>Araç Kronik DB</h1>
-    <p class="giris">Türkiye'de yaygın araçların bilinen kronik sorunları, marka ve motor bazında. Aracınızı marka, model ya da motor koduyla arayın; model yılınızı girerseniz yalnızca o yılı kapsayan kayıtlar kalır ve revizyon öncesi/sonrası farkı olan sorunlarda yılınız işaretlenir. Kilometrenizi girerseniz hangi sorunların o aralıkta görüldüğü gösterilir. Her sorun en az iki farklı sitedeki sayfayla desteklenir; bağlantılar sorunun altında. Ayrıntısı eklenmiş sorunlarda nedeni, nasıl anlaşıldığı, yaygın çözümü, bildirilen maliyet ve önlem açılır bölümdedir.</p>
+    <p class="giris">Türkiye'de yaygın araçların bilinen kronik sorunları, marka ve motor bazında. Aracınızı marka, model ya da motor koduyla arayın; model yılınızı girerseniz yalnızca o yılı kapsayan kayıtlar kalır ve revizyon öncesi/sonrası farkı olan sorunlarda yılınız işaretlenir. Kilometrenizi girerseniz hangi sorunların o aralıkta görüldüğü gösterilir. Her sorun en az iki farklı sitedeki sayfayla desteklenir; bağlantılar sorunun altında. Bir motor ya da şanzıman birden çok modelde aynı sorunu yaşıyorsa sorun "ortak aile" olarak her modelde gösterilir; kesikli çerçeveli etiket bu modele özgü bildirimin ayrıca doğrulanmadığını, düz çerçeveli etiket modelde de bildirildiğini gösterir. Ayrıntısı eklenmiş sorunlarda nedeni, nasıl anlaşıldığı, yaygın çözümü, bildirilen maliyet ve önlem açılır bölümdedir.</p>
     <p class="ozet" id="ozet"></p>
   </header>
 
@@ -924,6 +963,7 @@
     const veri = JSON.parse(document.getElementById("veri").textContent);
     const kayit = JSON.parse(document.getElementById("kaynak-veri").textContent).siteler;
     const plan = JSON.parse(document.getElementById("plan-veri").textContent);
+    const aileHaritasi = new Map((veri.aileler || []).map((f) => [f.id, f]));
     const IKI_PARCALI = new Set(["co.uk", "org.uk", "com.au", "co.nz", "com.tr", "org.tr"]);
     const GUVEN = { "yüksek": "yuksek", "orta": "orta", "düşük": "dusuk" };
 
@@ -990,7 +1030,7 @@
       return kutu;
     }
 
-    function sorunOlustur(arac, sorun) {
+    function sorunOlustur(arac, sorun, aile) {
       const risk = RISK_ANAHTARI[sorun.risk_seviyesi];
       const km = aralik(sorun.tahmini_km_araligi);
       const li = el("li", "sorun");
@@ -1004,6 +1044,15 @@
       const yilEtiket = el("span", "yil-etiket");
       yilEtiket.hidden = true;
       bas.append(el("h4", null, sorun.sorun_adi), rozet, yilEtiket);
+      let bagliAile = aile || null;
+      if (aile) {
+        const etiket = el("span", "aile-etiket", `Ortak aile: ${aile.ad}`);
+        etiket.title = "Bu sorun motor/şanzıman ailesinin ortak kaynaklarına dayanır; bu modele özgü bildirim ayrıca doğrulanmadı.";
+        bas.append(etiket);
+      } else if (sorun.aile_sorunu) {
+        bagliAile = aileHaritasi.get(sorun.aile_sorunu.split("/")[0]) || null;
+        if (bagliAile) bas.append(el("span", "aile-etiket dogrudan", `Aile: ${bagliAile.ad} · bu modelde de bildirilmiş`));
+      }
       const dl = el("dl", "sorun-dl");
       for (const [baslik, deger] of [["Parça", sorun.etkilenen_parca], ["Belirtiler", sorun.belirtiler]]) {
         const satir = el("div");
@@ -1082,8 +1131,8 @@
       li.append(metin, kmAlan);
       const kaynakAdlari = sorun.kaynaklar.map((u) => (kayit[alanAdi(u)] || {}).ad || alanAdi(u));
       const aranan = [arac.marka, arac.model, arac.motor, sorun.sorun_adi, sorun.etkilenen_parca, sorun.belirtiler, sorun.risk_seviyesi,
-        ...Object.values(sorun.detay || {}), ...kaynakAdlari].join(" ");
-      return { li, risk, km, metin: katla(aranan), isaret, durum, donemler, yilEtiket, detayKutu };
+        ...Object.values(sorun.detay || {}), ...kaynakAdlari, bagliAile ? bagliAile.ad : ""].join(" ");
+      return { li, risk, km, metin: katla(aranan), isaret, durum, donemler, yilEtiket, detayKutu, aileSorunu: !!aile };
     }
 
     const araclar = veri.arac_listesi.slice().sort((a, b) =>
@@ -1112,12 +1161,32 @@
       const kimlik = el("header", "arac-kimlik");
       const aracSay = el("p", "arac-say");
       const yb = arac.uretim_yillari;
+      const aileler = (arac.aileler || []).map((id) => aileHaritasi.get(id)).filter(Boolean);
+      const aileSatiri = el("p", "aile-satir");
+      if (aileler.length) {
+        aileSatiri.append(document.createTextNode("Aile: "));
+        for (const f of aileler) {
+          const cip = el("span", "aile-cip", f.ad);
+          cip.title = f.aciklama;
+          aileSatiri.append(cip);
+        }
+      }
       kimlik.append(el("h3", null, modelAdi(arac.model)), el("p", "motor", arac.motor),
         el("p", "arac-yil", `Üretim ${yilMetni(yb.baslangic, yb.bitis).replace(/–$/, "–günümüz")}`), aracSay);
+      if (aileler.length) kimlik.insertBefore(aileSatiri, aracSay);
       const alan = el("div", "sorun-alani");
       const ul = el("ul", "sorunlar");
-      const sorunlar = arac.kronik_sorunlar.map((s) => sorunOlustur(arac, s));
+      const kendiBaglar = new Set(arac.kronik_sorunlar.map((s) => s.aile_sorunu).filter(Boolean));
+      const sorunlar = arac.kronik_sorunlar.map((s) => sorunOlustur(arac, s, null));
+      for (const f of aileler) {
+        for (const fs of f.kronik_sorunlar) {
+          if (!kendiBaglar.has(`${f.id}/${fs.id}`)) sorunlar.push(sorunOlustur(arac, fs, f));
+        }
+      }
       for (const s of sorunlar) ul.append(s.li);
+      if (!arac.kronik_sorunlar.length) {
+        alan.append(el("p", "aile-not", "Bu kayıt motor/şanzıman ailesinin ortak kaynaklarına dayanır; bu modele özgü bildirim ayrıca doğrulanmadı."));
+      }
       alan.append(eksenOlustur(), ul);
       kart.append(kimlik, alan);
       grup.kap.append(kart);
@@ -1125,11 +1194,17 @@
     }
 
     const toplamSorun = kayitlar.reduce((t, k) => t + k.sorunlar.length, 0);
-    const tumSiteler = new Set(araclar.flatMap((a) => a.kronik_sorunlar.flatMap((s) => s.kaynaklar.map(alanAdi))));
+    const tumSiteler = new Set([
+      ...araclar.flatMap((a) => a.kronik_sorunlar.flatMap((s) => s.kaynaklar.map(alanAdi))),
+      ...(veri.aileler || []).flatMap((f) => f.kronik_sorunlar.flatMap((s) => s.kaynaklar.map(alanAdi))),
+    ]);
     const kirilimli = kayitlar.reduce((t, k) => t + k.sorunlar.filter((s) => s.donemler.length).length, 0);
     const detayli = kayitlar.reduce((t, k) => t + k.sorunlar.filter((s) => s.detayKutu).length, 0);
+    const ortakSorun = kayitlar.reduce((t, k) => t + k.sorunlar.filter((s) => s.aileSorunu).length, 0);
     document.getElementById("ozet").textContent =
-      `${kayitlar.length} araç/motor kaydı · ${gruplar.size} marka · ${toplamSorun} kronik sorun (${kirilimli} tanesinde yıl kırılımı, ${detayli} tanesinde ayrıntı) · ${tumSiteler.size} kaynak sitesi` +
+      `${kayitlar.length} araç/motor kaydı · ${gruplar.size} marka · ${toplamSorun} kronik sorun` +
+      (ortakSorun ? ` (${ortakSorun} tanesi ortak motor/şanzıman ailesinden)` : "") +
+      ` (${kirilimli} tanesinde yıl kırılımı, ${detayli} tanesinde ayrıntı) · ${tumSiteler.size} kaynak sitesi` +
       (plan.length ? ` · ${plan.length} grup arandı ama kaydı açılmadı` : "");
     const detayAc = document.getElementById("detayac");
     if (!detayli) detayAc.closest("label").hidden = true;

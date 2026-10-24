@@ -33,17 +33,45 @@ def eslesen_kayitlar(oge, araclar):
     ]
 
 
-def durum_metni(oge, kayitlar):
+def aile_haritasi(veri):
+    return {f["id"]: f for f in veri.get("aileler", [])}
+
+
+def sorun_sayilari(kayit, aileler):
+    """Kayıtta gösterilen sorunlar: kayda özgü olanlar ve ailelerden gelen (kayıtta karşılığı olmayan) ortak sorunlar."""
+    ozgu = kayit["kronik_sorunlar"]
+    paylasilan = {s["aile_sorunu"] for s in ozgu if "aile_sorunu" in s}
+    ortak = [s for f in kayit.get("aileler", []) for s in aileler[f]["kronik_sorunlar"] if f"{f}/{s['id']}" not in paylasilan]
+    return ozgu, ortak
+
+
+def durum_metni(oge, kayitlar, aileler):
     if kayitlar:
-        sorun = sum(len(a["kronik_sorunlar"]) for a in kayitlar)
-        kirilim = sum(1 for a in kayitlar for s in a["kronik_sorunlar"] if "donem_kirilimi" in s)
-        metin = f"✓ {sorun} sorun"
+        ozgu, ortak = [], []
+        for a in kayitlar:
+            o, k = sorun_sayilari(a, aileler)
+            ozgu += o
+            ortak += k
+        kirilim = sum(1 for s in ozgu + ortak if "donem_kirilimi" in s)
+        if ozgu:
+            metin = f"✓ {len(ozgu)} sorun"
+            if ortak:
+                metin += f" (+{len(ortak)} ortak aile)"
+        else:
+            metin = f"◐ {len(ortak)} ortak aile sorunu"
         if kirilim:
             metin += f", {kirilim} yıl kırılımı"
+        if oge.get("not"):
+            metin += f" — {oge['not']}"
         return metin
     if oge.get("sonuc") == "yetersiz-kanit":
         return f"– eklenmedi: {oge['not']}"
     return "○ sırada"
+
+
+def ozgu_kaynakli(kayitlar):
+    """Satırın eşleşen kayıtlarından en az biri kendi sorununa sahip mi (✓) yoksa yalnızca ailesine mi (◐) dayanıyor?"""
+    return any(a["kronik_sorunlar"] for a in kayitlar)
 
 
 def sayi(adet):
@@ -52,7 +80,8 @@ def sayi(adet):
 
 def uret():
     plan = json.loads(PLAN_DOSYASI.read_text(encoding="utf-8"))
-    araclar = json.loads(VARSAYILAN_DOSYA.read_text(encoding="utf-8"))["arac_listesi"]
+    veri = json.loads(VARSAYILAN_DOSYA.read_text(encoding="utf-8"))
+    araclar = veri["arac_listesi"]
     markalar = plan["pazar"]["markalar"]
     bilinen = {m["marka"] for m in markalar}
 
@@ -62,11 +91,13 @@ def uret():
 
     eslesmeler = [(oge, eslesen_kayitlar(oge, araclar)) for oge in plan["plan"]]
     eslesen_idler = {id(a) for _, kayitlar in eslesmeler for a in kayitlar}
+    aileler = aile_haritasi(veri)
 
     toplam = len(eslesmeler)
-    tamam = sum(1 for _, k in eslesmeler if k)
+    tamam = sum(1 for _, k in eslesmeler if k and ozgu_kaynakli(k))
+    yalniz_aile = sum(1 for _, k in eslesmeler if k and not ozgu_kaynakli(k))
     elenen = sum(1 for o, k in eslesmeler if not k and o.get("sonuc"))
-    kalan = toplam - tamam - elenen
+    kalan = toplam - tamam - yalniz_aile - elenen
     kademe1 = [(o, k) for o, k in eslesmeler if o["kademe"] == 1]
     kademe1_islenen = sum(1 for o, k in kademe1 if k or o.get("sonuc"))
 
@@ -119,25 +150,28 @@ def uret():
         "## İlerleme",
         "",
         f"- Plan: **{toplam}** model/motor grubu",
-        f"- Tamamlanan (✓): **{tamam}**",
+        f"- Tamamlanan (✓, modele özgü kaynaklı sorun var): **{tamam}**",
+        f"- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **{yalniz_aile}**",
         f"- Araştırılıp eklenmeyen (–): **{elenen}**",
         f"- Sırada (○): **{kalan}**",
-        f"- Kademe 1: **{kademe1_islenen}/{len(kademe1)}** işlendi (✓ ya da –)",
-        f"- Veritabanı: **{len(araclar)}** kayıt, **{sum(len(a['kronik_sorunlar']) for a in araclar)}** kronik sorun",
+        f"- Kademe 1: **{kademe1_islenen}/{len(kademe1)}** işlendi (✓, ◐ ya da –)",
+        f"- Veritabanı: **{len(araclar)}** kayıt, **{sum(len(a['kronik_sorunlar']) for a in araclar)}** kayda özgü kronik sorun, "
+        f"**{len(aileler)}** motor/şanzıman ailesi (**{sum(len(f['kronik_sorunlar']) for f in aileler.values())}** ortak sorun)",
         "",
-        "| Marka | Plan | ✓ | – | ○ | Kademe 1 işlenen |",
-        "| --- | ---: | ---: | ---: | ---: | ---: |",
+        "| Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen |",
+        "| --- | ---: | ---: | ---: | ---: | ---: | ---: |",
     ]
     marka_sirasi = [m["marka"] for m in markalar if m["kapsam"] != "dışarıda"]
     for marka in marka_sirasi:
         oge = [(o, k) for o, k in eslesmeler if o["marka"] == marka]
         if not oge:
             continue
-        t = sum(1 for _, k in oge if k)
+        t = sum(1 for _, k in oge if k and ozgu_kaynakli(k))
+        y = sum(1 for _, k in oge if k and not ozgu_kaynakli(k))
         e = sum(1 for o, k in oge if not k and o.get("sonuc"))
         k1 = [(o, k) for o, k in oge if o["kademe"] == 1]
         satir.append(
-            f"| {marka} | {len(oge)} | {t} | {e} | {len(oge) - t - e} | {sum(1 for o, k in k1 if k or o.get('sonuc'))}/{len(k1)} |"
+            f"| {marka} | {len(oge)} | {t} | {y} | {e} | {len(oge) - t - y - e} | {sum(1 for o, k in k1 if k or o.get('sonuc'))}/{len(k1)} |"
         )
 
     satir += [
@@ -171,7 +205,8 @@ def uret():
     satir += [
         "## Plan ve durum",
         "",
-        "Durum: **✓** veritabanında kayıtlı, **○** sırada, **–** araştırıldı ama iki bağımsız site bulunamadığı için eklenmedi. "
+        "Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, **◐** kayıtlı ama yalnızca motor/şanzıman ailesinin ortak kaynaklarına dayanıyor "
+        "(bu modele özgü bildirim ayrıca doğrulanmadı), **○** sırada, **–** araştırıldı ama iki bağımsız site bulunamadığı için eklenmedi. "
         "Yıllar yaklaşık üretim ya da Türkiye satış yıllarıdır.",
         "",
     ]
@@ -188,7 +223,7 @@ def uret():
         ]
         for o, k in sorted(oge, key=lambda x: (x[0]["kademe"], x[0]["model"])):
             satir.append(
-                f"| {o['kademe']} | {o['model']} | {o['yillar']} | {o['motor']} | {durum_metni(o, k)} |"
+                f"| {o['kademe']} | {o['model']} | {o['yillar']} | {o['motor']} | {durum_metni(o, k, aileler)} |"
             )
         satir.append("")
 

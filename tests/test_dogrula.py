@@ -58,6 +58,37 @@ def sorun(veri):
     return veri["arac_listesi"][0]["kronik_sorunlar"][0]
 
 
+def aileli_ornek():
+    """Bir aile, ona bağlı yalnızca-aile kaydı ve aile sorununa kendi kaynağını bağlayan bir kayıt."""
+    veri = ornek()
+    aile_sorunu = copy.deepcopy(sorun(veri))
+    aile_sorunu["id"] = "ortak-sorun"
+    aile_sorunu.pop("donem_kirilimi")
+    veri["aileler"] = [{
+        "id": "test-motor",
+        "ad": "Test motoru",
+        "tur": "motor",
+        "aciklama": "Test modellerinde kullanılan motor ailesi.",
+        "kronik_sorunlar": [aile_sorunu],
+    }]
+    veri["arac_listesi"][0]["aileler"] = ["test-motor"]
+    veri["arac_listesi"][0]["kronik_sorunlar"][0]["aile_sorunu"] = "test-motor/ortak-sorun"
+    yalniz = copy.deepcopy(veri["arac_listesi"][0])
+    yalniz["model"] = "Kardeş Model (2016-2021)"
+    yalniz["uretim_yillari"] = {"baslangic": 2016, "bitis": 2021}
+    yalniz["kronik_sorunlar"] = []
+    veri["arac_listesi"].append(yalniz)
+    return veri
+
+
+def aile(veri):
+    return veri["aileler"][0]
+
+
+def aile_sorunu(veri):
+    return veri["aileler"][0]["kronik_sorunlar"][0]
+
+
 class DogrulaTesti(unittest.TestCase):
     def assertHata(self, veri, parca):
         bulunan = hatalar(veri)
@@ -195,6 +226,113 @@ class DogrulaTesti(unittest.TestCase):
         self.assertHata(veri, "birden fazla kez")
 
 
+class AileTesti(unittest.TestCase):
+    def assertHata(self, veri, parca):
+        bulunan = hatalar(veri)
+        self.assertTrue(any(parca in h for h in bulunan), f"'{parca}' beklendi, bulunan: {bulunan}")
+
+    def test_aileli_ornek_gecerli(self):
+        self.assertEqual(hatalar(aileli_ornek()), [])
+
+    def test_aileler_istege_bagli(self):
+        self.assertEqual(hatalar(ornek()), [])
+
+    def test_aile_sorunu_icin_iki_site_gerekir(self):
+        veri = aileli_ornek()
+        aile_sorunu(veri)["kaynaklar"] = [f"https://{FORUM}/a", f"https://{FORUM}/b"]
+        self.assertHata(veri, "en az 2 farklı site")
+
+    def test_aile_sorununda_id_zorunlu(self):
+        veri = aileli_ornek()
+        del aile_sorunu(veri)["id"]
+        self.assertHata(veri, "eksik alan(lar): id")
+
+    def test_aile_sorun_idsi_tekrar_edemez(self):
+        veri = aileli_ornek()
+        aile(veri)["kronik_sorunlar"].append(copy.deepcopy(aile_sorunu(veri)))
+        self.assertHata(veri, "birden fazla kez tanımlı")
+
+    def test_aile_idsi_tekrar_edemez(self):
+        veri = aileli_ornek()
+        veri["aileler"].append(copy.deepcopy(aile(veri)))
+        self.assertHata(veri, "birden fazla kez tanımlı")
+
+    def test_aile_kimligi_deseni(self):
+        veri = aileli_ornek()
+        aile(veri)["id"] = "Test Motoru"
+        self.assertHata(veri, "kimlik olmalı")
+
+    def test_aile_turu_gecersiz(self):
+        veri = aileli_ornek()
+        aile(veri)["tur"] = "kasa"
+        self.assertHata(veri, "tur")
+
+    def test_aile_aciklamasi_zorunlu_ve_sinirli(self):
+        veri = aileli_ornek()
+        aile(veri)["aciklama"] = " "
+        self.assertHata(veri, "boş olmayan metin")
+        veri = aileli_ornek()
+        aile(veri)["aciklama"] = "a" * (dogrula.ACIKLAMA_UZUNLUK_UST + 1)
+        self.assertHata(veri, "en fazla")
+
+    def test_aile_sorunsuz_olamaz(self):
+        veri = aileli_ornek()
+        aile(veri)["kronik_sorunlar"] = []
+        self.assertHata(veri, "en az bir sorun")
+
+    def test_tanimsiz_aileye_baglanti(self):
+        veri = aileli_ornek()
+        veri["arac_listesi"][1]["aileler"] = ["yok"]
+        self.assertHata(veri, "tanımlı değil")
+
+    def test_yalniz_aile_kaydi_gecerli(self):
+        veri = aileli_ornek()
+        self.assertEqual(veri["arac_listesi"][1]["kronik_sorunlar"], [])
+        self.assertEqual(hatalar(veri), [])
+
+    def test_sorunsuz_ve_ailesiz_kayit_gecersiz(self):
+        veri = aileli_ornek()
+        del veri["arac_listesi"][1]["aileler"]
+        self.assertHata(veri, "en az bir sorun ya da en az bir aile")
+
+    def test_bos_aileler_listesi_gecersiz(self):
+        veri = aileli_ornek()
+        veri["arac_listesi"][1]["aileler"] = []
+        self.assertHata(veri, "en az bir aile kimliği")
+
+    def test_ayni_aile_iki_kez_yazilamaz(self):
+        veri = aileli_ornek()
+        veri["arac_listesi"][1]["aileler"] = ["test-motor", "test-motor"]
+        self.assertHata(veri, "birden fazla kez yazılmış")
+
+    def test_kullanilmayan_aile_hata_verir(self):
+        veri = aileli_ornek()
+        veri["aileler"].append({**copy.deepcopy(aile(veri)), "id": "bos-aile"})
+        self.assertHata(veri, "hiçbir araç kaydına bağlı değil")
+
+    def test_aile_sorunu_baglantisi_tanimli_olmali(self):
+        veri = aileli_ornek()
+        sorun(veri)["aile_sorunu"] = "test-motor/yok"
+        self.assertHata(veri, "tanımlı bir aile sorunu değil")
+
+    def test_aile_sorunu_baglantisi_aracin_ailesinde_olmali(self):
+        veri = aileli_ornek()
+        veri["aileler"].append({**copy.deepcopy(aile(veri)), "id": "diger-motor"})
+        veri["arac_listesi"][1]["aileler"] = ["diger-motor"]
+        veri["arac_listesi"][0]["aileler"] = ["diger-motor"]
+        self.assertHata(veri, "aileler listesinde yok")
+
+    def test_aile_sorunu_alani_arac_disinda_kullanilamaz(self):
+        veri = aileli_ornek()
+        aile_sorunu(veri)["aile_sorunu"] = "test-motor/ortak-sorun"
+        self.assertHata(veri, "tanımsız alan")
+
+    def test_aile_sorununun_donem_kirilimi_denetlenir(self):
+        veri = aileli_ornek()
+        aile_sorunu(veri)["donem_kirilimi"] = [{"baslangic": 2018, "bitis": 2016, "durum": "Yaygın", "not": "n"}]
+        self.assertHata(veri, "bitiş yılı başlangıç yılından küçük")
+
+
 class SemaTesti(unittest.TestCase):
     def test_sema_gercek_veriyi_kabul_eder(self):
         try:
@@ -220,6 +358,33 @@ class SemaTesti(unittest.TestCase):
             self.skipTest("jsonschema kurulu değil")
         veri = ornek()
         sorun(veri)["donem_kirilimi"][0]["durum"] = "Çok yaygın"
+        with self.assertRaises(jsonschema.ValidationError):
+            jsonschema.Draft202012Validator(SEMA).validate(veri)
+
+    def test_sema_aileli_veriyi_kabul_eder(self):
+        try:
+            import jsonschema
+        except ImportError:
+            self.skipTest("jsonschema kurulu değil")
+        jsonschema.Draft202012Validator(SEMA).validate(aileli_ornek())
+
+    def test_sema_aile_sorununda_id_ister(self):
+        try:
+            import jsonschema
+        except ImportError:
+            self.skipTest("jsonschema kurulu değil")
+        veri = aileli_ornek()
+        del aile_sorunu(veri)["id"]
+        with self.assertRaises(jsonschema.ValidationError):
+            jsonschema.Draft202012Validator(SEMA).validate(veri)
+
+    def test_sema_sorunsuz_ve_ailesiz_kaydi_reddeder(self):
+        try:
+            import jsonschema
+        except ImportError:
+            self.skipTest("jsonschema kurulu değil")
+        veri = aileli_ornek()
+        del veri["arac_listesi"][1]["aileler"]
         with self.assertRaises(jsonschema.ValidationError):
             jsonschema.Draft202012Validator(SEMA).validate(veri)
 

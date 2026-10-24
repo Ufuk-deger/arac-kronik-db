@@ -1,5 +1,952 @@
 {
+  "aileler": [
+    {
+      "id": "bmw-n20",
+      "ad": "BMW N20 2.0 turbo benzin",
+      "tur": "motor",
+      "aciklama": "BMW'nin 2011-2016 arasında 3, 4 ve 5 Serisi, X1 ve X3'te kullandığı 2.0 litre turbo benzinli (320i / 328i, 520i / 528i, X1 sDrive20i / xDrive28i, X3 xDrive28i). Sonradan yerini B48 aldı. Kaynak anlatıları ağırlıkla F30 sahiplerine ve ABD forumlarına aittir.",
+      "kronik_sorunlar": [
+        {
+          "id": "triger-zinciri",
+          "sorun_adi": "Triger zinciri ve plastik kızak arızası",
+          "etkilenen_parca": "Plastik zincir kızakları, zincir gergisi ve zincir",
+          "belirtiler": "Motor önünden gelen ıslık/vınlama sesi, arıza lambası, ileri aşamada zincir atlaması ve motor hasarı",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Bimmerpost'ta plastik zincir kılavuzlarının kırıldığı ve zincirin gevşediği anlatılıyor: bir sahip kılavuzları kırık bulmuş ve parçalarını karterde görmüş; fazla boşluk zincirin plastik kılavuzlara çarpmasına, kılavuzların gevrekleşip kırılarak motora ya da yağ pompasına karışmasına yol açıyor. Bir bayi teşhisinde kılavuz parçaları yağ emme süzgecini tıkamış; yağ pompası tahrik zincirinin de kopup düşük yağ basıncıyla motoru durdurabildiği yazılı.",
+            "cozum": "Zincir seti ve kılavuzlar değiştirilir; parça satıcısı FCP Euro işlemi adım adım anlatıyor. CarComplaints'in haberine göre ABD'de zincir sorunuyla ilgili bir toplu dava uzlaşması sağlanmış; Türkiye'deki kapsam doğrulanmadı.",
+            "maliyet": "Bir ABD'li sahip garanti dışı atölye onarımının 4-5 bin dolara, zincir kopup motora zarar verirse 15-18 bin dolara çıkabileceğini yazıyor (birkaç yıl önce, Türkiye için doğrudan geçerli değil)."
+          },
+          "kaynaklar": [
+            "https://f30.bimmerpost.com/forums/showthread.php?t=1622988",
+            "https://www.carcomplaints.com/news/2020/bmw-timing-chain-lawsuit-settlement-reached.shtml",
+            "https://www.fcpeuro.com/blog/how-to-replace-the-bmw-n20-timing-chain-part-1-removal",
+            "https://f30.bimmerpost.com/forums/showthread.php?t=2009697"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2012,
+              "bitis": 2014,
+              "durum": "Yaygın",
+              "not": "Forumlar ve parça rehberleri sorunu ağırlıkla 2013 ile Şubat-Mart 2015 arası üretimdeki N20'lerle ilişkilendiriyor; plastik zincir kılavuzları çatlıyor."
+            },
+            {
+              "baslangic": 2015,
+              "bitis": 2015,
+              "durum": "Görülebilir",
+              "not": "Forumlar zincir ve kılavuzların Şubat-Mart 2015 üretiminden itibaren güncellendiğini yazıyor (kaynaklar güncellenenin kılavuz mu yalnızca zincir mi olduğunda çelişiyor); 320i LCI ile B48 motora geçti."
+            }
+          ]
+        },
+        {
+          "id": "devirdaim-pompasi",
+          "sorun_adi": "Elektrikli devirdaim pompası ve konnektör arızası",
+          "etkilenen_parca": "Elektrikli su pompası ve pompa konnektörü",
+          "belirtiler": "Hararet uyarısı, soğutma sıvısı uyarı mesajı, fanların sürekli çalışması, motor gücünün sınırlanması",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Parça satıcıları (BimmerWorld, FCP Euro) arızanın çoğunlukla pompanın iç elektroniğinden geldiğini ve çok az uyarı verdiğini yazıyor. Bimmerpost'ta alıntılanan geri çağırma metnine göre (BMW, ABD kampanya no. 24V-608) PCV sisteminden damlayan küçük sıvı damlaları pompa konnektörünü bozabiliyor. Bir sahip pompa konnektöründe çok küçük bir sızıntı bulmuş; konnektör korozyona uğramış ve çok sayıda anlamsız arıza kodu üretmiş.",
+            "teshis": "Fan sürekli yüksek hızda çalışır, yüksek soğutma suyu sıcaklığı mesajı gelir, motor geç ısınır; FCP Euro 2E81, 2E82 ve 2E85 kodlarını da sayıyor. BimmerWorld'e göre arıza başlayınca koşullara bağlı olarak motorun aşırı ısınmaya karşı kapanmasına yalnızca dakikalar kalabilir. Bir sahip arıza lambası ya da limp modu olmadan aynı belirtileri yaşadığını yazıyor. Bir başlıkta aşırı ısınmanın yanlış teşhis edildiği anlatılıyor: bayinin hava alması belirtiyi önce gidermiş, hava sistemde kalınca geri gelmiş. Forumlarda pompadan önce termostat, sistemdeki hava ve konnektör de şüpheli sayılıyor.",
+            "cozum": "Geri çağırma kapsamındaki onarımda pompa ve konnektör kontrol edilip gerekirse değiştiriliyor ve koruyucu bir kapak ekleniyor. BimmerWorld bunu üç kademeli bir servis işlemi olarak anlatıyor (sıçrama kapağı, elektrik konnektörü ya da pompanın tamamı) ve kademeyi bayinin seçtiğini söylüyor. Bir sahip 2025'te bayide düzeltmenin henüz mevcut olmadığını yazıyor. Kapsamı şasi numarasıyla BMW ya da NHTSA kayıtlarından sorgulayın; Türkiye'deki araçlar için kapsam doğrulanmadı.",
+            "maliyet": "Geri çağırma kapsamındaki onarım ABD'de ücretsiz. Kapsam dışında BimmerWorld OEM Pierburg pompayı (11518635089) yaklaşık 449 dolara listeliyor; bu yalnızca parça fiyatı, ABD'ye ait ve işçilik dahil değil.",
+            "onlem": "BimmerWorld ani arızalar nedeniyle 100.000 mil (~160.000 km) öncesinde önleyici pompa değişimini ve termostatın aynı anda değiştirilmesini öneriyor; FCP Euro termostatı pompayla birlikte değiştirmeyi akıllıca buluyor (ikisi de parça satıcısı). Sıklık konusunda görüşler ayrışıyor: BimmerWorld N20 pompasının N54/N55 kadar çok arızalanmadığını düşünüyor, bir atölye blogu (Foreign Automotive, pazarlama dili) aynı pompayı en sık değiştirdiği parçalar arasında sayıyor; bir Bimmerpost sahibi ise N20'de yaygın erken arızanın pompa değil termostat olduğunu yazıyor."
+          },
+          "kaynaklar": [
+            "https://f30.bimmerpost.com/forums/showthread.php?t=2166229",
+            "https://www.bimmerworld.com/Cooling/Water-Pumps/BMW-Water-Pump-N20-N26-F22-F30-F32-F10-X1-F25-F26-E89-11518635089.html",
+            "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-f30-water-pump-thermostat-n20-n26-engine",
+            "https://foreignautomotive.ca/blogs/news/bmw-electric-water-pump-failure-symptoms-causes-and-replacement-costs-in-ontario"
+          ]
+        },
+        {
+          "id": "yag-filtresi-yuvasi",
+          "sorun_adi": "Yağ filtresi yuvası contası kaçağı",
+          "etkilenen_parca": "Yağ filtresi yuvası contası",
+          "belirtiler": "Motor altında yağ izi, yanık yağ kokusu, ileri durumda aksesuar kayışına yağ bulaşması",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "FCP Euro'ya göre yuvadaki kauçuk conta motor ısısıyla kuruyup sızdırmaya başlıyor; ABD'li sahipler bu contaların nadiren yaklaşık 130.000 km'yi (80.000 mil) geçtiğini yazıyor. Bimmerpost'ta bu, en tutarlı biçimde belgelenen N20 kaçak noktalarından biri olarak geçiyor.",
+            "teshis": "Motor altında ve üstünde yağ izi; kaçak yağ soğutucusuyla karıştırılabiliyor: bir sahip kaçağın aslında yağ soğutucusundan geldiğini bulup yalnızca o parçayı değiştirmiş.",
+            "cozum": "Conta kitinin değişimi; FCP Euro'nun kılavuzu yaklaşık 60 dolarlık conta kitini ve işlem sırasında soğutma suyunun boşaltılması gerektiğini belirtiyor."
+          },
+          "kaynaklar": [
+            "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-n20-n26-oil-filter-housing-gasket-f30",
+            "https://f30.bimmerpost.com/forums/showthread.php?t=1994474"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bmw-n47",
+      "ad": "BMW N47 2.0 dizel",
+      "tur": "motor",
+      "aciklama": "BMW'nin 2007-2014 arasında 1, 3 ve 5 Serisi, X1 ve X3'te kullandığı 2.0 litre dizel (116d N47D16; 118d, 318d, 320d, 520d, X1 18d / 20d, X3 20d N47D20). Sonradan yerini B47 aldı. Zinciri motorun arkasındadır. Kaynak anlatıları çoğunlukla 1, 3 ve 5 Serisi sahiplerine aittir.",
+      "kronik_sorunlar": [
+        {
+          "id": "triger-zinciri",
+          "sorun_adi": "Triger zinciri sesi ve uzaması",
+          "etkilenen_parca": "Motorun arka tarafındaki triger zinciri, gergi ve kızaklar",
+          "belirtiler": "Soğuk çalıştırmada ve rölantide motorun arkasından zincir sesi (çıngırak, tıkırtı, ıslık); ileri aşamada zincir atlaması veya kopması ve motor hasarı",
+          "tahmini_km_araligi": "90.000 - 200.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Forumlarda zincir sesi N47'nin bilinen sorunu olarak anlatılıyor; zincir motorun arkasında ve zamanla uzayıp gergi kapasitesini aşabiliyor (Araclo). Risk motora ve üretim yılına göre değişiyor: Ocak 2009'a kadar üretilen krank millerindeki keskin dişli nedeniyle zincir kopması bildirildi; 177 bg N47D20'de sorun sık anılırken 184 bg ve 116d (N47D16) için daha az görüldüğü yazılıyor (kullanıcı görüşü). 2015'te iyileştirilmiş bir set çıktığı ve B47'ye geçildiği iddiası resmî kaynakla doğrulanmadı.",
+            "teshis": "Ses rölantide ve düşük devirde belirgin; bir kullanıcı 2011 model 320d'sinde 68 bin km'de hafif ses fark etmiş. Yetkili servislerin ses gelmedikçe değişimi gerekli görmediği, özel servislerin 150.000 km üzerinde şart koştuğu aktarılıyor. DonanımHaber'de bir kullanıcı serviste ölçümlerin normal çıktığını ve sesin mutlaka zincir uzaması anlamına gelmediğini yazıyor.",
+            "cozum": "Zincir motorun arkasında olduğu için değişim motorun indirilmesini gerektiriyor, işçilik pahalı. Zincir ses yapmaya başlayınca kasnakların ve yağ pompasının da bozulduğunu yazan kullanıcı var; Araclo set değişiminde yağ pompasının kontrolünü öneriyor. DonanımHaber'de bir F10 N47 sahibi 150 bin km ağır bakımında üst ve alt zincir setini, yağ pompası ve zincirini, eksantrik ve yakıt pompası dişlilerini değiştirdiğini yazıyor.",
+            "maliyet": "Rakamlar eski ve dağınık: forumlarda üst zincir 3-4 bin TL, komple üst-alt set 6-7 bin TL (eski tarihli). DonanımHaber'deki F10 150 bin km ağır bakım paylaşımında zincir setleri, yağ pompası, dişliler ve ZF8 servisi için toplam 33.500 TL (yaklaşık 2021). Başka bir kullanıcı toplamın 15.000 TL'den 150.000 TL'ye uzayabileceğini yazıyor (kapsam belirsiz). Güncel rakam bulunamadı.",
+            "onlem": "Satın almadan önce şasi numarasıyla motor tipini (N47 mi B47 mi) ve üretim yılını doğrulatmak, motor soğukken arkadan gelen sesi dinlemek, zincir değişimini faturayla doğrulamak (bir kullanıcı satıcının 'zincir değişti' beyanının yanlış çıktığını anlatıyor)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/n47-motor-zincir-sesi-ve-problemi-zaman-zinciri--113480942",
+            "https://forum.donanimhaber.com/320d-triger-zinciri-sorunu--125275363-2",
+            "https://forum.donanimhaber.com/fatura-agir-bmw-f10-n47-motor-150-bin-km-agir-bakimi-zincir-degisimi-zf8-sanziman-bakimi--151236302",
+            "https://otopark.com/forum/threads/320d-520d-motor-zincir-problemi.1092/",
+            "https://otopark.com/forum/threads/n47-116d-ed-yurutme-maliyeti.16378/",
+            "https://eksisozluk.com/bmw-116d-genel-rezaleti-ve-kronik-sorunu--6221945",
+            "https://www.araclo.com/blog/bmw-3-serisi-320d-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026",
+            "https://www.e90post.com/forums/showthread.php?t=791870"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2007,
+              "bitis": 2009,
+              "durum": "Yaygın",
+              "not": "Ocak 2009'a kadar üretilen krank millerindeki keskin dişli nedeniyle zincir kopması bildirimleri."
+            },
+            {
+              "baslangic": 2010,
+              "bitis": 2015,
+              "durum": "Görülebilir",
+              "not": "Zincir çoğunlukla kopmadan önce ses yapıyor; N47T güncellemesiyle sorunların bir kısmının azaldığı yazılıyor."
+            }
+          ]
+        },
+        {
+          "id": "egr-sogutucu",
+          "sorun_adi": "EGR soğutucusu ve valfi arızası",
+          "etkilenen_parca": "EGR soğutucusu ve EGR valfi",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, soğutma suyu eksilmesi, egzozdan beyaz duman; BMW bu parça için geri çağırma yürüttü, şasi numarasıyla sorgulayın",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Araclo'ya göre bazı kullanıcılar EGR valfinin birden fazla kez değiştirilmesi gerektiğini ve her seferinde yüksek maliyet ödediklerini aktarıyor; bazı üretim dönemlerinde EGR soğutucusu üretici kampanyalarına konu olmuş. Kısa mesafe kullanımda EGR kurumlanması artıyor. Şikâyetvar'da bir kullanıcı soğutucu ve valfin aynı sistemin parçaları olduğunu, yalnızca birinin kampanya kapsamına alınmasının sorunu çözmediğini savunuyor.",
+            "cozum": "BMW'nin bu parça için gönüllü geri çağırma ya da teknik güncelleme yürüttüğü Şikâyetvar şikâyetlerinde ve bir haber kaynağında (2018) anılıyor; kapsamı resmî kaynakla doğrulayamadım. Şasi numarasıyla BMW kampanya sorgusu yaptırın.",
+            "onlem": "Soğutma suyu eksilmesi, çekiş kaybı ve beyaz duman belirtilerinde kullanmaya devam etmeden servise gitmek; ikinci elde kampanya durumunu şasi numarasıyla sorgulamak."
+          },
+          "kaynaklar": [
+            "https://www.araclo.com/blog/bmw-3-serisi-320d-ikinci-el-alim-rehberi-sorunlar-kontroller-ve-bakim-onerileri-2026",
+            "https://www.sikayetvar.com/bmw/n47-motorlu-bmwde-tekrarlayan-eger-arizasi-ve-geri-cagirma-istegi",
+            "https://www.carguide.ph/2018/08/bmw-recalls-42-models-including-320d.html?m=1",
+            "https://www.sikayetvar.com/bmw/bmw-n47-egr-valfi-sorunu-icin-gonullu-geri-cagirma-cevabi-alinamadi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bmw-xdrive-aktarma",
+      "ad": "BMW xDrive transfer kutusu (ATC)",
+      "tur": "sistem",
+      "aciklama": "Boyuna motorlu BMW xDrive modellerinde (X1 E84, X3 F25, X5 E70 / F15 ve 3, 5 Serisi xDrive) tork dağıtan transfer kutusu: servo motor ve çok plakalı kavrama. X1 F48 gibi enine motorlu modellerin xDrive sistemi farklıdır ve bu aileye dahil değildir.",
+      "kronik_sorunlar": [
+        {
+          "id": "transfer-kutusu",
+          "sorun_adi": "xDrive transfer kutusu (servo motor ve kavrama) arızası ve sarsıntı",
+          "etkilenen_parca": "Transfer kutusu: servo motorun plastik tahrik dişlisi, çok plakalı kavrama ve kontrol",
+          "belirtiler": "Dönüşlerde kasma ve alttan küt pat sesler, vites geçişlerinde ve düşük hızlı hızlanmada sarsıntı, 4x4 / ABS uyarı lambası, 'güç transfer kutusu arıza' hata kaydı",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forumlarda en sık öne sürülen açıklama servo motordaki plastik tahrik dişlisinin aşınıp dişli atlatmasıdır; bir kullanıcı belli bir kilometreden sonra hemen her xDrive'ın başına geldiğini yazıyor (kullanıcı görüşü). Dişli değişiminden sonra sorunun tekrarladığını yazanlar da var, bu yüzden elektronik kontrol de şüpheli sayılıyor. ABD'deki bir toplu davada transfer kutularının torku dengeli dağıtmadığı, 2020 tarihli bir BMW servis bülteninde de sarsıntının fabrika dolumu transfer yağının spesifikasyona uymamasından kaynaklanabileceği öne sürülüyor (2019-2025 modelleri; mahkemede kanıtlanmadı, Türkiye kapsamı doğrulanmadı).",
+            "teshis": "Dönüşlerde kasma, alttan küt pat sesleri ve 4x4 / ABS lambası; DSC'de 'güç transfer kutusu arıza uyarısı' hata kaydı (bir kullanıcıda 5F3A kodu). Bir X4 sahibi 1-2-3 vites geçişlerinde hafif sarsıntı yaşadığını ve servisin transfer kutusunda sorun bulduğunu yazıyor. Kilometre aralığı kaba tahmin: bir Fransız ikinci el rehberi aşınmanın bazen 100.000 km'den önce başladığını, bir Alman servis sitesi ATC kavramada 120.000 km sonrasında sık bulgu olduğunu yazıyor; forum başlıkları kilometre vermiyor.",
+            "cozum": "Forumlarda küçük servo motor dişlisinin (ucuz parça) değiştirildiği anlatılıyor; bir kullanıcıda üç değişime rağmen arıza tekrarlamış. Bir kullanıcıya servisin arızalı parçayı devre dışı bıraktığı ve aracın yolda bırakmadan kullanılabileceği söylenmiş (4x4 işlevi kaybolur). Bazı servislerin bu parçaya bakmadığını yazanlar var.",
+            "maliyet": "ABD'de transfer yağı değişimi 250-1.300 dolar, komple transfer kutusu 7.000-13.000 dolar (dava haberi); bir Fransız rehber komple değişimi için yaklaşık 4.000 € veriyor (eski tarihli). Türkiye için güncel rakam bulunamadı.",
+            "onlem": "Dönüşlerde kasma ve sarsıntıyı ciddiye almak, transfer yağı bakım geçmişini sormak. Araclo xDrive'da dört lastiğin eş olmasını ve transfer kutusu bakımını teknik zorunluluk olarak anıyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/bmw-x3-x-drive-ustasi-yokmu-yardim-lazim-vtg-arizasi-servo-motor--145583480",
+            "https://forum.donanimhaber.com/bmw-guc-transfer-kutusu-tamiri-yapan-usta--149876725",
+            "https://forum.donanimhaber.com/bmw-525d-xdrive-alacaklar-cok-dikkat-mutlaka-oku--86389138",
+            "https://www.sikayetvar.com/bmw/bakim/xdrive",
+            "https://www.sozcu.com.tr/bmw-ye-toplu-dava-soku-tamir-bedeli-13-000-dolara-ulasti-etkilenen-modeller-listesi-oldukca-uzun-p266472",
+            "https://www.fiches-auto.fr/articles-auto/nouveautes-automobiles/s-3933-fiabilite-xdrive-catastrophique-class-action-a-l-encontre-de-bmw.php",
+            "https://www.autopartspro.co.uk/tips-advice/bmw-x5-transfer-case-failure-and-complete-unit-replacement-costs-3203"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renault-edc",
+      "ad": "Renault / Dacia EDC çift kavramalı şanzıman (6 ve 7 ileri)",
+      "tur": "sanziman",
+      "aciklama": "Renault ve Dacia'nın Megane 3, Fluence, Scenic, Captur, Kadjar, Megane 4, Talisman ve Duster'da (2010'dan itibaren) kullandığı kuru kavramalı çift kavramalı (EDC) şanzıman. Kontrol ünitesi, kavrama ve yazılım sorunları modelden bağımsız anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "vites-gecis-sesi-kavrama",
+          "sorun_adi": "EDC şanzıman vites geçiş sesi ve kavrama silkelemesi",
+          "etkilenen_parca": "EDC 6/7 ileri çift kavramalı şanzıman: kavrama ve yazılım",
+          "belirtiler": "Düşük hızda titreme, vites geçişlerinde sarsıntı ve ses, kalkışta silkeleme veya stop etme; yazılım güncellemesi kısmen çözüyor, mekanik aşınma ilerleyen kilometrede sürebiliyor",
+          "tahmini_km_araligi": "30.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "EDC, Renault-Dacia'nın kuru kavramalı çift kavramalı şanzımanıdır. Forum yorumlarına göre titreme kavrama aşınmasından, yazılım kalibrasyonundan ya da mekatronik arızasından kaynaklanabiliyor; düşük şanzıman yağı seviyesi de katkı yapabiliyor. And Mehmet Çetin kuru kavramalı EDC ve Powershift şanzımanlarının, ıslak kavramalı DSG'ye göre daha çok eleştiri aldığını yazıyor.",
+            "teshis": "Kalkışta silkeleme, düşük hızda titreme, vites geçişlerinde sarsıntı ya da ses (ör. 3. vitesten 4.'ye 'vuup') ve 'EDC kontrol' / 'vites kutusunu kontrol ettiriniz' uyarısı bildiriliyor (Şikâyetvar, DonanımHaber). Önce hata kodları okutulmalı; bir DonanımHaber örneğinde akü değişiminden sonra arıza kodları silinip kavrama kalibrasyonu gerekmiş.",
+            "cozum": "Forumlarda tipik sıra: yazılım güncellemesi ve kavrama kalibrasyonu, olmazsa kavrama (baskı balata) değişimi, bazı vakalarda EDC beyni değişimi. Bir Fluence sahibinde kalibrasyonla sarsıntı azalmış ama tamamen bitmemiş. Şikâyetvar'da bir Kadjar sahibi Tüketici Hakem Heyeti kararına itiraz sonrası debriyaj setinin ücretsiz değiştirildiğini, bir Megane sahibi 82.699 km'de kavrama değişimine rağmen titremenin sürdüğünü yazıyor.",
+            "maliyet": "Şikâyetvar'da bir Kadjar sahibi kavrama değişimi için 2021 Ağustos'ta 17 bin TL, 2022'de 30 bin TL söylendiğini; bir Megane sahibi 35 bin TL'lik debriyaj seti değişimini; bir Clio 4 sahibi baskı balata için 40 bin TL teklifi bildiriyor. Farklı yıllara ait tek tek beyanlar; güncel teklif için yetkili servisten yazılı fiyat alın.",
+            "onlem": "Servis kayıtlarında yazılım güncellemelerini ve kavrama değişimlerini sormak; garanti döneminde şikâyeti yazılı kayda geçirtmek (Şikâyetvar'da tekrarlayan başvuruyla ve hakem heyetiyle sonuç alınan vakalar var). Araclo, EDC'li araçta test sürüşünde vites geçişlerine ve düşük hızdaki davranışa dikkat edilmesini öneriyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/kadjar/edc",
+            "https://www.sikayetvar.com/renault/kadjar/kronik",
+            "https://www.araclo.com/vehicles/renault-kadjar-1.3-tce/degerlendirmeler/kullanici-sorunlari",
+            "https://eksisozluk.com/renault-araclarda-kronik-edc-sorunu--6637087",
+            "https://www.sikayetvar.com/renault/edc/megane",
+            "https://www.sikayetvar.com/edc/titreme",
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/",
+            "https://forum.donanimhaber.com/edc-yazilim-gunceleme--118953849",
+            "https://www.sikayetvar.com/renault/kadjar/sanziman",
+            "https://www.sikayetvar.com/dacia/duster/otomatik",
+            "https://www.sikayetvar.com/dacia/duster/vites",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-537-pannes-renault-megane-4.php",
+            "https://www.caradisiac.com/maxi-fiche-fiabilite-renault-megane-4-un-modele-a-risque-198261.htm",
+            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html"
+          ]
+        },
+        {
+          "id": "kontrol-unitesi",
+          "sorun_adi": "EDC şanzıman beyni arızası ('vites kutusunu kontrol ettirin')",
+          "etkilenen_parca": "EDC çift kavramalı şanzıman: kontrol ünitesi (beyin), kavrama ve aktüatör",
+          "belirtiler": "Gösterge panelinde 'vites kutusunu kontrol ettirin' uyarısı, aracın yolda kalması, düşük kilometrede vites geçişlerinde ses ve sarsıntı",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda neden açıklanmıyor. Araclo'nun ikinci el rehberi EDC'li Captur'ları en büyük riskli kalem olarak gösteriyor ve kullanıcı bildirimlerindeki en sık tabloyu 'vites kutusunu kontrol ettirin' uyarısı, ardından yolda kalma ve şanzıman beyni değişimi olarak özetliyor. Manuel şanzımanlı sürümde belirgin bir şikâyet yoğunluğu yok.",
+            "teshis": "Şikâyetvar'da 2016 model bir Captur Icon 1.5 dCi EDC sahibi 149.662 km'de, 2015 model bir Icon sahibi yaklaşık 80 bin km'de şanzıman beyni arızası bildiriyor. Düşük kilometrede vites geçişlerinde ses ve sarsıntı, kavrama balatası ve ıslık benzeri ses şikâyetleri de var.",
+            "cozum": "Bazı kullanıcılar arızanın yazılım güncellemesiyle çözülebileceğinin söylendiğini ve garanti süresinin bu oyalamalarla geçtiğini anlatıyor; garanti kapsamında kavrama setinin yenilendiğini yazanlar da, servisin sesi arıza yerine konfor sorunu saydığını yazanlar da var. Ekşi Sözlük'te garanti dışı kalmış ve bakımı servis dışında yaptırılmış aracın indirim alamadığı yazılıyor.",
+            "maliyet": "Şikâyetvar ve Ekşi'deki tek tek beyanlar, tarihleri farklı: yetkili serviste onarım için 144.936,11 TL fatura; şanzıman beyni için 25.000 TL istenmesi; şanzıman değişimi için 160 bin TL teklif; 2015 model için yalnızca parça 42.000 TL. Ekşi Sözlük'te Nisan 2024 itibarıyla özel serviste EDC beyin ve kavrama değişiminin 120-130 bin lira civarında olduğu yazılıyor. Farklı servisler çok farklı fiyatlar veriyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/captur/sanziman",
+            "https://www.sikayetvar.com/renault/captur/kronik",
+            "https://www.sikayetvar.com/renault/captur/arac?page=2",
+            "https://eksisozluk.com/renault-araclarda-kronik-edc-sorunu--6637087",
+            "https://www.araclo.com/blog/renault-captur-1.5-dci-alinir-mi-kronik-sorunlar-kullanici-yorumlari-ve-ikinci-el-rehberi",
+            "https://www.sikayetvar.com/renault/scenic/vites",
+            "https://www.sikayetvar.com/renault/ariza/scenic",
+            "https://www.sikayetvar.com/renault/grand-scenic",
+            "https://www.sikayetvar.com/renault/iyi-niyet-garantisi-magduriyeti-renault-servisinden-hayal-kirikligi",
+            "https://www.planeterenault.com/forum/scenic-iii-esp-demarrage-en-cote-et-boite-a-controler-regle-t52997.html?amp=1",
+            "https://www.planeterenault.com/forum/scenic-iii-boite-edc-sur-scenic-3-dci-110-defaut-t55386.html?amp=1",
+            "https://www.fiches-auto.fr/avis-renault/avis-unique-272-92488-renault-scenic-3-15-dci-110-ch-achat-1-2011-126-000km-.php"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renault-h4bt-h4dt",
+      "ad": "Renault / Nissan H4Bt - H4Dt 0.9 / 1.0 TCe (3 silindir turbo benzin)",
+      "tur": "motor",
+      "aciklama": "Renault, Dacia, Nissan (IG-T) ve Smart'ın kullandığı 0.9 TCe (H4Bt) ve 1.0 TCe (H4Dt) üç silindirli turbo benzinli motor. Clio 4 / 5, Sandero, Logan, Duster, Jogger, Taliant, Captur 2 ve Micra K14'te bulunur.",
+      "kronik_sorunlar": [
+        {
+          "id": "turbo-wastegate",
+          "sorun_adi": "Turbo wastegate sesi ve arızası",
+          "etkilenen_parca": "Turbo wastegate (atık gaz) valfi ve aktüatörü",
+          "belirtiler": "Gazdan çekilince cızırtı veya tel sesi; servis ayarı sesi geçici olarak gideriyor ama tekrarlayabiliyor, bazı araçlarda turbo değişimi ve uzun parça bekleme süresi",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Gazdan çekilince turbo wastegate bölgesinden gelen cızırtı/zırıltı: Araclo bunu wastegate ayarsızlığına bağlıyor ve servis ayarıyla giderilebildiğini ama tekrarlayabildiğini yazıyor; And Mehmet Çetin Renault 1.0 TCe'nin en bilinen kroniklerinden biri sayıyor. Şikâyetvar'da bir kullanıcı yetkili servisin sorunu wastegate pimine bağladığını ve fabrikadan çözüm beklendiğini aktarıyor; servisler çoğu zaman 'risk teşkil etmez' diyor. Şikâyetlerin çoğu Clio 5 1.0 TCe'ye ait (aynı motor ailesi). Renault Symbol (2013-2020) bu aracın Türkiye'de Renault adıyla satılan ikizidir (Dacia Logan II tabanlı, Bursa'da üretilir; Motor1, Wikipedia) ve aynı motorlarla satılır; Symbol'e özgü ayrı kaynak bulunamadı, bu kayıt kardeş modelin kaynaklarına dayanır.",
+            "teshis": "Gazdan çekerken (ör. 1-2. vitesteki 2.000'den 1.500 devire inişte) metalik çıtırtı ya da cızırtı; bir kullanıcı sesin motora zarar vermediğini yazıyor. Her ses wastegate değildir: bir Şikâyetvar yorumunda servis motor kulağında (takoz) sorun olduğunu söylemiş. Sesin hangi koşulda geldiğini kayda almak servise anlatmayı kolaylaştırıyor.",
+            "cozum": "Denenenler: yazılım güncellemesi (bir kullanıcıda ses azalmış ama 3-4 ay sonra dönmüş), turbo değişimi (garantide turbosu değişen bir Clio 5 sahibinde ses geri gelmiş ve servis 'normal' demiş), dışarıda turbocuda wastegate piminin kenarına conta taktırma (bir kullanıcıda ses kesilmiş, ~500 TL; tek deneyim). Resmî bir kalıcı çözüm bulunamadı.",
+            "maliyet": "Garantide turbo değişimi ücretsiz; dışarıda wastegate pimine conta işlemi için bir kullanıcı ~500 TL yazmış (yıl belirtilmemiş, güncel değil). Mevcut kayıtta bazı araçlarda turbo değişimi için uzun parça bekleme süresi bildiriliyor.",
+            "onlem": "Garantide servis 'normal' dediğinde yazılı kayıt ve tekrarlayan başvuru tutmak; Şikâyetvar'daki birçok vakada sorun aylarca çözülmemiş. Soğuk çalıştırma ve gazdan çekme seslerini kaydedip servise göstermek."
+          },
+          "kaynaklar": [
+            "https://www.araclo.com/blog/dacia-sandero-sandero-stepway-satin-alma-rehberi-bakim-kronik-sorunlar-ve-fiyatlar-2026",
+            "https://www.sikayetvar.com/dacia/sandero/turbo",
+            "https://www.sikayetvar.com/dacia/sandero/motor",
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/",
+            "https://www.sikayetvar.com/renault/clio/cizirti",
+            "https://www.sikayetvar.com/renault/clio/turbo",
+            "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053",
+            "https://www.sikayetvar.com/dacia/sandero/stepway",
+            "https://www.sikayetvar.com/dacia/dacia-duster-10-turbo-eco-g-turbo-westgate-arizasi",
+            "https://www.araclo.com/blog/renault-clio-1.0-tce-nasil-ne-kadar-yakar-alinir-mi-2026-guncel-rehber",
+            "https://www.sikayetvar.com/renault/clio/10-tce",
+            "https://www.sikayetvar.com/renault/renault-2020-clio-5-10-tce-90-hp-turbo-arizasi",
+            "https://www.sikayetvar.com/renault/garanti-kapsamindaki-turbo-ve-far-arizalari-tekrar-tekrar-cozulmedi",
+            "https://www.sikayetvar.com/renault/renault-taliant-10-motorlarda-kronik-turbo-sorunu-var"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renault-h5ft-1-2-tce",
+      "ad": "Renault / Nissan 1.2 TCe - DIG-T (H5Ft / HRA2DDT)",
+      "tur": "motor",
+      "aciklama": "Renault ve Nissan'ın 1.2 litre dört silindirli turbo benzinli motoru (H5Ft; Nissan'da HRA2DDT): Clio 4, Captur, Kadjar, Megane 3, Juke ve Qashqai J11'de 115-130 PS.",
+      "kronik_sorunlar": [
+        {
+          "id": "yag-tuketimi",
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, buji kirlenmesi, ileri aşamada segman kırılması ve motor hasarı",
+          "tahmini_km_araligi": "40.000 - 100.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de öne sürülen açıklama: doğrudan enjeksiyonun yakıtı silindir duvarındaki yağ filmini seyreltmesi; başka bir görüş sorunu büyük ölçüde turboya bağlıyor (ikisi de doğrulanmamış). Bir forum kaynağı 1.2 TCe 115/120/130 bg'li Captur, Clio 4, Kadjar, Kangoo 2, Megane 3 ve Scénic 3'ün etkilendiğini yazıyor.",
+            "teshis": "Yağ seviyesi uyarısı ve bakımlar arasında eksilme. Kullanıcılar servislerin eksiltmeyi başta normal sayıp kaydı ancak sonradan açtığını yazıyor; bir kullanıcı kitapçıkta 1.000 km'de 0,5 L eksiltmenin yazdığını belirtiyor.",
+            "cozum": "Renault'nun yazılım güncellemesi ve parça değişimi yaptığı, ama her zaman etkili olmadığı bildiriliyor (forum). Bir kullanıcı 50 bin km'de segman kırılmasıyla motorunun açıldığını yazıyor.",
+            "maliyet": "Aynı kullanıcıya tamirin yaklaşık 10.000 TL tutabileceği söylenmiş (yıl belirtilmemiş, güncel değil).",
+            "onlem": "Yağ seviyesini sık kontrol etmek. Yağ seçimi tartışmalı: bir kullanıcı Motul 5W-40'ın eksiltmeyi azalttığını yazıyor, başka bir kaynak 100 bin km üzerinde LPG yoksa 5W-40 yerine 5W-30 öneriyor. Geri çağırma ya da garanti uzatması aramada doğrulanamadı; şasi numarasıyla yetkili servisten sorgulayın."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/50-000-km-de-sekman-kirip-motoru-acilan-clio-4-1-2-turbo-ve-yag-eksiltme-sorunu--133657387",
+            "https://forum.donanimhaber.com/renault-1-2-turbo-edc-yag-eksiltme-problemi--109082025",
+            "https://connexionfrance.com/article/French-news/Renault-cars-have-severe-defect-says-consumer-group",
+            "https://www.ocu.org/acciones-colectivas/afectados-motor-defectuoso-renault",
+            "https://forum.donanimhaber.com/renault-captur-1-2-edc-yag-eksiltme-problemi--109049535",
+            "https://forum.donanimhaber.com/nissan-1-2-dig-t-motor-davasi--138833932",
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
+            "https://otopark.com/forum/threads/1-2-nissan-qashqai-yag-yakma-sorunu.10284/",
+            "https://forum.donanimhaber.com/nissan-1-2-dig-t-motorlarda-yag-yakma-kronik-mi--135256536",
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-12-dig-t-motor-problemi"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2013,
+              "bitis": 2016,
+              "durum": "Yaygın",
+              "not": "Fransız tüketici örgütü UFC-Que Choisir 2012 sonu-2016 ortası üretilen H5F motorlar için uyarı yaptı; Renault kusur olduğunu reddediyor."
+            }
+          ]
+        },
+        {
+          "id": "triger-zinciri",
+          "sorun_adi": "Triger zinciri sesi ve uzaması",
+          "etkilenen_parca": "Triger zinciri ve zincir gergisi",
+          "belirtiler": "Soğuk çalıştırmada birkaç saniye süren metalik zincir sesi, düzensiz rölanti, zamanlama hata kodu",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Araclo'nun Clio 1.2 TCe sayfası, yağ tüketimi ve yetersiz yağlamanın zincir ve gergi grubunun erken aşınmasını hızlandırabileceğini, bu motorun bazı üretim dönemlerinde yağ tüketiminin normalin üzerine çıktığını yazıyor; bir forum yazarı doğrudan enjeksiyonun yağı seyrelttiğini düşünüyor. UFC-Que Choisir, 2012 sonu-2016 ortası arası üretilen H5 tipi 1.2 TCe/DIG-T motorların fazla yağ yaktığını öne sürdü; Renault kusuru reddediyor ve fazla tüketimin yağ ve kullanım koşulları gibi farklı nedenlerden gelebileceğini söylüyor. H5Ft için zincir uzamasının yaygınlığını gösteren güvenilir istatistik ya da resmî kaynak bulunamadı.",
+            "teshis": "Araclo: soğuk ilk çalıştırmada birkaç saniye süren metalik zincir sesi, düzensiz rölanti, zamanlama hata kodu ve ileri aşamada güç kaybı; ses artıyorsa serviste zincir ve gergi kontrolü öneriliyor.",
+            "onlem": "Forum kullanıcıları erken yağ değişimi ve kaliteli yağın sesi azaltabildiğini, uzun rölanti ve sürekli kısa mesafe kullanımının sorunu hızlandırdığını bildiriyor (kullanıcı tecrübesi düzeyinde). Araclo yağ seviyesi takip edilmezse turbo, zincir ve motor yataklarının da zarar görebileceğini yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.araclo.com/vehicles/renault-clio-1.2-tce/degerlendirmeler/kullanici-sorunlari",
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
+            "https://www.qashqaiforums.co.uk/viewtopic.php?p=69316"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renault-k9k",
+      "ad": "Renault K9K 1.5 dCi (common rail dizel)",
+      "tur": "motor",
+      "aciklama": "Renault, Dacia, Nissan ve Mercedes'in (A / B / CLA / GLA 180 CDI, Citan) kullandığı 1.5 litre common rail dizel motor (K9K; Mercedes'te OM607 / OM608). Clio, Megane, Symbol, Fluence, Scenic, Captur, Kadjar, Sandero, Logan, Duster, Dokker, Lodgy, Kangoo, Qashqai, Juke ve Note'ta bulunur.",
+      "kronik_sorunlar": [
+        {
+          "id": "enjektor",
+          "sorun_adi": "Enjektör arızası",
+          "etkilenen_parca": "Common-rail enjektörleri ve bakır pulları",
+          "belirtiler": "Rölantide titreme, siyah duman, güç kaybı, motor ve enjeksiyon arıza lambası; düşük kaliteli yakıt sorunu hızlandırıyor",
+          "tahmini_km_araligi": "80.000 - 180.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Common-rail enjektörleri yakıt kalitesine duyarlı kabul ediliyor: Araclo ve Arabam.com kötü yakıtın ya da suyla dolu mazot filtresinin enjektörleri bozabileceğini yazıyor; DonanımHaber'de enjektör dibinden kaçağın genelde mazot kaynaklı olduğu ve bakır pul değişiminin yaygın çözüm olduğu belirtiliyor. Şikâyetvar'da bir Duster sahibinin dört enjektörünün aynı anda arızalanması Renault tarafından 'yakıt kaynaklı' sayılıp garanti dışı bırakılmış.",
+            "teshis": "Forumlarda sabah zor çalışma, rölantide titreme, siyah ya da gri duman, güç kaybı, yakıt tüketiminde artış ve enjektör şakırtısı sayılıyor; gaza yüklenince arıza/motor stop ışıklarının yanıp sönmesi ve 'enjektörü/enjeksiyonu kontrol ettirin' uyarısı bildiriliyor (DonanımHaber, Şikâyetvar). Enjektör dibinde mazot kaçağı izi bakır pul sorununa işaret ediyor; kaçak uzun sürerse çevrede kuruyup enjektörün sökülmesini zorlaştırabiliyor.",
+            "cozum": "Bakır pul kaçağında pulların değiştirilmesi yaygın çözüm olarak anlatılıyor; bir kullanıcı pulları değiştirdikten sonra Bosch serviste ayar ve C.C. işlemiyle sorunun kapandığını yazıyor. Enjektörler sökülüp ultrasonik cihazda temizlenebiliyor, ancak bir kaynak temizliğin her arızayı çözmediğini, bazı vakalarda onarım ya da değişim gerektiğini belirtiyor. Bir kullanıcı enjektör ringlerinin yaklaşık 50 bin km'de değişmesi gerektiğini yazıyor (doğrulanmamış).",
+            "maliyet": "Rakamlar dağınık ve tarihli. DonanımHaber'de enjektör temizliği için 200-1.500 TL (tarihler belirsiz; bir Clio 4 sahibi 265 bin km'de temizlik ve bakım için 1.200 TL), eski bir mesajda enjektör setinin 2.000 TL altında olmadığı yazılı. Şikâyetvar'daki yetkili servis vakalarında parça ve işçilik kabaca 20.000-50.000 TL (bir Megane için iyi niyet indirimiyle 21.000 TL; bir Megane 4 için garanti reddi sonrası ~49.000 TL; motor tipi karışık). Güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Yakıtı güvenilir istasyondan almak, mazot filtresini ve içindeki suyu düzenli kontrol ettirmek (Arabam.com, Araclo); enjektör dibinde kaçak izi görülünce bakır pulu geciktirmeden değiştirmek (DonanımHaber: uzun süren kaçak sökümü zorlaştırıyor); garanti dönemindeyse arızayı yazılı kayda geçirtmek (Şikâyetvar'da arızaların yakıta bağlanıp garanti dışı bırakıldığı vakalar var). Düzenli bakımla enjektör sorunu yaşamadan 250.000 km'ye ulaşan kullanıcılar da var (DonanımHaber), yani sorun kullanıma ve yakıta çok bağlı."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/2013-clio-4-dci-1-5-egzos-emisyon-enjeksiyon-arizasi--143635082",
+            "https://www.araclo.com/blog/renault-clio-1.5-dci-incelemesi-kronik-sorunlar-yakit-tuketimi-ve-yorumlar",
+            "https://www.araclo.com/vehicles/renault-clio-1.5-dci-grandtour/kronik-sorunlar",
+            "https://www.sikayetvar.com/renault/clio/clio-dci",
+            "https://forum.donanimhaber.com/renault-1-5-dci-motor-enjektor-arizasi-resimli--58682772-3",
+            "https://forum.donanimhaber.com/renault-1-5-dci-motor-enjektor-arizasi-resimli--58682772-2",
+            "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
+            "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/",
+            "https://forum.donanimhaber.com/clio-4-1-5-dci-edc-250-000-km-kullanici-deneyimi--149107088",
+            "https://www.sikayetvar.com/renault/clio/enjeksiyon",
+            "https://forum.donanimhaber.com/clio-3-kasa-dci-sorunlarini-paylasalim--55918395",
+            "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/",
+            "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
+            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html"
+          ]
+        },
+        {
+          "id": "egr-valfi",
+          "sorun_adi": "EGR valfi tıkanması",
+          "etkilenen_parca": "EGR valfi",
+          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide düzensizlik veya stop etme",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Araclo kronik sorunlar arasında EGR valfinin ve emme yollarının kurumlanmasını sayıyor; düşük devirli şehir kullanımında ve tozlu ortamda görülüyor.",
+            "cozum": "Temizlik ya da valf değişimi; forumlarda temizlenen EGR'nin tekrar tıkanabildiği yazılıyor. Bir kullanıcı yazılımla EGR iptalinin 650 TL tuttuğunu aktarıyor (riskli ve mevzuat açısından sorunlu bir yöntem).",
+            "maliyet": "Bir kullanıcı 2021'de EGR temizliği için 400 TL ödediğini, bir kaynak 2023 için 300-500 TL aralığını yazıyor; orijinal EGR valfi ve soğutucu bir kullanıcıya göre yaklaşık 4.500 TL. Forumdaki fiyatlar on yıllık bir aralığa yayılıyor, güncel değil."
+          },
+          "kaynaklar": [
+            "https://www.largus.fr/actualite-automobile/fiabilite-dacia-duster-problemes-de-fonctionnement-du-moteur-15-dci-6278389.html",
+            "https://www.fiches-auto.fr/fiabilite-dacia/fiabilite-274-pannes-dacia-duster.php",
+            "https://www.araclo.com/vehicles/dacia-duster/duster1-makyajli/1-5-dci/kronik-sorunlar",
+            "https://forum.donanimhaber.com/egr-valfi-temizligi--30929546",
+            "https://forum.donanimhaber.com/egr-belirli-araliklar-ile-temizlenmeli-mi--132082187",
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-1-5-tsi-evo",
+      "ad": "VAG 1.5 TSI evo (EA211 evo, ACT / eTSI)",
+      "tur": "motor",
+      "aciklama": "2017'den itibaren Golf 7.5 / 8, Passat B8, Tiguan, T-Roc, Karoq, Kodiaq, Octavia, Superb, Leon, Arteon, Formentor ve Audi A3 / Q2 / Q3'te (35 TFSI) kullanılan 1.5 litre TSI. İki silindiri kapatan ACT sürümü ile 48V hafif hibrit sürümleri (eTSI, e-TEC, MHEV) aynı motor ailesidir.",
+      "kronik_sorunlar": [
+        {
+          "id": "yag-eksiltme",
+          "sorun_adi": "Yağ eksiltme ve düşük yağ uyarısı",
+          "etkilenen_parca": "1.5 TSI motor: segman, supap sapı keçeleri ve yağ sistemi (kaynaklarda neden netleşmiyor)",
+          "belirtiler": "İlk bakımdan önce 'yağ seviyesi düşük' uyarısı; yetkili servis eksilmeyi normal sayıp yağ takviyesi için ücret istiyor",
+          "tahmini_km_araligi": "5.000 - 60.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net neden verilmiyor. Şikâyetvar'da 2021 model Passat 1.5 TSI sahipleri 12.000-14.200 km'de, ilk bakımdan önce yağ seviyesi uyarısı aldıklarını yazıyor; yetkili servis eksilmenin normal olduğunu söylemiş ve yarım litre yağın ücretini istemiş, müşteri ilişkilerinin '2000 km'de bir yağ eksilebilir' dediği aktarılıyor ve kullanıcı buna katılmıyor. Forumlarda TSI yağ eksiltmesi için segman, supap sapı keçesi ve yağ kalitesi öne sürülüyor; bunlar Passat'a özgü değil.",
+            "teshis": "Şikâyetvar'da 110 bin km'deki 2020 model bir Passat 1.5 TSI sahibi yağ seviyesi tam görünürken sürüşte yağ uyarısı aldığını, araç durdurulup çalıştırılınca uyarının kaybolduğunu yazıyor; bu, seviye sensörü ya da yağ basıncı kaynaklı bir sorun olabileceğini düşündürüyor ama kesin bir teşhis yok.",
+            "cozum": "Kesin bir onarım yöntemi ya da resmî bülten bulunamadı; servisin eksilmeyi normal sayıp yağı ücretli tamamladığı anlatılıyor.",
+            "onlem": "Aynı motorun T-Roc, Tiguan ve Karoq kayıtlarındaki önlemler geçerli: VW onaylı yağ kullanmak, yağ seviyesini düzenli ölçüp kilometre ve litre kaydı tutmak, garanti süresinde tekrarlayan eksiltmeyi servise yazılı bildirmek."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/passat/yag",
+            "https://www.sikayetvar.com/volkswagen/passat/tsi",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-passat-15-tsi",
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
+            "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-t-roc-surekli-yag-sorunlari-ve-hayal-kirikligi",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-t-roc-yag-eksiltme-problemi",
+            "https://forum.donanimhaber.com/t-roc-alinir-mi--154157079",
+            "https://www.sikayetvar.com/volkswagen/tiguan/yag",
+            "https://www.sikayetvar.com/volkswagen/garanti-kapsamindaki-aracta-tekrarlayan-yag-eksiltme-ve-ucret-talebi",
+            "https://forum.donanimhaber.com/volkswagen-tiguan-alinirmi--126098971",
+            "https://www.sikayetvar.com/skoda/surekli-yag-eklemekten-biktim-cozum-bekliyorum"
+          ]
+        },
+        {
+          "id": "act-titresim",
+          "sorun_adi": "Düşük devirde titreşim ve düzensiz rölanti (ACT silindir kapatma)",
+          "etkilenen_parca": "ACT (2. ve 3. silindir kapatma) geçişi, motor takozları, karter havalandırma (PCV) hattı ve emme tarafı kurumu, volan (kaynaklarda neden netleşmiyor)",
+          "belirtiler": "1.000 devir altında ve araç dururken düzensiz titreşim, soğuk çalıştırmada sesli çalışma; ACT iki silindir moduna geçince düşük devirde hırıltılı sürekli titreme (ACT devreden çıkınca kesilebiliyor)",
+          "tahmini_km_araligi": "5.000 - 60.000 km",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Kaynaklarda kesin neden yok ve kilometre bilgisi net değil (aralık tahmindir). Otopark'taki Karoq 1.5 TSI başlığında yanıtlayanlar sırasıyla motor takozlarını (titreşim motor sıcakken de oluyorsa ilk bakılacak yer), PCV hattından dönen yağın emme manifoldu ve supaplarda bıraktığı karbonu ve düzensiz titreşimde LSPI ihtimalini sayıyor; volan ve nadiren ateşleme kaçığı da anılıyor, ateşleme kaçığı olsaydı arıza kaydı oluşurdu deniyor. İkinci kaynak DonanımHaber'deki bir Golf 1.5 TSI ACT 150 başlığı (aynı motor, Karoq'a ait değil): sahibi iki silindir moduna geçince düşük devirde sürekli hırıltılı titreme anlatıyor.",
+            "teshis": "Otopark'ta Karoq sahibi servise başvurduğunda durumun motor karakteristiği olduğu söylenmiş. DonanımHaber'de Golf sahibi servise iki kez gittiğini, servisin bunu iki silindir moduna geçişte olağan titreşim saydığını ve servisteki test aracında da aynı titremeyi gördüğünü yazıyor; aynı başlıkta başka bir kullanıcı ACT'yi hiç hissetmediğini söylüyor.",
+            "cozum": "Kesin çözüm yok. DonanımHaber başlığında bir kullanıcı buji, bobin, yüksek basınç pompası ve enjeksiyon parçalarını değiştirdiği ve emme manifoldu temizliği yaptırdığı halde titremenin geçmediğini yazıyor. Otopark'ta motor takozunun mümkünse orijinaliyle değiştirilmesi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/1-5-tsi-yasadigim-problemler-titresim-ve-genel-parca-kalitesizligi-yardim.16331/",
+            "https://forum.donanimhaber.com/golf-1-5-tsi-act-150hp-2-silindir-modunda-titreme-sorunu--148387757"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-1-6-tdi-egr-dpf",
+      "ad": "VAG 1.6 TDI EGR valfi ve DPF (EA189 / EA288)",
+      "tur": "sistem",
+      "aciklama": "1.6 litre TDI dizel motorlarda (EA189 ve EA288) egzoz gazı geri dönüşüm valfi ve dizel partikül filtresi: kısa mesafe ve düşük devirli kullanımda kurum birikmesi ve rejenerasyon sorunları. Golf, Passat B8, Audi A3, Caddy, Touran, Octavia, Superb III ve benzerleri.",
+      "kronik_sorunlar": [
+        {
+          "id": "egr-dpf",
+          "sorun_adi": "EGR valfi ve DPF tıkanması",
+          "etkilenen_parca": "EGR valfi, dizel partikül filtresi (DPF)",
+          "belirtiler": "Motor arıza lambası, rölantide sarsıntı, ani güç kaybı, sık rejenerasyon; EGR iptali sonradan DPF sorunlarına yol açabiliyor",
+          "tahmini_km_araligi": "70.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kısa mesafe ve düşük devirli kullanımda DPF rejenerasyon koşulları oluşmuyor ya da aktif rejenerasyonlar yarıda kesiliyor (DonanımHaber, Şikâyetvar); EGR valfi is ve karbonla tıkanıyor. Forumlarda iki sorunun birlikte geldiği ve kısa mesafe kullanımında arttığı yazılıyor.",
+            "teshis": "Motor arıza lambası, çekiş kaybı, DPF uyarısı. Araclo A3 1.6 TDI için EGR tıkanmasının çoğunlukla 60.000-120.000 km arasında çıktığını yazıyor; DonanımHaber'de bir Golf kullanıcısı yaklaşık 70.000 km civarında arıza lambası ve çekiş kaybı yaşadığını aktarıyor.",
+            "cozum": "EGR valfi mekanik olarak sağlamsa ve yalnızca kurum yüzünden takılıyorsa sökülüp temizleniyor; aktüatör, konum sensörü ya da dişlilerde arıza varsa valf değişiyor. DPF için sabit hızda yeterince süre gidip filtrenin kendini temizlemesi ya da filtrenin sökülüp özel makinede temizlenmesi öneriliyor; bir yorumcu temizliğin kalıcı olmadığını belirtiyor. Yazılımla DPF devre dışı bırakma/söküm forumlarda tartışılıyor, yasal ve emisyon açısından riskli.",
+            "maliyet": "Eski forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), bir özel servis Skoda Rapid için 2.500-3.000 TL, bir başkası 1.500 TL; DPF makinede temizliği ~700-1.000 TL; bir kullanıcı VW yetkili servisinden orijinal DPF için 38.000 TL teklif aldığını yazıyor. Güncel teklif alın.",
+            "onlem": "Şehir içi kısa mesafe kullanımını arada uzun, sabit hızlı yolla dengelemek (forum önerisi). 2. elde EGR/DPF iptalli araçlardan kaçınmak."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/passat-partikul-sorunu--159780000",
+            "https://forum.donanimhaber.com/b8-1-6-tdi-rolantide-sarsinti-ve-yolda-gaz-kesme-sorunu--150167207",
+            "https://forum.donanimhaber.com/vw-passat-kroniklesen-motor-isigi--148093603",
+            "https://www.sikayetvar.com/volkswagen/passat/kronik",
+            "https://www.araclo.com/blog/volkswagen-passat-1.6-tdi-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://forum.donanimhaber.com/dpf-temizligi-hakkinda-passat-1-6tdi--148242926",
+            "https://otopark.com/forum/threads/egr-ve-dpf-agrizasi-mk6-golf-1-6-tdi.2529/",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/",
+            "https://www.sikayetvar.com/volkswagen/dizel/partikul-filtresi",
+            "https://otopark.com/forum/threads/golf-1-6-tdi-dpf-problemi.9143/",
+            "https://forum.donanimhaber.com/golf-6-motor-kumandasi-arizasi--95216908",
+            "https://eksisozluk.com/dpf-rejenerasyonu--5836582",
+            "https://www.vwvortex.com/threads/1-5-and-1-6-diesel-common-problems.5608561/",
+            "https://www.vwvortex.com/threads/mk6-golf-tdi-a-good-car.5998827/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-48v-etsi",
+      "ad": "VAG 48V hafif hibrit sistem (eTSI / e-TEC / MHEV)",
+      "tur": "sistem",
+      "aciklama": "2020'den itibaren Golf 8, Octavia A8, Leon, Formentor, Superb IV, Audi A3 8Y ve Passat B9 gibi modellerde 1.0 ve 1.5 TSI motorlara eklenen 48 V kayış tahrikli marş-alternatör ve lityum akü sistemi.",
+      "kronik_sorunlar": [
+        {
+          "id": "alternator-48v",
+          "sorun_adi": "48V hafif hibrit sistem ve alternatör-marş jeneratörü arızası",
+          "etkilenen_parca": "48 V akü, alternatör/marş jeneratörü, 12 V akü ve SOS/tahrik sistemi uyarısı",
+          "belirtiler": "'Hata: 48V beslemesi' ve 'Aracı sürmeyin' benzeri uyarılar, her çalıştırmada sesli SOS arıza uyarısı, 12 V / 48 V akü uyarıları, yolda kalma",
+          "tahmini_km_araligi": "20.000 - 80.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklar kök nedeni doğrulamıyor. Şikâyetvar'da bir Leon FR 1.5 eTSI sahibine 39.000 km'de marş alternatörünün bozulduğu ve hibrit akünün çalışmadığı söylenmiş; 2024 model bir Leon 1.0 eTSI sahibi fabrika aküsünün alternatör dahil ciddi bir arızaya yol açtığını düşünüyor (iddia); bir kullanıcı SOS arızasının bu modelde kronik olduğunu yazıyor. İki DonanımHaber başlığı Leon'a özel değil, DSG'li eTSI ve Skoda e-TEC ailesindeki aynı 48 V sistemi anlatıyor: alternatör sorunu 12 V ve 48 V arızalarına yol açıyor, 1.0 motorda daha sık ama 1.5'te de görülüyor, üretici kalıcı çözüm üretmemiş (ikinci el anlatım, doğrulanmadı).",
+            "teshis": "Şikâyetvar'da bir 2021 Leon 1.5 TSI 130 sahibi SOS arızasının her çalıştırmada sesli uyarı verdiğini ve sürüşte ekranda sürekli uyarı gösterdiğini yazıyor; 2024 model bir Leon 1.0 eTSI garanti kapsamındayken 48 V arızası nedeniyle yolda kalmış. Volkswagen 1.0 eTSI kaydında (aynı sistem) 12 V ve 48 V uyarılarının araç uzun süre park edip sabah çalıştırılınca çıktığı, servisin alternatörü suçladığı ve yeni alternatöre rağmen arızanın birkaç gün içinde döndüğü anlatılıyor.",
+            "cozum": "Şikâyetvar'da garanti kapsamındaki araçta parça bekleme süresinin uzadığı ve ikame araç verilmediği, garanti süresi dolduktan sonra ise arızaların ücretli çözüldüğü ya da iyi niyet desteğinin reddedildiği (39.000 km'deki Leon FR 1.5 eTSI dahil) anlatılıyor.",
+            "maliyet": "Leon için net TL rakamı bulunamadı; aynı 48 V sistem için Golf 8 ve Octavia kayıtlarında garanti dışı yüksek ücret talepleri bildiriliyor.",
+            "onlem": "Şikâyetvar yorumlarında yedek parça olarak VW ya da Audi markalı alternatör tercih edilmesi öneriliyor (grup son yıllarda kendi alternatörünü üretmiş); 2021-2023 VAG hafif hibrit modellerinde fabrika çıkışlı Valeo alternatör kullanıldığı iddiası aynı yorumlarda geçiyor (doğrulanmadı)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/seat/seat-leon-2021-sos-arama-uyarisi",
+            "https://www.sikayetvar.com/seat/leon/kronik",
+            "https://www.sikayetvar.com/seat/leon/tsi",
+            "https://www.sikayetvar.com/seat/aku/leon",
+            "https://www.sikayetvar.com/volkswagen/aracimda-tekrarlayan-12v-ve-48v-arizalari-serviste-cozulemiyor",
+            "https://forum.donanimhaber.com/dsg-etsi-alternator-sorunu--161956122",
+            "https://forum.donanimhaber.com/1-5-e-tec-motor-48v-aku-arizasi-anlasilir-mi--161442841",
+            "https://www.sikayetvar.com/volkswagen/golf-hybrid/alternator-arizasi",
+            "https://www.sikayetvar.com/volkswagen/golf-hybrid/golf-8-etsi",
+            "https://www.sikayetvar.com/volkswagen/garanti-disi-alternator-arizasi-ve-130-bin-tl-ucret-talebi",
+            "https://forum.donanimhaber.com/sifir-golf-8-ile-yasadigim-sorunlar--150729664",
+            "https://www.sikayetvar.com/skoda/skoda-octaviada-kronik-tahrik-sistemi-ve-alternator-sorununa-yetersiz-cozum-ve-iyi-niyet-indirimi",
+            "https://www.sikayetvar.com/skoda/skoda-octavia-10-etec-alternator-arizasi-garanti-kapsamina-alinmali",
+            "https://eksisozluk.com/cupra-formentor--5969524?p=17"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-dq200",
+      "ad": "VAG DQ200 7 ileri kuru kavramalı DSG (S tronic)",
+      "tur": "sanziman",
+      "aciklama": "VW grubunun 2008-2020 arasında 1.0-1.6 litrelik motorlu modellerinde (Golf, Polo, Jetta, Octavia, Rapid, Leon, Ibiza, Kamiq, T-Roc, Audi A1 / A3 gibi) kullandığı 7 ileri kuru kavramalı çift kavramalı şanzıman. 2.0 litre ve üzeri motorlarda ıslak kavramalı DQ250 / DQ381 / DQ500 kullanılır.",
+      "kronik_sorunlar": [
+        {
+          "id": "mekatronik-ve-kavrama",
+          "sorun_adi": "DSG mekatronik ve kavrama arızası",
+          "etkilenen_parca": "DQ200 7 ileri kuru kavramalı DSG: mekatronik ünite ve kavrama paketi",
+          "belirtiler": "\"Aracı P konumunda terk edin\" uyarısı, düşük hızda sarsıntı ve tıkırtı, vites geçişlerinde vuruntu, boşa düşme, acil moda geçme",
+          "tahmini_km_araligi": "30.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DQ200, 7 ileri kuru kavramalı çift kavramalı şanzımandır; hem elektronik-hidrolik mekatronik ünitesi hem kavrama paketi yıpranabilir. And Mehmet Çetin'e göre DSG mekatronik arızalarının büyük kısmı bu şanzımanda görülüyor: önce vites geçişleri titreşimli olur, sonra şanzıman vitese geçmez. Yazı, 2008'de çıkan DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu belirtiyor. VW Yeni Zelanda, Ekim 2008-Kasım 2014 arası üretilen DQ200'lü araçlar için hidrolik basınç kaybına karşı mekatronik incelemesi öngören bir kampanya (35E5) yayımlamış. Otopark'ta bir kullanıcı yanlış şanzıman yağını da neden olarak sayıyor.",
+            "teshis": "Forum yorumlarında kalkışta ya da 2. vitesteki sarsıntı çoğunlukla kavramaya, vites geçişlerindeki kararsızlık mekatroniğe bağlanıyor (DonanımHaber). Araclo'nun DQ200 rehberine göre mekatronikteki basınç kaybı ile kavrama aşınması aynı titremeyi üretebildiği için hata kodu okutmadan kavrama değiştirmek en sık yapılan hata. Mekatronik arızasında vites geçişlerinin durması, şanzıman uyarısı, tek vitese kilitlenen güvenli mod ve ani güç kaybı görülüyor; P17BF, P189C, P1895 (basınç tüpü) ve P1735/P1736 (kavrama konum sensörü) kodları anılıyor. Kavrama kalınlığı teşhis cihazıyla ölçülüyor.",
+            "cozum": "Önce arıza kodları ve adaptasyon değerleri okutulur, kavrama kalınlığı ölçülür. Sonuca göre kavrama seti (baskı balata, disk, gerekirse volan) ve/veya mekatronik ünite yenilenir ya da onarılır; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Şikâyetvar'daki DSG şikâyetlerinde garanti dışı araçlarda bayiden 'iyi niyet' katkısı istendiği, bazı servislerin ise kavramayı 'kullanıcı hatası ya da bakımsızlık' gerekçesiyle kapsam dışı bıraktığı yazılı; işlemden önce garanti ve parça kapsamını yazılı netleştirmek öneriliyor.",
+            "maliyet": "Fiyatlar tarihe ve servise göre çok değişiyor. And Mehmet Çetin kuru kavramanın ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebileceğini, bunun yetkili serviste 60-80 bin, sanayide ~50 bin TL olduğunu yazıyor (yazı tarihli, güncel değil). DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı), kavrama ve mekatronik için ~30 bin TL, bir Golf'te şanzıman için 43.000 TL bildirilmiş; Şikâyetvar'da eski (2014-2016) araçlar için 9-13 bin TL, son yıllarda 40-60 bin TL ve üzeri rakamlar var. Farklı yıllara ait, doğrudan karşılaştırılamaz; güncel teklif için birkaç servisten yazılı fiyat alın.",
+            "onlem": "Otopark'ta bir kullanıcı kavrama ömrünü büyük ölçüde sürüş tarzının belirlediğini, baskı balata sürekli zorlanırsa hızla aştığını yazıyor; motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor (Otopark). Şanzıman yağı/mekatronik bakımını aksatmamak ve ikinci elde yağ değişim geçmişini sormak öneriliyor (Araclo). And Mehmet Çetin, 1.6 TDI ile 1.0-1.2 TSI motorlu VAG araçlarında DSG'nin 1.4 TSI'ya göre daha uzun dayandığını gözlemlediğini yazıyor (kişisel gözlem, istatistik değil)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/rapid",
+            "https://www.sikayetvar.com/skoda/kronik/rapid",
+            "https://www.sikayetvar.com/skoda/dsg",
+            "https://forum.donanimhaber.com/2016-model-731-km-de-skoda-rapid-sedan-1-2-tsi-dsg-sanziman-hatasi--119140810",
+            "https://forum.donanimhaber.com/dsg-sanziman-sorunu-skoda-rapid--131794183",
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
+            "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html",
+            "https://www.sikayetvar.com/seat/leon/kronik",
+            "https://www.briskoda.net/forums/topic/438569-mechatronics-failure-dsg/",
+            "https://www.vwvortex.com/threads/dq200-dsg-in-global-recall-possibly-affects-jetta-hybrid.6858488/page-4"
+          ]
+        },
+        {
+          "id": "kuru-kavrama-asinmasi",
+          "sorun_adi": "Kuru kavrama aşınması",
+          "etkilenen_parca": "DQ200 kuru çift kavrama",
+          "belirtiler": "Kalkışta silkeleme, yokuşta geri kayma hissi, düşük hızda sarsıntılı vites geçişleri",
+          "tahmini_km_araligi": "60.000 - 140.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kuru kavramanın sürtünme diski dur-kalk trafikte ve zorlayıcı kalkışlarda yıpranıyor. Otopark'ta bir kullanıcı kavrama ömrünün büyük ölçüde sürüş tarzına bağlı olduğunu, baskı balata sürekli zorlanırsa hızla aştığını yazıyor. And Mehmet Çetin kuru kavramalı şanzımanların ortalama 50-100 bin km'de bir baskı balata ve volan değişimi isteyebildiğini belirtiyor; başka bir Otopark kullanıcısı baskı balatayı hiç değiştirmeden 80-100 bin km sorunsuz geçenler olduğunu söylüyor.",
+            "teshis": "Kalkışta silkeleme ya da titreme, 1-2 geçişinde sertlik, gaza basınca hızın artmaması ve yokuşta geri kayma kavrama setinin yıprandığını düşündürüyor (Araclo). Mekatronikteki basınç kaybı aynı titremeyi üretebildiği için kavrama kalınlığı ve arıza kodları ölçülmeden kavrama değiştirilmemeli. Octavia forumlarında (Briskoda) DSG titremesi ve mekatronik sorunu birlikte tartışılıyor.",
+            "cozum": "Kavrama seti (baskı balata, disk, gerekirse volan) yenilenir; DonanımHaber'de kavrama değişiminde mekatroniğin de kontrol edilmesi öneriliyor. Bir DonanımHaber kullanıcısı kavramayı garantisi olsun olmasın serviste normal manuel kavrama fiyatına değiştirdiklerini yazıyor.",
+            "maliyet": "And Mehmet Çetin yazısı baskı balata ve volan değişimi için yetkili serviste 60-80 bin, sanayide ~50 bin TL diyor (yazı tarihli, güncel değil); DonanımHaber'de orijinal Luk kavrama seti için 14.000 TL (volan ayrı) yazılmış. Farklı yıllara ait rakamlar; güncel teklif alın.",
+            "onlem": "Sürüş tarzı kavrama ömrünü doğrudan etkiliyor (Otopark); motor yazılımı değişikliği şanzıman kalibrasyonunu bozabiliyor. Kavrama değişimi sırasında mekatroniğin de kontrol ettirilmesi öneriliyor (DonanımHaber)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/",
+            "https://www.briskoda.net/forums/topic/509343-dsg-judder-mechatronic-issue-please-help/",
+            "https://www.sikayetvar.com/skoda/octavia/sanziman",
+            "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
+            "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
+            "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-dq381",
+      "ad": "VAG DQ381 7 ileri ıslak kavramalı DSG",
+      "tur": "sanziman",
+      "aciklama": "2015'ten itibaren Tiguan, Passat B8, Kodiaq, Superb, Arteon ve Touran gibi modellerde 2.0 TDI motorla kullanılan 7 ileri ıslak kavramalı çift kavramalı şanzıman.",
+      "kronik_sorunlar": [
+        {
+          "id": "mekatronik-acil-isletim",
+          "sorun_adi": "DSG mekatronik ve acil işletim arızası",
+          "etkilenen_parca": "DSG (DQ381) mekatronik ünitesi, kavrama konum sensörleri",
+          "belirtiler": "'Şanzıman acil işletim' uyarısı, aracın hareket etmemesi ya da vites değiştirememesi, P1735/P1736 hata kodları",
+          "tahmini_km_araligi": "15.000 - 90.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Ekşi Sözlük'teki bir rehber Tiguan'ın DQ381 kodlu 7 ileri ıslak kavramalı DSG'ye sahip olduğunu, yoğun kullanımda mekatronik üzerindeki kavrama konum sensörlerinin arızalanabildiğini ve bunun P1735/P1736 kodlarıyla acil (limp) moda geçişe yol açabildiğini yazıyor. Bir forum kullanıcısı eski nesil yağ kullanımının mekatronikte korozyona yol açabildiğini aktarıyor (anekdot).",
+            "teshis": "Şikâyetvar'da 2019 model bir Tiguan'da 'şanzıman acil işletim' uyarısı gelmiş ve yetkili serviste mekatronik değişimi önerilmiş; 2020 model, 16.800 km'deki bir Tiguan'da mekatronik kartın değişmesi gerektiği söylenmiş ve araç yaklaşık üç hafta servisten çıkmamış. DonanımHaber rehberi mekatronik arızasında aracın hareket etmeyebileceğini ya da vites değiştiremeyebileceğini, vites kayması ve boşa düşmenin de mekatronik kaynaklı olabileceğini yazıyor. Bir kullanıcı N'ye alıp tekrar D'ye almanın geçici işe yaradığını ama gaz verince sorunun tekrarladığını anlatıyor.",
+            "cozum": "Kaynaklar VAG teşhis cihazıyla hata kodlarının okunmasını ve yetkili serviste onarımı öneriyor; forumlarda yağ değişimi, yazılım güncellemesi ve bakım geçmişi tartışılıyor (bireysel görüşler).",
+            "maliyet": "Şikâyetvar'da bir kullanıcıya mekatronik onarımı için 66.600 TL ücret talep edildiği ve bunun gizli ayıp olduğu iddia ediliyor (tek şikâyet, tarihi sayfada; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/tiguan/sanziman",
+            "https://www.sikayetvar.com/volkswagen/yetkili-servis-bakimli-volkswagen-tiguanda-dsg-sanziman-arizasi-ve-yuksek-onarim-ucreti-magduriyeti",
+            "https://eksisozluk.com/suv-alma-rehberi--8092747",
+            "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-ea111-1-2-tsi",
+      "ad": "VAG EA111 1.2 TSI (CBZA / CBZB)",
+      "tur": "motor",
+      "aciklama": "EA111 ailesinin 1.2 litre TSI sürümü (CBZA 86 PS, CBZB 105 PS): Polo 6R, Golf 6, Octavia A5, Fabia 5J gibi modellerde kullanıldı. Yağ tüketimi ve supap yayı sorunu bu sürüm için bildirilmiş; kanıtlar 1.4 TSI kayıtlarına bağlanmaz.",
+      "kronik_sorunlar": [
+        {
+          "id": "yag-tuketimi-supap-yayi",
+          "sorun_adi": "Aşırı yağ tüketimi ve supap yayı kırılması",
+          "etkilenen_parca": "Piston segmanları ve supap yayları",
+          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı, tekleme",
+          "tahmini_km_araligi": "60.000 - 150.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "8 supaplı EA111 1.2 TSI'larda (CBZA/CBZB) zincir gergisi kaynaklı yağlama arızaları, yağ yakma ve supap yayı kırılması bilinen sorunlar arasında anılıyor (And Mehmet Çetin). Sorun her araçta görülmüyor: DonanımHaber'de bir kullanıcı 2014'te sıfır aldığı aracının 100.000 km'den sonra yağ yakmaya başladığını, biri 4.000 km'de 1 litre yaktığını, bir diğeri hiç eksiltmediğini yazıyor.",
+            "teshis": "Bakımlar arasında yağ seviyesinde düşüş, yağ seviyesi uyarısı ve tekleme (mevcut belirtiler). Seviyeyi düz zeminde, aynı koşulda ve düzenli aralıklarla ölçüp kaydetmek eksiltme miktarını netleştirir.",
+            "cozum": "Kaynaklarda supap yayı ya da segman onarım ücretine dair veri bulunamadı. Forumlarda yağ seviyesini düzenli ölçmek ve yetkili serviste tüketimi kayda geçirtmek öneriliyor.",
+            "onlem": "Doğru onaylı yağı kullanmak ve seviyeyi sık kontrol etmek; 16 supaplı EA211'e geçişle yağ sorunlarının azaldığı yazılıyor (And Mehmet Çetin). DonanımHaber'de 2016 Polo 1.2 TSI için yağ miktarı 3,6 L (çubukta seviye için toplam ~4,25 L gerektiği) ve VW 504 00/507 00 onaylı 5W-30 sentetik yağ bilgisi veriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
+            "https://forum.donanimhaber.com/1-2-tsi-kronik-sorun--146815376",
+            "https://forum.donanimhaber.com/ilk-calistirmadaki-zincir-sesi--155266646",
+            "https://otopark.com/forum/threads/bulunamayan-yag-eksiltme.15627/",
+            "https://forum.donanimhaber.com/2016-polo-1-2-tsi-dsg-hangi-yag-ve-kac-litre--135771971",
+            "https://otopark.com/forum/threads/skoda-octavia-1-2-tsi-neden-tutulmuyor.10624/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2009,
+              "bitis": 2013,
+              "durum": "Görülebilir",
+              "not": "EA111 8V motorlarda yağ yakma ve supap yayı kırılması anılıyor."
+            },
+            {
+              "baslangic": 2014,
+              "bitis": 2017,
+              "durum": "Seyrek",
+              "not": "EA211'e geçişle yağ eksiltme sorunlarının büyük oranda çözüldüğü yazılıyor."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-ea111-tsi",
+      "ad": "VAG EA111 1.2 / 1.4 TSI-TFSI (zincirli, 2008-2015)",
+      "tur": "motor",
+      "aciklama": "VW grubunun yaklaşık 2008-2015 arasında Polo, Golf 6, Jetta, Passat B7, Tiguan, Touran, Octavia, Fabia, Superb, Ibiza ve Audi A1 / A3'te kullandığı 1.2 ve 1.4 litre TSI / TFSI motorlar (zincirli). 2012'den itibaren yerini EA211 aldı.",
+      "kronik_sorunlar": [
+        {
+          "id": "triger-zinciri",
+          "sorun_adi": "Triger zinciri gergisi arızası ve zincir uzaması",
+          "etkilenen_parca": "Triger zinciri ve gergisi",
+          "belirtiler": "Soğuk çalıştırmada zincir sesi, zamanlama hata kodu, ileri aşamada supap hasarı",
+          "tahmini_km_araligi": "100.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Mehmet Çetin, 8 supaplı EA111 1.2 TSI'ların (CBZA/CBZB) zincir gergisi sorunları nedeniyle yağlama arızaları, yağ yakma ve supap yayı kırılmasıyla bilindiğini, zincir uzamasının yaklaşık 150.000 km'de başladığını yazıyor. Sonraki 16 supaplı EA211 motorlarda zincir yerine kayışa geçildiği için bu sorunların büyük oranda çözüldüğü belirtiliyor. Forumda ilk marşta yağ pompası basıncı gelene kadar gergilerin boş çalıştığı yönünde bir açıklama paylaşılmış (doğrulanmamış).",
+            "teshis": "İlk çalıştırmada zincir sesi, motor arıza lambası ve zamanlama hata kodu. Bir kullanıcı 2011 Jetta 1.2 TSI'da bu sorun nedeniyle garanti kapsamında iki kez zincir değiştirildiğini yazıyor.",
+            "cozum": "Zincir ve gergi değişimi. Aramada 1.2 TSI zincir seti ya da gergi değişim ücretine dair kaynak bulunamadı; yetkili ve bağımsız servislerden yazılı teklif almak gerekiyor.",
+            "onlem": "Motor kodunu (CBZA/CBZB ya da sonraki DKRF/CJZ) şasi numarasından doğrulamak; And Mehmet Çetin 16 supaplı EA211 sürümlerinin daha iyi olduğunu yazıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
+            "https://forum.donanimhaber.com/1-2-tsi-kronik-sorun--146815376",
+            "https://forum.donanimhaber.com/polo-1-2-tsi-60-bin-bakimi-kayis-mi-zincir-mi--129852226",
+            "https://forum.donanimhaber.com/ilk-calistirmadaki-zincir-sesi--155266646",
+            "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
+            "https://otopark.com/forum/threads/bulunamayan-yag-eksiltme.15627/",
+            "https://otopark.com/forum/threads/skoda-octavia-1-2-tsi-neden-tutulmuyor.10624/",
+            "https://www.briskoda.net/forums/topic/490489-14-tsi-122-caxa-rattle/",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=95765",
+            "https://www.vwvortex.com/threads/tsi-timing-chain-info-a-complete-guide-for-your-eos.9249027/",
+            "https://www.araclo.com/vehicles/volkswagen-golf-1.4-tsi/degerlendirmeler/kullanici-sorunlari",
+            "https://www.sikayetvar.com/volkswagen/tiguan/kronik"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2009,
+              "bitis": 2013,
+              "durum": "Yaygın",
+              "not": "8 supaplı EA111 motorlarda zincir gergisi ve zincir uzaması bilinen sorun."
+            },
+            {
+              "baslangic": 2014,
+              "bitis": 2017,
+              "durum": "Seyrek",
+              "not": "16 supaplı EA211 motorlara geçildi ve triger kayışı kullanılmaya başlandı; sorun büyük oranda çözüldü."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-ea189-1-6-tdi",
+      "ad": "VAG EA189 1.6 TDI common rail (CAYC / CAYB / CAYE)",
+      "tur": "motor",
+      "aciklama": "VW grubunun 2009-2015 arasında Golf 6, Polo 6R, Jetta, Passat B7, Caddy, Touran, Octavia, Rapid, Fabia, Toledo ve Audi A1 / A3'te kullandığı 1.6 litre common rail dizel (EA189). Sonraki EA288 motoru bu aileye dahil değildir.",
+      "kronik_sorunlar": [
+        {
+          "id": "enjektor",
+          "sorun_adi": "Enjektör arızası (şakırdama ve soğuk çalıştırmada düzensiz rölanti)",
+          "etkilenen_parca": "Common-rail enjektörleri (piezo tip), enjektör kodlaması",
+          "belirtiler": "Enjektör şakırdaması, soğuk ilk çalıştırmada rölantide dalgalanma ve titreme, tekleme, beyaz duman, yakıt tüketiminde artış",
+          "tahmini_km_araligi": "80.000 - 200.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir 2012 Golf Mk6 sahibi şakırdama ve soğukta rölanti dalgalanması yaşadığını yazıyor; aynı konuda CAYC kodlu 1.6 TDI Euro 5 motorlarda enjektörlerin Siemens değil Continental VDO piezo tipi olduğu belirtiliyor. Nedenle ilgili görüşler ayrışıyor: bir kullanıcı motor yazılımını, bir başkası yakıt kalitesini suçluyor. Honest John'da bir usta 1.6 TDI'nin enjektörlerini (yaklaşık 500 sterlin/adet) ve EGR valfini sorunlu bulduğunu söylüyor.",
+            "teshis": "DonanımHaber'de 2009 model bir Golf 6 TDI sahibi rölantide düzensizliğin kronik olarak kendini gösterdiğini ve enjektör ya da krank sensöründen şüphelendiğini yazıyor. Honest John'da enjektör değişiminden sonra enjektör kodlamasının yapılmaması ya da yalnızca bir kısmının değiştirilmesinin rölantide titremeyi artırabildiği yazılıyor (dördünün birlikte değişmesi öneriliyor).",
+            "cozum": "Şikâyetvar'daki genel enjektör şikâyetlerinde bir kullanıcı yetkili serviste en son yazılım güncellemesinden sonra sesin bittiğini yazıyor (araç belirtilmemiş); diğer vakalarda enjektör revizyonu ya da değişimi yapılıyor ve ardından ECU'da kodlama gerekebiliyor.",
+            "maliyet": "Forumlarda Golf / Passat 1.6 TDI için tek enjektör 750 TL, usta işçiliğiyle dört enjektör 800 TL, revizyon 3.000-7.000 TL gibi eski ve birbirinden çok farklı rakamlar geçiyor (tarihler 3-5 yıl öncesine ait, güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/1-6-tdi-siemens-enjektor-tamiri--127464488",
+            "https://forum.donanimhaber.com/golf-1-6tdi-yatak-sesi-mi-enjektor-mu-sorun-cozuldu-bir-tek-vidaymis-problem-video-foto--143063886-3",
+            "https://forum.donanimhaber.com/motorun-rolantide-duzensiz-calismasi-golf-6-tdi--88127620",
+            "https://www.honestjohn.co.uk/forum/post/118791/golf-tdi-2009-1-6--",
+            "https://www.honestjohn.co.uk/forum/post/157597/volkswagen-golf-mk6",
+            "https://www.vwvortex.com/threads/1-5-and-1-6-diesel-common-problems.5608561/",
+            "https://www.sikayetvar.com/enjektor/ses?page=4",
+            "https://forum.donanimhaber.com/1-6-tdi-passat-enjektorleri-kronik-sorunlu--99139696",
+            "https://forum.donanimhaber.com/passat-b7-tdi-enjektor-temizleyici--129201106",
+            "https://www.araclo.com/vehicles/volkswagen-passat/b7/1-6-tdi/kronik-sorunlar",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-polo-16-tdi-enjektor-arizasi",
+            "https://www.sikayetvar.com/enjektor/polo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-ea211-1-2-tsi",
+      "ad": "VAG EA211 1.2 TSI (CJZA / CJZB)",
+      "tur": "motor",
+      "aciklama": "EA211 ailesinin 1.2 litre TSI sürümü (86 ve 105 PS): 2012'den itibaren Golf 7, Polo, Octavia A7, Fabia NJ, Leon 5F ve Audi A3 8V gibi modellerde kullanıldı.",
+      "kronik_sorunlar": [
+        {
+          "id": "yag-tuketimi",
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları, valf sapı keçeleri, turbo",
+          "belirtiler": "Yağ seviyesinin sık düşmesi (bazı araçlarda 1.000-3.000 km'de 1 litre), yağ seviyesi uyarısı",
+          "tahmini_km_araligi": "40.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de forum kullanıcıları olası nedenler olarak piston segmanlarının aşınmasını ya da hasarını, turboşarj arızasını, valf sapı keçelerinin bozulmasını ve silindir duvarı aşınmasını sayıyor (teşhis değil, forum görüşü). Şikâyetvar'da 2012 model bir 1.2 TSI sahibi gaza bastıkça yağ yaktığını, üreticinin çözüm sunmadığını yazıyor.",
+            "teshis": "Bazı sahipler yaklaşık 3.000 km'de 1 litre, bazıları 1.000-1.200 km'de 1 litre eksilttiğini bildiriyor; bir kullanıcı kullanım kılavuzunda 2.000 km'de 1 litre yağ gidebileceğinin yazdığını belirtiyor (kılavuzdan kendiniz doğrulayın). Forumda ilk adım olarak kompresyon testi ve dört silindirin değerlerinin karşılaştırılması ile araç altında kaçak kontrolü öneriliyor.",
+            "cozum": "Forumda en kalıcı çözüm olarak segman değişimi öne çıkıyor; turbo ya da valf conta onarımı ve aşınmış silindirler için honlama da anılıyor. Bir kullanıcı segman değişiminin 25-30 bin TL civarında olabileceğini yazıyor (tek kişinin tahmini). Bazı kullanıcılar daha kaliteli yağa geçince eksiltmenin azaldığını, bazıları değişmediğini söylüyor; 502.00 onaylı 5W-40 gibi VW onaylı yağlar önerilmiş.",
+            "onlem": "Yağ seviyesini düzenli kontrol edip kayıt tutmak ve max çizgisini aşmamak; test sürüşünde yağ tüketimini sorgulamak. Forumda 'yetkili servis bakımlı, zorlanmamış, düşük kilometreli' araçların tercih edilmesi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/1-2-tsi-yag-eksiltme-sorunu-yasayanlara-cozum--118274718",
+            "https://forum.donanimhaber.com/golf-7-yag-eksiltme-sorunu--157538645",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-golf-7de-kronik-yag-yakma-sorunu-ve-cozum-eksikligi",
+            "https://otopark.com/forum/threads/golf-7-motor-yagi.4665/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-ea211-1-4-tsi",
+      "ad": "VAG EA211 1.4 TSI-TFSI (125 / 150 PS, ACT)",
+      "tur": "motor",
+      "aciklama": "EA211 ailesinin 1.4 litre TSI sürümü (ACT silindir kapatmalı 150 PS dahil): Golf 7, Octavia A7, Passat B8, Tiguan AD1, Touran 5T, Leon 5F, Superb III, Audi A3 8V, Q2 ve Q3'te kullanıldı.",
+      "kronik_sorunlar": [
+        {
+          "id": "devirdaim-termostat",
+          "sorun_adi": "Devirdaim pompası ve termostat modülü kaçağı",
+          "etkilenen_parca": "Plastik içli su pompası ve termostat modülü",
+          "belirtiler": "Antifriz eksilmesi, motor altında pembe/mor antifriz izi, hararet uyarısı",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Golf 7'de devirdaim pompası ile termostat gövdesi tek, plastik gövdeli bir modüldür; parça satıcı rehberleri plastik gövdenin ısı çevrimiyle ince çatlaklar oluşturup antifriz kaçırdığını yazıyor, Briskoda'da Octavia sahipleri de 1.4 TSI'da aynı su kaçağını bildiriyor. Bir forum kullanıcısı pompanın belirli kilometreden sonra sürekli su kaçırdığını, elektrikli olduğu için pahalı olduğunu belirtiyor.",
+            "teshis": "Isı göstergesinde oynama, radyatör deposunun sık eksilmesi, park yerinde antifriz damlaması ve otoyol sonrası tatlımsı koku (parça satıcıları ve DonanımHaber). Motor altında pembe/mor antifriz izi de aranıyor.",
+            "cozum": "Pompa/termostat modülünün değişimi. Pompa triger bölgesinde olduğu için DonanımHaber'de çoğunlukla triger setiyle birlikte değiştirilmesi öneriliyor. Bir kullanıcı 3 Octavia ve 1 Rapid'in arızalanan devirdaimlerinin iyi niyetle ücretsiz değiştirildiğini yazıyor (VW grubu bazı araçlarda iyi niyet uyguluyor).",
+            "maliyet": "Eski paylaşımlarda (2-4 yıl öncesi): orijinal devirdaim ~1.100 TL, aftermarket ~1.800-1.900 TL (orijinal iki ay sonra bozulmuş), başka bir kullanıcı 650 TL; Şikâyetvar'da bir şikayette işlem 3.200 TL. 2025 tarihli bir teklifte yetkili serviste triger seti ve devirdaim değişimi 18.799 TL. Güncel teklif alın.",
+            "onlem": "Triger değişiminde devirdaimin de değiştirilmesini sormak; soğutma suyu seviyesini ve motor altını düzenli kontrol etmek. Forumlarda 1.2/1.4 TSI'da zamanlama ayarının özel servislerde hatalı yapılabildiği için yetkili/kurumsal servis öneriliyor."
+          },
+          "kaynaklar": [
+            "https://www.briskoda.net/forums/topic/520582-14-tsi-coolant-leak-from-water-pump/",
+            "https://www.briskoda.net/forums/topic/498967-dreaded-water-pump-issue/",
+            "https://forum.donanimhaber.com/devirdaim-pompasi-iyi-niyet-garantisi--143340133",
+            "https://forum.donanimhaber.com/golf-7-devirdaim-pompasi--140667110",
+            "https://www.sikayetvar.com/volkswagen/golf/devirdaim-pompasi",
+            "https://www.sikayetvar.com/volkswagen/devirdaim",
+            "https://www.araclo.com/vehicles/volkswagen-golf-1.4-tsi/degerlendirmeler/kullanici-sorunlari",
+            "https://forum.donanimhaber.com/golf-7-nin-kronik-sorunlari-27-kronik-sorun--139238714-7",
+            "https://www.vwvortex.com/threads/so-frustrated-with-vw-coolant-leak-from-faulty-water-pump-thermostat-housing-for-the-3rd-time.9490590/",
+            "https://www.autopartspro.co.uk/tips-advice/vw-golf-7-water-pump-and-thermostat-housing-leaks-what-owners-need-to-know-3908"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-ea888-gen2",
+      "ad": "VAG EA888 (Gen1 / Gen2) 1.8 / 2.0 TFSI-TSI",
+      "tur": "motor",
+      "aciklama": "VW grubunun yaklaşık 2007-2014 arasında Audi A4 / A5 / Q5 / Q3, Skoda Octavia / Superb, VW Passat / Tiguan gibi modellerde kullandığı 1.8 ve 2.0 litre turbo benzinli motorlar. Sonraki nesil (Gen3) bu aileye dahil değildir.",
+      "kronik_sorunlar": [
+        {
+          "id": "yag-tuketimi",
+          "sorun_adi": "Aşırı yağ tüketimi",
+          "etkilenen_parca": "Piston segmanları (yağ sıyırma segmanı) ve karter havalandırma (PCV) valfi",
+          "belirtiler": "Bakımlar arasında sık yağ eksilmesi, yağ seviyesi uyarısı, yeni araçta bile erken yağ uyarısı",
+          "tahmini_km_araligi": "10.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı sorunun Audi A4 2.0 TFSI quattro ve Audi Q5 gibi birçok modelde yaygın olduğunu yazıyor; başlıklarda piston segmanları, turbo kaçakları ve PCV valfi şüpheli olarak geçiyor, bir kullanıcı yabancı forumlardaki 'fabrikasyon hatalı segman' görüşünü aktarıyor (doğrulanmadı). ABD'deki bir dava özetine göre Audi'nin Ekim 2013 tarihli servis bülteni (TSB 17 13 43) 2009-2011 A4, A5 ve Q5 2.0T araçlarda 'motor yağı tüketimi çok yüksek' durumunu ele alıyor ve karter basınç regülatör valfi ile ön krank keçesinin değişimini öneriyor.",
+            "teshis": "Ekşi Sözlük'te bir Q5 sahibi yeni araçta yağ uyarısının daha ilk günlerde geldiğini ve bunun yaygın olduğunu yazıyor. Bir DonanımHaber kullanıcısı Audi'nin kılavuzunda 1.000 km'de yarım litre tüketime izin verildiğini savunuyor (kılavuz metni doğrulanmadı); AudiWorld'de Audi'nin 1.200 milde bir quart tüketimi kabul edilebilir bulduğu yazılıyor (ABD).",
+            "cozum": "Forumlarda yağ sensörü değişimi (bir usta bazı vakalarda %70 çözdüğünü, garanti olmadığını söylüyor), üst yarım motor çalışması, segman değişimi (motorun inmesi gerektiği) ve komple motor değişimi anlatılıyor. ABD'de 2012-2017 model 2.0T Audi'ler (Q5 dahil) için piston segmanı davası açılmış; 2023 uzlaşması 2012-2014 A4, A5, A6, Q5 ve TT için aşırı yağ tüketimi onarımlarında garanti uzatması sunuyor (Türkiye için doğrulanmadı).",
+            "maliyet": "DonanımHaber'de bir kullanıcı silindirlerden birinde çizik bulunduktan sonra komple motor değişiminin faturasını 45.000 TL olarak yazıyor (tarih ve model belirsiz).",
+            "onlem": "Forumda 10W-60 yağın etkisinin sınırlı olabileceği, Audi'nin önerdiği 5W-30 ya da en fazla 5W-40 yağın tercih edilmesi gerektiği yazılıyor (kullanıcı görüşü)."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/audi-q5-motor-yagi-icme-sorunu--154863346",
+            "https://forum.donanimhaber.com/kronik-yag-eksiltme-yakma-sorunlari-ve-ureticilerin-olumsuz-yaklasimlarini-toparlayalim--127025783",
+            "https://forum.donanimhaber.com/audi-yag-yakma-uretim-hatasi--126250572",
+            "https://eksisozluk.com/audi-q5--1278486?p=5",
+            "https://www.carcomplaints.com/news/2021/audi-oil-consumption-lawsuit-pistons.shtml",
+            "https://www.classaction.org/news/2012-2017-audi-models-with-2.0l-turbocharged-engines-plagued-by-piston-defect-class-action-claims",
+            "https://www.carcomplaints.com/Audi/A4/2009/engine/excessive_oil_consumption.shtml",
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2009,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "Audi'nin Ekim 2013 servis bülteni (TSB 17 13 43) 2009-2011 A4, A5 ve Q5 2.0T için yağ tüketimini kapsıyor (dava özeti)."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2017,
+              "durum": "Görülebilir",
+              "not": "2012-2017 model 2.0T Audi'ler (Q5 dahil) piston segmanı davasının kapsamında; 2023 uzlaşması 2012-2014 için garanti uzatması sunuyor (ABD)."
+            }
+          ]
+        },
+        {
+          "id": "triger-zinciri-gergisi",
+          "sorun_adi": "Triger zinciri gergisi arızası",
+          "etkilenen_parca": "Triger zinciri gergisi ve zincir",
+          "belirtiler": "Soğuk çalıştırmada zincir şakırtısı, kam/krank senkron hatası ile arıza lambası, ileri aşamada zincir atlaması ve supap hasarı",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Araclo'ya göre erken üretim EA888 bloklarında zincir gergisi plastik malzemeden ve zamanla aşınıyor. AudiWorld ve Audizine kullanıcıları orijinal gergiyi zayıf tasarım sayıyor ve bir noktada arızalanmasını bekliyor; B8.5'te iyileştirilmiş parça geldiği yazılıyor. Zincirin kendisi de pim aşınmasıyla uzayabiliyor.",
+            "teshis": "Soğuk çalıştırmada zincir sesi ve motor arıza lambası. Motor 'interferans' tipinde olduğu için zincir diş atlarsa supaplar eğilebiliyor.",
+            "cozum": "Zincir ve gergi birlikte değiştirilir; bir sahip zinciri uzamış ama henüz diş atlamamışken ikisini birlikte yenilediğini yazıyor.",
+            "maliyet": "Bir satın alma rehberi zincir seti değişimini 2026 yetkili servis tahmini olarak 35.000-55.000 TL gösteriyor (tek kaynak). AudiWorld'de bir sahip gergi arızasının felaket sayılabilecek motor hasarına ve 4-6 bin dolarlık onarıma yol açtığını yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.audizine.com/forum/showthread.php/712531-THE-Timing-Chain-Tensioner-Failure-Thread",
+            "https://www.audiworld.com/forums/a4-b8-platform-discussion-128/timing-chain-issue-a4-b8-5-a-3043467/",
+            "https://www.araclo.com/vehicles/audi-a4-sedan-2.0-tfsi/degerlendirmeler/kullanici-sorunlari"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2008,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "İlk B8 motorlarındaki gergi zayıf tasarım olarak anılıyor."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2015,
+              "durum": "Görülebilir",
+              "not": "Forumlarda B8.5 (2012 sonrası) araçlara iyileştirilmiş gergi takıldığı yazılıyor."
+            }
+          ]
+        },
+        {
+          "id": "pcv-krank-kecesi",
+          "sorun_adi": "PCV valfi ve ön krank keçesi arızası",
+          "etkilenen_parca": "Karter havalandırma (PCV) valfi ve ön krank keçesi",
+          "belirtiler": "Rölantide ıslık sesi, düzensiz rölanti, yağ tüketiminde artış, fakir karışım hata kodları, conta ve keçelerden yağ kaçağı",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "AudiWorld'de sahipler PCV arızasının kaçaklara ve aşınmaya yol açtığını yazıyor: bir sahip geçmişte PCV arızasının arka ana keçe, ön krank keçesi ve valf kapağında kaçaklara neden olduğunu aktarıyor; bir başkasının PCV dişlerinin sıyrıldığı için doğru tork verilemediği anlatılıyor.",
+            "teshis": "Rölantide ıslık ve düzensiz rölanti, yağ tüketiminde artış, fakir karışım hata kodları, keçelerde kaçak. Bir forum üyesi karter vakumunun sıcak rölantide ölçülmesini (yaklaşık 100 mbar) öneriyor.",
+            "cozum": "PCV valfinin ve ilgili keçelerin yenilenmesi."
+          },
+          "kaynaklar": [
+            "https://www.carcomplaints.com/news/2021/audi-oil-consumption-lawsuit-pistons.shtml",
+            "https://forum.donanimhaber.com/kronik-yag-eksiltme-yakma-sorunlari-ve-ureticilerin-olumsuz-yaklasimlarini-toparlayalim--127025783",
+            "https://www.audiworld.com/how-tos/a/audi-a4-b8-information-on-the-oil-consumption-problem-421881"
+          ]
+        }
+      ]
+    }
+  ],
   "arac_listesi": [
+    {
+      "marka": "Audi",
+      "model": "A1 (8X, 2010-2014)",
+      "motor": "1.4 TFSI 122 (EA111, S tronic DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A1 (8X, 2010-2018)",
+      "motor": "1.6 TDI 90/116 (EA189 / EA288)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
     {
       "marka": "Audi",
       "model": "A3 (8P FL / 8V, 2009-2020)",
@@ -46,8 +993,27 @@
               "durum": "Görülebilir",
               "not": "And Mehmet Çetin DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu yazıyor; risk sıfır değil."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea111-tsi",
+        "vag-ea211-1-4-tsi"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 (8V, 2012-2020)",
+      "motor": "1.2 TFSI 105 (EA211)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea211-1-2-tsi"
       ]
     },
     {
@@ -80,7 +1046,8 @@
             "https://otopark.com/forum/threads/egr-ve-dpf-agrizasi-mk6-golf-1-6-tdi.2529/",
             "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/",
             "https://www.sikayetvar.com/volkswagen/dizel/partikul-filtresi"
-          ]
+          ],
+          "aile_sorunu": "vag-1-6-tdi-egr-dpf/egr-dpf"
         },
         {
           "sorun_adi": "S tronic (DQ200) mekatronik ve kavrama arızası",
@@ -105,8 +1072,14 @@
             "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
             "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
             "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-dq200",
+        "vag-ea189-1-6-tdi"
       ]
     },
     {
@@ -137,8 +1110,13 @@
             "https://www.sikayetvar.com/audi/a3/a3-alternator",
             "https://eksisozluk.com/audi-a3--283347?p=85",
             "https://eksisozluk.com/audi-a3--283347?p=76"
-          ]
+          ],
+          "aile_sorunu": "vag-48v-etsi/alternator-48v"
         }
+      ],
+      "aileler": [
+        "vag-1-5-tsi-evo",
+        "vag-48v-etsi"
       ]
     },
     {
@@ -180,7 +1158,8 @@
               "durum": "Görülebilir",
               "not": "2012-2014 için dava uzlaşmasıyla garanti uzatıldı; AudiWorld'de 2013 ve sonrasında daha az sıklıkla görüldüğü yazılıyor."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-ea888-gen2/yag-tuketimi"
         },
         {
           "sorun_adi": "Triger zinciri gergisi arızası",
@@ -212,7 +1191,8 @@
               "durum": "Görülebilir",
               "not": "Forumlarda B8.5 (2012 sonrası) araçlara iyileştirilmiş gergi takıldığı yazılıyor."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-ea888-gen2/triger-zinciri-gergisi"
         },
         {
           "sorun_adi": "PCV valfi ve ön krank keçesi arızası",
@@ -229,7 +1209,8 @@
             "https://www.carcomplaints.com/news/2021/audi-oil-consumption-lawsuit-pistons.shtml",
             "https://forum.donanimhaber.com/kronik-yag-eksiltme-yakma-sorunlari-ve-ureticilerin-olumsuz-yaklasimlarini-toparlayalim--127025783",
             "https://www.audiworld.com/how-tos/a/audi-a4-b8-information-on-the-oil-consumption-problem-421881"
-          ]
+          ],
+          "aile_sorunu": "vag-ea888-gen2/pcv-krank-kecesi"
         },
         {
           "sorun_adi": "Multitronic (CVT) şanzıman arızası",
@@ -249,6 +1230,9 @@
             "https://www.arabam.com/blog/danisman/multitronic-sanziman-nedir/"
           ]
         }
+      ],
+      "aileler": [
+        "vag-ea888-gen2"
       ]
     },
     {
@@ -278,6 +1262,97 @@
             "https://www.audiworld.com/how-tos/a/audi-a4-b8-multitronic-cvt-problems-421233"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A5 (8T, 2008-2016)",
+      "motor": "1.8 TFSI / 2.0 TFSI (EA888 Gen1 / Gen2)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea888-gen2"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "Q2 (GA, 2016-)",
+      "motor": "1.0 TFSI 116 (EA211, S tronic DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "Q2 (GA, 2016-)",
+      "motor": "1.4 TFSI 150 (EA211, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea211-1-4-tsi"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "Q2 (GA, 2016-)",
+      "motor": "35 TFSI 1.5 (EA211 evo, ACT, S tronic)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-5-tsi-evo"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "Q3 (8U, 2011-2014)",
+      "motor": "2.0 TFSI 170/211 (EA888 Gen2)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea888-gen2"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "Q3 (8U, 2014-2018)",
+      "motor": "1.4 TFSI 150 (EA211, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea211-1-4-tsi"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "Q3 (F3, 2018-)",
+      "motor": "35 TFSI 1.5 (EA211 evo, ACT, S tronic)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-5-tsi-evo"
       ]
     },
     {
@@ -323,8 +1398,12 @@
               "durum": "Görülebilir",
               "not": "2012-2017 model 2.0T Audi'ler (Q5 dahil) piston segmanı davasının kapsamında; 2023 uzlaşması 2012-2014 için garanti uzatması sunuyor (ABD)."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-ea888-gen2/yag-tuketimi"
         }
+      ],
+      "aileler": [
+        "vag-ea888-gen2"
       ]
     },
     {
@@ -386,8 +1465,12 @@
             "https://eksisozluk.com/bmw-116d-genel-rezaleti-ve-kronik-sorunu--6221945?p=6",
             "https://forum.donanimhaber.com/bmw-116d-efficient-dynamics-hakkinda-acil-yardim--97322156",
             "https://otopark.com/forum/threads/n47-116d-ed-yurutme-maliyeti.16378/"
-          ]
+          ],
+          "aile_sorunu": "bmw-n47/triger-zinciri"
         }
+      ],
+      "aileler": [
+        "bmw-n47"
       ]
     },
     {
@@ -605,7 +1688,8 @@
               "durum": "Görülebilir",
               "not": "Zincir çoğunlukla kopmadan önce ses yapıyor; N47T güncellemesiyle sorunların bir kısmının azaldığı yazılıyor."
             }
-          ]
+          ],
+          "aile_sorunu": "bmw-n47/triger-zinciri"
         },
         {
           "sorun_adi": "EGR soğutucusu ve valfi arızası",
@@ -623,8 +1707,12 @@
             "https://www.sikayetvar.com/bmw/n47-motorlu-bmwde-tekrarlayan-eger-arizasi-ve-geri-cagirma-istegi",
             "https://www.carguide.ph/2018/08/bmw-recalls-42-models-including-320d.html?m=1",
             "https://www.sikayetvar.com/bmw/bmw-n47-egr-valfi-sorunu-icin-gonullu-geri-cagirma-cevabi-alinamadi"
-          ]
+          ],
+          "aile_sorunu": "bmw-n47/egr-sogutucu"
         }
+      ],
+      "aileler": [
+        "bmw-n47"
       ]
     },
     {
@@ -666,7 +1754,8 @@
               "durum": "Görülebilir",
               "not": "Forumlar zincir ve kılavuzların Şubat-Mart 2015 üretiminden itibaren güncellendiğini yazıyor (kaynaklar güncellenenin kılavuz mu yalnızca zincir mi olduğunda çelişiyor); 320i LCI ile B48 motora geçti."
             }
-          ]
+          ],
+          "aile_sorunu": "bmw-n20/triger-zinciri"
         },
         {
           "sorun_adi": "Elektrikli devirdaim pompası ve konnektör arızası",
@@ -686,7 +1775,8 @@
             "https://www.bimmerworld.com/Cooling/Water-Pumps/BMW-Water-Pump-N20-N26-F22-F30-F32-F10-X1-F25-F26-E89-11518635089.html",
             "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-f30-water-pump-thermostat-n20-n26-engine",
             "https://foreignautomotive.ca/blogs/news/bmw-electric-water-pump-failure-symptoms-causes-and-replacement-costs-in-ontario"
-          ]
+          ],
+          "aile_sorunu": "bmw-n20/devirdaim-pompasi"
         },
         {
           "sorun_adi": "Yağ filtresi yuvası contası kaçağı",
@@ -702,8 +1792,12 @@
           "kaynaklar": [
             "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-n20-n26-oil-filter-housing-gasket-f30",
             "https://f30.bimmerpost.com/forums/showthread.php?t=1994474"
-          ]
+          ],
+          "aile_sorunu": "bmw-n20/yag-filtresi-yuvasi"
         }
+      ],
+      "aileler": [
+        "bmw-n20"
       ]
     },
     {
@@ -741,8 +1835,133 @@
               "durum": "Görülebilir",
               "not": "Forumlarda 184 bg'lik N47'lerde sorunun 177 bg'ye göre çok daha az görüldüğü, yine de görülebildiği yazılıyor; 2015'te iyileştirilmiş zincir seti çıktığı ve B47'ye geçildiği iddia ediliyor (doğrulanmadı)."
             }
-          ]
+          ],
+          "aile_sorunu": "bmw-n47/triger-zinciri"
         }
+      ],
+      "aileler": [
+        "bmw-n47"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi (F10, 2011-2016)",
+      "motor": "520i / 528i 2.0 turbo benzin (N20)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n20"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 (E84, 2009-2015)",
+      "motor": "sDrive18d / xDrive18d / xDrive20d 2.0 dizel (N47)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n47",
+        "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 (E84, 2011-2015)",
+      "motor": "sDrive20i / xDrive28i 2.0 turbo benzin (N20)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n20",
+        "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 (F25 LCI, 2014-2017)",
+      "motor": "sDrive18d / xDrive20d 2.0 dizel (B47)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 (F25, 2010-2014)",
+      "motor": "sDrive18d / xDrive20d 2.0 dizel (N47)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n47",
+        "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 (F25, 2011-2017)",
+      "motor": "xDrive30d 3.0 dizel (N57)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 (F25, 2012-2017)",
+      "motor": "xDrive28i 2.0 turbo benzin (N20)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n20",
+        "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X5 (E70, 2007-2013)",
+      "motor": "xDrive30d / xDrive40d 3.0 dizel (M57 / N57)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X5 (F15, 2013-2018)",
+      "motor": "xDrive25d / xDrive30d / xDrive40d 3.0 dizel (N57)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-xdrive-aktarma"
       ]
     },
     {
@@ -1150,8 +2369,13 @@
               "durum": "Görülebilir",
               "not": "Ekşi Sözlük'te bir yorumcu 1.5 eTSI mild hybrid motorun Formentor'a 2024 makyajıyla geldiğini, öncesinde 48V sistemi olmayan düz 1.5 TSI bulunduğunu yazıyor; alternatör arızası bu yorumda bilinen sorun olarak anılıyor (tek yorum, üretici doğrulaması yok)."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-48v-etsi/alternator-48v"
         }
+      ],
+      "aileler": [
+        "vag-1-5-tsi-evo",
+        "vag-48v-etsi"
       ]
     },
     {
@@ -1185,7 +2409,8 @@
             "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
             "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/",
             "https://www.sikayetvar.com/dacia/dacia-duster-enjektor-arizasi-1"
-          ]
+          ],
+          "aile_sorunu": "renault-k9k/enjektor"
         },
         {
           "sorun_adi": "EGR valfi tıkanması",
@@ -1205,8 +2430,12 @@
             "https://forum.donanimhaber.com/egr-valfi-temizligi--30929546",
             "https://forum.donanimhaber.com/egr-belirli-araliklar-ile-temizlenmeli-mi--132082187",
             "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
-          ]
+          ],
+          "aile_sorunu": "renault-k9k/egr-valfi"
         }
+      ],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -1239,8 +2468,12 @@
             "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
             "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/",
             "https://www.sikayetvar.com/dacia/dacia-duster-enjektor-arizasi-1"
-          ]
+          ],
+          "aile_sorunu": "renault-k9k/enjektor"
         }
+      ],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -1276,8 +2509,12 @@
             "https://forum.donanimhaber.com/edc-yazilim-gunceleme--118953849",
             "https://www.sikayetvar.com/dacia/dacia-duster-2022-13-tce-sanziman-ve-debriyaj-sorunu",
             "https://forum.donanimhaber.com/edc-sanziman-hakkinda--152099929"
-          ]
+          ],
+          "aile_sorunu": "renault-edc/vites-gecis-sesi-kavrama"
         }
+      ],
+      "aileler": [
+        "renault-edc"
       ]
     },
     {
@@ -1309,8 +2546,12 @@
             "https://www.sikayetvar.com/renault/clio/cizirti",
             "https://www.sikayetvar.com/renault/clio/turbo",
             "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053"
-          ]
+          ],
+          "aile_sorunu": "renault-h4bt-h4dt/turbo-wastegate"
         }
+      ],
+      "aileler": [
+        "renault-h4bt-h4dt"
       ]
     },
     {
@@ -1338,6 +2579,19 @@
             "https://eksisozluk.com/dacia-jogger--7021710?p=6"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Dacia",
+      "model": "Lodgy / Dokker (2012-2021)",
+      "motor": "1.5 dCi 75/90/110 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -1370,8 +2624,12 @@
             "https://www.sikayetvar.com/renault/clio/cizirti",
             "https://www.sikayetvar.com/renault/clio/turbo",
             "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053"
-          ]
+          ],
+          "aile_sorunu": "renault-h4bt-h4dt/turbo-wastegate"
         }
+      ],
+      "aileler": [
+        "renault-h4bt-h4dt"
       ]
     },
     {
@@ -1404,8 +2662,12 @@
             "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
             "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/",
             "https://www.sikayetvar.com/renault/clio/enjeksiyon"
-          ]
+          ],
+          "aile_sorunu": "renault-k9k/enjektor"
         }
+      ],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -1437,8 +2699,12 @@
             "https://www.sikayetvar.com/renault/clio/cizirti",
             "https://www.sikayetvar.com/renault/clio/turbo",
             "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053"
-          ]
+          ],
+          "aile_sorunu": "renault-h4bt-h4dt/turbo-wastegate"
         }
+      ],
+      "aileler": [
+        "renault-h4bt-h4dt"
       ]
     },
     {
@@ -3542,6 +4808,19 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "A Serisi (W177, 2018-)",
+      "motor": "A180 d 1.5 (OM608, K9K)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "A Serisi / CLA (W176 / C117, 2012-2019)",
       "motor": "A180 CDI / CLA 180 CDI (dizel)",
       "uretim_yillari": {
@@ -3567,6 +4846,22 @@
             "https://forum.donanimhaber.com/mercedes-pre-safe-arizasi-a-cla-c-gla-e--93069197-2"
           ]
         }
+      ],
+      "aileler": [
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "B Serisi (W246, 2011-2018)",
+      "motor": "B180 CDI 1.5 (OM607, K9K, 7G-DCT)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -3753,6 +5048,19 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "Citan (W415, 2012-2021)",
+      "motor": "108 / 109 / 111 CDI 1.5 (OM607, K9K)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "E Serisi (W212, 2009-2016)",
       "motor": "E200 / E250 CGI 1.8 turbo (M271 EVO)",
       "uretim_yillari": {
@@ -3913,6 +5221,19 @@
       ]
     },
     {
+      "marka": "Mercedes-Benz",
+      "model": "GLA (X156, 2013-2019)",
+      "motor": "GLA 180 d 1.5 (OM607, K9K, 7G-DCT)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
+      ]
+    },
+    {
       "marka": "Mini",
       "model": "Cooper S / Countryman S (R56 / R60, 2007-2016)",
       "motor": "1.6 turbo benzinli (N14 / N18)",
@@ -3942,6 +5263,19 @@
             "https://otopark.com/forum/threads/mini-cooper-s-alinir-mi.9936/"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "Juke (F15, 2010-2019)",
+      "motor": "1.5 dCi 110 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -4020,8 +5354,12 @@
               "durum": "Seyrek",
               "not": "Bir yorum sorunun 2018 sonrası makyajlı kasada çözüldüğünü, bir başkası 2016 sonrası üretimde çözüldüğünü iddia ediyor; iddialar çelişkili ve doğrulanmadı."
             }
-          ]
+          ],
+          "aile_sorunu": "renault-h5ft-1-2-tce/yag-tuketimi"
         }
+      ],
+      "aileler": [
+        "renault-h5ft-1-2-tce"
       ]
     },
     {
@@ -4061,6 +5399,45 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "Micra (K14, 2017-2023)",
+      "motor": "0.9 IG-T 90 (H4Bt)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-h4bt-h4dt"
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "Note (E12, 2013-2017)",
+      "motor": "1.5 dCi 90 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "Qashqai (J10, 2007-2013)",
+      "motor": "1.5 dCi 106 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -4151,6 +5528,9 @@
             "https://forum.donanimhaber.com/1-5-dci-turbo-borusu-yaglanmasi--156460331"
           ]
         }
+      ],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -4263,7 +5643,8 @@
               "durum": "Seyrek",
               "not": "Bir yorum sorunun 2018 sonrası makyajlı kasada çözüldüğünü, bir başkası 2016 sonrası üretimde çözüldüğünü iddia ediyor; iddialar çelişkili ve doğrulanmadı."
             }
-          ]
+          ],
+          "aile_sorunu": "renault-h5ft-1-2-tce/yag-tuketimi"
         },
         {
           "sorun_adi": "Triger zinciri sesi ve uzaması",
@@ -4296,8 +5677,12 @@
               "durum": "Seyrek",
               "not": "Bir yorum sorunun 2018 sonrası makyajlı kasada çözüldüğünü, bir başkası 2016 sonrası üretimde çözüldüğünü iddia ediyor; iddialar çelişkili ve doğrulanmadı."
             }
-          ]
+          ],
+          "aile_sorunu": "renault-h5ft-1-2-tce/triger-zinciri"
         }
+      ],
+      "aileler": [
+        "renault-h5ft-1-2-tce"
       ]
     },
     {
@@ -5595,6 +6980,19 @@
     },
     {
       "marka": "Renault",
+      "model": "Arkana (2022-)",
+      "motor": "1.3 TCe 140 (EDC)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-edc"
+      ]
+    },
+    {
+      "marka": "Renault",
       "model": "Captur (2013-2019)",
       "motor": "1.5 dCi (K9K, EDC)",
       "uretim_yillari": {
@@ -5620,8 +7018,39 @@
             "https://www.sikayetvar.com/renault/captur/arac?page=2",
             "https://eksisozluk.com/renault-araclarda-kronik-edc-sorunu--6637087",
             "https://www.araclo.com/blog/renault-captur-1.5-dci-alinir-mi-kronik-sorunlar-kullanici-yorumlari-ve-ikinci-el-rehberi"
-          ]
+          ],
+          "aile_sorunu": "renault-edc/kontrol-unitesi"
         }
+      ],
+      "aileler": [
+        "renault-edc",
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Captur 2 (2020-)",
+      "motor": "1.0 TCe 100 (H4Dt)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-h4bt-h4dt"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Captur 2 (2020-)",
+      "motor": "1.3 TCe 130/155 (EDC)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-edc"
       ]
     },
     {
@@ -5654,8 +7083,12 @@
             "https://forum.donanimhaber.com/renault-1-5-dci-motor-enjektor-arizasi-resimli--58682772-2",
             "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
             "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/"
-          ]
+          ],
+          "aile_sorunu": "renault-k9k/enjektor"
         }
+      ],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -5734,8 +7167,12 @@
             "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/",
             "https://forum.donanimhaber.com/clio-4-1-5-dci-edc-250-000-km-kullanici-deneyimi--149107088",
             "https://www.sikayetvar.com/renault/clio/enjeksiyon"
-          ]
+          ],
+          "aile_sorunu": "renault-k9k/enjektor"
         }
+      ],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -5774,7 +7211,8 @@
               "durum": "Yaygın",
               "not": "Fransız tüketici örgütü UFC-Que Choisir 2012 sonu-2016 ortası üretilen H5F motorlar için uyarı yaptı; Renault kusur olduğunu reddediyor."
             }
-          ]
+          ],
+          "aile_sorunu": "renault-h5ft-1-2-tce/yag-tuketimi"
         },
         {
           "sorun_adi": "Triger zinciri sesi ve uzaması",
@@ -5791,8 +7229,12 @@
             "https://www.araclo.com/vehicles/renault-clio-1.2-tce/degerlendirmeler/kullanici-sorunlari",
             "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
             "https://www.qashqaiforums.co.uk/viewtopic.php?p=69316"
-          ]
+          ],
+          "aile_sorunu": "renault-h5ft-1-2-tce/triger-zinciri"
         }
+      ],
+      "aileler": [
+        "renault-h5ft-1-2-tce"
       ]
     },
     {
@@ -5826,7 +7268,8 @@
             "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053",
             "https://www.sikayetvar.com/renault/renault-2020-clio-5-10-tce-90-hp-turbo-arizasi",
             "https://www.sikayetvar.com/renault/garanti-kapsamindaki-turbo-ve-far-arizalari-tekrar-tekrar-cozulmedi"
-          ]
+          ],
+          "aile_sorunu": "renault-h4bt-h4dt/turbo-wastegate"
         },
         {
           "sorun_adi": "Motor takozu yıpranması",
@@ -5848,6 +7291,23 @@
             "https://www.sikayetvar.com/renault/clio/titreme"
           ]
         }
+      ],
+      "aileler": [
+        "renault-h4bt-h4dt"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Kadjar (2015-2018)",
+      "motor": "1.2 TCe 130 (H5Ft, manuel ve EDC)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-edc",
+        "renault-h5ft-1-2-tce"
       ]
     },
     {
@@ -5882,7 +7342,8 @@
             "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/",
             "https://forum.donanimhaber.com/edc-yazilim-gunceleme--118953849",
             "https://www.sikayetvar.com/renault/kadjar/sanziman"
-          ]
+          ],
+          "aile_sorunu": "renault-edc/vites-gecis-sesi-kavrama"
         },
         {
           "sorun_adi": "Külbütör kapağı çevresinden yağ terlemesi",
@@ -5901,6 +7362,9 @@
             "https://www.sikayetvar.com/renault/renault-13tce-kronik-sorun"
           ]
         }
+      ],
+      "aileler": [
+        "renault-edc"
       ]
     },
     {
@@ -5934,8 +7398,39 @@
             "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/",
             "https://forum.donanimhaber.com/edc-yazilim-gunceleme--118953849",
             "https://www.sikayetvar.com/renault/kadjar/sanziman"
-          ]
+          ],
+          "aile_sorunu": "renault-edc/vites-gecis-sesi-kavrama"
         }
+      ],
+      "aileler": [
+        "renault-edc",
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Kangoo (2008-2021)",
+      "motor": "1.5 dCi 75/90/110 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Laguna 3 (2007-2015)",
+      "motor": "1.5 dCi 110 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -5970,7 +7465,8 @@
             "https://forum.donanimhaber.com/enjektor-pulu-degisimi--37160668",
             "https://otopark.com/forum/threads/enjektor-temizligi-ucreti-hk.15045/",
             "https://www.sikayetvar.com/renault/enjektor/megane"
-          ]
+          ],
+          "aile_sorunu": "renault-k9k/enjektor"
         },
         {
           "sorun_adi": "Yüksek basınç yakıt pompası talaşı",
@@ -6012,8 +7508,13 @@
             "https://www.sikayetvar.com/edc/titreme",
             "https://forum.donanimhaber.com/edc-yazilim-gunceleme--118953849",
             "https://www.sikayetvar.com/renault/megane/otomatik-sanziman"
-          ]
+          ],
+          "aile_sorunu": "renault-edc/vites-gecis-sesi-kavrama"
         }
+      ],
+      "aileler": [
+        "renault-edc",
+        "renault-k9k"
       ]
     },
     {
@@ -6049,8 +7550,12 @@
             "https://forum.donanimhaber.com/edc-yazilim-gunceleme--118953849",
             "https://www.sikayetvar.com/renault/megane/otomatik-sanziman",
             "https://forum.donanimhaber.com/megane-4-edc-arizasi--155937272"
-          ]
+          ],
+          "aile_sorunu": "renault-edc/vites-gecis-sesi-kavrama"
         }
+      ],
+      "aileler": [
+        "renault-edc"
       ]
     },
     {
@@ -6105,6 +7610,9 @@
             "https://www.sikayetvar.com/blue-dci/megane"
           ]
         }
+      ],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -6138,8 +7646,27 @@
             "https://www.planeterenault.com/forum/scenic-iii-boite-edc-sur-scenic-3-dci-110-defaut-t55386.html?amp=1",
             "https://www.fiches-auto.fr/avis-renault/avis-unique-272-92488-renault-scenic-3-15-dci-110-ch-achat-1-2011-126-000km-.php",
             "https://www.fiches-auto.fr/avis-renault/avis-unique-272-82941-renault-scenic-3-15-dci-110-ch-auto-120000-2013-alu.php"
-          ]
+          ],
+          "aile_sorunu": "renault-edc/kontrol-unitesi"
         }
+      ],
+      "aileler": [
+        "renault-edc",
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Scenic 4 (2016-2022)",
+      "motor": "1.5 dCi 110 (K9K, EDC)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-edc",
+        "renault-k9k"
       ]
     },
     {
@@ -6170,8 +7697,12 @@
             "https://forum.donanimhaber.com/turbo-arizasi-wastegate-acilip-kapanma-sesi-motordan-gelen-bir-garip-ses--150565053",
             "https://www.araclo.com/blog/renault-clio-1.0-tce-nasil-ne-kadar-yakar-alinir-mi-2026-guncel-rehber",
             "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
-          ]
+          ],
+          "aile_sorunu": "renault-h4bt-h4dt/turbo-wastegate"
         }
+      ],
+      "aileler": [
+        "renault-h4bt-h4dt"
       ]
     },
     {
@@ -6200,8 +7731,12 @@
             "https://forum.donanimhaber.com/renault-talisman-touch-1-6-dci-edc-130-bg--116513134-2",
             "https://forum.donanimhaber.com/renault-edc-sorunu--58692943",
             "https://www.araclo.com/blog/renault-talisman-1.5-mi-1.6-mi-sorunlar-yorumlar-ve-ikinci-el-rehberi"
-          ]
+          ],
+          "aile_sorunu": "renault-edc/vites-gecis-sesi-kavrama"
         }
+      ],
+      "aileler": [
+        "renault-edc"
       ]
     },
     {
@@ -6239,6 +7774,45 @@
     },
     {
       "marka": "Seat",
+      "model": "Arona (2017-)",
+      "motor": "1.0 TSI 95/115 (DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Seat",
+      "model": "Ateca (2016-)",
+      "motor": "1.5 TSI 150 (EA211 evo, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-5-tsi-evo"
+      ]
+    },
+    {
+      "marka": "Seat",
+      "model": "Ibiza (6F, 2017-)",
+      "motor": "1.0 TSI 95/115 (DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Seat",
       "model": "Ibiza (6J / 6P, 2008-2017)",
       "motor": "1.2 TSI (DSG DQ200)",
       "uretim_yillari": {
@@ -6265,8 +7839,25 @@
             "https://forum.donanimhaber.com/ibiza-1-2tsi-dsg-nasildir--54513517",
             "https://otopark.com/forum/threads/dsg-mekatronik-tamiri-hakkinda.11584/",
             "https://andcetin.com/dsg-sorunlar-ve-dq200-kullanmayan-modeller-39/"
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Seat",
+      "model": "Leon (5F FL, 2017-2020)",
+      "motor": "1.5 TSI 130/150 (EA211 evo, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-5-tsi-evo"
       ]
     },
     {
@@ -6303,8 +7894,28 @@
             "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
             "https://www.sikayetvar.com/seat/leon/dsg-sanziman",
             "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-dq200",
+        "vag-ea189-1-6-tdi",
+        "vag-ea211-1-2-tsi"
+      ]
+    },
+    {
+      "marka": "Seat",
+      "model": "Leon (5F, 2012-2020)",
+      "motor": "1.4 TSI 125/140/150 (EA211, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea211-1-4-tsi"
       ]
     },
     {
@@ -6337,8 +7948,81 @@
             "https://www.sikayetvar.com/volkswagen/aracimda-tekrarlayan-12v-ve-48v-arizalari-serviste-cozulemiyor",
             "https://forum.donanimhaber.com/dsg-etsi-alternator-sorunu--161956122",
             "https://forum.donanimhaber.com/1-5-e-tec-motor-48v-aku-arizasi-anlasilir-mi--161442841"
-          ]
+          ],
+          "aile_sorunu": "vag-48v-etsi/alternator-48v"
         }
+      ],
+      "aileler": [
+        "vag-1-5-tsi-evo",
+        "vag-48v-etsi"
+      ]
+    },
+    {
+      "marka": "Seat",
+      "model": "Toledo (NH, 2012-2019)",
+      "motor": "1.2 TSI 90/105 (DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Seat",
+      "model": "Toledo (NH, 2012-2019)",
+      "motor": "1.6 TDI 90/105 (EA189 / EA288)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Fabia (5J, 2010-2014)",
+      "motor": "1.2 TSI 86/105 (EA111)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea111-1-2-tsi",
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Fabia (5J, 2010-2014)",
+      "motor": "1.6 TDI 90/105 (EA189)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Fabia (NJ, 2015-2021)",
+      "motor": "1.2 TSI 90/110 (EA211)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea211-1-2-tsi"
       ]
     },
     {
@@ -6368,8 +8052,25 @@
             "https://www.sikayetvar.com/skoda/scala/kronik",
             "https://www.sikayetvar.com/skoda/dsg",
             "https://forum.donanimhaber.com/skoda-kamiq-1-0-tsi-110-ps-65-bin-km-dsg-hakkinda--160973955"
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Kamiq / Scala (2019-)",
+      "motor": "1.5 TSI 150 (EA211 evo, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-5-tsi-evo"
       ]
     },
     {
@@ -6397,7 +8098,8 @@
             "https://otopark.com/forum/threads/1-5-tsi-yasadigim-problemler-titresim-ve-genel-parca-kalitesizligi-yardim.16331/",
             "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/",
             "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392"
-          ]
+          ],
+          "aile_sorunu": "vag-1-5-tsi-evo/yag-eksiltme"
         },
         {
           "sorun_adi": "Düşük devirde titreşim ve düzensiz rölanti (ACT silindir kapatma)",
@@ -6413,8 +8115,38 @@
           "kaynaklar": [
             "https://otopark.com/forum/threads/1-5-tsi-yasadigim-problemler-titresim-ve-genel-parca-kalitesizligi-yardim.16331/",
             "https://forum.donanimhaber.com/golf-1-5-tsi-act-150hp-2-silindir-modunda-titreme-sorunu--148387757"
-          ]
+          ],
+          "aile_sorunu": "vag-1-5-tsi-evo/act-titresim"
         }
+      ],
+      "aileler": [
+        "vag-1-5-tsi-evo"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Kodiaq (2017-)",
+      "motor": "1.5 TSI 150 (EA211 evo, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-5-tsi-evo"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Kodiaq (2017-)",
+      "motor": "2.0 TDI 150/190 (DSG DQ381)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq381"
       ]
     },
     {
@@ -6463,8 +8195,40 @@
               "durum": "Görülebilir",
               "not": "And Mehmet Çetin DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu yazıyor; risk sıfır değil."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-dq200",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia (A5 FL, 2009-2013)",
+      "motor": "1.4 TSI 122 (EA111)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia (A5 FL, 2009-2013)",
+      "motor": "1.8 TSI 160 (EA888 Gen1)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea888-gen2"
       ]
     },
     {
@@ -6495,7 +8259,8 @@
             "https://forum.donanimhaber.com/ilk-calistirmadaki-zincir-sesi--155266646",
             "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
             "https://otopark.com/forum/threads/bulunamayan-yag-eksiltme.15627/"
-          ]
+          ],
+          "aile_sorunu": "vag-ea111-tsi/triger-zinciri"
         },
         {
           "sorun_adi": "Aşırı yağ tüketimi ve supap yayı kırılması",
@@ -6515,8 +8280,27 @@
             "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
             "https://forum.donanimhaber.com/ilk-calistirmadaki-zincir-sesi--155266646",
             "https://otopark.com/forum/threads/bulunamayan-yag-eksiltme.15627/"
-          ]
+          ],
+          "aile_sorunu": "vag-ea111-1-2-tsi/yag-tuketimi-supap-yayi"
         }
+      ],
+      "aileler": [
+        "vag-ea111-1-2-tsi",
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia (A7, 2013-2020)",
+      "motor": "1.2 TSI 86/105 (EA211, manuel ve DQ200 DSG)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea211-1-2-tsi"
       ]
     },
     {
@@ -6559,7 +8343,8 @@
               "durum": "Görülebilir",
               "not": "İkinci nesil DQ200'de mekatronik arızasının daha az görüldüğü yazılıyor ama BRISKODA'da 2013-2020 Octavia için vakalar var."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         },
         {
           "sorun_adi": "Kuru kavrama aşınması",
@@ -6581,7 +8366,8 @@
             "https://www.araclo.com/blog/dq200-7-ileri-dsg-sanziman-sorunlari-cozumleri-ve-bakim-rehberi",
             "https://forum.donanimhaber.com/serviste-dsg-kavrama-maliyeti--154903557",
             "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4"
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/kuru-kavrama-asinmasi"
         },
         {
           "sorun_adi": "Devirdaim pompası ve termostat modülü kaçağı",
@@ -6603,8 +8389,13 @@
             "https://forum.donanimhaber.com/golf-7-devirdaim-pompasi--140667110",
             "https://www.sikayetvar.com/volkswagen/golf/devirdaim-pompasi",
             "https://www.sikayetvar.com/volkswagen/devirdaim"
-          ]
+          ],
+          "aile_sorunu": "vag-ea211-1-4-tsi/devirdaim-termostat"
         }
+      ],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea211-1-4-tsi"
       ]
     },
     {
@@ -6654,8 +8445,13 @@
             "https://www.sikayetvar.com/skoda/yeni-skoda-octaviada-v48-ve-startstop-arizasi-garanti-disi-yuksek-masraflar-ve-guven-sarsintisi",
             "https://www.sikayetvar.com/skoda/octavia-hybrid/tahrik-sistemi",
             "https://forum.donanimhaber.com/sifir-golf-8-ile-yasadigim-sorunlar--150729664"
-          ]
+          ],
+          "aile_sorunu": "vag-48v-etsi/alternator-48v"
         }
+      ],
+      "aileler": [
+        "vag-1-5-tsi-evo",
+        "vag-48v-etsi"
       ]
     },
     {
@@ -6692,8 +8488,12 @@
             "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
             "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
             "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-dq200"
       ]
     },
     {
@@ -6729,8 +8529,93 @@
             "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
             "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
             "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-dq200",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb (II, 2009-2015)",
+      "motor": "1.4 TSI 125 (EA111)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb (II, 2009-2015)",
+      "motor": "1.6 TDI 105 (EA189)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb (II, 2009-2015)",
+      "motor": "1.8 TSI 160 (EA888 Gen1 / Gen2)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea888-gen2"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb (III, 2015-2023)",
+      "motor": "1.4 TSI 125/150 (EA211, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea211-1-4-tsi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb (III, 2015-2023)",
+      "motor": "1.5 TSI 150 (EA211 evo, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-5-tsi-evo"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb (III, 2015-2023)",
+      "motor": "1.6 TDI 120 (EA288)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf"
       ]
     },
     {
@@ -6762,7 +8647,8 @@
             "https://www.sikayetvar.com/skoda/48v-batarya-degisimi-icin-yuksek-ucret-ve-iyi-niyet-destegi-talebi",
             "https://forum.donanimhaber.com/1-5-e-tec-motor-48v-aku-arizasi-anlasilir-mi--161442841",
             "https://forum.donanimhaber.com/dsg-etsi-alternator-sorunu--161956122"
-          ]
+          ],
+          "aile_sorunu": "vag-48v-etsi/alternator-48v"
         },
         {
           "sorun_adi": "Yağ eksiltme ve düşük yağ uyarısı",
@@ -6779,8 +8665,13 @@
             "https://www.sikayetvar.com/skoda/superb/yag",
             "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
             "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/"
-          ]
+          ],
+          "aile_sorunu": "vag-1-5-tsi-evo/yag-eksiltme"
         }
+      ],
+      "aileler": [
+        "vag-1-5-tsi-evo",
+        "vag-48v-etsi"
       ]
     },
     {
@@ -7136,6 +9027,19 @@
     },
     {
       "marka": "Volkswagen",
+      "model": "Arteon (2017-2023)",
+      "motor": "1.5 TSI 150 (EA211 evo, ACT, DSG)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-5-tsi-evo"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
       "model": "Caddy (2K, 2010-2015)",
       "motor": "1.6 TDI (EA189 CAYC)",
       "uretim_yillari": {
@@ -7158,8 +9062,40 @@
             "https://www.sikayetvar.com/volkswagen/volkswagen-caddy-16-tdi-comfortline-2012-kronik-arizasi",
             "https://forum.donanimhaber.com/1-6-tdi-enjektor-arizasi-yardim--109574648",
             "https://forum.donanimhaber.com/1-6-tdi-passat-enjektorleri-kronik-sorunlu--99139696"
-          ]
+          ],
+          "aile_sorunu": "vag-ea189-1-6-tdi/enjektor"
         }
+      ],
+      "aileler": [
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Caddy (SA, 2015-2020)",
+      "motor": "1.6 TDI 102 (EA288)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 6 (2008-2013)",
+      "motor": "1.2 TSI 105 (EA111, manuel ve DQ200 DSG)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea111-1-2-tsi",
+        "vag-ea111-tsi"
       ]
     },
     {
@@ -7193,7 +9129,8 @@
             "https://forum.donanimhaber.com/jetta-1-4-tsi-140-hp-triger-zinciri--74034781",
             "https://forum.donanimhaber.com/ilk-calistirmadaki-zincir-sesi--155266646",
             "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
-          ]
+          ],
+          "aile_sorunu": "vag-ea111-tsi/triger-zinciri"
         },
         {
           "sorun_adi": "DSG mekatronik arızası",
@@ -7233,8 +9170,13 @@
               "durum": "Görülebilir",
               "not": "2012'den itibaren ikinci nesil ünitede mekatronik arızası daha az görülüyor."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea111-tsi"
       ]
     },
     {
@@ -7266,7 +9208,8 @@
             "https://eksisozluk.com/dpf-rejenerasyonu--5836582",
             "https://www.vwvortex.com/threads/1-5-and-1-6-diesel-common-problems.5608561/",
             "https://www.vwvortex.com/threads/mk6-golf-tdi-a-good-car.5998827/"
-          ]
+          ],
+          "aile_sorunu": "vag-1-6-tdi-egr-dpf/egr-dpf"
         },
         {
           "sorun_adi": "Enjektör arızası (şakırdama ve soğuk çalıştırmada düzensiz rölanti)",
@@ -7288,8 +9231,13 @@
             "https://www.honestjohn.co.uk/forum/post/157597/volkswagen-golf-mk6",
             "https://www.vwvortex.com/threads/1-5-and-1-6-diesel-common-problems.5608561/",
             "https://www.sikayetvar.com/enjektor/ses?page=4"
-          ]
+          ],
+          "aile_sorunu": "vag-ea189-1-6-tdi/enjektor"
         }
+      ],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
       ]
     },
     {
@@ -7318,8 +9266,12 @@
             "https://forum.donanimhaber.com/golf-7-yag-eksiltme-sorunu--157538645",
             "https://www.sikayetvar.com/volkswagen/volkswagen-golf-7de-kronik-yag-yakma-sorunu-ve-cozum-eksikligi",
             "https://otopark.com/forum/threads/golf-7-motor-yagi.4665/"
-          ]
+          ],
+          "aile_sorunu": "vag-ea211-1-2-tsi/yag-tuketimi"
         }
+      ],
+      "aileler": [
+        "vag-ea211-1-2-tsi"
       ]
     },
     {
@@ -7352,7 +9304,8 @@
             "https://forum.donanimhaber.com/golf-7-devirdaim-pompasi--140667110",
             "https://www.sikayetvar.com/volkswagen/golf/devirdaim-pompasi",
             "https://www.sikayetvar.com/volkswagen/devirdaim"
-          ]
+          ],
+          "aile_sorunu": "vag-ea211-1-4-tsi/devirdaim-termostat"
         },
         {
           "sorun_adi": "DQ200 kuru kavrama aşınması ve mekatronik arızası",
@@ -7385,8 +9338,13 @@
               "durum": "Görülebilir",
               "not": "İkinci nesil DQ200; mekatronik arızası ilk nesle göre daha az ama kavrama aşınması ve arızalar bildiriliyor."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea211-1-4-tsi"
       ]
     },
     {
@@ -7418,8 +9376,26 @@
             "https://forum.donanimhaber.com/dpf-temizligi-hakkinda-passat-1-6tdi--148242926",
             "https://otopark.com/forum/threads/egr-ve-dpf-agrizasi-mk6-golf-1-6-tdi.2529/",
             "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
-          ]
+          ],
+          "aile_sorunu": "vag-1-6-tdi-egr-dpf/egr-dpf"
         }
+      ],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 7.5 (2017-2020)",
+      "motor": "1.5 TSI 130/150 (EA211 evo, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-5-tsi-evo"
       ]
     },
     {
@@ -7475,8 +9451,13 @@
             "https://www.sikayetvar.com/volkswagen/golf-hybrid/golf-8-etsi",
             "https://www.sikayetvar.com/volkswagen/garanti-disi-alternator-arizasi-ve-130-bin-tl-ucret-talebi",
             "https://forum.donanimhaber.com/sifir-golf-8-ile-yasadigim-sorunlar--150729664"
-          ]
+          ],
+          "aile_sorunu": "vag-48v-etsi/alternator-48v"
         }
+      ],
+      "aileler": [
+        "vag-1-5-tsi-evo",
+        "vag-48v-etsi"
       ]
     },
     {
@@ -7508,8 +9489,14 @@
             "https://www.sikayetvar.com/volkswagen/volan?k=jetta",
             "https://forum.donanimhaber.com/2014-jetta-dsg-vitese-gecmeme-ve-servis-isigi-yanmasi--158681115",
             "https://forum.donanimhaber.com/vw-jetta-2013-dsg-mekatronik-tamir-olamayan-ariza--147101749"
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-dq200",
+        "vag-ea189-1-6-tdi"
       ]
     },
     {
@@ -7560,6 +9547,19 @@
     {
       "marka": "Volkswagen",
       "model": "Passat (B7, 2010-2014)",
+      "motor": "1.4 TSI 122 (EA111)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat (B7, 2010-2014)",
       "motor": "1.6 TDI 105 (CAYC / CAYB)",
       "uretim_yillari": {
         "baslangic": 2010,
@@ -7583,8 +9583,26 @@
             "https://forum.donanimhaber.com/passat-b7-tdi-enjektor-temizleyici--129201106",
             "https://www.araclo.com/vehicles/volkswagen-passat/b7/1-6-tdi/kronik-sorunlar",
             "https://forum.donanimhaber.com/1-6-tdi-siemens-enjektor-tamiri--127464488"
-          ]
+          ],
+          "aile_sorunu": "vag-ea189-1-6-tdi/enjektor"
         }
+      ],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat (B8, 2015-2023)",
+      "motor": "1.4 TSI 125/150 (EA211, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea211-1-4-tsi"
       ]
     },
     {
@@ -7614,8 +9632,12 @@
             "https://www.sikayetvar.com/volkswagen/volkswagen-passat-15-tsi",
             "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
             "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/"
-          ]
+          ],
+          "aile_sorunu": "vag-1-5-tsi-evo/yag-eksiltme"
         }
+      ],
+      "aileler": [
+        "vag-1-5-tsi-evo"
       ]
     },
     {
@@ -7650,7 +9672,8 @@
             "https://otopark.com/forum/threads/egr-ve-dpf-agrizasi-mk6-golf-1-6-tdi.2529/",
             "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/",
             "https://www.sikayetvar.com/volkswagen/dizel/partikul-filtresi"
-          ]
+          ],
+          "aile_sorunu": "vag-1-6-tdi-egr-dpf/egr-dpf"
         },
         {
           "sorun_adi": "DSG kavrama ve mekatronik arızası",
@@ -7675,8 +9698,27 @@
             "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
             "https://www.sikayetvar.com/dsg-sanziman/passat",
             "https://www.sikayetvar.com/volkswagen/garanti/dsg-sanziman"
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat (B9, 2024-)",
+      "motor": "1.5 eTSI 150 (48V hafif hibrit, DSG)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-5-tsi-evo",
+        "vag-48v-etsi"
       ]
     },
     {
@@ -7739,8 +9781,12 @@
             "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
             "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
             "https://www.sikayetvar.com/volkswagen/garanti/dsg-sanziman"
-          ]
+          ],
+          "aile_sorunu": "vag-dq200/mekatronik-ve-kavrama"
         }
+      ],
+      "aileler": [
+        "vag-dq200"
       ]
     },
     {
@@ -7785,7 +9831,8 @@
               "durum": "Seyrek",
               "not": "16 supaplı EA211 motorlara geçildi ve triger kayışı kullanılmaya başlandı; sorun büyük oranda çözüldü."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-ea111-tsi/triger-zinciri"
         },
         {
           "sorun_adi": "Aşırı yağ tüketimi ve supap yayı kırılması",
@@ -7820,8 +9867,13 @@
               "durum": "Seyrek",
               "not": "EA211'e geçişle yağ eksiltme sorunlarının büyük oranda çözüldüğü yazılıyor."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-ea111-1-2-tsi/yag-tuketimi-supap-yayi"
         }
+      ],
+      "aileler": [
+        "vag-ea111-1-2-tsi",
+        "vag-ea111-tsi"
       ]
     },
     {
@@ -7850,8 +9902,39 @@
             "https://www.sikayetvar.com/enjektor/polo",
             "https://forum.donanimhaber.com/polo-6r-1-6-dizel-enjektor-sesi-caye-motor--142997883",
             "https://forum.donanimhaber.com/2013-polo-1-6-tdi-manuel-250-bin-kilometrede-alinir-mi--153064561"
-          ]
+          ],
+          "aile_sorunu": "vag-ea189-1-6-tdi/enjektor"
         }
+      ],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "T-Cross / Taigo (2019-)",
+      "motor": "1.0 TSI 95/110 (DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "T-Roc (2018-)",
+      "motor": "1.0 TSI 115 (DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200"
       ]
     },
     {
@@ -7881,8 +9964,12 @@
             "https://forum.donanimhaber.com/t-roc-alinir-mi--154157079",
             "https://forum.donanimhaber.com/tsi-motorlarda-yag-eksiltme-sorunu--143688392",
             "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/"
-          ]
+          ],
+          "aile_sorunu": "vag-1-5-tsi-evo/yag-eksiltme"
         }
+      ],
+      "aileler": [
+        "vag-1-5-tsi-evo"
       ]
     },
     {
@@ -7927,8 +10014,25 @@
               "durum": "Görülebilir",
               "not": "Forumlar 1.4 TSI'lı Tiguan'larda sorunu 2010-2017 aralığında anıyor; 2016 model araçta zincir sarkması şikâyeti var."
             }
-          ]
+          ],
+          "aile_sorunu": "vag-ea111-tsi/triger-zinciri"
         }
+      ],
+      "aileler": [
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Tiguan (AD1 / CR7, 2016-2020)",
+      "motor": "1.4 TSI 125/150 (EA211, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea211-1-4-tsi"
       ]
     },
     {
@@ -7960,8 +10064,12 @@
             "https://www.sikayetvar.com/volkswagen/volkswagen-t-roc-yag-eksiltme-problemi",
             "https://www.sikayetvar.com/volkswagen/volkswagen-t-roc-surekli-yag-sorunlari-ve-hayal-kirikligi",
             "https://otopark.com/forum/threads/1-5-tsi-motor-yagi-tavsiyesi-1-5-tsi-icin-onerilen-yag-hangisi.14481/"
-          ]
+          ],
+          "aile_sorunu": "vag-1-5-tsi-evo/yag-eksiltme"
         }
+      ],
+      "aileler": [
+        "vag-1-5-tsi-evo"
       ]
     },
     {
@@ -7990,8 +10098,65 @@
             "https://www.sikayetvar.com/volkswagen/yetkili-servis-bakimli-volkswagen-tiguanda-dsg-sanziman-arizasi-ve-yuksek-onarim-ucreti-magduriyeti",
             "https://eksisozluk.com/suv-alma-rehberi--8092747",
             "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339"
-          ]
+          ],
+          "aile_sorunu": "vag-dq381/mekatronik-acil-isletim"
         }
+      ],
+      "aileler": [
+        "vag-dq381"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touran (1T3, 2010-2015)",
+      "motor": "1.4 TSI 140 (EA111)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touran (1T3, 2010-2015)",
+      "motor": "1.6 TDI 105 (EA189 CAYC)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touran (5T, 2015-2022)",
+      "motor": "1.4 TSI 125/150 (EA211, ACT)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea211-1-4-tsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touran (5T, 2015-2022)",
+      "motor": "1.6 TDI 115 (EA288)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf"
       ]
     },
     {
