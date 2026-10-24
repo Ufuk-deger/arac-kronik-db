@@ -32,6 +32,20 @@
             "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
             "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
             "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2009,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "İlk nesil DQ200 dönemi (2008'de çıktı). And Mehmet Çetin DSG mekatronik arızalarının büyük kısmının DQ200'de görüldüğünü ve 2012 sonrası araçlarda daha az olduğunu yazıyor; VW Yeni Zelanda Ekim 2008-Kasım 2014 üretimi DQ200'lü araçlar için mekatronik inceleme kampanyası yayımlamış."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2020,
+              "durum": "Görülebilir",
+              "not": "And Mehmet Çetin DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu yazıyor; risk sıfır değil."
+            }
           ]
         }
       ]
@@ -3359,6 +3373,20 @@
             "https://otopark.com/forum/threads/1-2-nissan-qashqai-yag-yakma-sorunu.10284/",
             "https://forum.donanimhaber.com/nissan-1-2-dig-t-motorlarda-yag-yakma-kronik-mi--135256536",
             "https://www.sikayetvar.com/nissan/nissan-qashqai-12-dig-t-motor-problemi"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2015,
+              "bitis": 2018,
+              "durum": "Yaygın",
+              "not": "DonanımHaber'de sorunun 2015-2018 arasında üretilen Juke, Micra, Qashqai ve X-Trail'de görüldüğü yazılı; Nissan'ın TB EM 15/05 numaralı bülteni de bu döneme işaret ediyor (kullanıcı aktarımı)."
+            },
+            {
+              "baslangic": 2019,
+              "bitis": 2019,
+              "durum": "Seyrek",
+              "not": "Bir yorum sorunun 2018 sonrası makyajlı kasada çözüldüğünü, bir başkası 2016 sonrası üretimde çözüldüğünü iddia ediyor; iddialar çelişkili ve doğrulanmadı."
+            }
           ]
         }
       ]
@@ -3531,6 +3559,20 @@
             "https://www.ocu.org/acciones-colectivas/afectados-motor-defectuoso-renault",
             "https://forum.donanimhaber.com/nissan-1-2-dig-t-motorlarda-yag-yakma-kronik-mi--135256536",
             "https://www.sikayetvar.com/nissan/nissan-qashqai-12-dig-t-motor-problemi"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2015,
+              "bitis": 2018,
+              "durum": "Yaygın",
+              "not": "DonanımHaber'de sorunun 2015-2018 arasında üretilen Juke, Micra, Qashqai ve X-Trail'de görüldüğü yazılı; Nissan'ın TB EM 15/05 numaralı bülteni de bu döneme işaret ediyor (kullanıcı aktarımı). Fransa'da UFC-Que Choisir de 2012 sonu-2016 ortası H5 tipi 1.2 motorlar için fazla yağ tüketimi iddiasında bulundu."
+            },
+            {
+              "baslangic": 2019,
+              "bitis": 2021,
+              "durum": "Seyrek",
+              "not": "Bir yorum sorunun 2018 sonrası makyajlı kasada çözüldüğünü, bir başkası 2016 sonrası üretimde çözüldüğünü iddia ediyor; iddialar çelişkili ve doğrulanmadı."
+            }
           ]
         },
         {
@@ -3550,6 +3592,20 @@
             "https://www.sikayetvar.com/nissan/nissan-qashqai-12-yag-eksiltme-ve-zincir-sesi-sorunu",
             "https://www.qashqaiforums.co.uk/viewtopic.php?p=69316",
             "https://www.araclo.com/vehicles/renault-clio-1.2-tce/degerlendirmeler/kullanici-sorunlari"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2015,
+              "bitis": 2018,
+              "durum": "Görülebilir",
+              "not": "Nissan'ın TB EM 15/05 numaralı bülteninin zincirden gelen şakırtıyı ve 2 numaralı pistonun arızasını kapsadığı aktarılıyor; zincir sesi yağ tüketimi sorunuyla birlikte anılıyor."
+            },
+            {
+              "baslangic": 2019,
+              "bitis": 2021,
+              "durum": "Seyrek",
+              "not": "Bir yorum sorunun 2018 sonrası makyajlı kasada çözüldüğünü, bir başkası 2016 sonrası üretimde çözüldüğünü iddia ediyor; iddialar çelişkili ve doğrulanmadı."
+            }
           ]
         }
       ]
@@ -5054,6 +5110,20 @@
             "https://forum.donanimhaber.com/dsg-sorunu-nasil-anlasilir--90148339",
             "https://otopark.com/forum/threads/7-ileri-kuru-kavrama-dsg.157/page-4",
             "https://www.volkswagen.co.nz/en/owners-and-servicing/about-my-car/campaigns-and-recalls/mechatronics-unit.html"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2010,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "İlk nesil DQ200 dönemi (2008'de çıktı). And Mehmet Çetin DSG mekatronik arızalarının büyük kısmının DQ200'de görüldüğünü ve 2012 sonrası araçlarda daha az olduğunu yazıyor; VW Yeni Zelanda Ekim 2008-Kasım 2014 üretimi DQ200'lü araçlar için mekatronik inceleme kampanyası yayımlamış."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2020,
+              "durum": "Görülebilir",
+              "not": "And Mehmet Çetin DQ200'ün 2012'den itibaren güncellendiğini ve ikinci nesilde mekatronik arızasının daha seyrek olduğunu yazıyor; risk sıfır değil."
+            }
           ]
         }
       ]
@@ -5467,6 +5537,20 @@
             "https://toyotaownersclub.com/forums/topic/160533-excessive-oil-consumption-toyota-14-d4d-engines",
             "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026",
             "https://forum.donanimhaber.com/toyota-1-4-d4-d-motorlarda-sorun-mu-var--71152236"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2009,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "Forumlarda sorunun 2009'daki motor değişikliğinden sonraki araçlarda, özellikle 2010-2011 modellerde görüldüğü yazılıyor (kullanıcı anlatımı; Toyota bülteni doğrulanmadı)."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2013,
+              "durum": "Görülebilir",
+              "not": "Bir yoruma göre revizyon sonrası ve 2012 modelden sonraki araçlarda 5W-30 yağ kullanılıyor ve bazı kullanıcılar eksiltmenin azaldığını gözlemliyor (gözlem)."
+            }
           ]
         },
         {
