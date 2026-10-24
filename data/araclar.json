@@ -1674,13 +1674,21 @@
           "belirtiler": "Yağ çubuğunda seviyenin yükselmesi, yağda benzin kokusu, soğuk havada ve kısa mesafe kullanımda belirginleşmesi",
           "tahmini_km_araligi": "10.000 - 60.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Direkt enjeksiyonlu 1.5 Turbo VTEC'te yakıtın yağa karışması tartışılıyor; bir forum yazarı sorunun ağırlıklı olarak CR-V'lerde görüldüğünü ve 2019'da fabrikasyon çözüldüğünü, başka bir yorum bazı 1.5 182 ps Civic'lerde de oluştuğunu ama oranın çok daha düşük olduğunu yazıyor. Sorun özellikle kısa mesafe ve soğuk havada belirginleşiyor.",
+            "teshis": "Yağ çubuğunda seviyenin yükselmesi ve benzin kokusu. Avrupa'dan bildirilen nadir vakalarda seviye artışının motor normal çalışma sıcaklığına gelince kendiliğinden normale döndüğü aktarılıyor (kullanıcı yorumları). DonanımHaber'de bir Civic RS sahibi 88.000 km'de yağ seviyesinin yükseldiğini yazıyor.",
+            "cozum": "Honda ABD ve Kanada'da yazılım güncellemesi ve uzatılmış garanti kampanyası yürütmüş (mevcut dönem notu); bir blog bazı pazarlarda yazılım güncellemesi yayımlandığını yazıyor (resmî doğrulama yok). Türkiye'deki kapsam doğrulanamadı: şasi numarasıyla bülten ve kampanya sorgusu yaptırın.",
+            "onlem": "Yağ seviyesini soğuk motorda, düz zeminde doğru ölçmek; kısa mesafe ve soğuk hava kullanımını uzun yolla dengelemek."
+          },
           "kaynaklar": [
             "https://www.consumerreports.org/car-recalls-defects/honda-extends-warranty-on-troubled-turbo-engines/",
             "https://www.carcomplaints.com/news/2019/honda-civic-cr-v-oil-dilution-warranties-extended.shtml",
             "https://www.civicx.com/forum/threads/oil-dilution.40590/",
             "https://www.araclo.com/blog/honda-civic-1.5-turbo-vs-1.6-i-vtec-hangisi-daha-avantajli-2026",
             "https://forum.donanimhaber.com/honda-civic-1-5-turbo-rs-88-000km-yag-fazlalasmasi--160945633",
-            "https://www.wardsauto.com/internal-combustion-engines/honda-extends-warranty-to-address-1-5l-gas-oil-dilution-problem"
+            "https://www.wardsauto.com/internal-combustion-engines/honda-extends-warranty-to-address-1-5l-gas-oil-dilution-problem",
+            "https://forum.donanimhaber.com/turbo-vtec-1-5-182-184-193-ps-civic-rs-ve-cr-v-yag-yakit-karistirma--140505598",
+            "https://otopark.com/forum/threads/honda-1-5-t-motorlarda-yag-yakma-sorunu.7674/"
           ],
           "donem_kirilimi": [
             {
@@ -1727,12 +1735,22 @@
           "belirtiler": "Vites geçişlerinde vuruntu, uğultu, ileri aşamada zincir kopması; onarım pahalı, garanti kapsamı dar",
           "tahmini_km_araligi": "80.000 - 140.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Forum kullanıcıları sorunun 1.6 atmosferik (R16) motorlu FC5'lere özgü olduğunu, turbo 182 hp modellerde yaşanmadığını ve zincirin bu motorla uyumsuz olabileceğini savunuyor (doğrulanmamış). Araclo'ya göre bakımı aksatılan bazı araçlarda zincir uzaması ve vites geçişlerinde vuruntu bildirilmiş; risk ihmal edilen yağ değişimleri ve agresif sürüşle artıyor deniyor. Başlangıç kilometresi değişken: bazıları ~80.000 km'de, bazıları 220.000 km'ye kadar sorunsuz.",
+            "teshis": "Vites geçişlerinde vuruntu, uğultu, sarsıntı ve stop etme; Şikâyetvar'da garanti içinde şikâyet edilen sarsıntı ve stop sorununun çözülemediği, garanti bitince zincirin koptuğunun görüldüğü vakalar var.",
+            "cozum": "Vuruntu başladığında zincir değişimiyle sorunun giderildiğini yazanlar var; bir şikâyette zincir bir kez değiştirildikten yaklaşık bir ay sonra arıza tekrarlamış. Zincir tasarım kusuru mu, Honda'nın resmî bir kampanyası var mı, aramada doğrulanamadı.",
+            "maliyet": "Şikâyetvar'da zincir kırılması sonrası zincir değişimi için 72.500 TL ödendiği, başka bir kullanıcıya şanzımanın komple değişmesi gerektiği ve yaklaşık 400.000 TL talep edildiği yazılı (tarihler belirsiz, tek tek beyanlar).",
+            "onlem": "Düzenli yağ bakımı, sert kullanımdan kaçınmak, vuruntu ya da sarsıntı başlar başlamaz servise gitmek ve garanti süresi içinde şikâyeti resmî olarak kayda geçirtmek."
+          },
           "kaynaklar": [
             "https://otopark.com/forum/threads/2016-2021-yillari-arasinda-uretilen-civic-lerde-cvt-sanziman-sorunu.16111/",
             "https://forum.donanimhaber.com/honda-civic-fc5-rezillik-yeter-artik-honda--125088269-6",
             "https://www.sikayetvar.com/honda/honda-fc5-sanziman-zinciri-sorunu",
             "https://www.sikayetvar.com/honda/sanziman-zinciri-kirilmasi-sonrasi-garanti-kapsami-magduriyeti",
-            "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026"
+            "https://www.araclo.com/blog/honda-civic-1.6-i-vtec-fc5-alinir-mi-sorunlar-yakit-tuketimi-ve-yorumlar-2026",
+            "https://www.sikayetvar.com/honda/civic/sanziman",
+            "https://www.sikayetvar.com/honda/honda-civic-sanziman-zinciri-kirildi-72500-tl-onarim-ucreti",
+            "https://www.sikayetvar.com/honda/garanti-sonrasi-sanziman-zinciri-kopmasi-ve-yuksek-onarim-ucreti-magduriyeti"
           ]
         }
       ]
@@ -1796,11 +1814,20 @@
           "belirtiler": "Motor soğukken volandan metalik ses, ısınınca azalması; kalkışta ve rampada çıtırdama ve titreme; yetkili servisin volan ve kavramayı birlikte değiştirmesi",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "7 ileri kuru kavramalı DCT (D7UF1): Araclo bu şanzımanın en çok aktüatör arızası, soğuk kalkışta titreme ve vites atlamayla anıldığını, dur-kalk trafikte çabuk ısındığını ve usulüne uygun kullanılmazsa kısa vadede baskı balata değişimi gerektirebildiğini yazıyor. Bir blog bazı titreme ve vites geçiş sorunlarını kavrama disklerinin yüzeyine ve TCU'nun kavrama noktası kalibrasyonuna bağlıyor.",
+            "teshis": "Kalkışta ve düşük hızda titreme, yokuşta geri kayma, geç tepki ardından ani hamle. Bir forum kullanıcısı yokuş aşağı inişte ara sıra kararsızlık yaşadığını yazıyor. Şikâyetvar'da bir Kona ve bir i20 sahibi birkaç servise gitmiş; servisler test ölçümlerinde sorun bulamadığı için işlem yapamamış ya da çözememiş. Yetkili serviste hata kodu, kavrama kalınlığı ve TCU yazılımının güncelliği kontrol edilmeli.",
+            "cozum": "Mevcut kayıtta yetkili servis volan ve kavramayı birlikte değiştiriyor. Bazı titremeler TCU yazılım güncellemesi ve kalibrasyonla azalıyor (blog, forum ve Ekşi Sözlük yorumları); başka kaynaklar yazılımdan sonra sorunun tekrarladığını yazıyor. Kalıcı çözüm çoğu kez kavrama değişimi olarak görülüyor. Şikâyetvar'daki Tucson ve Sportage vakalarında kavrama garanti kapsamında değiştirilmiş, bazen tekrar etmiş (bir Tucson'da ~2 yıl önceki değişim kısa sürede yeniden titremeye yol açmış) ya da garanti dışı sayılıp ücret istenmiş.",
+            "maliyet": "Hyundai/Kia 7DCT kavrama değişimi için güvenilir bir fiyat bulunamadı. Kavrama aşınan bir sarf parçası sayıldığı için garanti dışı tutuluyor; bazı kullanıcılar iyi niyet garantisiyle (5 yıl/150 bin km) ücretsiz değişim aldığını, bir kullanıcı 38 bin km'de iki kez kavrama değiştirildiğini ve garanti bitince masrafın kendisine kalacağını yazıyor.",
+            "onlem": "İkinci el DCT'li araçta test sürüşünde kalkış ve düşük hızdaki vites geçişlerinde titreme olup olmadığına bakmak (Araclo). Garanti süresindeyken şikâyeti yazılı kayda geçirtmek ve test ölçüm raporu istemek."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/accent-blue/dct",
             "https://www.sikayetvar.com/accent-blue/kronik",
             "https://forum.donanimhaber.com/hyundai-accent-blue-ana-konu--35029650-136",
-            "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari"
+            "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari",
+            "https://www.sikayetvar.com/dct/kronik",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
           ]
         }
       ]
@@ -1820,11 +1847,20 @@
           "belirtiler": "1. ve 2. viteste kalkışta sarsıntı, eğimde kararsızlık, geri vitese geçişte vuruntu; yazılım güncellemesiyle azalabiliyor. Kaynaklardaki şikâyetlerin çoğu aynı platformu ve motoru kullanan i20 modeline aittir.",
           "tahmini_km_araligi": "10.000 - 80.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "7 ileri kuru kavramalı DCT (D7UF1): Araclo bu şanzımanın en çok aktüatör arızası, soğuk kalkışta titreme ve vites atlamayla anıldığını, dur-kalk trafikte çabuk ısındığını ve usulüne uygun kullanılmazsa kısa vadede baskı balata değişimi gerektirebildiğini yazıyor. Bir blog bazı titreme ve vites geçiş sorunlarını kavrama disklerinin yüzeyine ve TCU'nun kavrama noktası kalibrasyonuna bağlıyor.",
+            "teshis": "Kalkışta ve düşük hızda titreme, yokuşta geri kayma, geç tepki ardından ani hamle. Bir forum kullanıcısı yokuş aşağı inişte ara sıra kararsızlık yaşadığını yazıyor. Şikâyetvar'da bir Kona ve bir i20 sahibi birkaç servise gitmiş; servisler test ölçümlerinde sorun bulamadığı için işlem yapamamış ya da çözememiş. Yetkili serviste hata kodu, kavrama kalınlığı ve TCU yazılımının güncelliği kontrol edilmeli.",
+            "cozum": "Bazı titremeler TCU yazılım güncellemesi ve kalibrasyonla azalıyor (blog, forum ve Ekşi Sözlük yorumları); başka kaynaklar yazılımdan sonra sorunun tekrarladığını yazıyor. Kalıcı çözüm çoğu kez kavrama değişimi olarak görülüyor. Şikâyetvar'daki Tucson ve Sportage vakalarında kavrama garanti kapsamında değiştirilmiş, bazen tekrar etmiş (bir Tucson'da ~2 yıl önceki değişim kısa sürede yeniden titremeye yol açmış) ya da garanti dışı sayılıp ücret istenmiş.",
+            "maliyet": "Hyundai/Kia 7DCT kavrama değişimi için güvenilir bir fiyat bulunamadı. Kavrama aşınan bir sarf parçası sayıldığı için garanti dışı tutuluyor; bazı kullanıcılar iyi niyet garantisiyle (5 yıl/150 bin km) ücretsiz değişim aldığını, bir kullanıcı 38 bin km'de iki kez kavrama değiştirildiğini ve garanti bitince masrafın kendisine kalacağını yazıyor.",
+            "onlem": "İkinci el DCT'li araçta test sürüşünde kalkış ve düşük hızdaki vites geçişlerinde titreme olup olmadığına bakmak (Araclo). Garanti süresindeyken şikâyeti yazılı kayda geçirtmek ve test ölçüm raporu istemek."
+          },
           "kaynaklar": [
             "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
             "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari",
             "https://www.sikayetvar.com/hyundai-motor/i20/dct-sanziman",
-            "https://eksisozluk.com/hyundai-i20--1733493?p=81"
+            "https://eksisozluk.com/hyundai-i20--1733493?p=81",
+            "https://www.sikayetvar.com/dct/kronik",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
           ]
         },
         {
@@ -1833,10 +1869,20 @@
           "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın. Kaynaklardaki şikâyetlerin çoğu aynı platformu ve motoru kullanan i20 modeline aittir.",
           "tahmini_km_araligi": "20.000 - 60.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda net teknik neden verilmiyor. Şikâyetvar'da bazı servislerin pompanın kronik arıza olduğunu söylediği aktarılıyor; Bayon sahipleri gönüllü geri çağırma kapsamında yakıt pompası ve hortum değişiminin tanımlı olduğunu yazıyor. Kaynaklar 1.4 MPI ile 1.0 T-GDI motorlar arasında ayrım yapmıyor.",
+            "teshis": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme. Bir i20 1.0 sahibi 2021 model aracının üçüncü kez yakıt pompası nedeniyle yolda kaldığını, bir Bayon sahibi aracın bir gün geçmeden tekrar çalışmadığını yazıyor.",
+            "cozum": "Geri çağırma kapsamında pompa ve hortum değişimi. Şasi numarasıyla geri çağırma sorgusu Hyundai Türkiye'nin resmî kanallarından ya da yetkili servisten yapılmalı; kapsamı motor tipi ve tarihe göre resmî kaynakla doğrulayın. Parça tedariki sorunlu: Bayon sahipleri Bursa ve İzmir'deki bazı yetkili servislerde parça bulunmadığı yanıtını aldığını yazıyor.",
+            "maliyet": "Şikâyetvar'da geri çağırma kapsamında olduğu teyit edilen bir araç için servisin 16.000 TL talep ettiği, başka bir i20 sahibinin geri çağırma öncesi kendi cebinden 12.000 TL ödeyip iade beklediği yazılı (tarihler belirsiz).",
+            "onlem": "Şasi numarasıyla geri çağırma durumunu sorgulatmak; yolda kalma yaşandıysa servis kaydı ve geri çağırma kapsamını yazılı almak."
+          },
           "kaynaklar": [
             "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
             "https://www.sikayetvar.com/hyundai-motor/i20/i20-yakit-pompasi",
-            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor"
+            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor",
+            "https://www.sikayetvar.com/hyundai-motor/bayon/bayon-benzin-pompasi",
+            "https://www.sikayetvar.com/hyundai-motor/bayon/geri-cagirma",
+            "https://www.sikayetvar.com/hyundai-motor/i20/yakit"
           ],
           "donem_kirilimi": [
             {
@@ -1870,10 +1916,20 @@
           "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın. Kaynaklardaki şikâyetlerin çoğu aynı platformu ve motoru kullanan i20 modeline aittir.",
           "tahmini_km_araligi": "20.000 - 60.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda net teknik neden verilmiyor. Şikâyetvar'da bazı servislerin pompanın kronik arıza olduğunu söylediği aktarılıyor; Bayon sahipleri gönüllü geri çağırma kapsamında yakıt pompası ve hortum değişiminin tanımlı olduğunu yazıyor. Kaynaklar 1.4 MPI ile 1.0 T-GDI motorlar arasında ayrım yapmıyor.",
+            "teshis": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme. Bir i20 1.0 sahibi 2021 model aracının üçüncü kez yakıt pompası nedeniyle yolda kaldığını, bir Bayon sahibi aracın bir gün geçmeden tekrar çalışmadığını yazıyor.",
+            "cozum": "Geri çağırma kapsamında pompa ve hortum değişimi. Şasi numarasıyla geri çağırma sorgusu Hyundai Türkiye'nin resmî kanallarından ya da yetkili servisten yapılmalı; kapsamı motor tipi ve tarihe göre resmî kaynakla doğrulayın. Parça tedariki sorunlu: Bayon sahipleri Bursa ve İzmir'deki bazı yetkili servislerde parça bulunmadığı yanıtını aldığını yazıyor.",
+            "maliyet": "Şikâyetvar'da geri çağırma kapsamında olduğu teyit edilen bir araç için servisin 16.000 TL talep ettiği, başka bir i20 sahibinin geri çağırma öncesi kendi cebinden 12.000 TL ödeyip iade beklediği yazılı (tarihler belirsiz).",
+            "onlem": "Şasi numarasıyla geri çağırma durumunu sorgulatmak; yolda kalma yaşandıysa servis kaydı ve geri çağırma kapsamını yazılı almak."
+          },
           "kaynaklar": [
             "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
             "https://www.sikayetvar.com/hyundai-motor/i20/i20-yakit-pompasi",
-            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor"
+            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor",
+            "https://www.sikayetvar.com/hyundai-motor/bayon/bayon-benzin-pompasi",
+            "https://www.sikayetvar.com/hyundai-motor/bayon/geri-cagirma",
+            "https://www.sikayetvar.com/hyundai-motor/i20/yakit"
           ],
           "donem_kirilimi": [
             {
@@ -1907,11 +1963,20 @@
           "belirtiler": "Yağ seviyesinin yükselmesi ve yağda mazot kokusu, sık DPF uyarısı veya rejenerasyon, güç kısıtlaması; kısa mesafe kullanımda daha sık",
           "tahmini_km_araligi": "40.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DPF rejenerasyonu sırasında yanmamış yakıt motor yağına karışıp seviyeyi yükseltiyor; forumlarda kısa mesafe kullanımının bu süreci hızlandırdığı yazılıyor. Yanmamış yakıtın kaynağı olarak arızalı enjektörler, yağ seviyesi artışının diğer nedenleri olarak silindir kapağı contası, turboşarj ve PCV valfi arızaları da sayılıyor. Şikâyetvar'da bir kayıtta DPF nedeniyle yağa yaklaşık 1,5 litre mazot karıştığı söylenmiş.",
+            "teshis": "Yağ çubuğunda seviyenin yükselmesi ve yağda mazot kokusu, sık DPF uyarısı. Forumlarda bazı DPF'li araçlarda yağ çubuğunda max çizgisinin üstünde, mazot karışmış yağ için izin verilen üst sınırı gösteren bir X işareti bulunduğu yazılıyor.",
+            "cozum": "Forum tavsiyeleri: yağı zamanında değiştirmek (mazot karışan yağın yağlama özelliği bozulur), motor ısındıktan sonra yaklaşık 15 dakika 3.000 devirde giderek rejenerasyonu tamamlatmak, kısa mesafe kullanımda yağ aralığını kısaltıp DPF uyumlu (düşük SAPS) yağ kullanmak. Yağ seviyesi sürekli artıyorsa serviste enjektör, kaçak, EGR ve DPF sensörleri kontrol edilmeli. Bir 2024 Tucson sahibi iki yıldır süren sorunla beş kez yetkili servise gitmiş; yazılımın yetmeyip DPF'nin fiziksel temizliğinin gerektiği de forumlarda tartışılıyor.",
+            "onlem": "Yağ seviyesini düzenli ölçmek ve max işaretini aştığında kullanmaya devam etmeden servise gitmek; kısa şehir içi kullanımı arada uzun yolla dengelemek."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/hyundai-motor/tucson/kronik",
             "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-partikul-filtresi",
             "https://www.sikayetvar.com/hyundai-motor/hyundai-assan-tucson-dizel-partikul-filtresi-problemi",
-            "https://andcetin.com/hyundai-kia-16-crdi-sorunlar-83/"
+            "https://andcetin.com/hyundai-kia-16-crdi-sorunlar-83/",
+            "https://otopark.com/forum/threads/dizel-partikul-filtreli-araclarda-gorulebilen-yag-problemi.7225/",
+            "https://forum.donanimhaber.com/motor-yagi-neden-artar--109295236",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/yag"
           ]
         },
         {
@@ -1920,10 +1985,18 @@
           "belirtiler": "Kalkışta trafikte titreme, kavramanın zamanla kötüleşen titreşimi, bazı araçlarda kavramanın garanti kapsamında değiştirilmesi",
           "tahmini_km_araligi": "10.000 - 80.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "7 ileri kuru kavramalı DCT (D7UF1): Araclo bu şanzımanın en çok aktüatör arızası, soğuk kalkışta titreme ve vites atlamayla anıldığını, dur-kalk trafikte çabuk ısındığını ve usulüne uygun kullanılmazsa kısa vadede baskı balata değişimi gerektirebildiğini yazıyor. Bir blog bazı titreme ve vites geçiş sorunlarını kavrama disklerinin yüzeyine ve TCU'nun kavrama noktası kalibrasyonuna bağlıyor.",
+            "teshis": "Kalkışta ve düşük hızda titreme, yokuşta geri kayma, geç tepki ardından ani hamle. Bir forum kullanıcısı yokuş aşağı inişte ara sıra kararsızlık yaşadığını yazıyor. Şikâyetvar'da bir Kona ve bir i20 sahibi birkaç servise gitmiş; servisler test ölçümlerinde sorun bulamadığı için işlem yapamamış ya da çözememiş. Yetkili serviste hata kodu, kavrama kalınlığı ve TCU yazılımının güncelliği kontrol edilmeli.",
+            "cozum": "Bazı titremeler TCU yazılım güncellemesi ve kalibrasyonla azalıyor (blog, forum ve Ekşi Sözlük yorumları); başka kaynaklar yazılımdan sonra sorunun tekrarladığını yazıyor. Kalıcı çözüm çoğu kez kavrama değişimi olarak görülüyor. Şikâyetvar'daki Tucson ve Sportage vakalarında kavrama garanti kapsamında değiştirilmiş, bazen tekrar etmiş (bir Tucson'da ~2 yıl önceki değişim kısa sürede yeniden titremeye yol açmış) ya da garanti dışı sayılıp ücret istenmiş.",
+            "maliyet": "Hyundai/Kia 7DCT kavrama değişimi için güvenilir bir fiyat bulunamadı. Kavrama aşınan bir sarf parçası sayıldığı için garanti dışı tutuluyor; bazı kullanıcılar iyi niyet garantisiyle (5 yıl/150 bin km) ücretsiz değişim aldığını, bir kullanıcı 38 bin km'de iki kez kavrama değiştirildiğini ve garanti bitince masrafın kendisine kalacağını yazıyor.",
+            "onlem": "İkinci el DCT'li araçta test sürüşünde kalkış ve düşük hızdaki vites geçişlerinde titreme olup olmadığına bakmak (Araclo). Garanti süresindeyken şikâyeti yazılı kayda geçirtmek ve test ölçüm raporu istemek."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/hyundai-motor/tucson/dct",
             "https://www.sikayetvar.com/dct/kronik",
-            "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari"
+            "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
           ]
         }
       ]
@@ -1943,11 +2016,19 @@
           "belirtiler": "Kalkışta trafikte titreme, kavramadan gelen titreşimin zamanla kötüleşmesi, şanzıman ısınması; bir sahipte kavramalar 52.000 km'de garanti kapsamında değişmiş",
           "tahmini_km_araligi": "10.000 - 80.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "7 ileri kuru kavramalı DCT (D7UF1): Araclo bu şanzımanın en çok aktüatör arızası, soğuk kalkışta titreme ve vites atlamayla anıldığını, dur-kalk trafikte çabuk ısındığını ve usulüne uygun kullanılmazsa kısa vadede baskı balata değişimi gerektirebildiğini yazıyor. Bir blog bazı titreme ve vites geçiş sorunlarını kavrama disklerinin yüzeyine ve TCU'nun kavrama noktası kalibrasyonuna bağlıyor.",
+            "teshis": "Kalkışta ve düşük hızda titreme, yokuşta geri kayma, geç tepki ardından ani hamle. Bir forum kullanıcısı yokuş aşağı inişte ara sıra kararsızlık yaşadığını yazıyor. Şikâyetvar'da bir Kona ve bir i20 sahibi birkaç servise gitmiş; servisler test ölçümlerinde sorun bulamadığı için işlem yapamamış ya da çözememiş. Yetkili serviste hata kodu, kavrama kalınlığı ve TCU yazılımının güncelliği kontrol edilmeli.",
+            "cozum": "Bazı titremeler TCU yazılım güncellemesi ve kalibrasyonla azalıyor (blog, forum ve Ekşi Sözlük yorumları); başka kaynaklar yazılımdan sonra sorunun tekrarladığını yazıyor. Kalıcı çözüm çoğu kez kavrama değişimi olarak görülüyor. Şikâyetvar'daki Tucson ve Sportage vakalarında kavrama garanti kapsamında değiştirilmiş, bazen tekrar etmiş (bir Tucson'da ~2 yıl önceki değişim kısa sürede yeniden titremeye yol açmış) ya da garanti dışı sayılıp ücret istenmiş.",
+            "maliyet": "Hyundai/Kia 7DCT kavrama değişimi için güvenilir bir fiyat bulunamadı. Kavrama aşınan bir sarf parçası sayıldığı için garanti dışı tutuluyor; bazı kullanıcılar iyi niyet garantisiyle (5 yıl/150 bin km) ücretsiz değişim aldığını, bir kullanıcı 38 bin km'de iki kez kavrama değiştirildiğini ve garanti bitince masrafın kendisine kalacağını yazıyor.",
+            "onlem": "İkinci el DCT'li araçta test sürüşünde kalkış ve düşük hızdaki vites geçişlerinde titreme olup olmadığına bakmak (Araclo). Garanti süresindeyken şikâyeti yazılı kayda geçirtmek ve test ölçüm raporu istemek."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/hyundai-motor/tucson/dct",
             "https://www.sikayetvar.com/dct/tucson",
             "https://www.sikayetvar.com/dct/kronik",
-            "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari"
+            "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
           ]
         }
       ]
@@ -1967,12 +2048,21 @@
           "belirtiler": "Dur-kalk trafikte silkeleme, kalkışta gecikme ve ani hamle, vites geçişlerinde sarsıntı",
           "tahmini_km_araligi": "40.000 - 100.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "7 ileri kuru kavramalı DCT (D7UF1): Araclo bu şanzımanın en çok aktüatör arızası, soğuk kalkışta titreme ve vites atlamayla anıldığını, dur-kalk trafikte çabuk ısındığını ve usulüne uygun kullanılmazsa kısa vadede baskı balata değişimi gerektirebildiğini yazıyor. Bir blog bazı titreme ve vites geçiş sorunlarını kavrama disklerinin yüzeyine ve TCU'nun kavrama noktası kalibrasyonuna bağlıyor. Hyundai'nin 2016-2017 Tucson için 7DCT yazılım güncellemesi geri çağırma/servis kampanyası mevcut kaynaklarda yer alıyor (NHTSA).",
+            "teshis": "Kalkışta ve düşük hızda titreme, yokuşta geri kayma, geç tepki ardından ani hamle. Bir forum kullanıcısı yokuş aşağı inişte ara sıra kararsızlık yaşadığını yazıyor. Şikâyetvar'da bir Kona ve bir i20 sahibi birkaç servise gitmiş; servisler test ölçümlerinde sorun bulamadığı için işlem yapamamış ya da çözememiş. Yetkili serviste hata kodu, kavrama kalınlığı ve TCU yazılımının güncelliği kontrol edilmeli.",
+            "cozum": "Bazı titremeler TCU yazılım güncellemesi ve kalibrasyonla azalıyor (blog, forum ve Ekşi Sözlük yorumları); başka kaynaklar yazılımdan sonra sorunun tekrarladığını yazıyor. Kalıcı çözüm çoğu kez kavrama değişimi olarak görülüyor. Şikâyetvar'daki Tucson ve Sportage vakalarında kavrama garanti kapsamında değiştirilmiş, bazen tekrar etmiş (bir Tucson'da ~2 yıl önceki değişim kısa sürede yeniden titremeye yol açmış) ya da garanti dışı sayılıp ücret istenmiş.",
+            "maliyet": "Hyundai/Kia 7DCT kavrama değişimi için güvenilir bir fiyat bulunamadı. Kavrama aşınan bir sarf parçası sayıldığı için garanti dışı tutuluyor; bazı kullanıcılar iyi niyet garantisiyle (5 yıl/150 bin km) ücretsiz değişim aldığını, bir kullanıcı 38 bin km'de iki kez kavrama değiştirildiğini ve garanti bitince masrafın kendisine kalacağını yazıyor.",
+            "onlem": "İkinci el DCT'li araçta test sürüşünde kalkış ve düşük hızdaki vites geçişlerinde titreme olup olmadığına bakmak (Araclo). Garanti süresindeyken şikâyeti yazılı kayda geçirtmek ve test ölçüm raporu istemek."
+          },
           "kaynaklar": [
             "https://static.nhtsa.gov/odi/rcl/2016/RCRIT-16V628-9893.pdf",
             "https://www.carcomplaints.com/Hyundai/Tucson/2016/transmission/hesitation.shtml",
             "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-sanziman-sorunu",
             "https://forum.donanimhaber.com/hyundai-7-dct-sanziman-problemi--123289408",
-            "https://www.araclo.com/vehicles/hyundai-tucson-1.6-t-gdi/degerlendirmeler/kullanici-sorunlari"
+            "https://www.araclo.com/vehicles/hyundai-tucson-1.6-t-gdi/degerlendirmeler/kullanici-sorunlari",
+            "https://www.sikayetvar.com/dct/kronik",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
           ],
           "donem_kirilimi": [
             {
@@ -2000,11 +2090,20 @@
           "belirtiler": "1. ve 2. viteste kalkışta sarsıntı, eğimde kararsızlık, geri vitese geçişte vuruntu; yazılım güncellemesiyle azalabiliyor.",
           "tahmini_km_araligi": "10.000 - 80.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "7 ileri kuru kavramalı DCT (D7UF1): Araclo bu şanzımanın en çok aktüatör arızası, soğuk kalkışta titreme ve vites atlamayla anıldığını, dur-kalk trafikte çabuk ısındığını ve usulüne uygun kullanılmazsa kısa vadede baskı balata değişimi gerektirebildiğini yazıyor. Bir blog bazı titreme ve vites geçiş sorunlarını kavrama disklerinin yüzeyine ve TCU'nun kavrama noktası kalibrasyonuna bağlıyor.",
+            "teshis": "Kalkışta ve düşük hızda titreme, yokuşta geri kayma, geç tepki ardından ani hamle. Bir forum kullanıcısı yokuş aşağı inişte ara sıra kararsızlık yaşadığını yazıyor. Şikâyetvar'da bir Kona ve bir i20 sahibi birkaç servise gitmiş; servisler test ölçümlerinde sorun bulamadığı için işlem yapamamış ya da çözememiş. Yetkili serviste hata kodu, kavrama kalınlığı ve TCU yazılımının güncelliği kontrol edilmeli.",
+            "cozum": "Bazı titremeler TCU yazılım güncellemesi ve kalibrasyonla azalıyor (blog, forum ve Ekşi Sözlük yorumları); başka kaynaklar yazılımdan sonra sorunun tekrarladığını yazıyor. Kalıcı çözüm çoğu kez kavrama değişimi olarak görülüyor. Şikâyetvar'daki Tucson ve Sportage vakalarında kavrama garanti kapsamında değiştirilmiş, bazen tekrar etmiş (bir Tucson'da ~2 yıl önceki değişim kısa sürede yeniden titremeye yol açmış) ya da garanti dışı sayılıp ücret istenmiş.",
+            "maliyet": "Hyundai/Kia 7DCT kavrama değişimi için güvenilir bir fiyat bulunamadı. Kavrama aşınan bir sarf parçası sayıldığı için garanti dışı tutuluyor; bazı kullanıcılar iyi niyet garantisiyle (5 yıl/150 bin km) ücretsiz değişim aldığını, bir kullanıcı 38 bin km'de iki kez kavrama değiştirildiğini ve garanti bitince masrafın kendisine kalacağını yazıyor.",
+            "onlem": "İkinci el DCT'li araçta test sürüşünde kalkış ve düşük hızdaki vites geçişlerinde titreme olup olmadığına bakmak (Araclo). Garanti süresindeyken şikâyeti yazılı kayda geçirtmek ve test ölçüm raporu istemek."
+          },
           "kaynaklar": [
             "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
             "https://www.araclo.com/blog/hyundai-ve-kia-dct-kuru-kavrama-sanziman-sorunlari-kullanici-sikayetleri-belirtiler-ve-cozum-yollari",
             "https://www.sikayetvar.com/hyundai-motor/i20/dct-sanziman",
-            "https://eksisozluk.com/hyundai-i20--1733493?p=81"
+            "https://eksisozluk.com/hyundai-i20--1733493?p=81",
+            "https://www.sikayetvar.com/dct/kronik",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
           ]
         },
         {
@@ -2013,10 +2112,20 @@
           "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın.",
           "tahmini_km_araligi": "20.000 - 60.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda net teknik neden verilmiyor. Şikâyetvar'da bazı servislerin pompanın kronik arıza olduğunu söylediği aktarılıyor; Bayon sahipleri gönüllü geri çağırma kapsamında yakıt pompası ve hortum değişiminin tanımlı olduğunu yazıyor. Kaynaklar 1.4 MPI ile 1.0 T-GDI motorlar arasında ayrım yapmıyor.",
+            "teshis": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme. Bir i20 1.0 sahibi 2021 model aracının üçüncü kez yakıt pompası nedeniyle yolda kaldığını, bir Bayon sahibi aracın bir gün geçmeden tekrar çalışmadığını yazıyor.",
+            "cozum": "Geri çağırma kapsamında pompa ve hortum değişimi. Şasi numarasıyla geri çağırma sorgusu Hyundai Türkiye'nin resmî kanallarından ya da yetkili servisten yapılmalı; kapsamı motor tipi ve tarihe göre resmî kaynakla doğrulayın. Parça tedariki sorunlu: Bayon sahipleri Bursa ve İzmir'deki bazı yetkili servislerde parça bulunmadığı yanıtını aldığını yazıyor.",
+            "maliyet": "Şikâyetvar'da geri çağırma kapsamında olduğu teyit edilen bir araç için servisin 16.000 TL talep ettiği, başka bir i20 sahibinin geri çağırma öncesi kendi cebinden 12.000 TL ödeyip iade beklediği yazılı (tarihler belirsiz).",
+            "onlem": "Şasi numarasıyla geri çağırma durumunu sorgulatmak; yolda kalma yaşandıysa servis kaydı ve geri çağırma kapsamını yazılı almak."
+          },
           "kaynaklar": [
             "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
             "https://www.sikayetvar.com/hyundai-motor/i20/i20-yakit-pompasi",
-            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor"
+            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor",
+            "https://www.sikayetvar.com/hyundai-motor/bayon/bayon-benzin-pompasi",
+            "https://www.sikayetvar.com/hyundai-motor/bayon/geri-cagirma",
+            "https://www.sikayetvar.com/hyundai-motor/i20/yakit"
           ],
           "donem_kirilimi": [
             {
@@ -2050,10 +2159,20 @@
           "belirtiler": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme; kullanıcılar bu parça için geri çağırma yapıldığını yazıyor, şasi numarasıyla sorgulayın.",
           "tahmini_km_araligi": "20.000 - 60.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda net teknik neden verilmiyor. Şikâyetvar'da bazı servislerin pompanın kronik arıza olduğunu söylediği aktarılıyor; Bayon sahipleri gönüllü geri çağırma kapsamında yakıt pompası ve hortum değişiminin tanımlı olduğunu yazıyor. Kaynaklar 1.4 MPI ile 1.0 T-GDI motorlar arasında ayrım yapmıyor.",
+            "teshis": "Seyir halinde gaz kesip stop etme, motor ısınınca çalışmama, gaza basınca tepki vermeme. Bir i20 1.0 sahibi 2021 model aracının üçüncü kez yakıt pompası nedeniyle yolda kaldığını, bir Bayon sahibi aracın bir gün geçmeden tekrar çalışmadığını yazıyor.",
+            "cozum": "Geri çağırma kapsamında pompa ve hortum değişimi. Şasi numarasıyla geri çağırma sorgusu Hyundai Türkiye'nin resmî kanallarından ya da yetkili servisten yapılmalı; kapsamı motor tipi ve tarihe göre resmî kaynakla doğrulayın. Parça tedariki sorunlu: Bayon sahipleri Bursa ve İzmir'deki bazı yetkili servislerde parça bulunmadığı yanıtını aldığını yazıyor.",
+            "maliyet": "Şikâyetvar'da geri çağırma kapsamında olduğu teyit edilen bir araç için servisin 16.000 TL talep ettiği, başka bir i20 sahibinin geri çağırma öncesi kendi cebinden 12.000 TL ödeyip iade beklediği yazılı (tarihler belirsiz).",
+            "onlem": "Şasi numarasıyla geri çağırma durumunu sorgulatmak; yolda kalma yaşandıysa servis kaydı ve geri çağırma kapsamını yazılı almak."
+          },
           "kaynaklar": [
             "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/",
             "https://www.sikayetvar.com/hyundai-motor/i20/i20-yakit-pompasi",
-            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor"
+            "https://www.sikayetvar.com/hyundai-motor/geri-cagirma-sonrasi-12000-tl-yakit-pompasi-masrafi-iadesi-bekleniyor",
+            "https://www.sikayetvar.com/hyundai-motor/bayon/bayon-benzin-pompasi",
+            "https://www.sikayetvar.com/hyundai-motor/bayon/geri-cagirma",
+            "https://www.sikayetvar.com/hyundai-motor/i20/yakit"
           ],
           "donem_kirilimi": [
             {
@@ -2087,6 +2206,12 @@
           "belirtiler": "1.500-2.000 devir aralığında şakırtı ve silkeleme; enjektör kodlaması ve yazılım yüklemesi 2-3 ay sonra geri dönen geçici çözüm, söküp ayar da kalıcı çözüm sağlamıyor",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Araclo'nun ikinci el rehberi ED kasa araçlarda enjektör kodlama sorununun yaygın bildirildiğini yazıyor; kaynaklarda kodlama değerlerinin neden kaybolduğu açıklanmıyor.",
+            "teshis": "İlk çalıştırmada tekleme, silkeleme ya da düzensiz rölanti enjektör sorununa işaret edebiliyor (Araclo). Şikâyetvar'da bir kullanıcı enjektörleri söküp temizlettikten sonra da 1.700-2.000 devir arası şakırdamanın başladığını yazıyor.",
+            "cozum": "Kodlama (enjektör değerlerinin yeniden yazılması) geçici çözüm sağlıyor: aynı kullanıcı kodlamayı defalarca yaptırdığını, yetkili Kia servisindeki kodlamanın en uzun yaklaşık 3 ay sürdüğünü ve şakırdamanın geri döndüğünü yazıyor; Araclo da kodlamanın sorunu kısa sürede yeniden ortaya çıkarabildiğini belirtiyor. Enjektör değişimi ciddi bir seçenek olarak değerlendirilebilir.",
+            "maliyet": "Enjektör kodlama ya da değişim fiyatı aramada bulunamadı; yetkili Kia servisinden ve özel servislerden yazılı teklif almak gerekiyor."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/kia-ceed-1-6-crdi-silkeleme-sorunu--134474492",
             "https://www.sikayetvar.com/kia/enjektor",
@@ -2110,12 +2235,20 @@
           "belirtiler": "Yağ seviyesinin yükselmesi ve yağda mazot kokusu, sık DPF uyarısı veya rejenerasyon, güç kısıtlaması; kısa mesafe kullanımda daha sık",
           "tahmini_km_araligi": "40.000 - 150.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DPF rejenerasyonu sırasında yanmamış yakıt motor yağına karışıp seviyeyi yükseltiyor; forumlarda kısa mesafe kullanımının bu süreci hızlandırdığı yazılıyor. Yanmamış yakıtın kaynağı olarak arızalı enjektörler, yağ seviyesi artışının diğer nedenleri olarak silindir kapağı contası, turboşarj ve PCV valfi arızaları da sayılıyor. Şikâyetvar'da bir kayıtta DPF nedeniyle yağa yaklaşık 1,5 litre mazot karıştığı söylenmiş.",
+            "teshis": "Yağ çubuğunda seviyenin yükselmesi ve yağda mazot kokusu, sık DPF uyarısı. Forumlarda bazı DPF'li araçlarda yağ çubuğunda max çizgisinin üstünde, mazot karışmış yağ için izin verilen üst sınırı gösteren bir X işareti bulunduğu yazılıyor.",
+            "cozum": "Forum tavsiyeleri: yağı zamanında değiştirmek (mazot karışan yağın yağlama özelliği bozulur), motor ısındıktan sonra yaklaşık 15 dakika 3.000 devirde giderek rejenerasyonu tamamlatmak, kısa mesafe kullanımda yağ aralığını kısaltıp DPF uyumlu (düşük SAPS) yağ kullanmak. Yağ seviyesi sürekli artıyorsa serviste enjektör, kaçak, EGR ve DPF sensörleri kontrol edilmeli. Bir 2024 Tucson sahibi iki yıldır süren sorunla beş kez yetkili servise gitmiş; yazılımın yetmeyip DPF'nin fiziksel temizliğinin gerektiği de forumlarda tartışılıyor.",
+            "onlem": "Yağ seviyesini düzenli ölçmek ve max işaretini aştığında kullanmaya devam etmeden servise gitmek; kısa şehir içi kullanımı arada uzun yolla dengelemek."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/kia/rio/yag",
             "https://www.sikayetvar.com/kia/rio/kronik",
             "https://forum.donanimhaber.com/kia-rio-1-4-crdi-yi-nasil-bilirsiniz--132493671",
             "https://www.araclo.com/vehicles/kia-rio-1.4-wgt-crdi/degerlendirmeler/kullanici-sorunlari",
-            "https://forum.donanimhaber.com/dizel-partikul-filtreli-araclarda-gorulen-yaglama-problemi--127906714"
+            "https://forum.donanimhaber.com/dizel-partikul-filtreli-araclarda-gorulen-yaglama-problemi--127906714",
+            "https://otopark.com/forum/threads/dizel-partikul-filtreli-araclarda-gorulebilen-yag-problemi.7225/",
+            "https://forum.donanimhaber.com/motor-yagi-neden-artar--109295236"
           ]
         }
       ]
@@ -2135,11 +2268,20 @@
           "belirtiler": "Kalkışta ve eğimde titreme, geç tepki ardından ani hamle, yokuşta geri kayma; bazı araçlarda garanti içinde parça değişiminden sonra tekrar ediyor",
           "tahmini_km_araligi": "10.000 - 80.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "7 ileri kuru kavramalı DCT (D7UF1): Araclo bu şanzımanın en çok aktüatör arızası, soğuk kalkışta titreme ve vites atlamayla anıldığını, dur-kalk trafikte çabuk ısındığını ve usulüne uygun kullanılmazsa kısa vadede baskı balata değişimi gerektirebildiğini yazıyor. Bir blog bazı titreme ve vites geçiş sorunlarını kavrama disklerinin yüzeyine ve TCU'nun kavrama noktası kalibrasyonuna bağlıyor.",
+            "teshis": "Kalkışta ve düşük hızda titreme, yokuşta geri kayma, geç tepki ardından ani hamle. Bir forum kullanıcısı yokuş aşağı inişte ara sıra kararsızlık yaşadığını yazıyor. Şikâyetvar'da bir Kona ve bir i20 sahibi birkaç servise gitmiş; servisler test ölçümlerinde sorun bulamadığı için işlem yapamamış ya da çözememiş. Yetkili serviste hata kodu, kavrama kalınlığı ve TCU yazılımının güncelliği kontrol edilmeli.",
+            "cozum": "Bazı titremeler TCU yazılım güncellemesi ve kalibrasyonla azalıyor (blog, forum ve Ekşi Sözlük yorumları); başka kaynaklar yazılımdan sonra sorunun tekrarladığını yazıyor. Kalıcı çözüm çoğu kez kavrama değişimi olarak görülüyor. Şikâyetvar'daki Tucson ve Sportage vakalarında kavrama garanti kapsamında değiştirilmiş, bazen tekrar etmiş (bir Tucson'da ~2 yıl önceki değişim kısa sürede yeniden titremeye yol açmış) ya da garanti dışı sayılıp ücret istenmiş.",
+            "maliyet": "Hyundai/Kia 7DCT kavrama değişimi için güvenilir bir fiyat bulunamadı. Kavrama aşınan bir sarf parçası sayıldığı için garanti dışı tutuluyor; bazı kullanıcılar iyi niyet garantisiyle (5 yıl/150 bin km) ücretsiz değişim aldığını, bir kullanıcı 38 bin km'de iki kez kavrama değiştirildiğini ve garanti bitince masrafın kendisine kalacağını yazıyor.",
+            "onlem": "İkinci el DCT'li araçta test sürüşünde kalkış ve düşük hızdaki vites geçişlerinde titreme olup olmadığına bakmak (Araclo). Garanti süresindeyken şikâyeti yazılı kayda geçirtmek ve test ölçüm raporu istemek."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/kia/kia-sportage-dct-sanziman-sorunlari-ve-guven-kaybi",
             "https://forum.donanimhaber.com/kia-sportage-2019-sonrasi-1-6l-dizel-7-ileri-dct-alanlar-ve-alacaklar-alindi--136447356-17",
             "https://forum.donanimhaber.com/kia-dct-sanziman-aracta-sallanma-sorunu--140033829",
-            "https://www.araclo.com/blog/kia-sportage-1.6-crdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026"
+            "https://www.araclo.com/blog/kia-sportage-1.6-crdi-alinir-mi-kronik-sorunlar-ve-kullanici-yorumlari-2026",
+            "https://www.sikayetvar.com/dct/kronik",
+            "https://www.sikayetvar.com/hyundai-motor/tucson/tucson-kavrama"
           ]
         }
       ]
@@ -2159,6 +2301,12 @@
           "belirtiler": "Yaklaşık 5.000 km'de 1 litre civarı yağ eksilmesi, yağ uyarı lambası, bazı araçlarda motor değişimi",
           "tahmini_km_araligi": "40.000 - 120.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Kaynaklarda net teknik neden verilmiyor. Bazı forum yazarları yağ yakmayı doğrudan enjeksiyon yapısına bağlıyor; bir kullanıcı alüminyum blok nedeniyle segmanların yüksek ısıda aşındığını iddia ediyor (doğrulanmamış). Bir forum yazarı servislerde bu motorda çok sayıda motor işlemi yapıldığını aktarıyor.",
+            "teshis": "Bir kullanıcı 5 bin km'de 1 litre yağ yaktığını bildirmiş ve Kia Türkiye ile çözüme ulaşılamadığını yazıyor. Yağ uyarı lambası ve seviye düşüşü kayda alınmalı.",
+            "cozum": "Bir forum başlığı Hyundai ve Kia'nın 2011-2019 arası bazı modellerini kapsayan ABD'deki aşırı yağ tüketimi davasına atıf yapıyor (sonucu ve kapsamı doğrulanamadı). Garanti: kaynaklarda yasal garanti 2 yıl/60.000 km, Kia'nın onarım güvencesi 5 yıl/150.000 km olarak geçiyor; kapsamı yetkili bayiden teyit edin. Bir kullanıcı 60 bin sonrası bakımları yok sayılarak garanti dışı bırakıldığını yazıyor.",
+            "onlem": "Yağ tüketimini kilometre bazlı düzenli ölçüp kayda geçirmek, tüm bakımları yetkili serviste ve zamanında yaptırıp faturaları saklamak, sorunu Kia Türkiye'ye yazılı bildirmek."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/kia-sportage-1-6-gdi-yag-eksiltme--137791376-6",
             "https://www.sikayetvar.com/sportage/yag",
@@ -3804,6 +3952,11 @@
           "belirtiler": "Yaklaşık 120.000-130.000 km sonrası yağ eksilmesi, yağ uyarısı; yokuşlarda zorlanma ve yüksek devir de şikâyetler arasında",
           "tahmini_km_araligi": "100.000 - 180.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'daki 2011 model bir 1.33'te 130 bin km'de yağ yakma anlatılıyor; bir yorum nedeni yağ segmanlarının pistonda sıkışması olarak gösterip çözümü motor sökümü ve segman değişimi olarak veriyor (teknik doğrulaması yok). Forumlarda arızalı PCV valfi ve EGR arızasının da yağ eksiltmesine yol açabileceği yazılıyor (genel bilgi, 1.33'e özgü kanıt değil).",
+            "teshis": "Çoğu kaynak 1.000 km'de 1 litreye kadar yağ eksiltmeyi Toyota standartlarında normal sayıyor; bu sınır aşılıyorsa servise gidilmesi öneriliyor. Yağ seviyesini kilometreyle kaydetmek faydalı.",
+            "cozum": "Kaynaklarda kesin bir onarım yöntemi ya da fiyat bulunamadı; PCV ve EGR kontrolü, segman sorununda motor sökümü anılıyor."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/toyota/toyota-corolla-133-yag-eksiltme-sorunu-120-binde",
             "https://www.sikayetvar.com/toyota/corolla/kronik",
@@ -3828,11 +3981,18 @@
           "belirtiler": "Bakımlar arasında yağ eksilmesi, egzozdan mavi duman, DPF'nin erken tıkanması",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Bir forumda paylaşılan Toyota servis bülteni özetine göre yağ eksiltme üç nedene bağlanıyor: uygun olmayan vakum pompası, turboşarj sorunu ve yetersiz piston contası (bülteni doğrulayamadım). Başka bir kaynak eksiltmenin büyük ölçüde uzatılmış yağ değişimi ve sürekli kısa mesafe kullanımdan kaynaklandığını savunuyor.",
+            "teshis": "Bakımlar arasında yağ eksilmesi, egzozdan mavi duman; DPF'nin erken tıkanması da anılıyor. Yağ seviyesini kilometreyle birlikte kaydetmek öneriliyor.",
+            "cozum": "Aynı forum özetine göre revizyon sonrası ve 2012 sonrası araçlarda 5W30 yağ kullanılıyor ve bazı kullanıcılar eksiltmenin azaldığını gözlemliyor; bülteni şasi numarasıyla Toyota yetkili servisinden teyit edin.",
+            "onlem": "Motor yağı spesifikasyonuna uymak, değişim aralıklarını uzatmamak, kısa mesafe kullanımı uzun yolla dengelemek."
+          },
           "kaynaklar": [
             "https://forum.donanimhaber.com/toyota-corolla-nin-1-4-dizeli--108848712",
             "https://forum.donanimhaber.com/2011-1-4-dizel-corolla-manuel-yag-eksiltiyor--46845540",
             "https://toyotaownersclub.com/forums/topic/160533-excessive-oil-consumption-toyota-14-d4d-engines",
-            "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026"
+            "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026",
+            "https://forum.donanimhaber.com/toyota-1-4-d4-d-motorlarda-sorun-mu-var--71152236"
           ]
         },
         {
@@ -3841,9 +4001,15 @@
           "belirtiler": "Zor çalışma, rölantide düzensizlik, egzozdan siyah duman, enjektör dibinden yağ kaçağı",
           "tahmini_km_araligi": "120.000 - 200.000 km",
           "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Common-rail enjektörler yakıt kalitesine ve filtre bakımına duyarlı; tıkanan ya da sızdıran enjektör püskürtme dengesini bozuyor. Bir kullanıcı işeme yapan enjektörün silindir yüzeyinde kaçağa ve yağ eksiltmesine yol açabileceğini yazıyor (anekdot).",
+            "teshis": "Zor çalışma, rölantide düzensizlik, siyah duman, enjektör dibinde yağ kaçağı.",
+            "onlem": "Yakıt filtresi bakımını aksatmamak, kaliteli yakıt kullanmak."
+          },
           "kaynaklar": [
             "https://www.sikayetvar.com/toyota/toyota-corolla-enjektor-arizasi",
-            "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026"
+            "https://www.araclo.com/blog/toyota-corolla-1.4-d-4d-ikinci-el-alim-rehberi-sorunlar-yakit-tuketimi-ve-bakim-maliyetleri-2026",
+            "https://forum.donanimhaber.com/toyota-1-4-d4-d-motorlarda-sorun-mu-var--71152236"
           ]
         }
       ]
@@ -3863,11 +4029,18 @@
           "belirtiler": "Motordan gelen vuruntu, tüm arıza ışıklarının yanması, yağ basıncı uyarısı, motor bloğu değişimi; garanti kapsamı tartışmalı",
           "tahmini_km_araligi": "10.000 - 80.000 km",
           "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Kaynaklarda net neden belirlenmiş değil. Şikâyetvar'da bir kullanıcı yetkili serviste 5W30 yağ kullanıldığını, kitapçıkta ise 0W16 yazdığını belirtip bunu yatak sarmasıyla ilişkilendiriyor (nedensel bağ kanıtlanmış değil). Motor için 0W16 (ILSAC GF-6B) yağ öneriliyor.",
+            "teshis": "Bir sahip 2021 model 1.5 Corolla'sının yaklaşık 90.000 km'de yatak sarması yaptığını anlatıyor; Türkçe bir karşılaştırma sitesi vakaların 10.000 km'den 90.000 km'ye kadar bildirildiğini ve yetkili servis bakımlı araçlarda da görülebildiğini yazıyor. Motordan vuruntu, yağ basıncı uyarısı gibi belirtilerde kullanmaya devam etmeden servise gidilmeli.",
+            "cozum": "Motor bloğu/yatak onarımı ya da motor değişimi; garanti kapsamı tartışmalı: forumlarda bakımın yetkisiz bir yerde yapılması halinde garantinin reddedilebileceği yazılı. Aramada Toyota'nın resmî bir geri çağırma kaydı bulunamadı; şasi numarasıyla Toyota Türkiye'den sorgulayın.",
+            "onlem": "Bakımı kitapçıktaki yağ spesifikasyonuna uygun yapmak ve kayıtlarını saklamak."
+          },
           "kaynaklar": [
             "https://andcetin.com/toyota-15-motor-yatak-sarma-riski-69/",
             "https://otopark.com/forum/threads/toyota-corolla-2021-1-5-m15a-fks-yatak-sarma-sorunu.16189/",
             "https://www.sikayetvar.com/toyota/corolla/yatak-sarma",
-            "https://www.araclo.com/motorlar/toyota-m15a-1-5/kronik-sorunlar"
+            "https://www.araclo.com/motorlar/toyota-m15a-1-5/kronik-sorunlar",
+            "https://forum.donanimhaber.com/m156a-fks-toyota-dynamic-force-engine-arsiv--158265738"
           ],
           "donem_kirilimi": [
             {
