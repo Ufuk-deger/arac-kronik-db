@@ -2965,6 +2965,37 @@
           ]
         }
       ]
+    },
+    {
+      "id": "volvo-drive-e-b4204t",
+      "ad": "Volvo Drive-E B4204T 2.0 turbo benzin (T5 / T6)",
+      "tur": "motor",
+      "aciklama": "Volvo'nun 2014'ten itibaren S60, V60, XC60, XC90 ve diğer modellerde kullandığı 2.0 litre dört silindirli turbo (T5) ve turbo + kompresörlü (T6) benzinli Drive-E motoru (B4204T serisi). Kaynak anlatıları çoğunlukla 2015-2016 üretim S60, XC60 ve XC90 sahiplerine aittir.",
+      "kronik_sorunlar": [
+        {
+          "id": "segman-yag-tuketimi",
+          "sorun_adi": "Piston segmanı kaynaklı aşırı yağ tüketimi (2015-2016 üretim, ek garanti)",
+          "etkilenen_parca": "Piston ve yağ segmanları, karter havalandırma (PCV) sistemi",
+          "belirtiler": "Yağ seviyesinin hızla düşmesi, düşük yağ uyarısı, mavi duman; ihmal edilirse motor hasarı",
+          "tahmini_km_araligi": "90.000 - 140.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Volvo, NHTSA'da yayımlanan P10186 kalite bülteniyle 2015-2016 S60, XC60 ve V60 ile 2016 XC90 ve S60L'deki B4204T motorlarında aşırı yağ tüketimi için piston ve segman değişimini ek garanti kapsamına aldı; belirli bir motor seri numarasından (1501327) sonraki motorlarda güncellenmiş piston ve segman kullanılıyor. SwedeSpeed'de sahipler 2015-2016 Drive-E motorlarında segman kaynaklı tüketimi anlatıyor; bir yazar düzeltmenin daha yüksek gerilimli segman olduğunu söylüyor (ikinci el bilgi, doğrulanmadı). Bir yazar karter havalandırma (yağ tuzağı) arızasının tüketimi artırabildiğini belirtiyor.",
+            "teshis": "Yağ seviyesinin sürekli düşmesi ve düşük yağ uyarısı: bir XC60 sahibi yaklaşık 90.000 km'den sonra 2.000 km'de bir çeyrek galon yağ eksildiğini yazıyor. Piston ve segman değişimi gereken vakalar SwedeSpeed'de 58.000, 72.000 ve 85.000 mil civarında anlatılıyor. Ek garanti için motor kodu ve seri numarasıyla bayi sorgusu gerekir.",
+            "cozum": "Piston ve segman değişimi; bir XC90 sahibinde bayi önce karter havalandırma kutusunu değiştirdi ve sorun geçmeyince garanti kapsamında segmanları yeniletti. Bir DIY yazısı 2015 V60 T5 için dört piston seti listeliyor.",
+            "maliyet": "Ek garanti (P10186) 8 yıl ve 100.000 mil altındaki araçları kapsıyor; kapsam dışı kalan araçlar için güncel rakam bulunamadı.",
+            "onlem": "Bülten ABD için yayımlanmıştır; Türkiye'deki araçlar için geçerliliği doğrulanamadı, şasi numarasıyla Volvo yetkili servisinde sorgulatın. İkinci elde yağ seviyesini ve yağ ilavesi geçmişini sormak. Forumlarda 2017 sonrası SPA platformlu araçlarda güncellenmiş segmanlar kullanıldığı yazılıyor. Kilometre aralığı forumlardaki 58.000-85.000 mil (yaklaşık 93.000-137.000 km) vakalarından kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://static.nhtsa.gov/odi/tsbs/2023/MC-10242508-9999.pdf",
+            "https://www.swedespeed.com/threads/2016-xc90-t6-possible-oil-consumption.590931/page-4",
+            "https://www.swedespeed.com/threads/oil-consumption-ring-job.640961/",
+            "https://www.swedespeed.com/threads/oil-consumption-problem-led-to-replacing-the-engine.625633/",
+            "https://www.swedespeed.com/threads/highest-miles-on-a-b4204t11-2-0t.641280/",
+            "https://www.swedespeed.com/threads/does-the-b4204t6-engine-feature-the-faulty-piston-rings-causing-oil-burn.648837/"
+          ]
+        }
+      ]
     }
   ],
   "arac_listesi": [
@@ -17367,6 +17398,19 @@
     },
     {
       "marka": "Volvo",
+      "model": "S60 / V60 (2014-2018)",
+      "motor": "T5 2.0 turbo benzin (B4204T, Drive-E)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "volvo-drive-e-b4204t"
+      ]
+    },
+    {
+      "marka": "Volvo",
       "model": "V60 (2013-2018)",
       "motor": "D2 1.6 D DRIVe (Powershift DPS6)",
       "uretim_yillari": {
@@ -17407,6 +17451,32 @@
             "https://www.parkers.co.uk/volvo/xc60/estate/review/"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (2014-2017)",
+      "motor": "T5 / T6 2.0 turbo benzin (B4204T, Drive-E)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "volvo-drive-e-b4204t"
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC90 (2015-2017)",
+      "motor": "T5 / T6 2.0 turbo benzin (B4204T, Drive-E)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "volvo-drive-e-b4204t"
       ]
     },
     {

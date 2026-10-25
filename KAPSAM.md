@@ -27,14 +27,14 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **623** model/motor grubu (motor ve şanzıman düzeyi)
+- Plan: **626** model/motor grubu (motor ve şanzıman düzeyi)
 - Tamamlanan (✓, modele özgü kaynaklı sorun var): **172**
-- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **218**
+- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **221**
 - Araştırılıp eklenmeyen (–): **233**
 - Sırada (○): **0**
-- Kademe 1: **124/124** işlendi (✓, ◐ ya da –)
-- Model geneli taraması: **154** model nesli arandı (sorun bulunan ✓ **76**, kanıt yetersiz – **78**); 423 motor kaydından **180**'i taranmış bir modele ait, **243**'i henüz taranmadı
-- Veritabanı: **499** kayıt (**423** motor, **76** model geneli), **352** kayda özgü kronik sorun, **59** motor/şanzıman ailesi (**94** ortak sorun)
+- Kademe 1: **126/126** işlendi (✓, ◐ ya da –)
+- Model geneli taraması: **154** model nesli arandı (sorun bulunan ✓ **76**, kanıt yetersiz – **78**); 426 motor kaydından **180**'i taranmış bir modele ait, **246**'i henüz taranmadı
+- Veritabanı: **502** kayıt (**426** motor, **76** model geneli), **352** kayda özgü kronik sorun, **60** motor/şanzıman ailesi (**95** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -61,7 +61,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Honda | 12 | 4 | 3 | 5 | 0 | 2/2 | 2 / 2 |
 | Seat | 13 | 3 | 7 | 3 | 0 | 2/2 | 1 / 2 |
 | Chevrolet | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
-| Volvo | 12 | 1 | 1 | 10 | 0 | 2/2 | 2 / 1 |
+| Volvo | 15 | 1 | 4 | 10 | 0 | 4/4 | 2 / 1 |
 | Subaru | 6 | 1 | 2 | 3 | 0 | 0/0 | 0 / 1 |
 | Mini | 5 | 1 | 3 | 1 | 0 | 0/0 | 0 / 1 |
 | Jeep | 10 | 3 | 4 | 3 | 0 | 0/0 | 1 / 1 |
@@ -942,9 +942,11 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 1 | S60 II / V60 | 2010-2018 | D3 / D4 / D5, T4 / T5 | – eklenmedi: Bu oturumdaki aramada Türkçe kaynakların çoğu S60'a ait ve en çok tekrarlanan konu D2 Powershift (ayrı kayıtta); V60 ve D3 / D4 / D5 Drive-E için özel veri az. 1.6 T4 EcoBoost için hararet, soğutma suyu eksilmesi ve silindir kapağı contası iddiaları var (Şikâyetvar ve DonanımHaber; 65-70 bin TL'lik blok değişimi teklifi gibi eski tarihli tekil vakalar), ancak kilometre bilgisi ve tekrar örüntüsü doğrulanamadı. |
-| 1 | XC60 (2008-2017) | 2008-2017 | 2.4 D5 / D4 2.0 (Drive-E) / T5 | – eklenmedi: Bu oturumdaki aramada DonanımHaber'de 2011 model XC60 D5'te otomatik şanzımanda D'ye alırken sektirme (yağ değişiminin biraz iyileştirdiği) ve 2016 model D4'te yaklaşık 300.000 km'de blok çatlağı gibi tekil anlatılar çıktı; enjektör için kayıt yok. Tekrar eden bir sorun için iki bağımsız site çıkmadı. |
+| 1 | S60 II / V60 | 2010-2018 | D3 / D4 / D5, T4 | – eklenmedi: Bu oturumdaki aramada Türkçe kaynakların çoğu S60'a ait ve en çok tekrarlanan konu D2 Powershift (ayrı kayıtta); V60 ve D3 / D4 / D5 Drive-E için özel veri az. 1.6 T4 EcoBoost için hararet, soğutma suyu eksilmesi ve silindir kapağı contası iddiaları var (Şikâyetvar ve DonanımHaber; 65-70 bin TL'lik blok değişimi teklifi gibi eski tarihli tekil vakalar), ancak kilometre bilgisi ve tekrar örüntüsü doğrulanamadı. |
+| 1 | S60 II / V60 | 2014-2018 | T5 2.0 turbo benzin (B4204T, Drive-E) | ◐ 1 ortak aile sorunu — S60 / V60 T5 için Türkçe kaynakta motora özgü kayıt çıkmadı. Faz 14: bu satır Volvo B4204T ortak yağ tüketimi sorununu gösterir (NHTSA'daki Volvo ek garanti bülteni P10186 ve SwedeSpeed); Türkçe kaynak yok, Türkiye'deki araçlar için bülten kapsamı doğrulanamadı. |
+| 1 | XC60 (2008-2017) | 2008-2017 | 2.4 D5 / D4 2.0 (Drive-E) | – eklenmedi: Bu oturumdaki aramada DonanımHaber'de 2011 model XC60 D5'te otomatik şanzımanda D'ye alırken sektirme (yağ değişiminin biraz iyileştirdiği) ve 2016 model D4'te yaklaşık 300.000 km'de blok çatlağı gibi tekil anlatılar çıktı; enjektör için kayıt yok. Tekrar eden bir sorun için iki bağımsız site çıkmadı. |
 | 1 | XC60 (2008-2017) | 2008-2017 | Tüm motorlar (model geneli) | ✓ 1 sorun — Türkçe sitelerde XC60'a bağlanan su kaçağı başlığı çıkmadı (Şikâyetvar'da 2025 'yeni kasa' XC60 için tek bir 'kronik' uyarısı var, konusu belirsiz); kanıt uluslararası forumlardan (SwedeSpeed, Volvo Owners Club) ve Parkers rehberinden. |
+| 1 | XC60 (2014-2017) | 2014-2017 | T5 / T6 2.0 turbo benzin (B4204T, Drive-E) | ◐ 1 ortak aile sorunu — XC60 T5 / T6 için Türkçe kaynakta motora özgü kayıt çıkmadı. Faz 14: bu satır Volvo B4204T ortak yağ tüketimi sorununu gösterir (NHTSA'daki Volvo ek garanti bülteni P10186 ve SwedeSpeed); Türkçe kaynak yok, Türkiye'deki araçlar için bülten kapsamı doğrulanamadı. |
 | 2 | EX30 / XC40 Recharge | 2021- | Elektrik | – eklenmedi: EX30 için hücre kusuru geri çağırması var (Sunwoda hücreleri, %70 şarj sınırı, modül değişimi); Avrupa'da yalnızca sağ direksiyonlu 69 kWh modelleri kapsadığı yazılıyor ve Türkiye kapsamı doğrulanamadı. Şikâyetvar'daki hızlı şarj, 'Electric Drive Fault' ve XC40 Recharge motor / batarya şikâyetleri tekil. |
 | 2 | S90 / V90 | 2016- | D4 / D5 / T5 / T6 | – eklenmedi: Bu oturumdaki aramada S90 / V90 için motora özgü tekrar eden sorun çıkmadı; belirgin vakalar tekil: DonanımHaber'de 2017 model S90 D5'te piston deformasyonu ve yağın turbolara kaçması nedeniyle motor değişimi (tüketici hakem heyeti süreci ve Yargıtay'ın Mart 2025'te araç değişimi kararını onaması; konuda bir yorumcu sorunun kronik görünmediğini yazıyor), Şikâyetvar'da dizel hibrit bir S90'da 102.500 km'de tekrarlayan soğutma suyu arızası ve 2021 model S90 B5'te termostat arızası → conta yanması → 126.000 km'de motor indirme. Diğer şikâyetler bilgi-eğlence donmaları, sunroof tahliye kanalı, titreşim ve garanti / servis uyuşmazlıkları; kayıt açılmadı. |
 | 2 | V40 (2012-2019) | 2012-2019 | D4 2.0 (Drive-E) / T3 / T4 / T5 | – eklenmedi: Bu oturumdaki aramada V40 D4 / T3 / T4 için tekrar eden tek bir sorun çıkmadı: T3 ile gelen Aisin Geartronic için forum yorumları olumlu, dizeldeki Powershift şikâyetleri D2 kaydında ayrı ele alınıyor. Şikâyetvar'da T3 için 4 yılda 4. kez turbo arızası ve 2017 modelde su haznesi kaynaklı ısınma uyarısı tekil vakalar; Ekşi Sözlük'te tekrarlayan düşük motor performansı uyarısı ve dizelde partikül filtresi anlatıları tekil. Kilometre bilgisi ve ikinci bağımsız doğrulama yetersiz olduğundan kayıt açılmadı. |
@@ -953,9 +955,10 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | XC60 (2017-) | 2017- | D4 / D5 / T5 / B4 | – eklenmedi: Bu oturumdaki aramada Şikâyetvar'da 2020 model XC60'larda turbo arızası (70.000 km) ve B4 dizelde partikül sensörü şikâyeti gibi tekil kayıtlar çıktı; ikinci bağımsız kaynak yok. |
 | 2 | XC60 / S60 / V40 | 2008-2019 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da XC60'ta sürücü destek ve çarpışma önleme uyarıları, Volvo On Call uyarısı, S60'ta ön sol camdan su girmesi ve düğmelerin bozulması tek sitede; soğutma suyu eksilmesi ve kavrama sarsıntısı motor/şanzıman konusu. Sensus ekran, ön takım ve cam tavan için kaynak çıkmadı. XC60 (2008-2017) için su alma başlıkları ayrı satırda (✓). 12. aşamada V40 ve S60 / V60 için yeniden arandı: Şikâyetvar'da şikâyet çıkmadı. XC90 / S90 / V90 (Sensus) ayrı satırda (✓). |
 | 2 | XC90 (2002-2014) | 2002-2014 | 2.4 D5 / 3.2 | – eklenmedi: Bu oturumdaki aramada DonanımHaber'de XC90 2.4 D5 için kronik sorunları da kapsayan bir inceleme başlığı ve 2007 model 2.4 D5 sorunları başlığı çıktı; bir kullanıcı T (benzinli) motorların arızalı olduğunu duyduğunu, 2.4 D motorlardan şikâyet duymadığını yazıyor (tekil yorum). Şanzımanda sorunun sık yaşandığı ama tamirden sonra yeniden çıkmadığı yazılıyor; Şikâyetvar'da bir şanzıman arızası, yüksek masraf ve uzun parça bekleme süresi şikâyeti var (tek vaka). 2.4 D5 enjektörü için doğrudan kayıt çıkmadı; kilometre bilgili, ikinci siteyle doğrulanmış sorun oluşmadı. |
-| 2 | XC90 (2015-) | 2015- | D5 / T5 / T6 | – eklenmedi: Bu oturumdaki aramada 2015 sonrası D5 / T5 / T6'yı kuşak olarak ayırabilen kayıt çıkmadı (sonuçlar çoğunlukla eski kuşağa ait). Bir forum yorumu benzinli T6 için erken vites kaydırma ve güç kaybı şanzıman sorunlarını anıyor (kuşak belirtilmemiş); Şikâyetvar'da far içine su alması ve garanti uygulamaları üzerine bir şikâyet var (tek vaka). |
+| 2 | XC90 (2015-) | 2015- | D5 2.0 (Drive-E) | – eklenmedi: Bu oturumdaki aramada 2015 sonrası D5 / T5 / T6'yı kuşak olarak ayırabilen kayıt çıkmadı (sonuçlar çoğunlukla eski kuşağa ait). Bir forum yorumu benzinli T6 için erken vites kaydırma ve güç kaybı şanzıman sorunlarını anıyor (kuşak belirtilmemiş); Şikâyetvar'da far içine su alması ve garanti uygulamaları üzerine bir şikâyet var (tek vaka). |
+| 2 | XC90 (2015-2017) | 2015-2017 | T5 / T6 2.0 turbo benzin (B4204T, Drive-E) | ◐ 1 ortak aile sorunu — XC90 T5 / T6 için Türkçe kaynakta motora özgü yağ tüketimi kaydı çıkmadı (bir forum yorumu T6'da erken vites kaydırma ve güç kaybı anıyor, kuşak belirtilmemiş). Faz 14: bu satır Volvo B4204T ortak yağ tüketimi sorununu gösterir (NHTSA'daki Volvo ek garanti bülteni P10186 ve SwedeSpeed); Türkçe kaynak yok, Türkiye'deki araçlar için bülten kapsamı doğrulanamadı. |
 | 2 | XC90 / S90 / V90 (Sensus) | 2015- | Tüm motorlar (model geneli) | ✓ 1 sorun — Sensus ekranı donması / yeniden başlaması Şikâyetvar, Swedespeed ve Volvo Forums UK'te doğrulandı (yabancı başlıklar modelleri tam ayırmıyor; XC90 MY18 başlığı var). Şikâyetvar'da sol arka kapı camının açılmaması ve kapının zaman zaman kilitlenmemesi (S90), iki sıfır XC90'da ön tamponların 3 gün arayla düşmesi, yan basamak tıkırtısı ve V90 Cross Country'de titreme / zıplama tekil; XC40 Recharge (P6) sahibi ekranın her gün kapandığını yazıyor (elektrikli, ayrı satır). Cam tavan ve su alma için sonuç çıkmadı. |
-| 3 | S60 / V40 | 2011-2018 | 1.6 D DRIVe (Powershift) | ✓ 1 sorun (+4 ortak aile) |
+| 3 | S60 / V40 | 2011-2018 | 1.6 D DRIVe (Powershift) | ✓ 1 sorun (+5 ortak aile) |
 | 3 | S80 / V70 / XC70 | 2007-2016 | D5 2.4 / D4 | – eklenmedi: DonanımHaber'de S80 D5 için turbo hortumu sızıntısı, 150 bin km civarında otomatik şanzımanda sarsıntı (solenoid ve yağ değişimi, bazen hidrolik ünite revizyonu) ve enjektör başlıkları geçiyor; Şikâyetvar'da bir 2016 Volvo'da iki kez turbo hortumu yüzünden yolda kalma anlatılıyor. Volvo Owners Club forumunda D5 girdap kanadı değişimi (enjektörlerin sökülmesi gerekiyor), D5244T enjektör sızıntısı ve turbo basıncı düşüklüğü kodları tartışılıyor; kilometre bilgisi tutarlı değil ve D4 için kaynak çıkmadı. |
 
 ### Subaru (ek kademe)

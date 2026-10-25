@@ -7414,7 +7414,7 @@
       "marka": "Volvo",
       "model": "XC60 (2008-2017)",
       "yillar": "2008-2017",
-      "motor": "2.4 D5 / D4 2.0 (Drive-E) / T5",
+      "motor": "2.4 D5 / D4 2.0 (Drive-E)",
       "kademe": 1,
       "eslesme": {
         "model": [
@@ -7465,14 +7465,14 @@
       "marka": "Volvo",
       "model": "XC90 (2015-)",
       "yillar": "2015-",
-      "motor": "D5 / T5 / T6",
+      "motor": "D5 2.0 (Drive-E)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "XC90 (2015"
         ],
         "motor": [
-          ""
+          "D5"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -7482,7 +7482,7 @@
       "marka": "Volvo",
       "model": "S60 II / V60",
       "yillar": "2010-2018",
-      "motor": "D3 / D4 / D5, T4 / T5",
+      "motor": "D3 / D4 / D5, T4",
       "kademe": 1,
       "eslesme": {
         "model": [
@@ -7493,8 +7493,7 @@
           "D3",
           "D4",
           "D5",
-          "T4",
-          "T5"
+          "T4"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -12953,6 +12952,54 @@
         ]
       },
       "not": "GLC 220 d (X253 makyajlı) için Türkçe kaynakta yalnızca 2020 model bir GLC 220d'de yolda kalma ve şanzıman arızası tekil vakası var. Faz 14: modele özgü kaynak çıkmadı; bu satır Mercedes OM654 ailesinin ortak külbütör ve makara aşınması sorununu gösterir (MBWorld ve MB Club'da E220d sahipleri; yaygınlığı belirsiz, Türkçe kaynak yok)."
+    },
+    {
+      "marka": "Volvo",
+      "model": "S60 II / V60",
+      "yillar": "2014-2018",
+      "motor": "T5 2.0 turbo benzin (B4204T, Drive-E)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "S60 / V60 (2014"
+        ],
+        "motor": [
+          "B4204T"
+        ]
+      },
+      "not": "S60 / V60 T5 için Türkçe kaynakta motora özgü kayıt çıkmadı. Faz 14: bu satır Volvo B4204T ortak yağ tüketimi sorununu gösterir (NHTSA'daki Volvo ek garanti bülteni P10186 ve SwedeSpeed); Türkçe kaynak yok, Türkiye'deki araçlar için bülten kapsamı doğrulanamadı."
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (2014-2017)",
+      "yillar": "2014-2017",
+      "motor": "T5 / T6 2.0 turbo benzin (B4204T, Drive-E)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "XC60 (2014"
+        ],
+        "motor": [
+          "B4204T"
+        ]
+      },
+      "not": "XC60 T5 / T6 için Türkçe kaynakta motora özgü kayıt çıkmadı. Faz 14: bu satır Volvo B4204T ortak yağ tüketimi sorununu gösterir (NHTSA'daki Volvo ek garanti bülteni P10186 ve SwedeSpeed); Türkçe kaynak yok, Türkiye'deki araçlar için bülten kapsamı doğrulanamadı."
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC90 (2015-2017)",
+      "yillar": "2015-2017",
+      "motor": "T5 / T6 2.0 turbo benzin (B4204T, Drive-E)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "XC90 (2015"
+        ],
+        "motor": [
+          "B4204T"
+        ]
+      },
+      "not": "XC90 T5 / T6 için Türkçe kaynakta motora özgü yağ tüketimi kaydı çıkmadı (bir forum yorumu T6'da erken vites kaydırma ve güç kaybı anıyor, kuşak belirtilmemiş). Faz 14: bu satır Volvo B4204T ortak yağ tüketimi sorununu gösterir (NHTSA'daki Volvo ek garanti bülteni P10186 ve SwedeSpeed); Türkçe kaynak yok, Türkiye'deki araçlar için bülten kapsamı doğrulanamadı."
     }
   ]
 }
