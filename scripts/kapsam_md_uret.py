@@ -134,7 +134,11 @@ def uret():
         "Bu listenin dışındaki markalar (`ek` kapsamı) ikinci el yaygınlığı ve kaynak bulunabilirliği gözetilerek editoryal olarak eklendi; satış adetleri doğrulanamadı.",
         "- **Elektrikli araçlar:** `motor` alanı elektrik motoru ve batarya sürümünü gösterir (ör. `Elektrik (52,4 kWh ve 88,5 kWh)`). Sorunlar batarya, şarj (OBC, ICCU), 12V akü ve yazılım gibi "
         "elektrikli araca özgü parçalara aittir. Geri çağırma kaydı olan sorunlarda Türkiye kapsamı doğrulanamıyorsa bu kayıtta ve plan notunda belirtilir. "
-        "Aynı batarya ve motor değerlerine sahip kardeş modelin kaynağı yalnızca ilgili kayıtta açıkça belirtilerek kullanılabilir (ör. Astra Electric ve Peugeot e-308). Plug-in hibritler (ör. BYD Seal U DM-i) bu aşamada kapsam dışıdır.",
+        "Aynı batarya ve motor değerlerine sahip kardeş modelin kaynağı yalnızca ilgili kayıtta açıkça belirtilerek kullanılabilir (ör. Astra Electric ve Peugeot e-308).",
+        "- **Hibrit ve plug-in hibrit araçlar (14. aşamadan itibaren):** Tam hibritler (ör. Toyota 1.8 Hybrid), hafif hibritler (48V) ve plug-in hibritler "
+        "(PHEV; ör. Volvo T8, Passat GTE, Kuga PHEV) kapsamdadır. `motor` alanı içten yanmalı motoru ve hibrit sistemi birlikte söyler; plug-in sürümlerde `PHEV` ibaresi ve varsa batarya kapasitesi yer alır. "
+        "Sorunlar içten yanmalı motora ve şanzımana, hibrit sisteme özgü parçalara (yüksek voltlu batarya, inverter, DC-DC dönüştürücü, şarj girişi ve şarj cihazı, 12V akü) ve yazılıma ayrılır; "
+        "aynı içten yanmalı motoru kullanan sürümler o motorun ailesine bağlanır. Kanıt kuralı değişmez: her sorun için iki bağımsız site, bunlardan biri deneyim ya da resmî türünde.",
         "- **Sıralama:** Genelden özele gidilir. Önce her markanın en çok satılan ve en çok sorgulanan modelleri ile ana motor grupları "
         "(kademe 1), sonra yaygın ama daha az sorgulananlar (kademe 2), en son niş gruplar (kademe 3).",
         "- **Yıl kırılımı:** Kaynaklar üretim yılına göre fark belirtiyorsa sorun `donem_kirilimi` ile yıl aralıklarına ayrılır "

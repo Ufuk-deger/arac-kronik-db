@@ -527,7 +527,7 @@ Beşinci aşamanın isteği, elektrikli araçların da kapsama alınmasıydı. �
 
 ### Ne yapıldı
 
-- **Kapsam kararı:** BYD, Togg ve Tesla kapsama alındı; Chery `ek` kademesine geçti (Omoda E5 arandı, bulunamadı); Smart ve Porsche `ek` kademeyle eklendi. `KAPSAM.md` ölçütü, `README.md` ve plan notları buna göre güncellendi. Yalnızca tam elektrikliler kapsamda; hibrit ve plug-in hibritler (ör. BYD Seal U DM-i) dahil değil.
+- **Kapsam kararı:** BYD, Togg ve Tesla kapsama alındı; Chery `ek` kademesine geçti (Omoda E5 arandı, bulunamadı); Smart ve Porsche `ek` kademeyle eklendi. `KAPSAM.md` ölçütü, `README.md` ve plan notları buna göre güncellendi. Yalnızca tam elektrikliler kapsamda; hibrit ve plug-in hibritler (ör. BYD Seal U DM-i) dahil değil. (14. aşamada bu karar değişti: hibritler ve plug-in hibritler kapsama alındı.)
 - **Plan:** 245 satırdan 276'ya çıktı (+31): 12'si veritabanına girdi, 19'u kanıt yetersiz olduğu için eklenmedi. Sırada (○) satır yok.
 - **Yeni kayıt:** 12 yeni araç/motor kaydı ve 15 yeni sorun; beş yeni marka (BYD, MG, Porsche, Tesla, Togg). Yeni sorunların 9'u `Yüksek`, 5'i `Orta`, 1'i `Düşük` risk seviyesinde.
 - **Kaynaklar:** 120 bağlantı eklendi. Kayıt defterine üç site girdi: SpeakEV (forum), InsideEVs ve electrive.com (haber). Her adresin arama sonuçlarında tam eşleşmeyle geçtiği yazım sırasında otomatik denetlendi. Resmî belge olarak NHTSA geri çağırma dosyaları, haber olarak electrive ve InsideEVs, deneyim olarak Şikâyetvar, DonanımHaber, Ekşi Sözlük ve SpeakEV kullanıldı.
@@ -738,7 +738,7 @@ Bunların çoğu "araştırıldı ama tekrar eden bir kronik sorun için iki ba�
 Planın dışında kalan çok ilanlı gruplar:
 
 - **2011 öncesi model yılları** (Şahin / Kartal / Doğan, Albea / Palio, Clio 2, Megane 2, Passat B5, Astra G, BMW E46 gibi): zaman penceresi kuralıyla dışarıda; sahibinden'de ilan sayıları yüksek olabilir.
-- **Hibritler** (Toyota Corolla ve C-HR hibrit, Honda City hibrit): elektrikli aşamasındaki kuralla kapsam dışı.
+- **Hibritler** (Toyota Corolla ve C-HR hibrit, Honda City hibrit): elektrikli aşamasındaki kuralla kapsam dışı. (14. aşamada kapsama alındı.)
 - **Hafif ticariler:** Doblo ve Fiorino / Qubo var; Ford Courier ve Transit, Renault Kangoo, Peugeot Partner ve Citroën Berlingo `–` ya da yok.
 - **Planda hiç geçmeyen modeller:** Opel Meriva ve Zafira, VW Touran, Ford Fusion, Honda Accord, Renault Taliant.
 
