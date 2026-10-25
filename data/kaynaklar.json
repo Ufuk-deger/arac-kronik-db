@@ -706,6 +706,14 @@
       "guven": "yüksek",
       "ana_sayfa": "https://www.press.bmwgroup.com/",
       "not": "Üretici basın duyuruları (geri çağırma ve teknik kampanyalar); kampanyanın varlığı için güvenilir, arıza yaygınlığı kanıtı değildir."
+    },
+    "mlit.go.jp": {
+      "ad": "MLIT (Japonya Ulaştırma Bakanlığı)",
+      "ulke": "JP",
+      "tur": "resmi",
+      "guven": "yüksek",
+      "ana_sayfa": "https://www.mlit.go.jp/en/",
+      "not": "Japonya'da resmî geri çağırma bildirimleri; Türkiye kapsamı ayrıca doğrulanmalıdır."
     }
   }
 }

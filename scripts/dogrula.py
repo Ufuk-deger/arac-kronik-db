@@ -42,7 +42,7 @@ KIRILIM_DURUMLARI = ("Yaygın", "Görülebilir", "Seyrek")
 YIL_ARALIGI = (1990, 2100)
 KM_DESENI = re.compile(r"^(\d{1,3}(?:\.\d{3})*) - (\d{1,3}(?:\.\d{3})*) km$")
 EN_AZ_ALAN_ADI = 2
-IKI_PARCALI_UZANTILAR = {"co.uk", "org.uk", "com.au", "co.nz", "com.tr", "org.tr"}
+IKI_PARCALI_UZANTILAR = {"co.uk", "org.uk", "com.au", "co.nz", "com.tr", "org.tr", "go.jp"}
 
 
 def model_geneli_mi(arac):

@@ -60,9 +60,9 @@
     },
     {
       "id": "bmw-b48-2-0",
-      "ad": "BMW B48 2.0 turbo benzin (B46 / B48)",
+      "ad": "BMW B48 turbo benzin (B46 / B48; 1.6 ve 2.0 litre)",
       "tur": "motor",
-      "aciklama": "BMW'nin 2015'ten beri 1, 2, 3, 4, 5 Serisi, X1 - X4 ve Mini'de kullandığı 2.0 litre dört silindirli turbo benzinli motor (320i, 330i, 420i, 520i, 530i, X1 / X3 20i - 30i, Mini Cooper S 2.0; enine sürümü B46). N20'nin halefidir. Kaynak anlatıları çoğunlukla 3 ve 5 Serisi sahiplerine aittir.",
+      "aciklama": "BMW'nin 2015'ten beri 1, 2, 3, 4, 5 Serisi, X1 - X4 ve Mini'de kullandığı dört silindirli turbo benzinli motor (320i, 330i, 420i, 520i, 530i, X1 / X3 20i - 30i, Mini Cooper S; enine sürümü B46). Türkiye'de 320i ve 520i için 1.6 litrelik B48B16 sürümü (170 PS) de satılıyor (forum anlatıları). N20'nin halefidir. Kaynak anlatıları çoğunlukla 3 ve 5 Serisi sahiplerine aittir.",
       "kronik_sorunlar": [
         {
           "id": "yag-filtre-yuvasi-sogutma",
@@ -4247,7 +4247,7 @@
     {
       "marka": "BMW",
       "model": "3 Serisi (F30 LCI, 2015-2019)",
-      "motor": "320i / 330i 2.0 turbo benzin (B48)",
+      "motor": "320i / 330i turbo benzin (B48)",
       "uretim_yillari": {
         "baslangic": 2015,
         "bitis": 2019
@@ -4419,7 +4419,7 @@
     {
       "marka": "BMW",
       "model": "3 Serisi (G20, 2019-)",
-      "motor": "320i / 330i 2.0 turbo benzin (B48)",
+      "motor": "320i / 330i turbo benzin (B48)",
       "uretim_yillari": {
         "baslangic": 2019,
         "bitis": null
@@ -4516,10 +4516,23 @@
     {
       "marka": "BMW",
       "model": "4 Serisi (F32 / F36, 2016-2020)",
-      "motor": "420i 2.0 turbo benzin (B48)",
+      "motor": "420i turbo benzin (B48)",
       "uretim_yillari": {
         "baslangic": 2016,
         "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b48-2-0"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi (G22 / G26, 2020-)",
+      "motor": "420i / 430i turbo benzin (B48)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
       },
       "kronik_sorunlar": [],
       "aileler": [
@@ -4638,7 +4651,7 @@
     {
       "marka": "BMW",
       "model": "5 Serisi (G30, 2017-2023)",
-      "motor": "520i / 530i 2.0 turbo benzin (B48)",
+      "motor": "520i / 530i turbo benzin (B48)",
       "uretim_yillari": {
         "baslangic": 2017,
         "bitis": 2023
@@ -4762,6 +4775,32 @@
     },
     {
       "marka": "BMW",
+      "model": "X1 (U11, 2022-)",
+      "motor": "sDrive18i 1.5 turbo (B38)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 (U11, 2022-)",
+      "motor": "sDrive20i turbo benzin (B48)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b48-2-0"
+      ]
+    },
+    {
+      "marka": "BMW",
       "model": "X2 (F39, 2018-2023)",
       "motor": "sDrive18i 1.5 turbo (B38)",
       "uretim_yillari": {
@@ -4847,7 +4886,7 @@
     {
       "marka": "BMW",
       "model": "X3 (G01, 2017-)",
-      "motor": "xDrive20i / xDrive30i 2.0 turbo benzin (B48)",
+      "motor": "xDrive20i / xDrive30i turbo benzin (B48)",
       "uretim_yillari": {
         "baslangic": 2017,
         "bitis": null
@@ -5628,6 +5667,102 @@
       ]
     },
     {
+      "marka": "Cupra",
+      "model": "Leon (2020-)",
+      "motor": "1.5 eTSI 150 (EA211 evo, 48V hafif hibrit, DSG)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-5-tsi-evo",
+        "vag-48v-etsi"
+      ]
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 4 (2021-)",
+      "motor": "1.2 PureTech 130 (EB2, EAT8)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 4 (2021-)",
+      "motor": "1.5 BlueHDi 130 (DV5, EAT8)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 7 Crossback (2018-2022)",
+      "motor": "1.5 BlueHDi 130 (DV5, EAT8)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 7 Crossback (2018-2022)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Arka stop lambalarına su alması (nemlenme)",
+          "etkilenen_parca": "Arka stop lambası (gövde ve mercek birleşimi), LED modülleri",
+          "belirtiler": "Stop lambası içinde nem ya da su birikmesi, LED ve sinyal arızası; ileri aşamada elektrik arızası",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Japonya'da Ekim 2023'te yayımlanan resmî geri çağırma bildirimine göre 2018-2020 DS 7 modellerinde lamba gövdesi ile mercek arasındaki birleşimden su girebiliyor ve zamanla lamba çalışmaz hale gelebiliyor (1.150 araç). Şikâyetvar'da Türkiye'den sahipler 2018 ve 2021 model araçlarda stopların su aldığını, birinde bir tarafı değiştirildikten sonra diğer tarafta da aynı sorunun çıktığını yazıyor; French Car Forum'da (İngiltere) sahipler aynı sorunu, bir tarafı garantide değiştirilen aracın 11 ay sonra diğer tarafta sorun yaşadığını ve garanti dışı bir araçta bayinin açık geri çağırma bulunduğu için stopları ücretsiz değiştirdiğini anlatıyor. Bir sahip bayinin DS'in tasarıma lastik pul eklediğini söylediğini aktarıyor (ikinci el bilgi).",
+            "teshis": "Stop lambası içinde buğulanma, damlacık ya da su seviyesi; LED ve sinyal arızası. Forumlarda onarımın ölçülen su seviyesine bağlandığı ve hafif nemlenmenin değişim gerektirmediği yazılıyor; garanti sürerken boşaltma deliği açılmaması öneriliyor (garantiyi etkileyebilir).",
+            "cozum": "Lamba ünitesinin değiştirilmesi. Açık geri çağırma varsa ücretsiz; Şikâyetvar'da bir sahip geri çağırma kapsamındaki stop değişiminin ücretsiz olmasını talep ediyor. Bayiye şasi numarasıyla açık geri çağırma ve teknik servis bülteni sorgusu yaptırmak gerekir.",
+            "maliyet": "Şikâyetvar'da bir sahip su alması sonrasında şasi kaynaklı elektrik arızasıyla birlikte yaklaşık 100.000 TL'lik onarım bedeli bildiriyor; başka bir sahibe tek stop değişimi için 30.000 TL istenmiş (bayi talepleri, doğrulanamadı). İngiltere'de bir sahip bayinin maliyetin yaklaşık yarısını DS'in karşılayabileceğini söylediğini yazıyor.",
+            "onlem": "İkinci elde stopları nem ve su izi yönünden kontrol ettirmek, şasi numarasıyla DS yetkili servisinde açık geri çağırma sorgusu yapmak. Japonya bildirimi Türkiye için geçerli olmayabilir; Türkiye'de resmî bir geri çağırma bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/ds-automobiles/ds-7-arka-far-nemlenme-ve-su-alma-sorunu",
+            "https://www.sikayetvar.com/ds-automobiles/geri-cagirma-kapsamindaki-arka-stop-degisiminin-ucretsiz-olmasi-gerekliligi",
+            "https://www.sikayetvar.com/ds-automobiles/arka-stop-lambalarinda-su-almasi-nedeniyle-100000-onarim-talebi",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?p=798503",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?p=794537",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?p=718495",
+            "https://www.mlit.go.jp/en/jidosha/content/001709534.pdf"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2018,
+              "bitis": 2022,
+              "durum": "Görülebilir",
+              "not": "Japonya bildirimi 2018-2020 üretimini kapsıyor; Şikâyetvar'da 2018 ve 2021 model araçlar var."
+            }
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Dacia",
       "model": "Duster (2010-2017)",
       "motor": "1.5 dCi (K9K)",
@@ -5826,6 +5961,19 @@
           "aile_sorunu": "renault-h4bt-h4dt/turbo-wastegate"
         }
       ],
+      "aileler": [
+        "renault-h4bt-h4dt"
+      ]
+    },
+    {
+      "marka": "Dacia",
+      "model": "Duster (2024-)",
+      "motor": "1.0 TCe 100 ECO-G (H4Dt)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
       "aileler": [
         "renault-h4bt-h4dt"
       ]

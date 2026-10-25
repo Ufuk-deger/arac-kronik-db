@@ -206,7 +206,7 @@
         "marka": "Cupra",
         "adet": null,
         "kapsam": "ek",
-        "not": "Ek kademe: Faz 4'te arandı; şikâyetler tekil kaldığı için kayıt eklenmedi. Satış adedi doğrulanamadı."
+        "not": "Ek kademe: Faz 4'te arandı; şikâyetler tekil kaldığı için kayıt eklenmedi. 14. aşamada Leon 1.5 eTSI ortak aile kaydı eklendi. Satış adedi doğrulanamadı."
       },
       {
         "marka": "MG",
@@ -260,7 +260,13 @@
         "marka": "Ssangyong",
         "adet": null,
         "kapsam": "ek",
-        "not": "Ek kademe: Faz 10'da sıraya alındı, henüz aranmadı. Satış adedi doğrulanamadı."
+        "not": "Ek kademe: Faz 13'te Korando / Tivoli ve Rexton arandı; 14. aşamada Torres EVX arandı, ikinci bağımsız kaynak çıkmadığı için kayıt açılmadı. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "DS Automobiles",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: 14. aşamada Sahibinden listesinde bulunup planda olmadığı için eklendi (DS 7 Crossback ve DS 4, 2021 sonrası). Birinci nesil DS4 Citroën altında kayıtlı. Satış adedi doğrulanamadı."
       }
     ],
     "kaynaklar": [
@@ -2130,7 +2136,7 @@
       "marka": "BMW",
       "model": "3 Serisi F30",
       "yillar": "2015-2019",
-      "motor": "320i / 330i 2.0 turbo benzin (B48)",
+      "motor": "320i / 330i turbo benzin (B48)",
       "kademe": 1,
       "eslesme": {
         "model": [
@@ -7116,7 +7122,7 @@
       "marka": "BMW",
       "model": "3 Serisi G20",
       "yillar": "2019-",
-      "motor": "320i / 330i 2.0 turbo benzin (B48)",
+      "motor": "320i / 330i turbo benzin (B48)",
       "kademe": 1,
       "eslesme": {
         "model": [
@@ -7132,7 +7138,7 @@
       "marka": "BMW",
       "model": "5 Serisi G30",
       "yillar": "2017-2023",
-      "motor": "520i / 530i 2.0 turbo benzin (B48)",
+      "motor": "520i / 530i turbo benzin (B48)",
       "kademe": 1,
       "eslesme": {
         "model": [
@@ -7148,7 +7154,7 @@
       "marka": "BMW",
       "model": "X3 G01",
       "yillar": "2017-",
-      "motor": "xDrive20i / xDrive30i 2.0 turbo benzin (B48)",
+      "motor": "xDrive20i / xDrive30i turbo benzin (B48)",
       "kademe": 1,
       "eslesme": {
         "model": [
@@ -7181,7 +7187,7 @@
       "marka": "BMW",
       "model": "4 Serisi F32 / F36",
       "yillar": "2016-2020",
-      "motor": "420i 2.0 turbo benzin (B48)",
+      "motor": "420i turbo benzin (B48)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -13000,6 +13006,397 @@
         ]
       },
       "not": "XC90 T5 / T6 için Türkçe kaynakta motora özgü yağ tüketimi kaydı çıkmadı (bir forum yorumu T6'da erken vites kaydırma ve güç kaybı anıyor, kuşak belirtilmemiş). Faz 14: bu satır Volvo B4204T ortak yağ tüketimi sorununu gösterir (NHTSA'daki Volvo ek garanti bülteni P10186 ve SwedeSpeed); Türkçe kaynak yok, Türkiye'deki araçlar için bülten kapsamı doğrulanamadı."
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 7 Crossback",
+      "yillar": "2018-2022",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "DS 7 Crossback"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Arka stop lambası su alması: Şikâyetvar, French Car Forum ve Japonya MLIT geri çağırma bildirimi (2018-2020)."
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 7 Crossback",
+      "yillar": "2018-2022",
+      "motor": "1.5 BlueHDi 130 (DV5, EAT8)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "DS 7 Crossback"
+        ],
+        "motor": [
+          "1.5 BlueHDi"
+        ]
+      },
+      "not": "Şikâyetvar'da 2022 DS 7'de 78.000 km'de şanzıman arızası (servis tespit edemedi) ve bir 1.5 dizelde soğukken zincir sesi tekil. Faz 14: modele özgü kaynak çıkmadı; bu satır PSA 1.5 BlueHDi (DV5) ve AdBlue ailesinin ortak sorunlarını gösterir."
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 7 Crossback",
+      "yillar": "2018-2022",
+      "motor": "1.6 PureTech 225 (EAT8)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "DS 7 Crossback"
+        ],
+        "motor": [
+          "1.6 PureTech"
+        ]
+      },
+      "not": "Faz 14'te arandı: Türkiye'de 1.6 PureTech 225 EAT8 ve E-Tense 4x4 300 sürümlerinin satıldığı bir satıcı sitesinden görülüyor (180 PS'lik sürüm doğrulanamadı); Şikâyetvar'da 1.6 PureTech'e özgü kayıt çıkmadı. THP ailesinin bilinen sorunları (zincir, supap karbonu) PureTech 1.6 için doğrulanmadığından aileye bağlanmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 4",
+      "yillar": "2021-",
+      "motor": "1.2 PureTech 130 (EB2, EAT8)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "DS 4 (2021"
+        ],
+        "motor": [
+          "1.2 PureTech"
+        ]
+      },
+      "not": "Türkiye'de 2022'de PureTech 130 ve BlueHDi 130 otomatik sürümleriyle satışa çıktı (haberler). Şikâyetvar'da DS 4 için arka kapı kolu, multimedya ekranı ve parça bekleme şikâyetleri var, motor kaydı çıkmadı. Faz 14: modele özgü kaynak çıkmadı; bu satır PSA PureTech 1.2 (EB2) ailesinin ortak sorunlarını gösterir."
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 4",
+      "yillar": "2021-",
+      "motor": "1.5 BlueHDi 130 (DV5, EAT8)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "DS 4 (2021"
+        ],
+        "motor": [
+          "1.5 BlueHDi"
+        ]
+      },
+      "not": "Şikâyetvar'da 2023 model bir DS 4'te motor arıza uyarısı tekil. Faz 14: modele özgü kaynak çıkmadı; bu satır PSA 1.5 BlueHDi (DV5) ve AdBlue ailesinin ortak sorunlarını gösterir."
+    },
+    {
+      "marka": "Cupra",
+      "model": "Leon (KL)",
+      "yillar": "2020-",
+      "motor": "1.5 eTSI 150 (EA211 evo, 48V hafif hibrit, DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Leon (2020"
+        ],
+        "motor": [
+          "1.5 eTSI"
+        ]
+      },
+      "not": "Şikâyetvar'da 2023-2026 model Cupra Leon 1.5 eTSI için elektronik arızalar, multimedya ekranının kendiliğinden kapanıp açılması, vitese geçmeme ve anahtar pili tekil kayıtlar halinde. Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 1.5 TSI evo ve 48V hafif hibrit ailelerinin ortak sorunlarını gösterir."
+    },
+    {
+      "marka": "Cupra",
+      "model": "Leon (KL)",
+      "yillar": "2020-",
+      "motor": "2.0 TSI 245 / 300 (DSG)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Leon (2020"
+        ],
+        "motor": [
+          "2.0 TSI"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'daki Cupra Leon kayıtları 1.5 eTSI araçlara ait; 2.0 TSI için motor ya da şanzıman kaydı çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Dacia",
+      "model": "Duster (3. nesil)",
+      "yillar": "2024-",
+      "motor": "1.0 TCe 100 ECO-G (H4Dt)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Duster (2024"
+        ],
+        "motor": [
+          "1.0 TCe"
+        ]
+      },
+      "not": "Şikâyetvar'da LPG deposu (sıfır araçta ilk gün arıza), LPG enjektörü ve 2024 modelde LPG'ye geçmeme şikâyetleri tekil. Faz 14: modele özgü kaynak çıkmadı; bu satır Renault H4Bt - H4Dt 0.9 / 1.0 TCe ailesinin ortak sorunlarını gösterir."
+    },
+    {
+      "marka": "Dacia",
+      "model": "Duster (3. nesil)",
+      "yillar": "2024-",
+      "motor": "1.2 TCe 130 hafif hibrit / Hybrid 140",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Duster (2024"
+        ],
+        "motor": [
+          "1.2 TCe",
+          "Hybrid"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da yeni Duster Hybrid'de sürekli akü boşalması ve garanti tartışması (tek kayıt) ile 4x4 aşırı ısınma uyarısı ve multimedya hataları tekil; ikinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi G22 / G26",
+      "yillar": "2020-",
+      "motor": "420i / 430i turbo benzin (B48)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "G22 / G26"
+        ],
+        "motor": [
+          "B48"
+        ]
+      },
+      "not": "Şikâyetvar'da G22 420i için 27.000 km'de ön tekerleklerden çıt sesi (porya ve rulman, garanti dışı sayıldı) ve diferansiyel uğultusu tekil. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW B48 ailesinin ortak sorunlarını gösterir."
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi G22 / G26",
+      "yillar": "2020-",
+      "motor": "420d (B47)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "G22 / G26"
+        ],
+        "motor": [
+          "B47"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'daki 420d kayıtlarının çoğu 2015 model F32 kasaya ait; G22 420d için kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 U11",
+      "yillar": "2022-",
+      "motor": "sDrive18i 1.5 turbo (B38)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X1 (U11"
+        ],
+        "motor": [
+          "B38"
+        ]
+      },
+      "not": "Şikâyetvar'da 2023 model X1 için akü uyarısı (122 km'de), tahrik uyarısı, acil çağrı sistemi hatası tekil. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW B38 1.5 üç silindir ailesinin ortak sorunlarını gösterir."
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 U11",
+      "yillar": "2022-",
+      "motor": "sDrive20i turbo benzin (B48)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X1 (U11"
+        ],
+        "motor": [
+          "B48"
+        ]
+      },
+      "not": "Şikâyetvar'da 2023 model sDrive20i için akü uyarısı, tahrik ve şanzıman yağı uyarısı tekil. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW B48 ailesinin ortak sorunlarını gösterir."
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic FE1",
+      "yillar": "2022-",
+      "motor": "1.5 VTEC Turbo (CVT)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Civic (FE1"
+        ],
+        "motor": [
+          "1.5"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2023 model Civic'te şanzıman (CVT) arızası (serviste fabrika hatası denmiş) ve 30.000 km'de şanzıman arızası, 28.000 km'de akü nedeniyle yolda kalma, direksiyon kutusu parçasının Japonya'dan istenmesi ve far içinde buğulanma geçiyor; kayıtlar tekil, ikinci bağımsız site yok. Bir DonanımHaber yorumu 1.5 VTEC Turbo'da bilinen kronik sorun olmadığını yazıyor (eski, tekil).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi W206",
+      "yillar": "2021-",
+      "motor": "C180 / C200 (M254, 48V) / C200 d",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "W206"
+        ],
+        "motor": [
+          "C180",
+          "C200"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da W206 için tekrar eden konular multimedya ve dijital sistem hataları, SOS (acil çağrı) arızası, akü ve buji nedeniyle yolda kalma, direksiyon açı sensörü ve parça bekleme; hepsi tek sitede. C200 d ve 48V EQ Boost için W206'ya özgü şikâyet çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Fabia Mk4",
+      "yillar": "2021-",
+      "motor": "1.0 MPI / 1.0 TSI",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Fabia (Mk4"
+        ],
+        "motor": [
+          "1.0"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2023 model 1.0 TSI'da titreme ve yüksek onarım ücreti, klima kademeleri, kısa kilometrede tekrarlayan şanzıman uyarısı (DSG), 2022 modelde turbo hortumu patlaması ve 2023 düz vites 1.0 TSI'nın yolda kalması tekil; DonanımHaber'de 1.0 TSI için zincir ve yağ tüketimi iddiası doğrulanmamış tek yorum. 1.0 MPI için yalnızca performans yorumları var.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Nissan",
+      "model": "Juke F16",
+      "yillar": "2020-",
+      "motor": "1.0 DIG-T (7 ileri otomatik)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Juke (F16"
+        ],
+        "motor": [
+          "1.0"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 1.0 DIG-T için gaz tepkisi gecikmesi, 'Motor Arızası, Güç Azalmış' uyarıları (2021 modelde garanti içinde üç kez, 2023 modelde teslimden iki gün sonra), otomatik şanzımanda kalkışta silkelenme ve geri viteste kayma, start-stop arızası tekil; ikinci bağımsız site yok. Hibrit sürümün Türkiye'de satıldığı doğrulanamadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Nissan",
+      "model": "X-Trail T33",
+      "yillar": "2022-",
+      "motor": "1.5 VC-Turbo / e-POWER",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X-Trail (T33"
+        ],
+        "motor": [
+          "1.5",
+          "e-POWER"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da e-POWER'da altı ayda üç kez yolda kalma (akü değişti), 30.000 km'de gece boyunca akü boşalması, jeneratör arızası nedeniyle bir ayı aşan serviste bekleme ve parça ithalatı beklemesi; 1.5 VC-Turbo'da üç ayda üç kez yolda kalma tekil. Ekşi Sözlük'te bir kullanıcı dünya genelinde e-POWER arıza vakasına rastlamadığını yazıyor. İkinci bağımsız doğrulama yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Tonale",
+      "yillar": "2022-",
+      "motor": "1.5 Hybrid 160 (TCT) / PHEV Q4",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tonale"
+        ],
+        "motor": [
+          "1.5",
+          "PHEV"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 12V akü boşalması (2022 ve 2023 modeller; servis düşük kilometreyi gerekçe göstererek garanti dışı değişim demiş), 1.5 Hybrid'de şanzıman uyarıları, PHEV'de şarj ünitesi arızası (parça İtalya'dan) ve elektrik arızası nedeniyle altı ay serviste kalma tekil; Ekşi Sözlük'te bir yorumcu Egea Cross ile ortak 1.5 hybrid motor ve şanzımanda 30.000 km dolmadan şanzıman arızası yaşadığını yazıyor (tekil). Kilometre bilgili ve ikinci siteyle doğrulanan bir sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Ssangyong",
+      "model": "Torres EVX",
+      "yillar": "2023-",
+      "motor": "Elektrik",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Torres"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da fabrika çıkışı Michelin Primacy Tour 245/45 R20 lastiklerde ıslak zeminde kayma ve fren mesafesi uzaması (birden fazla kullanıcı), sağ arka aks / teker olayında garanti reddi, 12V akü sorunu, menzil beklentisinin altında kalması ve ısı pompası beyanı tartışması; Ekşi Sözlük'te bir güvenlik sorunu başlığı var. Batarya ya da tahrik sistemi için tekrar eden ve kilometre bilgili bir sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "B Serisi W247",
+      "yillar": "2019-",
+      "motor": "B180 / B200 / B180 d",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "W247"
+        ],
+        "motor": [
+          "B180",
+          "B200"
+        ]
+      },
+      "not": "Faz 14'te arandı: W247'ye özgü kaynak çıkmadı; Şikâyetvar ve forumlardaki B 180 anlatıları W246 kasaya ait (ıslak kavramalı çift kavramalı şanzımanda sarsıntı, CVT onarımı).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Coupe / Cabrio C207 / C238",
+      "yillar": "2009-",
+      "motor": "E200 / E250 / E220 d",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C207",
+          "C238"
+        ],
+        "motor": [
+          "E200",
+          "E250",
+          "E220"
+        ]
+      },
+      "not": "Faz 14'te arandı: C207 / C238'e özgü şikâyet çıkmadı; sonuçlar sedan E200 (W213, W212, W211) kasalarına ait (yağ yakımı, SBC fren uyarısı, motor arıza ışığı).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLE V167",
+      "yillar": "2019-",
+      "motor": "GLE 300 d / 350 de",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "V167"
+        ],
+        "motor": [
+          "GLE 300",
+          "GLE 350"
+        ]
+      },
+      "not": "Faz 14'te arandı: GLE V167 için şikâyet ya da forum kaydı çıkmadı (sonuçlar GL, GLA, GLC, GLB ve EQE'ye ait); Ekşi Sözlük'te 2019-2021 M260 / M264 motorlarda supap yatağından karışım hatası (P219E77) iddiası dizel GLE için geçerli değil.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }
