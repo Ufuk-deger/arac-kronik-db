@@ -26,21 +26,21 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **588** model/motor grubu (motor ve şanzıman düzeyi)
-- Tamamlanan (✓, modele özgü kaynaklı sorun var): **168**
-- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **150**
-- Araştırılıp eklenmeyen (–): **197**
-- Sırada (○): **73**
+- Plan: **596** model/motor grubu (motor ve şanzıman düzeyi)
+- Tamamlanan (✓, modele özgü kaynaklı sorun var): **170**
+- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **160**
+- Araştırılıp eklenmeyen (–): **209**
+- Sırada (○): **57**
 - Kademe 1: **120/120** işlendi (✓, ◐ ya da –)
-- Model geneli taraması: **150** model nesli arandı (sorun bulunan ✓ **72**, kanıt yetersiz – **78**); 338 motor kaydından **153**'i taranmış bir modele ait, **185**'i henüz taranmadı
-- Veritabanı: **410** kayıt (**338** motor, **72** model geneli), **344** kayda özgü kronik sorun, **50** motor/şanzıman ailesi (**84** ortak sorun)
+- Model geneli taraması: **153** model nesli arandı (sorun bulunan ✓ **75**, kanıt yetersiz – **78**); 352 motor kaydından **158**'i taranmış bir modele ait, **194**'i henüz taranmadı
+- Veritabanı: **427** kayıt (**352** motor, **75** model geneli), **349** kayda özgü kronik sorun, **54** motor/şanzıman ailesi (**89** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Renault | 38 | 15 | 8 | 12 | 3 | 8/8 | 6 / 4 |
 | Volkswagen | 50 | 18 | 12 | 15 | 5 | 13/13 | 4 / 9 |
 | Toyota | 21 | 4 | 5 | 10 | 2 | 6/6 | 1 / 3 |
-| Fiat | 27 | 11 | 5 | 9 | 2 | 5/5 | 6 / 2 |
+| Fiat | 28 | 11 | 6 | 9 | 2 | 5/5 | 6 / 2 |
 | Hyundai | 37 | 11 | 9 | 15 | 2 | 13/13 | 2 / 5 |
 | Peugeot | 21 | 9 | 5 | 5 | 2 | 5/5 | 4 / 4 |
 | Opel | 40 | 14 | 13 | 9 | 4 | 5/5 | 5 / 6 |
@@ -49,7 +49,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Skoda | 27 | 9 | 8 | 8 | 2 | 6/6 | 5 / 5 |
 | Mercedes-Benz | 38 | 10 | 15 | 13 | 0 | 6/6 | 4 / 3 |
 | Togg | 2 | 1 | 0 | 1 | 0 | 1/1 | 1 / 0 |
-| BMW | 41 | 5 | 18 | 14 | 4 | 13/13 | 7 / 2 |
+| BMW | 43 | 5 | 21 | 17 | 0 | 13/13 | 7 / 2 |
 | Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 | 1 / 0 |
 | Nissan | 19 | 8 | 4 | 4 | 3 | 4/4 | 4 / 1 |
 | Chery | 2 | 0 | 0 | 2 | 0 | 0/0 | — |
@@ -60,21 +60,21 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Honda | 12 | 4 | 3 | 5 | 0 | 2/2 | 2 / 2 |
 | Seat | 12 | 3 | 5 | 1 | 3 | 2/2 | 1 / 2 |
 | Chevrolet | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
-| Volvo | 12 | 1 | 1 | 9 | 1 | 2/2 | 2 / 1 |
+| Volvo | 12 | 1 | 1 | 10 | 0 | 2/2 | 2 / 1 |
 | Subaru | 6 | 1 | 2 | 0 | 3 | 0/0 | 0 / 1 |
-| Mini | 4 | 1 | 1 | 1 | 1 | 0/0 | 0 / 1 |
-| Jeep | 7 | 1 | 2 | 1 | 3 | 0/0 | 1 / 1 |
-| Alfa Romeo | 6 | 0 | 1 | 2 | 3 | 0/0 | 1 / 1 |
+| Mini | 4 | 1 | 1 | 2 | 0 | 0/0 | 0 / 1 |
+| Jeep | 10 | 3 | 4 | 3 | 0 | 0/0 | 1 / 1 |
+| Alfa Romeo | 7 | 0 | 3 | 4 | 0 | 0/0 | 2 / 1 |
 | Mazda | 3 | 0 | 0 | 3 | 0 | 0/0 | 1 / 0 |
 | Suzuki | 4 | 0 | 0 | 2 | 2 | 0/0 | 0 / 1 |
 | Mitsubishi | 4 | 0 | 0 | 1 | 3 | 0/0 | 0 / 1 |
-| Land Rover | 8 | 0 | 2 | 4 | 2 | 0/0 | 0 / 2 |
+| Land Rover | 9 | 0 | 4 | 5 | 0 | 0/0 | 2 / 2 |
 | Cupra | 2 | 1 | 0 | 1 | 0 | 0/0 | — |
 | MG | 4 | 1 | 0 | 2 | 1 | 1/1 | 0 / 1 |
 | Lexus | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
 | Isuzu | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
 | Smart | 2 | 0 | 0 | 1 | 1 | 0/0 | — |
-| Porsche | 3 | 1 | 0 | 0 | 2 | 0/0 | 0 / 1 |
+| Porsche | 3 | 1 | 0 | 2 | 0 | 0/0 | 0 / 1 |
 | Zeekr | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
 | Xpeng | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
 | Leapmotor | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
@@ -310,8 +310,9 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | 500 | 2008- | 1.2 Fire / 0.9 TwinAir | ✓ 1 sorun |
 | 2 | 500 | 2008- | Tüm motorlar (model geneli) | ✓ 1 sorun — 500 Dualogic, 500L ve 500X ayrı satırlardır; Grande Panda (elektrikli) şikâyetleri bu kayda katılmadı. Panda için kapı kilidi ya da silecek gibi modele özgü kronik bir sorun doğrulanamadı. |
 | 2 | 500 Dualogic | 2008- | 0.9 TwinAir / 1.2 Fire (Dualogic) | ◐ 2 ortak aile sorunu — 500 Dualogic'e özgü kaynak aranmadı; gösterilen hidrolik ünite, aktüatör ve kavrama sorunları aynı Dualogic şanzımanı kullanan Linea kaydına dayanır. |
-| 2 | 500X | 2015- | 1.4 MultiAir / 1.3 FireFly Turbo | – eklenmedi: FiatForum'da 500X 1.4 MultiAir için yağ tüketimi (bir 2018 sahibi yaklaşık 621 milde 1 litre), MultiAir valflerinin açılmamasıyla güç kaybı ve misfire, DCT'de iki kavramanın değişmesi anlatılıyor; Şikâyetvar'da 2021 modelde 68.000 km'de otomatik şanzıman arızası ve 2015 modelde 45.000 km'de sürüş modu sorunu var. 1.3 FireFly Turbo için kaynak çıkmadı. CarComplaints ve sınıf davası sonuçları ABD'deki 2.4 litre Tigershark motoruna ait olduğundan kullanılmadı. |
+| 2 | 500X | 2015- | 1.4 MultiAir | ◐ 1 ortak aile sorunu — MultiAir ünitesi ailesine bağlandı. FiatForum'da 500X 1.4 MultiAir için ayrıca yağ tüketimi (bir 2018 sahibi yaklaşık 621 milde 1 litre), MultiAir valflerinin açılmamasıyla güç kaybı ve DCT'de iki kavramanın değişmesi anlatılıyor; Şikâyetvar'da 2021 modelde 68.000 km'de otomatik şanzıman arızası var. Bunlar tek kaynaklı olduğundan ayrı sorun açılmadı. |
 | 2 | 500X | 2015- | 1.6 MultiJet 120 | ◐ 2 ortak aile sorunu — 500X'e özgü kaynak aranmadı; gösterilen çift kütleli volan ve EGR / DPF sorunları aynı Multijet II motorunu kullanan Egea 1.6 kaydına dayanır. |
+| 2 | 500X | 2015- | 1.3 FireFly Turbo | – eklenmedi: 1.3 FireFly Turbo için kaynak çıkmadı. CarComplaints ve sınıf davası sonuçları ABD'deki 2.4 litre Tigershark motoruna ait olduğundan kullanılmadı. |
 | 2 | 500e | 2021- | Elektrik (42 kWh) | – eklenmedi: Şikâyetvar'da şarj sorunları ve batarya arızası (menzil göstergesinin 320 km'den 260 km'ye düşmesi) tekil; DonanımHaber yorumu olumlu, Ekşi Sözlük yorumları ABD'deki eski modellere ait. |
 | 2 | 600e | 2024- | Elektrik (54 kWh, 156 PS) | ✓ 1 sorun |
 | 2 | Bravo | 2007-2014 | 1.4 T-Jet / 1.6 Multijet | – eklenmedi: FiatForum'da 1.4 T-Jet için M32 şanzımanın zayıf olduğu (5. ve 6. viteste uğultu), 150 PS'te aks millerinin zorlandığı, gaz kelebeği (P0121 / P0122) sorunu ve soğutma borusu gevşemesi; 1.6 Multijet için EGR (bir sahipte yaklaşık 50 bin mil civarında değişim), turbo yağ kaçağı veya yatak arızası ve DPF anlatıları var; tek sitede ve kilometre bilgisi tutarsız olduğundan kayıt açılmadı. Şikâyetvar ve Ekşi Sözlük'te Bravo'nun kronik konuları klima klapesi, yolcu airbag kapağı ve güneşlik; bunlar Bravo model geneli kaydında. |
@@ -631,7 +632,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | X3 F25 LCI | 2014-2017 | sDrive18d / xDrive20d (B47) | ◐ 1 ortak aile sorunu — B47 motoruna özgü kronik sorun aranmadı; yalnızca xDrive transfer kutusu ailesi gösteriliyor. |
 | 1 | X3 G01 | 2017- | xDrive20d (B47) / xDrive20i (B48) / xDrive30i | – eklenmedi: G01 için kronik arıza bulan kaynak çıkmadı: Şikâyetvar'da 2018 model acil çağrı pili ve 2020 model geri görüş kamerası gibi tekil kayıtlar var; xDrive servo motor (VTG) anlatısı 2006 model X3'e ait. |
 | 1 | X5 E70 | 2007-2013 | xDrive30d / xDrive40d (M57 / N57) | ◐ 1 ortak aile sorunu — N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir. |
-| 1 | X5 F15 | 2013-2018 | xDrive25d / 30d / 40d (N57) | ◐ 1 ortak aile sorunu — N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir. |
+| 1 | X5 F15 | 2013-2018 | xDrive25d / 30d / 40d (N57) | ◐ 2 ortak aile sorunu — N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir. |
 | 1 | X5 F15 | 2013-2018 | Tüm motorlar (model geneli) | ✓ 1 sorun — İç kapı kolu erimesi Şikâyetvar ve BimmerPost'ta doğrulandı. Şikâyetvar'da F15 için deri koltuk ve kaplamalarda dökülme (garanti reddi) ve 2014 X5 2.0'da motor yatağı sarması tekil; DonanımHaber'de E70 (2007-2013) için enjektör, turbo ve transfer kutusu ile 3.0d'de zamanlama zinciri, EGR ve DPF sayılıyor (E70; motor katmanı). Hava süspansiyonu, panoramik tavan, iDrive ve su alma için kaynak çıkmadı. |
 | 2 | 1 Serisi F20 | 2011-2015 | 116d 1.6 (N47D16) | ✓ 1 sorun (+1 ortak aile) |
 | 2 | 1 Serisi F20 | 2011-2019 | 118d 2.0 (N47D20 / B47) | – eklenmedi: 118d / B47 için F20'ye özgü ayrı kaynak bulunamadı; N47D20 zincir sorunu 320d ve 520d kayıtlarında ele alındı. |
@@ -650,7 +651,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | 5 Serisi F10 | 2010-2016 | Tüm motorlar (model geneli) | ✓ 1 sorun — İç kapı kolu erimesi Şikâyetvar ve BimmerPost'ta doğrulandı. |
 | 2 | X1 E84 | 2011-2015 | sDrive20i / xDrive28i (N20) | ◐ 4 ortak aile sorunu, 1 yıl kırılımı |
 | 2 | X3 F25 | 2012-2017 | xDrive28i (N20) | ◐ 4 ortak aile sorunu, 1 yıl kırılımı |
-| 2 | X3 F25 | 2011-2017 | xDrive30d (N57) | ◐ 1 ortak aile sorunu — N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir. |
+| 2 | X3 F25 | 2011-2017 | xDrive30d (N57) | ◐ 2 ortak aile sorunu — N57 motoruna özgü sorun için Türkçe kanıt çıkmadı: Şikâyetvar'da X5 için tekil turbo / interkol hortumu vakaları, forumlarda N57S'nin genelde sorunsuz olduğu yorumları var; yabancı rehberlerde zincir iddiası çelişkili (bazıları sorunu asıl N47'ye bağlıyor). Gösterilen sorun xDrive transfer kutusuna aittir. |
 | 2 | X3 F25 | 2010-2017 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da X3 F25'te dört iç kapı kolunun erimesi (2016 model), cam tavanın sıkışıp arka cama inmesi, tahrik arızası ve wastegate sorunu geçiyor; BimmerPost'ta F25'e özgü kapı kolu başlığı çıkmadı (F30, F10, X1 için doğrulanan sorunun aynısı olabilir). 12. aşamada yeniden arandı: BimmerPost'ta yine F25'e özgü iç kapı kolu başlığı çıkmadı (sonuçlar F30 / F80 / E90 / F15; bir kaynak X serisini (E70 / F15, F25) genel olarak anıyor); Şikâyetvar'da 2014 X3'te ses çalışırken ekranın kararması (sıcak havada), bagaj kapağı amortisörlerinden tıkırtı ve 'kronik cam fitili' başlığı tekil; Ekşi Sözlük'teki 'kronik sorunlar' yorumları E83 (2004-2010) nesline ait. |
 | 2 | X5 G05 | 2018- | xDrive30d / xDrive40d (B57) | – eklenmedi: Bu oturumdaki aramada G05'e özgü kayıt çıkmadı: sonuçlar SOS (acil çağrı) sistemi gibi tekil konular, motor kodu belirtilmemiş bir 2018 model X5'te yaklaşık 141.000 km'de motor değişimi anlatısı (G05 mi F15 mi belli değil) ve eski kuşak listelerinden oluşuyor. |
 | 2 | iX / iX1 / iX3 / i4 | 2021- | Elektrik | – eklenmedi: Şikâyetvar'da hızlı şarjta düşük güç, şarj kapağı kilidi ve şarj soketi arızaları tekil; DonanımHaber'de yalnızca i4 menzil göstergesi tartışması var, ortak bir örüntü doğrulanamadı. NHTSA kayıtlarında iX / i4 için batarya (22V-541), birleşik şarj ünitesi (23V-449) ve 2024 i4 modül kaynak dikişi (24V-135) geri çağırmaları var; Türkiye kapsamı doğrulanamadı. |
@@ -658,11 +659,13 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | 3 Serisi E90 / 5 Serisi E60 | 2005-2013 | 316i / 318i / 320i (N46 / N52), 520i | – eklenmedi: N46 / N52'ye özgü ayrıntılı kaynak çıkmadı; soğutma sistemi ve yağ kaçağı anlatıları tekil. N47 zincir sorunu ayrı kayıtlarda. |
 | 3 | 3 Serisi F30 LCI | 2015-2019 | 318i 1.5 turbo (B38) | ◐ 1 ortak aile sorunu — 318i'ye özgü kaynak aranmadı; gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır. |
 | 3 | 4 Serisi F32 / F36 | 2016-2020 | 418i 1.5 turbo (B38) | ◐ 1 ortak aile sorunu — 418i'ye özgü sorun kaydı oluşmadı; bu oturumdaki aramada bir 418i'de turbo manifoldu anlatısı geçti (B38 ailesindeki sorunla aynı). Gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır. |
-| 3 | 7 Serisi F01 / G11 | 2009- | 730d / 740d (N57 / B57) | ○ sırada |
-| 3 | X2 F39 | 2018-2023 | sDrive18d / xDrive20d (B47) | ○ sırada |
+| 3 | 7 Serisi F01 | 2010-2015 | 730d / 740d (N57) | ◐ 1 ortak aile sorunu — N57 EGR soğutucusu ailesine bağlandı; 7 Serisi'ne özgü ayrı kaynak çıkmadı. |
+| 3 | 7 Serisi G11 | 2015- | 730d / 740d (B57) | – eklenmedi: G11 730d / 740d (B57) için kaynak çıkmadı. |
+| 3 | X2 F39 | 2018-2023 | sDrive18d / xDrive20d (B47) | – eklenmedi: Şikâyetvar'daki X2 kayıtları tekil: yeni araçta klima / ısıtma-soğutma uyarısı, turbo sensörü arızası ve parça beklemesi, fren servo sistemi geri çağırması. B47 için Bimmerpost'ta 320d'de soğuk iklim turbo sorunu (bir İsveçli sahipte 63.000 km'de ikinci turbo) ve karter havalandırma hortumunun sertleşip çatlaması anlatılıyor; X2'ye özgü değil. Türkçe kaynaklarda sDrive18d / xDrive20d için kronik arıza çıkmadı. F39'un xDrive'i enine motorlu mimariye ait olduğundan xDrive transfer kutusu ailesine bağlanmadı. |
 | 3 | X2 F39 | 2018-2023 | sDrive18i 1.5 turbo (B38) | ◐ 1 ortak aile sorunu — X2'ye özgü kaynak aranmadı; gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır. |
-| 3 | X4 F26 / G02 | 2014- | xDrive20d / xDrive30d (B47 / N57) | ○ sırada |
-| 3 | X6 E71 / F16 | 2008-2019 | xDrive30d / xDrive40d (N57) | ○ sırada |
+| 3 | X4 F26 | 2014-2018 | xDrive20d / xDrive30d (B47 / N57) | ◐ 3 ortak aile sorunu — xDrive20d, xDrive transfer kutusu ailesine; xDrive30d, N57 EGR soğutucusu ve xDrive transfer kutusu ailelerine bağlandı. F26'ya özgü ayrı kaynak çıkmadı. |
+| 3 | X4 G02 | 2018- | xDrive20d / xDrive30d (B47 / B57) | – eklenmedi: G02 için model özelinde şikâyet bulunamadı (DonanımHaber'de tanıtım başlığı, Şikâyetvar'da genel BMW servis şikâyetleri); B47 / B57 için kronik arıza çıkmadı. |
+| 3 | X6 E71 / F16 | 2008-2019 | xDrive30d / xDrive40d (N57) | ◐ 3 ortak aile sorunu — E71 xDrive transfer kutusu ailesine, F16 ayrıca N57 EGR soğutucusu ailesine bağlandı (E71'de 2010 öncesi M57 motorları EGR kampanyası ailesine dahil edilmedi). X6'ya özgü ayrı kaynak çıkmadı. |
 | 3 | i3 | 2014-2022 | Elektrik | – eklenmedi: Türkiye'deki i3'lerde range extender bulunmadığı yazılıyor; batarya kapasite kaybı (5 yılda %30'dan fazla) ve batarya testi ücreti tek bir Şikâyetvar kaydında, menzil yorumları Ekşi Sözlük'te; tekrar eden arıza örüntüsü çıkmadı. |
 
 ### Tesla
@@ -926,7 +929,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | XC90 (2015-) | 2015- | D5 / T5 / T6 | – eklenmedi: Bu oturumdaki aramada 2015 sonrası D5 / T5 / T6'yı kuşak olarak ayırabilen kayıt çıkmadı (sonuçlar çoğunlukla eski kuşağa ait). Bir forum yorumu benzinli T6 için erken vites kaydırma ve güç kaybı şanzıman sorunlarını anıyor (kuşak belirtilmemiş); Şikâyetvar'da far içine su alması ve garanti uygulamaları üzerine bir şikâyet var (tek vaka). |
 | 2 | XC90 / S90 / V90 (Sensus) | 2015- | Tüm motorlar (model geneli) | ✓ 1 sorun — Sensus ekranı donması / yeniden başlaması Şikâyetvar, Swedespeed ve Volvo Forums UK'te doğrulandı (yabancı başlıklar modelleri tam ayırmıyor; XC90 MY18 başlığı var). Şikâyetvar'da sol arka kapı camının açılmaması ve kapının zaman zaman kilitlenmemesi (S90), iki sıfır XC90'da ön tamponların 3 gün arayla düşmesi, yan basamak tıkırtısı ve V90 Cross Country'de titreme / zıplama tekil; XC40 Recharge (P6) sahibi ekranın her gün kapandığını yazıyor (elektrikli, ayrı satır). Cam tavan ve su alma için sonuç çıkmadı. |
 | 3 | S60 / V40 | 2011-2018 | 1.6 D DRIVe (Powershift) | ✓ 1 sorun (+4 ortak aile) |
-| 3 | S80 / V70 / XC70 | 2007-2016 | D5 2.4 / D4 | ○ sırada |
+| 3 | S80 / V70 / XC70 | 2007-2016 | D5 2.4 / D4 | – eklenmedi: DonanımHaber'de S80 D5 için turbo hortumu sızıntısı, 150 bin km civarında otomatik şanzımanda sarsıntı (solenoid ve yağ değişimi, bazen hidrolik ünite revizyonu) ve enjektör başlıkları geçiyor; Şikâyetvar'da bir 2016 Volvo'da iki kez turbo hortumu yüzünden yolda kalma anlatılıyor. Volvo Owners Club forumunda D5 girdap kanadı değişimi (enjektörlerin sökülmesi gerekiyor), D5244T enjektör sızıntısı ve turbo basıncı düşüklüğü kodları tartışılıyor; kilometre bilgisi tutarlı değil ve D4 için kaynak çıkmadı. |
 
 ### Subaru (ek kademe)
 
@@ -948,7 +951,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Cooper S / Countryman S (R56 / R60) | 2007-2016 | 1.6 turbo benzinli (N14 / N18) | ✓ 1 sorun (+2 ortak aile) |
 | 3 | Cooper SE | 2020- | Elektrik | – eklenmedi: Şikâyetvar'da dört kayıt (sürüş kontrolü kaybı iddiası, 37 gün parça beklemesi); DonanımHaber yorumları olumlu. Tekrar eden bir arıza örüntüsü yok. NHTSA 24V-612 geri çağırması 2020-2024 Cooper SE'yi kapsıyor (12.535 araç; yazılımla bataryanın %30'un altına boşaltılması, yangın riski); Türkiye kapsamı ve Türkiye'den bir şikâyet bulunamadı. |
 | 3 | Countryman / Cooper | 2007- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da Countryman'de direksiyon kutusu sesi, kendiliğinden sağa çekme ve ön sensör arızası (garanti dışı 25.000 TL), Countryman E'de fren sesi ve tahrik arızası; Ekşi Sözlük'te eski Countryman'de termostat arızası geçiyor; model geneli ortak bir sorun için iki bağımsız site çıkmadı. 12. aşamada yeniden arandı: Şikâyetvar'da Countryman F60 için arka kelebek camların alt köşelerindeki cam fitillerinin çatlayıp dökülmesi (yağmur suyu içeri sızıyor, sac paslanıyor; bayi garanti dışı demiş), 2017 Countryman'da cam fitili ve far çerçevesi deformasyonu, Countryman E'de fren sesi (bayi normal demiş), direksiyon kutusundan ses (garanti kapsamında) ve Mini Connected uzaktan erişimin çalışmaması tekil; bunları doğrulayan DonanımHaber / Ekşi kaydı arama özetinde çıkmadı; F56 süspansiyon sertliği tek yorum, cam tavan şikâyeti R56 (eski nesil) içindir. |
-| 3 | Countryman F60 | 2017- | Cooper / Cooper S 1.5 - 2.0 (B38 / B48) | ○ sırada |
+| 3 | Countryman F60 | 2017- | Cooper / Cooper S 1.5 - 2.0 (B38 / B48) | – eklenmedi: MINI'nin B36 / B38 / B46 / B48 motorlu F60 Countryman'ı için soğuk havada 'karışım çok zengin' (hata 118002) servis bülteni var (NHTSA'daki 2017, 2019 ve 2020 bültenleri: yağ değişimi, erken B36 / B38'de supap kapağı değişimi); bir BMW forumunda B48'de supap kapağı contalarının 60-70 bin civarında sızdırdığı, yağ filtresi yuvası ve soğutma plastiklerinin sorun çıkarabildiği yazılıyor (birim belirtilmemiş, BMW modelleri için). DonanımHaber'de F60'ta 7 ileri ıslak çift kavramalı şanzımanda sorun yaşamayan sahipler var; Şikâyetvar'da 2025 model bir Countryman'da 12.000 km'de motor arızası ve komple motor değişimi anlatılıyor. F60'a özgü, kilometre aralığı verilen ve ikinci kaynakla desteklenen bir sorun çıkmadı. |
 
 ### Jeep (ek kademe)
 
@@ -956,26 +959,31 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | :---: | --- | --- | --- | --- |
 | 2 | Avenger Electric | 2023- | Elektrik (54 kWh, 156 PS) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | Renegade | 2015- | Tüm motorlar (model geneli) | ✓ 1 sorun — Şikâyetvar'da 2018-2020 modelde multimedya ekranının (yarısının) sıcakta kararması ve garanti dışı ücretli ekran değişimi tekrar ediyor; ikinci site çıkmadığı için kayda alınmadı. |
-| 3 | Cherokee KL | 2014- | 2.0 MultiJet / 2.4 MultiAir | ○ sırada |
+| 3 | Cherokee KL | 2014- | 2.4 MultiAir (Tigershark) | ✓ 1 sorun — 2.4 Tigershark yağ tüketimi CarComplaints, NHTSA servis bülteni ve toplu dava haberlerine dayanır (ABD verisi); Türkçe kaynakta 2.4 MultiAir sonucu çıkmadı. |
+| 3 | Cherokee KL | 2014- | 2.0 MultiJet (9 ileri ZF otomatik) | – eklenmedi: Türkçe kaynaklarda 2.0 dizel için kronik sorun olmadığı (yakıt kalitesi, filtre tıkanması), 15.000 km'de alınıp 170.000 km sorunsuz kullanıldığı yazılıyor; şanzıman tarafında Ekşi Sözlük'te üç yazılım güncellemesiyle düzelme, DonanımHaber'de ZF için şikâyet başlığı var. ABD'de 9 ileri ZF için toplu dava ve 6 yıl / 100.000 mil garanti uzatması bulunuyor (CarComplaints: 2014 modelde sert vites için 118 şikâyet, ortalama 17.200 mil); Türkiye'deki 2.0 MultiJet için kilometre aralığı çıkarılamadı. |
 | 3 | Compass | 2017- | 1.6 MultiJet 120 (6MT ve DDCT) | ◐ 3 ortak aile sorunu — Compass şanzıman şikâyetlerinde motor ve şanzıman kombinasyonu belirsiz. Gösterilen çift kütleli volan ve EGR / DPF sorunları aynı Multijet II motorunu kullanan Egea 1.6 kaydına dayanır. |
 | 3 | Compass | 2017- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da Compass'ta start-stop sorunu ve motor uyarıları tekrar ediyor; model geneli bir sorun için ikinci bağımsız site çıkmadı. |
-| 3 | Grand Cherokee WK2 | 2011-2021 | 3.0 CRD / 3.6 V6 | ○ sırada |
+| 3 | Grand Cherokee WK2 | 2011-2021 | 3.6 V6 (Pentastar) | ◐ 2 ortak aile sorunu — 3.6 Pentastar ailesine bağlandı (CarComplaints, ClassAction.org, NHTSA); Türkçe kaynakta Pentastar'a özgü sonuç çıkmadı. |
+| 3 | Grand Cherokee WK2 | 2011-2021 | 3.0 CRD (dizel) | – eklenmedi: DonanımHaber'de 3.0 CRD'nin motor ömrünün 250.000 km üzeri olduğu (kullanıcı tahmini), makyajsız kasalarda turbo, enjektör ve DPF sorunları anlatılıyor; Ekşi Sözlük'te WK2 için trackbar, disk ve diferansiyel contası gibi şasi parçaları ve direksiyon boşluğu geçiyor; Şikâyetvar'da 2016 model bir araçta 10 yıllık yaş sınırı nedeniyle parça temininin reddedildiği şikâyeti var. CarComplaints'teki 3.0 EcoDiesel şikâyetleri (43.000 milde motor arızası, 88.000 milde EGR / DPF / emme manifoldu) tekil ve ABD sürümüne ait; kilometre aralığı çıkarılamadı. |
 | 3 | Renegade | 2015- | 1.6 MultiJet 120 (6MT ve DDCT) | ◐ 3 ortak aile sorunu — Renegade DDCT'ye özgü kaynak çıkmadı (sonuçlar Egea üzerinden geldi). Gösterilen çift kütleli volan ve EGR / DPF sorunları aynı Multijet II motorunu kullanan Egea 1.6 kaydına dayanır. DDCT kavrama sorunu Egea 1.6 kaydına dayanır. |
-| 3 | Renegade / Compass | 2015- | 1.4 MultiAir | – eklenmedi: Renegade ve Compass 1.4 MultiAir için kaynak çıkmadı. |
-| 3 | Wrangler JK / JL | 2007- | 2.8 CRD / 3.6 V6 / 2.0 turbo | ○ sırada |
+| 3 | Renegade / Compass | 2015- | 1.4 MultiAir | ✓ 1 sorun (+1 ortak aile) — Renegade 1.4 MultiAir Turbo için Şikâyetvar'da 38.000 ve 60.000 km'de turbo arızası ile FiatForum'daki MultiAir ünitesi başlıkları bulundu; Compass'a özgü kaynak çıkmadı. |
+| 3 | Wrangler JK / JL | 2012- | 3.6 V6 (Pentastar) | ◐ 2 ortak aile sorunu — 3.6 Pentastar ailesine bağlandı (CarComplaints, ClassAction.org, NHTSA); Türkçe kaynakta Pentastar'a özgü sonuç çıkmadı. |
+| 3 | Wrangler JK / JL | 2007- | 2.8 CRD / 2.0 turbo | – eklenmedi: Ekşi Sözlük'te bir 2016 2.8 CRD sahibi aracı arazide başarılı ama sık arıza, elektrik sorunu ve direksiyon boşluğu yüzünden zahmetli buluyor (tek kişi). 2.0 turbo ve eTorque için CarComplaints'te kilometreli veri çıkmadı (2024 modelin şikâyetleri çoğunlukla 4xe hibride ait). |
 
 ### Alfa Romeo (ek kademe)
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 2 | Giulietta | 2010-2020 | Tüm motorlar (model geneli) | ✓ 3 sorun — Yolcu airbag kapağı şişmesi, iç kapı kolu kırılması ve klima klapesi Şikâyetvar, DonanımHaber ve (ilk ikisi için) Ekşi Sözlük'te doğrulandı; ilki Fiat grubunun Punto Evo, Linea ve Bravo kayıtlarındaki sorunla aynı kalıptadır. Cam tavan (sunroof) arızası için yüksek tamir bedeli istenmesi, cam tavan önünde güneş yanığı, arka silecek arızası (bagaja giden kablo), ön kapı deri döşemesinde sarkma ve 2013 MiTo'da direksiyon kilitlenmesi tekil kaldı. Honest John okur yorumunda ucuz plastikler, kırık torpido üstü bölme ve sarkan güneşlikler anılıyor (tek yorum). Giulietta motor satırı ayrıdır. |
-| 3 | Giulia | 2016- | 2.0 Turbo / 2.2 JTDm | ○ sırada |
+| 3 | Giulia | 2016- | 2.0 Turbo / 2.2 JTDm | – eklenmedi: Parkers Giulia'nın lansmandan beri yedi kez geri çağrıldığını ama etkilenen araç sayısının az olduğunu yazıyor; Honest John'da bir 2.2 JTDM-2 180 sahibi 9 ayda 4,5 ay serviste kaldığını ve motorun uyarısız durup boşa aldığını anlatıyor (tek vaka). 2.0 Turbo ve 2.2 JTDm için kilometreli ve ikinci kaynakla desteklenen bir sorun çıkmadı. |
 | 3 | Giulia / Stelvio | 2016- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da Stelvio'da elektronik kontrol sistemi arızası sonrası parça beklemesi, tekrarlayan akü arızası, far içinde buğulanma / su toplama (uzun süre çözülmemiş) ve sekiz aya yaklaşan servis süreci; Giulia'da ağırlıklı olarak uzun süre vitrinde bekleyen araçlardaki akü / lastik sorunları ve start-stop; DonanımHaber'de Stelvio dokunmatik ekranın yavaş çalışması. Direksiyon kilitlenmesi şikâyeti 2013 MiTo içindir. İkinci bağımsız site yok. |
-| 3 | Giulietta | 2010-2020 | 1.4 MultiAir | – eklenmedi: Giulietta 1.4 MultiAir için kaynak çıkmadı; şikâyetler gövde ve elektronikte (yolcu airbag kapağı şişmesi, klima). |
+| 3 | Giulietta | 2010-2020 | 1.4 MultiAir | ◐ 1 ortak aile sorunu — Giulietta'ya özgü ayrı kaynak çıkmadı; MultiAir ünitesi sorunu FiatForum, Honest John ve Otopark'taki MiTo / Giulietta / Punto vakalarına dayanır. |
 | 3 | Giulietta | 2014-2020 | 1.6 JTDm 120 (Multijet II) | ◐ 2 ortak aile sorunu — Şikâyetler gövde ve elektronikte (yolcu airbag kapağı şişmesi, klima); motora özgü kaynaklı bulgu yok. Gösterilen çift kütleli volan ve EGR / DPF sorunları aynı Multijet II motorunu kullanan Egea 1.6 kaydına dayanır. |
 | 3 | Junior Elettrica | 2024- | Elektrik (54 kWh, 156 PS) | – eklenmedi: Şikâyetvar'da 2025-2026 tarihli tekrarlayan 'elektrikli çekiş sistemi arızası' uyarısı (bir araç yaklaşık 90 gün serviste), 900 km'de yolda kalıp şarj almama ve batarya sızıntısı şikâyetleri var; ikinci bağımsız site bulunamadı. Aynı 54 kWh / 156 PS değerlerine sahip Avenger Electric ve Fiat 600e ayrı kayıtlarda. |
-| 3 | MiTo | 2008-2018 | 1.4 MultiAir / 1.3 JTDm | ○ sırada |
-| 3 | Stelvio | 2017- | 2.0 Turbo / 2.2 JTDm | ○ sırada |
+| 3 | MiTo | 2008-2018 | 1.4 MultiAir | ◐ 1 ortak aile sorunu — MultiAir ünitesi ailesine bağlandı; MiTo'ya özgü motor kaynağı yok (MiTo'da FiatForum'daki ünite arızası vakaları ve Honest John'daki 'üç yaşında motor değişimi' notu var). |
+| 3 | MiTo | 2008-2018 | 1.3 JTDm | – eklenmedi: 1.3 JTDm için kronik arıza çıkmadı; Türkçe forumlarda motorun alt devirlerde cansız olduğu ve şehir içi tüketimin rakiplerinden yüksek olduğu yazılıyor. MiTo'nun asıl kronik konusu elektrikli direksiyon tork / açı sensörü arızası model geneli kaydında. |
+| 3 | MiTo | 2008-2018 | Tüm motorlar (model geneli) | ✓ 1 sorun — Elektrikli direksiyon tork / açı sensörü arızası Otopark, DonanımHaber ve Şikâyetvar'da anlatılıyor; kilometre verilmedi. |
+| 3 | Stelvio | 2017- | 2.0 Turbo / 2.2 JTDm | – eklenmedi: Şikâyetvar'da 2023 model Stelvio'da elektronik kontrol arızası ve uzun parça beklemesi, tekrarlayan motor uyarısı, silindir kapağı / yağ soğutucusu / turbo / motor değişimi önerilen uzun servis süreçleri tekil olarak anlatılıyor (ZF 8 ileri şanzıman). Parkers Stelvio uzun dönem testinde 2.2 diesel 210 PS ve 2.0 benzinli 280 PS seçeneklerini sıralıyor ama arıza vermiyor; motor için kilometreli kaynak çıkmadı. |
 
 ### Mazda (ek kademe)
 
@@ -1015,10 +1023,13 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Range Rover Evoque | 2011-2019 | 2.2 SD4 / 2.0 Si4 | – eklenmedi: 2.2 SD4: Honest John forumunda motor ve şanzımanın genelde sağlam olduğu, 80 bin mil sonrası dizel yaşlanması, elektrik, döşeme ve arka diferansiyel sorunlarının beklenebileceği yazılıyor; bir Honest John yanıtı motorun eksantrik mili arızasına yatkın olduğunu söylüyor ama sayı vermiyor. Şikâyetvar'da 2012 ve 2017 dizel Evoque'lerde 'yakıtta su' uyarısı ve motorun durması gibi tekil şikâyetler var. 2.0 Si4: DonanımHaber'de 2012 modelinde zamanlama zinciri gergisi arızası anılıyor; CarComplaints'te 2014 Evoque motoru için 11 şikâyet (ortalama 38.409 mil) ve 83.000 milde kopan bir zincir anlatısı var ama şikâyetler motor tipini belirtmediği için kilometre aralığı çıkarılmadı. |
 | 2 | Range Rover Evoque | 2011-2019 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da Evoque'a bağlanan su kaydı 2024 model araçta 4x4 modunda sudan geçerken içerinin dolması (garanti reddi); DonanımHaber'deki 'Evoque kronik mi' başlığı genel. CarComplaints'te ön cam çevresi ve silecek kutusu hortumundan su sızması ile bir Land Rover servis aksiyonu (N221) anılıyor ama sayfalardaki örnekler 2020 model (ikinci nesil) araca ait; ilk nesil için ikinci site çıkmadı. 12. aşamada yeniden arandı: Şikâyetvar'ın Evoque sayfasında 'kronik sorunlu ve sık arıza' dezavantajı ve 5.000 km altında motor arızası (Temmuz 2024); DonanımHaber / Ekşi Sözlük'te Evoque'ta sensör fazlalığı nedeniyle motor ışığının sık yanması, Coupe'da cam tavanın tek parça olup açılmaması ve 'kronik sorunların çoğu motor overhaul ve swap sonrası' gibi tekil yorumlar; kapı elektriği, su alma ve süspansiyon için sonuç çıkmadı. |
 | 3 | Defender (L663) | 2020- | 2.0 D200 / 3.0 D250 (48V hafif hibrit dizel) | – eklenmedi: Şikâyetvar'da 2020 model Defender 2.0 TDI'da 16.11.2024 ve 23.12.2024'te iki kez motor arızası (servis bir hafta on gün sürmüş), benzinli bir Defender'da soğutma sıvısı eksik uyarısı ve soldan cızırtı (garanti kapsamında 7 kez çekiciyle servise) ve 2020 modelde 19.000 km'de fren titremesi tek tek kayıtlar; DonanımHaber'de D200 sahiplerinin yorumları genel kalıyor. Ortak bir sorun için ikinci bağımsız site ve kilometre bilgisi yok. |
-| 3 | Discovery 4 | 2009-2016 | 2.7 TDV6 / 3.0 SDV6 | ○ sırada |
+| 3 | Discovery 4 | 2010-2016 | 3.0 TDV6 / SDV6 | ◐ 1 ortak aile sorunu — Krank mili ana yatak sorunu Land Rover'ın Özel Servis Mesajı'nda (SSM 72578) Discovery 4 için de sayılıyor; kilometreli vakalar Range Rover Sport'a aittir. |
+| 3 | Discovery 4 | 2009-2010 | 2.7 TDV6 | – eklenmedi: Parkers erken 2.7 TDV6'nın turbolarını ve krank millerini harcama konusunda ün yaptığını, Otopark'taki konu 2.7 ve 3.0 TDV6 krank arızalarını birlikte anlatıyor; ancak Land Rover'ın servis mesajı yalnızca 3.0'ı sayıyor ve 2.7'ye özgü kilometreli kaynak çıkmadı. |
+| 3 | Discovery 4 | 2009-2016 | Tüm motorlar (model geneli) | ✓ 1 sorun — Hava süspansiyonu kompresörü ve körük arızası Honest John ve Ekşi Sözlük'te anlatılıyor; kilometre verilmedi. |
 | 3 | Discovery Sport | 2015- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da Discovery Sport'ta inverter arızası (yolda kalma), 2025 model araçta 40 günde iki kez stop (bayi yazılım güncellemesi dışında sorun bulamamış) ve uzaktan kumandayla yaklaşınca multimedya ekranının açılmaması, kamera arıza mesajı; Ekşi Sözlük'te Discovery Sport'ta cam tavanın açılmadığı (donanıma göre değişiyor) ve benzinli araçta 70.000 km'de turbo değişimi tekil yorumlar. İkinci bağımsız site ve model geneli ortak sorun yok; Ingenium dizel zincir / DPF konusu motor katmanında (ayrı kaynaklarla). |
 | 3 | Freelander 2 | 2007-2014 | 2.2 TD4 | – eklenmedi: Turbo hortumu ve Haldex anlatıları tekil; Discovery Sport ve Evoque için güvenilir kaynak yok. |
-| 3 | Range Rover Sport | 2005- | 3.0 TDV6 / SDV6 | ○ sırada |
+| 3 | Range Rover Sport | 2005- | 3.0 TDV6 / SDV6 | ◐ 1 ortak aile sorunu — Krank mili ana yatak sorunu Land Rover'ın Özel Servis Mesajı (SSM 72578), Parkers, Otopark, DonanımHaber ve Şikâyetvar'a dayanır; 2.7 TDV6 ayrıca ele alınmadı. |
+| 3 | Range Rover Sport | 2005- | Tüm motorlar (model geneli) | ✓ 1 sorun — Hava süspansiyonu kompresörü ve körük arızası Parkers, Otopark ve DonanımHaber'de anlatılıyor; kilometre verilmedi. |
 | 3 | Range Rover Velar | 2017- | 2.0 D180 / D240 (Ingenium dizel) | – eklenmedi: Şikâyetvar'da Velar 2.0 dizelde egzoz (partikül) filtresinin garanti kapsamında değiştirilmesine rağmen her 8.000 km'de yeniden tıkandığı iddiası, altı ay önce sıfır alınan araçta 4. ayda motor arızası, 2.000 km'de motor arıza lambası ve panjur / logo solması (garanti reddi) tekil; Ekşi Sözlük'te motorun 60 bin km'de bittiği tek yorum var. Ingenium 2.0 dizelin zincir ve DPF kaynaklı sorunları Honest John, Parkers ve CarComplaints'te Discovery Sport ve Evoque (2015-2018) için anlatılıyor, Velar'a özgü kaynak çıkmadı. |
 
 ### Cupra (ek kademe)
@@ -1062,8 +1073,8 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 2 | Taycan | 2020- | Elektrik (4S / Turbo) | ✓ 1 sorun, 1 yıl kırılımı |
-| 3 | Cayenne (958) | 2010-2017 | 3.0 diesel / 3.6 V6 | ○ sırada |
-| 3 | Macan | 2014- | 2.0 turbo / 3.0 S Diesel | ○ sırada |
+| 3 | Cayenne (958) | 2010-2017 | 3.0 diesel / 3.6 V6 | – eklenmedi: Çıkan kaynaklar 955 ve 957 (ilk nesil) Cayenne'e ait: DonanımHaber'de 3.2 V6 için hava süspansiyonu sorunları, RepairPal ve CarComplaints'te plastik soğutma suyu borularının metalle değiştirilmesi, Parkers'ın Mk1 alım rehberinde hava süspansiyonu sızıntıları; bir DonanımHaber yazısı 3.0 dizelin zamanlama zinciri arızasını pahalı onarım olarak anıyor (kanıtsız iddia). 958 3.0 dizel ve 3.6 V6 için nesle özgü kaynak çıkmadı. |
+| 3 | Macan | 2014- | 2.0 turbo / 3.0 S Diesel | – eklenmedi: Şikâyetvar'da 2021 model 2.0'da 12.000 km'de turbo kaynaklı arıza ışığı (garanti dışı tutulmuş) ve 2024 Macan Turbo'da arka aks yönlendirme hatası gibi tekil kayıtlar var; CarComplaints ve Porsche servis bültenleri 2015-2018 V6 Turbo (3.0 / 3.6 benzinli) için zamanlama zinciri kapağı cıvatalarının uzayıp yağ sızdırdığını (ortalama yaklaşık 20.000 mil) ve soğutma suyu borusu / pompa sızıntılarını gösteriyor. 2.0 turbo ve 3.0 S Diesel için kilometreli veri ve PDK arıza verisi çıkmadı. |
 | 3 | Macan / Cayenne | 2014- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da 2025 model Cayenne e3'te yağmurda tavandan dikiz aynası üzerinden su damlaması, Macan'da arka stop lambasına su alma (garantide 2 ay beklemiş), 2024 Macan'da iç hava menfezi yönlendirme tablarının düşmesi, elektrikli Macan 4'te bagajdan ses ve süspansiyon / kamera eleştirisi, 2023 Cayenne E-Hibrit'te sürücü camının değişimi tekil; bir forum kullanıcısı panoramik tavan rüzgâr sesinin bazı modellerde kronik olduğunu ve fitil değişiminin sesi azaltmadığını yazıyor (model belirtmiyor); DonanımHaber'de Cayenne 955 (2003-2010) rehberi hava süspansiyonu, yağ sızıntısı ve zincir gergisini anıyor (eski nesil). PCM ve kapı mekanizması için sonuç yok. |
 
 ### Zeekr (ek kademe)

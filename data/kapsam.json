@@ -3746,8 +3746,7 @@
           "MultiAir"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Renegade ve Compass 1.4 MultiAir için kaynak çıkmadı."
+      "not": "Renegade 1.4 MultiAir Turbo için Şikâyetvar'da 38.000 ve 60.000 km'de turbo arızası ile FiatForum'daki MultiAir ünitesi başlıkları bulundu; Compass'a özgü kaynak çıkmadı."
     },
     {
       "marka": "Alfa Romeo",
@@ -3763,8 +3762,7 @@
           "1.4 MultiAir"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Giulietta 1.4 MultiAir için kaynak çıkmadı; şikâyetler gövde ve elektronikte (yolcu airbag kapağı şişmesi, klima)."
+      "not": "Giulietta'ya özgü ayrı kaynak çıkmadı; MultiAir ünitesi sorunu FiatForum, Honest John ve Otopark'taki MiTo / Giulietta / Punto vakalarına dayanır."
     },
     {
       "marka": "Mazda",
@@ -7262,23 +7260,25 @@
           "sDrive18d",
           "xDrive20d"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'daki X2 kayıtları tekil: yeni araçta klima / ısıtma-soğutma uyarısı, turbo sensörü arızası ve parça beklemesi, fren servo sistemi geri çağırması. B47 için Bimmerpost'ta 320d'de soğuk iklim turbo sorunu (bir İsveçli sahipte 63.000 km'de ikinci turbo) ve karter havalandırma hortumunun sertleşip çatlaması anlatılıyor; X2'ye özgü değil. Türkçe kaynaklarda sDrive18d / xDrive20d için kronik arıza çıkmadı. F39'un xDrive'i enine motorlu mimariye ait olduğundan xDrive transfer kutusu ailesine bağlanmadı."
     },
     {
       "marka": "BMW",
-      "model": "X4 F26 / G02",
-      "yillar": "2014-",
+      "model": "X4 F26",
+      "yillar": "2014-2018",
       "motor": "xDrive20d / xDrive30d (B47 / N57)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "F26",
-          "G02"
+          "F26"
         ],
         "motor": [
           ""
         ]
-      }
+      },
+      "not": "xDrive20d, xDrive transfer kutusu ailesine; xDrive30d, N57 EGR soğutucusu ve xDrive transfer kutusu ailelerine bağlandı. F26'ya özgü ayrı kaynak çıkmadı."
     },
     {
       "marka": "BMW",
@@ -7294,23 +7294,24 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "not": "E71 xDrive transfer kutusu ailesine, F16 ayrıca N57 EGR soğutucusu ailesine bağlandı (E71'de 2010 öncesi M57 motorları EGR kampanyası ailesine dahil edilmedi). X6'ya özgü ayrı kaynak çıkmadı."
     },
     {
       "marka": "BMW",
-      "model": "7 Serisi F01 / G11",
-      "yillar": "2009-",
-      "motor": "730d / 740d (N57 / B57)",
+      "model": "7 Serisi F01",
+      "yillar": "2010-2015",
+      "motor": "730d / 740d (N57)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "F01",
-          "G11"
+          "F01"
         ],
         "motor": [
-          ""
+          "730d"
         ]
-      }
+      },
+      "not": "N57 EGR soğutucusu ailesine bağlandı; 7 Serisi'ne özgü ayrı kaynak çıkmadı."
     },
     {
       "marka": "Mini",
@@ -7325,7 +7326,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "MINI'nin B36 / B38 / B46 / B48 motorlu F60 Countryman'ı için soğuk havada 'karışım çok zengin' (hata 118002) servis bülteni var (NHTSA'daki 2017, 2019 ve 2020 bültenleri: yağ değişimi, erken B36 / B38'de supap kapağı değişimi); bir BMW forumunda B48'de supap kapağı contalarının 60-70 bin civarında sızdırdığı, yağ filtresi yuvası ve soğutma plastiklerinin sorun çıkarabildiği yazılıyor (birim belirtilmemiş, BMW modelleri için). DonanımHaber'de F60'ta 7 ileri ıslak çift kavramalı şanzımanda sorun yaşamayan sahipler var; Şikâyetvar'da 2025 model bir Countryman'da 12.000 km'de motor arızası ve komple motor değişimi anlatılıyor. F60'a özgü, kilometre aralığı verilen ve ikinci kaynakla desteklenen bir sorun çıkmadı."
     },
     {
       "marka": "Mercedes-Benz",
@@ -7600,7 +7603,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "DonanımHaber'de S80 D5 için turbo hortumu sızıntısı, 150 bin km civarında otomatik şanzımanda sarsıntı (solenoid ve yağ değişimi, bazen hidrolik ünite revizyonu) ve enjektör başlıkları geçiyor; Şikâyetvar'da bir 2016 Volvo'da iki kez turbo hortumu yüzünden yolda kalma anlatılıyor. Volvo Owners Club forumunda D5 girdap kanadı değişimi (enjektörlerin sökülmesi gerekiyor), D5244T enjektör sızıntısı ve turbo basıncı düşüklüğü kodları tartışılıyor; kilometre bilgisi tutarlı değil ve D4 için kaynak çıkmadı."
     },
     {
       "marka": "Land Rover",
@@ -7647,67 +7652,72 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "not": "Krank mili ana yatak sorunu Land Rover'ın Özel Servis Mesajı (SSM 72578), Parkers, Otopark, DonanımHaber ve Şikâyetvar'a dayanır; 2.7 TDV6 ayrıca ele alınmadı."
     },
     {
       "marka": "Land Rover",
       "model": "Discovery 4",
-      "yillar": "2009-2016",
-      "motor": "2.7 TDV6 / 3.0 SDV6",
+      "yillar": "2010-2016",
+      "motor": "3.0 TDV6 / SDV6",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Discovery 4"
         ],
         "motor": [
-          ""
+          "3.0"
         ]
-      }
+      },
+      "not": "Krank mili ana yatak sorunu Land Rover'ın Özel Servis Mesajı'nda (SSM 72578) Discovery 4 için de sayılıyor; kilometreli vakalar Range Rover Sport'a aittir."
     },
     {
       "marka": "Jeep",
       "model": "Grand Cherokee WK2",
       "yillar": "2011-2021",
-      "motor": "3.0 CRD / 3.6 V6",
+      "motor": "3.6 V6 (Pentastar)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Grand Cherokee"
         ],
         "motor": [
-          ""
+          "3.6"
         ]
-      }
+      },
+      "not": "3.6 Pentastar ailesine bağlandı (CarComplaints, ClassAction.org, NHTSA); Türkçe kaynakta Pentastar'a özgü sonuç çıkmadı."
     },
     {
       "marka": "Jeep",
       "model": "Wrangler JK / JL",
-      "yillar": "2007-",
-      "motor": "2.8 CRD / 3.6 V6 / 2.0 turbo",
+      "yillar": "2012-",
+      "motor": "3.6 V6 (Pentastar)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Wrangler"
         ],
         "motor": [
-          ""
+          "3.6"
         ]
-      }
+      },
+      "not": "3.6 Pentastar ailesine bağlandı (CarComplaints, ClassAction.org, NHTSA); Türkçe kaynakta Pentastar'a özgü sonuç çıkmadı."
     },
     {
       "marka": "Jeep",
       "model": "Cherokee KL",
       "yillar": "2014-",
-      "motor": "2.0 MultiJet / 2.4 MultiAir",
+      "motor": "2.4 MultiAir (Tigershark)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Cherokee KL"
+          "Cherokee (KL"
         ],
         "motor": [
-          ""
+          "2.4"
         ]
-      }
+      },
+      "not": "2.4 Tigershark yağ tüketimi CarComplaints, NHTSA servis bülteni ve toplu dava haberlerine dayanır (ABD verisi); Türkçe kaynakta 2.4 MultiAir sonucu çıkmadı."
     },
     {
       "marka": "Alfa Romeo",
@@ -7722,7 +7732,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Parkers Giulia'nın lansmandan beri yedi kez geri çağrıldığını ama etkilenen araç sayısının az olduğunu yazıyor; Honest John'da bir 2.2 JTDM-2 180 sahibi 9 ayda 4,5 ay serviste kaldığını ve motorun uyarısız durup boşa aldığını anlatıyor (tek vaka). 2.0 Turbo ve 2.2 JTDm için kilometreli ve ikinci kaynakla desteklenen bir sorun çıkmadı."
     },
     {
       "marka": "Alfa Romeo",
@@ -7737,22 +7749,25 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da 2023 model Stelvio'da elektronik kontrol arızası ve uzun parça beklemesi, tekrarlayan motor uyarısı, silindir kapağı / yağ soğutucusu / turbo / motor değişimi önerilen uzun servis süreçleri tekil olarak anlatılıyor (ZF 8 ileri şanzıman). Parkers Stelvio uzun dönem testinde 2.2 diesel 210 PS ve 2.0 benzinli 280 PS seçeneklerini sıralıyor ama arıza vermiyor; motor için kilometreli kaynak çıkmadı."
     },
     {
       "marka": "Alfa Romeo",
       "model": "MiTo",
       "yillar": "2008-2018",
-      "motor": "1.4 MultiAir / 1.3 JTDm",
+      "motor": "1.4 MultiAir",
       "kademe": 3,
       "eslesme": {
         "model": [
           "MiTo"
         ],
         "motor": [
-          ""
+          "1.4 MultiAir"
         ]
-      }
+      },
+      "not": "MultiAir ünitesi ailesine bağlandı; MiTo'ya özgü motor kaynağı yok (MiTo'da FiatForum'daki ünite arızası vakaları ve Honest John'daki 'üç yaşında motor değişimi' notu var)."
     },
     {
       "marka": "Porsche",
@@ -7767,7 +7782,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da 2021 model 2.0'da 12.000 km'de turbo kaynaklı arıza ışığı (garanti dışı tutulmuş) ve 2024 Macan Turbo'da arka aks yönlendirme hatası gibi tekil kayıtlar var; CarComplaints ve Porsche servis bültenleri 2015-2018 V6 Turbo (3.0 / 3.6 benzinli) için zamanlama zinciri kapağı cıvatalarının uzayıp yağ sızdırdığını (ortalama yaklaşık 20.000 mil) ve soğutma suyu borusu / pompa sızıntılarını gösteriyor. 2.0 turbo ve 3.0 S Diesel için kilometreli veri ve PDK arıza verisi çıkmadı."
     },
     {
       "marka": "Porsche",
@@ -7782,7 +7799,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Çıkan kaynaklar 955 ve 957 (ilk nesil) Cayenne'e ait: DonanımHaber'de 3.2 V6 için hava süspansiyonu sorunları, RepairPal ve CarComplaints'te plastik soğutma suyu borularının metalle değiştirilmesi, Parkers'ın Mk1 alım rehberinde hava süspansiyonu sızıntıları; bir DonanımHaber yazısı 3.0 dizelin zamanlama zinciri arızasını pahalı onarım olarak anıyor (kanıtsız iddia). 958 3.0 dizel ve 3.6 V6 için nesle özgü kaynak çıkmadı."
     },
     {
       "marka": "Audi",
@@ -8467,19 +8486,17 @@
       "marka": "Fiat",
       "model": "500X",
       "yillar": "2015-",
-      "motor": "1.4 MultiAir / 1.3 FireFly Turbo",
+      "motor": "1.4 MultiAir",
       "kademe": 2,
       "eslesme": {
         "model": [
           "500X"
         ],
         "motor": [
-          "MultiAir",
-          "FireFly"
+          "1.4 MultiAir"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "FiatForum'da 500X 1.4 MultiAir için yağ tüketimi (bir 2018 sahibi yaklaşık 621 milde 1 litre), MultiAir valflerinin açılmamasıyla güç kaybı ve misfire, DCT'de iki kavramanın değişmesi anlatılıyor; Şikâyetvar'da 2021 modelde 68.000 km'de otomatik şanzıman arızası ve 2015 modelde 45.000 km'de sürüş modu sorunu var. 1.3 FireFly Turbo için kaynak çıkmadı. CarComplaints ve sınıf davası sonuçları ABD'deki 2.4 litre Tigershark motoruna ait olduğundan kullanılmadı."
+      "not": "MultiAir ünitesi ailesine bağlandı. FiatForum'da 500X 1.4 MultiAir için ayrıca yağ tüketimi (bir 2018 sahibi yaklaşık 621 milde 1 litre), MultiAir valflerinin açılmamasıyla güç kaybı ve DCT'de iki kavramanın değişmesi anlatılıyor; Şikâyetvar'da 2021 modelde 68.000 km'de otomatik şanzıman arızası var. Bunlar tek kaynaklı olduğundan ayrı sorun açılmadı."
     },
     {
       "marka": "Fiat",
@@ -12223,6 +12240,191 @@
       },
       "not": "Şikâyetvar'da 216d'de krank kasnağı sesi ve arızası (bir kullanıcıda 68.000 km), motor arıza ışığı ve turbo şikâyetleri tekil; Bimmerpost F44 forumunda 7 ileri DCT'de rölantiye bırakınca silkeleme ve sunroof çevresi tıkırtı konuları var, sistematik motor verisi ve ikinci kaynak yok. Gündüz farı sararması ve lastik balonlanması şikâyetleri motor değil model geneli konulardır.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "X4 G02",
+      "yillar": "2018-",
+      "motor": "xDrive20d / xDrive30d (B47 / B57)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "G02"
+        ],
+        "motor": [
+          ""
+        ]
+      },
+      "not": "G02 için model özelinde şikâyet bulunamadı (DonanımHaber'de tanıtım başlığı, Şikâyetvar'da genel BMW servis şikâyetleri); B47 / B57 için kronik arıza çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "7 Serisi G11",
+      "yillar": "2015-",
+      "motor": "730d / 740d (B57)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "G11"
+        ],
+        "motor": [
+          "730d"
+        ]
+      },
+      "not": "G11 730d / 740d (B57) için kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Discovery 4",
+      "yillar": "2009-2010",
+      "motor": "2.7 TDV6",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Discovery 4"
+        ],
+        "motor": [
+          "2.7"
+        ]
+      },
+      "not": "Parkers erken 2.7 TDV6'nın turbolarını ve krank millerini harcama konusunda ün yaptığını, Otopark'taki konu 2.7 ve 3.0 TDV6 krank arızalarını birlikte anlatıyor; ancak Land Rover'ın servis mesajı yalnızca 3.0'ı sayıyor ve 2.7'ye özgü kilometreli kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Range Rover Sport",
+      "yillar": "2005-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Range Rover Sport"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Hava süspansiyonu kompresörü ve körük arızası Parkers, Otopark ve DonanımHaber'de anlatılıyor; kilometre verilmedi."
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Discovery 4",
+      "yillar": "2009-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Discovery 4"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Hava süspansiyonu kompresörü ve körük arızası Honest John ve Ekşi Sözlük'te anlatılıyor; kilometre verilmedi."
+    },
+    {
+      "marka": "Jeep",
+      "model": "Grand Cherokee WK2",
+      "yillar": "2011-2021",
+      "motor": "3.0 CRD (dizel)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Grand Cherokee"
+        ],
+        "motor": [
+          "3.0"
+        ]
+      },
+      "not": "DonanımHaber'de 3.0 CRD'nin motor ömrünün 250.000 km üzeri olduğu (kullanıcı tahmini), makyajsız kasalarda turbo, enjektör ve DPF sorunları anlatılıyor; Ekşi Sözlük'te WK2 için trackbar, disk ve diferansiyel contası gibi şasi parçaları ve direksiyon boşluğu geçiyor; Şikâyetvar'da 2016 model bir araçta 10 yıllık yaş sınırı nedeniyle parça temininin reddedildiği şikâyeti var. CarComplaints'teki 3.0 EcoDiesel şikâyetleri (43.000 milde motor arızası, 88.000 milde EGR / DPF / emme manifoldu) tekil ve ABD sürümüne ait; kilometre aralığı çıkarılamadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Jeep",
+      "model": "Wrangler JK / JL",
+      "yillar": "2007-",
+      "motor": "2.8 CRD / 2.0 turbo",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Wrangler"
+        ],
+        "motor": [
+          "2.8",
+          "2.0"
+        ]
+      },
+      "not": "Ekşi Sözlük'te bir 2016 2.8 CRD sahibi aracı arazide başarılı ama sık arıza, elektrik sorunu ve direksiyon boşluğu yüzünden zahmetli buluyor (tek kişi). 2.0 turbo ve eTorque için CarComplaints'te kilometreli veri çıkmadı (2024 modelin şikâyetleri çoğunlukla 4xe hibride ait).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Jeep",
+      "model": "Cherokee KL",
+      "yillar": "2014-",
+      "motor": "2.0 MultiJet (9 ileri ZF otomatik)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Cherokee (KL"
+        ],
+        "motor": [
+          "2.0 MultiJet"
+        ]
+      },
+      "not": "Türkçe kaynaklarda 2.0 dizel için kronik sorun olmadığı (yakıt kalitesi, filtre tıkanması), 15.000 km'de alınıp 170.000 km sorunsuz kullanıldığı yazılıyor; şanzıman tarafında Ekşi Sözlük'te üç yazılım güncellemesiyle düzelme, DonanımHaber'de ZF için şikâyet başlığı var. ABD'de 9 ileri ZF için toplu dava ve 6 yıl / 100.000 mil garanti uzatması bulunuyor (CarComplaints: 2014 modelde sert vites için 118 şikâyet, ortalama 17.200 mil); Türkiye'deki 2.0 MultiJet için kilometre aralığı çıkarılamadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Fiat",
+      "model": "500X",
+      "yillar": "2015-",
+      "motor": "1.3 FireFly Turbo",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "500X"
+        ],
+        "motor": [
+          "FireFly"
+        ]
+      },
+      "not": "1.3 FireFly Turbo için kaynak çıkmadı. CarComplaints ve sınıf davası sonuçları ABD'deki 2.4 litre Tigershark motoruna ait olduğundan kullanılmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "MiTo",
+      "yillar": "2008-2018",
+      "motor": "1.3 JTDm",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "MiTo"
+        ],
+        "motor": [
+          "1.3 JTDm"
+        ]
+      },
+      "not": "1.3 JTDm için kronik arıza çıkmadı; Türkçe forumlarda motorun alt devirlerde cansız olduğu ve şehir içi tüketimin rakiplerinden yüksek olduğu yazılıyor. MiTo'nun asıl kronik konusu elektrikli direksiyon tork / açı sensörü arızası model geneli kaydında.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "MiTo",
+      "yillar": "2008-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "MiTo"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Elektrikli direksiyon tork / açı sensörü arızası Otopark, DonanımHaber ve Şikâyetvar'da anlatılıyor; kilometre verilmedi."
     }
   ]
 }

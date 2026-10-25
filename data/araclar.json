@@ -381,6 +381,35 @@
       ]
     },
     {
+      "id": "bmw-n57",
+      "ad": "BMW N57 3.0 dizel (sıralı 6 silindir, turbo)",
+      "tur": "motor",
+      "aciklama": "BMW'nin 3, 5, 6, 7 Serisi, X3, X4, X5 ve X6'da kullandığı 3.0 litre sıralı altı silindirli turbodizel motor (N57; selefi M57). 2018'de BMW, N47 ve N57 dizellerinde EGR soğutucusu sızıntısı için küresel geri çağırma / teknik kampanya başlattı; ABD'de 2021'de ikinci bir kampanya açıldı.",
+      "kronik_sorunlar": [
+        {
+          "id": "egr-sogutucu",
+          "sorun_adi": "EGR soğutucusu sızıntısı ve emme manifoldu yangın riski (geri çağırma)",
+          "etkilenen_parca": "EGR soğutucusu ve emme manifoldu",
+          "belirtiler": "Soğutma suyunun yavaş yavaş eksilmesi (bir X5 35d sahibinde yaklaşık 50.000 milden sonra hafif, 90.000 milden sonra belirgin kayıp), yağ analizinde sodyum artışı, güç düşmesi ve soğutma suyu eksikliği uyarı sembolü. Sızan soğutma suyu dizel kurumuyla birleşip için için yanan parçacıklar oluşturarak emme manifoldunu eritebiliyor.",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "BMW'nin 2018 tarihli geri çağırması (ABD'de NHTSA 18V-755; 2013-2018 model 3, 5, 7 Serisi, X3 ve X5 dizelleri) EGR soğutucusundaki soğutma suyu sızıntısının dizel kurumuyla birleşip yüksek sıcaklıkta için için yanan parçacıklar oluşturabileceğini, bunun emme manifoldunu eritip yangın riskini artırabileceğini belirtiyor. 2021'de bu araçların bir kısmı için ikinci kampanya (21V-907) açıldı; Bimmerpost'ta yenilenen soğutucunun da yeniden sızdırdığı anlatılıyor.",
+            "teshis": "Bimmerpost'ta bir sahip yağ analizinde 1.000 mil başına 1 ppm'den fazla sodyum artışının soğutucu sızıntısının başladığına işaret ettiğini yazıyor; basınç testi küçük sızıntıları kaçırabiliyor. Bir 535d sahibi 63-74 bin milde 8 oz, 74-91 bin milde 16 oz soğutma suyu kaybetti ve yaklaşık 92 bin milde aracı kullanmayı bıraktı.",
+            "cozum": "Bayi EGR soğutucusunu denetler, gerekirse değiştirir; sızıntı olmuşsa emme manifoldu da yenilenir.",
+            "onlem": "Şasi numarasıyla geri çağırma sorgusu yaptırmak, soğutma suyu seviyesini düzenli izlemek ve sızıntı şüphesinde yağ analizi yaptırmak."
+          },
+          "kaynaklar": [
+            "https://www.carcomplaints.com/news/2018/bmw-egr-cooler-recall.shtml",
+            "https://static.nhtsa.gov/odi/rcl/2018/RCRIT-18V755-1757.pdf",
+            "https://www.carcomplaints.com/news/2021/bmw-egr-cooler-recall-engine-fires.shtml",
+            "https://f15.bimmerpost.com/forums/showthread/1933925/coolant-leak",
+            "https://f15.bimmerpost.com/forums/showthread/1891695/new-nov-2021-egr-recall-for-2014-2017-x5-diesel"
+          ]
+        }
+      ]
+    },
+    {
       "id": "bmw-xdrive-aktarma",
       "ad": "BMW xDrive transfer kutusu (ATC)",
       "tur": "sistem",
@@ -408,6 +437,80 @@
             "https://www.sozcu.com.tr/bmw-ye-toplu-dava-soku-tamir-bedeli-13-000-dolara-ulasti-etkilenen-modeller-listesi-oldukca-uzun-p266472",
             "https://www.fiches-auto.fr/articles-auto/nouveautes-automobiles/s-3933-fiabilite-xdrive-catastrophique-class-action-a-l-encontre-de-bmw.php",
             "https://www.autopartspro.co.uk/tips-advice/bmw-x5-transfer-case-failure-and-complete-unit-replacement-costs-3203"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fca-1-4-multiair",
+      "ad": "Fiat / Alfa Romeo / Jeep 1.4 MultiAir (benzin)",
+      "tur": "motor",
+      "aciklama": "Fiat Grubu'nun 2009'dan itibaren Alfa Romeo MiTo ve Giulietta, Fiat 500X, Punto Evo ve Bravo ile Jeep Renegade ve Compass'ta kullandığı, supapları hidrolik MultiAir ünitesiyle süren 1.4 litre benzinli motorlar (atmosferik ve turbo). MultiAir ünitesi arızası bu motorlar için anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "multiair-unitesi",
+          "sorun_adi": "MultiAir ünitesi (hidrolik supap tahriki) arızası",
+          "etkilenen_parca": "MultiAir modülü, solenoid ve yağ filtresi",
+          "belirtiler": "Rölanti dalgalanması, ateşleme kaçakları (misfire) ve güç kaybı, motor arıza lambası; yağ sızıntısının bujiye ulaşması. Bazı sahipler ünitenin komple değiştirilmesi gerektiğini yazıyor.",
+          "tahmini_km_araligi": "20.000 - 115.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "FiatForum'da MultiAir ünitesinin supap zamanlamasını motor yağı basıncıyla yönettiği, bu yüzden yağ cinsine ve değişim sıklığına duyarlı olduğu yazılıyor; erken arızaların uzun servis aralığı ve yanlış yağla büyüdüğü söyleniyor. Vakalar: bir MiTo'da fabrika yağıyla yaklaşık 12.000 milde arıza, bir mekanikerin yeni ünitelerde 40.000 km sonrası solenoid arızaları gördüğü, bir 2013 Punto'da 45.000 milde ünite değişimi, bir 500X sahibinin ikinci elden aktardığı 60.000-70.000 mil. Honest John yağ sızıntısının bujiye ulaşıp ateşleme kaçağı yaptığını, bazı motorların üç yaşında değiştirilmesi gerektiğini yazıyor. Türkçe forumlarda bir sahip, filtresi değişmemiş 70.000 km'yi geçmiş bir 2012 Giulietta'da ünite sorunu gördüğünü anlatıyor.",
+            "onlem": "FiatForum'da sahipler doğru spesifikasyonlu yağı (son Euro 6 motorlarda 0W-30 C2) ve 6.000-9.000 mil gibi kısa aralıkları, ayrıca servis planında olmayan MultiAir ağ filtresinin yaklaşık 20.000 milde yenilenmesini öneriyor."
+          },
+          "kaynaklar": [
+            "https://www.fiatforum.com/threads/1-4-multiair-longevity.507592/",
+            "https://www.fiatforum.com/threads/multiair-unit-replaced-on-2013-punto.454310/",
+            "https://www.fiatforum.com/threads/multiair-reliability-questions-discussion.517823/",
+            "https://www.honestjohn.co.uk/carbycar/alfa-romeo/mito-2008/",
+            "https://otopark.com/forum/threads/alfa-romeo-giuliettayi-nasil-bilirsiniz.8533/",
+            "https://otopark.com/forum/threads/1-4-tb-170-hp-multiair-motor-u-nasil-bilirsiniz.13657/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fca-pentastar-3-6",
+      "ad": "Chrysler / Jeep 3.6 Pentastar V6 (benzin)",
+      "tur": "motor",
+      "aciklama": "Stellantis (FCA) grubunun 2011'den itibaren Jeep Grand Cherokee ve Wrangler (JK 2012 sonrası ve JL) ile Dodge ve Chrysler modellerinde kullandığı 3.6 litre V6 benzinli motor (Pentastar; 280-300 PS). Plastik yağ filtresi yuvası sızıntısı ve külbütör / eksantrik mili aşınması (Pentastar tıkırtısı) bu motor için anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "yag-filtresi-yuvasi",
+          "sorun_adi": "Yağ soğutucusu / yağ filtresi yuvası sızıntısı",
+          "etkilenen_parca": "Plastik yağ filtresi yuvası, yağ soğutucusu ve contası",
+          "belirtiler": "Egzoz üzerine yağ damlaması ve yanık yağ kokusu, yağ seviyesinin düşmesi; yuvanın çatlaması. Değişimden sonra yeniden sızıntı anlatılıyor.",
+          "tahmini_km_araligi": "80.000 - 135.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "CarComplaints'teki sahip şikâyetlerine göre plastik yağ filtresi yuvası ısıdan çatlayıp eğriliyor ve yağ egzoza damlıyor; bir bayinin bunun yaklaşık 50.000 milde olduğunu söylediği aktarılıyor, bir Wrangler sahibi 84.000 milde çatlak yuva bildiriyor. NHTSA'daki üretici servis bülteni yağ soğutucusu / filtre yuvası ile motor bloğu arasındaki contayı olası sızıntı kaynağı olarak gösteriyor ve conta sızıntısı için tüm grubun değiştirilmemesini öneriyor.",
+            "cozum": "Conta ya da yuva yenilenir; bir sahip değişimden yaklaşık 4 yıl sonra yuvayı yeniden değiştirttiğini yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.carcomplaints.com/Jeep/Wrangler/2020/engine/engine-2.shtml",
+            "https://m.carcomplaints.com/Jeep/Grand_Cherokee/2017/engine/engine.shtml",
+            "https://www.carcomplaints.com/Jeep/Wrangler/2015/engine/engine.shtml",
+            "https://static.nhtsa.gov/odi/tsbs/2020/MC-10184415-9999.pdf"
+          ]
+        },
+        {
+          "id": "kulbutor-asinmasi",
+          "sorun_adi": "Külbütör kolu ve eksantrik mili aşınması (Pentastar tıkırtısı)",
+          "etkilenen_parca": "Külbütör kolları, hidrolik lifterler ve eksantrik mili",
+          "belirtiler": "Supap mekanizmasından tıkırtı, güç kaybı ve ateşleme kaçakları (misfire); ileri aşamada külbütör rulmanının hizadan çıkıp eksantrik milini çizmesi ve yağa metal talaşı karışması.",
+          "tahmini_km_araligi": "80.000 - 205.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "ABD'deki toplu davada (Maugain v. FCA US, Delaware) 2014 ve sonrası 3.6 Pentastar motorlarda külbütör kollarında, eksantrik millerinde, lifterlarda ve bunları yöneten yazılımda kusur olduğu iddia ediliyor; davacılar külbütör rulmanlarının hizadan çıkıp eksantriği çizdiğini ve metal parçacıkların yağı kirlettiğini öne sürüyor. Dava kısmen reddedildi, iddialar kanıtlanmış değil.",
+            "teshis": "Şikâyetlerde arıza yaklaşık 50.000 mil ile 125.000 mil arasında anlatılıyor; bir Grand Cherokee sahibi 128.766 milde birden çok külbütör arızası bildiriyor.",
+            "maliyet": "Davacılar külbütör ve supap mekanizması onarımı için 1.500-4.500 dolar maliyet iddia ediyor (ABD fiyatı)."
+          },
+          "kaynaklar": [
+            "https://www.classaction.org/news/hearing-a-ticking-noise-fca-hit-with-class-action-over-alleged-3.6l-pentastar-v6-engine-problems",
+            "https://www.carcomplaints.com/news/2022/chrysler-pentastar-36l-problems-class-action-lawsuit.shtml",
+            "https://www.carcomplaints.com/news/2023/chrysler-pentastar-engine-lawsuit-partly-dismissed.shtml",
+            "https://www.carcomplaints.com/Jeep/Grand_Cherokee/2015/engine/engine.shtml",
+            "https://www.carcomplaints.com/Jeep/Wrangler/2020/engine/engine-2.shtml"
           ]
         }
       ]
@@ -1142,6 +1245,36 @@
             "https://www.honestjohn.co.uk/forum/post/137248/land-rover-discovery",
             "https://www.parkers.co.uk/long-term-car-reviews/land-rover-discovery-sport/",
             "https://forum.donanimhaber.com/satilik-jaguar-f-pace-merakli-sorular-jlr-grubu-motorlari--163920799"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "land-rover-tdv6-3-0",
+      "ad": "Land Rover 3.0 TDV6 / SDV6 (V6 turbodizel)",
+      "tur": "motor",
+      "aciklama": "Land Rover'ın 2009'dan itibaren Discovery 4 (LR4), Range Rover Sport ve Range Rover'da (Jaguar XF, XJ ve F-Pace ile ortak) kullandığı 3.0 litre V6 turbodizel motor (TDV6 ve iki turbolu SDV6; yaklaşık 211-306 PS). Krank mili ana yatak kovanlarının dönmesi ve yatak sarması bu motor için anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "krank-yatak",
+          "sorun_adi": "Krank mili ana yatak kovanı dönmesi ve yatak sarması",
+          "etkilenen_parca": "Krank mili ve ana yataklar",
+          "belirtiler": "Motordan yük altında artan gümbürtü ya da vuruntu sesi, düşük yağ basıncı lambası; ileri aşamada motorun uyarısız durması, krank milinin kilitlenmesi, karter ya da bloğun delinmesi, alt korumada yağ sızıntısı ve metal talaşı.",
+          "tahmini_km_araligi": "70.000 - 85.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Land Rover'ın Özel Servis Mesajı (SSM 72578; NHTSA'daki kopyada Discovery 4, Range Rover Sport L320 ve L494 modelleri sayılıyor) 3.0 TDV6'da krank mili ana yatak kovanlarının dönmesinden kaynaklanan yatak arızasını tanımlıyor; krank mili salgısını (run-out) 50'den 30 mikrona indiren krank milli motorlar belirli bir motor numarasından itibaren kullanılmaya başlandı. Parkers TDV6'daki 'vuruntunun' çoğu zaman kırık krank mili olduğunu, bakımsız 6 ileri şanzımanın krank arızasına katkıda bulunabildiğini yazıyor; Otopark'taki bir konu sorunun 2.7 ve 3.0 TDV6'da giderilmediğini ve ZF 6HP şanzımanla ilişkisini öne sürüyor (kullanıcı görüşü).",
+            "teshis": "Türkçe kaynaklardaki vakalar: 2010 model Range Rover Sport'ta 74 bin km'de aniden duran motor, 2015 model 3.0 SDV6'da 78 bin km'de uyarısız duran motor, 2013 model Range Rover Sport'ta 80 bin km'de yatak sarması ve garantiyle sandık motor takılması. Forumlarda yatak vuruntusu hissedildiği anda aracın kullanılmaması öneriliyor.",
+            "cozum": "Garanti içinde sandık motor ya da krank takımı yenilemesi; garanti dışı onarım bayide pahalı (Türkçe forumlarda motor değişimi masrafı yüksek anlatılıyor).",
+            "onlem": "Yağ ve filtreyi düzenli değiştirmek, şanzıman yağını ihmal etmemek (Parkers) ve ikinci elde krank/yatak durumunu ve garanti kaydını Land Rover uzmanına sorgulatmak."
+          },
+          "kaynaklar": [
+            "https://static.nhtsa.gov/odi/tsbs/2016/SB-10106102-9340.pdf",
+            "https://www.parkers.co.uk/land-rover/range-rover-sport/estate/review/",
+            "https://otopark.com/forum/threads/land-rover-jaguar-2-7-ve-3-0-tdv6-krank-mili-kirma-ve-yatak-sarma-sorunu.14487/",
+            "https://otopark.com/forum/threads/range-rover-sport-yatak-sardi.5766/",
+            "https://forum.donanimhaber.com/2013-model-range-rover-sport-80-000-km-de-motor-yatak-sardi--110119062",
+            "https://www.sikayetvar.com/land-rover/range-rover-sport"
           ]
         }
       ]
@@ -2679,6 +2812,19 @@
     {
       "marka": "Alfa Romeo",
       "model": "Giulietta (2010-2020)",
+      "motor": "1.4 MultiAir Turbo 120/170",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fca-1-4-multiair"
+      ]
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Giulietta (2010-2020)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
         "baslangic": 2010,
@@ -2749,6 +2895,47 @@
       "kronik_sorunlar": [],
       "aileler": [
         "fiat-1-6-multijet-ii"
+      ]
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "MiTo (2008-2018)",
+      "motor": "1.4 MultiAir (atmosferik ve turbo)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fca-1-4-multiair"
+      ]
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "MiTo (2008-2018)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli direksiyon tork / açı sensörü arızası",
+          "etkilenen_parca": "Elektrikli direksiyon kolonu ve tork açı sensörü",
+          "belirtiler": "Direksiyonun aniden ağırlaşması ya da kilitlenmesi, direksiyon uyarı lambası, C1002 (tork açı sensörü) hata kodunun haftada bir iki kez gelip kontak kapatıp açınca silinmesi; direksiyon kalibrasyonunun kayıp aracın bir yana çekmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Otopark'taki bir MiTo sahibi hata kodunu C1002 (tork açı sensörü) olarak okuduğunu, arızanın haftada bir iki kez geldiğini, başka sahiplerin sensörü değiştirerek giderdiğini yazıyor; bir usta sensörün potansiyometre gibi çalıştığını ve kontaklarının aşındığını, bu yüzden değişimin kalıcı çözüm olmayabileceğini söylemiş. DonanımHaber'de bir yorumcu açı sensörü arızalarının 2010-2011 öncesi MiTo'larda yaygın olduğunu, sonraki üretimde düzeltildiğini yazıyor (doğrulanmadı); Şikâyetvar'daki MiTo kronik sayfasında da direksiyonun ağırlaşıp kilitlenmesi anlatılıyor. Aynı konuda başka sahipler MiTo'yu sorunsuz bulduklarını ve direksiyon sorununu birkaç kişinin yaşadığını yazıyor.",
+            "teshis": "Değişimden sonra tork kalibrasyonunun kritik olduğu, sensörün yetkili cihaz olmadan değiştirilmemesi gerektiği Otopark'ta bir uzmandan aktarılıyor.",
+            "onlem": "İkinci elde direksiyon hata kodlarını okutmak ve direksiyonun aracı bir yana çekip çekmediğini denemek."
+          },
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/warm-hatch-alfa-romeo-mito.2643/page-42",
+            "https://forum.donanimhaber.com/mito-alinir-mi--144877223",
+            "https://www.sikayetvar.com/alfa-romeo/kronik/mito",
+            "https://forum.donanimhaber.com/alfa-romeo-mito-incelemesi--132733332"
+          ]
+        }
       ]
     },
     {
@@ -4060,6 +4247,19 @@
     },
     {
       "marka": "BMW",
+      "model": "7 Serisi (F01 / F02, 2010-2015)",
+      "motor": "730d / 740d 3.0 dizel (N57)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n57"
+      ]
+    },
+    {
+      "marka": "BMW",
       "model": "X1 (E84, 2009-2015)",
       "motor": "sDrive18d / xDrive18d / xDrive20d 2.0 dizel (N47)",
       "uretim_yillari": {
@@ -4177,6 +4377,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-n57",
         "bmw-xdrive-aktarma"
       ]
     },
@@ -4191,6 +4392,33 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-n20",
+        "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X4 (F26, 2014-2018)",
+      "motor": "xDrive20d 2.0 dizel (B47)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X4 (F26, 2014-2018)",
+      "motor": "xDrive30d 3.0 dizel (N57)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n57",
         "bmw-xdrive-aktarma"
       ]
     },
@@ -4244,6 +4472,34 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-n57",
+        "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X6 (E71, 2008-2014)",
+      "motor": "xDrive30d / xDrive40d 3.0 dizel (M57 / N57)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X6 (F16, 2014-2019)",
+      "motor": "xDrive30d / xDrive40d 3.0 dizel (N57)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n57",
         "bmw-xdrive-aktarma"
       ]
     },
@@ -5278,6 +5534,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "fiat-1-3-multijet"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "500X (2015-)",
+      "motor": "1.4 MultiAir Turbo 140/170",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fca-1-4-multiair"
       ]
     },
     {
@@ -7941,6 +8210,37 @@
     },
     {
       "marka": "Jeep",
+      "model": "Cherokee (KL, 2014-)",
+      "motor": "2.4 MultiAir (Tigershark)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Aşırı yağ tüketimi ve yağ azalınca motorun durması",
+          "etkilenen_parca": "Motor (yağ tüketimi) ve yağ basıncı",
+          "belirtiler": "Yağ seviyesinin hızla düşmesi (bir 2016 sahibi 1.000 milde yaklaşık 1 kuart yazıyor), uyarı lambası yanmadan yağ azalması, düşük yağ basıncı lambası; yağ çok düştüğünde motorun seyir halinde kendini kapatması.",
+          "tahmini_km_araligi": "45.000 - 105.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "2020'de açılan toplu dava 2015 sonrası Cherokee'lerde 2.4 Tigershark motorun aşırı yağ yaktığını ve yağ azalınca motorun uyarısız durabildiğini iddia ediyor (iddia kanıtlanmış değil). NHTSA'daki üretici servis bülteni (2014-2019 KL) nedeni yavaşlama sırasında yakıt kesme kalibrasyonu olarak veriyor ve XB1 garanti uzatması sunuyor. CarComplaints'te ortalama arıza kilometresi 2015 modelde yaklaşık 64.450 mil, 2016'da 36.550 mil, 2017'de 27.600 mil (kişisel beyanların ortalaması). Sahipler FCA'nın 50.000 milin altında 1.000 milde 1 kuartı, sonrasında 750 milde 1 kuartı kabul edilebilir saydığını aktarıyor.",
+            "cozum": "Servis bültenindeki XB1 garanti uzatması kapsamında inceleme ve onarım; ilgili toplu dava uzatılmış garantiyle sonuçlandı (TopClassActions).",
+            "onlem": "Yağ seviyesini çubukla sık kontrol etmek; sahipler yağ uyarı lambasının geç ya da hiç yanmadığını yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.carcomplaints.com/Jeep/Cherokee/2015/engine/excessive_oil_consumption.shtml",
+            "https://www.carcomplaints.com/Jeep/Cherokee/2016/engine/excessive_oil_consumption.shtml",
+            "https://www.carcomplaints.com/Jeep/Cherokee/2017/engine/excessive_oil_consumption.shtml",
+            "https://www.carcomplaints.com/news/2020/jeep-oil-consumption-class-action-lawsuit.shtml",
+            "https://static.nhtsa.gov/odi/tsbs/2023/MC-10231800-9999.pdf",
+            "https://topclassactions.com/lawsuit-settlements/consumer-products/auto-news/fiat-chrysler-class-action-alleges-excessive-oil-use/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Jeep",
       "model": "Compass (2017-)",
       "motor": "1.6 MultiJet 120 (6MT ve DDCT)",
       "uretim_yillari": {
@@ -7951,6 +8251,19 @@
       "aileler": [
         "fiat-1-6-multijet-ii",
         "fiat-ddct-6"
+      ]
+    },
+    {
+      "marka": "Jeep",
+      "model": "Grand Cherokee (WK2, 2011-2021)",
+      "motor": "3.6 V6 Pentastar",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fca-pentastar-3-6"
       ]
     },
     {
@@ -7992,6 +8305,50 @@
             "https://www.carcomplaints.com/Jeep/Renegade/2015/body_paint/water_leaks_into_interior.shtml"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Jeep",
+      "model": "Renegade / Compass (2015-)",
+      "motor": "1.4 MultiAir Turbo 140/170",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Turbo arızası",
+          "etkilenen_parca": "Turbo şarj ünitesi",
+          "belirtiler": "Güç kaybı ve motor arıza lambası; yetkili serviste turbo değişimi önerisi (8.000-20.000 TL arası teklifler; parça yurt dışından geliyor).",
+          "tahmini_km_araligi": "35.000 - 65.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2015 model bir Renegade sahibi 38.000 km'de turbo arızası ve yetkili servisin garanti dışı 8.000 TL istediğini, bir başka 1.4 MultiAir Limited sahibi 60.000 km'de turbo arızasını ve yaklaşık 20 bin TL'lik masrafı anlatıyor; sahiplerden biri sorunun bu modellerde sürekli yaşandığını öne sürüyor (doğrulanmadı). FiatForum'da 'MultiAir II turbo fail' başlıklı bir konu da aynı motorun turbo arızasını tartışıyor. Kaynaklar Renegade'e aittir; Compass 1.4 MultiAir için ayrı kaynak çıkmadı.",
+            "maliyet": "Şikâyetvar'da turbo değişimi için 8.000 TL ile yaklaşık 20.000 TL arasında teklifler anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/jeep/jeep-renegade-14-multiair-turbo-problemi",
+            "https://www.sikayetvar.com/jeep/renegade/ariza",
+            "https://www.sikayetvar.com/jeep/renegade/kronik-sorun",
+            "https://www.fiatforum.com/threads/multiair-ii-turbo-fail-replace-unit-or-just-chra.524876/"
+          ]
+        }
+      ],
+      "aileler": [
+        "fca-1-4-multiair"
+      ]
+    },
+    {
+      "marka": "Jeep",
+      "model": "Wrangler (JK / JL, 2012-)",
+      "motor": "3.6 V6 Pentastar",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fca-pentastar-3-6"
       ]
     },
     {
@@ -8466,6 +8823,45 @@
     },
     {
       "marka": "Land Rover",
+      "model": "Discovery 4 (2009-2016)",
+      "motor": "3.0 TDV6 / SDV6 V6 dizel (2010 sonrası)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "land-rover-tdv6-3-0"
+      ]
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Discovery 4 (2009-2016)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Hava süspansiyonu kompresörü ve körük arızası",
+          "etkilenen_parca": "Hava süspansiyonu kompresörü, körükler ve kablo / filtre bağlantıları",
+          "belirtiler": "Araç yüksekliğinin değişmesi ya da bir tarafın çökmesi, süspansiyon uyarı mesajı, kompresörün sürekli çalışması; körük patlaması sonucu yolda kalma.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Honest John'da bir okuyucu bir Discovery'de tekrarlayan hava süspansiyonu kompresörü arızalarını, başka bir sahip 2012 Discovery 4'te takılan Hitachi kompresörün yetersiz olduğunu düşündüğünü yazıyor; Ekşi Sözlük'te havalı körük patlayınca yolda kalındığı ve bazı sahiplerin sistemi iptal edip yaya döndüğü anlatılıyor. Tekil anlatılardır, oran verilemez.",
+            "onlem": "İkinci elde süspansiyon yüksekliğini, kompresör sesini ve körükleri kontrol ettirmek."
+          },
+          "kaynaklar": [
+            "https://www.honestjohn.co.uk/askhj/answer/62494/ongoing-land-rover-discovery-problems-",
+            "https://honestjohn.co.uk/carbycar/land-rover/discovery-4-2009/good",
+            "https://eksisozluk.com/land-rover-discovery--514973?p=7"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Land Rover",
       "model": "Discovery Sport (2015-)",
       "motor": "2.0 TD4 / SD4 Ingenium dizel (150-240 PS)",
       "uretim_yillari": {
@@ -8488,6 +8884,45 @@
       "kronik_sorunlar": [],
       "aileler": [
         "land-rover-ingenium-2-0d"
+      ]
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Range Rover Sport (L320 / L494, 2005-2022)",
+      "motor": "3.0 TDV6 / SDV6 V6 dizel (2009 sonrası)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "land-rover-tdv6-3-0"
+      ]
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Range Rover Sport (L320 / L494, 2005-2022)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Hava süspansiyonu kompresörü ve körük arızası",
+          "etkilenen_parca": "Hava süspansiyonu kompresörü, körükler ve kablo / filtre bağlantıları",
+          "belirtiler": "Araç yüksekliğinin değişmesi ya da bir tarafın çökmesi, süspansiyon uyarı mesajı, kompresörün sürekli çalışması; körük patlaması sonucu yolda kalma.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Parkers hava süspansiyonu arızalarının yaygın olduğunu, kompresörlerin bozulduğunu ve yükseklik bilgisinin karıştığını yazıyor; L494 incelemesinde birçok kompresör sorununun tıkalı filtre ya da hatalı kablolamaya bağlanabildiği belirtiliyor. Otopark'taki 2010 model TDV6 HSE incelemesinde havalı süspansiyon ve kompresör arızası eksi olarak sayılıyor, DonanımHaber'de bir yorumcu havalı süspansiyonun tüm modellerde sıkıntı olduğunu yazıyor.",
+            "onlem": "İkinci elde süspansiyon yüksekliğini, kompresör sesini ve körükleri kontrol ettirmek; bazı sahipler sistemi iptal edip konvansiyonel yaya dönüyor."
+          },
+          "kaynaklar": [
+            "https://www.parkers.co.uk/land-rover/range-rover-sport/4x4/review/",
+            "https://otopark.com/forum/threads/range-rover-sport-tdv6-hse-2010-inceleme-test-sohbet.8713/",
+            "https://forum.donanimhaber.com/range-rover-kronik-arizasi-cokmudur-uzermi--117756686"
+          ]
+        }
       ]
     },
     {
