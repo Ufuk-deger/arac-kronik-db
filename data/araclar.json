@@ -2416,6 +2416,43 @@
       ]
     },
     {
+      "id": "vag-2-0-tdi-egr-sogutucu",
+      "ad": "VAG 2.0 TDI EGR soğutucusu (EA189 / EA288)",
+      "tur": "sistem",
+      "aciklama": "VW grubunun 2.0 litre common rail dizel motorlarında EGR soğutucusu ve EGR valfi. EA189 (2009-2015: Passat B7, CC, Tiguan 5N, Octavia ve Superb II, Audi A4 B8, A6 C7, Q5 8R, Q3, Scirocco, Altea) ve evo öncesi EA288 (2012-2019: Passat B8, Octavia A7, Superb III, Audi A3 8V, A4 B9, Karoq). 2019 sonrası EA288 evo ve eski pompa-enjektörlü (PD) 2.0 TDI motorları kapsam dışıdır.",
+      "kronik_sorunlar": [
+        {
+          "id": "egr-sogutucu",
+          "sorun_adi": "EGR soğutucusu sızıntısı veya tıkanması (soğutma suyu kaybı, sık DPF rejenerasyonu)",
+          "etkilenen_parca": "EGR soğutucusu ve bağlı EGR valfi, soğutma sistemi, DPF",
+          "belirtiler": "Görünür kaçak olmadan soğutma suyu eksilmesi, genleşme kabında hava, egzozdan beyaz duman, motor arıza lambası ve EGR hata kodları, sık DPF rejenerasyonu ve güç kaybı",
+          "tahmini_km_araligi": "80.000 - 160.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Forumlarda EGR soğutucusunun içeriden sızıntı yaparak soğutma suyunu emme tarafına ve turboya kaçırdığı, bir başka olayda ise küçük borularının kurum ve çamurla tıkandığı anlatılıyor (VWVortex, Audizine, AudiWorld, BRISKODA). Fiches-Auto.fr, 2.0 TDI 136/140 PS sürümlerinde ilk sorunların turbo ve EGR valfi, çoğu zaman da EGR soğutucusu olduğunu ve sızdıran soğutucunun su kaybına yol açabildiğini yazıyor; L'argus, VW grubunun EA189 motorları (1.2, 1.6 ve 2.0 TDI) için yaklaşık on beş tekrar eden arızayı iki yıl ek garanti kapsamına aldığını ve bunlar arasında EGR parçalarının bulunduğunu aktarıyor. Bir BRISKODA kullanıcısı tıkanmayı AdBlue kristalleşmesine bağlayan bir uzmandan söz ediyor (doğrulanmadı).",
+            "teshis": "Görünür kaçak olmadan soğutma suyu seviyesinin düşmesi, genleşme kabında sürekli hava ya da kabarcık, egzozdan beyaz duman, motor arıza lambası ve EGR hata kodları (ör. P2002), sık DPF rejenerasyonu ve güç kaybı. Kullanıcılar soğutma sistemine basınç testi ve EGR hattında soğutma suyu ile kurum karışımı kontrolü öneriyor. Bir Octavia (2013, 2.0 TDI) sahibi suyun yalnızca DPF rejenerasyonu sırasında eksildiğini yazıyor (teori: EGR valfi rejenerasyon sonrası sıcak gazı soğutucuya verip suyu kaynatıyor; doğrulanmadı). Aynı belirtiler kafa contası, su pompası, ara soğutucu ya da genleşme kabı kapağından da gelebildiği için tek başına kesin sayılmaz.",
+            "cozum": "EGR soğutucusu, çoğu zaman EGR valfi ve bağlı sensörlerle birlikte değiştiriliyor. Bir Superb III (2019) sahibi soğutucu ve valfi yeniletip 20.000 mil sorunsuz gittiğini, valfin gerekmediğini düşündüğünü yazıyor; bir başkası OE'nin yaklaşık yarı fiyatına Mahle soğutucu taktı ve soğutma sisteminin tam oturması yaklaşık 10 gün sürdü. EGR iptali forumlarda anılıyor ancak soğutma suyu kaybını her zaman bitirmiyor (bir kullanıcıda iptal fark etmedi) ve emisyon açısından risklidir.",
+            "maliyet": "İngiltere forumlarında soğutucu değişimi için yaklaşık 660-700 sterlin teklifleri (Passat CC, Octavia Mk2 vRS), bir Superb III'te soğutucu ve valf için 1.110 sterlin; DPF değişimi gerekirse 3.000 sterlin teklif eden bir bayi var (Superb III, yaklaşık 52.000 mil). Türkiye için güncel rakam bulunamadı.",
+            "onlem": "İkinci elde 2.0 TDI'da soğutma suyu seviyesini ve genleşme kabını kontrol ettirmek, basınç testi istemek, EGR ve DPF ile ilgili onarım faturalarını sormak; kısa mesafe kullanımını arada uzun yolla dengelemek (forum önerisi). Kilometre aralığı, forumlardaki 52.000-97.000 mil (yaklaşık 84.000-156.000 km) anlatılarından kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://www.briskoda.net/forums/topic/516924-p2002-fault-code-2019-superb-20-tdi/",
+            "https://www.briskoda.net/forums/topic/446946-coolant-lost-during-dpf-active-regeneration/",
+            "https://www.briskoda.net/forums/topic/507529-dpf-replacement-after-3-years-7-months-52000-miles-reasonable-superb-20-tdi-148hp-dsg/",
+            "https://www.briskoda.net/forums/topic/519944-skoda-superb-20-tdi-uses-coolant/",
+            "https://www.briskoda.net/forums/topic/422106-egr-cooler-replacement-20-tdi-vrs-cr/",
+            "https://www.vwvortex.com/threads/coolant-leak-saga-2-0-tdi.9548032/",
+            "https://www.audizine.com/threads/egr-faults-and-coolant-leak.1006281/",
+            "https://www.audiworld.com/forums/a6-c7-platform-discussion-194/egr-cooler-replaced-coolant-leaking-problems-a6-c7-2-0-tdi-190-hp-3029369/",
+            "https://honestjohn.co.uk/carbycar/volkswagen/passat-b7-2011",
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2438-fiabilite-du-20-tdi.php",
+            "https://www.largus.fr/actualite-automobile/fiabilite-12-16-20-tdi-volkswagen-15-defauts-pris-en-charge-par-le-groupe-audi-seat-skoda-9068390.html",
+            "https://forum.donanimhaber.com/partikul-filtresi-dpd-dpf-egr-egr-sogutucusu-temizligi--103912354-4"
+          ]
+        }
+      ]
+    },
+    {
       "id": "vag-48v-etsi",
       "ad": "VAG 48V hafif hibrit sistem (eTSI / e-TEC / MHEV)",
       "tur": "sistem",
@@ -3146,6 +3183,19 @@
     {
       "marka": "Audi",
       "model": "A3 (8V, 2012-2020)",
+      "motor": "2.0 TDI 150 (EA288)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 (8V, 2012-2020)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
         "baslangic": 2012,
@@ -3410,7 +3460,21 @@
         }
       ],
       "aileler": [
-        "audi-multitronic-0aw"
+        "audi-multitronic-0aw",
+        "vag-2-0-tdi-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A4 (B9, 2016-2019)",
+      "motor": "2.0 TDI 150/190 (EA288)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
       ]
     },
     {
@@ -3436,7 +3500,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "audi-multitronic-0aw"
+        "audi-multitronic-0aw",
+        "vag-2-0-tdi-egr-sogutucu"
       ]
     },
     {
@@ -3493,6 +3558,19 @@
     },
     {
       "marka": "Audi",
+      "model": "Q3 (8U, 2011-2018)",
+      "motor": "2.0 TDI (EA189 / EA288)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "Audi",
       "model": "Q3 (8U, 2014-2018)",
       "motor": "1.4 TFSI 150 (EA211, ACT)",
       "uretim_yillari": {
@@ -3528,6 +3606,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-1-5-tsi-evo"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "Q5 (8R, 2008-2017)",
+      "motor": "2.0 TDI (EA189 / EA288)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
       ]
     },
     {
@@ -13633,6 +13724,19 @@
     },
     {
       "marka": "Seat",
+      "model": "Altea / Altea XL (2010-2015)",
+      "motor": "2.0 TDI 140 (EA189)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "Seat",
       "model": "Arona (2017-)",
       "motor": "1.0 TSI 95/115 (DSG DQ200)",
       "uretim_yillari": {
@@ -14011,6 +14115,19 @@
     },
     {
       "marka": "Skoda",
+      "model": "Karoq (2017-2020)",
+      "motor": "2.0 TDI 150 (EA288)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "Skoda",
       "model": "Kodiaq (2017-)",
       "motor": "1.5 TSI 150 (EA211 evo, ACT)",
       "uretim_yillari": {
@@ -14314,6 +14431,19 @@
     },
     {
       "marka": "Skoda",
+      "model": "Octavia (A7, 2013-2020)",
+      "motor": "2.0 TDI 150 (EA288)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "Skoda",
       "model": "Octavia (A8, 2020-)",
       "motor": "1.0 TSI e-TEC 110 / 1.5 TSI 150 (48V hafif hibrit, DSG)",
       "uretim_yillari": {
@@ -14593,6 +14723,32 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-ea888-gen2"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb (II, 2009-2015)",
+      "motor": "2.0 TDI 140/170 (EA189)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb (III, 2015-2019)",
+      "motor": "2.0 TDI 150/190 (EA288)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
       ]
     },
     {
@@ -16124,6 +16280,32 @@
     },
     {
       "marka": "Volkswagen",
+      "model": "Passat (B7, 2010-2014)",
+      "motor": "2.0 TDI 140/170 (EA189)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat (B8, 2015-2019)",
+      "motor": "2.0 TDI 150/190 (EA288)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
       "model": "Passat (B8, 2015-2023)",
       "motor": "1.4 TSI 125/150 (EA211, ACT)",
       "uretim_yillari": {
@@ -16249,6 +16431,19 @@
       "aileler": [
         "vag-1-5-tsi-evo",
         "vag-48v-etsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat CC (2009-2016)",
+      "motor": "2.0 TDI 140/170 (EA189)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
       ]
     },
     {
@@ -16458,6 +16653,19 @@
     {
       "marka": "Volkswagen",
       "model": "Scirocco (2008-2017)",
+      "motor": "2.0 TDI (EA189 / EA288)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Scirocco (2008-2017)",
       "motor": "2.0 TSI 200/210 (EA888 Gen1 / Gen2)",
       "uretim_yillari": {
         "baslangic": 2008,
@@ -16577,6 +16785,19 @@
       ],
       "aileler": [
         "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Tiguan (5N, 2008-2016)",
+      "motor": "2.0 TDI 140/170 (EA189)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-2-0-tdi-egr-sogutucu"
       ]
     },
     {

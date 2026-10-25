@@ -1673,7 +1673,7 @@
       "marka": "Volkswagen",
       "model": "Passat B7",
       "yillar": "2010-2014",
-      "motor": "2.0 TDI",
+      "motor": "2.0 TDI 140/170 (EA189)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -1683,8 +1683,7 @@
           "2.0 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Aramalarda 2.0 TDI'ya özgü tekrar eden sorun çıkmadı; forum yorumlarının çoğu eski PD motorlara (B6) ve DSG'ye ait, enjektör iddiaları tekil. Faz 7'de yeniden arandı: DonanımHaber'de 2.0 TDI için enjektör, EGR, zincir gergisi, turbo ve DPF sıralanıyor ancak kaynaklar PD motorlu B6 ve DSG'ye ait; B7 / B8 2.0 TDI'ya özgü tekrar eden bir sorun için ikinci bağımsız site yok."
+      "not": "Aramalarda 2.0 TDI'ya özgü tekrar eden sorun çıkmadı; forum yorumlarının çoğu eski PD motorlara (B6) ve DSG'ye ait, enjektör iddiaları tekil. Faz 7'de yeniden arandı: DonanımHaber'de 2.0 TDI için enjektör, EGR, zincir gergisi, turbo ve DPF sıralanıyor ancak kaynaklar PD motorlu B6 ve DSG'ye ait; B7 / B8 2.0 TDI'ya özgü tekrar eden bir sorun için ikinci bağımsız site yok. Faz 7'de yeniden arandı (zincir ve yüksek basınç pompası için B7'ye özgü kaynak çıkmadı; enjektör anlatıları PD motorlu B6 kaydında). Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus)."
     },
     {
       "marka": "Volkswagen",
@@ -1704,8 +1703,8 @@
     {
       "marka": "Volkswagen",
       "model": "Passat B8",
-      "yillar": "2015-2023",
-      "motor": "2.0 TDI",
+      "yillar": "2015-2019",
+      "motor": "2.0 TDI 150/190 (EA288)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -1715,8 +1714,7 @@
           "2.0 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Aramalarda B8 2.0 TDI için EGR, DPF ya da AdBlue kaynaklı tekrar eden Türkçe kaynak çıkmadı; en çok DSG şikâyeti var (B8 1.6 TDI kaydında). Faz 7'de yeniden arandı: DonanımHaber'de 2.0 TDI için enjektör, EGR, zincir gergisi, turbo ve DPF sıralanıyor ancak kaynaklar PD motorlu B6 ve DSG'ye ait; B7 / B8 2.0 TDI'ya özgü tekrar eden bir sorun için ikinci bağımsız site yok. Faz 8: 1.5 TSI bu satırdan ayrıldı ve kayıtlandı (Passat B8 1.5 TSI 150, yağ eksiltme)."
+      "not": "Aramalarda B8 2.0 TDI için EGR, DPF ya da AdBlue kaynaklı tekrar eden Türkçe kaynak çıkmadı; en çok DSG şikâyeti var (B8 1.6 TDI kaydında). Faz 7'de yeniden arandı: DonanımHaber'de 2.0 TDI için enjektör, EGR, zincir gergisi, turbo ve DPF sıralanıyor ancak kaynaklar PD motorlu B6 ve DSG'ye ait; B7 / B8 2.0 TDI'ya özgü tekrar eden bir sorun için ikinci bağımsız site yok. Faz 8: 1.5 TSI bu satırdan ayrıldı ve kayıtlandı (Passat B8 1.5 TSI 150, yağ eksiltme). Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus). 2019 sonrası EA288 evo sürümleri bu kayıtta yok."
     },
     {
       "marka": "Volkswagen",
@@ -1737,7 +1735,7 @@
       "marka": "Volkswagen",
       "model": "Tiguan 5N",
       "yillar": "2008-2016",
-      "motor": "2.0 TDI",
+      "motor": "2.0 TDI 140/170 (EA189)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -1747,8 +1745,7 @@
           "2.0 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "5N 2.0 TDI'ya özgü turbo, EGR, DPF ya da zincir sorunu için kaynak çıkmadı; sonuçlar 1.4 TSI ve genel Passat 2.0 TDI yorumlarına ait."
+      "not": "5N 2.0 TDI'ya özgü turbo, EGR, DPF ya da zincir sorunu için kaynak çıkmadı; sonuçlar 1.4 TSI ve genel Passat 2.0 TDI yorumlarına ait. Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus)."
     },
     {
       "marka": "Volkswagen",
@@ -2711,18 +2708,18 @@
       "marka": "Audi",
       "model": "A4 B9",
       "yillar": "2016-",
-      "motor": "2.0 TFSI / 2.0 TDI",
+      "motor": "2.0 TFSI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "A4 (B9"
         ],
         "motor": [
-          ""
+          "2.0 TFSI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "B9 için doğrudan kronik sorun listesi çıkmadı; yağ eksiltme şikâyetleri çoğunlukla B8 dönemine ait (kayıtlı), B9'a özgü olanlar tekil (tahrik uyarısı, stop lambası çatlağı)."
+      "not": "2.0 TFSI için B9 için doğrudan kronik sorun listesi çıkmadı; yağ eksiltme şikâyetleri çoğunlukla B8 dönemine ait (kayıtlı), B9'a özgü olanlar tekil (tahrik uyarısı, stop lambası çatlağı)."
     },
     {
       "marka": "Audi",
@@ -3315,7 +3312,7 @@
       "marka": "Audi",
       "model": "Q3 8U",
       "yillar": "2011-2018",
-      "motor": "2.0 TDI",
+      "motor": "2.0 TDI (EA189 / EA288)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -3325,8 +3322,7 @@
           "2.0 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Q3 2.0 TDI için modele özgü kaynak bulunamadı."
+      "not": "Q3 2.0 TDI için modele özgü kaynak bulunamadı. Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus)."
     },
     {
       "marka": "Opel",
@@ -3615,23 +3611,6 @@
       },
       "sonuc": "yetersiz-kanit",
       "not": "T5 / T6 2.0 TDI için kronik arıza listesi çıkmadı; yalnızca tekil enjektör ve turbo anlatıları."
-    },
-    {
-      "marka": "Volkswagen",
-      "model": "Passat B7",
-      "yillar": "2010-2014",
-      "motor": "2.0 TDI (CFFB / CBAB)",
-      "kademe": 3,
-      "eslesme": {
-        "model": [
-          "Passat (B7"
-        ],
-        "motor": [
-          "2.0 TDI"
-        ]
-      },
-      "sonuc": "yetersiz-kanit",
-      "not": "B7'ye özgü zincir ya da yüksek basınç pompası kaynağı çıkmadı; enjektör anlatıları PD motorlu B6 kaydında."
     },
     {
       "marka": "Fiat",
@@ -5042,8 +5021,8 @@
     {
       "marka": "Skoda",
       "model": "Karoq",
-      "yillar": "2017-",
-      "motor": "2.0 TDI",
+      "yillar": "2017-2020",
+      "motor": "2.0 TDI 150 (EA288)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -5053,8 +5032,7 @@
           "2.0 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetler Şikâyetvar'daki tekil kayıtlarla sınırlı (DSG acil işletim / mekatronik, yağ eksiltme); bağımsız ikinci kaynak yok. Aynı motor ailesi Tiguan 1.5 TSI ve DQ381 kayıtlarında ele alındı. Karoq 1.5 TSI ayrı satırda kayıtlandı (Faz 8)."
+      "not": "Şikâyetler Şikâyetvar'daki tekil kayıtlarla sınırlı (DSG acil işletim / mekatronik, yağ eksiltme); bağımsız ikinci kaynak yok. Aynı motor ailesi Tiguan 1.5 TSI ve DQ381 kayıtlarında ele alındı. Karoq 1.5 TSI ayrı satırda kayıtlandı (Faz 8). Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus). 2020 sonrası EA288 evo sürümleri bu kayıtta yok."
     },
     {
       "marka": "Volkswagen",
@@ -5437,15 +5415,14 @@
       "marka": "Volkswagen",
       "model": "Passat CC",
       "yillar": "2008-2017",
-      "motor": "2.0 TDI / 1.4 TSI (DSG)",
+      "motor": "1.4 TSI (DSG)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Passat CC"
         ],
         "motor": [
-          "TDI",
-          "TSI"
+          "1.4 TSI"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -5688,15 +5665,14 @@
       "marka": "Skoda",
       "model": "Octavia A7",
       "yillar": "2013-2020",
-      "motor": "1.6 MPI / 2.0 TDI",
+      "motor": "1.6 MPI",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Octavia (A7"
         ],
         "motor": [
-          "1.6 MPI",
-          "2.0 TDI"
+          "1.6 MPI"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -5706,7 +5682,7 @@
       "marka": "Skoda",
       "model": "Superb II",
       "yillar": "2008-2015",
-      "motor": "2.0 TDI",
+      "motor": "2.0 TDI 140/170 (EA189)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -5716,8 +5692,7 @@
           "2.0 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da iki sorguyla arandı: Şikâyetvar ya da DonanımHaber kaydı çıkmadı; Araclo'nun Superb II sayfalarında 2.0 TDI için DSG mekatronik valf burcu ve yüksek basınç pompası var; deneyim türünde (şikâyet / forum) kaynak yok, Araclo tek başına yeterli sayılmıyor."
+      "not": "Faz 9'da iki sorguyla arandı: Şikâyetvar ya da DonanımHaber kaydı çıkmadı; Araclo'nun Superb II sayfalarında 2.0 TDI için DSG mekatronik valf burcu ve yüksek basınç pompası var; deneyim türünde (şikâyet / forum) kaynak yok, Araclo tek başına yeterli sayılmıyor. Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus)."
     },
     {
       "marka": "Mercedes-Benz",
@@ -6096,8 +6071,8 @@
     {
       "marka": "Skoda",
       "model": "Superb III",
-      "yillar": "2015-2023",
-      "motor": "2.0 TDI",
+      "yillar": "2015-2019",
+      "motor": "2.0 TDI 150/190 (EA288)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -6107,8 +6082,7 @@
           "2.0 TDI"
         ]
       },
-      "not": "2.0 TDI için yalnızca tekil şikâyetler çıktı (arıza lambası, start-stop); tekrar eden sorun yok.",
-      "sonuc": "yetersiz-kanit"
+      "not": "2.0 TDI için yalnızca tekil şikâyetler çıktı (arıza lambası, start-stop); tekrar eden sorun yok. Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus). 2019 sonrası EA288 evo sürümleri bu kayıtta yok."
     },
     {
       "marka": "Skoda",
@@ -7822,16 +7796,15 @@
     },
     {
       "marka": "Audi",
-      "model": "A3 8V (2.0 TDI / 1.8 TFSI)",
+      "model": "A3 8V",
       "yillar": "2012-2020",
-      "motor": "2.0 TDI 150 / 1.8 TFSI 180",
+      "motor": "1.8 TFSI 180",
       "kademe": 2,
       "eslesme": {
         "model": [
           "A3 (8V"
         ],
         "motor": [
-          "2.0 TDI",
           "1.8 TFSI"
         ]
       },
@@ -9052,7 +9025,7 @@
       "marka": "Audi",
       "model": "Q5 8R",
       "yillar": "2008-2017",
-      "motor": "2.0 TDI",
+      "motor": "2.0 TDI (EA189 / EA288)",
       "kademe": 1,
       "eslesme": {
         "model": [
@@ -9062,8 +9035,7 @@
           "2.0 TDI"
         ]
       },
-      "not": "Q5 2.0 TDI için modele özgü kaynak çıkmadı: DonanımHaber'de Q5 başlıkları 2.0 TFSI yağ yakma (ayrı kayıtta), S tronic ve akü / alternatör üzerine; 2.0 TDI enjektör ve DPF anlatıları A5 / A6 başlıklarında ve eski 143-170 hp motorlara ait, 2.0 TDI için doğrulanmış bir sorun listesi çıkmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Q5 2.0 TDI için modele özgü kaynak çıkmadı: DonanımHaber'de Q5 başlıkları 2.0 TFSI yağ yakma (ayrı kayıtta), S tronic ve akü / alternatör üzerine; 2.0 TDI enjektör ve DPF anlatıları A5 / A6 başlıklarında ve eski 143-170 hp motorlara ait, 2.0 TDI için doğrulanmış bir sorun listesi çıkmadı. Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus)."
     },
     {
       "marka": "Toyota",
@@ -12539,7 +12511,7 @@
       "marka": "Volkswagen",
       "model": "Scirocco",
       "yillar": "2008-2017",
-      "motor": "2.0 TDI",
+      "motor": "2.0 TDI (EA189 / EA288)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -12549,14 +12521,13 @@
           "2.0 TDI"
         ]
       },
-      "not": "Scirocco'ya özgü 2.0 TDI kaynağı çıkmadı; VAG 2.0 TDI common rail (CFFB / CBDB / CFHC) için Honest John, VWVortex ve Briskoda'da tekil vakalar var (CFFB'de soğuk çalıştırma güçlüğü ve düşük yakıt rayı basıncı 372.000 km'de, yağ pompası zinciri ve denge mili, çift kütleli volan); kilometre aralığı verilecek tutarlı bir sorun çıkmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Scirocco'ya özgü 2.0 TDI kaynağı çıkmadı; VAG 2.0 TDI common rail (CFFB / CBDB / CFHC) için Honest John, VWVortex ve Briskoda'da tekil vakalar var (CFFB'de soğuk çalıştırma güçlüğü ve düşük yakıt rayı basıncı 372.000 km'de, yağ pompası zinciri ve denge mili, çift kütleli volan); kilometre aralığı verilecek tutarlı bir sorun çıkmadı. Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus)."
     },
     {
       "marka": "Seat",
       "model": "Altea / Altea XL",
-      "yillar": "2004-2015",
-      "motor": "2.0 TDI",
+      "yillar": "2010-2015",
+      "motor": "2.0 TDI 140 (EA189)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -12566,8 +12537,7 @@
           "2.0 TDI"
         ]
       },
-      "not": "Altea'ya özgü 2.0 TDI kaynağı çıkmadı; Honest John'da bir Altea sahibinin çift kütleli volan değişimi geçiyor, genel VAG 2.0 TDI notları için Scirocco 2.0 TDI satırına bakın.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Altea'ya özgü 2.0 TDI kaynağı çıkmadı; Honest John'da bir Altea sahibinin çift kütleli volan değişimi geçiyor, genel VAG 2.0 TDI notları için Scirocco 2.0 TDI satırına bakın. Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus). 2004-2009 pompa-enjektörlü (PD) Altea bu kayıtta yok."
     },
     {
       "marka": "Peugeot",
@@ -12785,6 +12755,70 @@
       },
       "not": "Atmosferik 1.0 için tutarlı kaynak çıkmadı: CarComplaints'te Smart fortwo için çok az ve tekil motor şikâyeti var; Daimler servis bülteni (M281 motorlu 453) zayıf akünün gövde ve motor kontrol üniteleri arasında iletişim hatasına ve motor arıza lambasına yol açabildiğini yazıyor; DonanımHaber ve Ekşi Sözlük'te motor arıza lambasının sık yanması (düşük oktanlı yakıt iddiası) tekil olarak anlatılıyor.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Audi",
+      "model": "A4 B9",
+      "yillar": "2016-2019",
+      "motor": "2.0 TDI 150/190 (EA288)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A4 (B9"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "not": "B9 2.0 TDI için doğrudan kronik sorun listesi çıkmadı (B9'a özgü olanlar tekil: tahrik uyarısı, stop lambası çatlağı). Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus). 2019 sonrası evo sürümleri bu kayıtta yok."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat CC",
+      "yillar": "2009-2016",
+      "motor": "2.0 TDI 140/170 (EA189)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Passat CC"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "not": "Passat CC'ye özgü kaynak çıkmadı (2.0 TDI yağ tüketimi anlatıları B7 ve sonrası Passat'lara ait). Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus)."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A7",
+      "yillar": "2013-2020",
+      "motor": "2.0 TDI 150 (EA288)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Octavia (A7"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "not": "Octavia A7 2.0 TDI için motor bazında kronik sorun listesi çıkmadı. Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus)."
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 8V",
+      "yillar": "2012-2020",
+      "motor": "2.0 TDI 150 (EA288)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A3 (8V"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "not": "8V 2.0 TDI için modele özgü şikâyet çıkmadı (forumlarda en çok S tronic konuşuluyor). Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus)."
     }
   ]
 }
