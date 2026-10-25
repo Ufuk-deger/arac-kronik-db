@@ -1103,7 +1103,7 @@
       "id": "hyundai-kia-7dct",
       "ad": "Hyundai / Kia 7DCT (7 ileri kuru çift kavramalı)",
       "tur": "sanziman",
-      "aciklama": "Hyundai ve Kia'nın 2015'ten itibaren Tucson, Sportage, i20, i30, Kona, Elantra, Bayon, Ceed, Stonic ve Rio'da benzinli (T-GDI) ve dizel (CRDi) motorlarla kullandığı 7 ileri kuru kavramalı çift kavramalı şanzıman.",
+      "aciklama": "Hyundai ve Kia'nın 2015'ten itibaren Tucson, Sportage, i20, i30, Kona, Elantra, Bayon, Ceed, XCeed, Stonic ve Rio'da benzinli (T-GDI) ve dizel (CRDi) motorlarla kullandığı 7 ileri kuru kavramalı çift kavramalı şanzıman.",
       "kronik_sorunlar": [
         {
           "id": "kavrama-titremesi",
@@ -1142,7 +1142,7 @@
       "id": "hyundai-kia-gamma-gdi",
       "ad": "Hyundai / Kia Gamma 1.6 GDI (direkt enjeksiyonlu benzin)",
       "tur": "motor",
-      "aciklama": "Hyundai ve Kia'nın 2010'dan itibaren i30, Accent Blue, ix35, Elantra ve Sportage'da kullandığı 1.6 litre direkt enjeksiyonlu atmosferik benzinli motor (GDI, 132-140 PS).",
+      "aciklama": "Hyundai ve Kia'nın 2010'dan itibaren i30, i40, Accent Blue, ix35, Elantra, Sportage, Carens ve Soul'da kullandığı 1.6 litre direkt enjeksiyonlu atmosferik benzinli motor (GDI, 132-140 PS).",
       "kronik_sorunlar": [
         {
           "id": "yag-tuketimi",
@@ -1170,7 +1170,7 @@
       "id": "hyundai-kia-u2-crdi",
       "ad": "Hyundai / Kia U2 1.4 - 1.6 - 1.7 CRDi (common rail dizel)",
       "tur": "motor",
-      "aciklama": "Hyundai ve Kia'nın 2009'dan itibaren i20, i30, Accent Blue, Elantra, Kona, Tucson, ix35, Ceed, Rio, Stonic ve Sportage'da kullandığı U2 serisi 1.4 / 1.6 / 1.7 litre common rail dizel motorlar (90-141 PS).",
+      "aciklama": "Hyundai ve Kia'nın 2009'dan itibaren i20, i30, i40, Accent Blue, Elantra, Kona, Tucson, ix35, Ceed, Rio, Stonic, Sportage, Carens, Soul ve Optima'da kullandığı U2 serisi 1.4 / 1.6 / 1.7 litre common rail dizel motorlar (90-141 PS).",
       "kronik_sorunlar": [
         {
           "id": "dpf-yagi-yakit",
@@ -1501,7 +1501,7 @@
       "id": "psa-bluehdi-adblue",
       "ad": "PSA BlueHDi AdBlue (SCR) sistemi",
       "tur": "sistem",
-      "aciklama": "Peugeot, Citroën ve Opel'in BlueHDi dizel motorlarında (1.6 DV6 ve 1.5 DV5) 2014'ten itibaren kullanılan AdBlue deposu, seviye sensörü, pompa ve SCR sistemi.",
+      "aciklama": "Peugeot, Citroën, Opel ve Toyota'nın (Proace / Proace City) BlueHDi dizel motorlarında (1.6 DV6 ve 1.5 DV5) 2014'ten itibaren kullanılan AdBlue deposu, seviye sensörü, pompa ve SCR sistemi.",
       "kronik_sorunlar": [
         {
           "id": "adblue-sensor-pompa",
@@ -1523,7 +1523,8 @@
             "https://forum.donanimhaber.com/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk--158519472",
             "https://www.sikayetvar.com/peugeot/308/adblue",
             "https://www.sikayetvar.com/peugeot/3008/adblue-sorunu",
-            "https://otopark.com/forum/threads/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk.15617/"
+            "https://otopark.com/forum/threads/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk.15617/",
+            "https://www.sikayetvar.com/toyota/proace-city/adblue"
           ]
         }
       ]
@@ -1532,7 +1533,7 @@
       "id": "psa-dv5-1-5-bluehdi",
       "ad": "PSA / Opel / Ford 1.5 BlueHDi - EcoBlue (DV5)",
       "tur": "motor",
-      "aciklama": "2017'den itibaren Peugeot, Citroën, Opel (Grandland, Crossland, Mokka B, Corsa F) ve Ford'un (Focus 4, Kuga 3 - 1.5 EcoBlue) kullandığı 1.5 litre common rail dizel motor (DV5). Eksantrik zinciri 7 mm'lik dar zincirdir.",
+      "aciklama": "2017'den itibaren Peugeot, Citroën, Opel (Grandland, Crossland, Mokka B, Corsa F), Ford'un (Focus 4, Kuga 3 - 1.5 EcoBlue) ve Toyota'nın (Proace City - 1.5 D-4D) kullandığı 1.5 litre common rail dizel motor (DV5). Eksantrik zinciri 7 mm'lik dar zincirdir.",
       "kronik_sorunlar": [
         {
           "id": "eksantrik-zinciri",
@@ -1611,7 +1612,7 @@
       "id": "psa-dv6-hdi-tdci",
       "ad": "PSA / Ford 1.6 HDi - e-HDi - BlueHDi - TDCi (DV6)",
       "tur": "motor",
-      "aciklama": "Peugeot, Citroën, Ford (1.6 TDCi), Volvo (D2 / D DRIVe), Mazda'nın (1.6 MZ-CD) kullandığı 1.6 litre common rail dizel motor (DV6). 207, 208, 301, 308, 3008, C3, C4, C-Elysée, Berlingo, Partner, Focus, Fiesta, C-Max, Transit Connect, V40, S60 ve V60'ta bulunur.",
+      "aciklama": "Peugeot, Citroën, Ford (1.6 TDCi), Volvo (D2 / D DRIVe), Mazda'nın (1.6 MZ-CD) kullandığı 1.6 litre common rail dizel motor (DV6). 207, 208, 301, 308, 3008, C3, C4, C-Elysée, Berlingo, Partner, Toyota Proace, Focus, Fiesta, C-Max, Transit Connect, V40, S60 ve V60'ta bulunur.",
       "kronik_sorunlar": [
         {
           "id": "enjektor",
@@ -8296,6 +8297,32 @@
     },
     {
       "marka": "Hyundai",
+      "model": "i40 (VF, 2011-2019)",
+      "motor": "1.6 GDI 135",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-gamma-gdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i40 (VF, 2011-2019)",
+      "motor": "1.7 CRDi 115/136/141",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "ix35 (LM, 2010-2015)",
       "motor": "1.6 GDI 135",
       "uretim_yillari": {
@@ -8493,6 +8520,32 @@
       "kronik_sorunlar": [],
       "aileler": [
         "fca-pentastar-3-6"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Carens (RP, 2013-2019)",
+      "motor": "1.6 GDI 135",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-gamma-gdi"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Carens (RP, 2013-2019)",
+      "motor": "1.7 CRDi 115/136",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
       ]
     },
     {
@@ -8699,6 +8752,19 @@
     },
     {
       "marka": "Kia",
+      "model": "Optima (TF / JF, 2012-2020)",
+      "motor": "1.7 CRDi 136/141",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Kia",
       "model": "Picanto (JA, 2017-)",
       "motor": "1.0 / 1.2 MPI (akü ve marş sorunu tüm motorlarda ortak)",
       "uretim_yillari": {
@@ -8773,6 +8839,32 @@
       "kronik_sorunlar": [],
       "aileler": [
         "hyundai-kia-7dct"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Soul (AM / PS, 2009-2019)",
+      "motor": "1.6 CRDi 128/136",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Soul (PS, 2014-2019)",
+      "motor": "1.6 GDI 132",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-gamma-gdi"
       ]
     },
     {
@@ -8963,6 +9055,19 @@
       "aileler": [
         "hyundai-kia-7dct",
         "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "XCeed (2019-)",
+      "motor": "T-GDI benzinli 1.0 / 1.4 (7 ileri çift kavramalı DCT)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct"
       ]
     },
     {
@@ -14640,6 +14745,19 @@
       ]
     },
     {
+      "marka": "Smart",
+      "model": "fortwo / forfour (453, 2015-2023)",
+      "motor": "0.9 TCe 90 (H4Bt)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-h4bt-h4dt"
+      ]
+    },
+    {
       "marka": "Subaru",
       "model": "Forester (SJ, 2013-2018)",
       "motor": "2.0 boxer 150 (FB20)",
@@ -15162,6 +15280,63 @@
             "https://forum.donanimhaber.com/2021-corolla-carplay-sorunu--159520052"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Land Cruiser Prado (J150, 2009-2015)",
+      "motor": "3.0 D-4D (1KD-FTV)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Enjektör arızası ve enjektör yuvasından sızıntı (yağ emme kafesinin tıkanma riski)",
+          "etkilenen_parca": "Common rail enjektörleri, bakır contalar ve karter yağ emme kafesi",
+          "belirtiler": "Soğukken motordan belirgin tıkırtı (vuruntu) sesi, yakıt tüketiminde artış, düzensiz rölanti, yük altında kaba çalışma ve güç kaybı; yuva sızıntısında kaçak gazların yağı kirletmesi.",
+          "tahmini_km_araligi": "75.000 - 140.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Australian Car Reviews'a göre 1KD-FTV enjektörlerinin 120.000-140.000 km civarında arızalanması nadir değil; bildirimler yaklaşık 75.000 km'den başlıyor, bazı enjektörler 250.000 km'ye dayanıyor. Toyota Owners Club Avustralya forumunda 2012 öncesi Denso enjektörlerde iki sorun sayılıyor: bakır pulların dağılması ve enjektör iğnesinin erken aşınıp açık ya da kapalı takılması. Kaynaklarda yuva sızıntısında kaçak gazların yağı kirletip karter emme kafesini tıkayabildiği ve yağsız kalmanın en ciddi risk olduğu belirtiliyor (özellikle 2005-2007 motorlar). Ayrıca Euro 4 (2006-2014) 3.0 motorlarda en sık 100.000-150.000 km arasında görülen piston çatlağı ayrı bir tasarım kusuru olarak anılıyor (yalnızca tek kaynakta).",
+            "teshis": "Australian Car Reviews: soğukken pencere açıkken bile duyulan belirgin tıkırtı, kötü yakıt tüketimi, düzensiz rölanti ve yük altında kaba çalışma. Toyota Owners Club'da Prado D4D'de gaz verirken tereddüt ve güç kaybı için önce EGR temizliği ve gaz kelebeği sensörü kontrolü deneniyor; EGR'den gaz kelebeğine giden küçük kanalın kurumla tıkanmasının rölantiyi düşürüp dalgalandırabildiği yazılıyor; sorun sürerse enjektörlerin tezgâhta test ettirilmesi öneriliyor.",
+            "cozum": "Arızalı enjektörlerin değiştirilmesi; Australian Car Reviews önlem olarak enjektörlerin her 100.000 km'de yenilenmesini öneriyor.",
+            "onlem": "Enjektörleri yaklaşık her 100.000 km'de yenilemek. Kaynaklarda piston çatlağına karşı Toyota'nın chip tuning'den ve uzun süreli ağır yükten kaçınmayı, enjektör bakımını düzenli yaptırmayı önerdiği yazılıyor. İkinci elde enjektör değişim kaydını sormak."
+          },
+          "kaynaklar": [
+            "https://www.australiancar.reviews/1kd-ftv-toyota-engine/",
+            "https://www.australiancar.reviews/recalls-faults-toyota-150-series-landcruiser-prado-2009-23/",
+            "https://au.toyotaownersclub.com/forums/topic/37989-injector-leaks-and-engine-siezure/",
+            "https://www.toyotaownersclub.com/forums/topic/108766-prado-d4d-hesitation-during-acceleration/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Proace (2013-2020)",
+      "motor": "1.6 D-4D 90/115 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Proace City (2019-)",
+      "motor": "1.5 D-4D 100/130 (BlueHDi DV5)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
       ]
     },
     {

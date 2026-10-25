@@ -42,7 +42,7 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 84 farklı site, 351 sorun için kullanıldı.
+Toplam 84 farklı site, 352 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
@@ -98,10 +98,10 @@ Toplam 84 farklı site, 351 sorun için kullanıldı.
 | [Berlingo Forum](https://www.berlingoforum.com/) | UK | orta | 4 | Citroën Berlingo ve PSA dizel (HDi) forumu. |
 | [CruzeTalk](https://www.cruzetalk.com/) | US | orta | 4 | Chevrolet Cruze forumu. Konular çoğunlukla ABD'deki 1.4T ve 1.8 motorlar için. |
 | [SpeakEV](https://www.speakev.com/) | UK | orta | 4 | İngiltere merkezli elektrikli araç sahibi forumu; Zoe, Peugeot e-208, BYD gibi modellerde 12V akü, şarj ve tahrik arızası konuları. |
+| [Toyota Owners Club](https://toyotaownersclub.com/) | UK | orta | 4 | Toyota sahipleri forumu (Auris/Corolla D-4D). |
 | [Audizine](https://www.audizine.com/) | US | orta | 3 | Audi forumu. |
 | [German Car Forum](https://www.germancarforum.com/) | Global | orta | 3 | Alman markaları forumu. |
 | [Planète Renault](https://www.planeterenault.com/forum/) | FR | orta | 3 | Fransızca Renault forumu. K9K yatak sorunu için moderatör yazısı bu sitede. |
-| [Toyota Owners Club](https://toyotaownersclub.com/) | UK | orta | 3 | Toyota sahipleri forumu (Auris/Corolla D-4D). |
 | [E90Post](https://www.e90post.com/) | US | orta | 2 | BMW 3 Serisi E90/E92 forumu. |
 | [Forum Peugeot](https://www.forum-peugeot.com/) | FR | orta | 2 | Fransızca Peugeot forumu. |
 | [SwedeSpeed](https://www.swedespeed.com/) | US | orta | 2 | Volvo ve Saab sahipleri forumu (XC60, S60, V60 başlıkları). |
@@ -119,7 +119,7 @@ Toplam 84 farklı site, 351 sorun için kullanıldı.
 | --- | --- | --- | ---: | --- |
 | [CarComplaints.com](https://www.carcomplaints.com/) | US | yüksek | 32 | NHTSA şikâyetlerini ve dava haberlerini model yılı bazında derler. Yalnızca ABD pazarındaki araçları kapsar. |
 | [Fiches-Auto.fr](https://www.fiches-auto.fr/) | FR | orta | 14 | Sürücü yorumlarından derlenen arıza ve güvenilirlik sayfaları. |
-| [AustralianCar.Reviews](https://australiancar.reviews/) | AU | orta | 4 | Model bazında geri çağırma ve arıza listeleri. |
+| [AustralianCar.Reviews](https://australiancar.reviews/) | AU | orta | 5 | Model bazında geri çağırma ve arıza listeleri. |
 | [CarChecker.pro](https://www.carchecker.pro/) | Global | düşük | 3 | Genel amaçlı model raporları; iddialar zayıf kaynaklıdır. |
 | [Consumer Reports](https://www.consumerreports.org/) | US | yüksek | 3 | Sahip anketlerine dayalı güvenilirlik verisi ve kampanya haberleri. |
 | [au7o](https://au7o.io/) | Global | düşük | 2 | Arıza kodu ve bilinen sorun derlemesi. |

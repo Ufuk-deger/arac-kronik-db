@@ -8577,7 +8577,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Fullback'e özgü sonuç çıkmadı. Aynı 2.4 DI-D (4N15) motorlu L200 için Şikâyetvar ve DonanımHaber'de DPF uyarıları ve yağ değişimi, beyaz duman, güç kaybı ve koruma moduna geçme tekil olarak anlatılıyor; Honest John ve Parkers 2015 sonrası L200'de egzoz emisyon parçalarında (DPF) şikâyet ve yakıt filtresi tıkanması notu veriyor. Sonuçlar kısmen eski 2.5 motora ait; kilometre aralığı verilen ve ikinci kaynakla desteklenen tutarlı bir sorun çıkmadı."
     },
     {
       "marka": "Renault",
@@ -8714,32 +8716,34 @@
     {
       "marka": "Toyota",
       "model": "Land Cruiser Prado",
-      "yillar": "2009-",
-      "motor": "3.0 D-4D / 2.7",
+      "yillar": "2009-2015",
+      "motor": "3.0 D-4D (1KD-FTV)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Prado"
         ],
         "motor": [
-          ""
+          "3.0 D-4D"
         ]
-      }
+      },
+      "not": "Türkçe sitelerde Prado ya da 1KD-FTV'ye özgü sonuç çıkmadı (genel dizel enjektör ve DPF konuları); enjektör sorunu Australian Car Reviews ve Toyota Owners Club Avustralya'ya dayanır, bu nedenle Türkiye araçlarındaki sıklığı doğrulanmış değildir."
     },
     {
       "marka": "Toyota",
-      "model": "Proace / Proace City",
-      "yillar": "2013-",
-      "motor": "1.6 / 2.0 D-4D",
+      "model": "Proace City",
+      "yillar": "2019-",
+      "motor": "1.5 D-4D (BlueHDi DV5)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Proace"
+          "Proace City"
         ],
         "motor": [
-          ""
+          "1.5"
         ]
-      }
+      },
+      "not": "Şikâyetvar'da Proace City 1.5 için AdBlue arızasının tekrarlaması, 2021 modelde enjektör altı pul sızıntısı, DPF arızası ve 54.000 km'de motor arızası tekil olarak anlatılıyor; motor PSA DV5 olduğundan 1.5 BlueHDi (DV5) ve AdBlue ailelerine bağlandı."
     },
     {
       "marka": "Mitsubishi",
@@ -8754,7 +8758,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "CarComplaints'te (ABD pazarı) 2012 model Outlander'da CVT arızası anlatılıyor (yaklaşık 77.000 milde sürüş gücü kaybı; bir başka sahipte 137.000 milde arıza) ve RepairPal 2014-2016 modellerde CVT sarsıntısı, durma ve aşırı ısınma notu veriyor; bunlar ABD araçlarına ait küçük örneklemli kayıtlar. DonanımHaber'de 2014 Outlander 2.0 CVT test yazısı ve genel CVT konuları var, arıza kaydı yok; Şikâyetvar'daki Mitsubishi şanzıman şikâyetleri L200 gibi başka modellere ait. 2.2 DI-D ve 2.0 MIVEC için kaynak çıkmadı; kuşak ve pazar uyumu olan, kilometre aralığı veren tutarlı kaynak yok."
     },
     {
       "marka": "Mitsubishi",
@@ -8769,7 +8775,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "İngilizce aramada 4M41 (3.2 DI-D) için ilgili sonuç çıkmadı. DonanımHaber'de bir kullanıcı bazı sürümlerde yakıt pompası sorunu duyduğunu ve enjektör sorunlarının 2010 sonrası çözülmüş olabileceğini, bir diğeri 2009 sonu 200 hp modellerde kronik sorun görmediğini yazıyor (tekil yorumlar); Ekşi Sözlük'te Super Select vakum sistemindeki bir parçanın arızasıyla 4x4'te takılı kalma anlatılıyor. Kilometre aralığı verilen ve ikinci kaynakla desteklenen sorun çıkmadı."
     },
     {
       "marka": "Mitsubishi",
@@ -8784,7 +8792,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "NHTSA'da 2018-2020 Eclipse Cross (4B40) için CVT sarsıntısı ve ani hızlanma-yavaşlama (shudder / surge) servis bülteni (revize) var, CarComplaints 2021'de CVT'ye ilişkin bir toplu davanın Eclipse Cross'u da kapsadığını yazıyor (iddia aşamasında); bunlar ABD pazarı kayıtları ve kilometre içermiyor. DonanımHaber'de bir kullanıcı şanzımanı (Jatco CVT8) sorunsuz bulduğunu, bir başkası 2018 ilk parti araçlarda performanslı kullanımın yağ eksiltmesine yol açabileceğini yazıyor (tekil); Şikâyetvar'da en çok satış sonrası servis eleştiriliyor. Yağ seyrelmesi ve turbo için kaynak çıkmadı."
     },
     {
       "marka": "Suzuki",
@@ -8816,7 +8826,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Parkers güvenilirliğe 4.5 / 5 veriyor ve iki geri çağırma sayıyor (küçük bir partide yakıt pompası, hava yastığı kablolaması); Australian Car Reviews 2018-19 GJ / JJ Jimny'de yakıt pompası çarkının şişmesine bağlı 2024 geri çağırmasını anıyor ve yaygın arıza bilgisinin olmadığını yazıyor. Şikâyetvar'da ikinci elden yaklaşık 11 bin km'de alınan araçta körük arızasının garanti dışı bırakılması ve serviste çözülemeyen şanzıman sesi (yaklaşık 20 bin km sonra tekrarladı) tekil olarak anlatılıyor; DonanımHaber ve Otopark yorumları kabin darlığı, sert sürüş ve yol gürültüsü üzerinde. Kronik motor ya da şanzıman sorunu çıkmadı."
     },
     {
       "marka": "Suzuki",
@@ -8832,7 +8844,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Honest John Ignis'in güvenilirlik itibarının güçlü olduğunu yazıyor; en somut şikâyetler robotize AGS şanzımanda (Ignis'te yaklaşık 4.000 milde kavrama ve volan sorunu, 600 sterlinlik kavrama değişimi, tekil) ve bunlar CVT'li 1.2 Dualjet için geçerli değil. DonanımHaber'de bir kullanıcı CVT'nin sağlamlığıyla bilindiğini, Baleno'da sorun görmediğini yazıyor; Şikâyetvar'da Baleno 1.2 Tekno otomatikte ekran / geri görüş kamerası ve direksiyon takılması şikâyetleri var. Kilometre verilen bir motor ya da CVT arızası çıkmadı."
     },
     {
       "marka": "Subaru",
@@ -8847,7 +8861,9 @@
         "motor": [
           "2.0D"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da 2010 Forester dizelde 270 bin km'de krank mili kırılması ve 2008-2010 dizellerde krank ve blok çatlağı iddiası (sahibin Subaru America yazışmasına dayanıyor), 2010 modelde 145 bin km'de blok çatlağı, 2009 dizelde yenilenen motordan 60 bin km sonra yeni arıza anlatılıyor; bunlar 2013-2018 kuşağından önceki dizeller ve tekil. DonanımHaber'de 2.0D Elegance için yakıt pompası, EGR ve DPF sorunları genel ifadeyle sayılıyor; 2016-2017 dizel otomatiklerde 92.000 km'de ve satın almadan 40 gün sonra şanzıman arızası tekil. Honest John'da çift kütleli volan, DPF ve enjektör maliyeti kaygıları kilometresiz anılıyor. Kilometre aralığı verilen ve ikinci kaynakla desteklenen, kuşakla uyumlu bir sorun çıkmadı."
     },
     {
       "marka": "Subaru",
@@ -8862,22 +8878,25 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Outback'e özgü sonuç çıkmadı. 2.0D (EE20) Forester ile ortak: Honest John'da bir yorumcu ilk nesil EE20'yi çok güvenilmez buluyor, Euro 6 sürümün Outback'e 2014'te geldiği belirtiliyor, çift kütleli volan ve DPF sorunları kilometresiz anılıyor. 2.5 (FB25) için NHTSA'daki servis bültenleri yağ kontrol segmanı yüzey işlemi değişikliğine ve yağ tüketimine ilişkin (ABD, FB20 / FB25; bir garanti uzatması 8 yıl / 100.000 mil); Türkiye'deki 2.5 için kilometre aralığı veren kaynak çıkmadı."
     },
     {
       "marka": "Hyundai",
       "model": "i40",
       "yillar": "2011-2019",
-      "motor": "1.7 CRDi / 1.6 GDI",
+      "motor": "1.7 CRDi",
       "kademe": 3,
       "eslesme": {
         "model": [
           "i40"
         ],
         "motor": [
-          ""
+          "1.7 CRDi"
         ]
-      }
+      },
+      "not": "i40'a özgü kaynak aranmadı; 1.7 CRDi, Hyundai / Kia U2 CRDi ailesine bağlandı."
     },
     {
       "marka": "Hyundai",
@@ -8893,68 +8912,73 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar, DonanımHaber, Otopark ve Ekşi Sözlük aramalarında Creta ve Venue'ye özgü motor ya da şanzıman şikâyeti çıkmadı (sonuçlar i20 ağırlıklı). CarComplaints ABD pazarı Venue için EGR valfi kısa devresi geri çağırması listeliyor ve tekil bir 43.000 millik motor arızası (kırık harmonik denge) anlatıyor; motor tipi belirtilmediği ve Türkiye'de satılan 1.5 MPI / 1.0 T-GDI ile eşleştirilemediği için kayıt açılmadı."
     },
     {
       "marka": "Kia",
       "model": "Carens",
       "yillar": "2013-2019",
-      "motor": "1.7 CRDi / 1.6 GDI",
+      "motor": "1.7 CRDi",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Carens"
         ],
         "motor": [
-          ""
+          "1.7 CRDi"
         ]
-      }
+      },
+      "not": "Carens'e özgü kaynak aranmadı; 1.7 CRDi, Hyundai / Kia U2 CRDi ailesine bağlandı."
     },
     {
       "marka": "Kia",
       "model": "Soul",
       "yillar": "2009-2019",
-      "motor": "1.6 CRDi / 1.6 GDI",
+      "motor": "1.6 CRDi",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Soul"
         ],
         "motor": [
-          ""
+          "1.6 CRDi"
         ]
-      }
+      },
+      "not": "Soul'a özgü kaynak aranmadı; 1.6 CRDi, Hyundai / Kia U2 CRDi ailesine bağlandı."
     },
     {
       "marka": "Kia",
       "model": "Optima",
       "yillar": "2012-2020",
-      "motor": "1.7 CRDi / 2.0",
+      "motor": "1.7 CRDi",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Optima"
         ],
         "motor": [
-          ""
+          "1.7 CRDi"
         ]
-      }
+      },
+      "not": "Optima'ya özgü kaynak çıkmadı (DonanımHaber'de 1.7 motorlu Optima için yüksek MTV ve yedek parça maliyeti uyarısı); 1.7 CRDi, Hyundai / Kia U2 CRDi ailesine bağlandı."
     },
     {
       "marka": "Kia",
-      "model": "Seltos / XCeed",
+      "model": "XCeed",
       "yillar": "2019-",
-      "motor": "1.6 MPI / 1.0 / 1.4 T-GDI",
+      "motor": "1.0 / 1.4 T-GDI (7DCT)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Seltos",
           "XCeed"
         ],
         "motor": [
-          ""
+          "T-GDI"
         ]
-      }
+      },
+      "not": "XCeed'e özgü kronik sorun çıkmadı: Şikâyetvar'da yeni araçlarda erken arızalar ve tek bir 1.6 CRDi motor arızası (yaklaşık 80.000 km) tekil olarak anlatılıyor. 1.0 / 1.4 T-GDI'nin 7 ileri DCT'si, Ceed ile ortak Hyundai / Kia 7DCT ailesine bağlandı."
     },
     {
       "marka": "MG",
@@ -8969,7 +8993,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da MG ZS için en çok akü ve yazılım / multimedya şikâyetleri geçiyor (çoğu 2021 sonrası modeller ve ZS EV); tekleme ve geri vitese geçişte takılma tekil. Honest John'da 1.5 VTi-Tech Exclusive'de radyo arızasının aküyü boşalttığı (bayi 'bilinen sorun' demiş) tekil olarak anlatılıyor; Parkers gürültülü şanzımanları sık görülen arıza olarak sayıyor (kilometre vermiyor) ve güvenilirliğe 2.5 / 5 veriyor. Kilometre aralığı verilen tutarlı bir motor ya da şanzıman sorunu çıkmadı."
     },
     {
       "marka": "Ssangyong",
@@ -8985,7 +9011,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da Tivoli'de rölanti titremesi, çekiş düşüklüğü ve arıza lambası (tork konvertörü / şanzıman tartışması), Korando 1.6 dizelde DPF ve sensör sorunları, motor kapağı ve conta konuları ile yakıt tüketimi tekil olarak anlatılıyor; DonanımHaber'de 2020 Korando 1.6 dizel için DPF tıkanması konusu var. Honest John ve Parkers 2.0 dizelin rafine olmadığını, 1.6 dizelin düşük devirde tıkırtılı olduğunu yazıyor (arıza değil). 2.0 e-XDi için kilometre veren kaynak çıkmadı; kilometre aralığı verilen ve ikinci kaynakla desteklenen sorun yok."
     },
     {
       "marka": "Ssangyong",
@@ -9000,22 +9028,25 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Rexton için ayrı sonuç çıkmadı: Honest John'da 2014-2017 Rexton 2.2'de yazılım yönetim sisteminde bayiye birkaç ziyarete rağmen çözülmeyen bir arıza tek anlatı olarak geçiyor; Şikâyetvar'da SsangYong geneli için tekrarlayan motor arıza ışığı ziyaretleri anılıyor. Motor ya da şanzıman için kilometre veren kaynak çıkmadı."
     },
     {
       "marka": "Smart",
       "model": "fortwo / forfour 453",
       "yillar": "2015-2023",
-      "motor": "0.9 TCe 90 (H4Bt) / 1.0",
+      "motor": "0.9 TCe 90 (H4Bt)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "453"
         ],
         "motor": [
-          ""
+          "0.9 TCe"
         ]
-      }
+      },
+      "not": "Smart 453'e özgü 0.9 TCe kaynağı çıkmadı (DonanımHaber'de bir kullanıcı 0.9 turbonun şehir içi için yeterli olduğunu ama şanzımanın sarsıntılı olduğunu yazıyor, tekil yorum); motor, Renault H4Bt ailesine bağlandı."
     },
     {
       "marka": "Audi",
@@ -9335,7 +9366,9 @@
         "motor": [
           "1.6"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "FB16 için kaynak çıkmadı: NHTSA servis bültenleri FB20 / FB25 yağ segmanıyla ilgili ve 1.6'yı kapsadığı doğrulanamadı. DonanımHaber ve Otopark'ta Lineartronic CVT'de kayış yırtılması iddiası tek kullanıcıya ait (Forester ve XV bağlamında), bir XV sahibi yeni nesil CVT'lerde sorun görmediğini yazıyor; Ekşi Sözlük'teki 1.6 + CVT yorumu performans eleştirisi."
     },
     {
       "marka": "Opel",
@@ -12601,6 +12634,156 @@
         ]
       },
       "not": "1.6 TCe için kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Toyota",
+      "model": "Land Cruiser Prado",
+      "yillar": "2009-",
+      "motor": "2.7 benzinli (2TR-FE)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Prado"
+        ],
+        "motor": [
+          "2.7"
+        ]
+      },
+      "not": "2.7 benzinli (2TR-FE) için aramalarda kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Toyota",
+      "model": "Proace",
+      "yillar": "2013-2020",
+      "motor": "1.6 D-4D (DV6)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Proace ("
+        ],
+        "motor": [
+          "1.6"
+        ]
+      },
+      "not": "Proace'a özgü kaynak çıkmadı (Honest John'da Proace'ın PSA tabanlı olduğu belirtiliyor); 1.6 D-4D, PSA DV6 ailesine bağlandı."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Proace",
+      "yillar": "2013-",
+      "motor": "2.0 D-4D",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Proace ("
+        ],
+        "motor": [
+          "2.0"
+        ]
+      },
+      "not": "Şikâyetvar'da 2.0 D-4D'li Proace için şikâyet çıkmadı; Honest John'da bir sahip 2.0 dizelde DPF için fazla kaygı olmadığını, başka bir araçta ise DPF'in rejenere olmayıp EOLYS katkı sıvısı eklenmesi gerektiğini yazıyor (tekil). Kilometre aralığı verilen bir sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i40",
+      "yillar": "2011-2019",
+      "motor": "1.6 GDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "i40"
+        ],
+        "motor": [
+          "1.6 GDI"
+        ]
+      },
+      "not": "i40'a özgü kaynak aranmadı; 1.6 GDI, Hyundai / Kia Gamma GDI (aşırı yağ tüketimi) ailesine bağlandı."
+    },
+    {
+      "marka": "Kia",
+      "model": "Carens",
+      "yillar": "2013-2019",
+      "motor": "1.6 GDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Carens"
+        ],
+        "motor": [
+          "1.6 GDI"
+        ]
+      },
+      "not": "Carens'e özgü kaynak aranmadı; 1.6 GDI, Hyundai / Kia Gamma GDI (aşırı yağ tüketimi) ailesine bağlandı."
+    },
+    {
+      "marka": "Kia",
+      "model": "Soul",
+      "yillar": "2014-2019",
+      "motor": "1.6 GDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Soul"
+        ],
+        "motor": [
+          "1.6 GDI"
+        ]
+      },
+      "not": "Soul'a özgü kaynak aranmadı; 1.6 GDI, Hyundai / Kia Gamma GDI (aşırı yağ tüketimi) ailesine bağlandı."
+    },
+    {
+      "marka": "Kia",
+      "model": "Optima",
+      "yillar": "2012-2020",
+      "motor": "2.0 benzinli",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Optima"
+        ],
+        "motor": [
+          "2.0"
+        ]
+      },
+      "not": "Türkçe sitelerde Optima 2.0 için kronik sorun çıkmadı. NHTSA geri çağırması 21V-844 ve 2017-2020 Optima Hybrid (Nu) toplu dava uzlaşması biyel yatağı hasarını konu alıyor, ancak yalnızca ABD'deki Hybrid / Plug-in modelleri kapsıyor ve benzinli 2.0 için uygulanamaz; 2011-2014 Optima 2.4 GDI / 2.0 turbo için geri çağırma (17V-224) farklı motorlara ait.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Kia",
+      "model": "Seltos",
+      "yillar": "2019-",
+      "motor": "1.6 MPI (IVT) / 1.4 T-GDI (7DCT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Seltos"
+        ],
+        "motor": [
+          "1.6",
+          "1.4"
+        ]
+      },
+      "not": "Seltos'a özgü sonuç çıkmadı. CarComplaints'te ABD pazarı Seltos'un motor ve şanzıman şikâyetleri 2.0 motorlu araçlarda (yağ yakma, segman geri çağırması) yoğunlaşıyor; Kia Forums'ta DCT ve IVT için karışık görüşler var (bir sahip 30.000 milde sorunsuz diyor). 1.6 MPI ve 1.4 T-GDI için kilometre aralığı veren kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Smart",
+      "model": "fortwo / forfour 453",
+      "yillar": "2015-2023",
+      "motor": "1.0 (71 PS atmosferik)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "453"
+        ],
+        "motor": [
+          "1.0"
+        ]
+      },
+      "not": "Atmosferik 1.0 için tutarlı kaynak çıkmadı: CarComplaints'te Smart fortwo için çok az ve tekil motor şikâyeti var; Daimler servis bülteni (M281 motorlu 453) zayıf akünün gövde ve motor kontrol üniteleri arasında iletişim hatasına ve motor arıza lambasına yol açabildiğini yazıyor; DonanımHaber ve Ekşi Sözlük'te motor arıza lambasının sık yanması (düşük oktanlı yakıt iddiası) tekil olarak anlatılıyor.",
       "sonuc": "yetersiz-kanit"
     }
   ]

@@ -26,22 +26,22 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **602** model/motor grubu (motor ve şanzıman düzeyi)
-- Tamamlanan (✓, modele özgü kaynaklı sorun var): **171**
-- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **175**
-- Araştırılıp eklenmeyen (–): **235**
-- Sırada (○): **21**
+- Plan: **611** model/motor grubu (motor ve şanzıman düzeyi)
+- Tamamlanan (✓, modele özgü kaynaklı sorun var): **172**
+- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **186**
+- Araştırılıp eklenmeyen (–): **253**
+- Sırada (○): **0**
 - Kademe 1: **120/120** işlendi (✓, ◐ ya da –)
-- Model geneli taraması: **154** model nesli arandı (sorun bulunan ✓ **76**, kanıt yetersiz – **78**); 379 motor kaydından **164**'i taranmış bir modele ait, **215**'i henüz taranmadı
-- Veritabanı: **455** kayıt (**379** motor, **76** model geneli), **351** kayda özgü kronik sorun, **55** motor/şanzıman ailesi (**90** ortak sorun)
+- Model geneli taraması: **154** model nesli arandı (sorun bulunan ✓ **76**, kanıt yetersiz – **78**); 391 motor kaydından **164**'i taranmış bir modele ait, **227**'i henüz taranmadı
+- Veritabanı: **467** kayıt (**391** motor, **76** model geneli), **352** kayda özgü kronik sorun, **55** motor/şanzıman ailesi (**90** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Renault | 40 | 15 | 10 | 15 | 0 | 8/8 | 6 / 4 |
 | Volkswagen | 51 | 18 | 15 | 18 | 0 | 13/13 | 4 / 9 |
-| Toyota | 21 | 4 | 5 | 10 | 2 | 6/6 | 1 / 3 |
-| Fiat | 28 | 11 | 6 | 10 | 1 | 5/5 | 6 / 2 |
-| Hyundai | 37 | 11 | 9 | 15 | 2 | 13/13 | 2 / 5 |
+| Toyota | 24 | 5 | 7 | 12 | 0 | 6/6 | 1 / 3 |
+| Fiat | 28 | 11 | 6 | 11 | 0 | 5/5 | 6 / 2 |
+| Hyundai | 38 | 11 | 11 | 16 | 0 | 13/13 | 2 / 5 |
 | Peugeot | 22 | 10 | 6 | 6 | 0 | 5/5 | 4 / 4 |
 | Opel | 40 | 14 | 14 | 12 | 0 | 5/5 | 5 / 6 |
 | Citroen | 20 | 6 | 7 | 7 | 0 | 3/3 | 4 / 1 |
@@ -54,31 +54,31 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Nissan | 19 | 8 | 5 | 6 | 0 | 4/4 | 4 / 1 |
 | Chery | 2 | 0 | 0 | 2 | 0 | 0/0 | — |
 | Ford | 32 | 8 | 11 | 13 | 0 | 8/8 | 5 / 4 |
-| Kia | 29 | 9 | 5 | 11 | 4 | 6/6 | 2 / 4 |
+| Kia | 33 | 9 | 11 | 13 | 0 | 6/6 | 2 / 4 |
 | Dacia | 12 | 8 | 1 | 3 | 0 | 3/3 | 1 / 2 |
 | Audi | 32 | 6 | 12 | 14 | 0 | 6/6 | 3 / 7 |
 | Honda | 12 | 4 | 3 | 5 | 0 | 2/2 | 2 / 2 |
 | Seat | 13 | 3 | 6 | 4 | 0 | 2/2 | 1 / 2 |
 | Chevrolet | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
 | Volvo | 12 | 1 | 1 | 10 | 0 | 2/2 | 2 / 1 |
-| Subaru | 6 | 1 | 2 | 0 | 3 | 0/0 | 0 / 1 |
+| Subaru | 6 | 1 | 2 | 3 | 0 | 0/0 | 0 / 1 |
 | Mini | 4 | 1 | 1 | 2 | 0 | 0/0 | 0 / 1 |
 | Jeep | 10 | 3 | 4 | 3 | 0 | 0/0 | 1 / 1 |
 | Alfa Romeo | 7 | 0 | 3 | 4 | 0 | 0/0 | 2 / 1 |
 | Mazda | 3 | 0 | 0 | 3 | 0 | 0/0 | 1 / 0 |
-| Suzuki | 4 | 0 | 0 | 2 | 2 | 0/0 | 0 / 1 |
-| Mitsubishi | 4 | 0 | 0 | 1 | 3 | 0/0 | 0 / 1 |
+| Suzuki | 4 | 0 | 0 | 4 | 0 | 0/0 | 0 / 1 |
+| Mitsubishi | 4 | 0 | 0 | 4 | 0 | 0/0 | 0 / 1 |
 | Land Rover | 9 | 0 | 4 | 5 | 0 | 0/0 | 2 / 2 |
 | Cupra | 2 | 1 | 0 | 1 | 0 | 0/0 | — |
-| MG | 4 | 1 | 0 | 2 | 1 | 1/1 | 0 / 1 |
+| MG | 4 | 1 | 0 | 3 | 0 | 1/1 | 0 / 1 |
 | Lexus | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
 | Isuzu | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
-| Smart | 2 | 0 | 0 | 1 | 1 | 0/0 | — |
+| Smart | 3 | 0 | 1 | 2 | 0 | 0/0 | — |
 | Porsche | 3 | 1 | 0 | 2 | 0 | 0/0 | 0 / 1 |
 | Zeekr | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
 | Xpeng | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
 | Leapmotor | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
-| Ssangyong | 2 | 0 | 0 | 0 | 2 | 0/0 | — |
+| Ssangyong | 2 | 0 | 0 | 2 | 0 | 0/0 | — |
 
 ## Markalar
 
@@ -293,8 +293,11 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Avensis | 2011-2018 | 2.0 D-4D | – eklenmedi: Avensis 2.0 D-4D için güvenilir bir kronik sorun listesi çıkmadı; yalnızca tekil şikâyetler. |
 | 3 | Aygo | 2014-2021 | 1.0 VVT-i 72 (1KR-FE) | – eklenmedi: Türkçe sitelerde Aygo'ya özgü şikâyet çıkmadı: DonanımHaber'de ADAC arıza istatistiklerini yorumlayan başlık Aygo'yu on yaşındaki araçlar arasında en sorunsuzlardan biri sayıyor ve 1.0 benzinli 1KR-FE motorun Citroën C1 ve Peugeot 107 ile ortak olduğunu yazıyor. Toyota Owners Club'ta (Aygo & Aygo X bölümü) 2014 sonrası Aygo'da kavrama arızası (35.000 milde; 42.000 milde patinaj, bayi aktüatör ya da ECU'yu da suçlamış, garanti dışı) ve otomatikleştirilmiş şanzımanın (MMT / x-shift) aktüatör arızası başlıkları var; Parkers ilk nesil rehberi bu şanzımanı 'çok karmaşık' diye anıyor. Türkçe ikinci site ve 2014 sonrası nesle eşleşen ikinci bir yabancı site çıkmadığı için kayıt açılmadı; Aygo'nun Türkiye'de otomatikleştirilmiş şanzımanla satılıp satılmadığı da doğrulanmadı. |
 | 3 | Corolla E150 | 2007-2013 | 1.4 D-4D (1ND-TV) | ✓ 2 sorun, 1 yıl kırılımı |
-| 3 | Land Cruiser Prado | 2009- | 3.0 D-4D / 2.7 | ○ sırada |
-| 3 | Proace / Proace City | 2013- | 1.6 / 2.0 D-4D | ○ sırada |
+| 3 | Land Cruiser Prado | 2009-2015 | 3.0 D-4D (1KD-FTV) | ✓ 1 sorun — Türkçe sitelerde Prado ya da 1KD-FTV'ye özgü sonuç çıkmadı (genel dizel enjektör ve DPF konuları); enjektör sorunu Australian Car Reviews ve Toyota Owners Club Avustralya'ya dayanır, bu nedenle Türkiye araçlarındaki sıklığı doğrulanmış değildir. |
+| 3 | Land Cruiser Prado | 2009- | 2.7 benzinli (2TR-FE) | – eklenmedi: 2.7 benzinli (2TR-FE) için aramalarda kaynak çıkmadı. |
+| 3 | Proace | 2013-2020 | 1.6 D-4D (DV6) | ◐ 3 ortak aile sorunu — Proace'a özgü kaynak çıkmadı (Honest John'da Proace'ın PSA tabanlı olduğu belirtiliyor); 1.6 D-4D, PSA DV6 ailesine bağlandı. |
+| 3 | Proace | 2013- | 2.0 D-4D | – eklenmedi: Şikâyetvar'da 2.0 D-4D'li Proace için şikâyet çıkmadı; Honest John'da bir sahip 2.0 dizelde DPF için fazla kaygı olmadığını, başka bir araçta ise DPF'in rejenere olmayıp EOLYS katkı sıvısı eklenmesi gerektiğini yazıyor (tekil). Kilometre aralığı verilen bir sorun çıkmadı. |
+| 3 | Proace City | 2019- | 1.5 D-4D (BlueHDi DV5) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Şikâyetvar'da Proace City 1.5 için AdBlue arızasının tekrarlaması, 2021 modelde enjektör altı pul sızıntısı, DPF arızası ve 54.000 km'de motor arızası tekil olarak anlatılıyor; motor PSA DV5 olduğundan 1.5 BlueHDi (DV5) ve AdBlue ailelerine bağlandı. |
 | 3 | RAV4 / Hilux | 2013- | 2.0 / 2.5 Hybrid / 2.4 D-4D | – eklenmedi: RAV4 için sistematik sorun çıkmadı; Hilux 2.4 DPF / PCS arıza şikâyetleri yalnızca Şikâyetvar'da (ikinci bağımsız kaynak yok). |
 
 ### Fiat
@@ -333,7 +336,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Ducato | 2010- | 2.2 / 2.3 MultiJet | – eklenmedi: AdBlue, DPF ve NOx sensörü şikâyetleri yalnızca Şikâyetvar'da; Boxer ve Jumper için ayrı veri çıkmadı. Bu oturumdaki aramada Şikâyetvar'da 2023 model 2.3'te tekrarlayan AdBlue / partikül / NOx sensörü arızaları, enjektör değişimine rağmen süren hata, turbo parçalarının motora kaçması ve debriyaj hidrolik hortumu kaçağı anlatıları var; DonanımHaber'de de Ducato debriyaj arızası başlığı çıktı. Debriyaj hidroliği iki sitede geçse de kilometre bilgisi ve tekrar örüntüsü yetersiz olduğu için kayıt açılmadı. |
 | 3 | Fiorino / Qubo | 2008-2020 | 1.3 Multijet | ✓ 3 sorun (+3 ortak aile) |
 | 3 | Fiorino / Qubo | 2008-2020 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da cam krikosu arızaları (2023 model ikinci el araçta sağ kapı camı; bir araçta sol ön cam iki kez düşmüş; krikoda değişim sırasında kapıda hasar), 2023 model 1.4 Safeline'da direksiyon iç kısmında soyulma, LPG / benzin geçiş tuşu arızası ve yağmur sensörü açıkken silecek kendiliğinden çalışması anlatılıyor; kayıtların çoğu 2023 ve sonrası yeni kasa Fiorino'ya ait. DonanımHaber'de ortak derleme bir başlıkta motor, elektrik ve süspansiyon başlıkları sayılıyor, başka bir kullanıcı bildiği kronik sorun olmadığını yazıyor. Eski kasa Fiorino / Qubo (2008-2020) için kapı kilidi ya da kayar kapı kaydı çıkmadı; ikinci bağımsız site yok. |
-| 3 | Fullback | 2016-2019 | 2.4 Dizel | ○ sırada |
+| 3 | Fullback | 2016-2019 | 2.4 Dizel | – eklenmedi: Fullback'e özgü sonuç çıkmadı. Aynı 2.4 DI-D (4N15) motorlu L200 için Şikâyetvar ve DonanımHaber'de DPF uyarıları ve yağ değişimi, beyaz duman, güç kaybı ve koruma moduna geçme tekil olarak anlatılıyor; Honest John ve Parkers 2015 sonrası L200'de egzoz emisyon parçalarında (DPF) şikâyet ve yakıt filtresi tıkanması notu veriyor. Sonuçlar kısmen eski 2.5 motora ait; kilometre aralığı verilen ve ikinci kaynakla desteklenen tutarlı bir sorun çıkmadı. |
 | 3 | Grande Panda Electric | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da şarj ve kilit sorunu sonrası 8 saat yol yardımı beklemek, şarj soketinin erimesi ve teslimde arıza ışığı tekil; tek taramada ikinci bağımsız site çıkmadı. |
 | 3 | Linea / Punto | 2007-2015 | 1.4 T-Jet | – eklenmedi: T-Jet'e özgü kaynak çıkmadı; Punto şikâyetleri ağırlıkla direksiyon (EPS) üzerine ve ayrı kayıtta. |
 | 3 | Scudo / Talento | 2007-2021 | 2.0 Multijet | – eklenmedi: Şikâyetvar'daki Scudo kayıtları 2023-2026 modellere ait tekil anlatılar (28 bin km'de turbo devre dışı, 15 bin km'de enjektör arızası, AdBlue arızası, 60.000 km'de debriyaj pedalının yere inmesi); FiatForum'daki 2008-2012 Scudo 2.0 Multijet konularında EGR valfi (dördüncü değişim), DPF katkı sıvısı, enjektör ve turbo basıncı sorunları geçiyor. Nesil ve motor (PSA DW10 / Talento Renault) ayrımı yapılamadığı ve kilometre bilgisi tutarsız olduğu için kayıt açılmadı. |
@@ -375,13 +378,14 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | i30 PD | 2017-2023 | 1.0 T-GDI 120 / 1.4 T-GDI 140 (7DCT) | ◐ 1 ortak aile sorunu — T-GDI için i30'a özgü kronik sorun çıkmadı; aramalar 1.6 CRDi (DPF) ve DCT şikâyetlerine yöneldi ve i30'a özgü olmayan kaynaklardan geldi. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
 | 2 | ix35 | 2010-2015 | 1.7 CRDi | – eklenmedi: 1.7 CRDi Türkiye'de neredeyse hiç satılmamış; şikâyetler iç trim, 4x4 şanzıman dişlisi ve LPG'li soğuk çalıştırma gibi tekil konularda. |
 | 2 | ix35 | 2010-2015 | 1.6 GDI 135 | ◐ 1 ortak aile sorunu — Şikâyetler iç trim, 4x4 şanzıman dişlisi ve LPG'li soğuk çalıştırma gibi tekil konularda; gösterilen yağ tüketimi aynı Gamma GDI motorunu kullanan Sportage SL kaynaklarına dayanır. |
-| 3 | Creta / Venue | 2019- | 1.5 / 1.6 MPI, 1.0 T-GDI | ○ sırada |
+| 3 | Creta / Venue | 2019- | 1.5 / 1.6 MPI, 1.0 T-GDI | – eklenmedi: Şikâyetvar, DonanımHaber, Otopark ve Ekşi Sözlük aramalarında Creta ve Venue'ye özgü motor ya da şanzıman şikâyeti çıkmadı (sonuçlar i20 ağırlıklı). CarComplaints ABD pazarı Venue için EGR valfi kısa devresi geri çağırması listeliyor ve tekil bir 43.000 millik motor arızası (kırık harmonik denge) anlatıyor; motor tipi belirtilmediği ve Türkiye'de satılan 1.5 MPI / 1.0 T-GDI ile eşleştirilemediği için kayıt açılmadı. |
 | 3 | Elantra / i10 | 2011- | 1.6 MPI otomatik, 1.0 / 1.25 | – eklenmedi: Elantra AD 1.6 MPI ve i10 için kronik motor sorunu çıkmadı; şikâyetler otomatik şanzıman (dizel), direksiyon ve ESP üzerine ve motor hacmi belirsiz. |
 | 3 | H-1 / Starex | 2008- | 2.5 CRDi | – eklenmedi: H-1 / Starex 2.5 CRDi için enjektör, turbo ve EGR kanıtı çıkmadı; bulunanlar eski forum yorumları ve diğer modellere ait. |
 | 3 | Kona | 2018- | 1.0 T-GDI | – eklenmedi: Kona 1.0 T-GDI için ilgili sonuç çıkmadı. |
 | 3 | Kona | 2017-2023 | 1.6 CRDi 115/136 (7DCT) | ◐ 3 ortak aile sorunu — 1.6 CRDi DCT kalkış titremesi yalnızca Şikâyetvar kayıtlarında; ikinci bağımsız kaynak bulunamadı. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
 | 3 | Kona | 2017-2023 | 1.6 T-GDI 177 (7DCT) | ◐ 1 ortak aile sorunu — Kona 1.6 T-GDI'ya özgü kaynak bulunamadı; gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
-| 3 | i40 | 2011-2019 | 1.7 CRDi / 1.6 GDI | ○ sırada |
+| 3 | i40 | 2011-2019 | 1.7 CRDi | ◐ 2 ortak aile sorunu — i40'a özgü kaynak aranmadı; 1.7 CRDi, Hyundai / Kia U2 CRDi ailesine bağlandı. |
+| 3 | i40 | 2011-2019 | 1.6 GDI | ◐ 1 ortak aile sorunu — i40'a özgü kaynak aranmadı; 1.6 GDI, Hyundai / Kia Gamma GDI (aşırı yağ tüketimi) ailesine bağlandı. |
 | 3 | ix20 | 2010-2019 | 1.4 / 1.6 CVVT benzinli (G4FA / G4FC) | – eklenmedi: Şikâyetvar'da iki ix20 sahibi elektrikli direksiyonun (EPS) 'kronik' olduğunu, tamir yerine komple değişim gerektiğini ve direksiyon sertleşmesiyle EPS ışığı yandığını (üretici kronik bulmuyor) yazıyor; 2012 model 1.6 otomatikte 76.000 km'de yakıt tüketiminin fabrika değerinin iki katı olması da tek kayıt (servis normal bulmuş). Honest John'da kardeş model Kia Venga için 2011'den itibaren EPS arızaları (bir olayda yazılım, bir olayda 7 yıllık garantiyle değişim) ve ix20 makyajlı kasada bir teknik servis bülteniyle giderilen debriyaj sarsıntısı geçiyor. ix20'ye özgü ikinci bağımsız site ve kilometre bilgisi çıkmadığı için kayıt açılmadı; DonanımHaber'de ix20 için kronik sorun listesi bulunamadı. |
 | 3 | ix20 | 2010-2019 | 1.4 / 1.6 CRDi dizel (D4FC / D4FB) | – eklenmedi: DonanımHaber'de 1.4 CRDi (77 PS) sahibi motor performansından memnun; bir forum özetinde (yaklaşık 13 yıl önceki tek başlık) 1.4 CRDi'de enjektör, turbo ve silindir kapağı sorunları geçiyor; Şikâyetvar'da 2016 model 1.4 CRDi'de klima kompresörü kaçırması tek şikâyet. Honest John'da anılan Which? 2014 anketinde 2010-2014 ix20 dizeline %75,2 güvenilirlik puanı verilmiş. Kilometre bilgisi ve ikinci bağımsız site yok. |
 | 3 | ix35 | 2010-2015 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da 4x4 aktarma dişlisi (freze) sıyırması 'kronik aktarma sorunu' başlığıyla anılıyor ama kilometre verilmiyor; DonanımHaber ix35 kulübü sayfalarında bu konuyu doğrulayan bir kayıt arama özetinde çıkmadı. Direksiyon sertleşmesi / 'Check Steering Wheel Lock' uyarısı (ABS beyni değişse de geçmemiş), akü boşalması, anahtar okuma sorunu ve LPG (Prins / Atiker) uyumsuzlukları tekil; kapı döşemesi gıcırtısı, yolcu airbag üstü kaplamanın ayrılması ve arka amortisörlerde 'fabrika çıkışı sıkıntı' iddiası tek forum kullanıcısına ait. 4x4 aktarma sorunu kilometre bilgisi ve ikinci site olmadan motor / şanzıman kaydına da alınamadı. |
@@ -789,19 +793,23 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Rio YB | 2017-2023 | 1.0 T-GDI 100 (7DCT) | ◐ 1 ortak aile sorunu — Rio 1.0 T-GDI için kaynak çıkmadı; gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
 | 2 | Sportage QL | 2015-2021 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da kavrama / şanzıman titremesi ('Sportage'ların çoğunda kronik' diyen sahip dahil) ve kalkışta vuruntu; torpido / airbag bölgesinde çatlak (garantisi dolanlara ücretli değişim önerilmiş); direksiyon soyulması (garanti sürerken 'kullanıcı hatası' denmiş); 2017 modelde kapı arızaları, göğüs çatlağı ve far arızası; 2021 modelde kapı fitili yırtığı (garanti dışı); elektronik park freni arızası, ön far buğulanması ve 'Multimedya Sorunu Kronik!' başlığı (ayrıntısız) tekil. Cam tavan için sonuç yok; kayıtlar tek site (Şikâyetvar). Sportage SL (2010-2015) ayrı kayıtta. |
 | 2 | Stonic | 2017- | 1.4 MPI 100 (6 ileri otomatik) | ✓ 1 sorun, 1 yıl kırılımı |
-| 3 | Carens | 2013-2019 | 1.7 CRDi / 1.6 GDI | ○ sırada |
+| 3 | Carens | 2013-2019 | 1.7 CRDi | ◐ 2 ortak aile sorunu — Carens'e özgü kaynak aranmadı; 1.7 CRDi, Hyundai / Kia U2 CRDi ailesine bağlandı. |
+| 3 | Carens | 2013-2019 | 1.6 GDI | ◐ 1 ortak aile sorunu — Carens'e özgü kaynak aranmadı; 1.6 GDI, Hyundai / Kia Gamma GDI (aşırı yağ tüketimi) ailesine bağlandı. |
 | 3 | Ceed / Rio | 2010-2021 | 1.4 MPI, 1.25 | – eklenmedi: Ceed 1.4 MPI ve Rio 1.25 için motor kaynaklı kronik sorun çıkmadı; Ceed şikâyetleri torpido / konsol çatlaması ve start-stop üzerine. |
 | 3 | Ceed CD | 2018- | 1.6 CRDi 115/136 | ◐ 3 ortak aile sorunu — Faz 9'da arandı (tek sorgu, T-GDI ile birlikte): Ceed CD'ye özgü sonuçlar 7DCT silkelemesinde toplandı (T-GDI satırında kayıtlı); 1.6 CRDi motoru ve yağ eksiltme için bilgi çıkmadı. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. |
 | 3 | Cerato | 2013-2018 | 1.6 (arka stop ve bagajdan su alma) | – eklenmedi: Su alma şikâyetleri Şikâyetvar'da çok, ancak kilometre ve model yılı verisi yok ve ikinci bağımsız kaynak (Ekşi'de tek yorum) sınırlı. |
 | 3 | EV9 | 2024- | Elektrik | – eklenmedi: Şikâyetvar'da hızlı şarjın araç tarafından durdurulması (yaklaşık 20.000 km) ve batarya elektrik arızası (üç hafta serviste) tekil. CarComplaints'te ABD'deki 2024 EV9'lara ait elektrik sistemi şikâyetleri var ancak Türkiye şikâyetleriyle aynı arıza değil; NHTSA'nın ICCU geri çağırmasının EV9'u kapsadığı doğrulanamadı (EV6 kaydı). |
 | 3 | Niro / Cerato / Sorento | 2011- | Hybrid / 1.6 / 2.2 CRDi | – eklenmedi: Cerato ve Niro için sonuç çıkmadı; Sorento 2.2 CRDi için yalnızca tekil şikâyetler var. |
-| 3 | Optima | 2012-2020 | 1.7 CRDi / 2.0 | ○ sırada |
-| 3 | Seltos / XCeed | 2019- | 1.6 MPI / 1.0 / 1.4 T-GDI | ○ sırada |
+| 3 | Optima | 2012-2020 | 1.7 CRDi | ◐ 2 ortak aile sorunu — Optima'ya özgü kaynak çıkmadı (DonanımHaber'de 1.7 motorlu Optima için yüksek MTV ve yedek parça maliyeti uyarısı); 1.7 CRDi, Hyundai / Kia U2 CRDi ailesine bağlandı. |
+| 3 | Optima | 2012-2020 | 2.0 benzinli | – eklenmedi: Türkçe sitelerde Optima 2.0 için kronik sorun çıkmadı. NHTSA geri çağırması 21V-844 ve 2017-2020 Optima Hybrid (Nu) toplu dava uzlaşması biyel yatağı hasarını konu alıyor, ancak yalnızca ABD'deki Hybrid / Plug-in modelleri kapsıyor ve benzinli 2.0 için uygulanamaz; 2011-2014 Optima 2.4 GDI / 2.0 turbo için geri çağırma (17V-224) farklı motorlara ait. |
+| 3 | Seltos | 2019- | 1.6 MPI (IVT) / 1.4 T-GDI (7DCT) | – eklenmedi: Seltos'a özgü sonuç çıkmadı. CarComplaints'te ABD pazarı Seltos'un motor ve şanzıman şikâyetleri 2.0 motorlu araçlarda (yağ yakma, segman geri çağırması) yoğunlaşıyor; Kia Forums'ta DCT ve IVT için karışık görüşler var (bir sahip 30.000 milde sorunsuz diyor). 1.6 MPI ve 1.4 T-GDI için kilometre aralığı veren kaynak çıkmadı. |
 | 3 | Sorento / Venga | 2010-2018 | 2.2 CRDi / 1.4 CRDi | – eklenmedi: Sorento 2.2 CRDi ve Venga 1.4 CRDi için kaynak çıkmadı. |
-| 3 | Soul | 2009-2019 | 1.6 CRDi / 1.6 GDI | ○ sırada |
+| 3 | Soul | 2009-2019 | 1.6 CRDi | ◐ 2 ortak aile sorunu — Soul'a özgü kaynak aranmadı; 1.6 CRDi, Hyundai / Kia U2 CRDi ailesine bağlandı. |
+| 3 | Soul | 2014-2019 | 1.6 GDI | ◐ 1 ortak aile sorunu — Soul'a özgü kaynak aranmadı; 1.6 GDI, Hyundai / Kia Gamma GDI (aşırı yağ tüketimi) ailesine bağlandı. |
 | 3 | Sportage QL | 2015-2018 | 1.6 T-GDI 177 (7DCT) | ◐ 1 ortak aile sorunu — Faz 9'da arandı (tek sorgu): Şikâyetvar ya da DonanımHaber kaydı çıkmadı; sonuçlar genel inceleme ve teknik özellik sayfalarından oluştu. 7DCT kavrama titremesi Sportage 1.6 CRDi kaydında; gösterilen sorun 7DCT ailesinden. |
 | 3 | Sportage QL | 2015-2018 | 1.7 CRDi 115/141 (6MT ve 7DCT) | ◐ 3 ortak aile sorunu — Sportage 1.7 CRDi için motor kaynaklı kronik sorun çıkmadı. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. |
 | 3 | Stonic | 2017- | 1.0 T-GDI / 1.6 CRDi | ◐ 4 ortak aile sorunu — 1.0 T-GDI için tekil titreme ve arıza lambası şikâyetleri; 1.6 CRDi için sonuç çıkmadı. Gösterilen 7DCT kavrama titremesi Tucson, Sportage, Bayon, i20 (BC3) ve Ceed kayıtlarına dayanır. Gösterilen DPF / yağa mazot karışması ve enjektör kodlama sorunları Tucson NX4, Rio UB ve Ceed kayıtlarına dayanır. |
+| 3 | XCeed | 2019- | 1.0 / 1.4 T-GDI (7DCT) | ◐ 1 ortak aile sorunu — XCeed'e özgü kronik sorun çıkmadı: Şikâyetvar'da yeni araçlarda erken arızalar ve tek bir 1.6 CRDi motor arızası (yaklaşık 80.000 km) tekil olarak anlatılıyor. 1.0 / 1.4 T-GDI'nin 7 ileri DCT'si, Ceed ile ortak Hyundai / Kia 7DCT ailesine bağlandı. |
 
 ### Dacia
 
@@ -942,12 +950,12 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 3 | Forester | 2013-2018 | 2.0D | ○ sırada |
+| 3 | Forester | 2013-2018 | 2.0D | – eklenmedi: Şikâyetvar'da 2010 Forester dizelde 270 bin km'de krank mili kırılması ve 2008-2010 dizellerde krank ve blok çatlağı iddiası (sahibin Subaru America yazışmasına dayanıyor), 2010 modelde 145 bin km'de blok çatlağı, 2009 dizelde yenilenen motordan 60 bin km sonra yeni arıza anlatılıyor; bunlar 2013-2018 kuşağından önceki dizeller ve tekil. DonanımHaber'de 2.0D Elegance için yakıt pompası, EGR ve DPF sorunları genel ifadeyle sayılıyor; 2016-2017 dizel otomatiklerde 92.000 km'de ve satın almadan 40 gün sonra şanzıman arızası tekil. Honest John'da çift kütleli volan, DPF ve enjektör maliyeti kaygıları kilometresiz anılıyor. Kilometre aralığı verilen ve ikinci kaynakla desteklenen, kuşakla uyumlu bir sorun çıkmadı. |
 | 3 | Forester / XV / Impreza | 2012- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da XV'de yağ tüketimi (2012-2014 modeller için 'kronik' iddiası; 2015 modelde 125 bin km'de 1000 km'de 600 ml), 2022 modelde park halinde ön camların kendiliğinden inmesi ve iç aydınlatmanın kontrolsüz yanması, Bluetooth kopmaları, 2017 modelde fren diski korozyonu ve titremesi; Forester'da dizel motor arızaları (2009 dizelde garanti reddi ve mahkeme), 2017 dizelde şanzıman arızası, DPF ve yağ kaçağı, 2020 modelde direksiyon kremayerinde tıkırtı ile ön aks sesleri ve salıncak burçlarının erken aşınması (Şikâyetvar'ın İngilizce sayfası); Ekşi Sözlük'te 2009 Forester sahibi direksiyon kutusunu en sıkıntılı arıza sayıyor. CarComplaints SJ Forester için yağ tüketimini (2014 modeli en çok şikâyetli; ortalama 2.000 $ onarım, 33.000 mil) anıyor; bunlar motor katmanının konusu. Cam tavan, multimedya, kapı ve su alma için sonuç yok; Impreza için şikâyet çıkmadı. |
 | 3 | Forester SJ | 2013-2018 | 2.0 boxer 150 (FB20) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — Forester'a özgü kaynak aranmadı; gösterilen aşırı yağ tüketimi aynı FB20 motorunu kullanan XV kaydına dayanır. |
 | 3 | Impreza GJ / GK | 2012-2022 | 2.0 boxer 150 (FB20) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — Impreza'ya özgü kaynak aranmadı; gösterilen aşırı yağ tüketimi aynı FB20 motorunu kullanan XV kaydına dayanır. |
-| 3 | Impreza GJ / GK | 2012-2022 | 1.6 (FB16) | ○ sırada |
-| 3 | Outback | 2010-2020 | 2.5 / 2.0D | ○ sırada |
+| 3 | Impreza GJ / GK | 2012-2022 | 1.6 (FB16) | – eklenmedi: FB16 için kaynak çıkmadı: NHTSA servis bültenleri FB20 / FB25 yağ segmanıyla ilgili ve 1.6'yı kapsadığı doğrulanamadı. DonanımHaber ve Otopark'ta Lineartronic CVT'de kayış yırtılması iddiası tek kullanıcıya ait (Forester ve XV bağlamında), bir XV sahibi yeni nesil CVT'lerde sorun görmediğini yazıyor; Ekşi Sözlük'teki 1.6 + CVT yorumu performans eleştirisi. |
+| 3 | Outback | 2010-2020 | 2.5 / 2.0D | – eklenmedi: Outback'e özgü sonuç çıkmadı. 2.0D (EE20) Forester ile ortak: Honest John'da bir yorumcu ilk nesil EE20'yi çok güvenilmez buluyor, Euro 6 sürümün Outback'e 2014'te geldiği belirtiliyor, çift kütleli volan ve DPF sorunları kilometresiz anılıyor. 2.5 (FB25) için NHTSA'daki servis bültenleri yağ kontrol segmanı yüzey işlemi değişikliğine ve yağ tüketimine ilişkin (ABD, FB20 / FB25; bir garanti uzatması 8 yıl / 100.000 mil); Türkiye'deki 2.5 için kilometre aralığı veren kaynak çıkmadı. |
 | 3 | XV | 2012-2017 | 2.0 benzinli boxer | ✓ 1 sorun, 1 yıl kırılımı |
 
 ### Mini (ek kademe)
@@ -1006,8 +1014,8 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 2 | Swift | 2011-2017 | 1.2 (K12B) / 1.3 DDiS | – eklenmedi: Şikâyetvar'da en tekrarlanan konu multimedya / navigasyon donması ve geri görüş kamerası; Ekşi Sözlük ve Otopark'ta 4x4 şanzıman arızası, DonanımHaber'de direksiyon kutusu iddiaları tekil. 1.2 K12B için motor sorunu çıkmadı (DonanımHaber'de 1.2 GL otomatik sahibi bilinen kronik sorun olmadığını yazıyor). |
-| 3 | Baleno / Ignis | 2016- | 1.2 Dualjet | ○ sırada |
-| 3 | Jimny | 2018- | 1.5 | ○ sırada |
+| 3 | Baleno / Ignis | 2016- | 1.2 Dualjet | – eklenmedi: Honest John Ignis'in güvenilirlik itibarının güçlü olduğunu yazıyor; en somut şikâyetler robotize AGS şanzımanda (Ignis'te yaklaşık 4.000 milde kavrama ve volan sorunu, 600 sterlinlik kavrama değişimi, tekil) ve bunlar CVT'li 1.2 Dualjet için geçerli değil. DonanımHaber'de bir kullanıcı CVT'nin sağlamlığıyla bilindiğini, Baleno'da sorun görmediğini yazıyor; Şikâyetvar'da Baleno 1.2 Tekno otomatikte ekran / geri görüş kamerası ve direksiyon takılması şikâyetleri var. Kilometre verilen bir motor ya da CVT arızası çıkmadı. |
+| 3 | Jimny | 2018- | 1.5 | – eklenmedi: Parkers güvenilirliğe 4.5 / 5 veriyor ve iki geri çağırma sayıyor (küçük bir partide yakıt pompası, hava yastığı kablolaması); Australian Car Reviews 2018-19 GJ / JJ Jimny'de yakıt pompası çarkının şişmesine bağlı 2024 geri çağırmasını anıyor ve yaygın arıza bilgisinin olmadığını yazıyor. Şikâyetvar'da ikinci elden yaklaşık 11 bin km'de alınan araçta körük arızasının garanti dışı bırakılması ve serviste çözülemeyen şanzıman sesi (yaklaşık 20 bin km sonra tekrarladı) tekil olarak anlatılıyor; DonanımHaber ve Otopark yorumları kabin darlığı, sert sürüş ve yol gürültüsü üzerinde. Kronik motor ya da şanzıman sorunu çıkmadı. |
 | 3 | SX4 S-Cross / Vitara / Swift | 2014- | 1.4 BoosterJet / 1.6 DDiS | – eklenmedi: Bulgular tek rehber sitesi (Araclo) ve Şikâyetvar'ın elektronik / multimedya şikâyetleriyle sınırlı. |
 | 3 | Vitara | 2015- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da geri görüş kamerasına su alması (bayi kronik olabildiğini söylemiş) ve multimedya donması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te ikinci site çıkmadı. |
 
@@ -1015,11 +1023,11 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 3 | Eclipse Cross | 2018- | 1.5 T | ○ sırada |
+| 3 | Eclipse Cross | 2018- | 1.5 T | – eklenmedi: NHTSA'da 2018-2020 Eclipse Cross (4B40) için CVT sarsıntısı ve ani hızlanma-yavaşlama (shudder / surge) servis bülteni (revize) var, CarComplaints 2021'de CVT'ye ilişkin bir toplu davanın Eclipse Cross'u da kapsadığını yazıyor (iddia aşamasında); bunlar ABD pazarı kayıtları ve kilometre içermiyor. DonanımHaber'de bir kullanıcı şanzımanı (Jatco CVT8) sorunsuz bulduğunu, bir başkası 2018 ilk parti araçlarda performanslı kullanımın yağ eksiltmesine yol açabileceğini yazıyor (tekil); Şikâyetvar'da en çok satış sonrası servis eleştiriliyor. Yağ seyrelmesi ve turbo için kaynak çıkmadı. |
 | 3 | L200 / ASX | 2010- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da L200'de DPF uyarıları, farların kendiliğinden açılıp kapanması ve silecek / sinyal kollarının çalışmaması tek sitede; ASX için kaynak çıkmadı. |
 | 3 | L200 / ASX / Lancer | 2010- | 2.5 DI-D / 1.6 MIVEC | – eklenmedi: L200 DPF ve turbo anlatıları rehber siteleri ve tekil Şikâyetvar kayıtları; ASX 1.6 MIVEC sıcak marş sorunu yalnızca Ekşi'de. |
-| 3 | Outlander | 2012- | 2.0 MIVEC / 2.2 DI-D | ○ sırada |
-| 3 | Pajero | 2006-2021 | 3.2 DI-D | ○ sırada |
+| 3 | Outlander | 2012- | 2.0 MIVEC / 2.2 DI-D | – eklenmedi: CarComplaints'te (ABD pazarı) 2012 model Outlander'da CVT arızası anlatılıyor (yaklaşık 77.000 milde sürüş gücü kaybı; bir başka sahipte 137.000 milde arıza) ve RepairPal 2014-2016 modellerde CVT sarsıntısı, durma ve aşırı ısınma notu veriyor; bunlar ABD araçlarına ait küçük örneklemli kayıtlar. DonanımHaber'de 2014 Outlander 2.0 CVT test yazısı ve genel CVT konuları var, arıza kaydı yok; Şikâyetvar'daki Mitsubishi şanzıman şikâyetleri L200 gibi başka modellere ait. 2.2 DI-D ve 2.0 MIVEC için kaynak çıkmadı; kuşak ve pazar uyumu olan, kilometre aralığı veren tutarlı kaynak yok. |
+| 3 | Pajero | 2006-2021 | 3.2 DI-D | – eklenmedi: İngilizce aramada 4M41 (3.2 DI-D) için ilgili sonuç çıkmadı. DonanımHaber'de bir kullanıcı bazı sürümlerde yakıt pompası sorunu duyduğunu ve enjektör sorunlarının 2010 sonrası çözülmüş olabileceğini, bir diğeri 2009 sonu 200 hp modellerde kronik sorun görmediğini yazıyor (tekil yorumlar); Ekşi Sözlük'te Super Select vakum sistemindeki bir parçanın arızasıyla 4x4'te takılı kalma anlatılıyor. Kilometre aralığı verilen ve ikinci kaynakla desteklenen sorun çıkmadı. |
 
 ### Land Rover (ek kademe)
 
@@ -1053,7 +1061,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | MG4 Electric | 2023- | Elektrik (51 / 64 kWh) | ✓ 1 sorun |
 | 3 | HS | 2021- | 1.5 T (DCT) | – eklenmedi: Şanzıman gecikmesi şikâyetleri yalnızca Şikâyetvar'da; model yılı ve sürüm bilgisi doğrulanamadı. |
 | 3 | MG4 Electric | 2023- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da yeni araçta düşük hızda titreme (servis jantların yamuk olduğunu, 'modellerde kronik problem' olduğunu söylemiş), DC şarjı kabul etmeme (AC ile şarj oluyor; motor satırında), arka stop bölgesinden su alma ve buğu, i-Smart uygulamasının aktif edilmemesi tekil; ikinci bağımsız site yok. |
-| 3 | ZS | 2017- | 1.5 VTi | ○ sırada |
+| 3 | ZS | 2017- | 1.5 VTi | – eklenmedi: Şikâyetvar'da MG ZS için en çok akü ve yazılım / multimedya şikâyetleri geçiyor (çoğu 2021 sonrası modeller ve ZS EV); tekleme ve geri vitese geçişte takılma tekil. Honest John'da 1.5 VTi-Tech Exclusive'de radyo arızasının aküyü boşalttığı (bayi 'bilinen sorun' demiş) tekil olarak anlatılıyor; Parkers gürültülü şanzımanları sık görülen arıza olarak sayıyor (kilometre vermiyor) ve güvenilirliğe 2.5 / 5 veriyor. Kilometre aralığı verilen tutarlı bir motor ya da şanzıman sorunu çıkmadı. |
 | 3 | ZS EV | 2020- | Elektrik | – eklenmedi: Şikâyetvar'da batarya bölümünden gelen ses ve şarj olmama (2023) tekil; ikinci bağımsız kaynak yok. DC şarj sorunu MG4 kaydında. |
 
 ### Lexus (ek kademe)
@@ -1073,7 +1081,8 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 3 | #1 / #3 | 2023- | Elektrik | – eklenmedi: Aramada Smart #1 için Türkiye'ye ait sonuç çıkmadı. Faz 6'da #3 de arandı: Smart adını taşıyan telefon ve TV servisi şikâyetleri dışında Türkiye'ye ait araç kaydı çıkmadı. |
-| 3 | fortwo / forfour 453 | 2015-2023 | 0.9 TCe 90 (H4Bt) / 1.0 | ○ sırada |
+| 3 | fortwo / forfour 453 | 2015-2023 | 0.9 TCe 90 (H4Bt) | ◐ 1 ortak aile sorunu — Smart 453'e özgü 0.9 TCe kaynağı çıkmadı (DonanımHaber'de bir kullanıcı 0.9 turbonun şehir içi için yeterli olduğunu ama şanzımanın sarsıntılı olduğunu yazıyor, tekil yorum); motor, Renault H4Bt ailesine bağlandı. |
+| 3 | fortwo / forfour 453 | 2015-2023 | 1.0 (71 PS atmosferik) | – eklenmedi: Atmosferik 1.0 için tutarlı kaynak çıkmadı: CarComplaints'te Smart fortwo için çok az ve tekil motor şikâyeti var; Daimler servis bülteni (M281 motorlu 453) zayıf akünün gövde ve motor kontrol üniteleri arasında iletişim hatasına ve motor arıza lambasına yol açabildiğini yazıyor; DonanımHaber ve Ekşi Sözlük'te motor arıza lambasının sık yanması (düşük oktanlı yakıt iddiası) tekil olarak anlatılıyor. |
 
 ### Porsche (ek kademe)
 
@@ -1106,8 +1115,8 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 3 | Korando / Tivoli | 2011- | 2.0 e-XDi / 1.6 | ○ sırada |
-| 3 | Rexton | 2012- | 2.0 / 2.2 e-XDi | ○ sırada |
+| 3 | Korando / Tivoli | 2011- | 2.0 e-XDi / 1.6 | – eklenmedi: Şikâyetvar'da Tivoli'de rölanti titremesi, çekiş düşüklüğü ve arıza lambası (tork konvertörü / şanzıman tartışması), Korando 1.6 dizelde DPF ve sensör sorunları, motor kapağı ve conta konuları ile yakıt tüketimi tekil olarak anlatılıyor; DonanımHaber'de 2020 Korando 1.6 dizel için DPF tıkanması konusu var. Honest John ve Parkers 2.0 dizelin rafine olmadığını, 1.6 dizelin düşük devirde tıkırtılı olduğunu yazıyor (arıza değil). 2.0 e-XDi için kilometre veren kaynak çıkmadı; kilometre aralığı verilen ve ikinci kaynakla desteklenen sorun yok. |
+| 3 | Rexton | 2012- | 2.0 / 2.2 e-XDi | – eklenmedi: Rexton için ayrı sonuç çıkmadı: Honest John'da 2014-2017 Rexton 2.2'de yazılım yönetim sisteminde bayiye birkaç ziyarete rağmen çözülmeyen bir arıza tek anlatı olarak geçiyor; Şikâyetvar'da SsangYong geneli için tekrarlayan motor arıza ışığı ziyaretleri anılıyor. Motor ya da şanzıman için kilometre veren kaynak çıkmadı. |
 
 ## Plan dışı kayıtlar
 
