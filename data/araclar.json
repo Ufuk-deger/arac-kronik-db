@@ -2620,6 +2620,68 @@
   "arac_listesi": [
     {
       "marka": "Alfa Romeo",
+      "model": "Giulietta (2010-2020)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolcu airbag kapağı (torpido / göğüs) şişmesi ve çatlaması",
+          "etkilenen_parca": "Yolcu hava yastığı kapağı (torpido üst / göğüs kısmı)",
+          "belirtiler": "Kaza ya da darbe olmadan yolcu airbag kapağının şişmesi, kaplamanın ayrılması ve çatlaması; araç güneşte kaldıkça artıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da şikâyetlerin çoğu 2011-2017 model Giulietta'lardan geliyor; bir sahip sorunun bu araçların büyük bölümünde görüldüğünü iddia ediyor (rakam doğrulanamadı). DonanımHaber'de bir sahip 2012 model aracında yolcu airbag bölümünün kendiliğinden şişip zamanla çatladığını, yüzlerce Giulietta'da aynı şişme / çatlama / yırtılmanın görüldüğünü yazıyor; yaz sıcağında güneşte bırakılan araçlarda arttığı ve çözüm olarak aracın güneşte bırakılmaması önerildiği anlatılıyor. Ekşi Sözlük'te 'alfa romeo hava yastığı rezaleti' başlığı var. Aynı sorun Fiat Punto Evo, Linea ve Bravo kayıtlarında da geçiyor.",
+            "cozum": "Şikâyetvar'da bir sahibe yetkili servis tüm torpidonun değişmesi gerektiğini, parçanın İtalya'dan geleceğini ve işçilikle yaklaşık 35 bin TL tutacağını söylemiş; başka bir sahibe marka maliyetin yüzde 40'ını üstlenip yüzde 60'ını sahibine bırakmayı önermiş. DonanımHaber'de garantisi süren ya da bakımını yetkili serviste yaptıran araçlarda ücretsiz değişim yapıldığı ama herkese onay çıkmadığı yazılıyor. Resmî bir geri çağırma ya da kampanya bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/alfa-romeo/alfa-romeo-giulietta-torpido-airbag-catlamasi",
+            "https://www.sikayetvar.com/alfa-romeo/giulietta/airbag",
+            "https://www.sikayetvar.com/alfa-romeo/alfa-romeo-giuliettada-kronik-airbag-gogus-sismesi-ve-servis-destegi-sorunu",
+            "https://www.sikayetvar.com/alfa-romeo/alfa-romeo-giulietta-airbag-sismesi-2",
+            "https://forum.donanimhaber.com/alfa-romeo-giulietta-hava-yastigi-rezaleti--139282540",
+            "https://eksisozluk.com/alfa-romeo-hava-yastigi-rezaleti--6119906"
+          ]
+        },
+        {
+          "sorun_adi": "İç kapı kolunun içeriden kırılması",
+          "etkilenen_parca": "İç kapı kolu ve kapı döşemesiyle birlikte satılan kol mekanizması",
+          "belirtiler": "Kapıyı içeriden açarken kolun kırılması; kolun tek başına değil kapı döşemesiyle birlikte değiştirilmesi gerekmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da birçok sahip iç kapı kollarının kırıldığını, bir sahip parçanın tek başına değişmediğini, kapı döşemesiyle birlikte satıldığını servisten öğrendiğini yazıyor. DonanımHaber'de bir yazı kapı kolunun içeriden kırılmasını kapı döşemesi sökülüp tüm mekanizmanın değiştirildiği kronik bir sorun olarak anlatıyor; bir Ekşi Sözlük yazarı iç kapı kollarının ucuz işçilikten dolayı sık kırıldığını yazıyor.",
+            "cozum": "Kol, kapı döşemesiyle birlikte değiştiriliyor; Şikâyetvar'daki sahipler parçanın tek başına temin edilememesinden yakınıyor. Resmî bir kampanya bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/alfa-romeo/alfa-romeo-giulietta-kapi-kolu-kirilmasi-ve-degisimi",
+            "https://forum.donanimhaber.com/alfa-romeo-giulietta-nasil-aractir-alinir-mi--147415530",
+            "https://eksisozluk.com/alfa-romeo-giulietta--462351?p=96",
+            "https://eksisozluk.com/alfa-romeo-giulietta--462351?p=98",
+            "https://eksisozluk.com/alfa-romeo-giulietta--462351?p=100"
+          ]
+        },
+        {
+          "sorun_adi": "Klima klapesi (servo) arızası: bir tarafın sıcak, diğer tarafın soğuk üflemesi",
+          "etkilenen_parca": "Klima / kalorifer hava klapeleri ve klape servo motorları (plastik dişliler)",
+          "belirtiler": "Bir taraftan sıcak, diğer taraftan soğuk hava gelmesi; klape servosundan ses.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da bir tarafın sıcak diğerinin soğuk üflemesi sık tekrarlanıyor; sahipler servislerin bunu kronik sorun olarak kabul etmediğini yazıyor. DonanımHaber'de bir sahip aynı belirtiyi klape arızası olarak anlatıyor, başka bir yorumda klima flap servo dişlilerinin kolay kırıldığı ve bunun servo ya da klima kazanı arızasına yol açabildiği belirtiliyor.",
+            "cozum": "DonanımHaber'de klape tamir setinin yaklaşık 130-150 TL'ye satıldığı ve işçiliğin klape sayısına göre değiştiği yazılıyor. Şikâyetvar'da bir sahibe servisin 3.000-7.000 TL arası bir tutar söylediği aktarılıyor (kullanıcı beyanları, güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/alfa-romeo/giulietta/kronik",
+            "https://www.sikayetvar.com/alfa-romeo/alfa-romeo-giulietta-kronik-sorunlari",
+            "https://forum.donanimhaber.com/alfa-romeo-giulietta-nasil-aractir-alinir-mi--147415530",
+            "https://forum.donanimhaber.com/giulietta-3000tl-servis-ucreti-yardim--130900926-3"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Alfa Romeo",
       "model": "Giulietta (2014-2020)",
       "motor": "1.6 JTDm 120 (Multijet II)",
       "uretim_yillari": {
@@ -2854,6 +2916,37 @@
       "aileler": [
         "vag-1-5-tsi-evo",
         "vag-48v-etsi"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 (8Y, 2020-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "MMI ekranının kararması, siyah ekranda kalması ve yazılım / kontrol paneli arızaları",
+          "etkilenen_parca": "MMI ana ekranı, kontrol paneli ve yazılımı",
+          "belirtiler": "Ekranın aniden kararması ya da araç çalıştırılınca siyah ekranda kalması (reset gerektiriyor); geri vitese takılınca siyah ekran; servisin format / yazılım güncellemesi uygulaması ve sorunun geri dönmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2021 ve sonrası A3'lerde MMI ekranının aniden kararması, ana ekranın açılmaması ve geri vitese takılınca siyah ekran verme anlatılıyor; bir sahip aracı 2021'de 1, 2022'de 3, 2024'te 5 kez servise götürdüğünü ve her seferinde format ya da güncelleme yapıldığını yazıyor. DonanımHaber'deki A3 8Y konusunda sahipler MMI ekranının arada siyah kaldığını ve reset gerektiğini, bayinin yazılım sorununun genel olduğunu ve yazılımın Türkiye'ye gelmesini beklemek gerektiğini söylediğini, yabancı forumlarda 3620 kodlu bir güncellemenin sorunu giderdiğinin yazıldığını aktarıyor.",
+            "cozum": "Sahipler açma-kapama düğmesini yaklaşık 20 saniye basılı tutmanın ekranı yeniden başlattığını yazıyor; serviste yazılım güncellemesi bazı araçlarda sorunu en az üç hafta gidermiş, bir sahipte son güncelleme kablosuz CarPlay'i devre dışı bırakarak sorunu çözmüş. Başka sahiplerde 5F kontrol paneli ya da ekran değişimi istenmiş.",
+            "maliyet": "Kullanıcı beyanı (doğrulanmamış, güncel fiyat olarak okumayın): Şikâyetvar'da bir sahibe 361.911 TL'lik onarım faturası çıkarıldığı ve yalnızca yarısının Audi tarafından karşılanabileceğinin bildirildiği yazılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/audi/2021-audi-a3-ana-ekran-mmi-acilmiyor",
+            "https://www.sikayetvar.com/audi/audi-a3-kronik-multimedya-mmi-problemi",
+            "https://www.sikayetvar.com/audi/audi-a3-multimedya-ekrani-sorunu-ve-yuksek-servis-masraflari",
+            "https://www.sikayetvar.com/audi/audi-a3te-kronik-ekran-arizasi-ve-yetersiz-cozum",
+            "https://forum.donanimhaber.com/audi-a3-2021-8y-ana-konu--148533983",
+            "https://forum.donanimhaber.com/audi-a3-2021-8y-ana-konu--148533983-138",
+            "https://forum.donanimhaber.com/audi-a3-2021-8y-ana-konu--148533983-32"
+          ]
+        }
       ]
     },
     {
@@ -3716,6 +3809,37 @@
     },
     {
       "marka": "BMW",
+      "model": "3 Serisi (G20, 2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Sunroof perdesinin (güneşlik) yarıda kalması / kapanmaması ve sunroof çevresinden gıcırtı-tıkırtı",
+          "etkilenen_parca": "Sunroof perdesi (güneşlik), perde motorları ve tırnakları, sunroof rayları ve contası",
+          "belirtiler": "Perdenin yarıda kalıp tam kapanmaması ya da açık takılı kalması, sunroof'un 'başlatılmadı' hatası vermesi; kapalıyken sunroof çevresinden gıcırtı, tıkırtı ve çatırtı.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da G20 sahipleri sunroof ve perdenin açılmadığını yazıyor; bir şikâyet bunu 'ilk 2 yılda G20'lerde kronik görülen' arıza olarak niteliyor. DonanımHaber G20 kulübünde perdenin yarıda kalıp tam kapanmadığı, bir tırnağın yerinden çıkıp sunroof'un kapanmadığı ve en çok gıcırtı / tıkırtıdan yakınıldığı (kızaklar yağlandığı halde ses sürmüş; sesin 'çoğu G20'de görüldüğü' yazılıyor) anlatılıyor. BimmerPost'un G20 bölümünde perdenin kapalı kalmaması, açık takılması, sunroof hata mesajları ve 'ticking / cracking' başlıkları çok; bir sahip bayinin nedeni gövde kontrol modülüyle motorlar arasındaki iletişim hatası olarak açıkladığını, başkaları FZD ünitesi ya da Hall sensörü arızası olduğunu yazıyor.",
+            "cozum": "BimmerPost ve DonanımHaber'de ilk adım olarak düğmeye uzun basarak sıfırlama / kalibrasyon (eğim düğmesine 10-15 saniye, DonanımHaber'de bazıları 40-50 saniye ya da 2 dakika) anlatılıyor; olmazsa perde motorunun elle çevrilmesi ya da motorların garantide değişimi. Gıcırtı için bir sahip BMW'nin sunroof raylarının özel gresle yeniden doldurulmasını isteyen bir servis bülteni olduğunu yazıyor; conta temizliği, yağlama ya da conta değişimi işe yaramış, conta üzerine silikon sprey gıcırtıyı artırmış."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw/bmw-320i-g20-sunroof-ve-perde-arizasi-beklentileri-zedeleyen-kronik-sorun",
+            "https://g20.bimmerpost.com/forums/showthread.php?t=1650830",
+            "https://g20.bimmerpost.com/forums/showthread/2096240/sunroof-shade-cover-stuck-open",
+            "https://g20.bimmerpost.com/forums/showthread/1647264/does-your-sunroof-rattle/page/8?p=31529950",
+            "https://g20.bimmerpost.com/forums/showthread.php?t=1796937",
+            "https://forum.donanimhaber.com/bmw-3-serisi-g20--135227358-135",
+            "https://forum.donanimhaber.com/bmw-3-serisi-g20--135227358-728",
+            "https://forum.donanimhaber.com/bmw-3-serisi-g20--135227358-327"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "BMW",
       "model": "4 Serisi (F32 / F36, 2013-2015)",
       "motor": "420d 2.0 dizel (N47D20)",
       "uretim_yillari": {
@@ -3833,6 +3957,34 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-n20"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi (G30, 2017-2023)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "İç kapı kollarında kaplamanın erimesi, yapışkanlaşması ve dökülmesi",
+          "etkilenen_parca": "İç kapı kolları (yumuşak dokulu kauçuk kaplama)",
+          "belirtiler": "İç kapı kolu tutamaklarının yüzeyinin zamanla yapışkan, yapış yapış hale gelmesi; kaplamanın erimesi ve dökülmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da G30 sahipleri kapı kollarının zamanla eriyip yapışkanlaştığını, biri 'araştırdığımda kronik bir sorun olduğunu gördüm' diye yazıyor. BimmerPost'un G30 bölümünde 2018 model bir 520i'nin kollarının zamanla kötüleştiği, bir G30 sahibi plastiğin ısıdan erimediği, kozmetik ve el kremlerindeki çözücülerle yumuşadığı (plasticising) görüşünde. F30 ve F10 kayıtlarındaki aynı soft-touch kaplama bozulmasıdır; BimmerPost'ta ısı, UV, cilt yağı, el kremi ve temizlik kimyasalları katkı sağlayan etkenler olarak sayılıyor.",
+            "cozum": "BimmerPost'ta tutamağın OEM ya da kaplamasız sert plastik yan sanayi parçayla değiştirilmesi, üzerine takılan klipsli kapakların kullanılması anlatılıyor (OEM parça aynı malzemeden olduğu için yeniden yapışkanlaşabiliyor; OEM tutamaklar kapı döşemesine plastik kaynakla bağlı olduğundan sökümü zor). Bir G30 sahibi sorunun garanti kapsamında olmayacağını yazıyor; resmî bir BMW servis bülteni ya da kampanya bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw/bmw-g30-kronik-sorunlar",
+            "https://www.sikayetvar.com/bmw/520",
+            "https://www.sikayetvar.com/bmw/530",
+            "https://g30.bimmerpost.com/forums/showthread/2198513/door-handle",
+            "https://g30.bimmerpost.com/forums/showthread/2189495/need-an-assistance-for-the-door-handles?p=32155375"
+          ]
+        }
       ]
     },
     {
@@ -3982,6 +4134,33 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-xdrive-aktarma"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X5 (F15, 2013-2018)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "İç kapı kollarında kaplamanın erimesi, yapışkanlaşması ve dökülmesi",
+          "etkilenen_parca": "İç kapı kolları (yumuşak dokulu kauçuk kaplama)",
+          "belirtiler": "İç kapı kolu tutamaklarının yüzeyinin zamanla yapışkan hale gelmesi; kaplamanın erimesi ve siyah, yapış yapış bir artık bırakması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da birden fazla F15 sahibi iç kapı kolu tutamaklarının zamanla eriyip yapışkanlaştığını bildiriyor; şikâyetler 2014-2016 model F15'lerde tekrarlıyor. BimmerPost'un F15 bölümünde 'sticky inner pull handle replacement' ve 'replaced the interior door pulls' başlıkları var. BimmerPost'ta nedeni yumuşak dokulu kaplamanın kimyasal bozulması olarak gören sahipler ısı, UV ve cilt yağı / el kremi etkisini sayıyor; temizleyici, alkol ya da WD-40 artığı gidermiyor.",
+            "cozum": "BimmerPost'ta F15 sahipleri kaplamasız sert plastik yan sanayi tutamaklar taktığını (biri kaliteden çok memnun, bir diğeri talimat gelmediğini yazıyor) ve klipsli kapakların en ucuz çözüm olduğunu belirtiyor; OEM tutamağın yeniden yapışkanlaştığı bildiriliyor. Sökümde kapı döşemesi çıkarılıyor, yaklaşık 2 saat sürebiliyor. Resmî bir BMW kampanyası bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw/x5",
+            "https://www.sikayetvar.com/bmw/x5?page=2",
+            "https://f15.bimmerpost.com/forums/showthread.php?t=1986523",
+            "https://f15.bimmerpost.com/forums/showthread/1738330/f15-sticky-inner-pull-handle-replacement"
+          ]
+        }
       ]
     },
     {
@@ -8563,6 +8742,38 @@
       "kronik_sorunlar": [],
       "aileler": [
         "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi (W205, 2014-2021)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Panoramik cam tavanın ray, kılavuz ve motor arızası: bir köşenin kalkıp diğerinin takılı kalması, kapanmama ve gıcırtı",
+          "etkilenen_parca": "Panoramik cam tavan (sunroof) rayları, plastik kılavuzları, motorları ve kontrol modülü",
+          "belirtiler": "Tavanın bir arka köşesinin kalkıp diğerinin takılı kalması, kapanmaması ya da açılmaması; motordan öğütme sesi; yüksek hızda ıslık / rüzgâr sesi; bazı araçlarda camın darbe olmadan çatlaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "MBWorld'ün W205 bölümünde 'panoramik tavan sorunları ve çözümleri', 'kapanmıyor', 'takılı kaldı', 'tavan arızası' ve 'kendiliğinden patlayan panoramik tavan' başlıkları çok. Sahipler en yaygın arızanın ray ve kılavuz bozulması olduğunu, bir köşenin kalkıp diğerinin takılı kaldığını, motorda öğütme sesi geldiğini ve rayın plastik parçalarının kırılgan hale gelip koptuğunu yazıyor; onarım çoğu kez tavan döşemesinin sökülmesini gerektiriyor. Şikâyetvar'da 2015 model bir C180'de cam tavanın arızalandığı, iki kolun takım halinde İstanbul'dan gelmesi gerektiği yazılıyor. Ekşi Sözlük'te W205 başlığında 'sunroof arızası sık görülür' deniyor. MB Club UK ve BenzWorld'de de benzer başlıklar var.",
+            "cozum": "MBWorld'de onarımın ray, motor ve kontrol modülü değişimine göre değiştiği, bir sahibin yeni araç garantisi ve uzatılmış garantinin kapsadığını ama CPO'nun kapsamadığını yazdığı ve bayinin rayları Almanya'dan getirtmesi gerektiğini söylediği anlatılıyor. Zayıf akü ya da yardımcı akü değişiminden sonra sunroof'un çalışmayıp sıfırlama gerektirdiği yazılıyor. Kendiliğinden camı patlayan bir araçta bayi garanti kapsamı dışında tutmuş.",
+            "maliyet": "Kullanıcı beyanları (güncel fiyat olarak okumayın): MBWorld'de yaklaşık 1.400 - 3.000 $ aralığı ve bir sahibe 3.500 $'lık teklif; Şikâyetvar'da 2015 model C180 için yaklaşık 80.000 TL onay istendiği yazılıyor."
+          },
+          "kaynaklar": [
+            "https://mbworld.org/forums/c-class-w205/745492-post-your-panoramic-roof-problems-fixes.html",
+            "https://mbworld.org/forums/c-class-w205/785948-panoramic-sunroof-won-t-close.html",
+            "https://mbworld.org/forums/c-class-w205/829604-exploding-panoramic-sunroof-w205-c-class.html",
+            "https://mbworld.org/forums/c-class-w205/734208-pano-roof-failure.html",
+            "https://www.benzworld.org/threads/w205-exfoliated-panoramic-roof.3055352/",
+            "https://forums.mbclub.co.uk/threads/panoramic-sunroof-on-w205-stopped-working.273104/",
+            "https://www.sikayetvar.com/mercedes-benz/parca-eksikligi-ve-aracsiz-kalma-sorunu",
+            "https://eksisozluk.com/w205--3757185"
+          ]
+        }
       ]
     },
     {
@@ -13706,6 +13917,33 @@
       ]
     },
     {
+      "marka": "Togg",
+      "model": "T10X (2023-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kapıların açılmaması ya da kilitlenmemesi (soğuk havada ve 12V akü boşalınca)",
+          "etkilenen_parca": "Kapı kilidi / kapı kolu mekanizması ve 12V akü beslemesi",
+          "belirtiler": "Dıştan kumandayla ya da elle kapıların açılmaması; akü düşünce kapıların kilitlenmemesi; araca girilememesi ve yol yardımıyla manuel açma.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'deki 'TOGG kullanıcılarından soğuk hava kapı sorunu' konusunda bir haber metni, bazı kullanıcıların soğukta kapıların açılmadığını bildirdiğini, nedenin belirlenemediğini, uzmanların soğuğun kilit mekanizmasını etkileyebileceğini düşündüğünü ve Togg yetkililerinin sorunu incelediğini söylediğini aktarıyor. Şikâyetvar'da (2023-2026) sahipler kapıların ne kumandayla ne elle açıldığını, akü yüzde 9'a düşünce kapıların kilitlenmediğini ve aracın aküsünün 24 saatte bittiğini yazıyor; şikâyetlerin önemli kısmı 12V akü ve yazılım güncellemesi sonrası arızalarla birlikte geçiyor.",
+            "cozum": "Şikâyetvar'daki bazı sahiplerde yol yardım ekipleri kolun altından manuel açma yöntemiyle kapıyı açmış; bir sahip mekanik anahtarla zorlayarak kapıyı açabildiğini yazıyor (kilide zorla müdahale parçaya zarar verebilir). Haber metninde bazı kullanıcıların sıcak su torbası önerdiği anlatılıyor. Resmî bir kampanya ya da neden açıklaması bulunamadı."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/soguklar-geldi-togg-da-ilginc-sikinti--157447230",
+            "https://www.sikayetvar.com/togg/togg-kapilar-acilmiyor-calismiyor-akusu-24-saatte-bitiyor",
+            "https://www.sikayetvar.com/togg/soguk-hava",
+            "https://www.sikayetvar.com/togg/arac-calismiyor/kapilar"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Toyota",
       "model": "Auris (E150 / E180, 2007-2018)",
       "motor": "1.4 D-4D (1ND-TV)",
@@ -15360,6 +15598,37 @@
             "https://www.volvoforums.org.uk/forum/technical-topics/s60-v60-11-18-xc60-09-17-general/263403-water-sloshing-xc60",
             "https://www.volvoforums.org.uk/forum/technical-topics/s60-v60-11-18-xc60-09-17-general/321772-leak-in-boot-and-driver-footwell",
             "https://www.parkers.co.uk/volvo/xc60/estate/review/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC90 / S90 / V90 (2015-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Sensus orta ekranının donması, kendiliğinden yeniden başlaması ve siyah ekranda kalması",
+          "etkilenen_parca": "Sensus Connect orta ekranı ve bilgi-eğlence yazılımı",
+          "belirtiler": "Orta ekranın donması, sürüş sırasında yeniden başlaması ya da birkaç dakikalığına tamamen kararması; Bluetooth ve orta ekran kontrol panelinin kendiliğinden açılıp kapanması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da S90 sahipleri orta ekran kontrol panelinin ve Bluetooth'un kendiliğinden açılıp kapandığını, bir XC90 sahibi yavaş çalışan orta ekranı ve sürekli reset isteyen arayüzü, 2025 model bir XC90 sahibi internet bağlantısının hiç çalışmadığını yazıyor. Swedespeed ve Volvo Forums UK'te Sensus'un donması, yeniden başlaması ve siyah ekranda kalması çok sayıda başlıkta anlatılıyor (XC90 MY18 dahil; başlıklar modelleri ayırmıyor): bir sahip ekranın 20 ayda üç kez tamamen karardığını ve birkaç dakika sonra geri geldiğini, bir başkası PDS 2.0 güncellemesinden sonra sorunların bittiğini, bazıları iPhone'u CarPlay açılırken takıp çıkarmanın ya da uzaktan çalıştırıp sistem açılmadan araca binmenin yeniden başlatmayı tetiklediğini yazıyor.",
+            "cozum": "Bayide yazılımın tamamen yeniden yüklenmesi bazı sahiplerde sorunu gidermiş; Volvo'nun verdiği 'temizlik modu' yöntemi (merkez konsoldaki düğmeyi mesaj çıkana dek basılı tutma) sistemi sıfırlamış; bir sahip arızalı USB kablosundan şüphelenmiş. Resmî bir Volvo servis bülteni ya da kampanya bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volvo/s90",
+            "https://www.sikayetvar.com/volvo/volvo-s90-aracimin-sorunlari",
+            "https://www.sikayetvar.com/volvo/xc90",
+            "https://www.swedespeed.com/threads/rebooting-sensus.333689/",
+            "https://www.swedespeed.com/threads/sensus-rebooting-issue.536498/",
+            "https://www.swedespeed.com/threads/black-screen-of-death.404889/",
+            "https://volvoforums.org.uk/showthread.php?t=288003",
+            "https://www.volvoforums.org.uk/showthread.php?t=326352"
           ]
         }
       ]

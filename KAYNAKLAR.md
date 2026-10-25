@@ -42,17 +42,17 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 84 farklı site, 334 sorun için kullanıldı.
+Toplam 84 farklı site, 344 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 318 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
-| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 299 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
+| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 324 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
+| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 309 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
 | [Araclo](https://www.araclo.com/) | TR | düşük | 141 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
 | [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 132 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
-| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 90 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
+| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 93 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
 | [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 84 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. |
 | [Autopartia](https://autopartia.com/) | TR | düşük | 10 | Yedek parça satıcısı; motor bazlı blog ve 'uzman' sayfaları. Ticari site, belirli bir OEM parçayı sürekli öneriyor; tek başına yeterli sayılmaz. |
 | [Carsece](https://www.carsece.com/) | TR | düşük | 10 | Araç rehberi ve bakım blogu. Maliyet tahminlerinin kaynağını göstermiyor; tek başına yeterli sayılmaz. |
@@ -84,34 +84,34 @@ Toplam 84 farklı site, 334 sorun için kullanıldı.
 | [Fiat Forum](https://www.fiatforum.com/) | UK | orta | 18 | Fiat sahipleri forumu (Dualogic, Multijet, Tipo). |
 | [French Car Forum](https://www.frenchcarforum.co.uk/) | UK | orta | 16 | Peugeot, Citroën ve Renault forumu. |
 | [Ford Owners Club](https://www.fordownersclub.com/) | UK | orta | 15 | Ford sahipleri forumu (Focus, Fiesta, EcoBoost). |
+| [Bimmerpost](https://f30.bimmerpost.com/) | US | orta | 14 | BMW F30 ve diğer kasa forumları. |
 | [BRISKODA](https://www.briskoda.net/forums/) | UK | orta | 13 | Škoda sahipleri forumu. |
-| [Bimmerpost](https://f30.bimmerpost.com/) | US | orta | 11 | BMW F30 ve diğer kasa forumları. |
 | [Vauxhall Owners Network](https://www.vauxhallownersnetwork.co.uk/) | UK | orta | 11 | Vauxhall/Opel sahipleri forumu. |
 | [VWVortex](https://www.vwvortex.com/) | US | orta | 10 | Volkswagen forumu. |
 | [AudiWorld](https://www.audiworld.com/) | US | orta | 8 | Audi forumu ve rehber yazıları. |
-| [MBWorld](https://mbworld.org/) | US | orta | 6 | Mercedes-Benz forumu. |
+| [MBWorld](https://mbworld.org/) | US | orta | 7 | Mercedes-Benz forumu. |
 | [Astra Owners Network](https://www.astraownersnetwork.co.uk/) | UK | orta | 5 | Opel/Vauxhall Astra forumu. |
 | [CivicX](https://www.civicx.com/) | US | orta | 5 | Honda Civic (10. nesil) forumu. |
+| [MB Club UK](https://forums.mbclub.co.uk/) | UK | orta | 5 | Mercedes-Benz sahipleri forumu. |
 | [Nissan QashQai Forums](https://www.qashqaiforums.co.uk/) | UK | orta | 5 | Nissan Qashqai sahipleri forumu. |
+| [BenzWorld](https://www.benzworld.org/) | US | orta | 4 | Mercedes-Benz forumu. |
 | [Berlingo Forum](https://www.berlingoforum.com/) | UK | orta | 4 | Citroën Berlingo ve PSA dizel (HDi) forumu. |
 | [CruzeTalk](https://www.cruzetalk.com/) | US | orta | 4 | Chevrolet Cruze forumu. Konular çoğunlukla ABD'deki 1.4T ve 1.8 motorlar için. |
-| [MB Club UK](https://forums.mbclub.co.uk/) | UK | orta | 4 | Mercedes-Benz sahipleri forumu. |
 | [SpeakEV](https://www.speakev.com/) | UK | orta | 4 | İngiltere merkezli elektrikli araç sahibi forumu; Zoe, Peugeot e-208, BYD gibi modellerde 12V akü, şarj ve tahrik arızası konuları. |
 | [Audizine](https://www.audizine.com/) | US | orta | 3 | Audi forumu. |
-| [BenzWorld](https://www.benzworld.org/) | US | orta | 3 | Mercedes-Benz forumu. |
 | [German Car Forum](https://www.germancarforum.com/) | Global | orta | 3 | Alman markaları forumu. |
 | [Planète Renault](https://www.planeterenault.com/forum/) | FR | orta | 3 | Fransızca Renault forumu. K9K yatak sorunu için moderatör yazısı bu sitede. |
 | [E90Post](https://www.e90post.com/) | US | orta | 2 | BMW 3 Serisi E90/E92 forumu. |
 | [Forum Peugeot](https://www.forum-peugeot.com/) | FR | orta | 2 | Fransızca Peugeot forumu. |
+| [SwedeSpeed](https://www.swedespeed.com/) | US | orta | 2 | Volvo ve Saab sahipleri forumu (XC60, S60, V60 başlıkları). |
 | [Toyota Owners Club](https://toyotaownersclub.com/) | UK | orta | 2 | Toyota sahipleri forumu (Auris/Corolla D-4D). |
+| [Volvo Owners Club Forum](https://www.volvoforums.org.uk/) | UK | orta | 2 | Volvo Owners Club forumu; XC60 / S60 / V60 teknik başlıkları. |
 | [8thCivic](https://www.8thcivic.com/) | US | orta | 1 | Honda Civic (8. nesil, FD) forumu. |
 | [AudiSRS](https://audisrs.com/) | UK | orta | 1 | Audi ve VAG forumu. |
 | [ElectricVehicleForums](https://electricvehicleforums.com/) | US | düşük | 1 | Civic Hybrid forumu; Honda 08-001 bülteni aktarımı içeriyor. |
 | [Kia Forums](https://www.kia-forums.com/) | US | orta | 1 | Kia sahipleri forumu; Sportage 3. nesil (2011-2016) dahil model bölümleri var. |
 | [PicoAuto Forum](https://www.picoauto.com/support/) | UK | düşük | 1 | Tanı cihazı üreticisinin destek forumu. |
-| [SwedeSpeed](https://www.swedespeed.com/) | US | orta | 1 | Volvo ve Saab sahipleri forumu (XC60, S60, V60 başlıkları). |
 | [Tesla Motors Club](https://teslamotorsclub.com/) | US | orta | 1 | Tesla sahipleri ve meraklıları forumu (Model 3 / Model Y bölümleri). |
-| [Volvo Owners Club Forum](https://www.volvoforums.org.uk/) | UK | orta | 1 | Volvo Owners Club forumu; XC60 / S60 / V60 teknik başlıkları. |
 
 ### Şikâyet platformları, sahip anketleri ve derlemeler
 
