@@ -2052,14 +2052,15 @@
       "marka": "Mercedes-Benz",
       "model": "E Serisi W213",
       "yillar": "2016-",
-      "motor": "E180 / E200 / E220d",
+      "motor": "E180 / E200 benzinli",
       "kademe": 2,
       "eslesme": {
         "model": [
           "W213"
         ],
         "motor": [
-          ""
+          "E180",
+          "E200"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -3037,8 +3038,7 @@
           "OM654"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "C220d (OM654) için W205'e özgü kaynak bulunamadı; bulunan şikâyetler C200d (R9M) NOx / AdBlue / turbo yağ kaçağı üzerine ve ayrı kayıtta."
+      "not": "C220d (OM654) için W205'e özgü kaynak bulunamadı; bulunan şikâyetler C200d (R9M) NOx / AdBlue / turbo yağ kaçağı üzerine ve ayrı kayıtta. Faz 14: modele özgü kaynak çıkmadı; bu satır Mercedes OM654 ailesinin ortak külbütör ve makara aşınması sorununu gösterir (MBWorld ve MB Club'da E220d sahipleri; yaygınlığı belirsiz, Türkçe kaynak yok)."
     },
     {
       "marka": "Hyundai",
@@ -7314,14 +7314,14 @@
       "marka": "Mercedes-Benz",
       "model": "CLA C118",
       "yillar": "2019-",
-      "motor": "CLA 180 (M282) / 200 d (OM654)",
+      "motor": "CLA 180 (M282)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "C118"
         ],
         "motor": [
-          ""
+          "M282"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -12905,6 +12905,54 @@
         ]
       },
       "not": "Countryman F60 Cooper için motora özgü kaynak çıkmadı; bu satır BMW B38 ailesinin ortak sorununu gösterir."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Serisi W213",
+      "yillar": "2016-",
+      "motor": "E220d 2.0 (OM654)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "W213"
+        ],
+        "motor": [
+          "OM654"
+        ]
+      },
+      "not": "W213 E220d için Türkçe kaynakta motora özgü kayıt çıkmadı (Şikâyetvar'da 2024 model E220d'de 48V akü boşalması ve motor kodu belirtilmemiş bir E220'de 63.000 km'de motor arızası tekil). Faz 14: modele özgü kaynak çıkmadı; bu satır Mercedes OM654 ailesinin ortak külbütör ve makara aşınması sorununu gösterir (MBWorld ve MB Club'da E220d sahipleri; yaygınlığı belirsiz, Türkçe kaynak yok)."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "CLA C118",
+      "yillar": "2019-",
+      "motor": "CLA 200 d 2.0 (OM654)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C118"
+        ],
+        "motor": [
+          "OM654"
+        ]
+      },
+      "not": "CLA 200 d için Türkçe kaynaklarda OM654'e özgü kronik arıza yok. Faz 14: modele özgü kaynak çıkmadı; bu satır Mercedes OM654 ailesinin ortak külbütör ve makara aşınması sorununu gösterir (MBWorld ve MB Club'da E220d sahipleri; yaygınlığı belirsiz, Türkçe kaynak yok)."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLC X253 FL",
+      "yillar": "2019-2022",
+      "motor": "GLC 220 d 2.0 (OM654)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "GLC (X253, 2019"
+        ],
+        "motor": [
+          "OM654"
+        ]
+      },
+      "not": "GLC 220 d (X253 makyajlı) için Türkçe kaynakta yalnızca 2020 model bir GLC 220d'de yolda kalma ve şanzıman arızası tekil vakası var. Faz 14: modele özgü kaynak çıkmadı; bu satır Mercedes OM654 ailesinin ortak külbütör ve makara aşınması sorununu gösterir (MBWorld ve MB Club'da E220d sahipleri; yaygınlığı belirsiz, Türkçe kaynak yok)."
     }
   ]
 }

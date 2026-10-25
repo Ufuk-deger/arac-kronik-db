@@ -1448,6 +1448,34 @@
       ]
     },
     {
+      "id": "mercedes-om654",
+      "ad": "Mercedes OM654 2.0 dizel",
+      "tur": "motor",
+      "aciklama": "Mercedes'in 2016'dan itibaren E, C, CLA ve GLC modellerinde kullandığı 2.0 litre dört silindirli alüminyum bloklu dizel motor (E220d, C220d, CLA 200 d, GLC 220 d). OM651'in halefidir. Kaynak anlatıları çoğunlukla E220d (W213) sahiplerine aittir.",
+      "kronik_sorunlar": [
+        {
+          "id": "kulbutur-makara-asinmasi",
+          "sorun_adi": "Külbütör ve makara aşınması (eksantrik hasarı riski)",
+          "etkilenen_parca": "Egzoz tarafı külbütör kolları ve makaraları, eksantrik mili",
+          "belirtiler": "Hafif gazda silindir ateşlememesi, düzensiz rölanti, güç kaybı, hava filtresi kutusundan gelen sesler ve motor üstünden vuruntu; ihmal edilirse eksantrik mili hasarı",
+          "tahmini_km_araligi": "150.000 - 200.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "MBWorld ve MB Club'da W213 E220d sahipleri egzoz tarafı külbütör kollarının ve özellikle makaralarının aştığını anlatıyor; bir yorumcu bunun bu motorda çok yaygın olduğunu söylüyor. Kesin neden bilinmiyor; bir yazar motorun üst kısmında yetersiz yağlamayı olası neden olarak gösteriyor. Aynı yazar Almanya'da sorunun bilindiğini ama geri çağırma olmadığını yazıyor (kullanıcı iddiası, doğrulanmadı). Yaygınlığı belirsizdir: ele alınan başlıklar tekil sahip anlatılarıdır.",
+            "teshis": "Hafif gazda aralıklı silindir ateşlememesi, düzensiz rölanti, güç kaybı, hava filtresi kutusundan gelen 'plop' sesi ve motor üstünden vuruntu. Bir 2020 E220d sahibine üçüncü bir garaj aşınmış itici ve külbütör, belki eksantrik hasarı teşhisi koydu; ancak aynı başlıkta sorunun kötü takılmış MAF sensörü çıktığı da yazılıyor, bu yüzden önce hava ölçer gibi nedenler elenmeli. Bir 2019 E220d sahibi yaklaşık 120.000 milde vuruntu geliştiğini ve külbütör / itici değişimi gerektiği sonucuna vardığını yazıyor (onarım sonucu paylaşılmamış).",
+            "cozum": "Erken yakalanırsa yalnızca külbütör kolları ve makaralarının, ihmal edilirse eksantrik millerinin ve yuvasının da değiştirilmesi gerektiği anlatılıyor (kullanıcı görüşü). Almanya'da parçaların stokta olduğu yazılıyor.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Rölanti düzensizliği ya da motor üstünden vuruntu başlarsa vakit kaybetmeden uzman kontrolü; ikinci elde servis kaydını istemek ve motoru soğukken ve sıcakken dinlemek. Kilometre aralığı, forumlardaki iki vakadan (yaklaşık 99.000 mil / 159.000 km ve 120.000 mil / 193.000 km) kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://forums.mbclub.co.uk/threads/ongoing-misfire-power-loss-on-2020-mercedes-e220d-om654-%E2%80%94-anyone-faced-this.306864/",
+            "https://forums.mbclub.co.uk/threads/e220d-camshaft-rocker-arm-knocking.308934/",
+            "https://mbworld.org/forums/diesel-forum/811582-om654-very-rough-low-throttle-input.html"
+          ]
+        }
+      ]
+    },
+    {
       "id": "opel-1-6-cdti",
       "ad": "Opel 1.6 CDTI (B16DTH / B16DTL)",
       "tur": "motor",
@@ -9933,6 +9961,32 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "C Serisi (W205, 2018-2021)",
+      "motor": "C220d 2.0 (OM654)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om654"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "CLA (C118, 2019-)",
+      "motor": "CLA 200 d 2.0 (OM654)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om654"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "CLS (C218, 2011-2017)",
       "motor": "CLS 250 CDI / 250 d 2.1 (OM651)",
       "uretim_yillari": {
@@ -10084,6 +10138,19 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "E Serisi (W213, 2016-)",
+      "motor": "E220d 2.0 (OM654)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om654"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "EQA / EQB (H243 / X243, 2021-)",
       "motor": "Elektrik (EQA 250+ / EQB 250+; 70,5 kWh)",
       "uretim_yillari": {
@@ -10204,6 +10271,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLC (X253, 2019-2022)",
+      "motor": "GLC 220 d 2.0 (OM654)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om654"
       ]
     },
     {
