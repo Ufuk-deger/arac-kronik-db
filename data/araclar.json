@@ -3163,6 +3163,34 @@
       ]
     },
     {
+      "marka": "Audi",
+      "model": "Q5 (8R, 2008-2017)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Cam tavan ve plenum tahliyelerinin tıkanması: ayak boşluğuna ve akü yuvasına su alma",
+          "etkilenen_parca": "Cam tavan tahliye hortumları ve rayı, ön cam altı (plenum) tahliyeleri, klima kanalı contası, bagajdaki akü yuvası",
+          "belirtiler": "Yolcu ayak boşluğunda ve akü yuvasında su, tavan döşemesi ve sütun boyunca ıslanma; su baskınından sonra elektrik arızaları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "AudiWorld'ün Q5 8R bölümünde cam tavan tahliye hortumunun bağlantıdan sızması, tavan rayının tıkanması (bir 2009 Q5'te su ray ile gövde arasından C sütunu boyunca akü yuvasına inmiş), yolcu ayak boşluğunda klima kanalı contasının ve devridaim contasının sızdırması (sahipler bunun için servis bülteni olduğunu yazıyor) anlatılıyor. Audizine'da B8 Q5 sahipleri akü yuvasının su dolduğunu, plenum ve akü altı tahliye lastiklerinin yaprak / polenle tıkandığını, bir sahip 2012 Q5'te iç su baskınından sonra elektrik arızaları yaşadığını yazıyor.",
+            "onlem": "Sahipler tahliye hortumlarının önce tel ile açılmasını (basınçlı hava bağlantıları zorlayabilir), akü altı tahliye lastiğinin de kontrolünü öneriyor; hasar görmüş kablo demeti ve gövde kontrol modülü pahalı olabilir."
+          },
+          "kaynaklar": [
+            "https://www.audiworld.com/forums/q5-sq5-mki-8r-discussion-129/sunroof-leaks-2851670/",
+            "https://www.audiworld.com/forums/q5-sq5-mki-8r-discussion-129/solution-water-passenger-side-footwell-2870923/",
+            "https://www.audiworld.com/forums/q5-sq5-mki-8r-discussion-129/anyone-replaced-front-sunroof-drain-hose-2960814/",
+            "https://www.audizine.com/threads/2012-q5-post-internal-flood-electrical-issue.1006976/",
+            "https://www.audizine.com/threads/water-leak-please-help.893563/"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "BMW",
       "model": "1 Serisi (F20 LCI, 2015-2019)",
       "motor": "118i 1.5 turbo (B38)",
@@ -4860,6 +4888,35 @@
     },
     {
       "marka": "Fiat",
+      "model": "500 (2008-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Akü boşalması (parazit akım) ve buna bağlı elektrik arızaları",
+          "etkilenen_parca": "12V akü, Blue&Me / multimedya modülü, bagaj kapağı kablo demeti, gövde bilgisayarı",
+          "belirtiler": "Beklemede aküsünün boşalması, kontağa yanıt vermemesi, merkezi kilit ve arka silecek gibi parçaların kendiliğinden ya da düzensiz çalışması; akü değişiminden sonra da sürebilen sorun.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Fiat Forum'da moderatörler parazit akımın bilinen nedeni olarak Blue&Me modülünü gösteriyor; diğer şüpheliler sönmeyen bagaj / torpido lambaları, aşınmış kablo yalıtımı ve yapışan röleler; bagaj kapağındaki kablo hasarının 'son derece yaygın' olduğu yazılıyor. Şikâyetvar'da 500 ve 500L sahipleri akünün sürekli boşaldığını, akü ve alternatör değişiminden sonra da sürdüğünü, servisin kalıcı çözüm bulamadığını yazıyor. CarComplaints (ABD) 2014 ve 2015 model 500 için 22 ve 26 elektrik sistemi şikâyeti listeliyor.",
+            "cozum": "Fiat Forum'da Blue&Me modülünün ana fişi çekilince parazit akım kesiliyor (yazılımdan kapatmak yetmiyor); DonanımHaber'de bir sahip akü değişiminden sonra elektrik sorunlarının geçtiğini yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiat-500de-kronik-aku-sorunu-ve-yetersiz-servis-destegi",
+            "https://forum.donanimhaber.com/fiat-500-elektrik-elektronik-sorunlari--128534132",
+            "https://www.fiatforum.com/threads/battery-drain-parasitic-fuse-01-blocks-it.449370/",
+            "https://www.fiatforum.com/threads/parasitic-drain-on-the-battery-of-2013-fiat-500c-72-000-miles.502888/",
+            "https://www.fiatforum.com/threads/fiat-500-battery-drainage.479237/",
+            "https://www.carcomplaints.com/Fiat/500/electrical/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
       "model": "500 Dualogic (2008-)",
       "motor": "0.9 TwinAir / 1.2 Fire (Dualogic)",
       "uretim_yillari": {
@@ -6091,6 +6148,34 @@
       ],
       "aileler": [
         "ford-dps6-powershift"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Focus 3 (2011-2018)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Bagaja ve yedek lastik yuvasına su alma (arka tampon arkasındaki havalandırma contaları)",
+          "etkilenen_parca": "Arka tampon arkasındaki gövde havalandırmaları ve contaları, yedek lastik yuvası, bagaj zemini",
+          "belirtiler": "Yağmur ya da yıkama sonrası bagaj zemininde ve yedek lastik yuvasında su birikmesi; suyun bagaja ve ayak boşluklarına taşması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Ford Owners Club'ın Mk3 bagaj sızıntısı başlıklarında (biri en az dokuz sayfa sürüyor) suyun arka tamponun arkasındaki gövde havalandırmalarının contaları çevresinden girip yedek lastik yuvasında toplandığı, oradan bagaja ve ayak boşluklarına taştığı anlatılıyor; sahipler havalandırmalardan şüphelenmiş. CarComplaints (ABD) 2012 model için 8, 2013 model için 5 şikâyeti 'araca su sızıyor' başlığında topluyor; bu sayfalardan sızıntı yeri ayrıştırılamadı.",
+            "cozum": "Sahiplerin sık anlattığı çözümler: havalandırmaları yeniden sızdırmaz hâle getirmek ya da yedek lastik yuvasındaki lastik tapaları çıkararak suyun tahliyesini sağlamak."
+          },
+          "kaynaklar": [
+            "https://www.fordownersclub.com/forums/topic/95102-focus-mk3-boot-leak/",
+            "https://www.fordownersclub.com/forums/topic/70704-possible-mk3-boot-leak/page/6/",
+            "https://www.fordownersclub.com/forums/topic/70704-possible-mk3-boot-leak/page/9/",
+            "https://www.carcomplaints.com/Ford/Focus/2012/body_paint/water_leaking_into_vehicle.shtml",
+            "https://www.carcomplaints.com/Ford/Focus/2013/body_paint/water_leaks_into_interior.shtml"
+          ]
+        }
       ]
     },
     {
@@ -7410,6 +7495,33 @@
       ]
     },
     {
+      "marka": "Jeep",
+      "model": "Renegade (2015-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Cam tavan (MySky / sunroof) mekanizması ve panel arızaları",
+          "etkilenen_parca": "Cam tavan mekanizması, MySky çıkarılabilir tavan panelleri ve contaları",
+          "belirtiler": "Cam tavanın bir anda kapanmaması ya da çalışmaması, tavan bölgesinden ses; MySky panellerinde kırılma, panel aralıklarında conta boşluğu ve su sızıntısı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da bir sahip yaklaşık iki yıldır cam tavan mekanizmasında arıza yaşadığını, garanti kapsamında değişim yapıldığını ama garanti sonrası arızanın tekrarladığını yazıyor; 2015 model bir sahip sunroof'un bir anda kapanmamaya başladığını, bir başkası sunroof bölgesinden ses geldiğini bildiriyor (sunroof şikâyet sayfasında 23 kayıt listeleniyor). CarComplaints'e aktarılan NHTSA şikâyetlerinde bir sahip MySky parçalarının sık kırıldığını, panelin otoyolda yerinden çıktığını yazıyor; aynı sitede 2015 model için üç iç mekâna su sızması şikâyeti var. Arama sonuçlarında 2015-2016 Renegade için MySky panel gürültüsü ve conta aralığını kapsayan bir servis bülteni de listeleniyor.",
+            "maliyet": "CarComplaints'teki bir şikâyette Jeep'in onarım için yaklaşık 3.500 dolar istediği yazılıyor (tek sahibin aktarımı)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/jeep/renegade/kronik-sorun",
+            "https://www.sikayetvar.com/renegade/sunroof",
+            "https://m.carcomplaints.com/Jeep/Renegade/2016/miscellaneous/unknown_or_other.shtml",
+            "https://www.carcomplaints.com/Jeep/Renegade/2015/body_paint/water_leaks_into_interior.shtml"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Kia",
       "model": "Ceed (CD, 2018-)",
       "motor": "1.6 CRDi 115/136 (6MT ve 7DCT)",
@@ -7786,6 +7898,33 @@
       ],
       "aileler": [
         "hyundai-kia-gamma-gdi"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Sportage (SL, 2010-2015)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Tavan ve cam tavan çevresinden su alma",
+          "etkilenen_parca": "Tavan plastiği (arka köşeler), cam tavan çerçevesi, rayı ve tahliye hortumları, tavan döşemesi",
+          "belirtiler": "Tavanın arka köşelerinden (özellikle sol arkadan) su gelmesi, tavan döşemesinin altında ıslanma; cam tavan rayında biriken döküntü.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2012 model bir Sportage sahibi sol arka tavan köşesinden su geldiğini, tavan plastiğinde gözle görülür hafif bir çatlak olduğunu ve sorunun kronik olduğunu yazıyor; yetkili servis sorunu kabul etmiş ama garanti bittiği için ücret istemiş. Başka bir kullanıcı tavan döşemesini söktüğünde iki yanda aynı yerde yaklaşık 20 cm'lik çatlak gördüğünü ve bunun 2012 modellerde yaygın göründüğünü yazıyor. Kia Forums'un Sportage 3. nesil bölümünde arka su sızıntısı ve cam tavan rayına dolan döküntü başlıkları var.",
+            "teshis": "Kia Forums'ta (model ayrımı olmayan başlıklarda) sızıntı kaynağı olarak tahliye hortumlarının tıkanması ya da bükülmesi, çatı rayı bağlantıları ve arka cam yıkama memesi contası sayılıyor; kaynağı bulmak için çatıya hortumla su tutup tahliyeleri ve bağlantıları tek tek denemek öneriliyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/kia/kia-sportage-tavan-su-almasi-sorunu",
+            "https://kia-forums.com/3g-2011-2016-sportage/76333-rear-water-leak.html",
+            "https://kia-forums.com/3g-2011-2016-sportage/84501-sunroof-problem.html",
+            "https://kia-forums.com/3g-2011-2016-sportage/76715-debris-sunroof-tracks.html"
+          ]
+        }
       ]
     },
     {
@@ -9071,6 +9210,34 @@
     },
     {
       "marka": "Nissan",
+      "model": "Qashqai (J11, 2014-2021)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Panoramik cam tavan, tavan sensörü ve bagaj çevresinden su alma",
+          "etkilenen_parca": "Panoramik cam tavan contası ve tahliyesi, tavan döşemesindeki iç hareket sensörü, bagaj kapağı çevresi",
+          "belirtiler": "Yağmur ya da yıkama sonrası bagaj halısında ve yan döşemede (özellikle sağ tarafta) ıslanma, arka koltukta su damlaması, tavan lambası ve iç sensör çevresinden su gelmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Qashqai Forums'taki J11 başlıklarında sızıntı tek bir parçaya bağlanmıyor: bir sahip tavan döşemesindeki iç hareket sensörünü çıkardığında içinin su dolu olduğunu yazıyor; yorumcular panoramik tavanın sabit cam olduğunu (açılmadığını), bu yüzden suyun cam contasından, tahliyeden ya da kötü takılmış bir ön camdan gelebileceğini söylüyor; bagajın sağ tarafındaki su için de panoramik tavan contaları ve tahliye delikleri sorgulanıyor. Şikâyetvar'da bir sahip aracın bagaja iki taraftan su aldığını ve yerini bulamadığını, başka bir kayıtta suyun anten yerinden girdiğini yazıyor (kayıtların bir kısmı 2014-2016 model yıllarına ait).",
+            "onlem": "Forumdaki yorumlara göre ön cam değişiminde orijinal cam ve doğru montaj aranmalı: kötü takılmış yedek ön cam sızıntıya yol açabiliyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/qashqai/yagmur",
+            "https://www.sikayetvar.com/nissan/nissan-qashqai-aracim-bagaja-su-aliyor-her-iki-taraftan",
+            "https://www.qashqaiforums.co.uk/viewtopic.php?t=13809",
+            "https://www.qashqaiforums.co.uk/viewtopic.php?t=11996",
+            "https://www.qashqaiforums.co.uk/viewtopic.php?p=111242"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Nissan",
       "model": "X-Trail (T32, 2014-2021)",
       "motor": "1.6 dCi (R9M, Xtronic CVT)",
       "uretim_yillari": {
@@ -9394,6 +9561,33 @@
       ],
       "aileler": [
         "opel-a16xer-1-6"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra J (2010-2015)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektronik el freni (EPB) arızası: 'servis park freni' uyarısı, el freninin inmemesi ya da tutmaması",
+          "etkilenen_parca": "Elektronik el freni modülü, düğmesi ve kablosu; fren ve debriyaj anahtarları",
+          "belirtiler": "'Servis park freni' uyarısı; el freninin inmemesi ya da bazı araçlarda tam tutmaması (yokuşta kayma).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de nedenler olarak balata aşınması, el freni modülü, fren sensörleri ve elektrik sorunları sayılıyor; bir sahip 2014 Astra J'sinin garanti döneminde el freninin tam tutmadığını servise bildirdiğini ve sonradan aracın yokuşta kaydığını anlatıyor. Astra Owners Network ve Vauxhall Owners Network'te sahipler sistemin modül ile kaliper arasındaki bir kabloyla çalıştığını, fren ve debriyaj anahtarları için EPB uyarısına yol açabilen bir geri çağırma olduğunu, erken araçlarda arızalı debriyaj anahtarının EPB'yi vaktinden önce bırakabildiğini yazıyor.",
+            "cozum": "Forumlarda bir olayda uyarı kopmuş kablonun değişimiyle, bazılarında bayinin sistemi tanılama cihazıyla yeniden kalibre etmesiyle giderilmiş; Vauxhall Owners Network'te bir 2011 Astra'da el freni yalnızca uygulanıp bırakılmamış ve başlıkta çözülmemiş görünüyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/astra-j-elektronik-el-freni-arizasi--91913340",
+            "https://forum.donanimhaber.com/astra-j-el-freni-bosaldi-kaza--139214375",
+            "https://www.astraownersnetwork.co.uk/threads/astra-j-electronic-handbrake-failure.111684/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/electronic-parking-brake-problem.894385/"
+          ]
+        }
       ]
     },
     {
@@ -10530,6 +10724,46 @@
       "kronik_sorunlar": [],
       "aileler": [
         "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "308 (T9, 2013-2021)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Arka aks (travers) gıcırtısı, tıkırtısı ve kaynak çatlağı",
+          "etkilenen_parca": "Arka aks / arka travers (torsiyon) kirişi ve kaynakları",
+          "belirtiler": "Arkadan gelen gıcırtı, metalik sürtünme ve tıkırtı; bazı araçlarda arka aks kaynağında ince çatlak.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Honest John sahip yorumlarında 2015 model 308'lerde arka akstan tıkırtı (yaklaşık 10.000 mil; atölye 'bilinen arıza' demiş, sesi kesen bir modifikasyon kiti takmış, değiştirilmiş aks üretildiğini söylemiş), yaklaşık 30.000 milde metalik sürtünme, arka süspansiyondan gıcırtı (bayi 'kusurlu arka kiriş' deyip delip köpükle doldurmayı önermiş, ses geçmemiş) ve atölyenin arka aks kaynağındaki çatlak olarak bulduğu, bayinin garanti dahil neden bulamadığı ince çatlaklar anlatılıyor. DonanımHaber'de 2015 model 308 1.6 BlueHDi sahibi arka travers gıcırtısından yakınıyor; bir yorumcu bunun kronik bir arka düzen hatası ya da arızalı parça olabileceğini yazıyor.",
+            "cozum": "Honest John'daki sahiplerden birinde modifikasyon kiti sesi kesmiş; kirişin delinip köpükle doldurulması bir başka araçta sonuç vermemiş."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/peugeot-308-torsiyon-ve-travers-sorunu--130136611",
+            "https://www.honestjohn.co.uk/peugeot/308/2013/",
+            "https://www.honestjohn.co.uk/owner-reviews/peugeot/308-sw-2014/?review=8691"
+          ]
+        },
+        {
+          "sorun_adi": "Klima gazı kaçırma (kondenser) ve pahalı gaz dolumu",
+          "etkilenen_parca": "Klima kondenseri ve R1234yf klima gazı",
+          "belirtiler": "Klimanın soğutmayı bırakması; 'gaz bitti' gerekçesiyle tekrar tekrar ücretli gaz dolumu.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Honest John'daki bir 308 sahibi Peugeot'un 'bilinen zayıflık' gerekçesiyle kondenseri bedelsiz verdiğini ama takma ücreti (yaklaşık 190 sterlin) ve R1234yf dolumu (yaklaşık 220 sterlin) istediğini yazıyor (2016 dolayı, tek aktarım); başka başlıklarda R1234yf'in R134a'dan daha hızlı sızdığı ve dolumun pahalı olduğu anlatılıyor. Şikâyetvar'da 308 sahipleri 'klima gazı bitti' gerekçesiyle yaklaşık 2.700 TL ücret alındığını ve klima sorunlarının tekrarladığını yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/308/klima",
+            "https://www.honestjohn.co.uk/forum/post/114720/peugeot-308-gt---308",
+            "https://www.honestjohn.co.uk/user-article/114611/peugeot-308-nissan"
+          ]
+        }
       ]
     },
     {
@@ -11695,6 +11929,38 @@
     },
     {
       "marka": "Renault",
+      "model": "Scenic 3 / Grand Scenic (2009-2016)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektronik park freni (EPB) arızası: park freni uyarısı, bırakmama / uygulamama",
+          "etkilenen_parca": "Elektronik park freni düğmesi, arka kaliper motorları ve kabloları, kontrol modülü",
+          "belirtiler": "Göstergede park freni uyarısı; park freninin uygulanmaması ya da bırakılmaması; orta konsolun kilitli kalması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Honest John forumunda bir sahip arka kaliperlerin elektrik motorlarının zorlu bir ortamda çalıştığını, nem girince bozulduklarını yazıyor; Planète Renault'da Scénic III sahipleri kaliper fişinin hemen arkasında kopmuş bir kablo, hafif sıkışmış kaliper pistonu ve fiş sorunları buluyor, bir kullanıcı bayinin 2015 tarihli bir teknik notla kaliper motoru besleme kablosunda tasarım hatasına işaret ettiğini aktarıyor (doğrulanmadı). DonanımHaber'de Scenic 3 sahipleri EPB'nin devre dışı kalmasını ve orta konsolun kilitlenmesini bilinen kronik sorunlar arasında sayıyor.",
+            "cozum": "DonanımHaber'de fren pedalına basılıyken düğmeyi aşağı itmek ya da fren düğmesine yaklaşık 5 saniye basılı tutmak EPB'yi bırakabiliyor; Planète Renault'da kaliper fişinin ve kablosunun, piston hareketinin kontrolü ilk adım olarak geçiyor.",
+            "maliyet": "Honest John'da bayilerin tüm motoru ya da kaliperi değiştirmeyi önerdiği, bir motor teklifinin yaklaşık 750 sterlin olduğu yazılıyor; DonanımHaber'de bir kullanıcı ünite değişiminin o dönem yaklaşık 4.500 TL tuttuğunu belirtiyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/scenic-park-fren-ve-orta-konsol-sorunu-cozumu--141621435",
+            "https://forum.donanimhaber.com/renault-grand-scenic-3-scenic-3--64671597-61",
+            "https://forum.donanimhaber.com/renault-grand-scenic-3-scenic-3--64671597-105",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=103940",
+            "https://www.honestjohn.co.uk/askhj/answer/41990/why-is-my-renault-s-electric-parking-brake-malfunctioning-",
+            "https://www.planeterenault.com/forum/scenic-iii-frein-de-parking-a-controler-regle-t48188.html",
+            "https://www.planeterenault.com/forum/scenic-iii-pb-connecteur-frein-de-parking-scenic-3-t56647.html",
+            "https://www.planeterenault.com/forum/scenic-iii-frein-de-parking-a-controler-t51644.html"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
       "model": "Scenic 4 (2016-2022)",
       "motor": "1.5 dCi 110 (K9K, EDC)",
       "uretim_yillari": {
@@ -12826,6 +13092,34 @@
       ]
     },
     {
+      "marka": "Skoda",
+      "model": "Yeti (2009-2017)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kapı kablo demetinde kopma: cam, ayna ve merkezi kilit arızası",
+          "etkilenen_parca": "Ön kapı kablo demeti (gövde-kapı geçişindeki lastik körük), kapı kontrol modülü",
+          "belirtiler": "Cam düğmeleri, ayna kumandaları ve merkezi kilidin çalışmaması; bazı araçlarda onarım sonrası hava yastığı arıza uyarısı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Briskoda'da sahipler kabloların gövde ile kapı arasındaki lastik körükte koptuğunu anlatıyor (bir sahip sürücü tarafında yedi kopuk kablo saymış); nedeni olarak demetin yeterince uzun olmaması ve esneme payı bırakmaması gösteriliyor, sonradan çıkan revize demetin de bazı araçlarda bozulduğu yazılıyor. Parkers rehberi kapı kablolamasını sık görülen bir elektrik arıza kaynağı sayıyor ve titreyen aydınlatma ile merkezi kilit sorunlarını uyarı işareti olarak anıyor.",
+            "maliyet": "Briskoda'da sahipler demet için yaklaşık 65-120 sterlin (bir parça satıcısında yaklaşık 61 euro + kargo) ve bayi işçiliği yazıyor; bir sahip iki ön kapı demetinin bayide değişimi için 430 sterlin ödemiş.",
+            "onlem": "Sahipler demeti gövde tarafındaki körükten kontrol etmeyi ve garantiye yakın / garanti sonrası araçlarda bayiden iyi niyet desteği sormayı öneriyor."
+          },
+          "kaynaklar": [
+            "https://www.briskoda.net/forums/topic/410797-damage-to-right-front-door-wiring-loom-skoda-yeti-2010/",
+            "https://www.briskoda.net/forums/topic/299401-electrical-failures-on-yeti/",
+            "https://www.briskoda.net/forums/topic/486701-broken-faulty-drivers-door-wiring-loom/",
+            "https://www.parkers.co.uk/skoda/yeti/review/"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Subaru",
       "model": "Forester (SJ, 2013-2018)",
       "motor": "2.0 boxer 150 (FB20)",
@@ -12947,6 +13241,53 @@
             "https://forum.donanimhaber.com/tesla-model-y-kullananlar-kulubu-2023--155488676-933",
             "https://forum.donanimhaber.com/tesla-model-y-kullananlar-kulubu-2023--155488676",
             "https://eksisozluk.com/tesla-model-y--5029928?p=332"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Tesla",
+      "model": "Model Y (2023-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Panoramik cam tavanın darbe olmadan çatlaması",
+          "etkilenen_parca": "Panoramik cam tavan ve gövdeye yapıştırıldığı hat",
+          "belirtiler": "Cam tavanda darbe izi olmadan, çoğunlukla ilk aylarda ya da düşük kilometrede çatlak (ağ gibi ince çatlak deseni dahil); garanti kapsamına alınmama ve yüksek cam bedeli.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2023-2025 model Model Y sahipleri cam tavanın darbe olmadan çatladığını (biri 9.149 km'de), servisin darbe kaynaklı sayıp garantiyi reddettiğini ya da kaskoya yönlendirdiğini yazıyor; ısı / genleşme gibi nedenler sahiplerin kendi teorisi, doğrulanmış değil. Tesla Motors Club'ta çatlak ve kırılma başlıkları var (2020-2021 üretimi araçlar dahil). InsideEVs'e göre 2020'de bir Model Y'nin cam tavanı sürüş sırasında yerinden çıkmış, Tesla bazı sahipleri tavan kontrolüne çağırmış; Munro'nun söküm incelemesinde tavan camını yapıştıran üretanın ön bağlantıya taştığı görülmüş (kök neden doğrulanmış değil).",
+            "maliyet": "Şikâyetvar'da servisin yaklaşık 85.000 TL ve 100.000 TL teklif ettiği, ya da kasko yoluna yönlendirdiği anlatılıyor (tek tek sahiplerin aktarımı)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/tesla/tesla-model-y-tavan-cami-catlamasi",
+            "https://www.sikayetvar.com/tesla/tesla-model-y-sr-cam-tavan-catlamasi",
+            "https://www.sikayetvar.com/tesla/tesla-model-y-cam-tavan-catlagi-garanti-kapsamina-alinmadi-musteri-magdur-ediliyor",
+            "https://www.sikayetvar.com/tesla/tesla-model-y-cam-tavaninda-nedensiz-catlak-ve-garanti-sorunu",
+            "https://teslamotorsclub.com/tmc/threads/model-y-crack-in-the-glass-roof.193549/",
+            "https://teslamotorsclub.com/tmc/threads/extremely-fragile-top-glass-roof-model-y.243090/",
+            "https://teslamotorsclub.com/tmc/threads/crack-on-the-glass-roof-not-repairable.327223/",
+            "https://insideevs.com/news/419507/model-y-biw-light-tesla-glass-incidents/",
+            "https://insideevs.com/news/449623/tesla-calling-model-y-owners-roof-inspection/"
+          ]
+        },
+        {
+          "sorun_adi": "Ön süspansiyon ve kabinde gıcırtı, metalik vuruntu sesleri",
+          "etkilenen_parca": "Ön süspansiyon, kapı içi kaplamalar, cam birleşimleri",
+          "belirtiler": "Birkaç bin km sonra ön süspansiyondan gıcırtı, çukurlarda ses ve sarsıntı, bozuk yolda tekrarlayan metalik vuruntu, yüksek hızda kapı ve ayna çevresinden rüzgar uğultusu ve kaplama sesleri.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Ekşi Sözlük'te bir kullanıcı ön süspansiyonların yaklaşık 2000 km sonra gıcırdamaya başladığını yazıyor ve ön cam altındaki su giderlerinin bu sesle ilişkili olabileceğini öne sürüyor; Şikâyetvar'da sahipler çukurlarda ses / sarsıntı ve metalik vuruntu, kapı içi ve cam birleşimlerinden trim sesleri bildiriyor; DonanımHaber kulüp başlığında benzer gıcırtı şikâyetleri ve yazılımla giderilebilen küçük sorunlar tartışılıyor. Nedenler sahiplerin tahmini, servis teşhisi yok."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/tesla/tesla-model-y/model?page=2",
+            "https://www.sikayetvar.com/tesla/teslim-edilen-tesla-model-y-suspansiyon-sorunu-test-araciyla-uyusmuyor",
+            "https://eksisozluk.com/entry/155265177",
+            "https://forum.donanimhaber.com/tesla-model-y-kullananlar-kulubu-2023--155488676-933"
           ]
         }
       ]
@@ -13247,6 +13588,33 @@
       ],
       "aileler": [
         "toyota-m15a-fks"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla (E210, 2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Multimedya sisteminde CarPlay / Bluetooth sesinin gelmemesi, kendiliğinden kapanma ve tuş arızaları",
+          "etkilenen_parca": "Multimedya ekranı / başlık ünitesi (CarPlay, Bluetooth, yazılım)",
+          "belirtiler": "Kabloyla bağlı CarPlay'de harita ve müzik ekranı açılıp sesin gelmemesi; ekranın kendi kendine kapanıp açılması; ses kısma tuşunun çalışmaması; yazılım güncellemesinden sonra telefon sesinin kesilmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Nedeni kaynaklarda belirtilmiyor. DonanımHaber'de bir 2020 model sahibi kablolu CarPlay ve Bluetooth'ta sesin gelmediğini (radyoda sorun yok) yazıyor; Şikâyetvar'da bir kullanıcı ekranın kendi kendine kapanıp açıldığını ve bayinin yapılacak bir şey olmadığını söylediğini, bir 2025 model sahibi ses kısma tuşunun çalışmadığını ve yetkili servisin çözemediğini, bir başkası yazılım güncellemesinden sonra telefon sistemi sesinin kesildiğini bildiriyor.",
+            "cozum": "Bir sahip akü kutup başını söküp yaklaşık 10 dakika beklemenin sesi geri getirdiğini yazıyor (tek kişinin deneyimi, kalıcılığı belirsiz); bir kullanıcı Toyota uygulamasında multimedya için bir geri çağırma kaydı gördüğünü yazıyor, bu yüzden şasi numarasıyla açık kampanya sorulması mantıklı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/corolla/multimedya",
+            "https://www.sikayetvar.com/toyota/multimedya-ekranindaki-ses-kisma-tusu-calismiyor-yetkili-servis-cozum-sunamadi",
+            "https://forum.donanimhaber.com/2020-corolla-multimedya-ses-sorunu--157682725",
+            "https://forum.donanimhaber.com/2021-corolla-carplay-sorunu--159520052"
+          ]
+        }
       ]
     },
     {
@@ -14600,6 +14968,36 @@
       "aileler": [
         "ford-dps6-powershift",
         "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (2008-2017)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Ön cam yapışması, tahliye ve tavan sızdırmazlık hatlarından ayak boşluğuna ve bagaja su alma",
+          "etkilenen_parca": "Ön cam yapıştırma hattı, cam tavan ve ön cam tahliye hortumları, tavan rayı contası, anten contası",
+          "belirtiler": "Yağmur ya da yıkama sonrası ön ve arka ayak boşluğunda, bagajda su; halıda uzun süre kalan ıslaklık ve koku.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "SwedeSpeed ve Volvo Owners Club forumlarında sahipler suyu ön cam üst köşelerindeki yapıştırma hatasına (bir 2011 XC60'ta Volvo'nun iyi niyet programıyla bayide giderilmiş), hatalı ön cam montajına, cam tavan / ön cam tahliye hortumlarının ayrılmasına ya da çamurla tıkanmasına, tavan rayı contasına ve B sütununa, anten contasına bağlıyor; bazı sahiplerde bayinin bulduğu neden gerçek neden çıkmamış. Parkers ilk nesil XC60'ta ön cam çevresinden su girişini erken araçlarda görülen bir sorun olarak anıyor.",
+            "cozum": "Forumlarda ön cam yapıştırması yenilenen ya da cam değiştirilen araçlarda sorun geçmiş; kalın halı altlığı suyu uzun süre tuttuğu için halının sökülüp kurutulması gerektiği yazılıyor."
+          },
+          "kaynaklar": [
+            "https://www.swedespeed.com/threads/water-in-rear-passenger-footwell-2015-xc60.652461/",
+            "https://www.swedespeed.com/threads/roof-leak-on-2012-xc60.648292/",
+            "https://www.swedespeed.com/threads/xc60-sunroof-leak-are-there-rear-drains.231730/",
+            "https://www.volvoforums.org.uk/showthread.php?t=284844",
+            "https://www.volvoforums.org.uk/forum/technical-topics/s60-v60-11-18-xc60-09-17-general/263403-water-sloshing-xc60",
+            "https://www.volvoforums.org.uk/forum/technical-topics/s60-v60-11-18-xc60-09-17-general/321772-leak-in-boot-and-driver-footwell",
+            "https://www.parkers.co.uk/volvo/xc60/estate/review/"
+          ]
+        }
       ]
     }
   ]

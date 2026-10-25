@@ -9924,40 +9924,6 @@
       "not": "Cam tavan perdesi arızası DonanımHaber ve Şikâyetvar'da geçiyor (iki nesli ve tekil vakaları kapsıyor). Soğutma sistemi / su eksilmesi ve piston arızaları motor konusu; panoramik tavan çatlaması (2022 model), silecek motoru ve korna arızası tek şikâyet; kapı su kaçağı ve multimedya için kaynak çıkmadı."
     },
     {
-      "marka": "Ford",
-      "model": "Focus 3",
-      "yillar": "2011-2018",
-      "motor": "Tüm motorlar (model geneli)",
-      "kademe": 1,
-      "eslesme": {
-        "model": [
-          "Focus 3 (2011-2018)"
-        ],
-        "motor": [
-          "Tüm motorlar"
-        ]
-      },
-      "not": "Şikâyetvar'da SYNC / multimedya ekranının donması, kontak kapandıktan sonra ekranın açık kalması ve CarPlay kopması (2016-2025 model yılları, çoğu Focus 4) tekrar ediyor; DonanımHaber ve Otopark'taki kapı kilidi başlıkları eski Focus'lara ya da çocuk kilidi / hıza bağlı otomatik kilit konusuna ait. Focus 3'e özgü ikinci site yok.",
-      "sonuc": "yetersiz-kanit"
-    },
-    {
-      "marka": "Opel",
-      "model": "Astra J",
-      "yillar": "2009-2015",
-      "motor": "Tüm motorlar (model geneli)",
-      "kademe": 1,
-      "eslesme": {
-        "model": [
-          "Astra J (2009-2015)"
-        ],
-        "motor": [
-          "Tüm motorlar"
-        ]
-      },
-      "not": "Şikâyetvar'da tavanda kabarma ve boya atması (2015 ve 2017 model) ile kaputta boya atması, bcm beynine kaloriferden su sızması tekil; forumda Astra J'ye özgü kronik boya iddiası doğrulanamadı (sonuçlar Astra K ve eski modellere ait).",
-      "sonuc": "yetersiz-kanit"
-    },
-    {
       "marka": "Opel",
       "model": "Corsa E / F",
       "yillar": "2014-",
@@ -10547,23 +10513,6 @@
       "sonuc": "yetersiz-kanit"
     },
     {
-      "marka": "Jeep",
-      "model": "Renegade / Compass",
-      "yillar": "2015-",
-      "motor": "Tüm motorlar (model geneli)",
-      "kademe": 2,
-      "eslesme": {
-        "model": [
-          "Renegade / Compass"
-        ],
-        "motor": [
-          "Tüm motorlar"
-        ]
-      },
-      "not": "Şikâyetvar'da Renegade'de multimedya ekranının (yarısının) sıcakta kararması, cam tavan mekanizması ve cam lastiği yırtılması, Compass'ta start-stop ve motor uyarıları tekrar ediyor; ikinci bağımsız site çıkmadı.",
-      "sonuc": "yetersiz-kanit"
-    },
-    {
       "marka": "Mini",
       "model": "Countryman / Cooper",
       "yillar": "2007-",
@@ -10598,23 +10547,6 @@
       "sonuc": "yetersiz-kanit"
     },
     {
-      "marka": "Audi",
-      "model": "A4 B8 / A6 C7 / Q5",
-      "yillar": "2008-2018",
-      "motor": "Tüm motorlar (model geneli)",
-      "kademe": 2,
-      "eslesme": {
-        "model": [
-          "A4 B8 / A6 C7 / Q5"
-        ],
-        "motor": [
-          "Tüm motorlar"
-        ]
-      },
-      "not": "Bu aramada MMI ekran, far, cam tavan, kapı camı ve ön takım için A4 B8 / A6 C7 / Q5'e özgü kaynak çıkmadı; sonuçlar 2.0 TFSI yağ eksiltmesi, S tronic / Multitronic ve 2.0 TDI motor konularına (ayrı kayıtlarda) ve 2022-2024 model A6'ya ait. A6'da kaput açma kolu çevresinden su sızması tek şikâyet.",
-      "sonuc": "yetersiz-kanit"
-    },
-    {
       "marka": "Suzuki",
       "model": "Vitara",
       "yillar": "2015-",
@@ -10646,6 +10578,384 @@
         ]
       },
       "not": "Şikâyetvar'da L200'de DPF uyarıları, farların kendiliğinden açılıp kapanması ve silecek / sinyal kollarının çalışmaması tek sitede; ASX için kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Nissan",
+      "model": "Qashqai J11",
+      "yillar": "2014-2021",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Qashqai (J11, 2014-2021)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Qashqai Forums başlıkları J11'e ait (sabit panoramik tavan); Şikâyetvar kayıtlarında nesil yazmıyor (2014-2016 model yılları geçiyor). Nissan Connect (bilgi-eğlence) kesintileri Qashqai Forums ve Honest John'da anılıyor ama Türkçe kaynakla eşleşmedi; kayda alınmadı."
+    },
+    {
+      "marka": "Ford",
+      "model": "Focus 3",
+      "yillar": "2011-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Focus 3 (2011-2018)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Bagaj sızıntısı için Türkçe sitelerde Focus 3'e bağlanabilen başlık çıkmadı (Şikâyetvar 'su' sayfası nesil belirtmiyor, DonanımHaber başlıkları Focus 2 / 4'e ait); kanıt Ford Owners Club ve CarComplaints'ten. Şikâyetvar'da SYNC / multimedya donması çoğunlukla Focus 4 model yıllarına ait; Parkers'ın Mk3 rehberi gevşek alt kapı fitillerini ve aralıklı çalışan kapı kilitlerini anıyor ama ikinci site çıkmadı; kayda alınmadı."
+    },
+    {
+      "marka": "Kia",
+      "model": "Sportage SL",
+      "yillar": "2010-2015",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Sportage (SL, 2010-2015)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "2025 model Sportage'da cam tavan fitil deformasyonu (garanti dışı 16.000 TL talebi) yeni nesle ait olduğundan kayda katılmadı. Kia Forums'taki model ayrımı olmayan başlıklar (çatı rayı bağlantıları, cam yıkama memesi contası) yalnızca açıklamada geçiyor."
+    },
+    {
+      "marka": "Fiat",
+      "model": "500",
+      "yillar": "2008-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "500 (2008-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "500 Dualogic, 500L ve 500X ayrı satırlardır; Grande Panda (elektrikli) şikâyetleri bu kayda katılmadı. Panda için kapı kilidi ya da silecek gibi modele özgü kronik bir sorun doğrulanamadı."
+    },
+    {
+      "marka": "Tesla",
+      "model": "Model Y",
+      "yillar": "2023-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Model Y (2023-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Model 3 için kronik sorun bilgisi çıkmadı (Şikâyetvar ve DonanımHaber sonuçları ağırlıklı Model Y). Model Y'de yolcu kapı camının kapı kapanmadan yukarı kapanması ve ön cam çatlakları Şikâyetvar'da tekil kaldı."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "308 T9",
+      "yillar": "2013-2021",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "308 (T9, 2013-2021)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "1.2 PureTech (bujiler, kayış), AdBlue ve bilgi-eğlence eleştirileri motor kayıtlarında ya da yalnızca İngiliz sitelerinde kaldı; DonanımHaber / Şikâyetvar'da 308 için akü ve katalizör şikâyetleri tekil."
+    },
+    {
+      "marka": "Audi",
+      "model": "Q5 8R",
+      "yillar": "2008-2017",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Q5 (8R, 2008-2017)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Türkçe sitelerde Q5 / Q3 cam tavan su alma başlığı çıkmadı; kanıt yalnızca uluslararası forumlardan (AudiWorld, Audizine) — Türkiye'deki sıklığı doğrulanmadı."
+    },
+    {
+      "marka": "Renault",
+      "model": "Scenic 3 / Grand Scenic",
+      "yillar": "2009-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Scenic 3 / Grand Scenic (2009-2016)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Laguna 3'te de EPB arızası bildiriliyor ama Laguna 3'e özgü yalnızca tek Fransızca başlık çıktı; Scenic 3 ile aynı modülü paylaşıp paylaşmadığı doğrulanamadı, bu yüzden kayda katılmadı."
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra J",
+      "yillar": "2010-2015",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Astra J (2010-2015)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da tavanda kabarma ve boya atması (2015 ve 2017 model), kaputta boya atması ve bcm beynine kaloriferden su sızması tekil; forumda Astra J'ye özgü kronik boya iddiası doğrulanamadı."
+    },
+    {
+      "marka": "Jeep",
+      "model": "Renegade",
+      "yillar": "2015-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Renegade (2015-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da 2018-2020 modelde multimedya ekranının (yarısının) sıcakta kararması ve garanti dışı ücretli ekran değişimi tekrar ediyor; ikinci site çıkmadığı için kayda alınmadı."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Yeti",
+      "yillar": "2009-2017",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Yeti (2009-2017)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Briskoda'da bagaj kapağı kablo demetinin bozulması (arka silecek, yıkama ve merkezi kilidin birden devre dışı kalması) iki başlıkta geçiyor ama tek site olduğundan ayrı sorun yazılmadı; Parkers pası (kapı alt kenarları) ve Haldex bakımını anıyor (tek site). Türkçe sitelerde Yeti'ye özgü kapı kablo demeti başlığı çıkmadı."
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (2008-2017)",
+      "yillar": "2008-2017",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "XC60 (2008-2017)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Türkçe sitelerde XC60'a bağlanan su kaçağı başlığı çıkmadı (Şikâyetvar'da 2025 'yeni kasa' XC60 için tek bir 'kronik' uyarısı var, konusu belirsiz); kanıt uluslararası forumlardan (SwedeSpeed, Volvo Owners Club) ve Parkers rehberinden."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla E210",
+      "yillar": "2019-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Corolla (E210, 2019-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da yalıtım / rüzgar sesi (2023-2024 model, 'tüm modellerde kronik' denmiş) ve kapı-cam sesleri tekrar ediyor; DonanımHaber'daki rüzgar sesi tartışmaları genel kalıyor, ikinci site çıkmadığı için ayrı sorun olarak yazılmadı."
+    },
+    {
+      "marka": "Audi",
+      "model": "A4 B8 / A6 C7",
+      "yillar": "2008-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A4 B8 / A6 C7"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Bu aramada MMI ekran, far, cam tavan, kapı camı ve ön takım için A4 B8 / A6 C7'ye özgü kaynak çıkmadı; sonuçlar 2.0 TFSI yağ eksiltmesi, S tronic / Multitronic ve 2.0 TDI motor konularına (ayrı kayıtlarda) ve 2022-2024 model A6'ya ait. A6'da kaput açma kolu çevresinden su sızması tek şikâyet. Q5 8R ayrı satırda.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A5",
+      "yillar": "2004-2013",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Octavia A5"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Briskoda'da Octavia Mk2 (2004-2013) için bagaj ve yedek lastik yuvasına su alması (bagaj fitilindeki tahliye deliklerinin yetersizliği, arka cam yıkama borusunun bağlantıdan kopması), ön cam altı (plenum) tahliyelerinin tıkanması ve ayak boşluğuna su gelmesi çok sayıda başlıkta anlatılıyor; ama Parkers'ın Octavia rehberi 2013-2020 (A7) kasaya ait, Şikâyetvar'da yalnızca 2014 Octavia'da stepne yuvasında su birikmesi ve nesil belirtmeyen bir 'her yağmurda su alıyor' kaydı çıktı, DonanımHaber'da Octavia'ya özgü başlık yok. İkinci bağımsız site A5'e bağlanamadığı için kayıt açılmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Toyota",
+      "model": "C-HR",
+      "yillar": "2016-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C-HR"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da 2025 model C-HR'da ve Passion donanımlı bir araçta üçüncü ayda ön camın darbe olmadan çatlaması (garanti / kasko ve cam tedarik gecikmeleri) tekrar ediyor; Honest John ve CarComplaints'te ise erken 2017 model C-HR'larda ön cam çatlaması bildiriliyor. Türkçe kayıtların hangi nesle ait olduğu net olmadığından (2025 model ikinci nesil) aynı model geneli sorun olarak yazılmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Range Rover Evoque",
+      "yillar": "2011-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Range Rover Evoque"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Evoque'a bağlanan su kaydı 2024 model araçta 4x4 modunda sudan geçerken içerinin dolması (garanti reddi); DonanımHaber'deki 'Evoque kronik mi' başlığı genel. CarComplaints'te ön cam çevresi ve silecek kutusu hortumundan su sızması ile bir Land Rover servis aksiyonu (N221) anılıyor ama sayfalardaki örnekler 2020 model (ikinci nesil) araca ait; ilk nesil için ikinci site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Honda",
+      "model": "Jazz",
+      "yillar": "2008-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Jazz"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Parkers 2008-2015 Jazz'da bagaj fitillerinin kaçırıp zemin altındaki depolama bölmesinde su birikebildiğini yazıyor; DonanımHaber'daki yedek lastik bölmesine su başlıkları genel bagaj sızıntısı ya da 2004 model Jazz'a ait, Jazz GE / GK'ya bağlanamadı. Parkers'ın 2015-2020 Jazz için yavaş bilgi-eğlence sistemi (CarPlay / Android Auto yok) eleştirisi tek site.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Audi",
+      "model": "Q3 8U",
+      "yillar": "2011-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Q3 8U"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Audizine'da 2016-2018 Q3'te en yaygın sorunun cam tavan sızıntısı olduğunu yazan bir başlık var; AudiWorld'ün Q3 'su sızıntısı' başlıkları ise 2019-2020 (ikinci nesil) araçlara ait. 8U için ikinci site ve Türkçe kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Tiguan 5N",
+      "yillar": "2008-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Tiguan 5N"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "VWVortex'te Tiguan Mk1 için ayak boşluğu su (plenum, cam tavan tahliyesi, klima gider hortumu) başlıkları var ama çoğu PQ35 / PQ46 ortak platformundaki (Passat, Phaeton vb.) arabalara ait ve 5N şasisine bağlanamadı; DonanımHaber'daki '2016 yeni kasa Tiguan su alıyor' başlığı AD1 nesline ait; servisin 'Tiguan'larda su tahliyesi sorunu sık' dediği tek kullanıcı aktarımı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 6",
+      "yillar": "2008-2013",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Golf 6"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "VWVortex'teki plenum ve cam tavan A sütunu tahliye başlıkları ile DonanımHaber'daki 'Vw Golf su alma problemi' / 'su alan golf' başlıkları Golf 6'ya (ya da Jetta'ya) bağlanamadı: örnekler 2004 Golf ya da genel.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Jeep",
+      "model": "Compass",
+      "yillar": "2017-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Compass"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Compass'ta start-stop sorunu ve motor uyarıları tekrar ediyor; model geneli bir sorun için ikinci bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Nissan",
+      "model": "X-Trail T32",
+      "yillar": "2014-2021",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X-Trail T32"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Parkers T32'de tıkalı cam tavan tahliyelerinin sigorta kutusunu ve kablo demetini ıslatabildiğini, arka tahliyelerin temizlenmesinin zor olduğunu yazıyor; Honest John'da 2016 X-Trail'de yolcu ayak boşluğuna su girmesi başlığı var ama nedeni belirsiz. Qashqai Forums'taki bagaj kapağı kablo lastiği ve panoramik tavan başlıkları Qashqai'ye ait; Nissan Avustralya'nın 2014-2016 üretimi T32 için bagaj kapağı gaz amortisörü geri çağırması anılıyor. Türkçe kaynak çıkmadı, kayıt açılmadı.",
       "sonuc": "yetersiz-kanit"
     }
   ]

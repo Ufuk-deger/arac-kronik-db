@@ -666,6 +666,38 @@
       "guven": "orta",
       "ana_sayfa": "https://www.sozcu.com.tr/",
       "not": "Ulusal gazete. Burada yalnızca yabancı toplu dava ve geri çağırma haberlerinin Türkçe aktarımı için kullanıldı."
+    },
+    "kia-forums.com": {
+      "ad": "Kia Forums",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.kia-forums.com/",
+      "not": "Kia sahipleri forumu; Sportage 3. nesil (2011-2016) dahil model bölümleri var."
+    },
+    "teslamotorsclub.com": {
+      "ad": "Tesla Motors Club",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://teslamotorsclub.com/",
+      "not": "Tesla sahipleri ve meraklıları forumu (Model 3 / Model Y bölümleri)."
+    },
+    "swedespeed.com": {
+      "ad": "SwedeSpeed",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.swedespeed.com/",
+      "not": "Volvo ve Saab sahipleri forumu (XC60, S60, V60 başlıkları)."
+    },
+    "volvoforums.org.uk": {
+      "ad": "Volvo Owners Club Forum",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.volvoforums.org.uk/",
+      "not": "Volvo Owners Club forumu; XC60 / S60 / V60 teknik başlıkları."
     }
   }
 }
