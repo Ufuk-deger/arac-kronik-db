@@ -25,9 +25,11 @@ modele (nesle) özgü sorunlar da (cam tavandan su alma, kapı kilidi, boya vb.)
 | `scripts/kaynaklar_md_uret.py` | `KAYNAKLAR.md` dosyasını üretir |
 | `scripts/kapsam_md_uret.py` | `KAPSAM.md` dosyasını plan ve veriden üretir |
 | `scripts/viewer_uret.py` | Tarayıcıda açılan tek dosyalık görüntüleyiciyi (`viewer/index.html`) üretir |
-| `viewer/sablon.html` | Görüntüleyicinin şablonu (arama, marka, model yılı, kilometre ve risk filtreleri) |
+| `viewer/sablon.html` | Görüntüleyicinin şablonu (arama, marka ve model seçimi, model yılı, kilometre, risk ve elektrikli filtreleri) |
 | `tests/test_dogrula.py` | Doğrulayıcının birim testleri (aile kuralları dahil) |
 | `tests/test_kapsam.py` | Plan satırlarının kayıtlarla eşleşme kuralları ve `KAPSAM.md` üretimi testleri |
+| `tests/test_viewer.py` | Görüntüleyici üretiminin testleri (yer tutucular, gömülü veri, tema ve telefon düzeni) |
+| `tests/tarayici/` | Görüntüleyicinin isteğe bağlı tarayıcı testleri (Node.js ve Playwright gerekir) |
 | `KAYNAKLAR.md` | Kullanılan forum ve sitelerin listesi, türleri ve güvenilirlik notları |
 | `KAPSAM.md` | Hangi marka, model ve motor gruplarının planlandığı, hangilerinin tamamlandığı |
 | `DOGRULAMA_RAPORU.md` | Hangi maddelerin doğrulandığı, kaldırıldığı, düzeltildiği ve eklendiği |
@@ -265,17 +267,33 @@ dosyalarına bakın.
 python3 scripts/viewer_uret.py
 ```
 
-`viewer/index.html` oluşur; veriler dosyanın içine gömülür, sunucu gerekmez. Sayfada marka, model, motor
-koduna göre arama yapabilir, model yılı ve kilometre girerek o yıl ve kilometre için geçerli sorunları
-görebilirsiniz. Yıl kırılımı olan sorunlarda girdiğiniz model yılının hangi döneme düştüğü işaretlenir.
-Ayrıntısı olan sorunlarda "Ayrıntılar" bölümü açılır; "Tüm ayrıntıları aç" kutusu hepsini birden açar ve
-arama kutusu ayrıntı metinlerinde de arar.
+`viewer/index.html` oluşur (`.gitignore` içindedir); veriler dosyanın içine gömülür, sunucu gerekmez. Sayfada:
+
+- **Arama:** araç adı (Egea, Golf, X5) yalnızca araç kayıtlarının marka, model ve motor alanında aranır; motor kodu, parça ve
+  belirti (K9K, DSG, triger) araç kimliğinde ve sorun metinlerinde aranır. Adı yalnızca başka kayıtların metninde geçen araçlar
+  ("Tucson" yazınca ortak sorun metninde Tucson'dan söz eden Accent Blue gibi) "Yalnızca metninde geçen kayıtlar" bölümünde
+  ayrıca sayılır. "Egea 2018" gibi aramalarda model yılı filtre olarak okunur. "Q3", "X5" gibi kısa model kodları kelime
+  başında aranır (ör. "DQ381" içindeki "q3" eşleşmez).
+- **Seçim:** marka ve model (marka seçilince model listesi açılır); seçeneklerin yanındaki sayılar diğer filtrelere göre güncellenir.
+- **Model yılı ve kilometre:** model yılı girilince yalnızca o yılı kapsayan kayıtlar kalır ve yıl kırılımı olan sorunlarda
+  yılınızın dönemi işaretlenir. Kilometre girilince sorunlar "Bu kilometrede" ve "Yaklaşıyor" (aralığın başlangıcına en fazla
+  20.000 km kala) olarak işaretlenir ve satırlar buna göre sıralanır; "Yalnızca kilometreme uyanlar" kutusu bunların dışındakileri
+  eler (kilometre bilgisi olmayan model geneli sorunlar kalır). "120" gibi bin biriminde yazılan değer 120.000 km okunur.
+- **Risk** çipleri, **elektrikli** filtresi ve etkin filtre çipleri (tek tıkla kaldırılır).
+- **Satırlar kapalı gelir:** başlık, risk, kilometre çubuğu ve belirti özeti görünür; satıra tıklayınca parça, belirtiler, dönem,
+  ayrıntılar (neden, teşhis, çözüm, maliyet, önlem) ve kaynaklar açılır. "Hepsini aç / kapat" görünen satırlara uygulanır.
+  Liste 24 kartlık sayfalarla yüklenir ("Daha fazla göster").
+- **Telefon:** filtreler "Filtreler" düğmesinin arkasındadır; arama kutusu yapışkan çubukta kalır.
 
 Sayfanın altındaki "Kayıt açılmayan gruplar" bölümü, `data/kapsam.json` içinde kaydı olmayan satırları gösterir:
 **Arandı** işaretlilerde kaynak arandı ama iki siteyle desteklenen, o motora özgü bir sorun bulunamadı (nedeni yazılıdır);
 **Sırada** işaretliler listeye alındı ama henüz araştırılmadı. Arama kutusu, marka, model yılı ve elektrikli filtresi bu
-bölüme de uygulanır; sayfanın üstündeki bağlantı bölümü açar. Bir araç ne kayıtlarda ne de bu bölümde yoksa planda hiç
-yer almıyordur. "Q3", "X5" gibi kısa model kodları kelime başında aranır (ör. "DQ381" içindeki "q3" eşleşmez).
+bölüme de uygulanır (model, risk ve kilometre filtreleri açıkken bölüm gizlenir); sayfanın üstündeki bağlantı bölümü açar.
+Bir araç ne kayıtlarda ne de bu bölümde yoksa planda hiç yer almıyordur.
+
+Arayüz testi (isteğe bağlı; Node.js ve Playwright gerekir): `node tests/tarayici/test_viewer.js $PWD/viewer/index.html`
+filtreleri gerçek tarayıcıda sürer (arama, yıl, risk, marka ve model, kilometre, düzen, koyu tema);
+`tests/tarayici/fuzz_viewer.js` rastgele filtre kombinasyonlarını bağımsız hesaplanan beklentiyle satır satır karşılaştırır.
 
 ## Doğrulama
 
