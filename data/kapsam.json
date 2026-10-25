@@ -2527,7 +2527,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Picanto"
+          "Picanto (JA"
         ],
         "motor": [
           ""
@@ -3774,7 +3774,9 @@
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Mazda"
+          "Mazda 3",
+          "Mazda 6",
+          "CX-5"
         ],
         "motor": [
           "Skyactiv"
@@ -9559,7 +9561,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar'da cam tavan çerçevesinin kendiliğinden çatlaması ve su sızması (üç yıl sonra aynı sorunun yeniden çıkması, yaklaşık 35 bin TL parça bedeli), tavan kenar çıtası çatlağı, tavan ile ön cam birleşiminde boya atması ve 2015 modelde multimedya Bluetooth ses sorunu çok sayıda şikâyette geçiyor. DonanımHaber'de B8'e özgü ikinci kaynak çıkmadı (2021 Passat'ta 25 bin km'de cam tavan tıkırtısı tek başlık); bu yüzden kayıt açılmadı. VWVortex'te panoramik cam tavan su sızıntısı başlıkları var ama çoğu ABD'deki Passat'a ait ve B8 Avrupa kasasına bağlanamadı; tahliye hortumu tıkanması en sık neden olarak anılıyor.",
+      "not": "Şikâyetvar'da cam tavan çerçevesinin kendiliğinden çatlaması ve su sızması (üç yıl sonra aynı sorunun yeniden çıkması, yaklaşık 35 bin TL parça bedeli), tavan kenar çıtası çatlağı, tavan ile ön cam birleşiminde boya atması ve 2015 modelde multimedya Bluetooth ses sorunu çok sayıda şikâyette geçiyor. DonanımHaber'de B8'e özgü ikinci kaynak çıkmadı (2021 Passat'ta 25 bin km'de cam tavan tıkırtısı tek başlık); bu yüzden kayıt açılmadı. VWVortex'te panoramik cam tavan su sızıntısı başlıkları var ama çoğu ABD'deki Passat'a ait ve B8 Avrupa kasasına bağlanamadı; tahliye hortumu tıkanması en sık neden olarak anılıyor. ABD'deki VW cam tavan sızıntısı davası haberleri ve CarComplaints'in Passat servis bülteni listeleri ABD pazarındaki araçlara ait; Avrupa B8'e bağlanamadı.",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -9739,7 +9741,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar'da tavan ile ön ve arka cam birleşiminde boya atması (2011-2012 modeller), sunroof çerçevesinde çatlak ve su alma (yaklaşık 55 bin TL teklif) çok sayıda kayıtta geçiyor; DonanımHaber'de B7 için yalnızca 2012 tarihli bir başlıkta konsol gıcırtısı ve start-stop memnuniyetsizliği var. Uluslararası forumlarda (VWVortex) panoramik cam tavan su sızıntısı konuşuluyor ama bunlar B7 / B8 Avrupa kasasına bağlanamadı; ikinci bağımsız site yok.",
+      "not": "Şikâyetvar'da tavan ile ön ve arka cam birleşiminde boya atması (2011-2012 modeller), sunroof çerçevesinde çatlak ve su alma (yaklaşık 55 bin TL teklif) çok sayıda kayıtta geçiyor; DonanımHaber'de B7 için yalnızca 2012 tarihli bir başlıkta konsol gıcırtısı ve start-stop memnuniyetsizliği var. Uluslararası forumlarda (VWVortex) panoramik cam tavan su sızıntısı konuşuluyor ama bunlar B7 / B8 Avrupa kasasına bağlanamadı; ikinci bağımsız site yok. Elektronik park freni arızası DonanımHaber'de B6 ve B7, VWVortex'te B6 ve CC başlıklarında geçiyor ama B7'ye özgü bağlanamadı; kayıt açılmadı.",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -10180,7 +10182,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar'da multimedya ekranında nikelaj kabarması (2021), USB için FAT32 / 32 GB sınırı, yazılım güncellenmemesi (2020), klima kompresörü (2021, tek vaka), 2021 modelde akü sorunu ve stop lambası içi çatlak tekil; DonanımHaber'de ise genel multimedya başlığı var. Şikâyetvar'daki kronik boya sorunu 2010-2013 (E140 / E150) modellere ait. E170 / E210'a özgü iki bağımsız site çıkmadı.",
+      "not": "Şikâyetvar'da multimedya ekranında nikelaj kabarması (2021), USB için FAT32 / 32 GB sınırı, yazılım güncellenmemesi (2020), klima kompresörü (2021, tek vaka), 2021 modelde akü sorunu ve stop lambası içi çatlak tekil; DonanımHaber'de ise genel multimedya başlığı var. Şikâyetvar'daki kronik boya sorunu 2010-2013 (E140 / E150) modellere ait. E170 / E210'a özgü iki bağımsız site çıkmadı. Corolla E210'un CarPlay / Bluetooth ses sorunu ve kendiliğinden kapanma şikâyetleri ayrı satırda (✓).",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -10543,7 +10545,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar'da XC60'ta sürücü destek ve çarpışma önleme uyarıları, Volvo On Call uyarısı, S60'ta ön sol camdan su girmesi ve düğmelerin bozulması tek sitede; soğutma suyu eksilmesi ve kavrama sarsıntısı motor/şanzıman konusu. Sensus ekran, ön takım ve cam tavan için kaynak çıkmadı.",
+      "not": "Şikâyetvar'da XC60'ta sürücü destek ve çarpışma önleme uyarıları, Volvo On Call uyarısı, S60'ta ön sol camdan su girmesi ve düğmelerin bozulması tek sitede; soğutma suyu eksilmesi ve kavrama sarsıntısı motor/şanzıman konusu. Sensus ekran, ön takım ve cam tavan için kaynak çıkmadı. XC60 (2008-2017) için su alma başlıkları ayrı satırda (✓).",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -10957,6 +10959,156 @@
       },
       "not": "Parkers T32'de tıkalı cam tavan tahliyelerinin sigorta kutusunu ve kablo demetini ıslatabildiğini, arka tahliyelerin temizlenmesinin zor olduğunu yazıyor; Honest John'da 2016 X-Trail'de yolcu ayak boşluğuna su girmesi başlığı var ama nedeni belirsiz. Qashqai Forums'taki bagaj kapağı kablo lastiği ve panoramik tavan başlıkları Qashqai'ye ait; Nissan Avustralya'nın 2014-2016 üretimi T32 için bagaj kapağı gaz amortisörü geri çağırması anılıyor. Türkçe kaynak çıkmadı, kayıt açılmadı.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Kia",
+      "model": "Picanto TA",
+      "yillar": "2011-2017",
+      "motor": "1.0 MPI 69 (G3LA) / 1.25 MPI 85 (G4LA)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Picanto (TA"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Hyundai",
+      "model": "ix20",
+      "yillar": "2010-2019",
+      "motor": "1.4 / 1.6 CVVT benzinli (G4FA / G4FC)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "ix20"
+        ],
+        "motor": [
+          "CVVT"
+        ]
+      }
+    },
+    {
+      "marka": "Hyundai",
+      "model": "ix20",
+      "yillar": "2010-2019",
+      "motor": "1.4 / 1.6 CRDi dizel (D4FC / D4FB)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "ix20"
+        ],
+        "motor": [
+          "CRDi"
+        ]
+      }
+    },
+    {
+      "marka": "Toyota",
+      "model": "Aygo",
+      "yillar": "2014-2021",
+      "motor": "1.0 VVT-i 72 (1KR-FE)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Aygo"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Citroen",
+      "model": "C1",
+      "yillar": "2014-2021",
+      "motor": "1.0 VTi 68 (1KR-FE) / 1.2 PureTech 82 (EB2F)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C1 ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mazda",
+      "model": "Mazda 2 (DJ)",
+      "yillar": "2014-2019",
+      "motor": "1.5 SkyActiv-G 90",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Mazda 2 ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mazda",
+      "model": "CX-3",
+      "yillar": "2015-2021",
+      "motor": "2.0 SkyActiv-G 120",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "CX-3 ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Mazda",
+      "model": "CX-30",
+      "yillar": "2019-",
+      "motor": "2.0 e-SkyActiv-G 122 (hafif hibrit)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "CX-30 ("
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Defender (L663)",
+      "yillar": "2020-",
+      "motor": "2.0 D200 / 3.0 D250 (48V hafif hibrit dizel)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Defender"
+        ],
+        "motor": [
+          ""
+        ]
+      }
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Range Rover Velar",
+      "yillar": "2017-",
+      "motor": "2.0 D180 / D240 (Ingenium dizel)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Velar"
+        ],
+        "motor": [
+          ""
+        ]
+      }
     }
   ]
 }
