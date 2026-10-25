@@ -1152,7 +1152,7 @@ Risk dağılımı: 6 Yüksek (iki EPS direksiyon arızası, iki EPB arızası, b
 - **Mercedes-Benz (3):** A / CLA / GLA W176 ve C W204 (direksiyon açı sensörü), E W212 (arka travers korozyonu).
 - **Nissan (3):** Juke F15 ve Qashqai J10 (multimedya ekranının sıcakta silikleşmesi), Qashqai J11 (panoramik tavan ve bagaj çevresinden su).
 - **Opel (5):** Astra J (EPB), Astra K (kolon kilidi; tavan ve kaput boyası), Corsa D (direksiyon gıcırtısı), Insignia A (far suyu ve AFL), Mokka B (siyah tavan boyası).
-- **Peugeot (3):** 208 / 2008 (arka kapı camı fitili), 3008 (multimedya), 308 T9 (arka aks gıcırtısı; klima gazı kaçırma).
+- **Peugeot (3):** 208 / 2008 (arka kapı camı fitili), 3008 (multimedya), 308 T9 (arka travers gıcırtısı; klima gazı kaçırma).
 - **Renault (5):** Clio 4 (kapı kilidi ve sensörü), Clio 5 (multimedya), Megane 3 / Fluence (ön cam altı ızgarası ve su), Megane 4 (far buğusu ve C-LED; R-Link ekranı), Scenic 3 (EPB).
 - **Seat (1):** Leon 5F (tıkırtı ve zırıltı).
 - **Skoda (4):** Kodiaq (bagajdan su), Octavia A7 (panoramik tavandan su), Superb III (cam tavan çerçevesi çatlağı), Yeti (kapı kablo demeti).
@@ -1190,6 +1190,7 @@ Sorduğunuz örnek (cam tavan ya da sunroof su alması) şu kayıtlarda: Golf 7 
 - **Focus 3:** SYNC / multimedya donması Şikâyetvar'da çoğunlukla Focus 4 model yıllarına ait olduğundan kayda alınmadı. Bagaj sızıntısında "arka tampon arkasındaki havalandırma" anlatımının hangi sayfadan geldiği arama özetinden net ayrılamadığı için site düzeyinde (Ford Owners Club) yazıldı; CarComplaints sayfaları yalnızca şikâyet sayısı olarak kullanıldı.
 - **Astra J EPB:** Şikâyetvar'ın "Opel El Freni Uyarı Arızası" sayfası model belirtmediği için kaynak listesine alınmadı. Vauxhall Owners Network başlıklarında model belirtilmediğinden o siteye ait ayrıntılar site düzeyinde yazıldı; kayıt, Astra J'ye açıkça bağlı DonanımHaber ve Astra Owners Network başlıklarıyla da iki siteyi geçiyor.
 - **Scenic 3 EPB:** bir Honest John başlığındaki fren hidroliği seviyesi iddiası başka bir araca ait olduğu için çıkarıldı; Laguna 3 aynı modülü paylaşıyor mu belirsiz olduğundan kayda katılmadı.
+- **308 T9 arka travers (sizin uyarınız üzerine düzeltildi):** ilk yazımda İngilizce kaynaklardaki "rear axle" ifadesi "arka aks" diye çevrilmişti. 308 önden çekişlidir ve arkada tahrik aksı yoktur; sözü edilen parça torsiyon kirişli arka süspansiyonun traversidir. Sorunun kendisi kaynaklarda duruyor (Honest John'da tıkırtı ve kaynak çatlağı, Türkçe forumlarda ücretsiz parça değişimi); yalnızca adlandırma düzeltildi, kayıtta başka "arka aks" ifadesi kalmadı.
 - **Model Y cam tavan:** InsideEVs haberleri 2020-2021 ABD üretimi araçlara ait; yapıştırıcı kök nedeni "doğrulanmış değil" olarak yazıldı.
 - **i30 FD:** kaynağın tek bir kilometre noktası verdiği sorunda "75.000 - 75.000 km" aralığı kaldırıldı (kilometre alanı boş bırakıldı).
 - **Plan notları:** yeni ✓ satırlarıyla çelişen `–` notları tamamlandı (Volvo XC60 / S60 / V40, Corolla E170 / E210, Passat B7 ve B8); Renegade / Compass birleşik `–` satırı bölündü (Renegade ✓, Compass `–`); "A4 B8 / A6 C7 / Q5" birleşik satırı bölündü (Q5 8R ✓). "Citroën" plan yazımı kayıtlardaki "Citroen" ile eşleşecek şekilde düzeltildi.

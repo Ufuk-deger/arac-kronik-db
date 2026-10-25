@@ -10736,13 +10736,13 @@
       },
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Arka aks (travers) gıcırtısı, tıkırtısı ve kaynak çatlağı",
-          "etkilenen_parca": "Arka aks / arka travers (torsiyon) kirişi ve kaynakları",
-          "belirtiler": "Arkadan gelen gıcırtı, metalik sürtünme ve tıkırtı; bazı araçlarda arka aks kaynağında ince çatlak.",
+          "sorun_adi": "Arka travers (torsiyon kirişi) gıcırtısı, tıkırtısı ve kaynak çatlağı",
+          "etkilenen_parca": "Arka travers (torsiyon kirişli arka süspansiyon; 308 önden çekişlidir, arkada tahrik aksı yoktur) ve kaynakları",
+          "belirtiler": "Arkadan gelen gıcırtı, metalik sürtünme ve tıkırtı; bazı araçlarda arka traversin kaynağında ince çatlak.",
           "risk_seviyesi": "Orta",
           "detay": {
-            "neden": "Honest John sahip yorumlarında 2015 model 308'lerde arka akstan tıkırtı (yaklaşık 10.000 mil; atölye 'bilinen arıza' demiş, sesi kesen bir modifikasyon kiti takmış, değiştirilmiş aks üretildiğini söylemiş), yaklaşık 30.000 milde metalik sürtünme, arka süspansiyondan gıcırtı (bayi 'kusurlu arka kiriş' deyip delip köpükle doldurmayı önermiş, ses geçmemiş) ve atölyenin arka aks kaynağındaki çatlak olarak bulduğu, bayinin garanti dahil neden bulamadığı ince çatlaklar anlatılıyor. DonanımHaber'de 2015 model 308 1.6 BlueHDi sahibi arka travers gıcırtısından yakınıyor; bir yorumcu bunun kronik bir arka düzen hatası ya da arızalı parça olabileceğini yazıyor.",
-            "cozum": "Honest John'daki sahiplerden birinde modifikasyon kiti sesi kesmiş; kirişin delinip köpükle doldurulması bir başka araçta sonuç vermemiş."
+            "neden": "Honest John'da sahipler 2015 model 308'lerde (İngilizce kaynaklar arka traversi 'rear axle' ya da 'rear beam' diye anıyor) arka traversten tıkırtıyı (yaklaşık 10.000 mil; atölye 'bilinen arıza' demiş, sesi kesen bir modifikasyon kiti takmış, modifiye travers üretildiğini söylemiş), yaklaşık 30.000 milde metalik sürtünmeyi, arka süspansiyon gıcırtısını (bayi 'kusurlu arka kiriş' deyip delip köpükle doldurmayı önermiş, ses geçmemiş) ve atölyenin arka traversin kaynağında bulduğu, bayinin garanti dahil neden bulamadığı ince çatlakları anlatıyor. DonanımHaber'de 2015 model 308 1.6 BlueHDi sahibi arka travers gıcırtısından yakınıyor; bir yorumcu bunun kronik bir arka düzen hatası ya da arızalı parça olabileceğini yazıyor.",
+            "cozum": "Honest John'daki sahiplerden birinde modifikasyon kiti sesi kesmiş; kirişin delinip köpükle doldurulması bir başka araçta sonuç vermemiş. Türkçe forum başlıklarında travers sorununun bazı 2015 modellerinde görüldüğü ve ücretsiz parça değişimiyle ya da garanti kapsamında arka traversin değiştirilmesiyle çözüldüğü yazılıyor."
           },
           "kaynaklar": [
             "https://forum.donanimhaber.com/peugeot-308-torsiyon-ve-travers-sorunu--130136611",
