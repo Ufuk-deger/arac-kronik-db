@@ -2968,6 +2968,19 @@
     },
     {
       "marka": "Audi",
+      "model": "A1 (GB, 2018-)",
+      "motor": "30 TFSI 1.0 (EA211, S tronic DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Audi",
       "model": "A3 (8P FL / 8V, 2009-2020)",
       "motor": "1.4 TFSI 122/125/150 (S tronic DQ200)",
       "uretim_yillari": {
@@ -3124,6 +3137,32 @@
             "https://forum.donanimhaber.com/audi-a3-bixenon-led-gunduz-fari-sararmasi--137329994"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 (8Y, 2020-)",
+      "motor": "30 TFSI 1.0 (EA211, S tronic DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 (8Y, 2020-)",
+      "motor": "35 TDI 2.0 (EA288 evo, S tronic DQ381)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq381"
       ]
     },
     {
@@ -3434,6 +3473,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-ea211-1-4-tsi"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "Q3 (F3, 2018-)",
+      "motor": "35 TDI 2.0 (EA288 evo, S tronic DQ381)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq381"
       ]
     },
     {
@@ -13208,6 +13260,34 @@
     },
     {
       "marka": "Seat",
+      "model": "Altea / Altea XL (2010-2015)",
+      "motor": "1.2 TSI 105 (EA111 CBZB)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea111-1-2-tsi",
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Seat",
+      "model": "Altea / Altea XL (2010-2015)",
+      "motor": "1.6 TDI 90/105 (EA189 CAYC)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Seat",
       "model": "Arona (2017-)",
       "motor": "1.0 TSI 95/115 (DSG DQ200)",
       "uretim_yillari": {
@@ -14104,6 +14184,34 @@
     },
     {
       "marka": "Skoda",
+      "model": "Roomster (2010-2015)",
+      "motor": "1.2 TSI 86/105 (EA111 CBZA / CBZB)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea111-1-2-tsi",
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Roomster (2010-2015)",
+      "motor": "1.6 TDI 90/105 (EA189 CAYC)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Skoda",
       "model": "Superb (II, 2009-2015)",
       "motor": "1.4 TSI 125 (EA111)",
       "uretim_yillari": {
@@ -14870,6 +14978,36 @@
     },
     {
       "marka": "Volkswagen",
+      "model": "Beetle (5C, 2011-2019)",
+      "motor": "1.2 TSI 105 (EA111 CBZB, sonra EA211; DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea111-1-2-tsi",
+        "vag-ea111-tsi",
+        "vag-ea211-1-2-tsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Beetle (5C, 2011-2019)",
+      "motor": "1.4 TSI 160 (EA111, DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
       "model": "Caddy (2K, 2010-2015)",
       "motor": "1.6 TDI (EA189 CAYC)",
       "uretim_yillari": {
@@ -15397,6 +15535,48 @@
     },
     {
       "marka": "Volkswagen",
+      "model": "Golf Sportsvan (2014-2020)",
+      "motor": "1.2 TSI 85/110 (EA211, DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea211-1-2-tsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf Sportsvan (2014-2020)",
+      "motor": "1.4 TSI 125/150 (EA211, ACT, DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea211-1-4-tsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf Sportsvan (2014-2020)",
+      "motor": "1.6 TDI 110 (EA288, DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
       "model": "Jetta (2013-2018)",
       "motor": "1.2 TSI / 1.4 TSI / 1.6 TDI (7 ileri kuru kavramalı DSG DQ200)",
       "uretim_yillari": {
@@ -15844,6 +16024,33 @@
       "aileler": [
         "vag-1-6-tdi-egr-dpf",
         "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Scirocco (2008-2017)",
+      "motor": "1.4 TSI 122/160 (EA111, DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Scirocco (2008-2017)",
+      "motor": "2.0 TSI 200/210 (EA888 Gen1 / Gen2)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea888-gen2"
       ]
     },
     {

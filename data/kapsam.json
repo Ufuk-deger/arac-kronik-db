@@ -7852,7 +7852,8 @@
           "30 TFSI",
           "35 TDI"
         ]
-      }
+      },
+      "not": "30 TFSI, 7 ileri kuru kavramalı DQ200 ailesine; 35 TDI, ıslak kavramalı DQ381 ailesine bağlandı. Yeni nesil için modele özgü kaynak çıkmadı (Şikâyetvar ve DonanımHaber sonuçları tekil: yeni araçta uyarı lambası, S tronic titreşimi, MMI / SOS / start-stop elektroniği); gösterilen sorunlar aynı şanzımanı kullanan modellerin ailesine bağlıdır. Şikâyetvar'da 2022 modelde 49.000 km'de alternatör arızası da var."
     },
     {
       "marka": "Audi",
@@ -7867,7 +7868,8 @@
         "motor": [
           "35 TDI"
         ]
-      }
+      },
+      "not": "DQ381 ailesine bağlandı. Şikâyetvar'daki Q3 kayıtları akü / elektrik, MMI ekranı ve çocuk emniyet kemeri ağırlıklı; 35 TDI'ya özgü şanzıman kaydı çıkmadı."
     },
     {
       "marka": "Audi",
@@ -7882,7 +7884,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da A6 C8 için tekil kayıtlar var: 2023 model 40 TDI Quattro'da yaklaşık 10.900 km'de direksiyon kilitlenmesi ve şanzıman arızası (bayi araç değişimini reddetmiş), 2025 modelde yaklaşık 28.000 km'de şanzıman ve quattro arızaları, 40 TDI'da 3.000 km'de yağ uyarısı. AudiWorld ve Audizine'da 48V kayış tahrikli marş-alternatör jeneratörü arızası (mild hibrit Audi'lerde uzun süredir anılan sorun, servis kampanyası olduğu yazılıyor) ve DL382 S tronic'te düşük hızda sarsıntı geçiyor; bir forum kullanıcısı 40 TDI'ın 12V sistem kullandığını ve bu sorunu yaşamadığını yazıyor. Kilometre aralığı verilen, ikinci kaynakla desteklenen bir motor sorunu çıkmadı."
     },
     {
       "marka": "Audi",
@@ -7897,7 +7901,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "A5 F5'e özgü kaynak çıkmadı; A6 C8 ile ortak motor ve DL382 S tronic notları (48V marş-alternatör, düşük hızda sarsıntı) AudiWorld ve Audizine'daki C8 konularından geliyor."
     },
     {
       "marka": "Audi",
@@ -7912,7 +7918,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "AudiWorld ve Audizine'da A7 3.0 TDI için tek konuda zincir ve kılavuz sorunları (kısa süreli çalıştırma sesi uyarı belirtisi) ve 100-120 bin milde enjektör keçesi sızıntıları anlatılıyor; 3.0 TFSI için üst zincir gergisi uğultusu konuşuluyor. Türkçe aramada A7 4G'ye özgü sonuç çıkmadı (sonuçlar A4 B8 2.0 TFSI yağ eksiltmesi ve A6 3.0 TDI EGR / DPF konularına ait); 2.0 TFSI için A7'ye özgü kaynak yok."
     },
     {
       "marka": "Audi",
@@ -7927,22 +7935,25 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Ekşi Sözlük'te 3.0 TDI'ın üçüncü neslinde düşük devirde yağ basıncının düşük ayarlanması nedeniyle eksantrik mili dişlilerinin aşındığı ve bazı araçlarda 100 bin km'den önce zincir sesi çıktığı (zincir şanzıman tarafında olduğundan işçilik pahalı), ilk iki nesilde orijinal turbolarla 250 bin km'ye kadar gidildiği yazılıyor (kullanıcı görüşü). AudiWorld ve Audizine'da 4L 3.0 TDI için yüksek basınçlı yakıt pompası arızası (garanti kapsamında değişim), 110 bin milde arka ana keçe sızıntısı, zincir kapağı sızıntısı ve AdBlue pompası anlatılıyor. Anlatılar tekil olduğundan ve nesil / kilometre ayrımı yapılamadığından kayıt açılmadı."
     },
     {
       "marka": "Audi",
       "model": "A1 GB",
       "yillar": "2018-",
-      "motor": "25 TFSI 1.0 / 30 TFSI",
+      "motor": "30 TFSI 1.0 (S tronic)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "A1 (GB"
         ],
         "motor": [
-          ""
+          "30 TFSI"
         ]
-      }
+      },
+      "not": "DQ200 ailesine bağlandı; A1 GB'ye özgü kaynak çıkmadı (Şikâyetvar ve DonanımHaber sonuçları A3 30 / 35 TFSI ve eski TFSI motorların yağ tüketimine ait)."
     },
     {
       "marka": "Audi",
@@ -7957,7 +7968,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "TT 8S'e özgü kaynak çıkmadı. DonanımHaber'de 2.0 TFSI'ın yağ tüketimi ve zincir uzaması tartışılıyor, Audi'nin NHTSA'daki servis bültenleri 2009-2011 model EA888 motorlar için (karter havalandırma valfi) ve Gen3 TT 8S'i kapsamıyor."
     },
     {
       "marka": "Volkswagen",
@@ -8012,16 +8025,18 @@
       "marka": "Volkswagen",
       "model": "Scirocco",
       "yillar": "2008-2017",
-      "motor": "1.4 TSI / 2.0 TSI / 2.0 TDI",
+      "motor": "1.4 TSI / 2.0 TSI",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Scirocco"
         ],
         "motor": [
-          ""
+          "1.4 TSI",
+          "2.0 TSI"
         ]
-      }
+      },
+      "not": "Scirocco'ya özgü kaynak çıkmadı; 1.4 TSI, EA111 TSI ve DQ200 ailelerine, 2.0 TSI 200 / 210 (EA888 Gen1 / Gen2) EA888 ailesine bağlandı (Scirocco R'ın Gen3 motoru kapsam dışı)."
     },
     {
       "marka": "Volkswagen",
@@ -8036,7 +8051,8 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "not": "Beetle'a özgü kaynak çıkmadı; 1.2 TSI, EA111 / EA211 1.2 TSI ve DQ200 ailelerine, 1.4 TSI 160 (EA111), EA111 TSI ve DQ200 ailelerine bağlandı."
     },
     {
       "marka": "Volkswagen",
@@ -8051,7 +8067,8 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "not": "Golf Sportsvan'a özgü kaynak çıkmadı; Golf 7 ile ortak EA211 1.2 / 1.4 TSI, EA288 1.6 TDI ve DQ200 ailelerine bağlandı."
     },
     {
       "marka": "Volkswagen",
@@ -8066,7 +8083,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar, DonanımHaber ve Otopark'ta 1.0 MPI ve ASG robotize şanzıman için kronik arıza çıkmadı (ASG'nin yokuşta kararsızlığı, vites geçişlerinin yumuşak olmaması, geri viteste garanti kapsamında şanzıman değişimi gibi tekil anlatılar). Briskoda'da Citigo ASG için nötrü tanımayıp çalışmama, geri ve 1. vites geçişi sorunları ve düşük kilometrede kavrama aşınması (2015 Citigo'da 5.000 mil), Honest John'da up! için soğukta vites seçilememe anlatılıyor; kilometre bilgisi tutarsız (5.000 ile 34.000 mil arası) ve üç ikiz model ayrılamadığından kayıt açılmadı."
     },
     {
       "marka": "Skoda",
@@ -8081,7 +8100,8 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "not": "Roomster'a özgü kaynak çıkmadı; 1.2 TSI (EA111) ve 1.6 TDI (EA189) motor ailelerine bağlandı."
     },
     {
       "marka": "Skoda",
@@ -8096,22 +8116,26 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "VW up! satırıyla ortak araştırma (aynı şasi, 1.0 MPI ve ASG): Citigo'ya özgü Briskoda konularında ASG'nin çalışmaması (bir araçta 34.000 milde), geri ve 1. vites geçişi sorunları ve kavrama aşınması anlatılıyor; kilometre bilgisi tutarsız olduğundan kayıt açılmadı."
     },
     {
       "marka": "Seat",
       "model": "Altea / Altea XL",
-      "yillar": "2004-2015",
-      "motor": "1.2 TSI / 1.6 TDI / 2.0 TDI",
+      "yillar": "2010-2015",
+      "motor": "1.2 TSI / 1.6 TDI",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Altea"
         ],
         "motor": [
-          ""
+          "1.2 TSI",
+          "1.6 TDI"
         ]
-      }
+      },
+      "not": "Altea'ya özgü kaynak çıkmadı; 1.2 TSI (EA111) ve 1.6 TDI (EA189) motor ailelerine bağlandı."
     },
     {
       "marka": "Seat",
@@ -8126,7 +8150,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Alhambra'ya özgü sonuç çıkmadı; 2.0 TDI ve 1.4 TSI için model ve motor kodu ayrımı yapılamadığından kayıt açılmadı (genel VAG 2.0 TDI notları için Scirocco 2.0 TDI satırına bakın)."
     },
     {
       "marka": "Seat",
@@ -8141,7 +8167,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "VW up! satırıyla ortak araştırma (aynı şasi, 1.0 MPI ve ASG); Mii'ye özgü kaynak çıkmadı."
     },
     {
       "marka": "Ford",
@@ -12425,6 +12453,57 @@
         ]
       },
       "not": "Elektrikli direksiyon tork / açı sensörü arızası Otopark, DonanımHaber ve Şikâyetvar'da anlatılıyor; kilometre verilmedi."
+    },
+    {
+      "marka": "Audi",
+      "model": "A1 GB",
+      "yillar": "2018-",
+      "motor": "25 TFSI 1.0 (manuel)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A1 (GB"
+        ],
+        "motor": [
+          "25 TFSI"
+        ]
+      },
+      "not": "A1 GB için Şikâyetvar ve DonanımHaber'de modele özgü sonuç çıkmadı; 25 TFSI 1.0 için kaynak yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Scirocco",
+      "yillar": "2008-2017",
+      "motor": "2.0 TDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Scirocco"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "not": "Scirocco'ya özgü 2.0 TDI kaynağı çıkmadı; VAG 2.0 TDI common rail (CFFB / CBDB / CFHC) için Honest John, VWVortex ve Briskoda'da tekil vakalar var (CFFB'de soğuk çalıştırma güçlüğü ve düşük yakıt rayı basıncı 372.000 km'de, yağ pompası zinciri ve denge mili, çift kütleli volan); kilometre aralığı verilecek tutarlı bir sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Seat",
+      "model": "Altea / Altea XL",
+      "yillar": "2004-2015",
+      "motor": "2.0 TDI",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Altea"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "not": "Altea'ya özgü 2.0 TDI kaynağı çıkmadı; Honest John'da bir Altea sahibinin çift kütleli volan değişimi geçiyor, genel VAG 2.0 TDI notları için Scirocco 2.0 TDI satırına bakın.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }
