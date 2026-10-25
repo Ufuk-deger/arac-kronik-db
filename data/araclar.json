@@ -416,7 +416,7 @@
       "id": "fiat-1-3-multijet",
       "ad": "Fiat / Opel 1.3 Multijet - CDTI (common rail dizel, zincirli)",
       "tur": "motor",
-      "aciklama": "Fiat'ın 1.3 litre common rail dizel motoru (Multijet; Opel'de CDTI). Fiat Punto, Linea, Egea, Doblo, Fiorino, Qubo, 500L ile Opel Corsa D / E, Astra H / J, Combo D ve Meriva B'de 75-95 PS.",
+      "aciklama": "Fiat'ın 1.3 litre common rail dizel motoru (Multijet; Opel'de CDTI). Fiat Punto, Linea, Egea, Doblo, Fiorino, Qubo, Panda, 500L ile Opel Corsa D / E, Astra H / J, Combo D ve Meriva B'de 75-95 PS.",
       "kronik_sorunlar": [
         {
           "id": "enjektor",
@@ -1119,6 +1119,34 @@
       ]
     },
     {
+      "id": "land-rover-ingenium-2-0d",
+      "ad": "Land Rover Ingenium 2.0 dizel (TD4 / SD4)",
+      "tur": "motor",
+      "aciklama": "Land Rover'ın 2015'ten itibaren Range Rover Evoque ve Discovery Sport'ta (Jaguar XE, XF ve F-Pace ile ortak) kullandığı 2.0 litre Ingenium dizel motor (TD4 150-180 PS; SD4 240 PS). Dizel yakıtın motor yağına karışması (yağ seyrelmesi) bu motor için anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "yag-seyrelmesi",
+          "sorun_adi": "Yağ seyrelmesi (dizel yakıtın motor yağına karışması)",
+          "etkilenen_parca": "Motor yağı ve DPF rejenerasyonu",
+          "belirtiler": "Son yağ değişiminden yaklaşık 10.000-20.000 km (forum sahiplerine göre 6.000-12.000 mil) sonra, yağ değişim zamanından çok önce gösterge panelinde 'Servis gerekli' mesajı çıkması, yağ çubuğunda seviyenin yükselmesi, yağ analizinde yüksek yakıt oranı. Kısa mesafe kullanımda ve DPF rejenerasyonu sürerken motor kapatıldığında artıyor.",
+          "tahmini_km_araligi": "10.000 - 20.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Honest John incelemesinde aktarılan JLR bildirimine (Temmuz 2017) göre 2016-2017 model yılı Discovery Sport ve Evoque 2.0 Ingenium dizellerde DPF rejenerasyonu beklenenden sık çalışıyor ve bu yağın erken seyrelmesine yol açıyor; aynı sayfa nedeni Jaguar XE / XF'ten devralınan donanım ve mimari yüzünden kurumu yakmak için daha fazla art enjeksiyon gerekmesine bağlıyor. Kısa yolculuk ve rejenerasyon sırasında motoru kapatmak durumu kötüleştiriyor. Türkçe bir forumda bir yazar da DPF ve katalizör yerleşiminin sık rejenerasyona ve yağ seyrelmesine yol açtığını öne sürüyor (kişisel görüş).",
+            "teshis": "Araç teşhisinde yağ seyrelmesi ve kurum değerleri okunur: Honest John forumunda bir Discovery Sport sahibi yetkili serviste kurum miktarının 46,999 gram, yağ seyrelmesi okumasının 12,242 çıktığını yazıyor. Honest John incelemesine göre yaklaşık yüzde 6,1 seyrelmede 'Servis gerekli' mesajı çıkıyor; forum sahiplerinin servis mesajlarından (6.000-12.000 mil) yaptığı kaba hesaba göre seyrelme 1.000 milde yüzde 0,5-1,0 artıyor.",
+            "cozum": "Garanti içinde JLR yağı ücretsiz değiştirebiliyor; aynı forumda bir sahipte PCM yazılım güncellemesi, rehberli dinamik rejenerasyon ve kodların silinmesiyle normal performans döndü. Garanti dışında sorun sahibine kalıyor; Parkers yağın üretici aralığından çok erken (8.000 mil gibi) değiştirilmesi gerekebildiğini yazıyor.",
+            "onlem": "Mümkünse düzenli uzun yolculuk yapmak, DPF rejenerasyonu sürerken motoru kapatmamak ve yağ seviyesini sık kontrol etmek."
+          },
+          "kaynaklar": [
+            "https://www.honestjohn.co.uk/range-rover/evoque/convertible/",
+            "https://www.honestjohn.co.uk/forum/post/137248/land-rover-discovery",
+            "https://www.parkers.co.uk/long-term-car-reviews/land-rover-discovery-sport/",
+            "https://forum.donanimhaber.com/satilik-jaguar-f-pace-merakli-sorular-jlr-grubu-motorlari--163920799"
+          ]
+        }
+      ]
+    },
+    {
       "id": "mercedes-7g-tronic",
       "ad": "Mercedes 7G-Tronic (722.9) otomatik şanzıman",
       "tur": "sanziman",
@@ -1147,10 +1175,40 @@
       ]
     },
     {
+      "id": "mercedes-om642",
+      "ad": "Mercedes OM642 3.0 V6 CDI - BlueTEC (dizel)",
+      "tur": "motor",
+      "aciklama": "Mercedes'in 2005'ten itibaren C, E, S, CLS, ML / GLE, GL, Sprinter ve Viano'da kullandığı 3.0 litre V6 common rail dizel motor (OM642; 190-265 PS; BlueTEC sürümleri dahil). Yağ soğutucusu contası sızıntısı bu motor için anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "yag-sogutucusu",
+          "sorun_adi": "Yağ soğutucusu contası sızıntısı",
+          "etkilenen_parca": "Yağ soğutucusu ve contaları (motor vadisi)",
+          "belirtiler": "Motor vadisinde ve turbo çevresinde yağ izi, yanık yağ kokusu, yağ seviyesinin düşmesi. Bir Ekşi Sözlük kullanıcısı sızıntının sensörle uyarılmadığını ve sızan yağın direksiyon kayışına ve şarj dinamosuna ulaşıp kısa devre yaptırabildiğini yazıyor.",
+          "tahmini_km_araligi": "100.000 - 190.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yağ soğutucusunun contaları zamanla sertleşip sızdırıyor. MBWorld ve BenzWorld'de sızıntının çoğunlukla 70-120 bin mil (yaklaşık 110-190 bin km) arasında başladığı, bazı araçlarda daha erken, bazılarında 200 bin mile yakın sızdırmadığı yazılıyor; bir sahip yenilenen (Viton) contalardan yaklaşık 80 bin mil sonra yeniden sızıntı yaşadığını aktarıyor. Ekşi Sözlük'te bir kullanıcı ortalama 100 bin km'de başladığını yazıyor.",
+            "teshis": "Aynı bölgedeki turbo giriş contası, karter havalandırma (CCV) hortumu ve supap kapakları da yağ sızdırabildiği için bu parçalar da kontrol ediliyor; girdap kanadı motoru ve turbo kaidesi karter havalandırması yüzünden yağlı görünebiliyor.",
+            "cozum": "Yağ soğutucusu contalarının yenilenmesi; işçiliği ağır bir iş.",
+            "maliyet": "ABD'deki MB forumlarında bir sahip bayi teklifinin yaklaşık 24 saatlik işçilikle 5.600 dolar olduğunu yazıyor; Türkiye'deki fiyat bundan farklıdır.",
+            "onlem": "Motor vadisindeki yağ izlerini periyodik bakımlarda kontrol ettirmek ve yağ seviyesini düzenli izlemek."
+          },
+          "kaynaklar": [
+            "https://eksisozluk.com/om642--6608698",
+            "https://mbworld.org/forums/diesel-forum/690440-om-642-oil-leak.html",
+            "https://mbworld.org/forums/gl-class-x166/758703-gl350-om642-oil-cooler-leak.html",
+            "https://forums.mbclub.co.uk/threads/om642-oil-leak-soon.283970/",
+            "https://www.benzworld.org/threads/om642-new-oil-cooler-seal-life.3116030/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "mercedes-om651",
       "ad": "Mercedes OM651 2.1 CDI (2.143 cc dizel, piezo enjektörlü)",
       "tur": "motor",
-      "aciklama": "Mercedes'in 2008'den itibaren C, E, A, B, CLA, GLA, GLC, GLK, Vito, Viano ve Sprinter'da kullandığı 2.1 litre common rail dizel motor (OM651; 110-204 PS). Piezo enjektörler ilk üretimde Delphi, sonra Bosch tedarikli.",
+      "aciklama": "Mercedes'in 2008'den itibaren C, E, A, B, CLA, GLA, GLC, GLK, ML / GLE, CLS, Vito, Viano ve Sprinter'da kullandığı 2.1 litre common rail dizel motor (OM651; 110-204 PS). Piezo enjektörler ilk üretimde Delphi, sonra Bosch tedarikli.",
       "kronik_sorunlar": [
         {
           "id": "piezo-enjektor",
@@ -3581,6 +3639,19 @@
     },
     {
       "marka": "BMW",
+      "model": "2 Serisi Gran Coupé (F44, 2020-)",
+      "motor": "218i 1.5 turbo (B38)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "BMW",
       "model": "3 Serisi (E90 / F30, 2007-2015)",
       "motor": "320d 2.0 dizel (N47D20)",
       "uretim_yillari": {
@@ -5892,6 +5963,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "fiat-dualogic"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Panda (2012-2020)",
+      "motor": "1.3 Multijet 75",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-3-multijet"
       ]
     },
     {
@@ -8381,6 +8465,32 @@
       ]
     },
     {
+      "marka": "Land Rover",
+      "model": "Discovery Sport (2015-)",
+      "motor": "2.0 TD4 / SD4 Ingenium dizel (150-240 PS)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "land-rover-ingenium-2-0d"
+      ]
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Range Rover Evoque (2015-2019)",
+      "motor": "2.0 TD4 Ingenium dizel (150 / 180 PS)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "land-rover-ingenium-2-0d"
+      ]
+    },
+    {
       "marka": "MG",
       "model": "MG4 Electric (2023-)",
       "motor": "Elektrik (Comfort 51 kWh / Luxury 64 kWh)",
@@ -8813,6 +8923,32 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "CLS (C218, 2011-2017)",
+      "motor": "CLS 250 CDI / 250 d 2.1 (OM651)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "CLS (C218, 2011-2017)",
+      "motor": "CLS 350 CDI / 350 d 3.0 V6 (OM642)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om642"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "Citan (W415, 2012-2021)",
       "motor": "108 / 109 / 111 CDI 1.5 (OM607, K9K)",
       "uretim_yillari": {
@@ -9072,6 +9208,45 @@
       "aileler": [
         "mercedes-7g-tronic",
         "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "ML / GLE (W166, 2011-2018)",
+      "motor": "ML 250 BlueTEC / GLE 250 d 2.1 (OM651)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "ML / GLE (W166, 2011-2018)",
+      "motor": "ML 350 BlueTEC / GLE 350 d 3.0 V6 (OM642)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om642"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "S Serisi (W222, 2013-2017)",
+      "motor": "S 350 d 3.0 V6 (OM642)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om642"
       ]
     },
     {
@@ -12119,6 +12294,19 @@
       "uretim_yillari": {
         "baslangic": 2008,
         "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Kangoo (III, 2021-)",
+      "motor": "1.5 Blue dCi 75/95/115 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
       },
       "kronik_sorunlar": [],
       "aileler": [

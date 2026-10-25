@@ -7340,7 +7340,8 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "not": "W166'ya özgü ayrı kaynak çıkmadı (DonanımHaber, Şikâyetvar ve Ekşi Sözlük aramalarında ML / GLE sonucu yok). 250 d, Mercedes OM651 ailesine; 350 d, aynı motoru kullanan modellerin MBWorld, BenzWorld ve MB Club konularına dayanan OM642 yağ soğutucusu ailesine bağlandı."
     },
     {
       "marka": "Mercedes-Benz",
@@ -7355,7 +7356,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "CLA 180 (M282 1.33 turbo): Şikâyetvar'daki CLA 180 / 200 kayıtlarında turbo basıncı, soğutma suyu eksilmesi (2015 CLA 180 d, 40.000 km), direksiyon açı sensörü (CLA 180 d, yaklaşık 80.000 km) ve vites geçişi şikâyetleri var; çoğu önceki kasa ve dizel 180 d araçlara ait, M282'ye özgü kayıt çıkmadı. 200 d (OM654): Türkçe kaynaklarda OM654'e özgü kronik arıza yok; MB Club ve MBWorld'de E220d için külbütör / eksantrik aşınması (99 bin mil civarında bir vaka) ve erken enjektör contası sızıntısı (28 bin mil) tekil anlatılar olarak geçiyor, CLA için ayrı kaynak yok."
     },
     {
       "marka": "Mercedes-Benz",
@@ -7370,22 +7373,24 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "not": "CLS'e özgü ayrı kaynak çıkmadı; 250 CDI, OM651 ailesine, 350 CDI, OM642 yağ soğutucusu ailesine bağlandı."
     },
     {
       "marka": "Mercedes-Benz",
       "model": "S Serisi W222",
-      "yillar": "2013-2020",
-      "motor": "S 350 d (OM642) / S 400",
+      "yillar": "2013-2017",
+      "motor": "S 350 d (OM642)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "W222"
         ],
         "motor": [
-          ""
+          "S 350 d"
         ]
-      }
+      },
+      "not": "W222'ye özgü ayrı kaynak çıkmadı; OM642 yağ soğutucusu ailesine bağlandı."
     },
     {
       "marka": "Mercedes-Benz",
@@ -7400,7 +7405,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "MB Club ve BenzWorld'de W639 Vito 2.2 CDI (OM646) için enjektör keçesi sızıntısı ('black death': enjektör yuvasında karbon, gaz kaçağı, onarımdan sonra yeniden sızdırma; bir vakada bayi onarımından yaklaşık 10 ay sonra) yaygın biçimde anlatılıyor, turbo aktüatör ve girdap kanadı arıza kodları da geçiyor. DonanımHaber'deki Viano 2.2 CDI incelemesi kronik başlıklar olarak enjektör, EGR valfi ve otomatik şanzıman arızalarını sayıyor. Kaynaklar arızanın hangi kilometrede çıktığını vermediği için kilometre aralığı çıkarılamadı ve kayıt açılmadı."
     },
     {
       "marka": "Mercedes-Benz",
@@ -7415,7 +7422,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'daki Sprinter şikâyetleri çoğunlukla 2022-2023 model araçlara ait tekil anlatılar (şaft titremesi 5.000 km'den sonra, 3. viteste atma 22 bin km, rölanti titremesi 50 bin km, diferansiyel vuruntusu yaklaşık 70 bin km, lambda sensörü arızasıyla gaz kesme); 2019-2021 316 CDI için kayıt yok. Parkers 907 kuşağının birkaç güvenlik geri çağırması olduğunu ve 140 / 143 PS motorların dik yokuşta 6. viteste zorlandığını yazıyor; OM654 için külbütör aşınması ve AdBlue (NOx sensörü, depo ısıtıcısı) anlatıları Sprinter'e değil E sınıfı ve V sınıfı forumlarına ait."
     },
     {
       "marka": "Mercedes-Benz",
@@ -7430,7 +7439,9 @@
         "motor": [
           "109"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar ve DonanımHaber'de Vito 111 CDI için enjektör, turbo ve elektrik başlıkları sayılıyor; 2012 model 110 CDI'da 500.000 km'de motor lambası ve gaz kesme gibi tekil şikâyetler var, ancak bunlar eski kasa ve farklı motorlara ait. MB Club'da C180 d'deki 1.6 (OM626) için tek enjektör arızası (rölanti dalgalanması, hafif duman) anlatılıyor; W447 OM622'ye özgü kaynak ve kilometre bilgisi çıkmadı."
     },
     {
       "marka": "Volvo",
@@ -7594,17 +7605,18 @@
     {
       "marka": "Land Rover",
       "model": "Range Rover Evoque",
-      "yillar": "2011-2019",
-      "motor": "2.2 SD4 / 2.0 TD4 (Ingenium) / 2.0 Si4",
+      "yillar": "2015-2019",
+      "motor": "2.0 TD4 (Ingenium)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Evoque"
         ],
         "motor": [
-          ""
+          "TD4"
         ]
-      }
+      },
+      "not": "Gösterilen yağ seyrelmesi sorunu Discovery Sport ile ortak Land Rover Ingenium 2.0 dizel ailesine dayanır (Honest John, Parkers, DonanımHaber); Evoque'a özgü ayrı kayıt yok."
     },
     {
       "marka": "Land Rover",
@@ -7619,7 +7631,8 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "not": "Gösterilen yağ seyrelmesi sorunu Evoque ile ortak Land Rover Ingenium 2.0 dizel ailesine dayanır (Honest John, Parkers, DonanımHaber); Honest John'daki 2020 tarihli bir Discovery Sport DPF konusu ve Parkers'ın Discovery Sport uzun dönem testi doğrudan bu modele aittir."
     },
     {
       "marka": "Land Rover",
@@ -8191,7 +8204,8 @@
           "2.0 CDTI"
         ]
       },
-      "not": "Insignia B 1.5 Turbo için bu oturumdaki aramada sonuç çıkmadı; 2.0 CDTI aranmadı (sırada)."
+      "not": "Şikâyetvar'da Insignia B 1.5 Grand Sport (2020) için 'motor gücü azaltıldı' uyarısı ve devirdaim pompası arızası ile garanti reddi anlatılıyor; aynı sayfada bir yorumcu bunun 1.5 dizelde kronik olduğunu yazıyor, benzinli 1.5 Turbo için kanıt değil. DonanımHaber'de 1.5T 165 BG için parça bulma endişesi dışında şikâyet yok. 2.0 CDTI için çıkan kaynaklar (Parkers, Vauxhall Owners Network) 2009-2017 Insignia A'nın yağ emme borusu kaynaklı yağ basıncı kaybını anlatıyor; B nesline özgü kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
     },
     {
       "marka": "Opel",
@@ -8430,7 +8444,7 @@
           "1.3 Multijet"
         ]
       },
-      "not": "Panda 1.3 Multijet için bu oturumda aranmadı (sırada)."
+      "not": "Panda'ya özgü kaynak çıkmadı (DonanımHaber ve Şikâyetvar sonuçları Doblo, Palio, Punto ve Fiorino ağırlıklı; FiatForum'daki 'Multijet Panda' konuları nesli belirtmiyor); aynı motoru kullanan modellerin Fiat / Opel 1.3 Multijet ailesine bağlandı."
     },
     {
       "marka": "Fiat",
@@ -8445,7 +8459,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "FiatForum'da 1.4 T-Jet için M32 şanzımanın zayıf olduğu (5. ve 6. viteste uğultu), 150 PS'te aks millerinin zorlandığı, gaz kelebeği (P0121 / P0122) sorunu ve soğutma borusu gevşemesi; 1.6 Multijet için EGR (bir sahipte yaklaşık 50 bin mil civarında değişim), turbo yağ kaçağı veya yatak arızası ve DPF anlatıları var; tek sitede ve kilometre bilgisi tutarsız olduğundan kayıt açılmadı. Şikâyetvar ve Ekşi Sözlük'te Bravo'nun kronik konuları klima klapesi, yolcu airbag kapağı ve güneşlik; bunlar Bravo model geneli kaydında."
     },
     {
       "marka": "Fiat",
@@ -8461,7 +8477,9 @@
           "MultiAir",
           "FireFly"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "FiatForum'da 500X 1.4 MultiAir için yağ tüketimi (bir 2018 sahibi yaklaşık 621 milde 1 litre), MultiAir valflerinin açılmamasıyla güç kaybı ve misfire, DCT'de iki kavramanın değişmesi anlatılıyor; Şikâyetvar'da 2021 modelde 68.000 km'de otomatik şanzıman arızası ve 2015 modelde 45.000 km'de sürüş modu sorunu var. 1.3 FireFly Turbo için kaynak çıkmadı. CarComplaints ve sınıf davası sonuçları ABD'deki 2.4 litre Tigershark motoruna ait olduğundan kullanılmadı."
     },
     {
       "marka": "Fiat",
@@ -8528,16 +8546,17 @@
       "marka": "Renault",
       "model": "Kangoo 3",
       "yillar": "2021-",
-      "motor": "1.5 Blue dCi / 1.3 TCe",
+      "motor": "1.5 Blue dCi (K9K)",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Kangoo 3"
+          "Kangoo (III"
         ],
         "motor": [
-          ""
+          "1.5 Blue dCi"
         ]
-      }
+      },
+      "not": "Kangoo 3'e özgü kaynak çıkmadı (Şikâyetvar'da multimedya kilidi gibi yeni araç şikâyetleri ve Kangoo Multix 1.5 Blue dCi için 16.000-50.000 km'de titreme, devirdaim ve erken turbo anlatıları var); aynı motoru kullanan modellerin Renault K9K ailesine bağlandı."
     },
     {
       "marka": "Renault",
@@ -9454,18 +9473,17 @@
       "marka": "BMW",
       "model": "2 Serisi F44 Gran Coupé",
       "yillar": "2020-",
-      "motor": "216d / 218i / 220i",
+      "motor": "218i (B38)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "F44"
         ],
         "motor": [
-          "216d",
-          "218i",
-          "220i"
+          "218i"
         ]
-      }
+      },
+      "not": "218i (B38), BMW B38 ailesine bağlandı. F44'e özgü ayrı kaynak çıkmadı; Şikâyetvar'daki tekil şikâyetler (218i'de vites geçişinde sarsıntı ve R/D/P geçişinde vuruntu, yağmurda ABS / ESP uyarısı) kilometre ve ikinci kaynakla desteklenmedi."
     },
     {
       "marka": "BMW",
@@ -12134,6 +12152,76 @@
         ]
       },
       "not": "12V akü ve ICCU konuları motor satırlarında. Şikâyetvar'da 2023 model EV6'da 12V akünün garanti dışı bırakılması (ilk tescil 25.04.2024), Ekşi Sözlük'te 'ICCU sorunu Amerika'da sık, Türkiye'de pek gündeme gelmedi' ve araca yaklaşınca kilitlerin açılmaması tek yorum; DonanımHaber haberi ABD'de 2022-2024 Ioniq 5, 2023-2025 Ioniq 6 ve 2022-2024 EV6 için yaklaşık 200 bin araçlık ICCU geri çağırmasını aktarıyor. Şarj kapağı, ekran ve kapı kolu için model geneli kayıt çıkmadı; Mercedes EQA / EQB için kronik sorun bulunamadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Range Rover Evoque",
+      "yillar": "2011-2019",
+      "motor": "2.2 SD4 / 2.0 Si4",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Evoque"
+        ],
+        "motor": [
+          "SD4",
+          "Si4"
+        ]
+      },
+      "not": "2.2 SD4: Honest John forumunda motor ve şanzımanın genelde sağlam olduğu, 80 bin mil sonrası dizel yaşlanması, elektrik, döşeme ve arka diferansiyel sorunlarının beklenebileceği yazılıyor; bir Honest John yanıtı motorun eksantrik mili arızasına yatkın olduğunu söylüyor ama sayı vermiyor. Şikâyetvar'da 2012 ve 2017 dizel Evoque'lerde 'yakıtta su' uyarısı ve motorun durması gibi tekil şikâyetler var. 2.0 Si4: DonanımHaber'de 2012 modelinde zamanlama zinciri gergisi arızası anılıyor; CarComplaints'te 2014 Evoque motoru için 11 şikâyet (ortalama 38.409 mil) ve 83.000 milde kopan bir zincir anlatısı var ama şikâyetler motor tipini belirtmediği için kilometre aralığı çıkarılmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "S Serisi W222",
+      "yillar": "2013-2020",
+      "motor": "S 400 (M276 3.0 V6 biturbo benzin)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "W222"
+        ],
+        "motor": [
+          "S 400"
+        ]
+      },
+      "not": "Şikâyetvar'daki S 400 kayıtları 2021 model (W223) araçlara ait (disk balansı, akü); W222 M276 için kilometreye bağlı kronik arıza çıkmadı. DonanımHaber'deki turbo başlığı model belirtmiyor.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Renault",
+      "model": "Kangoo 3",
+      "yillar": "2021-",
+      "motor": "1.3 TCe 100 / 130",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Kangoo (III"
+        ],
+        "motor": [
+          "1.3 TCe"
+        ]
+      },
+      "not": "Şikâyetvar'da 2025 model Kangoo 1.3 benzinli İkonik için su ısıtma sistemi ve aracın sağa çekmesi gibi 5.700 km'de tekil şikâyetler var; 1.3 TCe için devirdaim pompası şikâyetleri çoğunlukla Megane'ye ait. Kangoo 3'e özgü ikinci kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "2 Serisi F44 Gran Coupé",
+      "yillar": "2020-",
+      "motor": "216d / 220i",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "F44"
+        ],
+        "motor": [
+          "216d",
+          "220i"
+        ]
+      },
+      "not": "Şikâyetvar'da 216d'de krank kasnağı sesi ve arızası (bir kullanıcıda 68.000 km), motor arıza ışığı ve turbo şikâyetleri tekil; Bimmerpost F44 forumunda 7 ileri DCT'de rölantiye bırakınca silkeleme ve sunroof çevresi tıkırtı konuları var, sistematik motor verisi ve ikinci kaynak yok. Gündüz farı sararması ve lastik balonlanması şikâyetleri motor değil model geneli konulardır.",
       "sonuc": "yetersiz-kanit"
     }
   ]

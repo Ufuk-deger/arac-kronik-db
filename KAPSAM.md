@@ -26,30 +26,30 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **584** model/motor grubu (motor ve şanzıman düzeyi)
+- Plan: **588** model/motor grubu (motor ve şanzıman düzeyi)
 - Tamamlanan (✓, modele özgü kaynaklı sorun var): **168**
-- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **142**
-- Araştırılıp eklenmeyen (–): **186**
-- Sırada (○): **88**
+- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **150**
+- Araştırılıp eklenmeyen (–): **197**
+- Sırada (○): **73**
 - Kademe 1: **120/120** işlendi (✓, ◐ ya da –)
-- Model geneli taraması: **150** model nesli arandı (sorun bulunan ✓ **72**, kanıt yetersiz – **78**); 328 motor kaydından **149**'i taranmış bir modele ait, **179**'i henüz taranmadı
-- Veritabanı: **400** kayıt (**328** motor, **72** model geneli), **344** kayda özgü kronik sorun, **48** motor/şanzıman ailesi (**82** ortak sorun)
+- Model geneli taraması: **150** model nesli arandı (sorun bulunan ✓ **72**, kanıt yetersiz – **78**); 338 motor kaydından **153**'i taranmış bir modele ait, **185**'i henüz taranmadı
+- Veritabanı: **410** kayıt (**338** motor, **72** model geneli), **344** kayda özgü kronik sorun, **50** motor/şanzıman ailesi (**84** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Renault | 37 | 15 | 7 | 11 | 4 | 8/8 | 6 / 4 |
+| Renault | 38 | 15 | 8 | 12 | 3 | 8/8 | 6 / 4 |
 | Volkswagen | 50 | 18 | 12 | 15 | 5 | 13/13 | 4 / 9 |
 | Toyota | 21 | 4 | 5 | 10 | 2 | 6/6 | 1 / 3 |
-| Fiat | 27 | 11 | 4 | 7 | 5 | 5/5 | 6 / 2 |
+| Fiat | 27 | 11 | 5 | 9 | 2 | 5/5 | 6 / 2 |
 | Hyundai | 37 | 11 | 9 | 15 | 2 | 13/13 | 2 / 5 |
 | Peugeot | 21 | 9 | 5 | 5 | 2 | 5/5 | 4 / 4 |
-| Opel | 40 | 14 | 13 | 8 | 5 | 5/5 | 5 / 6 |
+| Opel | 40 | 14 | 13 | 9 | 4 | 5/5 | 5 / 6 |
 | Citroen | 20 | 6 | 5 | 6 | 3 | 3/3 | 3 / 1 |
 | BYD | 2 | 1 | 0 | 1 | 0 | 1/1 | 0 / 1 |
 | Skoda | 27 | 9 | 8 | 8 | 2 | 6/6 | 5 / 5 |
-| Mercedes-Benz | 37 | 10 | 12 | 8 | 7 | 6/6 | 4 / 3 |
+| Mercedes-Benz | 38 | 10 | 15 | 13 | 0 | 6/6 | 4 / 3 |
 | Togg | 2 | 1 | 0 | 1 | 0 | 1/1 | 1 / 0 |
-| BMW | 40 | 5 | 17 | 13 | 5 | 13/13 | 7 / 2 |
+| BMW | 41 | 5 | 18 | 14 | 4 | 13/13 | 7 / 2 |
 | Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 | 1 / 0 |
 | Nissan | 19 | 8 | 4 | 4 | 3 | 4/4 | 4 / 1 |
 | Chery | 2 | 0 | 0 | 2 | 0 | 0/0 | — |
@@ -68,7 +68,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Mazda | 3 | 0 | 0 | 3 | 0 | 0/0 | 1 / 0 |
 | Suzuki | 4 | 0 | 0 | 2 | 2 | 0/0 | 0 / 1 |
 | Mitsubishi | 4 | 0 | 0 | 1 | 3 | 0/0 | 0 / 1 |
-| Land Rover | 7 | 0 | 0 | 3 | 4 | 0/0 | 0 / 2 |
+| Land Rover | 8 | 0 | 2 | 4 | 2 | 0/0 | 0 / 2 |
 | Cupra | 2 | 1 | 0 | 1 | 0 | 0/0 | — |
 | MG | 4 | 1 | 0 | 2 | 1 | 1/1 | 0 / 1 |
 | Lexus | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
@@ -170,7 +170,8 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Kadjar | 2015-2022 | 1.5 dCi 110 (K9K) | ✓ 1 sorun (+3 ortak aile) |
 | 2 | Kadjar | 2015-2022 | 1.3 TCe 140 (H5H) | ✓ 2 sorun (+1 ortak aile) |
 | 2 | Kadjar | 2015-2018 | 1.2 TCe 130 (H5Ft, manuel ve EDC) | ◐ 4 ortak aile sorunu, 1 yıl kırılımı — Kadjar 1.2 TCe'ye özgü kaynak aranmadı; gösterilen yağ tüketimi ve zincir sorunları aynı H5Ft motorunu kullanan Clio 4, Captur, Juke ve Qashqai kayıtlarına, EDC sorunları Kadjar 1.3 TCe ve 1.5 dCi kayıtlarına dayanır. |
-| 2 | Kangoo 3 | 2021- | 1.5 Blue dCi / 1.3 TCe | ○ sırada |
+| 2 | Kangoo 3 | 2021- | 1.5 Blue dCi (K9K) | ◐ 2 ortak aile sorunu — Kangoo 3'e özgü kaynak çıkmadı (Şikâyetvar'da multimedya kilidi gibi yeni araç şikâyetleri ve Kangoo Multix 1.5 Blue dCi için 16.000-50.000 km'de titreme, devirdaim ve erken turbo anlatıları var); aynı motoru kullanan modellerin Renault K9K ailesine bağlandı. |
+| 2 | Kangoo 3 | 2021- | 1.3 TCe 100 / 130 | – eklenmedi: Şikâyetvar'da 2025 model Kangoo 1.3 benzinli İkonik için su ısıtma sistemi ve aracın sağa çekmesi gibi 5.700 km'de tekil şikâyetler var; 1.3 TCe için devirdaim pompası şikâyetleri çoğunlukla Megane'ye ait. Kangoo 3'e özgü ikinci kaynak çıkmadı. |
 | 2 | Megane 3 / Fluence | 2009-2016 | 1.6 16V (K4M, LPG'li dahil) | – eklenmedi: Aramalarda LPG'li K4M supap oturması anılıyor ama iki bağımsız site bulunamadı. |
 | 2 | Megane 4 | 2016- | 1.6 SCe 115 (H4M) | – eklenmedi: Aramalarda H4M motoruna özgü arıza çıkmadı; şikâyetler motor tipi belirtmeyen genel Megane 4 konularına (yağ sızıntısı, soğutma, enjeksiyon uyarısı) ve LPG'li araçlara ait. |
 | 2 | Megane E-Tech Electric | 2022- | Elektrik (60 kWh) | – eklenmedi: Şikâyetvar'da DC şarjda 'elektrik sistemini kontrol ettirin' uyarısı, şarj ünitesi arızası ve gerçek menzil şikâyetleri var; Ekşi Sözlük ve DonanımHaber'de aynı arızaları doğrulayan bir kaynak çıkmadı (12V akü başlığı Megane II'ye ait). |
@@ -309,17 +310,17 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | 500 | 2008- | 1.2 Fire / 0.9 TwinAir | ✓ 1 sorun |
 | 2 | 500 | 2008- | Tüm motorlar (model geneli) | ✓ 1 sorun — 500 Dualogic, 500L ve 500X ayrı satırlardır; Grande Panda (elektrikli) şikâyetleri bu kayda katılmadı. Panda için kapı kilidi ya da silecek gibi modele özgü kronik bir sorun doğrulanamadı. |
 | 2 | 500 Dualogic | 2008- | 0.9 TwinAir / 1.2 Fire (Dualogic) | ◐ 2 ortak aile sorunu — 500 Dualogic'e özgü kaynak aranmadı; gösterilen hidrolik ünite, aktüatör ve kavrama sorunları aynı Dualogic şanzımanı kullanan Linea kaydına dayanır. |
-| 2 | 500X | 2015- | 1.4 MultiAir / 1.3 FireFly Turbo | ○ sırada |
+| 2 | 500X | 2015- | 1.4 MultiAir / 1.3 FireFly Turbo | – eklenmedi: FiatForum'da 500X 1.4 MultiAir için yağ tüketimi (bir 2018 sahibi yaklaşık 621 milde 1 litre), MultiAir valflerinin açılmamasıyla güç kaybı ve misfire, DCT'de iki kavramanın değişmesi anlatılıyor; Şikâyetvar'da 2021 modelde 68.000 km'de otomatik şanzıman arızası ve 2015 modelde 45.000 km'de sürüş modu sorunu var. 1.3 FireFly Turbo için kaynak çıkmadı. CarComplaints ve sınıf davası sonuçları ABD'deki 2.4 litre Tigershark motoruna ait olduğundan kullanılmadı. |
 | 2 | 500X | 2015- | 1.6 MultiJet 120 | ◐ 2 ortak aile sorunu — 500X'e özgü kaynak aranmadı; gösterilen çift kütleli volan ve EGR / DPF sorunları aynı Multijet II motorunu kullanan Egea 1.6 kaydına dayanır. |
 | 2 | 500e | 2021- | Elektrik (42 kWh) | – eklenmedi: Şikâyetvar'da şarj sorunları ve batarya arızası (menzil göstergesinin 320 km'den 260 km'ye düşmesi) tekil; DonanımHaber yorumu olumlu, Ekşi Sözlük yorumları ABD'deki eski modellere ait. |
 | 2 | 600e | 2024- | Elektrik (54 kWh, 156 PS) | ✓ 1 sorun |
-| 2 | Bravo | 2007-2014 | 1.4 T-Jet / 1.6 Multijet | ○ sırada |
+| 2 | Bravo | 2007-2014 | 1.4 T-Jet / 1.6 Multijet | – eklenmedi: FiatForum'da 1.4 T-Jet için M32 şanzımanın zayıf olduğu (5. ve 6. viteste uğultu), 150 PS'te aks millerinin zorlandığı, gaz kelebeği (P0121 / P0122) sorunu ve soğutma borusu gevşemesi; 1.6 Multijet için EGR (bir sahipte yaklaşık 50 bin mil civarında değişim), turbo yağ kaçağı veya yatak arızası ve DPF anlatıları var; tek sitede ve kilometre bilgisi tutarsız olduğundan kayıt açılmadı. Şikâyetvar ve Ekşi Sözlük'te Bravo'nun kronik konuları klima klapesi, yolcu airbag kapağı ve güneşlik; bunlar Bravo model geneli kaydında. |
 | 2 | Bravo | 2007-2014 | Tüm motorlar (model geneli) | ✓ 3 sorun — Yolcu airbag kapağı şişmesi, klima klapesi arızası ve yolcu güneşliği sarkması DonanımHaber ve Ekşi Sözlük'te (ilk ikisi Şikâyetvar'da da) doğrulandı. Bir Şikâyetvar kaydındaki 'bayi 90 bin TL fiyat çıkardı' tutarı doğrulanamadığı için kayda alınmadı. EGR kapağı çatlağı (2011 model), Dualogic şanzımanın kendiliğinden N'ye geçmesi ve şanzıman takozunun resmî kayıtlarda iptal görünmesi motor / şanzıman düzeyinde ve tek sitede kaldı; Bravo motor satırı (1.4 T-Jet / 1.6 Multijet) sırada. |
 | 2 | Egea | 2016- | 1.6 E-Torq 110 | – eklenmedi: Aramalarda öne çıkan kronik sorun bulunamadı. |
 | 2 | Egea Hybrid | 2022- | 1.5 Hybrid 130 (48V hafif hibrit, çift kavramalı) | ✓ 1 sorun |
 | 2 | Linea | 2007-2015 | 1.4 Fire / 1.4 T-Jet | – eklenmedi: Dağınık şikâyetler var, tekrar eden bir sorun için iki bağımsız site bulunamadı. |
 | 2 | Linea | 2011-2015 | 1.6 Multijet 105 | – eklenmedi: Faz 9'da arandı: Şikâyetvar'ın Linea 1.6 Multijet şikâyetlerinde en çok tekrarlanan konu yolcu hava yastığı bölgesinde göğüs paneli çatlağı ve Blue&Me arızası; sıcak motorda zor çalışma ayrı bir şikâyet. EGR, enjektör ve turbo iddiaları genel motor ailesine ait tek bir DonanımHaber başlığında. 1.4 T-Jet (turbo, yağ eksiltme) için sonuç çıkmadı; Dualogic sorunları Linea 1.3 Multijet kaydında. |
-| 2 | Panda | 2012-2020 | 1.3 Multijet | ○ sırada |
+| 2 | Panda | 2012-2020 | 1.3 Multijet | ◐ 5 ortak aile sorunu — Panda'ya özgü kaynak çıkmadı (DonanımHaber ve Şikâyetvar sonuçları Doblo, Palio, Punto ve Fiorino ağırlıklı; FiatForum'daki 'Multijet Panda' konuları nesli belirtmiyor); aynı motoru kullanan modellerin Fiat / Opel 1.3 Multijet ailesine bağlandı. |
 | 2 | Panda | 2012-2020 | 0.9 TwinAir / 1.2 Fire (Dualogic) | ◐ 2 ortak aile sorunu — Panda 0.9 TwinAir için yağ tüketimi sonucu çıkmadı, motor yorumları genelde olumlu (şehir içinde yaklaşık 6 litre); Dualogic için DonanımHaber ve Ekşi Sözlük'te yağın azalıp katranlaşması, aktüatör pistonunda talaş birikimi (bir Lancia sahibinin anlatısı), vites yükseltmeme ve direksiyon sertleşmesi anlatıları var. Gösterilen hidrolik ünite, aktüatör ve kavrama sorunları aynı Dualogic şanzımanı kullanan Linea kaydına dayanır. |
 | 2 | Panda | 2012-2020 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'ın Panda kronik sayfasında düşük hızda ya da rölantide direksiyonun birden sertleşip kırmızı uyarının yanması (2005, 2007 ve 2011 model 1.2'ler) ve DonanımHaber'de EPS içindeki tork sensörünün değiştirilip kalibre edilmesiyle (yaklaşık 600 TL) giderilmesi geçiyor; sorun Punto / Grande Punto'da daha yoğun. fiatforum'da 'Panda (Mk3)' etiketli EPS başlıkları da var (tork pozisyon sensörü, C1001 / C1002 kodları, düşük akü gerilimi, direksiyon ortalama noktası), ancak arama özetlerinde 169 şasili Panda (2003-2012) başlıklarıyla karışık geldi; Türkçe sitelerde 312 şasili (2012-2020) Panda'ya ve 0.9 TwinAir'e bağlanan kayıt çıkmadı, bu yüzden tek siteli kalan kanıt kayda dönüşmedi. Kapı kilidi, cam ve tavan için Panda'ya özgü kayıt yok (Şikâyetvar cam tavan şikâyetleri Fiat 500L ve Egea'ya ait). Elektrikli Grande Panda ayrı satırdır. |
 | 2 | Punto Evo / Grande Punto | 2009-2018 | 1.3 Multijet 75/95 | ✓ 2 sorun (+5 ortak aile) |
@@ -444,7 +445,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Insignia A | 2014-2017 | 1.6 CDTI 136 | ✓ 2 sorun |
 | 2 | Insignia A | 2008-2017 | 2.0 CDTI / 1.6 Turbo | – eklenmedi: Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı. |
 | 2 | Insignia A | 2008-2017 | 1.6 115 (A16XER) | ◐ 1 ortak aile sorunu — Insignia 1.6 benzinliye özgü kaynak aranmadı; gösterilen termostat gövdesi, soğutma suyu eksilmesi ve yağ soğutucu sorunu aynı A16XER motorunu kullanan Astra J kaydına dayanır. |
-| 2 | Insignia B | 2017-2022 | 1.5 Turbo / 2.0 CDTI | ○ sırada |
+| 2 | Insignia B | 2017-2022 | 1.5 Turbo / 2.0 CDTI | – eklenmedi: Şikâyetvar'da Insignia B 1.5 Grand Sport (2020) için 'motor gücü azaltıldı' uyarısı ve devirdaim pompası arızası ile garanti reddi anlatılıyor; aynı sayfada bir yorumcu bunun 1.5 dizelde kronik olduğunu yazıyor, benzinli 1.5 Turbo için kanıt değil. DonanımHaber'de 1.5T 165 BG için parça bulma endişesi dışında şikâyet yok. 2.0 CDTI için çıkan kaynaklar (Parkers, Vauxhall Owners Network) 2009-2017 Insignia A'nın yağ emme borusu kaynaklı yağ basıncı kaybını anlatıyor; B nesline özgü kayıt çıkmadı. |
 | 2 | Insignia B | 2017-2022 | 1.6 CDTI 136 | ◐ 2 ortak aile sorunu — Bu oturumdaki aramada Insignia B (GrandSport) 1.6 CDTI için DonanımHaber, Şikâyetvar ve Ekşi Sözlük'te turbo hortumunun bağlantı yerinden yırtılması (50 bin ve 72 bin km vakaları), enjektör şakırtısı ve zincir sesi anlatıları, otomatik şanzımanda titreme ve selenoid arızası (Şikâyetvar'da 187 bin km'de 202 bin TL'lik revizyon) çıktı; modele özgü kilometre bilgisi ve ikinci kaynakla doğrulanmış ayrı kayıt oluşmadı. Gösterilen triger zinciri ve turbo hortumu sorunları Astra J / K ve Insignia A kaynaklarına dayanır. |
 | 2 | Insignia B | 2017-2022 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da Grand Sport sahipleri multimedya ekranında kayma ve titreme (ünite sökülüp tamire gönderilmiş), 2017 model bir araçta ekranın iki kez donması (yazılım güncellemesiyle çözülmüş), akıllı far arızasının serviste çözülememesi, 2018-2019 model sıfır araçlarda deri direksiyonun bir yıl / 10 bin km içinde soyulması (Opel Türkiye 'kullanım hatası' demiş), 2017 model bir araçta üç kapının açılıp kapanmaması ve arka stop lambasına su alma gibi tekil kayıtlar yazıyor. DonanımHaber'de multimedya donması şikâyeti çıkmadı (eleştiri telefon bağlantısının sınırlı olması ve radyonun her açılışta başlaması); bir Grand Sport sahibi 40 bin km'de birden fazla noktada tavan boyası atmasından yakınırken başka bir kullanıcı yeni kasada bu sorunu duymadığını yazıyor. Ekşi Sözlük'te direksiyon kaplamasının soyulmasını 'kronik' diye anan yorum sayfa bazında Grand Sport'a bağlanamadı (Insignia A ve Astra K ile ortak başlıklar). Tavan oluklarında boya atması şikâyetleri Şikâyetvar'da 2015-2018 model yıllarına dağılıyor (Insignia A ve B karışık). |
 | 2 | Meriva B | 2010-2017 | 1.4 atmosferik | – eklenmedi: Meriva 1.4 atmosferik için tekrar eden sorun çıkmadı; şikâyetler hava yastığı geri çağırması ve kapı kaplamasında. |
@@ -583,21 +584,22 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | GLA | 2013-2019 | GLA 180 d 1.5 (OM607) | ◐ 2 ortak aile sorunu — GLA'ya özgü ayrı kaynak bulunamadı; DonanımHaber'deki Pre-Safe başlığı GLA'yı da anıyor. Gösterilen enjektör ve EGR sorunları 1.5 dizelin Renault K9K ile ortak olması nedeniyle Renault ve Dacia kaynaklarına dayanır. |
 | 2 | GLA | 2013-2019 | GLA 200 CDI / 220 CDI 2.1 (OM651, 7G-DCT) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — GLA'ya özgü ayrı kaynak bulunamadı; DonanımHaber'deki Pre-Safe başlığı GLA'yı da anıyor. Gösterilen piezo enjektör sorunu C Serisi W204 ve E Serisi W212 (OM651) kayıtlarına dayanır. |
 | 2 | GLC | 2015-2019 | GLC 220 d / 250 d 2.1 (OM651, 9G-Tronic) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — GLC 220 d için Türkçe deneyim kaynağı tek vakada kaldı (2020 model araç, OM654 olabilir); yabancı rehberler OM651'de EGR kurumu ve NOx / AdBlue arızalarını sayıyor. Gösterilen piezo enjektör sorunu C Serisi W204 ve E Serisi W212 (OM651) kayıtlarına dayanır. |
-| 2 | GLE W166 (ML) | 2011-2018 | 250 d (OM651) / 350 d (OM642) | ○ sırada |
-| 2 | Vito W447 (1.6) | 2014- | 109 / 111 CDI 1.6 (OM622, R9M) | ○ sırada |
+| 2 | GLE W166 (ML) | 2011-2018 | 250 d (OM651) / 350 d (OM642) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — W166'ya özgü ayrı kaynak çıkmadı (DonanımHaber, Şikâyetvar ve Ekşi Sözlük aramalarında ML / GLE sonucu yok). 250 d, Mercedes OM651 ailesine; 350 d, aynı motoru kullanan modellerin MBWorld, BenzWorld ve MB Club konularına dayanan OM642 yağ soğutucusu ailesine bağlandı. |
+| 2 | Vito W447 (1.6) | 2014- | 109 / 111 CDI 1.6 (OM622, R9M) | – eklenmedi: Şikâyetvar ve DonanımHaber'de Vito 111 CDI için enjektör, turbo ve elektrik başlıkları sayılıyor; 2012 model 110 CDI'da 500.000 km'de motor lambası ve gaz kesme gibi tekil şikâyetler var, ancak bunlar eski kasa ve farklı motorlara ait. MB Club'da C180 d'deki 1.6 (OM626) için tek enjektör arızası (rölanti dalgalanması, hafif duman) anlatılıyor; W447 OM622'ye özgü kaynak ve kilometre bilgisi çıkmadı. |
 | 3 | B Serisi W246 | 2011-2018 | B200 CDI / B220 CDI 2.1 (OM651) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — Faz 9'da iki sorguyla arandı: Türkçe şikâyet ya da forum kaydı çıkmadı; Carchecker ve Au7o'daki rehber ve ABD sahip raporları OM651 dizelde DPF-EGR tıkanması ve 7G-DCT'de kalkış titreşimi gösteriyor (A Serisi / W176 kaydındaki bulgularla örtüşüyor); DonanımHaber'de bir kullanıcı B200'ün 7G-DCT'sinin sorunsuz olduğunu yazıyor. Gösterilen piezo enjektör sorunu C Serisi W204 ve E Serisi W212 (OM651) kayıtlarına dayanır. |
 | 3 | CLA | 2013-2019 | 180 CDI (dizel) | ✓ 1 sorun (+2 ortak aile) |
-| 3 | CLA C118 | 2019- | CLA 180 (M282) / 200 d (OM654) | ○ sırada |
-| 3 | CLS C218 | 2011-2017 | CLS 250 CDI (OM651) / 350 CDI (OM642) | ○ sırada |
+| 3 | CLA C118 | 2019- | CLA 180 (M282) / 200 d (OM654) | – eklenmedi: CLA 180 (M282 1.33 turbo): Şikâyetvar'daki CLA 180 / 200 kayıtlarında turbo basıncı, soğutma suyu eksilmesi (2015 CLA 180 d, 40.000 km), direksiyon açı sensörü (CLA 180 d, yaklaşık 80.000 km) ve vites geçişi şikâyetleri var; çoğu önceki kasa ve dizel 180 d araçlara ait, M282'ye özgü kayıt çıkmadı. 200 d (OM654): Türkçe kaynaklarda OM654'e özgü kronik arıza yok; MB Club ve MBWorld'de E220d için külbütör / eksantrik aşınması (99 bin mil civarında bir vaka) ve erken enjektör contası sızıntısı (28 bin mil) tekil anlatılar olarak geçiyor, CLA için ayrı kaynak yok. |
+| 3 | CLS C218 | 2011-2017 | CLS 250 CDI (OM651) / 350 CDI (OM642) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — CLS'e özgü ayrı kaynak çıkmadı; 250 CDI, OM651 ailesine, 350 CDI, OM642 yağ soğutucusu ailesine bağlandı. |
 | 3 | EQE / EQS | 2022- | Elektrik | – eklenmedi: Şikâyetvar'da EQS için şarj almama ve yolda kalma, EQE için menzil kaybı şikâyetleri tekil. NHTSA 24V372 (EQE / EQS batarya yönetimi yazılımı, sürüş gücü kaybı) ABD'deki araçlara ait ve Türkiye şikâyetleriyle aynı belirtiyi göstermiyor. DonanımHaber'de 'Mercedes EQE ve EQS Kullanıcı Deneyimleri' başlığı var ancak eşleşen bir arıza çıkmadı. |
 | 3 | GLA | 2013-2019 | 1.6 / 2.0 benzinli (M270 / M274) | – eklenmedi: GLA'ya özgü ayrı kaynak bulunamadı; DonanımHaber'deki Pre-Safe başlığı GLA'yı da anıyor, kapsam A Serisi / CLA kaydında. |
 | 3 | GLC / GLA benzinli | 2013- | 200 / 250 (M274 / M270) | – eklenmedi: Faz 9'da iki sorguyla arandı: Şikâyetvar'da 2020 model bir GLC 220d'nin yolda kalması ve şanzıman arızası şikâyeti var (tek vaka; 2019 sonrası araçlar OM654 motorludur); Araclo'nun GLC 200 ve GLA 200 sayfaları 9G-Tronic sarsıntısı ve GLA'da çift kavramalı şanzıman başlığını gösteriyor; yabancı rehberler OM651'de EGR kurumu ve NOx / AdBlue arızalarını sayıyor. Türkçe deneyim kaynağı tek vakada kaldı. |
 | 3 | GLC X253 / GLA X156 / B Serisi W246 | 2011-2019 | Tüm motorlar (model geneli) | – eklenmedi: W246: Ekşi Sözlük'te dijital gösterge ekranı LED'lerinin bozulması ve sıcakta görüntünün kaybolması, sunroof raylarının güneşte kalınca kırılması, su kanalları tıkanınca üst döşemeye su sızması, katlanır aynalar ve havalandırma ızgaralarının kırılması geçiyor (tek kaynak; DonanımHaber'deki 'Mercedes dijital gösterge ekranı arızası' başlığı model belirtmiyor). X156 GLA: Ekşi Sözlük'te arka kamera kapağının düşük hızda sürekli açılması, iç dekor ışıklarının kendiliğinden açılıp kapanması, ani fren ve klima sesi; Şikâyetvar'daki GLA şikâyetleri ağırlıkla motor, şanzıman ve servis gecikmesi. GLC X253 için kapı, multimedya ve su alma kaydı çıkmadı (bir yorum m260 / m264 motorlu GLA, GLB ve GLE'de subap yatağı kaynaklı karışım sorunlarını anıyor; motor konusu). |
 | 3 | GLK | 2008-2015 | GLK 220 CDI 4MATIC 2.1 (OM651, 7G-Tronic) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — GLK'ya özgü kaynak aranmadı; gösterilen piezo enjektör ve 7G-Tronic iletken plaka sorunları C Serisi W204 ve E Serisi W212 kayıtlarına dayanır. |
-| 3 | S Serisi W222 | 2013-2020 | S 350 d (OM642) / S 400 | ○ sırada |
+| 3 | S Serisi W222 | 2013-2017 | S 350 d (OM642) | ◐ 1 ortak aile sorunu — W222'ye özgü ayrı kaynak çıkmadı; OM642 yağ soğutucusu ailesine bağlandı. |
+| 3 | S Serisi W222 | 2013-2020 | S 400 (M276 3.0 V6 biturbo benzin) | – eklenmedi: Şikâyetvar'daki S 400 kayıtları 2021 model (W223) araçlara ait (disk balansı, akü); W222 M276 için kilometreye bağlı kronik arıza çıkmadı. DonanımHaber'deki turbo başlığı model belirtmiyor. |
 | 3 | Sprinter | 2006-2018 | 209-316 CDI (OM651) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — Sprinter'a özgü ayrı kaynak yok; gösterilen piezo enjektör sorunu C ve E Serisi (OM651) kayıtlarına dayanır. |
-| 3 | Sprinter W907 | 2018- | 316 CDI (OM654) | ○ sırada |
-| 3 | Viano W639 | 2003-2014 | 2.2 CDI (OM646) | ○ sırada |
+| 3 | Sprinter W907 | 2018- | 316 CDI (OM654) | – eklenmedi: Şikâyetvar'daki Sprinter şikâyetleri çoğunlukla 2022-2023 model araçlara ait tekil anlatılar (şaft titremesi 5.000 km'den sonra, 3. viteste atma 22 bin km, rölanti titremesi 50 bin km, diferansiyel vuruntusu yaklaşık 70 bin km, lambda sensörü arızasıyla gaz kesme); 2019-2021 316 CDI için kayıt yok. Parkers 907 kuşağının birkaç güvenlik geri çağırması olduğunu ve 140 / 143 PS motorların dik yokuşta 6. viteste zorlandığını yazıyor; OM654 için külbütör aşınması ve AdBlue (NOx sensörü, depo ısıtıcısı) anlatıları Sprinter'e değil E sınıfı ve V sınıfı forumlarına ait. |
+| 3 | Viano W639 | 2003-2014 | 2.2 CDI (OM646) | – eklenmedi: MB Club ve BenzWorld'de W639 Vito 2.2 CDI (OM646) için enjektör keçesi sızıntısı ('black death': enjektör yuvasında karbon, gaz kaçağı, onarımdan sonra yeniden sızdırma; bir vakada bayi onarımından yaklaşık 10 ay sonra) yaygın biçimde anlatılıyor, turbo aktüatör ve girdap kanadı arıza kodları da geçiyor. DonanımHaber'deki Viano 2.2 CDI incelemesi kronik başlıklar olarak enjektör, EGR valfi ve otomatik şanzıman arızalarını sayıyor. Kaynaklar arızanın hangi kilometrede çıktığını vermediği için kilometre aralığı çıkarılamadı ve kayıt açılmadı. |
 | 3 | Vito / V-Class | 2014- | 114 / 116 / 119 CDI (OM651) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — Vito ve Sprinter'a özgü ayrı kaynak yok; gösterilen piezo enjektör ve 7G-Tronic iletken plaka sorunları C ve E Serisi (OM651) kayıtlarına dayanır. |
 
 ### Togg
@@ -636,7 +638,8 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | 2 Serisi F22 / F45 | 2014-2021 | 216d / 218d (B37 / B47) | – eklenmedi: Bu oturumdaki aramada 216d (B37) için çoğunlukla olumlu yorumlar çıktı; F22 ve 216d'ye özgü veri yok. F45 için akü boşalması, elektronik el freni ve şanzıman gibi genel şikâyetler DonanımHaber'de dağınık geçiyor; ortak bir arıza oluşmadı. |
 | 2 | 2 Serisi F22 / F45 | 2014-2021 | 218i 1.5 turbo (B38) | ◐ 1 ortak aile sorunu — Bu oturumdaki 2 Serisi aramasında B38 turbo manifoldu çatlaması anlatıları Şikâyetvar, Ekşi Sözlük ve DonanımHaber'de yinelendi (aile sorununda kayıtlı); 218i'ye özgü kilometre bilgili ayrı kayıt oluşmadı. Gösterilen turbo manifoldu çatlaması aynı B38 motorunu kullanan 1 Serisi (F20 LCI) kaydına dayanır. |
 | 2 | 2 Serisi F22 / F45, 4 Serisi F32 / F36, X2 F39 | 2013-2023 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar, DonanımHaber ve Ekşi Sözlük'te bu modellere özgü model geneli kayıt çıkmadı; bulunanlar F30 / F32 kapı kolu erimesi (ayrı kayıtta), F30 3.16i soğutma sistemi ve şanzıman yağ soğutucusu patlaması, F32 420d 'tahrik hatası' uyarısı (motor katmanı) ve F30'da direksiyondan gelen ses (hava yastığı sargısı ve direksiyon kutusu) başlıklarıdır. Cam tavan, iDrive, kapı elektroniği ve elektrikli / uyarlanabilir süspansiyon için sonuç yok. |
-| 2 | 2 Serisi F44 Gran Coupé | 2020- | 216d / 218i / 220i | ○ sırada |
+| 2 | 2 Serisi F44 Gran Coupé | 2020- | 218i (B38) | ◐ 1 ortak aile sorunu — 218i (B38), BMW B38 ailesine bağlandı. F44'e özgü ayrı kaynak çıkmadı; Şikâyetvar'daki tekil şikâyetler (218i'de vites geçişinde sarsıntı ve R/D/P geçişinde vuruntu, yağmurda ABS / ESP uyarısı) kilometre ve ikinci kaynakla desteklenmedi. |
+| 2 | 2 Serisi F44 Gran Coupé | 2020- | 216d / 220i | – eklenmedi: Şikâyetvar'da 216d'de krank kasnağı sesi ve arızası (bir kullanıcıda 68.000 km), motor arıza ışığı ve turbo şikâyetleri tekil; Bimmerpost F44 forumunda 7 ileri DCT'de rölantiye bırakınca silkeleme ve sunroof çevresi tıkırtı konuları var, sistematik motor verisi ve ikinci kaynak yok. Gündüz farı sararması ve lastik balonlanması şikâyetleri motor değil model geneli konulardır. |
 | 2 | 3 Serisi F30 | 2012-2015 | 316i 1.6 turbo (N13) | ◐ 7 ortak aile sorunu — 316i'ye özgü kaynak aranmadı; gösterilen sorunlar aynı N13 motorunu kullanan 116i / 118i (F20) kaydının kaynaklarına dayanır. |
 | 2 | 4 Serisi F32 / F36 | 2016-2020 | 420i (B48) / 420d (B47) | – eklenmedi: Bu oturumdaki aramada 4 Serisi 420d / 420i için triger zinciri ya da motora özgü kayıt çıkmadı; çıkanlar ön cam contası, iç kapı kolu ve soğutma sıvısı gibi tekil ya da model geneli konular. B47 / B48 için ayrı kaynak bulunamadı. |
 | 2 | 4 Serisi F32 / F36 | 2013-2016 | 420i 2.0 turbo benzin (N20) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — 420i'ye özgü kaynak çıkmadı (bu oturumdaki aramada zincir anlatısı yok); gösterilen triger zinciri, devirdaim pompası ve yağ filtresi yuvası sorunları aynı N20 motorunu kullanan 320i / 328i (F30) kaydının kaynaklarına dayanır. |
@@ -1007,8 +1010,9 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
-| 2 | Discovery Sport | 2015- | 2.0 TD4 / SD4 (Ingenium) | ○ sırada |
-| 2 | Range Rover Evoque | 2011-2019 | 2.2 SD4 / 2.0 TD4 (Ingenium) / 2.0 Si4 | ○ sırada |
+| 2 | Discovery Sport | 2015- | 2.0 TD4 / SD4 (Ingenium) | ◐ 1 ortak aile sorunu — Gösterilen yağ seyrelmesi sorunu Evoque ile ortak Land Rover Ingenium 2.0 dizel ailesine dayanır (Honest John, Parkers, DonanımHaber); Honest John'daki 2020 tarihli bir Discovery Sport DPF konusu ve Parkers'ın Discovery Sport uzun dönem testi doğrudan bu modele aittir. |
+| 2 | Range Rover Evoque | 2015-2019 | 2.0 TD4 (Ingenium) | ◐ 1 ortak aile sorunu — Gösterilen yağ seyrelmesi sorunu Discovery Sport ile ortak Land Rover Ingenium 2.0 dizel ailesine dayanır (Honest John, Parkers, DonanımHaber); Evoque'a özgü ayrı kayıt yok. |
+| 2 | Range Rover Evoque | 2011-2019 | 2.2 SD4 / 2.0 Si4 | – eklenmedi: 2.2 SD4: Honest John forumunda motor ve şanzımanın genelde sağlam olduğu, 80 bin mil sonrası dizel yaşlanması, elektrik, döşeme ve arka diferansiyel sorunlarının beklenebileceği yazılıyor; bir Honest John yanıtı motorun eksantrik mili arızasına yatkın olduğunu söylüyor ama sayı vermiyor. Şikâyetvar'da 2012 ve 2017 dizel Evoque'lerde 'yakıtta su' uyarısı ve motorun durması gibi tekil şikâyetler var. 2.0 Si4: DonanımHaber'de 2012 modelinde zamanlama zinciri gergisi arızası anılıyor; CarComplaints'te 2014 Evoque motoru için 11 şikâyet (ortalama 38.409 mil) ve 83.000 milde kopan bir zincir anlatısı var ama şikâyetler motor tipini belirtmediği için kilometre aralığı çıkarılmadı. |
 | 2 | Range Rover Evoque | 2011-2019 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da Evoque'a bağlanan su kaydı 2024 model araçta 4x4 modunda sudan geçerken içerinin dolması (garanti reddi); DonanımHaber'deki 'Evoque kronik mi' başlığı genel. CarComplaints'te ön cam çevresi ve silecek kutusu hortumundan su sızması ile bir Land Rover servis aksiyonu (N221) anılıyor ama sayfalardaki örnekler 2020 model (ikinci nesil) araca ait; ilk nesil için ikinci site çıkmadı. 12. aşamada yeniden arandı: Şikâyetvar'ın Evoque sayfasında 'kronik sorunlu ve sık arıza' dezavantajı ve 5.000 km altında motor arızası (Temmuz 2024); DonanımHaber / Ekşi Sözlük'te Evoque'ta sensör fazlalığı nedeniyle motor ışığının sık yanması, Coupe'da cam tavanın tek parça olup açılmaması ve 'kronik sorunların çoğu motor overhaul ve swap sonrası' gibi tekil yorumlar; kapı elektriği, su alma ve süspansiyon için sonuç çıkmadı. |
 | 3 | Defender (L663) | 2020- | 2.0 D200 / 3.0 D250 (48V hafif hibrit dizel) | – eklenmedi: Şikâyetvar'da 2020 model Defender 2.0 TDI'da 16.11.2024 ve 23.12.2024'te iki kez motor arızası (servis bir hafta on gün sürmüş), benzinli bir Defender'da soğutma sıvısı eksik uyarısı ve soldan cızırtı (garanti kapsamında 7 kez çekiciyle servise) ve 2020 modelde 19.000 km'de fren titremesi tek tek kayıtlar; DonanımHaber'de D200 sahiplerinin yorumları genel kalıyor. Ortak bir sorun için ikinci bağımsız site ve kilometre bilgisi yok. |
 | 3 | Discovery 4 | 2009-2016 | 2.7 TDV6 / 3.0 SDV6 | ○ sırada |
