@@ -9477,6 +9477,36 @@
       ]
     },
     {
+      "marka": "Nissan",
+      "model": "X-Trail (T32, 2014-2021)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Ön cam altı ve cam tavan tahliye kanallarının tıkanması: ayak boşluğuna, sigorta kutusuna ve kablo demetine su alma",
+          "etkilenen_parca": "Ön cam altı su tahliye kanalları ve ızgaraları, cam tavan (sunroof) tahliye kanalları ve hortumları, cam ve tavan fitilleri",
+          "belirtiler": "Yağmurda ya da yıkamada yolcu ayak boşluğunun ıslanması ve halı altında su birikmesi; tavandan su alma; sigorta kutusunun ve kablo demetinin ıslanması riski.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Parkers'ın X-Trail Mk3 (2014-2022) ikinci el rehberi, tıkalı cam tavan tahliyelerinin sigorta kutusunu ve kablo demetini ıslatabildiğini, arka tahliyelerin temizlenmesinin zor olduğunu yazıyor. Honest John'da 2016 model bir X-Trail sahibi yolcu ayak boşluğuna su girdiğini yazıyor; yanıtlarda ön cam altı tahliyelerinin yaprak artıklarıyla tıkanması ve sunroof kanalları şüphelendiriliyor. Ekşi Sözlük'te bir yorumcu (özette 2016 model anılıyor) ön cam ızgaralarından su alındığını, tahliye yolu dar olduğu için suyun kalorifer kanallarından sürücü koltuğunun altına sızdığını ve sunroof kanallarının da sorunlu olduğunu yazıyor. Şikâyetvar'da 2022 model bir X-Trail'de garanti bitiminden sonra yağmurda tavandan su alma başlamış; sahip nedenin conta olduğunu öğrenmiş.",
+            "cozum": "Parkers ince esnek bir sondayla tahliyelerin ön köşelerden (ön camın üstünden) açılabileceğini, arka tahliyeler için bayiye gidilmesini öneriyor; Honest John'daki yanıtlarda ön cam altı tahliyelerinin ve sunroof kanallarının yaprak artığı için kontrolü öneriliyor. Resmî bir Nissan servis bülteni ya da geri çağırma bulunamadı.",
+            "onlem": "Parkers, henüz elektrik arızası görülmese bile ön ayak boşluğu halılarının nem için düzenli kontrol edilmesini öneriyor."
+          },
+          "kaynaklar": [
+            "https://www.parkers.co.uk/nissan/x-trail/4x4/review/",
+            "https://www.honestjohn.co.uk/forum/post/199203/nissan-x-trail-2016",
+            "https://eksisozluk.com/nissan-x-trail--299933?p=5",
+            "https://eksisozluk.com/nissan-x-trail--299933?p=6",
+            "https://www.sikayetvar.com/nissan/x-trail",
+            "https://www.sikayetvar.com/nissan/kronik/xtrail"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Opel",
       "model": "Astra Electric (2023-2025)",
       "motor": "Elektrik (54 kWh, 115 kW / 156 PS)",
