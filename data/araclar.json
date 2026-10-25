@@ -2119,6 +2119,34 @@
       ]
     },
     {
+      "id": "renault-r9m-1-6-dci",
+      "ad": "Renault / Nissan R9M 1.6 dCi (common rail dizel)",
+      "tur": "motor",
+      "aciklama": "Renault-Nissan'ın 2012'den itibaren Espace, Talisman, Scenic, Megane, Kadjar ve Trafic ile Nissan Qashqai ve X-Trail'de kullandığı 1.6 litre common rail dizel motor (R9M; 110-160 PS). Mercedes'in Vito (OM622) ve C 180 d / 200 d (OM626) motorları bu motordan türetilmiştir. Biyel yatağı arızası ve bazı partilerde karter çatlağı bu motor için anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "biyel-yatagi",
+          "sorun_adi": "Biyel yatağı arızası ve motor kırılması (bazı üretim partilerinde karter çatlağı)",
+          "etkilenen_parca": "Biyel kolu yatakları, krank mili ve karter-silindir bloğu",
+          "belirtiler": "Motorda anormal ses (vuruntu), yağ kaçağı ve yağ basıncı uyarısı, seyir halinde motorun durması, soğutma suyu tüketimi; ileri aşamada biyel kolunun kırılması, krank milinin hasar görmesi ve motor değişimi.",
+          "tahmini_km_araligi": "45.000 - 180.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "L'argus'a göre Renault, 1.6 dCi (ikinci nesil) motorda 10 Aralık 2014 - 19 Mart 2018 arasında üretilen ve Fransa'da 1.474 aracı kapsayan bir karter-silindir bloğu üretim kusuru tespit etti (belirtiler: motor sesi, yağ kaçağı, seyirde durma, soğutma suyu tüketimi); Nisan 2019'dan beri garanti dışı onarımlar için OTS (0CZ2) uygulanıyor, bazı müşteriler servisin başta üstlenmeyi reddettiğini yazıyor. Bundan ayrı olarak forumlarda biyel / yatak arızaları anlatılıyor: model belirtilmeyen bir mesajda 48.000 km'de biyel sıkışması, Kadjar 1.6 dCi 130'da 90.000 km'de motor kırılması, bir Espace V'te yaklaşık 136.000 km'de biyel arızası, bir Trafic 140'ta 180.000 km'de yatak ve krank mili arızası. Bunlar tekil anlatılardır ve karter çatlağıyla bağlantısı kanıtlanmış değildir.",
+            "cozum": "OTS, garanti dışı onarımları üstlenmek için kurulmuş (L'argus); Türkiye'de geçerliliği için şasi numarasıyla Renault'ya başvurulmalı. Ağır hasarda motor değişimi gerekiyor.",
+            "onlem": "Şasi numarasıyla OTS / kampanya sorgusu yaptırmak, yağ seviyesini ve yağ basıncı uyarılarını ciddiye almak, ikinci elde motor onarım kaydını sormak."
+          },
+          "kaynaklar": [
+            "https://www.largus.fr/actualite-automobile/renault-espace-talisman-et-trafic-risque-de-casse-du-moteur-16-dci-9928390.html",
+            "https://www.fiches-auto.fr/avis-renault/avis-unique-516-89341-renault-kadjar-16-dci-130-ch-casse-moteur-a-90000-kms.php",
+            "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2443-fiabilite-du-16-dci.php",
+            "https://forum-auto.caradisiac.com/topic/144430-renault-espace-5-16-dci-160-casse-et-changement-moteur-recensement/",
+            "https://forum-auto.caradisiac.com/topic/521043-trafic-3-16dci-140ch-remplacement-moteur/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "subaru-fb20",
       "ad": "Subaru FB20 2.0 boxer (atmosferik benzin)",
       "tur": "motor",
@@ -5058,6 +5086,70 @@
             "https://eksisozluk.com/citroen-c5-aircross--5343862?p=14",
             "https://forum.donanimhaber.com/citroen-c5-aircross-magdurlarindan-cagri--150460878-8",
             "https://forum.donanimhaber.com/citroen-c5-aircross-magdurlarindan-cagri--150460878-12"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "DS3 / DS4 (2010-2018)",
+      "motor": "1.6 THP 155/165/200 (EP6)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-thp-ep6"
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "DS3 / DS4 (2010-2018)",
+      "motor": "1.6 e-HDi 90/115 (DV6, MCP / ETG6 robotize)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci",
+        "psa-mcp-robotize"
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "Nemo / Bipper (2008-2018)",
+      "motor": "1.3 HDi 75 (Fiat Multijet)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-3-multijet"
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "Nemo / Bipper (2008-2018)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Ön amortisör üst yatağı (kule takozu) aşınması ve sesi",
+          "etkilenen_parca": "Ön süspansiyon üst yatakları (kule takozları)",
+          "belirtiler": "Direksiyon çevirirken ve çukurlardan geçerken ön takımdan tıkırtı ve gıcırtı sesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Parkers ön süspansiyon üst yataklarının aşınmasını en sık Nemo şikâyetlerinden biri olarak sayıyor (Peugeot Bipper ve Fiat Fiorino ile aynı araç). Ekşi Sözlük'te bir Nemo sahibi 18.000 km'de kule takozlarında ses çıktığını yazıyor (tek vaka)."
+          },
+          "kaynaklar": [
+            "https://www.parkers.co.uk/vans-pickups/citroen/nemo/2008-review/",
+            "https://eksisozluk.com/citroen-nemo--1735778"
           ]
         }
       ]
@@ -10010,6 +10102,32 @@
     },
     {
       "marka": "Nissan",
+      "model": "Pulsar (C13, 2014-2018)",
+      "motor": "1.2 DIG-T 115 (HRA2DDT)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-h5ft-1-2-tce"
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "Pulsar (C13, 2014-2018)",
+      "motor": "1.5 dCi 110 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Nissan",
       "model": "Qashqai (J10, 2007-2013)",
       "motor": "1.5 dCi 106 (K9K)",
       "uretim_yillari": {
@@ -10136,7 +10254,8 @@
         }
       ],
       "aileler": [
-        "renault-k9k"
+        "renault-k9k",
+        "renault-r9m-1-6-dci"
       ]
     },
     {
@@ -10182,6 +10301,9 @@
             }
           ]
         }
+      ],
+      "aileler": [
+        "renault-r9m-1-6-dci"
       ]
     },
     {
@@ -10347,6 +10469,9 @@
             "https://forum.donanimhaber.com/nissan-x-trail-gec-gaz-yeme--153117879"
           ]
         }
+      ],
+      "aileler": [
+        "renault-r9m-1-6-dci"
       ]
     },
     {
@@ -10875,6 +11000,33 @@
             "https://www.sikayetvar.com/opel/opel-astra-kronik-problemleri"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra L (2022-)",
+      "motor": "1.2 Turbo 110/130 (PureTech EB2)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra L (2022-)",
+      "motor": "1.5 BlueHDi 130 (DV5)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
       ]
     },
     {
@@ -11439,6 +11591,38 @@
       "kronik_sorunlar": [],
       "aileler": [
         "opel-1-6-cdti"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "107 / 108 (2005-2021)",
+      "motor": "1.0 VTi 68 (2-Tronic robotize şanzıman)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "2-Tronic (MMT) robotize şanzıman: kavrama aşınması ve aktüatör arızası",
+          "etkilenen_parca": "Tek kavramalı robotize şanzıman (kavrama, vites aktüatörü)",
+          "belirtiler": "Kalkışta ve yokuşta kararsızlık ya da geri kaçma, vites geçişlerinde sarsıntı, bip sesleri ve uyarı lambası, şanzımanın kendini boşa atması; kavrama ayarının kayması.",
+          "tahmini_km_araligi": "35.000 - 95.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "107 / C1 / Aygo üçlüsünde aynı robotize şanzıman kullanılıyor. Parkers ve Honest John'a göre 2005 - 2009 arası araçlarda küçük (180 mm) kavrama erken eskiyor (bir sahipte 21.000 mil, bir başkasında 35.000 mil), 2009 yenilemesinden itibaren büyük (190 mm) kavrama takıldı; Toyota Owners Club'da ikinci nesil Aygo için de kavrama şikâyetleri ve yoğun şehir kullanımında yaklaşık 45.000 milde kavrama aşınması anlatılıyor. Şikâyetvar'da bir 107 sahibi 95.000 km'de şanzımanın kendini boşa attığını ve vites aktüatörünün arızalandığını yazıyor.",
+            "teshis": "Toyota Owners Club'da kavrama ayarının (kablo ve kalibrasyon) yetersizliği ve soğukta 1. / geri vites geçişi zorluğu da anılıyor; kavrama değişimi özel servis aleti ve kalibrasyon gerektiriyor.",
+            "cozum": "Kavrama ve aktüatör onarımı; Şikâyetvar'da bir kullanıcı serviste yaklaşık 2.500 TL, serbest ustada 1.300-1.800 TL aktüatör onarımı yazıyor (tarihi belirtilmemiş).",
+            "onlem": "Yokuşta ve kalkışta robotize şanzımanı sorgulamak, ikinci elde kavrama değişim kaydını ve şanzıman yağı bakımını sormak."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-107-otomatik-sanziman-arizasi",
+            "https://forum.donanimhaber.com/c1-otomatik-vites-performansi--44754523",
+            "https://www.toyotaownersclub.com/forums/topic/114781-aygo-mmt-107-2-tronic/",
+            "https://www.toyotaownersclub.com/forums/topic/206140-toyota-aygo-mk2-clutch-problems/",
+            "https://www.honestjohn.co.uk/forum/post/115983/toyota-aygo---aygo-",
+            "https://www.parkers.co.uk/toyota/aygo/hatchback-2005/used-review/"
+          ]
+        }
       ]
     },
     {
@@ -12036,6 +12220,33 @@
       ],
       "aileler": [
         "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "5008 (I, 2009-2016)",
+      "motor": "1.6 THP 156 (EP6)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-thp-ep6"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "5008 (I, 2009-2016)",
+      "motor": "1.6 e-HDi 112/115 (DV6, MCP / ETG6 robotize)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci",
+        "psa-mcp-robotize"
       ]
     },
     {
@@ -12665,6 +12876,20 @@
     },
     {
       "marka": "Renault",
+      "model": "Espace V (2015-)",
+      "motor": "1.6 dCi 130/160 (R9M, EDC)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-edc",
+        "renault-r9m-1-6-dci"
+      ]
+    },
+    {
+      "marka": "Renault",
       "model": "Kadjar (2015-2018)",
       "motor": "1.2 TCe 130 (H5Ft, manuel ve EDC)",
       "uretim_yillari": {
@@ -13222,7 +13447,22 @@
         }
       ],
       "aileler": [
-        "renault-edc"
+        "renault-edc",
+        "renault-r9m-1-6-dci"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Twingo III (2014-2019)",
+      "motor": "0.9 TCe 90 (H4Bt, manuel ve EDC)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-edc",
+        "renault-h4bt-h4dt"
       ]
     },
     {

@@ -26,34 +26,34 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **599** model/motor grubu (motor ve şanzıman düzeyi)
-- Tamamlanan (✓, modele özgü kaynaklı sorun var): **170**
-- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **168**
-- Araştırılıp eklenmeyen (–): **221**
-- Sırada (○): **40**
+- Plan: **602** model/motor grubu (motor ve şanzıman düzeyi)
+- Tamamlanan (✓, modele özgü kaynaklı sorun var): **171**
+- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **175**
+- Araştırılıp eklenmeyen (–): **235**
+- Sırada (○): **21**
 - Kademe 1: **120/120** işlendi (✓, ◐ ya da –)
-- Model geneli taraması: **153** model nesli arandı (sorun bulunan ✓ **75**, kanıt yetersiz – **78**); 367 motor kaydından **161**'i taranmış bir modele ait, **206**'i henüz taranmadı
-- Veritabanı: **442** kayıt (**367** motor, **75** model geneli), **349** kayda özgü kronik sorun, **54** motor/şanzıman ailesi (**89** ortak sorun)
+- Model geneli taraması: **154** model nesli arandı (sorun bulunan ✓ **76**, kanıt yetersiz – **78**); 379 motor kaydından **164**'i taranmış bir modele ait, **215**'i henüz taranmadı
+- Veritabanı: **455** kayıt (**379** motor, **76** model geneli), **351** kayda özgü kronik sorun, **55** motor/şanzıman ailesi (**90** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
-| Renault | 38 | 15 | 8 | 12 | 3 | 8/8 | 6 / 4 |
-| Volkswagen | 51 | 18 | 15 | 17 | 1 | 13/13 | 4 / 9 |
+| Renault | 40 | 15 | 10 | 15 | 0 | 8/8 | 6 / 4 |
+| Volkswagen | 51 | 18 | 15 | 18 | 0 | 13/13 | 4 / 9 |
 | Toyota | 21 | 4 | 5 | 10 | 2 | 6/6 | 1 / 3 |
-| Fiat | 28 | 11 | 6 | 9 | 2 | 5/5 | 6 / 2 |
+| Fiat | 28 | 11 | 6 | 10 | 1 | 5/5 | 6 / 2 |
 | Hyundai | 37 | 11 | 9 | 15 | 2 | 13/13 | 2 / 5 |
-| Peugeot | 21 | 9 | 5 | 5 | 2 | 5/5 | 4 / 4 |
-| Opel | 40 | 14 | 13 | 9 | 4 | 5/5 | 5 / 6 |
-| Citroen | 20 | 6 | 5 | 6 | 3 | 3/3 | 3 / 1 |
+| Peugeot | 22 | 10 | 6 | 6 | 0 | 5/5 | 4 / 4 |
+| Opel | 40 | 14 | 14 | 12 | 0 | 5/5 | 5 / 6 |
+| Citroen | 20 | 6 | 7 | 7 | 0 | 3/3 | 4 / 1 |
 | BYD | 2 | 1 | 0 | 1 | 0 | 1/1 | 0 / 1 |
 | Skoda | 27 | 9 | 9 | 9 | 0 | 6/6 | 5 / 5 |
 | Mercedes-Benz | 38 | 10 | 15 | 13 | 0 | 6/6 | 4 / 3 |
 | Togg | 2 | 1 | 0 | 1 | 0 | 1/1 | 1 / 0 |
 | BMW | 43 | 5 | 21 | 17 | 0 | 13/13 | 7 / 2 |
 | Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 | 1 / 0 |
-| Nissan | 19 | 8 | 4 | 4 | 3 | 4/4 | 4 / 1 |
+| Nissan | 19 | 8 | 5 | 6 | 0 | 4/4 | 4 / 1 |
 | Chery | 2 | 0 | 0 | 2 | 0 | 0/0 | — |
-| Ford | 32 | 8 | 11 | 11 | 2 | 8/8 | 5 / 4 |
+| Ford | 32 | 8 | 11 | 13 | 0 | 8/8 | 5 / 4 |
 | Kia | 29 | 9 | 5 | 11 | 4 | 6/6 | 2 / 4 |
 | Dacia | 12 | 8 | 1 | 3 | 0 | 3/3 | 1 / 2 |
 | Audi | 32 | 6 | 12 | 14 | 0 | 6/6 | 3 / 7 |
@@ -180,9 +180,10 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Scenic 4 | 2016-2022 | 1.5 dCi 110 (K9K, EDC) | ◐ 4 ortak aile sorunu — Scenic 4'e özgü kaynak aranmadı; gösterilen sorunlar aynı K9K motoru ve EDC şanzımanı kullanan Megane, Kadjar ve Captur kayıtlarına dayanır. |
 | 2 | Symbol | 2008-2020 | 1.2 16V 75 (D4F) | – eklenmedi: Aramalarda D4F motoruna özgü tekrar eden sorun çıkmadı; şikâyetler soğukta marş ve klima gibi tekil konularda. Symbol III (2013-2020), Dacia Logan II'nin Türkiye'de Renault adıyla satılan ikizi (Motor1, Wikipedia); 0.9 TCe ve 1.5 dCi sürümleri 'Sandero / Logan / Symbol' kayıtlarında. |
 | 2 | Taliant | 2021- | 1.0 TCe 90/100 (H4Dt) | ✓ 1 sorun |
-| 3 | Austral | 2022- | 1.2 hafif hibrit / 1.3 TCe | ○ sırada |
+| 3 | Austral | 2022- | 1.2 hafif hibrit / 1.3 TCe | – eklenmedi: Şikâyetvar'da Austral için tekrar eden konular yakıt tüketimi (katalog 4,8-6,5 litreye karşılık yaklaşık 10 litre, 1.3 mild hibrit araçlarda), sıfır ya da düşük kilometrede fren balatası sesi (bir araçta 6.000 km'de balata bitmesi) ve tekil arızalar (sıfır kilometrede şanzıman arızası, 15.000 km'de motor arızası); 1.2 E-Tech ile 1.3 mild hibrit karşılaştırması için veri yok. Yeni model olduğundan kilometre aralığı çıkmadı. |
 | 3 | Captur | 2013-2019 | 1.5 dCi (K9K, EDC) | ✓ 1 sorun (+3 ortak aile) |
-| 3 | Espace V | 2015- | 1.6 dCi 130/160 (R9M) / 1.6 TCe | ○ sırada |
+| 3 | Espace V | 2015- | 1.6 dCi 130/160 (R9M) | ◐ 3 ortak aile sorunu — Renault / Nissan R9M ailesine (biyel yatağı arızası ve bazı partilerde karter çatlağı: L'argus, Fiches-Auto, Caradisiac) ve EDC ailesine bağlandı. |
+| 3 | Espace V | 2015- | 1.6 TCe 200 | – eklenmedi: 1.6 TCe için kaynak çıkmadı. |
 | 3 | Kangoo | 2008-2021 | 1.5 dCi (K9K) | ◐ 2 ortak aile sorunu — Kangoo'ya özgü ayrı kaynak yok; gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Clio, Megane, Duster ve Sandero kaynaklarına dayanır. |
 | 3 | Kangoo | 2008-2021 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar ve forumlarda yeni model Multix sahibinde sürgülü kapı fitillerinin dört kez değişmesine rağmen yeniden çıkması ve arka stop lambasından kargo bölümüne su girmesi, bir kayıtta cam–fitil su girişinin far üniteleri değiştirilerek bitmesi; sürgülü kapı makaralarının rulmanlı olmaması ve onarım için arka far sökümü gerektiği (DonanımHaber'de 'yeni kangoo sürgülü kapı onarım' başlığı); 2009 model bir araçta anahtarla diğer kapıların kilitlenmemesi (şoför kapısı şalteri şüphesi); yeni kasada multimedya 'sistem kilitlendi' uyarısı tekil kayıtlar. Hangi nesle (2008-2021 ya da 2021 sonrası) ait olduğu çoğu kayıtta belirsiz; kilometre ve iki siteli bir sorun çıkmadı. |
 | 3 | Koleos | 2008- | 2.0 dCi (4x4) | – eklenmedi: Faz 9'da iki sorguyla arandı: Türkçe kaynak çıkmadı; yabancı derlemelerde X-Tronic CVT kayması, dizel 4x4'te arka diferansiyel ve kardan kırılması ile DPF tıkanması anlatılıyor (Koleos II ağırlıklı); anlatılar iki bağımsız kaynağa bağlanamadı. |
@@ -192,9 +193,10 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Megane 3 / Fluence | 2009-2016 | 1.6 16V (K4M) | – eklenmedi: K4M için en somut tema bobin arızası ve tek bir forum başlığında; yağ tüketimi ve termostat kaynakları motoru belirtmiyor. |
 | 3 | Scenic 3 / Grand Scenic | 2009-2016 | 1.6 16V | – eklenmedi: Faz 9'da arandı: tek bir forum yorumu (2013 tarihli) 1.6 16V'de açı kaydırıcı (VVT) arızasını ve Sagem ateşleme bobinlerini anıyor; ikinci kaynak çıkmadı. 1.5 dCi EDC (şanzıman beyni arızası) ayrı satırda kayıtlandı. |
 | 3 | Scenic E-Tech / 5 E-Tech | 2024- | Elektrik | – eklenmedi: Scenic E-Tech ve Renault 5 E-Tech'e özgü arıza kaydı çıkmadı; Şikâyetvar'daki R5 kayıtları kaza sonrası ekspertiz ve kampanya şikâyetleri, E-Tech arızaları ise Megane E-Tech'e ait. |
-| 3 | Talisman | 2016-2022 | 1.6 dCi / 1.5 dCi (EDC) | ✓ 1 sorun (+1 ortak aile) |
+| 3 | Talisman | 2016-2022 | 1.6 dCi / 1.5 dCi (EDC) | ✓ 1 sorun (+2 ortak aile) |
 | 3 | Talisman | 2016-2022 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da R-Link 2 için Bluetooth'un sürekli kopması (2016 model; bir kayıtta ekran değiştirildikten sonra da 5-10 saniyede bir), radyonun kendi kendine kanal değiştirmesi, ekranın gidip gelmesi (servis 'beyin arızası' demiş), yazılım güncellemesi için 500-700 TL ücret talebi ve 'R-Link 2 güncelleme ve 25000 TL ücret talebi' başlıklı kayıt, panoramik tavan sesi ve teslimde toplu arıza şikâyetleri geçiyor; DonanımHaber'de aynı konuda yalnızca radyo / AF ayarı ve USB ile yazılım güncelleme anlatıları çıktı (Talisman'a özgü donma ya da kendiliğinden kanal değiştirme doğrulanmadı). İkinci bağımsız site ve kilometre yok; 4Control için sonuç çıkmadı. |
-| 3 | Twingo III | 2014-2019 | 0.9 TCe 90 (H4Bt) / 1.0 SCe 70 | ○ sırada |
+| 3 | Twingo III | 2014-2019 | 0.9 TCe 90 (H4Bt) | ◐ 3 ortak aile sorunu — 0.9 TCe 90, Renault / Nissan H4Bt ve EDC ailelerine bağlandı; Twingo III'e özgü ayrı kaynak çıkmadı. L'argus 0.9 TCe / 1.0 SCe'de zincir sesini ve TCe 90'da enjektör bilgisayarı yazılım geri çağırmasını (yaklaşık 10.000 araç), ayrıca ön takım gürültüsü için 19.190 Twingo III geri çağırmasını anıyor; Renault'nun 'üretim hatası' bülteni 1.0 SCe için. |
+| 3 | Twingo III | 2014-2019 | 1.0 SCe 70 | – eklenmedi: Şikâyetvar'da 1.0 SCe 65 motorlar için 2021 üretimine ait bir Renault teknik bülteninden (70513: silindir kapağı değişimi) söz ediliyor, ancak bültenin Twingo III'ü kapsadığı doğrulanamadı; L'argus 0.9 TCe / 1.0 SCe'de zincir sesini anıyor, Honest John'da 13.000 milde gevşeyen bir zincir geçiyor (tek vaka). Kilometre aralığı verilen bir sorun çıkmadı. |
 
 ### Volkswagen
 
@@ -261,7 +263,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Passat B9 | 2024- | 1.5 eTSI (48V hafif hibrit, DSG) | ◐ 3 ortak aile sorunu — B9 için bulunan başlıklar plug-in hibrit (E-Hybrid) sürümüne ait; 1.5 eTSI (48V hafif hibrit) için B9'a özgü Şikâyetvar ya da forum kaydı çıkmadı. Gösterilen sorunlar aynı motor ve 48V sistemini kullanan Superb IV, Octavia A8, Golf 8 kayıtlarına dayanır. |
 | 3 | Scirocco | 2008-2017 | 1.4 TSI / 2.0 TSI | ◐ 6 ortak aile sorunu, 3 yıl kırılımı — Scirocco'ya özgü kaynak çıkmadı; 1.4 TSI, EA111 TSI ve DQ200 ailelerine, 2.0 TSI 200 / 210 (EA888 Gen1 / Gen2) EA888 ailesine bağlandı (Scirocco R'ın Gen3 motoru kapsam dışı). |
 | 3 | Scirocco | 2008-2017 | 2.0 TDI | – eklenmedi: Scirocco'ya özgü 2.0 TDI kaynağı çıkmadı; VAG 2.0 TDI common rail (CFFB / CBDB / CFHC) için Honest John, VWVortex ve Briskoda'da tekil vakalar var (CFFB'de soğuk çalıştırma güçlüğü ve düşük yakıt rayı basıncı 372.000 km'de, yağ pompası zinciri ve denge mili, çift kütleli volan); kilometre aralığı verilecek tutarlı bir sorun çıkmadı. |
-| 3 | Touareg | 2010- | 3.0 TDI | ○ sırada |
+| 3 | Touareg | 2010- | 3.0 TDI | – eklenmedi: NHTSA'daki VW servis kayıtları 2009-2016 model Touareg TDI'larda AdBlue ısıtıcısına sıvı bulaşıp motor arıza ışığının yanması (servis aksiyonu 26K2) ve 2008-2013 modellerde zincir kayması ile çalıştırma sonrası tıkırtıya ilişkin bültenler içeriyor; VWVortex'te enjektör keçelerinin 100-120 bin milde sızdırdığı, DPF tıkanması ve yüksek basınç pompası arızası anlatılıyor; DonanımHaber'de Touareg 3.0 TDI için EGR valfi sorunu geçiyor, Ekşi Sözlük'te 3.0 TDI'ın EGR soğutucusu ve yağ soğutucusunun zamanla sızdırabildiği ve üçüncü nesilde zincir sesi çıkabildiği yazılıyor. Kilometre aralığı verilen, ikinci kaynakla desteklenen tek bir sorun çıkmadı. |
 | 3 | Transporter T5 / T6 | 2003- | 2.0 TDI | – eklenmedi: T5 / T6 2.0 TDI için kronik arıza listesi çıkmadı; yalnızca tekil enjektör ve turbo anlatıları. |
 | 3 | up! | 2011-2023 | 1.0 MPI | – eklenmedi: Şikâyetvar, DonanımHaber ve Otopark'ta 1.0 MPI ve ASG robotize şanzıman için kronik arıza çıkmadı (ASG'nin yokuşta kararsızlığı, vites geçişlerinin yumuşak olmaması, geri viteste garanti kapsamında şanzıman değişimi gibi tekil anlatılar). Briskoda'da Citigo ASG için nötrü tanımayıp çalışmama, geri ve 1. vites geçişi sorunları ve düşük kilometrede kavrama aşınması (2015 Citigo'da 5.000 mil), Honest John'da up! için soğukta vites seçilememe anlatılıyor; kilometre bilgisi tutarsız (5.000 ile 34.000 mil arası) ve üç ikiz model ayrılamadığından kayıt açılmadı. |
 
@@ -334,7 +336,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Fullback | 2016-2019 | 2.4 Dizel | ○ sırada |
 | 3 | Grande Panda Electric | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da şarj ve kilit sorunu sonrası 8 saat yol yardımı beklemek, şarj soketinin erimesi ve teslimde arıza ışığı tekil; tek taramada ikinci bağımsız site çıkmadı. |
 | 3 | Linea / Punto | 2007-2015 | 1.4 T-Jet | – eklenmedi: T-Jet'e özgü kaynak çıkmadı; Punto şikâyetleri ağırlıkla direksiyon (EPS) üzerine ve ayrı kayıtta. |
-| 3 | Scudo / Talento | 2007-2021 | 2.0 Multijet | ○ sırada |
+| 3 | Scudo / Talento | 2007-2021 | 2.0 Multijet | – eklenmedi: Şikâyetvar'daki Scudo kayıtları 2023-2026 modellere ait tekil anlatılar (28 bin km'de turbo devre dışı, 15 bin km'de enjektör arızası, AdBlue arızası, 60.000 km'de debriyaj pedalının yere inmesi); FiatForum'daki 2008-2012 Scudo 2.0 Multijet konularında EGR valfi (dördüncü değişim), DPF katkı sıvısı, enjektör ve turbo basıncı sorunları geçiyor. Nesil ve motor (PSA DW10 / Talento Renault) ayrımı yapılamadığı ve kilometre bilgisi tutarsız olduğu için kayıt açılmadı. |
 
 ### Hyundai
 
@@ -411,11 +413,12 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Rifter / Partner | 2018- | 1.5 BlueHDi 100/130 (DV5) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Rifter / Partner 1.5 BlueHDi'ya özgü kaynak aranmadı; gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır. |
 | 2 | e-3008 / e-5008 | 2024- | Elektrik | – eklenmedi: Şikâyetvar'da 2024 model e-3008 için seyir halinde 'elektrikli çekiş sistemi arızası' uyarısıyla durma ve şarj almama (çekici) şikâyetleri var. İkinci bağımsız site bulunamadı: Ekşi Sözlük ve DonanımHaber yorumları yalnızca gerçek menzil ve şarj eğrisi hakkında; SpeakEV'de batarya boyutu yazmayan tek bir erken e-3008 şikâyeti var; e-3008 / e-5008 için geri çağırma kaydı çıkmadı (ÖAMTC'nin 3008 / 508 kaydı plug-in hibritlere ait). |
 | 2 | e-308 | 2023-2025 | Elektrik (54 kWh, 156 PS) | ✓ 1 sorun |
-| 3 | 107 / 108 | 2005-2021 | 1.0 VTi | ○ sırada |
+| 3 | 107 / 108 | 2005-2021 | 1.0 VTi | ✓ 1 sorun — 107 / 108 (C1 ve Aygo ile ortak) 2-Tronic robotize şanzıman sorunu Şikâyetvar, DonanımHaber, Toyota Owners Club, Honest John ve Parkers'a dayanır; 1.0 VTi motoru için ayrı arıza çıkmadı (su pompası arızaları 3-6 yılda tekil olarak anılıyor). |
 | 3 | 207 / 206 | 2006-2014 | 1.6 VTi (EP6) | – eklenmedi: EP6 zincir uzaması iddiası tek bir rehber sitesine (Araclo) dayanıyor; forum ve şikâyet kaynaklarında doğrulanmadı. |
 | 3 | 3008 I / 5008 I | 2009-2016 | Tüm motorlar (model geneli) | – eklenmedi: Ekşi Sözlük'te bir 5008 yorumcusu direksiyon derisinin soyulmasını, arka süspansiyonun zamanla ses yapmasını, ön salıncaklardan 120 km/s üzerinde titremeyi, kapı fitillerinin çabuk eskimesini ve sıcakta ön konsoldan çıtırtıyı sayıyor (tek yorum). Şikâyetvar'daki 3008 / 5008 kronik sayfaları büyük ölçüde 2016 sonrası (ikinci nesil) araçları anlatıyor: eksantrik mili geri çağırması, AdBlue, krank kasnak cıvatası, direksiyon titremesi, multimedya donması, cam tavan gider temizliğinin 'bu araçlarda kronik' olduğunun söylenmesi ve PSA araçlarında tavan boyası atması; birinci nesle bağlanabilen ikinci bir bağımsız kayıt çıkmadı. Bagaj kapağı elektriği için sonuç yok. |
 | 3 | 301 | 2012- | 1.2 VTi / PureTech | ✓ 2 sorun (+1 ortak aile), 1 yıl kırılımı |
-| 3 | 5008 I | 2009-2016 | 1.6 THP / 1.6 e-HDi / 2.0 HDi | ○ sırada |
+| 3 | 5008 I | 2009-2016 | 1.6 THP / 1.6 e-HDi | ◐ 7 ortak aile sorunu, 1 yıl kırılımı — 5008'e özgü motor kaynağı çıkmadı; 1.6 THP, PSA THP (EP6) ailesine, 1.6 e-HDi, DV6 ve MCP / ETG6 robotize şanzıman ailelerine bağlandı. DonanımHaber'de 5008 1.6 dizelde partikül sıvısı (katkı) uyarısının bazı araçlarda 50.000 km'de, bazılarında 150.000 km üzerinde geldiği anlatılıyor (tek site). |
+| 3 | 5008 I | 2009-2016 | 2.0 HDi 150/163 | – eklenmedi: Forum Peugeot'da 1.6 HDi 110 / 112'nin en sorunlu, 1.6 e-HDi 115 ile 2.0 HDi 150 ve 163'ün daha iyi olduğu yazılıyor; bir sahip yeni turbo ve EGR valfiyle 236.000 mil (yaklaşık 380.000 km) yaptığını, EGR valfinin sonra sarsıntı yaptığını anlatıyor; 2014 Temmuz-Ağustos üretimi 2.0 HDi 163'lerde turbo çıkış hava borusu sıkıştırma partisi geçiyor. Kilometre aralığı verilen bir sorun çıkmadı. |
 | 3 | 508 | 2011-2018 | 1.6 e-HDi 115 (MCP / Auto6R robotize) | ✓ 1 sorun |
 | 3 | 508 | 2011-2018 | 2.0 HDi | – eklenmedi: 2.0 HDi için kaynak bulunamadı. |
 
@@ -459,10 +462,10 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Zafira Tourer | 2012-2019 | 1.6 CDTI 120/136 | ◐ 2 ortak aile sorunu — Zafira Tourer 1.6 CDTI için modele özgü sonuç çıkmadı (şikâyetler elektronik ve uyarı lambalarında). Gösterilen triger zinciri ve turbo hortumu sorunları aynı motoru kullanan Astra J / K ve Insignia kaynaklarına dayanır. |
 | 2 | Zafira Tourer | 2012-2019 | 1.4 Turbo 140 (A14NET) | ◐ 1 ortak aile sorunu — Zafira Tourer 1.4 Turbo için sonuç çıkmadı (şikâyetler elektronik ve uyarı lambalarında); gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır. |
 | 2 | Zafira Tourer | 2012-2019 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar ve DonanımHaber'de kalorifer direnci, yangın, Flex7 ve tavan konularında Zafira B / Tourer'a özgü kayıt çıkmadı. Bulunan şikâyetler 2022-2025 model Zafira / Zafira Life'a (iletişim hatası, ASR / ESR ve el freni uyarıları, klima, cam tavan sızıntısı, tavan boyası, ekran kararması) ya da başka Opel modellerine ait (kalorifer peteği suyunun BCM modülüne sızıp modülü yakması Astra H'ye aittir). Bir forum yazarı otomatik şanzımanın valf gövdesindeki valf yataklarının aşınmasını bazı forumlarda geçen kronik sorun olarak anıyor; kaynağı belirsiz tek kullanıcı iddiası. Bir forum yorumu Zafira modellerinde turboşarj ve elektrikli cam arızalarını genel olarak anıyor, kaynağı belirsiz. |
-| 3 | Adam / Karl | 2013-2019 | 1.2 / 1.4 | ○ sırada |
-| 3 | Antara | 2007-2015 | 2.2 CDTI | ○ sırada |
+| 3 | Adam / Karl | 2013-2019 | 1.2 / 1.4 | – eklenmedi: Adam ve Karl'a özgü sonuç çıkmadı. Easytronic robotize şanzıman için Vauxhall Owners Network'te sürekli 'F' uyarısı, güç kaybı, geri vitese vuruntu ve 600 ila 2.000 sterlin onarım masrafları, Honest John'da Viva 1.0 için 'manuel daha iyi' notu ve Parkers'ta 25.000 milde kavrama ve çift kütleli volan arızası (tek vaka) anlatılıyor; Şikâyetvar'da Easytronic'li bir Astra'da 40 bin km'de şanzıman arızası var. Model ve motor ayrımı yapılamadığı için kayıt açılmadı. |
+| 3 | Antara | 2007-2015 | 2.2 CDTI | – eklenmedi: Vauxhall Owners Network'te 2012 Antara 2.2 CDTi 4x4'te transfer kutusu arızası (36.000 milde yaklaşık 10.100 sterlin, bir başka sahipte 60.000 milde; 33.000 milde duyulan vakalar da var) ve enjektör kodlama sorunları anlatılıyor; Honest John'daki 2.2'nin zincir sorunu notu farklı (Saab türevi) motora ait. Türkçe kaynaklarda Antara 2.2 CDTI'ya özgü motor sonucu çıkmadı; transfer kutusu tek siteden geldiği için kayıt açılmadı. |
 | 3 | Astra J | 2010-2015 | 1.7 / 2.0 CDTI | – eklenmedi: 1.7 ve 2.0 CDTI'ya özgü tekrar eden sorun çıkmadı; sonuçlar 1.6 ve 1.3 CDTI'ya ait. |
-| 3 | Astra L | 2022- | 1.2 Turbo / 1.5 Dizel | ○ sırada |
+| 3 | Astra L | 2022- | 1.2 Turbo / 1.5 Dizel | ◐ 5 ortak aile sorunu, 2 yıl kırılımı — Astra L'ye özgü kaynak çıkmadı; 1.2 Turbo, PureTech EB2 ailesine, 1.5 dizel, DV5 BlueHDi ve AdBlue ailelerine bağlandı. |
 | 3 | Corsa D | 2006-2014 | 1.2 / 1.3 CDTI (Easytronic) | ✓ 1 sorun (+5 ortak aile) |
 | 3 | Crossland | 2017- | 1.5 BlueHDi | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Crossland şikâyetleri motor beyni ve şanzıman tarafında tekil; gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır. |
 | 3 | Frontera Electric | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da 112 şikâyet listeleniyor (batarya arızası, uzun servis bekleme, kalkışta geri kayma, fren diski korozyonu); tek taramada ikinci bağımsız site çıkmadı. |
@@ -473,7 +476,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Meriva B | 2010-2017 | 1.4 Turbo 120 (A14NET) | ◐ 1 ortak aile sorunu — Meriva 1.4 Turbo için sonuç çıkmadı (şikâyetler hava yastığı geri çağırması ve kapı kaplamasında); gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır. |
 | 3 | Meriva B | 2010-2017 | Tüm motorlar (model geneli) | – eklenmedi: DonanımHaber'de 'Opel Meriva Eps hatası' başlığında sola dönerken EPS ışığının yanması anlatılıyor (aküden gerilim düşüşü şüphesi, yaklaşık 1.500 TL'lik tork sensörü değişimi teklifi; nesil belirtilmemiş); Şikâyetvar'da 2014 model Meriva 1.6 dizelde direksiyon pompası / kutusu şüphesi tekil. Vauxhall Owners Network ve Honest John'da Meriva EPS arızası (ışık yanıp direksiyonun ağırlaşması, tork sensörü, C1500 kodu, BBC Watchdog yayınından söz eden bir yanıt, geri çağırma talepleri) ağırlıkla ilk kuşak Meriva A (2003-2010) için anlatılıyor; Meriva B için 2013 model bir sahibin 30.000 milin altında EPS'nin garantide komple değiştirilip yeniden arızalandığı tek kayıt var. Resmî geri çağırma doğrulanamadı. Bozuk yolda direksiyon kutusundan ses (burçların sabitlenmesiyle giderilmiş) tek forum kullanıcısı. |
 | 3 | Mokka B | 2021- | 1.5 BlueHDi 110 (DV5) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Faz 9'da arandı (tek sorgu, PureTech ile birlikte): Mokka B 1.5 BlueHDi'ya özgü kaynak çıkmadı; forumlarda AdBlue ve DPF sorunları PSA 1.5 BlueHDi'nın geneli için anılıyor. Gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır. |
-| 3 | Zafira B | 2005-2014 | 1.6 / 1.9 CDTI | ○ sırada |
+| 3 | Zafira B | 2005-2014 | 1.6 / 1.9 CDTI | – eklenmedi: Honest John'un Zafira B incelemesi ve Vauxhall Owners Network konuları 1.9 CDTI (Z19DTH) için EGR valfinin kurumlanıp tıkanması (yaklaşık 350 sterlin), girdap kanatlarının kırılıp motora kaçması, çift kütleli volan ve debriyaj sorunları (103.000 mil civarında bir araçta), DPF tıkanması (yaklaşık 1.300 sterlin) ve kayışla tahrik edilen su pompasının kilitlenip motoru bozabilmesi (kayış ve pompanın 40.000 mil / 4 yılda yenilenmesi öneriliyor) anlatıyor; DonanımHaber'de bir Zafira sahibi EGR temizliğinin yarım saat sonra sorunu geri getirdiğini yazıyor. Tutarlı bir arıza kilometresi çıkmadığı için kayıt açılmadı; 1.6 benzinli için kaynak çıkmadı. |
 
 ### Citroen
 
@@ -499,9 +502,10 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | C1 | 2014-2021 | 1.0 VTi 68 (1KR-FE) / 1.2 PureTech 82 (EB2F) | – eklenmedi: Şikâyetvar'da C1 sayfasında şanzıman ('sorunlu şanzıman-vites') etiketli tek şikâyet ve 8 ay önceki onarımın tekrarladığı tek kayıt var; DonanımHaber'de yaklaşık on yıllık genel liste (vites kutusu, elektrik, süspansiyon; 'tüm C1'ler için geçerli değil' deniyor) ve ETG şanzımanın yokuşta geri kaçması (tasarım özelliği olarak anlatılıyor) geçiyor. Honest John ve French Car Forum'da 2005-2009 C1 / 107 / Aygo manuel debriyajının bilinen zayıflığı (2009'dan sonra daha büyük debriyaj) ve 2016 C1'de durunca boşa alma tek vaka anlatılıyor; 2014-2021 ETG5'e özgü kaynak çıkmadı. C1'in Türkiye'de 1.2 PureTech ile satılıp satılmadığı doğrulanamadı. |
 | 3 | C4 / C4 Picasso | 2010-2018 | 1.6 e-HDi 115 (MCP robotize şanzıman) | ◐ 4 ortak aile sorunu — MCP şanzıman için forum görüşleri karışık ('anlatıldığı kadar kötü değil'), kilometre ve maliyet verisi yok; aynı şanzıman Peugeot 508 kaydında ele alındı. Motor sorunları (enjektör, EGR / DPF) DV6 ailesinden gösterilir. |
 | 3 | C4 Picasso II | 2013-2018 | Tüm motorlar (model geneli) | ✓ 1 sorun — Cam tavan perdesi Şikâyetvar, DonanımHaber ve French Car Forum'da doğrulandı; French Car Forum'daki arıza biçimi (perde motoru gıcırtısı, perde boruları) Türkçe kaynaklardaki plastik tırnak kırılmasından farklı. Birinci nesil (2007-2013) ve Grand C4 Picasso ayrıca doğrulanmadı. |
-| 3 | C5 | 2008-2017 | 1.6 e-HDi / 2.0 HDi | ○ sırada |
-| 3 | DS3 / DS4 | 2010-2018 | 1.6 THP / 1.6 e-HDi | ○ sırada |
-| 3 | Nemo / Peugeot Bipper | 2008-2018 | 1.3 HDi | ○ sırada |
+| 3 | C5 | 2008-2017 | 1.6 e-HDi / 2.0 HDi | – eklenmedi: DonanımHaber ve Otopark'ta C5 II için 1.6 e-HDi'nin yağ yakma, turbo ve partikül filtresi tıkanmasına eğilimli olduğu tek sayfada iddia ediliyor, bir 2014 C5 sahibi su eksilmesi ve genleşme tankı sorununu anlatıyor; hidraktif süspansiyon için sahipler çelişiyor (5 yıl 235.000 km sorunsuz kullanan sahip var), French Car Forum'da C5 X7 için merkez ve köşe kürelerinin değişimi, tüm küreleri aşınma, regülasyon kürelerinde pas (57.000 milde), solenoid pistonunun yapışması ve yükseklik sensörü bağlantı çubuklarının kırılması anlatılıyor; kilometre aralığı ve motor ayrımı tutarlı değil. |
+| 3 | DS3 / DS4 | 2010-2018 | 1.6 THP / 1.6 e-HDi | ◐ 7 ortak aile sorunu, 1 yıl kırılımı — DS3 / DS4'e özgü ayrı kaynak çıkmadı; 1.6 THP, PSA THP (EP6) ailesine, 1.6 e-HDi, DV6 ve MCP / ETG6 ailelerine bağlandı. Honest John ve French Car Forum'da DS3 1.6 THP için zincir sorunları anlatılıyor (bir 2013 araçta 47.000 milde zincir kopması ve motor hasarı, Citroen'in yeni motor bedelinin yüzde 70'ini ödemeyi önermesi; 30.000 ve 35.000 mil civarında zincir vakaları). |
+| 3 | Nemo / Peugeot Bipper | 2008-2018 | 1.3 HDi | ◐ 5 ortak aile sorunu — Türkiye'de '1.3 HDi' yazan Nemo / Bipper'in Fiat 1.3 Multijet olduğu forumlarda belirtiliyor; Fiat / Opel 1.3 Multijet ailesine bağlandı. Nemo'ya özgü ön süspansiyon üst yatağı sorunu Parkers ve Ekşi Sözlük'e dayanan model geneli kayıtta. |
+| 3 | Nemo / Peugeot Bipper | 2008-2018 | Tüm motorlar (model geneli) | ✓ 1 sorun — Ön amortisör üst yatağı (kule takozu) sorunu Parkers ve Ekşi Sözlük'te anlatılıyor; kilometre verilmedi. |
 | 3 | ë-C3 | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da sıfır km araçlarda çekiş sistemi uyarısı, şarj soketinin kilitlenmesi ve şarj sırasında bataryadan ses gelmesi tekil; tek taramada ikinci bağımsız site çıkmadı. |
 
 ### BYD
@@ -684,7 +688,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 1 | Juke | 2010-2019 | 1.6 (CVT Xtronic) | ✓ 1 sorun |
 | 1 | Juke | 2014-2019 | 1.2 DIG-T 115 (HRA2DDT) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 1 | Juke | 2010-2019 | Tüm motorlar (model geneli) | ✓ 1 sorun, 1 yıl kırılımı — Ekran silikleşmesi Şikâyetvar ve DonanımHaber'de geçiyor. Şikâyetvar'da yeni Juke'ta far içine su alma (metin bozuk), start-stop arızası ve şanzıman konuları ayrı ya da tekil. |
-| 1 | Qashqai J11 | 2014-2020 | 1.5 dCi 110 (K9K) / 1.6 dCi 130 (R9M) | ✓ 2 sorun (+2 ortak aile), 1 yıl kırılımı |
+| 1 | Qashqai J11 | 2014-2020 | 1.5 dCi 110 (K9K) / 1.6 dCi 130 (R9M) | ✓ 2 sorun (+4 ortak aile), 1 yıl kırılımı |
 | 1 | Qashqai J11 | 2014-2021 | 1.2 DIG-T (HRA2DDT, Xtronic) | ✓ 3 sorun, 2 yıl kırılımı |
 | 1 | Qashqai J11 | 2014-2021 | Tüm motorlar (model geneli) | ✓ 1 sorun — Qashqai Forums başlıkları J11'e ait (sabit panoramik tavan); Şikâyetvar kayıtlarında nesil yazmıyor (2014-2016 model yılları geçiyor). Nissan Connect (bilgi-eğlence) kesintileri Qashqai Forums ve Honest John'da anılıyor ama Türkçe kaynakla eşleşmedi; kayda alınmadı. |
 | 2 | Juke | 2010-2019 | 1.5 dCi 110 (K9K) | ◐ 2 ortak aile sorunu — Juke 1.5 dCi için kaynak ağırlıkla tek bir rehber (Araclo); turbo yağ borusu ve DPF anlatıları ikinci bağımsız kaynakla desteklenmedi. Gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Renault ve Dacia kayıtlarına, K9K turbo hortumu sorunu ise Qashqai J11 kaydına dayanır. |
@@ -695,16 +699,16 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Qashqai J10 | 2007-2013 | 1.6 (benzinli) | – eklenmedi: J10 dönemine (2007-2013) özgü kaynak bulunamadı; 1.6 benzinli için ayrıca sonuç çıkmadı. |
 | 2 | Qashqai J10 | 2007-2013 | 1.5 dCi 106 (K9K) | ◐ 2 ortak aile sorunu — J10 dönemine (2007-2013) özgü kaynak bulunamadı; Qashqai 1.5 dCi turbo hortumu şikâyetleri 2012 model ve sonrasında yoğunlaşıyor, J11 kaydında ele alındı. Gösterilen enjektör ve EGR sorunları aynı K9K motorunu kullanan Clio, Megane, Duster ve Sandero kaynaklarına dayanır. |
 | 2 | Qashqai J10 | 2007-2013 | Tüm motorlar (model geneli) | ✓ 1 sorun — Ekran silikleşmesi Şikâyetvar (2012-2013 Tekna) ve DonanımHaber (bir yorum) kaynaklı. J11 için bu aramada ön takım, panoramik cam tavan ve far çıkmadı; sağ ön kapı kilidinin kilitlenmemesi (kronik denmiş) ve kapı kartı kaplamasının soyulması (2022 model) tek şikâyet. |
-| 2 | Qashqai J11 | 2014-2020 | 1.6 dCi 130 (R9M, Xtronic CVT) | ✓ 1 sorun, 1 yıl kırılımı |
+| 2 | Qashqai J11 | 2014-2020 | 1.6 dCi 130 (R9M, Xtronic CVT) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 2 | Qashqai J11 FL / J12 | 2019- | 1.3 DIG-T 140/158 (2021 sonrası 12V hafif hibrit, Xtronic CVT) | ✓ 2 sorun, 1 yıl kırılımı |
 | 2 | X-Trail T32 | 2014-2021 | Tüm motorlar (model geneli) | ✓ 1 sorun — Cam tavan / ön cam altı tahliyelerinden su alma Parkers, Honest John, Ekşi Sözlük ve Şikâyetvar'da doğrulandı (11. aşamada Türkçe kaynak çıkmadığı için '–' idi; Ekşi Sözlük ve Şikâyetvar kayıtları 12. aşamada bulundu). Şikâyetvar'da multimedya ekranı şikâyetleri (2023 Ocak çıkışlı bir araçta garanti dışı yüksek ücret, garantide ekran parçasının üç aydan uzun süre temin edilememesi) ve 2014 model şanzıman arızası tek site; 2023 model aracın T32 mi yoksa yeni nesil mi olduğu belirsiz. Nissan Avustralya'nın 2014-2016 üretimi T32 için bagaj kapağı gaz amortisörü geri çağırması anılıyor (Türkiye'de doğrulanmadı). |
 | 3 | Leaf | 2019- | Elektrik | – eklenmedi: Türkiye'ye özgü kaynak çıkmadı (yalnızca bir Ekşi Sözlük yorumu: aktif batarya soğutması yok, CHAdeMO). Hava soğutmalı bataryanın kapasite kaybı InsideEVs, MyNissanLeaf ve Electrek'te belgeli, ancak bunlar ağırlıkla ABD'nin sıcak iklimine ve ilk nesil Leaf'e ait. NHTSA 24V-700 geri çağırması ABD'de Smyrna'da üretilen 2019-2020 Leaf'leri kapsıyor (CHAdeMO hızlı şarjda yangın riski); Türkiye kapsamı doğrulanamadı. |
-| 3 | Murano Z51 | 2008-2014 | 3.5 V6 (CVT) | ○ sırada |
+| 3 | Murano Z51 | 2008-2014 | 3.5 V6 (CVT) | – eklenmedi: Z51'e özgü Türkçe sonuç çıkmadı (sonuçlar Micra ve X-Trail CVT'lerine ait). NHTSA'daki Nissan bülteni TF11-001c 2009-2014 AWD Murano'da transfer ünitesi sıvı kaçağını (conta yenileme ya da ünite değişimi, sağ CVT diferansiyel aks keçesi) anlatıyor; CarComplaints'te 2009 Murano için sert vites ve şanzıman arızası tekil olarak geçiyor. ABD'deki CVT toplu dava anlaşmaları 2015-2018 Murano için, Z51 kapsam dışı. |
 | 3 | Navara | 2010- | 2.5 dCi | – eklenmedi: Enjektör ve turbo şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız kaynak çıkmadı. |
 | 3 | Note | 2013- | 1.2 (benzinli) | – eklenmedi: Note 1.2 için ilgili şikâyet bulunamadı (aramada yalnızca X-Trail 1.6 dCi öne çıktı). |
-| 3 | Pulsar C13 | 2014-2018 | 1.2 DIG-T / 1.5 dCi | ○ sırada |
-| 3 | X-Trail T31 | 2007-2014 | 2.0 dCi | ○ sırada |
-| 3 | X-Trail T32 | 2014-2021 | 1.6 dCi (R9M, Xtronic CVT) | ✓ 1 sorun |
+| 3 | Pulsar C13 | 2014-2018 | 1.2 DIG-T / 1.5 dCi | ◐ 4 ortak aile sorunu, 1 yıl kırılımı — Pulsar'a özgü ayrı kaynak çıkmadı; 1.2 DIG-T, Renault / Nissan 1.2 TCe - DIG-T ailesine (yağ tüketimi: DonanımHaber'de Qashqai, Pulsar ve diğer modeller için anlatılıyor), 1.5 dCi, K9K ailesine bağlandı. |
+| 3 | X-Trail T31 | 2007-2014 | 2.0 dCi | – eklenmedi: DonanımHaber'de 2011 model 2.0 dizel X-Trail'de 207.000 km civarında enjektör, üst kapak, devirdaim pompası ve şanzıman değişimi ile yağ yakma anlatılıyor; Honest John'da 2.0 dCi için 2007-2009 modellerde DPF arızaları (61.000 mil), 73.000 milde enjektör arızasından motor değişimi (motor kodu belirtilmemiş), 95.000 milde zincir kopması ve 35.700 milde yağ pompası arızasıyla motor kilitlenmesi tekil olarak geçiyor. Tutarlı bir kilometre aralığı çıkmadı. |
+| 3 | X-Trail T32 | 2014-2021 | 1.6 dCi (R9M, Xtronic CVT) | ✓ 1 sorun (+1 ortak aile) |
 
 ### Chery (ek kademe)
 
@@ -751,8 +755,8 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | B-Max | 2012-2017 | 1.0 EcoBoost 100/125 | ◐ 2 ortak aile sorunu, 2 yıl kırılımı — B-Max'e özgü kaynak aranmadı; gösterilen sorunlar aynı EcoBoost motorunu kullanan Fiesta, Focus ve EcoSport kaynaklarına dayanır. |
 | 3 | EcoSport | 2013-2022 | 1.0 EcoBoost | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 3 | EcoSport | 2013-2022 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da SYNC ekranı performansı ve Bluetooth bağlantısının sürekli kopması (bayi sorunu kabul etmemiş), bagaj değişiminden sonra geri görüş kamerasının bozulması, yağmurda kapı üstünden su alma, tavan küflenmesi ve tavan döşemesinin sararması, akü boşalması ve gösterge panelinin kapanması tekil kayıtlar; bir forum kullanıcısı yana açılan bagaj kapağını genel şikâyetler arasında sayıyor. Yedek lastik bölgesine su alma ve direksiyon için güçlü kanıt çıkmadı (direksiyon titreşimi fren diski kaynaklı görünüyor). SYNC 3 donması Ford Owners Club'ta EcoSport Club'ta da anlatılıyor (2019 model bir EcoSport sahibi 3.4 sürümüyle donmanın bittiğini ama USB / Bluetooth takılması çıktığını yazıyor) fakat Türkçe sitelerle örtüşen iki siteli bir sorun oluşmadı. 1.0 EcoBoost yağ banyolu kayış konusu motor kaydındadır. |
-| 3 | Ka | 2008-2016 | 1.2 benzinli | ○ sırada |
-| 3 | Kuga 1 | 2008-2012 | 2.0 TDCi (Powershift) | ○ sırada |
+| 3 | Ka | 2008-2016 | 1.2 benzinli | – eklenmedi: Ka (Mk2) için Ekşi Sözlük ve DonanımHaber'de rölanti valfi / sensörü kaynaklı stop ve rölanti sorunu, debriyaj balatası aşınması ve termostat bağlantısından su kaçırma tekil olarak anlatılıyor; Ford Owners Club'da hidrolik debriyaj ana silindiri, kavrama ayırma çatalı ve triger kayışı değişimi sonrası misfire konuları var (kayış aralığı 5 yıl / 62.500 mil). Kilometre aralığı verilen ve ikinci kaynakla desteklenen tutarlı bir sorun çıkmadı. |
+| 3 | Kuga 1 | 2008-2012 | 2.0 TDCi (Powershift) | – eklenmedi: DonanımHaber'de Kuga Powershift için tekil anlatılar (230 bin km'de sorun, 130 bin km'de geri vitesten D'ye geçişte sarsıntı, ıslak kavramalı şanzıman için 150-160 bin km'de kavrama değişiminin normal aşınma sayıldığı) ve enjektör tutma ayaklarının kırılması geçiyor. Parkers Mk1 Kuga'nın ıslak kavramalı 6DCT450 şanzımanının yaklaşık üç yılda bir yağ değişimi istediğini, ihmal edilirse sert vites ve mekatronik arızası çıkabildiğini yazıyor; Ford Owners Club'da 45.000 milde yağ ve filtre değişiminin sarsıntıyı giderdiği, kavrama değişiminin 1.200 sterlin olduğu anlatılıyor. Tutarlı bir kilometre aralığı çıkmadığı ve mevcut Powershift ailesi kuru kavramalı DPS6 olduğu için kayıt açılmadı. |
 | 3 | Mondeo | 2007-2019 | 2.0 / 1.6 TDCi | – eklenmedi: Mondeo için tekil direksiyon, enjektör ve DPF anlatıları var. |
 | 3 | Mondeo | 2007-2019 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da Mondeo şikâyetlerinin ağırlığı motor (1.5 EcoBoost blok çatlağı, su eksiltme) ve Powershift şanzımanda; 2016 model araçlarda geri görüş kamerası arızası ('kronik' deniyor) ve bir şikâyette sağ ön–arka kapılar ile iç aydınlatmanın çalışmaması tekil kayıt; bir forum kullanıcısı direksiyon kutusundan yağ kaçağı ve ses sorununun Mondeo'larda tekrarladığını yazıyor. El freni ve SYNC için sonuç çıkmadı. Ağırlıkla tekil Şikâyetvar kayıtları; ikinci bağımsız site yok. |
 | 3 | Puma Gen-E / Mustang Mach-E / Explorer Electric | 2022- | Elektrik | – eklenmedi: Şikâyetvar'da Puma Gen-E için sürüş sırasında şarj hatası (iki kez yol yardımı) ve batarya su sızıntısı tekil; Mustang Mach-E ve Explorer Electric için kayıt çıkmadı. |
