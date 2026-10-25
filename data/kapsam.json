@@ -10973,7 +10973,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da Picanto için rölanti devrinin kendiliğinden yaklaşık 3 bin devire çıkması 'kronik' diye anlatılıyor ama kayıt 1.1 EX (önceki nesil) aracına ait ve model yılı yok; Ekşi Sözlük'te 2011 model bir araçta ön tekerlerden 'lak lak' ses (bayi bulamamış, 'kronik' demiş; aracın 80.000 km'de alındığı yazıyor), 1.0 motorun yokuşta zorlanması ve robotik şanzımanın vites geçişleri öznel yorum olarak geçiyor. Honest John ve Parkers sahip yorumlarında düşük kilometrede debriyaj arızaları (5.500 ve 7.500 mil), arka fren kaliperinin sıkışması, klima arızası, 2013 model bir araçta silindir kapağı contası arızası ve navigasyon / geri görüş kamerası ünitesinin arızası geçiyor. Türkçe sitelerle örtüşen ortak bir sorun ve kilometre bilgisi çıkmadı."
     },
     {
       "marka": "Hyundai",
@@ -10988,7 +10990,9 @@
         "motor": [
           "CVVT"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da iki ix20 sahibi elektrikli direksiyonun (EPS) 'kronik' olduğunu, tamir yerine komple değişim gerektiğini ve direksiyon sertleşmesiyle EPS ışığı yandığını (üretici kronik bulmuyor) yazıyor; 2012 model 1.6 otomatikte 76.000 km'de yakıt tüketiminin fabrika değerinin iki katı olması da tek kayıt (servis normal bulmuş). Honest John'da kardeş model Kia Venga için 2011'den itibaren EPS arızaları (bir olayda yazılım, bir olayda 7 yıllık garantiyle değişim) ve ix20 makyajlı kasada bir teknik servis bülteniyle giderilen debriyaj sarsıntısı geçiyor. ix20'ye özgü ikinci bağımsız site ve kilometre bilgisi çıkmadığı için kayıt açılmadı; DonanımHaber'de ix20 için kronik sorun listesi bulunamadı."
     },
     {
       "marka": "Hyundai",
@@ -11003,7 +11007,9 @@
         "motor": [
           "CRDi"
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "DonanımHaber'de 1.4 CRDi (77 PS) sahibi motor performansından memnun; bir forum özetinde (yaklaşık 13 yıl önceki tek başlık) 1.4 CRDi'de enjektör, turbo ve silindir kapağı sorunları geçiyor; Şikâyetvar'da 2016 model 1.4 CRDi'de klima kompresörü kaçırması tek şikâyet. Honest John'da anılan Which? 2014 anketinde 2010-2014 ix20 dizeline %75,2 güvenilirlik puanı verilmiş. Kilometre bilgisi ve ikinci bağımsız site yok."
     },
     {
       "marka": "Toyota",
@@ -11018,7 +11024,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Türkçe sitelerde Aygo'ya özgü şikâyet çıkmadı: DonanımHaber'de ADAC arıza istatistiklerini yorumlayan başlık Aygo'yu on yaşındaki araçlar arasında en sorunsuzlardan biri sayıyor ve 1.0 benzinli 1KR-FE motorun Citroën C1 ve Peugeot 107 ile ortak olduğunu yazıyor. Toyota Owners Club'ta (Aygo & Aygo X bölümü) 2014 sonrası Aygo'da kavrama arızası (35.000 milde; 42.000 milde patinaj, bayi aktüatör ya da ECU'yu da suçlamış, garanti dışı) ve otomatikleştirilmiş şanzımanın (MMT / x-shift) aktüatör arızası başlıkları var; Parkers ilk nesil rehberi bu şanzımanı 'çok karmaşık' diye anıyor. Türkçe ikinci site ve 2014 sonrası nesle eşleşen ikinci bir yabancı site çıkmadığı için kayıt açılmadı; Aygo'nun Türkiye'de otomatikleştirilmiş şanzımanla satılıp satılmadığı da doğrulanmadı."
     },
     {
       "marka": "Citroen",
@@ -11033,12 +11041,14 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da C1 sayfasında şanzıman ('sorunlu şanzıman-vites') etiketli tek şikâyet ve 8 ay önceki onarımın tekrarladığı tek kayıt var; DonanımHaber'de yaklaşık on yıllık genel liste (vites kutusu, elektrik, süspansiyon; 'tüm C1'ler için geçerli değil' deniyor) ve ETG şanzımanın yokuşta geri kaçması (tasarım özelliği olarak anlatılıyor) geçiyor. Honest John ve French Car Forum'da 2005-2009 C1 / 107 / Aygo manuel debriyajının bilinen zayıflığı (2009'dan sonra daha büyük debriyaj) ve 2016 C1'de durunca boşa alma tek vaka anlatılıyor; 2014-2021 ETG5'e özgü kaynak çıkmadı. C1'in Türkiye'de 1.2 PureTech ile satılıp satılmadığı doğrulanamadı."
     },
     {
       "marka": "Mazda",
       "model": "Mazda 2 (DJ)",
-      "yillar": "2014-2019",
+      "yillar": "2014-",
       "motor": "1.5 SkyActiv-G 90",
       "kademe": 3,
       "eslesme": {
@@ -11048,13 +11058,15 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "DonanımHaber'de SkyActiv otomatik şanzımanlarda 'ilk çıkan SkyActiv'lerde kronik sorun var' iddiası (2022, tek başlık, ağırlıkla Mazda 3; diğer kullanıcılar karşı çıkıyor) ve Mazda 2 sahibi yorumları genel memnuniyet düzeyinde; Mazda 2'ye özgü kronik sorun çıkmadı. Üretici servis bültenleri (NHTSA arşivi) 2012-2013 Mazda3 SkyActiv-G otomatikte vites geçiş sertliği ve geri vitese geçişte gecikmeyi TCM yeniden programlamasıyla giderdiğini, 2015 CX-5'te P0722 kodunu TCM mantığını değiştirerek giderdiğini yazıyor; bunlar Mazda 2 için bildirilmedi. Forumlarda Mazda'nın Türkiye dağıtımının zayıf olduğu yazılıyor (kullanıcı görüşü)."
     },
     {
       "marka": "Mazda",
       "model": "CX-3",
       "yillar": "2015-2021",
-      "motor": "2.0 SkyActiv-G 120",
+      "motor": "1.5 SkyActiv-D 105 (dizel; Türkiye'de yalnızca bu)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -11063,22 +11075,9 @@
         "motor": [
           ""
         ]
-      }
-    },
-    {
-      "marka": "Mazda",
-      "model": "CX-30",
-      "yillar": "2019-",
-      "motor": "2.0 e-SkyActiv-G 122 (hafif hibrit)",
-      "kademe": 3,
-      "eslesme": {
-        "model": [
-          "CX-30 ("
-        ],
-        "motor": [
-          ""
-        ]
-      }
+      },
+      "not": "Türkiye'ye yalnızca 1.5 SkyActiv-D dizelle geldi (Otopark lansman haberi: iki önden çekişli manuel, altı dört çeker otomatik versiyon; 2.0 benzinli satılmadı). Şikâyetvar'da 'Mazda CX-3 yolda stop ediyor' başlığı ve Ekşi Sözlük'te uzun yolda ani güç kaybı ve uyarı lambalarının yanması (servis yakıta bağlamış, yakıt markası değişince birkaç ay düzelmiş) geçiyor; ayrı sahipler olup olmadığı belirsiz. İkinci bağımsız site ve kilometre bilgisi yok. Satır etiketi 11. aşamada yanlış yazılmıştı (2.0 SkyActiv-G 120), düzeltildi.",
+      "sonuc": "yetersiz-kanit"
     },
     {
       "marka": "Land Rover",
@@ -11093,7 +11092,9 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da 2020 model Defender 2.0 TDI'da 16.11.2024 ve 23.12.2024'te iki kez motor arızası (servis bir hafta on gün sürmüş), benzinli bir Defender'da soğutma sıvısı eksik uyarısı ve soldan cızırtı (garanti kapsamında 7 kez çekiciyle servise) ve 2020 modelde 19.000 km'de fren titremesi tek tek kayıtlar; DonanımHaber'de D200 sahiplerinin yorumları genel kalıyor. Ortak bir sorun için ikinci bağımsız site ve kilometre bilgisi yok."
     },
     {
       "marka": "Land Rover",
@@ -11108,7 +11109,160 @@
         "motor": [
           ""
         ]
-      }
+      },
+      "sonuc": "yetersiz-kanit",
+      "not": "Şikâyetvar'da Velar 2.0 dizelde egzoz (partikül) filtresinin garanti kapsamında değiştirilmesine rağmen her 8.000 km'de yeniden tıkandığı iddiası, altı ay önce sıfır alınan araçta 4. ayda motor arızası, 2.000 km'de motor arıza lambası ve panjur / logo solması (garanti reddi) tekil; Ekşi Sözlük'te motorun 60 bin km'de bittiği tek yorum var. Ingenium 2.0 dizelin zincir ve DPF kaynaklı sorunları Honest John, Parkers ve CarComplaints'te Discovery Sport ve Evoque (2015-2018) için anlatılıyor, Velar'a özgü kaynak çıkmadı."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A8",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Octavia (A8, 2020-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar kategori sayfaları (ekran, ses) tüm Octavia nesillerini kapsıyor; alıntılanan kayıtlar 2021-2025 model yıllarına (Octavia 4) ait. Sunroof ve kapı şikâyeti çıkmadı; fren sesi birçok sahipte geçiyor ama ikinci site çıkmadı."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Transporter T5",
+      "yillar": "2003-2015",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Transporter (T5, 2003-2015)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "T6 (2015-) için yan cam / fitil suyu kaynaklarda ayrıca doğrulanmadı. DonanımHaber'deki 'yeni kasa Transporter' listesinde turbo, klima, ön akslardan (tahrik millerinden) ses ve camların inip kalkarken ses yapması da geçiyor ama tek sitede, tek kullanıcının listesinde; T6 sahibinin ön yolcu camının çalışmaması tek kayıt."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touran",
+      "yillar": "2010-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Touran"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da VW genelinde tavan döşemesi sarkması ve kapı kilidi şikâyetleri çok ama çoğu Golf, Jetta ve Passat'a ait. Touran'a bağlanan tek ayrıntı DonanımHaber'de '11 yıldır çözülmeyen Touran problemim' başlığı: arka cam yıkama suyu hortumunun sızdırıp suyun kablo demetine ulaşması ve far, silecek, kapı kilidi gibi sistemlerde rastgele arızalara yol açması (tek kullanıcı, nesil belirtilmemiş). İkinci bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat CC",
+      "yillar": "2008-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Passat CC"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da cam tavan çatlağı / su alma, kapı kilidi ve kapı fitili sesi kayıtları B7 / B8'e (2018 model dahil) ait ya da model belirtmiyor; DonanımHaber'de CC için 'kronik motor, şanzıman ve elektrik sorunları' genel ifadesi ve DSG yorumu var. VWVortex'te 2009-2010 CC'lerde arka yolcu kapısı modülü arızası (kapının içeriden ve dışarıdan kilitli kalması, akü boşalması; bir sahip camı kırarak girmiş) geçiyor ama Türkçe sitelerde eşleşen kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb II",
+      "yillar": "2008-2015",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Superb (II,"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Briskoda'da (Superb Mk2, 2008-2015) bilinen arızalar ayrıntılı anlatılıyor: ön yolcu ayak boşluğu halısı altındaki modüllerde su girişi (cam yıkama memesi borularının motora yakın geçişi; yalnızca hatchback), panoramik cam tavan tahliyelerinin tıkanıp A sütunundan ayak boşluğuna su kaçırması, çift açılımlı bagaj kapağında sedan modunda açılınca iç kaplama altındaki kabloların kopması, sürücü kapısı ile çamurluk arasındaki körükte kapı kablo demetinin kopması, Columbus navigasyon ünitesi arızası, ABS sensörlerinin paslanması ve kaputta krom çıta yanında pas; hepsi tek sitede (Briskoda). Şikâyetvar'da Superb için cam tavan plastik çerçevesinin 'kronik' çatlaması, anahtar pili ve DSG kavrama yorumları nesil belirtmiyor (cam tavan çatlağı için Superb III kaydı var); kapı, kablo ve su alma için Superb II'ye özgü Türkçe kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Audi",
+      "model": "A1 8X",
+      "yillar": "2010-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A1 (8X"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Honest John okur yorumlarında 2012 model A1'de bagaj kapağının içinde su (arka cam yıkama memesi borusunun bağlantıdan çıkması ya da arka stop contalarının bozulması) ve 2016 model bir araçta kabine su girmesi geçiyor; Parkers gösterge uyarı lambalarının titremesini ve telefon bağlantısı sorununu anıyor. Türkçe sitelerde A1'e özgü kapı, tavan, far ya da multimedya şikâyeti çıkmadı (Şikâyetvar A1 (Sedan) sayfasında 229 şikâyetin ayrıntılı örneği DSG arızası). İkinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Audi",
+      "model": "Q2",
+      "yillar": "2016-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Q2"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Q2'de ses sisteminin ıslanması (sahip kola döküldüğünü yazıyor, servis tüm sistem için 291.000 TL istemiş), cam tavan lastiğinde gıcırtı (Eylül 2025'ten beri), garanti bitiminden sonra arka sağ kapı kilidi arızası ve anahtarsız giriş uyumsuzluğu (2020 model), 2024 model bir araçta tahrik hatası ve şanzıman uyarısı tekil kayıtlar olarak geçiyor; DonanımHaber'de Q2 1.0 TFSI inceleme başlığı genel. İkinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 C8",
+      "yillar": "2018-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A6 C8"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da A6'da merkezi kilit sisteminin bir yıldan uzun süredir tekrarlayan arızası (leasing 40 TDI quattro; parça değişimine rağmen; 'kronik merkezi kilit sorunu ve araç değiştirme talebi' başlığı da var), 2023 modelde 15.000 km'de adaptif far ve sürücü destek arızası, 2022 modelde kalkışta titreme ve arka kısımdan ses (garanti yalnızca parçayı karşılamış), 2025 modelde 28.000 km'de şanzıman ve Quattro arızası tekil kayıtlar; 2012 S-line'da uzun far, selektör ve hız sabitleyici arızası C7'ye ait tek kayıt. DonanımHaber'deki A6 başlıkları motor ağırlıklı (EGR, turbo, enjektör, zincir gergisi) ve C7 / C8 ayrımı yok. İkinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Seat",
+      "model": "Ibiza 6J / 6P",
+      "yillar": "2008-2017",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Ibiza (6J"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da 2014 model 6J'de arka kapılarda yalıtım poşetinin (yağmurluk / tozluk) olmaması nedeniyle yağmur ve yıkamada kapıdan su alma, yan aynaların kapanmaması, yağmur sensörü ve far kumandası hatası, multimedya ekranı arızası (sahip 'kronik' diyor), ön camların kapanmaması ve DSG mekatronik / baskı balata konuları tekil ya da nesil karışık geçiyor; Honest John ve Parkers sahip yorumlarında 2009 Ibiza'da akü boşalması (3-4 amper, ancak SEAT'in yapabildiği yazılım güncellemesiyle düzelmiş) ve 2010 modelde kapı içinde cam kriko kablolarının kopması geçiyor. Türkçe ve yabancı kayıtlar örtüşmediği için kayıt açılmadı.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }

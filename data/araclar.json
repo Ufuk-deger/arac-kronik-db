@@ -12815,6 +12815,48 @@
     },
     {
       "marka": "Skoda",
+      "model": "Octavia (A8, 2020-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Multimedya sisteminin kendiliğinden açılması, sesin kendiliğinden yükselmesi ve ekran / CarPlay hataları",
+          "etkilenen_parca": "Fabrika multimedya ekranı (başlık ünitesi) ve yazılımı, CarPlay / Android Auto bağlantısı",
+          "belirtiler": "Sesin aniden kendiliğinden yükselmesi; park halinde ya da araç kilitliyken sistemin kendiliğinden açılması, ekranın açılıp kapanması; Android Auto / CarPlay'de ses hatası; ekran değişiminden sonra sorunun geri dönmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2022-2025 model Octavia sahipleri park halindeyken multimedyanın kendiliğinden açıldığını ve seyirde sesin maksimuma çıktığını (2022), ekranın araç kilitliyken bile açılıp kapandığını (2023), CarPlay bağlıyken sesin komut verilmeden aniden yükseldiğini (2024-2025) yazıyor; bir sahip ekranın bir kez değiştirildiğini ama sorunun kısa sürede geri döndüğünü bildiriyor. Ekşi Sözlük'te 2023'ten beri aracını kullanan bir sahip son üç aydır multimedyanın arıza verdiğini, güncellemelere ve defalarca servise rağmen düzelmediğini; 2022 model 1.0 e-TEC sahibi Android Auto'da sürekli ses hatası aldığını yazıyor. Nedeni kaynaklarda belirtilmiyor; bir kullanıcı bunu birçok araçta görülen bir yazılım hatası sayıyor.",
+            "cozum": "Sahipler yazılım güncellemesi ve ekran değişimi denendiğini, her ikisinin de sorunu kalıcı gidermediğini yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/skoda-octavia-2023-model-aracimin-ekran-problemi-cozulmuyor-video",
+            "https://www.sikayetvar.com/skoda/skoda-octavia-mirrorlink-ve-carplay-sorunu",
+            "https://www.sikayetvar.com/skoda/octavia/ekran",
+            "https://eksisozluk.com/skoda-octavia--134827?p=39",
+            "https://eksisozluk.com/skoda-octavia--134827?p=40"
+          ]
+        },
+        {
+          "sorun_adi": "Bagaj kapağından (bagaj kaması) ses gelmesi",
+          "etkilenen_parca": "Bagaj kapağı kamaları ve kapak yatakları",
+          "belirtiler": "Arka bagaj kapağından rahatsız edici ses; serviste yağlamayla birkaç gün geçip yeniden başlaması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2021 model bir sahip 68.000 km'de arka bagaj kapağından ses geldiğini (aynı sorun 2023 model bir yakınında da var), her serviste yağlama önerildiğini ve sesin 3-4 gün sonra geri geldiğini yazıyor; başka bir 2021 model sahibi iki yaşına gelmeden 6 kez servise gittiğini, bagaj kaması sesinin kronikleştiğini bildiriyor. Ekşi Sözlük'te bir sahip kronik sorunların ilkinin (36 bin km'de) bagaj kamalarının ses yapması olduğunu ve serviste garanti kapsamında değiştirildiğini yazıyor; başka bir giriş 'bagaj kaması sesi, multimedya ekranı sorunu vs. illa ki en az birine denk gelirsiniz' diyor.",
+            "cozum": "Servislerde önce yağlama önerilmiş (sesi 3-4 gün gidermiş); bir sahipte kamalar garanti kapsamında değiştirilmiş."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/octavia/ses",
+            "https://eksisozluk.com/skoda-octavia--134827?p=39"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Skoda",
       "model": "Octavia A7 (2013-2020)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
@@ -14918,6 +14960,32 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-1-6-tdi-egr-dpf"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Transporter (T5, 2003-2015)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yan cam ve sürgülü kapı fitillerinden kabine su alma",
+          "etkilenen_parca": "Yan (sürgülü) cam contaları, sürgülü kapı fitili ve kapı kanalları, drenaj delikleri",
+          "belirtiler": "Yağmurda ya da yıkamada yan camdan ve sürgülü kapı çevresinden kabine su girmesi; zeminde ve halı altında su birikmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de Transporter sahipleri yan sürgülü camdan su almanın kronik olduğunu yazıyor ('yeni kasa' Transporter sorunları listesinde 'yan camdan içeri su alması' geçiyor); bir T5 sahibi sürgülü kapıda su girişinin kapı fitilinden ve tıkanmış kapı kanallarından geldiğini, kaportacının orta kapı fitilinin değişmesi gerektiğini söylediğini yazıyor. Honest John'un T5 satın alma rehberi ve bir T5 incelemesi cam sızıntılarının yaygın olduğunu, drenaj deliklerinin açık tutulması gerektiğini (biriken suyun elektrik aksamına sorun çıkarabileceğini) yazıyor; rehberde hangi camın sızdırdığı ayrıntılı değil.",
+            "cozum": "DonanımHaber'de bir T5 sahibi fitil ile kapı üst kısmının temas ettiği noktaya yapıştırıcı bant benzeri bir önlemin işe yaradığını yazıyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/yeni-kasa-transporterlerden-cikan-sorunlar-ve-sikayetler--14038810",
+            "https://vans.honestjohn.co.uk/used-van-buying-guides/volkswagen/transporter-t5-2003-2015/",
+            "https://vans.honestjohn.co.uk/volkswagen/t5-transporter/"
+          ]
+        }
       ]
     },
     {
