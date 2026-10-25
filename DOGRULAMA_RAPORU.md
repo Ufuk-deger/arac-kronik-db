@@ -2,7 +2,7 @@
 
 Tarih: 2026-10-24
 
-Rapor on bir aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını, [6. aşama](#6-aşama-astra-electric-açığı-ve-diğer-elektrikliler) Astra Electric açığının ve diğer eksik elektrikli modellerin ele alınmasını anlatır, [7. aşama](#7-aşama-çok-ilanlı-modellerin-kapsam-kontrolü) çok ilanlı modellerin kapsam kontrolünü ve motor boşluklarının kapatılmasını, [8. aşama](#8-aşama-15-tsi-ve-etsi-motoru-ve-kullanan-modeller) 1.5 TSI ve eTSI motorunu ve onu kullanan modellerin ele alınmasını anlatır, [9. aşama](#9-aşama-çok-kullanılan-araçlarda-kaçırılanların-taraması) çok kullanılan araçlarda kaçırılanların taranmasını ve eksik nesil ve motor boşluklarının kapatılmasını anlatır, [10. aşama](#10-aşama-motor-ve-şanzıman-aileleri-ve-model-kataloğu) motor ve şanzıman ailelerinin kurulmasını, bu ailelerle eklenen kardeş model kayıtlarını ve eksik popüler modellerin kataloğunu anlatır, [11. aşama](#11-aşama-model-geneli-sorunlar-motordan-bağımsız) ise motordan bağımsız, modele (nesle) bağlı sorunların (cam tavandan su alma, kapı kilidi, boya atması, EPB arızası gibi) kaydedilmesini ve listede hiç olmayan modellerin plana eklenmesini anlatır.
+Rapor on iki aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını, [6. aşama](#6-aşama-astra-electric-açığı-ve-diğer-elektrikliler) Astra Electric açığının ve diğer eksik elektrikli modellerin ele alınmasını anlatır, [7. aşama](#7-aşama-çok-ilanlı-modellerin-kapsam-kontrolü) çok ilanlı modellerin kapsam kontrolünü ve motor boşluklarının kapatılmasını, [8. aşama](#8-aşama-15-tsi-ve-etsi-motoru-ve-kullanan-modeller) 1.5 TSI ve eTSI motorunu ve onu kullanan modellerin ele alınmasını anlatır, [9. aşama](#9-aşama-çok-kullanılan-araçlarda-kaçırılanların-taraması) çok kullanılan araçlarda kaçırılanların taranmasını ve eksik nesil ve motor boşluklarının kapatılmasını anlatır, [10. aşama](#10-aşama-motor-ve-şanzıman-aileleri-ve-model-kataloğu) motor ve şanzıman ailelerinin kurulmasını, bu ailelerle eklenen kardeş model kayıtlarını ve eksik popüler modellerin kataloğunu anlatır, [11. aşama](#11-aşama-model-geneli-sorunlar-motordan-bağımsız) motordan bağımsız, modele (nesle) bağlı sorunların (cam tavandan su alma, kapı kilidi, boya atması, EPB arızası gibi) kaydedilmesini ve listede hiç olmayan modellerin plana eklenmesini, [12. aşama](#12-aşama-model-geneli-taramasının-sürdürülmesi) ise bu taramanın VAG, Renault / Stellantis / Ford grubu, Asya, premium ve elektrikli markalara genişletilmesini anlatır.
 
 ## 1. aşama: ilk sürümün doğrulanması
 
@@ -1203,17 +1203,112 @@ Sorduğunuz örnek (cam tavan ya da sunroof su alması) şu kayıtlarda: Golf 7 
 - **Model geneli taraması kısmi:** 328 motor kaydından 266'sı henüz taranmamış bir modele ait; satırı olmayan bir modelde bu sorunlar aranmamıştır, satırı olmaması "sorun yok" demek değildir.
 - **Kapsam soruları açık:** (1) 2011 öncesi model yılı penceresi hâlâ dışarıda (Tofaş Şahin / Doğan / Kartal, Renault R12-Toros, R9-Broadway, Fiat Albea / Palio). (2) Hibrit ve plug-in hibritler kapsam dışı.
 
+## 12. aşama: model geneli taramasının sürdürülmesi
+
+Tarih: 2026-10-25
+
+11. aşamada 90 model nesli taranmıştı. Bu aşamada isteğiniz üzerine ("planda kaldığınız yerden devam edin, detaylı ve doğrucu ilerleyin") 11. aşamanın açık kalan işleri bitirildi ve tarama kalan markalara genişletildi. Yöntem ve kural aynıdır: önce Şikâyetvar, DonanımHaber, Otopark ve Ekşi Sözlük'te modele özgü sorgular; ikinci bağımsız site için kayıt defterindeki uluslararası forumlar ve rehberler (Ford Owners Club, French Car Forum, BimmerPost, MBWorld, BenzWorld, MB Club UK, Swedespeed, Volvo Owners Club Forum, Honest John, Parkers, Briskoda vb.); en az iki farklı site, en az biri deneyim ya da resmî türünde; **nesil eşleşmesi doğrulanamazsa kayıt açılmadı.** Kayıt defterine yeni site eklenmedi (84).
+
+| | 11. aşama sonu | 12. aşama sonu |
+| --- | ---: | ---: |
+| Araç/motor kaydı | 381 (328 motor + 53 model geneli) | 400 (328 motor + 72 model geneli) |
+| Kayda özgü kronik sorun | 320 (62'si model geneli) | 344 (86'sı model geneli) |
+| Farklı kaynak sitesi | 84 | 84 |
+| Yalnızca iki siteyle desteklenen sorun | 114 | 127 |
+| Ayrıntısı (`detay`) olan sorun | 402 | 426 |
+| Plan satırı | 675 | 734 |
+| Kanıtı yetersiz `–` satırı | 214 (37'si model geneli) | 264 (78'i model geneli) |
+| Sırada `○` satırı | 98 | 88 |
+| Taranan model nesli | 90 (✓ 53, – 37) | 150 (✓ 72, – 78) |
+| Taranmış bir modele ait motor kaydı | 62 / 328 | 149 / 328 |
+
+### Ne yapıldı
+
+- **A. 11. aşamada "sırada" eklenen on satır araştırıldı (9 satır):** Kia Picanto TA, Hyundai ix20 (benzinli ve dizel), Toyota Aygo, Citroën C1, Mazda 2, Mazda CX-3, Land Rover Defender ve Range Rover Velar için iki bağımsız site (nesil ve model eşleşmesi doğrulanmış) çıkmadı; hepsi notlarıyla `–` işlendi. Düzeltmeler: CX-3 satırı "2.0 SkyActiv-G 120" etiketiyle yazılmıştı; Otopark'taki lansman haberi Türkiye'ye yalnızca 1.5 SkyActiv-D ile geldiğini yazdığı için etiket düzeltildi. CX-30'un Türkiye'de satıldığı doğrulanamadığından satırı kaldırıldı.
+- **B. VAG:** Skoda Octavia A8 ve VW Transporter T5 kayda döndü; Touran, Passat CC, Superb II, Audi A1 8X, Q2, A6 C8 ve Seat Ibiza 6J / 6P `–` kaldı.
+- **C. Renault, Dacia, Fiat, Ford, Opel, Peugeot, Citroën:** 8 model nesli kayda döndü (10 sorun); 17 model nesli `–` işlendi.
+- **D. Asya (Toyota, Hyundai, Kia, Nissan, Honda, Subaru):** Nissan X-Trail T32 kayda döndü (11. aşamadaki `–` satırı ✓ oldu); 7 yeni satır `–`, Tucson / Kona, HR-V / CR-V ve Auris / Yaris notları genişletildi.
+- **E. Premium ve elektrikli (BMW, Mercedes, Audi, Volvo, Mini, Land Rover, Alfa Romeo, Porsche, Togg, BYD, MG, Kia/Hyundai EV):** 8 model nesli kayda döndü (10 sorun; Mercedes C W205 11. aşamadaki `–` satırından ✓ oldu); 12 yeni satır `–`; X3 F25, Mini, Evoque ve Volvo S60 / V60 notları genişletildi.
+
+### Eklenen kayıtlar (19 model nesli, 24 sorun)
+
+Risk dağılımı: 12 Orta, 12 Düşük (Yüksek yok; bu kayıtlarda kilometre bilgisi yok). Marka bazında (sorun konusu):
+
+- **Alfa Romeo (1):** Giulietta (yolcu airbag kapağı şişmesi ve çatlaması; iç kapı kolunun kırılması; klima klapesi arızası).
+- **Audi (1):** A3 8Y (MMI ekranının kararması).
+- **BMW (3):** 3 Serisi G20 (sunroof perdesi ve gıcırtı), 5 Serisi G30 ve X5 F15 (iç kapı kolu kaplaması erimesi; F30, F10 ve X1 F48 kayıtlarındaki sorunla aynı).
+- **Citroën (3):** C4 Cactus (kapı alt kenarı paslanması), C4 Picasso II (cam tavan perdesi tırnağı), C5 Aircross (siyah tavan boyası).
+- **Fiat (1):** Bravo (yolcu airbag kapağı; klima klapesi; yolcu güneşliği).
+- **Ford (2):** C-Max / Grand C-Max (cam tavan perdesi), Puma (direksiyon sesi).
+- **Mercedes-Benz (1):** C Serisi W205 (panoramik tavan ray, kılavuz ve motor arızası).
+- **Nissan (1):** X-Trail T32 (ön cam altı ve cam tavan tahliyelerinden ayak boşluğuna ve sigorta kutusuna su).
+- **Peugeot (1):** 508 II (sunroof / panoramik tavan).
+- **Renault (1):** Captur 2 (Easy Link ekranı donması).
+- **Skoda (1):** Octavia A8 (multimedya kendiliğinden açılması ve ses; bagaj kaması sesi).
+- **Togg (1):** T10X (kapıların açılmaması ya da kilitlenmemesi).
+- **Volkswagen (1):** Transporter T5 (yan cam ve sürgülü kapı fitillerinden su).
+- **Volvo (1):** XC90 / S90 / V90 (Sensus orta ekran donması ve yeniden başlaması).
+
+Sorduğunuz türden örnekler: sunroof ve cam tavan kaynaklı sorunlar G20, 508 II, W205 (sunroof / panoramik tavan), C-Max ve C4 Picasso II (cam tavan perdesi); su alma için X-Trail T32 (ön cam altı ve tavan tahliyeleri) ve Transporter T5 (yan cam fitili).
+
+### Kanıt durumu
+
+- **24 sorunun 13'ü yalnızca iki siteyle** (sınırlı doğrulama), 8'i üç, 2'si dört (C4 Cactus kapı paslanması, X-Trail T32) ve 1'i beş siteyle (W205) desteklenir. Her sorunun en az bir Türkçe kaynağı var; **beş sorunun tek Türkçe kaynağı Şikâyetvar'dır** (Puma, G30 ve X5 F15 iç kapı kolu, Transporter T5, Volvo Sensus) ve ikinci kaynak yabancı bir forumdur (Ford Owners Club, BimmerPost, Honest John ve Parkers, Swedespeed ve Volvo Owners Club Forum). Bu sorunların Türkiye'deki araçlarda aynı sıklıkla görülüp görülmediği bilinmiyor.
+- **Yabancı kaynaklı ayrıntılar** İngiltere ve ABD pazarındaki araçlara ait olabilir (ör. W205 maliyetleri MBWorld'de dolar cinsinden; BimmerPost ABD'de; French Car Forum ve Ford Owners Club İngiltere'de). Maliyet alanları kullanıcı beyanıdır ve güncel fiyat olarak okunmamalıdır.
+- **Site düzeyinde yazılan atıflar:** arama özetlerinin bir iddiayı hangi sayfaya bağladığı belirsiz kaldığında iddia site düzeyinde yazıldı (Bravo ve C5 Aircross DonanımHaber / Ekşi / Otopark sayfaları, C4 Cactus DonanımHaber ve Otopark, Giulietta klima ve kapı kolu, Puma Ford Owners Club, Volvo Swedespeed ve Volvo Forums UK, W205 DonanımHaber / Ekşi yorumu).
+
+### Araştırılıp kaydı açılmayan 43 yeni model nesli (`–`)
+
+İki bağımsız site ya da nesil eşleşmesi bulunamadığı için plana notlarıyla `–` olarak işlendi (ayrıntı [KAPSAM.md](KAPSAM.md) içinde):
+
+- **VAG (7):** Touran, Passat CC, Superb II, Audi A1 8X, Q2, A6 C8, Seat Ibiza 6J / 6P.
+- **Renault, Dacia, Fiat, Ford, Opel, PSA (17):** Opel Insignia B, Crossland X / Grandland X, Zafira Tourer, Meriva B, Combo D; Peugeot 207, 3008 I / 5008 I, Partner / Rifter / Citroën Berlingo; Renault Clio 3 / Symbol, Kangoo, Talisman; Fiat Panda, Fiorino / Qubo; Dacia Lodgy / Dokker; Ford Focus 4, EcoSport, Mondeo.
+- **Asya (7):** Hyundai i30 GD / PD, ix35, Bayon / i20 BC3; Kia Sportage QL, Ceed CD / Stonic / Picanto JA; Nissan Micra K13 / K14 / Note E12; Subaru Forester / XV / Impreza.
+- **Premium ve elektrikli (12):** BMW 2 Serisi / 4 Serisi / X2; Mercedes E W213, A W177 / CLA C118, GLC / GLA / B W246; Audi A4 B9, Q5 FY / Q3 F3; Land Rover Discovery Sport; Alfa Romeo Giulia / Stelvio; Porsche Macan / Cayenne; BYD Atto 3, MG4, Kia EV6 / Hyundai Ioniq 5.
+
+Nedeni çoğunlukla "tek sitede (Şikâyetvar) tekrar eden konular, ikinci bağımsız site yok" (2017 sonrası modellerin Türkçe kaynağı büyük ölçüde Şikâyetvar'dan ibaret). Öne çıkan tekrar eden ama tek siteli konular: i30 GD'de cam tavan kasası çatlağı ve sızıntı, Tucson TL'de cam tavan perdesi ve direksiyon kilidi, Bayon / i20'de cam düğmeleri ve korna, Talisman'da R-Link 2 Bluetooth kopması, Fiorino'da cam krikosu, Ceed CD ve Stonic'te direksiyon kaplaması, Insignia B'de deri direksiyon soyulması, Atto 3'te amortisör sesi ve park sensörü, Stelvio'da far buğusu. **Nesil ya da model eşleşmediği için kayda alınmayan kanıtlar:**
+
+- **Meriva B direksiyon (EPS):** Honest John ve Vauxhall Owners Network'teki EPS başlıkları (tork sensörü, C1500 kodu, BBC Watchdog, geri çağırma talepleri) ağırlıkla ilk kuşak Meriva A (2003-2010) için; Meriva B için 2013 model tek sahip kaydı; DonanımHaber başlığı nesil belirtmiyor.
+- **Panda direksiyon (EPS):** Şikâyetvar ve DonanımHaber'deki Panda kayıtları 2005-2011 (169 şasi); fiatforum'da "Panda (Mk3)" etiketli başlıklar da var ama tek site.
+- **Micra K13 direksiyon (EPS):** DonanımHaber ve Honest John başlıkları K12 (2003-2010) içindir.
+- **Clio 3 / Symbol teyp ekranı:** "Symbol" adı Türkiye'de 2013'ten sonra Logan tabanlı araç için de kullanıldığından Şikâyetvar sayfalarının model yılı doğrulanamadı.
+- **Focus 4 SYNC 3:** Ford Owners Club başlıklarının çoğu Mk3 Focus, Fiesta ve EcoSport'a ait.
+- **Insignia B deri direksiyon:** Ekşi Sözlük'teki "direksiyon kaplamasının soyulması kronik" yorumunun sayfası Insignia A ve Astra K ile ortak başlıklarda.
+- **ix35 4x4 aktarma (freze) sıyırması:** Şikâyetvar'da "kronik" başlıklı ama kilometre bilgisi ve ikinci site yok; motor / şanzıman kaydına da alınamadı.
+- **BMW X3 F25 iç kapı kolu:** BimmerPost'ta F25'e özgü başlık çıkmadı (sonuçlar F30, F80, E90, F15).
+- **Discovery Sport / Evoque (Ingenium):** CarComplaints kayıtları ABD'de satılan benzinli Ingenium'a ait (ABD'de dizel yok); dizel zincir iddiasına alınmadı, aile açılmadı.
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- **Octavia A8 bagaj kaması:** ilk arama özeti Ekşi Sözlük'teki "36 bin km'de garantide değişti" yorumunu Şikâyetvar'a bağlamıştı; ayrı bir doğrulama aramasıyla kaynaklar ayrıldı (Şikâyetvar: 2021 model, 68.000 km, 6 servis; Ekşi Sözlük: 36 bin km).
+- **Bravo:** Şikâyetvar kaydındaki "bayi 90 bin TL fiyat çıkardı" tutarı doğrulanamadığı için kayda alınmadı; Ekşi Sözlük'te kaplamayı yerinden ayıran şişme anlatımı Fiat 500'e ait olduğundan Bravo'ya katılmadı.
+- **Punto Evo / Grande Punto direksiyon (EPS):** bu aşamada yeniden arandı; sorun zaten motor kaydında (1.3 Multijet 75/95 ve 1.4 Fire 77) olduğundan ikinci bir model geneli kayıt açılmadı.
+- **Mercedes C W205 ve Nissan X-Trail T32:** 11. aşamada `–` idiler (tek başlıklar / Türkçe kaynak çıkmamıştı); MBWorld'ün W205 bölümünde çok sayıda panoramik tavan başlığı, X-Trail için Ekşi Sözlük ve Şikâyetvar kayıtları bulununca ✓ yapıldı.
+- **X-Trail T32 plan satırı:** satırın eşleşme anahtarı kayıt adıyla uyuşmadığından ara kayıt 3 ve 4 commit'lerinde KAPSAM.md'de "sırada" görünüyordu; bu aşamanın son commit'inde düzeltildi.
+- **Ara kayıt 4 commit mesajı** dilim E için "11 sorun" yazıyor; doğrusu 10 (aşamanın toplamı 24: dilim B 3, C 10, D 1, E 10).
+- **W205 maliyet cümlesi:** "parça ve işçilik için yaklaşık 80.000 TL" ifadesinden kaynakta olmayan "parça ve işçilik" ayrımı çıkarıldı.
+- **Plan notları:** yeni ✓ satırlarıyla çelişen ya da güncelliğini yitiren `–` notları (Tucson / Kona, HR-V / CR-V, Auris / Yaris, X3 F25, Mini, Evoque, Volvo S60 / V60) yeni bulgularla tamamlandı.
+
+### Dikkat edilecek sınırlar
+
+- **Kilometre bilgisi yok (86 model geneli sorunun 86'sı):** kaynaklar yazmadığı için aralık uydurulmadı; görüntüleyicide "Kaynaklarda kilometre bilgisi yok" etiketiyle görünür ve kilometre filtresiyle elenmez.
+- **Doğrulama yine arama özetleriyle yapıldı; `WebFetch` kapalıydı.** Özetler, sayfaları yorumlayan bir araçtan geliyor; bazen sayfa başlıkları ve alıntılar özetle birebir uyuşmuyor (ör. Giulietta klima ve kapı kolu, Volvo Sensus başlıklarının hangi modele ait olduğu). Rakam ve alıntılar için asıl sayfaya bakmak gerekir.
+- **Sıklık bilgisi yok.** Her sorun "sahipler bildirdi" düzeyindedir; Şikâyetvar ve forumlar şikâyet edenleri gösterir. Risk seviyesi README'deki ölçeğe göre editoryal bir sınıflandırmadır.
+- **Model geneli taraması kısmi:** 328 motor kaydından 179'u model adı eşleşmesine göre taranmamış bir modele ait görünüyor (eşleşme model adının tam metnine bakar; bazı kayıtlar farklı yazım yüzünden taranmış modellerin altında olsa da sayılmayabilir). Satırı olmayan bir modelde bu sorunlar aranmamıştır; satırı olmaması "sorun yok" demek değildir.
+- **Listede olmayan modeller:** tarama sırasında karşılaşılan ve ne veritabanında ne planda olanlar: Ford Transit Custom / Tourneo Custom (Şikâyetvar: akü, yağ eksiltme, DPF), Citroën Jumpy / Jumper, Peugeot Expert / Boxer (motor, şanzıman / kavrama, AdBlue), Tesla Model 3 (şikâyet çıkmadı). Önceki listedeki hacmi düşük modeller (Audi A8 ve Q8, BMW 6 Serisi / X7 / Z4, Mercedes GLB ve G Serisi, Lexus NX / RX, Toyota Camry, Nissan Almera / Tiida, Opel Cascada / Movano, Renault Express, Seat Exeo, Volvo C30 / S40 / V50, Ford Fusion, Fiat Albea / Palio) hâlâ yok.
+- **Kapsam soruları açık:** (1) 2011 öncesi model yılı penceresi hâlâ dışarıda (Tofaş Şahin / Doğan / Kartal, Renault R12-Toros, R9-Broadway, Fiat Albea / Palio; Fiat Panda 169 gibi 2011 öncesi nesiller). (2) Hibrit ve plug-in hibritler kapsam dışı.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen 57 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı; 7. aşamada Astra 1.3 CDTI Easytronic eklendi; 8. aşamada Leon KL 48V, Superb IV 48V, Karoq titreşimi ve Audi A3 8Y 48V eklendi; 9. aşamada Jetta DSG mekatroniği, Ceed 7DCT ve Qashqai 1.3 DIG-T'nin iki sorunu eklendi) üçüncü bir kaynak eklenebilir. 11. aşamada eklenen model geneli sorunların 51'i de yalnızca iki siteyle destekleniyor (doğrulayıcının bildirdiği toplam: 114).
-3. Kanıtı yetersiz bulunan 214 grup (177'si motor ve şanzıman, 37'si model geneli) için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
+2. Yalnızca iki siteyle desteklenen 57 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı; 7. aşamada Astra 1.3 CDTI Easytronic eklendi; 8. aşamada Leon KL 48V, Superb IV 48V, Karoq titreşimi ve Audi A3 8Y 48V eklendi; 9. aşamada Jetta DSG mekatroniği, Ceed 7DCT ve Qashqai 1.3 DIG-T'nin iki sorunu eklendi) üçüncü bir kaynak eklenebilir. 11. aşamada eklenen model geneli sorunların 51'i, 12. aşamada eklenenlerin 13'ü yalnızca iki siteyle destekleniyor (doğrulayıcının bildirdiği toplam: 127).
+3. Kanıtı yetersiz bulunan 264 grup (186'sı motor ve şanzıman, 78'i model geneli) için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
 4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 104 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
 5. Elektrikli araçlarda geri çağırma kaydı bulunan ama Türkiye kapsamı doğrulanamayan aileler (Volvo EX30, VW ID. serisi, Mini Cooper SE, BMW iX / i4, Audi e-tron GT) için Türkiye distribütörlerinin duyuruları ya da Ticaret Bakanlığı geri çağırma kayıtları bulunursa kayıt açılabilir.
 6. Hibrit ve plug-in hibrit araçlar (Toyota hibritleri, BYD Seal U DM-i gibi) bu aşamada kapsam dışı bırakıldı; istenirse aynı kurallarla eklenebilir.
 7. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.
 8. **Aile bağlarının doğrulanması:** 285 kaydın hangi motor ve şanzımanla satıldığı üretici ya da distribütör kataloglarından tek tek kontrol edilebilir; özellikle Türkiye'de satılıp satılmadığı belirsiz kombinasyonlar (ör. Stonic 1.6 CRDi, Rio YB 1.0 T-GDI 7DCT, Yaris XP210 benzinli 1.5) için.
 9. **Aile sorunlarının güçlendirilmesi:** tek modelin kaynağına dayanan aile sorunları (ör. 7G-Tronic iletken plaka, Multitronic, Subaru FB20, A16XER) başka bir modelin kaynağıyla desteklenebilir; 2.0 TDI (EA189 / EA288), 1.0 TSI (EA211 üç silindir) ve R9M 1.6 dCi gibi büyük ailelerin henüz sorunu yok.
-10. **98 "sırada" satırı** aynı döngüyle (önce aile, sonra Türkçe arama) işlenebilir; öncelik BMW 2 Serisi F44 ve X2 dizel, Land Rover Evoque ve Discovery Sport, Audi A3 8Y / A6 C8, Fiat Bravo ve Panda 1.3, Renault Kangoo 3. 11. aşamada eklenen on satır: Kia Picanto TA, Hyundai ix20 (benzinli ve dizel), Toyota Aygo, Citroën C1, Mazda 2 / CX-3 / CX-30, Land Rover Defender ve Range Rover Velar.
-11. **Model geneli taramasının sürdürülmesi:** 266 motor kaydı hâlâ taranmamış bir modele ait. Yüksek hacimli modellerden henüz model geneli satırı olmayanlar: VW Touran, Passat CC, Transporter ve Arteon; Skoda Octavia A8 ve Superb II; Fiat Panda, Bravo ve Fiorino; Ford Focus 4, EcoSport, Puma, Mondeo ve C-Max; Opel Insignia B, Crossland, Grandland ve Zafira; Peugeot 508, 5008 ve Partner / Rifter; Citroën C4, Berlingo ve Jumpy; Renault Clio 3 / Symbol, Kangoo ve Talisman; Toyota RAV4 ve Hilux; Hyundai i30 GD / PD ve ix35; Kia Sportage QL, Ceed CD ve Stonic; Nissan Micra ve Note; BMW G20 / G30 ve X5; Mercedes W213 ve GLC; Audi A1, Q2 ve A6 C8; elektrikli modeller.
-12. **`–` kalan model geneli sorunlar:** Şikâyetvar'da tekrar eden konular (Passat B7 / B8 cam tavan çerçevesi, Kadjar yan aynaları, 301 / C-Elysée boyası, Rapid boyası vb.) için DonanımHaber, Otopark ya da bir yabancı forumda ikinci kaynak bulunursa ✓'ye çevrilebilir. Türkçe kaynağı olmayan dört sorun (Q5 8R, Focus 3, Yeti, XC60) için Türkçe bir site kaydı bulunursa güçlenir.
+10. **88 "sırada" satırı** aynı döngüyle (önce aile, sonra Türkçe arama) işlenebilir; öncelik Land Rover Evoque ve Discovery Sport (Ingenium), Mercedes GLE W166 ve Vito, BMW X2 / 2 Serisi F44 dizel, Audi A6 C8 / A3 8Y 30 TFSI / Q3 F3, Fiat Bravo (1.4 T-Jet / 1.6 Multijet) ve Panda 1.3, Renault Kangoo 3, Opel Insignia B 1.5 Turbo / 2.0 CDTI, Ford Puma 1.0 EcoBoost. 11. aşamada eklenen on satırın dokuzu 12. aşamada arandı (hepsi `–`; CX-30 satırı kaldırıldı).
+11. **Model geneli taramasının sürdürülmesi:** 179 motor kaydı hâlâ taranmamış bir modele ait görünüyor. Model geneli satırı olmayan modeller (kabaca): Audi A5 8T; Chevrolet Cruze; Citroën ë-C4; Cupra Formentor; Dacia Jogger ve Sandero (2021-); Fiat 500L, 500X ve 600e; Ford B-Max ve Transit Connect; Hyundai Ioniq 5 / 6 (EV6 ile birlikte `–`, motor satırları ayrı); Jeep Avenger Electric; Kia EV3; Mercedes Citan, Sprinter, Vito, GLK, EQA / EQB ve EQC; Opel Astra H, Corsa-e / Mokka-e ve Astra Electric; Peugeot 308 T7, e-208 ve e-308; Porsche Taycan; Renault Arkana, Scenic 4, Taliant, Zoe ve Laguna 3; Seat Toledo; Skoda Kamiq / Scala; VW Arteon, Jetta ve T-Cross / Taigo.
+12. **`–` kalan model geneli sorunlar:** Şikâyetvar'da tekrar eden konular (Passat B7 / B8 cam tavan çerçevesi, Kadjar yan aynaları, 301 / C-Elysée boyası, Rapid boyası, i30 GD cam tavan kasası, Tucson TL cam tavan perdesi ve direksiyon kilidi, Talisman R-Link 2, Insignia B deri direksiyon, Atto 3 amortisör sesi vb.) için DonanımHaber, Otopark ya da bir yabancı forumda ikinci kaynak bulunursa ✓'ye çevrilebilir. Türkçe kaynağı olmayan dört sorun (Q5 8R, Focus 3, Yeti, XC60) için Türkçe bir site kaydı bulunursa güçlenir.

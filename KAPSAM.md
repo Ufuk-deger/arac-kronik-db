@@ -32,7 +32,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 - Araştırılıp eklenmeyen (–): **186**
 - Sırada (○): **88**
 - Kademe 1: **120/120** işlendi (✓, ◐ ya da –)
-- Model geneli taraması: **150** model nesli arandı (sorun bulunan ✓ **71**, kanıt yetersiz – **78**, sırada ○ **1**); 328 motor kaydından **148**'i taranmış bir modele ait, **180**'i henüz taranmadı
+- Model geneli taraması: **150** model nesli arandı (sorun bulunan ✓ **72**, kanıt yetersiz – **78**); 328 motor kaydından **149**'i taranmış bir modele ait, **179**'i henüz taranmadı
 - Veritabanı: **400** kayıt (**328** motor, **72** model geneli), **344** kayda özgü kronik sorun, **48** motor/şanzıman ailesi (**82** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
@@ -51,7 +51,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Togg | 2 | 1 | 0 | 1 | 0 | 1/1 | 1 / 0 |
 | BMW | 40 | 5 | 17 | 13 | 5 | 13/13 | 7 / 2 |
 | Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 | 1 / 0 |
-| Nissan | 19 | 8 | 4 | 4 | 3 | 4/4 | 3 / 1 |
+| Nissan | 19 | 8 | 4 | 4 | 3 | 4/4 | 4 / 1 |
 | Chery | 2 | 0 | 0 | 2 | 0 | 0/0 | — |
 | Ford | 32 | 8 | 11 | 11 | 2 | 8/8 | 5 / 4 |
 | Kia | 29 | 9 | 5 | 11 | 4 | 6/6 | 2 / 4 |
@@ -690,7 +690,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Qashqai J10 | 2007-2013 | Tüm motorlar (model geneli) | ✓ 1 sorun — Ekran silikleşmesi Şikâyetvar (2012-2013 Tekna) ve DonanımHaber (bir yorum) kaynaklı. J11 için bu aramada ön takım, panoramik cam tavan ve far çıkmadı; sağ ön kapı kilidinin kilitlenmemesi (kronik denmiş) ve kapı kartı kaplamasının soyulması (2022 model) tek şikâyet. |
 | 2 | Qashqai J11 | 2014-2020 | 1.6 dCi 130 (R9M, Xtronic CVT) | ✓ 1 sorun, 1 yıl kırılımı |
 | 2 | Qashqai J11 FL / J12 | 2019- | 1.3 DIG-T 140/158 (2021 sonrası 12V hafif hibrit, Xtronic CVT) | ✓ 2 sorun, 1 yıl kırılımı |
-| 2 | X-Trail T32 | 2014-2021 | Tüm motorlar (model geneli) | ○ sırada |
+| 2 | X-Trail T32 | 2014-2021 | Tüm motorlar (model geneli) | ✓ 1 sorun — Cam tavan / ön cam altı tahliyelerinden su alma Parkers, Honest John, Ekşi Sözlük ve Şikâyetvar'da doğrulandı (11. aşamada Türkçe kaynak çıkmadığı için '–' idi; Ekşi Sözlük ve Şikâyetvar kayıtları 12. aşamada bulundu). Şikâyetvar'da multimedya ekranı şikâyetleri (2023 Ocak çıkışlı bir araçta garanti dışı yüksek ücret, garantide ekran parçasının üç aydan uzun süre temin edilememesi) ve 2014 model şanzıman arızası tek site; 2023 model aracın T32 mi yoksa yeni nesil mi olduğu belirsiz. Nissan Avustralya'nın 2014-2016 üretimi T32 için bagaj kapağı gaz amortisörü geri çağırması anılıyor (Türkiye'de doğrulanmadı). |
 | 3 | Leaf | 2019- | Elektrik | – eklenmedi: Türkiye'ye özgü kaynak çıkmadı (yalnızca bir Ekşi Sözlük yorumu: aktif batarya soğutması yok, CHAdeMO). Hava soğutmalı bataryanın kapasite kaybı InsideEVs, MyNissanLeaf ve Electrek'te belgeli, ancak bunlar ağırlıkla ABD'nin sıcak iklimine ve ilk nesil Leaf'e ait. NHTSA 24V-700 geri çağırması ABD'de Smyrna'da üretilen 2019-2020 Leaf'leri kapsıyor (CHAdeMO hızlı şarjda yangın riski); Türkiye kapsamı doğrulanamadı. |
 | 3 | Murano Z51 | 2008-2014 | 3.5 V6 (CVT) | ○ sırada |
 | 3 | Navara | 2010- | 2.5 dCi | – eklenmedi: Enjektör ve turbo şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız kaynak çıkmadı. |
@@ -1095,7 +1095,6 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | --- | --- | --- |
 | Chevrolet | Cruze (2009-2016) | 1.6 benzin (F16D4) |
 | Honda | Civic (FD6, 2006-2011) | 1.6 i-VTEC |
-| Nissan | X-Trail (T32, 2014-2021) | Tüm motorlar (model geneli) |
 | Opel | Astra H (2004-2010) | 1.6 Twinport (Z16XEP / Z16XER, Easytronic) |
 | Volkswagen | Passat (B6, 2005-2010) | 2.0 TDI PD 16V (BKP) |
 | Volkswagen | Polo (9N / 6R, 2002-2014) | 1.2 3 silindir (BMD / BME / CGPA) |
