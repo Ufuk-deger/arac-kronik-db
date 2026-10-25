@@ -698,6 +698,14 @@
       "guven": "orta",
       "ana_sayfa": "https://www.volvoforums.org.uk/",
       "not": "Volvo Owners Club forumu; XC60 / S60 / V60 teknik başlıkları."
+    },
+    "bmwgroup.com": {
+      "ad": "BMW Group Basın",
+      "ulke": "Global",
+      "tur": "editoryal",
+      "guven": "yüksek",
+      "ana_sayfa": "https://www.press.bmwgroup.com/",
+      "not": "Üretici basın duyuruları (geri çağırma ve teknik kampanyalar); kampanyanın varlığı için güvenilir, arıza yaygınlığı kanıtı değildir."
     }
   }
 }

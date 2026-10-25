@@ -2129,19 +2129,17 @@
       "marka": "BMW",
       "model": "3 Serisi F30",
       "yillar": "2015-2019",
-      "motor": "320d (B47) / 320i (B48)",
+      "motor": "320i / 330i 2.0 turbo benzin (B48)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "F30"
         ],
         "motor": [
-          "B47",
           "B48"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Kaynaklar B47'nin N47 sorunlarını büyük ölçüde çözdüğünü yazıyor ama çelişkili; B48 zincir/turbo yağ terlemesi tek kaynakta kaldı."
+      "not": "Kaynaklar B47'nin N47 sorunlarını büyük ölçüde çözdüğünü yazıyor ama çelişkili; B48 zincir/turbo yağ terlemesi tek kaynakta kaldı. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW B48 ailesinin ortak yağ filtresi yuvası ve soğutma kaçağı sorununu gösterir (BIMMERPOST, FCP Euro ve Şikâyetvar'daki G20 320i anlatıları)."
     },
     {
       "marka": "BMW",
@@ -3130,7 +3128,7 @@
       "marka": "BMW",
       "model": "1 Serisi F20",
       "yillar": "2011-2019",
-      "motor": "118d 2.0 (N47D20 / B47)",
+      "motor": "118d 2.0 dizel (N47D20 / B47)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -3140,8 +3138,7 @@
           "118d"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "118d / B47 için F20'ye özgü ayrı kaynak bulunamadı; N47D20 zincir sorunu 320d ve 520d kayıtlarında ele alındı."
+      "not": "118d / B47 için F20'ye özgü ayrı kaynak bulunamadı; N47D20 zincir sorunu 320d ve 520d kayıtlarında ele alındı. Faz 14: bu satır N47 zincir sorununu (N47D20, 2011-2015) ve BMW dizel EGR soğutucusu ortak sorununu gösterir; B47'ye özgü ayrı kaynak yok."
     },
     {
       "marka": "BMW",
@@ -5897,7 +5894,7 @@
       "marka": "BMW",
       "model": "5 Serisi F10",
       "yillar": "2015-2017",
-      "motor": "520d (B47)",
+      "motor": "520d 2.0 dizel (B47)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -5907,8 +5904,7 @@
           "B47"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Bu oturumdaki aramada B47'ye özgü kayıt çıkmadı: sonuçlar N47 zincir tartışmalarına ve ZF 8 ileri şanzımanı sorunsuz bulan yorumlara ait; bir yorum B47'yi düzeltilmiş N47 olarak anıyor (tekil görüş)."
+      "not": "Bu oturumdaki aramada B47'ye özgü kayıt çıkmadı: sonuçlar N47 zincir tartışmalarına ve ZF 8 ileri şanzımanı sorunsuz bulan yorumlara ait; bir yorum B47'yi düzeltilmiş N47 olarak anıyor (tekil görüş). Faz 14: modele özgü kaynak çıkmadı; bu satır BMW dizel EGR soğutucusu ortak sorununu (N47 / B47 / N57 geri çağırması) gösterir. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; Şikâyetvar'da Türkiye'den ücretsiz parça değişimi anlatıları var."
     },
     {
       "marka": "BMW",
@@ -7120,52 +7116,49 @@
       "marka": "BMW",
       "model": "3 Serisi G20",
       "yillar": "2019-",
-      "motor": "320i (B48) / 320d (B47)",
+      "motor": "320i / 330i 2.0 turbo benzin (B48)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "G20"
         ],
         "motor": [
-          ""
+          "B48"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da G20 için tekil kayıtlar var (45.000 km'de su pompası uyarısı, 60 bin km'de park freni arızası, 74.000 km'de diferansiyel uğultusu, 139.000 km'de soğutma sistemi uyarısı); Ekşi Sözlük'te N20 / B47 / B48'in daha az sorunlu sayıldığı, DonanımHaber'de bir G20 sahibinin B48'de kronik sorun yaşamadığı yazılıyor. Motora özgü tekrar eden sorun için iki bağımsız site çıkmadı."
+      "not": "Şikâyetvar'da G20 için tekil kayıtlar var (45.000 km'de su pompası uyarısı, 60 bin km'de park freni arızası, 74.000 km'de diferansiyel uğultusu, 139.000 km'de soğutma sistemi uyarısı); Ekşi Sözlük'te N20 / B47 / B48'in daha az sorunlu sayıldığı, DonanımHaber'de bir G20 sahibinin B48'de kronik sorun yaşamadığı yazılıyor. Motora özgü tekrar eden sorun için iki bağımsız site çıkmadı. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW B48 ailesinin ortak yağ filtresi yuvası ve soğutma kaçağı sorununu gösterir (BIMMERPOST, FCP Euro ve Şikâyetvar'daki G20 320i anlatıları)."
     },
     {
       "marka": "BMW",
       "model": "5 Serisi G30",
       "yillar": "2017-2023",
-      "motor": "520i (B48) / 520d (B47)",
+      "motor": "520i / 530i 2.0 turbo benzin (B48)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "G30"
         ],
         "motor": [
-          ""
+          "B48"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da G30 520i için tekrar eden konular ambiyans aydınlatma kesilmesi, kapı kolu içlerinin erimesi, sunroof perdesi, acil çağrı pili ve multimedya; motor ya da şanzıman için sistematik kayıt yok ve konular tek siteye (Şikâyetvar) ait. DonanımHaber'deki eski bir yazı egzoz ve şanzıman sorunlarını sayıyor ama zayıf bir kaynak."
+      "not": "Şikâyetvar'da G30 520i için tekrar eden konular ambiyans aydınlatma kesilmesi, kapı kolu içlerinin erimesi, sunroof perdesi, acil çağrı pili ve multimedya; motor ya da şanzıman için sistematik kayıt yok ve konular tek siteye (Şikâyetvar) ait. DonanımHaber'deki eski bir yazı egzoz ve şanzıman sorunlarını sayıyor ama zayıf bir kaynak. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW B48 ailesinin ortak yağ filtresi yuvası ve soğutma kaçağı sorununu gösterir (BIMMERPOST, FCP Euro ve Şikâyetvar'daki G20 320i anlatıları). G30 için BIMMERPOST'ta 2017 530i yağ filtresi yuvası kaçağı anlatısı var."
     },
     {
       "marka": "BMW",
       "model": "X3 G01",
       "yillar": "2017-",
-      "motor": "xDrive20d (B47) / xDrive20i (B48) / xDrive30i",
+      "motor": "xDrive20i / xDrive30i 2.0 turbo benzin (B48)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "G01"
         ],
         "motor": [
-          ""
+          "B48"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "G01 için kronik arıza bulan kaynak çıkmadı: Şikâyetvar'da 2018 model acil çağrı pili ve 2020 model geri görüş kamerası gibi tekil kayıtlar var; xDrive servo motor (VTG) anlatısı 2006 model X3'e ait."
+      "not": "G01 için kronik arıza bulan kaynak çıkmadı: Şikâyetvar'da 2018 model acil çağrı pili ve 2020 model geri görüş kamerası gibi tekil kayıtlar var; xDrive servo motor (VTG) anlatısı 2006 model X3'e ait. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW B48 ailesinin ortak yağ filtresi yuvası ve soğutma kaçağı sorununu gösterir (BIMMERPOST, FCP Euro ve Şikâyetvar'daki G20 320i anlatıları)."
     },
     {
       "marka": "BMW",
@@ -7188,19 +7181,17 @@
       "marka": "BMW",
       "model": "4 Serisi F32 / F36",
       "yillar": "2016-2020",
-      "motor": "420i (B48) / 420d (B47)",
+      "motor": "420i 2.0 turbo benzin (B48)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "F32 / F36"
         ],
         "motor": [
-          "B48",
-          "B47"
+          "B48"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Bu oturumdaki aramada 4 Serisi 420d / 420i için triger zinciri ya da motora özgü kayıt çıkmadı; çıkanlar ön cam contası, iç kapı kolu ve soğutma sıvısı gibi tekil ya da model geneli konular. B47 / B48 için ayrı kaynak bulunamadı."
+      "not": "Bu oturumdaki aramada 4 Serisi 420d / 420i için triger zinciri ya da motora özgü kayıt çıkmadı; çıkanlar ön cam contası, iç kapı kolu ve soğutma sıvısı gibi tekil ya da model geneli konular. B47 / B48 için ayrı kaynak bulunamadı. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW B48 ailesinin ortak yağ filtresi yuvası ve soğutma kaçağı sorununu gösterir (BIMMERPOST, FCP Euro ve Şikâyetvar'daki G20 320i anlatıları)."
     },
     {
       "marka": "BMW",
@@ -7291,18 +7282,17 @@
       "marka": "Mini",
       "model": "Countryman F60",
       "yillar": "2017-",
-      "motor": "Cooper / Cooper S 1.5 - 2.0 (B38 / B48)",
+      "motor": "Cooper S 2.0 turbo benzin (B46 / B48)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "F60"
         ],
         "motor": [
-          ""
+          "B46"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "MINI'nin B36 / B38 / B46 / B48 motorlu F60 Countryman'ı için soğuk havada 'karışım çok zengin' (hata 118002) servis bülteni var (NHTSA'daki 2017, 2019 ve 2020 bültenleri: yağ değişimi, erken B36 / B38'de supap kapağı değişimi); bir BMW forumunda B48'de supap kapağı contalarının 60-70 bin civarında sızdırdığı, yağ filtresi yuvası ve soğutma plastiklerinin sorun çıkarabildiği yazılıyor (birim belirtilmemiş, BMW modelleri için). DonanımHaber'de F60'ta 7 ileri ıslak çift kavramalı şanzımanda sorun yaşamayan sahipler var; Şikâyetvar'da 2025 model bir Countryman'da 12.000 km'de motor arızası ve komple motor değişimi anlatılıyor. F60'a özgü, kilometre aralığı verilen ve ikinci kaynakla desteklenen bir sorun çıkmadı."
+      "not": "MINI'nin B36 / B38 / B46 / B48 motorlu F60 Countryman'ı için soğuk havada 'karışım çok zengin' (hata 118002) servis bülteni var (NHTSA'daki 2017, 2019 ve 2020 bültenleri: yağ değişimi, erken B36 / B38'de supap kapağı değişimi); bir BMW forumunda B48'de supap kapağı contalarının 60-70 bin civarında sızdırdığı, yağ filtresi yuvası ve soğutma plastiklerinin sorun çıkarabildiği yazılıyor (birim belirtilmemiş, BMW modelleri için). DonanımHaber'de F60'ta 7 ileri ıslak çift kavramalı şanzımanda sorun yaşamayan sahipler var; Şikâyetvar'da 2025 model bir Countryman'da 12.000 km'de motor arızası ve komple motor değişimi anlatılıyor. F60'a özgü, kilometre aralığı verilen ve ikinci kaynakla desteklenen bir sorun çıkmadı. Faz 14: bu satır BMW B48 ailesinin ortak yağ filtresi yuvası ve soğutma kaçağı sorununu gösterir; Countryman'a özgü kaynak yok."
     },
     {
       "marka": "Mercedes-Benz",
@@ -12819,6 +12809,102 @@
         ]
       },
       "not": "8V 2.0 TDI için modele özgü şikâyet çıkmadı (forumlarda en çok S tronic konuşuluyor). Faz 14: modele özgü kaynak çıkmadı; bu satır VAG 2.0 TDI (EA189 / EA288) ailesinin ortak EGR soğutucusu sorununu gösterir (kaynaklar BRISKODA'da Octavia ve Superb, VWVortex, Audizine ve AudiWorld'de Golf ve Audi, Fiches-Auto.fr, L'argus)."
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi F30",
+      "yillar": "2015-2019",
+      "motor": "320d 2.0 dizel (B47)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "F30"
+        ],
+        "motor": [
+          "B47"
+        ]
+      },
+      "not": "B47 N47'nin sorunlarını büyük ölçüde çözdü diyen kaynaklar çelişkili. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW dizel EGR soğutucusu ortak sorununu (N47 / B47 / N57 geri çağırması) gösterir. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; Şikâyetvar'da Türkiye'den ücretsiz parça değişimi anlatıları var."
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi G20",
+      "yillar": "2019-",
+      "motor": "320d 2.0 dizel (B47)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "G20"
+        ],
+        "motor": [
+          "B47"
+        ]
+      },
+      "not": "G20 320d için motora özgü tekrar eden sorun çıkmadı. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW dizel EGR soğutucusu ortak sorununu (N47 / B47 / N57 geri çağırması) gösterir. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; Şikâyetvar'da Türkiye'den ücretsiz parça değişimi anlatıları var."
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi G30",
+      "yillar": "2017-2023",
+      "motor": "520d 2.0 dizel (B47)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "G30"
+        ],
+        "motor": [
+          "B47"
+        ]
+      },
+      "not": "G30 520d için motora özgü sistematik kayıt çıkmadı. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW dizel EGR soğutucusu ortak sorununu (N47 / B47 / N57 geri çağırması) gösterir. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; Şikâyetvar'da Türkiye'den ücretsiz parça değişimi anlatıları var."
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 G01",
+      "yillar": "2017-",
+      "motor": "xDrive20d 2.0 dizel (B47)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "G01"
+        ],
+        "motor": [
+          "B47"
+        ]
+      },
+      "not": "G01 için kronik arıza bulan kaynak çıkmadı. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW dizel EGR soğutucusu ortak sorununu (N47 / B47 / N57 geri çağırması) gösterir. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; Şikâyetvar'da Türkiye'den ücretsiz parça değişimi anlatıları var."
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi F32 / F36",
+      "yillar": "2016-2020",
+      "motor": "420d 2.0 dizel (B47)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "F32 / F36"
+        ],
+        "motor": [
+          "B47"
+        ]
+      },
+      "not": "420d için ayrı kaynak bulunamadı. Faz 14: modele özgü kaynak çıkmadı; bu satır BMW dizel EGR soğutucusu ortak sorununu (N47 / B47 / N57 geri çağırması) gösterir. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; Şikâyetvar'da Türkiye'den ücretsiz parça değişimi anlatıları var."
+    },
+    {
+      "marka": "Mini",
+      "model": "Countryman F60",
+      "yillar": "2017-",
+      "motor": "Cooper 1.5 üç silindir turbo (B38)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F60"
+        ],
+        "motor": [
+          "B38"
+        ]
+      },
+      "not": "Countryman F60 Cooper için motora özgü kaynak çıkmadı; bu satır BMW B38 ailesinin ortak sorununu gösterir."
     }
   ]
 }

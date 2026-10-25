@@ -59,6 +59,71 @@
       ]
     },
     {
+      "id": "bmw-b48-2-0",
+      "ad": "BMW B48 2.0 turbo benzin (B46 / B48)",
+      "tur": "motor",
+      "aciklama": "BMW'nin 2015'ten beri 1, 2, 3, 4, 5 Serisi, X1 - X4 ve Mini'de kullandığı 2.0 litre dört silindirli turbo benzinli motor (320i, 330i, 420i, 520i, 530i, X1 / X3 20i - 30i, Mini Cooper S 2.0; enine sürümü B46). N20'nin halefidir. Kaynak anlatıları çoğunlukla 3 ve 5 Serisi sahiplerine aittir.",
+      "kronik_sorunlar": [
+        {
+          "id": "yag-filtre-yuvasi-sogutma",
+          "sorun_adi": "Yağ filtresi yuvası çatlağı ve soğutma sıvısı kaçakları",
+          "etkilenen_parca": "Plastik yağ filtresi yuvası ve contaları, soğutma sıvısı bağlantısı, su pompası",
+          "belirtiler": "Soğutma sıvısı eksilmesi, soğutma sistemi uyarısı, yağda soğutma sıvısı izi ya da yağ sıcaklığında yükselme; ileri aşamada aşırı ısınma ve kafa contası hasarı",
+          "tahmini_km_araligi": "60.000 - 120.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "BIMMERPOST'ta F30, G20 ve G30 sahipleri plastik yağ filtresi yuvasının çatladığını ve soğutma sıvısı bağlantısı, su pompası ya da genleşme kabı hattından da kaçak olabildiğini anlatıyor; yuva çoğunlukla 40.000-70.000 mil aralığında anılıyor. Bir parça satıcısı (FCP Euro) 60.000-100.000 mil arasında yuvayı sızdıran contaların ezilip plastiğin ısıyla büküldüğünü yazıyor. Bir G30 sahibi BMW'nin konuda bir servis bülteni çıkardığını ve conta parça numarasının 2023 ortasında değiştiğini aktarıyor. Şikâyetvar'da G20 320i sahipleri 45.000-49.000 km'de su pompası arızası, 139.000 km'de sürekli soğutma sistemi uyarısı bildiriyor. Bazı forum üyeleri arızanın nadir olduğunu, kapağın fazla sıkılmasının sebep olabileceğini savunuyor.",
+            "teshis": "Soğutma sıvısı seviyesinin düşmesi, yağ sıcaklığının yükselmesi ya da yağda soğutma sıvısı izi, gösterge panelinde soğutma sistemi uyarısı. Bir sahipte çatlak yuva tüm soğutma sıvısını boşalttı; bir başkasında aşırı ısınma kafa contasını yaktı (tekil anlatılar). Kullanıcılar basınç testi ile yuva, flanş ve soğutma bağlantılarının kontrolünü öneriyor.",
+            "cozum": "Yağ filtresi yuvası ve contaları yenileniyor; sahipler çoğu zaman soğutma sıvısı bağlantısını, su pompasını ve genleşme kabı hava hattını da birlikte değiştiriyor. Bazı sahipler FCP Euro'dan alüminyum yuva kullandığını yazıyor (uzun süreli sonucu yok).",
+            "maliyet": "Güncel Türkiye fiyatı bulunamadı; yetkili servisten yazılı teklif alın.",
+            "onlem": "60.000 mil (yaklaşık 100.000 km) civarında yuva, bağlantı ve soğutma hattını kontrol ettirmek, soğutma sıvısı seviyesini izlemek ve yağ filtresi kapağını tork değerinde sıkmak (forum önerisi). Kilometre aralığı, forumlardaki 40.000-70.000 mil (yaklaşık 64.000-113.000 km) ve Şikâyetvar'daki 45.000-139.000 km anlatılarından kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://f30.bimmerpost.com/forums/showthread.php?t=1839119",
+            "https://g30.bimmerpost.com/forums/showthread.php?t=2051536",
+            "https://f30.bimmerpost.com/forums/showthread.php?t=2239585",
+            "https://f22.bimmerpost.com/forums/showthread/2185555/b46-b48-oil-filter-housing-coolant-leak-pictures-confirmation",
+            "https://g20.bimmerpost.com/forums/showthread.php?t=2216350",
+            "https://www.fcpeuro.com/BMW-parts/b58-engine",
+            "https://www.sikayetvar.com/bmw/bmw-320i-sogutma-sistemi-arizasi-ve-yetkili-servis-sorunu",
+            "https://www.sikayetvar.com/bmw/320/sogutma-sivisi",
+            "https://www.sikayetvar.com/bmw/320/su-kacagi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bmw-dizel-egr-sogutucu",
+      "ad": "BMW dizel EGR soğutucusu (N47 / B47 / N57)",
+      "tur": "sistem",
+      "aciklama": "BMW'nin 4 silindirli (N47, B47) ve 6 silindirli (N57) dizel motorlarında EGR soğutucusu: iç sızıntı, soğutma sıvısı kaybı ve nadir durumlarda emme manifoldu erimesi ve yangın riski nedeniyle 2018'den beri süren geri çağırma / teknik kampanya. 1, 2, 3, 4, 5 ve 7 Serisi, X1, X3, X4, X5 ve X6 dizel sürümleri.",
+      "kronik_sorunlar": [
+        {
+          "id": "egr-sogutucu-sizintisi",
+          "sorun_adi": "EGR soğutucusu iç sızıntısı (soğutma sıvısı kaybı, yangın riski, geri çağırma)",
+          "etkilenen_parca": "EGR soğutucusu, emme manifoldu, soğutma sistemi",
+          "belirtiler": "Soğutma sıvısı kaybı uyarısı, motor gücünde azalma, egzoz gazı kokusu, motor bölümünden ses ya da duman; çok nadir durumlarda emme manifoldunun erimesi ve yangın",
+          "tahmini_km_araligi": "60.000 - 180.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "NHTSA geri çağırma kayıtlarına göre zamanla EGR soğutucusunda iç sızıntı başlayabiliyor; soğutma sıvısı kurumla karışıyor, çok nadir durumlarda emme manifoldunun erimesine, son derece nadir durumlarda yangına yol açabiliyor. BMW Group bu konuda 2018'den itibaren teknik kampanya yürüttü ve kampanyayı genişletti (BMW basın duyurusu); sonraki geri çağırmalar daha geç üretim tarihlerini de kapsıyor (NHTSA 22V614, 25V700). Etkilenen motorlar N47 ve B47 (4 silindir) ile N57 (6 silindir) dizel olarak anılıyor. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; ancak Şikâyetvar'da Türkiye'den sahipler EGR soğutucusu için ücretsiz geri çağırma kapsamında parça değişimi aldıklarını yazıyor.",
+            "teshis": "Gösterge panelinde soğutma sıvısı kaybı uyarısı, motor gücünde azalma, egzoz gazı kokusu, motor bölümünden alışılmadık ses ya da duman (NHTSA kayıtları, Consumer Reports). Şasi numarasıyla BMW kampanya sorgusu yapılması gerekir.",
+            "cozum": "Kampanyada EGR soğutucusu yenileniyor. Şikâyetvar'da 2012 model bir 116d sahibi parçaların 4 Ocak 2024'te ücretsiz geri çağırma kapsamında değiştirildiğini, arızanın tekrar ettiğini ve kalıcı çözüm istediğini yazıyor; başka bir sahip N47 EGR valfi için gönüllü geri çağırma başvurusuna yanıt alamadığını anlatıyor.",
+            "maliyet": "Kampanya kapsamındaki araçlarda ücretsiz. Kapsam dışı kalan araçlar için güncel Türkiye fiyatı bulunamadı.",
+            "onlem": "İkinci elde şasi numarasıyla BMW yetkili servisinde kampanya sorgusu yaptırmak ve EGR soğutucusunun değiştirilip değiştirilmediğine dair servis kaydı istemek; soğutma sıvısı seviyesini kontrol etmek. Kampanya kilometreye bağlı olmadığından kilometre aralığı etkilenen araçların yaşına göre kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://static.nhtsa.gov/odi/rcl/2022/RCLRPT-22V614-6498.PDF",
+            "https://static.nhtsa.gov/odi/rcl/2025/RCLRPT-25V700-0908.pdf",
+            "https://www.consumerreports.org/car-recalls-defects/bmw-recalls-diesel-cars-and-suvs-for-fire-risk",
+            "https://www.press.bmwgroup.com/global/article/detail/T0286151EN/bmw-group-expands-technical-campaign",
+            "https://www.sikayetvar.com/bmw/bmw-116ed-egr-sogutucu-arizasi-tekrar-ediyor-ucretsiz-geri-cagirma-kapsaminda-kalici-cozum-talebi",
+            "https://www.sikayetvar.com/bmw/bmw-n47-egr-valfi-sorunu-icin-gonullu-geri-cagirma-cevabi-alinamadi"
+          ]
+        }
+      ]
+    },
+    {
       "id": "bmw-n13",
       "ad": "BMW N13 1.6 turbo benzin (116i / 118i / 316i)",
       "tur": "motor",
@@ -3768,6 +3833,7 @@
         }
       ],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-n47"
       ]
     },
@@ -3957,6 +4023,20 @@
     {
       "marka": "BMW",
       "model": "1 Serisi (F20, 2011-2019)",
+      "motor": "118d 2.0 dizel (N47D20 / B47)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-dizel-egr-sogutucu",
+        "bmw-n47"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi (F20, 2011-2019)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
         "baslangic": 2011,
@@ -4075,6 +4155,7 @@
         }
       ],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-n47"
       ]
     },
@@ -4089,6 +4170,32 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi (F30 LCI, 2015-2019)",
+      "motor": "320d 2.0 dizel (B47)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-dizel-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi (F30 LCI, 2015-2019)",
+      "motor": "320i / 330i 2.0 turbo benzin (B48)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b48-2-0"
       ]
     },
     {
@@ -4240,6 +4347,32 @@
     {
       "marka": "BMW",
       "model": "3 Serisi (G20, 2019-)",
+      "motor": "320d 2.0 dizel (B47)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-dizel-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi (G20, 2019-)",
+      "motor": "320i / 330i 2.0 turbo benzin (B48)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b48-2-0"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi (G20, 2019-)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
         "baslangic": 2019,
@@ -4278,6 +4411,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-n47"
       ]
     },
@@ -4305,6 +4439,32 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi (F32 / F36, 2016-2020)",
+      "motor": "420d 2.0 dizel (B47)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-dizel-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi (F32 / F36, 2016-2020)",
+      "motor": "420i 2.0 turbo benzin (B48)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b48-2-0"
       ]
     },
     {
@@ -4347,6 +4507,7 @@
         }
       ],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-n47"
       ]
     },
@@ -4391,6 +4552,45 @@
     },
     {
       "marka": "BMW",
+      "model": "5 Serisi (F10, 2015-2017)",
+      "motor": "520d 2.0 dizel (B47)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-dizel-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi (G30, 2017-2023)",
+      "motor": "520d 2.0 dizel (B47)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-dizel-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi (G30, 2017-2023)",
+      "motor": "520i / 530i 2.0 turbo benzin (B48)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b48-2-0"
+      ]
+    },
+    {
+      "marka": "BMW",
       "model": "5 Serisi (G30, 2017-2023)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
@@ -4427,6 +4627,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-n57"
       ]
     },
@@ -4440,6 +4641,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-n47",
         "bmw-xdrive-aktarma"
       ]
@@ -4522,6 +4724,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-xdrive-aktarma"
       ]
     },
@@ -4535,6 +4738,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-n47",
         "bmw-xdrive-aktarma"
       ]
@@ -4549,6 +4753,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-n57",
         "bmw-xdrive-aktarma"
       ]
@@ -4569,6 +4774,32 @@
     },
     {
       "marka": "BMW",
+      "model": "X3 (G01, 2017-)",
+      "motor": "xDrive20d 2.0 dizel (B47)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-dizel-egr-sogutucu"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 (G01, 2017-)",
+      "motor": "xDrive20i / xDrive30i 2.0 turbo benzin (B48)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b48-2-0"
+      ]
+    },
+    {
+      "marka": "BMW",
       "model": "X4 (F26, 2014-2018)",
       "motor": "xDrive20d 2.0 dizel (B47)",
       "uretim_yillari": {
@@ -4577,6 +4808,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-xdrive-aktarma"
       ]
     },
@@ -4590,6 +4822,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-n57",
         "bmw-xdrive-aktarma"
       ]
@@ -4644,6 +4877,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-n57",
         "bmw-xdrive-aktarma"
       ]
@@ -4671,6 +4905,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "bmw-dizel-egr-sogutucu",
         "bmw-n57",
         "bmw-xdrive-aktarma"
       ]
@@ -10098,6 +10333,32 @@
       ],
       "aileler": [
         "psa-thp-ep6"
+      ]
+    },
+    {
+      "marka": "Mini",
+      "model": "Countryman (F60, 2017-)",
+      "motor": "Cooper 1.5 üç silindir turbo (B38)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "Mini",
+      "model": "Countryman (F60, 2017-)",
+      "motor": "Cooper S 2.0 turbo benzin (B46 / B48)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b48-2-0"
       ]
     },
     {
