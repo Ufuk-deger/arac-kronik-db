@@ -2374,6 +2374,66 @@
       ]
     },
     {
+      "id": "toyota-hsd-hibrit",
+      "ad": "Toyota hibrit sistemi (HSD): 12V akü ve yüksek voltlu batarya",
+      "tur": "sistem",
+      "aciklama": "Toyota'nın Hybrid Synergy Drive (HSD) hibrit sistemi: 1.5 (Yaris), 1.8 (Auris, Corolla, C-HR) ve 2.5 litre (RAV4) benzinli motor, elektrik motorları, yüksek voltlu batarya ve 12V yardımcı akü. Yaris Hybrid, Yaris Cross, Auris Hybrid, Corolla Hybrid, C-HR Hybrid ve RAV4 Hybrid. Plug-in sürümler ve Lexus bu ailenin dışındadır.",
+      "kronik_sorunlar": [
+        {
+          "id": "aku-12v-hibrit-uyarisi",
+          "sorun_adi": "12V yardımcı akü boşalması ve 'Hibrit sistem arızası' uyarısı",
+          "etkilenen_parca": "12V yardımcı akü, DC-DC dönüştürücü, hibrit kontrol ünitesi",
+          "belirtiler": "Araç park halinde birkaç gün kaldıktan sonra tepki vermiyor; 'Hibrit sistem arızası', PCS / LDA gibi uyarılar; akü şarjından sonra hibrit sistemin başlamaması",
+          "tahmini_km_araligi": "10.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Toyota'nın NHTSA'da yayımlanan servis bültenleri (T-SB-0006-19 Rev2, T-SB-0040-20 Rev1) hibrit araçlarda 12V yardımcı akünün saklama öncesi en az 12,6 V'a şarj edilmesini ve akü şarjından sonra hibrit sistemin çalışmayabileceğini (yeniden başlatma prosedürü gerekir) yazıyor. Toyota Owners Club'da Yaris, Corolla, C-HR ve RAV4 sahipleri 'Hybrid System Malfunction' mesajlarını çoğunlukla zayıf ya da boşalmış 12V akü, kısa yolculuklar ve uzun süre kullanılmama ile ilişkilendiriyor. Şikâyetvar'da Türkiye'den sahipler 2021 model Corolla'da 3,5 yılda ikinci akü boşalması, 2023 model Yaris Cross Hybrid'de yaklaşık 12.000 km'de akü sorunu, 2025 model C-HR'da 14 ayda iki kez akü boşalması ve 2018 model C-HR'da PCS / LDA uyarıları için akü değişimi anlatıyor.",
+            "teshis": "Araç park halinde birkaç gün kaldıktan sonra tepki vermiyor; 'Hibrit sistem arızası' uyarısı belirip kayboluyor; arıza hafızasında hibrit akü kaydı olabiliyor (bir 2020 C-HR sahibi 90.000 km bakımında geçmişe dönük kayıt görmüş). Toyota Owners Club'da bir Corolla sahibi uyarıların 12V akü toprak ucundaki korozyon giderilince kesildiğini yazıyor; akü uçlarını ve toprak bağlantılarını kontrol etmek ilk adım olarak öneriliyor.",
+            "cozum": "12V akünün şarj edilmesi ve gerekirse yenilenmesi; bazı sahipler daha yüksek kapasiteli akü takıyor (resmî görüş değil). Araç uzun süre kullanılmayacaksa Toyota bülteni aküyü şarj etmeyi öneriyor. Şikâyetvar'da bir sahipte servis, hibrit bataryanın şarj tutmaması şikâyetine önce 12V akü değişimini önermiş ve sorun sürmüş.",
+            "maliyet": "Güncel Türkiye fiyatı bulunamadı; Yaris Cross sahibi 3 yıl akü garantisi olmasına rağmen garanti incelemesi talep ediyor.",
+            "onlem": "Kısa mesafe kullanımı ağırlıkta olan ya da uzun süre park edilen araçlarda 12V aküyü periyodik kontrol ettirmek; ikinci elde akü değişim geçmişini sormak. Kilometre aralığı yaşa ve kullanıma bağlıdır; yalnızca birkaç Türkiye vakasından (yaklaşık 12.000 km ve 14-42 ay) kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/hibrit-batarya-sorunu-ve-yetersiz-servis-destegi",
+            "https://www.sikayetvar.com/toyota/c-hr-hybrid",
+            "https://www.sikayetvar.com/toyota/toyota-chr-hibrid-sistem-arizasi-tekrar-ediyor-magduriyet-yasamak-istemiyorum",
+            "https://www.sikayetvar.com/toyota/aku",
+            "https://www.sikayetvar.com/toyota/yaris-hybrid",
+            "https://www.toyotaownersclub.com/forums/topic/197760-yaris-hybrid-hybrid-system-malfunction/",
+            "https://www.toyotaownersclub.com/forums/topic/216765-battery-problem-with-toyota-corolla-tourer-hybrid/",
+            "https://www.toyotaownersclub.com/forums/topic/200992-problem-with-12v-battery-on-rav4-hybrid/",
+            "https://www.toyotaownersclub.com/forums/topic/218845-hybrid-system-malfunction/",
+            "https://static.nhtsa.gov/odi/tsbs/2020/MC-10171448-9999.pdf",
+            "https://static.nhtsa.gov/odi/tsbs/2020/MC-10177586-9999.pdf"
+          ]
+        },
+        {
+          "id": "hv-batarya-omru",
+          "sorun_adi": "Yüksek voltlu hibrit bataryanın kapasite kaybı ve arızası (eski Yaris / Auris Hybrid)",
+          "etkilenen_parca": "Yüksek voltlu hibrit batarya paketi",
+          "belirtiler": "Hibrit sistem uyarısı, bataryanın şarj tutmaması, yakıt tüketiminin belirgin artması, hibrit sistemin devre dışı kalması",
+          "tahmini_km_araligi": "100.000 - 200.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar'da 2013-2015 model Yaris Hybrid sahipleri bataryanın 100-150 bin km civarında sorun çıkardığını, 2015 model bir araçta 120 bin km'de ve 10 yıl dolmadan öldüğünü yazıyor; DonanımHaber'de bir sahip 2014 civarı bir araçta 105 bin km'de batarya arızası bildiriyor ve bir kullanıcı İstanbul koşullarında ömrü 5-7 yıl tahmin ediyor (tahmin). Toyota Owners Club'da bir Auris Hybrid sahibi bataryanın 147.000 milde (yaklaşık 237.000 km) erken arızalandığını yazıyor; sahipler genel olarak paketlerin 10 yıl ya da 200.000 mil dolayında dayandığını, ısı ve uzun süre kullanılmamanın ömrü kısalttığını söylüyor. Bazı kullanıcılar 400.000 km'yi aşan ve sorunsuz araçlardan söz ediyor.",
+            "teshis": "Hibrit sistem uyarısı, bataryanın şarj tutmaması ve yakıt tüketiminin belirgin artması (Şikâyetvar'da bir sahipte yaklaşık 4'ten 6 L/100 km'ye). Toyota hibrit arıza kodları batarya değişimi gerektiğini gösterebiliyor (Toyota Owners Club). 12V akü sorunu yüksek voltlu bataryayla karıştırılmamalı.",
+            "cozum": "Batarya paketinin ya da bozuk hücre / modülün değiştirilmesi; yeni ya da onarılmış paket seçenekleri var.",
+            "maliyet": "Rakamlar farklı tarih ve ülkelerden, güncel değil: Şikâyetvar'da 2015 Yaris için yaklaşık 90 bin TL, DonanımHaber'de eski tarihli yaklaşık 11.900-13.000 TL, Toyota Owners Club'da yeni paket için yaklaşık 2.000 sterlin ve tek hücre onarımı için 500 doların altında bir tutar anılıyor. Garantisi dışında kalan Yaris Hybrid için servisten 19.000 TL onarım bedeli istendiği de yazılmış.",
+            "onlem": "İkinci elde, özellikle 2013-2016 Yaris / Auris Hybrid'de batarya sağlık kontrolü ve hibrit arıza kayıtlarını istemek; hibrit batarya garanti koşullarını bayiden yazılı almak. Kilometre aralığı Şikâyetvar ve DonanımHaber'deki 105.000-150.000 km vakalarından kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/yaris-hybrid/hybrid",
+            "https://www.sikayetvar.com/toyota/toyota-turkiye-den-hybrid-arac-aldim-magdur-oldum",
+            "https://forum.donanimhaber.com/yaris-hybrit-batarya-fiyati--106640853",
+            "https://forum.donanimhaber.com/hibrit-arac-bataryalari-ile-sorun-yasayan-var-mi--141907789",
+            "https://www.toyotaownersclub.com/forums/topic/219722-hybrid-battery-failed-too-early-147k-miles/",
+            "https://www.toyotaownersclub.com/forums/topic/204872-hybrid-battery-failure/",
+            "https://www.honestjohn.co.uk/forum/post/120846/toyota-prius-auris"
+          ]
+        }
+      ]
+    },
+    {
       "id": "toyota-m15a-fks",
       "ad": "Toyota M15A-FKS 1.5 Dynamic Force (benzin)",
       "tur": "motor",
@@ -15771,6 +15831,32 @@
     },
     {
       "marka": "Toyota",
+      "model": "Auris (E180, 2013-2018)",
+      "motor": "1.8 Hybrid (2ZR-FXE)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-hsd-hibrit"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "C-HR (2016-)",
+      "motor": "1.8 Hybrid (2ZR-FXE)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-hsd-hibrit"
+      ]
+    },
+    {
+      "marka": "Toyota",
       "model": "Corolla (E150 FL / E170, 2009-2018)",
       "motor": "1.33 Dual VVT-i 99",
       "uretim_yillari": {
@@ -15934,6 +16020,19 @@
     {
       "marka": "Toyota",
       "model": "Corolla (E210, 2019-)",
+      "motor": "1.8 Hybrid (2ZR-FXE)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-hsd-hibrit"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla (E210, 2019-)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
         "baslangic": 2019,
@@ -16017,6 +16116,19 @@
     },
     {
       "marka": "Toyota",
+      "model": "RAV4 (XA50, 2019-)",
+      "motor": "2.5 Hybrid (A25A-FXS)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-hsd-hibrit"
+      ]
+    },
+    {
+      "marka": "Toyota",
       "model": "Yaris (XP130, 2011-2020)",
       "motor": "1.33 Dual VVT-i 99 (1NR-FE)",
       "uretim_yillari": {
@@ -16043,6 +16155,19 @@
     },
     {
       "marka": "Toyota",
+      "model": "Yaris (XP130, 2011-2020)",
+      "motor": "1.5 Hybrid (1NZ-FXE)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-hsd-hibrit"
+      ]
+    },
+    {
+      "marka": "Toyota",
       "model": "Yaris (XP210, 2020-)",
       "motor": "1.5 Dynamic Force 125 (M15A-FKS)",
       "uretim_yillari": {
@@ -16052,6 +16177,32 @@
       "kronik_sorunlar": [],
       "aileler": [
         "toyota-m15a-fks"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Yaris (XP210, 2020-)",
+      "motor": "1.5 Hybrid (M15A-FXE)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-hsd-hibrit"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Yaris Cross (2021-)",
+      "motor": "1.5 Hybrid (M15A-FXE)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-hsd-hibrit"
       ]
     },
     {

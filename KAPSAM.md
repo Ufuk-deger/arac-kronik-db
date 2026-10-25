@@ -27,20 +27,20 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **648** model/motor grubu (motor ve şanzıman düzeyi)
+- Plan: **652** model/motor grubu (motor ve şanzıman düzeyi)
 - Tamamlanan (✓, modele özgü kaynaklı sorun var): **172**
-- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **229**
-- Araştırılıp eklenmeyen (–): **247**
+- Yalnızca ortak aile kaynağıyla kayıtlı (◐): **236**
+- Araştırılıp eklenmeyen (–): **244**
 - Sırada (○): **0**
 - Kademe 1: **129/129** işlendi (✓, ◐ ya da –)
-- Model geneli taraması: **155** model nesli arandı (sorun bulunan ✓ **77**, kanıt yetersiz – **78**); 434 motor kaydından **181**'i taranmış bir modele ait, **253**'i henüz taranmadı
-- Veritabanı: **511** kayıt (**434** motor, **77** model geneli), **353** kayda özgü kronik sorun, **60** motor/şanzıman ailesi (**95** ortak sorun)
+- Model geneli taraması: **155** model nesli arandı (sorun bulunan ✓ **77**, kanıt yetersiz – **78**); 441 motor kaydından **183**'i taranmış bir modele ait, **258**'i henüz taranmadı
+- Veritabanı: **518** kayıt (**441** motor, **77** model geneli), **353** kayda özgü kronik sorun, **61** motor/şanzıman ailesi (**97** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Renault | 40 | 15 | 10 | 15 | 0 | 8/8 | 6 / 4 |
 | Volkswagen | 51 | 18 | 20 | 13 | 0 | 13/13 | 4 / 9 |
-| Toyota | 24 | 5 | 7 | 12 | 0 | 6/6 | 1 / 3 |
+| Toyota | 28 | 5 | 14 | 9 | 0 | 6/6 | 1 / 3 |
 | Fiat | 28 | 11 | 6 | 11 | 0 | 5/5 | 6 / 2 |
 | Hyundai | 38 | 11 | 11 | 16 | 0 | 13/13 | 2 / 5 |
 | Peugeot | 22 | 10 | 6 | 6 | 0 | 5/5 | 4 / 4 |
@@ -275,11 +275,11 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | Kademe | Model | Yıllar | Motor grubu | Durum |
 | :---: | --- | --- | --- | --- |
 | 1 | C-HR | 2016- | 1.2 Turbo (8NR-FTS) | – eklenmedi: Yağ yakma ve şanzıman anıları motor tipi belirtilmeden, tek tek vaka; iki bağımsız site bulunamadı. |
-| 1 | C-HR | 2016- | 1.8 Hybrid (2ZR-FXE) | – eklenmedi: Hibrit sistem uyarısı dışında tekrar eden mekanik sorun bulunamadı. |
+| 1 | C-HR | 2016- | 1.8 Hybrid (2ZR-FXE) | ◐ 2 ortak aile sorunu — Hibrit sistem uyarısı dışında tekrar eden mekanik sorun bulunamadı. Şikâyetvar'da 2018, 2020 ve 2025 model C-HR için hibrit sistem arızası uyarısı ve akü boşalması kayıtları var (kilometre bilgisi dağınık). Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri). |
 | 1 | Corolla E150 FL / E170 | 2009-2018 | 1.33 Dual VVT-i 99 | ✓ 1 sorun |
 | 1 | Corolla E170 / E210 | 2013- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da multimedya ekranında nikelaj kabarması (2021), USB için FAT32 / 32 GB sınırı, yazılım güncellenmemesi (2020), klima kompresörü (2021, tek vaka), 2021 modelde akü sorunu ve stop lambası içi çatlak tekil; DonanımHaber'de ise genel multimedya başlığı var. Şikâyetvar'daki kronik boya sorunu 2010-2013 (E140 / E150) modellere ait. E170 / E210'a özgü iki bağımsız site çıkmadı. Corolla E210'un CarPlay / Bluetooth ses sorunu ve kendiliğinden kapanma şikâyetleri ayrı satırda (✓). |
 | 1 | Corolla E210 | 2019- | 1.5 Dynamic Force (M15A-FKS) | ✓ 1 sorun, 1 yıl kırılımı |
-| 1 | Corolla E210 | 2019- | 1.8 Hybrid (2ZR-FXE) | – eklenmedi: Şikâyetler ses yalıtımı, fren diski paslanması ve 12V akü gibi mekanik olmayan konularda; tekrar eden mekanik sorun bulunamadı. |
+| 1 | Corolla E210 | 2019- | 1.8 Hybrid (2ZR-FXE) | ◐ 2 ortak aile sorunu — Şikâyetler ses yalıtımı, fren diski paslanması ve 12V akü gibi mekanik olmayan konularda; tekrar eden mekanik sorun bulunamadı. Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri). |
 | 1 | Corolla E210 | 2019- | Tüm motorlar (model geneli) | ✓ 1 sorun — Şikâyetvar'da yalıtım / rüzgar sesi (2023-2024 model, 'tüm modellerde kronik' denmiş) ve kapı-cam sesleri tekrar ediyor; DonanımHaber'daki rüzgar sesi tartışmaları genel kalıyor, ikinci site çıkmadığı için ayrı sorun olarak yazılmadı. |
 | 1 | Yaris XP130 | 2011-2020 | 1.33 Dual VVT-i 99 (1NR-FE) | ◐ 1 ortak aile sorunu — Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı. Gösterilen yağ tüketimi Corolla E150 FL / E170 (1.33) kaydına dayanır. |
 | 2 | Auris | 2013-2018 | 1.6 (benzinli) | – eklenmedi: Auris 1.6 benzinli için kaynak yok. |
@@ -288,11 +288,15 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | C-HR | 2016- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da 2025 model C-HR'da ve Passion donanımlı bir araçta üçüncü ayda ön camın darbe olmadan çatlaması (garanti / kasko ve cam tedarik gecikmeleri) tekrar ediyor; Honest John ve CarComplaints'te ise erken 2017 model C-HR'larda ön cam çatlaması bildiriliyor. Türkçe kayıtların hangi nesle ait olduğu net olmadığından (2025 model ikinci nesil) aynı model geneli sorun olarak yazılmadı. |
 | 2 | Corolla E170 | 2013-2018 | 1.4 D-4D 90 (1ND-TV) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — Aramalar E150 ve E170 ayrımı yapmıyor; turbo ve DPF anıları dağınık. Gösterilen yağ tüketimi ve enjektör sorunları aynı 1ND-TV motorunu kullanan Corolla E150 ve Auris kayıtlarına dayanır. |
 | 2 | Corolla E170 | 2013-2018 | 1.6 Valvematic (Multidrive S) | – eklenmedi: Şikâyet sitelerinde 1.6 Valvematic ve Multidrive S için tekrar eden bir sorun kümesi bulunamadı. |
+| 2 | RAV4 XA50 | 2019- | 2.5 Hybrid (A25A-FXS) | ◐ 2 ortak aile sorunu — RAV4 Hybrid için Şikâyetvar'da kayıt çıkmadı; Toyota Owners Club'da RAV4 sahipleri 12V akü ve hibrit sistem uyarısı anlatıyor. Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri). |
 | 2 | Verso | 2009-2018 | 1.6 D-4D / 1.8 Valvematic | – eklenmedi: Şikâyetvar'da 1.6 D-4D için krank kasnağının kırılması (yolda kalma, yaklaşık 4.500 TL onarım ve garanti reddi) iki ayrı kullanıcıda geçiyor; bir forumda Toyota Türkiye'nin 1.6 dizel iddialarını doğrulamadığı yazılıyor. 1.8 Valvematic / Multidrive için çıkan şikâyetler 2004-2007 MMT'li Verso'lara ait. Kilometre bilgisi ve ikinci bağımsız doğrulama yetersiz olduğundan kayıt açılmadı. |
-| 2 | Yaris | 2011-2019 | 1.5 Hybrid | – eklenmedi: Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı. |
+| 2 | Yaris Cross | 2021- | 1.5 Hybrid (M15A-FXE) | ◐ 2 ortak aile sorunu — Şikâyetvar'da 2023 model bir Yaris Cross Hybrid'de yaklaşık 12.000 km'de 12V akü sorunu ve 3 yıl akü garantisine rağmen inceleme talebi geçiyor. Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri). |
+| 2 | Yaris XP130 | 2011-2019 | 1.5 Hybrid (1NZ-FXE) | ◐ 2 ortak aile sorunu — Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı. Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri). |
 | 2 | Yaris XP130 | 2011-2020 | 1.4 D-4D 90 (1ND-TV) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — Yaris 1.4 D-4D'ye özgü kaynak aranmadı; gösterilen yağ tüketimi ve enjektör sorunları Corolla E150 ve Auris (1ND-TV) kayıtlarına dayanır. |
 | 2 | Yaris XP210 | 2020- | 1.5 Dynamic Force 125 (M15A-FKS) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — Yaris XP210 benzinli 1.5'e özgü kaynak aranmadı; şikâyetler çoğunlukla hibrit akü ve garanti konularında. Gösterilen krank ve biyel yatağı sarması aynı M15A-FKS motorunu kullanan Corolla E210 kaydına dayanır. |
+| 2 | Yaris XP210 | 2020- | 1.5 Hybrid (M15A-FXE) | ◐ 2 ortak aile sorunu — Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri). |
 | 3 | Auris | 2007-2018 | 1.4 D-4D (1ND-TV) | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
+| 3 | Auris E180 | 2013-2018 | 1.8 Hybrid (2ZR-FXE) | ◐ 2 ortak aile sorunu — Toyota Owners Club'da bir Auris Hybrid sahibi bataryanın 147.000 milde erken arızalandığını yazıyor. Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri). |
 | 3 | Avensis | 2011-2018 | 2.0 D-4D | – eklenmedi: Avensis 2.0 D-4D için güvenilir bir kronik sorun listesi çıkmadı; yalnızca tekil şikâyetler. |
 | 3 | Aygo | 2014-2021 | 1.0 VVT-i 72 (1KR-FE) | – eklenmedi: Türkçe sitelerde Aygo'ya özgü şikâyet çıkmadı: DonanımHaber'de ADAC arıza istatistiklerini yorumlayan başlık Aygo'yu on yaşındaki araçlar arasında en sorunsuzlardan biri sayıyor ve 1.0 benzinli 1KR-FE motorun Citroën C1 ve Peugeot 107 ile ortak olduğunu yazıyor. Toyota Owners Club'ta (Aygo & Aygo X bölümü) 2014 sonrası Aygo'da kavrama arızası (35.000 milde; 42.000 milde patinaj, bayi aktüatör ya da ECU'yu da suçlamış, garanti dışı) ve otomatikleştirilmiş şanzımanın (MMT / x-shift) aktüatör arızası başlıkları var; Parkers ilk nesil rehberi bu şanzımanı 'çok karmaşık' diye anıyor. Türkçe ikinci site ve 2014 sonrası nesle eşleşen ikinci bir yabancı site çıkmadığı için kayıt açılmadı; Aygo'nun Türkiye'de otomatikleştirilmiş şanzımanla satılıp satılmadığı da doğrulanmadı. |
 | 3 | Corolla E150 | 2007-2013 | 1.4 D-4D (1ND-TV) | ✓ 2 sorun, 1 yıl kırılımı |
@@ -301,7 +305,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Proace | 2013-2020 | 1.6 D-4D (DV6) | ◐ 3 ortak aile sorunu — Proace'a özgü kaynak çıkmadı (Honest John'da Proace'ın PSA tabanlı olduğu belirtiliyor); 1.6 D-4D, PSA DV6 ailesine bağlandı. |
 | 3 | Proace | 2013- | 2.0 D-4D | – eklenmedi: Şikâyetvar'da 2.0 D-4D'li Proace için şikâyet çıkmadı; Honest John'da bir sahip 2.0 dizelde DPF için fazla kaygı olmadığını, başka bir araçta ise DPF'in rejenere olmayıp EOLYS katkı sıvısı eklenmesi gerektiğini yazıyor (tekil). Kilometre aralığı verilen bir sorun çıkmadı. |
 | 3 | Proace City | 2019- | 1.5 D-4D (BlueHDi DV5) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Şikâyetvar'da Proace City 1.5 için AdBlue arızasının tekrarlaması, 2021 modelde enjektör altı pul sızıntısı, DPF arızası ve 54.000 km'de motor arızası tekil olarak anlatılıyor; motor PSA DV5 olduğundan 1.5 BlueHDi (DV5) ve AdBlue ailelerine bağlandı. |
-| 3 | RAV4 / Hilux | 2013- | 2.0 / 2.5 Hybrid / 2.4 D-4D | – eklenmedi: RAV4 için sistematik sorun çıkmadı; Hilux 2.4 DPF / PCS arıza şikâyetleri yalnızca Şikâyetvar'da (ikinci bağımsız kaynak yok). |
+| 3 | RAV4 / Hilux | 2013- | RAV4 XA40 2.0 / Hilux 2.4 D-4D | – eklenmedi: RAV4 için sistematik sorun çıkmadı; Hilux 2.4 DPF / PCS arıza şikâyetleri yalnızca Şikâyetvar'da (ikinci bağımsız kaynak yok). |
 
 ### Fiat
 

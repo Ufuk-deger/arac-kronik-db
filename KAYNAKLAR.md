@@ -48,8 +48,8 @@ Toplam 86 farklı site, 353 sorun için kullanıldı.
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 330 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
-| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 316 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
+| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 331 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
+| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 318 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
 | [Araclo](https://www.araclo.com/) | TR | düşük | 141 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
 | [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 136 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
 | [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 96 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
@@ -67,7 +67,7 @@ Toplam 86 farklı site, 353 sorun için kullanıldı.
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [NHTSA (ABD)](https://www.nhtsa.gov/) | US | yüksek | 16 | Resmî geri çağırma, servis bülteni (TSB) ve şikâyet kayıtları. |
+| [NHTSA (ABD)](https://www.nhtsa.gov/) | US | yüksek | 17 | Resmî geri çağırma, servis bülteni (TSB) ve şikâyet kayıtları. |
 | [Volkswagen Yeni Zelanda](https://www.volkswagen.co.nz/) | NZ | yüksek | 10 | Üretici kampanya sayfası (DQ200 mekatronik ünitesi, kampanya 35E5). Yeni Zelanda pazarı için yayımlanmış; Türkiye'de geçerliliği ayrıca doğrulanmalı. |
 | [ClassAction.org](https://www.classaction.org/) | US | orta | 4 | Toplu dava haberleri. Dava iddiaları kanıtlanmış kusur anlamına gelmez. |
 | [OCU (İspanya)](https://www.ocu.org/) | ES | orta | 3 | İspanyol tüketici örgütünün Renault motoru için toplu başvuru sayfası. |
@@ -81,7 +81,7 @@ Toplam 86 farklı site, 353 sorun için kullanıldı.
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [Honest John](https://www.honestjohn.co.uk/) | UK | orta | 29 | Forum ve editör yanıtları ('Ask HJ'). Forum yazıları çoğunlukla 10 yıldan eski olabiliyor. |
+| [Honest John](https://www.honestjohn.co.uk/) | UK | orta | 30 | Forum ve editör yanıtları ('Ask HJ'). Forum yazıları çoğunlukla 10 yıldan eski olabiliyor. |
 | [Fiat Forum](https://www.fiatforum.com/) | UK | orta | 20 | Fiat sahipleri forumu (Dualogic, Multijet, Tipo). |
 | [French Car Forum](https://www.frenchcarforum.co.uk/) | UK | orta | 17 | Peugeot, Citroën ve Renault forumu. |
 | [Bimmerpost](https://f30.bimmerpost.com/) | US | orta | 16 | BMW F30 ve diğer kasa forumları. |
@@ -92,6 +92,7 @@ Toplam 86 farklı site, 353 sorun için kullanıldı.
 | [AudiWorld](https://www.audiworld.com/) | US | orta | 9 | Audi forumu ve rehber yazıları. |
 | [MBWorld](https://mbworld.org/) | US | orta | 9 | Mercedes-Benz forumu. |
 | [MB Club UK](https://forums.mbclub.co.uk/) | UK | orta | 7 | Mercedes-Benz sahipleri forumu. |
+| [Toyota Owners Club](https://toyotaownersclub.com/) | UK | orta | 6 | Toyota sahipleri forumu (Auris/Corolla D-4D). |
 | [Astra Owners Network](https://www.astraownersnetwork.co.uk/) | UK | orta | 5 | Opel/Vauxhall Astra forumu. |
 | [BenzWorld](https://www.benzworld.org/) | US | orta | 5 | Mercedes-Benz forumu. |
 | [CivicX](https://www.civicx.com/) | US | orta | 5 | Honda Civic (10. nesil) forumu. |
@@ -100,7 +101,6 @@ Toplam 86 farklı site, 353 sorun için kullanıldı.
 | [Berlingo Forum](https://www.berlingoforum.com/) | UK | orta | 4 | Citroën Berlingo ve PSA dizel (HDi) forumu. |
 | [CruzeTalk](https://www.cruzetalk.com/) | US | orta | 4 | Chevrolet Cruze forumu. Konular çoğunlukla ABD'deki 1.4T ve 1.8 motorlar için. |
 | [SpeakEV](https://www.speakev.com/) | UK | orta | 4 | İngiltere merkezli elektrikli araç sahibi forumu; Zoe, Peugeot e-208, BYD gibi modellerde 12V akü, şarj ve tahrik arızası konuları. |
-| [Toyota Owners Club](https://toyotaownersclub.com/) | UK | orta | 4 | Toyota sahipleri forumu (Auris/Corolla D-4D). |
 | [German Car Forum](https://www.germancarforum.com/) | Global | orta | 3 | Alman markaları forumu. |
 | [Planète Renault](https://www.planeterenault.com/forum/) | FR | orta | 3 | Fransızca Renault forumu. K9K yatak sorunu için moderatör yazısı bu sitede. |
 | [SwedeSpeed](https://www.swedespeed.com/) | US | orta | 3 | Volvo ve Saab sahipleri forumu (XC60, S60, V60 başlıkları). |

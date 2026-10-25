@@ -1858,8 +1858,7 @@
           "Hybrid"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetler ses yalıtımı, fren diski paslanması ve 12V akü gibi mekanik olmayan konularda; tekrar eden mekanik sorun bulunamadı."
+      "not": "Şikâyetler ses yalıtımı, fren diski paslanması ve 12V akü gibi mekanik olmayan konularda; tekrar eden mekanik sorun bulunamadı. Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri)."
     },
     {
       "marka": "Toyota",
@@ -1894,20 +1893,19 @@
     },
     {
       "marka": "Toyota",
-      "model": "Yaris",
+      "model": "Yaris XP130",
       "yillar": "2011-2019",
-      "motor": "1.5 Hybrid",
+      "motor": "1.5 Hybrid (1NZ-FXE)",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Yaris"
+          "Yaris (XP130"
         ],
         "motor": [
           "Hybrid"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı."
+      "not": "Şikâyetler yeni nesil Yaris Hybrid ve Yaris Cross akü ve garanti konularında; 2011-2019 Yaris için tekrar eden mekanik sorun bulunamadı. Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri)."
     },
     {
       "marka": "Toyota",
@@ -1940,8 +1938,7 @@
           "Hybrid"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Hibrit sistem uyarısı dışında tekrar eden mekanik sorun bulunamadı."
+      "not": "Hibrit sistem uyarısı dışında tekrar eden mekanik sorun bulunamadı. Şikâyetvar'da 2018, 2020 ve 2025 model C-HR için hibrit sistem arızası uyarısı ve akü boşalması kayıtları var (kilometre bilgisi dağınık). Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri)."
     },
     {
       "marka": "Toyota",
@@ -1979,14 +1976,16 @@
       "marka": "Toyota",
       "model": "RAV4 / Hilux",
       "yillar": "2013-",
-      "motor": "2.0 / 2.5 Hybrid / 2.4 D-4D",
+      "motor": "RAV4 XA40 2.0 / Hilux 2.4 D-4D",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "RAV4"
+          "RAV4 (XA40",
+          "Hilux"
         ],
         "motor": [
-          ""
+          "2.0",
+          "2.4"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -13397,6 +13396,70 @@
       },
       "not": "Faz 14'te arandı: GLE V167 için şikâyet ya da forum kaydı çıkmadı (sonuçlar GL, GLA, GLC, GLB ve EQE'ye ait); Ekşi Sözlük'te 2019-2021 M260 / M264 motorlarda supap yatağından karışım hatası (P219E77) iddiası dizel GLE için geçerli değil.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Toyota",
+      "model": "RAV4 XA50",
+      "yillar": "2019-",
+      "motor": "2.5 Hybrid (A25A-FXS)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "RAV4 (XA50"
+        ],
+        "motor": [
+          "Hybrid"
+        ]
+      },
+      "not": "RAV4 Hybrid için Şikâyetvar'da kayıt çıkmadı; Toyota Owners Club'da RAV4 sahipleri 12V akü ve hibrit sistem uyarısı anlatıyor. Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri)."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Yaris XP210",
+      "yillar": "2020-",
+      "motor": "1.5 Hybrid (M15A-FXE)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Yaris (XP210"
+        ],
+        "motor": [
+          "Hybrid"
+        ]
+      },
+      "not": "Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri)."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Yaris Cross",
+      "yillar": "2021-",
+      "motor": "1.5 Hybrid (M15A-FXE)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Yaris Cross"
+        ],
+        "motor": [
+          "Hybrid"
+        ]
+      },
+      "not": "Şikâyetvar'da 2023 model bir Yaris Cross Hybrid'de yaklaşık 12.000 km'de 12V akü sorunu ve 3 yıl akü garantisine rağmen inceleme talebi geçiyor. Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri)."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Auris E180",
+      "yillar": "2013-2018",
+      "motor": "1.8 Hybrid (2ZR-FXE)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Auris (E180"
+        ],
+        "motor": [
+          "Hybrid"
+        ]
+      },
+      "not": "Toyota Owners Club'da bir Auris Hybrid sahibi bataryanın 147.000 milde erken arızalandığını yazıyor. Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri)."
     }
   ]
 }
