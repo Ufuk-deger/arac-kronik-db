@@ -4417,6 +4417,95 @@
     },
     {
       "marka": "Citroen",
+      "model": "C4 Cactus (2014-2020)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kapı alt kenarlarında ve iç saclarda erken paslanma",
+          "etkilenen_parca": "Kapı alt kenarı ve iç sacları (kapı altı su olukları)",
+          "belirtiler": "Kapıların alt kenarında ve içinde pas lekeleri ve kabarma; lekelerin çoğunun kapı kenarına yakın olması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da sahipler kapı iç alt kısımlarındaki paslanmanın Cactus'ta kronikleştiğini yazıyor; 2015 model bir araçta üretim hatası olduğu iddia ediliyor ve Citroën'in 'geri çağırma yok' yanıtına karşı ücretsiz kapı değişimi isteniyor. Ekşi Sözlük'te bir yazar kapılarda paslanmayı kronik sorun sayıyor, lekelerin çoğunun kapı kenarına yakın olduğunu ve kapı altı su oluklarının hatalı olabileceğini düşünüyor. DonanımHaber'de bir sahip yetkili servisin bunun tasarım sorunu olduğunu ve yeni üretilen kapı saclarında giderildiğini söylediğini aktarıyor; bir DonanımHaber yazarı sorunun Fransa'daki fabrikada bir günlük boya makinesi arızasından kaynaklandığını ve yalnızca o gün üretilen seriyi etkilediğini yazıyor (kaynağı belirsiz, doğrulanmadı).",
+            "cozum": "Otopark'ta konu başlığı 'garantiden kapı değişimi'; DonanımHaber ve Otopark konularında bazı sahiplerin kapılarının garantisiz olsa da iyi niyet kapsamında değiştirildiği, birinin Citroën'in dört kapıyı da ücretsiz değiştirdiğini yazdığı (tek kullanıcı iddiası, doğrulanmadı) ve sorunun sanayide de giderilebildiği anlatılıyor. Resmî bir geri çağırma kampanyası bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/citroen/c4-cactus-kapi-paslanmasi-icin-geri-cagirma-yok-diyor-ucretsiz-degisim-talebi",
+            "https://www.sikayetvar.com/citroen/cactus/kapi",
+            "https://forum.donanimhaber.com/citro-n-c4-cactus--125181983-44",
+            "https://forum.donanimhaber.com/yeni-citroen-c4-cactus-kullanici-deneyim-yorumlar--97815091-4",
+            "https://otopark.com/forum/threads/citroen-c4-cactus-garantiden-kapi-degisimi.9539/",
+            "https://eksisozluk.com/citroen-c4-cactus--4229810?p=12",
+            "https://eksisozluk.com/citroen-c4-cactus--4229810?p=13"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 Picasso (II, 2013-2018)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Cam tavan perdesinin plastik tırnağının kırılması ve perdenin açılmaması",
+          "etkilenen_parca": "Panoramik cam tavan perdesi (güneşlik): plastik tırnak / yay bağlantısı ve motoru",
+          "belirtiler": "Perde çalışırken parçanın kırılması, perdenin açılmaması ya da yarıda kalması; kırık plastik parçanın zemin döşemesine düşmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2015 model bir C4 Picasso'da cam tavan perdesinin tırnağının kırıldığı, uzatılmış garantili başka bir araçta perde açılırken plastik tırnağın kırıldığı yazılıyor; Citroën genel merkezinin 'garanti dışı' dediği ama garantili değişim yaptıranların da olduğu belirtiliyor. Sahiplerden biri camın hemen altındaki sert bir yayı yöneten 2-3 cm'lik plastik parçanın sıcak–soğuk döngüsüyle bozulup perde çalışırken koptuğunu, bir başkası bunun bu araçların kronik sorunu olduğunu yazıyor. DonanımHaber'de aynı arıza için ayrı bir başlık ve II. kuşak kulüp konusu var. French Car Forum'da 2015 C4 Picasso sahipleri perde motorunun gıcırdadığını ve perde borularının kırıldığını yazıyor; bir sahip Citroën'in bunu tasarım sorunu diye yanıtladığını aktarıyor.",
+            "cozum": "Servis yanıtları karışık: tırnak ayrı satılmadığı için komple perde değişimi (bir sahibe işçilikle yaklaşık 4.500 TL denmiş, tarih belirsiz), tek tırnak için komple takım gerekmesi, yüzde 25 indirimli onarım teklifi; bir sahip parçayı kendisi çıkarıp metal tırnakla değiştirmiş. DonanımHaber'de açılmayan perde için düğmeyi kapalı konumda yaklaşık 5 saniye basılı tutarak perdeyi yeniden başlatma yöntemi anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/citroen/citroen-c4-picasso-cam-tavan-perdesi-tirnagi-kirildi",
+            "https://www.sikayetvar.com/c4/cam-tavan",
+            "https://forum.donanimhaber.com/c4-picasso-cam-tavan-perdesi-acilmiyor--94115748",
+            "https://forum.donanimhaber.com/citro-n-c4-picasso-ii-kulubu--73536553-152",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=75241",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=83174"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "C5 Aircross (2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Siyah tavan boyasının kabarması, pullanması ve dökülmesi",
+          "etkilenen_parca": "Tavan boyası (siyah üst kat) ve cam tavan çevresi",
+          "belirtiler": "Tavanda, özellikle cam tavan çevresinde boyanın bozuk para büyüklüğünde noktalarda kabarması, pullanıp dökülmesi; bazı araçlarda tavanda paslanma.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da şikâyetler çoğunlukla 2020 model olmak üzere 2019-2024 arası C5 Aircross'lardan geliyor: tavanda ve özellikle cam tavan çevresinde boyanın kabarıp dökülmesi, bazılarında paslanma. Ekşi Sözlük ve DonanımHaber'de sorunun siyah tavanlı sürümlerde görüldüğü, tavanın fabrikada önce griye boyanıp üzerine ikinci bir siyah kat atıldığı ve deformasyonun bu siyah katmanda başladığı yazılıyor (sahip aktarımı). Sahipler Citroën'in durumu çoğu kez kuş pisliği, kullanıcı hatası ya da dış etmenle açıkladığını bildiriyor; bir yorumda sorunun üretim tarihleriyle (2019-Haziran 2020) ilgisi tartışılıyor ama doğrulanmış değil.",
+            "cozum": "Şikâyetvar'da bazı sahiplerde servis kusuru fabrika kaynaklı kabul edip garanti kapsamında onarmış; başka kayıtlarda dış etken denip reddedilmiş, bir sahipte tavan boyama sırasında ön camın sökülmesindeki hata sorunu büyütmüş. Ekşi Sözlük ve DonanımHaber'de markanın 2 bakım hediyesi ya da garanti uzatma teklif ettiği, bir sahipte uzatılmış garanti ve servis paketiyle tavan kaplamasının yenilenip 5 yıl garanti verildiği yazılıyor. Resmî bir geri çağırma kampanyası bulunamadı (kam mili zinciri kampanyası ayrı bir konudur)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/citroen/citroen-c5-aircross-tavan-boyasi-atma-sorunu-ve-yetersiz-servis-destegi",
+            "https://www.sikayetvar.com/citroen/citroen-c5-aircross-2020-modelde-boya-atmasi-ve-kapi-paslanmasi-icin-yetersiz-tazminat-teklifi",
+            "https://www.sikayetvar.com/citroen/c5-aircross/cam-tavan",
+            "https://eksisozluk.com/citroen-c5-aircross-magdurlari--6990005",
+            "https://eksisozluk.com/citroen-c5-aircross--5343862?p=14",
+            "https://forum.donanimhaber.com/citroen-c5-aircross-magdurlarindan-cagri--150460878-8",
+            "https://forum.donanimhaber.com/citroen-c5-aircross-magdurlarindan-cagri--150460878-12"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Citroen",
       "model": "ë-C4 / ë-C4 X (2021-)",
       "motor": "Elektrik (50 kWh, 136 PS; 2024 sonrası 54 kWh, 156 PS)",
       "uretim_yillari": {
@@ -4979,6 +5068,71 @@
             "https://www.sikayetvar.com/fiat/fiat-600-hybrid-trafikte-kendini-kapatiyor-cozum-bulunamiyor",
             "https://www.sikayetvar.com/enriko-aliberti/fiat-600e-aku-arizasi-ve-garanti-kapsaminda-destek-eksikligi",
             "https://www.quechoisir.org/enquete-fiat-600e-des-coupures-moteur-brutales-et-un-service-client-aux-abonnes-absents-n177702/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Bravo (2007-2014)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolcu airbag kapağı (göğüs / torpido üstü) şişmesi ve çatlaması",
+          "etkilenen_parca": "Yolcu hava yastığı kapağı (torpido üst / göğüs kısmı)",
+          "belirtiler": "Kaza ya da darbe olmadan yolcu tarafındaki göğüs kısmının kabarması, kaplamanın ayrılması ve çatlak oluşması; güneşe maruz kalmayla arttığı yazılıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2009 ve 2010 model Bravo sahipleri yolcu tarafındaki göğüs airbag plastiğinde kendiliğinden çatlama ve şişme bildiriyor; sorunun kullanıcı kaynaklı olmadığını yazıp ücretsiz değişim istiyor. DonanımHaber'de bu şişme Bravo'nun en bilinen kronik sorunu olarak anılıyor ve güneşe maruz kalmayla arttığı yazılıyor; bir yorumcu ilk üretim partilerinde güneşin etkisiyle şiştiğini, bir başkası bunun Bravo'ya değil Fiat'a özgü olduğunu ve Punto'da daha sık görüldüğünü belirtiyor. Ekşi Sözlük'te şişmenin yolcu airbag'ini dışarıdan çıkıntı gibi gösterdiği ve güneşten korunmak gerektiği yazılıyor.",
+            "cozum": "DonanımHaber'de bir sahip eskiden iyi niyetle ücretsiz değişim yapıldığını ama servislerin artık bunu kolay onaylamadığını yazıyor; bir başkası Konya dahil birkaç ilde parçanın kaynakla orijinaline yakın onarıldığını belirtiyor. Resmî bir geri çağırma ya da ücretsiz değişim kampanyası bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/bravo/kronik",
+            "https://www.sikayetvar.com/fiat/bravo/kronik-sorun",
+            "https://forum.donanimhaber.com/fiat-bravo-bilgisi-olan-deneyimleyen-yardimci-olabilir-mi--130880802",
+            "https://forum.donanimhaber.com/yeni-fiat-bravo-kulubu--21564253-238",
+            "https://eksisozluk.com/fiat-bravo--266706?p=13",
+            "https://eksisozluk.com/fiat-bravo--266706?p=14"
+          ]
+        },
+        {
+          "sorun_adi": "Klima klapesi (hava yönlendirme motoru) arızası: sol ve sağ tarafa farklı sıcaklıkta hava gelmesi",
+          "etkilenen_parca": "Klima / kalorifer hava yönlendirme klapeleri ve klape (yönlendirme) motorları",
+          "belirtiler": "Bir taraftan sıcak, diğer taraftan soğuk hava gelmesi (sürücü tarafı sıcak, yolcu tarafı soğuk ya da tersi).",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar, DonanımHaber ve Ekşi Sözlük'te sahipler klape arızasını Bravo'da en çok görülen şikâyetlerden biri ve 'kronik' olarak anıyor; dijital klimalı araçlarda sürücü tarafının sıcak, yolcu tarafının soğuk üflediği anlatılıyor. Bir sahip yönlendirici motorların dişlilerinin plastik olduğunu ve çabuk kırıldığını yazıyor. Resmî bir kusur tespiti ya da kampanya bulunamadı.",
+            "cozum": "Klape ya da yönlendirme motoru değiştiriliyor. DonanımHaber'de bir sahip klape değişimini yaptırıp tavsiye ediyor; bir yorumda tamir için göğsün tamamen sökülmesi gerektiği yazılırken, Ekşi Sözlük ya da Otopark'taki başka bir yazıda Gebze'de bir ustanın göğüsü sökmeden çözdüğü anlatılıyor. Şikâyetvar'da bir sahibe servis ön konsolun komple sökülmesini ve yüksek bir ücret önermiş.",
+            "maliyet": "Kullanıcı beyanları (eski tarihli, güncel fiyat olarak okumayın): usta işçiliğiyle 300-400 TL (2-3 saatte), göğüs sökülerek yaklaşık 600 TL, bir başka yazıda 350-800 TL aralığı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiat-bravo-klima",
+            "https://www.sikayetvar.com/fiat/fiat-bravo-kalorifer-yonlendirme-arizasi",
+            "https://www.sikayetvar.com/fiat/bravo/kronik",
+            "https://forum.donanimhaber.com/fiat-bravo-bilgisi-olan-deneyimleyen-yardimci-olabilir-mi--130880802",
+            "https://forum.donanimhaber.com/yeni-fiat-bravo-kulubu--21564253-238",
+            "https://eksisozluk.com/fiat-bravo--266706?p=13",
+            "https://eksisozluk.com/fiat-bravo--266706?p=14"
+          ]
+        },
+        {
+          "sorun_adi": "Yolcu güneşliğinin sarkması",
+          "etkilenen_parca": "Yolcu tarafı güneşlik ve bağlantı noktası",
+          "belirtiler": "Güneşliğin yerinde durmayıp aşağı sarkması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "DonanımHaber ve Ekşi Sözlük'te yolcu güneşliğinin sarkması 'lanet kroniklerden biri' olarak ve Bravo'nun bilinen kronik sorunları (yolcu güneşliği sarkması, yolcu airbag şişmesi, klima klapesi) arasında sayılıyor; nedeni kaynaklarda açıklanmıyor.",
+            "cozum": "DonanımHaber'de sahipler güneşliğin yerinde durması için mıknatıs gibi alternatif çözümler kullandığını yazıyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/fiat-bravo-bilgisi-olan-deneyimleyen-yardimci-olabilir-mi--130880802",
+            "https://forum.donanimhaber.com/yeni-fiat-bravo-kulubu--21564253-238",
+            "https://eksisozluk.com/fiat-bravo--266706?p=13",
+            "https://eksisozluk.com/fiat-bravo--266706?p=14"
           ]
         }
       ]
@@ -5707,6 +5861,34 @@
     },
     {
       "marka": "Ford",
+      "model": "C-Max / Grand C-Max (2010-2019)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Cam tavan perdesinin (güneşlik) sıkışması, raydan çıkması ve sarkması",
+          "etkilenen_parca": "Panoramik cam tavan perdesi (güneşlik) ve rayları",
+          "belirtiler": "Perdenin yarı yolda sıkışması, raylarından çıkması ya da sarkması; değiştirilen perdenin kısa sürede yeniden bozulması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2012-2015 model C-Max sahipleri (2013 model Titanium X dahil) tavan perdesinin sıkıştığını, sarktığını ya da raylarından çıktığını yazıyor; bir sahip Gaziantep'te yetkili servise defalarca gittiğini ve arızanın 'kronik' diye nitelendirildiğini bildiriyor. Sahipler perdenin ince kumaştan yapıldığını ve perde kapalıyken camın açılmasıyla perdenin sıkıştığını yazıyor. DonanımHaber'de garanti bittikten sonra bozulan perde 'bilinen kronik sorun' olarak anılıyor.",
+            "cozum": "Garanti kapsamında perde mekanizmasının değiştirildiği anlatılıyor; bir sahip talebinin garanti kapsamına alınmadığını yazıyor. DonanımHaber'de iyi niyet garantisiyle takılan yeni perdenin 3-4 gün içinde yeniden bozulduğu, Şikâyetvar'da da değiştirilen perdenin kısa sürede tekrar arızalandığı bildiriliyor.",
+            "maliyet": "Kullanıcı beyanları (tarihleri değişken, güncel fiyat olarak okumayın): garanti dışında yaklaşık 1.500 TL; iyi niyet kapsamında yaklaşık 300 TL."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/ford/ford-c-max-tavan-perdesi-kronik-arizasi-ve-ucretsiz-degisim-talebi",
+            "https://www.sikayetvar.com/ford/c-max",
+            "https://forum.donanimhaber.com/cmax-tavan-perdesi--129028420",
+            "https://forum.donanimhaber.com/ford-c-max--100314028"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Ford",
       "model": "Courier / Tourneo Courier (2014-)",
       "motor": "1.0 EcoBoost 100",
       "uretim_yillari": {
@@ -6336,6 +6518,34 @@
       "kronik_sorunlar": [],
       "aileler": [
         "ford-1-0-ecoboost"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Puma (2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyondan (direksiyon mili / mafsalı, kolon) tıkırtı ve vurma sesi; onarımdan sonra sesin geri gelmesi",
+          "etkilenen_parca": "Direksiyon mili ve mafsalı, direksiyon kolonu (üst gövde), direksiyon kutusu bağlantıları",
+          "belirtiler": "Direksiyon çevrilirken, tam kilitte ya da kaldırım gibi engellerde tıkırtı, vurma ve gıcırtı; kolon çevresindeki plastik kaplamanın direksiyonla birlikte oynaması; onarımdan sonra sesin yeniden başlaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da Puma sahipleri direksiyon mafsalı / mili kaynaklı sesin kronikleştiğini yazıyor: bir sahipte 19.000 km'de gelen ses civatayla sabitlenerek, 21.000 km'de direksiyon mili komple değiştirilerek giderilmeye çalışılmış, ses 31.000 km'de yeniden başlamış; garantide değiştirilen mafsalın 1,5 yıl sonra yeniden arızalandığını yazan sahip de var; bir sahibe bayi sesi tespit etmiş ama Ford 365 kapsamında işlem yapılmamış. Ford Owners Club'ın Puma bölümünde sahipler kolon üst gövdesinin esnemesini, tam kilitte vurma sesini ve bazı araçlarda kremayer cıvatalarının gevşek ya da kısa olduğunu anlatıyor; 2022 model bir Puma ST sahibi kolon iki kez ve kremayer değişmesine rağmen sesin sürdüğünü yazıyor.",
+            "cozum": "Ford Owners Club'ta bir sahipte kolonun garanti kapsamında değiştirilmesi sesi gidermiş; başka bir sahipte yanlış (ST) üst kolon parçası gönderildiği için onarım gecikmiş; bayinin bir miktar ses ve oynamanın normal olduğunu söylediği de yazılıyor. Şikâyetvar'da mil ya da mafsal değişimleri sesi kalıcı gidermemiş; bir serviste sesin şanzımandan gelebileceği söylenmiş (tanı belirsiz)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/ford/ford-puma-surekli-tekrarlayan-sorunlar-ve-hayal-kirikligi",
+            "https://www.sikayetvar.com/ford/puma/ses",
+            "https://www.sikayetvar.com/ford/puma/kronik",
+            "https://www.fordownersclub.com/forums/topic/159115-steering-problem/",
+            "https://www.fordownersclub.com/forums/topic/129122-knocking-on-the-divers-side/"
+          ]
+        }
       ]
     },
     {
@@ -10972,6 +11182,36 @@
     },
     {
       "marka": "Peugeot",
+      "model": "508 (II, 2018-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Sunroof / panoramik cam tavan arızaları: açılmama, yarım kalma, tavanı çizme, kenar çıtalarında çatlak ve ray sesi",
+          "etkilenen_parca": "Sunroof / panoramik cam tavan mekanizması, camı, kenar çıtaları ve rayları",
+          "belirtiler": "Sunroof'un açılırken tavanı çizip bir daha açılmaması, yarı açık konumda kalıp kapanmaması, cam tavanın yanındaki çıtalarda kendiliğinden çatlak ve kırık oluşması, cam tavanın kendiliğinden çatlaması ya da patlaması, raylardan gıcırtı ve takırtı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da şikâyetler çoğunlukla 2020 model olmak üzere 2019-2023 model 508'lerden geliyor: sunroof açılırken tavanı çizip bir daha açılmamış, yarı açıkta kalıp kapanmamış, cam tavanın yanındaki iki çıtada kendiliğinden çatlak ve kırık oluşmuş; kendiliğinden patlayan bir panoramik camın garanti kapsamı dışında bırakıldığı yazılıyor. DonanımHaber'de 'yeni 508' cam sorunları başlığında panoramik tavanın en çok şikâyet edilen parçalardan biri olduğu, çatlama, sızıntı ve kapanmama vakalarının ve ray seslerinin birçok araçta görüldüğü ('kronik galiba') yazılıyor.",
+            "cozum": "DonanımHaber'de 2023 model bir 508'de kapalı sunroof'tan gelen trim sesi rayların yağlanmasıyla giderilmiş (gerekirse yılda bir yağlama öneriliyor). Şikâyetvar'da bir 2023 model sahibinde sunroof arızası garanti kapsamında parça değişimiyle giderilmiş ama sonradan tavanda çizikler oluşmuş.",
+            "maliyet": "Kullanıcı beyanları (doğrulanmamış): garantisi bitmiş araçlarda servisin sunroof değişimi için 70.000 TL ve 118.000 TL istediği yazılıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-508-sunroof-acilirken-tavani-ciziyor",
+            "https://www.sikayetvar.com/peugeot/peugeot-508-sunroof-sorunu-index",
+            "https://www.sikayetvar.com/peugeot/508/tavan",
+            "https://www.sikayetvar.com/peugeot/508/cam",
+            "https://forum.donanimhaber.com/yeni-peugeot-508-cam-sorunlari-ve-kalitesiz-iscilik--145265641",
+            "https://forum.donanimhaber.com/508-r8-sunroof-trim-sesi-sorunu--156354711"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "Partner (2008-2018)",
       "motor": "1.6 HDi 75/92/100/115 (DV6)",
       "uretim_yillari": {
@@ -11192,6 +11432,32 @@
       "kronik_sorunlar": [],
       "aileler": [
         "renault-edc"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Captur 2 (2020-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Multimedya ekranının (Easy Link) donması ve siyah ekranda kalması",
+          "etkilenen_parca": "Fabrika multimedya ekranı (Easy Link) ve yazılımı",
+          "belirtiler": "Ekranın sık sık donması, bazen siyah ekranda takılıp kalması; kapatıp açmak gerekmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2023 model Captur sahibi ekranın sık sık donduğunu, bazen siyah ekranda takılıp kaldığını ve kapatıp açmak zorunda kaldığını yazıyor. DonanımHaber'de 2020 model Captur 2 konusunda multimedya ekranının donması diğer arızalar (elektrikli camlar, sigorta atması) arasında sayılıyor. Aynı sistem Clio 5 ve Megane 4 kayıtlarındaki multimedya şikâyetleriyle benzer kalıpta, ancak her model ayrı kaydedildi.",
+            "cozum": "Şikâyetvar'da Captur sahipleri multimedya arızasının yazılım güncellemeleriyle giderilemediğini yazıyor; bir bakım şikâyetinde servisteki multimedya güncellemesinden sonra birden fazla arıza ışığı yandığı bildiriliyor (model yılları belirtilmemiş)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/captur/2023",
+            "https://www.sikayetvar.com/renault/captur/kronik",
+            "https://forum.donanimhaber.com/2020-model-captur-2-ve-basima-gelenler--150666002"
+          ]
+        }
       ]
     },
     {

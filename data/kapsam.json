@@ -11263,6 +11263,429 @@
       },
       "not": "Şikâyetvar'da 2014 model 6J'de arka kapılarda yalıtım poşetinin (yağmurluk / tozluk) olmaması nedeniyle yağmur ve yıkamada kapıdan su alma, yan aynaların kapanmaması, yağmur sensörü ve far kumandası hatası, multimedya ekranı arızası (sahip 'kronik' diyor), ön camların kapanmaması ve DSG mekatronik / baskı balata konuları tekil ya da nesil karışık geçiyor; Honest John ve Parkers sahip yorumlarında 2009 Ibiza'da akü boşalması (3-4 amper, ancak SEAT'in yapabildiği yazılım güncellemesiyle düzelmiş) ve 2010 modelde kapı içinde cam kriko kablolarının kopması geçiyor. Türkçe ve yabancı kayıtlar örtüşmediği için kayıt açılmadı.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Fiat",
+      "model": "Bravo",
+      "yillar": "2007-2014",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Bravo (2007-2014)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Yolcu airbag kapağı şişmesi, klima klapesi arızası ve yolcu güneşliği sarkması DonanımHaber ve Ekşi Sözlük'te (ilk ikisi Şikâyetvar'da da) doğrulandı. Bir Şikâyetvar kaydındaki 'bayi 90 bin TL fiyat çıkardı' tutarı doğrulanamadığı için kayda alınmadı. EGR kapağı çatlağı (2011 model), Dualogic şanzımanın kendiliğinden N'ye geçmesi ve şanzıman takozunun resmî kayıtlarda iptal görünmesi motor / şanzıman düzeyinde ve tek sitede kaldı; Bravo motor satırı (1.4 T-Jet / 1.6 Multijet) sırada."
+    },
+    {
+      "marka": "Ford",
+      "model": "C-Max / Grand C-Max",
+      "yillar": "2010-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C-Max / Grand C-Max (2010-2019)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Tavan perdesi arızası Şikâyetvar ve DonanımHaber'de doğrulandı; Ford Owners Club'ta C-Max'e özgü perde kaydı çıkmadı (sonuçlar S-Max ve Focus). Grand C-Max'te arka sürgülü kapı üst raylarında paslanma (2014 model) ve kapıların zor kapanması Şikâyetvar'da tekil; kapı fitillerinden ses, cam çatlakları, tavan döşemesi sarkması, akü boşalması ve elektrikli direksiyon yorumları forumlarda genel kalıyor."
+    },
+    {
+      "marka": "Ford",
+      "model": "Puma",
+      "yillar": "2019-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Puma (2019-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Direksiyon sesi Şikâyetvar ve Ford Owners Club'ta doğrulandı. Şikâyetvar'da kapı fitili sorunu (birçok sahip), kapı gergilerinde gıcırtı, bagaj pandizot klipsi, SYNC ekran / yazılım sorunları (ekranın garantide komple değiştirildiği anlatılıyor) ve akü düşüklüğü tekil; DonanımHaber'de bir forum kullanıcısı bilinen kronik sorunların sınırlı olduğunu ve çoğunun garantide giderildiğini (kapı çamuru, cam fitilleri, tavan lekeleri) yazıyor. Puma motor satırı (1.0 EcoBoost mHEV) sırada."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "508 II",
+      "yillar": "2018-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "508 (II, 2018-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Sunroof / panoramik cam tavan şikâyetleri Şikâyetvar ve DonanımHaber'de doğrulandı; 508 I (2011-2018) bu kayda dahil değildir. Şikâyetvar'da cam fitillerinin yırtık olup yıkamada kabine su alması, bagaj kapağı / kapı kilidi sorunları, gönüllü geri çağırma kapsamındaki yazılım güncellemesinden sonra far ve sinyal arızası ve direksiyon kutusundan tak tak sesi tekil; DonanımHaber'deki 'yamuk tavan' başlığı eski tarihli ve nesli belirsiz."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 Cactus",
+      "yillar": "2014-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C4 Cactus (2014-2020)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Kapı alt kenarı paslanması Şikâyetvar, DonanımHaber, Otopark ve Ekşi Sözlük'te geçiyor. 1.2 PureTech yağ banyolu triger kayışı (Şikâyetvar'da 180 bin km'ye kadar geri çağırma kampanyası anılıyor) motor kaydındadır."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 Picasso II",
+      "yillar": "2013-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C4 Picasso (II, 2013-2018)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Cam tavan perdesi Şikâyetvar, DonanımHaber ve French Car Forum'da doğrulandı; French Car Forum'daki arıza biçimi (perde motoru gıcırtısı, perde boruları) Türkçe kaynaklardaki plastik tırnak kırılmasından farklı. Birinci nesil (2007-2013) ve Grand C4 Picasso ayrıca doğrulanmadı."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C5 Aircross",
+      "yillar": "2019-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "C5 Aircross (2019-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Siyah tavan boyası Şikâyetvar, Ekşi Sözlük ve DonanımHaber'de doğrulandı. Şikâyetvar'da 2020 modelde kapı paslanması (tazminat teklifi başlığı), yağmurda cam tavandan su alma, bagaj kapağının kendiliğinden açılması, kapı kablo körüğünün yırtılması ve ekranda sürekli 'şebeke yok' uyarısı tekil; bagaj kapağının kendiliğinden açıldığı DonanımHaber / Ekşi'de doğrulanamadı. Eksantrik zinciri ve AdBlue motor katmanındadır."
+    },
+    {
+      "marka": "Renault",
+      "model": "Captur 2",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Captur 2 (2020-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Multimedya ekranı donması Şikâyetvar ve DonanımHaber'de geçiyor (DonanımHaber'de 2020 model Captur 2 başlığında diğer arızalar arasında). Şikâyetvar'da far (aydınlatma kontrol arızası), stop lambasına su alma, tavan döşemesinin dört kez sökülmesi ve kelebek cam çıtasının parçalanması tekil; EDC şanzıman motor / şanzıman katmanındadır."
+    },
+    {
+      "marka": "Opel",
+      "model": "Insignia B",
+      "yillar": "2017-2022",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Insignia B"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Grand Sport sahipleri multimedya ekranında kayma ve titreme (ünite sökülüp tamire gönderilmiş), 2017 model bir araçta ekranın iki kez donması (yazılım güncellemesiyle çözülmüş), akıllı far arızasının serviste çözülememesi, 2018-2019 model sıfır araçlarda deri direksiyonun bir yıl / 10 bin km içinde soyulması (Opel Türkiye 'kullanım hatası' demiş), 2017 model bir araçta üç kapının açılıp kapanmaması ve arka stop lambasına su alma gibi tekil kayıtlar yazıyor. DonanımHaber'de multimedya donması şikâyeti çıkmadı (eleştiri telefon bağlantısının sınırlı olması ve radyonun her açılışta başlaması); bir Grand Sport sahibi 40 bin km'de birden fazla noktada tavan boyası atmasından yakınırken başka bir kullanıcı yeni kasada bu sorunu duymadığını yazıyor. Ekşi Sözlük'te direksiyon kaplamasının soyulmasını 'kronik' diye anan yorum sayfa bazında Grand Sport'a bağlanamadı (Insignia A ve Astra K ile ortak başlıklar). Tavan oluklarında boya atması şikâyetleri Şikâyetvar'da 2015-2018 model yıllarına dağılıyor (Insignia A ve B karışık).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Crossland X / Grandland X",
+      "yillar": "2017-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Crossland",
+          "Grandland"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Grandland X için güneşlik bağlantı noktalarından ve cam tavandan su alma, multimedya ekranının kapanıp açılmaması, geri görüş kamerası ve sensör arızaları, direksiyon kaplamasının soyulması ve tavan boyası dökülmesi; Crossland X için sağa çekme, sol arka stop lambasında sürekli buğulanma, boya matlaşması, rüzgâr sesi ve multimedya şikâyetleri tekil kayıtlar halinde anlatılıyor. DonanımHaber ve Ekşi Sözlük'te Grandland X için güneşlik / cam tavan sızıntısı çıkmadı; multimedya için görüşler karışık (ergonomi iyi, arayüz vasat, geri görüş kamerasının çözünürlüğü eleştiriliyor) ve sistematik bir arıza bildirilmiyor. Ekşi Sözlük'te bir yorumcu direksiyon kaplamasının soyulmasının Grandland X ve Insignia'da da birçok kullanıcıda görüldüğünü yazıyor; ikinci bağımsız site ve model yılı ayrıntısı yok. Eksantrik zinciri, yağ pompası ve AdBlue konuları motor kayıtlarının alanıdır.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Zafira Tourer",
+      "yillar": "2012-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Zafira"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar ve DonanımHaber'de kalorifer direnci, yangın, Flex7 ve tavan konularında Zafira B / Tourer'a özgü kayıt çıkmadı. Bulunan şikâyetler 2022-2025 model Zafira / Zafira Life'a (iletişim hatası, ASR / ESR ve el freni uyarıları, klima, cam tavan sızıntısı, tavan boyası, ekran kararması) ya da başka Opel modellerine ait (kalorifer peteği suyunun BCM modülüne sızıp modülü yakması Astra H'ye aittir). Bir forum yazarı otomatik şanzımanın valf gövdesindeki valf yataklarının aşınmasını bazı forumlarda geçen kronik sorun olarak anıyor; kaynağı belirsiz tek kullanıcı iddiası. Bir forum yorumu Zafira modellerinde turboşarj ve elektrikli cam arızalarını genel olarak anıyor, kaynağı belirsiz.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Meriva B",
+      "yillar": "2010-2017",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Meriva"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "DonanımHaber'de 'Opel Meriva Eps hatası' başlığında sola dönerken EPS ışığının yanması anlatılıyor (aküden gerilim düşüşü şüphesi, yaklaşık 1.500 TL'lik tork sensörü değişimi teklifi; nesil belirtilmemiş); Şikâyetvar'da 2014 model Meriva 1.6 dizelde direksiyon pompası / kutusu şüphesi tekil. Vauxhall Owners Network ve Honest John'da Meriva EPS arızası (ışık yanıp direksiyonun ağırlaşması, tork sensörü, C1500 kodu, BBC Watchdog yayınından söz eden bir yanıt, geri çağırma talepleri) ağırlıkla ilk kuşak Meriva A (2003-2010) için anlatılıyor; Meriva B için 2013 model bir sahibin 30.000 milin altında EPS'nin garantide komple değiştirilip yeniden arızalandığı tek kayıt var. Resmî geri çağırma doğrulanamadı. Bozuk yolda direksiyon kutusundan ses (burçların sabitlenmesiyle giderilmiş) tek forum kullanıcısı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Combo D",
+      "yillar": "2011-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Combo D"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar Combo sayfaları Combo D ve sonraki nesli karıştırıyor. Bir şikâyette direksiyon çevrilirken ses, direksiyon airbag kısmında soyulma, sağ ön kapı fitili / eşik boşluğu hatası ve direksiyonun bir anda kilitlenmesi; ayrı kayıtlarda araç içine su alma (servis tavanda göçük bulmuş), arka kapak telinin kopması, multimedya ekranı ve gösterge panelinde kararma / 'hayalet ekran' tekil. Kayar kapı rayı, cam regülatörü, merkezi kilit ve kapı kilidi için kanıt bulunamadı; ikinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Peugeot",
+      "model": "207",
+      "yillar": "2006-2014",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "207 ("
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "DonanımHaber'de 207'de su alma konusu sık anılıyor ve bir yorumda 'kapı yanındaki küçük camların plastik aksamından sızıntı 207'lerde kronik' deniyor; ikinci aramada bu 'küçük cam' teşhisi yalnızca bir kullanıcının tahmini olarak göründü. Forumlar suyun çoğunlukla kaput–ön cam arasındaki tahliye kanallarının (çam iğnesi, yaprak, çamur) ve kapı altı tahliye deliklerinin tıkanmasından geldiğini, delinen kalorifer radyatörünün, sunroof tahliyesinin ve yıpranan kapı / bagaj fitillerinin de neden olabildiğini yazıyor. French Car Forum'da 2011 model 1.4 sahibi tahliyeyi temizlemesine rağmen sürücü ayak boşluğunun yağmurda su aldığını yazıyor; bir yanıtta suyun ısıtıcı hava girişinden fana ulaşıp fan direnç kartını bozabileceği anlatılıyor. Su alma 207'ye özgü tek bir parça arızasına bağlanmıyor. Camların sık takılması, bagaj / arka koltuk kilitlerinden ve sürücü kapı döşemesinden ses, cam düğmesi ışığı için servisin yazılım güncellemesi ve sarsıntıda elektrik kesilmesi (bağlantı gevşekliği) tekil forum yorumları.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Peugeot",
+      "model": "3008 I / 5008 I",
+      "yillar": "2009-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "3008 (I,",
+          "5008 (I,"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Ekşi Sözlük'te bir 5008 yorumcusu direksiyon derisinin soyulmasını, arka süspansiyonun zamanla ses yapmasını, ön salıncaklardan 120 km/s üzerinde titremeyi, kapı fitillerinin çabuk eskimesini ve sıcakta ön konsoldan çıtırtıyı sayıyor (tek yorum). Şikâyetvar'daki 3008 / 5008 kronik sayfaları büyük ölçüde 2016 sonrası (ikinci nesil) araçları anlatıyor: eksantrik mili geri çağırması, AdBlue, krank kasnak cıvatası, direksiyon titremesi, multimedya donması, cam tavan gider temizliğinin 'bu araçlarda kronik' olduğunun söylenmesi ve PSA araçlarında tavan boyası atması; birinci nesle bağlanabilen ikinci bir bağımsız kayıt çıkmadı. Bagaj kapağı elektriği için sonuç yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Peugeot",
+      "model": "Partner / Rifter / Citroën Berlingo",
+      "yillar": "2008-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Partner",
+          "Rifter",
+          "Berlingo"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Rifter: Şikâyetvar'da 2025 model bir araçta tüm kapıların açılmama sorunu (servis 'kronik' diye tanımlamış, garanti kapsamında işlem yapılacağını söylemiş, kalıcı çözüm belirsiz), daha eski bir kayıtta sürgülü kapının tam kapanmaması; DonanımHaber'deki Rifter konusunda bir sahip sürgülü kapı camından su girişini yazmış, başka bir kullanıcı bunun şimdi üretilenlerde olmayabileceğini belirtmiş (yorumlar yaklaşık 4,5 yıl önce yazılmış). Partner: Şikâyetvar'da kalkışta çözülemeyen titreme ve kalorifer sorunu ile motor yağı / suyu eksiltme tekil. Berlingo: Şikâyetvar'da multimedya ve araç ekranının gidip gelmesi (yazılım güncellemesi gerektiği söylenmiş), üç ay sonra ekranın tamamen kapanıp elektriğin devre dışı kalması, klima / kalorifer arızaları tekil; DonanımHaber'de bu başlıkları doğrulayan kayıt çıkmadı. Eksantrik zinciri, AdBlue ve yağ konuları motor kayıtlarının alanıdır.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Renault",
+      "model": "Clio 3 / Symbol",
+      "yillar": "2008-2013",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Clio 3",
+          "Symbol"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Symbol sahipleri teyp LCD ekranının ısındıkça ya da güneşte kalınca silikleşip okunmaz hale gelmesini anlatıyor (biri sorunun 'piyasada bu araç için kronik' olduğunu ve korna / sinyal / far kolunda lehim ve kablo kopmasının da kronik olduğunu yazıyor, Renault'nun gönüllü düzeltici faaliyet yapması gerektiğini savunuyor); DonanımHaber'de 2013 model bir Symbol'de silik teyp ekranı yazısına çözüm soruluyor. Symbol adı Türkiye'de 2013'ten sonra Logan tabanlı araç için de kullanıldığından (ayrı kayıtta) Şikâyetvar sayfalarının model yılı doğrulanamadı; Clio 3'e özgü tek kayıt teyp tuşlarının silinmesi. Planète Renault'ta Clio III radyo ve uzak ekran (saat / sıcaklık) arızalarının sigortayla (F27 / 710 numaralı) giderildiği anlatılıyor (farklı bir sorun); Honest John'da kumanda kolu arızaları Modus ve Clio II için; Parkers 4. nesil Clio için aralıklı elektrik arızalarını anıyor.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Fiat",
+      "model": "Panda",
+      "yillar": "2012-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Panda ("
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'ın Panda kronik sayfasında düşük hızda ya da rölantide direksiyonun birden sertleşip kırmızı uyarının yanması (2005, 2007 ve 2011 model 1.2'ler) ve DonanımHaber'de EPS içindeki tork sensörünün değiştirilip kalibre edilmesiyle (yaklaşık 600 TL) giderilmesi geçiyor; sorun Punto / Grande Punto'da daha yoğun. fiatforum'da 'Panda (Mk3)' etiketli EPS başlıkları da var (tork pozisyon sensörü, C1001 / C1002 kodları, düşük akü gerilimi, direksiyon ortalama noktası), ancak arama özetlerinde 169 şasili Panda (2003-2012) başlıklarıyla karışık geldi; Türkçe sitelerde 312 şasili (2012-2020) Panda'ya ve 0.9 TwinAir'e bağlanan kayıt çıkmadı, bu yüzden tek siteli kalan kanıt kayda dönüşmedi. Kapı kilidi, cam ve tavan için Panda'ya özgü kayıt yok (Şikâyetvar cam tavan şikâyetleri Fiat 500L ve Egea'ya ait). Elektrikli Grande Panda ayrı satırdır.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Fiat",
+      "model": "Fiorino / Qubo",
+      "yillar": "2008-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Fiorino"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da cam krikosu arızaları (2023 model ikinci el araçta sağ kapı camı; bir araçta sol ön cam iki kez düşmüş; krikoda değişim sırasında kapıda hasar), 2023 model 1.4 Safeline'da direksiyon iç kısmında soyulma, LPG / benzin geçiş tuşu arızası ve yağmur sensörü açıkken silecek kendiliğinden çalışması anlatılıyor; kayıtların çoğu 2023 ve sonrası yeni kasa Fiorino'ya ait. DonanımHaber'de ortak derleme bir başlıkta motor, elektrik ve süspansiyon başlıkları sayılıyor, başka bir kullanıcı bildiği kronik sorun olmadığını yazıyor. Eski kasa Fiorino / Qubo (2008-2020) için kapı kilidi ya da kayar kapı kaydı çıkmadı; ikinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Renault",
+      "model": "Kangoo",
+      "yillar": "2008-2021",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Kangoo"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar ve forumlarda yeni model Multix sahibinde sürgülü kapı fitillerinin dört kez değişmesine rağmen yeniden çıkması ve arka stop lambasından kargo bölümüne su girmesi, bir kayıtta cam–fitil su girişinin far üniteleri değiştirilerek bitmesi; sürgülü kapı makaralarının rulmanlı olmaması ve onarım için arka far sökümü gerektiği (DonanımHaber'de 'yeni kangoo sürgülü kapı onarım' başlığı); 2009 model bir araçta anahtarla diğer kapıların kilitlenmemesi (şoför kapısı şalteri şüphesi); yeni kasada multimedya 'sistem kilitlendi' uyarısı tekil kayıtlar. Hangi nesle (2008-2021 ya da 2021 sonrası) ait olduğu çoğu kayıtta belirsiz; kilometre ve iki siteli bir sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Renault",
+      "model": "Talisman",
+      "yillar": "2016-2022",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Talisman"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da R-Link 2 için Bluetooth'un sürekli kopması (2016 model; bir kayıtta ekran değiştirildikten sonra da 5-10 saniyede bir), radyonun kendi kendine kanal değiştirmesi, ekranın gidip gelmesi (servis 'beyin arızası' demiş), yazılım güncellemesi için 500-700 TL ücret talebi ve 'R-Link 2 güncelleme ve 25000 TL ücret talebi' başlıklı kayıt, panoramik tavan sesi ve teslimde toplu arıza şikâyetleri geçiyor; DonanımHaber'de aynı konuda yalnızca radyo / AF ayarı ve USB ile yazılım güncelleme anlatıları çıktı (Talisman'a özgü donma ya da kendiliğinden kanal değiştirme doğrulanmadı). İkinci bağımsız site ve kilometre yok; 4Control için sonuç çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Dacia",
+      "model": "Lodgy / Dokker",
+      "yillar": "2012-2021",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Lodgy",
+          "Dokker"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Lodgy için geri görüş kamerasının sürekli arızalanması, teyp ekranının silikleşmesi (bir kullanıcı 'Dacia ve Renault'ta kronik' diyor), far kolu / far sönmesi (2016 model; servis 'kronik' olduğu halde ücret istemiş); Dokker için LPG'ye geçmeme, AdBlue onarım bedeli, akü ve koltuk döşemesinin çökmesi tekil kayıtlar; bir forumda sürücü camının 110 km/s'de titremesi ve plastiklerin zamanla ses yapması geçiyor. Kayar kapı, su alma ve elektrikli direksiyon için sonuç çıkmadı; bir kulüp rehberi genel başlıklar sayıp yaygın olmadıklarını belirtiyor. İkinci bağımsız site ve model yılı eşleşmesi yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Ford",
+      "model": "Focus 4",
+      "yillar": "2018-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Focus 4"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da SYNC 3 ekranı için 2019 model bir araçta ekranın açılmaması ve Bluetooth'un bağlanmaması, 2020 model bir araçta (2021'de alınmış) 25-30 bin km'den beri Apple CarPlay'in sürekli donması, 2023-2025 model araçlarda ekran donması ve 2024 model 1.0 hibritte sürekli yeniden başlama anlatılıyor. Ford Owners Club'ta SYNC 3 donma ve CarPlay başlıkları çok (bir sahip bayinin bunu 'bilinen yazılım hatası' diye tanımladığını, yeni sürümlerin ve manuel güncellemenin işe yaradığını, 3.4 sürümünde USB / Bluetooth takılmasının normal sayıldığını yazıyor) ancak başlıklar Focus Club, EcoSport Club ve genel bölümlere dağılıyor ve çoğu Mk3 Focus, Fiesta ya da EcoSport'a ait; Mk4'e özel eşleşme doğrulanamadı. DonanımHaber'deki SYNC 3 konusu Android Auto ve Bluetooth sorunlarını anlatıyor, Focus'a özgü donma bildirmiyor.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Ford",
+      "model": "EcoSport",
+      "yillar": "2013-2022",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "EcoSport"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da SYNC ekranı performansı ve Bluetooth bağlantısının sürekli kopması (bayi sorunu kabul etmemiş), bagaj değişiminden sonra geri görüş kamerasının bozulması, yağmurda kapı üstünden su alma, tavan küflenmesi ve tavan döşemesinin sararması, akü boşalması ve gösterge panelinin kapanması tekil kayıtlar; bir forum kullanıcısı yana açılan bagaj kapağını genel şikâyetler arasında sayıyor. Yedek lastik bölgesine su alma ve direksiyon için güçlü kanıt çıkmadı (direksiyon titreşimi fren diski kaynaklı görünüyor). SYNC 3 donması Ford Owners Club'ta EcoSport Club'ta da anlatılıyor (2019 model bir EcoSport sahibi 3.4 sürümüyle donmanın bittiğini ama USB / Bluetooth takılması çıktığını yazıyor) fakat Türkçe sitelerle örtüşen iki siteli bir sorun oluşmadı. 1.0 EcoBoost yağ banyolu kayış konusu motor kaydındadır.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Ford",
+      "model": "Mondeo",
+      "yillar": "2007-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Mondeo"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Mondeo şikâyetlerinin ağırlığı motor (1.5 EcoBoost blok çatlağı, su eksiltme) ve Powershift şanzımanda; 2016 model araçlarda geri görüş kamerası arızası ('kronik' deniyor) ve bir şikâyette sağ ön–arka kapılar ile iç aydınlatmanın çalışmaması tekil kayıt; bir forum kullanıcısı direksiyon kutusundan yağ kaçağı ve ses sorununun Mondeo'larda tekrarladığını yazıyor. El freni ve SYNC için sonuç çıkmadı. Ağırlıkla tekil Şikâyetvar kayıtları; ikinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }
