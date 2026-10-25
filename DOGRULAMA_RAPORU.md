@@ -2,7 +2,7 @@
 
 Tarih: 2026-10-24
 
-Rapor on iki aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını, [6. aşama](#6-aşama-astra-electric-açığı-ve-diğer-elektrikliler) Astra Electric açığının ve diğer eksik elektrikli modellerin ele alınmasını anlatır, [7. aşama](#7-aşama-çok-ilanlı-modellerin-kapsam-kontrolü) çok ilanlı modellerin kapsam kontrolünü ve motor boşluklarının kapatılmasını, [8. aşama](#8-aşama-15-tsi-ve-etsi-motoru-ve-kullanan-modeller) 1.5 TSI ve eTSI motorunu ve onu kullanan modellerin ele alınmasını anlatır, [9. aşama](#9-aşama-çok-kullanılan-araçlarda-kaçırılanların-taraması) çok kullanılan araçlarda kaçırılanların taranmasını ve eksik nesil ve motor boşluklarının kapatılmasını anlatır, [10. aşama](#10-aşama-motor-ve-şanzıman-aileleri-ve-model-kataloğu) motor ve şanzıman ailelerinin kurulmasını, bu ailelerle eklenen kardeş model kayıtlarını ve eksik popüler modellerin kataloğunu anlatır, [11. aşama](#11-aşama-model-geneli-sorunlar-motordan-bağımsız) motordan bağımsız, modele (nesle) bağlı sorunların (cam tavandan su alma, kapı kilidi, boya atması, EPB arızası gibi) kaydedilmesini ve listede hiç olmayan modellerin plana eklenmesini, [12. aşama](#12-aşama-model-geneli-taramasının-sürdürülmesi) ise bu taramanın VAG, Renault / Stellantis / Ford grubu, Asya, premium ve elektrikli markalara genişletilmesini anlatır.
+Rapor on üç aşamayı kapsar. Aşağıdaki ilk bölümler 1. aşamayı (ilk sürümün doğrulanması) anlatır; [2. aşama](#2-aşama-en-çok-satan-modellerin-motor-grupları-ve-yıl-kırılımı) en çok satan modellerin eklenmesini ve yıl kırılımını, [3. aşama](#3-aşama-sorun-ayrıntıları) her soruna eklenen ayrıntıları, [4. aşama](#4-aşama-ölçeğin-genişletilmesi-ve-motor-versiyonları) ölçeğin genişletilmesini ve motor versiyonlarını, [5. aşama](#5-aşama-elektrikli-araçlar) elektrikli araçların kapsama alınmasını, [6. aşama](#6-aşama-astra-electric-açığı-ve-diğer-elektrikliler) Astra Electric açığının ve diğer eksik elektrikli modellerin ele alınmasını anlatır, [7. aşama](#7-aşama-çok-ilanlı-modellerin-kapsam-kontrolü) çok ilanlı modellerin kapsam kontrolünü ve motor boşluklarının kapatılmasını, [8. aşama](#8-aşama-15-tsi-ve-etsi-motoru-ve-kullanan-modeller) 1.5 TSI ve eTSI motorunu ve onu kullanan modellerin ele alınmasını anlatır, [9. aşama](#9-aşama-çok-kullanılan-araçlarda-kaçırılanların-taraması) çok kullanılan araçlarda kaçırılanların taranmasını ve eksik nesil ve motor boşluklarının kapatılmasını anlatır, [10. aşama](#10-aşama-motor-ve-şanzıman-aileleri-ve-model-kataloğu) motor ve şanzıman ailelerinin kurulmasını, bu ailelerle eklenen kardeş model kayıtlarını ve eksik popüler modellerin kataloğunu anlatır, [11. aşama](#11-aşama-model-geneli-sorunlar-motordan-bağımsız) motordan bağımsız, modele (nesle) bağlı sorunların (cam tavandan su alma, kapı kilidi, boya atması, EPB arızası gibi) kaydedilmesini ve listede hiç olmayan modellerin plana eklenmesini, [12. aşama](#12-aşama-model-geneli-taramasının-sürdürülmesi) bu taramanın VAG, Renault / Stellantis / Ford grubu, Asya, premium ve elektrikli markalara genişletilmesini, [13. aşama](#13-aşama-sırada-kalan-motor-satırlarının-araştırılması) ise 12. aşama sonunda "sırada" kalan 88 motor ve şanzıman grubunun araştırılmasını anlatır.
 
 ## 1. aşama: ilk sürümün doğrulanması
 
@@ -1298,17 +1298,129 @@ Nedeni çoğunlukla "tek sitede (Şikâyetvar) tekrar eden konular, ikinci bağ�
 - **Listede olmayan modeller:** tarama sırasında karşılaşılan ve ne veritabanında ne planda olanlar: Ford Transit Custom / Tourneo Custom (Şikâyetvar: akü, yağ eksiltme, DPF), Citroën Jumpy / Jumper, Peugeot Expert / Boxer (motor, şanzıman / kavrama, AdBlue), Tesla Model 3 (şikâyet çıkmadı). Önceki listedeki hacmi düşük modeller (Audi A8 ve Q8, BMW 6 Serisi / X7 / Z4, Mercedes GLB ve G Serisi, Lexus NX / RX, Toyota Camry, Nissan Almera / Tiida, Opel Cascada / Movano, Renault Express, Seat Exeo, Volvo C30 / S40 / V50, Ford Fusion, Fiat Albea / Palio) hâlâ yok.
 - **Kapsam soruları açık:** (1) 2011 öncesi model yılı penceresi hâlâ dışarıda (Tofaş Şahin / Doğan / Kartal, Renault R12-Toros, R9-Broadway, Fiat Albea / Palio; Fiat Panda 169 gibi 2011 öncesi nesiller). (2) Hibrit ve plug-in hibritler kapsam dışı.
 
+## 13. aşama: sırada kalan motor satırlarının araştırılması
+
+Tarih: 2026-10-25
+
+12. aşama sonunda 88 motor ve şanzıman grubu "sırada" (`○`) durumundaydı: plana alınmış ama hiç araştırılmamıştı. Bu aşamada isteğiniz üzerine ("88 sırada satırı ile devam et") hepsi beş dilimde araştırıldı ve her dilim ayrı bir commit ile gönderildi (ara kayıt 1-5). Yöntem 10. aşamadakiyle aynıdır: motor ya da şanzıman birden çok modelde ortaksa önce aile kuruldu ve kardeş modeller aileye bağlandı (◐); sonra modele özgü Türkçe arama (Şikâyetvar, DonanımHaber, Otopark, Ekşi Sözlük) ve ikinci site için kayıt defterindeki yabancı forumlar ve rehberler; her sorun için en az iki farklı site ve en az biri deneyim ya da resmî türünde; kilometre aralığı yalnızca kaynaklardaki bildirimlerden alındı (mil × 1,609), bildirim yoksa ya da bildirimler çelişiyorsa aralık uydurulmadı; **nesil, pazar ya da motor eşleşmesi doğrulanamazsa kayıt açılmadı, grup notuyla `–` işlendi.** Kayıt defterine yeni site eklenmedi (84).
+
+Sonuç: "sırada" satırı kalmadı (88 → 0), ama büyük kısmı `–` oldu. 88 satır, bölünmelerle 115 gruba çıktı; bunların 3'ü kayda özgü sorunla (✓), 43'ü aile bağıyla (◐), 69'u `–` sonuçlandı. 12. aşamada `–` olan iki grup da kayda döndü (Jeep Renegade / Compass 1.4 MultiAir ✓, Alfa Romeo Giulietta 1.4 MultiAir ◐).
+
+| | 12. aşama sonu | 13. aşama sonu |
+| --- | ---: | ---: |
+| Araç/motor kaydı | 400 (328 motor + 72 model geneli) | 467 (391 motor + 76 model geneli) |
+| Kayda özgü kronik sorun | 344 (86'sı model geneli) | 352 (90'ı model geneli) |
+| Motor / şanzıman ailesi | 48 (82 ortak sorun) | 55 (90 ortak sorun) |
+| Aileye bağlı kayıt | 285 | 347 |
+| Farklı kaynak sitesi | 84 | 84 |
+| Yalnızca iki siteyle desteklenen sorun | 127 | 133 |
+| Ayrıntısı (`detay`) olan sorun | 426 | 442 |
+| Plan satırı | 734 | 765 |
+| Kayda özgü sorunlu `✓` satırı | 240 | 248 |
+| Yalnızca ortak aile kaynaklı `◐` satırı | 142 | 186 |
+| Kanıtı yetersiz `–` satırı | 264 (78'i model geneli) | 331 (78'i model geneli) |
+| Sırada `○` satırı | 88 | 0 |
+| Taranan model nesli (model geneli) | 150 (✓ 72, – 78) | 154 (✓ 76, – 78) |
+| Taranmış bir modele ait motor kaydı | 149 / 328 | 164 / 391 |
+
+### Ne yapıldı
+
+- **Dilim 1 (ara kayıt 1, `6f057fc`; sırada 88 → 73): kademe 2 satırları.** İki aile kuruldu (Land Rover Ingenium 2.0 dizel yağ seyrelmesi, Mercedes OM642 3.0 V6 yağ soğutucusu contası). 10 kayıt aileye bağlandı (Evoque ve Discovery Sport TD4, ML / GLE W166 250 d ve 350 d, CLS C218 250 ve 350, S W222 350 d, Panda 1.3 Multijet, Kangoo 3 Blue dCi, F44 218i); 11 satır `–`.
+- **Dilim 2 (ara kayıt 2, `bc75f55`; 73 → 57): BMW, Mini, Volvo, Land Rover, Jeep, Alfa Romeo, Fiat 500X, Porsche.** Dört aile (BMW N57 EGR soğutucusu, Chrysler / Jeep 3.6 Pentastar, Fiat / Alfa / Jeep 1.4 MultiAir, Land Rover 3.0 TDV6). Kayda özgü sorunlar: Jeep Cherokee KL 2.4 yağ tüketimi, Renegade / Compass 1.4 MultiAir turbo arızası; model geneli: Range Rover Sport ve Discovery 4 hava süspansiyonu, Alfa MiTo elektrikli direksiyon sensörü. 17 yeni kaydın 12'si aile bağlı; 15 satır `–`.
+- **Dilim 3 (ara kayıt 3, `b65f8d5`; 57 → 40): VAG.** 15 kayıt aileye bağlandı (Audi A3 8Y, Q3 F3, A1 GB 30 TFSI; VW Beetle, Scirocco, Golf Sportsvan; Skoda Roomster; Seat Altea); 12 satır `–`.
+- **Dilim 4 (ara kayıt 4, `fae52c8`; 40 → 21): Ford, Opel, Peugeot, Citroën, Fiat, Renault, Nissan, Touareg.** Bir aile (Renault / Nissan R9M 1.6 dCi biyel yatağı); kayda özgü: Peugeot 107 / 108 2-Tronic şanzıman; model geneli: Citroën Nemo / Bipper ön süspansiyon üst yatağı; aile bağları: Astra L, 5008 I, DS3 / DS4, Nemo / Bipper 1.3, Twingo III, Espace V, Pulsar C13; 14 satır `–` (Touareg dahil).
+- **Dilim 5 (ara kayıt 5, `724b0ad`; 21 → 0): Toyota, Mitsubishi, Suzuki, Subaru, Hyundai, Kia, MG, Ssangyong, Smart, Fiat Fullback.** Land Cruiser Prado 3.0 D-4D için kayda özgü enjektör sorunu; 11 kayıt aileye bağlandı (Proace City, Proace 1.6, i40, Carens, Soul, Optima 1.7, XCeed, Smart 453); 18 satır `–`.
+
+Dilim sayıları o dilimde `–` işlenen satırlardır; Fiat 500X satırı 1. dilimde `–` yazılıp 2. dilimde bölündüğü (1.4 MultiAir ◐, 1.3 FireFly `–`) için dilim toplamı (70) son durumdan (69) bir fazladır.
+
+### Eklenen kayıtlar (67 kayıt: 8 kayda özgü sorun, 7 yeni aile, 59 aile bağlı kayıt)
+
+Risk dağılımı: 16 yeni sorunun (8 kayda özgü, 8 aile sorunu) 6'sı Yüksek, 10'u Orta, Düşük yok.
+
+**Kayda özgü sorunlar (8):**
+
+- **Toyota Land Cruiser Prado J150 3.0 D-4D (1KD-FTV):** enjektör arızası ve enjektör yuvasından sızıntı, 75.000 - 140.000 km, Yüksek. Kaynaklar Avustralya'dan (AustralianCar.Reviews, Toyota Owners Club Avustralya); Türkçe sitelerde Prado ya da 1KD-FTV'ye özgü sonuç çıkmadı.
+- **Jeep Cherokee KL 2.4 (Tigershark):** aşırı yağ tüketimi ve yağ azalınca motorun durması, 45.000 - 105.000 km, Yüksek (CarComplaints, NHTSA, TopClassActions; ABD).
+- **Jeep Renegade / Compass 1.4 MultiAir Turbo:** turbo arızası, 35.000 - 65.000 km, Orta (Şikâyetvar, FiatForum).
+- **Peugeot 107 / 108 1.0 VTi 2-Tronic:** robotize şanzımanda kavrama aşınması ve aktüatör arızası, 35.000 - 95.000 km, Orta (beş site; C1 ve Aygo ile ortak şanzıman).
+- **Model geneli (4, kilometre yok):** Range Rover Sport ve Discovery 4 hava süspansiyonu kompresörü ve körük arızası (Orta); Alfa MiTo elektrikli direksiyon tork / açı sensörü arızası (Yüksek); Citroën Nemo / Bipper ön amortisör üst yatağı aşınması (Orta).
+
+**Yeni aileler (7):**
+
+- **BMW N57 3.0 dizel:** EGR soğutucusu sızıntısı ve emme manifoldu yangın riski (BMW'nin 2018 geri çağırması), 80.000 - 150.000 km, Yüksek; X3 F25, X4 F26, X5 F15, X6 F16 ve 7 Serisi F01 kayıtlarına bağlı. Kaynaklar ABD'den (BimmerPost, CarComplaints, NHTSA); kilometre aralığı forum vakalarından; kampanyanın Türkiye'deki araçları kapsayıp kapsamadığı doğrulanmadı.
+- **Chrysler / Jeep 3.6 Pentastar V6:** yağ soğutucusu / yağ filtresi yuvası sızıntısı (80.000 - 135.000 km) ve külbütör kolu / eksantrik mili aşınması (80.000 - 205.000 km), ikisi de Orta; Grand Cherokee WK2 ve Wrangler'a bağlı. Kaynaklar yalnızca ABD'den (CarComplaints, NHTSA, ClassAction.org); külbütör için anlatılan toplu dava kısmen reddedilmiş, iddialar kanıtlanmış değil.
+- **Fiat / Alfa Romeo / Jeep 1.4 MultiAir:** MultiAir ünitesi (hidrolik supap tahriki) arızası, 20.000 - 115.000 km, Orta; Giulietta, MiTo, 500X ve Renegade / Compass'a bağlı (FiatForum, Honest John, Otopark; kilometre dağınık vakalardan).
+- **Land Rover 3.0 TDV6 / SDV6:** krank mili ana yatak kovanı dönmesi ve yatak sarması, 70.000 - 85.000 km, Yüksek; Discovery 4 ve Range Rover Sport'a bağlı. Land Rover'ın özel servis mesajı (NHTSA) ve Türkçe vakalar dahil beş site.
+- **Land Rover Ingenium 2.0 dizel (TD4 / SD4):** yağ seyrelmesi, 10.000 - 20.000 km, Orta; Evoque ve Discovery Sport'a bağlı (Honest John, Parkers, DonanımHaber).
+- **Mercedes OM642 3.0 V6 CDI:** yağ soğutucusu contası sızıntısı, 100.000 - 190.000 km, Orta; CLS C218, ML / GLE W166 ve S W222'ye bağlı (MBWorld, BenzWorld, MB Club, Ekşi Sözlük).
+- **Renault / Nissan R9M 1.6 dCi:** biyel yatağı arızası ve motor kırılması (bazı üretim partilerinde karter çatlağı), 45.000 - 180.000 km, Yüksek; Espace V, Talisman, Qashqai J11 ve X-Trail T32'ye bağlı. Kaynaklar Fransa'dan (L'argus, Fiches-Auto, Caradisiac); Renault'nun karter-blok kampanyası Fransa'da 1.474 aracı kapsıyor, Türkiye'deki geçerliliği doğrulanmadı.
+
+**Aile bağlı (◐) 59 kayıt, marka bazında:** Volkswagen 7, BMW 6, Kia 6, Mercedes-Benz 5, Audi 4, Land Rover 4, Citroën 3, Renault 3, Alfa Romeo 2, Fiat 2, Hyundai 2, Jeep 2, Nissan 2, Opel 2, Peugeot 2, Seat 2, Skoda 2, Toyota 2, Smart 1. Ayrıca altı mevcut kayıt yeni ailelere bağlandı (BMW X3 F25 ve X5 F15 → N57; Nissan Qashqai J11 iki kayıt, X-Trail T32 ve Renault Talisman → R9M).
+
+**Aile açıklamaları genişletildi:** Mercedes OM651 (GLK, ML / GLE, CLS, Vito), Fiat 1.3 Multijet (Qubo, Panda, 500L), PSA DV5, DV6 ve BlueHDi AdBlue (Toyota Proace / Proace City), Hyundai / Kia U2 CRDi (i40, Carens, Soul, Optima), Gamma GDI (i40, Carens, Soul) ve 7DCT (XCeed). AdBlue sorununa Proace City için Şikâyetvar sayfası eklendi.
+
+### Kanıt durumu
+
+- **16 yeni sorundan 6'sı yalnızca iki siteyle** (sınırlı doğrulama): Nemo / Bipper üst yatağı, Renegade / Compass turbo, Discovery 4 hava süspansiyonu, Prado enjektör ve Pentastar'ın iki sorunu. Doğrulayıcının bildirdiği toplam 127'den 133'e çıktı.
+- **6 yeni sorunun Türkçe kaynağı yok:** Cherokee KL 2.4 yağ tüketimi (ABD), Prado enjektör (Avustralya), N57 EGR soğutucusu (ABD), Pentastar'ın iki sorunu (yalnızca ABD) ve R9M biyel yatağı (Fransa). Bu sorunların Türkiye'deki araçlarda aynı sıklıkta görülüp görülmediği bilinmiyor; maliyetler (varsa) yabancı para birimindedir.
+- **Kilometre aralıkları bildirilen vaka sınırlarıdır, ortalama ömür değildir.** Prado için kaynak "çoğu 120.000 - 140.000 km, en erken yaklaşık 75.000 km, bazıları 250.000 km'ye dayanıyor" diyor; aralık 75.000 - 140.000 km olarak yazıldı. N57 aralığı ABD forum vakalarından, MultiAir aralığı dağınık vakalardan (12.000 mil ile 70.000 mil arası bildirimler) derlendi.
+- **Site düzeyinde yazılan atıflar:** arama özetleri iddiayı hangi sayfaya bağladığını belirtmediğinde iddia site düzeyinde yazıldı (Prado ayrıntısındaki enjektör yuvası sızıntısı, yağ emme kafesi ve EGR kanalı anlatımları; Toyota Owners Club bölümündeki Hilux konusu 1KD-FTV ortak motor olduğu için kullanıldı).
+- **Model–motor–şanzıman eşleşmeleri** (59 yeni ◐ kayıt ve altı yeni bağ) benim bilgime dayanıyor, üretici kataloglarıyla tek tek doğrulanmadı.
+
+### Araştırılıp kaydı açılmayan 69 grup (`–`)
+
+Ayrıntılı notlar [KAPSAM.md](KAPSAM.md) içinde. Marka bazında:
+
+- **VAG (13):** Audi A6 C8, A5 F5, A7 4G, Q7 3.0 TDI, TT 8S, A1 GB 25 TFSI; Volkswagen Touareg 3.0 TDI, up! 1.0 MPI, Scirocco 2.0 TDI; Skoda Citigo; Seat Alhambra, Mii, Altea 2.0 TDI.
+- **BMW ve Mini (5):** X2 F39, 2 Serisi F44 216d / 220i, X4 G02, 7 Serisi G11; Mini Countryman F60.
+- **Mercedes, Volvo, Porsche (8):** CLA C118, Viano W639, Sprinter W907, Vito W447 1.6, S W222 S 400; Volvo S80 / V70 / XC70 D5 / D4; Porsche Macan ve Cayenne 958.
+- **Land Rover, Jeep, Alfa Romeo (8):** Evoque 2.2 SD4 / 2.0 Si4, Discovery 4 2.7 TDV6; Jeep Grand Cherokee WK2 3.0 CRD, Wrangler 2.8 CRD / 2.0 turbo, Cherokee KL 2.0 MultiJet; Alfa Romeo Giulia, Stelvio, MiTo 1.3 JTDm.
+- **Fiat, Ford, Opel, PSA, Renault, Nissan (18):** Fiat Bravo, Scudo / Talento, Fullback, 500X 1.3 FireFly; Ford Kuga 1 Powershift, Ka 1.2; Opel Insignia B, Zafira B, Adam / Karl, Antara; Citroën C5, Peugeot 5008 I 2.0 HDi; Renault Austral, Kangoo 3 1.3 TCe, Twingo III 1.0 SCe, Espace V 1.6 TCe; Nissan X-Trail T31 2.0 dCi, Murano Z51.
+- **Asya ve Smart (17):** Toyota Prado 2.7 ve Proace 2.0 D-4D; Mitsubishi Outlander, Pajero, Eclipse Cross; Suzuki Jimny, Baleno / Ignis; Subaru Forester 2.0D, Outback, Impreza 1.6; Hyundai Creta / Venue; Kia Optima 2.0, Seltos; MG ZS; Ssangyong Korando / Tivoli, Rexton; Smart 453 1.0.
+
+Nedenler beş grupta toplanıyor (bir grup birden çok nedene girebilir; örnekler notlardan):
+
+- **Kilometre aralığı çıkmadı ya da tutarsız (en yaygın neden):** anlatımlar var ama arızanın hangi kilometrede çıktığı yazılmıyor ya da vakalar birbirini tutmuyor. Viano W639 (enjektör keçesi sızıntısı yaygın anlatılıyor, kilometre yok), Volvo D5, up! / Citigo / Mii ASG (5.000 ile 34.000 mil arası), Kuga 1 Powershift, Zafira B, Bravo, Scudo / Talento, X-Trail T31, C5, Touareg, Ka, Pajero, Forester, Austral, Grand Cherokee WK2 3.0 CRD ve Cherokee KL 2.0 MultiJet (9 ileri ZF için ABD toplu davası ve garanti uzatması var, Türkiye'deki araçlar için kilometre çıkmadı).
+- **Nesil, pazar ya da motor eşleşmedi:** Cayenne 958 (kaynaklar 955 / 957), Insignia B 2.0 CDTI (kaynaklar Insignia A), Vito W447 (kaynaklar eski kasa ve OM626), Fullback (kaynaklar L200 ve kısmen eski 2.5 motor), Scudo / Talento (PSA DW10 ile Renault motoru ayrılamadı), Alhambra ve Adam / Karl (model ve motor ayrımı yapılamadı), Outlander, Eclipse Cross, Murano Z51, Optima 2.0, Seltos ve Venue (ABD pazarı kaynakları), Forester 2.0D (2008-2010 dizeller), Impreza 1.6 (bültenler FB20 / FB25 için), Evoque 2.0 Si4 (şikâyetler motor tipini belirtmiyor).
+- **Tek site ya da tekil şikâyet:** A6 C8, Stelvio, Sprinter W907, Austral, Kangoo 3, Macan, Countryman F60, Antara (transfer kutusu tek siteden), Korando / Tivoli, MG ZS; Şikâyetvar kayıtları tekil, ikinci bağımsız kaynak yok.
+- **Kaynak çıkmadı:** Espace V 1.6 TCe, 7 Serisi G11, X4 G02, TT 8S, A1 GB 25 TFSI, Prado 2.7; Pajero 4M41 için İngilizce aramada ilgili sonuç çıkmadı.
+- **Kronik sorun çıkmadı:** Jimny, Baleno / Ignis ve Alfa MiTo 1.3 JTDm için kaynaklar kronik bir motor ya da şanzıman sorunu göstermiyor (genel olumlu yorumlar ve tekil şikâyetler).
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- **BMW X2 F39 xDrive:** enine motorlu UKL platformunda olduğu için boyuna platformlar (X3, X4, X5, X6) için kurulan xDrive transfer kutusu (ATC) ailesine bağlanmadı.
+- **Fiat 500X:** ABD'deki 2.4 Tigershark sınıf davası ve CarComplaints sonuçları Türkiye'deki 1.4 MultiAir ve 1.3 FireFly motorlarına uygulanmadı.
+- **Evoque / Discovery Sport:** içeriği doğrulanamayan bir NHTSA PDF'i kaynak olarak eklenmedi; dizel yağ seyrelmesi kaynakları Honest John, Parkers ve DonanımHaber.
+- **Ford Kuga 1 Powershift:** ıslak kavramalı 6DCT450 olduğu için kuru kavramalı DPS6 ailesine bağlanmadı.
+- **Mercedes ML / GLE W166 ve CLS:** 7G-Tronic ailesine bağlanmadı (9G-Tronic olasılığı nedeniyle).
+- **Kia Optima:** ABD'deki Hybrid / Plug-in biyel yatağı geri çağırması (21V-844) ve toplu dava uzlaşması benzinli 2.0'a uygulanmadı.
+- **Prado piston çatlağı:** yalnızca tek kaynakta anıldığı için ayrı sorun açılmadı; enjektör sorununun ayrıntısında "tek kaynakta" notuyla geçiyor.
+- **Pentastar külbütör davası:** kısmen reddedilmiş bir dava olduğundan iddia olarak yazıldı.
+- **Touareg 3.0 TDI satırı 3. dilimde atlanmıştı;** 4. dilimde fark edilip `–` işlendi.
+- **Ara kayıt commit mesajlarındaki sayı hataları** (mesajlar yeniden yazılmadı): ara kayıt 3 mesajı "sırada 57 → 38" ve "15 satır `–`" diyor ve Touareg'i `–` listesinde sayıyor; doğrusu 57 → 40, 12 satır `–` ve Touareg 4. dilimde. Ara kayıt 4 mesajı "40 → 20" diyor; doğrusu 40 → 21 (Fullback 5. dilimde işlendi). Doğru sayılar yukarıdaki dilim listesindedir.
+
+### Dikkat edilecek sınırlar
+
+- **Kilometre bilgisi yok (90 model geneli sorunun 90'ı):** kaynaklar yazmadığı için aralık uydurulmadı; görüntüleyicide "Kaynaklarda kilometre bilgisi yok" etiketiyle görünür ve kilometre filtresiyle elenmez.
+- **Doğrulama yine arama özetleriyle yapıldı; `WebFetch` kapalıydı.** Özetler, sayfaları yorumlayan bir araçtan geliyor; rakam ve alıntılar için asıl sayfaya bakmak gerekir. Bir bağlantıda iddiayı bulamazsanız o maddeyi bildirin.
+- **Yabancı pazar kaynakları:** Pentastar, N57, Cherokee KL 2.4 ABD'deki araçlara, Prado Avustralya'ya, R9M Fransa'ya dayanıyor. Türkiye'de aynı motor / parti / kampanya kapsamı doğrulanmadı.
+- **Sıklık bilgisi yok.** Her sorun "sahipler bildirdi" düzeyindedir; risk seviyesi README'deki ölçeğe göre editoryal bir sınıflandırmadır.
+- **Kanıtı yetersiz grupların çoğu "kaynak yok" demek değildir:** çoğunda tekil şikâyetler, yabancı pazar kayıtları ya da kilometresiz anlatımlar var; bunlar kronik sorun sayılacak tutarlılıkta değildi ve notlara yazıldı.
+- **Model geneli taraması kısmi:** 391 motor kaydından 227'si taranmamış bir modele ait görünüyor (13. aşamada eklenen 63 motor kaydının 48'i dahil); satırı olmayan bir modelde bu sorunlar aranmamıştır.
+- **Listede olmayan modeller** (12. aşamadaki liste: Ford Transit Custom / Tourneo Custom, Citroën Jumpy / Jumper, Peugeot Expert / Boxer, Tesla Model 3 ve hacmi düşük modeller) hâlâ geçerli.
+- **Kapsam soruları açık:** (1) 2011 öncesi model yılı penceresi hâlâ dışarıda. (2) Hibrit ve plug-in hibritler kapsam dışı.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen 57 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı; 7. aşamada Astra 1.3 CDTI Easytronic eklendi; 8. aşamada Leon KL 48V, Superb IV 48V, Karoq titreşimi ve Audi A3 8Y 48V eklendi; 9. aşamada Jetta DSG mekatroniği, Ceed 7DCT ve Qashqai 1.3 DIG-T'nin iki sorunu eklendi) üçüncü bir kaynak eklenebilir. 11. aşamada eklenen model geneli sorunların 51'i, 12. aşamada eklenenlerin 13'ü yalnızca iki siteyle destekleniyor (doğrulayıcının bildirdiği toplam: 127).
-3. Kanıtı yetersiz bulunan 264 grup (186'sı motor ve şanzıman, 78'i model geneli) için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur.
+2. Yalnızca iki siteyle desteklenen 57 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı; 7. aşamada Astra 1.3 CDTI Easytronic eklendi; 8. aşamada Leon KL 48V, Superb IV 48V, Karoq titreşimi ve Audi A3 8Y 48V eklendi; 9. aşamada Jetta DSG mekatroniği, Ceed 7DCT ve Qashqai 1.3 DIG-T'nin iki sorunu eklendi) üçüncü bir kaynak eklenebilir. 11. aşamada eklenen model geneli sorunların 51'i, 12. aşamada eklenenlerin 13'ü ve 13. aşamada eklenen altısı (Nemo / Bipper üst yatağı, Renegade / Compass turbo, Discovery 4 hava süspansiyonu, Prado enjektör, Pentastar'ın iki sorunu) yalnızca iki siteyle destekleniyor (doğrulayıcının bildirdiği toplam: 133).
+3. Kanıtı yetersiz bulunan 331 grup (253'ü motor ve şanzıman, 78'i model geneli) için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9, Audi A6 C8, Mercedes Sprinter W907, Renault Austral) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur. Nedeni "kilometre yok ya da tutarsız" olanlar (ör. Mercedes Viano W639, Mitsubishi Pajero, Ford Kuga 1 Powershift, Opel Zafira B, Fiat Bravo ve Scudo) için arızanın çıktığı kilometreyi veren iki bağımsız kaynak yeterli olur.
 4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 104 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
 5. Elektrikli araçlarda geri çağırma kaydı bulunan ama Türkiye kapsamı doğrulanamayan aileler (Volvo EX30, VW ID. serisi, Mini Cooper SE, BMW iX / i4, Audi e-tron GT) için Türkiye distribütörlerinin duyuruları ya da Ticaret Bakanlığı geri çağırma kayıtları bulunursa kayıt açılabilir.
 6. Hibrit ve plug-in hibrit araçlar (Toyota hibritleri, BYD Seal U DM-i gibi) bu aşamada kapsam dışı bırakıldı; istenirse aynı kurallarla eklenebilir.
 7. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.
-8. **Aile bağlarının doğrulanması:** 285 kaydın hangi motor ve şanzımanla satıldığı üretici ya da distribütör kataloglarından tek tek kontrol edilebilir; özellikle Türkiye'de satılıp satılmadığı belirsiz kombinasyonlar (ör. Stonic 1.6 CRDi, Rio YB 1.0 T-GDI 7DCT, Yaris XP210 benzinli 1.5) için.
-9. **Aile sorunlarının güçlendirilmesi:** tek modelin kaynağına dayanan aile sorunları (ör. 7G-Tronic iletken plaka, Multitronic, Subaru FB20, A16XER) başka bir modelin kaynağıyla desteklenebilir; 2.0 TDI (EA189 / EA288), 1.0 TSI (EA211 üç silindir) ve R9M 1.6 dCi gibi büyük ailelerin henüz sorunu yok.
-10. **88 "sırada" satırı** aynı döngüyle (önce aile, sonra Türkçe arama) işlenebilir; öncelik Land Rover Evoque ve Discovery Sport (Ingenium), Mercedes GLE W166 ve Vito, BMW X2 / 2 Serisi F44 dizel, Audi A6 C8 / A3 8Y 30 TFSI / Q3 F3, Fiat Bravo (1.4 T-Jet / 1.6 Multijet) ve Panda 1.3, Renault Kangoo 3, Opel Insignia B 1.5 Turbo / 2.0 CDTI, Ford Puma 1.0 EcoBoost. 11. aşamada eklenen on satırın dokuzu 12. aşamada arandı (hepsi `–`; CX-30 satırı kaldırıldı).
-11. **Model geneli taramasının sürdürülmesi:** 179 motor kaydı hâlâ taranmamış bir modele ait görünüyor. Model geneli satırı olmayan modeller (kabaca): Audi A5 8T; Chevrolet Cruze; Citroën ë-C4; Cupra Formentor; Dacia Jogger ve Sandero (2021-); Fiat 500L, 500X ve 600e; Ford B-Max ve Transit Connect; Hyundai Ioniq 5 / 6 (EV6 ile birlikte `–`, motor satırları ayrı); Jeep Avenger Electric; Kia EV3; Mercedes Citan, Sprinter, Vito, GLK, EQA / EQB ve EQC; Opel Astra H, Corsa-e / Mokka-e ve Astra Electric; Peugeot 308 T7, e-208 ve e-308; Porsche Taycan; Renault Arkana, Scenic 4, Taliant, Zoe ve Laguna 3; Seat Toledo; Skoda Kamiq / Scala; VW Arteon, Jetta ve T-Cross / Taigo.
+8. **Aile bağlarının doğrulanması:** 347 kaydın hangi motor ve şanzımanla satıldığı üretici ya da distribütör kataloglarından tek tek kontrol edilebilir; özellikle Türkiye'de satılıp satılmadığı belirsiz kombinasyonlar (ör. Stonic 1.6 CRDi, Rio YB 1.0 T-GDI 7DCT, Yaris XP210 benzinli 1.5, Soul AM 1.6 CRDi, Optima 1.7 CRDi, XCeed 1.4 T-GDI, Proace City 1.5) için.
+9. **Aile sorunlarının güçlendirilmesi:** tek modelin kaynağına dayanan aile sorunları (ör. 7G-Tronic iletken plaka, Multitronic, Subaru FB20, A16XER) başka bir modelin kaynağıyla desteklenebilir; 2.0 TDI (EA189 / EA288) ve 1.0 TSI (EA211 üç silindir) gibi büyük ailelerin henüz sorunu yok. 13. aşamada kurulan Pentastar, N57 EGR soğutucusu, R9M biyel yatağı ve Prado enjektör sorunları yalnızca yabancı pazar kaynaklarına (ABD, Fransa, Avustralya) dayanıyor; Türkçe bir kaynak bulunursa güçlenir.
+10. **"Sırada" satırı kalmadı** (13. aşamada 88 satırın hepsi işlendi); yeni plan satırı eklenirse aynı döngü uygulanır (önce aile, sonra Türkçe arama, sonra yabancı ikinci kaynak). 13. aşamada `–` bırakılan 69 gruptan ikinci kaynak çıkabilecek olanlar (kabaca): Mitsubishi Outlander ve Eclipse Cross (CVT), Suzuki Jimny, Audi A6 C8 ve A7 4G, Mercedes Vito W447 ve Sprinter W907, Fiat Scudo / Talento ve Bravo, Ford Kuga 1 Powershift, Land Rover Evoque 2.2 SD4, Renault Austral ve Kangoo 3 1.3 TCe.
+11. **Model geneli taramasının sürdürülmesi:** 227 motor kaydı hâlâ taranmamış bir modele ait görünüyor (13. aşamada eklenen 63 motor kaydından 48'i bunlara dahil: Prado, Proace / Proace City, i40, Carens, Soul, Optima, XCeed, Smart 453, Jeep Cherokee KL / Grand Cherokee WK2 / Wrangler, BMW 7 Serisi F01 / X4 F26 / X6, Mercedes CLS C218 / ML-GLE W166 / S W222, VW Beetle / Golf Sportsvan / Scirocco vb.). Model geneli satırı olmayan modeller (kabaca): Audi A5 8T; Chevrolet Cruze; Citroën ë-C4; Cupra Formentor; Dacia Jogger ve Sandero (2021-); Fiat 500L, 500X ve 600e; Ford B-Max ve Transit Connect; Hyundai Ioniq 5 / 6 (EV6 ile birlikte `–`, motor satırları ayrı); Jeep Avenger Electric; Kia EV3; Mercedes Citan, Sprinter, Vito, GLK, EQA / EQB ve EQC; Opel Astra H, Corsa-e / Mokka-e ve Astra Electric; Peugeot 308 T7, e-208 ve e-308; Porsche Taycan; Renault Arkana, Scenic 4, Taliant, Zoe ve Laguna 3; Seat Toledo; Skoda Kamiq / Scala; VW Arteon, Jetta ve T-Cross / Taigo.
 12. **`–` kalan model geneli sorunlar:** Şikâyetvar'da tekrar eden konular (Passat B7 / B8 cam tavan çerçevesi, Kadjar yan aynaları, 301 / C-Elysée boyası, Rapid boyası, i30 GD cam tavan kasası, Tucson TL cam tavan perdesi ve direksiyon kilidi, Talisman R-Link 2, Insignia B deri direksiyon, Atto 3 amortisör sesi vb.) için DonanımHaber, Otopark ya da bir yabancı forumda ikinci kaynak bulunursa ✓'ye çevrilebilir. Türkçe kaynağı olmayan dört sorun (Q5 8R, Focus 3, Yeti, XC60) için Türkçe bir site kaydı bulunursa güçlenir.
