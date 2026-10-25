@@ -136,7 +136,7 @@ def uret():
         "elektrikli araca özgü parçalara aittir. Geri çağırma kaydı olan sorunlarda Türkiye kapsamı doğrulanamıyorsa bu kayıtta ve plan notunda belirtilir. "
         "Aynı batarya ve motor değerlerine sahip kardeş modelin kaynağı yalnızca ilgili kayıtta açıkça belirtilerek kullanılabilir (ör. Astra Electric ve Peugeot e-308).",
         "- **Hibrit ve plug-in hibrit araçlar (14. aşamadan itibaren):** Tam hibritler (ör. Toyota 1.8 Hybrid), hafif hibritler (48V) ve plug-in hibritler "
-        "(PHEV; ör. Volvo T8, Passat GTE, Kuga PHEV) kapsamdadır. `motor` alanı içten yanmalı motoru ve hibrit sistemi birlikte söyler; plug-in sürümlerde `PHEV` ibaresi ve varsa batarya kapasitesi yer alır. "
+        "(PHEV; ör. Volvo T8, BMW X5 xDrive45e, MG HS PHEV) kapsamdadır. Türkiye'de satıldığı kaynakla gösterilemeyen modeller (ör. Kuga PHEV) plana alınmaz. `motor` alanı içten yanmalı motoru ve hibrit sistemi birlikte söyler; plug-in sürümlerde `PHEV` ibaresi ve varsa batarya kapasitesi yer alır. "
         "Sorunlar içten yanmalı motora ve şanzımana, hibrit sisteme özgü parçalara (yüksek voltlu batarya, inverter, DC-DC dönüştürücü, şarj girişi ve şarj cihazı, 12V akü) ve yazılıma ayrılır; "
         "aynı içten yanmalı motoru kullanan sürümler o motorun ailesine bağlanır. Kanıt kuralı değişmez: her sorun için iki bağımsız site, bunlardan biri deneyim ya da resmî türünde.",
         "- **Sıralama:** Genelden özele gidilir. Önce her markanın en çok satılan ve en çok sorgulanan modelleri ile ana motor grupları "

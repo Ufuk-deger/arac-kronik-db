@@ -2552,20 +2552,22 @@
     },
     {
       "marka": "Kia",
-      "model": "Niro / Cerato / Sorento",
+      "model": "Cerato / Sorento",
       "yillar": "2011-",
-      "motor": "Hybrid / 1.6 / 2.2 CRDi",
+      "motor": "1.6 / 2.2 CRDi",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Niro"
+          "Cerato",
+          "Sorento ("
         ],
         "motor": [
-          ""
+          "1.6",
+          "2.2"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Cerato ve Niro için sonuç çıkmadı; Sorento 2.2 CRDi için yalnızca tekil şikâyetler var."
+      "not": "Cerato için sonuç çıkmadı; Sorento 2.2 CRDi için yalnızca tekil şikâyetler var. Niro ve Sorento hibrit sürümleri Faz 14'te ayrı satırlara alındı."
     },
     {
       "marka": "Honda",
@@ -3844,8 +3846,7 @@
           "DCT"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şanzıman gecikmesi şikâyetleri yalnızca Şikâyetvar'da; model yılı ve sürüm bilgisi doğrulanamadı."
+      "not": "Faz 14: Şikâyetvar, Ekşi Sözlük ve DonanımHaber'de düşük hızda DCT vites geçiş gecikmesi ve sarsıntısı birbirini doğruluyor; kilometre bilgisi az, resmî kaynak yok. Şikâyetvar'da tek vakalar da var: 2023 model Luxury'de 7.500 km'de on kez şanzıman arızası, 2025'te sıfır alınan araçta altı ay sonra başlayan arıza."
     },
     {
       "marka": "Lexus",
@@ -7173,10 +7174,12 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "G05"
+          "X5 (G05"
         ],
         "motor": [
-          ""
+          "30d",
+          "40d",
+          "B57"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -13292,19 +13295,17 @@
       "marka": "Nissan",
       "model": "X-Trail T33",
       "yillar": "2022-",
-      "motor": "1.5 VC-Turbo / e-POWER",
+      "motor": "e-POWER (1.5 VC-Turbo jeneratör motoru)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "X-Trail (T33"
         ],
         "motor": [
-          "1.5",
           "e-POWER"
         ]
       },
-      "not": "Faz 14'te arandı: Şikâyetvar'da e-POWER'da altı ayda üç kez yolda kalma (akü değişti), 30.000 km'de gece boyunca akü boşalması, jeneratör arızası nedeniyle bir ayı aşan serviste bekleme ve parça ithalatı beklemesi; 1.5 VC-Turbo'da üç ayda üç kez yolda kalma tekil. Ekşi Sözlük'te bir kullanıcı dünya genelinde e-POWER arıza vakasına rastlamadığını yazıyor. İkinci bağımsız doğrulama yok.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 14: bu satır Nissan e-POWER ailesinin ortak akü boşalması sorununu gösterir (X-Trail için kaynak yalnızca Şikâyetvar; ikinci site Qashqai e-POWER kaydından gelir). Şikâyetvar'da jeneratör arızası nedeniyle bir ayı aşan serviste bekleme, parçanın yurt dışından gelmesi ve 1.5 VC-Turbo'da (e-POWER'sız) üç ayda üç kez yolda kalma tekil; bir forum yorumu jeneratör sorunlarının bilindiğini, başka bir yorum sayılı vaka olduğunu yazıyor. Ekşi Sözlük'te bir kullanıcı dünya genelinde e-POWER arıza vakasına rastlamadığını yazıyor."
     },
     {
       "marka": "Alfa Romeo",
@@ -13460,6 +13461,241 @@
         ]
       },
       "not": "Toyota Owners Club'da bir Auris Hybrid sahibi bataryanın 147.000 milde erken arızalandığını yazıyor. Faz 14: modele özgü kaynak çıkmadı; bu satır Toyota hibrit sistemi (HSD) ailesinin ortak sorunlarını gösterir (12V yardımcı akü boşalması ve 'hibrit sistem arızası' uyarıları; eski Yaris / Auris Hybrid'de yüksek voltlu batarya ömrü: Şikâyetvar, DonanımHaber, Toyota Owners Club, Toyota servis bültenleri)."
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 T8",
+      "yillar": "2018-",
+      "motor": "T8 AWD plug-in hibrit (2.0 turbo + kompresör, elektrik)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "XC60 (2018"
+        ],
+        "motor": [
+          "T8"
+        ]
+      },
+      "not": "Faz 14: modele özgü kaynak çıkmadı; bu satır Volvo plug-in hibrit yüksek voltlu batarya ailesinin ortak sorununu (R10312 geri çağırması) gösterir. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; Şikâyetvar'daki T8 sahipleri uzaktan klima, SOS lambası ve ön panjur gibi konuları anlatıyor."
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC90 T8",
+      "yillar": "2016-",
+      "motor": "T8 AWD plug-in hibrit (2.0 turbo + kompresör, elektrik)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "XC90 (2016"
+        ],
+        "motor": [
+          "T8"
+        ]
+      },
+      "not": "Faz 14: modele özgü kaynak çıkmadı; bu satır Volvo plug-in hibrit yüksek voltlu batarya ailesinin ortak sorununu (R10312 geri çağırması) gösterir. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; Şikâyetvar'daki T8 sahipleri uzaktan klima, SOS lambası ve ön panjur gibi konuları anlatıyor."
+    },
+    {
+      "marka": "BMW",
+      "model": "X5 G05 PHEV",
+      "yillar": "2018-",
+      "motor": "xDrive45e plug-in hibrit (3.0 B58 + elektrik)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "X5 (G05"
+        ],
+        "motor": [
+          "xDrive45e"
+        ]
+      },
+      "not": "Faz 14: modele özgü kaynak çıkmadı; bu satır BMW plug-in hibrit batarya ailesinin ortak sorununu (20V-601 geri çağırması) gösterir. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; Şikâyetvar'da bir X5 xDrive45e sahibi batarya ya da S-Box arızası şüphesiyle haftalarca serviste beklemiş (tekil)."
+    },
+    {
+      "marka": "BYD",
+      "model": "Seal U DM-i",
+      "yillar": "2023-",
+      "motor": "1.5 DM-i plug-in hibrit",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Seal U"
+        ],
+        "motor": [
+          "DM-i"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da şarj ünitesi %25 görünürken aracın uyarısız durması, 25.000 km'de benzinli motorun devreye girmemesi ve motor arıza lambası, pil arızasıyla yolda kalma (onarım haftalarca sürmüş), şarj kablosu takılıyken vitese geçilememesi, bagaj tablasının kırılması, mobil uygulama bağlantısı ve parça bekleme tekil ya da servis süreçlerine ilişkin; ikinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Kona Hybrid",
+      "yillar": "2019-",
+      "motor": "1.6 GDI Hybrid (6DCT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Kona"
+        ],
+        "motor": [
+          "Hybrid"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da bir Kona Hibrit sahibi ikinci elde otobanda yağ soğutucusunun patladığını ve önceden enjektör sorunları yaşandığını yazıyor; 2023 model bir Kona'da 30.000 km'de şanzıman sorunları (motor tipi belirtilmemiş) tekil. Hibrit sisteme özgü tekrar eden ve kilometre bilgili bir sorun, ikinci siteyle doğrulanamadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Tucson NX4 Hybrid",
+      "yillar": "2021-",
+      "motor": "1.6 T-GDI Hybrid (6AT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tucson (NX4"
+        ],
+        "motor": [
+          "Hybrid"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'daki Tucson 12V akü boşalması şikâyetleri ağırlıklı olarak dizel araçlara ait; 2024 model bir Tucson'da 5.000 km'de şanzıman arızası (motor tipi belirtilmemiş) tekil. Consumer Reports'ta 2025-2026 Tucson Hybrid için gösterge paneli yazılım geri çağırması anılıyor (ABD; Türkiye kapsamı doğrulanamadı).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Ioniq Hybrid",
+      "yillar": "2016-2022",
+      "motor": "1.6 GDI Hybrid (6DCT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Ioniq"
+        ],
+        "motor": [
+          "Hybrid"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da bir Ioniq sahibi hibrit sistem arızası, akü yönetim ünitesinin değişmesi gerektiği ve yaklaşık 204.000 TL talep edildiğini yazıyor (tek vaka). Consumer Reports'un ABD sahip verisinde 2020 model bir Ioniq Hybrid için 12V sıfırlama düğmesiyle çalıştırma ve garantide hibrit sistem değişimi (parça haftalarca beklemiş) tekil. Tekrar eden ve kilometre bilgili bir örüntü çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Kia",
+      "model": "Niro Hybrid",
+      "yillar": "2016-",
+      "motor": "1.6 GDI Hybrid (6DCT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Niro"
+        ],
+        "motor": [
+          "Hybrid"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2022 model Niro'da debriyaj seti arızası ve parça gecikmesi ile Apple CarPlay bağlantısının kopması tekil; Niro PHEV için veri çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Kia",
+      "model": "Sportage NQ5 Hybrid",
+      "yillar": "2022-",
+      "motor": "1.6 T-GDI Hybrid (6AT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Sportage (QL FL / NQ5"
+        ],
+        "motor": [
+          "Hybrid"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da Sportage Hybrid şanzıman kategorisinde 32 şikâyet görünüyor ve bir sahip internette DCT sorunu okuduğunu yazıyor; bir forum yazarı hibrit sürümün çift kavramalı değil tork konvertörlü olduğunu belirtiyor (resmî kaynak değil). Sistematik, kilometre bilgili bir sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Kia",
+      "model": "Sorento Hybrid",
+      "yillar": "2021-",
+      "motor": "1.6 T-GDI HEV (6AT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Sorento"
+        ],
+        "motor": [
+          "HEV"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2022 model Sorento Hybrid'de batarya boşalması ve çekiş kaybı (iki ayda iki kez), hibrit motorun kalkışta titremesi ve hibrit moda geçmemesi, seyir halinde ani çekiş kaybı tekil; ikinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Nissan",
+      "model": "Qashqai J12 e-POWER",
+      "yillar": "2021-",
+      "motor": "e-POWER (1.5 VC-Turbo jeneratör motoru)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Qashqai (J12"
+        ],
+        "motor": [
+          "e-POWER"
+        ]
+      },
+      "not": "Faz 14: bu satır Nissan e-POWER ailesinin ortak akü boşalması sorununu gösterir; kaynaklar Qashqai (Şikâyetvar, DonanımHaber) ve X-Trail (Şikâyetvar) kayıtlarını birleştirir. Şikâyetvar'da Qashqai e-POWER için e-GÜÇ sistemi arızası (kapatma sonrası yeniden başlatılamama), jeneratör değişimi, motor ve jeneratör gürültüsü ile fren sürtme sesi tekil."
+    },
+    {
+      "marka": "MG",
+      "model": "EHS / HS PHEV",
+      "yillar": "2022-",
+      "motor": "1.5 T-GDI plug-in hibrit",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "EHS",
+          "HS PHEV"
+        ],
+        "motor": [
+          "PHEV"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da EHS plug-in hibritte şarj olmama nedeniyle 22 gün serviste kalma (parça başka araçtan alınarak giderilmiş) ve yeni HS PHEV'de i-Smart bağlantısının aylarca devreye girmemesi tekil; yeni HS'te (sürüm belirtilmemiş) 12V akü arızasıyla iki-üç ayda bir servise gitme tekil. DonanımHaber ve Ekşi Sözlük'te PHEV için arıza bildirimi çıkmadı (sahipler evden şarjı ve tüketimi anlatıyor). EHS Ocak 2022'de, yeni nesil HS PHEV 2024'te satışa çıktı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Honda",
+      "model": "HR-V e:HEV",
+      "yillar": "2022-",
+      "motor": "1.5 e:HEV (hibrit)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "HR-V"
+        ],
+        "motor": [
+          "e:HEV"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2025 model sıfır araçta bir hafta içinde akünün bitmesi ve bir haftalık kullanmama sonrası aracın çalışmaması (yol yardımı), Android Auto ve navigasyon bağlantısının kopması tekrar eden başlıklar; akünün türü belirtilmiyor. Şanzıman şikâyeti çıkmadı; DonanımHaber'deki sahip incelemesi genel olarak olumlu. İkinci bağımsız site çıkmadı. e:HEV Mart 2022'de Türkiye'de satışa çıktı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat B9 e-Hybrid",
+      "yillar": "2024-",
+      "motor": "1.5 TSI e-Hybrid plug-in hibrit",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Passat (B9"
+        ],
+        "motor": [
+          "e-Hybrid"
+        ]
+      },
+      "not": "Faz 14'te arandı: DonanımHaber'de Passat B9 e-Hybrid kullanıcı konusu var (Türkiye'de satışı doğrulandı); sahibin yazdığına göre 19,7 kWh batarya, AC 11 kW ve DC 50 kW şarj, DQ400e şanzıman. Sorun bildirimi çıkmadı; Şikâyetvar'daki Passat tahrik sistemi hatası şikâyeti PHEV olduğunu belirtmiyor. VW Grubu'nun 2022 PHEV geri çağırması KBA'ya göre 2019-2022 üretimini kapsıyor; B9 e-Hybrid'in kapsamda olduğuna dair kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }
