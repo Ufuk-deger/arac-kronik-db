@@ -3246,14 +3246,15 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Caddy"
+          "Caddy (2K",
+          "Caddy (SA"
         ],
         "motor": [
           "2.0 TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "2.0 TDI için Caddy'ye özgü kaynaklar Şikâyetvar (DPF, AdBlue) ile sınırlı; ikinci bağımsız kaynak bulunamadı."
+      "not": "Faz 19: 2020 sonrası Caddy 5 (2.0 TDI 122) ayrı satıra alındı. Önceki not: 2.0 TDI için Caddy'ye özgü kaynaklar Şikâyetvar (DPF, AdBlue) ile sınırlı; ikinci bağımsız kaynak bulunamadı."
     },
     {
       "marka": "Mercedes-Benz",
@@ -3562,14 +3563,14 @@
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Transit Custom"
+          "Transit Custom (2012"
         ],
         "motor": [
           "EcoBlue"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Yağ tüketimi ve turbo şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız kaynak bulunamadı."
+      "not": "Faz 19: 2024 sonrası Transit Custom ayrı satıra alındı. Önceki not: Yağ tüketimi ve turbo şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız kaynak bulunamadı."
     },
     {
       "marka": "Chevrolet",
@@ -3596,14 +3597,15 @@
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Transporter"
+          "Transporter (T5",
+          "Transporter (T6"
         ],
         "motor": [
           "2.0 TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "T5 / T6 2.0 TDI için kronik arıza listesi çıkmadı; yalnızca tekil enjektör ve turbo anlatıları."
+      "not": "Faz 19: 2024 sonrası Transporter T7 ayrı satıra alındı. Önceki not: T5 / T6 2.0 TDI için kronik arıza listesi çıkmadı; yalnızca tekil enjektör ve turbo anlatıları."
     },
     {
       "marka": "Fiat",
@@ -4308,8 +4310,7 @@
           "Elektrik"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Ekim 2026'da Avrupa'da ID.3, ID.4, ID.7, ID. Buzz ve Cupra Born'un belirli partilerini kapsayan batarya geri çağırması (%80 şarj sınırı) duyuruldu; ABD'deki ID.4 geri çağırmalarının Zwickau ve Emden üretimi Avrupa araçlarını kapsamadığı yazılıyor, Türkiye'deki araçların kapsamı doğrulanamadı. Türkiye şikâyetleri (navigasyon, bağlantılı hizmetler, tabela okuma uyarısı) farklı konularda ve yalnızca Şikâyetvar ile Ekşi Sözlük'te."
+      "not": "Faz 19: And Çetin'in EV tahrik arızası / e-POWER yazıları (tek başına yeterli kaynak): VW grubu MEB elektrikli tahrik arızası aile kaydından gösterilir (◐). Önceki not: Ekim 2026'da Avrupa'da ID.3, ID.4, ID.7, ID. Buzz ve Cupra Born'un belirli partilerini kapsayan batarya geri çağırması (%80 şarj sınırı) duyuruldu; ABD'deki ID.4 geri çağırmalarının Zwickau ve Emden üretimi Avrupa araçlarını kapsamadığı yazılıyor, Türkiye'deki araçların kapsamı doğrulanamadı. Türkiye şikâyetleri (navigasyon, bağlantılı hizmetler, tabela okuma uyarısı) farklı konularda ve yalnızca Şikâyetvar ile Ekşi Sözlük'te."
     },
     {
       "marka": "Fiat",
@@ -4347,21 +4348,21 @@
     },
     {
       "marka": "BMW",
-      "model": "iX / iX1 / iX3 / i4",
+      "model": "iX / iX1 / i4",
       "yillar": "2021-",
       "motor": "Elektrik",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "iX",
-          "i4"
+          "iX (I20",
+          "iX1 (U11",
+          "i4 (G26"
         ],
         "motor": [
           "Elektrik"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da hızlı şarjta düşük güç, şarj kapağı kilidi ve şarj soketi arızaları tekil; DonanımHaber'de yalnızca i4 menzil göstergesi tartışması var, ortak bir örüntü doğrulanamadı. NHTSA kayıtlarında iX / i4 için batarya (22V-541), birleşik şarj ünitesi (23V-449) ve 2024 i4 modül kaynak dikişi (24V-135) geri çağırmaları var; Türkiye kapsamı doğrulanamadı."
+      "not": "Faz 19: And Çetin'in BMW EV tahrik arızası ve Mini Countryman E / iX1 yazıları (tek başına yeterli kaynak): yüksek voltaj sisteminin yanlış kapanması (geri çağırma 25V-395) ve iX1'de ön aks kırılması / gevşemesi aile kayıtlarından gösterilir (◐). iX3 ayrı satırdadır. Önceki not: Şikâyetvar'da hızlı şarjta düşük güç, şarj kapağı kilidi ve şarj soketi arızaları tekil; DonanımHaber'de yalnızca i4 menzil göstergesi tartışması var, ortak bir örüntü doğrulanamadı. NHTSA kayıtlarında iX / i4 için batarya (22V-541), birleşik şarj ünitesi (23V-449) ve 2024 i4 modül kaynak dikişi (24V-135) geri çağırmaları var; Türkiye kapsamı doğrulanamadı."
     },
     {
       "marka": "BYD",
@@ -4463,8 +4464,7 @@
           "Elektrik"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da uzaktan erişim hizmetinin Türkiye'de kapalı olması, yeni araçta akü arızası ve menzil şikâyetleri tekil; ikinci site yok. e-tron GT için Mart 2024 batarya modülü geri çağırmaları (93VM, 93VN; Taycan ile aynı modüller, şarjın %80 ile sınırlanması) var; Türkiye kapsamı doğrulanamadı."
+      "not": "Faz 19: And Çetin'in EV tahrik arızası / e-POWER yazıları (tek başına yeterli kaynak): Q4 e-tron (MEB), A6 e-tron ve Q6 e-tron (PPE) tahrik arızası aile kaydından gösterilir (◐). Önceki not: Şikâyetvar'da uzaktan erişim hizmetinin Türkiye'de kapalı olması, yeni araçta akü arızası ve menzil şikâyetleri tekil; ikinci site yok. e-tron GT için Mart 2024 batarya modülü geri çağırmaları (93VM, 93VN; Taycan ile aynı modüller, şarjın %80 ile sınırlanması) var; Türkiye kapsamı doğrulanamadı."
     },
     {
       "marka": "Skoda",
@@ -4481,8 +4481,7 @@
           "Elektrik"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Elroq için Şikâyetvar'da tabela okuma uyarısı, Türkiye'de kapalı uygulama ve menzil şikâyetleri var; Enyaq için doğrudan kayıt çıkmadı. İkinci bağımsız kaynak yok."
+      "not": "Faz 19: And Çetin'in EV tahrik arızası / e-POWER yazıları (tek başına yeterli kaynak): VW grubu MEB elektrikli tahrik arızası aile kaydından gösterilir (◐). Önceki not: Elroq için Şikâyetvar'da tabela okuma uyarısı, Türkiye'de kapalı uygulama ve menzil şikâyetleri var; Enyaq için doğrudan kayıt çıkmadı. İkinci bağımsız kaynak yok."
     },
     {
       "marka": "Cupra",
@@ -4498,8 +4497,7 @@
           "Elektrik"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Arama sonuç vermedi. Cupra Born, Ekim 2026 VW grubu batarya geri çağırmasının kapsadığı modeller arasında (belirli üretim partileri); Türkiye kapsamı doğrulanamadı."
+      "not": "Faz 19: And Çetin'in EV tahrik arızası / e-POWER yazıları (tek başına yeterli kaynak): VW grubu MEB elektrikli tahrik arızası aile kaydından gösterilir (◐). Önceki not: Arama sonuç vermedi. Cupra Born, Ekim 2026 VW grubu batarya geri çağırmasının kapsadığı modeller arasında (belirli üretim partileri); Türkiye kapsamı doğrulanamadı."
     },
     {
       "marka": "Mini",
@@ -4690,8 +4688,7 @@
           "Elektrik"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da 2025-2026 tarihli tekrarlayan 'elektrikli çekiş sistemi arızası' uyarısı (bir araç yaklaşık 90 gün serviste), 900 km'de yolda kalıp şarj almama ve batarya sızıntısı şikâyetleri var; ikinci bağımsız site bulunamadı. Aynı 54 kWh / 156 PS değerlerine sahip Avenger Electric ve Fiat 600e ayrı kayıtlarda."
+      "not": "Faz 19: And Çetin'in EV tahrik arızası / e-POWER yazıları (tek başına yeterli kaynak): Stellantis elektrikli tahrik arızası aile kaydından gösterilir (◐). Önceki not: Şikâyetvar'da 2025-2026 tarihli tekrarlayan 'elektrikli çekiş sistemi arızası' uyarısı (bir araç yaklaşık 90 gün serviste), 900 km'de yolda kalıp şarj almama ve batarya sızıntısı şikâyetleri var; ikinci bağımsız site bulunamadı. Aynı 54 kWh / 156 PS değerlerine sahip Avenger Electric ve Fiat 600e ayrı kayıtlarda."
     },
     {
       "marka": "Togg",
@@ -4832,8 +4829,7 @@
           "Elektrik"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da sıfır km araçlarda çekiş sistemi uyarısı, şarj soketinin kilitlenmesi ve şarj sırasında bataryadan ses gelmesi tekil; tek taramada ikinci bağımsız site çıkmadı."
+      "not": "Faz 19: And Çetin'in EV tahrik arızası / e-POWER yazıları (tek başına yeterli kaynak): ë-C3 ve ë-C3 Aircross: Stellantis elektrikli tahrik arızası aile kaydı ile ë-C3 Aircross'a özgü elektrik / işçilik, yokuşta kalkış ve soğukta menzil sorunları (◐ / ✓). Önceki not: Şikâyetvar'da sıfır km araçlarda çekiş sistemi uyarısı, şarj soketinin kilitlenmesi ve şarj sırasında bataryadan ses gelmesi tekil; tek taramada ikinci bağımsız site çıkmadı."
     },
     {
       "marka": "Opel",
@@ -4849,8 +4845,7 @@
           "Elektrik"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da 112 şikâyet listeleniyor (batarya arızası, uzun servis bekleme, kalkışta geri kayma, fren diski korozyonu); tek taramada ikinci bağımsız site çıkmadı."
+      "not": "Faz 19: And Çetin'in EV tahrik arızası / e-POWER yazıları (tek başına yeterli kaynak): Frontera Electric'e özgü elektrik / işçilik, yokuşta kalkış ve soğukta menzil sorunları ile Stellantis elektrikli tahrik arızası aile kaydı. Önceki not: Şikâyetvar'da 112 şikâyet listeleniyor (batarya arızası, uzun servis bekleme, kalkışta geri kayma, fren diski korozyonu); tek taramada ikinci bağımsız site çıkmadı."
     },
     {
       "marka": "Fiat",
@@ -4866,8 +4861,7 @@
           "Elektrik"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da şarj ve kilit sorunu sonrası 8 saat yol yardımı beklemek, şarj soketinin erimesi ve teslimde arıza ışığı tekil; tek taramada ikinci bağımsız site çıkmadı."
+      "not": "Faz 19: And Çetin'in EV tahrik arızası / e-POWER yazıları (tek başına yeterli kaynak): Stellantis elektrikli tahrik arızası aile kaydından gösterilir (◐). Önceki not: Şikâyetvar'da şarj ve kilit sorunu sonrası 8 saat yol yardımı beklemek, şarj soketinin erimesi ve teslimde arıza ışığı tekil; tek taramada ikinci bağımsız site çıkmadı."
     },
     {
       "marka": "Mercedes-Benz",
@@ -7708,11 +7702,12 @@
           "Macan"
         ],
         "motor": [
-          ""
+          "2.0 turbo",
+          "3.0 S"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da 2021 model 2.0'da 12.000 km'de turbo kaynaklı arıza ışığı (garanti dışı tutulmuş) ve 2024 Macan Turbo'da arka aks yönlendirme hatası gibi tekil kayıtlar var; CarComplaints ve Porsche servis bültenleri 2015-2018 V6 Turbo (3.0 / 3.6 benzinli) için zamanlama zinciri kapağı cıvatalarının uzayıp yağ sızdırdığını (ortalama yaklaşık 20.000 mil) ve soğutma suyu borusu / pompa sızıntılarını gösteriyor. 2.0 turbo ve 3.0 S Diesel için kilometreli veri ve PDK arıza verisi çıkmadı."
+      "not": "Faz 19: Macan Electric ayrı satıra alındı. Önceki not: Şikâyetvar'da 2021 model 2.0'da 12.000 km'de turbo kaynaklı arıza ışığı (garanti dışı tutulmuş) ve 2024 Macan Turbo'da arka aks yönlendirme hatası gibi tekil kayıtlar var; CarComplaints ve Porsche servis bültenleri 2015-2018 V6 Turbo (3.0 / 3.6 benzinli) için zamanlama zinciri kapağı cıvatalarının uzayıp yağ sızdırdığını (ortalama yaklaşık 20.000 mil) ve soğutma suyu borusu / pompa sızıntılarını gösteriyor. 2.0 turbo ve 3.0 S Diesel için kilometreli veri ve PDK arıza verisi çıkmadı."
     },
     {
       "marka": "Porsche",
@@ -7801,18 +7796,17 @@
       "marka": "Audi",
       "model": "A6 C8",
       "yillar": "2018-",
-      "motor": "40 TDI 2.0 (EA288 evo)",
+      "motor": "40 TDI 2.0 (EA288 evo; quattro ultra)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "A6 (C8"
         ],
         "motor": [
-          "TDI"
+          "40 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da A6 C8 için tekil kayıtlar var: 2023 model 40 TDI Quattro'da yaklaşık 10.900 km'de direksiyon kilitlenmesi ve şanzıman arızası (bayi araç değişimini reddetmiş), 2025 modelde yaklaşık 28.000 km'de şanzıman ve quattro arızaları, 40 TDI'da 3.000 km'de yağ uyarısı. AudiWorld ve Audizine'da 48V kayış tahrikli marş-alternatör jeneratörü arızası (mild hibrit Audi'lerde uzun süredir anılan sorun, servis kampanyası olduğu yazılıyor) ve DL382 S tronic'te düşük hızda sarsıntı geçiyor; bir forum kullanıcısı 40 TDI'ın 12V sistem kullandığını ve bu sorunu yaşamadığını yazıyor. Kilometre aralığı verilen, ikinci kaynakla desteklenen bir motor sorunu çıkmadı. Faz 14: TFSI sürümü ayrı satıra alındı (EA888 Gen3 ailesi)."
+      "not": "Faz 19: And Çetin'in Quattro Ultra yazısı (tek başına yeterli kaynak): A6 C8 40 TDI quattro ultra titreşimi / kasılması aile kaydından gösterilir (◐). Önceki not: Şikâyetvar'da A6 C8 için tekil kayıtlar var: 2023 model 40 TDI Quattro'da yaklaşık 10.900 km'de direksiyon kilitlenmesi ve şanzıman arızası (bayi araç değişimini reddetmiş), 2025 modelde yaklaşık 28.000 km'de şanzıman ve quattro arızaları, 40 TDI'da 3.000 km'de yağ uyarısı. AudiWorld ve Audizine'da 48V kayış tahrikli marş-alternatör jeneratörü arızası (mild hibrit Audi'lerde uzun süredir anılan sorun, servis kampanyası olduğu yazılıyor) ve DL382 S tronic'te düşük hızda sarsıntı geçiyor; bir forum kullanıcısı 40 TDI'ın 12V sistem kullandığını ve bu sorunu yaşamadığını yazıyor. Kilometre aralığı verilen, ikinci kaynakla desteklenen bir motor sorunu çıkmadı. Faz 14: TFSI sürümü ayrı satıra alındı (EA888 Gen3 ailesi)."
     },
     {
       "marka": "Audi",
@@ -11328,11 +11322,10 @@
           "Velar"
         ],
         "motor": [
-          ""
+          "Ingenium"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da Velar 2.0 dizelde egzoz (partikül) filtresinin garanti kapsamında değiştirilmesine rağmen her 8.000 km'de yeniden tıkandığı iddiası, altı ay önce sıfır alınan araçta 4. ayda motor arızası, 2.000 km'de motor arıza lambası ve panjur / logo solması (garanti reddi) tekil; Ekşi Sözlük'te motorun 60 bin km'de bittiği tek yorum var. Ingenium 2.0 dizelin zincir ve DPF kaynaklı sorunları Honest John, Parkers ve CarComplaints'te Discovery Sport ve Evoque (2015-2018) için anlatılıyor, Velar'a özgü kaynak çıkmadı."
+      "not": "Faz 19: And Çetin'in Velar yazısı (tek başına yeterli kaynak): Ingenium 2.0 dizelde erken zincir değişimi, AdBlue-EGR-DPF, enjektör soketi, V kayışı, turbo ve yatak sarma sorunları aile kaydından gösterilir (◐). Önceki not: Şikâyetvar'da Velar 2.0 dizelde egzoz (partikül) filtresinin garanti kapsamında değiştirilmesine rağmen her 8.000 km'de yeniden tıkandığı iddiası, altı ay önce sıfır alınan araçta 4. ayda motor arızası, 2.000 km'de motor arıza lambası ve panjur / logo solması (garanti reddi) tekil; Ekşi Sözlük'te motorun 60 bin km'de bittiği tek yorum var. Ingenium 2.0 dizelin zincir ve DPF kaynaklı sorunları Honest John, Parkers ve CarComplaints'te Discovery Sport ve Evoque (2015-2018) için anlatılıyor, Velar'a özgü kaynak çıkmadı."
     },
     {
       "marka": "Skoda",
@@ -12022,8 +12015,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar'da Bayon'da cam düğmeleri ve cam modülü (2023 model; servis 'kronik' demiş, parça bekletilmiş, garanti dışı bırakılmış) ve ESP beyni arızasına bağlı direksiyon kilitlenmesi (servis 'kronik' demiş); i20'de cam düğmesi arızası (Temmuz 2025'ten beri), korna arızası (servis 'bu araçlarda bilinen durum' demiş), ABS / ESP uyarıları ve 2021 modelde multimedya ekranının donması ile navigasyondan kendiliğinden çıkma (yetkili servis '2023 ve üstü modellerin multimedya güncellemelerini yapıyoruz' demiş) tekil; i20'de EPS sertleşmesi şikâyetleri çoğunlukla 2011-2014 (PB) modellere ait ve ayrı kayıtta. DonanımHaber ve Ekşi Sözlük'te ikinci site çıkmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin'in i20 - Bayon yazısı (tek başına yeterli kaynak): akü, cam modülü, direksiyon kilidi, korna ve konfor eleştirileri model geneli sorun olarak eklendi. Önceki not: Şikâyetvar'da Bayon'da cam düğmeleri ve cam modülü (2023 model; servis 'kronik' demiş, parça bekletilmiş, garanti dışı bırakılmış) ve ESP beyni arızasına bağlı direksiyon kilitlenmesi (servis 'kronik' demiş); i20'de cam düğmesi arızası (Temmuz 2025'ten beri), korna arızası (servis 'bu araçlarda bilinen durum' demiş), ABS / ESP uyarıları ve 2021 modelde multimedya ekranının donması ile navigasyondan kendiliğinden çıkma (yetkili servis '2023 ve üstü modellerin multimedya güncellemelerini yapıyoruz' demiş) tekil; i20'de EPS sertleşmesi şikâyetleri çoğunlukla 2011-2014 (PB) modellere ait ve ayrı kayıtta. DonanımHaber ve Ekşi Sözlük'te ikinci site çıkmadı."
     },
     {
       "marka": "Subaru",
@@ -13387,19 +13379,17 @@
       "marka": "Mercedes-Benz",
       "model": "C Serisi W206",
       "yillar": "2021-",
-      "motor": "C180 / C200 (M254, 48V) / C200 d",
+      "motor": "C200 (M254, 48V)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "W206"
         ],
         "motor": [
-          "C180",
           "C200"
         ]
       },
-      "not": "Faz 14'te arandı: Şikâyetvar'da W206 için tekrar eden konular multimedya ve dijital sistem hataları, SOS (acil çağrı) arızası, akü ve buji nedeniyle yolda kalma, direksiyon açı sensörü ve parça bekleme; hepsi tek sitede. C200 d ve 48V EQ Boost için W206'ya özgü şikâyet çıkmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin'in Mercedes yazısına göre M254 kodlu 1.5 litre 204 PS C200'lerde buji porselenin kırılıp motora girmesi ve motor değişimi araca özgü sorun olarak eklendi; 'C180 / C200 d' için kayıt yok. Önceki not: Faz 14'te arandı: Şikâyetvar'da W206 için tekrar eden konular multimedya ve dijital sistem hataları, SOS (acil çağrı) arızası, akü ve buji nedeniyle yolda kalma, direksiyon açı sensörü ve parça bekleme; hepsi tek sitede. C200 d ve 48V EQ Boost için W206'ya özgü şikâyet çıkmadı."
     },
     {
       "marka": "Skoda",
@@ -15676,8 +15666,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Faz 16: Şikâyetvar'da e-POWER için jeneratör ve e-güç sistemi arızası (4 aylık araçta bir ay serviste, parça için 75 güne yaklaşan bekleme), 6 ayda 3 kez yolda kalma, 12V akünün boşalması, fren balatası sesinin sac kaynaklı 'kronik' olduğu ve kalıcı çözümün Nissan'dan beklendiği, 80 km/s üzerinde titreşim ve NavigasyonSD kart arızası tekil; Ekşi Sözlük'te bir sahip T33 sahipleri grubunda e-Power arızası görmediğini ve elektrik sistemi için 5 yıl garanti verildiğini yazıyor. e-POWER konuları motor kaydında.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin'in EV tahrik arızası / e-POWER yazıları (tek başına yeterli kaynak): Qashqai / X-Trail genel arızaları (sürüş destek uyarıları, yanlış hız uyarısı ve ani frenleme, klima, trim sesleri, bagaj kapağı, bilgi-eğlence). Önceki not: Faz 16: Şikâyetvar'da e-POWER için jeneratör ve e-güç sistemi arızası (4 aylık araçta bir ay serviste, parça için 75 güne yaklaşan bekleme), 6 ayda 3 kez yolda kalma, 12V akünün boşalması, fren balatası sesinin sac kaynaklı 'kronik' olduğu ve kalıcı çözümün Nissan'dan beklendiği, 80 km/s üzerinde titreşim ve NavigasyonSD kart arızası tekil; Ekşi Sözlük'te bir sahip T33 sahipleri grubunda e-Power arızası görmediğini ve elektrik sistemi için 5 yıl garanti verildiğini yazıyor. e-POWER konuları motor kaydında."
     },
     {
       "marka": "Nissan",
@@ -18590,6 +18579,729 @@
         ]
       },
       "not": "Faz 19: And Çetin'in VAG motorları yazısı (tek başına yeterli kaynak): 1.6 FSI aile kaydı (EGR / oksijen sensörü, değişken supap zamanlaması, buji-bobin, yakıt pompası-enjektör, karbon birikimi, yüksek tüketim) (◐)."
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Junior Hybrid (2024-)",
+      "yillar": "2024-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Junior Hybrid (2024-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 (III FL, 2023-)",
+      "yillar": "2023-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C4 (III FL, 2023-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 X (2022-)",
+      "yillar": "2022-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C4 X (2022-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): En sorunlu sıfır arabalar."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C5 Aircross (FL, 2023-)",
+      "yillar": "2023-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C5 Aircross (FL, 2023-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Citroen",
+      "model": "ë-C5 Aircross (2025-)",
+      "yillar": "2025-",
+      "motor": "Elektrik (STLA Medium; 73 / 98 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "ë-C5 Aircross (2025-)"
+        ],
+        "motor": [
+          "Elektrik (STLA Medium; 73 / 98 kWh)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli VAG-Stellantis'lerde tahrik arızası."
+    },
+    {
+      "marka": "Cupra",
+      "model": "Tavascan (2024-)",
+      "yillar": "2024-",
+      "motor": "Elektrik (MEB; 77 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tavascan (2024-)"
+        ],
+        "motor": [
+          "Elektrik (MEB; 77 kWh)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli VAG-Stellantis'lerde tahrik arızası."
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "N°8 (2025-)",
+      "yillar": "2025-",
+      "motor": "Elektrik (STLA Medium; 77 / 97 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "N°8 (2025-)"
+        ],
+        "motor": [
+          "Elektrik (STLA Medium; 77 / 97 kWh)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli VAG-Stellantis'lerde tahrik arızası."
+    },
+    {
+      "marka": "Fiat",
+      "model": "600 Hybrid (2023-)",
+      "yillar": "2023-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "600 Hybrid (2023-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Grande Panda Hybrid (2025-)",
+      "yillar": "2025-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Grande Panda Hybrid (2025-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Ford",
+      "model": "Tourneo Connect (2022-)",
+      "yillar": "2022-",
+      "motor": "2.0 EcoBlue 122 (Powershift DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tourneo Connect (2022-)"
+        ],
+        "motor": [
+          "2.0 EcoBlue 122 (Powershift DSG)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Ticari araç ortaklıkları ve sorunları."
+    },
+    {
+      "marka": "Ford",
+      "model": "Tourneo Courier (2024-)",
+      "yillar": "2024-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tourneo Courier (2024-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Ticari araç ortaklıkları ve sorunları."
+    },
+    {
+      "marka": "Jeep",
+      "model": "Avenger Hybrid (2023-)",
+      "yillar": "2023-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Avenger Hybrid (2023-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Jeep",
+      "model": "Compass Electric (2025-)",
+      "yillar": "2025-",
+      "motor": "Elektrik (STLA Medium; 73 / 98 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Compass Electric (2025-)"
+        ],
+        "motor": [
+          "Elektrik (STLA Medium; 73 / 98 kWh)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli VAG-Stellantis'lerde tahrik arızası."
+    },
+    {
+      "marka": "Jeep",
+      "model": "Compass Hybrid (2025-)",
+      "yillar": "2025-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Compass Hybrid (2025-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Serisi (W214, 2023-)",
+      "yillar": "2023-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "E Serisi (W214, 2023-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Bir yıldız kayması: Mercedes."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "EQE (2022-)",
+      "yillar": "2022-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "EQE (2022-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Bir yıldız kayması: Mercedes."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "EQS (2021-)",
+      "yillar": "2021-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "EQS (2021-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Bir yıldız kayması: Mercedes."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "S Serisi (W223, 2020-)",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "S Serisi (W223, 2020-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Bir yıldız kayması: Mercedes."
+    },
+    {
+      "marka": "Opel",
+      "model": "Corsa F (FL, 2023-)",
+      "yillar": "2023-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Corsa F (FL, 2023-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Opel",
+      "model": "Frontera (2024-)",
+      "yillar": "2024-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Frontera (2024-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Opel",
+      "model": "Grandland Electric (2024-)",
+      "yillar": "2024-",
+      "motor": "Elektrik (STLA Medium; 73 / 98 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Grandland Electric (2024-)"
+        ],
+        "motor": [
+          "Elektrik (STLA Medium; 73 / 98 kWh)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli VAG-Stellantis'lerde tahrik arızası."
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka B (FL, 2023-)",
+      "yillar": "2023-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Mokka B (FL, 2023-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "2008 (II FL, 2023-)",
+      "yillar": "2023-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "2008 (II FL, 2023-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "408 (2023-)",
+      "yillar": "2023-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "408 (2023-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "5008 (III, 2023-)",
+      "yillar": "2023-",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "5008 (III, 2023-)"
+        ],
+        "motor": [
+          "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.2 PureTech'in ölüm kalım savaşı; Citroën ë-C3 Aircross ve Opel Frontera sorunları; En sorunlu sıfır arabalar; Hibrit PureTech ve e-DCS6 sorunları; VAG-Stellantis yazılım ve işçilik sorunları."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "E-3008 (2024-)",
+      "yillar": "2024-",
+      "motor": "Elektrik (STLA Medium; 73 / 98 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "E-3008 (2024-)"
+        ],
+        "motor": [
+          "Elektrik (STLA Medium; 73 / 98 kWh)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli VAG-Stellantis'lerde tahrik arızası."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "E-5008 (2024-)",
+      "yillar": "2024-",
+      "motor": "Elektrik (STLA Medium; 73 / 98 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "E-5008 (2024-)"
+        ],
+        "motor": [
+          "Elektrik (STLA Medium; 73 / 98 kWh)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli VAG-Stellantis'lerde tahrik arızası."
+    },
+    {
+      "marka": "Tesla",
+      "model": "Model Y (Juniper, 2025-)",
+      "yillar": "2025-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Model Y (Juniper, 2025-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Tesla Model Y Juniper sorunları; Yeni Tesla Model Y frenaj kazaları."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "ID.5 (2022-)",
+      "yillar": "2022-",
+      "motor": "Elektrik (MEB; 77 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "ID.5 (2022-)"
+        ],
+        "motor": [
+          "Elektrik (MEB; 77 kWh)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli VAG-Stellantis'lerde tahrik arızası."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "ID.Buzz (2022-)",
+      "yillar": "2022-",
+      "motor": "Elektrik (MEB; 77 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "ID.Buzz (2022-)"
+        ],
+        "motor": [
+          "Elektrik (MEB; 77 kWh)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli VAG-Stellantis'lerde tahrik arızası."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi W206",
+      "yillar": "2021-",
+      "motor": "C180 / C200 d",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "W206"
+        ],
+        "motor": [
+          "C180",
+          "C200 d"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da W206 için tekrar eden konular multimedya ve dijital sistem hataları, SOS (acil çağrı) arızası, akü ve buji nedeniyle yolda kalma, direksiyon açı sensörü ve parça bekleme; hepsi tek sitede. C200 d ve 48V EQ Boost için W206'ya özgü şikâyet çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Ford",
+      "model": "Transit Custom (2024-)",
+      "yillar": "2024-",
+      "motor": "2.0 EcoBlue 109 / 148 / 168 (8 ileri otomatik 8F40)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Transit Custom (2024-)"
+        ],
+        "motor": [
+          "2.0 EcoBlue 109 / 148 / 168 (8 ileri otomatik 8F40)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Ticari araç ortaklıkları ve sorunları."
+    },
+    {
+      "marka": "Porsche",
+      "model": "Macan Electric (2024-)",
+      "yillar": "2024-",
+      "motor": "Elektrik (PPE; 100 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Macan Electric (2024-)"
+        ],
+        "motor": [
+          "Elektrik (PPE; 100 kWh)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli VAG-Stellantis'lerde tahrik arızası."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Caddy (5, 2020-)",
+      "yillar": "2020-",
+      "motor": "2.0 TDI 122 (DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Caddy (5, 2020-)"
+        ],
+        "motor": [
+          "2.0 TDI 122 (DSG)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Ticari araç ortaklıkları ve sorunları."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Transporter (T7, 2024-)",
+      "yillar": "2024-",
+      "motor": "2.0 TDI 110 / 150 / 170 (8 ileri otomatik 8F40)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Transporter (T7, 2024-)"
+        ],
+        "motor": [
+          "2.0 TDI 110 / 150 / 170 (8 ileri otomatik 8F40)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Ticari araç ortaklıkları ve sorunları."
+    },
+    {
+      "marka": "BMW",
+      "model": "iX3",
+      "yillar": "2021-",
+      "motor": "Elektrik",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "iX3"
+        ],
+        "motor": [
+          "Elektrik"
+        ]
+      },
+      "not": "Şikâyetvar'da hızlı şarjta düşük güç, şarj kapağı kilidi ve şarj soketi arızaları tekil; DonanımHaber'de yalnızca i4 menzil göstergesi tartışması var, ortak bir örüntü doğrulanamadı. NHTSA kayıtlarında iX / i4 için batarya (22V-541), birleşik şarj ünitesi (23V-449) ve 2024 i4 modül kaynak dikişi (24V-135) geri çağırmaları var; Türkiye kapsamı doğrulanamadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "i5 (G60, 2023-)",
+      "yillar": "2023-",
+      "motor": "Elektrik (eDrive40 / xDrive40 / M60 xDrive)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "i5 (G60, 2023-)"
+        ],
+        "motor": [
+          "Elektrik (eDrive40 / xDrive40 / M60 xDrive)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli BMW’lerde tahrik arızası."
+    },
+    {
+      "marka": "BMW",
+      "model": "i7 (G70, 2023-)",
+      "yillar": "2023-",
+      "motor": "Elektrik (xDrive60 / M70)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "i7 (G70, 2023-)"
+        ],
+        "motor": [
+          "Elektrik (xDrive60 / M70)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Elektrikli BMW’lerde tahrik arızası."
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Range Rover Velar (L560, 2017-)",
+      "yillar": "2017-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Range Rover Velar (L560, 2017-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Range Rover Velar sorunları."
+    },
+    {
+      "marka": "Mini",
+      "model": "Countryman E (U25, 2024-)",
+      "yillar": "2024-",
+      "motor": "Elektrik (Countryman E 41GA / SE ALL4 81GA; 66,5 / 64,7 kWh)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Countryman E (U25, 2024-)"
+        ],
+        "motor": [
+          "Elektrik (Countryman E 41GA / SE ALL4 81GA; 66,5 / 64,7 kWh)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Mini Countryman E sorunları."
+    },
+    {
+      "marka": "Renault",
+      "model": "Boreal (2026-)",
+      "yillar": "2026-",
+      "motor": "1.3 TCe 145 (benzin, Magna DW23)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Boreal (2026-)"
+        ],
+        "motor": [
+          "1.3 TCe 145 (benzin, Magna DW23)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Renault Boreal analizi."
+    },
+    {
+      "marka": "Renault",
+      "model": "Boreal (2026-)",
+      "yillar": "2026-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Boreal (2026-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Renault Boreal analizi."
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (II, 2017-2024)",
+      "yillar": "2017-2024",
+      "motor": "D4 / B4 2.0 dizel (D4 190 PS; B4 hibrit dizel 197 PS)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "XC60 (II, 2017-2024)"
+        ],
+        "motor": [
+          "D4 / B4 2.0 dizel (D4 190 PS; B4 hibrit dizel 197 PS)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Volvo XC60 sorunları; Volvo XC90 kronik sorunları."
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (II, 2023-)",
+      "yillar": "2023-",
+      "motor": "B5 2.0 hafif hibrit benzin (250 PS)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "XC60 (II, 2023-)"
+        ],
+        "motor": [
+          "B5 2.0 hafif hibrit benzin (250 PS)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Volvo XC60 sorunları."
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC90 (II, 2015-2024)",
+      "yillar": "2015-2024",
+      "motor": "D5 / B5 2.0 dizel (D5 225-235 PS; B5 hafif hibrit-dizel 235 PS)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "XC90 (II, 2015-2024)"
+        ],
+        "motor": [
+          "D5 / B5 2.0 dizel (D5 225-235 PS; B5 hafif hibrit-dizel 235 PS)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Volvo XC60 sorunları; Volvo XC90 kronik sorunları."
     }
   ]
 }

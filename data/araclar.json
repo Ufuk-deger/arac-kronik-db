@@ -66,6 +66,32 @@
       ]
     },
     {
+      "id": "audi-quattro-ultra",
+      "ad": "Audi quattro ultra (elektronik kontrollü çoklu plaka kavramalı AWD)",
+      "tur": "sistem",
+      "aciklama": "Audi'nin 2016'dan itibaren boyuna motorlu modellerinde Torsen yerine kullandığı, şanzımanın arkasında elektronik kontrollü çoklu plaka kavrama modülüyle arkaya yalnızca gerektiğinde güç gönderen dört çeker sistemi. Türkiye'de en sık C8 kasa (2019-2025) A6 40 TDI / 45 TFSI'larda görülüyor; B9 A4-A5 ve FY Q5'lerde de baş gösterebiliyor. PR kodu GH4 = açık arka diferansiyel, quattro ultra.",
+      "kronik_sorunlar": [
+        {
+          "id": "titresim-kasilma",
+          "sorun_adi": "Quattro Ultra titreşimi / kasılması ('Quattro Rumble', 'Quattro Ultra Binding')",
+          "etkilenen_parca": "Arka AWD kavrama modülü (çoklu plaka) ve kavrama yağı",
+          "belirtiler": "Özellikle düşük hızlarda, tam tur direksiyon çevirerek yapılan dönüşlerde veya dar park manevralarında ciddi titreme, kasılma ve vuruntu; 40-50 bin km'den itibaren aracın arka-ortasından gelen uğultu.",
+          "tahmini_km_araligi": "40.000 - 50.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre kavrama plakaları zamanla aşınıyor, aradaki yağ tortu yapıyor ve plakalar birbirine yapışmaya / sıkışmaya başlıyor. Ultra, senkronizasyon süreci nedeniyle Haldex'ten daha karmaşık; bozulabilecek pek çok parça var.",
+            "teshis": "Yazı Audi'nin ABD ve Avrupa'da 2020'den 2026'ya kadar yayınladığı 8 servis bülteninden söz ediyor (10 Aralık 2020: aşınmış / hatalı quattro ultra vites çatalı, arka diferansiyeli komple değiştirmeden yeni vites çatalı; 26 Şubat 2021: AWD kavrama yağı değişimi ve 3 test sürüşü adaptasyonu, olmazsa kavrama ünitesi; 2 Kasım 2022: 'Quattro Rumble' prosedürü, onarım kapsamı genişletildi; 9 Mayıs 2023: SVM üzerinden yazılım güncellemesi; 9 Ekim 2023: yazılım + yağ değişimi + adaptasyon; 21 Ekim 2024 ve 22 Mayıs 2025: aşırı ısıtma kalibrasyonu; 26 Ocak 2026: 'çifte yağ değişimi', G 055 515 A2).",
+            "cozum": "Servislerin müdahale sırası: önce yazılım güncellemesi ve kalibrasyon (tork aktarım değerleri yeniden kalibre edilip titreme anlık çözülebiliyor); olmazsa AWD kavrama yağı değişimi ve sekiz çizerek / tam dönüşlerle adaptasyon sürüşü (çoğu kullanıcı çözüldüğünü sanıyor ama genelde bir süre sonra nüksediyor); olmazsa kavrama modülünün komple değişimi.",
+            "onlem": "Aracın şasi numarasıyla sorgulanacak PR koduyla quattro tipi öğrenilebiliyor: GH0 arka diferansiyel yok (önden çeker), GH1 açık arka diferansiyel Torsen, GH2 spor arka diferansiyel Torsen / crown gear, GH4 açık arka diferansiyel quattro ultra. Örneğin 8 ileri tiptronic şanzımanlı 2020 model A5'ler sürekli dört çeker (Torsen)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/audi-quattro-ultra-titresim-sorunu-93/",
+            "https://andcetin.com/253-milyon-tl-aras-en-sorunsuz-arabalar-104/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "bmw-b37-1-5-dizel",
       "ad": "BMW / Mini B37 1.5 üç silindir turbo dizel",
       "tur": "motor",
@@ -327,6 +353,52 @@
             "https://www.press.bmwgroup.com/global/article/detail/T0286151EN/bmw-group-expands-technical-campaign",
             "https://www.sikayetvar.com/bmw/bmw-116ed-egr-sogutucu-arizasi-tekrar-ediyor-ucretsiz-geri-cagirma-kapsaminda-kalici-cozum-talebi",
             "https://www.sikayetvar.com/bmw/bmw-n47-egr-valfi-sorunu-icin-gonullu-geri-cagirma-cevabi-alinamadi"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bmw-ev-tahrik-arizasi",
+      "ad": "BMW elektrikli (i4 / i5 / i7 / iX) tahrik arızası: yüksek voltaj sisteminin kapanması (geri çağırma 25V-395)",
+      "tur": "sistem",
+      "aciklama": "BMW i5 (Türkiye'de 2023'ten beri eDrive40, xDrive40 ve M60 xDrive), i4, i7 ve iX'te 'Tahrik arızası, kenara çekin' uyarısıyla güç kesilmesi; elektrik motoru yazılımının yüksek voltaj sistemini yanlışlıkla kapatması. Haziran 2025'te ABD'de 70 binden fazla BMW EV geri çağrıldı.",
+      "kronik_sorunlar": [
+        {
+          "id": "tahrik-arizasi",
+          "sorun_adi": "'Tahrik arızası, kenara çekin' uyarısı: yüksek voltaj sisteminin yanlışlıkla kapanması ve yolda kalma",
+          "etkilenen_parca": "Elektrik tahrik motoru yazılımı ve yüksek voltaj sisteminin izolasyon denetimi",
+          "belirtiler": "Süratten bağımsız olarak aracın teklemesi ve ekranda 'Tahrik arızası, kenara çekin' uyarısı çıkması; ardından ya uyarının kendiliğinden kaybolması ya da 20-30 saniye sonra aracın gücü kesip yolda kalması ve kendini kitlemesi; uyarı kaybolsa bile birkaç km sonra yeniden çıkabilmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre Haziran 2025'te 70 binden fazla BMW EV bu sorundan ötürü ABD'de NHTSA tarafından geri çağrıldı (B12 09 25 / 25V-395): iX 2022-2024, i4 2022-2024, i7 2023-2024, i5 2024, i4 eDrive40 2025 ve i4 eDrive35 2025. Resmi açıklamaya göre elektrik motoru yazılımı yüksek voltaj sisteminin yanlışlıkla kapanmasına ve aracın güç kaybetmesine yol açabiliyor: yazılım bir 'çift izolasyon durumu' tespit ettiğini sanıyor; gerçek tehlike ile geçici 'tek izolasyon' durumunu ayırt edemediği için elektrik çarpması riskini önlemek amacıyla yüksek voltaj sistemini tamamen kapatıp tahriği kesiyor.",
+            "teshis": "Kırmızı uyarı gücü kesmeden yaklaşık 15-20 saniye önce gösteriliyor; NHTSA direksiyon desteği ve frenlemenin etkilenmediğini, ancak kapanmanın sürüş sırasında olursa kaza riskini artırabileceğini belirtiyor. Türkiye'de Borusan yetkili servisine götürenlere 'sensör arızası', 'aküyü besleyen parça' ya da 'klima sistemi değişimi gerekli' gibi geri dönüşler yapılıyor; bazen yazılım güncellemesi yapıldığı söylenerek araç geri teslim ediliyor ama sorun tekrarlıyor.",
+            "cozum": "Yetkili serviste ya da internet bağlantısıyla (OTA) elektrik tahrik motoru yazılımının güncellenmesi (Gen5 eDrive / HEAT yazılımı) gerekiyor. Çözülen vakalarda tespit, parça tedariği ve onarım süreci 1 aydan 3 aya kadar sürüyor.",
+            "onlem": "Yazıya göre bir yıl içinde 4 kez yolda kalıp saatlerce çekici bekleyen kullanıcılar, henüz 500-750 km'de yolda kalıp yeni araç talep edenler (karşılığında 'hediye PPF kaplama' önerisi alanlar) var. Tüketici Kanunu'na göre yetkili servislerde yapılan tamir işlemleri 45 iş gününü geçemez; aşılırsa tüketici malın yenisiyle değiştirilmesini veya ücret iadesini talep edebilir."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/elektrikli-bmwlerde-tahrik-arzas-84/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bmw-mini-ev-on-aks",
+      "ad": "Mini Countryman E / BMW iX1 ön aks kırılması ve tekerlek katlanması",
+      "tur": "sistem",
+      "aciklama": "Aynı platformu paylaşan ve aynı fabrikada üretilen Mini Countryman E (3. nesil, 2024'ten beri) ve BMW iX1'de ön sağ / sol aksın darbe almadan kırılması ya da gevşemesi ve tekerleğin katlanması. BMW iX1 için ön aksın kendiliğinden gevşeme riskine ilişkin resmî geri çağırma var.",
+      "kronik_sorunlar": [
+        {
+          "id": "aks-kirilmasi",
+          "sorun_adi": "Ön aks kırılması / gevşemesi ve tekerlek katlanması",
+          "etkilenen_parca": "Ön sağ / sol aks ve bağlantıları",
+          "belirtiler": "Ön sağ ya da sol tekerleğin katlanması; herhangi bir darbe almadan ön aksın kırılması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre 'jant ve lastik değişimi sonucu 100+ bin TL tramer' gibi ifadeler içeren, genelde ağır hasar kayıtlı bazı ilanlarda kazaya ilişkin görsel paylaşılmışsa ön sağ ya da sol tekerleğin katlandığı görülüyor. Bu hasar ön çaprazdan alınan bir darbeyle ortaya çıkabilse de herhangi bir darbe almadan ön aksı kırılan iX1'ler var; BMW iX1'de ön sağ / sol aksın kendiliğinden gevşeme riskiyle ilgili resmî bir geri çağırma bulunuyor.",
+            "onlem": "Yazar 'Kroniğin elli tonu' yazısında bu sorunu, paylaştığında henüz az sayıda örnek olan ama zamanla tekil vaka olmadığı anlaşılan risklerden biri olarak anıyor (iX1 ve elektrikli Mini Countryman)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/mini-countryman-e-sorunlar-94/"
           ]
         }
       ]
@@ -1086,7 +1158,7 @@
             "neden": "Kısa mesafe ve şehir içi kullanımda DPF'nin kendini temizleme (rejenerasyon) döngüsünü tamamlayamaması ve EGR valfinin kurumla kirlenmesi, kullanıcıların en sık aktardığı neden (Araclo, DonanımHaber). Bir forum kullanıcısı filtrenin dolmasından kalın mazotu sorumlu tutuyor (kanıtlanmamış görüş).",
             "teshis": "Çekiş kaybı, motor arıza lambası, rölantide stop etme, DPF uyarısı ve sık rejenerasyon. Beyaz duman ve aşırı yakıt tüketiminde EGR, DPF, enjektör ve turbo birlikte kontrol edilmeli; önce arıza kodları okutulmalı (DonanımHaber).",
             "cozum": "EGR valfi kirlenmesinde periyodik temizlik çoğu vakada işe yarıyor, ileri durumda valf değişimi gerekebiliyor (DonanımHaber). DPF için temizlik (bir kullanıcı 7.500 TL ödeyerek temizlettiğini yazıyor) ya da değişim. Forumlarda EGR/DPF iptali de yaygın ama uygulamanın kalitesi çok değişiyor, muayeneden kalma ve hukuki risk taşıyor; bir kullanıcı iptal sonrası arıza lambasının sönmediğini yazıyor.",
-            "maliyet": "Eski ve tarihli forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), EGR valfi servis fiyatı 1.515 TL / yan sanayi parçası ~400 TL ve işçilik ~150 TL, DPF temizliği 7.500 TL; bir kullanıcıya DPF değişimi için servis ~45 bin TL söylenmiş; bir atölyeye EGR ve partikül temizliği için 6.000 TL ödenip sonuç tatmin edici olmamış. Güncel teklif için servisten yazılı fiyat alın.",
+            "maliyet": "Eski ve tarihli forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), EGR valfi servis fiyatı 1.515 TL / yan sanayi parçası ~400 TL ve işçilik ~150 TL, DPF temizliği 7.500 TL; bir kullanıcıya DPF değişimi için servis ~45 bin TL söylenmiş; bir atölyeye EGR ve partikül temizliği için 6.000 TL ödenip sonuç tatmin edici olmamış. Güncel teklif için servisten yazılı fiyat alın. And Çetin'in Ağustos 2026 yazısına göre orijinal parçayla DPF, SCR katalizörü veya AdBlue deposu değişimi 50.000 TL'den başlayıp 200.000 TL'nin üzerine çıkabiliyor; temizlik birkaç bin TL; iptal 3.000-10.000 TL ama muayene, ceza (17.957 TL) ve garanti riski var.",
             "onlem": "Forumlarda DPF'nin kendini temizleyebilmesi için düzenli aralıklarla en az 20-30 dakika orta-yüksek devirli sürüş öneriliyor. İkinci elde EGR/DPF'si iptal edilmiş araçlardan uzak durulması öneriliyor: hem muayene hem hukuki risk taşıyor."
           },
           "kaynaklar": [
@@ -1095,7 +1167,8 @@
             "https://www.fiatforum.com/threads/1-3-multijet.476537/",
             "https://forum.donanimhaber.com/egea-1-3-multijet-beyaz-duman-fazla-yakit-cozuldu--147630865",
             "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
-            "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806"
+            "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
           ]
         }
       ]
@@ -1628,6 +1701,53 @@
       ]
     },
     {
+      "id": "ford-pro-t7-transit-custom",
+      "ad": "2024 sonrası VW Transporter T7 ve Ford Transit Custom (Ford Pro platformu, 2.0 EcoBlue, 8F40)",
+      "tur": "sistem",
+      "aciklama": "T7 Transporter esasen Ford Pro platformunda: Ford'un 109, 148 ve 168 PS'lik 2.0 EcoBlue motorları VW'de TDI olarak geçiyor; 8 ileri otomatik şanzıman Ford'un 8F40'ı. İkisi de Gölcük'te Ford Otosan tesislerinde üretiliyor. 2023'ten beri Amarok da aslında Ranger.",
+      "kronik_sorunlar": [
+        {
+          "id": "ortak-1",
+          "sorun_adi": "Otomatik park freni arızası, yokuş aşağıda kendiliğinden ani fren, vites geçişlerinde vuruntu ve silkeleme, motorun aşırı sarsıntılı çalışması",
+          "etkilenen_parca": "Park freni, fren yazılımı, şanzıman ve motor takozları",
+          "belirtiler": "Otomatik park freni arızası; Yokuş aşağı giderken kendiliğinden ani fren yapması; Vites geçişlerinde vuruntu ve silkeleme; Motorun aşırı sarsıntılı çalışması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        },
+        {
+          "id": "ortak-2",
+          "sorun_adi": "Yağ yakma (ortalama 1500 km'de 1 litre), motor suyu eksiltme sonucu hararet, turbo arızası, radyatör su hortumunun yerinden çıkması; AdBlue, DPF ve EGR arızaları",
+          "etkilenen_parca": "2.0 EcoBlue motor, soğutma sistemi ve emisyon sistemi",
+          "belirtiler": "Yağ yakma (ortalama 1500 km'de 1 litre); Motor suyu eksiltme sonucu hararet; Turbo arızası; Radyatör su hortumunun yerinden çıkması; AdBlue, DPF ve EGR arızaları.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        },
+        {
+          "id": "ortak-3",
+          "sorun_adi": "Ekran kapanmaları, arka kapı kilidinin takılı kalması, 3. stop lambasından su girmesi, direksiyondan takırtı, arka kapaklar kapalıyken açık uyarısı",
+          "etkilenen_parca": "Ekran, kapı kilidi, 3. stop lambası ve direksiyon",
+          "belirtiler": "Ekran kapanmaları; Arka kapı kilidinin takılı kalması; 3. stop lambasından içeri su girmesi; Direksiyon çevirirken gelen takır tukur sesler; Arka kapaklar kapalı olmasına rağmen açık uyarısı vermesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "getrag-7dct300",
       "ad": "Getrag 7DCT300 (7 ileri ıslak kavramalı EDC / Powershift)",
       "tur": "sanziman",
@@ -1788,6 +1908,37 @@
               "bitis": 2016,
               "durum": "Görülebilir",
               "not": "Şikâyetler 2015-2016 model 1.6 dizellerde yoğunlaşıyor; bir Ekşi yorumu sorunun sonradan çözüldüğünü yazıyor (yıl verilmemiş)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "hyundai-i20-bayon-yakit-pompasi",
+      "ad": "Hyundai i20 (BC3) / Bayon yakıt pompası arızası (geri çağırma)",
+      "tur": "sistem",
+      "aciklama": "Hyundai i20 (BC3) ve Bayon'da hem 1.4 MPI hem de 1.0 T-GDI motorlarda ortaya çıkan yakıt pompası arızası; 2020-2023 arası modellerde sık görülüyor, i20'de 2023, Bayon'da 2024 makyajıyla çözülmüş görünüyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "yakit-pompasi",
+          "sorun_adi": "Yakıt pompası arızası: aracın yolun ortasında gaz kesip aniden durması (geri çağırma)",
+          "etkilenen_parca": "Yakıt pompası, yakıt rölesi ve sensörü",
+          "belirtiler": "Araç yolun ortasında gaz kesip aniden duruyor; gaza basılmasına rağmen tepki vermiyor (motora yakıt gitmiyor).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre sorun benzin pompasından kaynaklanıyor ve Hyundai bunun farkında: My Hyundai uygulamasına aracınızı eklediğinizde ilgili geri çağırma gözüküyor; müşterilere genelde rutin bakım esnasında 'şu an ücretsiz benzin pompası değiştirme kampanyası var' deniyor.",
+            "cozum": "Geçici çözüm yakıt deposu kapağını açıp içinde sıkışan gazın çıkmasını sağlamak ve arabayı bir süre dinlendirmek; sonrasında en kısa zamanda yetkili servise gidilip benzin pompasının değiştirilmesi gerekiyor. Bazı servisler değişim için garantiyi şart koşarken bazıları garanti dışı araçların ilgili parçalarını da ücretsiz değiştiriyor. Yakıt pompası dışında genelde yakıt rölesi ve sensörü de değişiyor ancak bu her zaman sağlıklı sonuç vermiyor: bazı örneklerde araç kalkarken kararsızlık yaşıyor, gaz yemiyor, çekiş gücü düşüyor, daha fazla yakıyor ve vites geçişleri gecikmeli-gürültülü hale geliyor.",
+            "onlem": "Sorunun yaygınlığı nedeniyle servise gidildiğinde parça bekleyen onlarca aracın arkasında sıraya girmek gerekebiliyor; bazı kullanıcılara Türkiye stoklarında parça kalmadığı, Güney Kore'den sipariş edildiği ve gelişinin 3-4 haftayı bulabildiği söyleniyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2020,
+              "bitis": 2023,
+              "durum": "Yaygın",
+              "not": "2020-2023 arası modellerde sık görülüyor; i20'de 2023, Bayon'da 2024 makyajıyla çözülmüş görünüyor."
             }
           ]
         }
@@ -1965,6 +2116,7 @@
             "neden": "DPF rejenerasyonu sırasında yanmamış yakıt motor yağına karışıp seviyeyi yükseltiyor; forumlarda kısa mesafe kullanımının bu süreci hızlandırdığı yazılıyor. Yanmamış yakıtın kaynağı olarak arızalı enjektörler, yağ seviyesi artışının diğer nedenleri olarak silindir kapağı contası, turboşarj ve PCV valfi arızaları da sayılıyor. Şikâyetvar'da bir kayıtta DPF nedeniyle yağa yaklaşık 1,5 litre mazot karıştığı söylenmiş.",
             "teshis": "Yağ çubuğunda seviyenin yükselmesi ve yağda mazot kokusu, sık DPF uyarısı. Forumlarda bazı DPF'li araçlarda yağ çubuğunda max çizgisinin üstünde, mazot karışmış yağ için izin verilen üst sınırı gösteren bir X işareti bulunduğu yazılıyor.",
             "cozum": "Forum tavsiyeleri: yağı zamanında değiştirmek (mazot karışan yağın yağlama özelliği bozulur), motor ısındıktan sonra yaklaşık 15 dakika 3.000 devirde giderek rejenerasyonu tamamlatmak, kısa mesafe kullanımda yağ aralığını kısaltıp DPF uyumlu (düşük SAPS) yağ kullanmak. Yağ seviyesi sürekli artıyorsa serviste enjektör, kaçak, EGR ve DPF sensörleri kontrol edilmeli. Bir 2024 Tucson sahibi iki yıldır süren sorunla beş kez yetkili servise gitmiş; yazılımın yetmeyip DPF'nin fiziksel temizliğinin gerektiği de forumlarda tartışılıyor.",
+            "maliyet": "And Çetin'in Ağustos 2026 yazısına göre DPF'nin profesyonel temizliği ve EGR temizliği çoğunlukla birkaç bin lira; DPF, SCR katalizörü veya AdBlue deposunun orijinal parçayla değişimi 50.000 TL'den başlayıp 200.000 TL'nin üzerine çıkabiliyor; DPF / EGR / AdBlue iptali (yazılım ya da donanım) çoğunlukla 3.000-10.000 TL ama muayene ve ceza (egzoz emisyon kontrol sistemi olmadan kullanım 17.957 TL), garanti dışı kalma ve arıza moduna geçme riski taşıyor.",
             "onlem": "Yağ seviyesini düzenli ölçmek ve max işaretini aştığında kullanmaya devam etmeden servise gitmek; kısa şehir içi kullanımı arada uzun yolla dengelemek."
           },
           "kaynaklar": [
@@ -1979,7 +2131,8 @@
             "https://www.sikayetvar.com/kia/rio/kronik",
             "https://forum.donanimhaber.com/kia-rio-1-4-crdi-yi-nasil-bilirsiniz--132493671",
             "https://www.araclo.com/vehicles/kia-rio-1.4-wgt-crdi/degerlendirmeler/kullanici-sorunlari",
-            "https://forum.donanimhaber.com/dizel-partikul-filtreli-araclarda-gorulen-yaglama-problemi--127906714"
+            "https://forum.donanimhaber.com/dizel-partikul-filtreli-araclarda-gorulen-yaglama-problemi--127906714",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
           ]
         },
         {
@@ -1999,6 +2152,70 @@
             "https://forum.donanimhaber.com/kia-ceed-1-6-crdi-silkeleme-sorunu--134474492",
             "https://www.sikayetvar.com/kia/enjektor",
             "https://www.araclo.com/blog/kia-ceed-1.6-crdi-ikinci-el-alim-rehberi-kontroller-bilinen-sorunlar-ve-bakim-onerileri"
+          ]
+        },
+        {
+          "id": "adblue-mazot-pompasi-2018",
+          "sorun_adi": "2018-2021 (D4FE): AdBlue sorunları ve mazot pompası arızaları",
+          "etkilenen_parca": "AdBlue sistemi ve yüksek basınçlı yakıt (mazot) pompası",
+          "belirtiler": "AdBlue sistemi arızaları ve mazot pompası arızaları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre 2018-2021 arası D4FE (Euro 6d; AdBlue kullanımı başladı; triger kayışlı, alüminyum blok) 1.6 CRDi'larda AdBlue sorunları ve mazot pompası arızaları görülüyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-kia-16-crdi-sorunlar-83/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2018,
+              "bitis": 2021,
+              "durum": "Görülebilir",
+              "not": "D4FE: AdBlue ve mazot pompası arızaları."
+            }
+          ]
+        },
+        {
+          "id": "yag-eksiltme-revizyon",
+          "sorun_adi": "100 bin km'den itibaren yağ eksiltme: motor rektefiyesi ya da sandık motor değişimi",
+          "etkilenen_parca": "Motor (piston / segman bölgesi)",
+          "belirtiler": "100 bin km'den itibaren yağ eksiltmeye başlaması ve sonrasında motor rektefiyesi isteyen ya da sandık motor değişimine giden örnekler.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısında 2018-2021 arası D4FE 1.6 CRDi için anlatılıyor; 2018'e kadarki D4FB örneklerinin ender DPF/EGR arızaları haricinde sorunsuz olduğu belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-kia-16-crdi-sorunlar-83/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2018,
+              "bitis": 2021,
+              "durum": "Görülebilir",
+              "not": "D4FE: 100 bin km'den itibaren yağ eksiltme, rektefiye ya da sandık motor."
+            }
+          ]
+        },
+        {
+          "id": "dpf-rejenerasyon-uyarisi-yok",
+          "sorun_adi": "2021 sonrası: DPF doluluk göstergesi ve rejenerasyon uyarısı yok; motoru stop etmek DPF'yi temizlenemez hale getiriyor",
+          "etkilenen_parca": "Dizel partikül filtresi (DPF), motor yağı ve motor",
+          "belirtiler": "Egzoz emisyon uyarıları, motor arıza ışıkları, hibrit (48V) ve AdBlue arızaları; DPF rejenerasyonunun başladığına dair uyarı verilmemesi nedeniyle motorun stop edilmesi, DPF'nin temizlenemez hale gelmesi, motor arıza lambası, yağ seviyesinde yükselme (yağa mazot karışması) ve motorun ambeleye kalkma riski.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre 2021 sonrası (Tucson NX4, Sportage NQ5; 48V hafif hibrit) 1.6 CRDi'larda asıl sorun DPF: DPF doluluk oranını görebileceğiniz bir ekran ve rejenerasyon uyarısı yok; rejenerasyon başladığından haberiniz olmadığı için motoru stop edebiliyorsunuz. Bu birkaç kez tekrarlanırsa DPF temizlenemez hale geliyor; sürüşe devam edilirse motor yağına mazot karışıyor.",
+            "onlem": "Çoğu 1.6 CRDi Tucson / Sportage kullanıcısı DPF doluluk durumunu OBD cihazlarıyla takip ediyor. Yazıya göre ambeleye kalkıp henüz 3. yılını / 50 bin km'yi doldurmadan ikinci motor değişimine giden örnekler var."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-kia-16-crdi-sorunlar-83/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2021,
+              "bitis": 2026,
+              "durum": "Yaygın",
+              "not": "48V hafif hibrit D4FE: emisyon uyarıları, motor arızaları, hibrit ve AdBlue arızaları yaygın; asıl sorun DPF."
+            }
           ]
         }
       ]
@@ -2026,7 +2243,60 @@
             "https://www.honestjohn.co.uk/range-rover/evoque/convertible/",
             "https://www.honestjohn.co.uk/forum/post/137248/land-rover-discovery",
             "https://www.parkers.co.uk/long-term-car-reviews/land-rover-discovery-sport/",
-            "https://forum.donanimhaber.com/satilik-jaguar-f-pace-merakli-sorular-jlr-grubu-motorlari--163920799"
+            "https://forum.donanimhaber.com/satilik-jaguar-f-pace-merakli-sorular-jlr-grubu-motorlari--163920799",
+            "https://andcetin.com/range-rover-velar-sorunlar-91/"
+          ]
+        },
+        {
+          "id": "zincir-10bin",
+          "sorun_adi": "Erken zincir değişimi (henüz ~10 bin km'de; motorun arkasında)",
+          "etkilenen_parca": "Zamanlama zinciri (motorun arka tarafında)",
+          "belirtiler": "Henüz ~10 bin km'de zincir değişimi; değiştirmek için motor ve şanzımanın indirilmesi gerekiyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in Velar yazısına göre tüm JLR modellerinde olduğu gibi Velar'da da en riskli versiyonlar dizeller; zincir değişimi henüz ~10 bin km'de gerekebiliyor ve zincir motorun arkasında olduğu için motor ile şanzıman indirilmeden değiştirilemiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/range-rover-velar-sorunlar-91/"
+          ]
+        },
+        {
+          "id": "adblue-egr-dpf",
+          "sorun_adi": "AdBlue, EGR ve DPF tıkanma ve arızaları",
+          "etkilenen_parca": "AdBlue, EGR valfi ve dizel partikül filtresi",
+          "belirtiler": "AdBlue, EGR ve DPF tıkanması ve arızaları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in Velar yazısında dizellerin en riskli versiyonlar olduğu bağlamında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/range-rover-velar-sorunlar-91/"
+          ]
+        },
+        {
+          "id": "enjektor-soketi-v-kayisi",
+          "sorun_adi": "Enjektör soketi hatası ve V kayışının kopması",
+          "etkilenen_parca": "Enjektör soketi ve yardımcı (V) kayış",
+          "belirtiler": "Enjektör soketi hatası; V kayışının kopması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in Velar yazısında dizellerin riskli yönleri arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/range-rover-velar-sorunlar-91/"
+          ]
+        },
+        {
+          "id": "turbo-yatak",
+          "sorun_adi": "Turbo arızası ve 100 bin km'den itibaren yatak sarma",
+          "etkilenen_parca": "Turboşarj ve motor yatakları",
+          "belirtiler": "Turbo arızası; 100 bin km'den itibaren yatak sarma.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in Velar yazısına göre dizellerde turbo arızası ve 100 bin km'den itibaren yatak sarma görülebiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/range-rover-velar-sorunlar-91/"
           ]
         }
       ]
@@ -2057,6 +2327,27 @@
             "https://otopark.com/forum/threads/range-rover-sport-yatak-sardi.5766/",
             "https://forum.donanimhaber.com/2013-model-range-rover-sport-80-000-km-de-motor-yatak-sardi--110119062",
             "https://www.sikayetvar.com/land-rover/range-rover-sport"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "magna-dw23",
+      "ad": "Magna (eski Getrag) DW23 6 ileri ıslak çift kavramalı şanzıman",
+      "tur": "sanziman",
+      "aciklama": "Renault'nun güncel Clio'sunda ve yeni Boreal 1.3 TCe'de kullandığı Magna DW23: 4 mekanik dişli ve bir 'köprü' teknolojisiyle 2 sanal dişli oluşturarak toplam 6 ileri oran sunan ıslak tip çift kavramalı şanzıman. Güney Amerika'da Mart 2024'ten beri satılan Kardian 1.0 TCe'de de kullanılıyor; aşağıdaki şikâyetler özellikle Brezilya'daki Kardian'a ait.",
+      "kronik_sorunlar": [
+        {
+          "id": "kardian-sanziman-sikayetleri",
+          "sorun_adi": "Yoğun trafikte 'Otomatik vites P arızalı' uyarısı, şanzımanın geçici devre dışı kalması, vuruntu ve hata mesajları",
+          "etkilenen_parca": "DW23 şanzıman ve kontrol yazılımı",
+          "belirtiler": "Yoğun trafikte 'Otomatik vites P arızalı' uyarısı; şanzımanın geçici olarak devre dışı kalması; vuruntu ve şanzıman hata mesajları.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in Boreal analizine göre özellikle Brezilya'da Renault Kardian 1.0 TCe'nin şanzımanıyla ilgili yaygın şikâyetler bunlar; Türkiye'de satılan araçlardan henüz yeterince geri bildirim yok."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/renault-boreal-analizi-99/"
           ]
         }
       ]
@@ -2298,6 +2589,53 @@
       ]
     },
     {
+      "id": "mqb-ticari-caddy-connect",
+      "ad": "2020 sonrası VW Caddy ve Ford Tourneo Connect (MQB, 2.0 TDI / EcoBlue 122 PS)",
+      "tur": "sistem",
+      "aciklama": "MQB platformunu ve VW motor-şanzımanlarını paylaşan 2020 sonrası VW Caddy ve Ford Tourneo Connect (Ford'da EcoBlue, DSG Powershift adıyla); ikisi de VW'nin Polonya'daki fabrikasında üretiliyor. 2.0 TDI 122 hp Türkiye'ye geliyor, 115 hp 1.5 TSI gelmiyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "ortak-1",
+          "sorun_adi": "Elektronik: emniyet kemeri ikaz hatası, şerit takip hatası, bileşen koruma hatası (ses sistemi ve klima devre dışı kalıyor), tahrik sistemi arızası, S.O.S. ve airbag arızası",
+          "etkilenen_parca": "Güvenlik ve konfor elektroniği",
+          "belirtiler": "Emniyet kemeri ikaz hatası; Şerit takip sistemi hatası; Bileşen koruma etkin hatası (ses sistemi ve klima devre dışı kalıyor); Tahrik sistemi arızası; S.O.S. arızası; Airbag arızası; Acil durum fren sisteminin yersiz devreye girmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        },
+        {
+          "id": "ortak-2",
+          "sorun_adi": "Park sensörü, silecek motoru, kornanın çalışmaması, geri görüş kamerası, ekran donmaları, akünün sık bitmesi, yağ seviyesi yüksek uyarısı",
+          "etkilenen_parca": "Sensörler, kamera, ekran ve akü",
+          "belirtiler": "Park sensörü arızası; Silecek motoru arızası; Kornanın çalışmaması; Geri görüş kamerasının çalışmaması; Ekran donmaları; Akünün sık bitmesi; Yağ seviyesi yüksek uyarısı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        },
+        {
+          "id": "ortak-3",
+          "sorun_adi": "Bagaj halısında kabarma, tavandan trim sesleri; AdBlue, DPF ve EGR arızaları",
+          "etkilenen_parca": "Kabin trimi ve dizel emisyon sistemi",
+          "belirtiler": "Bagaj halısında kabarma; Tavandan gelen trim sesleri; AdBlue, DPF ve EGR arızaları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "nissan-e-power-aku",
       "ad": "Nissan e-POWER akü boşalması",
       "tur": "sistem",
@@ -2315,14 +2653,114 @@
             "teshis": "Kaynaklarda kesin teşhis yöntemi anlatılmıyor. Sahipler servisin aküyü değiştirdiğini, bir sahibe de aracı uzun süre kullanmayacağı zaman kutup başlarının sökülmesini önerdiğini yazıyor.",
             "cozum": "Akü değişimi (bir X-Trail sahibinde sorun tekrarlamış) ve yetkili servis müdahalesi; kalıcı çözüm kaynaklarda doğrulanmadı.",
             "maliyet": "Fiyat bilgisi çıkmadı; anlatılan vakalar 2023 ve sonrası model yeni araçlara ait.",
-            "onlem": "İkinci elde servis kaydında akü değişimi ve yol yardımı geçmişini sormak. Kilometre aralığı kaba tahmindir: vakalar ilk aylardan 30.000 km'ye kadar dağılıyor."
+            "onlem": "İkinci elde servis kaydında akü değişimi ve yol yardımı geçmişini sormak. Kilometre aralığı kaba tahmindir: vakalar ilk aylardan 30.000 km'ye kadar dağılıyor. And Çetin'in yazısına göre 12V akü araç bir haftadan uzun kullanılmayınca bitiyor ve akü değiştirilse de sorun tekrarlıyor."
           },
           "kaynaklar": [
             "https://www.sikayetvar.com/nissan/nissan-qashqai-e-power-aku-bosaltma-sorunu",
             "https://www.sikayetvar.com/nissan/qashqai/qashqai-2025-e-power",
             "https://www.sikayetvar.com/nissan/x-trail/aku",
             "https://www.sikayetvar.com/nissan/x-trail/e-power",
-            "https://forum.donanimhaber.com/yeni-nissan-qashqai-e-power-ana-konu--154830194-9"
+            "https://forum.donanimhaber.com/yeni-nissan-qashqai-e-power-ana-konu--154830194-9",
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "nissan-e-power-sistem",
+      "ad": "Nissan e-POWER / e-4ORCE seri hibrit sistemi (1.5 VC-Turbo)",
+      "tur": "sistem",
+      "aciklama": "Nissan'ın Qashqai (J12) ve X-Trail (T33) modellerinde kullandığı seri hibrit sistem: 1.5 litre üç silindirli değişken kompresyonlu turbo benzinli motor yalnızca elektrik üretir, tekerlekleri elektrik motorları çevirir (önden çekiş e-POWER, dört çeker e-4ORCE; geleneksel şanzıman yoktur). Sorunlar And Çetin'in e-POWER yazısından derlenmiştir.",
+      "kronik_sorunlar": [
+        {
+          "id": "jenerator-gurultusu",
+          "sorun_adi": "Içten yanmalı motorun 'jeneratör gürültüsü'",
+          "etkilenen_parca": "Jeneratör görevi gören 1.5 VC-Turbo benzinli motor",
+          "belirtiler": "Motorun elektrik üretirken kabine yansıyan gürültüsü.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. İngiltere'de yapılan otomobil üreticileri sorunsuzluk sıralamasında 31 marka arasından 28. olan Nissan'ın bu hibrit sistemli Qashqai / X-Trail modellerindeki en yaygın şikâyetler arasında ilk sırada anılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "id": "kis-tuketimi",
+          "sorun_adi": "Soğuk motorla özellikle kışta 10 litrenin üstüne çıkan yakıt tüketimi",
+          "etkilenen_parca": "Seri hibrit sistem (benzinli jeneratör motoru)",
+          "belirtiler": "Özellikle kışın, motor soğukken yakıt tüketiminin 10 litrenin üstüne çıkması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yaygın şikâyetler arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "id": "fren-balata-islik",
+          "sorun_adi": "Fren balatalarından ıslık sesi (kaymayı engelleyen sac parçaların disklere sürtmesi)",
+          "etkilenen_parca": "Fren balataları ve balata sac parçaları",
+          "belirtiler": "Frenlerden gelen ıslık sesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre balataların kaymasını engelleyen sac parçalar disklere sürtüyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "id": "e-guc-arizasi",
+          "sorun_adi": "'e-GÜÇ Sistemi Arızası' uyarısı ve yolda kalma",
+          "etkilenen_parca": "e-POWER güç sistemi (jeneratör, inverter, tahrik motorları)",
+          "belirtiler": "'e-GÜÇ Sistemi Arızası' uyarısı ve aracın yolda kalması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yaygın şikâyetler arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "id": "bms-yazilim",
+          "sorun_adi": "Batarya yönetim sistemi (BMS) yazılımı: yanlış şarj durumu hesabı, limp-home ve güç kaybı (geri çağırma)",
+          "etkilenen_parca": "Batarya yönetim sistemi yazılımı",
+          "belirtiler": "Batarya şarj durumunun yanlış hesaplanması; aracın limp-home moduna geçmesi, sürüş sırasında güç kaybı ve aracın yeniden çalıştırılamaması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre 2023'te Avustralya'da bazı e-POWER sistemli araçlar BMS yazılımındaki hatalı kalibrasyon nedeniyle geri çağrıldı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "id": "vc-turbo-yatak",
+          "sorun_adi": "1.5 VC-Turbo motorda yatak sarması (ABD'de soruşturma)",
+          "etkilenen_parca": "1.5 VC-Turbo benzinli motorun yatakları",
+          "belirtiler": "Motor arızaları ve yatak sarması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre ABD'de Aralık 2023'te 2021-2023 Rogue'larda (X-Trail) kullanılan 1.5 VC-Turbo motorun arızaları ve yatak sarması şikâyetleri üzerine ODI (Office of Defects Investigation) soruşturma açtı ve Nissan'ın 450.000'den fazla aracı incelemeye alındı; ABD'de güncel Rogue için 5 geri çağırma var."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "id": "istem-disi-hizlanma",
+          "sorun_adi": "İstem dışı hızlanma, yazılım ve batarya yönetimi sorunları (2023 global geri çağırma)",
+          "etkilenen_parca": "Tahrik yazılımı ve batarya yönetimi",
+          "belirtiler": "İstem dışı hızlanma, yazılım ve batarya yönetimi arızaları.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre 2023'te Nissan global olarak, bazıları e-POWER sistemine sahip yaklaşık 1.4 milyon aracı istem dışı hızlanma, yazılım ve batarya yönetimi sorunları nedeniyle geri çağırdı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
           ]
         }
       ]
@@ -2564,7 +3002,7 @@
             "neden": "DonanımHaber'de sık geçen nedenler AdBlue pompasının tıkanması, depodaki şamandıranın arızası, enjektörün tıkanması ve tank üstündeki devre kartının AdBlue ile temas etmesi; bir kullanıcı depo değişiminin gerektiğini ve bunun ücretsiz yapılması gerektiğini bildiriyor. Bir kullanıcı 2016-2022 arası araçlarda AdBlue deposunun üretimden sorunlu olduğunu savunuyor (kişisel iddia, doğrulanmadı).",
             "teshis": "Şikâyetvar ve DonanımHaber'de bir 2015 model 308 1.6 BlueHDi'de yaklaşık 95.000 km'de, 2016 model iki 3008'de 65.000 ve 92.000 km'de AdBlue (üre) hatasının motor arıza uyarısıyla birlikte geldiği anlatılıyor; daha yeni 3008'lerde de (2022 model 30.000 km'de, 2023 model 1.100 km'de) aynı uyarı bildiriliyor, bunlar muhtemelen 1.5 BlueHDi. Bir 308'de 'AdBlue doldurun' uyarısı her 100-200 km'de bir, depo dolu olduğu halde tekrarlıyor. Kilometre aralığı kaba tahmindir; arıza tek bir kilometrede başlamıyor.",
             "cozum": "Depo ya da pompa değişimi; bir kullanıcı depo değişiminin garanti kapsamında ücretsiz yapılması gerektiğini bildiriyor. Kesin bir çözüm ya da Peugeot Türkiye'nin resmî açıklaması kaynaklarda yok.",
-            "maliyet": "Bir kullanıcı EGR soğutucusu kaçağı, EGR sensörü ve AdBlue enjektör onarımı için 9.500 TL ödediğini yazıyor (tek vaka, tarih belirsiz, güncel fiyat olarak okumayın)."
+            "maliyet": "Bir kullanıcı EGR soğutucusu kaçağı, EGR sensörü ve AdBlue enjektör onarımı için 9.500 TL ödediğini yazıyor (tek vaka, tarih belirsiz, güncel fiyat olarak okumayın). And Çetin'in Ağustos 2026 yazısına göre DPF'nin profesyonel temizliği ve EGR temizliği çoğunlukla birkaç bin lira; DPF, SCR katalizörü veya AdBlue deposunun orijinal parçayla değişimi 50.000 TL'den başlayıp 200.000 TL'nin üzerine çıkabiliyor; DPF / EGR / AdBlue iptali (yazılım ya da donanım) çoğunlukla 3.000-10.000 TL ama muayene ve ceza (egzoz emisyon kontrol sistemi olmadan kullanım 17.957 TL), garanti dışı kalma ve arıza moduna geçme riski taşıyor."
           },
           "kaynaklar": [
             "https://forum.donanimhaber.com/her-peugeot-adblue-sorununun-yasayacaktir--144473286-15",
@@ -2574,7 +3012,8 @@
             "https://www.sikayetvar.com/peugeot/308/adblue",
             "https://www.sikayetvar.com/peugeot/3008/adblue-sorunu",
             "https://otopark.com/forum/threads/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk.15617/",
-            "https://www.sikayetvar.com/toyota/proace-city/adblue"
+            "https://www.sikayetvar.com/toyota/proace-city/adblue",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
           ]
         },
         {
@@ -2661,6 +3100,7 @@
           "detay": {
             "neden": "Şikâyetvar'da bir kullanıcı yeni Focus'larda DPF uyarılarının sık geldiğini ve yağ ömrü göstergesinin hızla düştüğünü yazıyor; bunun rejenerasyon sırasında yağa mazot karışmasıyla ilişkilendirildiği anlatılıyor (aramada DPF'de yağa yakıt karışmasına dair resmî ya da bağımsız teknik doğrulama bulunamadı). Kısa şehir içi kullanımda rejenerasyon sık tetikleniyor.",
             "cozum": "Bazı sahipler yağ değişimlerinin garanti dışı bırakıldığını bildiriyor; kesin bir onarım yöntemi kaynaklarda yer almıyor.",
+            "maliyet": "And Çetin'in Ağustos 2026 yazısına göre DPF'nin profesyonel temizliği ve EGR temizliği çoğunlukla birkaç bin lira; DPF, SCR katalizörü veya AdBlue deposunun orijinal parçayla değişimi 50.000 TL'den başlayıp 200.000 TL'nin üzerine çıkabiliyor; DPF / EGR / AdBlue iptali (yazılım ya da donanım) çoğunlukla 3.000-10.000 TL ama muayene ve ceza (egzoz emisyon kontrol sistemi olmadan kullanım 17.957 TL), garanti dışı kalma ve arıza moduna geçme riski taşıyor.",
             "onlem": "Yağ ömrü göstergesinin erken düşmesini ve yağ seviyesinin yükselmesini yazılı kayda geçirtmek; kısa şehir içi kullanımı arada uzun yolla dengelemek."
           },
           "kaynaklar": [
@@ -2668,7 +3108,8 @@
             "https://www.sikayetvar.com/ford/focus/yag",
             "https://www.sikayetvar.com/ford/focus/focus-yag-omru",
             "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi",
-            "https://otopark.com/forum/threads/dizel-partikul-filtreli-araclarda-gorulebilen-yag-problemi.7225/"
+            "https://otopark.com/forum/threads/dizel-partikul-filtreli-araclarda-gorulebilen-yag-problemi.7225/",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
           ]
         }
       ]
@@ -2747,7 +3188,8 @@
           "detay": {
             "neden": "Ford Owners Club'da karbonla takılan EGR valfi sık suçlanıyor: bir sahip EGR kaynaklı arızanın motoru kestiğini ve stop ettirdiğini, başka biri EGR tıkama denemesinin boost sensörü hatası verdirdiğini yazıyor; bir alıcı DPF'si tamamen tıkalı bir 1.6 TDCi bulmuş. DonanımHaber'de bir kullanıcı EGR iptalinden sonra çalışma ve titreme sorunları yaşandığını aktarıyor; bir başka yanıt EGR temizliğinin her zaman kalıcı çözüm olmadığını belirtiyor.",
             "teshis": "Ford Owners Club'da güç düşmelerinin EGR sorununa benzediği, EGR tıkamanın bu düşmeleri durdurduğu yazılıyor; ayrıca bozuk kam konum sensörü ve ısıtma bujilerinin de stop ve tekleme yaptırabildiği anılıyor. EGR iptali muayene ve emisyon açısından risklidir.",
-            "cozum": "EGR valfinin temizlenmesi ya da değişimi; bazı sahipler EGR iptali yapıyor (muayene riski). Kaynaklarda kalıcı bir çözüm konusunda görüş birliği yok."
+            "cozum": "EGR valfinin temizlenmesi ya da değişimi; bazı sahipler EGR iptali yapıyor (muayene riski). Kaynaklarda kalıcı bir çözüm konusunda görüş birliği yok.",
+            "maliyet": "And Çetin'in Ağustos 2026 yazısına göre DPF'nin profesyonel temizliği ve EGR temizliği çoğunlukla birkaç bin lira; DPF, SCR katalizörü veya AdBlue deposunun orijinal parçayla değişimi 50.000 TL'den başlayıp 200.000 TL'nin üzerine çıkabiliyor; DPF / EGR / AdBlue iptali (yazılım ya da donanım) çoğunlukla 3.000-10.000 TL ama muayene ve ceza (egzoz emisyon kontrol sistemi olmadan kullanım 17.957 TL), garanti dışı kalma ve arıza moduna geçme riski taşıyor."
           },
           "kaynaklar": [
             "https://forum.donanimhaber.com/egr-valfi-iptali-ve-endise--111790444",
@@ -2763,7 +3205,8 @@
             "https://forum.donanimhaber.com/peugeot-3008--29109292-504",
             "https://forum.donanimhaber.com/eski-kasa-makyajli-1-6-bluehdi-peugeot-3008-alinir-mi--144842900",
             "https://www.fordownersclub.com/forums/topic/82756-blocked-dpf-regeneration-help-16-tdci-2008/",
-            "https://www.honestjohn.co.uk/askhj/answer/28172/ford-focus-dpf-problems"
+            "https://www.honestjohn.co.uk/askhj/answer/28172/ford-focus-dpf-problems",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
           ]
         }
       ]
@@ -2797,6 +3240,53 @@
             "https://frenchcarforum.co.uk/forum/viewtopic.php?t=54045",
             "https://otopark.com/forum/threads/peugeot-407-2-0-hdi-debriyaj-sorunu.3084/",
             "https://forum.donanimhaber.com/peugeot-407-1-6-hdi-sahibi-icini-dokmus--38470545-3"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psa-k9-ticari-ortak",
+      "ad": "Stellantis K9 platformu ticari ve hafif ticari (Rifter / Partner, Berlingo, Combo, Doblo, Proace City)",
+      "tur": "sistem",
+      "aciklama": "Aynı K9 platformunu ve 1.5 BlueHDi + EAT8 (Aisin) aktarma organlarını paylaşan Peugeot Rifter / Partner, Citroën Berlingo, Opel Combo, Fiat Doblo ve Toyota Proace City; İspanya ve Portekiz'deki Stellantis fabrikalarında üretiliyor. Yazıya göre en uzun garanti Toyota'da (periyodik bakım serviste yapılırsa 10 yıl / 165 bin km'ye kadar), ancak AdBlue ve DPF garanti kapsamında değil.",
+      "kronik_sorunlar": [
+        {
+          "id": "ortak-1",
+          "sorun_adi": "Motor ve şanzıman: eksantrik zincirinin ~50 bin km'de kırılması (2020-2022), mazot müşürü arızası, motor ve şanzıman arızaları, düşük hızda şanzımanda vuruntu",
+          "etkilenen_parca": "1.5 BlueHDi motor, eksantrik zinciri, mazot müşürü ve EAT8 şanzıman",
+          "belirtiler": "~50 bin km'de egzantrik zinciri kırma (2020-2022); Mazot müşürü arızası; Şanzıman ve motor arızaları; Düşük hızlarda şanzımanda vuruntu; AdBlue, DPF ve EGR arızaları.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        },
+        {
+          "id": "ortak-2",
+          "sorun_adi": "Elektrik-elektronik: akünün erken bitmesi ve aracın kitlenmesi, start-stop, hava yastığı ve emniyet kemeri gergisi, otomatik fren, hız sabitleyici, ekran, klima, Bluetooth arızaları",
+          "etkilenen_parca": "Akü, start-stop, güvenlik sistemleri ve ekran",
+          "belirtiler": "Akünün erken bitmesi sonucu aracın kitlenmesi; Henüz durmadan start-stop'un motoru kapatması; Hava yastığı ve emniyet kemeri gergi arızası; Otomatik fren sistemi arızası; Hız sabitleyici arızası; Ekran kapanmaları; Klima arızaları; Bluetooth bağlantısında kesilme; Sileceklerin durduk yere çalışması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        },
+        {
+          "id": "ortak-3",
+          "sorun_adi": "Direksiyonda titreme ve zorlanma; direksiyon kutusundan gelen sesler",
+          "etkilenen_parca": "Direksiyon sistemi",
+          "belirtiler": "Direksiyonda titreme ve zorlanma; Direksiyon kutusundan gelen sesler.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
           ]
         }
       ]
@@ -2845,7 +3335,7 @@
             "teshis": "Yağ basıncı uyarısı; karter kapağı söküldüğünde süzgeçte ve karterde kayış artıkları görülüyor. Bir kullanıcı karter kapağını söküp filtreyi tıkayan aksamın temizlenmesinin faydalı olduğunu yazıyor.",
             "cozum": "Kayış değişimi ve karter/yağ süzgeci temizliği. Kaynaklarda PSA/Stellantis onaylı yağ (B71 2312) kullanmak, yağı sık değiştirmek (bir kaynak 15.000 değil 10.000 km öneriyor) ve kayış aşınmasını periyodik kontrol ettirmek öneriliyor.",
             "maliyet": "Bir kullanıcı işlemin yaklaşık 10 bin TL'ye, bir diğeri 25 bine yakın bir masrafa mal olacağını yazıyor (eski, bölgeye göre değişebilir; güncel teklif alın).",
-            "onlem": "Değişim aralığı konusunda tek bir görüş yok: bir yorumcu en fazla 40 bin km/3 yıl, başka biri 60 bin km, Gen3 için bir kaynak 100-120 bin km öneriyor; kitapçık değeri 180 bin km. Yetkili servis bülteni ve motor jenerasyonunu (Gen2/Gen3) şasi numarasıyla doğrulayın."
+            "onlem": "Değişim aralığı konusunda tek bir görüş yok: bir yorumcu en fazla 40 bin km/3 yıl, başka biri 60 bin km, Gen3 için bir kaynak 100-120 bin km öneriyor; kitapçık değeri 180 bin km. Yetkili servis bülteni ve motor jenerasyonunu (Gen2/Gen3) şasi numarasıyla doğrulayın. And Çetin'in Mayıs 2026 tarihli yazısına göre Hollandalı Pro Chain firması ıslak kayışlı 1.2 PureTech'leri zincirli hale getiren bir dönüşüm kiti tanıttı (atmosferik ve turbo için iki kit; 2026'nın ikinci yarısında teslimat; 829 € + KDV; yalnızca servislere / toptancılara satılıyor; Türkiye'de özel serviste 100-150 bin TL olası; yetkili servis OEM olmayan kit için garanti vermek istemeyecektir). Yazıda kayış için en fazla 50 bin km / 3 yılda bir değişim öneriliyor."
           },
           "kaynaklar": [
             "https://www.sikayetvar.com/citroen/c3/kronik",
@@ -2861,7 +3351,8 @@
             "https://www.parkers.co.uk/car-news/stellantis-wet-belt-compensation/",
             "https://www.sikayetvar.com/peugeot/peugeot-308-purtech-triger-kayisi-ve-yag-eksiltme-sorunu",
             "https://www.honestjohn.co.uk/forum/post/159060/peugeot-308-sw--",
-            "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026"
+            "https://www.araclo.com/blog/opel-corsa-1.2-t-sorunlari-bakim-ve-satin-alma-rehberi-2026",
+            "https://andcetin.com/12-puretechin-olum-kalm-savas-95/"
           ],
           "donem_kirilimi": [
             {
@@ -3350,10 +3841,12 @@
           "belirtiler": "Termostat gövdesinde çatlama ya da birleşme noktasından sızıntı; sızan soğutma sıvısının motora kadar gidip hararete yol açması.",
           "risk_seviyesi": "Orta",
           "detay": {
-            "neden": "And Çetin'in yazısına göre M282 kodlu 1.3 TCe'de termostat gövdesi plastikten yapılmış; zamanla çatlıyor ya da birleşme noktasından sızıntı yapıyor, sızan soğutma sıvısı motora kadar gidip hararete yol açıyor. Yazı aynı sorunun Renault modellerinde de görüldüğünü belirtiyor."
+            "neden": "And Çetin'in yazısına göre M282 kodlu 1.3 TCe'de termostat gövdesi plastikten yapılmış; zamanla çatlıyor ya da birleşme noktasından sızıntı yapıyor, sızan soğutma sıvısı motora kadar gidip hararete yol açıyor. Yazı aynı sorunun Renault modellerinde de görüldüğünü belirtiyor.",
+            "maliyet": "And Çetin'in 'Kroniğin elli tonu' yazısına göre 1.3 TCe motorlarda termostatın kendisi 5-10 bin liralık bir parça; vaktinde değiştirilmezse çatlar, soğutma sıvısı sızar, hararet olur ve 300-400 bin liralık sandık motor masrafına dönüşebilir (tarihsiz yazı beyanı; güncel fiyat olarak okumayın)."
           },
           "kaynaklar": [
-            "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/"
+            "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/",
+            "https://andcetin.com/kronigin-elli-tonu-107/"
           ]
         }
       ]
@@ -3382,6 +3875,273 @@
             "https://www.fiches-auto.fr/articles-auto/fiabilite-moteurs-diesel/s-2443-fiabilite-du-16-dci.php",
             "https://forum-auto.caradisiac.com/topic/144430-renault-espace-5-16-dci-160-casse-et-changement-moteur-recensement/",
             "https://forum-auto.caradisiac.com/topic/521043-trafic-3-16dci-140ch-remplacement-moteur/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellantis-1-2-hibrit-136",
+      "ad": "Stellantis 1.2 PureTech hibrit 136 PS (zincirli, 48V, e-DCS6)",
+      "tur": "sistem",
+      "aciklama": "Stellantis'in 2023'ten itibaren Peugeot 3008 / 5008, Citroën C3 Aircross / C4 / C5 Aircross, Opel Corsa / Mokka / Frontera / Grandland, Fiat 600 / Grande Panda, Jeep Avenger / Compass, Alfa Romeo Junior gibi modellerde kullandığı 136 PS 1.2 PureTech hibrit sistemi (triger kayışı yerine zincir; 48V, e-DCS6 şanzıman). Şanzıman sorunları 'stellantis-e-dcs6' ailesindedir.",
+      "kronik_sorunlar": [
+        {
+          "id": "yuksek-rakimda-motor-kapanmama",
+          "sorun_adi": "Yüksek rakımda (~1500 m üzeri) benzinli motorun kapanmaması: tüketim 6 litreden 10 litreye çıkıyor",
+          "etkilenen_parca": "Elektrikli fren vakum pompası ve hibrit kontrol yazılımı",
+          "belirtiler": "Yüksek rakımlarda benzinli motorun batarya dolu olsa bile kapanmaması; elektrik motoru yalnızca ~15 km/s altında tek başına çalışabiliyor, 50-60 km/s gibi hızlarda benzinli motor devrede kalıyor; yakıt tüketiminin artması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre sorun vakum destekli fren sisteminden kaynaklanıyor: hibrit araçlarda fren vakumunu elektrikli vakum pompası sağlıyor ama yüksek rakımda atmosfer basıncı düştüğü için bu pompa yeterli vakumu yaratamıyor, güvenlik için benzinli motor çalışır halde kalıyor. Sürüş modlarıyla ilgisi yok; Eco modda da benzinli motor devreden çıkmıyor.",
+            "maliyet": "İstanbul gibi deniz seviyesinde ortalama 6 litre/100 km mümkünken rakımın 2000 metreye yaklaştığı Erzurum gibi bir şehirde değer 10 litreye çıkıyor (yazıdaki örnek)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hibrit-puretech-ve-e-dcs6-sorunlar-71/",
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        },
+        {
+          "id": "yolda-kalma-tahrik",
+          "sorun_adi": "Yolda kalma: motor ve tahrik sistemi arızası",
+          "etkilenen_parca": "Hibrit tahrik sistemi ve motor",
+          "belirtiler": "Yolda kalma; motor arızaları; tahrik sistemi arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. '1.2 hibrit Stellantis'ler' bölümünde yaygın şikâyetlerin başında yolda kalma, motor / tahrik sistemi arızası ve şanzıman arızası sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "id": "hararet-yangin",
+          "sorun_adi": "Hararet ve yangın çıkması",
+          "etkilenen_parca": "Soğutma sistemi ve hibrit bileşenler",
+          "belirtiler": "Hararet; yangın çıkması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. '1.2 hibrit Stellantis'ler' bölümünde yaygın şikâyetler arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "id": "gecis-kararsizligi-start-stop",
+          "sorun_adi": "Benzinli / elektrikli geçiş kararsızlığı ve start-stop sisteminin sürekli devreye girmesi",
+          "etkilenen_parca": "Hibrit kontrol yazılımı ve start-stop",
+          "belirtiler": "Benzinli ve elektrikli motor arasında geçişte kararsızlık; start-stop sisteminin sürekli devreye girmesi ya da arızası; dur-kalkta vuruntu / sarsıntı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Şikâyetler arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "id": "fren-sorunlari",
+          "sorun_adi": "Rejeneratif frenin devre dışı kalması, fren arızası ve fren hidrolik yağı sızıntısı",
+          "etkilenen_parca": "Fren sistemi",
+          "belirtiler": "Rejeneratif fren sisteminin devre dışı kalması; fren arızası; fren hidrolik yağı sızıntısı.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Şikâyetler arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "id": "kendi-kendine-fren-hizlanma",
+          "sorun_adi": "Aracın kendi kendine ani fren yapması ya da hızlanması; durduk yere devreye giren park sensörleri; yaya ikazı arızası",
+          "etkilenen_parca": "Sürüş destek sistemleri ve sensörler",
+          "belirtiler": "Aracın kendi kendine ani fren yapması; kendi kendine hızlanması; durduk yere devreye giren park sensörleri; yaya ikazı arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Şikâyetler arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        },
+        {
+          "id": "klima-calismama",
+          "sorun_adi": "Klimanın çalışmaması",
+          "etkilenen_parca": "Klima sistemi",
+          "belirtiler": "Klimanın çalışmaması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Şikâyetler arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellantis-e-dcs6",
+      "ad": "Stellantis e-DCS6 (6 ileri çift kavramalı hibrit şanzıman, Punch Powertrain)",
+      "tur": "sanziman",
+      "aciklama": "Stellantis'in 2023'ten itibaren 1.2 PureTech hibrit (48V, 136 PS) modellerinde kullandığı, Punch Powertrain'in 97 kg'lık 6 ileri kuru kavramalı çift kavramalı hibrit şanzımanı (21 kW / 55 Nm entegre elektrik motoru; üç kavrama; 3 fiziksel vites = 6 oran). Önceki EAT8'in yerini aldı.",
+      "kronik_sorunlar": [
+        {
+          "id": "viteste-takilma",
+          "sorun_adi": "Viteste takılı kalma ve yavaş vites geçişleri",
+          "etkilenen_parca": "e-DCS6 şanzıman",
+          "belirtiler": "Viteste takılı kalma; yavaş vites geçişleri.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Hibrit PureTech ve e-DCS6 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre piyasaya sürüleli çok kısa bir süre geçmesine rağmen şimdiden şikâyetler var; Ağustos 2024 yazılım güncellemesine rağmen sorunlar sürüyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hibrit-puretech-ve-e-dcs6-sorunlar-71/",
+            "https://andcetin.com/12-puretechin-olum-kalm-savas-95/"
+          ]
+        },
+        {
+          "id": "ani-durma",
+          "sorun_adi": "Aracın yolda aniden durması",
+          "etkilenen_parca": "e-DCS6 şanzıman ve hibrit tahrik",
+          "belirtiler": "Aracın yolda aniden durması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Hibrit PureTech ve e-DCS6 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıdaki şikâyetler arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hibrit-puretech-ve-e-dcs6-sorunlar-71/"
+          ]
+        },
+        {
+          "id": "gurultu-30-50",
+          "sorun_adi": "30-50 km/s hızda şanzımandan gürültü",
+          "etkilenen_parca": "e-DCS6 şanzıman",
+          "belirtiler": "30-50 km/s ile ilerlerken gelen gürültü.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Hibrit PureTech ve e-DCS6 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıdaki şikâyetler arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hibrit-puretech-ve-e-dcs6-sorunlar-71/"
+          ]
+        },
+        {
+          "id": "gecis-sarsintisi",
+          "sorun_adi": "Elektrik motorunun devreye girip çıktığı anlarda sarsıntı",
+          "etkilenen_parca": "e-DCS6 elektrik motoru geçişleri",
+          "belirtiler": "Elektrik motorunun devreye girip çıktığı anlarda sarsıntı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Hibrit PureTech ve e-DCS6 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıdaki şikâyetler arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hibrit-puretech-ve-e-dcs6-sorunlar-71/"
+          ]
+        },
+        {
+          "id": "komple-degisim",
+          "sorun_adi": "Birkaç bin km'de komple şanzıman değişimi (P1749 00 ve P28EA 62 hata kodları)",
+          "etkilenen_parca": "e-DCS6 şanzıman, yağ pompası valfi, inverter",
+          "belirtiler": "Henüz birkaç bin km'deki araçlarda komple şanzıman değişimine gidilmesi; yaygın hata kodları P1749 00 ve P28EA 62.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Hibrit PureTech ve e-DCS6 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Şikâyetler arasında henüz birkaç bin km'deki otomobillerde komple şanzıman değişimine gidildiği sayılıyor.",
+            "cozum": "Ağustos 2024'te yazılım güncellemesi geldi ancak sorunlar sürüyor; bazı örneklerde yağ pompası valfi ve inverter gibi parçalar değiştiriliyor.",
+            "onlem": "And Çetin'in Mayıs 2026 tarihli PureTech yazısına göre bu sıkıntılı şanzıman 2025'te Stellantis'in kontrolüne geçti ve yeni motorlara da aktarılacak."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hibrit-puretech-ve-e-dcs6-sorunlar-71/",
+            "https://andcetin.com/12-puretechin-olum-kalm-savas-95/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellantis-ev-tahrik-arizasi",
+      "ad": "Stellantis elektrikli (Smart Car / e-CMP / STLA Medium) tahrik arızası",
+      "tur": "sistem",
+      "aciklama": "Stellantis'in Smart Car Platform (ë-C3, ë-C3 Aircross, Grande Panda, Frontera Electric), e-CMP / EMP2 V3 (Alfa Romeo Junior, ë-C4, ë-C4 X, Fiat 600e, Jeep Avenger Electric, Opel Astra Electric / Corsa-e / Mokka-e, Peugeot e-208 / e-308 / e-2008) ve STLA Medium (E-3008, E-5008, Grandland Electric, ë-C5 Aircross, Jeep Compass Electric, DS N°8) platformlu elektrikli modellerinde 'tahrik arızası' uyarısıyla gaz kesme ve yolda kalma.",
+      "kronik_sorunlar": [
+        {
+          "id": "tahrik-arizasi",
+          "sorun_adi": "Tahrik arızası uyarısı: gaz kesme, direksiyon / fren ağırlaşması ve yolda kalma",
+          "etkilenen_parca": "Yüksek voltaj sistemi, BMS, invertör, çekiş motoru, on-board charger (OBC) ve yüksek voltajlı klima kompresörü",
+          "belirtiler": "Gaz pedalı tepkisizleşiyor; direksiyon aşırı ağırlaşıyor; fren pedalı aşırı sertleşiyor; seyir halinde aniden gaz kesip çekişten düşüyor; araç D/R konumuna geçmiyor veya P konumunda takılı kalıyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Her iki grupta ortak kök nedenler: batarya yönetim sistemi (BMS) ve diğer kontrol ünitelerindeki yazılım hataları; yüksek voltaj sisteminde bağlantı, kablo veya izolasyon sorunları; yüksek voltaj bataryasında hücre veya modül arızaları; çekiş motoru veya invertör arızaları. Stellantis grubunda daha sık öne çıkan nedenler: on-board charger (OBC) arızası; yüksek voltajlı klima kompresörü arızası veya izolasyon kaçağı.",
+            "teshis": "Ekranda görülen hata mesajlarından bazıları: '12V beslemesi: Lütfen servise gidin.', 'Hata: Tahrik sistemi. Lütfen servise gidin.', 'Elektrikli çekiş sistemi arızası: Motoru durdurun.', 'Elektrikli tahrik doğru çalışmıyor. Aracı güvenli bir şekilde durdurun.'",
+            "cozum": "Kullanıcılar genellikle aracı kapatıp kilitleyerek 15-30 dakika bekliyor; kontrol üniteleri uyku moduna geçip yeniden başlayınca hata bazen geçici olarak siliniyor ve araç tekrar hareket ediyor, ancak arıza sonradan tekrarlayabiliyor. Bazı vakalarda sorun yalnızca yazılım veya 12V sistemi kaynaklı olduğundan reset, güncelleme veya akü değişimiyle çözülebiliyor. Nem / su kaynaklı soket veya izolasyon problemlerinde hata bağlantı kurulduktan sonra geçici kaybolabiliyor. OBC, klima kompresörü, yüksek voltaj kablosu, DC/DC dönüştürücü veya batarya gibi bir donanım bozuksa parça değişimi gerekiyor.",
+            "maliyet": "Araçların büyük kısmı garanti kapsamında olduğu için onarımlar genelde ücretsiz; harici parçalar batarya garantisine dahil olmadığı için değişim ücreti istenebiliyor. Yazıdaki örnekler: 2025 yazında iki 2023 Opel Mokka-e sahibinden elektrik tahrik demeti değişimi için 30-35.000 TL; 2024 başında İngiltere'de bir ID.3 sahibine teşhis için 1.400£, kablo tesisatı için 3.500£, şarj ünitesi için 2.500£ (toplam yaklaşık 485.000 TL); Temmuz 2026'da 48 bin km'deki 2020 model bir Audi e-tron sahibine tahrik motoru parça değişimi için 480.000 TL (güncel fiyat olarak okumayın).",
+            "onlem": "Parça stokta değilse bekleme haftalardan aylara uzayabiliyor; ikame araç sağlanmaması tekrar eden şikâyetlerden biri."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/elektrikli-vag-stellantislerde-tahrik-arzas-105/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "stellantis-yazilim-iscilik",
+      "ad": "Stellantis elektrik-elektronik, yazılım ve işçilik sorunları (son 4-5 yıl üretimi)",
+      "tur": "sistem",
+      "aciklama": "And Çetin'in yazılarına göre son 4-5 yılda üretilen çoğu Stellantis ürününde (özellikle güncel Peugeot 308, Opel Astra ve Peugeot 3008) görülen elektrik-elektronik, yazılım ve işçilik sorunları; takipçi tecrübeleri, sosyal medya, şikâyet siteleri ve forum konularından derlenmiş. 1.5 BlueHDi + EAT8'li Astra, DS 4 ve DS 7 mekanik olarak sağlam sayılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "elektronik-1",
+          "sorun_adi": "Elektrik-elektronik arızalar: klima, koltuk ısıtma, merkezi kilit, ambiyans aydınlatma, cam düğmeleri, kapı / bagaj kilitleri",
+          "etkilenen_parca": "Gövde elektroniği",
+          "belirtiler": "Klimanın bozulması; Koltuk ısıtmanın bozulması; Merkezi kapı kilidinin bozulması; Ambiyans aydınlatmasının bozulması; Cam açma-kapama düğmelerinin bozulması; Bagaj kapağının açılmaması; Kapıların kapanmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'VAG-Stellantis yazılım ve işçilik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/"
+          ]
+        },
+        {
+          "id": "elektronik-2",
+          "sorun_adi": "Motor arızası uyarısı; hareket halinde elektrik kesintisi ve motorun kapanması",
+          "etkilenen_parca": "Motor kontrol ve elektrik sistemi",
+          "belirtiler": "Motor arızası uyarısı; Hareket halinde elektrik kesintisi ve motorun kapanması; EV bataryalarının bozulması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'VAG-Stellantis yazılım ve işçilik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/"
+          ]
+        },
+        {
+          "id": "elektronik-3",
+          "sorun_adi": "Merkezi ekranın açılmaması; sensörlerin bozulması ve boş yolda yersiz uyarılar",
+          "etkilenen_parca": "Merkezi ekran ve sensörler",
+          "belirtiler": "Klima, multimedya ve güvenlik asistanlarını kontrol eden merkezi ekranın açılmaması; Sensörlerin bozulması ve boş yolda giderken bile yersiz uyarılar vermesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'VAG-Stellantis yazılım ve işçilik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/"
+          ]
+        },
+        {
+          "id": "elektronik-4",
+          "sorun_adi": "Bagajdan su girmesi, motor kulağının bozulması ve trim sesleri (cam tavan perdesi, kapı içleri, ön konsol)",
+          "etkilenen_parca": "Kaporta, motor takozu ve kabin trimi",
+          "belirtiler": "Bagajdan su girmesi; Motor kulağının bozulması; Trim sesleri: cam tavan perdesi, kapı içleri, ön konsol vb..",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'VAG-Stellantis yazılım ve işçilik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/"
           ]
         }
       ]
@@ -3681,6 +4441,33 @@
               "not": "2023 ve 2025 model araçlarda da yatak sarması şikâyeti var."
             }
           ]
+        },
+        {
+          "id": "egr-sogutucu-sizintisi",
+          "sorun_adi": "EGR soğutucusu sızıntısı: antifrizin silindirlere karışabilmesi",
+          "etkilenen_parca": "EGR sıvı soğutucusu",
+          "belirtiler": "EGR sıvı soğutucusunda sızıntı; parça bazen çatlayıp antifrizin doğrudan motor silindirlerine karışması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre direkt enjeksiyonlu (D-4) M15A-FKS'de genellikle EGR sıvı soğutucusundaki sızıntılardan şikâyet ediliyor; parça bazen çatlayıp antifriz doğrudan silindirlere karışabiliyor.",
+            "cozum": "Yazıya göre Toyota, M15A-FKS'nin de aralarında bulunduğu bazı motorların EGR soğutucu patlatması hakkında servis bülteni yayınladı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/toyota-15-motor-yatak-sarma-riski-69/"
+          ]
+        },
+        {
+          "id": "egr-valfi-tikanmasi",
+          "sorun_adi": "EGR valfinin kurumla tıkanması (100 bin km civarı)",
+          "etkilenen_parca": "EGR valfi",
+          "belirtiler": "EGR valfinin kurumla tıkanıp tamamen sıkışması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısında 100 bin kilometreye yaklaşıldığında EGR valfinin genellikle kurumla tıkandığı ve tamamen sıkışabildiği belirtiliyor. Motorun kaliteli yakıta ihtiyaç duyduğu da yazılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/toyota-15-motor-yatak-sarma-riski-69/"
+          ]
         }
       ]
     },
@@ -3900,7 +4687,7 @@
             "neden": "Kısa mesafe ve düşük devirli kullanımda DPF rejenerasyon koşulları oluşmuyor ya da aktif rejenerasyonlar yarıda kesiliyor (DonanımHaber, Şikâyetvar); EGR valfi is ve karbonla tıkanıyor. Forumlarda iki sorunun birlikte geldiği ve kısa mesafe kullanımında arttığı yazılıyor.",
             "teshis": "Motor arıza lambası, çekiş kaybı, DPF uyarısı. Araclo A3 1.6 TDI için EGR tıkanmasının çoğunlukla 60.000-120.000 km arasında çıktığını yazıyor; DonanımHaber'de bir Golf kullanıcısı yaklaşık 70.000 km civarında arıza lambası ve çekiş kaybı yaşadığını aktarıyor.",
             "cozum": "EGR valfi mekanik olarak sağlamsa ve yalnızca kurum yüzünden takılıyorsa sökülüp temizleniyor; aktüatör, konum sensörü ya da dişlilerde arıza varsa valf değişiyor. DPF için sabit hızda yeterince süre gidip filtrenin kendini temizlemesi ya da filtrenin sökülüp özel makinede temizlenmesi öneriliyor; bir yorumcu temizliğin kalıcı olmadığını belirtiyor. Yazılımla DPF devre dışı bırakma/söküm forumlarda tartışılıyor, yasal ve emisyon açısından riskli.",
-            "maliyet": "Eski forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), bir özel servis Skoda Rapid için 2.500-3.000 TL, bir başkası 1.500 TL; DPF makinede temizliği ~700-1.000 TL; bir kullanıcı VW yetkili servisinden orijinal DPF için 38.000 TL teklif aldığını yazıyor. Güncel teklif alın.",
+            "maliyet": "Eski forum rakamları: EGR temizliği 300-500 TL (2023 yazısı), bir özel servis Skoda Rapid için 2.500-3.000 TL, bir başkası 1.500 TL; DPF makinede temizliği ~700-1.000 TL; bir kullanıcı VW yetkili servisinden orijinal DPF için 38.000 TL teklif aldığını yazıyor. Güncel teklif alın. And Çetin'in Ağustos 2026 yazısına göre DPF'nin profesyonel temizliği ve EGR temizliği çoğunlukla birkaç bin lira; DPF, SCR katalizörü veya AdBlue deposunun orijinal parçayla değişimi 50.000 TL'den başlayıp 200.000 TL'nin üzerine çıkabiliyor; DPF / EGR / AdBlue iptali (yazılım ya da donanım) çoğunlukla 3.000-10.000 TL ama muayene ve ceza (egzoz emisyon kontrol sistemi olmadan kullanım 17.957 TL), garanti dışı kalma ve arıza moduna geçme riski taşıyor.",
             "onlem": "Şehir içi kısa mesafe kullanımını arada uzun, sabit hızlı yolla dengelemek (forum önerisi). 2. elde EGR/DPF iptalli araçlardan kaçınmak."
           },
           "kaynaklar": [
@@ -3972,10 +4759,12 @@
           "belirtiler": "EGR, DPF ve AdBlue arızaları; yazıda ayrıca bir belirti anlatılmıyor.",
           "risk_seviyesi": "Orta",
           "detay": {
-            "neden": "And Çetin'in yazısına göre CAS'ın (240 PS) erken üretim versiyonları DPF ve EGR sorunlarıyla biliniyor (mekanik olarak daha dayanıklı); CMEA (313 PS) EGR ve DPF arızaları haricinde büyük oranda sorunsuz; DAVA (224 PS) ve DBGC (286 PS) çoğu modern dizelde olduğu gibi AdBlue, EGR ve DPF arızaları gösterebiliyor."
+            "neden": "And Çetin'in yazısına göre CAS'ın (240 PS) erken üretim versiyonları DPF ve EGR sorunlarıyla biliniyor (mekanik olarak daha dayanıklı); CMEA (313 PS) EGR ve DPF arızaları haricinde büyük oranda sorunsuz; DAVA (224 PS) ve DBGC (286 PS) çoğu modern dizelde olduğu gibi AdBlue, EGR ve DPF arızaları gösterebiliyor.",
+            "maliyet": "And Çetin'in Ağustos 2026 yazısına göre DPF'nin profesyonel temizliği ve EGR temizliği çoğunlukla birkaç bin lira; DPF, SCR katalizörü veya AdBlue deposunun orijinal parçayla değişimi 50.000 TL'den başlayıp 200.000 TL'nin üzerine çıkabiliyor; DPF / EGR / AdBlue iptali (yazılım ya da donanım) çoğunlukla 3.000-10.000 TL ama muayene ve ceza (egzoz emisyon kontrol sistemi olmadan kullanım 17.957 TL), garanti dışı kalma ve arıza moduna geçme riski taşıyor."
           },
           "kaynaklar": [
-            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
           ]
         },
         {
@@ -4608,6 +5397,31 @@
       ]
     },
     {
+      "id": "vag-ev-tahrik-arizasi",
+      "ad": "VAG elektrikli (MEB / PPE) tahrik arızası",
+      "tur": "sistem",
+      "aciklama": "VW grubunun MEB (Audi Q4 e-tron, Cupra Born / Tavascan, Skoda Elroq / Enyaq, VW ID.3 / ID.4 / ID.5 / ID.7 / ID.Buzz) ve PPE (Audi A6 / Q6 e-tron, Porsche Macan Electric) platformlu elektrikli modellerinde 'tahrik arızası' uyarısıyla gaz kesme ve yolda kalma. Sorunlar And Çetin'in EV tahrik arızası yazısından derlenmiştir.",
+      "kronik_sorunlar": [
+        {
+          "id": "tahrik-arizasi",
+          "sorun_adi": "Tahrik arızası uyarısı: gaz kesme, direksiyon / fren ağırlaşması ve yolda kalma",
+          "etkilenen_parca": "Yüksek voltaj sistemi, BMS, invertör, çekiş motoru, 12V akü ve DC/DC dönüştürücü",
+          "belirtiler": "Gaz pedalı tepkisizleşiyor; direksiyon aşırı ağırlaşıyor; fren pedalı aşırı sertleşiyor; seyir halinde aniden gaz kesip çekişten düşüyor; araç D/R konumuna geçmiyor veya P konumunda takılı kalıyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Her iki grupta ortak kök nedenler: batarya yönetim sistemi (BMS) ve diğer kontrol ünitelerindeki yazılım hataları; yüksek voltaj sisteminde bağlantı, kablo veya izolasyon sorunları; yüksek voltaj bataryasında hücre veya modül arızaları; çekiş motoru veya invertör arızaları. VW grubunda daha sık öne çıkan nedenler: 12V akünün zayıflaması veya arızalanması; DC/DC dönüştürücü veya ilgili kontrol elektroniği arızaları.",
+            "teshis": "Ekranda görülen hata mesajlarından bazıları: '12V beslemesi: Lütfen servise gidin.', 'Hata: Tahrik sistemi. Lütfen servise gidin.', 'Elektrikli çekiş sistemi arızası: Motoru durdurun.', 'Elektrikli tahrik doğru çalışmıyor. Aracı güvenli bir şekilde durdurun.'",
+            "cozum": "Kullanıcılar genellikle aracı kapatıp kilitleyerek 15-30 dakika bekliyor; kontrol üniteleri uyku moduna geçip yeniden başlayınca hata bazen geçici olarak siliniyor ve araç tekrar hareket ediyor, ancak arıza sonradan tekrarlayabiliyor. Bazı vakalarda sorun yalnızca yazılım veya 12V sistemi kaynaklı olduğundan reset, güncelleme veya akü değişimiyle çözülebiliyor. Nem / su kaynaklı soket veya izolasyon problemlerinde hata bağlantı kurulduktan sonra geçici kaybolabiliyor. OBC, klima kompresörü, yüksek voltaj kablosu, DC/DC dönüştürücü veya batarya gibi bir donanım bozuksa parça değişimi gerekiyor.",
+            "maliyet": "Araçların büyük kısmı garanti kapsamında olduğu için onarımlar genelde ücretsiz; harici parçalar batarya garantisine dahil olmadığı için değişim ücreti istenebiliyor. Yazıdaki örnekler: 2025 yazında iki 2023 Opel Mokka-e sahibinden elektrik tahrik demeti değişimi için 30-35.000 TL; 2024 başında İngiltere'de bir ID.3 sahibine teşhis için 1.400£, kablo tesisatı için 3.500£, şarj ünitesi için 2.500£ (toplam yaklaşık 485.000 TL); Temmuz 2026'da 48 bin km'deki 2020 model bir Audi e-tron sahibine tahrik motoru parça değişimi için 480.000 TL (güncel fiyat olarak okumayın).",
+            "onlem": "Parça stokta değilse bekleme haftalardan aylara uzayabiliyor; ikame araç sağlanmaması tekrar eden şikâyetlerden biri."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/elektrikli-vag-stellantislerde-tahrik-arzas-105/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "vag-pd-2-0-tdi-16v",
       "ad": "VAG 2.0 TDI PD 16V (BKD / BMP / BMN / BKP, pompa-enjektör)",
       "tur": "motor",
@@ -4697,6 +5511,58 @@
             "https://www.swedespeed.com/threads/oil-consumption-problem-led-to-replacing-the-engine.625633/",
             "https://www.swedespeed.com/threads/highest-miles-on-a-b4204t11-2-0t.641280/",
             "https://www.swedespeed.com/threads/does-the-b4204t6-engine-feature-the-faulty-piston-rings-causing-oil-burn.648837/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "volvo-drive-e-dizel-d4-d5",
+      "ad": "Volvo Drive-E 2.0 dizel (D4 / D5 / B4 / B5, turbodizel)",
+      "tur": "motor",
+      "aciklama": "Volvo'nun XC90 (D5 225-235 PS; B5 235 PS hafif hibrit-dizel) ve XC60'ta (D4 190 PS, 2017-2018; B4 197 PS hibrit dizel, 2019'dan itibaren) kullandığı 2.0 litre turbodizel motorlar. Sorunlar And Çetin'in XC90 ve XC60 yazılarından derlenmiştir; XC90'da motorla ilgili olanlar aksi belirtilmedikçe dizellere ait.",
+      "kronik_sorunlar": [
+        {
+          "id": "turbo-motor-arizalari",
+          "sorun_adi": "~30 bin km'den itibaren motor / turbo arızası, turbo hortumu yırtılması, yağ eksiltme, piston kırma ve ~120 bin km'de sandık motor değişimi",
+          "etkilenen_parca": "Turboşarj, turbo hortumu, pistonlar ve motor bloğu",
+          "belirtiler": "Motor / turbo arızası, turbo hortumu yırtılması, yağ eksiltme, piston kırma ve sandık motor değişimi.",
+          "tahmini_km_araligi": "30.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre ~30 bin km'den itibaren motor / turbo arızası, turbo hortumu yırtılması, yağ eksiltme, piston kırma ve ~120 bin km'de sandık motor değişimi yaygın; XC60 yazısı dizellerde aynı sorunların (30 bin km'den itibaren turbo arızası ... 120 bin km'de üst kapak ya da sandık motor değişimi) görüldüğünü belirtiyor. Turbo ilk bozulduğunda genelde garanti kapsamında ücretsiz değiştiriliyor ancak ortalama 2 yıl / 30 bin km sonra yeniden arızalanıyor; 2023'te turboya dair bir geri çağırma yapıldı ama bu kapsamda turbosu değişen araçlarda bile 2 sene sonra parça yeniden bozuluyor.",
+            "cozum": "Uzatılmış garanti turbo hasarını karşılıyor ancak diğer motor arızaları garanti kapsamına girmiyor. Bu işlemler esnasında sahipleri 3 haftadan 2 aya kadar araçlarından mahrum kalıyor.",
+            "maliyet": "Turbo değişimi için 170 bin TL, motor değişimi içinse 800 bin TL talep eden servisler bazen bu tutarı 'iyi niyet indirimi'yle 500 bin TL'ye çekiyor (yazıdaki Ocak 2026 beyanları; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc90-kronik-sorunlar-87/",
+            "https://andcetin.com/volvo-xc60-sorunlar-89/"
+          ]
+        },
+        {
+          "id": "ust-kapak-contasi",
+          "sorun_adi": "Üst kapak contasının erimesi ve soğutma sıvısının silindire sızması",
+          "etkilenen_parca": "Silindir kapağı (üst kapak) contası",
+          "belirtiler": "Üst kapak contasının erimesi ve soğutma sıvısının silindir içerisine sızması; üst kapak değişimi gerekmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in XC90 yazısına göre bazı örneklerde üst kapak contası eriyor ve soğutma sıvısı silindir içerisine sızıyor; XC60 yazısı dizellerde 120 bin km'de üst kapak ya da sandık motor değişiminin yaygın olduğunu belirtiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc90-kronik-sorunlar-87/",
+            "https://andcetin.com/volvo-xc60-sorunlar-89/"
+          ]
+        },
+        {
+          "id": "dusuk-performans-uyarisi",
+          "sorun_adi": "'Performans düşüklüğü' (kaplumbağa modu) uyarısı: boğuk ses ve çekiş düşüklüğü",
+          "etkilenen_parca": "Motor / egzoz (kurum) ve 12V akü",
+          "belirtiler": "'Performans düşüklüğü' uyarısı veren aracın boğuk bir ses çıkarması ve çekiş düşüklüğü yaşaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in XC90 yazısına göre bu motorlar genelde kurum bağlamış oluyor, bazı durumlarda akü değişimi sorunu gideriyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc90-kronik-sorunlar-87/"
           ]
         }
       ]
@@ -4826,6 +5692,33 @@
       "kronik_sorunlar": [],
       "aileler": [
         "fiat-1-6-multijet-ii"
+      ]
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Junior Elettrica (2024-)",
+      "motor": "Elektrik (e-CMP; 54 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Junior Hybrid (2024-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
       ]
     },
     {
@@ -5410,6 +6303,7 @@
       "kronik_sorunlar": [],
       "aileler": [
         "audi-2-0-tfsi-soguma-pompasi",
+        "audi-quattro-ultra",
         "vag-ea888-gen3"
       ]
     },
@@ -5421,8 +6315,22 @@
         "baslangic": 2016,
         "bitis": 2019
       },
-      "kronik_sorunlar": [],
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "DL382 çift kavramalı şanzımanda yağ eksiltme; dizellerde DPF-EGR-AdBlue sorunları",
+          "etkilenen_parca": "DL382 7 ileri ıslak kavramalı şanzıman; dizel emisyon sistemi",
+          "belirtiler": "Şanzıman yağının eksilmesi; DPF, EGR ve AdBlue sorunları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '2.5–3 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. 'Dikkat' bölümünde Quattro Ultra titreşimi-kasılması ile birlikte sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/253-milyon-tl-aras-en-sorunsuz-arabalar-104/"
+          ]
+        }
+      ],
       "aileler": [
+        "audi-quattro-ultra",
         "vag-2-0-tdi-egr-sogutucu"
       ]
     },
@@ -5450,6 +6358,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "audi-quattro-ultra",
         "vag-ea888-gen3"
       ]
     },
@@ -5522,6 +6431,19 @@
     {
       "marka": "Audi",
       "model": "A6 (C8, 2018-)",
+      "motor": "40 TDI 2.0 (quattro ultra, S tronic)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "audi-quattro-ultra"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 (C8, 2018-)",
       "motor": "45 TFSI 2.0 (EA888 Gen3)",
       "uretim_yillari": {
         "baslangic": 2018,
@@ -5529,7 +6451,21 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "audi-quattro-ultra",
         "vag-ea888-gen3"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 e-tron (2024-)",
+      "motor": "Elektrik (PPE; 100 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
       ]
     },
     {
@@ -5639,6 +6575,19 @@
     },
     {
       "marka": "Audi",
+      "model": "Q4 e-tron (2021-)",
+      "motor": "Elektrik (MEB; 52 / 77 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Audi",
       "model": "Q5 (8R, 2008-2017)",
       "motor": "2.0 TDI (EA189 / EA288)",
       "uretim_yillari": {
@@ -5740,7 +6689,21 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "audi-quattro-ultra",
         "vag-ea888-gen3"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "Q6 e-tron (2024-)",
+      "motor": "Elektrik (PPE; 100 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
       ]
     },
     {
@@ -7132,6 +8095,71 @@
       ]
     },
     {
+      "marka": "BMW",
+      "model": "i4 (G26, 2022-)",
+      "motor": "Elektrik (eDrive35 / eDrive40 / M50)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "i5 (G60, 2023-)",
+      "motor": "Elektrik (eDrive40 / xDrive40 / M60 xDrive)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "i7 (G70, 2023-)",
+      "motor": "Elektrik (xDrive60 / M70)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "iX (I20, 2022-)",
+      "motor": "Elektrik (xDrive40 / xDrive50)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "iX1 (U11, 2022-)",
+      "motor": "Elektrik (xDrive30; 64,7 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-mini-ev-on-aks"
+      ]
+    },
+    {
       "marka": "BYD",
       "model": "Atto 3 (2023-)",
       "motor": "Elektrik (60,4 kWh, 150 kW)",
@@ -7252,7 +8280,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "psa-bluehdi-adblue",
-        "psa-dv5-1-5-bluehdi"
+        "psa-dv5-1-5-bluehdi",
+        "psa-k9-ticari-ortak"
       ]
     },
     {
@@ -7491,6 +8520,45 @@
     },
     {
       "marka": "Citroen",
+      "model": "C3 Aircross (III, 2024-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Hibrit C3 Aircross: ışıkta dururken bile sürekli elektrikli-benzinli geçiş ve her geçişte silkelenme (motor kararsızlığı)",
+          "etkilenen_parca": "Hibrit tahrik kontrolü",
+          "belirtiler": "Motor kararsızlığı; araç ışıklarda dururken bile devamlı elektrikli-benzinli geçişi yapıyor ve her geçişte araba sallanıp silkeleniyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Hibrit PureTech ve e-DCS6 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda yeni nesil hibrit C3 Aircross'lar için ayrıca anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hibrit-puretech-ve-e-dcs6-sorunlar-71/"
+          ]
+        },
+        {
+          "sorun_adi": "Tekerlek tarafından 'çıt-çıt' sürtünme sesi ve yangın (hibrit C3 Aircross)",
+          "etkilenen_parca": "Tekerlek / fren-aks bölgesi",
+          "belirtiler": "Özellikle düşük hızlarda duyulan, tekerlek tarafından gelen 'çıt-çıt' şeklinde sürtünme sesi; henüz birkaç haftalık araçlarda yangın çıkması ve kaynağının bu sürtünmeye bağlanması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Hibrit PureTech ve e-DCS6 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda yeni nesil hibrit C3 Aircross'lar için ayrıca anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hibrit-puretech-ve-e-dcs6-sorunlar-71/"
+          ]
+        }
+      ],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
+      ]
+    },
+    {
+      "marka": "Citroen",
       "model": "C4 (2020-)",
       "motor": "1.2 PureTech 130 (EB2)",
       "uretim_yillari": {
@@ -7513,6 +8581,20 @@
       "kronik_sorunlar": [],
       "aileler": [
         "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 (III FL, 2023-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
       ]
     },
     {
@@ -7623,6 +8705,53 @@
     },
     {
       "marka": "Citroen",
+      "model": "C4 X (2022-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Motor ve şanzıman: motor arızası, ECU değişimi, vites geçişlerinde sarsıntı, start-stop sisteminin araç durmadan devreye girmesi",
+          "etkilenen_parca": "Motor kontrol ünitesi, şanzıman ve start-stop",
+          "belirtiler": "Motor arızası; ECU değişimi; Vites geçişlerinde sarsıntı; Start-stop sisteminin araç durmadan devreye girmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kaporta ve işçilik: boya soyulması, kapı altlarında paslanma, fren disklerinde eğilme, direksiyon zembereğinin bozulması, stop ve geri görüş kamerasının su alması",
+          "etkilenen_parca": "Kaporta, boya, fren diskleri ve direksiyon",
+          "belirtiler": "Boya soyulması; Kapı altlarında paslanma; Fren disklerinde eğilme; Direksiyon zembereğinin bozulması; Stop lambası ve geri görüş kamerasının su alması; Trim sesleri; Uzun parça bekleme süresi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Elektronik: klima, kamera ve hız sabitleyicinin çalışmaması; sürüş asistanlarının devre dışı kalması",
+          "etkilenen_parca": "Klima, kamera, hız sabitleyici ve sürüş asistanları",
+          "belirtiler": "Klimanın çalışmaması; Kameranın çalışmaması; Hız sabitleyicinin çalışmaması; Sürüş asistanlarının devre dışı kalması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Citroen",
       "model": "C5 Aircross (2019-)",
       "motor": "1.2 PureTech 130 (EB2, EAT8)",
       "uretim_yillari": {
@@ -7685,6 +8814,20 @@
             "https://forum.donanimhaber.com/citroen-c5-aircross-magdurlarindan-cagri--150460878-12"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "C5 Aircross (FL, 2023-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
       ]
     },
     {
@@ -7753,6 +8896,94 @@
     },
     {
       "marka": "Citroen",
+      "model": "ë-C3 (2024-)",
+      "motor": "Elektrik (Smart Car; 44 kWh LFP)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "ë-C3 Aircross (2024-)",
+      "motor": "Elektrik (44 kWh LFP, 113 PS)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrik çekiş (tahrik) sistemi, ABS / ESP / ASR, park freni, batarya, vites ve şarj soketi arızaları",
+          "etkilenen_parca": "Elektrikli tahrik, fren sistemi, batarya ve şarj soketi",
+          "belirtiler": "Elektrik çekiş sistemi arızası; ABS/ESP/ASR sistemi arızası; Park freni arızası; Batarya arızası; Vites arızası; Şarj soketi arızası; Kontak arızası ve aracın çalışmaması (elektrikli olmasına rağmen çalıştırmak için kontak anahtarını takıp çevirmek gerekiyor).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre sık sık kullanıcıların yolda kalmasına, araçlarını şarj edememesine ya da servise bırakıp haftalarca çözüm beklemesine yol açıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        },
+        {
+          "sorun_adi": "Lastik basıncı algılama arızası, sağa-sola çekme, stop lambası ve CarPlay arızaları",
+          "etkilenen_parca": "Lastik basıncı sensörleri, ön takım, stop lambası ve multimedya",
+          "belirtiler": "Lastik basıncı algılama arızası; Sağa-sola çekme; Stop lambası arızası; CarPlay bağlantı hatası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        },
+        {
+          "sorun_adi": "İşçilik: bagaj kapağında ayarsızlık, plastik soyulması, boya atması, koltuk yayı kopması, su girmesi ve çatlamalar",
+          "etkilenen_parca": "Kaporta, boya, iç mekan ve koltuklar",
+          "belirtiler": "Bagaj kapağında ayarsızlık; Direksiyon göbeğinde plastik soyulması; Tavan, yan ayna ve bagajda boya atması; Koltuk yayında kopma ve minderin çökmesi; Tavan, dikiz aynası ve bagajdan su girmesi ve çatlamalar.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        },
+        {
+          "sorun_adi": "Yokuşta kalkış yapamama: elektrik motorunun kendini korumaya alıp fanı açması",
+          "etkilenen_parca": "Elektrik motoru / invertör koruma yazılımı",
+          "belirtiler": "Rampalarda elektrik motoru kendini korumaya alıp fan açıyor ve araç hareketsiz kalıyor; kullanıcılar aracı geri kaydırıp hızlarını alarak yokuşu 'tekrar denemek' zorunda kalıyor; çekiş kontrol sistemini kapatmak da fayda etmiyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre teknik verilere göre aracın %20'ye kadar eğimli yollarda kalkış yapabiliyor olması gerekirken motoru ve invertörü koruma amaçlı yazılım sınırlamaları nedeniyle bu sorun çıkıyor; servis yetkilileri konuyu soranlara 'biz de bilmiyoruz' diyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        },
+        {
+          "sorun_adi": "Soğuk havada WLTP değerinin çok altında menzil (ısı pompası yok)",
+          "etkilenen_parca": "Batarya ve ısıtma sistemi (PTC ısıtıcı)",
+          "belirtiler": "44 kWh modellerde WLTP menzili 301 / 303 km iken kullanıcılar özellikle soğuk havalarda 150 km civarı görüyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre ısı pompası olmayan bu araçlar satış danışmanlarınca 'en kötü ihtimalle 250 km gider' vaadiyle pazarlandı.",
+            "maliyet": "44 kWh'lik bataryanın garanti dışı değişim ücreti 2025 itibarıyla yaklaşık 1 milyon TL (yazıdaki beyan; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        }
+      ],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Citroen",
       "model": "ë-C4 / ë-C4 X (2021-)",
       "motor": "Elektrik (50 kWh, 136 PS; 2024 sonrası 54 kWh, 156 PS)",
       "uretim_yillari": {
@@ -7795,6 +9026,35 @@
             }
           ]
         }
+      ],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "ë-C5 Aircross (2025-)",
+      "motor": "Elektrik (STLA Medium; 73 / 98 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2025,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Cupra",
+      "model": "Born (2021-)",
+      "motor": "Elektrik (MEB; 58 / 77 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
       ]
     },
     {
@@ -7899,6 +9159,19 @@
       "aileler": [
         "vag-1-5-tsi-evo",
         "vag-48v-etsi"
+      ]
+    },
+    {
+      "marka": "Cupra",
+      "model": "Tavascan (2024-)",
+      "motor": "Elektrik (MEB; 77 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
       ]
     },
     {
@@ -8024,6 +9297,19 @@
             }
           ]
         }
+      ]
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "N°8 (2025-)",
+      "motor": "Elektrik (STLA Medium; 77 / 97 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2025,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
       ]
     },
     {
@@ -8607,6 +9893,20 @@
     },
     {
       "marka": "Fiat",
+      "model": "600 Hybrid (2023-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
+      ]
+    },
+    {
+      "marka": "Fiat",
       "model": "600e (2024-)",
       "motor": "Elektrik (54 kWh, 115 kW / 156 PS)",
       "uretim_yillari": {
@@ -8632,6 +9932,9 @@
             "https://www.quechoisir.org/enquete-fiat-600e-des-coupures-moteur-brutales-et-un-service-client-aux-abonnes-absents-n177702/"
           ]
         }
+      ],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
       ]
     },
     {
@@ -8854,7 +10157,8 @@
       ],
       "aileler": [
         "psa-bluehdi-adblue",
-        "psa-dv5-1-5-bluehdi"
+        "psa-dv5-1-5-bluehdi",
+        "psa-k9-ticari-ortak"
       ]
     },
     {
@@ -9205,6 +10509,33 @@
       ],
       "aileler": [
         "fiat-1-3-multijet"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Grande Panda Electric (2025-)",
+      "motor": "Elektrik (Smart Car; 44 kWh LFP)",
+      "uretim_yillari": {
+        "baslangic": 2025,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Grande Panda Hybrid (2025-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2025,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
       ]
     },
     {
@@ -10357,6 +11688,78 @@
     },
     {
       "marka": "Ford",
+      "model": "Tourneo Connect (2022-)",
+      "motor": "2.0 EcoBlue 122 (Powershift DSG)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mqb-ticari-caddy-connect"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Tourneo Courier (2024-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Volan arızası (15.000 km'den önce); marş basmama ve aracın çalışmaması; benzinli motorlarda tekleme, gaz yememe, erken enjektör arızası (20.000 km'den önce) ve hararet problemi; soğutma suyu hortumlarının gevşemesi",
+          "etkilenen_parca": "Volan, marş sistemi, benzinli motor enjeksiyonu ve soğutma sistemi",
+          "belirtiler": "Volan arızası (15.000 km'den önce); Marş basmama ve aracın çalışmaması; Benzinli motorlarda tekleme ve gaz yememe; Benzinli motorlarda erken enjektör arızası (20.000 km'den önce); Benzinli motorlarda hararet problemi; Soğutma suyu hortumlarının gevşemesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazı 2024 sonrası Ford Tourneo Courier'ı herhangi bir VW ile ortaklığı olmayan, Puma temelli ve piyasanın en sorunlu ticarilerinden biri olarak tanımlıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        },
+        {
+          "sorun_adi": "Fren ve ön takım: arka kampana frenlerden ses ve ani fren kapması, fren pedalında boşluk hissi, sağa dönüşlerde ön takımdan ses",
+          "etkilenen_parca": "Arka kampana frenler, fren pedalı ve ön takım",
+          "belirtiler": "Arka kampana frenlerden ses gelmesi ve ani fren kapması; Fren pedalında boşluk hissi; Sağa dönüşlerde ön takımdan ses gelmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazı 2024 sonrası Ford Tourneo Courier'ı herhangi bir VW ile ortaklığı olmayan, Puma temelli ve piyasanın en sorunlu ticarilerinden biri olarak tanımlıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        },
+        {
+          "sorun_adi": "Elektronik: sebepsiz ani çarpışma uyarısı, ön park sensörlerinin hatalı uyarısı, trafik levhası tanıma hataları, multimedya ve gösterge ekranlarında donma",
+          "etkilenen_parca": "Sürüş destek sistemleri ve ekranlar",
+          "belirtiler": "Sebepsiz ani çarpışma uyarısı; Ön park sensörlerinin hatalı uyarı vermesi; Trafik levhası tanıma sisteminin hatalı çalışması; Multimedya ve gösterge ekranlarında donma, kasılma.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazı 2024 sonrası Ford Tourneo Courier'ı herhangi bir VW ile ortaklığı olmayan, Puma temelli ve piyasanın en sorunlu ticarilerinden biri olarak tanımlıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin: sürgülü kapılar, bagaj kapağı ve ön göğüsten trim sesleri; yağmurlu havalarda kabine su sızması",
+          "etkilenen_parca": "Kabin trimi ve su yalıtımı",
+          "belirtiler": "Sürgülü kapılar, bagaj kapağı ve ön göğüsten trim sesleri; Yağmurlu havalarda kabine su sızması (sürücü veya ön yolcu tarafı).",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazı 2024 sonrası Ford Tourneo Courier'ı herhangi bir VW ile ortaklığı olmayan, Puma temelli ve piyasanın en sorunlu ticarilerinden biri olarak tanımlıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Ford",
       "model": "Transit Connect / Tourneo Connect (2013-2022)",
       "motor": "1.6 TDCi 75/95/115 (DV6)",
       "uretim_yillari": {
@@ -10395,6 +11798,19 @@
             "https://www.sikayetvar.com/ford/ford-merkezi-kilit-sorunu"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Transit Custom (2024-)",
+      "motor": "2.0 EcoBlue 109 / 148 / 168 (8 ileri otomatik 8F40)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "ford-pro-t7-transit-custom"
       ]
     },
     {
@@ -10956,6 +12372,7 @@
         }
       ],
       "aileler": [
+        "hyundai-i20-bayon-yakit-pompasi",
         "hyundai-kia-1-0-t-gdi",
         "hyundai-kia-7dct"
       ]
@@ -11003,6 +12420,69 @@
               "durum": "Seyrek",
               "not": "Bayon'da 2024 makyajıyla büyük oranda çözüldüğü yazılıyor (tek kaynak)."
             }
+          ]
+        },
+        {
+          "sorun_adi": "6 ileri tork konvertörlü şanzımanda yağ ısınmasına bağlı vızıltı sesi ve çekiş kaybı",
+          "etkilenen_parca": "6 ileri tork konvertörlü otomatik şanzıman ve yağ soğutucusu",
+          "belirtiler": "Yaklaşık 1 saat boyunca 60-70 km yol kat edildikten sonra vızıltı şeklinde tiz bir ses başlıyor ve araç çekişten düşüyor; özellikle rampalarda 3000 d/d ve üstünde; uzun süreli (40-50 dk) şehir içi kullanımda dik yokuş varsa ses yine başlıyor ve rampa boyunca devam ediyor, düzlükte kesiliyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Hyundai i20-Bayon kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda problem yağ soğutucunun yetersizliğine bağlanıyor.",
+            "cozum": "Bazı kullanıcılar şanzıman yağını Motul ATF VI ya da Liqui Moly Top Tec ATF 1800 ile değiştirerek bu sorunu gideriyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/"
+          ]
+        },
+        {
+          "sorun_adi": "Satın alındıktan birkaç hafta sonra şanzıman arızası: onarımın sorunu çözmemesi ve komple şanzıman değişimi; vites geçişlerinde vuruntu",
+          "etkilenen_parca": "6 ileri tork konvertörlü otomatik şanzıman",
+          "belirtiler": "Araç satın alındıktan birkaç hafta sonra şanzıman hatası / arızası vererek yolda bırakıyor; servise gidildiğinde genelde şanzıman onarımı yapılıyor ama çoğu durumda sorun çözülmüyor ve komple şanzıman değişimi gerekiyor; vites geçişleri esnasında vuruntular.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Hyundai i20-Bayon kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda bu tam otomatik vites kutusunun yaygın şikâyetleri arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/"
+          ]
+        }
+      ],
+      "aileler": [
+        "hyundai-i20-bayon-yakit-pompasi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Bayon (2021-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Akünün bir sene dolmadan bitmesi, şoför tarafı cam modülü arızası, direksiyonun kilitlenmesi, kornanın bozulması",
+          "etkilenen_parca": "12V akü, cam modülü, direksiyon kilidi ve korna",
+          "belirtiler": "Henüz 1 sene dolmadan akünün bitmesi; Şoför tarafındaki cam modülü arızası; Direksiyonun kilitlenmesi; Kornanın bozulması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Hyundai i20-Bayon kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/"
+          ]
+        },
+        {
+          "sorun_adi": "Sert süspansiyon, yüksek yakıt tüketimi ve zayıf yalıtım",
+          "etkilenen_parca": "Süspansiyon, yakıt tüketimi ve yalıtım",
+          "belirtiler": "Sert süspansiyonlar; Yüksek yakıt tüketimi; Zayıf yalıtım.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Hyundai i20-Bayon kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/"
           ]
         }
       ]
@@ -11139,6 +12619,20 @@
       "aileler": [
         "hyundai-kia-1-0-t-gdi",
         "hyundai-kia-7dct"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Tucson (NX4, 2021-)",
+      "motor": "1.6 CRDi 136 (48V hafif hibrit, 7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct",
+        "hyundai-kia-u2-crdi"
       ]
     },
     {
@@ -11393,6 +12887,7 @@
         }
       ],
       "aileler": [
+        "hyundai-i20-bayon-yakit-pompasi",
         "hyundai-kia-1-0-t-gdi",
         "hyundai-kia-7dct"
       ]
@@ -11440,6 +12935,44 @@
               "durum": "Seyrek",
               "not": "i20'de 2023 makyajıyla büyük oranda çözüldüğü yazılıyor (tek kaynak)."
             }
+          ]
+        }
+      ],
+      "aileler": [
+        "hyundai-i20-bayon-yakit-pompasi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i20 (BC3, 2020-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Akünün bir sene dolmadan bitmesi, şoför tarafı cam modülü arızası, direksiyonun kilitlenmesi, kornanın bozulması",
+          "etkilenen_parca": "12V akü, cam modülü, direksiyon kilidi ve korna",
+          "belirtiler": "Henüz 1 sene dolmadan akünün bitmesi; Şoför tarafındaki cam modülü arızası; Direksiyonun kilitlenmesi; Kornanın bozulması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Hyundai i20-Bayon kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/"
+          ]
+        },
+        {
+          "sorun_adi": "Sert süspansiyon, yüksek yakıt tüketimi ve zayıf yalıtım",
+          "etkilenen_parca": "Süspansiyon, yakıt tüketimi ve yalıtım",
+          "belirtiler": "Sert süspansiyonlar; Yüksek yakıt tüketimi; Zayıf yalıtım.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Hyundai i20-Bayon kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/"
           ]
         }
       ]
@@ -11730,6 +13263,23 @@
             }
           ]
         }
+      ],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Jeep",
+      "model": "Avenger Hybrid (2023-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
       ]
     },
     {
@@ -11775,6 +13325,33 @@
       "aileler": [
         "fiat-1-6-multijet-ii",
         "fiat-ddct-6"
+      ]
+    },
+    {
+      "marka": "Jeep",
+      "model": "Compass Electric (2025-)",
+      "motor": "Elektrik (STLA Medium; 73 / 98 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2025,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Jeep",
+      "model": "Compass Hybrid (2025-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2025,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
       ]
     },
     {
@@ -12572,6 +14149,78 @@
       ]
     },
     {
+      "marka": "Land Rover",
+      "model": "Range Rover Velar (L560, 2017-)",
+      "motor": "2.0 TD4 / D200 Ingenium dizel (180 / 204 / 240 PS; ZF 8HP)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "land-rover-ingenium-2-0d"
+      ]
+    },
+    {
+      "marka": "Land Rover",
+      "model": "Range Rover Velar (L560, 2017-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Motor arızasıyla yolda kalma (1 yılda 5-6 kez); motor yağının radyatör suyuna karışması",
+          "etkilenen_parca": "Motor ve soğutma sistemi",
+          "belirtiler": "Motor arızasıyla yolda kalma (1 yılda 5-6 kez); Motor yağının radyatör suyuna karışması; Motordan gelen yüksek fan gürültüsü.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Range Rover Velar sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre motor seçeneğinden bağımsız, tüm Velar'larda görülebiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/range-rover-velar-sorunlar-91/"
+          ]
+        },
+        {
+          "sorun_adi": "Elektronik: ekranların donması / takılması, sunroof ve klimanın çalışmaması, geri görüş kamerasının açık kalması, stop lambasının yanmaması",
+          "etkilenen_parca": "Ekranlar, sunroof, klima, kamera ve stop lambası",
+          "belirtiler": "Ekranların donması / takılması; Sunroof ve klimanın çalışmaması; Geri görüş kamerasının açık kalması; Stop lambasının yanmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Range Rover Velar sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/range-rover-velar-sorunlar-91/"
+          ]
+        },
+        {
+          "sorun_adi": "Kapı kilidi ve kapı kolları, elektrikli bagaj kapağı, vites topuzu",
+          "etkilenen_parca": "Kapı kilidi, kapı kolları, bagaj kapağı ve vites topuzu",
+          "belirtiler": "Kapı kilidinin bozulması; Kapı kollarının açılmaması veya açık kalması; Elektrikli bagaj kapağının kapanmaması; Vites topuzunun yerinden çıkmaması (2021'den itibaren sabit vites koluna geçildi).",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Range Rover Velar sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/range-rover-velar-sorunlar-91/"
+          ]
+        },
+        {
+          "sorun_adi": "Ön panjurda solma ve soyulma; sunroof ve yan cam fitillerinden su alma",
+          "etkilenen_parca": "Ön panjur ve fitiller",
+          "belirtiler": "Ön panjurda solma ve soyulma; Sunroof ve yan cam fitillerinden su alma.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Range Rover Velar sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/range-rover-velar-sorunlar-91/"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "MG",
       "model": "HS (2021-)",
       "motor": "1.5 T (DCT)",
@@ -13155,6 +14804,30 @@
     {
       "marka": "Mercedes-Benz",
       "model": "C Serisi (W206, 2021-)",
+      "motor": "C200 1.5 turbo benzin 204 PS (M254, 48V hafif hibrit)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Buji porselenin kırılıp motora girmesi (üretim hatası) ve motor değişimi",
+          "etkilenen_parca": "Bujiler ve silindirler (M254 1.5 turbo)",
+          "belirtiler": "Buji arızası için servise gidilen bazı araçlarda bujilerin porselenin kırılıp motor içine girmesi; ardından motor değişimi.",
+          "tahmini_km_araligi": "10.000 - 20.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Bir yıldız kayması: Mercedes' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre M254 kodlu 204 PS 1.5 litre ünitelerde üretim hatası sonucu 10-20 bin km gibi çok düşük kilometrelerde arıza görülüyor. Satılık C200 ilanları arasında 360 bin TL gibi bir tutarla motoru yenilenmiş örnekler var; yazı, araç sahipleri şikâyetlerini yeterince yüksek sesle dile getirmediğinde Mercedes'in arızayı kullanıcı hatası sayıp garanti dışı bıraktığını belirtiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/bir-yldz-kaymas-mercedes-70/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi (W206, 2021-)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
         "baslangic": 2021,
@@ -13179,6 +14852,30 @@
             "https://forum.donanimhaber.com/w206-mercedes-c-serisi-ana-konu-c200-4matic-c200-c43--156049049",
             "https://www.sikayetvar.com/mercedes-benz/c-200/w206",
             "https://www.sikayetvar.com/mercedes-benz/mercedes-yazilim-guncelleme-fahis-fiyat-talebi"
+          ]
+        },
+        {
+          "sorun_adi": "Orta ekranın güneşte bekledikten sonra çerçevesinden ayrılması",
+          "etkilenen_parca": "Merkezi multimedya ekranı ve çerçevesi",
+          "belirtiler": "Güneş altında bir süre bekleyen aracın orta ekranının çerçevesinden ayrılması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Bir yıldız kayması: Mercedes' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda Mercedes'in işçilik ve malzeme kalitesindeki düşüşün güncel göstergesi olarak anılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/bir-yldz-kaymas-mercedes-70/"
+          ]
+        },
+        {
+          "sorun_adi": "Ekran kapanması / donması, CarPlay'in etkin kullanılamaması ve sürekli çıkan arıza bildirimleri",
+          "etkilenen_parca": "Multimedya ve yazılım",
+          "belirtiler": "Ekran kapanması / donması; CarPlay'i etkin kullanamama; sürekli çıkan arıza bildirimleri.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Bir yıldız kayması: Mercedes' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda modern Mercedes'lerde son derece yaygın yazılım sorunları olarak sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/bir-yldz-kaymas-mercedes-70/"
           ]
         }
       ]
@@ -13449,6 +15146,29 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "E Serisi (W214, 2023-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Me Connect uygulamasının çalışmaması: internet bağlantısı, uzaktan erişim, dinamik rota ve yazılım güncellemesi (Türkiye)",
+          "etkilenen_parca": "Mercedes me connect / araç internet bağlantısı (LTE modülü)",
+          "belirtiler": "Satış sırasında 'yakında etkinleşecek' denen Me Connect'in çalışmaması; araç internete bağlanamıyor, yazılım güncellemesi, dinamik rota hesabı ve uzaktan erişim gibi özellikler kullanılamıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Bir yıldız kayması: Mercedes' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre BTK 2019'da araçların internet kullanımına güvenlik gerekçesiyle kısıtlama getirmişti; 2023'te uygun koşulları sağlayan firmalara izin verildi. Mercedes-Benz Türkiye altyapı çalışmalarını gerekçe göstererek süreci geciktirdi ve 2022-2024 arası E180, EQE, S ve EQS modellerini satarken müşterilere Me Connect'in yakında etkinleştirileceği sözünü verdi. Marka Ağustos 2024'te uygulamayı yeniden açtığını duyurmasına rağmen yazının yazıldığı Mayıs 2025'te bu araçları satın alan hiçbir müşteri uygulamayı çalıştıramamıştı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/bir-yldz-kaymas-mercedes-70/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "E Serisi Coupe / Cabrio (C207, 2009-2016)",
       "motor": "E250 CDI 2.1 (OM651)",
       "uretim_yillari": {
@@ -13479,7 +15199,7 @@
             "neden": "NHTSA ve InsideEVs'e göre ABD'deki EQB geri çağırmasında sorun Farasis Energy hücrelerinde: tedarikçide üretimin erken aşamasındaki farklılıklar, şarj altyapısındaki akım dalgalanmaları ya da olası mekanik hasarla birleşince yüksek gerilim batarya içeriden arızalanıp yangına yol açabiliyor. Önceki yazılım düzeltmeleri yeterli olmadı ve batarya değişimine geçildi (üçüncü geri çağırma, Şubat 2026).",
             "teshis": "electrive'e göre KBA kayıtlarında 243 serisinde dünya genelinde 51.729 araç etkileniyor (Almanya'da 4.677); Çin'de 19.481 EQA/EQB için geri çağırma Haziran 2026'da başlıyor. Şikâyetvar'da bir EQB 250+ sahibi Mercedes-Benz Türkiye'den 'Geri Çağırma - 4794004 Batarya Değişimi' e-postası aldığını (17.02.2026) ve yaklaşık 2 ay net tarih verilmediğini; bir başkası aynı tarihte 'riskli batarya' SMS'i aldığını ve aracı kısıtlı menzille kullandığını yazıyor. Şikâyetlerin çoğunda kilometre yok; aralık kaba tahmindir.",
             "cozum": "Batarya değişimi ücretsiz yapılıyor; ABD'de ilk iki geri çağırmada yazılım düzeltmesi uygulanmıştı. Avrupa'da toplu batarya değişiminin 2026'nın son çeyreğinden önce başlamayacağı yazılıyor. Almanya'da bir davada yazılım düzeltmesinin menzili ve şarj hızını düşürdüğü savunuluyor. Şikâyetvar'da bir sahip aracını satamadığını, bir başkası batarya garantisinin 4.800 km'lik bakım gecikmesi gerekçesiyle iptal edildiğini yazıyor (doğrulanmadı). Türkiye'de değişim takvimi kaynaklarda belirsiz.",
-            "onlem": "electrive ve InsideEVs, batarya değişene kadar şarjı en fazla %80 ile sınırlamayı öneriyor."
+            "onlem": "electrive ve InsideEVs, batarya değişene kadar şarjı en fazla %80 ile sınırlamayı öneriyor. And Çetin'in yazısına göre 2021-2024 arası üretilen 33.705 EQA / EQB 250+ aracın yangın riski nedeniyle BMS güncellemesine çağrılacağı, bunun şarj hızını düşüreceği (%10-80 süresi 34 dk'dan 44/49 dk'ya) ve batarya kapasitesini %5-11 azaltarak menzili yaklaşık 50 km düşüreceği, 70,5 kWh'lik modellerin eski 66,5 kWh versiyondan daha düşük performans göstereceği belirtiliyor."
           },
           "kaynaklar": [
             "https://www.electrive.com/2025/02/17/mercedes-eqa-and-eqb-affected-by-battery-recall/",
@@ -13492,7 +15212,8 @@
             "https://www.sikayetvar.com/mercedes-benz/batarya-degisiminde-belirsizlik-ve-satista-engel",
             "https://www.sikayetvar.com/mercedes-benz/mercedes-eqb-250-plus-kronik-sorunlar-ve-hayal-kirikligi",
             "https://www.sikayetvar.com/mercedes-benz/mercedes-benz-elektrikli-arac-batarya-arizasi-ve-servis-sorunlari",
-            "https://eksisozluk.com/mercedes-eqa--6574443?p=2"
+            "https://eksisozluk.com/mercedes-eqa--6574443?p=2",
+            "https://andcetin.com/bir-yldz-kaymas-mercedes-70/"
           ],
           "donem_kirilimi": [
             {
@@ -13541,6 +15262,52 @@
               "durum": "Görülebilir",
               "not": "Geri çağırma yalnızca Şubat-Kasım 2019 üretimini (BR 293) kapsıyor; sonraki üretim yılları için kaynaklarda ayrı bilgi yok."
             }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "EQE (2022-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Me Connect uygulamasının çalışmaması: internet bağlantısı, uzaktan erişim, dinamik rota ve yazılım güncellemesi (Türkiye)",
+          "etkilenen_parca": "Mercedes me connect / araç internet bağlantısı (LTE modülü)",
+          "belirtiler": "Satış sırasında 'yakında etkinleşecek' denen Me Connect'in çalışmaması; araç internete bağlanamıyor, yazılım güncellemesi, dinamik rota hesabı ve uzaktan erişim gibi özellikler kullanılamıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Bir yıldız kayması: Mercedes' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre BTK 2019'da araçların internet kullanımına güvenlik gerekçesiyle kısıtlama getirmişti; 2023'te uygun koşulları sağlayan firmalara izin verildi. Mercedes-Benz Türkiye altyapı çalışmalarını gerekçe göstererek süreci geciktirdi ve 2022-2024 arası E180, EQE, S ve EQS modellerini satarken müşterilere Me Connect'in yakında etkinleştirileceği sözünü verdi. Marka Ağustos 2024'te uygulamayı yeniden açtığını duyurmasına rağmen yazının yazıldığı Mayıs 2025'te bu araçları satın alan hiçbir müşteri uygulamayı çalıştıramamıştı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/bir-yldz-kaymas-mercedes-70/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "EQS (2021-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Me Connect uygulamasının çalışmaması: internet bağlantısı, uzaktan erişim, dinamik rota ve yazılım güncellemesi (Türkiye)",
+          "etkilenen_parca": "Mercedes me connect / araç internet bağlantısı (LTE modülü)",
+          "belirtiler": "Satış sırasında 'yakında etkinleşecek' denen Me Connect'in çalışmaması; araç internete bağlanamıyor, yazılım güncellemesi, dinamik rota hesabı ve uzaktan erişim gibi özellikler kullanılamıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Bir yıldız kayması: Mercedes' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre BTK 2019'da araçların internet kullanımına güvenlik gerekçesiyle kısıtlama getirmişti; 2023'te uygun koşulları sağlayan firmalara izin verildi. Mercedes-Benz Türkiye altyapı çalışmalarını gerekçe göstererek süreci geciktirdi ve 2022-2024 arası E180, EQE, S ve EQS modellerini satarken müşterilere Me Connect'in yakında etkinleştirileceği sözünü verdi. Marka Ağustos 2024'te uygulamayı yeniden açtığını duyurmasına rağmen yazının yazıldığı Mayıs 2025'te bu araçları satın alan hiçbir müşteri uygulamayı çalıştıramamıştı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/bir-yldz-kaymas-mercedes-70/"
           ]
         }
       ]
@@ -13701,6 +15468,29 @@
       "kronik_sorunlar": [],
       "aileler": [
         "mercedes-om642"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "S Serisi (W223, 2020-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Me Connect uygulamasının çalışmaması: internet bağlantısı, uzaktan erişim, dinamik rota ve yazılım güncellemesi (Türkiye)",
+          "etkilenen_parca": "Mercedes me connect / araç internet bağlantısı (LTE modülü)",
+          "belirtiler": "Satış sırasında 'yakında etkinleşecek' denen Me Connect'in çalışmaması; araç internete bağlanamıyor, yazılım güncellemesi, dinamik rota hesabı ve uzaktan erişim gibi özellikler kullanılamıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Bir yıldız kayması: Mercedes' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre BTK 2019'da araçların internet kullanımına güvenlik gerekçesiyle kısıtlama getirmişti; 2023'te uygun koşulları sağlayan firmalara izin verildi. Mercedes-Benz Türkiye altyapı çalışmalarını gerekçe göstererek süreci geciktirdi ve 2022-2024 arası E180, EQE, S ve EQS modellerini satarken müşterilere Me Connect'in yakında etkinleştirileceği sözünü verdi. Marka Ağustos 2024'te uygulamayı yeniden açtığını duyurmasına rağmen yazının yazıldığı Mayıs 2025'te bu araçları satın alan hiçbir müşteri uygulamayı çalıştıramamıştı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/bir-yldz-kaymas-mercedes-70/"
+          ]
+        }
       ]
     },
     {
@@ -13877,6 +15667,68 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-b37-1-5-dizel"
+      ]
+    },
+    {
+      "marka": "Mini",
+      "model": "Countryman E (U25, 2024-)",
+      "motor": "Elektrik (Countryman E 41GA / SE ALL4 81GA; 66,5 / 64,7 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Güç kesintisi ve istem dışı ivmelenme: göstergelerin kapanması, direksiyon ve fren sertleşmesi",
+          "etkilenen_parca": "Elektrik tahrik / yüksek voltaj sistemi",
+          "belirtiler": "Seyahat halinde elektrik kesintisi sonucu tüm gösterge ve ekranların kapanması, direksiyonun dönemeyecek kadar ağırlaşması, frenlerin aşırı sertleşmesi ve aracın kendiliğinden ivmelenmeye devam etmesi; temel fonksiyonlar geri gelene kadar 35-40 saniye boyunca aracı durduramadan 100 km/s üstü süratle ilerleyen kullanıcılar var.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Mini Countryman E sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda bazıları hayati risklere yol açabilecek ciddi sıkıntılar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/mini-countryman-e-sorunlar-94/"
+          ]
+        },
+        {
+          "sorun_adi": "Elektrik motoru değişimi: hıza bağlı tıkırtı ve 'tahrik arızası'",
+          "etkilenen_parca": "Elektrik motoru",
+          "belirtiler": "Hızla doğru orantılı artan bir tıkırtı sesi ve akabinde 'tahrik arızası' ile yolda kalma.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Mini Countryman E sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre genelde garanti kapsamında elektrik motoru değiştiriliyor; ancak servis yetkilileri bu değişimin 'şarj istasyonu kaynaklı bir problem olması durumunda garanti kapsamı dışında kalabileceğini' söylüyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/mini-countryman-e-sorunlar-94/"
+          ]
+        },
+        {
+          "sorun_adi": "Direksiyon kutusu arızası: dönüşlerde takılma, titreme ve tıkırtı",
+          "etkilenen_parca": "Direksiyon kutusu",
+          "belirtiler": "Dönüşlerde direksiyonda takılma, titreme ve tıkırtı sesi sonucu direksiyon kutusu değişimi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Mini Countryman E sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda direksiyon kutusu değişiminin yaygın olduğu belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/mini-countryman-e-sorunlar-94/"
+          ]
+        },
+        {
+          "sorun_adi": "Diğer şikâyetler: cam krikosu, cam tavan, far lekelenmesi, kapı menteşesi gıcırtısı, direksiyonun çekmesi, fren gıcırtısı, navigasyon / internet fonksiyonları",
+          "etkilenen_parca": "Cam, cam tavan, farlar, kapı menteşeleri, direksiyon ve fren servosu",
+          "belirtiler": "AC şarj kablosu verilmemesi; Cam krikosunun bozulması; Cam tavanın açılmaması; Ön farların içinde lekelenmeler; Kapı menteşelerinde gıcırdama; Direksiyonun sağa/sola çekmesi (rot-balans ile düzelmiyor); Frene basınca gıcırdama (fren servo sistem değişimiyle ilgili geri çağırma mevcut); Navigasyon ve internet bağlantısı gerektiren fonksiyonların çalışmaması; İlk gelen örneklerde ambiyans aydınlatmanın bulunmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Mini Countryman E sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/mini-countryman-e-sorunlar-94/"
+          ]
+        }
+      ],
+      "aileler": [
+        "bmw-mini-ev-on-aks"
       ]
     },
     {
@@ -14485,7 +16337,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "nissan-e-power-aku"
+        "nissan-e-power-aku",
+        "nissan-e-power-sistem"
       ]
     },
     {
@@ -14514,6 +16367,78 @@
             "https://www.sikayetvar.com/nissan/qashqai/j12-qashqai",
             "https://www.sikayetvar.com/nissan/qashqai/yazilim",
             "https://forum.donanimhaber.com/2021-qashqai-j12-hafif-hibrit-kullanicilari--155195498"
+          ]
+        },
+        {
+          "sorun_adi": "Sürüş destek sistemi uyarıları: hız sabitleyicide 'Geçici devre dışı – Ön radar kapalı', şerit takip ve çarpışma uyarı ışıklarının yanıp sönmesi",
+          "etkilenen_parca": "Ön radar / kamera ve sürüş destek sistemleri",
+          "belirtiler": "Hız sabitleyicide 'Geçici devre dışı – Ön radar kapalı' uyarısı; Şerit takip ve çarpışma uyarı ışıklarının yanıp sönmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "sorun_adi": "Yanlış hız uyarıları, okuma hataları ve ani otonom frenleme",
+          "etkilenen_parca": "Hız tanıma ve otonom acil fren sistemi",
+          "belirtiler": "Yanlış hız uyarıları ve okuma hataları; Ani otonom frenleme.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "sorun_adi": "Klimanın kendiliğinden belli bir sıcaklığa ayarlanması; hatalı klima borusu bağlantısı / vida eksikliği",
+          "etkilenen_parca": "Klima kontrolü ve klima boruları",
+          "belirtiler": "Klimanın kendiliğinden belli bir sıcaklığa ayarlanması; Hatalı klima borusu bağlantısı / vida eksikliği.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde sesleri: trim gıcırtısı, sürüşte hafif tıkırtı, kapalı camlardan rüzgar girmesi",
+          "etkilenen_parca": "Kabin trimi, şasi / gövde ve cam fitilleri",
+          "belirtiler": "Kabinden gelen gıcırdama (trim) sesleri; Sürüş esnasında şasi veya gövdeden gelen hafif tıkırtı sesi; Kapalı camlardan içeri rüzgar gelmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "sorun_adi": "Elektrikli bagaj kapağının tam kapanmaması",
+          "etkilenen_parca": "Elektrikli bagaj kapağı",
+          "belirtiler": "Elektrikli bagaj kapağının tam kapanmaması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "sorun_adi": "Bilgi-eğlence sistemi arızaları",
+          "etkilenen_parca": "Bilgi-eğlence sistemi",
+          "belirtiler": "Bilgi-eğlence sistemi arızaları.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
           ]
         }
       ]
@@ -14641,7 +16566,91 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "nissan-e-power-aku"
+        "nissan-e-power-aku",
+        "nissan-e-power-sistem"
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "X-Trail (T33, 2022-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Sürüş destek sistemi uyarıları: hız sabitleyicide 'Geçici devre dışı – Ön radar kapalı', şerit takip ve çarpışma uyarı ışıklarının yanıp sönmesi",
+          "etkilenen_parca": "Ön radar / kamera ve sürüş destek sistemleri",
+          "belirtiler": "Hız sabitleyicide 'Geçici devre dışı – Ön radar kapalı' uyarısı; Şerit takip ve çarpışma uyarı ışıklarının yanıp sönmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "sorun_adi": "Yanlış hız uyarıları, okuma hataları ve ani otonom frenleme",
+          "etkilenen_parca": "Hız tanıma ve otonom acil fren sistemi",
+          "belirtiler": "Yanlış hız uyarıları ve okuma hataları; Ani otonom frenleme.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "sorun_adi": "Klimanın kendiliğinden belli bir sıcaklığa ayarlanması; hatalı klima borusu bağlantısı / vida eksikliği",
+          "etkilenen_parca": "Klima kontrolü ve klima boruları",
+          "belirtiler": "Klimanın kendiliğinden belli bir sıcaklığa ayarlanması; Hatalı klima borusu bağlantısı / vida eksikliği.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde sesleri: trim gıcırtısı, sürüşte hafif tıkırtı, kapalı camlardan rüzgar girmesi",
+          "etkilenen_parca": "Kabin trimi, şasi / gövde ve cam fitilleri",
+          "belirtiler": "Kabinden gelen gıcırdama (trim) sesleri; Sürüş esnasında şasi veya gövdeden gelen hafif tıkırtı sesi; Kapalı camlardan içeri rüzgar gelmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "sorun_adi": "Elektrikli bagaj kapağının tam kapanmaması",
+          "etkilenen_parca": "Elektrikli bagaj kapağı",
+          "belirtiler": "Elektrikli bagaj kapağının tam kapanmaması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        },
+        {
+          "sorun_adi": "Bilgi-eğlence sistemi arızaları",
+          "etkilenen_parca": "Bilgi-eğlence sistemi",
+          "belirtiler": "Bilgi-eğlence sistemi arızaları.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Nissan e-POWER sorunları' yazısında bu sorun, güç ünitesinden ziyade aracın kendisinden kaynaklanan ve Qashqai / X-Trail'in diğer versiyonlarında da karşılaşılan genel arızalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/nissan-e-power-sorunlar-67/"
+          ]
+        }
       ]
     },
     {
@@ -14718,6 +16727,9 @@
             }
           ]
         }
+      ],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
       ]
     },
     {
@@ -15258,7 +17270,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "psa-puretech-eb2"
+        "psa-puretech-eb2",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -15330,7 +17343,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "psa-bluehdi-adblue",
-        "psa-dv5-1-5-bluehdi"
+        "psa-dv5-1-5-bluehdi",
+        "psa-k9-ticari-ortak"
       ]
     },
     {
@@ -15443,6 +17457,20 @@
     },
     {
       "marka": "Opel",
+      "model": "Corsa F (FL, 2023-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Corsa-e / Mokka-e (2020-)",
       "motor": "Elektrik (50 kWh, 136 PS; 2024 sonrası Mokka'da 54 kWh, 156 PS)",
       "uretim_yillari": {
@@ -15488,6 +17516,9 @@
             }
           ]
         }
+      ],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
       ]
     },
     {
@@ -15556,6 +17587,122 @@
       ],
       "aileler": [
         "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Frontera (2024-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Frontera Electric (2024-)",
+      "motor": "Elektrik (44 / 54 kWh LFP, 113 PS)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrik çekiş (tahrik) sistemi, ABS / ESP / ASR, park freni, batarya, vites ve şarj soketi arızaları",
+          "etkilenen_parca": "Elektrikli tahrik, fren sistemi, batarya ve şarj soketi",
+          "belirtiler": "Elektrik çekiş sistemi arızası; ABS/ESP/ASR sistemi arızası; Park freni arızası; Batarya arızası; Vites arızası; Şarj soketi arızası; Kontak arızası ve aracın çalışmaması (elektrikli olmasına rağmen çalıştırmak için kontak anahtarını takıp çevirmek gerekiyor).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre sık sık kullanıcıların yolda kalmasına, araçlarını şarj edememesine ya da servise bırakıp haftalarca çözüm beklemesine yol açıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        },
+        {
+          "sorun_adi": "Lastik basıncı algılama arızası, sağa-sola çekme, stop lambası ve CarPlay arızaları",
+          "etkilenen_parca": "Lastik basıncı sensörleri, ön takım, stop lambası ve multimedya",
+          "belirtiler": "Lastik basıncı algılama arızası; Sağa-sola çekme; Stop lambası arızası; CarPlay bağlantı hatası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        },
+        {
+          "sorun_adi": "İşçilik: bagaj kapağında ayarsızlık, plastik soyulması, boya atması, koltuk yayı kopması, su girmesi ve çatlamalar",
+          "etkilenen_parca": "Kaporta, boya, iç mekan ve koltuklar",
+          "belirtiler": "Bagaj kapağında ayarsızlık; Direksiyon göbeğinde plastik soyulması; Tavan, yan ayna ve bagajda boya atması; Koltuk yayında kopma ve minderin çökmesi; Tavan, dikiz aynası ve bagajdan su girmesi ve çatlamalar.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        },
+        {
+          "sorun_adi": "Yokuşta kalkış yapamama: elektrik motorunun kendini korumaya alıp fanı açması",
+          "etkilenen_parca": "Elektrik motoru / invertör koruma yazılımı",
+          "belirtiler": "Rampalarda elektrik motoru kendini korumaya alıp fan açıyor ve araç hareketsiz kalıyor; kullanıcılar aracı geri kaydırıp hızlarını alarak yokuşu 'tekrar denemek' zorunda kalıyor; çekiş kontrol sistemini kapatmak da fayda etmiyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre teknik verilere göre aracın %20'ye kadar eğimli yollarda kalkış yapabiliyor olması gerekirken motoru ve invertörü koruma amaçlı yazılım sınırlamaları nedeniyle bu sorun çıkıyor; servis yetkilileri konuyu soranlara 'biz de bilmiyoruz' diyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        },
+        {
+          "sorun_adi": "Soğuk havada WLTP değerinin çok altında menzil (ısı pompası yok)",
+          "etkilenen_parca": "Batarya ve ısıtma sistemi (PTC ısıtıcı)",
+          "belirtiler": "44 kWh modellerde WLTP menzili 301 / 303 km iken kullanıcılar özellikle soğuk havalarda 150 km civarı görüyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Citroën ë-C3 Aircross ve Opel Frontera sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre ısı pompası olmayan bu araçlar satış danışmanlarınca 'en kötü ihtimalle 250 km gider' vaadiyle pazarlandı.",
+            "maliyet": "44 kWh'lik bataryanın garanti dışı değişim ücreti 2025 itibarıyla yaklaşık 1 milyon TL (yazıdaki beyan; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/citroen-e-c3-aircross-ve-opel-frontera-sorunlar-88/"
+          ]
+        }
+      ],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Grandland (B, 2024-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Grandland Electric (2024-)",
+      "motor": "Elektrik (STLA Medium; 73 / 98 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
       ]
     },
     {
@@ -15959,6 +18106,20 @@
     },
     {
       "marka": "Opel",
+      "model": "Mokka B (FL, 2023-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Vectra C (2002-2008)",
       "motor": "1.9 CDTI 120 / 150 (Z19DT / Z19DTH)",
       "uretim_yillari": {
@@ -16067,6 +18228,20 @@
             "https://www.parkers.co.uk/toyota/aygo/hatchback-2005/used-review/"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "2008 (II FL, 2023-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
       ]
     },
     {
@@ -16428,6 +18603,21 @@
     },
     {
       "marka": "Peugeot",
+      "model": "3008 (III, 2023-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "301 (2012-)",
       "motor": "1.2 VTi / PureTech 82 (EB2F)",
       "uretim_yillari": {
@@ -16620,7 +18810,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "psa-puretech-eb2"
+        "psa-puretech-eb2",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -16923,6 +19114,20 @@
     },
     {
       "marka": "Peugeot",
+      "model": "408 (2023-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6"
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "5008 (I, 2009-2016)",
       "motor": "1.6 THP 156 (EP6)",
       "uretim_yillari": {
@@ -16946,6 +19151,21 @@
       "aileler": [
         "psa-dv6-hdi-tdci",
         "psa-mcp-robotize"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "5008 (III, 2023-)",
+      "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-1-2-hibrit-136",
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -17025,6 +19245,32 @@
     },
     {
       "marka": "Peugeot",
+      "model": "E-3008 (2024-)",
+      "motor": "Elektrik (STLA Medium; 73 / 98 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "E-5008 (2024-)",
+      "motor": "Elektrik (STLA Medium; 73 / 98 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "Partner (2008-2018)",
       "motor": "1.6 HDi 75/92/100/115 (DV6)",
       "uretim_yillari": {
@@ -17047,7 +19293,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "psa-bluehdi-adblue",
-        "psa-dv5-1-5-bluehdi"
+        "psa-dv5-1-5-bluehdi",
+        "psa-k9-ticari-ortak"
       ]
     },
     {
@@ -17099,6 +19346,9 @@
             }
           ]
         }
+      ],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
       ]
     },
     {
@@ -17129,6 +19379,22 @@
             "https://forum.donanimhaber.com/peugeot-308-e-gt-kullanicilari--158018321"
           ]
         }
+      ],
+      "aileler": [
+        "stellantis-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Porsche",
+      "model": "Macan Electric (2024-)",
+      "motor": "Elektrik (PPE; 100 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
       ]
     },
     {
@@ -17185,6 +19451,54 @@
         "getrag-7dct300",
         "renault-edc",
         "renault-mercedes-1-3-tce"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Boreal (2026-)",
+      "motor": "1.3 TCe 145 (benzin, Magna DW23)",
+      "uretim_yillari": {
+        "baslangic": 2026,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "magna-dw23"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Boreal (2026-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2026,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Motor yönetimi / kirlilik önleme ikazları; multimedya, Bluetooth ve bağlantı kopmaları; park sensörleri ve sürüş destek sistemi uyarıları",
+          "etkilenen_parca": "Motor yönetimi, multimedya ve sürüş destek sistemleri",
+          "belirtiler": "Motor yönetimi veya 'kirlilik önleme' ikazları; Multimedya, Bluetooth ve bağlantı kopmaları; Park sensörleri ve sürüş destek sistemleriyle ilgili uyarılar.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Renault Boreal analizi' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre Boreal Brezilya'da 2025 sonundan beri satışta ve şimdiden bazı şikâyetler birikmiş durumda; Türkiye'de satılan araçlardan yeterince geri bildirim yok. Brezilya'daki araçlar Curitiba'da, Türkiye'dekiler Bursa'da üretiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/renault-boreal-analizi-99/"
+          ]
+        },
+        {
+          "sorun_adi": "Kart anahtar, elektrikli camlar ve elektrikli park freni elektronik arızaları; boya kalitesi, kapı-far-bagaj kapağı ayarı ve montaj kalitesi şikâyetleri",
+          "etkilenen_parca": "Kart anahtar, elektrikli camlar, elektrikli park freni, boya ve montaj",
+          "belirtiler": "Kart anahtar, elektrikli camlar ve elektrikli park freniyle ilgili elektronik arızalar; Boya kalitesi, kapı-far-bagaj kapağı ayarı ve montaj kalitesi şikâyetleri.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Renault Boreal analizi' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre Boreal Brezilya'da 2025 sonundan beri satışta ve şimdiden bazı şikâyetler birikmiş durumda."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/renault-boreal-analizi-99/"
+          ]
+        }
       ]
     },
     {
@@ -18841,6 +21155,32 @@
     },
     {
       "marka": "Skoda",
+      "model": "Elroq (2024-)",
+      "motor": "Elektrik (MEB; 58 / 77 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Enyaq (2021-)",
+      "motor": "Elektrik (MEB; 62 / 82 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Skoda",
       "model": "Fabia (5J, 2010-2014)",
       "motor": "1.2 TSI 86/105 (EA111)",
       "uretim_yillari": {
@@ -20198,6 +22538,136 @@
       ]
     },
     {
+      "marka": "Tesla",
+      "model": "Model Y (Juniper, 2025-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2025,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Fren pedalı sertliği / titremesi ve 'fren sıvısı düşük' uyarısı",
+          "etkilenen_parca": "Fren sıvısı sensörü ve brake-by-wire (hydraulic-by-wire) fren sistemi",
+          "belirtiler": "'Fren sıvısı düşük seviyede' uyarısıyla fren pedalının titremeye başlaması; pedal sertliği, tutmama hissi ve panik frenlerde geç durma.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Tesla Model Y Juniper sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazı bunu Juniper'in en kritik arızası olarak niteliyor. Servis, fren sıvısı sensörünün yerinin önceki kasaya göre daha yukarıda olduğunu ve hafif eğimli zeminde, özellikle aracın önü aşağı bakarken frene basıldığında arıza verdiğini söylüyor; yurt dışı kaynaklarda ise yeni kasadaki brake-by-wire'a bağlı bir firmware / kalibrasyon sorunu olduğu ifade ediliyor. Türkiye'de yazının yazıldığı tarihe kadar yalnızca yazarın takipçileri tarafından paylaşılan 6 kaza gerçekleşti.",
+            "cozum": "Servis 30 ml hidrolik yağı eklendiğinde sorunun geçici olarak çözüldüğünü söylüyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tesla-model-y-juniper-sorunlar-74/",
+            "https://andcetin.com/yeni-tesla-model-y-frenaj-kazalar-76/"
+          ]
+        },
+        {
+          "sorun_adi": "Frene kuvvetlice basılmasına rağmen aracın yeterince yavaşlamaması (frenleme kazaları)",
+          "etkilenen_parca": "Elektrik destekli fren sistemi kalibrasyonu ve ADAS (adaptif hız sabitleyici / otomatik acil frenleme)",
+          "belirtiler": "Frene kuvvetlice basılmasına rağmen aracın beklenen şekilde yavaşlamaması, 'altlarından kayıp gitme' hissi; ABS devreye girse de pedalda titreme hissedilmemesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Yeni Tesla Model Y frenaj kazaları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre sosyal medyada frene basmasına rağmen duramayan araçların yaptığı kazalar ve kazaya ramak kalan vakalar paylaşıldı. İncelenen 3 telemetri raporunda hız genelde 60 km/s civarı, yol eğimi sıfıra yakın, şarj %80 altında; rejeneratif fren ayarı düşük ya da yüksek olsa da gazdan çekildikten sonra belirgin yavaşlama yok; Autopilot'lu örneklerde kazadan 4-5 sn önce adaptif hız sabitleyici ve otomatik acil frenleme devreden çıkıyor (SNA = signal not available). Yazı frenlerin kendisini yeterli buluyor (100 km/s'den 36-38 m fren mesafesi); sorunun kaynağının yeni kasada kullanılan elektrik destekli fren sisteminin kalibrasyonu ve ADAS zaafları olabileceğini belirtiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tesla-model-y-juniper-sorunlar-74/",
+            "https://andcetin.com/yeni-tesla-model-y-frenaj-kazalar-76/"
+          ]
+        },
+        {
+          "sorun_adi": "ESP'nin yersiz devreye girmesi ve aracın altından patırtı sesi",
+          "etkilenen_parca": "Elektronik stabilite programı (ESP) ve denge çubuğu",
+          "belirtiler": "Yokuş yukarı çıkarken ve keskin dönüşlerde, çok düşük süratlerde ve tehlike yokken ESP'nin devreye girmesi ve aracın altından patırtı şeklinde ses gelmesi; müdahale zaman zaman son derece şiddetli.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tesla Model Y Juniper sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre hemen tüm Model Y'lerde mevcut; kullanıcılar sorunun denge çubuğunun gevşekliğinden kaynaklandığını belirtiyor, yetkili servis bunu 'normal' karşılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tesla-model-y-juniper-sorunlar-74/",
+            "https://andcetin.com/yeni-tesla-model-y-frenaj-kazalar-76/"
+          ]
+        },
+        {
+          "sorun_adi": "Ön ve tavan camının çatlaması",
+          "etkilenen_parca": "Ön cam ve cam tavan",
+          "belirtiler": "Ön camın yüksek sıcaklıklarda durduğu yerde çatlaması; tavan camının PPF kaplama gibi uygulamalarda kolayca hasar görmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tesla Model Y Juniper sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre önceki kasada kronik olan durum devam ediyor; herhangi bir darbe olmadığı için kasko hasarı karşılamıyor, servis de sorunu garanti kapsamından çıkarmış durumda ve ücretsiz değişim yapılmıyor.",
+            "maliyet": "Tavan camı için parça bedeli 65.000 TL + KDV, işçilik ve diğer montaj kalemleriyle toplam maliyet 110.000 TL (yazıdaki Temmuz 2025 beyanı; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tesla-model-y-juniper-sorunlar-74/",
+            "https://andcetin.com/yeni-tesla-model-y-frenaj-kazalar-76/"
+          ]
+        },
+        {
+          "sorun_adi": "Otopilot hataları: gölgeyi insan / araç sanıp ani fren yapma (phantom braking)",
+          "etkilenen_parca": "Autopilot / sürüş destek sistemleri (kamera tabanlı)",
+          "belirtiler": "Olmadık bir gölgeyi insan veya araç olarak yorumlayıp ani frenler yapması; Otopilot devrede olmasa bile panik frenlerin gerçekleşmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Tesla Model Y Juniper sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre Juniper'in sürüş destek sistemleri önceki kasadan daha tutarsız çalışıyor; bu durum markanın LiDAR yerine kamera kullanmasına bağlanıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tesla-model-y-juniper-sorunlar-74/",
+            "https://andcetin.com/yeni-tesla-model-y-frenaj-kazalar-76/"
+          ]
+        },
+        {
+          "sorun_adi": "Far-lamba arızaları (gündüz farı, stop lambası) sıfır araçlarda",
+          "etkilenen_parca": "Gündüz farları ve stop lambaları",
+          "belirtiler": "Sıfır araçlarda 'gündüz farı arızalı' uyarısı; bazı araçların stop lambalarının bozuk gelmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tesla Model Y Juniper sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre hata kayıtları incelendiğinde arızalar teslimattan haftalar öncesinde de mevcut; yani araçlar son kontroller yapılmadan teslim ediliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tesla-model-y-juniper-sorunlar-74/",
+            "https://andcetin.com/yeni-tesla-model-y-frenaj-kazalar-76/"
+          ]
+        },
+        {
+          "sorun_adi": "Jant kapaklarından ve direksiyondan gelen tıkırtı / çıtırtı",
+          "etkilenen_parca": "Jant kapakları ve direksiyon",
+          "belirtiler": "Yerine tam oturmayan jant kapaklarından hareket halinde rahatsız edici ses; direksiyon çevrildiğinde (genellikle durağan halde, bazı araçlarda hareket halinde de) çıt-çıt sesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tesla Model Y Juniper sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre jant kapağı sesinin çözümü kapakları sökmek."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tesla-model-y-juniper-sorunlar-74/",
+            "https://andcetin.com/yeni-tesla-model-y-frenaj-kazalar-76/"
+          ]
+        },
+        {
+          "sorun_adi": "Montaj ve işçilik hataları",
+          "etkilenen_parca": "Kaporta birleşimleri, boya ve iç mekan",
+          "belirtiler": "Kaporta birleşim noktalarında açıklıklar, boyası soluk alanlar, iç mekanda yerine oturmayan aksamlar, konsol üstü kaplamasında dalgalanmalar, ön ızgaradan sarkan kablolar; bazı örneklerde farklı gövde parçalarının farklı renge boyanmış teslimi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tesla Model Y Juniper sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre diğer tüm Tesla'larda olduğu gibi yaygın; satış yetkilileri bu hataları 'tolerans sınırlarımız dahilinde' değerlendiriyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tesla-model-y-juniper-sorunlar-74/",
+            "https://andcetin.com/yeni-tesla-model-y-frenaj-kazalar-76/"
+          ]
+        },
+        {
+          "sorun_adi": "Geniş dönüş çapı (12,1 m)",
+          "etkilenen_parca": "Direksiyon / şasi geometrisi",
+          "belirtiler": "12,1 metrelik geniş dönüş çapı park yeri gibi alanlardaki manevraları zorlaştırıyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tesla Model Y Juniper sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre ilk Model Y'nin en çok şikâyet edilen özelliklerinden biri bu nesilde de sürüyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tesla-model-y-juniper-sorunlar-74/",
+            "https://andcetin.com/yeni-tesla-model-y-frenaj-kazalar-76/"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Togg",
       "model": "T10X (2023-)",
       "motor": "Elektrik (V1 / V2 donanım; 52,4 kWh ve 88,5 kWh)",
@@ -20932,7 +23402,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "psa-bluehdi-adblue",
-        "psa-dv5-1-5-bluehdi"
+        "psa-dv5-1-5-bluehdi",
+        "psa-k9-ticari-ortak"
       ]
     },
     {
@@ -21168,6 +23639,19 @@
       ],
       "aileler": [
         "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Caddy (5, 2020-)",
+      "motor": "2.0 TDI 122 (DSG)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mqb-ticari-caddy-connect"
       ]
     },
     {
@@ -21718,6 +24202,71 @@
       "aileler": [
         "vag-1-6-tdi-egr-dpf",
         "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "ID.3 (2020-)",
+      "motor": "Elektrik (MEB; 58 / 77 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "ID.4 (2021-)",
+      "motor": "Elektrik (MEB; 52 / 77 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "ID.5 (2022-)",
+      "motor": "Elektrik (MEB; 77 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "ID.7 (2023-)",
+      "motor": "Elektrik (MEB; 77 / 86 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "ID.Buzz (2022-)",
+      "motor": "Elektrik (MEB; 77 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ev-tahrik-arizasi"
       ]
     },
     {
@@ -22447,6 +24996,30 @@
             "https://eksisozluk.com/ankara-dogus-oto-volkswagen-rezaleti--7904450",
             "https://forum.donanimhaber.com/t-cross-kullanici-kulubu--153163549"
           ]
+        },
+        {
+          "sorun_adi": "Taigo: far ve stop gruplarından su alma ve buğulanma",
+          "etkilenen_parca": "Ön farlar ve stop lambaları (Varroc)",
+          "belirtiler": "Far ve stop lambası gruplarından içeri su alma ve buğulanma.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Kroniğin elli tonu' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre VW Taigo'nun en yaygın sorunlarından biri; hem ön farların hem stop lambalarının üreticisi Varroc, Pamplona'daki tesiste üretiliyor. Aynı platformdaki Seat Arona'da (farlar Valeo, stoplar Magneti Marelli; Martorell'de üretim) bu sorun hemen hiç görülmüyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/kronigin-elli-tonu-107/"
+          ]
+        },
+        {
+          "sorun_adi": "Taigo: DSG arızaları, EPC arızası ve fren servosu sorunları",
+          "etkilenen_parca": "DSG şanzıman, motor kontrol (EPC) ve fren servosu",
+          "belirtiler": "DSG arızaları, EPC uyarısı/arızası ve fren servosu sorunları.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Kroniğin elli tonu' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre VW Taigo'da DSG'den EPC arızasına, fren servosundan farlarından su almaya kadar 10'dan fazla konuda tekrarlayan şikâyet var; yazar bu yüzden Taigo'yu önermiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/kronigin-elli-tonu-107/"
+          ]
         }
       ]
     },
@@ -22777,6 +25350,19 @@
       ]
     },
     {
+      "marka": "Volkswagen",
+      "model": "Transporter (T7, 2024-)",
+      "motor": "2.0 TDI 110 / 150 / 170 (8 ileri otomatik 8F40)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "ford-pro-t7-transit-custom"
+      ]
+    },
+    {
       "marka": "Volvo",
       "model": "S40 / V50 (2004-2012)",
       "motor": "1.6D 109 (DV6)",
@@ -22966,7 +25552,32 @@
         "baslangic": 2018,
         "bitis": null
       },
-      "kronik_sorunlar": [],
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Recharge: motor arıza ışığı, kaplumbağa moduna geçme (azami 70 km/s) ve şarj kablosunun sıkışması",
+          "etkilenen_parca": "Plug-in hibrit sistemi ve şarj soketi",
+          "belirtiler": "Recharge'larda motor arıza ışığı, kaplumbağa moduna geçme (azami sürat 70 km/s) ve şarj kablosunun sıkışması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC60 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda mekanik sorunlar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc60-sorunlar-89/"
+          ]
+        },
+        {
+          "sorun_adi": "Arka elektrik motorunun (ERAD) bilyesinin dağılıp devre dışı kalması (80 bin km'den itibaren)",
+          "etkilenen_parca": "Arka elektrik motoru (ERAD) rulmanı",
+          "belirtiler": "Arkadaki elektrik motorunun (ERAD) bilyesinin dağılıp motorun devre dışı kalması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC60 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre 80 bin km'den itibaren görülebiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc60-sorunlar-89/"
+          ]
+        }
+      ],
       "aileler": [
         "volvo-phev-hv-batarya"
       ]
@@ -22997,6 +25608,78 @@
             "https://www.volvoforums.org.uk/forum/technical-topics/s60-v60-18-xc60-17-s90-v90-16-xc90-15-general/315914-rebooting-sensus",
             "https://www.swedespeed.com/threads/center-display-blackout.585301/",
             "https://eksisozluk.com/volvo-xc60--1592603?p=10"
+          ]
+        },
+        {
+          "sorun_adi": "Elektrik-elektronik: park sensörü, klima, CarPlay, kapı kilitleri, bilgi-eğlence, kemer ikazı, direksiyon düğmeleri, farlar ve koltuk ısıtma",
+          "etkilenen_parca": "Bilgi-eğlence sistemi (Sensus / Android tabanlı AAOS) ve gövde elektroniği",
+          "belirtiler": "Park sensörü arızası; Klimanın çalışmaması; CarPlay bağlantı hatası; Kapıların kendi kendine kitlenmesi; Bilgi-eğlence sisteminin kapanması; Yolcu (yokken) emniyet kemeri ikazı; Direksiyondaki düğmelerin çalışmaması; Farların kendi kendine açılıp kapanması; Koltuk ısıtmanın kendiliğinden açılıp kapanması; On Call sisteminin çalışmayıp devamlı uyarı vermesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC60 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre ilk makyaja kadar işletim sistemi Volvo'nun kendi Sensus'u (demode ama yerine oturmuş); 2022'nin ikinci yarısından itibaren Android tabanlı sisteme (AAOS) geçildi ve bunlarda şikâyetler daha fazla, güncellemelerle hatalar kısmen çözüldü."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc60-sorunlar-89/"
+          ]
+        },
+        {
+          "sorun_adi": "Kaporta: açılır tavan çevresinden su sızıntısı, perdenin yerinden çıkması, drenaj borularının tıkanması; elektrikli bagaj kapağı amortisörleri (2017-19, geri çağırma); havalı süspansiyon körük ve kompresörleri",
+          "etkilenen_parca": "Açılır tavan, drenaj boruları, bagaj kapağı amortisörleri ve havalı süspansiyon",
+          "belirtiler": "Diğer güncel Volvo'lardaki gibi açılır tavan çevresinden su sızıntıları, perdesinin yerinden çıkması ve drenaj borularında tıkanma (5 senede bir fitillerin değiştirilmesi gerekiyor); 2017-19 modellerde elektrikli bagaj kapağının amortisörlerinin bozulması (resmi geri çağırma var); Havalı süspansiyonların körük ve kompresörlerinin bozulması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC60 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc60-sorunlar-89/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (II, 2017-2024)",
+      "motor": "D4 / B4 2.0 dizel (D4 190 PS; B4 hibrit dizel 197 PS)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2024
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "volvo-drive-e-dizel-d4-d5"
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (II, 2023-)",
+      "motor": "B5 2.0 hafif hibrit benzin (250 PS)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Soğutma sıvısı sızıntıları ve hararet (B5)",
+          "etkilenen_parca": "Soğutma sistemi",
+          "belirtiler": "Soğutma sıvısı sızıntıları ve hararet.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC60 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda B5'lerde görülebilen mekanik sorun olarak sayılıyor. Genel olarak benzinlilerin yağ eksiltebildiği de belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc60-sorunlar-89/"
+          ]
+        },
+        {
+          "sorun_adi": "Benzinli motorun yağ eksiltmesi",
+          "etkilenen_parca": "Motor (yağ tüketimi)",
+          "belirtiler": "Bakımlar arasında motor yağı eksilmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC60 sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda benzinlilerde genel olarak yağ eksiltme görülebildiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc60-sorunlar-89/"
           ]
         }
       ]
@@ -23042,6 +25725,19 @@
     },
     {
       "marka": "Volvo",
+      "model": "XC90 (II, 2015-2024)",
+      "motor": "D5 / B5 2.0 dizel (D5 225-235 PS; B5 hafif hibrit-dizel 235 PS)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2024
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "volvo-drive-e-dizel-d4-d5"
+      ]
+    },
+    {
+      "marka": "Volvo",
       "model": "XC90 / S90 / V90 (2015-)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
@@ -23067,6 +25763,90 @@
             "https://www.swedespeed.com/threads/black-screen-of-death.404889/",
             "https://volvoforums.org.uk/showthread.php?t=288003",
             "https://www.volvoforums.org.uk/showthread.php?t=326352"
+          ]
+        },
+        {
+          "sorun_adi": "Ön panjur, çamurluk ve tampon düşmesi: seyir halinde tamponun düşmesi",
+          "etkilenen_parca": "Ön panjur, ön çamurluk kaplaması ve ön tampon",
+          "belirtiler": "Ön panjurda zamanla açılma; Seyir halindeyken ön tamponun düşmesi; Ön çamurluk üzerindeki kaplamanın yerinden çıkması (onarım sonrası yeniden yaşanıyor).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC90 kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Özellikle yüksek süratlerde tamponun yerinden çıkması sonucu aracı ağır hasar alan ve kaza atlatan sürücüler var; servis önlem olarak araç sahiplerine '140 km/s'yi geçmemelerini' tembihliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc90-kronik-sorunlar-87/"
+          ]
+        },
+        {
+          "sorun_adi": "Ön farlarda buğu, çatlama ve bozulma; gündüz farı arızası",
+          "etkilenen_parca": "Ön farlar",
+          "belirtiler": "Ön farların zamanla tamponla temas sonucu çatlaması, su alıp buğulanması; Bazı örneklerde gündüz farlarının bozulması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC90 kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre üretim hatası olmasına rağmen bu hasar genelde %40 indirimle kullanıcıya ödetiliyor; Mayıs 2025 itibarıyla gündüz farı tespit ücreti 47 bin TL, far 135 bin TL."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc90-kronik-sorunlar-87/"
+          ]
+        },
+        {
+          "sorun_adi": "Tavandan su alma (açılır tavan fitilleri)",
+          "etkilenen_parca": "Açılır tavan (sunroof) fitilleri",
+          "belirtiler": "Yağmur yağdığında açılır tavandan içeri su sızması (V90'larda da mevcut); Elektrik aksamına yakın olduğu için sıvı teması sonucu tüm tesisatın komple değişiminin gerekebilmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC90 kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc90-kronik-sorunlar-87/"
+          ]
+        },
+        {
+          "sorun_adi": "'On Call' hatası: 'servis gerekli' uyarısı",
+          "etkilenen_parca": "Volvo On Call modülü / yabancı SIM kart",
+          "belirtiler": "Türkiye'deki XC90'larda taşıdıkları yabancı SIM karttan ötürü devamlı 'servis gerekli' uyarısı.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC90 kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre 2022'nin ikinci yarısından itibaren araçların multimedya sistemleri değişti ve Türk SIM kartı takıldığı için uyarı ortadan kalktı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc90-kronik-sorunlar-87/"
+          ]
+        },
+        {
+          "sorun_adi": "Sağ kapı çevresi ve alt takımın sağ tarafından gelen sesler; direksiyon kutusu arızası",
+          "etkilenen_parca": "Sağ kapı çevresi, alt takım ve direksiyon kutusu",
+          "belirtiler": "Aracın sağ kapı çevresinden ve alt takımın sağ tarafından rahatsız edici sesler (servis farklı parçaları genelde garanti dışında değiştiriyor); Önden gelen tıkırtı, direksiyonu çevirirken kıtlama sesi sonucu direksiyon kutusu değişimi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC90 kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc90-kronik-sorunlar-87/"
+          ]
+        },
+        {
+          "sorun_adi": "12 Volt akü arızası ve el freni arızası",
+          "etkilenen_parca": "12V akü ve elektrikli el freni düğmesi",
+          "belirtiler": "'12 Volt akü' uyarısı sonucu aracın çalışmaması (henüz 2 aylık araçta bile akü değişimi; bazıları akü değişimi sonrası motor arızası veriyor); 'El freni tam olarak bırakılmadı' uyarısı sonucu bozulan el freni tuşunun değişimi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC90 kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc90-kronik-sorunlar-87/"
+          ]
+        },
+        {
+          "sorun_adi": "Daha nadir görülenler: ABS, dört çeker ve şanzıman (benzinli B5) arızaları, kayış kopması, CarPlay bağlantı sorunu, ekran kapanması",
+          "etkilenen_parca": "ABS, dört çeker sistemi, şanzıman, kayış ve multimedya",
+          "belirtiler": "ABS arızası; Dört çeker arızası; Şanzıman arızası (benzinli B5'te); Kayış kopması; CarPlay bağlantı sorunu; Ekran kapanması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Volvo XC90 kronik sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/volvo-xc90-kronik-sorunlar-87/"
           ]
         }
       ]

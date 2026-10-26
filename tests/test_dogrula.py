@@ -486,15 +486,16 @@ class SemaTesti(unittest.TestCase):
             self.skipTest("jsonschema kurulu değil")
         jsonschema.Draft202012Validator(SEMA).validate(model_geneli_ornek())
 
-    def test_sema_motor_kaydinda_km_ister(self):
+    def test_sema_motor_kaydinda_km_zorunlulugu_dogrulayiciya_birakilir(self):
+        """Şema kayıt defterini bilmediği için km'yi zorlamaz (tek başına yeterli kaynakta km boş olabilir); doğrulayıcı zorlar."""
         try:
             import jsonschema
         except ImportError:
             self.skipTest("jsonschema kurulu değil")
         veri = ornek()
         del sorun(veri)["tahmini_km_araligi"]
-        with self.assertRaises(jsonschema.ValidationError):
-            jsonschema.Draft202012Validator(SEMA).validate(veri)
+        jsonschema.Draft202012Validator(SEMA).validate(veri)
+        self.assertTrue(any("tahmini_km_araligi" in h for h in hatalar(veri)))
 
     def test_sema_model_geneli_kayit_aileye_baglanamaz(self):
         try:

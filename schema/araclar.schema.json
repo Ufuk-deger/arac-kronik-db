@@ -119,17 +119,6 @@
             "aileler"
           ]
         }
-      },
-      "else": {
-        "properties": {
-          "kronik_sorunlar": {
-            "items": {
-              "required": [
-                "tahmini_km_araligi"
-              ]
-            }
-          }
-        }
       }
     },
     "sorun": {
@@ -153,7 +142,7 @@
           "$ref": "#/$defs/metin"
         },
         "tahmini_km_araligi": {
-          "description": "Kaynaklarda bildirilen kilometre aralığı. Motor kayıtlarında zorunludur (kaynaklarından biri tek başına yeterli sayılan bir siteyse, yazıda kilometre yoksa boş bırakılır); model geneli kayıtlarda (motor: 'Tüm motorlar (model geneli)') yaşa ve kullanıma bağlı sorunlar için kaynaklarda kilometre yoksa boş bırakılır, aralık uydurulmaz.",
+          "description": "Kaynaklarda bildirilen kilometre aralığı. Motor kayıtlarında, kaynaklarından biri tek başına yeterli sayılan bir site değilse zorunludur (doğrulayıcı denetler; şema bunu kayıt defterini bilmediği için zorlamaz); yazıda kilometre yoksa boş bırakılır. Model geneli kayıtlarda (motor: 'Tüm motorlar (model geneli)') yaşa ve kullanıma bağlı sorunlar için kaynaklarda kilometre yoksa boş bırakılır, aralık uydurulmaz.",
           "type": "string",
           "pattern": "^\\d{1,3}(\\.\\d{3})* - \\d{1,3}(\\.\\d{3})* km$"
         },
