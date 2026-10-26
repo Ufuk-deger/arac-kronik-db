@@ -49,6 +49,19 @@ class KapsamTesti(unittest.TestCase):
                 self.assertTrue(any(parca in a["motor"] for a in kayitlar),
                                 f"{o['marka']} {o['model']} / {o['motor']}: motor parçası kayıtlarda yok: {parca!r}")
 
+    def test_tarama_parcalari_gercek_motor_kaydina_denk_gelir(self):
+        # `eslesme.tarama` yalnızca model geneli satırlarda, aynı markanın bir motor kaydının model adında bulunan parçalarla kullanılır;
+        # bayat ya da yanlış yazılmış parça, gerçekte taranmamış bir modeli "taranmış" gösterir.
+        motor_kayitlari = [a for a in ARACLAR if not a["motor"].startswith(kapsam_md_uret.MODEL_GENELI_ONEKI)]
+        for o in PLAN["plan"]:
+            parcalar = o["eslesme"].get("tarama")
+            if parcalar is None:
+                continue
+            self.assertTrue(kapsam_md_uret.model_satiri_mi(o), f"{o['marka']} {o['model']}: tarama yalnızca model geneli satırda olur")
+            for parca in parcalar:
+                self.assertTrue(any(a["marka"] == o["marka"] and parca in a["model"] for a in motor_kayitlari),
+                                f"{o['marka']} {o['model']}: tarama parçası hiçbir motor kaydında yok: {parca!r}")
+
     def test_kapsam_disi_markalar_planda_yok(self):
         disarida = {m["marka"] for m in PLAN["pazar"]["markalar"] if m["kapsam"] == "dışarıda"}
         self.assertEqual({o["marka"] for o in PLAN["plan"]} & disarida, set())

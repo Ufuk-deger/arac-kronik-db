@@ -9566,6 +9566,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Golf 7 (",
+          "Golf 7.5 ("
         ]
       },
       "not": "Cam tavan çerçevesi çatlağı ve bagaja su alma iki sitede doğrulandı. DonanımHaber'deki 27 maddelik Golf 7 listesinde kabine su alma (2012-2013), far ve sis buğulanması, 6.5\" ekran kararması (2015), tavan kaplaması sarkması, arka silecek su sızdırması gibi maddeler var; bu maddeler yalnızca bu listede geçtiği için (ikinci bağımsız site bulunamadı) kayıt açılmadı; başlıktaki birçok kullanıcı listenin bir kısmına itiraz ediyor."
@@ -9598,6 +9602,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Egea ("
         ]
       },
       "not": "Klima kompresörü uğultusu ve boya atması iki sitede doğrulandı. Şikâyetvar'da ayrıca ön takım ve debriyaj sesleri ile Cross'ta tavan çıtalarının solması geçiyor; ikinci site yok."
@@ -9614,6 +9621,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Clio 4 / Captur (2013-2019)"
         ]
       },
       "not": "Kapı kilidi ve sensörü arızası Şikâyetvar ve DonanımHaber'de doğrulandı. Orijinal multimedya ekranının donması yalnızca Şikâyetvar'da var (DonanımHaber'deki donma anlatıları sonradan takılan Android ünitelere ait); ön takım sesi tek bir yorum."
@@ -9630,6 +9640,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Passat (B8"
         ]
       },
       "not": "Şikâyetvar'da cam tavan çerçevesinin kendiliğinden çatlaması ve su sızması (üç yıl sonra aynı sorunun yeniden çıkması, yaklaşık 35 bin TL parça bedeli), tavan kenar çıtası çatlağı, tavan ile ön cam birleşiminde boya atması ve 2015 modelde multimedya Bluetooth ses sorunu çok sayıda şikâyette geçiyor. DonanımHaber'de B8'e özgü ikinci kaynak çıkmadı (2021 Passat'ta 25 bin km'de cam tavan tıkırtısı tek başlık); bu yüzden kayıt açılmadı. VWVortex'te panoramik cam tavan su sızıntısı başlıkları var ama çoğu ABD'deki Passat'a ait ve B8 Avrupa kasasına bağlanamadı; tahliye hortumu tıkanması en sık neden olarak anılıyor. ABD'deki VW cam tavan sızıntısı davası haberleri ve CarComplaints'in Passat servis bülteni listeleri ABD pazarındaki araçlara ait; Avrupa B8'e bağlanamadı.",
@@ -9647,6 +9660,11 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Polo (AW",
+          "Polo 6R / 6C",
+          "Polo (9N / 6R"
         ]
       },
       "not": "Şikâyetvar'da tavan döşemesi sarkması (2011-2012 modeller), tavan-ön cam birleşiminde boya atması, marşpiyel boya akması (bayi fabrikasyon hata dedi), klimanın kendiliğinden açılması ve multimedya ekranının kapanması geçiyor; DonanımHaber sonuçları 1998-2000 Polo'ya ait olduğundan ikinci site bulunamadı.",
@@ -9680,6 +9698,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Megane 4 ("
         ]
       },
       "not": "Far içi buğulanma / C-LED sararması ve fabrika multimedya şikâyetleri Şikâyetvar ve DonanımHaber'de doğrulandı (multimedya şikâyetlerinin çoğu sonradan takılan Android ekranlara ait, ayrıldı). Şikâyetvar'da kapı kolu soyulması (2024 model) tek şikâyet."
@@ -9745,6 +9766,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Octavia (A7"
         ]
       },
       "not": "Cam tavan su sızması Şikâyetvar ve Briskoda'da doğrulandı. Şikâyetvar'da ayrıca multimedyanın kendiliğinden ses değiştirmesi / kapanması (Hybrid), far ayar düğmesinin olmaması ve ön konsol krom çıtasında kabarma tek sitede kaldı; bagaj kaması sesi ve yakıt kapağı kilit motoru yalnızca bir forum başlığında geçiyor."
@@ -9761,6 +9785,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Superb (III"
         ]
       },
       "not": "Cam tavan çatlağı ve su sızması Şikâyetvar ve Briskoda'da geçiyor (nedeni ayırt edilemiyor). Şikâyetvar'da multimedya Android Auto kopması (2024), kapı camı fitili çıkması, arka camda rüzgar sesi, iç ambiyans ışığının erken sönmesi, yolcu koltuğu gürültüsü ve anahtar pilinin sık bitmesi tek sitede kaldı."
@@ -9777,6 +9804,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Leon (5F"
         ]
       },
       "not": "Trim sesleri DonanımHaber ve Şikâyetvar'da doğrulandı. Şikâyetvar'da cam tavan mikasının kendiliğinden çatlaması (2015 model), tavan boyasının kabarması ve sis farı buğulanması (2020 model) tek sitede kaldı; multimedya için kaynak çıkmadı."
@@ -9793,6 +9823,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Fabia (5J",
+          "Fabia (NJ"
         ]
       },
       "not": "Şikâyetvar'da kapıdan su alma (2006 model Classic), 2023 modelde multimedya hataları, ön podya rulmanı ve direksiyon simidi aşınması / boya kabarması garanti reddi şikâyetleri tekil; DonanımHaber'de bir yorum kapıdan su almanın Fabia ve Polo'nun ortak sorunu olduğunu söylüyor (eski, kaynaksız). Fabia 5J / NJ'ye özgü iki bağımsız site çıkmadı (sonuçlar 1.0 DSG, start-stop ve eski 1.4 TDI konularına ait).",
@@ -9810,6 +9844,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Passat (B7"
         ]
       },
       "not": "Şikâyetvar'da tavan ile ön ve arka cam birleşiminde boya atması (2011-2012 modeller), sunroof çerçevesinde çatlak ve su alma (yaklaşık 55 bin TL teklif) çok sayıda kayıtta geçiyor; DonanımHaber'de B7 için yalnızca 2012 tarihli bir başlıkta konsol gıcırtısı ve start-stop memnuniyetsizliği var. Uluslararası forumlarda (VWVortex) panoramik cam tavan su sızıntısı konuşuluyor ama bunlar B7 / B8 Avrupa kasasına bağlanamadı; ikinci bağımsız site yok. Elektronik park freni arızası DonanımHaber'de B6 ve B7, VWVortex'te B6 ve CC başlıklarında geçiyor ama B7'ye özgü bağlanamadı; kayıt açılmadı.",
@@ -9827,6 +9864,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Golf 8 ("
         ]
       },
       "not": "Multimedya ve SOS hatası iki sitede doğrulandı. Şikâyetvar'da sürüş asistanlarının (Travel Assist, ACC, Front Assist) birlikte devre dışı kalması ve DonanımHaber'de trafik işareti tanımanın yanlış hız sınırı uygulaması, start-stop hatası, park sensörü / arka kamera hatası ve 'bileşen koruma' uyarısı tek kaynakta ya da tek başlıkta kaldı. Far ve kapı için kaynak çıkmadı."
@@ -9876,6 +9916,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Karoq ("
         ]
       },
       "not": "Şikâyetvar'da Karoq'ta farın içine su alması (8.000 km'de, garanti kapsamında) ve yağ tüketimi tek şikâyet; Briskoda'da yeni Karoq'ta far içi yoğuşma başlığı var ama sahipler hafif buğulanmanın normal olabileceğini, damla birikiminin sızıntıya işaret edebileceğini yazıyor; kronik sayılacak ikinci kaynak yok.",
@@ -9910,6 +9953,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Caddy (2K",
+          "Caddy (SA"
         ]
       },
       "not": "DonanımHaber'deki kayar kapı kilidi ve merkezi kilit anlatıları 2006-2007 model Caddy'lere ait (aranan nesil dışında); Şikâyetvar'da kayar kapı sesi, tavan sesi ve tavan klimasından uğultu ile 2025 model bir araçta su alma tekil şikâyetler. Caddy 2K / SA'ya özgü ikinci site yok.",
@@ -9927,6 +9974,11 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Ibiza (6F",
+          "Arona (",
+          "Ateca ("
         ]
       },
       "not": "Şikâyetvar'da Ibiza'da CarPlay'in tam ekran olmaması, far içi lekelenme ve arka kamera görüşü; Ateca'da klima menfez düğmeleri, stop lambası çatlakları, menfez düşmesi, far buğulanması ve sağ ön amortisör sesi (servis kronik dedi); Arona'da bagaj sesi ve amortisör takozu gıcırtısı tekrar ediyor. DonanımHaber'de yalnızca genel 'Seat kronik sorunları' başlığı var; modele özgü ikinci site çıkmadı.",
@@ -9960,6 +10012,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Fiesta (Mk7"
         ]
       },
       "not": "Direksiyon sesi iki sitede doğrulandı. Şikâyetvar'da teyp donması ve direksiyon kumanda tuşları, bagaja far kısmından su alma (tek vaka), 2013 tarihli bir forum başlığında kapı içi sesleri ve cam düşmesi tekil kaldı."
@@ -9976,6 +10031,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Corsa D / E"
         ]
       },
       "not": "Direksiyon sesi DonanımHaber ve Ekşi Sözlük'te geçiyor (nedeni belirsiz). Corsa D için kapı elektriği ve ön takım için kaynak çıkmadı; Şikâyetvar'daki 'yakıt göstergesi' şikâyeti 2021 model araca ait."
@@ -10073,6 +10131,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "208 / 2008 / 308 / 3008 (2012-2021)",
+          "308 / 3008 / 208 / 2008 (2014-2021)"
         ]
       },
       "not": "Arka cam fitili iki sitede doğrulandı. Şikâyetvar'da dokunmatik ekran arızası (2020), teyp hoparlörü, otomatik far yükseklik ayarı (GT) ve kapı kilitlerinin çalışmaması tek şikâyet; fren, ön takım ve tavan su alma için kaynak çıkmadı."
@@ -10089,6 +10151,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "3008 (II, 2016-)"
         ]
       },
       "not": "Multimedya donması Şikâyetvar, DonanımHaber ve Ekşi Sözlük'te doğrulandı. Şikâyetvar'da elektrik ve akü boşalması (ekranların açık kalması, kapıların kilitlenmemesi), alternatör seti ve akü / PGA kutusu iddiası ve 2024 3008 Hybrid şikâyetleri tek sitede kaldı; cam tavan için kaynak çıkmadı."
@@ -10105,6 +10170,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "301 ("
         ]
       },
       "not": "Şikâyetvar'da en çok tekrarlanan konu kapı içi, bagaj kapağı ve tavanda boya kabarması ve paslanma (301 ve C-Elysée'de, orijinal boyada; bir kullanıcıya yetkili servis her C-Elysée'nin %10'unda görüldüğünü söylemiş), ön / alt takım sesi (amortisör değişimine rağmen), cam sıyırıcı fitil erimesi ve C-Elysée'de arka stop farlarına su kaçağı tekrar ediyor; DonanımHaber'de yalnızca 2013 tarihli genel başlıklar var, ikinci bağımsız site çıkmadı.",
@@ -10122,6 +10190,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "C3 / C3 Aircross"
         ]
       },
       "not": "Şikâyetvar'da 2023 model C3'te ana ekranın donması ve havalandırma peteklerinde nikelaj kaplamanın soyulması tek şikâyet; DonanımHaber ve Ekşi Sözlük'te modele özgü ikinci site çıkmadı (1.2 PureTech triger kayışı motor konusu).",
@@ -10187,6 +10258,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Juke (F15"
         ]
       },
       "not": "Ekran silikleşmesi Şikâyetvar ve DonanımHaber'de geçiyor. Şikâyetvar'da yeni Juke'ta far içine su alma (metin bozuk), start-stop arızası ve şanzıman konuları ayrı ya da tekil."
@@ -10219,6 +10293,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "i20 (GB",
+          "i20 (PB"
         ]
       },
       "not": "EPS arızası Şikâyetvar ve DonanımHaber'de geçiyor; hangi nesle ait olduğu şikâyetlerin çoğunda belirsiz (2011 PB ve 2015 GB örnekleri). Şikâyetvar'da yakıt pompası, akü boşalması, arka cam patlaması ve cam modülü / cam tuşu arızası tek sitede kaldı."
@@ -10251,6 +10329,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Corolla (E150 FL / E170",
+          "Corolla (E170"
         ]
       },
       "not": "Şikâyetvar'da multimedya ekranında nikelaj kabarması (2021), USB için FAT32 / 32 GB sınırı, yazılım güncellenmemesi (2020), klima kompresörü (2021, tek vaka), 2021 modelde akü sorunu ve stop lambası içi çatlak tekil; DonanımHaber'de ise genel multimedya başlığı var. Şikâyetvar'daki kronik boya sorunu 2010-2013 (E140 / E150) modellere ait. E170 / E210'a özgü iki bağımsız site çıkmadı. Corolla E210'un CarPlay / Bluetooth ses sorunu ve kendiliğinden kapanma şikâyetleri ayrı satırda (✓).",
@@ -10268,6 +10350,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Accent Blue (RB",
+          "Elantra (AD"
         ]
       },
       "not": "Şikâyetvar'da Accent Blue'da kaput boya atması (2015 ve 2017), EPS uyarısı ve Elantra'da 2016 modelde ön kapı kollarının kilitlenince dışarıdan açılmaması (kilit tamircisi 2016 Elantra, i30, ix35 ve Tucson'da kronik demiş; Hyundai kronik kaydı olmadığını söylüyor), boya atması (2011-2016 ve 2021-2023) tekrar ediyor; DonanımHaber'de yalnızca 2013 tarihli sert arka süspansiyon konusu ve eski Accent Era boya başlığı var; ikinci bağımsız site yok.",
@@ -10285,6 +10371,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Rio (UB",
+          "Rio (YB"
         ]
       },
       "not": "Şikâyetvar'da kapı fitillerinin erimesi (2012-2016 modeller; servisler 11 yaşındaki araçta normal bulmuş), 2020 modelde CarPlay kopması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te Rio'ya özgü ikinci site çıkmadı.",
@@ -10318,6 +10408,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "C Serisi (W203 / W204",
+          "C Serisi (W204"
         ]
       },
       "not": "Direksiyon açı sensörü iki sitede doğrulandı. Sunroof tahliye tıkanması ve kabine su sızması, iç kapı açma kolu telinin kopması, kapı kilit pompası, ön park lambalarının ısıdan patlaması ve far yuvası erimesi, kırmızıda vernik atması Türkçe kaynaklarda anılıyor ama modele özgü ikinci site çıkmadı."
@@ -10334,6 +10428,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "A Serisi (W176",
+          "A Serisi / CLA (W176"
         ]
       },
       "not": "Direksiyon açı sensörü iki sitede doğrulandı. Airbag / emniyet kemeri soketi arızası (Ekşi Sözlük ve Şikâyetvar'da kronik denmiş; kemer soketi için bağımsız ikinci site çıkmadı), GLA'da multimedya piksel kaybı ve arka klima, CLA 200 turbo wastegate (motor konusu) tekil kaldı."
@@ -10350,6 +10448,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "3 Serisi (F30",
+          "3 Serisi (E90 / F30"
         ]
       },
       "not": "İç kapı kolu erimesi Şikâyetvar ve BimmerPost'ta doğrulandı. Şikâyetvar'da kapı iç keçelerinin deformasyonu ve yağışta su alma, sunroof fitili yıpranması, direksiyon kutusu sesi (DonanımHaber'de kronik denmiş), akü deşarjı ve ekran sorunları tekil kaldı; N13 turbo manifoldundan su kaçırma motor konusu."
@@ -10366,6 +10468,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "5 Serisi (F10"
         ]
       },
       "not": "İç kapı kolu erimesi Şikâyetvar ve BimmerPost'ta doğrulandı."
@@ -10382,6 +10487,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "A3 (8P FL / 8V"
         ]
       },
       "not": "Gündüz LED sararması iki sitede doğrulandı. MMI ekranın donması / kapanması / açılmaması Şikâyetvar'da çoğunlukla 2021 sonrası (8Y) araçlara ait (2015 model bir 8V sahibi de ekranın açılmadığını bildiriyor); cam tavan çevresi plastik çatlakları ve ön takım (2025 model) tekil."
@@ -10414,6 +10522,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Insignia A (2014"
         ]
       },
       "not": "Far suyu / AFL arızası Şikâyetvar ve DonanımHaber'de doğrulandı. Şikâyetvar'da 2015 model tavanda boya atması ve yağmur kanalında paslanma, 2016-2017 multimedya donması ve USB / AUX tanıma sorunu ile turbo hortumunun yerinden oynaması tekil kaldı; Insignia B (Grand Sport) şikâyetleri bu kayda katılmadı."
@@ -10430,6 +10541,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Mokka (B"
         ]
       },
       "not": "Siyah tavan boyası Şikâyetvar ve Ekşi Sözlük'te doğrulandı (Ekşi başlığı yeni araçlara ait; önceki nesil Mokka / Mokka X için Şikâyetvar'da benzer bir tavan ve kaput boyası şikâyeti var ama nesil ayrımı yapılamadı). Multimedya yazılımı için 2.000 TL ücret istenmesi, kapı camlarının kendiliğinden hareket etmesi (Mokka X) ve el freni düğmesinin kırılması tekil."
@@ -10446,6 +10560,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Captur (2013-2019)",
+          "Kadjar ("
         ]
       },
       "not": "Şikâyetvar'da Kadjar'da yağmur ya da yıkama sonrası yan aynaların katlanmaması / açılmaması ve ön camın açılmaması (kronik denmiş, çok sayıda kayıt), ön cam fitilinin çıkması; Captur'da multimedya ekranının kararması (geri görüş kamerası dahil), ön cam rüzgar sesi, tavan gerilme sesi ve akü boşalması tekrar ediyor. DonanımHaber'deki Kadjar ve Captur 2 başlıkları genel (trim sesi, uğultu, elektrik) olup ikinci bağımsız site bulunamadı.",
@@ -10463,6 +10581,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Courier / Tourneo Courier",
+          "Transit Connect / Tourneo Connect"
         ]
       },
       "not": "Şikâyetvar'da yeni kasa Courier'de ön kapılardan hızla artan ses, sürgülü kapının içeriden açılmaması, merkezi kilidin tekrar tekrar kilitlemesi, multimedyanın kararması ve ön takım sesi tekil; Ekşi Sözlük'te ön konsolun zamanla çöktüğü (bayi kronik demiş) bir yorumda geçiyor, hangi nesle ait olduğu belirsiz. İkinci bağımsız site yok.",
@@ -10480,6 +10602,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Kona (OS",
+          "Tucson ("
         ]
       },
       "not": "Şikâyetvar'da Tucson'da 2015 model kapı kilitleri (kronik denmiş; bir kilit tamircisi aynı sorunun 2016 Elantra, i30, ix35 ve Tucson'da tekrar ettiğini söylemiş), boya atması; Kona'da bagaj kapağında nokta şeklinde başlayan boya atması, tavan çıtası boyası, multimedya ekranında içten buzlanma ve CarPlay sorunları tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te ikinci site çıkmadı. 12. aşamada yeniden arandı: Şikâyetvar'da Tucson TL için cam tavan perdesi sarkması ve açılmaması (2017), sunroof'un takılı kalması (2018), seyir halinde direksiyon kilitlenmesi (2015) ve 2020 modelde 'direksiyon kilitleme mekanizmasını kontrol edin' uyarısı, direksiyon ses tuşu (garanti kapsamındayken 6.000 TL talep edilmiş), 2020 modelde multimedya ekranının sürekli kapanıp kararması ve sürücü cam tuş takımının diğer camları açmaması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te bunları doğrulayan Tucson kaydı çıkmadı (yalnızca 2016 model navigasyon açılmama başlığı). Kona OS için Şikâyetvar'da multimedya ekranında içten buzlanma, boya atması (2020-2021) ve egzoz sıcaklık sensörü arızası tekil.",
@@ -10497,6 +10623,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "CR-V (",
+          "HR-V (RU"
         ]
       },
       "not": "Şikâyetvar'da HR-V'de 2017 modelde kapı ve tavan boyası dökülmesi (ustalar Honda 2017 serisinde kronik boya hastalığı demiş), Android Auto donması; CR-V'de 2016 modelde boya soyulması ve arka krank keçesinden yağ kaçağı tekrar ediyor. Civic FC5 için CivicX'te boya atması doğrulandı ama HR-V / CR-V için ikinci site çıkmadı. 12. aşamada DonanımHaber, Otopark ve Ekşi Sözlük'te HR-V ana konularında boya bildirimi çıkmadı; boya atması sonuçları Civic, Fiesta, Corolla ve C-HR'a ait. Şikâyetvar'da yeni nesil HR-V'de (2024-2025) Android Auto donması ve HR-V Hybrid'de akü sorunu tekil.",
@@ -10514,6 +10644,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Auris (",
+          "Yaris (XP130"
         ]
       },
       "not": "Şikâyetvar'da 2013 model Auris'te bagaj spoilerinde güneş yanığı ve cam tavan perdesinin kapanmaması (sahibi Auris'te kronik olarak bilindiğini yazıyor), DonanımHaber'de Auris cam tavanından tıkırtı (perde tekerlekleri iddiası) geçiyor; farklı belirtiler olduğundan ortak bir sorun olarak kayıt açılmadı. Yaris için kaynak çıkmadı. 12. aşamada Yaris (XP130 / XP210) için de arandı: Şikâyetvar'da 2012 model Yaris'te aşırı yağ eksiltme (servis normal sayıyor), tekrarlayan motor arıza ışığı, 2015 Yaris Hybrid'de hibrit bataryanın 10 yıl dolmadan bitmesi ve yenisi için yaklaşık 90 bin TL istenmesi, Yaris Cross Hybrid'de akü boşalması tekil; DonanımHaber'de 16 yıllık genel bir 1.0 VVT-i başlığı (akü, aydınlatma) var; multimedya, kapı, cam ve tavan için kaynak çıkmadı. Auris için Şikâyetvar'da 2016 modelde sıcaktan multimedya camında ve ön konsolda çatlak, 2012 model 1.6'da elektrikli direksiyon uyarısı (direksiyon kolon aktüatörü değişimiyle düzelmiş) tekil.",
@@ -10547,6 +10681,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "1 Serisi (F20"
         ]
       },
       "not": "Stop LED kısık yanması Şikâyetvar ve DonanımHaber'de doğrulandı. Şikâyetvar'da ön cam fitili ve alt bakalit yırtılması (ücretsiz değişim yazanlar var), far buğulanması, kapı iç yalıtım membranı çürümesi (2016 model), bagaj havuzunda su birikmesi ve bagaj kilidi tek sitede; kapı gıcırtısı yalnızca forumda."
@@ -10596,6 +10733,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Cooper S / Countryman S",
+          "Countryman (F60"
         ]
       },
       "not": "Şikâyetvar'da Countryman'de direksiyon kutusu sesi, kendiliğinden sağa çekme ve ön sensör arızası (garanti dışı 25.000 TL), Countryman E'de fren sesi ve tahrik arızası; Ekşi Sözlük'te eski Countryman'de termostat arızası geçiyor; model geneli ortak bir sorun için iki bağımsız site çıkmadı. 12. aşamada yeniden arandı: Şikâyetvar'da Countryman F60 için arka kelebek camların alt köşelerindeki cam fitillerinin çatlayıp dökülmesi (yağmur suyu içeri sızıyor, sac paslanıyor; bayi garanti dışı demiş), 2017 Countryman'da cam fitili ve far çerçevesi deformasyonu, Countryman E'de fren sesi (bayi normal demiş), direksiyon kutusundan ses (garanti kapsamında) ve Mini Connected uzaktan erişimin çalışmaması tekil; bunları doğrulayan DonanımHaber / Ekşi kaydı arama özetinde çıkmadı; F56 süspansiyon sertliği tek yorum, cam tavan şikâyeti R56 (eski nesil) içindir.",
@@ -10613,6 +10754,12 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "S60 / V40 (",
+          "S60 / V60 (",
+          "S60 II / V60 (",
+          "V60 ("
         ]
       },
       "not": "Şikâyetvar'da XC60'ta sürücü destek ve çarpışma önleme uyarıları, Volvo On Call uyarısı, S60'ta ön sol camdan su girmesi ve düğmelerin bozulması tek sitede; soğutma suyu eksilmesi ve kavrama sarsıntısı motor/şanzıman konusu. Sensus ekran, ön takım ve cam tavan için kaynak çıkmadı. XC60 (2008-2017) için su alma başlıkları ayrı satırda (✓). 12. aşamada V40 ve S60 / V60 için yeniden arandı: Şikâyetvar'da şikâyet çıkmadı. XC90 / S90 / V90 (Sensus) ayrı satırda (✓).",
@@ -10664,6 +10811,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Qashqai (J11, 2014-2020)",
+          "Qashqai (J11 FL / J12"
         ]
       },
       "not": "Qashqai Forums başlıkları J11'e ait (sabit panoramik tavan); Şikâyetvar kayıtlarında nesil yazmıyor (2014-2016 model yılları geçiyor). Nissan Connect (bilgi-eğlence) kesintileri Qashqai Forums ve Honest John'da anılıyor ama Türkçe kaynakla eşleşmedi; kayda alınmadı."
@@ -10680,6 +10831,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Focus 3 (2015",
+          "Focus (2008"
         ]
       },
       "not": "Bagaj sızıntısı için Türkçe sitelerde Focus 3'e bağlanabilen başlık çıkmadı (Şikâyetvar 'su' sayfası nesil belirtmiyor, DonanımHaber başlıkları Focus 2 / 4'e ait); kanıt Ford Owners Club ve CarComplaints'ten. Şikâyetvar'da SYNC / multimedya donması çoğunlukla Focus 4 model yıllarına ait; Parkers'ın Mk3 rehberi gevşek alt kapı fitillerini ve aralıklı çalışan kapı kilitlerini anıyor ama ikinci site çıkmadı; kayda alınmadı."
@@ -10712,6 +10867,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "500 Dualogic"
         ]
       },
       "not": "500 Dualogic, 500L ve 500X ayrı satırlardır; Grande Panda (elektrikli) şikâyetleri bu kayda katılmadı. Panda için kapı kilidi ya da silecek gibi modele özgü kronik bir sorun doğrulanamadı."
@@ -10792,6 +10950,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Astra J (2013",
+          "Astra H / J"
         ]
       },
       "not": "Şikâyetvar'da tavanda kabarma ve boya atması (2015 ve 2017 model), kaputta boya atması ve bcm beynine kaloriferden su sızması tekil; forumda Astra J'ye özgü kronik boya iddiası doğrulanamadı."
@@ -10840,6 +11002,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "XC60 (2014"
         ]
       },
       "not": "Türkçe sitelerde XC60'a bağlanan su kaçağı başlığı çıkmadı (Şikâyetvar'da 2025 'yeni kasa' XC60 için tek bir 'kronik' uyarısı var, konusu belirsiz); kanıt uluslararası forumlardan (SwedeSpeed, Volvo Owners Club) ve Parkers rehberinden."
@@ -10872,6 +11037,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "A4 (B8",
+          "A6 (C7"
         ]
       },
       "not": "Bu aramada MMI ekran, far, cam tavan, kapı camı ve ön takım için A4 B8 / A6 C7'ye özgü kaynak çıkmadı; sonuçlar 2.0 TFSI yağ eksiltmesi, S tronic / Multitronic ve 2.0 TDI motor konularına (ayrı kayıtlarda) ve 2022-2024 model A6'ya ait. A6'da kaput açma kolu çevresinden su sızması tek şikâyet. Q5 8R ayrı satırda.",
@@ -10889,6 +11058,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Octavia (A5"
         ]
       },
       "not": "Briskoda'da Octavia Mk2 (2004-2013) için bagaj ve yedek lastik yuvasına su alması (bagaj fitilindeki tahliye deliklerinin yetersizliği, arka cam yıkama borusunun bağlantıdan kopması), ön cam altı (plenum) tahliyelerinin tıkanması ve ayak boşluğuna su gelmesi çok sayıda başlıkta anlatılıyor; ama Parkers'ın Octavia rehberi 2013-2020 (A7) kasaya ait, Şikâyetvar'da yalnızca 2014 Octavia'da stepne yuvasında su birikmesi ve nesil belirtmeyen bir 'her yağmurda su alıyor' kaydı çıktı, DonanımHaber'da Octavia'ya özgü başlık yok. İkinci bağımsız site A5'e bağlanamadığı için kayıt açılmadı.",
@@ -10957,6 +11129,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Q3 (8U"
         ]
       },
       "not": "Audizine'da 2016-2018 Q3'te en yaygın sorunun cam tavan sızıntısı olduğunu yazan bir başlık var; AudiWorld'ün Q3 'su sızıntısı' başlıkları ise 2019-2020 (ikinci nesil) araçlara ait. 8U için ikinci site ve Türkçe kaynak çıkmadı.",
@@ -10974,6 +11149,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Tiguan (5N"
         ]
       },
       "not": "VWVortex'te Tiguan Mk1 için ayak boşluğu su (plenum, cam tavan tahliyesi, klima gider hortumu) başlıkları var ama çoğu PQ35 / PQ46 ortak platformundaki (Passat, Phaeton vb.) arabalara ait ve 5N şasisine bağlanamadı; DonanımHaber'daki '2016 yeni kasa Tiguan su alıyor' başlığı AD1 nesline ait; servisin 'Tiguan'larda su tahliyesi sorunu sık' dediği tek kullanıcı aktarımı.",
@@ -11310,6 +11488,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "A6 (C8"
         ]
       },
       "not": "Şikâyetvar'da A6'da merkezi kilit sisteminin bir yıldan uzun süredir tekrarlayan arızası (leasing 40 TDI quattro; parça değişimine rağmen; 'kronik merkezi kilit sorunu ve araç değiştirme talebi' başlığı da var), 2023 modelde 15.000 km'de adaptif far ve sürücü destek arızası, 2022 modelde kalkışta titreme ve arka kısımdan ses (garanti yalnızca parçayı karşılamış), 2025 modelde 28.000 km'de şanzıman ve Quattro arızası tekil kayıtlar; 2012 S-line'da uzun far, selektör ve hız sabitleyici arızası C7'ye ait tek kayıt. DonanımHaber'deki A6 başlıkları motor ağırlıklı (EGR, turbo, enjektör, zincir gergisi) ve C7 / C8 ayrımı yok. İkinci bağımsız site yok.",
@@ -11576,6 +11757,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "308 / 3008 (2007-2014)"
         ]
       },
       "not": "Ekşi Sözlük'te bir 5008 yorumcusu direksiyon derisinin soyulmasını, arka süspansiyonun zamanla ses yapmasını, ön salıncaklardan 120 km/s üzerinde titremeyi, kapı fitillerinin çabuk eskimesini ve sıcakta ön konsoldan çıtırtıyı sayıyor (tek yorum). Şikâyetvar'daki 3008 / 5008 kronik sayfaları büyük ölçüde 2016 sonrası (ikinci nesil) araçları anlatıyor: eksantrik mili geri çağırması, AdBlue, krank kasnak cıvatası, direksiyon titremesi, multimedya donması, cam tavan gider temizliğinin 'bu araçlarda kronik' olduğunun söylenmesi ve PSA araçlarında tavan boyası atması; birinci nesle bağlanabilen ikinci bir bağımsız kayıt çıkmadı. Bagaj kapağı elektriği için sonuç yok.",
@@ -11802,6 +11986,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Sportage (SL / QL"
         ]
       },
       "not": "Şikâyetvar'da kavrama / şanzıman titremesi ('Sportage'ların çoğunda kronik' diyen sahip dahil) ve kalkışta vuruntu; torpido / airbag bölgesinde çatlak (garantisi dolanlara ücretli değişim önerilmiş); direksiyon soyulması (garanti sürerken 'kullanıcı hatası' denmiş); 2017 modelde kapı arızaları, göğüs çatlağı ve far arızası; 2021 modelde kapı fitili yırtığı (garanti dışı); elektronik park freni arızası, ön far buğulanması ve 'Multimedya Sorunu Kronik!' başlığı (ayrıntısız) tekil. Cam tavan için sonuç yok; kayıtlar tek site (Şikâyetvar). Sportage SL (2010-2015) ayrı kayıtta.",
@@ -11941,6 +12128,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Giulietta (2014"
         ]
       },
       "not": "Yolcu airbag kapağı şişmesi, iç kapı kolu kırılması ve klima klapesi Şikâyetvar, DonanımHaber ve (ilk ikisi için) Ekşi Sözlük'te doğrulandı; ilki Fiat grubunun Punto Evo, Linea ve Bravo kayıtlarındaki sorunla aynı kalıptadır. Cam tavan (sunroof) arızası için yüksek tamir bedeli istenmesi, cam tavan önünde güneş yanığı, arka silecek arızası (bagaja giden kablo), ön kapı deri döşemesinde sarkma ve 2013 MiTo'da direksiyon kilitlenmesi tekil kaldı. Honest John okur yorumunda ucuz plastikler, kırık torpido üstü bölme ve sarkan güneşlikler anılıyor (tek yorum). Giulietta motor satırı ayrıdır."
@@ -11973,6 +12163,10 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "XC90 (2015",
+          "XC90 (2016"
         ]
       },
       "not": "Sensus ekranı donması / yeniden başlaması Şikâyetvar, Swedespeed ve Volvo Forums UK'te doğrulandı (yabancı başlıklar modelleri tam ayırmıyor; XC90 MY18 başlığı var). Şikâyetvar'da sol arka kapı camının açılmaması ve kapının zaman zaman kilitlenmemesi (S90), iki sıfır XC90'da ön tamponların 3 gün arayla düşmesi, yan basamak tıkırtısı ve V90 Cross Country'de titreme / zıplama tekil; XC40 Recharge (P6) sahibi ekranın her gün kapandığını yazıyor (elektrikli, ayrı satır). Cam tavan ve su alma için sonuç çıkmadı."
@@ -13764,6 +13958,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "ë-C4"
         ]
       },
       "not": "Faz 14'te arandı: Şikâyetvar'da 2023 model C4 X'lerde multimedya ve gösterge ekranlarının yolculukta kendiliğinden kapanması tekrar ediyor (bir sahipte 17-18 kez; bayi yazılım güncellemesi beklemiş; akü kutup başını sök-tak geçici çözüm olarak öneriliyor), 2025 sonunda teslim alınan C4 X Max'te dokunmatik ekranın kilitlenmesi anlatılıyor. Ekşi Sözlük'te bir sahip 1.2 PureTech 130 EAT8'i 2023'ün ikinci yarısından sonra üretilen araçlarda daha kararlı buluyor, triger kayışının üç kez güncellendiğini ve multimedya sisteminin değiştiğini yazıyor; ekran sorunu için ikinci bağımsız site çıkmadı.",
@@ -13899,6 +14096,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "Beetle (5C"
         ]
       },
       "not": "Faz 14'te arandı: Şikâyetvar'da 2013 model Beetle'larda DSG kavrama değişimi (30.000 km'de; 120.000 km civarında kalkışta titreme ve yaklaşık 25 bin TL teklif) ve garanti dışı kalan 12 bin TL şanzıman-volan faturası, kontak anahtarının direksiyondan çıkmaması tekil; DonanımHaber'de 1.2 TSI ve DSG genel tartışmaları var, su alma ve klima için Beetle'a özgü kayıt çıkmadı. DSG kavraması DQ200 ailesinde kayıtlıdır.",
@@ -14459,7 +14659,7 @@
           "1.5 TDCi"
         ]
       },
-      "not": "Faz 15 (parti 3): Türkiye'de 1.5 TDCi 120 PS Powershift satıldı (Otopark testi, Sözcü 2018 testi, sifiraracal ST-Line sayfası) ama bu otomatiğin kuru kavramalı DPS6 olduğu kaynaklarda doğrulanamadı; DPS6 ailesi Kuga'yı kapsamıyor. İsveçli ve Litvanyalı ikinci el rehberleri Kuga 2'de Powershift ve dizel (DPF / EGR) konularını anıyor ama 1.5 TDCi + Powershift için ayrı veri vermiyor.",
+      "not": "Faz 15 (parti 3): Türkiye'de 1.5 TDCi 120 PS Powershift satıldı (Otopark testi, Sözcü 2018 testi, sifiraracal ST-Line sayfası) ama bu otomatiğin kuru kavramalı DPS6 olduğu kaynaklarda doğrulanamadı; DPS6 ailesi Kuga'yı kapsamıyor. İsveçli ve Litvanyalı ikinci el rehberleri Kuga 2'de Powershift ve dizel (DPF / EGR) konularını anıyor ama 1.5 TDCi + Powershift için ayrı veri vermiyor. Faz 16: DonanımHaber'de 'Ford Kuga Powershift şanzıman: sorunlar, bakım, yorumlar' ve 'Kuga 1.5 TDCi Powershift' başlıkları ile Şikâyetvar'ın Kuga arıza / kronik sayfaları var ama alıntılanan şanzıman şikâyetleri Focus Powershift'e ait (Focus 1.5 TDCi'de 144.000 km'de kavrama / volan arızası, 2016 geri çağırma sonrası başlayan kronik kavrama sorunu); bir forum yorumcusu 1.5 TDCi + Powershift'in yağlı kavramalı olduğunu ve kronik sorunu olmadığını, başkası Focus 1.6 benzinli Powershift'in kuru kavramalı olduğunu yazıyor (doğrulanmamış); bir DonanımHaber başlığında 2023 Kuga'nın 8 ileri şanzımanının tork konvertörlü olduğu belirtiliyor. 1.5 TDCi Powershift için Kuga'ya özgü veri çıkmadığından satır '–' kaldı.",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -14476,7 +14676,7 @@
           "1.2 PureTech"
         ]
       },
-      "not": "Faz 15 (parti 3): DonanımHaber'in 2019 lansman haberinde 1.2 PureTech 110 benzinli seçeneğinin yalnızca Feel donanımıyla geldiği yazıyor; ikinci bir Türkiye kaynağı ve güncel listede benzinli sürüm bulunamadı (Rifter'da yalnızca 1.5 BlueHDi). Kayıt açılmadı.",
+      "not": "Faz 15 (parti 3): DonanımHaber'in 2019 lansman haberinde 1.2 PureTech 110 benzinli seçeneğinin yalnızca Feel donanımıyla geldiği yazıyor; ikinci bir Türkiye kaynağı ve güncel listede benzinli sürüm bulunamadı (Rifter'da yalnızca 1.5 BlueHDi). Kayıt açılmadı. Faz 16: Şikâyetvar ve DonanımHaber aramasında Berlingo'nun benzinli 1.2 PureTech sürümüne özgü kayıt çıkmadı (1.2 PureTech başlıkları triger kayışı ve buji konularında motor katmanında; Şikâyetvar Berlingo sayfaları dizel ve otomatik modellerle karışık); model geneli konular 'Berlingo (2008-2018 ve K9)' satırında.",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -14828,6 +15028,9 @@
         ],
         "motor": [
           "Tüm motorlar"
+        ],
+        "tarama": [
+          "208 / 2008 / 308 / 3008 / 5008 (2019-)"
         ]
       },
       "not": "Faz 16: ekran sorunu Şikâyetvar ve DonanımHaber'de bulundu. Şikâyetvar'daki AdBlue uyarısı (56 bin km), bakım sonrası servis / ESP / kaygan zemin uyarıları, start-stop'un çalışmaması, anahtar algılanmadı ve yakıt şamandırası şikâyetleri yalnızca tek sitede kaldığı için eklenmedi (AdBlue ve PureTech konuları motor kayıtlarında)."
@@ -15688,6 +15891,469 @@
         ]
       },
       "not": "Faz 16: DonanımHaber'de 140 hp 2.0 motorlu S-Max ve Galaxy sahibi parça sorunu yaşamadığını yazıyor; bir sahip klima ızgarası kromunun dökülmesini ve düğmelerin soyulmasını, direksiyon derisinin soyulmasını anıyor (tek sahip, model belirsiz); 2.0 TDCi'de turbo riski bir forum yanıtında geçiyor. Şikâyetvar ve Ekşi'deki 'kronik' örnekler C-Max'e ait (tavan perdesi, otomatik şanzıman, gösterge); S-Max / Galaxy'ye özgü kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 4",
+      "yillar": "2021-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "DS 4 (2021"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: kapı kolu arızası Şikâyetvar ve DonanımHaber'de bulundu. Şikâyetvar'daki multimedya ekranının kopmaları / kapanması ve radyo arızası (güncellemeye rağmen), sunroof'un açılmaması ('kullanıcı hatası' denmiş), şanzımandan yağ sızıntısı (garanti dışı), 2023 model DS 4 Performance'ta 86.000 km'de motor arıza uyarısı, araç durduktan birkaç dakika sonra sistemlerin kapanıp kapıların açılamaması, fren / akü / klima tek sitede kaldı. DS 3 Crossback için aynı konu doğrulanamadı."
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 3 Crossback",
+      "yillar": "2019-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "DS 3 Crossback"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: DS 3 Crossback'e özgü şikâyet çıkmadı; Şikâyetvar'daki 2020 model DS3'te 62.000 km'de yağ basıncı arızası ve triger zinciri masrafı (200.000 TL iddiası) tek kullanıcı (PureTech motor katmanı); Otopark'ta yalnızca genel bir DS3 Crossback tartışması var. Kapı kolu şikâyetleri DS 4 ve DS 7'ye ait.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Citroen",
+      "model": "DS3 / DS4 (2010-2018)",
+      "yillar": "2010-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "DS3 / DS4"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Eski DS3 / DS4 (Citroën DS) için Şikâyetvar'ın DS marka sayfalarında ağırlıkla yeni DS 4 (2021-) kayıtları çıkıyor; DonanımHaber'deki eski DS4 incelemesi bilinen önemli kronik sorun bulunmadığını yazıyor. İkinci bağımsız kayıt çıkmadı. Yeni DS 4 ayrı satırda.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 / C4 Picasso (2010-2018)",
+      "yillar": "2010-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C4 / C4 Picasso"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar ve DonanımHaber'de C4 / C4 Picasso için cam tavan perdesi tırnaklarının plastik olup kopması (onarım yaklaşık 1500-2000 TL; DonanımHaber'de tek yorum), 2013-2015 modellerde bagaj kapağı çatlağı (iyi niyet garantisiyle parça değişiyor ama boya ve işçilik ücreti alınıyor), şerit takip sistemi ve ön cam kamera bölgesinde bozulma (Şikâyetvar'da tek sahip) ve dijital ekranda piksel bozulmaları anılıyor; 2011-2014 C4 hatch için sigorta kutusuna su girmesi (2012 model 1.6 HDi), 2011 modelde katalizör ve 1.4 VTi'da yağ eksiltme, MCP şanzıman sarsıntısı ve fıskiye tıkanması tek tek geçiyor (motor / şanzıman katmanı ağırlıkta). C4 Picasso II (2013-2018) Faz 12'de ayrı satırda; bu satır için iki bağımsız kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Peugeot",
+      "model": "107 / 108",
+      "yillar": "2005-2021",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "107 / 108"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar ve Ekşi Sözlük'te 107 / C1 / Aygo ortak 2-Tronic robotize şanzımanın vites motorlarının ömrünü tamamlaması (onarım yaklaşık 1300-2500 TL; bir sahip iki yılda bir yaşandığını yazıyor), 107'de arka camdan su sızması, klima sesi ve düşük yerden yükseklik anılıyor (şanzıman katmanı ve tek yorum). 1.0 motor Toyota 1KR-FE ile ortak olduğu için güvenilirlik itibarı iyi.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Peugeot",
+      "model": "e-208 / e-2008 / e-308",
+      "yillar": "2022-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "e-208 / e-2008",
+          "e-308 ("
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'da e-208 için 4,5 ayda arka park sensörlerinin arızası (8 gün serviste), 5. ayda 'elektrikli tahrik sistemi arızası' uyarısı (çözümü haftalar sürmüş) ve teslimat gecikmesi var. DonanımHaber e-GT kullanıcı konusunda bir e-308 sahibi Kasım 2024'te yolda kalıp çekiciyle servise gittiğini, tespitin bir hafta sürdüğünü ve batarya parçası değiştirildikten sonra da sorunun sürdüğünü yazıyor (tek anlatı). Yabancı forum özetleri e-208'de 12V akünün 'elektrikli çekiş sistemi arızası' uyarısında sık neden olduğunu ve klima kompresörü ile ilgili bir geri çağırma bulunduğunu söylüyor (Türkiye kapsamı doğrulanamadı); konular elektrikli aktarma organı katmanında (e-208 ve e-308 motor kayıtları). Gövde ve iç mekâna özgü iki bağımsız kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra Electric",
+      "yillar": "2023-2025",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Astra Electric"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'da Astra Electric için rastgele anlarda 'elektrikli çekiş sistemi arızası, onarım gerekiyor' uyarısı (bir 2025 modelde 8 kez servis), orijinal şarj kablosuyla şarj sorunu, şarj olmaması üzerine aracın beyninde arıza tespiti ve parçanın garantiyle değişmesi, farlar yanarken start düğmesine basınca aracın hiç çalışmaması ve 60 gün serviste kalma var; ekran ve gösterge sorunlarının bir kısmı benzinli Astra'ya ait. Yalnızca Şikâyetvar'da; elektrikli aktarma organı konuları Astra Electric motor kaydında.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Renault",
+      "model": "Laguna 3",
+      "yillar": "2007-2015",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Laguna 3"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'da Laguna 3 için bej iç donanımda direksiyon ve vites topuzu kaplamasının soyulup siyahlaşması (birden fazla şikâyet, 'kronik malzeme sorunu' denmiş), dijital gösterge ekranının kararması, radyo ekranında çizgilenme ve cam kriko motoru için parça bulunamaması tekil; DonanımHaber'de bir 1.5 dCi sahibi kronik sorun duymadığını, parça bulmanın zor olabileceğini yazıyor; sayfadaki genel 'kronik liste' kaynaksız. İkinci bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Ford",
+      "model": "B-Max",
+      "yillar": "2012-2017",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "B-Max"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'da B-Max için bagaj ve stepne yuvasında su birikmesi (tasarım kaynaklı iddiası; servis kullanıcı hatası demiş), Powershift'te kalkışta sarsıntı ve vites atmama (TCM modülü için 9.000 TL), geri görüş kamerası arızası, ekran donması, tekerlek sensörü uyarısı tekrar ediyor; DonanımHaber / Ekşi aramasında B-Max bagaj suyunu doğrulayan kayıt çıkmadı (sonuçlar Egea, Golf 7, Megane 4 gibi diğer modellere ait). Powershift şanzıman katmanında.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Citan W415",
+      "yillar": "2012-2021",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Citan"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'ın Citan sayfasında yalnızca bir şikâyet ve bir değerlendirme var; DonanımHaber'in 2013 tarihli Citan başlıklarında iç plastik kalitesi eleştirilmiş ve güvenilirlik sorunlarının satışı etkilediği yazılmış (somut arıza yok); bir sahip 225.000 km'de yalnızca enjektör ve turbo bakımı yapıldığını yazıyor. Citan'a özgü iki bağımsız kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "EQA / EQB",
+      "yillar": "2021-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "EQA / EQB"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'da EQB için şarj sırasında kesilme ve 'tahrik sistemi arızası' uyarısı, %100 şarj sonrası batarya arıza uyarısı, 2022 model EQB 300'de yüksek voltaj aküsü bakım uyarısı, 'tahrik gücü azaltıldı', 470 km menzile ulaşılamaması, haritanın sınır geçişinden sonra kaybolması, Mercedes me uygulamasının Türkiye'de sunulmaması ve EQA'da fare nedenli kablo hasarı tekil; hepsi Şikâyetvar'da. Elektrikli aktarma organı konuları EQA / EQB motor kaydında.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "EQC",
+      "yillar": "2019-2023",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "EQC"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'da EQC için düşük kilometrede (18.000 km) motor arızası ve motor değişimi teklifleri (yaklaşık 630.000 TL + KDV; bir başka sahipte 816.000 TL), batarya değişimi için yaklaşık 130.000 TL, gri pazar araçlarda garantinin uygulanmaması, direksiyon simidinin erken soyulması (servis kullanıcı kaynaklı demiş), Airmatic ve sensör arızaları ve Mercedes me uygulamasının Türkiye'de çalışmaması var; Ekşi Sözlük'te bir yorumcu EQC'nin eski tip NMC katotlu bataryasının sorunlarını kronik sayıyor (yorum). Elektrikli aktarma organı konuları EQC motor kaydında; model geneli için ikinci bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Sprinter W906",
+      "yillar": "2006-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Sprinter (W906"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'daki Sprinter şikâyetleri ağırlıkla 2018 sonrası yeni kasalara ait (2023 modelde rölantide titreme ve 'kronik' denmiş motor, 2 ayda diferansiyel arızası, 80-90 km/s'de uğultu, vites geçişinde vuruntu, sürgülü kapıda 'engel algılandı' uyarısı, AdBlue, tavan sızıntısı); bir kullanıcı 2012-2018 modellerde hava yastığı için bilinen bir arıza olduğunu ve ücretsiz onarım istenebileceğini iddia ediyor (resmi kampanya bulunamadı). W906'ya özgü ikinci bir kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Vito W447 / V-Class",
+      "yillar": "2014-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Vito / V-Class (W447"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'da Vito için sürgülü / otomatik kapı kilidi ve kapı motoru arızası (2020, 2023 ve 2024 model araçlarda; bir sahipte 15.000 km'de, bir başkasında 'toz' gerekçesiyle garanti dışı sayılıp 62.000 TL istenmiş), direksiyon açı sensörü arızası ('2015'ten beri kronik' denmiş) ve ABS lambası tekrar ediyor; DonanımHaber / Ekşi aramasında W447 sürgülü kapısını doğrulayan kayıt çıkmadı (eski bir 'Vito otomatik sürgülü kapı' başlığı yan sanayi kapı kitine ait). V-Class'a özgü kapı sorunu çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Viano / Vito W639",
+      "yillar": "2003-2010",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Viano / Vito (W639"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'ın Viano sayfasında yalnızca birkaç şikâyet var: 2007 model 2.2 CDI'da sıcaklık uyarısının gelip gitmesi (su pompası ve termostat değişmesine rağmen), 2005-2008 modellerde akünün sık boşalması, 2012 Viano'da otomatik sürgülü kapının komutlara geç ya da hiç yanıt vermemesi; Otopark'ta 2009 W639 alıcısı ısıtma bujisi arızası, turbo yağ terlemesi ve sunroof sorunlarını, bir DonanımHaber incelemesi enjektör, EGR ve otomatik şanzıman sorunlarını sayıyor (tek kişi / derleme). Şikâyetvar'daki Vito 'kronik' başlıkları W447'ye ait. W639'a özgü iki bağımsız kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Serisi Coupe / Cabrio C207",
+      "yillar": "2009-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "E Serisi Coupe / Cabrio (C207"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: C207'ye özgü cam tavan ya da kapı kaydı çıkmadı; Şikâyetvar'daki cam tavan şikâyetleri W205 C-Serisi'ne (2016 modelde açılır cam tavan önündeki siyah sabit parçanın soyulması), forumdaki cam kapanırken 3-5 santimde durması 207 CC / Cabrio'ya (servis yazılım güncellemesiyle gidermiş) ve E 250 CDI avans sesi W212 sedan dönemine ait.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi F40",
+      "yillar": "2019-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "1 Serisi (F40"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'ın 118 sayfalarında (F20 ve F40 karışık) ön cam fitillerinin parçalanıp su alması (çok sayıda şikâyet, birçoğu garanti ya da ücretsiz değişimle çözülmüş), 2019-2020 modelde gösterge ibrelerinin gündüz modunda görünmemesi, LED aydınlatma arızası ve multimedya ekranında siyah nokta, arka tekerlek hız sensörü, ABS / sürüş dengesi uyarıları, akü şarj sorunu ve korna arızası tekrar ediyor; DonanımHaber'de F40 için yalnızca B38 motoruna ait başlık (118i tahrik arızası) çıktı. Model geneli için ikinci bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "2 Serisi Gran Coupé F44",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "2 Serisi Gran Coupé (F44"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'da 218i Gran Coupe için gündüz farı LED modülünün sararıp zaman zaman sönmesi (iki ayrı başvuru; birinde 'tasarım hatası, ücretsiz değişim' talebi, bayi reddetmiş), üç ayda üç kez lastik değişimi (yaklaşık 20.000 TL), sunroof perdesi sarkması ve sürekli su alma, yeni araçta akünün erken bozulması ve yağmurda ABS / ESP / motor ışıklarının yanması tekrar ediyor; DonanımHaber / Ekşi / Otopark aramasında gündüz farı konusunu doğrulayan kayıt çıkmadı (sonuçlar model tanıtımı ve genel DRL başlıkları). İkinci bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 U11",
+      "yillar": "2022-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X1 (U11"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar'da X1 için yeni araçlarda birkaç bin km'de 'akü değiştirin' uyarısı ve garanti dışı değişim talebi (işçilik dahil 13.500 TL), xDrive25e plug-in hibritlerde tekrar eden 'tahrik arızası' uyarısı (teslimden bu yana 5-6 kez), fren tutmama ve kaza anlatımı ile fren servosu geri çağırma mesajı, direksiyon ve park freni arızası, teslimde ekranın donmuş olması tekil; sayfalar F48 ve U11'i karıştırıyor. U11'e özgü iki bağımsız kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "X4 F26",
+      "yillar": "2014-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "X4 (F26"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: X4'e özgü kayıt çıkmadı; Şikâyetvar'daki sonuçlar 3 / 4 / 1 Serisi ve genel BMW şikâyetleri (yağ çubuğu ucunun kırılması, kapı kolu erimesi, sağ arka LED stop, su eksiltme, kapı fitili gıcırtısı). Kapı kolu erimesi diğer BMW modellerinin kayıtlarında.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "X6 E71 / F16",
+      "yillar": "2008-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "X6 (E71",
+          "X6 (F16"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar ve DonanımHaber'de X6 (E71) için 40d xDrive motor yatağı sarması (112.000 km'de 170.000 TL; DonanımHaber'de 2011 model 40d'de 20-25 bin TL'lik yarım motor) ve 2011 modelde akü arızası sonrası start-stop'un çalışmaması anılıyor (motor katmanı ve tek yorum); F16'ya özgü kayıt çıkmadı (2022 X6 M şikâyeti nesil dışı).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Jeep",
+      "model": "Avenger",
+      "yillar": "2023-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Avenger"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar ve DonanımHaber'de Avenger Electric için 'elektrikli çekiş sistemi arızası' sonrası yolda kalma, DC hızlı şarjın yazılım güncellemesinden sonra çalışmaması, şarj almama, temassız şarj panelinin telefonu şarj etmek yerine boşaltması (servis 'normal' demiş), menzil beklentisi (400-450 km), elektrikli bagaj kapağı, uzun parça bekleme (dört ay) ve DonanımHaber kulübünde ekran donması notu (başka bir sahip sorun yaşamadığını yazıyor) geçiyor; çekiş ve şarj konuları elektrikli aktarma organı katmanında (Avenger Electric motor kaydı); ekran donması için ikinci kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Jeep",
+      "model": "Cherokee KL",
+      "yillar": "2014-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Cherokee (KL"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Ekşi Sözlük ve DonanımHaber'de KL Cherokee'nin 9 ileri ZF şanzımanı için vites geçişi sarsıntısı, kararsızlık ve yazılımla ilgili sorunlar anılıyor (bir sahip üç güncellemeden sonra belirgin düzeldiğini yazıyor; bir başkası 110 bin km'de yağ değişimi sonrası sorunsuz); Şikâyetvar'da 2015 model Cherokee'de şanzıman arızası nedeniyle otoyolda durma anlatılıyor — şanzıman katmanı; model geneli için kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Porsche",
+      "model": "Taycan",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Taycan"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: Şikâyetvar ve DonanımHaber'de Taycan için 22 kW AC şarj ünitesinin servis tarafından 11 kW ile değiştirilmesi (şarj süresi 4'ten 8 saate), 2020 modelde 40.000 km'de durduğu yerde elektriksel sistem hatası, yüksek voltaj batarya modülünde sıcaklık sensörü arızası (modüllerin garantiyle değişimi), 2021 modelde kabin ısıtması sorunu (sonradan kronik kabul edilmiş) ve yazılım güncellemesi için servise bırakılan aracın 20 gün sonuçsuz kalması anlatılıyor; DonanımHaber haberi yaklaşık beş yıl önce 43.000 Taycan'ın motor kapanması riski nedeniyle yazılım geri çağırmasını aktarıyor — elektrikli aktarma organı katmanı; model geneli için ikinci site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Smart",
+      "model": "fortwo / forfour 453",
+      "yillar": "2015-2023",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "fortwo / forfour (453"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: 453'e özgü kayıt çıkmadı; DonanımHaber ve Ekşi Sözlük sonuçlarının çoğu 451 ve eski nesillere ait. Tek kavramalı yarı otomatik şanzımanda kalkış ve 1'den 2'ye geçişte sarsıntı, 200 bin km civarında volan ve baskı balata değişimi, parça temininde güçlük ve ses yalıtımı eleştirisi tek tek yorumlar (şanzıman katmanı).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLE V167",
+      "yillar": "2019-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "GLE (V167"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 16: V167'ye özgü Şikâyetvar / DonanımHaber / Ekşi kaydı çıkmadı: Şikâyetvar sonuçları GLC, GLA ve Mercedes servis şikâyetleri (bir GLE sahibinin elektrik arızası, Aksaray servisinde çözülmeyen); Ekşi Sözlük'te MBUX ekran donması ve dokunmatik sorunları genel olarak anılıyor ama S ve EQS için; E-Active Body Control (48 V) ve MBUX tanıtım bilgisi arıza geçmişi vermiyor. GLE 300 d motor satırı da '–' (OM654 ailesine bağlanmadı).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Ford",
+      "model": "Fiesta Mk8",
+      "yillar": "2017-2023",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Fiesta (Mk8"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ],
+        "tarama": [
+          "Fiesta / Focus (2012"
+        ]
+      },
+      "not": "Faz 16: Mk8 (2017-2023) için Şikâyetvar'da 2019 modelde park halindeyken alev alma (servis 'kronik' demiş; tek vaka), 2017 model 1.0 EcoBoost'ta yağ pompası kayışı uyarısı, 41.800 km'de TCM arızası ve Powershift'te vuruntu / titreme, 2020 modelde yaklaşık 2.000 km'de direksiyon arızası (kolon garantiyle değişmiş ama sürmüş) tekil; şanzıman şikâyetlerinin çoğu 2013 model ve 1.6 otomatiklere ait, 1.4 / 1.5 TDCi EGR / turbo / DPF özeti eski bir forum yazısı. Mk8'e özgü iki bağımsız kayıt çıkmadı.",
       "sonuc": "yetersiz-kanit"
     }
   ]

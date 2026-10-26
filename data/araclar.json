@@ -5139,7 +5139,7 @@
           "belirtiler": "İç kapı kolu üst kaplamasının yapışkan, gummy bir kalıntıya dönüşmesi; kaplamanın bir kısmı eriyince altındaki düz sert plastik yüzeyin görünmesi (2013 model E84 sahibi).",
           "risk_seviyesi": "Düşük",
           "detay": {
-            "neden": "BimmerPost'un E84 forumunda 2013 model bir X1 sahibi iç kapı kolunun üst katmanının yapışkanlaştığını, bir kısmının tamamen eriyip düz bir yüzeyi açıkta bıraktığını yazıyor; konudaki yanıtlarda yumuşak dokunuşlu (soft-touch) kaplamanın bozulması nedeni olarak gösteriliyor (cilt yağı, ter, el kremi, güneş kremi, temizleyiciler, ısı ve UV), buna katılmayanlar da var. Şikâyetvar'da BMW X1 kapı kolu sayfasında ve BMW kapı kolu tutamakları başlığında aynı kaplama şikâyetleri tekrar ediyor (Şikâyetvar X1 sayfası nesli ayırmıyor).",
+            "neden": "BimmerPost'un E84 forumunda 2013 model bir X1 sahibi iç kapı kolunun üst katmanının yapışkanlaştığını, bir kısmının tamamen eriyip düz bir yüzeyi açıkta bıraktığını yazıyor; BimmerPost'taki BMW kapı kolu başlıklarında yumuşak dokunuşlu (soft-touch) kaplamanın bozulması nedeni olarak gösteriliyor (cilt yağı, ter, el kremi, güneş kremi, temizleyiciler, ısı ve UV), buna katılmayanlar da var. Şikâyetvar'da 'BMW X1 kapı kolu şikâyetleri' sayfası ve 'BMW kapı kol tutamakları' başlığı var; bu sayfalar nesli ve şikâyet konusunu ayırmıyor.",
             "cozum": "BimmerPost'ta BMW iç kapı kolu başlıklarında yedek kol değişimi en yaygın yanıt; ucuz sert plastik kollar ve geçmeli kapaklar kullanılıyor, orijinal yedeklerin aynı yumuşak dokunuşlu malzemeden olduğu ve sorunun geri gelebildiği, alkolle silmenin yalnızca geçici temizlik sağladığı belirtiliyor.",
             "maliyet": "E84 için güncel rakam bulunamadı."
           },
@@ -6264,6 +6264,36 @@
       "aileler": [
         "psa-bluehdi-adblue",
         "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 4 (2021-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kapı kollarının (gizli kapı kolu) arızalanması ve değişen kolun yenisinde tekrarlaması",
+          "etkilenen_parca": "Gizli (çıkan) kapı kolu mekanizması ve kapı paneli",
+          "belirtiler": "Kapı kolunun çıkmaması ya da çalışmaması, garanti kapsamında değiştirilen kolun yerine farklı bir kapı kolunda aynı arızanın tekrar etmesi, sorunun çoğunlukla araç bir yaşına geldiğinde başlaması; kapı trimi sökülüp takılınca klipsin esneyip ses ve titreşim yapması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2022-2023 model DS 4 sahipleri kapı kolunun garanti kapsamında ücretsiz değiştirildiğini (kusurlu parça olduğu kabul edilerek) ama farklı bir kapı kolunda aynı arızanın yeniden çıktığını (bir sahipte üçüncü kolda), bir Ankara servisinin arızayı kronik olarak kabul ettiğini, garanti bitince aynı arızada ücret istendiğini yazıyor. DonanımHaber'deki 'DS Automobiles DS4 II Ana Konu 2022' başlığında bir sahip sorunun genellikle araç bir yaşına geldiğinde başladığını, bu yüzden dava açtığını, üreticinin tüm kapıların değiştirilmesi ve 90.000 TL ödeme teklif ettiğini ama arabuluculukta kabul etmediğini yazıyor (tek kullanıcı anlatısı); başka bir sahip kapı trimini sökünce klipsin esnediğini ve geri takılınca ses ve titreşim oluşabileceğini belirtiyor.",
+            "teshis": "Kaynaklarda teşhis yöntemi belirtilmiyor; sorun kapı kolunun çıkmaması ya da çalışmaması olarak fark ediliyor.",
+            "cozum": "Garanti süresinde kapı kolunun değişimi; aynı arızanın başka kapı kolunda ya da yenisinde tekrarladığı ve garanti sonrası ücret istendiği anlatılıyor. Üreticinin tüm kapıların değişimi önerisi tek kullanıcı anlatısı.",
+            "maliyet": "Güncel rakam bulunamadı; bir DonanımHaber sahibi üreticinin tüm kapıların değişimi ve 90.000 TL ödeme önerisini aktarıyor (tek vaka).",
+            "onlem": "İkinci el DS 4'te tüm kapı kollarını birkaç kez çalıştırarak deneyin; kapı kolu parçalarının değişim geçmişini ve garanti durumunu sorun."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/ds-automobiles/ds4-kapi-kollari-arizasi-ve-servise-ulasamama-magduriyeti",
+            "https://www.sikayetvar.com/ds-automobiles/ds4",
+            "https://forum.donanimhaber.com/ds-automobiles-ds4-ii-ana-konu-2022--145486335-4",
+            "https://forum.donanimhaber.com/ds-automobiles-ds4-ii-ana-konu-2022--145486335-3"
+          ]
+        }
       ]
     },
     {
@@ -14305,7 +14335,7 @@
           "detay": {
             "neden": "Şikâyetvar'da birden fazla 408 sahibi (2025 model dahil) uyarının yeni araçta ilk günden ya da kısa süre sonra geldiğini yazıyor; bir sahip ön kameraya toz birikince uyarının geldiğini ve temizlemenin işe yaradığını, bir başkası saat dilimini değiştirmenin düzelttiğini söylüyor (tek kullanıcı anlatıları). DonanımHaber'deki 408 başlığında 2024 model Allure sahibi sarı tabela okuma işaretinin sürekli yandığını, bir başka sahip kamera temiz olduğu ve tanılamada arıza çıkmadığı halde uyarının sürdüğünü yazıyor.",
             "teshis": "Önce ön kamera çevresi ve cam temizlenir; servis tanılama (hata kodu) okutur. Bir DonanımHaber yorumcusu sarı işaretin navigasyon haritası güncellemesiyle ilgili olabileceğini tahmin ediyor (doğrulanmamış).",
-            "cozum": "Kaynaklarda kalıcı çözüm belirtilmiyor: Şikâyetvar'da bir sahipte servis önce yazılım hatası deyip aküyü değiştirmiş, sorun sürmüş; kamera temizliği ve saat dilimi ayarı tek kullanıcı anlatısı.",
+            "cozum": "Kaynaklarda kalıcı çözüm belirtilmiyor: Bir sahipte servis önce yazılım hatası deyip aküyü değiştirmiş, sorun sürmüş; kamera temizliği ve saat dilimi ayarı tek kullanıcı anlatısı.",
             "maliyet": "Güncel rakam bulunamadı.",
             "onlem": "Teslim alırken ve ikinci elde göstergede tabela okuma uyarısını kontrol edin; garanti süresinde yazılı arıza kaydı açtırın. Peugeot'nun resmi bir açıklaması ya da servis bülteni bu aramada bulunamadı."
           },

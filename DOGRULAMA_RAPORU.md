@@ -1604,6 +1604,68 @@ Kullanıcı bu partide 10 araç daha istedi. Her satırın motor ve model eşle�
 - **Görüntüleyici düzeltmesi:** "Camry" adı, "cam tavan" aramasındaki "cam"ı araç terimi yapıp sonucu boşalttı. Rakamsız ve en çok 4 harfli arama terimleri artık araç adında yalnızca ayrı bir kelime olarak geçerse araç terimi sayılıyor ("cam", "arka", "kam" artık Camry, Arkana, Kamiq adlarına takılmıyor).
 - **Sınırlar:** On kaydın dokuzu yalnızca ortak aile kaynağıyla duruyor ve doğrudan kanıt olarak okunmamalı. Doblo kaydı araca özgü bir geri çağırmaya dayanıyor ama resmî kaynaktan doğrulanamadı. Corolla Cross ve Camry kartlarında görünen yüksek voltlu batarya sorunu ailenin eski Yaris / Auris kayıtlarına dayanır (başlıkta belirtilmiş). DS 3 Crossback ve Civic hatchback satışı durmuş modellerdir.
 
+## 16. aşama: kalan modellerin araca özgü (model geneli) sorunları
+
+Kullanıcı "Kalanlarıda ekle. Ama dediğim gibi araçların kendine özel problemlerinide yaz. Motor ailesi haricinde" dedi; bu aşamada onay turu olmadan, model geneli taraması yapılmamış bütün nesiller ve 15. aşamada listeye alınmayan dört aday tarandı. Kanıt kuralı değişmedi: her sorun için en az iki farklı site, en az biri deneyim ya da resmî türünde; kilometre uydurulmadı (model geneli kayıtlarda kilometre alanı boştur). Her nesil için önce Türkçe sahip kaynaklarına (Şikâyetvar, DonanımHaber, Ekşi Sözlük, Otopark) sınırlı bir arama yapıldı; tekrar eden bir konu çıkarsa ikinci site için ayrı bir doğrulama araması yapıldı (başka bir Türkçe forum ya da yabancı forum / resmî kayıt). Her adresin arama sonuçlarında tam eşleşmeyle geçtiği yazım sırasında otomatik denetlendi.
+
+### Eklenen kayıtlar (18 model nesli, 22 sorun)
+
+| Araç | Sorun | Risk | Site | Kanıt gücü |
+| --- | --- | --- | ---: | --- |
+| Toyota Corolla Cross (2022-) | Multimedya, Android Auto ve kablosuz şarj sorunları | Düşük | 2 | Orta-zayıf: Şikâyetvar ve Consumer Reports sahip yorumları (ABD) |
+| Toyota Corolla Cross (2022-) | Tavan rayı sallanması | Düşük | 2 | Zayıf: Şikâyetvar başvurusu ve tek bir ABD sahip yorumu |
+| Toyota RAV4 (XA50, 2019-) | Direksiyon bölgesinden gıcırtı, EPS uyarısı | Orta | 3 | Orta: Toyota bülten kayıtları (carcomplaints, NHTSA; ABD) ve Şikâyetvar'da tek sahip |
+| VW T-Cross / Taigo (2019-) | Kablosuz CarPlay kopmaları, ekranın donması / kapanması | Orta | 3 | İyi: Şikâyetvar'da üç başvuru, Ekşi Sözlük ve DonanımHaber |
+| Hyundai Ioniq 5 / 6 (2022-) | Otoyol hızlarında direksiyon ve gövde titremesi | Düşük | 2 | Orta-zayıf: Şikâyetvar ve Recharged (ABD) |
+| Kia XCeed (2019-) | Tavan bölgesi ve iç trimden ses | Düşük | 2 | Orta-zayıf: Şikâyetvar ve DonanımHaber |
+| Peugeot 208 / 2008 (II, 2019-) | Multimedya ekranının donması, kapanıp açılması | Orta | 2 | Orta: Şikâyetvar ve DonanımHaber başlıkları |
+| Peugeot 408 (2022-) | Sunroof'un kapanmaması, perdenin raydan çıkması / kırılması | Düşük | 2 | Orta: Şikâyetvar başvuruları ve DonanımHaber başlığı |
+| Peugeot 408 (2022-) | Tabela okuma arızası uyarısı | Düşük | 2 | Orta: Şikâyetvar (çok sayıda başvuru) ve DonanımHaber |
+| Fiat 500L (2013-2022) | Arka dingilde çatlak | Yüksek | 2 | Orta-iyi: çok sayıda Şikâyetvar anlatısı ve DonanımHaber başlığı; resmî kampanya bulunamadı |
+| Fiat 500L (2013-2022) | Direksiyonun takılması, yüksek hızda geri çekmesi | Orta | 2 | Orta: Şikâyetvar ve DonanımHaber |
+| BMW X1 (E84, 2009-2015) | İç kapı kolu kaplamasının erimesi | Düşük | 2 | Orta: BimmerPost E84 forumunda tek konu ve Şikâyetvar (X1 sayfası nesli ayırmıyor) |
+| Volvo XC60 (2018-) | Sensus ekranının yeniden başlaması, kararması | Orta | 3 | Orta: iki yabancı forumda çok sayıda başlık; Türkiye için Ekşi Sözlük'te tek yorum |
+| Seat Leon (KL, 2020-) | SOS (acil çağrı) arıza uyarısı | Düşük | 2 | Orta: Şikâyetvar ve DonanımHaber MK4 ana konusu |
+| Skoda Kamiq / Scala (2019-) | Bileşen koruması (Safe CP) hatası | Orta | 2 | Orta-iyi: Şikâyetvar'da üç başvuru ve DonanımHaber başlığı |
+| Skoda Fabia (Mk4, 2021-) | Bileşen koruması uyarısı | Orta | 2 | Orta: Şikâyetvar ve DonanımHaber (Kamiq / Scala ile ortak konu) |
+| Skoda Superb (IV, 2024-) | Yazılım kaynaklı uyarı zinciri (Front Assist, Lane Assist, Start-Stop) | Orta | 2 | Orta: Şikâyetvar ve DonanımHaber '2024 Skoda Superb mağdurları' |
+| Cupra Formentor (2020-) | Tavan dokunmatik panelinin tepki vermemesi | Düşük | 3 | Orta-iyi: Şikâyetvar, DonanımHaber ve Ekşi Sözlük |
+| Cupra Formentor (2020-) | Multimedya ekranının donması, yanıp sönmesi | Orta | 2 | Orta: Şikâyetvar ve DonanımHaber ana konusu |
+| VW Passat (B9, 2024-) | Park ve sürüş destek sensörü uyarıları | Düşük | 2 | Zayıf-orta: Şikâyetvar Passat sayfaları nesil karışık; DonanımHaber B9 başlığı |
+| Nissan Qashqai (J12, 2021-) | Park sensörlerinin geç devreye girmesi | Düşük | 2 | Orta: Şikâyetvar J12 sayfaları ve DonanımHaber J12 kullanıcı başlığı |
+| DS 4 (2021-) | Gizli kapı kollarının arızalanması, yenisinde tekrarlaması | Orta | 2 | Orta: Şikâyetvar ve DonanımHaber DS4 II ana konusu |
+
+- **Plan:** 17 yeni `✓` model geneli satırı; Skoda Fabia IV'ün 15. aşamadaki `–` satırı `✓` oldu. Model geneli satırları 171'den 270'e çıktı (`✓` 79 → 97, `–` 92 → 173). Motor düzeyinde yeni satır açılmadı.
+- **Veritabanı:** 576 → 594 kayıt (497 motor, 97 model geneli), 366 → 388 kayda özgü sorun, 93 site (yeni: Recharged, editoryal).
+- **Dört elenen aday:** Skoda Fabia IV bileşen koruması uyarısıyla `✓` oldu (Kamiq / Scala ile ortak konu; 1.0 TSI DSG motor satırı `–` kaldı). Mercedes GLE V167 için Şikâyetvar, DonanımHaber ve Ekşi aramalarında V167'ye özgü kayıt çıkmadı (model geneli `–` satırı açıldı). Ford Kuga 2 1.5 TDCi Powershift ve Citroën Berlingo K9 1.2 PureTech `–` kaldı; planın motor satırlarına yeni arama sonuçları nedenleriyle eklendi (Kuga'daki Powershift şikâyetleri Focus'a ait; Berlingo'nun benzinli sürümüne özgü kayıt çıkmadı).
+
+### Araştırılıp kaydı açılmayan 82 yeni model nesli (`–`)
+
+Her satırın nedeni [KAPSAM.md](KAPSAM.md) plan notunda ayrıntılı yazılıdır. Nedenler üç gruba ayrılıyor:
+
+- **Yalnızca Şikâyetvar'da tekrar eden konular:** ikinci bir site çıkmadı. Örnekler: Renault Taliant ve Arkana, Dacia Duster II / Sandero III / Jogger, Toyota Yaris Cross ve Proace City, Hyundai Kona SX2, Peugeot 308 III (ekran kapanması ve sunroof perdesi), Fiat 500X / 600e / Doblo (2022-), Opel Combo Life E / Corsa-e / Mokka-e / Astra Electric, Cupra Leon, Nissan X-Trail T33, MG HS, Kia EV3, Mercedes EQA / EQB / EQC ve Vito W447 (sürgülü kapı kilidi), BMW 1 Serisi F40 / 2 Serisi F44 (gündüz farı) / X1 U11, Jeep Avenger, Ford B-Max (bagaj suyu).
+- **Sonuçlar başka nesle ya da başka modele ait:** Audi A1 GB ve TT 8S, BMW 7 F01 / X4 F26 / X5 E70 / X5 G05 / X6, Mercedes GLK / CLS C218 / S W222 / E Coupe C207 / Citan / Sprinter W906 / Viano W639 / GLE V167, Jeep Grand Cherokee WK2 ve Wrangler, Toyota Camry / Prado J150 / Proace (2013-2020), Honda Civic FK7, Hyundai i40 ve ix20, DS3 / DS4 (2010-2018) ve DS 3 Crossback, Ford Fiesta Mk8 ve S-Max / Galaxy, VW Golf Sportsvan / Scirocco / Jetta, Smart fortwo (453), Porsche Taycan, Seat Altea / Toledo, Skoda Roomster.
+- **Konular motor ya da şanzıman katmanında:** Chevrolet Cruze, Citroën Berlingo / C-Elysee / C4 / 107-108, Peugeot 508 I, Volvo S80 / V70 / XC70, Nissan Pulsar, Audi A5 8T (yağ yakma, S tronic), Jeep Cherokee KL (9 ileri şanzıman).
+
+### Taranmış model sayımının düzeltilmesi
+
+`KAPSAM.md` "motor kaydının kaçı taranmış bir modele ait" sayımı, plan satırının `eslesme.model` parçasını motor kaydının model adında arıyordu. Motor kayıtları aynı nesli farklı yazdığı için (ör. "3 Serisi (F30 LCI, 2015-2019)" ve "3 Serisi F30" satırı; "Golf 7 (2012-2019)" ve "Golf 7 / 7.5" satırı) taranmış nesiller de taranmamış görünüyordu: 15. aşamanın sonunda 497 motor kaydının yalnızca 217'si taranmış sayılıyor, 280'i "henüz taranmadı" görünüyordu. Satıra isteğe bağlı `eslesme.tarama` listesi eklendi; yalnızca bu sayımda kullanılır ve satırın hangi kayıtla eşleştiğini (✓ / – durumunu) değiştirmez. 59 satırda dolduruldu; yeni birim testi her parçanın aynı markanın gerçek bir motor kaydında bulunduğunu denetler. Sonuç: 497 motor kaydının 489'u taranmış bir nesle ait; kalan 8 kayıt 2011 öncesi nesiller: Ford Kuga 1, Honda Civic FD6, Nissan X-Trail T31, Opel Astra H, Peugeot 308 T7, Toyota Corolla E150 (2007-2013), VW Passat B6 ve Volvo XC90 (2002-2014). Bu nesillerin satırları açılmadı.
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- Peugeot 408 için aranan "kadran ekranı kapanması" DonanımHaber'de doğrulanmadı (yalnızca Şikâyetvar'da), 500L için aranan "tavan sarkması" hiçbir sitede çıkmadı, Jeep Grand Cherokee WK2 için aranan hava süspansiyonu arızası çıkmadı: üçü de yazılmadı.
+- 408 sunroof perdesi için Şikâyetvar'da anılan 51.000 TL'nin aracın 408 olduğu doğrulanamadığı için maliyet alanında bu uyarıyla yazıldı. 408 tabela okuma çözüm metnindeki "Şikâyetvar'da bir sahip" ifadesi, kaynağın hangi site olduğu arama özetinde belirtilmediği için "bir sahip" olarak düzeltildi. BMW X1 E84 kapı kolunda nedenin sayıldığı cümle "BimmerPost'taki BMW kapı kolu başlıklarında" olarak yeniden yazıldı (E84 konusunun kendisinde yalnızca kaplamanın yapışkanlaşıp erimesi anlatılıyordu); Şikâyetvar sayfalarının konusu nesil ve şikâyet bakımından ayrıştırılamadığı için öyle yazıldı.
+- Cupra Leon için multimedya kapanması yalnızca Şikâyetvar'da çıktı; Seat Ateca için bir Ekşi Sözlük yorumu aynı konuyu anıyor ama Cupra'ya ait olduğu doğrulanmadığı için kayıt açılmadı. Seat Leon KL SOS kaydı Cupra Leon'a taşınmadı.
+- A–C dilimlerinin commit iletisinde "24 yeni model kaydı" yazıyor; doğrusu 17 kayıt (Fabia IV dahil). Toplam bu aşamada 18 kayıttır (DS 4 sonradan eklendi).
+
+### Dikkat edilecek sınırlar
+
+- Kanıtlar arama sonuçlarının özetlerine dayanıyor; sayfalar doğrudan okunamadı. Bu yüzden ayrıntılardaki rakamlar ve alıntılar sahip anlatılarıdır, doğrulanmış teknik tespit değildir.
+- Corolla Cross (Consumer Reports), RAV4 XA50 (Toyota bülten kayıtları), Ioniq 5 (Recharged) ve Volvo XC60 (Volvo Owners Club, Swedespeed) kayıtları ağırlıkla ABD ve İngiltere araçlarına dayanıyor; Türkiye araçlarıyla aynı olduğu doğrulanamadı ve ilgili sorunların önlem alanında belirtildi.
+- Passat B9 kaydında Şikâyetvar Passat sayfaları B8 ve B7 şikâyetleriyle karışık (alıntılar 2024 model sahiplerine ait); T-Cross / Taigo kaydı ağırlıkla Taigo'ya dayanıyor.
+- Yeni 22 sorunun 18'i iki, 4'ü üç siteyle destekleniyor; hiçbirinde resmî (üretici ya da kamu) kayıt yok, yalnızca RAV4 için Toyota'nın ABD bülten kayıtları var. Risk seviyeleri README'deki ölçeğe göre verilmiş yargı kararlarıdır.
+- `–` satırlarının bir kısmı (ör. Peugeot 308 III ekran ve sunroof, Taliant, Cupra Leon, MG HS, Kia EV3) Şikâyetvar'da çok sayıda başvuru bulunmasına rağmen ikinci site bulunamadığı için kayıt dışı kaldı; ikinci site çıkarsa kayda çevrilebilir.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
@@ -1616,5 +1678,5 @@ Kullanıcı bu partide 10 araç daha istedi. Her satırın motor ve model eşle�
 8. **Aile bağlarının doğrulanması:** 427 aile bağlı kaydın hangi motor ve şanzımanla satıldığı üretici ya da distribütör kataloglarından tek tek kontrol edilebilir; özellikle Türkiye'de satılıp satılmadığı belirsiz kombinasyonlar (ör. Stonic 1.6 CRDi, Rio YB 1.0 T-GDI 7DCT, Soul AM 1.6 CRDi, Optima 1.7 CRDi, XCeed 1.4 T-GDI, Proace City 1.5, Mondeo 1.6 TDCi, Skoda Yeti motorları, Polo Sedan) için.
 9. **Aile sorunlarının güçlendirilmesi:** tek modelin kaynağına dayanan aile sorunları (ör. 7G-Tronic iletken plaka, Multitronic, Subaru FB20, A16XER, OM654) başka bir modelin kaynağıyla desteklenebilir. Yabancı pazar kaynaklarına dayanan aileler (Pentastar, N57 / B47 EGR soğutucusu, R9M biyel yatağı, Prado enjektör, Volvo B4204T, EA888 Gen3, Audi pompa) için Türkçe bir kaynak bulunursa güçlenir. EA888 Gen3 ailesine Octavia / Superb / Kodiaq / Golf GTI gibi VW, Skoda ve Seat modelleri, Ford 2.0 TDCi ailesine Kuga 2'nin Euro 6 sürümleri, kaynaklarla eşleşirse eklenebilir.
 10. **Sahibinden listesinde `–` kalan 49 nesil** (yukarıdaki liste): ikinci bağımsız kaynak çıkarsa kayda çevrilir. Bu aşamada yeniden aranıp sonuç çıkmayanlar tekrar aranırsa yeni forum başlıkları çıkabilir.
-11. **Model geneli taramasının sürdürülmesi:** 261 motor kaydı hâlâ taranmamış bir modele ait görünüyor. Model geneli satırı olmayan modeller (kabaca): Chevrolet Cruze; Citroën ë-C4; Cupra Formentor; Dacia Sandero (2021-); Fiat 500L, 500X ve 600e; Ford B-Max ve Transit Connect; Hyundai Ioniq 5 / 6; Jeep Avenger Electric; Kia EV3; Mercedes Citan, Sprinter, Vito, GLK, EQA / EQB ve EQC; Opel Astra H, Corsa-e / Mokka-e ve Astra Electric; Peugeot 308 T7, e-208 ve e-308; Porsche Taycan; Renault Arkana, Scenic 4, Taliant, Zoe ve Laguna 3; Seat Toledo; Skoda Kamiq / Scala; VW Jetta ve T-Cross / Taigo.
+11. **Model geneli taraması (16. aşama sonrası):** model geneli satırı olmayan yalnızca 8 motor kaydı kaldı (hepsi 2011 öncesi nesiller: Ford Kuga 1, Honda Civic FD6, Nissan X-Trail T31, Opel Astra H, Peugeot 308 T7, Toyota Corolla E150, VW Passat B6, Volvo XC90 I). İstenirse bu nesiller için de satır açılabilir; kapsam penceresi (2011 ve sonrası) dışında kalıyorlar.
 12. **`–` kalan model geneli sorunlar:** Şikâyetvar'da tekrar eden konular (Passat B7 / B8 cam tavan çerçevesi, Kadjar yan aynaları, 301 / C-Elysée boyası, Rapid boyası, i30 GD cam tavan kasası, Tucson TL cam tavan perdesi ve direksiyon kilidi, Talisman R-Link 2, Insignia B deri direksiyon, Atto 3 amortisör sesi, C4 X ekran kapanması vb.) için DonanımHaber, Otopark ya da bir yabancı forumda ikinci kaynak bulunursa ✓'ye çevrilebilir.

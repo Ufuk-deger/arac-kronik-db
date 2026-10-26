@@ -27,6 +27,13 @@ def model_satiri_mi(oge):
     return any(m.startswith(MODEL_GENELI_ONEKI) for m in oge["eslesme"]["motor"])
 
 
+def taranan_parcalar(oge):
+    """Bir model geneli satırın hangi motor kaydı model adlarını 'taranmış' saydığı: `eslesme.model` parçaları ile,
+    motor kaydının aynı nesli farklı yazdığı durumlar için (ör. 'F30 LCI') `eslesme.tarama` parçaları.
+    `tarama` yalnızca bu sayımda kullanılır, satırın hangi model geneli kayıtla eşleştiğini değiştirmez."""
+    return list(oge["eslesme"]["model"]) + list(oge["eslesme"].get("tarama", []))
+
+
 def eslesen_kayitlar(oge, araclar):
     """Motor satırları yalnızca motor kayıtlarıyla, model geneli satırlar yalnızca model geneli kayıtlarla eşleşir."""
     modeller = oge["eslesme"]["model"]
@@ -117,7 +124,7 @@ def uret():
     motor_kayitlari = [a for a in araclar if not a["motor"].startswith(MODEL_GENELI_ONEKI)]
     model_kayitlari = [a for a in araclar if a["motor"].startswith(MODEL_GENELI_ONEKI)]
     taranan = sum(1 for a in motor_kayitlari
-                  if any(o["marka"] == a["marka"] and any(m in a["model"] for m in o["eslesme"]["model"]) for o, _ in model_eslesmeleri))
+                  if any(o["marka"] == a["marka"] and any(m in a["model"] for m in taranan_parcalar(o)) for o, _ in model_eslesmeleri))
 
     satir = [
         "# Kapsam ve ilerleme",
@@ -164,7 +171,9 @@ def uret():
         "- **Model geneli sorunlar (11. aşamadan itibaren):** Motordan bağımsız, modele (nesle) özgü sorunlar (cam tavan ve bagajdan su alma, far, kapı kilidi, multimedya, boya, "
         "ön takım gibi kasa, sızdırmazlık, iç mekân, elektronik ve süspansiyon sorunları) `motor` alanı \"Tüm motorlar (model geneli)\" olan ayrı bir kayıtta toplanır "
         "([README](README.md#model-geneli-kayıtlar)). Bu sorunlar yaşa ve kullanıma bağlı olduğundan kaynaklarda çoğunlukla kilometre bilgisi yoktur; "
-        "kilometre aralığı uydurulmaz, boş bırakılır. Model geneli plan satırları yalnızca işlendikçe eklenir (✓ ya da –); satırı olmayan bir modelde bu sorunlar henüz taranmamıştır.",
+        "kilometre aralığı uydurulmaz, boş bırakılır. Model geneli plan satırları yalnızca işlendikçe eklenir (✓ ya da –); satırı olmayan bir modelde bu sorunlar henüz taranmamıştır. "
+        "Bir motor kaydının model adı satırdaki yazımdan farklıysa (ör. \"3 Serisi (F30 LCI, 2015-2019)\" ve \"3 Serisi F30\" satırı) satırın `eslesme.tarama` listesine eklenir; "
+        "bu liste yalnızca aşağıdaki \"taranmış modele ait motor kaydı\" sayımında kullanılır, satırın hangi kayıtla eşleştiğini değiştirmez.",
         "- **Kanıt eşiği:** Her sorun için en az iki farklı site ve en az bir deneyim/resmî türünde kaynak gerekir "
         "([README](README.md#kaynak-kuralı)). Kaynak bulunamayan gruplar plana `–` olarak işlenir; sorun uydurulmaz.",
         "",

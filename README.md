@@ -164,7 +164,9 @@ Bunlar motor kayıtlarına tek tek yazılmak yerine, aynı modelin **model genel
   ya da iç mekâna su sızdıran sorunlar, **Yüksek** güvenliği (fren, direksiyon, hava yastığı, aydınlatma) ya da elektroniği tehlikeye atan sorunlar.
 - Model geneli taraması modelden modele yapılır ve `KAPSAM.md` içinde ayrı izlenir: ✓ sorun bulunan, – aranıp iki bağımsız site bulunamayan
   (nedeniyle; ör. yalnızca Şikâyetvar'da geçen sorunlar). Satırı olmayan bir modelde bu sorunlar henüz aranmamıştır; satırı olmaması
-  "sorun yok" demek değildir.
+  "sorun yok" demek değildir. Bir motor kaydının model adı satırdaki yazımdan farklıysa (ör. "3 Serisi (F30 LCI, 2015-2019)" ve
+  "3 Serisi F30" satırı) satırın `eslesme.tarama` listesine eklenir; bu liste yalnızca `KAPSAM.md` içindeki "taranmış modele ait
+  motor kaydı" sayımında kullanılır (testler her parçanın gerçek bir motor kaydında bulunduğunu denetler).
 
 ## Dönem kırılımı
 
