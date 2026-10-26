@@ -142,7 +142,8 @@ def uret():
         "\"Yaygın\" ölçütü TÜİK araç parkı sıralaması (nesil ayrımı yok) ile Türkiye'de resmî satış ve Türkçe sahip kaynağı hacmidir. "
         "Kaynaklar çoğunlukla model yılına göre ayrım yapmadığından bu nesillerde sorunlar nesil geneli için yazılır; "
         "pencereden önce başlayan nesillerde (Megane II, 307, Focus 2, Passat B6, Octavia A5 gibi) pencere sonrası model yılı kısmı için ayrı kanıt yoktur. "
-        "Üretimi 2008'de biten nesillerde (Golf 5, Vectra C gibi) yalnızca son model yılı pencereye girdiği için araştırma dar tutuldu.",
+        "Üretimi 2008'de biten nesillerde (Golf 5, Vectra C gibi) yalnızca son model yılı pencereye girdiği için araştırma dar tutuldu. "
+        "19. aşamada And Çetin yazılarında geçen bazı eski araçlar (Ford Focus 1, Daihatsu YRV / Terios, Hyundai Getz, Corolla E120 gibi) yazının kapsamı gereği pencere dışında olsalar da eklendi.",
         "- **Marka seçimi:** Türkiye'de en çok satılan markalar (aşağıdaki tablo). İlk dört aşamada elektrikli ya da 2023 sonrası girmiş markalar "
         "(BYD, Togg, Tesla, Chery) \"motor grubu ve ikinci el geçmişi yok\" gerekçesiyle dışarıda bırakılmıştı; 5. aşamada elektrikli araçlar kapsama alındı ve bu markalar plana girdi. "
         "Bu listenin dışındaki markalar (`ek` kapsamı) ikinci el yaygınlığı ve kaynak bulunabilirliği gözetilerek editoryal olarak eklendi; satış adetleri doğrulanamadı.",

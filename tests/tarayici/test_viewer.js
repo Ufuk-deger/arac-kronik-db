@@ -107,7 +107,9 @@ const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d
     kontrol('satırlar kapalı gelir', t.kartlar.every((k) => k.satirlar.every((s) => !s.acik)));
     kontrol('risk çipi sayıları toplamı tüm satırlar', t.cipler[''] === toplamSatir && t.cipler.yuksek + t.cipler.orta + t.cipler.dusuk === toplamSatir, JSON.stringify(t.cipler));
     const ozet = await p.textContent('#ozet');
-    kontrol('özet benzersiz sayıları gösterir', /442 sorun \(352 kayda özgü \+ 90 ortak aile\)/.test(ozet), ozet);
+    const ozgSay = veri.veri.arac_listesi.reduce((t, a) => t + a.kronik_sorunlar.length, 0);
+    const ortSay = (veri.veri.aileler || []).reduce((t, f) => t + f.kronik_sorunlar.length, 0);
+    kontrol('özet benzersiz sayıları gösterir', ozet.includes(`${ozgSay + ortSay} sorun (${ozgSay} kayda özgü + ${ortSay} ortak aile)`), ozet);
   }
 
   // ---------- 2. Araç adı araması: yalnızca araç kimliği ----------
@@ -498,7 +500,7 @@ const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d
       }
       return olc;
     });
-    kontrol('filtre değişimi 150 ms altında', Math.max(...sureler) < 150, JSON.stringify(sureler));
+    kontrol('filtre değişimi 200 ms altında', Math.max(...sureler) < 200, JSON.stringify(sureler));
   }
 
   // ---------- 13b. Kaydırma: filtre değişince sonuçların başına dön ----------

@@ -2709,7 +2709,7 @@
       "kronik_sorunlar": [
         {
           "id": "jenerator-gurultusu",
-          "sorun_adi": "Içten yanmalı motorun 'jeneratör gürültüsü'",
+          "sorun_adi": "İçten yanmalı motorun 'jeneratör gürültüsü'",
           "etkilenen_parca": "Jeneratör görevi gören 1.5 VC-Turbo benzinli motor",
           "belirtiler": "Motorun elektrik üretirken kabine yansıyan gürültüsü.",
           "risk_seviyesi": "Düşük",
