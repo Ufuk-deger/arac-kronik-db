@@ -267,6 +267,18 @@
         "adet": null,
         "kapsam": "ek",
         "not": "Ek kademe: 14. aşamada Sahibinden listesinde bulunup planda olmadığı için eklendi (DS 7 Crossback ve DS 4, 2021 sonrası). Birinci nesil DS4 Citroën altında kayıtlı. Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Jaguar",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: 19. aşamada And Çetin'in 'Tutulmayan en iyi arabalar' yazısındaki XJ 2.0i (2010-2019) sorunları eklendi (tek başına yeterli kaynak). Satış adedi doğrulanamadı."
+      },
+      {
+        "marka": "Daihatsu",
+        "adet": null,
+        "kapsam": "ek",
+        "not": "Ek kademe: 19. aşamada And Çetin'in 'Tutulmayan en iyi arabalar' ve 'En sorunsuz arabalar' yazılarındaki YRV (2001-2007) ve Terios (1998-2007) sorunları model geneli olarak eklendi (tek başına yeterli kaynak). Satış adedi doğrulanamadı."
       }
     ],
     "kaynaklar": [
@@ -5504,11 +5516,12 @@
           "Accord"
         ],
         "motor": [
-          ""
+          "2.0 i-VTEC",
+          "2.2 i-DTEC"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: Accord 2.0 i-VTEC / 2.2 i-DTEC için bu aramada veri çıkmadı (aynı sorgudaki Civic 1.6 i-DTEC DPF sorunu ayrı kayıtta)."
+      "not": "Faz 19: Accord X (1.5 VTEC Turbo) ayrı satıra alındı. Önceki not: Faz 9'da arandı: Accord 2.0 i-VTEC / 2.2 i-DTEC için bu aramada veri çıkmadı (aynı sorgudaki Civic 1.6 i-DTEC DPF sorunu ayrı kayıtta)."
     },
     {
       "marka": "Honda",
@@ -7645,18 +7658,17 @@
       "marka": "Alfa Romeo",
       "model": "Giulia",
       "yillar": "2016-",
-      "motor": "2.0 Turbo / 2.2 JTDm",
+      "motor": "2.0 Turbo",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Giulia ("
         ],
         "motor": [
-          ""
+          "2.0 Turbo"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Parkers Giulia'nın lansmandan beri yedi kez geri çağrıldığını ama etkilenen araç sayısının az olduğunu yazıyor; Honest John'da bir 2.2 JTDM-2 180 sahibi 9 ayda 4,5 ay serviste kaldığını ve motorun uyarısız durup boşa aldığını anlatıyor (tek vaka). 2.0 Turbo ve 2.2 JTDm için kilometreli ve ikinci kaynakla desteklenen bir sorun çıkmadı."
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Giulia 2.0 Turbo: yağ soğutucusu çatlaması ve yağ-su karışımı, turbo contası (o-ring) kaçakları, turbo wastegate aktüatör kolu (82. yazı). Önceki not: Parkers Giulia'nın lansmandan beri yedi kez geri çağrıldığını ama etkilenen araç sayısının az olduğunu yazıyor; Honest John'da bir 2.2 JTDM-2 180 sahibi 9 ayda 4,5 ay serviste kaldığını ve motorun uyarısız durup boşa aldığını anlatıyor (tek vaka). 2.0 Turbo ve 2.2 JTDm için kilometreli ve ikinci kaynakla desteklenen bir sorun çıkmadı."
     },
     {
       "marka": "Alfa Romeo",
@@ -8777,8 +8789,7 @@
           "2.0D"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da 2010 Forester dizelde 270 bin km'de krank mili kırılması ve 2008-2010 dizellerde krank ve blok çatlağı iddiası (sahibin Subaru America yazışmasına dayanıyor), 2010 modelde 145 bin km'de blok çatlağı, 2009 dizelde yenilenen motordan 60 bin km sonra yeni arıza anlatılıyor; bunlar 2013-2018 kuşağından önceki dizeller ve tekil. DonanımHaber'de 2.0D Elegance için yakıt pompası, EGR ve DPF sorunları genel ifadeyle sayılıyor; 2016-2017 dizel otomatiklerde 92.000 km'de ve satın almadan 40 gün sonra şanzıman arızası tekil. Honest John'da çift kütleli volan, DPF ve enjektör maliyeti kaygıları kilometresiz anılıyor. Kilometre aralığı verilen ve ikinci kaynakla desteklenen, kuşakla uyumlu bir sorun çıkmadı."
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Forester 2.0D boxer dizelde blok çatlaması ('Japonlar sorunsuzdur' istisnası, 49. yazı). Önceki not: Şikâyetvar'da 2010 Forester dizelde 270 bin km'de krank mili kırılması ve 2008-2010 dizellerde krank ve blok çatlağı iddiası (sahibin Subaru America yazışmasına dayanıyor), 2010 modelde 145 bin km'de blok çatlağı, 2009 dizelde yenilenen motordan 60 bin km sonra yeni arıza anlatılıyor; bunlar 2013-2018 kuşağından önceki dizeller ve tekil. DonanımHaber'de 2.0D Elegance için yakıt pompası, EGR ve DPF sorunları genel ifadeyle sayılıyor; 2016-2017 dizel otomatiklerde 92.000 km'de ve satın almadan 40 gün sonra şanzıman arızası tekil. Honest John'da çift kütleli volan, DPF ve enjektör maliyeti kaygıları kilometresiz anılıyor. Kilometre aralığı verilen ve ikinci kaynakla desteklenen, kuşakla uyumlu bir sorun çıkmadı."
     },
     {
       "marka": "Subaru",
@@ -10749,8 +10760,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar'da geri görüş kamerasına su alması (bayi kronik olabildiğini söylemiş) ve multimedya donması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te ikinci site çıkmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Vitara (2015-): koltuk başlığı / ray paslanması, ekran donması, V kayışı kopması sonucu hararet ve K14D enjektör kırılması (96. yazı). Önceki not: Şikâyetvar'da geri görüş kamerasına su alması (bayi kronik olabildiğini söylemiş) ve multimedya donması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te ikinci site çıkmadı."
     },
     {
       "marka": "Mitsubishi",
@@ -11049,8 +11059,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar'da 2025 model C-HR'da ve Passion donanımlı bir araçta üçüncü ayda ön camın darbe olmadan çatlaması (garanti / kasko ve cam tedarik gecikmeleri) tekrar ediyor; Honest John ve CarComplaints'te ise erken 2017 model C-HR'larda ön cam çatlaması bildiriliyor. Türkçe kayıtların hangi nesle ait olduğu net olmadığından (2025 model ikinci nesil) aynı model geneli sorun olarak yazılmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): C-HR: zayıf yalıtım, trim sesleri, ekran donması, multimedya bağlantı kopması ve 12V akünün erken bitmesi (98. yazı). Önceki not: Şikâyetvar'da 2025 model C-HR'da ve Passion donanımlı bir araçta üçüncü ayda ön camın darbe olmadan çatlaması (garanti / kasko ve cam tedarik gecikmeleri) tekrar ediyor; Honest John ve CarComplaints'te ise erken 2017 model C-HR'larda ön cam çatlaması bildiriliyor. Türkçe kayıtların hangi nesle ait olduğu net olmadığından (2025 model ikinci nesil) aynı model geneli sorun olarak yazılmadı."
     },
     {
       "marka": "Land Rover",
@@ -11658,8 +11667,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar ve DonanımHaber'de kalorifer direnci, yangın, Flex7 ve tavan konularında Zafira B / Tourer'a özgü kayıt çıkmadı. Bulunan şikâyetler 2022-2025 model Zafira / Zafira Life'a (iletişim hatası, ASR / ESR ve el freni uyarıları, klima, cam tavan sızıntısı, tavan boyası, ekran kararması) ya da başka Opel modellerine ait (kalorifer peteği suyunun BCM modülüne sızıp modülü yakması Astra H'ye aittir). Bir forum yazarı otomatik şanzımanın valf gövdesindeki valf yataklarının aşınmasını bazı forumlarda geçen kronik sorun olarak anıyor; kaynağı belirsiz tek kullanıcı iddiası. Bir forum yorumu Zafira modellerinde turboşarj ve elektrikli cam arızalarını genel olarak anıyor, kaynağı belirsiz.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Zafira Tourer: arka fren paslanması ve bagaj kapağının sürüşte açılabilmesi (72. yazı). Önceki not: Şikâyetvar ve DonanımHaber'de kalorifer direnci, yangın, Flex7 ve tavan konularında Zafira B / Tourer'a özgü kayıt çıkmadı. Bulunan şikâyetler 2022-2025 model Zafira / Zafira Life'a (iletişim hatası, ASR / ESR ve el freni uyarıları, klima, cam tavan sızıntısı, tavan boyası, ekran kararması) ya da başka Opel modellerine ait (kalorifer peteği suyunun BCM modülüne sızıp modülü yakması Astra H'ye aittir). Bir forum yazarı otomatik şanzımanın valf gövdesindeki valf yataklarının aşınmasını bazı forumlarda geçen kronik sorun olarak anıyor; kaynağı belirsiz tek kullanıcı iddiası. Bir forum yorumu Zafira modellerinde turboşarj ve elektrikli cam arızalarını genel olarak anıyor, kaynağı belirsiz."
     },
     {
       "marka": "Opel",
@@ -12206,8 +12214,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Ekşi Sözlük'te bir yorum A / B / C / CLA serilerinin 'bilinen kronik sorunları' olarak emniyet kemeri soketi ve gergisine bağlı airbag arızalarını ve direksiyon açı sensörü kaynaklı ESP arızalarını sayıyor (W176 ve W204 kayıtlarında doğrulanan direksiyon açı sensörü arızasıdır; W177 / C118'e bağlanamadı). Şikâyetvar'da W177 A200'de MBUX ekranın sol tarafının gitmesi (servis ekran, beyin ya da kablo diyor, uzun bekleme), CLA 200'de direksiyonun kendiliğinden sola dönmesi ve sürekli sola çekme, CLA'da sunroof sesi (yağlamayla geçici çözüm, tekrarlamış) tekil.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin'in 'En sorunlu sıfır arabalar' yazısı (tek başına yeterli kaynak): A Serisi W177 ve CLA C118 için yaygın şikâyetler model geneli sorun olarak eklendi. Önceki not: Ekşi Sözlük'te bir yorum A / B / C / CLA serilerinin 'bilinen kronik sorunları' olarak emniyet kemeri soketi ve gergisine bağlı airbag arızalarını ve direksiyon açı sensörü kaynaklı ESP arızalarını sayıyor (W176 ve W204 kayıtlarında doğrulanan direksiyon açı sensörü arızasıdır; W177 / C118'e bağlanamadı). Şikâyetvar'da W177 A200'de MBUX ekranın sol tarafının gitmesi (servis ekran, beyin ya da kablo diyor, uzun bekleme), CLA 200'de direksiyonun kendiliğinden sola dönmesi ve sürekli sola çekme, CLA'da sunroof sesi (yağlamayla geçici çözüm, tekrarlamış) tekil."
     },
     {
       "marka": "Mercedes-Benz",
@@ -12282,21 +12289,19 @@
     },
     {
       "marka": "Alfa Romeo",
-      "model": "Giulia / Stelvio",
+      "model": "Giulia",
       "yillar": "2016-",
       "motor": "Tüm motorlar (model geneli)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Giulia",
-          "Stelvio"
+          "Giulia ("
         ],
         "motor": [
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar'da Stelvio'da elektronik kontrol sistemi arızası sonrası parça beklemesi, tekrarlayan akü arızası, far içinde buğulanma / su toplama (uzun süre çözülmemiş) ve sekiz aya yaklaşan servis süreci; Giulia'da ağırlıklı olarak uzun süre vitrinde bekleyen araçlardaki akü / lastik sorunları ve start-stop; DonanımHaber'de Stelvio dokunmatik ekranın yavaş çalışması. Direksiyon kilitlenmesi şikâyeti 2013 MiTo içindir. İkinci bağımsız site yok.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Giulia: yüksek hızlarda kaput titremesi, sunroof / kadran üstü trim sesleri, yavaş orta ekran, ESP'nin tamamen kapatılamaması ve yüksek tüketim (82. yazı). Önceki not: Şikâyetvar'da Stelvio'da elektronik kontrol sistemi arızası sonrası parça beklemesi, tekrarlayan akü arızası, far içinde buğulanma / su toplama (uzun süre çözülmemiş) ve sekiz aya yaklaşan servis süreci; Giulia'da ağırlıklı olarak uzun süre vitrinde bekleyen araçlardaki akü / lastik sorunları ve start-stop; DonanımHaber'de Stelvio dokunmatik ekranın yavaş çalışması. Direksiyon kilitlenmesi şikâyeti 2013 MiTo içindir. İkinci bağımsız site yok."
     },
     {
       "marka": "Porsche",
@@ -13872,8 +13877,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Faz 14'te arandı: Şikâyetvar'da FE1 için akü (yaklaşık 29.000 km'de tamamen bitme, yedek akü bulunamaması), direksiyon kutusu arızası ve değişimden sonra sağa çekme, kapı ve kaput çevresinden rüzgar ve yol sesi, park sensörü arızası ve boya atması tekrar ediyor; DonanımHaber, Otopark ve Ekşi Sözlük'te FE1'e özgü doğrulama çıkmadı (sonuçlar eski nesil Civic'lere ait).",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Civic FE1: direksiyon kutusu değişimi, arka amortisör sızıntısı, LPG'li modellerde tekleme ve katalitik konvertör arızası (86 ve 98. yazılar). Önceki not: Faz 14'te arandı: Şikâyetvar'da FE1 için akü (yaklaşık 29.000 km'de tamamen bitme, yedek akü bulunamaması), direksiyon kutusu arızası ve değişimden sonra sağa çekme, kapı ve kaput çevresinden rüzgar ve yol sesi, park sensörü arızası ve boya atması tekrar ediyor; DonanımHaber, Otopark ve Ekşi Sözlük'te FE1'e özgü doğrulama çıkmadı (sonuçlar eski nesil Civic'lere ait)."
     },
     {
       "marka": "Dacia",
@@ -13889,8 +13893,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Faz 14'te arandı: Şikâyetvar'da Duster için akü (yaklaşık 22.000 km'de yolda kalma, garanti reddi), multimedya ekranının kapanması ile Bluetooth ve CarPlay kopması, 2024 model 1.3 TCe 150 Essential'da altı ayda motor risk uyarısı ve EDC'de vites sesi ve silkelenme geçiyor; nesil ve sürüm çoğu kayıtta belirtilmiyor, hibrit Duster için kayıt çıkmadı; DonanımHaber, Otopark ve Ekşi Sözlük'te yeni Duster'a özgü konu çıkmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin'in 'En sorunlu sıfır arabalar' yazısı (tek başına yeterli kaynak): Duster / Sandero için yaygın şikâyetler model geneli sorun olarak eklendi. Önceki not: Faz 14'te arandı: Şikâyetvar'da Duster için akü (yaklaşık 22.000 km'de yolda kalma, garanti reddi), multimedya ekranının kapanması ile Bluetooth ve CarPlay kopması, 2024 model 1.3 TCe 150 Essential'da altı ayda motor risk uyarısı ve EDC'de vites sesi ve silkelenme geçiyor; nesil ve sürüm çoğu kayıtta belirtilmiyor, hibrit Duster için kayıt çıkmadı; DonanımHaber, Otopark ve Ekşi Sözlük'te yeni Duster'a özgü konu çıkmadı."
     },
     {
       "marka": "Hyundai",
@@ -14857,8 +14860,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Faz 16: Şikâyetvar'da 2021-2023 Sandero / Stepway için 'akü şarj oluyor' uyarısı (bir sahip yaklaşık iki yıldır), motor çalışınca multimedya ve klimanın kapanması, arka kapılardan su alma (2022), sağa çekme çok sayıda başvuruda geçiyor; DonanımHaber ve Ekşi Sözlük aramalarında bunları doğrulayan başlık çıkmadı (sonuçlar Stepway 2013-2018 ve genel akü konuları). What Car? sahip yorumları uyarı lambaları ve elektrik üzerinde, İngiltere MOT verisi iyi.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin'in 'En sorunlu sıfır arabalar' yazısı (tek başına yeterli kaynak): Duster / Sandero için yaygın şikâyetler model geneli sorun olarak eklendi. Önceki not: Faz 16: Şikâyetvar'da 2021-2023 Sandero / Stepway için 'akü şarj oluyor' uyarısı (bir sahip yaklaşık iki yıldır), motor çalışınca multimedya ve klimanın kapanması, arka kapılardan su alma (2022), sağa çekme çok sayıda başvuruda geçiyor; DonanımHaber ve Ekşi Sözlük aramalarında bunları doğrulayan başlık çıkmadı (sonuçlar Stepway 2013-2018 ve genel akü konuları). What Car? sahip yorumları uyarı lambaları ve elektrik üzerinde, İngiltere MOT verisi iyi."
     },
     {
       "marka": "Dacia",
@@ -19156,8 +19158,7 @@
           "Elektrik"
         ]
       },
-      "not": "Şikâyetvar'da hızlı şarjta düşük güç, şarj kapağı kilidi ve şarj soketi arızaları tekil; DonanımHaber'de yalnızca i4 menzil göstergesi tartışması var, ortak bir örüntü doğrulanamadı. NHTSA kayıtlarında iX / i4 için batarya (22V-541), birleşik şarj ünitesi (23V-449) ve 2024 i4 modül kaynak dikişi (24V-135) geri çağırmaları var; Türkiye kapsamı doğrulanamadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): iX3: bazı örneklerde yüksek voltaj / tahrik arızası ve ~50 bin km'de gündüz farı LED arızası (82. yazı). Önceki not: Şikâyetvar'da hızlı şarjta düşük güç, şarj kapağı kilidi ve şarj soketi arızaları tekil; DonanımHaber'de yalnızca i4 menzil göstergesi tartışması var, ortak bir örüntü doğrulanamadı. NHTSA kayıtlarında iX / i4 için batarya (22V-541), birleşik şarj ünitesi (23V-449) ve 2024 i4 modül kaynak dikişi (24V-135) geri çağırmaları var; Türkiye kapsamı doğrulanamadı."
     },
     {
       "marka": "BMW",
@@ -19302,6 +19303,536 @@
         ]
       },
       "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Volvo XC60 sorunları; Volvo XC90 kronik sorunları."
+    },
+    {
+      "marka": "Chery",
+      "model": "Tiggo 7 / Tiggo 8 (2020-)",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tiggo 7 / Tiggo 8 (2020-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): En sorunlu sıfır arabalar."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "CLA (C119, 2025-)",
+      "yillar": "2025-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "CLA (C119, 2025-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): En sorunlu sıfır arabalar."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLB (X247, 2019-)",
+      "yillar": "2019-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "GLB (X247, 2019-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): En sorunlu sıfır arabalar."
+    },
+    {
+      "marka": "Nissan",
+      "model": "Juke (F16, 2020-)",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Juke (F16, 2020-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): En sorunlu sıfır arabalar."
+    },
+    {
+      "marka": "Renault",
+      "model": "Austral (2022-)",
+      "yillar": "2022-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Austral (2022-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): En sorunlu sıfır arabalar."
+    },
+    {
+      "marka": "Togg",
+      "model": "T10F (2025-)",
+      "yillar": "2025-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "T10F (2025-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): En sorunlu sıfır arabalar."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Tayron (2025-)",
+      "yillar": "2025-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tayron (2025-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): En sorunlu sıfır arabalar."
+    },
+    {
+      "marka": "Chevrolet",
+      "model": "Aveo (T300, 2012-2013)",
+      "yillar": "2012-2013",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Aveo (T300, 2012-2013)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 2025'te en çok tavsiye ettiğim otomobiller."
+    },
+    {
+      "marka": "Daihatsu",
+      "model": "Terios (1998-2007)",
+      "yillar": "1998-2007",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Terios (1998-2007)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 500 bin TL'ye kadar en sorunsuz arabalar."
+    },
+    {
+      "marka": "Daihatsu",
+      "model": "YRV (2001-2007)",
+      "yillar": "2001-2007",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "YRV (2001-2007)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Tutulmayan en iyi arabalar: 0–500.000 TL."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Freemont (2011-2015)",
+      "yillar": "2011-2015",
+      "motor": "2.0 MultiJet II 170 (Ultradrive 62TE otomatik)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Freemont (2011-2015)"
+        ],
+        "motor": [
+          "2.0 MultiJet II 170 (Ultradrive 62TE otomatik)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Tutulmayan en iyi arabalar: 500.000–1.000.000TL."
+    },
+    {
+      "marka": "Ford",
+      "model": "Focus 1 (1998-2004)",
+      "yillar": "1998-2004",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Focus 1 (1998-2004)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Tutulmayan en iyi arabalar: 0–500.000 TL."
+    },
+    {
+      "marka": "Honda",
+      "model": "Accord (X, 2017-2023)",
+      "yillar": "2017-2023",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Accord (X, 2017-2023)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 2–2.5 milyon TL arası en sorunsuz arabalar; Tutulmayan en iyi arabalar: 1.5–2 milyon TL."
+    },
+    {
+      "marka": "Honda",
+      "model": "CR-V (RS, 2023-)",
+      "yillar": "2023-",
+      "motor": "2.0 e:HEV hibrit 184 PS (e-CVT, 4x4)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "CR-V (RS, 2023-)"
+        ],
+        "motor": [
+          "2.0 e:HEV hibrit 184 PS (e-CVT, 4x4)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 3–4 milyon TL arası en sorunsuz arabalar."
+    },
+    {
+      "marka": "Honda",
+      "model": "CR-V (RW, 2017-2022)",
+      "yillar": "2017-2022",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "CR-V (RW, 2017-2022)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 2.5–3 milyon TL arası en sorunsuz arabalar."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Getz (2002-2011)",
+      "yillar": "2002-2011",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Getz (2002-2011)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 500 bin TL'ye kadar en sorunsuz arabalar."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Santa Fe (TM, 2019-2023)",
+      "yillar": "2019-2023",
+      "motor": "1.6 T-GDI Hybrid 230 (6 ileri tork konvertörlü)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Santa Fe (TM, 2019-2023)"
+        ],
+        "motor": [
+          "1.6 T-GDI Hybrid 230 (6 ileri tork konvertörlü)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Tutulmayan en iyi arabalar: 2.5–3 milyon TL."
+    },
+    {
+      "marka": "Jaguar",
+      "model": "XJ (X351, 2010-2019)",
+      "yillar": "2010-2019",
+      "motor": "2.0i turbo benzin 240 PS (Ford EcoBoost; ZF 8HP)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "XJ (X351, 2010-2019)"
+        ],
+        "motor": [
+          "2.0i turbo benzin 240 PS (Ford EcoBoost; ZF 8HP)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Tutulmayan en iyi arabalar: 2–2.5 milyon TL."
+    },
+    {
+      "marka": "Lexus",
+      "model": "LBX (2023-)",
+      "yillar": "2023-",
+      "motor": "1.5 Hybrid 136 (M15A-FXE, e-CVT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "LBX (2023-)"
+        ],
+        "motor": [
+          "1.5 Hybrid 136 (M15A-FXE, e-CVT)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 2–2.5 milyon TL arası en sorunsuz arabalar; Tutulmayan en iyi arabalar: 2–2.5 milyon TL."
+    },
+    {
+      "marka": "Mazda",
+      "model": "CX-5 (KE, 2012-2017)",
+      "yillar": "2012-2017",
+      "motor": "2.2 SkyActiv-D",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "CX-5 (KE, 2012-2017)"
+        ],
+        "motor": [
+          "2.2 SkyActiv-D"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 2. el araç bakarken kaçınmanız gereken klişeler."
+    },
+    {
+      "marka": "Mazda",
+      "model": "CX-5 (KF, 2017-2025)",
+      "yillar": "2017-2025",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "CX-5 (KF, 2017-2025)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 2–2.5 milyon TL arası en sorunsuz arabalar; Tutulmayan en iyi arabalar: 1.5–2 milyon TL."
+    },
+    {
+      "marka": "Mazda",
+      "model": "RX-8 (2003-2012)",
+      "yillar": "2003-2012",
+      "motor": "1.3 Wankel (Renesis)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "RX-8 (2003-2012)"
+        ],
+        "motor": [
+          "1.3 Wankel (Renesis)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Tecrübe edip de anlatmadığım arabalar."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "308 GTI (T9, 2016-2019)",
+      "yillar": "2016-2019",
+      "motor": "1.6 THP 270 (EP6FDTX; Peugeot Sport)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "308 GTI (T9, 2016-2019)"
+        ],
+        "motor": [
+          "1.6 THP 270 (EP6FDTX; Peugeot Sport)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Tutulmayan en iyi arabalar: 1–1.5 milyon TL."
+    },
+    {
+      "marka": "Suzuki",
+      "model": "S-Cross (2022-)",
+      "yillar": "2022-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "S-Cross (2022-)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1.5–2 milyon TL arası en sorunsuz arabalar."
+    },
+    {
+      "marka": "Suzuki",
+      "model": "Swift (2011-2016)",
+      "yillar": "2011-2016",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Swift (2011-2016)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 2025'te en çok tavsiye ettiğim otomobiller."
+    },
+    {
+      "marka": "Suzuki",
+      "model": "Swift (2017-2023)",
+      "yillar": "2017-2023",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Swift (2017-2023)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 1–1.5 milyon TL arası en sorunsuz arabalar."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla (E120, 2002-2007)",
+      "yillar": "2002-2007",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Corolla (E120, 2002-2007)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 500 bin TL'ye kadar en sorunsuz arabalar."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Hilux (AN120, 2016-2020)",
+      "yillar": "2016-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Hilux (AN120, 2016-2020)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 2. el araç bakarken kaçınmanız gereken klişeler."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf R (Mk8, 2021-)",
+      "yillar": "2021-",
+      "motor": "2.0 TSI 320 / 333 (EA888 Evo4, DQ381, 4Motion)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Golf R (Mk8, 2021-)"
+        ],
+        "motor": [
+          "2.0 TSI 320 / 333 (EA888 Evo4, DQ381, 4Motion)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 3–4 milyon TL arası en sorunsuz arabalar."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touareg (7P, 2010-2018)",
+      "yillar": "2010-2018",
+      "motor": "3.0 TDI 245 / 262 (Aisin TL-80SN 8 ileri)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Touareg (7P, 2010-2018)"
+        ],
+        "motor": [
+          "3.0 TDI 245 / 262 (Aisin TL-80SN 8 ileri)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): AdBlue-DPF-EGR sorun, çözüm ve maliyetleri; En sorunlu VAG motorları ve en sorunsuz versiyonları; Tutulmayan en iyi arabalar: 2–2.5 milyon TL."
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Giulia",
+      "yillar": "2016-",
+      "motor": "2.2 JTDm",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Giulia ("
+        ],
+        "motor": [
+          "2.2 JTDm"
+        ]
+      },
+      "not": "Parkers Giulia'nın lansmandan beri yedi kez geri çağrıldığını ama etkilenen araç sayısının az olduğunu yazıyor; Honest John'da bir 2.2 JTDM-2 180 sahibi 9 ayda 4,5 ay serviste kaldığını ve motorun uyarısız durup boşa aldığını anlatıyor (tek vaka). 2.0 Turbo ve 2.2 JTDm için kilometreli ve ikinci kaynakla desteklenen bir sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Stelvio",
+      "yillar": "2016-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Stelvio"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Şikâyetvar'da Stelvio'da elektronik kontrol sistemi arızası sonrası parça beklemesi, tekrarlayan akü arızası, far içinde buğulanma / su toplama (uzun süre çözülmemiş) ve sekiz aya yaklaşan servis süreci; Giulia'da ağırlıklı olarak uzun süre vitrinde bekleyen araçlardaki akü / lastik sorunları ve start-stop; DonanımHaber'de Stelvio dokunmatik ekranın yavaş çalışması. Direksiyon kilitlenmesi şikâyeti 2013 MiTo içindir. İkinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Honda",
+      "model": "Accord (X, 2017-2023)",
+      "yillar": "2017-2023",
+      "motor": "1.5 VTEC Turbo 190 (LL-CVT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Accord (X, 2017-2023)"
+        ],
+        "motor": [
+          "1.5 VTEC Turbo 190 (LL-CVT)"
+        ]
+      },
+      "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 2.5–3 milyon TL arası en sorunsuz arabalar."
     }
   ]
 }

@@ -323,6 +323,21 @@
             "https://www.sikayetvar.com/bmw/320/sogutma-sivisi",
             "https://www.sikayetvar.com/bmw/320/su-kacagi"
           ]
+        },
+        {
+          "id": "su-kaclari",
+          "sorun_adi": "Radyatör, devirdaim pompası ve hortumlardan su kaçakları",
+          "etkilenen_parca": "Radyatör, devirdaim pompası ve soğutma hortumları",
+          "belirtiler": "Soğutma suyu kaçakları (radyatör, devirdaim pompası, hortumlar).",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in G20 3 Serisi (320i) ve G30 5 Serisi (520i / 530i) için 'Dikkat' bölümlerinde B48'de radyatör, devirdaim pompası ve hortumlardan su kaçaklarını saydığı belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/",
+            "https://andcetin.com/253-milyon-tl-aras-en-sorunsuz-arabalar-104/",
+            "https://andcetin.com/34-milyon-tl-aras-en-sorunsuz-arabalar-106/"
+          ]
         }
       ]
     },
@@ -675,7 +690,8 @@
             "https://f30.bimmerpost.com/forums/showthread.php?t=1622988",
             "https://www.carcomplaints.com/news/2020/bmw-timing-chain-lawsuit-settlement-reached.shtml",
             "https://www.fcpeuro.com/blog/how-to-replace-the-bmw-n20-timing-chain-part-1-removal",
-            "https://f30.bimmerpost.com/forums/showthread.php?t=2009697"
+            "https://f30.bimmerpost.com/forums/showthread.php?t=2009697",
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-152-milyon-tl-77/"
           ],
           "donem_kirilimi": [
             {
@@ -704,13 +720,14 @@
             "teshis": "Fan sürekli yüksek hızda çalışır, yüksek soğutma suyu sıcaklığı mesajı gelir, motor geç ısınır; FCP Euro 2E81, 2E82 ve 2E85 kodlarını da sayıyor. BimmerWorld'e göre arıza başlayınca koşullara bağlı olarak motorun aşırı ısınmaya karşı kapanmasına yalnızca dakikalar kalabilir. Bir sahip arıza lambası ya da limp modu olmadan aynı belirtileri yaşadığını yazıyor. Bir başlıkta aşırı ısınmanın yanlış teşhis edildiği anlatılıyor: bayinin hava alması belirtiyi önce gidermiş, hava sistemde kalınca geri gelmiş. Forumlarda pompadan önce termostat, sistemdeki hava ve konnektör de şüpheli sayılıyor.",
             "cozum": "Geri çağırma kapsamındaki onarımda pompa ve konnektör kontrol edilip gerekirse değiştiriliyor ve koruyucu bir kapak ekleniyor. BimmerWorld bunu üç kademeli bir servis işlemi olarak anlatıyor (sıçrama kapağı, elektrik konnektörü ya da pompanın tamamı) ve kademeyi bayinin seçtiğini söylüyor. Bir sahip 2025'te bayide düzeltmenin henüz mevcut olmadığını yazıyor. Kapsamı şasi numarasıyla BMW ya da NHTSA kayıtlarından sorgulayın; Türkiye'deki araçlar için kapsam doğrulanmadı.",
             "maliyet": "Geri çağırma kapsamındaki onarım ABD'de ücretsiz. Kapsam dışında BimmerWorld OEM Pierburg pompayı (11518635089) yaklaşık 449 dolara listeliyor; bu yalnızca parça fiyatı, ABD'ye ait ve işçilik dahil değil.",
-            "onlem": "BimmerWorld ani arızalar nedeniyle 100.000 mil (~160.000 km) öncesinde önleyici pompa değişimini ve termostatın aynı anda değiştirilmesini öneriyor; FCP Euro termostatı pompayla birlikte değiştirmeyi akıllıca buluyor (ikisi de parça satıcısı). Sıklık konusunda görüşler ayrışıyor: BimmerWorld N20 pompasının N54/N55 kadar çok arızalanmadığını düşünüyor, bir atölye blogu (Foreign Automotive, pazarlama dili) aynı pompayı en sık değiştirdiği parçalar arasında sayıyor; bir Bimmerpost sahibi ise N20'de yaygın erken arızanın pompa değil termostat olduğunu yazıyor."
+            "onlem": "BimmerWorld ani arızalar nedeniyle 100.000 mil (~160.000 km) öncesinde önleyici pompa değişimini ve termostatın aynı anda değiştirilmesini öneriyor; FCP Euro termostatı pompayla birlikte değiştirmeyi akıllıca buluyor (ikisi de parça satıcısı). Sıklık konusunda görüşler ayrışıyor: BimmerWorld N20 pompasının N54/N55 kadar çok arızalanmadığını düşünüyor, bir atölye blogu (Foreign Automotive, pazarlama dili) aynı pompayı en sık değiştirdiği parçalar arasında sayıyor; bir Bimmerpost sahibi ise N20'de yaygın erken arızanın pompa değil termostat olduğunu yazıyor. And Çetin'in yazısına göre BMW 2024'te 2012-2018 arası üretilen 2 litre N20 motorlu tüm araçları su pompasının elektrik bağlantısı hatası sonucu ortaya çıkabilecek yangın riski nedeniyle geri çağırdı."
           },
           "kaynaklar": [
             "https://f30.bimmerpost.com/forums/showthread.php?t=2166229",
             "https://www.bimmerworld.com/Cooling/Water-Pumps/BMW-Water-Pump-N20-N26-F22-F30-F32-F10-X1-F25-F26-E89-11518635089.html",
             "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-f30-water-pump-thermostat-n20-n26-engine",
-            "https://foreignautomotive.ca/blogs/news/bmw-electric-water-pump-failure-symptoms-causes-and-replacement-costs-in-ontario"
+            "https://foreignautomotive.ca/blogs/news/bmw-electric-water-pump-failure-symptoms-causes-and-replacement-costs-in-ontario",
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-152-milyon-tl-77/"
           ]
         },
         {
@@ -728,6 +745,19 @@
           "kaynaklar": [
             "https://www.fcpeuro.com/blog/how-to-replace-a-bmw-n20-n26-oil-filter-housing-gasket-f30",
             "https://f30.bimmerpost.com/forums/showthread.php?t=1994474"
+          ]
+        },
+        {
+          "id": "buji-omru",
+          "sorun_adi": "Bujilerin ortalama 20 bin km'de bir değiştirilmesi gerekmesi",
+          "etkilenen_parca": "Bujiler",
+          "belirtiler": "Bujilerin kısa ömrü; zamanında değişmezse ateşleme sorunları beklenir.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 328i / 428i xDrive (N20) yazısında 'Nelere dikkat etmeli' bölümünde bujilerin ortalama 20 bin km'de bir değişmesi gerektiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-152-milyon-tl-77/"
           ]
         }
       ]
@@ -882,7 +912,7 @@
             "teshis": "Dönüşlerde kasma, alttan küt pat sesleri ve 4x4 / ABS lambası; DSC'de 'güç transfer kutusu arıza uyarısı' hata kaydı (bir kullanıcıda 5F3A kodu). Bir X4 sahibi 1-2-3 vites geçişlerinde hafif sarsıntı yaşadığını ve servisin transfer kutusunda sorun bulduğunu yazıyor. Kilometre aralığı kaba tahmin: bir Fransız ikinci el rehberi aşınmanın bazen 100.000 km'den önce başladığını, bir Alman servis sitesi ATC kavramada 120.000 km sonrasında sık bulgu olduğunu yazıyor; forum başlıkları kilometre vermiyor.",
             "cozum": "Forumlarda küçük servo motor dişlisinin (ucuz parça) değiştirildiği anlatılıyor; bir kullanıcıda üç değişime rağmen arıza tekrarlamış. Bir kullanıcıya servisin arızalı parçayı devre dışı bıraktığı ve aracın yolda bırakmadan kullanılabileceği söylenmiş (4x4 işlevi kaybolur). Bazı servislerin bu parçaya bakmadığını yazanlar var.",
             "maliyet": "ABD'de transfer yağı değişimi 250-1.300 dolar, komple transfer kutusu 7.000-13.000 dolar (dava haberi); bir Fransız rehber komple değişimi için yaklaşık 4.000 € veriyor (eski tarihli). Türkiye için güncel rakam bulunamadı.",
-            "onlem": "Dönüşlerde kasma ve sarsıntıyı ciddiye almak, transfer yağı bakım geçmişini sormak. Araclo xDrive'da dört lastiğin eş olmasını ve transfer kutusu bakımını teknik zorunluluk olarak anıyor."
+            "onlem": "Dönüşlerde kasma ve sarsıntıyı ciddiye almak, transfer yağı bakım geçmişini sormak. Araclo xDrive'da dört lastiğin eş olmasını ve transfer kutusu bakımını teknik zorunluluk olarak anıyor. And Çetin'in N20 yazısına göre transfer kutusu yaklaşık 100 bin km civarında yük altında silkeleme ve titreme yapabiliyor ve yağının değiştirilmesi gerekiyor; lastik ölçüsü kesinlikle BMW'nin önerdiği ebatta, yıldızlı ve runflat olmalı, aksi halde transfer kutusuna zarar verip sarsıntıya yol açıyor (aynı sorun G30 titreşim yazısında da anılıyor)."
           },
           "kaynaklar": [
             "https://forum.donanimhaber.com/bmw-x3-x-drive-ustasi-yokmu-yardim-lazim-vtg-arizasi-servo-motor--145583480",
@@ -891,7 +921,8 @@
             "https://www.sikayetvar.com/bmw/bakim/xdrive",
             "https://www.sozcu.com.tr/bmw-ye-toplu-dava-soku-tamir-bedeli-13-000-dolara-ulasti-etkilenen-modeller-listesi-oldukca-uzun-p266472",
             "https://www.fiches-auto.fr/articles-auto/nouveautes-automobiles/s-3933-fiabilite-xdrive-catastrophique-class-action-a-l-encontre-de-bmw.php",
-            "https://www.autopartspro.co.uk/tips-advice/bmw-x5-transfer-case-failure-and-complete-unit-replacement-costs-3203"
+            "https://www.autopartspro.co.uk/tips-advice/bmw-x5-transfer-case-failure-and-complete-unit-replacement-costs-3203",
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-152-milyon-tl-77/"
           ]
         }
       ]
@@ -1168,7 +1199,8 @@
             "https://forum.donanimhaber.com/egea-1-3-multijet-beyaz-duman-fazla-yakit-cozuldu--147630865",
             "https://forum.donanimhaber.com/fiat-egea-dpf-ile-ilgili-soru--138609045",
             "https://forum.donanimhaber.com/dizel-motor-da-egr-iptal-edenlerin-tecrubesi--149573806",
-            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/"
+            "https://andcetin.com/adblue-dpf-egr-sorun-cozum-ve-maliyetleri-103/",
+            "https://andcetin.com/otv-muafiyetli-arac-tavsiyelerim-100/"
           ]
         }
       ]
@@ -1245,7 +1277,8 @@
             "https://forum.donanimhaber.com/egea-1-6-multijet2-dct-detayli-inceleme-80-bin-km-geride-kaldi--130178669-28",
             "https://www.araclo.com/blog/fiat-egea-1.6-multijet-130-hp-dct-incelemesi-ne-kadar-yakar-alinir-mi",
             "https://www.sikayetvar.com/fiat/egea/volan",
-            "https://www.araclo.com/blog/fiat-egea-cross-incelemesi-motor-secenekleri-sorunlar-ve-kullanici-yorumlari-alinir-mi"
+            "https://www.araclo.com/blog/fiat-egea-cross-incelemesi-motor-secenekleri-sorunlar-ve-kullanici-yorumlari-alinir-mi",
+            "https://andcetin.com/otv-muafiyetli-arac-tavsiyelerim-100/"
           ]
         },
         {
@@ -1836,7 +1869,8 @@
             "https://forum.donanimhaber.com/honda-civic-1-5-turbo-rs-88-000km-yag-fazlalasmasi--160945633",
             "https://www.wardsauto.com/internal-combustion-engines/honda-extends-warranty-to-address-1-5l-gas-oil-dilution-problem",
             "https://forum.donanimhaber.com/turbo-vtec-1-5-182-184-193-ps-civic-rs-ve-cr-v-yag-yakit-karistirma--140505598",
-            "https://otopark.com/forum/threads/honda-1-5-t-motorlarda-yag-yakma-sorunu.7674/"
+            "https://otopark.com/forum/threads/honda-1-5-t-motorlarda-yag-yakma-sorunu.7674/",
+            "https://andcetin.com/253-milyon-tl-aras-en-sorunsuz-arabalar-104/"
           ],
           "donem_kirilimi": [
             {
@@ -2066,7 +2100,8 @@
             "maliyet": "Yazıda (Mart 2025) yetkili serviste 60-80 bin TL, sanayide 50 bin TL olduğu belirtiliyor (güncel fiyat olarak okumayın)."
           },
           "kaynaklar": [
-            "https://andcetin.com/hyundai-kia-dct-analizi-63/"
+            "https://andcetin.com/hyundai-kia-dct-analizi-63/",
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-115-milyon-tl-75/"
           ]
         }
       ]
@@ -3260,20 +3295,22 @@
             "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
           },
           "kaynaklar": [
-            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
           ]
         },
         {
           "id": "ortak-2",
           "sorun_adi": "Elektrik-elektronik: akünün erken bitmesi ve aracın kitlenmesi, start-stop, hava yastığı ve emniyet kemeri gergisi, otomatik fren, hız sabitleyici, ekran, klima, Bluetooth arızaları",
           "etkilenen_parca": "Akü, start-stop, güvenlik sistemleri ve ekran",
-          "belirtiler": "Akünün erken bitmesi sonucu aracın kitlenmesi; Henüz durmadan start-stop'un motoru kapatması; Hava yastığı ve emniyet kemeri gergi arızası; Otomatik fren sistemi arızası; Hız sabitleyici arızası; Ekran kapanmaları; Klima arızaları; Bluetooth bağlantısında kesilme; Sileceklerin durduk yere çalışması.",
+          "belirtiler": "Akünün erken bitmesi sonucu aracın kitlenmesi; Henüz durmadan start-stop'un motoru kapatması; Hava yastığı ve emniyet kemeri gergi arızası; Otomatik fren sistemi arızası; Hız sabitleyici arızası; Ekran kapanmaları; Klima arızaları; Bluetooth bağlantısında kesilme; Sileceklerin durduk yere çalışması.; aracın kendini kilitlemesi",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
           },
           "kaynaklar": [
-            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
           ]
         },
         {
@@ -3286,7 +3323,8 @@
             "neden": "And Çetin'in 'Ticari araç ortaklıkları ve sorunları' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
           },
           "kaynaklar": [
-            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/"
+            "https://andcetin.com/ticari-arac-ortaklklar-ve-sorunlar-81/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
           ]
         }
       ]
@@ -4082,6 +4120,19 @@
           },
           "kaynaklar": [
             "https://andcetin.com/elektrikli-vag-stellantislerde-tahrik-arzas-105/"
+          ]
+        },
+        {
+          "id": "kilitlenme-sarj-menzil",
+          "sorun_adi": "Aracın kendini kilitlemesi, vitese geçmemesi, hızlı şarjda iletişim sorunu ve düşük menzil",
+          "etkilenen_parca": "Kapı kilidi / kontrol üniteleri, vites seçici, DC hızlı şarj iletişimi ve batarya",
+          "belirtiler": "Aracın kendini kilitlemesi; vitese geçmemesi; direksiyon sertleşmesi ve çekişten düşme; hızlı şarjda iletişim sorunu; düşük menzil.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. 'Elektrikli Stellantis'ler' bölümünde yaygın şikâyetler arasında sayılıyor (yolda kalma, elektrikli tahrik sistemi arızası, batarya arızası ile birlikte)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
           ]
         }
       ]
@@ -5608,6 +5659,76 @@
   "arac_listesi": [
     {
       "marka": "Alfa Romeo",
+      "model": "Giulia (952, 2016-)",
+      "motor": "2.0 Turbo 200 / 280 (ZF 8HP)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağ soğutucusunun çatlayıp motor yağının soğutma sıvısı devresine karışması",
+          "etkilenen_parca": "Yağ soğutucusu ve soğutma devresi",
+          "belirtiler": "Yağ soğutucusu çatlayabiliyor ve motor yağı soğutma sıvısı devresine karışıyor; oluşan yağ-su karışımı tüm hortumlara, valflere ve hatta torpido içindeki kalorifer radyatörüne kadar yayılıyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2.5–3 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-253-milyon-tl-82/"
+          ]
+        },
+        {
+          "sorun_adi": "Turbo contası (o-ring) kaçakları ve turbo wastegate aktüatör kolunun bozulması",
+          "etkilenen_parca": "Turbo contası ve wastegate aktüatörü",
+          "belirtiler": "Turbo contası (o-ring) kaçakları; turbo wastegate aktüatör kolunun bozulması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2.5–3 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-253-milyon-tl-82/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Giulia (952, 2016-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yüksek hızlarda kaput titremesi ve sık ayar gerekmesi; sunroof ve kadran üstünden trim sesleri",
+          "etkilenen_parca": "Kaput ve kabin trimi",
+          "belirtiler": "Yüksek hızlarda kaput titriyor ve sık ayar gerektiriyor; sunroof'tan ve kadranın üstünden trim sesleri gelebiliyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2.5–3 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-253-milyon-tl-82/"
+          ]
+        },
+        {
+          "sorun_adi": "Yavaş orta ekran, ESP'nin tamamen kapatılamaması ve yüksek tüketim",
+          "etkilenen_parca": "8,8 inç orta ekran, ESP ve yakıt tüketimi",
+          "belirtiler": "8,8 inçlik orta ekran yavaş (2020 öncesinde dokunmatik değil); ESP tamamen kapatılamıyor (data logger veya Multiecuscan ile mümkün ama masraflı); ortalama tüketim 10 litre.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2.5–3 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-253-milyon-tl-82/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Alfa Romeo",
       "model": "Giulietta (2010-2020)",
       "motor": "1.4 MultiAir Turbo 120/170",
       "uretim_yillari": {
@@ -5718,7 +5839,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -5758,6 +5880,18 @@
             "https://forum.donanimhaber.com/mito-alinir-mi--144877223",
             "https://www.sikayetvar.com/alfa-romeo/kronik/mito",
             "https://forum.donanimhaber.com/alfa-romeo-mito-incelemesi--132733332"
+          ]
+        },
+        {
+          "sorun_adi": "MiTo QV'de zorlanınca şanzıman arızası (tek gözlem)",
+          "etkilenen_parca": "Şanzıman (MiTo QV)",
+          "belirtiler": "Yazarın 2015 MiTo QV ile trafiğe kapalı bir yolda yaptığı sürüşte yaklaşık 15 dakika sonra şanzıman arızası vererek yolda kalması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tecrübe edip de anlatmadığım arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazı bunu kısa bir deneyim olarak aktarıyor ('lütfen fazla ciddiye almayın' uyarısıyla); kilometre / yaygınlık bilgisi yok."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tecrube-edip-de-anlatmadgm-arabalar-55/"
           ]
         }
       ]
@@ -7230,7 +7364,20 @@
         "baslangic": 2015,
         "bitis": 2019
       },
-      "kronik_sorunlar": [],
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Dizel motorlarda yağ pompası ve zincir riski",
+          "etkilenen_parca": "Yağ pompası ve zamanlama zinciri",
+          "belirtiler": "Yağ pompası arızası; zincir.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in '2025'te en çok tavsiye ettiğim otomobiller' yazısında bu aracın / sistemin sorunları arasında sayılıyor. 'En çok tavsiye ettiğim otomobiller' yazısında BMW 3 Serisi (2012-2018) için 'Dikkat: zincir ve (dizeller için) yağ pompası' olarak belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/"
+          ]
+        }
+      ],
       "aileler": [
         "bmw-dizel-egr-sogutucu"
       ]
@@ -7447,6 +7594,18 @@
             "https://forum.donanimhaber.com/bmw-3-serisi-g20--135227358-135",
             "https://forum.donanimhaber.com/bmw-3-serisi-g20--135227358-728",
             "https://forum.donanimhaber.com/bmw-3-serisi-g20--135227358-327"
+          ]
+        },
+        {
+          "sorun_adi": "Diferansiyel uğultusu; 15 bin km civarı bitebilen arka fren balataları; bazen açılmayan / kapanmayan yan aynalar",
+          "etkilenen_parca": "Diferansiyel, arka fren balataları ve yan aynalar",
+          "belirtiler": "Diferansiyel uğultusu; arka fren balatalarının 15 bin km civarı bitebilmesi; bazen açılmayan / kapanmayan yan aynalar.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '2.5–3 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/253-milyon-tl-aras-en-sorunsuz-arabalar-104/"
           ]
         }
       ]
@@ -7703,7 +7862,9 @@
             "onlem": "Sorun çözülse bile kış lastiğine geçilince farklı bir titreşim yeniden ortaya çıkabiliyor: yaz lastikleri runflat ve 'yıldızlı' (OEM), kışlıklar normal ve orijinal olmayan lastik olabiliyor. Yazıya göre süspansiyon kalibrasyonu yıldızlı RFT lastiklere göre yapıldığı için (örneğin Michelin Pilot Sport 4 ZP) yazlık ve kışlıkta bu tip lastikler kullanılmalı."
           },
           "kaynaklar": [
-            "https://andcetin.com/bmw-g30-titresim-problemi-60/"
+            "https://andcetin.com/bmw-g30-titresim-problemi-60/",
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/",
+            "https://andcetin.com/34-milyon-tl-aras-en-sorunsuz-arabalar-106/"
           ]
         }
       ]
@@ -8160,6 +8321,41 @@
       ]
     },
     {
+      "marka": "BMW",
+      "model": "iX3 (G08, 2020-2025)",
+      "motor": "Elektrik (eDrive30; 80 kWh)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": 2025
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Bazı örneklerde yüksek voltaj / tahrik arızası",
+          "etkilenen_parca": "Yüksek voltaj sistemi ve tahrik",
+          "belirtiler": "Bazı örneklerde yüksek voltaj / tahrik arızası görülebiliyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2.5–3 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-253-milyon-tl-82/"
+          ]
+        },
+        {
+          "sorun_adi": "Yaklaşık 50 bin km'de ön far gündüz LED'lerinin bozulması",
+          "etkilenen_parca": "Ön far gündüz LED'leri",
+          "belirtiler": "Ön far gündüz LED'leri bozuluyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2.5–3 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-253-milyon-tl-82/"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "BYD",
       "model": "Atto 3 (2023-)",
       "motor": "Elektrik (60,4 kWh, 150 kW)",
@@ -8187,6 +8383,88 @@
             "https://www.sikayetvar.com/byd/byd-atto-3-aracimin-arizasi-giderilemiyor-satis-sonrasi-hizmet-yetersiz",
             "https://www.malaymail.com/news/tech-gadgets/2025/05/06/power-system-failure-byd-atto-3-owner-claims-wheels-locked-on-cheras-kajang-highway-without-warning/175778",
             "https://www.speakev.com/threads/atto3-losing-charge-when-left-parked-up.193592/"
+          ]
+        },
+        {
+          "sorun_adi": "Adaptif hız sabitleyicinin kazaya sebebiyet vermesi (Euro NCAP 2024 testinde tavsiye edilmedi)",
+          "etkilenen_parca": "Adaptif hız sabitleyici ve sürüş destek sistemleri",
+          "belirtiler": "Euro NCAP'in 2024'te sürüş destek sistemlerinin nasıl çalıştığını da sınadığı testte adaptif hız sabitleyicinin kazaya yol açması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Çarpışma testleri rehberi ve en riskli otomobiller' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre model 2022'deki ilk testten (o dönem destek sistemleri yalnızca mevcudiyet açısından değerlendiriliyordu) 5 yıldızla ayrılmıştı; 2024'te yeniden test edildiğinde kurum, adaptif hız sabitleyicisi kazaya sebebiyet verdiği için Atto 3'ü 'tavsiye etmediklerini' belirtti."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/carpsma-testleri-rehberi-ve-en-riskli-otomobiller-57/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Chery",
+      "model": "Tiggo 7 / Tiggo 8 (2020-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolda kalma, erken akü bitmesi, sigorta kutusu ve start-stop arızası, motor arızası / tekleme / zincir-yağlama sistemi / devirdaim-su kaçağı, şanzıman arızası, fren diski eğilmesi",
+          "etkilenen_parca": "Akü, sigorta kutusu, motor, soğutma sistemi, şanzıman ve fren diskleri",
+          "belirtiler": "Yolda kalma; Erken akü bitmesi; Sigorta kutusu arızası; Start-stop arızası; Motor arızası / tekleme / zincir-yağlama sistemi / devirdaim-su kaçağı; Şanzıman arızası; Fren diski eğilmesi / titremesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "360 kamera, ön görüş kamerası ve park sensörü arızaları; ekran kapanması / donması; CarPlay / Bluetooth iletişim hataları; kablosuz şarjın aşırı ısınması; klima arızası; hava yastıklarının açılmaması ya da durduk yere açılması",
+          "etkilenen_parca": "Kameralar, ekranlar, multimedya, kablosuz şarj, klima ve hava yastıkları",
+          "belirtiler": "360 kamera / ön görüş kamerası / park sensörü arızası; Multimedya-gösterge ekranı kapanması / donması; CarPlay / Bluetooth / PLG iletişim hatası; Kablosuz şarjın aşırı ısınması; Klima arızası; Klima kontrol paneli soyulması / çatlaması; Hava yastıklarının açılmaması ya da durduk yere açılması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kaporta ve işçilik: su alma, boya atması, pas, kapı ve gövde ayarları, koltuk döşemesi, direksiyon kutusu ve rot-kamber ayarı, yüksek tüketim, aylarca parça bekleme",
+          "etkilenen_parca": "Kaporta, sızdırmazlık, boya, direksiyon kutusu, kabin ve parça tedariği",
+          "belirtiler": "Sunroof perdesi arızası; Tavandan-bagajdan su alma; Arka stop su alma-buğulanma-çatlama; Bagaj kapağının kendiliğinden açılma(ma)sı; Direksiyon kutusu / mafsal / direksiyon kaplaması deformasyonu; Sağa çekme-rot / kamber ayarı tutmaması; Alt takım ve trim sesleri; Bozuk kapı ayarı; Kapı kolu kırılması; Cam fitili eğilmesi; Koltuk döşemesi çatlaması; Boya atması / kabarması; Jant soyulması; Pas-korozyon; Krom çıta-yapışkan atması; Panjur / kaput / tamponun yerine oturmaması; Yüksek yakıt tüketimi; Aylarca parça bekleme süresi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Chevrolet",
+      "model": "Aveo (T300, 2012-2013)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Hararet göstergesinin olmaması",
+          "etkilenen_parca": "Gösterge paneli",
+          "belirtiler": "Araçta hararet göstergesi yok.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '2025'te en çok tavsiye ettiğim otomobiller' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Aracın önerildiği 1.3 D motor sürümü için 'Dikkat' bölümünde belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/"
           ]
         }
       ]
@@ -8554,7 +8832,8 @@
       ],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -8594,7 +8873,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -8813,6 +9093,19 @@
             "https://forum.donanimhaber.com/citroen-c5-aircross-magdurlarindan-cagri--150460878-8",
             "https://forum.donanimhaber.com/citroen-c5-aircross-magdurlarindan-cagri--150460878-12"
           ]
+        },
+        {
+          "sorun_adi": "Tavan boya atması",
+          "etkilenen_parca": "Tavan boyası",
+          "belirtiler": "Tavan boyasında atma.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '2025'te en çok tavsiye ettiğim otomobiller' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda C5 Aircross (2019-2025) için 'Dikkat' bölümünde AdBlue ve DPF ile birlikte sayılıyor; 'Kroniğin elli tonu' yazısında 2023 öncesi eksantrik zinciri kırılması ve AdBlue-DPF sorunlarına yoğunlaştığı belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/",
+            "https://andcetin.com/kronigin-elli-tonu-107/"
+          ]
         }
       ]
     },
@@ -8827,7 +9120,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -9028,7 +9322,8 @@
         }
       ],
       "aileler": [
-        "stellantis-ev-tahrik-arizasi"
+        "stellantis-ev-tahrik-arizasi",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -9532,6 +9827,53 @@
     },
     {
       "marka": "Dacia",
+      "model": "Duster (2024-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Hibritlerde motor-şanzıman arızasıyla yolda kalma, enjektör arızaları, rampada gaz yememe, LPG'ye geçmeme ve basınç sensörü uyarısı, kalkışta titreme, turbo arızaları",
+          "etkilenen_parca": "Motor, şanzıman, enjektörler, LPG sistemi ve turbo",
+          "belirtiler": "Hibritlerde motor-şanzıman arızasıyla yolda kalma; Enjektör arızaları; Rampada motorun gaz yememesi; LPG'ye geçmeme ve basınç sensörü uyarısı; Kalkışlarda titreme / silkeleme; Turbo arızaları-tekleme-çekiş düşüklüğü.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Direksiyonun sertleşmesi / kilitlenmesi, fren sistemi uyarısı, erken akü bitmesi, ekran, kamera, park sensörü, Bluetooth, start-stop, SOS ve klima arızaları",
+          "etkilenen_parca": "Direksiyon, fren, akü, ekran ve elektronik",
+          "belirtiler": "Direksiyonun sertleşmesi / kilitlenmesi; Fren sistemi uyarısı; Erken akü bitmesi; Ekran donması ve kapanması; Geri görüş kamerasının çalışmaması; Park sensörünün hata vermesi; Bluetooth bağlantı kopmaları; Start-stop devre dışı kalması; SOS arızası; Klima-kaloriferin devreden çıkması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kaput-panjur-kapıların yerine oturmaması, su girmeleri (kapı içi, paspas altı, arka kapı fitilleri, far ve stoplar), paslanma, boya atması, plastik parça kırılması, trim sesleri, zayıf yalıtım",
+          "etkilenen_parca": "Kaporta, sızdırmazlık, boya ve kabin trimi",
+          "belirtiler": "Kaput-panjur-kapıların yerine oturmaması; Kapı içinden-paspas altından-arka kapı fitillerinden su girmesi; Far ve stopların içine su alma; Egzoz ve fren disklerinin paslanması; Kaput / tavan / kapı boyasında atma; Plastik parçaların düşmesi-kırılması; Trim sesleri; Zayıf yalıtım.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Dacia",
       "model": "Jogger (2022-)",
       "motor": "1.0 TCe 100 ECO-G (H4Dt, LPG)",
       "uretim_yillari": {
@@ -9707,6 +10049,123 @@
       ],
       "aileler": [
         "renault-h4bt-h4dt"
+      ]
+    },
+    {
+      "marka": "Dacia",
+      "model": "Sandero / Sandero Stepway (2021-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Hibritlerde motor-şanzıman arızasıyla yolda kalma, enjektör arızaları, rampada gaz yememe, LPG'ye geçmeme ve basınç sensörü uyarısı, kalkışta titreme, turbo arızaları",
+          "etkilenen_parca": "Motor, şanzıman, enjektörler, LPG sistemi ve turbo",
+          "belirtiler": "Hibritlerde motor-şanzıman arızasıyla yolda kalma; Enjektör arızaları; Rampada motorun gaz yememesi; LPG'ye geçmeme ve basınç sensörü uyarısı; Kalkışlarda titreme / silkeleme; Turbo arızaları-tekleme-çekiş düşüklüğü.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Direksiyonun sertleşmesi / kilitlenmesi, fren sistemi uyarısı, erken akü bitmesi, ekran, kamera, park sensörü, Bluetooth, start-stop, SOS ve klima arızaları",
+          "etkilenen_parca": "Direksiyon, fren, akü, ekran ve elektronik",
+          "belirtiler": "Direksiyonun sertleşmesi / kilitlenmesi; Fren sistemi uyarısı; Erken akü bitmesi; Ekran donması ve kapanması; Geri görüş kamerasının çalışmaması; Park sensörünün hata vermesi; Bluetooth bağlantı kopmaları; Start-stop devre dışı kalması; SOS arızası; Klima-kaloriferin devreden çıkması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kaput-panjur-kapıların yerine oturmaması, su girmeleri (kapı içi, paspas altı, arka kapı fitilleri, far ve stoplar), paslanma, boya atması, plastik parça kırılması, trim sesleri, zayıf yalıtım",
+          "etkilenen_parca": "Kaporta, sızdırmazlık, boya ve kabin trimi",
+          "belirtiler": "Kaput-panjur-kapıların yerine oturmaması; Kapı içinden-paspas altından-arka kapı fitillerinden su girmesi; Far ve stopların içine su alma; Egzoz ve fren disklerinin paslanması; Kaput / tavan / kapı boyasında atma; Plastik parçaların düşmesi-kırılması; Trim sesleri; Zayıf yalıtım.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Daihatsu",
+      "model": "Terios (1998-2007)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 1998,
+        "bitis": 2007
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "83 PS'lik triger kayışlı motorların conta yakmaya meyilli olması",
+          "etkilenen_parca": "1.3 benzinli motor (83 PS) ve kapak contası",
+          "belirtiler": "83 hp'lik motorlar triger kayışlı ve conta yakmaya meyilli (Toyota ile ortak geliştirilen 86 hp'lik motorlar ise zincirli ve sağlam).",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '500 bin TL'ye kadar en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/500-bin-tlye-kadar-en-sorunsuz-arabalar-90/"
+          ]
+        },
+        {
+          "sorun_adi": "Diferansiyel uğultusu, zayıf yol tutuş ve tedariği zor kaporta parçaları",
+          "etkilenen_parca": "Diferansiyel, yol tutuş ve kaporta parçaları",
+          "belirtiler": "Diferansiyel uğultusu; zayıf yol tutuş; tedariği zor kaporta parçaları.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '500 bin TL'ye kadar en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/500-bin-tlye-kadar-en-sorunsuz-arabalar-90/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Daihatsu",
+      "model": "YRV (2001-2007)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2001,
+        "bitis": 2007
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Bobin arızası",
+          "etkilenen_parca": "Ateşleme bobinleri",
+          "belirtiler": "Ateşleme bobini arızası.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 0–500.000 TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre bilinen tek sorun."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-0500000-tl-68/"
+          ]
+        },
+        {
+          "sorun_adi": "Kaporta parçalarının bulunmasının zor olması",
+          "etkilenen_parca": "Kaporta parçaları",
+          "belirtiler": "Yedek kaporta parçalarının temininin zor olması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 0–500.000 TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-0500000-tl-68/"
+          ]
+        }
       ]
     },
     {
@@ -9902,7 +10361,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -9934,7 +10394,8 @@
         }
       ],
       "aileler": [
-        "stellantis-ev-tahrik-arizasi"
+        "stellantis-ev-tahrik-arizasi",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -10011,6 +10472,58 @@
             "https://forum.donanimhaber.com/yeni-fiat-bravo-kulubu--21564253-238",
             "https://eksisozluk.com/fiat-bravo--266706?p=13",
             "https://eksisozluk.com/fiat-bravo--266706?p=14"
+          ]
+        },
+        {
+          "sorun_adi": "Yarı otomatik (Dualogic) modellerde şanzıman robotunun bozulması",
+          "etkilenen_parca": "Dualogic şanzıman robotu (aktüatör)",
+          "belirtiler": "Yarı otomatik modellerde şanzıman robotu bozulabiliyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 0–500.000 TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-0500000-tl-68/",
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/"
+          ]
+        },
+        {
+          "sorun_adi": "Yüksek km'lerde tavan döşemesinin sarkması",
+          "etkilenen_parca": "Tavan döşemesi",
+          "belirtiler": "Yüksek kilometrelerde tavan döşemesi sarkabiliyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 0–500.000 TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-0500000-tl-68/",
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/"
+          ]
+        },
+        {
+          "sorun_adi": "2011 modellerde EGR kapağının çatlaması ve motor soğutma suyunun boşalması",
+          "etkilenen_parca": "EGR kapağı ve soğutma sistemi",
+          "belirtiler": "2011 modellerde EGR kapağı çatlayabiliyor ve motor soğutma suyu boşalabiliyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 0–500.000 TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-0500000-tl-68/",
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/"
+          ]
+        },
+        {
+          "sorun_adi": "Direksiyon kutusunun arada boşluk varmış gibi ses yapması",
+          "etkilenen_parca": "Direksiyon kutusu",
+          "belirtiler": "Direksiyon kutusu arada boşluk varmış gibi ses yapabiliyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 0–500.000 TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-0500000-tl-68/",
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/"
           ]
         }
       ]
@@ -10436,6 +10949,18 @@
             "https://www.sikayetvar.com/fiat/egea/kronik",
             "https://forum.donanimhaber.com/fiat-egea-boya-atmasi--146059733"
           ]
+        },
+        {
+          "sorun_adi": "Bagajdan su alma; direksiyonda takılma ve kasılma",
+          "etkilenen_parca": "Bagaj sızdırmazlığı ve direksiyon",
+          "belirtiler": "Bagajdan su alma; direksiyonda takılma ve kasılma.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '500 bin–1 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. 'En sorunsuz arabalar' yazısında (Mart 2026) Egea için 'Dikkat' olarak, 1.4 Fire'da yağ eksiltme, dizellerde AdBlue ve DPF tıkanması ve DCT kararsızlık / arızaları ile birlikte sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/500-bin1-milyon-tl-aras-en-sorunsuz-arabalar-92/"
+          ]
         }
       ]
     },
@@ -10513,6 +11038,65 @@
     },
     {
       "marka": "Fiat",
+      "model": "Freemont (2011-2015)",
+      "motor": "2.0 MultiJet II 170 (Ultradrive 62TE otomatik)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Ultradrive 62TE şanzımanda özel yağ ve bakım eksikliği: hidrolik beyin (valve body) arızası, yavaş vites geçişleri ve 2. viteste takılı kalma",
+          "etkilenen_parca": "Chrysler Ultradrive 62TE otomatik şanzıman ve valve body",
+          "belirtiler": "Vites geçişlerinin yavaşlaması ve 2. viteste takılı kalma (P084B hata koduyla limp mode'a alma).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 500.000–1.000.000TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre şanzımanın mutlaka kendi özel yağının (Mopar ATF+4 MS-9602) kullanılması ve 80 bin km ya da 4 senede bir değiştirilmesi gerekiyor; aksi takdirde hidrolik beyin bozuluyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-5000001000000tl-72/"
+          ]
+        },
+        {
+          "sorun_adi": "Aküsünün davlumbaz arkasında olması: yanlış akü kullanımının elektrik-elektronik arızalara yol açması",
+          "etkilenen_parca": "12V akü ve elektrik sistemi",
+          "belirtiler": "Yanlış akü kullanımı nedeniyle birçok elektrik-elektronik arıza.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 500.000–1.000.000TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre akünün erişimi zor; orijinali pahalı ama uzun ömürlü, Optima Red 50 Amper öneriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-5000001000000tl-72/"
+          ]
+        },
+        {
+          "sorun_adi": "Sıcak havalarda eğimli yollarda hararet",
+          "etkilenen_parca": "Soğutma sistemi",
+          "belirtiler": "Sıcak havalarda nispeten yüksek devir gerektiren eğimli yollarda motorun hararet yapıp su kaynatması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 500.000–1.000.000TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıdaki dikkat edilecek noktalar arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-5000001000000tl-72/"
+          ]
+        },
+        {
+          "sorun_adi": "Bluetooth modülü ve otomatik far arızaları",
+          "etkilenen_parca": "Bluetooth modülü ve otomatik far sistemi",
+          "belirtiler": "Bluetooth modülü ve otomatik far arızaları.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 500.000–1.000.000TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre yaygın."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-5000001000000tl-72/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
       "model": "Grande Panda Electric (2025-)",
       "motor": "Elektrik (Smart Car; 44 kWh LFP)",
       "uretim_yillari": {
@@ -10535,7 +11119,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -11317,6 +11902,53 @@
     },
     {
       "marka": "Ford",
+      "model": "Focus 1 (1998-2004)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 1998,
+        "bitis": 2004
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "LPG'li ZETEC benzinlilerde rölanti dalgalanması",
+          "etkilenen_parca": "Gaz kelebeği ve LPG sistemi",
+          "belirtiler": "Benzinli ZETEC motorlara LPG takıldığında rölanti dalgalanmaları baş gösteriyor; gaz kelebeğinin düzenli olarak temizlenmesi gerekiyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 0–500.000 TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-0500000-tl-68/"
+          ]
+        },
+        {
+          "sorun_adi": "Merkezi kilit sisteminin bozulması; ön salıncak burçları ve rot başlarının aşınması",
+          "etkilenen_parca": "Merkezi kilit, ön salıncak burçları ve rot başları",
+          "belirtiler": "Merkezi kilit sistemi bozulabiliyor; ön salıncak burçları ve rot başları bozuk yollarda hızlı aşınıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 0–500.000 TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-0500000-tl-68/"
+          ]
+        },
+        {
+          "sorun_adi": "Makyajsız (1998-2001) modellerde çamurluk ağızlarında paslanma; debriyaj aşınınca geri vitese geçişin zorlaşması",
+          "etkilenen_parca": "Çamurluk ağızları ve debriyaj",
+          "belirtiler": "Makyajsız modellerde (1998-2001) çamurluk ağızları paslanıyor; debriyajı aşınmış örneklerde özellikle geri vitese geçiş zorlaşıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 0–500.000 TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-0500000-tl-68/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Ford",
       "model": "Focus 2 (2004-2011)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
@@ -11815,6 +12447,56 @@
     },
     {
       "marka": "Honda",
+      "model": "Accord (X, 2017-2023)",
+      "motor": "1.5 VTEC Turbo 190 (LL-CVT)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "honda-1-5-vtec-turbo"
+      ]
+    },
+    {
+      "marka": "Honda",
+      "model": "Accord (X, 2017-2023)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "CVT nedeniyle son sürat ~200 km/s ile sınırlı; 9-10 litre şehir içi tüketim; tek parça yatan arka koltuklar; bagaj kapağında süspansiyon olmaması",
+          "etkilenen_parca": "CVT şanzıman, yakıt tüketimi, arka koltuk ve bagaj kapağı",
+          "belirtiler": "Son sürat CVT'den ötürü ~200 km/s ile sınırlı; şehir içi tüketim 9-10 litre; 40/60 yerine tek parça halinde yatan arka koltuklar kullanışlılığı azaltıyor; bagaj kapağında süspansiyon kullanılmamış ve açıp kaparken ucuz bir izlenim bırakıyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 1.5–2 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıdaki 'Nelere dikkat etmeli' bölümünde sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-152-milyon-tl-77/",
+            "https://andcetin.com/225-milyon-tl-aras-en-sorunsuz-arabalar-101/"
+          ]
+        },
+        {
+          "sorun_adi": "Yüksek süratlerde ve bozuk yollarda yan aynalarda titreşim",
+          "etkilenen_parca": "Yan aynalar",
+          "belirtiler": "Yüksek süratlerde ve bozuk yollarda yan aynalarda titreşim.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 1.5–2 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. 'En sorunsuz arabalar' yazısının (Ağustos 2026) 'Dikkat' bölümünde sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-152-milyon-tl-77/",
+            "https://andcetin.com/225-milyon-tl-aras-en-sorunsuz-arabalar-101/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Honda",
       "model": "CR-V (2012-2018)",
       "motor": "1.6 i-DTEC",
       "uretim_yillari": {
@@ -11856,6 +12538,29 @@
     },
     {
       "marka": "Honda",
+      "model": "CR-V (RS, 2023-)",
+      "motor": "2.0 e:HEV hibrit 184 PS (e-CVT, 4x4)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyonda yapışma / takılma; yüksek basınçlı yakıt pompasının çatlaması; üst kapak contasından silindire soğutma sıvısı kaçağı",
+          "etkilenen_parca": "Direksiyon, yüksek basınçlı yakıt pompası ve silindir kapağı contası",
+          "belirtiler": "Direksiyonda yapışma / takılma; yüksek basınçlı yakıt pompasının çatlaması; üst kapak contasından silindire soğutma sıvısı kaçağı.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in '3–4 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre 2023 ve sonrası modeller bu üç nedenle ABD'de geri çağrıldı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/34-milyon-tl-aras-en-sorunsuz-arabalar-106/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Honda",
       "model": "CR-V (RW, 2017-2022)",
       "motor": "1.5 VTEC Turbo 173 (CVT)",
       "uretim_yillari": {
@@ -11865,6 +12570,29 @@
       "kronik_sorunlar": [],
       "aileler": [
         "honda-1-5-vtec-turbo"
+      ]
+    },
+    {
+      "marka": "Honda",
+      "model": "CR-V (RW, 2017-2022)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Şehir içinde 10 litre üstü yakıt tüketimi; CVT'nin ani hızlanmalarda motoru sürekli yüksek devirde tutması; elektrikli bagaj kapağı arızası",
+          "etkilenen_parca": "CVT şanzıman, yakıt tüketimi ve elektrikli bagaj kapağı",
+          "belirtiler": "Şehir içinde 10 litre üstü yakıt tüketimi; CVT şanzımanın ani hızlanmalarda motoru sürekli yüksek devirde tutan çalışma karakteri; elektrikli bagaj kapağı arızası.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '2.5–3 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre yurt dışında 2018 modellerde yağ seyrelmesine (motor yağına benzin karışması) bağlı yağ seviyesi yükselmesi şikâyetleri de var."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/253-milyon-tl-aras-en-sorunsuz-arabalar-104/"
+          ]
+        }
       ]
     },
     {
@@ -12178,6 +12906,56 @@
             "https://forum.donanimhaber.com/fd6-yi-nasil-bilirsiniz--132519227-2",
             "https://eksisozluk.com/honda-civic-fd6--5501686",
             "https://eksisozluk.com/kronik-otomobil-arizalari--6830878?p=9"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic (FE1, 2021-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyonun takılması sonucu (garanti kapsamında) direksiyon kutusu değişimi",
+          "etkilenen_parca": "Direksiyon kutusu",
+          "belirtiler": "Direksiyon takılması sonucu direksiyon kutusunun değiştirilmesi (garanti kapsamında).",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '1.5–2 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Aynı sorun 'En çok tavsiye ettiğim otomobiller' yazısında da anılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/",
+            "https://andcetin.com/152-milyon-tl-aras-en-sorunsuz-arabalar-98/"
+          ]
+        },
+        {
+          "sorun_adi": "Arka amortisör sızıntısı ve yol gürültüsü",
+          "etkilenen_parca": "Arka amortisörler ve yalıtım",
+          "belirtiler": "Arka amortisör sızıntısı; yol gürültüsü.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '1.5–2 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/",
+            "https://andcetin.com/152-milyon-tl-aras-en-sorunsuz-arabalar-98/"
+          ]
+        },
+        {
+          "sorun_adi": "LPG'li (Eco) modellerde tekleme ve katalitik konvertör arızası",
+          "etkilenen_parca": "LPG sistemi ve katalitik konvertör",
+          "belirtiler": "LPG'li modellerde tekleme ve katalitik konvertör arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '1.5–2 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/",
+            "https://andcetin.com/152-milyon-tl-aras-en-sorunsuz-arabalar-98/"
           ]
         }
       ]
@@ -12503,6 +13281,41 @@
     },
     {
       "marka": "Hyundai",
+      "model": "Getz (2002-2011)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyon tıkırtısı-sertleşmesi ve EPS arızası",
+          "etkilenen_parca": "Elektrikli direksiyon (EPS)",
+          "belirtiler": "Direksiyon tıkırtısı ve sertleşmesi; EPS arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '500 bin TL'ye kadar en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/500-bin-tlye-kadar-en-sorunsuz-arabalar-90/"
+          ]
+        },
+        {
+          "sorun_adi": "Anahtar okumama (immobilizer anteni) ve rölanti dalgalanması",
+          "etkilenen_parca": "İmmobilizer anteni ve rölanti",
+          "belirtiler": "Anahtarın okunmaması (immobilizer anteni); rölanti dalgalanması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '500 bin TL'ye kadar en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/500-bin-tlye-kadar-en-sorunsuz-arabalar-90/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "Ioniq 5 / Ioniq 6 (2022-)",
       "motor": "Elektrik (E-GMP; Ioniq 5 58 / 72,6 kWh)",
       "uretim_yillari": {
@@ -12619,6 +13432,41 @@
       "aileler": [
         "hyundai-kia-1-0-t-gdi",
         "hyundai-kia-7dct"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Santa Fe (TM, 2019-2023)",
+      "motor": "1.6 T-GDI Hybrid 230 (6 ileri tork konvertörlü)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Hibrit sistemle ilgili titreme-silkeleme: bobin ve buji değişiminin sorunu çözmemesi",
+          "etkilenen_parca": "Hibrit sistem / ateşleme",
+          "belirtiler": "Hibrit sistemle alakalı titreme-silkeleme sorunu; servis bobin ve bujileri değiştiriyor ancak sorun çözülmüyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2.5–3 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-253-milyon-tl-82/"
+          ]
+        },
+        {
+          "sorun_adi": "Batarya arızası sonucu yolda kalma: yurt dışından parça tedarikinin haftalar sürmesi",
+          "etkilenen_parca": "Yüksek voltaj bataryası",
+          "belirtiler": "Batarya arızası sonucu yolda kalma; yurt dışından parça tedariği haftalar sürebiliyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2.5–3 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-253-milyon-tl-82/"
+          ]
+        }
       ]
     },
     {
@@ -13016,6 +13864,30 @@
             "https://www.sikayetvar.com/hyundai-motor/i20/kronik",
             "https://forum.donanimhaber.com/hyundai-i20-eps-direksiyon-arizasi-hakkinda--137038114"
           ]
+        },
+        {
+          "sorun_adi": "Direksiyon tıkırtısı-kaplini; iç mekan, cam tavan ve ön takımdan gelen tıkırtılar",
+          "etkilenen_parca": "Direksiyon kaplini, kabin, cam tavan ve ön takım",
+          "belirtiler": "Direksiyon tıkırtısı (kaplin); iç mekan, cam tavan ve ön takımdan gelen tıkırtılar.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '500 bin–1 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/500-bin1-milyon-tl-aras-en-sorunsuz-arabalar-92/"
+          ]
+        },
+        {
+          "sorun_adi": "Manuel 1.2 MPI'lerde debriyaj sertleşmesi ve kalkışlarda titreme; arka camın kendiliğinden patlaması",
+          "etkilenen_parca": "Manuel şanzıman debriyajı ve arka cam",
+          "belirtiler": "Manuel 1.2 MPI'lerde debriyaj sertleşmesi ve kalkışlarda titreme; arka camın kendiliğinden patlaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '500 bin–1 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/500-bin1-milyon-tl-aras-en-sorunsuz-arabalar-92/"
+          ]
         }
       ]
     },
@@ -13221,6 +14093,65 @@
       ]
     },
     {
+      "marka": "Jaguar",
+      "model": "XJ (X351, 2010-2019)",
+      "motor": "2.0i turbo benzin 240 PS (Ford EcoBoost; ZF 8HP)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Benzin pompası arızası ve 2015 öncesi modellerde devirdaim pompası sızıntıları",
+          "etkilenen_parca": "Yakıt pompası ve devirdaim pompası",
+          "belirtiler": "Benzin pompası arızalanabiliyor; bilhassa 2015 öncesi modellerde devirdaim pompası sızıntıları yaygın.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2–2.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/"
+          ]
+        },
+        {
+          "sorun_adi": "Plastik genleşme tankı, radyatör boruları ve intercooler hava kanallarının çatlaması / kırılması: soğutma sıvısı sızıntısı ve hararet",
+          "etkilenen_parca": "Plastik genleşme tankı, radyatör boruları, intercooler hava kanalları",
+          "belirtiler": "Plastik genleşme tankı ısıya ve basınca dayanamayıp çatlıyor; plastik radyatör boruları kırılıp soğutma sıvısı sızabiliyor ve hararete yol açabiliyor; intercooler hava kanalları çatlayabiliyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2–2.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/"
+          ]
+        },
+        {
+          "sorun_adi": "100 bin km'den sonra ön süspansiyon gürültüsü; arka havalı süspansiyonda sızıntı",
+          "etkilenen_parca": "Ön süspansiyon kolları / burçları ve arka havalı süspansiyon (pompa / körük)",
+          "belirtiler": "100 bin km'den sonra ön süspansiyonlar gürültülü çalışmaya başlıyor (kolların ve/veya burçların değişmesi gerekiyor); arka havalı süspansiyonlar sızıntı yapıyor (pompa ve/veya körüklerin değişmesi gerekiyor).",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2–2.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/"
+          ]
+        },
+        {
+          "sorun_adi": "2013 öncesi araçlarda panoramik cam tavan raylarının paslanması; klima kompresörü ve alternatör arızaları",
+          "etkilenen_parca": "Panoramik cam tavan rayları, klima kompresörü ve alternatör",
+          "belirtiler": "2013 öncesi araçlarda panoramik cam tavan etrafındaki raylar paslanabiliyor; klima kompresörü ve alternatör de bozulabiliyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2–2.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Jeep",
       "model": "Avenger Electric (2023-)",
       "motor": "Elektrik (54 kWh, 115 kW / 156 PS)",
@@ -13265,7 +14196,8 @@
         }
       ],
       "aileler": [
-        "stellantis-ev-tahrik-arizasi"
+        "stellantis-ev-tahrik-arizasi",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -13279,7 +14211,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -13351,7 +14284,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -13934,6 +14868,30 @@
             "https://kia-forums.com/3g-2011-2016-sportage/84501-sunroof-problem.html",
             "https://kia-forums.com/3g-2011-2016-sportage/76715-debris-sunroof-tracks.html"
           ]
+        },
+        {
+          "sorun_adi": "Ön konsol ve torpido çatlaması; sunroof'tan su alma ve tıkırtı",
+          "etkilenen_parca": "Ön konsol, torpido ve sunroof",
+          "belirtiler": "Ön konsol ve torpido çatlaması; sunroof'tan su alma ve tıkırtı.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '500 bin–1 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/500-bin1-milyon-tl-aras-en-sorunsuz-arabalar-92/"
+          ]
+        },
+        {
+          "sorun_adi": "Direkt enjeksiyonlu GDI benzinlide LPG kiti sorunları: geç çalışma, tekleme ve çekiş düşüklüğü",
+          "etkilenen_parca": "LPG sistemi ve direkt enjeksiyonlu motor",
+          "belirtiler": "LPG'li örneklerde geç çalışma, tekleme ve çekiş düşüklüğü.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '500 bin–1 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre GDI direkt enjeksiyonlu bir motor olduğu için LPG kiti konusunda seçici olunmalı; benzinlide yağ eksiltme de anılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/500-bin1-milyon-tl-aras-en-sorunsuz-arabalar-92/"
+          ]
         }
       ]
     },
@@ -14005,6 +14963,32 @@
     {
       "marka": "Kia",
       "model": "XCeed (2019-)",
+      "motor": "1.5 T-GDI 160 / 140 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Soğuk havada 1500-2500 d/d arası titreme (emme manifoldunda karbon birikimi)",
+          "etkilenen_parca": "Emme manifoldu ve emme supapları (direkt enjeksiyon)",
+          "belirtiler": "Soğuk havalarda 1500-2500 d/d arası titreme.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 1–1.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre sebebi düşük devirde uzun süreli kullanım sonucu emme manifoldunda karbon birikimi."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-115-milyon-tl-75/"
+          ]
+        }
+      ],
+      "aileler": [
+        "hyundai-kia-7dct"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "XCeed (2019-)",
       "motor": "T-GDI benzinli 1.0 / 1.4 (7 ileri çift kavramalı DCT)",
       "uretim_yillari": {
         "baslangic": 2019,
@@ -14040,6 +15024,18 @@
             "https://www.sikayetvar.com/kia/xceed",
             "https://www.sikayetvar.com/kia/xceed/ariza",
             "https://forum.donanimhaber.com/kia-xceed-alinir-mi--154000384-4"
+          ]
+        },
+        {
+          "sorun_adi": "Kaputta izolasyon keçesi olmaması: soğukken içeri fazla motor sesi girmesi (136 PS CRDi)",
+          "etkilenen_parca": "Kaput yalıtımı",
+          "belirtiler": "Kaputta izolasyon keçesi kullanılmadığı için özellikle soğukken içeri fazlaca motor sesi giriyor; 136 hp'lik CRDi sorunsuz ancak biraz fazla yakıyor (5.5-6 lt).",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 1–1.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-115-milyon-tl-75/"
           ]
         }
       ]
@@ -14221,6 +15217,46 @@
       ]
     },
     {
+      "marka": "Lexus",
+      "model": "LBX (2023-)",
+      "motor": "1.5 Hybrid 136 (M15A-FXE, e-CVT)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "12V akü arızaları: kısa sürede biten akü yüzünden kapıların açılmaması",
+          "etkilenen_parca": "12V akü",
+          "belirtiler": "12V akü arızaları yaygın; kısa sürede biten akü sebebiyle kapılar açılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2–2.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Bazı kullanıcılar 35 Amper'lik orijinal akü yerine 45 Amper'lik farklı marka takıyor. 'En sorunsuz arabalar' yazısında (Ağustos 2026) yetkili servis ilgisizliği ve bilgi eksikliği de anılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/",
+            "https://andcetin.com/225-milyon-tl-aras-en-sorunsuz-arabalar-101/"
+          ]
+        },
+        {
+          "sorun_adi": "Benzinli motor düşük hızlarda şarj için devreye girince kabine gürültü sızması; torsiyon arka süspansiyon, kaput amortisörü olmaması, dar arka yaşam alanı, cam tavan sunulmaması, sert koltuklar",
+          "etkilenen_parca": "Yalıtım, süspansiyon, kaput ve kabin",
+          "belirtiler": "Benzinli motor düşük hızlarda şarj için devreye girdiğinde kabine gürültü sızıyor; araçta kaput amortisörü yok, arka süspansiyonlar torsiyon, arka yaşam alanı dar (332 litre bagaj), cam tavan sunulmuyor ve koltuklar uzun yolculuklarda sert kalıyor; süspansiyonlar gergin.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2–2.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/",
+            "https://andcetin.com/225-milyon-tl-aras-en-sorunsuz-arabalar-101/"
+          ]
+        }
+      ],
+      "aileler": [
+        "toyota-hsd-hibrit"
+      ]
+    },
+    {
       "marka": "MG",
       "model": "HS (2021-)",
       "motor": "1.5 T (DCT)",
@@ -14286,6 +15322,66 @@
     },
     {
       "marka": "Mazda",
+      "model": "CX-5 (KE, 2012-2017)",
+      "motor": "2.2 SkyActiv-D",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Eksantrik milinin parçalanması: yatak sarmaya kadar giden motor hasarı",
+          "etkilenen_parca": "Eksantrik mili ve motor yatakları (2.2 SkyActiv-D)",
+          "belirtiler": "Eksantrik mili parçalanması ve yatak sarma.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in '2. el araç bakarken kaçınmanız gereken klişeler' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda 'Japonlar sorunsuzdur' klişesinin istisnaları arasında Mazda'nın 2.2 litre SkyActiv-D dizeli için sayılıyor (CX-5 modeli örnek olarak seçilmiştir; yazı belirli bir modeli adlandırmıyor)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2-el-arac-bakarken-kacnmanz-gereken-kliseler-49/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mazda",
+      "model": "CX-5 (KF, 2017-2025)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2025
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Marka Türkiye'den çekildi: yedek parça tedarik riski ve zayıf ikinci el piyasası",
+          "etkilenen_parca": "Yetkili servis / yedek parça ağı",
+          "belirtiler": "İkinci elde Mazda bakan herkesin aklındaki sorular: parça sıkıntısı çeker miyim, satarken zorlanır mıyım?",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 1.5–2 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre marka Türkiye'de kanunen yetkili servislerini 2033'e kadar faal tutmak zorunda; sonrası belirsiz. 'En sorunsuz arabalar' yazısında (Ağustos 2026) markanın Türkiye'den çekilmiş olması nedeniyle yedek parça tedarik riski ve zayıf ikinci el piyasası olarak anılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-152-milyon-tl-77/",
+            "https://andcetin.com/225-milyon-tl-aras-en-sorunsuz-arabalar-101/"
+          ]
+        },
+        {
+          "sorun_adi": "Vasat performans, 10 litrenin üzerinde şehir içi tüketim, gergin süspansiyon, demode bilgi-eğlence sistemi",
+          "etkilenen_parca": "2.0 Skyactiv-G motor, süspansiyon ve bilgi-eğlence sistemi",
+          "belirtiler": "165 hp ve 213 Nm'lik atmosferik 2.0 motorun performansı vasat, şehir içi tüketimi 10 litrenin üzerinde; süspansiyonlar biraz gergin ayarlı; arka diz mesafesi ve 506 litrelik bagaj bazı rakiplerinin gerisinde; bilgi-eğlence sistemi demode.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 1.5–2 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıdaki 'Nelere dikkat etmeli' bölümünde sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-152-milyon-tl-77/",
+            "https://andcetin.com/225-milyon-tl-aras-en-sorunsuz-arabalar-101/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mazda",
       "model": "Mazda 3 (BL, 2009-2013)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
@@ -14307,6 +15403,29 @@
             "https://www.sikayetvar.com/mazda/3/kronik",
             "https://www.carcomplaints.com/Mazda/MAZDA3/2010/accessories-interior/dashboard_melting.shtml",
             "https://www.carcomplaints.com/news/2014/mazda-lawsuit-melting-shiny-dashboards.shtml"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mazda",
+      "model": "RX-8 (2003-2012)",
+      "motor": "1.3 Wankel (Renesis)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "100 bin km'yi görmeden sandık motor gerekmesi; çok yüksek benzin ve yağ tüketimi",
+          "etkilenen_parca": "Wankel (Renesis) döner motor",
+          "belirtiler": "100 bin km'yi görmeden sandık motor gerektirmesi; 20 litrelerde benzin tüketimi ve buna neredeyse paralel yağ gereksinimi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Tecrübe edip de anlatmadığım arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazı bu bölümde yazarın kısa deneyimini anlatıyor ('lütfen fazla ciddiye almayın' uyarısıyla)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tecrube-edip-de-anlatmadgm-arabalar-55/"
           ]
         }
       ]
@@ -14362,6 +15481,65 @@
       "aileler": [
         "mercedes-om607-om608",
         "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "A Serisi (W177, 2018-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolda kalma, motor, buji-enjektör, ELV, akü, ABS / ESP / EBS ve sensör arızaları, direksiyon kilitlenmesi",
+          "etkilenen_parca": "Motor, buji / enjektör, ELV, akü, ABS-ESP-EBS ve direksiyon kilidi",
+          "belirtiler": "Yolda kalma; Motor arızası; Buji-enjektör arızası; ELV arızası; Akünün erken bitmesi; ABS / ESP / EBS-sensör arızaları; Direksiyon kilitlenmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Şanzıman, turbo, fren titremesi, 'tahrik gücü azaltıldı' uyarısı, şarj ve batarya sorunları, emniyet sistemi arızası",
+          "etkilenen_parca": "Şanzıman, turbo, fren, tahrik / şarj sistemi ve emniyet sistemi",
+          "belirtiler": "Şanzıman arızası / tekleme / vites geçişlerinde vuruntu-düzensizlik; Turbo arızası; Fren titremesi; 'Tahrik gücü azaltıldı' uyarısı; Şarj almama / hatası; Batarya geri çağırma / yangın riski / batarya değişimi belirsizliği; Emniyet sistemi arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Yazılım ve bağlantı: vaat edilen özelliklerin (Me Connect, uzaktan erişim, navigasyon, LTE modülü, ACC) aktif olmaması, ekran / SOS kilitlenmesi, kamera ve tabela okuma sistemi",
+          "etkilenen_parca": "Mercedes me connect, ekran / SOS sistemi, geri görüş kamerası ve tabela okuma sistemi",
+          "belirtiler": "Mercedes Me Connect / uzaktan erişim / navigasyon / LTE modülü / ACC gibi vaat edilen özelliklerin aktif olmaması; Ekran / SOS sisteminin kilitlenmesi; Geri görüş kamerasının sesi / kapanması; Tabela okuma sisteminin çalışmaması; Start-stop arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde: cam tavan / perde arızası, bagajdan su alma, kapı gıcırtısı / fitil atması, trim ve ön takım sesleri, silecek sorunları",
+          "etkilenen_parca": "Cam tavan, bagaj, kapı fitilleri, kabin trimi, ön takım ve silecekler",
+          "belirtiler": "Cam tavan / perde arızası; Bagajdan su alma; Kapı gıcırtısı / fitil atması; Trim / ön takım sesi; Silecek sesi / silecek suyunun çalışmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
       ]
     },
     {
@@ -14728,6 +15906,54 @@
             "https://www.sikayetvar.com/mercedes-benz/parca-eksikligi-ve-aracsiz-kalma-sorunu",
             "https://eksisozluk.com/w205--3757185"
           ]
+        },
+        {
+          "sorun_adi": "Yolda kalma, motor, buji-enjektör, ELV, akü, ABS / ESP / EBS ve sensör arızaları, direksiyon kilitlenmesi",
+          "etkilenen_parca": "Motor, buji / enjektör, ELV, akü, ABS-ESP-EBS ve direksiyon kilidi",
+          "belirtiler": "Yolda kalma; Motor arızası; Buji-enjektör arızası; ELV arızası; Akünün erken bitmesi; ABS / ESP / EBS-sensör arızaları; Direksiyon kilitlenmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Şanzıman, turbo, fren titremesi, 'tahrik gücü azaltıldı' uyarısı, şarj ve batarya sorunları, emniyet sistemi arızası",
+          "etkilenen_parca": "Şanzıman, turbo, fren, tahrik / şarj sistemi ve emniyet sistemi",
+          "belirtiler": "Şanzıman arızası / tekleme / vites geçişlerinde vuruntu-düzensizlik; Turbo arızası; Fren titremesi; 'Tahrik gücü azaltıldı' uyarısı; Şarj almama / hatası; Batarya geri çağırma / yangın riski / batarya değişimi belirsizliği; Emniyet sistemi arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Yazılım ve bağlantı: vaat edilen özelliklerin (Me Connect, uzaktan erişim, navigasyon, LTE modülü, ACC) aktif olmaması, ekran / SOS kilitlenmesi, kamera ve tabela okuma sistemi",
+          "etkilenen_parca": "Mercedes me connect, ekran / SOS sistemi, geri görüş kamerası ve tabela okuma sistemi",
+          "belirtiler": "Mercedes Me Connect / uzaktan erişim / navigasyon / LTE modülü / ACC gibi vaat edilen özelliklerin aktif olmaması; Ekran / SOS sisteminin kilitlenmesi; Geri görüş kamerasının sesi / kapanması; Tabela okuma sisteminin çalışmaması; Start-stop arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde: cam tavan / perde arızası, bagajdan su alma, kapı gıcırtısı / fitil atması, trim ve ön takım sesleri, silecek sorunları",
+          "etkilenen_parca": "Cam tavan, bagaj, kapı fitilleri, kabin trimi, ön takım ve silecekler",
+          "belirtiler": "Cam tavan / perde arızası; Bagajdan su alma; Kapı gıcırtısı / fitil atması; Trim / ön takım sesi; Silecek sesi / silecek suyunun çalışmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
         }
       ]
     },
@@ -14877,6 +16103,54 @@
           "kaynaklar": [
             "https://andcetin.com/bir-yldz-kaymas-mercedes-70/"
           ]
+        },
+        {
+          "sorun_adi": "Yolda kalma, motor, buji-enjektör, ELV, akü, ABS / ESP / EBS ve sensör arızaları, direksiyon kilitlenmesi",
+          "etkilenen_parca": "Motor, buji / enjektör, ELV, akü, ABS-ESP-EBS ve direksiyon kilidi",
+          "belirtiler": "Yolda kalma; Motor arızası; Buji-enjektör arızası; ELV arızası; Akünün erken bitmesi; ABS / ESP / EBS-sensör arızaları; Direksiyon kilitlenmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Şanzıman, turbo, fren titremesi, 'tahrik gücü azaltıldı' uyarısı, şarj ve batarya sorunları, emniyet sistemi arızası",
+          "etkilenen_parca": "Şanzıman, turbo, fren, tahrik / şarj sistemi ve emniyet sistemi",
+          "belirtiler": "Şanzıman arızası / tekleme / vites geçişlerinde vuruntu-düzensizlik; Turbo arızası; Fren titremesi; 'Tahrik gücü azaltıldı' uyarısı; Şarj almama / hatası; Batarya geri çağırma / yangın riski / batarya değişimi belirsizliği; Emniyet sistemi arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Yazılım ve bağlantı: vaat edilen özelliklerin (Me Connect, uzaktan erişim, navigasyon, LTE modülü, ACC) aktif olmaması, ekran / SOS kilitlenmesi, kamera ve tabela okuma sistemi",
+          "etkilenen_parca": "Mercedes me connect, ekran / SOS sistemi, geri görüş kamerası ve tabela okuma sistemi",
+          "belirtiler": "Mercedes Me Connect / uzaktan erişim / navigasyon / LTE modülü / ACC gibi vaat edilen özelliklerin aktif olmaması; Ekran / SOS sisteminin kilitlenmesi; Geri görüş kamerasının sesi / kapanması; Tabela okuma sisteminin çalışmaması; Start-stop arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde: cam tavan / perde arızası, bagajdan su alma, kapı gıcırtısı / fitil atması, trim ve ön takım sesleri, silecek sorunları",
+          "etkilenen_parca": "Cam tavan, bagaj, kapı fitilleri, kabin trimi, ön takım ve silecekler",
+          "belirtiler": "Cam tavan / perde arızası; Bagajdan su alma; Kapı gıcırtısı / fitil atması; Trim / ön takım sesi; Silecek sesi / silecek suyunun çalışmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
         }
       ]
     },
@@ -14904,6 +16178,124 @@
       "kronik_sorunlar": [],
       "aileler": [
         "mercedes-om654"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "CLA (C118, 2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolda kalma, motor, buji-enjektör, ELV, akü, ABS / ESP / EBS ve sensör arızaları, direksiyon kilitlenmesi",
+          "etkilenen_parca": "Motor, buji / enjektör, ELV, akü, ABS-ESP-EBS ve direksiyon kilidi",
+          "belirtiler": "Yolda kalma; Motor arızası; Buji-enjektör arızası; ELV arızası; Akünün erken bitmesi; ABS / ESP / EBS-sensör arızaları; Direksiyon kilitlenmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Şanzıman, turbo, fren titremesi, 'tahrik gücü azaltıldı' uyarısı, şarj ve batarya sorunları, emniyet sistemi arızası",
+          "etkilenen_parca": "Şanzıman, turbo, fren, tahrik / şarj sistemi ve emniyet sistemi",
+          "belirtiler": "Şanzıman arızası / tekleme / vites geçişlerinde vuruntu-düzensizlik; Turbo arızası; Fren titremesi; 'Tahrik gücü azaltıldı' uyarısı; Şarj almama / hatası; Batarya geri çağırma / yangın riski / batarya değişimi belirsizliği; Emniyet sistemi arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Yazılım ve bağlantı: vaat edilen özelliklerin (Me Connect, uzaktan erişim, navigasyon, LTE modülü, ACC) aktif olmaması, ekran / SOS kilitlenmesi, kamera ve tabela okuma sistemi",
+          "etkilenen_parca": "Mercedes me connect, ekran / SOS sistemi, geri görüş kamerası ve tabela okuma sistemi",
+          "belirtiler": "Mercedes Me Connect / uzaktan erişim / navigasyon / LTE modülü / ACC gibi vaat edilen özelliklerin aktif olmaması; Ekran / SOS sisteminin kilitlenmesi; Geri görüş kamerasının sesi / kapanması; Tabela okuma sisteminin çalışmaması; Start-stop arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde: cam tavan / perde arızası, bagajdan su alma, kapı gıcırtısı / fitil atması, trim ve ön takım sesleri, silecek sorunları",
+          "etkilenen_parca": "Cam tavan, bagaj, kapı fitilleri, kabin trimi, ön takım ve silecekler",
+          "belirtiler": "Cam tavan / perde arızası; Bagajdan su alma; Kapı gıcırtısı / fitil atması; Trim / ön takım sesi; Silecek sesi / silecek suyunun çalışmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "CLA (C119, 2025-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2025,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Sağa-sola çekme, kayma hissi, sürüş asistanlarının devre dışı kalması, göstergelerin kararması, multimedyanın kilitlenmesi, Mercedes Me bağlantısının kesilmesi",
+          "etkilenen_parca": "Direksiyon / ön takım, sürüş asistanları, gösterge ve multimedya",
+          "belirtiler": "Sağa-sola çekme; Kayma hissi; Sürüş asistanlarının devre dışı kalması; Göstergelerin kararması; Multimedyanın kilitlenmesi; Mercedes Me bağlantısının kesilmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Hibritlerde şanzıman / tahrik uyarısıyla güç kısıtlanması ve yolda kalma, vuruntulu vites geçişleri, frenlerde ötme",
+          "etkilenen_parca": "Hibrit tahrik sistemi ve frenler",
+          "belirtiler": "Şanzıman / tahrik uyarısıyla güç kısıtlanması ve yolda kalma; Vuruntulu vites geçişleri; Frenlerde ötme.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Elektriklilerde 12V elektrik sistemi hatasıyla yolda kalma, batarya arızası / değişimi, şarj hataları, klimadan cızırtı-ıslık sesi",
+          "etkilenen_parca": "12V sistem, yüksek voltaj bataryası, şarj ve klima",
+          "belirtiler": "12V elektrik sistemi hatasıyla yolda kalma; Batarya arızası / değişimi; Şarj hataları; Klimadan gelen cızırtı-ıslık sesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Silecek sesi ve iz bırakması, trim sesleri, camların durduk yere çalışması / çalışmaması, farların titremesi ve adaptif işlevini kaybetmesi",
+          "etkilenen_parca": "Silecekler, kabin trimi, camlar ve farlar",
+          "belirtiler": "Sileceklerin ses yapması ve iz bırakması; Trim sesleri; Camların durduk yere çalışması / çalışmaması; Farların titremesi / yanıp sönmesi / adaptif işlevini kaybetmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
       ]
     },
     {
@@ -15045,6 +16437,18 @@
             "https://www.sikayetvar.com/mercedes-benz/e-250/arizalari",
             "https://forum.donanimhaber.com/test-mercedes-benz-e-200-cgi-resimli--37483362",
             "https://forum.donanimhaber.com/m271-evo-1-8cgi-motor-eksantrik-disli-ve-zincir-sesi-problemi--131285263"
+          ]
+        },
+        {
+          "sorun_adi": "Termostat ve devirdaim pompası arızası",
+          "etkilenen_parca": "Termostat ve devirdaim pompası",
+          "belirtiler": "Termostat ve devirdaim pompası arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '2025'te en çok tavsiye ettiğim otomobiller' yazısında bu aracın / sistemin sorunları arasında sayılıyor. 'En çok tavsiye ettiğim otomobiller' yazısında Mercedes E Serisi (2010-2016) için 'Dikkat' olarak belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/"
           ]
         }
       ]
@@ -15223,6 +16627,54 @@
               "not": "ABD geri çağırması 2022-2024 EQB 300 / 350 4MATIC ve 2023-2024 EQB 250+ modellerini kapsıyor; Türkiye'de EQB 250+ sahipleri geri çağırma bildirimi aldığını yazıyor."
             }
           ]
+        },
+        {
+          "sorun_adi": "Yolda kalma, motor, buji-enjektör, ELV, akü, ABS / ESP / EBS ve sensör arızaları, direksiyon kilitlenmesi",
+          "etkilenen_parca": "Motor, buji / enjektör, ELV, akü, ABS-ESP-EBS ve direksiyon kilidi",
+          "belirtiler": "Yolda kalma; Motor arızası; Buji-enjektör arızası; ELV arızası; Akünün erken bitmesi; ABS / ESP / EBS-sensör arızaları; Direksiyon kilitlenmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Şanzıman, turbo, fren titremesi, 'tahrik gücü azaltıldı' uyarısı, şarj ve batarya sorunları, emniyet sistemi arızası",
+          "etkilenen_parca": "Şanzıman, turbo, fren, tahrik / şarj sistemi ve emniyet sistemi",
+          "belirtiler": "Şanzıman arızası / tekleme / vites geçişlerinde vuruntu-düzensizlik; Turbo arızası; Fren titremesi; 'Tahrik gücü azaltıldı' uyarısı; Şarj almama / hatası; Batarya geri çağırma / yangın riski / batarya değişimi belirsizliği; Emniyet sistemi arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Yazılım ve bağlantı: vaat edilen özelliklerin (Me Connect, uzaktan erişim, navigasyon, LTE modülü, ACC) aktif olmaması, ekran / SOS kilitlenmesi, kamera ve tabela okuma sistemi",
+          "etkilenen_parca": "Mercedes me connect, ekran / SOS sistemi, geri görüş kamerası ve tabela okuma sistemi",
+          "belirtiler": "Mercedes Me Connect / uzaktan erişim / navigasyon / LTE modülü / ACC gibi vaat edilen özelliklerin aktif olmaması; Ekran / SOS sisteminin kilitlenmesi; Geri görüş kamerasının sesi / kapanması; Tabela okuma sisteminin çalışmaması; Start-stop arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde: cam tavan / perde arızası, bagajdan su alma, kapı gıcırtısı / fitil atması, trim ve ön takım sesleri, silecek sorunları",
+          "etkilenen_parca": "Cam tavan, bagaj, kapı fitilleri, kabin trimi, ön takım ve silecekler",
+          "belirtiler": "Cam tavan / perde arızası; Bagajdan su alma; Kapı gıcırtısı / fitil atması; Trim / ön takım sesi; Silecek sesi / silecek suyunun çalışmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
         }
       ]
     },
@@ -15363,6 +16815,65 @@
       "kronik_sorunlar": [],
       "aileler": [
         "renault-mercedes-1-3-tce"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLB (X247, 2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolda kalma, motor, buji-enjektör, ELV, akü, ABS / ESP / EBS ve sensör arızaları, direksiyon kilitlenmesi",
+          "etkilenen_parca": "Motor, buji / enjektör, ELV, akü, ABS-ESP-EBS ve direksiyon kilidi",
+          "belirtiler": "Yolda kalma; Motor arızası; Buji-enjektör arızası; ELV arızası; Akünün erken bitmesi; ABS / ESP / EBS-sensör arızaları; Direksiyon kilitlenmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Şanzıman, turbo, fren titremesi, 'tahrik gücü azaltıldı' uyarısı, şarj ve batarya sorunları, emniyet sistemi arızası",
+          "etkilenen_parca": "Şanzıman, turbo, fren, tahrik / şarj sistemi ve emniyet sistemi",
+          "belirtiler": "Şanzıman arızası / tekleme / vites geçişlerinde vuruntu-düzensizlik; Turbo arızası; Fren titremesi; 'Tahrik gücü azaltıldı' uyarısı; Şarj almama / hatası; Batarya geri çağırma / yangın riski / batarya değişimi belirsizliği; Emniyet sistemi arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Yazılım ve bağlantı: vaat edilen özelliklerin (Me Connect, uzaktan erişim, navigasyon, LTE modülü, ACC) aktif olmaması, ekran / SOS kilitlenmesi, kamera ve tabela okuma sistemi",
+          "etkilenen_parca": "Mercedes me connect, ekran / SOS sistemi, geri görüş kamerası ve tabela okuma sistemi",
+          "belirtiler": "Mercedes Me Connect / uzaktan erişim / navigasyon / LTE modülü / ACC gibi vaat edilen özelliklerin aktif olmaması; Ekran / SOS sisteminin kilitlenmesi; Geri görüş kamerasının sesi / kapanması; Tabela okuma sisteminin çalışmaması; Start-stop arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde: cam tavan / perde arızası, bagajdan su alma, kapı gıcırtısı / fitil atması, trim ve ön takım sesleri, silecek sorunları",
+          "etkilenen_parca": "Cam tavan, bagaj, kapı fitilleri, kabin trimi, ön takım ve silecekler",
+          "belirtiler": "Cam tavan / perde arızası; Bagajdan su alma; Kapı gıcırtısı / fitil atması; Trim / ön takım sesi; Silecek sesi / silecek suyunun çalışmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
       ]
     },
     {
@@ -15860,6 +17371,53 @@
       ],
       "aileler": [
         "renault-h5ft-1-2-tce"
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "Juke (F16, 2020-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolda kalma, motor / sistem arızası, gaz tepkisi gecikmesi ve ardından ani fırlama, erken akü bitmesi, start-stop, ön kamera, turbo, enjektör ve alternatör arızaları",
+          "etkilenen_parca": "Motor, gaz tepkisi, akü, start-stop, kamera, turbo, enjektör ve alternatör",
+          "belirtiler": "Yolda kalma; Motor / sistem arızası; Gaz tepkisi gecikmesi ve ardından ani fırlama; Erken akü bitmesi; Start/stop-ön kamera-turbo-enjektör-alternatör arızaları.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Ekranda soyulma ve kapanma; sürüş asistanlarında yersiz uyarı, gereksiz frenleme veya devreden çıkma",
+          "etkilenen_parca": "Ekran ve sürüş asistanları",
+          "belirtiler": "Ekranda soyulma ve kapanma; Sürüş asistanlarında yersiz uyarı, gereksiz frenleme veya devreden çıkma.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Klima menfezlerinin kırılması, kapı ayarsızlığı, iç plastik parçaların düşmesi, tavan şeridinin çıkması, direksiyon simidinde soyulma",
+          "etkilenen_parca": "Kabin plastikleri, kapılar ve direksiyon simidi",
+          "belirtiler": "Klima menfezlerinin kırılması; Kapı ayarsızlığı; İç plastik parçaların düşmesi; Tavan şeridinin çıkması; Direksiyon simidinde soyulma.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
       ]
     },
     {
@@ -16729,7 +18287,8 @@
         }
       ],
       "aileler": [
-        "stellantis-ev-tahrik-arizasi"
+        "stellantis-ev-tahrik-arizasi",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -17466,7 +19025,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -17518,7 +19078,8 @@
         }
       ],
       "aileler": [
-        "stellantis-ev-tahrik-arizasi"
+        "stellantis-ev-tahrik-arizasi",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -17600,7 +19161,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -17689,7 +19251,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -18115,7 +19678,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -18199,6 +19763,41 @@
       ]
     },
     {
+      "marka": "Opel",
+      "model": "Zafira Tourer (2012-2019)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Arka frenlerin paslanması",
+          "etkilenen_parca": "Arka fren sistemi",
+          "belirtiler": "Arka frenler paslanabiliyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 500.000–1.000.000TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-5000001000000tl-72/"
+          ]
+        },
+        {
+          "sorun_adi": "Bagaj kapağının yerine tam oturmayıp sürüş esnasında açılabilmesi",
+          "etkilenen_parca": "Bagaj kapağı kilidi / oturması",
+          "belirtiler": "Bagaj kapağı yerine tam oturmayıp sürüş esnasında açılabiliyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 500.000–1.000.000TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-5000001000000tl-72/"
+          ]
+        }
+      ]
+    },
+    {
       "marka": "Peugeot",
       "model": "107 / 108 (2005-2021)",
       "motor": "1.0 VTi 68 (2-Tronic robotize şanzıman)",
@@ -18241,7 +19840,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -18373,6 +19973,30 @@
             "https://www.sikayetvar.com/peugeot/peugeot-208-ekran-acilip-kapaniyor",
             "https://forum.donanimhaber.com/yeni-peugeot-208-multimedya-sorunu--160126690",
             "https://forum.donanimhaber.com/2020-model-2008-peugeot-gosterge-ekran-sorunu--150427411"
+          ]
+        },
+        {
+          "sorun_adi": "Kaporta parçalarının farklı mikronlarda boyalı satılması ve boya atması",
+          "etkilenen_parca": "Kaporta boyası",
+          "belirtiler": "Pek çok 208'in kaporta parçalarının farklı mikronlarda boyalı satılması (sahipler bunu ancak sıfır araçlarını ekspertize soktuktan sonra fark etti); bazı örneklerde boya atması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 500.000–1.000.000TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-5000001000000tl-72/"
+          ]
+        },
+        {
+          "sorun_adi": "Sol ayağın dinlendirildiği kısmın davlumbaz nedeniyle geride olması: sol bacağın bükülü kullanılması",
+          "etkilenen_parca": "Pedal bölümü / davlumbaz girintisi",
+          "belirtiler": "Sol ayağı dinlendirme bölümünün davlumbaz nedeniyle normalden geride konumlanması; sol bacak bükülü sürülüyor ve bir süre sonra rahatsızlık veriyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 500.000–1.000.000TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-5000001000000tl-72/"
           ]
         }
       ]
@@ -18862,7 +20486,8 @@
           "kaynaklar": [
             "https://www.sikayetvar.com/peugeot/308/klima",
             "https://www.honestjohn.co.uk/forum/post/114720/peugeot-308-gt---308",
-            "https://www.honestjohn.co.uk/user-article/114611/peugeot-308-nissan"
+            "https://www.honestjohn.co.uk/user-article/114611/peugeot-308-nissan",
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/"
           ]
         }
       ]
@@ -19028,6 +20653,41 @@
     },
     {
       "marka": "Peugeot",
+      "model": "308 GTI (T9, 2016-2019)",
+      "motor": "1.6 THP 270 (EP6FDTX; Peugeot Sport)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yakıt deposu kanister valfi arızası: araç boğulup kontak açmıyor",
+          "etkilenen_parca": "Yakıt deposu kanister valfi",
+          "belirtiler": "Araç boğuluyor ve kontak açmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 1–1.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre 308 GTI'ın tek kroniği; parça değişmeli ancak maliyeti düşük, 1.000 TL civarı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-115-milyon-tl-75/"
+          ]
+        },
+        {
+          "sorun_adi": "Alcon frenlerin pahalı yenilenmesi ve pist kullanımında şanzıman bilyası kırılması",
+          "etkilenen_parca": "By Peugeot Sport sürümündeki Alcon frenler ve şanzıman",
+          "belirtiler": "Alcon fren diskleri en majör maliyet kaynağı; sık pist kullanımında şanzıman bilyası kırılabiliyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 1–1.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre ön iki disk yetkili serviste yaklaşık 90.000 TL."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-115-milyon-tl-75/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "407 (2004-2010)",
       "motor": "1.6 HDi 110 (DV6)",
       "uretim_yillari": {
@@ -19123,7 +20783,8 @@
       "kronik_sorunlar": [],
       "aileler": [
         "stellantis-1-2-hibrit-136",
-        "stellantis-e-dcs6"
+        "stellantis-e-dcs6",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -19348,7 +21009,8 @@
         }
       ],
       "aileler": [
-        "stellantis-ev-tahrik-arizasi"
+        "stellantis-ev-tahrik-arizasi",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -19381,7 +21043,8 @@
         }
       ],
       "aileler": [
-        "stellantis-ev-tahrik-arizasi"
+        "stellantis-ev-tahrik-arizasi",
+        "stellantis-yazilim-iscilik"
       ]
     },
     {
@@ -19451,6 +21114,65 @@
         "getrag-7dct300",
         "renault-edc",
         "renault-mercedes-1-3-tce"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Austral (2022-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Su kaçakları ve devirdaim pompası arızası, motorda yağ kaçakları, şanzıman arızası",
+          "etkilenen_parca": "Soğutma sistemi, motor contaları ve şanzıman",
+          "belirtiler": "Su kaçakları ve devirdaim pompası arızası; Motorda yağ kaçakları; Şanzıman arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Fren balatası gıcırtısı, frene basınca direksiyonun titremesi, direksiyonun sağa çekmesi",
+          "etkilenen_parca": "Fren ve direksiyon",
+          "belirtiler": "Fren balatası gıcırtısı; Frene basınca direksiyonun titremesi; Direksiyonun sağa çekmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Ekran donması, radyo kanallarının silinmesi, geri görüş kamerası, park sensörü ve çarpışma önleme sisteminin durduk yere devreye girmesi",
+          "etkilenen_parca": "Ekran, kamera, park sensörleri ve çarpışma önleme sistemi",
+          "belirtiler": "Ekran donması; Radyo kanallarının silinmesi; Geri görüş kamerasının çalışmaması; Park sensörleri ve çarpışma önleme sisteminin durduk yere devreye girmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Aşırı rüzgar sesi, trim sesleri, direksiyon ve butonlarda soyulmalar, kapı fitillerinin yırtılması, boya kalkması",
+          "etkilenen_parca": "Kabin trimi, kapı fitilleri ve boya",
+          "belirtiler": "Aşırı rüzgar sesi ve trim sesleri; Direksiyon ve butonlarda soyulmalar; Kapı fitillerinin yırtılması; Boya kalkması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
       ]
     },
     {
@@ -19920,6 +21642,42 @@
             "https://www.sikayetvar.com/renault/clio/10-tce",
             "https://www.sikayetvar.com/renault/clio/clio-5-motor-takozu",
             "https://www.sikayetvar.com/renault/clio/titreme"
+          ]
+        },
+        {
+          "sorun_adi": "Motor titreşimi, sık motor kulağı değişimi, rölanti dalgalanması, buji erimesi, klima açılınca tekleme, enjeksiyon-katalizör hataları ve yüksek yakıt tüketimi",
+          "etkilenen_parca": "Motor, motor takozları, bujiler, enjeksiyon ve katalizör",
+          "belirtiler": "Motor titreşimi; Sık motor kulağı değişimi; Rölantide dalgalanma; Buji eritme; Klimayı açınca tekleme; Enjeksiyon-katalizör hataları; Yüksek yakıt tüketimi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Turbo wastegate tıkırtısı, turbo değişimi, termostat ve devirdaim değişimi",
+          "etkilenen_parca": "Turboşarj, termostat ve devirdaim pompası",
+          "belirtiler": "Turbo wastegate tıkırtısı; Turbo değişimi; Termostat ve devirdaim değişimi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Alternatör-akü-şarj dinamosu arızaları, kaputu bırakınca farların kırılması, far buğusu, ön tekerlek bilyası",
+          "etkilenen_parca": "Alternatör / akü, farlar ve ön tekerlek bilyası",
+          "belirtiler": "Alternatör arızası; Alternatör-akü-şarj dinamosu arızaları; Kaputu bırakınca farların kırılması; Far buğusu; Ön tekerlek bilyası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
           ]
         }
       ],
@@ -21325,6 +23083,71 @@
             "https://www.sikayetvar.com/skoda/skoda-scala-guvenlik-uyarisi-ve-servis-tecrubem",
             "https://forum.donanimhaber.com/skoda-scala-2023-safe-cp-hatasi--155577477"
           ]
+        },
+        {
+          "sorun_adi": "Yolda kalma, 48V / alternatör ve tahrik sistemi hataları, gateway ve start-stop arızası, akünün erken bitmesi, S.O.S. arızası",
+          "etkilenen_parca": "48V sistem, alternatör, gateway, start-stop, akü ve tahrik sistemi",
+          "belirtiler": "S.O.S arızası; Tahrik arızası / tahrik sistemi hatası; Yolda kalma; 48V / alternatör arızası; Gateway arızası; Start-stop arızası; Akünün erken bitmesi; Aracı kapatıp 10 dk sonra tekrar kontağı açınca aracın çalışmaması (araçtan çıkıp kapıları kilitleyip 10 dk sonra tekrar denenince çalışması).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Şanzıman arızası / titremesi / ısınması, motor takozu, vites kolu, yağ eksiltme, rölanti titremesi ve buji arızası",
+          "etkilenen_parca": "Şanzıman, motor takozları, vites kolu, motor yağı ve bujiler",
+          "belirtiler": "Şanzıman arızası / titremesi / ısınması; Motor takozu değişimi; Vites kolu arızası; Yağ eksiltme; Rölanti titremesi / devir dalgalanması; Buji arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Sürüş asistanı hataları: 'Travel Assist devre dışı', durduk yere panik fren, bileşen koruma uyarıları, park sensörü ve kameralar",
+          "etkilenen_parca": "Sürüş asistanları, acil durum fren sistemi, park sensörü ve kameralar",
+          "belirtiler": "'Travel Assist devre dışı' hatası; Durduk yere panik fren yapan acil durum sistemi; Sürüş asistanı hataları; Bileşen koruma - güvenlik uyarıları; Durduk yere 'bip', korna ve flaşör sesi çıkması; Ön-arka park sensörü ve kameranın çalışmaması; Arka park kamerasının düşmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Multimedya: ekranın kapanması / donması, CarPlay kopması, ses tuşu ve hoparlör arızaları",
+          "etkilenen_parca": "Multimedya ekranı, ses sistemi ve hoparlörler",
+          "belirtiler": "Multimedya ekranının kapanması-açılmaması-yanıt vermemesi / donması; Ses açma tuşunun çalışmaması; Ses sisteminde sadece merkez hoparlörün çalışıp kapılardaki hoparlörlerden ses gelmemesi; Bluetooth veya CarPlay üzerinden konuşurken bazı hoparlörlerin çalışmaması; CarPlay bağlantısının kopması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde: camlar, klima tuşları ve boruları, sunroof dokunmatiği, bagaj kapağı, koltuk, trim sesleri, boya atması, gövde açıklıkları",
+          "etkilenen_parca": "Camlar, klima, sunroof, bagaj kapağı, koltuklar, kabin trimi ve boya",
+          "belirtiler": "Camların açılmaması; Klima tuşlarının çalışmaması; Klima borularının durduk yere yırtılması; Sunroof dokunmatiğinin bozulması (bazen çalışmaması, bazen açılıp kapanmaması); Cam çerçevesindeki kauçukların kopması; Otomatik bagaj kapağı arızası; Elektrikli koltuk arızası; Trim sesleri (kapılardaki piano black kaplamalardan gıcırtılar, Octavia'lardaki bagaj kaması sesi vb.); Direksiyon çatlağı; İç plastik erimesi; Havalandırma klipsi kırılması; Boya atması; Gövde parçalarının yerine oturmaması / açıklıklar.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
         }
       ]
     },
@@ -21454,6 +23277,71 @@
             "https://www.briskoda.net/forums/topic/493851-tailgate-leak/",
             "https://www.briskoda.net/forums/topic/509252-water-leak/",
             "https://www.briskoda.net/forums/topic/449712-bootdoor-drainage-on-kodiaq/"
+          ]
+        },
+        {
+          "sorun_adi": "Yolda kalma, 48V / alternatör ve tahrik sistemi hataları, gateway ve start-stop arızası, akünün erken bitmesi, S.O.S. arızası",
+          "etkilenen_parca": "48V sistem, alternatör, gateway, start-stop, akü ve tahrik sistemi",
+          "belirtiler": "S.O.S arızası; Tahrik arızası / tahrik sistemi hatası; Yolda kalma; 48V / alternatör arızası; Gateway arızası; Start-stop arızası; Akünün erken bitmesi; Aracı kapatıp 10 dk sonra tekrar kontağı açınca aracın çalışmaması (araçtan çıkıp kapıları kilitleyip 10 dk sonra tekrar denenince çalışması).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Şanzıman arızası / titremesi / ısınması, motor takozu, vites kolu, yağ eksiltme, rölanti titremesi ve buji arızası",
+          "etkilenen_parca": "Şanzıman, motor takozları, vites kolu, motor yağı ve bujiler",
+          "belirtiler": "Şanzıman arızası / titremesi / ısınması; Motor takozu değişimi; Vites kolu arızası; Yağ eksiltme; Rölanti titremesi / devir dalgalanması; Buji arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Sürüş asistanı hataları: 'Travel Assist devre dışı', durduk yere panik fren, bileşen koruma uyarıları, park sensörü ve kameralar",
+          "etkilenen_parca": "Sürüş asistanları, acil durum fren sistemi, park sensörü ve kameralar",
+          "belirtiler": "'Travel Assist devre dışı' hatası; Durduk yere panik fren yapan acil durum sistemi; Sürüş asistanı hataları; Bileşen koruma - güvenlik uyarıları; Durduk yere 'bip', korna ve flaşör sesi çıkması; Ön-arka park sensörü ve kameranın çalışmaması; Arka park kamerasının düşmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Multimedya: ekranın kapanması / donması, CarPlay kopması, ses tuşu ve hoparlör arızaları",
+          "etkilenen_parca": "Multimedya ekranı, ses sistemi ve hoparlörler",
+          "belirtiler": "Multimedya ekranının kapanması-açılmaması-yanıt vermemesi / donması; Ses açma tuşunun çalışmaması; Ses sisteminde sadece merkez hoparlörün çalışıp kapılardaki hoparlörlerden ses gelmemesi; Bluetooth veya CarPlay üzerinden konuşurken bazı hoparlörlerin çalışmaması; CarPlay bağlantısının kopması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde: camlar, klima tuşları ve boruları, sunroof dokunmatiği, bagaj kapağı, koltuk, trim sesleri, boya atması, gövde açıklıkları",
+          "etkilenen_parca": "Camlar, klima, sunroof, bagaj kapağı, koltuklar, kabin trimi ve boya",
+          "belirtiler": "Camların açılmaması; Klima tuşlarının çalışmaması; Klima borularının durduk yere yırtılması; Sunroof dokunmatiğinin bozulması (bazen çalışmaması, bazen açılıp kapanmaması); Cam çerçevesindeki kauçukların kopması; Otomatik bagaj kapağı arızası; Elektrikli koltuk arızası; Trim sesleri (kapılardaki piano black kaplamalardan gıcırtılar, Octavia'lardaki bagaj kaması sesi vb.); Direksiyon çatlağı; İç plastik erimesi; Havalandırma klipsi kırılması; Boya atması; Gövde parçalarının yerine oturmaması / açıklıklar.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
           ]
         }
       ]
@@ -21871,6 +23759,71 @@
             "https://www.sikayetvar.com/skoda/octavia/ses",
             "https://eksisozluk.com/skoda-octavia--134827?p=39"
           ]
+        },
+        {
+          "sorun_adi": "Yolda kalma, 48V / alternatör ve tahrik sistemi hataları, gateway ve start-stop arızası, akünün erken bitmesi, S.O.S. arızası",
+          "etkilenen_parca": "48V sistem, alternatör, gateway, start-stop, akü ve tahrik sistemi",
+          "belirtiler": "S.O.S arızası; Tahrik arızası / tahrik sistemi hatası; Yolda kalma; 48V / alternatör arızası; Gateway arızası; Start-stop arızası; Akünün erken bitmesi; Aracı kapatıp 10 dk sonra tekrar kontağı açınca aracın çalışmaması (araçtan çıkıp kapıları kilitleyip 10 dk sonra tekrar denenince çalışması).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Şanzıman arızası / titremesi / ısınması, motor takozu, vites kolu, yağ eksiltme, rölanti titremesi ve buji arızası",
+          "etkilenen_parca": "Şanzıman, motor takozları, vites kolu, motor yağı ve bujiler",
+          "belirtiler": "Şanzıman arızası / titremesi / ısınması; Motor takozu değişimi; Vites kolu arızası; Yağ eksiltme; Rölanti titremesi / devir dalgalanması; Buji arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Sürüş asistanı hataları: 'Travel Assist devre dışı', durduk yere panik fren, bileşen koruma uyarıları, park sensörü ve kameralar",
+          "etkilenen_parca": "Sürüş asistanları, acil durum fren sistemi, park sensörü ve kameralar",
+          "belirtiler": "'Travel Assist devre dışı' hatası; Durduk yere panik fren yapan acil durum sistemi; Sürüş asistanı hataları; Bileşen koruma - güvenlik uyarıları; Durduk yere 'bip', korna ve flaşör sesi çıkması; Ön-arka park sensörü ve kameranın çalışmaması; Arka park kamerasının düşmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Multimedya: ekranın kapanması / donması, CarPlay kopması, ses tuşu ve hoparlör arızaları",
+          "etkilenen_parca": "Multimedya ekranı, ses sistemi ve hoparlörler",
+          "belirtiler": "Multimedya ekranının kapanması-açılmaması-yanıt vermemesi / donması; Ses açma tuşunun çalışmaması; Ses sisteminde sadece merkez hoparlörün çalışıp kapılardaki hoparlörlerden ses gelmemesi; Bluetooth veya CarPlay üzerinden konuşurken bazı hoparlörlerin çalışmaması; CarPlay bağlantısının kopması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde: camlar, klima tuşları ve boruları, sunroof dokunmatiği, bagaj kapağı, koltuk, trim sesleri, boya atması, gövde açıklıkları",
+          "etkilenen_parca": "Camlar, klima, sunroof, bagaj kapağı, koltuklar, kabin trimi ve boya",
+          "belirtiler": "Camların açılmaması; Klima tuşlarının çalışmaması; Klima borularının durduk yere yırtılması; Sunroof dokunmatiğinin bozulması (bazen çalışmaması, bazen açılıp kapanmaması); Cam çerçevesindeki kauçukların kopması; Otomatik bagaj kapağı arızası; Elektrikli koltuk arızası; Trim sesleri (kapılardaki piano black kaplamalardan gıcırtılar, Octavia'lardaki bagaj kaması sesi vb.); Direksiyon çatlağı; İç plastik erimesi; Havalandırma klipsi kırılması; Boya atması; Gövde parçalarının yerine oturmaması / açıklıklar.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
         }
       ]
     },
@@ -22241,6 +24194,71 @@
             "https://www.sikayetvar.com/skoda/skoda-yeni-superb-2024-yazilim-sorunlari-ve-musteri-magduriyeti",
             "https://forum.donanimhaber.com/2024-skoda-superb-magdurlari--159293257"
           ]
+        },
+        {
+          "sorun_adi": "Yolda kalma, 48V / alternatör ve tahrik sistemi hataları, gateway ve start-stop arızası, akünün erken bitmesi, S.O.S. arızası",
+          "etkilenen_parca": "48V sistem, alternatör, gateway, start-stop, akü ve tahrik sistemi",
+          "belirtiler": "S.O.S arızası; Tahrik arızası / tahrik sistemi hatası; Yolda kalma; 48V / alternatör arızası; Gateway arızası; Start-stop arızası; Akünün erken bitmesi; Aracı kapatıp 10 dk sonra tekrar kontağı açınca aracın çalışmaması (araçtan çıkıp kapıları kilitleyip 10 dk sonra tekrar denenince çalışması).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Şanzıman arızası / titremesi / ısınması, motor takozu, vites kolu, yağ eksiltme, rölanti titremesi ve buji arızası",
+          "etkilenen_parca": "Şanzıman, motor takozları, vites kolu, motor yağı ve bujiler",
+          "belirtiler": "Şanzıman arızası / titremesi / ısınması; Motor takozu değişimi; Vites kolu arızası; Yağ eksiltme; Rölanti titremesi / devir dalgalanması; Buji arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Sürüş asistanı hataları: 'Travel Assist devre dışı', durduk yere panik fren, bileşen koruma uyarıları, park sensörü ve kameralar",
+          "etkilenen_parca": "Sürüş asistanları, acil durum fren sistemi, park sensörü ve kameralar",
+          "belirtiler": "'Travel Assist devre dışı' hatası; Durduk yere panik fren yapan acil durum sistemi; Sürüş asistanı hataları; Bileşen koruma - güvenlik uyarıları; Durduk yere 'bip', korna ve flaşör sesi çıkması; Ön-arka park sensörü ve kameranın çalışmaması; Arka park kamerasının düşmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Multimedya: ekranın kapanması / donması, CarPlay kopması, ses tuşu ve hoparlör arızaları",
+          "etkilenen_parca": "Multimedya ekranı, ses sistemi ve hoparlörler",
+          "belirtiler": "Multimedya ekranının kapanması-açılmaması-yanıt vermemesi / donması; Ses açma tuşunun çalışmaması; Ses sisteminde sadece merkez hoparlörün çalışıp kapılardaki hoparlörlerden ses gelmemesi; Bluetooth veya CarPlay üzerinden konuşurken bazı hoparlörlerin çalışmaması; CarPlay bağlantısının kopması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Kabin ve gövde: camlar, klima tuşları ve boruları, sunroof dokunmatiği, bagaj kapağı, koltuk, trim sesleri, boya atması, gövde açıklıkları",
+          "etkilenen_parca": "Camlar, klima, sunroof, bagaj kapağı, koltuklar, kabin trimi ve boya",
+          "belirtiler": "Camların açılmaması; Klima tuşlarının çalışmaması; Klima borularının durduk yere yırtılması; Sunroof dokunmatiğinin bozulması (bazen çalışmaması, bazen açılıp kapanmaması); Cam çerçevesindeki kauçukların kopması; Otomatik bagaj kapağı arızası; Elektrikli koltuk arızası; Trim sesleri (kapılardaki piano black kaplamalardan gıcırtılar, Octavia'lardaki bagaj kaması sesi vb.); Direksiyon çatlağı; İç plastik erimesi; Havalandırma klipsi kırılması; Boya atması; Gövde parçalarının yerine oturmaması / açıklıklar.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/vag-stellantis-yazlm-ve-iscilik-sorunlar-78/",
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
         }
       ]
     },
@@ -22353,6 +24371,29 @@
     },
     {
       "marka": "Subaru",
+      "model": "Forester (SH / SJ, 2008-2018)",
+      "motor": "2.0D boxer dizel (EE20)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Boxer dizel motorlarda blok çatlaması",
+          "etkilenen_parca": "Boxer dizel motor bloğu",
+          "belirtiler": "Blok çatlaması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in '2. el araç bakarken kaçınmanız gereken klişeler' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda 'Japonlar sorunsuzdur' klişesinin istisnaları arasında Subaru'ların blok çatlatmasıyla meşhur boxer dizel motorları için sayılıyor (Forester modeli örnek olarak seçilmiştir; yazı belirli bir modeli adlandırmıyor)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2-el-arac-bakarken-kacnmanz-gereken-kliseler-49/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Subaru",
       "model": "Forester (SJ, 2013-2018)",
       "motor": "2.0 boxer 150 (FB20)",
       "uretim_yillari": {
@@ -22426,6 +24467,41 @@
     },
     {
       "marka": "Suzuki",
+      "model": "S-Cross (2022-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Koltuk kumaşlarında buruşma, multimedya bağlantı kopması, bagajdaki plastik ve bakalitlerin kırılması",
+          "etkilenen_parca": "Koltuk kumaşı, multimedya ve bagaj plastikleri",
+          "belirtiler": "Koltuk kumaşlarında buruşma; multimedya bağlantı kopması; bagajdaki plastik ve bakalitlerin kırılması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '1.5–2 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/152-milyon-tl-aras-en-sorunsuz-arabalar-98/"
+          ]
+        },
+        {
+          "sorun_adi": "Düşük kilometrelerde V kayışının kopması sonucu hararet; enjektör kırılması",
+          "etkilenen_parca": "Yardımcı (V) kayış ve K14D enjektörleri",
+          "belirtiler": "Düşük kilometrelerde V kayışının kopması sonucu hararet; enjektör kırılması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in '1.5–2 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/152-milyon-tl-aras-en-sorunsuz-arabalar-98/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Suzuki",
       "model": "SX4 (2006-2014)",
       "motor": "1.6 DDiS 90 (DV6, DLD-416)",
       "uretim_yillari": {
@@ -22435,6 +24511,123 @@
       "kronik_sorunlar": [],
       "aileler": [
         "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Suzuki",
+      "model": "Swift (2011-2016)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "4 ileri tork konvertörlü otomatik nesilde zayıf performans",
+          "etkilenen_parca": "4 ileri tork konvertörlü otomatik şanzıman",
+          "belirtiler": "4 ileri tork konvertörlü otomatik şanzımanlı nesilde (-2016) zayıf performans (sonrasında CVT).",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '2025'te en çok tavsiye ettiğim otomobiller' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2025te-en-cok-tavsiye-ettigim-otomobiller-86/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Suzuki",
+      "model": "Swift (2017-2023)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Ekran donması, Bluetooth bağlantısının kesilmesi, geri görüş kamerasının ters göstermesi",
+          "etkilenen_parca": "Multimedya ekranı, Bluetooth ve geri görüş kamerası",
+          "belirtiler": "Ekran donması; Bluetooth bağlantısının kesilmesi; geri görüş kamerasının ters göstermesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '1–1.5 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/115-milyon-tl-aras-en-sorunsuz-arabalar-96/"
+          ]
+        },
+        {
+          "sorun_adi": "Direksiyon kutusu ve alt takım tıkırtıları; akünün erken bitmesi",
+          "etkilenen_parca": "Direksiyon kutusu, alt takım ve akü",
+          "belirtiler": "Direksiyon kutusu ve alt takım tıkırtıları; akünün erken bitmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '1–1.5 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/115-milyon-tl-aras-en-sorunsuz-arabalar-96/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Suzuki",
+      "model": "Vitara (2015-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Ön koltuk başlarında ve raylarında paslanma",
+          "etkilenen_parca": "Ön koltuk başlıkları ve rayları",
+          "belirtiler": "Ön koltuk başlarında ve raylarında paslanma.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '1–1.5 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/115-milyon-tl-aras-en-sorunsuz-arabalar-96/"
+          ]
+        },
+        {
+          "sorun_adi": "Ekran donması, dokunmatiğin gitmesi, CarPlay bağlantı kesintisi, geri görüş kamerasının kararması",
+          "etkilenen_parca": "Multimedya ekranı ve kamera",
+          "belirtiler": "Ekran donması; dokunmatiğin gitmesi; CarPlay bağlantı kesintisi; geri görüş kamerasının kararması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '1–1.5 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/115-milyon-tl-aras-en-sorunsuz-arabalar-96/"
+          ]
+        },
+        {
+          "sorun_adi": "Düşük kilometrelerde V kayışının kopması sonucu hararet; 1.4 hibritte (K14D) enjektör kırılması",
+          "etkilenen_parca": "Yardımcı (V) kayış ve K14D enjektörleri",
+          "belirtiler": "Düşük kilometrelerde V kayışının kopması sonucu hararet; 1.4 hibritlerde (K14D) enjektör kırılması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in '1–1.5 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/115-milyon-tl-aras-en-sorunsuz-arabalar-96/"
+          ]
+        },
+        {
+          "sorun_adi": "Trim sesleri, sert süspansiyonlar ve zayıf yalıtım",
+          "etkilenen_parca": "Kabin trimi, süspansiyon ve yalıtım",
+          "belirtiler": "Trim sesleri; sert süspansiyonlar; zayıf yalıtım.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in '1–1.5 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/115-milyon-tl-aras-en-sorunsuz-arabalar-96/"
+          ]
+        }
       ]
     },
     {
@@ -22669,6 +24862,53 @@
     },
     {
       "marka": "Togg",
+      "model": "T10F (2025-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2025,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolda kalma, aracın çalışmaması / kilitlenmesi, enerji sistemi-elektrik sistemi arızası, kaplumbağa modu, ESC arızası, ani güç kesme, seyir halinde boşa alma, 12V akünün erken bitmesi, OBC / OBD / PEU arızası",
+          "etkilenen_parca": "Enerji sistemi, yüksek voltaj / elektrik sistemi, ESC ve 12V akü",
+          "belirtiler": "Yolda kalma; Aracın çalışmaması / kilitlenmesi; Enerji sistemi - elektrik sistemi arızası; Kaplumbağa moduna geçme; ESC arızası; Ani güç kesme; Seyir halinde boşa alma; 12V akünün erken bitmesi; OBC / OBD / PEU arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "AC / DC şarj almama ve şarj soketi kilitlenmesi; ekran donması-kapanması, ses sistemi çökmesi, sürüş destek sistemi ve kamera arızaları",
+          "etkilenen_parca": "Şarj soketi, ekran, ses sistemi, sürüş destek sistemi ve kameralar",
+          "belirtiler": "AC / DC şarj almama / soket kilitlenmesi; Ekran donması-kapanması; Ses sistemi çökmesi; Sürüş destek sistemi ve kamera arızaları; Kapı-kilit-camların açılmaması; Silecek-klima arızaları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Fren sesi / titremesi, sağa-sola çekme, direksiyon gıcırtısı, amortisör ve trim sesleri, bagajdan su alma",
+          "etkilenen_parca": "Fren, direksiyon, amortisör, kabin trimi ve bagaj sızdırmazlığı",
+          "belirtiler": "Fren sesi / titremesi; Sağa-sola çekme; Direksiyon gıcırtısı; Amortisör ve trim sesleri; Bagajdan su alma.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Togg",
       "model": "T10X (2023-)",
       "motor": "Elektrik (V1 / V2 donanım; 52,4 kWh ve 88,5 kWh)",
       "uretim_yillari": {
@@ -22765,6 +25005,42 @@
             "https://www.sikayetvar.com/togg/togg-kapilar-acilmiyor-calismiyor-akusu-24-saatte-bitiyor",
             "https://www.sikayetvar.com/togg/soguk-hava",
             "https://www.sikayetvar.com/togg/arac-calismiyor/kapilar"
+          ]
+        },
+        {
+          "sorun_adi": "Yolda kalma, aracın çalışmaması / kilitlenmesi, enerji sistemi-elektrik sistemi arızası, kaplumbağa modu, ESC arızası, ani güç kesme, seyir halinde boşa alma, 12V akünün erken bitmesi, OBC / OBD / PEU arızası",
+          "etkilenen_parca": "Enerji sistemi, yüksek voltaj / elektrik sistemi, ESC ve 12V akü",
+          "belirtiler": "Yolda kalma; Aracın çalışmaması / kilitlenmesi; Enerji sistemi - elektrik sistemi arızası; Kaplumbağa moduna geçme; ESC arızası; Ani güç kesme; Seyir halinde boşa alma; 12V akünün erken bitmesi; OBC / OBD / PEU arızası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "AC / DC şarj almama ve şarj soketi kilitlenmesi; ekran donması-kapanması, ses sistemi çökmesi, sürüş destek sistemi ve kamera arızaları",
+          "etkilenen_parca": "Şarj soketi, ekran, ses sistemi, sürüş destek sistemi ve kameralar",
+          "belirtiler": "AC / DC şarj almama / soket kilitlenmesi; Ekran donması-kapanması; Ses sistemi çökmesi; Sürüş destek sistemi ve kamera arızaları; Kapı-kilit-camların açılmaması; Silecek-klima arızaları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Fren sesi / titremesi, sağa-sola çekme, direksiyon gıcırtısı, amortisör ve trim sesleri, bagajdan su alma",
+          "etkilenen_parca": "Fren, direksiyon, amortisör, kabin trimi ve bagaj sızdırmazlığı",
+          "belirtiler": "Fren sesi / titremesi; Sağa-sola çekme; Direksiyon gıcırtısı; Amortisör ve trim sesleri; Bagajdan su alma.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
           ]
         }
       ]
@@ -22959,6 +25235,29 @@
     },
     {
       "marka": "Toyota",
+      "model": "C-HR (2016-2024)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2024
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Zayıf yalıtım, trim sesleri, ekran donması, multimedya bağlantı kopması ve 12V akünün erken bitmesi",
+          "etkilenen_parca": "Yalıtım, kabin trimi, ekran / multimedya ve 12V akü",
+          "belirtiler": "Zayıf yalıtım; trim sesleri; ekran donması; multimedya bağlantı kopması; 12V akünün erken bitmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '1.5–2 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/152-milyon-tl-aras-en-sorunsuz-arabalar-98/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Toyota",
       "model": "Camry (XV70, 2019-)",
       "motor": "2.5 Hybrid (Dynamic Force, e-CVT)",
       "uretim_yillari": {
@@ -22968,6 +25267,41 @@
       "kronik_sorunlar": [],
       "aileler": [
         "toyota-hsd-hibrit"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla (E120, 2002-2007)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2007
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyon tıkırtısı ve 2002-2004 model benzinlilerde yağ eksiltme",
+          "etkilenen_parca": "Direksiyon sistemi ve motor (yağ tüketimi)",
+          "belirtiler": "Direksiyon tıkırtısı; 2002-2004 model benzinlilerde yağ eksiltme.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '500 bin TL'ye kadar en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/500-bin-tlye-kadar-en-sorunsuz-arabalar-90/"
+          ]
+        },
+        {
+          "sorun_adi": "MMT robotize şanzımanda aktüatör arızası, yokuşta geri kaçırma ve sarsıntılı geçişler",
+          "etkilenen_parca": "MMT (robotize manuel) şanzıman aktüatörü",
+          "belirtiler": "Aktüatör arızası, yokuşta geri kaçırma ve sarsıntılı geçişler.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in '500 bin TL'ye kadar en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıya göre 5 ileri MMT dizellerde (2006-2007) bulunuyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/500-bin-tlye-kadar-en-sorunsuz-arabalar-90/"
+          ]
+        }
       ]
     },
     {
@@ -23255,6 +25589,32 @@
           "kaynaklar": [
             "https://andcetin.com/toyota-corolla-direksiyon-kutusu-arzas-61/"
           ]
+        },
+        {
+          "sorun_adi": "Zayıf yalıtım (yol gürültüsü), direksiyon hissizliği ve zayıf müzik sistemi (kullanıcı şikâyetleri)",
+          "etkilenen_parca": "Yalıtım, direksiyon ve ses sistemi",
+          "belirtiler": "Rüzgar sesi bastırılsa da yol gürültüsünün içeri fazla girmesi; direksiyon hissizliği; zayıf müzik sistemi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 1–1.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıdaki 'Nelere dikkat etmeli' bölümünde Corolla Hatchback 1.2T için sayılıyor; 'En sorunsuz arabalar' yazısında da zayıf yalıtım anılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-115-milyon-tl-75/",
+            "https://andcetin.com/115-milyon-tl-aras-en-sorunsuz-arabalar-96/"
+          ]
+        },
+        {
+          "sorun_adi": "Akünün erken bitmesi",
+          "etkilenen_parca": "12V akü",
+          "belirtiler": "12V akünün erken bitmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 1–1.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor. 'En sorunsuz arabalar' serisinde (Mayıs 2026) Corolla (2019-) için 'Dikkat' bölümünde sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-115-milyon-tl-75/",
+            "https://andcetin.com/115-milyon-tl-aras-en-sorunsuz-arabalar-96/"
+          ]
         }
       ]
     },
@@ -23314,6 +25674,29 @@
           "kaynaklar": [
             "https://www.sikayetvar.com/toyota/toyota-corolla-cross-tavan-citalarinda-yasanan-sorunlar-ve-beklenen-cozumler",
             "https://amp.consumerreports.org/cars/toyota/corolla-cross/2023/reliability"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Hilux (AN120, 2016-2020)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "2020 makyajı öncesi modellerde AdBlue ve DPF sorunları",
+          "etkilenen_parca": "AdBlue sistemi ve dizel partikül filtresi",
+          "belirtiler": "AdBlue ve DPF sorunları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '2. el araç bakarken kaçınmanız gereken klişeler' yazısında bu aracın / sistemin sorunları arasında sayılıyor. Yazıda 'Japonlar sorunsuzdur' klişesinin istisnaları arasında, özellikle 2020 makyajı öncesi Toyota Hilux'lar için sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/2-el-arac-bakarken-kacnmanz-gereken-kliseler-49/"
           ]
         }
       ]
@@ -24158,6 +26541,41 @@
             "https://forum.donanimhaber.com/sifir-golf-8-ile-yasadigim-sorunlar--150729664",
             "https://www.sikayetvar.com/volkswagen/golf/golf-8",
             "https://www.sikayetvar.com/golf-8"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf R (Mk8, 2021-)",
+      "motor": "2.0 TSI 320 / 333 (EA888 Evo4, DQ381, 4Motion)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Travel Emergency Assist / SOS hataları ve ekran donmaları",
+          "etkilenen_parca": "Acil durum asistanı / SOS ve multimedya ekranı",
+          "belirtiler": "Travel-Emergency Assist / SOS hataları ve ekran donmaları gibi elektronik-yazılımsal sorunlar.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in '3–4 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/34-milyon-tl-aras-en-sorunsuz-arabalar-106/"
+          ]
+        },
+        {
+          "sorun_adi": "2022-2023 modellerde radyatörün gevşemesi ve hortumun kayışa sürtmesi sonucu soğutma suyu eksiltme",
+          "etkilenen_parca": "Radyatör ve soğutma hortumu",
+          "belirtiler": "Radyatörün gevşemesi ve hortumun kayışa sürtmesi sonucu soğutma suyu eksilmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in '3–4 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/34-milyon-tl-aras-en-sorunsuz-arabalar-106/"
           ]
         }
       ]
@@ -25020,6 +27438,54 @@
           "kaynaklar": [
             "https://andcetin.com/kronigin-elli-tonu-107/"
           ]
+        },
+        {
+          "sorun_adi": "Yolda kalma, 48V / alternatör ve tahrik sistemi hatası, aracın kendi kendine fren yapması, start-stop, 12V akü / şarj uyarısı, EPC / motor arızası, SOS ve 'anahtar algılanmadı' hatası",
+          "etkilenen_parca": "48V sistem, alternatör, 12V akü, tahrik ve fren sistemi",
+          "belirtiler": "Yolda kalma; 48V / alternatör arızası; Tahrik sistemi hatası; Aracın kendi kendine fren yapması; Start-stop arızası; 12V akü / şarj uyarısı; EPC / motor arızası; SOS uyarısı; 'Anahtar algılanmadı' hatası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Motor ve şanzıman: yağ eksiltme, kam mili-külbütör-buji arızaları, benzin kokusu / kaçağı, şanzıman arızaları ve ısınması, kalkışta tekleme / gaz kesme, motor takozu",
+          "etkilenen_parca": "Motor, yakıt sistemi, şanzıman ve motor takozları",
+          "belirtiler": "Yağ eksiltme; Kam mili-külbütör-buji / motor çevresi arızaları; Benzin kokusu / benzin kaçağı; Şanzıman arızaları / ısınması; Kalkışta tekleme-gaz kesme; Motor takozu değişimi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Elektronik: sürüş asistanı, ekran, CarPlay, far kumandası / yağmur sensörü / silecek otomatiği, korna, camlar ve koltuklar",
+          "etkilenen_parca": "Sürüş asistanları, ekran, ışık / silecek kumandaları, korna, camlar ve koltuklar",
+          "belirtiler": "Sürüş asistanı arızaları; Ekran kapanması / donması; CarPlay bağlantı kopması; Far kumanda / yağmur sensörü / silecek otomatiği arızası; Kornanın çalışmaması; Camların kapanırken geri açılması; Koltukların kendi kendine şişmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Gövde ve işçilik: direksiyon titremesi, sağa-sola çekme, ön takım-trim-koltuk-cam sesleri, klima menfezi kırılması, stop buğulanması / çatlaması, boya-panjur-lastik balonu-kaporta kusurları",
+          "etkilenen_parca": "Direksiyon, ön takım, kabin trimi, stop lambaları, boya ve kaporta",
+          "belirtiler": "Silecek sesi; Direksiyon titremesi; Sağa-sola çekme; Ön takım, trim, koltuk ve cam sesleri; Klima menfezi kırılması; Stop buğulanması / çatlaması; Boya, panjur, lastik balonu ve kaporta kusurları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
         }
       ]
     },
@@ -25070,6 +27536,65 @@
       ],
       "aileler": [
         "vag-1-5-tsi-evo"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Tayron (2025-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2025,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yolda kalma, 48V / alternatör ve tahrik sistemi hatası, aracın kendi kendine fren yapması, start-stop, 12V akü / şarj uyarısı, EPC / motor arızası, SOS ve 'anahtar algılanmadı' hatası",
+          "etkilenen_parca": "48V sistem, alternatör, 12V akü, tahrik ve fren sistemi",
+          "belirtiler": "Yolda kalma; 48V / alternatör arızası; Tahrik sistemi hatası; Aracın kendi kendine fren yapması; Start-stop arızası; 12V akü / şarj uyarısı; EPC / motor arızası; SOS uyarısı; 'Anahtar algılanmadı' hatası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Motor ve şanzıman: yağ eksiltme, kam mili-külbütör-buji arızaları, benzin kokusu / kaçağı, şanzıman arızaları ve ısınması, kalkışta tekleme / gaz kesme, motor takozu",
+          "etkilenen_parca": "Motor, yakıt sistemi, şanzıman ve motor takozları",
+          "belirtiler": "Yağ eksiltme; Kam mili-külbütör-buji / motor çevresi arızaları; Benzin kokusu / benzin kaçağı; Şanzıman arızaları / ısınması; Kalkışta tekleme-gaz kesme; Motor takozu değişimi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Elektronik: sürüş asistanı, ekran, CarPlay, far kumandası / yağmur sensörü / silecek otomatiği, korna, camlar ve koltuklar",
+          "etkilenen_parca": "Sürüş asistanları, ekran, ışık / silecek kumandaları, korna, camlar ve koltuklar",
+          "belirtiler": "Sürüş asistanı arızaları; Ekran kapanması / donması; CarPlay bağlantı kopması; Far kumanda / yağmur sensörü / silecek otomatiği arızası; Kornanın çalışmaması; Camların kapanırken geri açılması; Koltukların kendi kendine şişmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Gövde ve işçilik: direksiyon titremesi, sağa-sola çekme, ön takım-trim-koltuk-cam sesleri, klima menfezi kırılması, stop buğulanması / çatlaması, boya-panjur-lastik balonu-kaporta kusurları",
+          "etkilenen_parca": "Direksiyon, ön takım, kabin trimi, stop lambaları, boya ve kaporta",
+          "belirtiler": "Silecek sesi; Direksiyon titremesi; Sağa-sola çekme; Ön takım, trim, koltuk ve cam sesleri; Klima menfezi kırılması; Stop buğulanması / çatlaması; Boya, panjur, lastik balonu ve kaporta kusurları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        }
       ]
     },
     {
@@ -25241,7 +27766,129 @@
             "https://www.sikayetvar.com/volkswagen/tiguan/kronik",
             "https://forum.donanimhaber.com/volkswagen-tiguan-alinirmi--126098971"
           ]
+        },
+        {
+          "sorun_adi": "Yolda kalma, 48V / alternatör ve tahrik sistemi hatası, aracın kendi kendine fren yapması, start-stop, 12V akü / şarj uyarısı, EPC / motor arızası, SOS ve 'anahtar algılanmadı' hatası",
+          "etkilenen_parca": "48V sistem, alternatör, 12V akü, tahrik ve fren sistemi",
+          "belirtiler": "Yolda kalma; 48V / alternatör arızası; Tahrik sistemi hatası; Aracın kendi kendine fren yapması; Start-stop arızası; 12V akü / şarj uyarısı; EPC / motor arızası; SOS uyarısı; 'Anahtar algılanmadı' hatası.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Motor ve şanzıman: yağ eksiltme, kam mili-külbütör-buji arızaları, benzin kokusu / kaçağı, şanzıman arızaları ve ısınması, kalkışta tekleme / gaz kesme, motor takozu",
+          "etkilenen_parca": "Motor, yakıt sistemi, şanzıman ve motor takozları",
+          "belirtiler": "Yağ eksiltme; Kam mili-külbütör-buji / motor çevresi arızaları; Benzin kokusu / benzin kaçağı; Şanzıman arızaları / ısınması; Kalkışta tekleme-gaz kesme; Motor takozu değişimi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Elektronik: sürüş asistanı, ekran, CarPlay, far kumandası / yağmur sensörü / silecek otomatiği, korna, camlar ve koltuklar",
+          "etkilenen_parca": "Sürüş asistanları, ekran, ışık / silecek kumandaları, korna, camlar ve koltuklar",
+          "belirtiler": "Sürüş asistanı arızaları; Ekran kapanması / donması; CarPlay bağlantı kopması; Far kumanda / yağmur sensörü / silecek otomatiği arızası; Kornanın çalışmaması; Camların kapanırken geri açılması; Koltukların kendi kendine şişmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
+        },
+        {
+          "sorun_adi": "Gövde ve işçilik: direksiyon titremesi, sağa-sola çekme, ön takım-trim-koltuk-cam sesleri, klima menfezi kırılması, stop buğulanması / çatlaması, boya-panjur-lastik balonu-kaporta kusurları",
+          "etkilenen_parca": "Direksiyon, ön takım, kabin trimi, stop lambaları, boya ve kaporta",
+          "belirtiler": "Silecek sesi; Direksiyon titremesi; Sağa-sola çekme; Ön takım, trim, koltuk ve cam sesleri; Klima menfezi kırılması; Stop buğulanması / çatlaması; Boya, panjur, lastik balonu ve kaporta kusurları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
+          ]
         }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touareg (7P, 2010-2018)",
+      "motor": "3.0 TDI 245 / 262 (Aisin TL-80SN 8 ileri)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Eksantrik zincirinin 150 bin km'de gergisiyle değiştirilmesi gerekmesi",
+          "etkilenen_parca": "Eksantrik zincirleri ve gergisi",
+          "belirtiler": "150 bin km'de zincirin gergisiyle birlikte değiştirilmesi öneriliyor (2013 sonrası 3.0 TDI'larda dört yerine iki zincir var ve daha masrafsızlar).",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2–2.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/"
+          ]
+        },
+        {
+          "sorun_adi": "Bosch CP4 yüksek basınçlı yakıt pompasının kronik arızası",
+          "etkilenen_parca": "Bosch CP4 yüksek basınçlı yakıt pompası (HPFP)",
+          "belirtiler": "Yüksek basınçlı yakıt pompası kronik arızalı (BMW N57'lerde olduğu gibi); bazı kullanıcılar önceki, daha dayanıklı CP3 ile değiştirerek masrafları azaltabiliyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2–2.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/"
+          ]
+        },
+        {
+          "sorun_adi": "AdBlue deposu-ısıtıcısı-pompası arızaları, EGR soğutucusu sızıntısı ve DPF tıkanması",
+          "etkilenen_parca": "AdBlue sistemi, EGR soğutucusu ve DPF",
+          "belirtiler": "AdBlue deposu-ısıtıcısı-pompası arızaları, EGR soğutucusu sızıntısı ve DPF tıkanması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2–2.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/"
+          ]
+        },
+        {
+          "sorun_adi": "Havalı süspansiyonların pompa ve körüklerinin bozulması",
+          "etkilenen_parca": "Havalı süspansiyon pompası ve körükleri",
+          "belirtiler": "Havalı süspansiyonların pompa ve körükleri bozulabiliyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2–2.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/"
+          ]
+        },
+        {
+          "sorun_adi": "Şaft takozu yırtılması ve oksijen sensörü arızaları; 80-100 bin km'de şanzıman bakımı gerekliliği",
+          "etkilenen_parca": "Şaft takozu, oksijen sensörleri ve Aisin şanzıman",
+          "belirtiler": "Şaft takozu yırtılması ve oksijen sensörü arızaları yaygın; Aisin sağlam bir vites kutusu olsa da 80-100 bin km'de şanzıman bakımı ve yağ değişimi şart.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 'Tutulmayan en iyi arabalar: 2–2.5 milyon TL' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/"
+          ]
+        }
+      ],
+      "aileler": [
+        "vag-3-0-tdi-v6"
       ]
     },
     {
