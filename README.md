@@ -270,6 +270,11 @@ Bir sorun veritabanına ancak şu koşullarla girer:
    parça satıcısı veya derleme sitesiyle desteklenen sorunlar alınmaz.
 3. Her sitenin `data/kaynaklar.json` içinde tanımlı olması gerekir.
 
+**İstisna (19. aşama):** `data/kaynaklar.json` içinde `tek_basina_yeterli: true` işaretli bir sitenin
+(şu an yalnızca [andcetin.com](https://andcetin.com/), veritabanı sahibinin kararıyla) sayfası kaynaklar arasındaysa
+tek kaynak yeter; 1. ve 2. madde aranmaz. Bu sitenin yazısında kilometre aralığı yoksa motor ve aile sorunlarında da
+`tahmini_km_araligi` boş bırakılır, aralık uydurulmaz.
+
 Kullanılan sitelerin listesi ve güvenilirlik notları için
 [KAYNAKLAR.md](KAYNAKLAR.md), doğrulama sırasında yapılan değişiklikler için
 [DOGRULAMA_RAPORU.md](DOGRULAMA_RAPORU.md), kapsam ve ilerleme için [KAPSAM.md](KAPSAM.md)

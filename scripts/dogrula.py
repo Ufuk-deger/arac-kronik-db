@@ -148,6 +148,20 @@ def detayi_dogrula(detay, konum, hatalar):
                 hatalar.append(f"{konum}.{alan}: en fazla {DETAY_UZUNLUK_UST} karakter olmalı")
 
 
+def tek_basina_yeterli_mi(kaynaklar, kayit):
+    """Kaynaklardan en az biri kayıt defterinde 'tek_basina_yeterli' işaretli bir siteye aitse True.
+
+    Bu bayrak yalnızca veritabanı sahibinin açıkça güvendiği siteler için kullanılır (19. aşama: andcetin.com)."""
+    if not isinstance(kaynaklar, list):
+        return False
+    for url in kaynaklar:
+        if isinstance(url, str) and url.startswith("https://"):
+            bilgi = kayit["siteler"].get(alan_adi(url))
+            if bilgi and bilgi.get("tek_basina_yeterli") is True:
+                return True
+    return False
+
+
 def kaynaklari_dogrula(kaynaklar, konum, kayit, hatalar):
     """Sorunun kaynak listesini denetler ve ayrı alan adlarının sayısını döndürür."""
     if not isinstance(kaynaklar, list):
@@ -168,7 +182,9 @@ def kaynaklari_dogrula(kaynaklar, konum, kayit, hatalar):
             dayanakli = True
     if len(set(kaynaklar)) != len(kaynaklar):
         hatalar.append(f"{konum}: aynı adres birden fazla kez yazılmış")
-    if len(alanlar) < EN_AZ_ALAN_ADI:
+    if tek_basina_yeterli_mi(kaynaklar, kayit):
+        pass  # tek başına yeterli sayılan siteden en az bir kaynak var; iki site ve dayanak türü şartı aranmaz
+    elif len(alanlar) < EN_AZ_ALAN_ADI:
         hatalar.append(
             f"{konum}: en az {EN_AZ_ALAN_ADI} farklı site gerekir, {len(alanlar)} bulundu"
         )
@@ -182,11 +198,12 @@ def kaynaklari_dogrula(kaynaklar, konum, kayit, hatalar):
 def sorunu_dogrula(sorun, konum, kayit, hatalar, sayilar, arac_yillari=None, ek_alanlar=(), zorunlu_ek_alanlar=(), km_istege_bagli=False):
     """ek_alanlar: bu bağlamda izin verilen ek alanlar (aile sorunlarında 'id' zorunlu, araç sorunlarında 'aile_sorunu' isteğe bağlı).
 
-    km_istege_bagli: yalnızca model geneli kayıtlarda True; yaşa ve kullanıma bağlı sorunların (sızdırmazlık, boya, elektronik)
+    km_istege_bagli: model geneli kayıtlarda True; ayrıca kaynaklarından biri tek başına yeterli sayılan bir siteye aitse kilometre her zaman isteğe bağlıdır; yaşa ve kullanıma bağlı sorunların (sızdırmazlık, boya, elektronik)
     kaynaklarında çoğunlukla kilometre bilgisi olmaz, aralık uydurulmaz.
     """
     isteyerek = ISTEGE_BAGLI_SORUN_ALANLARI + tuple(a for a in ek_alanlar if a not in zorunlu_ek_alanlar)
-    if km_istege_bagli:
+    # Tek başına yeterli sayılan sitenin yazısında kilometre yoksa aralık uydurulmaz, alan boş bırakılır
+    if km_istege_bagli or tek_basina_yeterli_mi(sorun.get("kaynaklar") if isinstance(sorun, dict) else None, kayit):
         isteyerek += ("tahmini_km_araligi",)
     if not alanlari_kontrol_et(sorun, SORUN_ALANLARI + ISTEGE_BAGLI_SORUN_ALANLARI + ek_alanlar, konum, hatalar, istege_bagli=isteyerek):
         return
@@ -347,7 +364,8 @@ def main():
     aileler = veri.get("aileler", [])
     sorunlar = [s for a in araclar for s in a["kronik_sorunlar"]] + [s for f in aileler for s in f["kronik_sorunlar"]]
     kullanilan = {alan_adi(u) for s in sorunlar for u in s["kaynaklar"]}
-    sinirli = sum(1 for n in sayilar if n == EN_AZ_ALAN_ADI)
+    sinirli = sum(1 for s in sorunlar if len({alan_adi(u) for u in s["kaynaklar"]}) == EN_AZ_ALAN_ADI and not tek_basina_yeterli_mi(s["kaynaklar"], kayit))
+    guvenilir_sayisi = sum(1 for s in sorunlar if tek_basina_yeterli_mi(s["kaynaklar"], kayit))
     kirilimli = sum(1 for s in sorunlar if "donem_kirilimi" in s)
     detayli = sum(1 for s in sorunlar if "detay" in s)
     kendi = sum(len(a["kronik_sorunlar"]) for a in araclar)
@@ -363,6 +381,7 @@ def main():
         print(f"{len(model_kayitlari)} model geneli kayıt ({model_sorunlari} sorun, {kmsiz} tanesinde kilometre bilgisi yok); "
               f"motor kayıtları: {len(araclar) - len(model_kayitlari)}.")
     print(f"{sinirli} sorun yalnızca {EN_AZ_ALAN_ADI} siteyle destekleniyor (sınırlı doğrulama).")
+    print(f"{guvenilir_sayisi} sorunun kaynaklarında tek başına yeterli sayılan bir site var.")
     print(f"{kirilimli} sorunda üretim yılına göre dönem kırılımı var.")
     print(f"{detayli} sorunda ayrıntı (neden, teşhis, çözüm, maliyet, önlem) var.")
     return 0

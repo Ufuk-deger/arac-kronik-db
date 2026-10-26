@@ -33,7 +33,8 @@
       "tur": "editoryal",
       "guven": "orta",
       "ana_sayfa": "https://andcetin.com/",
-      "not": "Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor."
+      "not": "Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. Veritabanı sahibinin kararıyla (19. aşama) bu sitede yazılan sorunlar tek başına yeterli sayılır.",
+      "tek_basina_yeterli": true
     },
     "donanimhaber.com": {
       "ad": "DonanımHaber Forum",

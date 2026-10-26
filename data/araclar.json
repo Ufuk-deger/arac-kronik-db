@@ -66,6 +66,107 @@
       ]
     },
     {
+      "id": "bmw-b37-1-5-dizel",
+      "ad": "BMW / Mini B37 1.5 üç silindir turbo dizel",
+      "tur": "motor",
+      "aciklama": "BMW ve Mini'nin 2014'ten itibaren 1 Serisi (114d / 116d), 2 Serisi Active Tourer ve Gran Tourer (214d / 216d), X1 (sDrive16d) ile Mini One D / Cooper D (Hatchback, Clubman, Countryman) modellerinde kullandığı 1.5 litre üç silindirli turbodizel (B37; 95-116 PS). Sorunlar And Çetin'in B37 yazısından derlenmiştir.",
+      "kronik_sorunlar": [
+        {
+          "id": "yakit-musuru",
+          "sorun_adi": "Yakıt (mazot) müşirinin arızası: soketten kontrol ünitesine dizel sızması (geri çağırma)",
+          "etkilenen_parca": "Yakıt müşiri (sensörü), soketi, motor kontrol ünitesi, DPF sensörü, kızdırma bujileri ve EGR soğutucusu",
+          "belirtiler": "Müşirin zorlanınca patlayıp soketten kontrol ünitesine (beyne) dizel sızması; zamanla ünitenin içinin dizelle dolması ve ortam basınç sensörü arızası verilmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre mazot müşiri zorlanınca patlıyor, soketten dizel kontrol ünitesine sızıyor ve ünite zamanla dizelle doluyor. Yazı BMW'nin arızanın farkında olduğunu ve etkilenen tüm araçların geri çağrıldığını belirtiyor.",
+            "cozum": "DPF sensörü ile kızdırma bujilerinin değiştirilmesi ve DPF'nin temizlenmesi gerekiyor. Geri çağırma kapsamında arıza giderilirken EGR soğutucusu da ücretsiz değiştiriliyor.",
+            "onlem": "Geri çağırmanın uygulanıp uygulanmadığı yetkili servisten sorulmalı; yazıda kilometre aralığı verilmiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/3-silindirli-dizel-sorunsal-bmw-b37-42/"
+          ]
+        },
+        {
+          "id": "egr-valfi",
+          "sorun_adi": "EGR (egzoz gazı devirdaim) valfinin tıkanması",
+          "etkilenen_parca": "EGR valfi",
+          "belirtiler": "Valfin zamanla tıkanması; performans kaybı ve arızalar.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda birçok dizel motorda olduğu gibi B37'de de EGR valfinin zamanla tıkanabildiği belirtiliyor.",
+            "cozum": "150.000 km'den sonra düzenli temizlik öneriliyor; valfin değiştirilmesi de gerekebiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/3-silindirli-dizel-sorunsal-bmw-b37-42/"
+          ]
+        },
+        {
+          "id": "zamanlama-zinciri",
+          "sorun_adi": "Zamanlama zincirinin aşınması ve gürültüsü",
+          "etkilenen_parca": "Zamanlama zinciri ve gergisi",
+          "belirtiler": "Zincirin gürültülü hale gelmesi; zincir tamamen koparsa ciddi motor hasarı.",
+          "tahmini_km_araligi": "180.000 - 200.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yazıda zamanlama zincirinin 180.000-200.000 km civarında gürültülü hale gelebildiği anlatılıyor.",
+            "cozum": "Zincirin değiştirilmesi gerekiyor; zincir tamamen koparsa motor ciddi hasar görür."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/3-silindirli-dizel-sorunsal-bmw-b37-42/"
+          ]
+        },
+        {
+          "id": "dpf",
+          "sorun_adi": "DPF'nin (dizel partikül filtresi) tıkanması",
+          "etkilenen_parca": "Dizel partikül filtresi",
+          "belirtiler": "200.000 km'den sonra güç kaybı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıya göre 200.000 km'den sonra DPF tıkanarak güç kaybına yol açabiliyor.",
+            "cozum": "Temizleme geçici bir çözüm olabilir; filtre sonunda değiştirilmeli. Kaliteli yakıt kullanılması öneriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/3-silindirli-dizel-sorunsal-bmw-b37-42/"
+          ]
+        },
+        {
+          "id": "rolanti-titresimi",
+          "sorun_adi": "Rölantide aşırı titreşim (ilk versiyonlar)",
+          "etkilenen_parca": "Motor (denge şaftı eksikliği)",
+          "belirtiler": "Rölantide belirgin titreşim.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Yazıda motorun ilk versiyonlarında rölantide aşırı titreşim görüldüğü, 2017'de yapılan güncellemeyle denge şaftları eklenerek sorunun giderildiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/3-silindirli-dizel-sorunsal-bmw-b37-42/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2014,
+              "bitis": 2016,
+              "durum": "Görülebilir",
+              "not": "İlk versiyonlarda rölantide aşırı titreşim anlatılıyor; 2017 güncellemesiyle denge şaftlarıyla giderildiği belirtiliyor."
+            }
+          ]
+        },
+        {
+          "id": "turbo-emme-kirlenmesi",
+          "sorun_adi": "Turbo ve emme manifoldunda kirlenme",
+          "etkilenen_parca": "Turboşarj ve emme manifoldu",
+          "belirtiler": "Performansın olumsuz etkilenmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda turbo ve emme manifoldunda kirlenmenin yaygın olduğu ve performansı olumsuz etkileyebildiği belirtiliyor.",
+            "onlem": "Düzenli hava filtresi değişimi ve emme sisteminin temizlenmesi sorunları azaltabiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/3-silindirli-dizel-sorunsal-bmw-b37-42/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "bmw-b38-1-5",
       "ad": "BMW B38 1.5 üç silindir turbo benzin",
       "tur": "motor",
@@ -91,6 +192,76 @@
             "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/",
             "https://www.sikayetvar.com/bmw/118/b38",
             "https://otopark.com/forum/threads/bmw-118i-b38-motor.16070/"
+          ]
+        },
+        {
+          "id": "karbon-birikimi",
+          "sorun_adi": "Emme supaplarında karbon birikimi",
+          "etkilenen_parca": "Emme supapları (direkt enjeksiyon)",
+          "belirtiler": "Direkt enjeksiyon nedeniyle emme supaplarında karbon (kurum) birikmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda direkt enjeksiyon sisteminin emme supaplarında karbon birikmesine yol açabildiği belirtiliyor.",
+            "cozum": "Her 80.000 km'de kurum temizliği öneriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
+          ]
+        },
+        {
+          "id": "su-pompasi-termostat",
+          "sorun_adi": "Su pompası ve termostat arızaları: aşırı ısınma",
+          "etkilenen_parca": "Su pompası ve termostat",
+          "belirtiler": "Bileşenlerin erken aşınması; motorun aşırı ısınması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda su pompası ve termostatın erken aşınmasının motorun aşırı ısınmasına yol açabildiği belirtiliyor.",
+            "cozum": "Su pompasının her beş yılda bir değiştirilmesi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
+          ]
+        },
+        {
+          "id": "turbo-soguma-sizintisi",
+          "sorun_adi": "Turbo soğutma hatlarında O-ring bozulması ve sızıntı",
+          "etkilenen_parca": "Turbo soğutma hatlarındaki O-ringler",
+          "belirtiler": "Soğutma hatlarında sızıntı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda turbo soğutma hatlarındaki O-ringlerin zamanla bozularak sızıntıya yol açabildiği belirtiliyor.",
+            "cozum": "Turbo contalarının düzenli kontrol edilip değiştirilmesi gerekiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
+          ]
+        },
+        {
+          "id": "vanos-solenoid",
+          "sorun_adi": "VANOS solenoid arızası: motor arıza ışığı",
+          "etkilenen_parca": "VANOS (değişken supap zamanlaması) solenoidleri",
+          "belirtiler": "Motor arıza ışığının yanması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda değişken supap zamanlamasını yöneten solenoidlerin arızalanabildiği ve motor arıza ışığı yaktığı belirtiliyor.",
+            "cozum": "Solenoidlerin değiştirilmesi gerekiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
+          ]
+        },
+        {
+          "id": "yag-kacagi",
+          "sorun_adi": "Yağ kaçağı: sızdıran conta ve keçeler",
+          "etkilenen_parca": "Motor contaları ve keçeleri",
+          "belirtiler": "Motor yağı sızıntısı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda sızdıran conta ve keçelerin motor yağı sızıntısına yol açabildiği belirtiliyor.",
+            "cozum": "Contaların ya da keçelerin değiştirilmesi ve yağ seviyesinin düzenli kontrol edilmesi gerekiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
           ]
         }
       ]
@@ -267,7 +438,8 @@
             "https://otopark.com/forum/threads/f20-116i-su-eksiltme-ve-su-sicakligi-sorunu.15229/",
             "https://otopark.com/forum/threads/bmw-n13-tahrik-problemi.4952/",
             "https://www.carsece.com/bmw-f30-320i-ed-n13-sahiplerinin-kabusu-motoru-elinize-almadan-okumaniz-gereken-5-kritik-uyari-25",
-            "https://autopartia.com/uzman/bmw-n13-su-eksiltme-sorunu-neden-olur"
+            "https://autopartia.com/uzman/bmw-n13-su-eksiltme-sorunu-neden-olur",
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
           ]
         },
         {
@@ -288,7 +460,8 @@
             "https://autopartia.com/uzman/bmw-n13-motor-koruma-moduna-giriyor-sorunu",
             "https://otopark.com/forum/threads/n13-motorlarin-kronik-sorunu.7504/",
             "https://otopark.com/forum/threads/f20-116i-su-eksiltme-ve-su-sicakligi-sorunu.15229/",
-            "https://forum.donanimhaber.com/su-eksiltme-sorunu--133101259"
+            "https://forum.donanimhaber.com/su-eksiltme-sorunu--133101259",
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
           ]
         },
         {
@@ -311,7 +484,8 @@
             "https://eksisozluk.com/n13b16--6326689",
             "https://otopark.com/forum/threads/f20-n13-motor-yagi-hakkinda.15198/",
             "https://otopark.com/forum/threads/bulunamayan-yag-eksiltme.15627/",
-            "https://forum.donanimhaber.com/f20-kullanicilari-lutfen-yardim--156457161"
+            "https://forum.donanimhaber.com/f20-kullanicilari-lutfen-yardim--156457161",
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
           ]
         },
         {
@@ -333,6 +507,76 @@
             "https://otopark.com/forum/threads/1-18i-tahrik-uyarisi.9493/",
             "https://www.carsece.com/bmw-f30-320i-ed-n13-sahiplerinin-kabusu-motoru-elinize-almadan-okumaniz-gereken-5-kritik-uyari-25",
             "https://autopartia.com/uzman/bmw-n13-motor-koruma-moduna-giriyor-sorunu"
+          ]
+        },
+        {
+          "id": "ates-bobini",
+          "sorun_adi": "Ateşleme bobini arızası: düzensiz çalışma",
+          "etkilenen_parca": "Ateşleme bobinleri ve bujiler",
+          "belirtiler": "Motorun düzensiz çalışması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısında ateşleme bobinlerinin erken arızalanabildiği ve motorun düzensiz çalışmasına yol açabildiği belirtiliyor.",
+            "cozum": "Tüm bobinlerin ve bujilerin birlikte değiştirilmesi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
+          ]
+        },
+        {
+          "id": "turbo-sarj-borusu",
+          "sorun_adi": "Turbo şarj borusunun çatlaması",
+          "etkilenen_parca": "Turbo şarj (basınç) borusu",
+          "belirtiler": "Şarj borusunda çatlama; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda turbo basıncının şarj borusunun çatlamasına yol açabildiği belirtiliyor.",
+            "cozum": "Güçlendirilmiş satış sonrası (aftermarket) parçalarla değiştirilmesi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
+          ]
+        },
+        {
+          "id": "karbon-birikimi",
+          "sorun_adi": "Emme supaplarında karbon birikimi",
+          "etkilenen_parca": "Emme supapları (direkt enjeksiyon)",
+          "belirtiler": "Direkt enjeksiyon nedeniyle emme supaplarında karbon (kurum) birikmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda direkt enjeksiyon sisteminin emme supaplarında karbon birikmesine yol açabildiği belirtiliyor.",
+            "cozum": "Her 80.000 km'de kurum temizliği öneriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
+          ]
+        },
+        {
+          "id": "su-pompasi",
+          "sorun_adi": "Su pompasının erken aşınması ve aşırı ısınma",
+          "etkilenen_parca": "Su pompası",
+          "belirtiler": "Pompanın erken aşınması; motorun aşırı ısınması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda su pompası ve termostatın erken aşınmasının motorun aşırı ısınmasına yol açabildiği belirtiliyor.",
+            "cozum": "Su pompasının her beş yılda bir değiştirilmesi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
+          ]
+        },
+        {
+          "id": "vanos-solenoid",
+          "sorun_adi": "VANOS solenoid arızası: motor arıza ışığı",
+          "etkilenen_parca": "VANOS (değişken supap zamanlaması) solenoidleri",
+          "belirtiler": "Motor arıza ışığının yanması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda değişken supap zamanlamasını yöneten solenoidlerin arızalanabildiği ve motor arıza ışığı yaktığı belirtiliyor.",
+            "cozum": "Solenoidlerin değiştirilmesi gerekiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/n13-vs-b38-hangi-motor-daha-sorunsuz-41/"
           ]
         }
       ]
@@ -857,6 +1101,53 @@
       ]
     },
     {
+      "id": "fiat-7hdt300",
+      "ad": "Fiat Grubu Getrag 7HDT300 (7 ileri ıslak kavramalı hibrit DCT)",
+      "tur": "sanziman",
+      "aciklama": "Fiat Grubu'nun Tonale, 500X ve Egea 1.5 hibrit modellerinde kullandığı 7 ileri ıslak kavramalı, elektrik motoru entegre çift kavramalı şanzıman (Getrag 7HDT300, 300 Nm; hafif hibritte 15 kW, tam hibritte 40 kW). Getrag 7DCT300'ün hibridize halidir.",
+      "kronik_sorunlar": [
+        {
+          "id": "vites-sarsintisi",
+          "sorun_adi": "Vites geçişlerinde sarsıntı",
+          "etkilenen_parca": "Şanzıman (hibrit DCT)",
+          "belirtiler": "Vites geçişlerinde sarsıntı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in DCT yazısında 7HDT300'ün sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/fiat-dct-analizi-65/"
+          ]
+        },
+        {
+          "id": "elektrik-benzin-gecis-vurmasi",
+          "sorun_adi": "Elektrikli-benzinli geçişlerinde vuruntu",
+          "etkilenen_parca": "Şanzıman / elektrik motoru geçişi",
+          "belirtiler": "Elektrik ve benzinli sürüş arasındaki geçişlerde vuruntu.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda 7HDT300'ün sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/fiat-dct-analizi-65/"
+          ]
+        },
+        {
+          "id": "vites-devre-disi",
+          "sorun_adi": "Bazı viteslerin devre dışı kalması, recovery mode ve 'şanzımanı kontrol ettirin' uyarısı",
+          "etkilenen_parca": "Şanzıman kontrol sistemi",
+          "belirtiler": "Bazı viteslerin devre dışı kalması; Recovery Mode'a geçme; 'Şanzımanı kontrol ettirin' uyarısı.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yazıda 7HDT300'ün sorunları arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/fiat-dct-analizi-65/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "fiat-ddct-6",
       "ad": "Fiat Grubu 6 ileri kuru çift kavramalı DCT (DDCT)",
       "tur": "sanziman",
@@ -882,6 +1173,73 @@
             "https://www.araclo.com/blog/fiat-egea-1.6-multijet-130-hp-dct-incelemesi-ne-kadar-yakar-alinir-mi",
             "https://www.sikayetvar.com/fiat/egea/volan",
             "https://www.araclo.com/blog/fiat-egea-cross-incelemesi-motor-secenekleri-sorunlar-ve-kullanici-yorumlari-alinir-mi"
+          ]
+        },
+        {
+          "id": "eco-mod-vites-kararsizligi",
+          "sorun_adi": "Eco modunda vites geçişlerinde kararsızlık",
+          "etkilenen_parca": "Şanzıman kontrol yazılımı",
+          "belirtiler": "Özellikle Eco modunda vites geçişlerinde kararsızlık.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in DCT yazısında FPT C635 DDCT'nin muadili DCT'lerle paylaştığı çalışma düzensizlikleri arasında sayılıyor. Aynı yazı bu şanzımanın kuru kavramalı DCT'ler arasında en masrafsızı olduğunu, çoğu kullanıcının aynı baskı balatayla 150-200 bin km yaptığını belirtiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/fiat-dct-analizi-65/"
+          ]
+        },
+        {
+          "id": "soguk-mekanik-ses",
+          "sorun_adi": "1. ve 2. vitesten mekanik ses (özellikle soğuk havada)",
+          "etkilenen_parca": "Şanzıman dişlileri / kavrama",
+          "belirtiler": "1. ve 2. viteste, özellikle soğuk havada mekanik ses.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Yazıda muadili DCT'lerle paylaşılan çalışma düzensizlikleri arasında sayılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/fiat-dct-analizi-65/"
+          ]
+        },
+        {
+          "id": "gec-gaz-tepkisi",
+          "sorun_adi": "Şehir içinde gaz tepkisinin gecikmesi, ardından ani kavrama ve hamle",
+          "etkilenen_parca": "Kavrama adaptasyonu / kontrol yazılımı",
+          "belirtiler": "Şehir içinde ısınmadan ötürü geç gaz tepkisi; bir müddet gaz yememe ve ardından aniden kavrayıp birden hızlanma.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıya göre şehir içinde sürekli devirsiz ve kısa mesafe sürmek bu davranışa yol açıyor.",
+            "cozum": "Serviste kavrama adaptasyonunun yapılması; alternatif olarak bu kalibrasyonun kullanıcı tarafından da yapılabildiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/fiat-dct-analizi-65/"
+          ]
+        },
+        {
+          "id": "asiri-isinma",
+          "sorun_adi": "Sıkışık trafikte aşırı ısınma (özellikle 1.6 dizel Alfa Romeo Tonale)",
+          "etkilenen_parca": "Kuru çift kavrama takımı",
+          "belirtiler": "Sıkışık trafikteki dur-kalklarda şanzımanın aşırı ısınması; kenara çekilmek gerekebilmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıya göre 1.6 dizel motorlu Alfa Romeo Tonale'de bu şanzıman sıkışık trafikte aşırı ısınabiliyor; diğer kuru kavramalı DCT'lerde olduğu gibi bu sorun genelde frene tam basılmadan sık sık yarım kavrama kullanıldığında ortaya çıkıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/fiat-dct-analizi-65/"
+          ]
+        },
+        {
+          "id": "egea-vites-kutusu-uyarisi",
+          "sorun_adi": "Sarsıntılı vites düşüşü, devir dalgalanması ve 'Vites kutusunu kontrol ettirin' uyarısı (Egea)",
+          "etkilenen_parca": "Şanzıman ve robot yağı",
+          "belirtiler": "Sarsıntılı vites düşüşleri ve devir dalgalanması, ardından 'Vites kutusunu kontrol ettirin' uyarısı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda Egea'larda karşılaşılan bir sorun olarak anlatılıyor.",
+            "cozum": "Yetkili serviste şanzıman ve robot yağının değiştirilmesi (normalde 100.000 km bakımında değiştirildiği belirtiliyor)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/fiat-dct-analizi-65/"
           ]
         }
       ]
@@ -933,6 +1291,53 @@
             "https://www.fiatforum.com/threads/dualogic-problem-or-clutch.521638/",
             "https://www.sikayetvar.com/fiat/fiat-linea-otomatik-sanziman-arizasi",
             "https://forum.donanimhaber.com/fiat-fiorino-dualogic-tamiri--153251999"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "fiat-firefly-1-0-turbo",
+      "ad": "Fiat FireFly 1.0 Turbo (3 silindir turbo benzin)",
+      "tur": "motor",
+      "aciklama": "Fiat'ın Egea, 500 ve 500X'te kullandığı 1.0 litre üç silindirli turbo benzinli FireFly motoru (100-120 PS, 190 Nm, zincirli). And Çetin'in 1.0 turbo karşılaştırmasına göre geri çağırması yok; yağ eksiltme sorununa zamanında çözüm bulunmalı.",
+      "kronik_sorunlar": [
+        {
+          "id": "supap-kapagi-diyafram",
+          "sorun_adi": "Supap kapağı diyaframı delinmesi: yağ yakma",
+          "etkilenen_parca": "Supap kapağı (PCV) diyaframı",
+          "belirtiler": "Diyaframın delinmesi sonucu motorun yağ yakması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısında bazı kullanıcıların supap kapağı diyaframı delinmesi sonucu yağ yakmadan şikâyetçi olduğu belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+          ]
+        },
+        {
+          "id": "zincir-kopmasi",
+          "sorun_adi": "Zincir kopması",
+          "etkilenen_parca": "Triger zinciri",
+          "belirtiler": "Zincirin kopması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yazıda bazı kullanıcıların zincir kopmasından şikâyetçi olduğu belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+          ]
+        },
+        {
+          "id": "motor-takozu",
+          "sorun_adi": "Motor takozlarının kırılması",
+          "etkilenen_parca": "Motor takozları",
+          "belirtiler": "Motor takozlarının kırılması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Yazıda bazı kullanıcıların motor takozlarının kırılmasından şikâyetçi olduğu belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
           ]
         }
       ]
@@ -1023,6 +1428,49 @@
               "durum": "Seyrek",
               "not": "Zincire geçildi; yağ pompası kayışı yağ içinde kalıyor ama arıza bildirimi az."
             }
+          ]
+        },
+        {
+          "id": "turbo-arizasi",
+          "sorun_adi": "Turbo arızası: yağ besleme sorunu ve mekanik arıza",
+          "etkilenen_parca": "Turboşarj ve yağ besleme hatları",
+          "belirtiler": "Turbonun gücünü kaybetmesi; yetersiz yağlama turbo arızasına yol açabiliyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazılarında turbonun yağ besleme sorunları ya da mekanik arızalar nedeniyle gücünü kaybetmesinin yaygın olduğu ve 1.0 EcoBoost'ta erken turbo arızalarının görüldüğü belirtiliyor.",
+            "cozum": "Turbo ve yağ hatlarının düzenli kontrolü, gerektiğinde değişim öneriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/10-ecoboost-motor-sorunlar-44/",
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+          ]
+        },
+        {
+          "id": "yakit-basinci-dususu",
+          "sorun_adi": "Yüksek sıcaklıkta yakıt basıncı düşüklüğü: teklemeye ve stop etmeye yol açan enjeksiyon pompası hasarı",
+          "etkilenen_parca": "Yakıt enjeksiyon pompası ve kam kovası",
+          "belirtiler": "Motorun teklemesi ya da kapanması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda yüksek sıcaklıklarda yakıt enjeksiyon pompalarının zarar görebildiği ve bunun motorun teklemesine ya da kapanmasına yol açtığı belirtiliyor.",
+            "cozum": "Yakıt enjeksiyon sistemi ve kam kovasının kontrolü, arızalı parçaların değiştirilmesi öneriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/10-ecoboost-motor-sorunlar-44/"
+          ]
+        },
+        {
+          "id": "yag-pompasi",
+          "sorun_adi": "Yağ pompası tasarım hatası: yağ eksikliği ve hızlı motor yıpranması (geri çağırma)",
+          "etkilenen_parca": "Yağ pompası (ıslak kayışla tahrik edilen)",
+          "belirtiler": "Yağın yeterince dolaşamaması; motorun hızla yıpranması ve ciddi hasar.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yazıya göre yağ pompasındaki tasarım hataları bazı modellerde yağın yeterince dolaşamamasına ve motorun ciddi hasar görmesine yol açtı; 2018-2019 için geri çağırmalar yapıldı. 2018 sonrası yenilenen motorda zincir kullanılıyor ama yağ pompası hâlâ ıslak kayışla çalışıyor.",
+            "cozum": "Yağ pompasının ve yağ basıncının düzenli kontrolü, sorunlu parçalarda erken müdahale öneriliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/10-ecoboost-motor-sorunlar-44/"
           ]
         }
       ]
@@ -1163,6 +1611,81 @@
             "https://forum.donanimhaber.com/ford-powershift-sanziman-titreme-problemi-kronik-problem-cozulemiyor--116371787",
             "https://forum.donanimhaber.com/fiesta-almadan-inceleyin-dava-actim-kazandim--71002873"
           ]
+        },
+        {
+          "id": "kuru-kavrama-isinma",
+          "sorun_adi": "Yoğun trafikte kuru kavramanın (6DCT250) aşırı ısınması",
+          "etkilenen_parca": "Kuru çift kavrama takımı (6DCT250)",
+          "belirtiler": "Sık dur-kalk trafikte kavramanın aşırı ısınması; şanzıman arızalarına yol açması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in EDC-Powershift yazısına göre 6DCT250 kuru kavramada yoğun trafikte aşırı ısınma görülüyor ve şanzıman arızalarına yol açabiliyor. Yazı 6DCT250'nin en eski tip olduğunu, 2010 öncesi 6 ileri araçların neredeyse hepsinde bulunduğunu ve 6DCT250'den mümkün olduğunca uzak durulması gerektiğini belirtiyor. Yazıda Powershift'in kuru kavramalı modellerde EDC'ye göre daha çok eleştiri aldığı da belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "getrag-7dct300",
+      "ad": "Getrag 7DCT300 (7 ileri ıslak kavramalı EDC / Powershift)",
+      "tur": "sanziman",
+      "aciklama": "Renault-Nissan'ın EDC, Ford'un Powershift adıyla kullandığı 7 ileri ıslak kavramalı çift kavramalı şanzıman (Getrag 7DCT300, 300 Nm). Yazıya göre 1.3 TCe'li ve 7 ileri 1.6 dCi'lı Renault'larda, Nissan Pulsar / Qashqai'de, Ford Fiesta / Puma / Transit / EcoSport'ta ve 2018'den beri Mini ile BMW 1 Serisi'nde bulunur. Kuru kavramalı 6DCT250 ayrı bir şanzımandır.",
+      "kronik_sorunlar": [
+        {
+          "id": "kavrama-volan-sesi",
+          "sorun_adi": "Kavrama ve volan aşınması: 3. vitesten 4. vitese geçişte 'vuup' sürtünme sesi",
+          "etkilenen_parca": "Çift kavrama takımı ve volan",
+          "belirtiler": "Yaklaşık 70 bin km'den itibaren 3. vitesten 4. vitese geçerken 'vuup' şeklinde bir sürtünme sesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre 7DCT300'de yaklaşık 70 bin km'den itibaren 3. vitesten 4. vitese geçerken sürtünme sesi başlıyor.",
+            "cozum": "Serviste kavrama ve volanın değiştirilmesi gerekiyor.",
+            "maliyet": "Yazıda Şubat 2025 itibarıyla serviste kavrama-volan değişiminin 120 bin TL olduğu belirtiliyor (güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
+          ]
+        },
+        {
+          "id": "yavas-vites-gecisi",
+          "sorun_adi": "Yavaş vites geçişi",
+          "etkilenen_parca": "Şanzıman (vites geçişleri)",
+          "belirtiler": "Bazı modellerde vites değişiminde gecikme.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Yazıda ıslak kavramalı şanzımanlarda bazı modellerde vites değişiminde gecikme görülebildiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
+          ]
+        },
+        {
+          "id": "kontrol-unitesi",
+          "sorun_adi": "Şanzıman kontrol ünitesi (elektronik) arızaları",
+          "etkilenen_parca": "Şanzıman kontrol ünitesi",
+          "belirtiler": "Elektronik kaynaklı şanzıman arızaları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda ıslak kavramalı sistemlerin ısı dağılımında genellikle daha iyi olduğu ama elektronik sorunların yaşanabildiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
+          ]
+        },
+        {
+          "id": "yag-sizintisi",
+          "sorun_adi": "Şanzıman sıvı (yağ) sızıntısı",
+          "etkilenen_parca": "Şanzıman contaları ve sıvı hatları",
+          "belirtiler": "Islak kavramalı sistemde sıvı sızıntısı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda ıslak kavramalı sistemlerde sıvı sızıntıları meydana gelebildiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
+          ]
         }
       ]
     },
@@ -1271,6 +1794,40 @@
       ]
     },
     {
+      "id": "hyundai-kia-1-0-t-gdi",
+      "ad": "Hyundai / Kia 1.0 T-GDI (Kappa, 3 silindir turbo benzin)",
+      "tur": "motor",
+      "aciklama": "Hyundai i10, i20, i30, Kona, Venue ve Kia Ceed, Picanto, Rio, Stonic'te kullanılan 1.0 litre üç silindirli turbo benzinli (T-GDI; 100-120 PS, zincirli) motor. And Çetin'in 1.0 turbo karşılaştırmasında en az şikâyetli motor olarak sıralanıyor; yine de ortalama 200.000 km'lik motor ömrü verilmiş.",
+      "kronik_sorunlar": [
+        {
+          "id": "karbon-birikimi",
+          "sorun_adi": "Direkt enjeksiyon sisteminde karbon birikimi",
+          "etkilenen_parca": "Emme supapları (direkt enjeksiyon)",
+          "belirtiler": "Emme supaplarında karbon birikimi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in yazısında direkt enjeksiyon sisteminde karbon birikiminin rapor edildiği belirtiliyor (nadir)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+          ]
+        },
+        {
+          "id": "turbo-catlagi",
+          "sorun_adi": "Turbo çatlaması (nadir)",
+          "etkilenen_parca": "Turboşarj",
+          "belirtiler": "Turbonun çatlaması; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda turbo çatlamalarının nadir de olsa rapor edildiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "hyundai-kia-7dct",
       "ad": "Hyundai / Kia 7DCT (7 ileri kuru çift kavramalı)",
       "tur": "sanziman",
@@ -1305,6 +1862,60 @@
             "https://eksisozluk.com/hyundai-i20--1733493?p=81",
             "https://static.nhtsa.gov/odi/rcl/2016/RCRIT-16V628-9893.pdf",
             "https://www.carcomplaints.com/Hyundai/Tucson/2016/transmission/hesitation.shtml"
+          ]
+        },
+        {
+          "id": "asiri-isinma",
+          "sorun_adi": "Dur-kalk trafikte ve arazide aşırı ısınma (güncel sürümde giderilmiş görünüyor)",
+          "etkilenen_parca": "Kuru çift kavrama takımı",
+          "belirtiler": "Sık dur-kalk trafikte ya da arazi koşullarında şanzımanın aşırı ısınması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre kuru çift kavramalı şanzımanlarda ortak olan aşırı ısınma burada da gözlemlenebiliyor; şanzımanın güncel halinde bilhassa aşırı ısınma sorunu giderilmiş görünüyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-kia-dct-analizi-63/"
+          ]
+        },
+        {
+          "id": "yokus-vites-kucultmeme",
+          "sorun_adi": "Yokuş çıkarken vites küçültmeyip motorun boğulması",
+          "etkilenen_parca": "Şanzıman kontrol yazılımı",
+          "belirtiler": "Yokuş çıkmaya başlanınca vites küçültmeden aynı viteste tutması; motorun boğulup aracın durma noktasına gelmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda günlük kullanımda nadiren karşılaşılan hatalardan biri olarak anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-kia-dct-analizi-63/"
+          ]
+        },
+        {
+          "id": "yokus-asagi-geri-vites",
+          "sorun_adi": "Yokuş aşağıda geri vitese takılıp gaza basınca aracın öne kayması",
+          "etkilenen_parca": "Şanzıman kontrol yazılımı",
+          "belirtiler": "Yokuş aşağı konumda geri vitese takıp ayak frenden çekilerek gaza basıldığında vitese geçmeyip aracın öne doğru kayması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda günlük kullanımda nadiren karşılaşılan hatalardan biri olarak anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-kia-dct-analizi-63/"
+          ]
+        },
+        {
+          "id": "baski-balata-volan",
+          "sorun_adi": "Baskı balata ve volan değişimi gereği",
+          "etkilenen_parca": "Kavrama baskı balatası ve volan",
+          "belirtiler": "Belli aralıklarla baskı balata ve volan değişimi gerekmesi.",
+          "tahmini_km_araligi": "50.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre DQ200 gibi diğer kuru kavramalarda olduğu gibi bu şanzımanlar da belli aralıklarla (ortalama 50-100 bin km'de bir) baskı balata ve volan değişimi gerektiriyor.",
+            "maliyet": "Yazıda (Mart 2025) yetkili serviste 60-80 bin TL, sanayide 50 bin TL olduğu belirtiliyor (güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/hyundai-kia-dct-analizi-63/"
           ]
         }
       ]
@@ -1506,6 +2117,79 @@
             "https://mbworld.org/forums/s-class-w220/786318-722-9-woes.html",
             "https://au7o.io/known-issues/dtc/p2768/mercedes-benz",
             "https://forums.mbclub.co.uk/threads/cls-350-help.195078"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mercedes-om607-om608",
+      "ad": "Mercedes OM607 / OM608 1.5 dizel (Renault K9K tabanlı)",
+      "tur": "motor",
+      "aciklama": "Mercedes'in A, B, CLA, GLA, GLB ve Citan modellerinde kullandığı 1.5 litre dizel (OM607: 2012-2021, OM608: 2018 sonrası; Renault K9K tabanlı, 75-116 PS). Yazıya göre ilk OM607 versiyonlarından kaçınılmalı; güncellenmiş OM608'de bu sorunlara daha az rastlanıyor. Enjektör ve EGR sorunları Renault K9K ailesinde de yer alır.",
+      "kronik_sorunlar": [
+        {
+          "id": "piston-kolu-yatagi",
+          "sorun_adi": "Piston kolu yataklarının aşınması (bakım eksikliğinden)",
+          "etkilenen_parca": "Biyel (piston kolu) yatakları",
+          "belirtiler": "Yatak aşınması; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısında OM607'de piston kolu yataklarının bakım eksikliğinden aşındığı belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/"
+          ]
+        },
+        {
+          "id": "yag-pompasi",
+          "sorun_adi": "Zayıf yağ pompası tasarımı",
+          "etkilenen_parca": "Yağ pompası",
+          "belirtiler": "Yağ pompası kaynaklı sorunlar; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yazıda OM607'nin yağ pompası tasarımının zayıf olduğu belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/"
+          ]
+        },
+        {
+          "id": "kizdirma-bujisi",
+          "sorun_adi": "Kızdırma bujisi arızaları",
+          "etkilenen_parca": "Kızdırma bujileri",
+          "belirtiler": "Soğuk çalıştırma sorunları beklenir; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Yazıda OM607'de kızdırma bujisi arızalarının sık görüldüğü belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/"
+          ]
+        },
+        {
+          "id": "turbo-arizasi",
+          "sorun_adi": "Turboşarj arızaları",
+          "etkilenen_parca": "Turboşarj",
+          "belirtiler": "Turbo kaynaklı arızalar; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda OM607'de turboşarj arızalarının sık görüldüğü belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/"
+          ]
+        },
+        {
+          "id": "dpf-tikanikligi",
+          "sorun_adi": "DPF (dizel partikül filtresi) tıkanıklıkları",
+          "etkilenen_parca": "Dizel partikül filtresi",
+          "belirtiler": "DPF tıkanması; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda OM607'de DPF tıkanıklıklarının sık görüldüğü belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/"
           ]
         }
       ]
@@ -1725,6 +2409,20 @@
             "https://www.cruzetalk.com/threads/2011-2016-cruze-1-4-pcv-valve-cover-intake-manifold-issues.192442/page-24",
             "https://forum.donanimhaber.com/astra-j-1-4-turbo-motor-sesi-fazla-mi--83440116"
           ]
+        },
+        {
+          "id": "sicak-calisma-lpg",
+          "sorun_adi": "Yüksek çalışma sıcaklığı ve LPG'de supap uzaması",
+          "etkilenen_parca": "Soğutma sistemi, yağ soğutucusu ve supaplar",
+          "belirtiler": "Motorun diğer birçok motordan daha sıcak çalışması; LPG takılı araçta supapların uzaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre A14NET (140 PS 1.4T) endirekt enjeksiyonlu ve hararetli çalışıyor; soğutma sistemi ilgi istiyor, LPG takılmışsa supap uzatıyor. LPG daha yüksek sıcaklıklara yol açtığı için motor hasarı riski artıyor.",
+            "cozum": "Yağ soğutucusu ve termostat yazılımı gerekli modifikasyonlar olarak anılıyor; LPG'de termostat modifikasyonu, iridyum buji ve uygun yağlama öneriliyor. 2015'in ikinci yarısından itibaren yerini alan Euro 6 B14NET'in LPG uyumlu ve daha sorunsuz olduğu belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/opel-turbo-motor-sorunlar-ve-onlemenin-yollar-46/"
+          ]
         }
       ]
     },
@@ -1754,6 +2452,56 @@
             "https://forum.donanimhaber.com/opel-markasi-neden-hararetli-calisir--89682895-2",
             "https://otopark.com/forum/threads/astra-j-1-6-otomatik-nasildir-kronik-problemleri-var-mi.14812/",
             "https://www.araclo.com/blog/opel-astra-1.6-atmosferik-alinir-mi-kronik-sorunlar-ve-yorumlar"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "opel-sidi-turbo",
+      "ad": "Opel SIDI doğrudan enjeksiyonlu turbo benzin (1.0T / 1.4T / 1.6T)",
+      "tur": "motor",
+      "aciklama": "Opel'in 2010-2020 arasında Adam, Corsa, Astra, Insignia ve Mokka ile Chevrolet Cruze'da kullandığı doğrudan enjeksiyonlu (SIDI) turbo benzinli ailesi: 1.0T (B10XFL / B10XFT; 90-115 PS), 1.4T (B14XFL / B14XFT; 125-150 PS) ve 1.6T (A16XHT / A16SHT / B16SHT; 170-200 PS). Endirekt enjeksiyonlu A14NET ve A16LET bu aileye girmez.",
+      "kronik_sorunlar": [
+        {
+          "id": "piston-lspi",
+          "sorun_adi": "Piston ve segman kırılması (LSPI: düşük devirde ön ateşleme)",
+          "etkilenen_parca": "Piston ve segmanlar",
+          "belirtiler": "Şiddetli vuruntu ve piston hasarı; motor onarımdan sonra bile tam performansına dönmeyebiliyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazılarına göre LSPI (düşük devirde ön ateşleme) şiddetli vuruntuya ve piston hasarına yol açıyor. Otomatik şanzımanlı araçlarda daha yaygın: düşük devirde kötü kalibrasyon motoru yük altına sokuyor (vites düşürmeden ani hızlanma gibi). 1.0 SIDI için de ülkedeki düşük oktanlı benzin ve yanlış yağ kullanımı sonucu LSPI, vuruntu ve piston kırılması ihtimali belirtiliyor; yazıya göre bu motor en riskli motorlardan biri.",
+            "cozum": "Şanzıman yazılım güncellemeleri öneriliyor; oktan artırıcı ve Dexos1 Gen3 yağı kullanımı, bujilerin erken değiştirilmesi ve motora düşük devirlerde aşırı yüklenilmemesi gerekiyor. Ani gaz verme ve yanlış viteste sert hızlanma tetikleyici sayılıyor.",
+            "maliyet": "Yazıda motor değişimi ya da onarımı için 50.000 ile 200.000 TL arasında masraf çıkabildiği belirtiliyor (tarihsiz; güncel fiyat olarak okumayın)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/opel-turbo-motor-sorunlar-ve-onlemenin-yollar-46/",
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+          ]
+        },
+        {
+          "id": "yag-sogutucusu",
+          "sorun_adi": "Yağ soğutucusu arızaları (özellikle yeni 1.6T)",
+          "etkilenen_parca": "Yağ soğutucusu",
+          "belirtiler": "Yağ soğutucusu kaynaklı arızalar; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda yağ soğutucusu arızalarının özellikle yeni 1.6T motorlarda sıkça dile getirildiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/opel-turbo-motor-sorunlar-ve-onlemenin-yollar-46/"
+          ]
+        },
+        {
+          "id": "supap-uzamasi",
+          "sorun_adi": "Supap uzaması (özellikle 1.6T)",
+          "etkilenen_parca": "Supaplar",
+          "belirtiler": "Supap uzaması; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda supap uzamasının daha çok 1.6T'de görüldüğü, 1.4T'nin daha dayanıklı atmosferik Corsa motorlarıyla aynı bloğu paylaştığı için bu sorunun daha az yaygın olduğu belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/opel-turbo-motor-sorunlar-ve-onlemenin-yollar-46/"
           ]
         }
       ]
@@ -1827,6 +2575,19 @@
             "https://www.sikayetvar.com/peugeot/3008/adblue-sorunu",
             "https://otopark.com/forum/threads/2016-peugeot-308-1-6-bluehdi-120-hp-eat6-allure-surekli-adblue-doldurun-uyarisi-hk.15617/",
             "https://www.sikayetvar.com/toyota/proace-city/adblue"
+          ]
+        },
+        {
+          "id": "adblue-yazilim-durma",
+          "sorun_adi": "AdBlue yazılımı: motorun gereksiz yere durması ve AdBlue tankının erken değişimi (2014-2020 üretim)",
+          "etkilenen_parca": "AdBlue sistemi yazılımı ve AdBlue tankı",
+          "belirtiler": "Yazılım problemleri nedeniyle motorun gereksiz yere durması ve AdBlue tankının erken değiştirilmesi gerekmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre özellikle 2014-2020 arasında üretilen bazı Stellantis dizel araçlarında yazılım problemleri nedeniyle motor gereksiz yere duruyor ve AdBlue tankının erken değiştirilmesi gerekiyor. Yazı, Stellantis'in Avrupa'daki tüketici otoriteleriyle yaptığı görüşmeler sonucunda etkilenen müşterilere tazminat sağlamayı taahhüt ettiğini belirtiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/15-bluehdi-ecoblue-tdci-zincir-sorunu-59/"
           ]
         }
       ]
@@ -2336,6 +3097,19 @@
             "https://www.planeterenault.com/forum/scenic-iii-boite-edc-sur-scenic-3-dci-110-defaut-t55386.html?amp=1",
             "https://www.fiches-auto.fr/avis-renault/avis-unique-272-92488-renault-scenic-3-15-dci-110-ch-achat-1-2011-126-000km-.php"
           ]
+        },
+        {
+          "id": "kuru-kavrama-isinma",
+          "sorun_adi": "Yoğun trafikte kuru kavramanın (6DCT250) aşırı ısınması",
+          "etkilenen_parca": "Kuru çift kavrama takımı (6DCT250)",
+          "belirtiler": "Sık dur-kalk trafikte kavramanın aşırı ısınması; şanzıman arızalarına yol açması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in EDC-Powershift yazısına göre 6DCT250 kuru kavramada yoğun trafikte aşırı ısınma görülüyor ve şanzıman arızalarına yol açabiliyor. Yazı 6DCT250'nin en eski tip olduğunu, 2010 öncesi 6 ileri araçların neredeyse hepsinde bulunduğunu ve 6DCT250'den mümkün olduğunca uzak durulması gerektiğini belirtiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/edcpowershift-sorunlar-ve-kuru-kavrama-tasyan-modeller-43/"
+          ]
         }
       ]
     },
@@ -2374,6 +3148,33 @@
             "https://www.sikayetvar.com/renault/renault-2020-clio-5-10-tce-90-hp-turbo-arizasi",
             "https://www.sikayetvar.com/renault/garanti-kapsamindaki-turbo-ve-far-arizalari-tekrar-tekrar-cozulmedi",
             "https://www.sikayetvar.com/renault/renault-taliant-10-motorlarda-kronik-turbo-sorunu-var"
+          ]
+        },
+        {
+          "id": "silkeleme-vuruntu-buji",
+          "sorun_adi": "Silkeleme, vuruntu, rölantide aşırı titreşim ve buji erimesi (özellikle CVT'li 100 PS Clio 5)",
+          "etkilenen_parca": "Motor (yanma), bujiler ve turbo",
+          "belirtiler": "Silkeleme, vuruntu, rölantide aşırı titreşimli çalışma ve buji erimesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 1.0 turbo karşılaştırmasına göre özellikle CVT (X-tronic) şanzımanlı ve 100 PS'lik Clio 5 1.0 TCe'lerde silkeleme, vuruntu, rölantide aşırı titreşimli çalışma ve buji eritme görülüyor. Bu ünitenin 90 ve 100 PS'liklerinin endirekt enjeksiyonlu ve LPG uyumlu, 115 PS ve üstünün direkt enjeksiyonlu olduğu belirtiliyor.",
+            "cozum": "Yazıda kapsamlı bir geri çağırma olmadığı, 2023'te vuruntulu çalışmaya dair bir yazılım güncellemesi yapıldığı ancak kullanıcıların faydası olmadığını, bazılarının güncelleme sonrası performans düşüşü bildirdiğini yazdığı belirtiliyor; araç garantideyse turbo değişimi yapılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+          ]
+        },
+        {
+          "id": "yuksek-yakit-tuketimi",
+          "sorun_adi": "Yakıt tüketiminin fabrika verilerinden belirgin yüksek olması",
+          "etkilenen_parca": "Motor (genel)",
+          "belirtiler": "Yakıt tüketiminin fabrika verilerinden belirgin ölçüde yüksek olması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in 1.0 turbo karşılaştırmasında Renault / Dacia / Nissan 1.0 TCe için belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
           ]
         }
       ]
@@ -2508,7 +3309,8 @@
             "https://forum.donanimhaber.com/clio-3-kasa-dci-sorunlarini-paylasalim--55918395",
             "https://www.arabam.com/blog/danisman/renault-dci-motor-nedir-kronik-sorunlari-nelerdir/",
             "https://www.fiches-auto.fr/fiabilite-renault/fiabilite-212-pannes-renault-megane-3.php",
-            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html"
+            "https://www.largus.fr/guide-achat-occasion/renault/megane/avis-fiabilite-renault-megane-iii-b95-30038973.html",
+            "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/"
           ]
         },
         {
@@ -2529,7 +3331,29 @@
             "https://www.araclo.com/vehicles/dacia-duster/duster1-makyajli/1-5-dci/kronik-sorunlar",
             "https://forum.donanimhaber.com/egr-valfi-temizligi--30929546",
             "https://forum.donanimhaber.com/egr-belirli-araliklar-ile-temizlenmeli-mi--132082187",
-            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi"
+            "https://www.araclo.com/blog/dacia-duster-1.5-dci-ve-1.5-blue-dci-alinir-mi-sorunlar-yorumlar-ve-ikinci-el-alim-rehberi",
+            "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "renault-mercedes-1-3-tce",
+      "ad": "Renault / Mercedes 1.3 TCe (Renault H5Ht, Mercedes M282)",
+      "tur": "motor",
+      "aciklama": "Renault-Mercedes ortaklığıyla geliştirilen 1.3 litre turbo benzinli motor (Renault H5Ht, Mercedes M282; 136-163 PS). Renault ve Dacia 1.3 TCe modellerinde ve Mercedes A, B, CLA, GLA, GLB ile Citan'ın benzinli sürümlerinde bulunur. Sorun And Çetin'in Mercedes'teki Renault motorları yazısından derlenmiştir.",
+      "kronik_sorunlar": [
+        {
+          "id": "termostat-govdesi",
+          "sorun_adi": "Plastik termostat gövdesinin çatlaması ve soğutma suyu sızıntısı",
+          "etkilenen_parca": "Plastik termostat gövdesi",
+          "belirtiler": "Termostat gövdesinde çatlama ya da birleşme noktasından sızıntı; sızan soğutma sıvısının motora kadar gidip hararete yol açması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre M282 kodlu 1.3 TCe'de termostat gövdesi plastikten yapılmış; zamanla çatlıyor ya da birleşme noktasından sızıntı yapıyor, sızan soğutma sıvısı motora kadar gidip hararete yol açıyor. Yazı aynı sorunun Renault modellerinde de görüldüğünü belirtiyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/"
           ]
         }
       ]
@@ -2861,6 +3685,53 @@
       ]
     },
     {
+      "id": "vag-1-4-tdi-3-silindir",
+      "ad": "VAG 1.4 TDI (3 silindir; AMF / BNM / BWB / CUS)",
+      "tur": "motor",
+      "aciklama": "VW grubunun 1.9 TDI'dan bir silindir eksik tasarladığı 3 silindirli 1.4 TDI motorları: AMF (75 PS, 2001-2005), BNM / BWB (70-80 PS, 2005-2009, dökme demir blok) ve CUS (90 PS, 2014-2021, alüminyum blok). Yazıya göre AMF basit tasarımıyla uzun ömürlü; sorunlar BNM / BWB ile CUS için anlatılıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "yaglama-turbo",
+          "sorun_adi": "Yağlama sorunları ve turbo arızaları (BNM / BWB, 2005-2009)",
+          "etkilenen_parca": "Motor yağlaması ve turboşarj",
+          "belirtiler": "Yağlama sorunları ve turbo arızaları; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısında 70-80 PS BNM / BWB motorlarının yağlama sorunları ve turbo arızalarıyla bilindiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "titresim-denge-sahfti",
+          "sorun_adi": "Yüksek titreşim ve denge (balans) şaftı eksikliği (BNM / BWB)",
+          "etkilenen_parca": "Motor (denge şaftı yok)",
+          "belirtiler": "Yüksek titreşim seviyesi; uzun süreli kullanımda sorun yaratması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Yazıda BNM / BWB'nin titreşim seviyesinin yüksek olduğu ve denge şaftı eksikliğinin uzun süreli kullanımlarda sorun yaratabildiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "egr-turbo-cus",
+          "sorun_adi": "EGR valfi ve turbo dayanıklılığının zayıflığı (CUS, 2014-2021)",
+          "etkilenen_parca": "EGR valfi ve turboşarj",
+          "belirtiler": "EGR valfi ve turbo arızaları; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıya göre CUS (90 PS, 2014-2021) 1.9 TDI'dan bağımsız, yeni tasarım, alüminyum bloklu, daha az titreşimli ve iyileştirilmiş enjeksiyon sistemli olmasına rağmen EGR valfi ve turbo dayanıklılığı zayıf."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "vag-1-5-tsi-evo",
       "ad": "VAG 1.5 TSI evo (EA211 evo, ACT / eTSI)",
       "tur": "motor",
@@ -2909,6 +3780,105 @@
           "kaynaklar": [
             "https://otopark.com/forum/threads/1-5-tsi-yasadigim-problemler-titresim-ve-genel-parca-kalitesizligi-yardim.16331/",
             "https://forum.donanimhaber.com/golf-1-5-tsi-act-150hp-2-silindir-modunda-titreme-sorunu--148387757"
+          ]
+        },
+        {
+          "id": "kanguru-etkisi",
+          "sorun_adi": "Düşük devirde 'kanguru etkisi' (2020 öncesi DADA, manuel vites)",
+          "etkilenen_parca": "Motor / manuel şanzıman uyumu",
+          "belirtiler": "Düz (manuel) vitesle düşük devirlerde sarsıntılı çalışma.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre 1.5 TSI'ların 2020 öncesi (DADA) örneklerinde düz vitesle kullanıldığında düşük devirlerde 'kanguru etkisi' denen sarsıntılı çalışma var; sonraki Evo2 sürümlerinde bu sıkıntı büyük oranda giderildi."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-1-6-fsi",
+      "ad": "VAG 1.6 FSI (BAG / BLF / BLP; yazıda BSE / BSF de sayılıyor)",
+      "tur": "motor",
+      "aciklama": "VW grubunun Golf 5, Touran, Passat B6, Octavia A5 ve Audi A3 8P gibi modellerde kullandığı 1.6 litre FSI (doğrudan enjeksiyonlu atmosferik benzin) motorları. And Çetin yazısı BAG, BLF, BLP, BSE ve BSF kodlarını sayıyor ve EGR, oksijen sensörü, değişken supap zamanlaması, buji ve bobin, yakıt pompası ve enjektör sorunlarını, karbon birikimini, yüksek tüketimi ve düşük performansı anıyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "egr-oksijen-sensoru",
+          "sorun_adi": "EGR ve oksijen sensörü arızaları",
+          "etkilenen_parca": "EGR valfi ve oksijen (lambda) sensörü",
+          "belirtiler": "Yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısında 1.6 FSI motorların EGR ve oksijen sensörü arızalarıyla bilindiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "degisken-supap-zamanlamasi",
+          "sorun_adi": "Değişken supap zamanlama mekanizması arızası",
+          "etkilenen_parca": "Değişken supap zamanlama mekanizması",
+          "belirtiler": "Yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda 1.6 FSI motorlarda değişken supap zamanlama mekanizması arızalarının görüldüğü belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "buji-bobin",
+          "sorun_adi": "Buji ve ateşleme bobini arızaları",
+          "etkilenen_parca": "Bujiler ve ateşleme bobinleri",
+          "belirtiler": "Yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda 1.6 FSI motorlarda buji ve bobin arızalarının görüldüğü belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "yakit-pompasi-enjektor",
+          "sorun_adi": "Yakıt pompası ve enjektör sorunları",
+          "etkilenen_parca": "Yüksek basınçlı yakıt pompası ve enjektörler",
+          "belirtiler": "Yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda 1.6 FSI motorlarda yakıt pompası ve enjektör sorunlarının görüldüğü belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "karbon-birikimi",
+          "sorun_adi": "Emme supaplarında karbon birikimi",
+          "etkilenen_parca": "Emme supapları (direkt enjeksiyon)",
+          "belirtiler": "Emme supaplarında karbon (kurum) birikmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda 1.6 FSI motorlarda karbon birikiminin görüldüğü belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "tuketim-performans",
+          "sorun_adi": "Yüksek yakıt tüketimi ve düşük performans",
+          "etkilenen_parca": "Motor (genel)",
+          "belirtiler": "Yüksek yakıt tüketimi ve düşük performans.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Yazıda 1.6 FSI motorların yüksek yakıt tüketimi ve düşük performansıyla bilindiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
           ]
         }
       ]
@@ -2990,6 +3960,92 @@
       ]
     },
     {
+      "id": "vag-3-0-tdi-v6",
+      "ad": "VAG 3.0 TDI V6 (CAS / CJGA / CRT / CMEA / DAVA / DBGC)",
+      "tur": "motor",
+      "aciklama": "VW grubunun Audi A6 C7, Q7, VW Touareg ve Amarok'ta kullandığı 3.0 litre V6 turbodizeller: CAS (240 PS, 2008-2012), CJGA (204 PS, 2012-2014), CRT (211 / 272 PS, 2010-2018), CMEA (313 PS çift turbo, 2012-2015), DAVA (224 PS, 2016-2022, Amarok) ve DBGC (286 PS, 2018-). Yazıya göre genelde dayanıklı; CJGA daha az zorlandığı için uzun ömürlü. Sorunlar And Çetin'in yazısından derlenmiştir.",
+      "kronik_sorunlar": [
+        {
+          "id": "egr-dpf-adblue",
+          "sorun_adi": "EGR, DPF ve AdBlue sistemi arızaları",
+          "etkilenen_parca": "EGR valfi, dizel partikül filtresi ve AdBlue sistemi",
+          "belirtiler": "EGR, DPF ve AdBlue arızaları; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre CAS'ın (240 PS) erken üretim versiyonları DPF ve EGR sorunlarıyla biliniyor (mekanik olarak daha dayanıklı); CMEA (313 PS) EGR ve DPF arızaları haricinde büyük oranda sorunsuz; DAVA (224 PS) ve DBGC (286 PS) çoğu modern dizelde olduğu gibi AdBlue, EGR ve DPF arızaları gösterebiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "cp4-yakit-pompasi",
+          "sorun_adi": "Yüksek basınçlı yakıt pompasının (CP4.2) kötü kaliteli mazota duyarlılığı",
+          "etkilenen_parca": "CP4.2 yüksek basınçlı yakıt pompası ve enjektörler",
+          "belirtiler": "Metal talaşı nedeniyle enjektörlerin zarar görmesi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yazıda DAVA (Amarok, 224 PS) için yüksek basınçlı yakıt pompasının (CP4.2) düşük kaliteli mazota karşı hassasiyetinin sorunlara yol açtığı, örneğin metal talaşı nedeniyle enjektörlerin zarar görebildiği belirtiliyor; DBGC'nin potansiyel sorunlarının aynı olduğu yazılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "crt-common-rail-adblue",
+          "sorun_adi": "CRT (211 / 272 PS): yüksek basınçlı common-rail ve AdBlue arızaları",
+          "etkilenen_parca": "Common-rail yüksek basınç sistemi ve AdBlue sistemi",
+          "belirtiler": "Yüksek basınçlı enjeksiyon ve AdBlue sistemi arızaları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıya göre CRT (2010-2018) yüksek basınçlı common-rail enjeksiyon sistemi ve AdBlue sistemindeki arızalarla dikkat çekiyor; bu sorunlar 272 PS'lik türevde daha yaygın."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "krank-mili-rulmani",
+          "sorun_adi": "Krank mili rulman aşınması (CRT)",
+          "etkilenen_parca": "Krank mili rulmanları",
+          "belirtiler": "Yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yazıda CRT'de krank mili rulman aşınmasının yaşanabildiği, 272 PS türevde daha yaygın olduğu belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "eksantrik-zincir-gergisi",
+          "sorun_adi": "Eksantrik zinciri gergisi sorunları (CRT)",
+          "etkilenen_parca": "Eksantrik zinciri gergisi",
+          "belirtiler": "Yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıda CRT'de eksantrik zinciri gergisi sorunlarının yaşanabildiği, 272 PS türevde daha yaygın olduğu belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "yag-pompasi",
+          "sorun_adi": "Yağ pompası arızası riski (CRT, yüksek kilometrede)",
+          "etkilenen_parca": "Yağ pompası",
+          "belirtiler": "Yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Yazıda CRT'de özellikle yüksek kilometrelerde yağ pompası arızası riskinin arttığı, tüm bu sorunların 272 PS'lik türevde daha yaygın olduğu belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "vag-48v-etsi",
       "ad": "VAG 48V hafif hibrit sistem (eTSI / e-TEC / MHEV)",
       "tur": "sistem",
@@ -3006,8 +4062,8 @@
             "neden": "Kaynaklar kök nedeni doğrulamıyor. Şikâyetvar'da bir Leon FR 1.5 eTSI sahibine 39.000 km'de marş alternatörünün bozulduğu ve hibrit akünün çalışmadığı söylenmiş; 2024 model bir Leon 1.0 eTSI sahibi fabrika aküsünün alternatör dahil ciddi bir arızaya yol açtığını düşünüyor (iddia); bir kullanıcı SOS arızasının bu modelde kronik olduğunu yazıyor. İki DonanımHaber başlığı Leon'a özel değil, DSG'li eTSI ve Skoda e-TEC ailesindeki aynı 48 V sistemi anlatıyor: alternatör sorunu 12 V ve 48 V arızalarına yol açıyor, 1.0 motorda daha sık ama 1.5'te de görülüyor, üretici kalıcı çözüm üretmemiş (ikinci el anlatım, doğrulanmadı).",
             "teshis": "Şikâyetvar'da bir 2021 Leon 1.5 TSI 130 sahibi SOS arızasının her çalıştırmada sesli uyarı verdiğini ve sürüşte ekranda sürekli uyarı gösterdiğini yazıyor; 2024 model bir Leon 1.0 eTSI garanti kapsamındayken 48 V arızası nedeniyle yolda kalmış. Volkswagen 1.0 eTSI kaydında (aynı sistem) 12 V ve 48 V uyarılarının araç uzun süre park edip sabah çalıştırılınca çıktığı, servisin alternatörü suçladığı ve yeni alternatöre rağmen arızanın birkaç gün içinde döndüğü anlatılıyor.",
             "cozum": "Şikâyetvar'da garanti kapsamındaki araçta parça bekleme süresinin uzadığı ve ikame araç verilmediği, garanti süresi dolduktan sonra ise arızaların ücretli çözüldüğü ya da iyi niyet desteğinin reddedildiği (39.000 km'deki Leon FR 1.5 eTSI dahil) anlatılıyor.",
-            "maliyet": "Leon için net TL rakamı bulunamadı; aynı 48 V sistem için Golf 8 ve Octavia kayıtlarında garanti dışı yüksek ücret talepleri bildiriliyor.",
-            "onlem": "Şikâyetvar yorumlarında yedek parça olarak VW ya da Audi markalı alternatör tercih edilmesi öneriliyor (grup son yıllarda kendi alternatörünü üretmiş); 2021-2023 VAG hafif hibrit modellerinde fabrika çıkışlı Valeo alternatör kullanıldığı iddiası aynı yorumlarda geçiyor (doğrulanmadı)."
+            "maliyet": "Leon için net TL rakamı bulunamadı; aynı 48 V sistem için Golf 8 ve Octavia kayıtlarında garanti dışı yüksek ücret talepleri bildiriliyor. And Çetin'in yazısına göre (Ocak 2025) garanti dışı araçlarda alternatör ünitesi aküyle birlikte yenileniyor ve marka-modele göre 100-150 bin TL masraf çıkıyor.",
+            "onlem": "Şikâyetvar yorumlarında yedek parça olarak VW ya da Audi markalı alternatör tercih edilmesi öneriliyor (grup son yıllarda kendi alternatörünü üretmiş); 2021-2023 VAG hafif hibrit modellerinde fabrika çıkışlı Valeo alternatör kullanıldığı iddiası aynı yorumlarda geçiyor (doğrulanmadı). Yazıda alternatörün üreticisi Valeo'nun bu sorun nedeniyle Audi ile davalık olduğu ve bazı ülkelerde geri çağırmayla ücretsiz parça değişimine gidildiği belirtiliyor; 12 V sistemli Audi A4 45 TFSI gibi modeller bu sorundan etkilenmiyor, 50 TDI ve 55 TFSI gibi 48 V sistemli güçlü Audi'ler aynı riski taşıyor."
           },
           "kaynaklar": [
             "https://www.sikayetvar.com/seat/seat-leon-2021-sos-arama-uyarisi",
@@ -3023,7 +4079,8 @@
             "https://forum.donanimhaber.com/sifir-golf-8-ile-yasadigim-sorunlar--150729664",
             "https://www.sikayetvar.com/skoda/skoda-octaviada-kronik-tahrik-sistemi-ve-alternator-sorununa-yetersiz-cozum-ve-iyi-niyet-indirimi",
             "https://www.sikayetvar.com/skoda/skoda-octavia-10-etec-alternator-arizasi-garanti-kapsamina-alinmali",
-            "https://eksisozluk.com/cupra-formentor--5969524?p=17"
+            "https://eksisozluk.com/cupra-formentor--5969524?p=17",
+            "https://andcetin.com/e-tsie-tec-motorlarn-48v-alternator-sorunu-56/"
           ]
         }
       ]
@@ -3210,6 +4267,34 @@
               "not": "16 supaplı EA211 motorlara geçildi ve triger kayışı kullanılmaya başlandı; sorun büyük oranda çözüldü."
             }
           ]
+        },
+        {
+          "id": "twincharger-piston-yag",
+          "sorun_adi": "1.4 TSI twincharger (140-180 PS): piston erimesi ve aşırı yağ tüketimi",
+          "etkilenen_parca": "Pistonlar, segmanlar ve yağlama",
+          "belirtiler": "Piston erimesi ve aşırı yağ tüketimi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre hem turbo hem kompresör kullanan 1.4 TSI (twincharger) ciddi dayanıklılık sorunlarıyla biliniyor. 2006-2012 arası CAV kodlu erken versiyon zincir gerilmesi, piston erimesi ve yağ tüketimiyle karşılaştı; zincir gergisi tasarımı zincir atlama riskine yol açıyordu. 2012-2014 CTH kodlu versiyonda piston ve segman tasarımı geliştirilerek sorunlar büyük ölçüde giderildi ama karbon birikimi ve yağ tüketimi sürdü.",
+            "onlem": "Yazıya göre EA211 (2014-) zincir yerine kayış kullanıyor ve twincharger'dan vazgeçip yalnızca turbo kullandığı için daha dayanıklı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2006,
+              "bitis": 2011,
+              "durum": "Yaygın",
+              "not": "CAV (140-180 PS): zincir gerilmesi, piston erimesi ve yağ tüketimi."
+            },
+            {
+              "baslangic": 2012,
+              "bitis": 2014,
+              "durum": "Görülebilir",
+              "not": "CTH (160-180 PS): piston ve segman geliştirildi; karbon birikimi ve yağ tüketimi sürdü."
+            }
+          ]
         }
       ]
     },
@@ -3245,6 +4330,55 @@
             "https://www.araclo.com/vehicles/volkswagen-passat/b7/1-6-tdi/kronik-sorunlar",
             "https://www.sikayetvar.com/volkswagen/volkswagen-polo-16-tdi-enjektor-arizasi",
             "https://www.sikayetvar.com/enjektor/polo"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vag-ea211-1-0-tsi",
+      "ad": "VAG 1.0 TSI / TFSI (EA211, 3 silindir turbo benzin)",
+      "tur": "motor",
+      "aciklama": "VW grubunun Polo, Golf, T-Cross, T-Roc, Skoda Fabia / Scala / Kamiq, Seat Ibiza / Arona / Leon ve Audi A1 / A3 / Q2'de kullandığı 1.0 litre üç silindirli turbo benzinli motor (90-115 PS; kayışlı). Yazıya göre 2020 öncesi CJP kodlu örneklerde kronik termostat arızası var; sonraki DKRF kodlu türevlerde çözüldü.",
+      "kronik_sorunlar": [
+        {
+          "id": "termostat",
+          "sorun_adi": "Kronik termostat arızası (2020 öncesi CJP)",
+          "etkilenen_parca": "Termostat",
+          "belirtiler": "Termostat arızası; yazıda ayrıca bir belirti anlatılmıyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazılarına göre 2020 öncesi CJP kodlu 1.0 TSI'larda termostat arızası kronik; 2020 sonrası DKRF kodlu türevlerde çözülmüş."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+          ]
+        },
+        {
+          "id": "motor-takozu",
+          "sorun_adi": "Üç silindirin titreşimi nedeniyle sık motor takozu değişimi",
+          "etkilenen_parca": "Motor takozları",
+          "belirtiler": "Üç silindirli yapının titreşimi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Yazılarda 1.0 TSI'ların 3 silindirli yapıları gereği titreşimli çalıştığı ve bu yüzden sık motor kulağı (takozu) değişimi gerektiği belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/",
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
+          ]
+        },
+        {
+          "id": "karbon-turbo",
+          "sorun_adi": "Karbon birikimi ve turbo arızası (bazı modellerde)",
+          "etkilenen_parca": "Emme supapları ve turboşarj",
+          "belirtiler": "Direkt enjeksiyon nedeniyle karbon birikimi; bazı modellerde turbo arızası.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in 1.0 turbo karşılaştırmasında VW grubunun 1.0 TSI'sında bazı modellerde karbon birikimi ve turbo arızası bildirildiği belirtiliyor; yazı bunu 'sorunsuzluk sıralamasında' 2020 öncesi termostat dışında problemsiz olarak değerlendiriyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/tum-10-turbo-motorlarn-karslastrmas-53/"
           ]
         }
       ]
@@ -3373,7 +4507,8 @@
           "kaynaklar": [
             "https://www.audizine.com/forum/showthread.php/712531-THE-Timing-Chain-Tensioner-Failure-Thread",
             "https://www.audiworld.com/forums/a4-b8-platform-discussion-128/timing-chain-issue-a4-b8-5-a-3043467/",
-            "https://www.araclo.com/vehicles/audi-a4-sedan-2.0-tfsi/degerlendirmeler/kullanici-sorunlari"
+            "https://www.araclo.com/vehicles/audi-a4-sedan-2.0-tfsi/degerlendirmeler/kullanici-sorunlari",
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
           ],
           "donem_kirilimi": [
             {
@@ -3405,7 +4540,34 @@
           "kaynaklar": [
             "https://www.carcomplaints.com/news/2021/audi-oil-consumption-lawsuit-pistons.shtml",
             "https://forum.donanimhaber.com/kronik-yag-eksiltme-yakma-sorunlari-ve-ureticilerin-olumsuz-yaklasimlarini-toparlayalim--127025783",
-            "https://www.audiworld.com/how-tos/a/audi-a4-b8-information-on-the-oil-consumption-problem-421881"
+            "https://www.audiworld.com/how-tos/a/audi-a4-b8-information-on-the-oil-consumption-problem-421881",
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "karbon-birikimi",
+          "sorun_adi": "Emme supaplarında karbon birikimi (1.8 / 2.0 TFSI)",
+          "etkilenen_parca": "Emme supapları (direkt enjeksiyon)",
+          "belirtiler": "Emme supaplarında karbon (kurum) birikmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre EA888 serisi 1.8 TFSI'larda karbon birikimi gibi yaygın sorunlar var; CJEB (170 PS, 2012-2015) güncellenmiş segman yapısıyla daha az yağ tüketse de karbon birikimi hâlâ ciddi bir problem. 2.0 TFSI CAWB (2006-2009) için de yüksek yağ tüketimi ve karbon birikimi yaygın olarak anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
+          ]
+        },
+        {
+          "id": "turbo-dayaniksizligi",
+          "sorun_adi": "Turboşarj dayanıksızlığı (2.0 TFSI CAWB)",
+          "etkilenen_parca": "Turboşarj ve PCV sistemi",
+          "belirtiler": "Turbo ve PCV sisteminde dayanıklılık eksikliği.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Yazıya göre 2.0 TFSI CAWB (200 PS, 2006-2009) için PCV ve turboşarj sisteminde dayanıklılık eksiklikleri görülüyor; CAEB (200 PS, 2009-2012, Gen 2) CAWB'ye kıyasla geliştirilmiş olsa da yağ tüketimi ve PCV gibi majör sorunlar sürüyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
           ]
         }
       ]
@@ -3439,7 +4601,8 @@
             "https://www.audiworld.com/forums/a4-b9-platform-discussion-212/b9-coolant-leaks-2988179/page6/",
             "https://static.nhtsa.gov/odi/tsbs/2019/MC-10166730-0001.pdf",
             "https://forum.donanimhaber.com/audi-a3-su-eksiltme-uyarisi--160291520",
-            "https://www.sikayetvar.com/audi/motor/su"
+            "https://www.sikayetvar.com/audi/motor/su",
+            "https://andcetin.com/en-sorunlu-vag-motorlar-ve-en-sorunsuz-versiyonlar-50/"
           ]
         }
       ]
@@ -3707,6 +4870,33 @@
       ]
     },
     {
+      "marka": "Alfa Romeo",
+      "model": "Tonale (2022-)",
+      "motor": "1.5 Hybrid 160 (48V hafif hibrit, 7HDT300)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-7hdt300"
+      ]
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Tonale (2022-)",
+      "motor": "1.6 JTDm 130 (6 ileri DDCT)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-6-multijet-ii",
+        "fiat-ddct-6"
+      ]
+    },
+    {
       "marka": "Audi",
       "model": "A1 (8X, 2010-2014)",
       "motor": "1.4 TFSI 122 (EA111, S tronic DQ200)",
@@ -3744,7 +4934,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "vag-dq200"
+        "vag-dq200",
+        "vag-ea211-1-0-tsi"
       ]
     },
     {
@@ -3805,6 +4996,19 @@
     },
     {
       "marka": "Audi",
+      "model": "A3 (8P, 2003-2012)",
+      "motor": "1.6 FSI 115 (BAG / BLF)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-fsi"
+      ]
+    },
+    {
+      "marka": "Audi",
       "model": "A3 (8V, 2012-2020)",
       "motor": "1.0 TFSI 115 (EA211, S tronic DQ200)",
       "uretim_yillari": {
@@ -3813,7 +5017,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "vag-dq200"
+        "vag-dq200",
+        "vag-ea211-1-0-tsi"
       ]
     },
     {
@@ -3956,7 +5161,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "vag-dq200"
+        "vag-dq200",
+        "vag-ea211-1-0-tsi"
       ]
     },
     {
@@ -4262,6 +5468,19 @@
     },
     {
       "marka": "Audi",
+      "model": "A6 (C6, 2004-2011)",
+      "motor": "3.0 TDI quattro 233/240 (CAS)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-3-0-tdi-v6"
+      ]
+    },
+    {
+      "marka": "Audi",
       "model": "A6 (C7, 2011-2014)",
       "motor": "2.0 TDI 177 (Multitronic)",
       "uretim_yillari": {
@@ -4289,6 +5508,19 @@
     },
     {
       "marka": "Audi",
+      "model": "A6 (C7, 2011-2018)",
+      "motor": "3.0 TDI 204/245/272/313 (CJGA / CRT / CMEA)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-3-0-tdi-v6"
+      ]
+    },
+    {
+      "marka": "Audi",
       "model": "A6 (C8, 2018-)",
       "motor": "45 TFSI 2.0 (EA888 Gen3)",
       "uretim_yillari": {
@@ -4310,7 +5542,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "vag-dq200"
+        "vag-dq200",
+        "vag-ea211-1-0-tsi"
       ]
     },
     {
@@ -4512,6 +5745,19 @@
     },
     {
       "marka": "Audi",
+      "model": "Q7 (4M, 2015-)",
+      "motor": "3.0 TDI 286 (DBGC)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-3-0-tdi-v6"
+      ]
+    },
+    {
+      "marka": "Audi",
       "model": "TT (8S, 2014-2023)",
       "motor": "2.0 TFSI 230/245 (EA888 Gen3)",
       "uretim_yillari": {
@@ -4534,6 +5780,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-n47"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi (F20 / F21, 2014-2019)",
+      "motor": "114d / 116d 1.5 dizel (B37)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b37-1-5-dizel"
       ]
     },
     {
@@ -4858,6 +6117,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "2 Serisi Active Tourer / Gran Tourer (F45 / F46, 2014-2021)",
+      "motor": "214d / 216d 1.5 dizel (B37)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b37-1-5-dizel"
       ]
     },
     {
@@ -5455,6 +6727,21 @@
             "https://g30.bimmerpost.com/forums/showthread/2198513/door-handle",
             "https://g30.bimmerpost.com/forums/showthread/2189495/need-an-assistance-for-the-door-handles?p=32155375"
           ]
+        },
+        {
+          "sorun_adi": "120-140 km/s arası yüksek hız titreşimi (arka aks kauçuk burçları)",
+          "etkilenen_parca": "Arka aks kauçuk burçları; lastik / jant uyumu",
+          "belirtiler": "120-140 km/s arası süratlerde sık görülen titreşim; farklı balans türleri, jantlar ve lastikler sorunu gidermiyor.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre 2018-2024 arası üretilen G30 kasa BMW 5 Serisi'nde yaygın görülen sorun, çözümü komplike. Almanya'da bir kullanıcının araç garanti kapsamında BMW Ar-Ge merkezinde incelendi; kauçuk arka aks burçları, 7 Serisi G11 ve 8 Serisi G14'te kullanılan içi yağ dolu hidrolik burçlarla değiştirilerek sorun çözüldü.",
+            "teshis": "Yazıda 100 km/s üzerindeki titreşim frekanslarını ölçmek için NVH uygulaması öneriliyor: ~15-18 Hz tekerlek grubu dengesizliği, ~30 Hz motor / şanzıman takozları veya egzoz bağlantıları, ~50 Hz şaft grubu, taşıyıcı rulman veya tekerlek rulmanları.",
+            "cozum": "Parça numarası bulunup arka aksın söktürülerek 7-8 Serisi hidrolik burçlarının takılması gerekiyor. Yazıya göre Türkiye'de Borusan araç garanti kapsamında olsa bile destek vermiyor, konu 'Türkiye'deki yollardan kaynaklanıyor' diye geçiştiriliyor.",
+            "onlem": "Sorun çözülse bile kış lastiğine geçilince farklı bir titreşim yeniden ortaya çıkabiliyor: yaz lastikleri runflat ve 'yıldızlı' (OEM), kışlıklar normal ve orijinal olmayan lastik olabiliyor. Yazıya göre süspansiyon kalibrasyonu yıldızlı RFT lastiklere göre yapıldığı için (örneğin Michelin Pilot Sport 4 ZP) yazlık ve kışlıkta bu tip lastikler kullanılmalı."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/bmw-g30-titresim-problemi-60/"
+          ]
         }
       ]
     },
@@ -5554,6 +6841,19 @@
             "https://f48.bimmerpost.com/forums/showthread/2217712/simple-diy-i-did-over-the-weekend-interior-door-handles?p=32481866"
           ]
         }
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 (F48, 2015-2022)",
+      "motor": "sDrive16d 1.5 dizel (B37)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b37-1-5-dizel"
       ]
     },
     {
@@ -6889,7 +8189,9 @@
         }
       ],
       "aileler": [
-        "renault-edc"
+        "getrag-7dct300",
+        "renault-edc",
+        "renault-mercedes-1-3-tce"
       ]
     },
     {
@@ -7254,6 +8556,19 @@
     {
       "marka": "Fiat",
       "model": "500X (2015-)",
+      "motor": "1.0 FireFly Turbo 120",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-firefly-1-0-turbo"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "500X (2015-)",
       "motor": "1.4 MultiAir Turbo 140/170",
       "uretim_yillari": {
         "baslangic": 2015,
@@ -7275,6 +8590,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "fiat-1-6-multijet-ii"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "500X Hybrid (2022-)",
+      "motor": "1.5 Hybrid 130 (48V hafif hibrit, 7HDT300)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-7hdt300"
       ]
     },
     {
@@ -7545,6 +8873,19 @@
     {
       "marka": "Fiat",
       "model": "Egea (2015-)",
+      "motor": "1.0 FireFly Turbo 100/120",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-firefly-1-0-turbo"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Egea (2015-)",
       "motor": "1.3 Multijet II (95 HP)",
       "uretim_yillari": {
         "baslangic": 2015,
@@ -7745,6 +9086,9 @@
             "https://eksisozluk.com/fiat-egea-hybrid--7176539"
           ]
         }
+      ],
+      "aileler": [
+        "fiat-7hdt300"
       ]
     },
     {
@@ -9612,6 +10956,7 @@
         }
       ],
       "aileler": [
+        "hyundai-kia-1-0-t-gdi",
         "hyundai-kia-7dct"
       ]
     },
@@ -9792,6 +11137,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "hyundai-kia-1-0-t-gdi",
         "hyundai-kia-7dct"
       ]
     },
@@ -10047,6 +11393,7 @@
         }
       ],
       "aileler": [
+        "hyundai-kia-1-0-t-gdi",
         "hyundai-kia-7dct"
       ]
     },
@@ -10844,6 +12191,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "hyundai-kia-1-0-t-gdi",
         "hyundai-kia-7dct"
       ]
     },
@@ -11022,6 +12370,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "hyundai-kia-1-0-t-gdi",
         "hyundai-kia-7dct"
       ]
     },
@@ -11342,6 +12691,19 @@
     {
       "marka": "Mercedes-Benz",
       "model": "A Serisi (W177, 2018-)",
+      "motor": "A160 / A180 / A200 1.3 turbo benzin (M282, Renault H5Ht)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-mercedes-1-3-tce"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "A Serisi (W177, 2018-)",
       "motor": "A180 d 1.5 (OM608, K9K)",
       "uretim_yillari": {
         "baslangic": 2018,
@@ -11349,6 +12711,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "mercedes-om607-om608",
         "renault-k9k"
       ]
     },
@@ -11381,6 +12744,7 @@
         }
       ],
       "aileler": [
+        "mercedes-om607-om608",
         "renault-k9k"
       ]
     },
@@ -11463,6 +12827,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "mercedes-om607-om608",
         "renault-k9k"
       ]
     },
@@ -11477,6 +12842,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "B Serisi (W247, 2019-)",
+      "motor": "B160 / B180 / B200 1.3 turbo benzin (M282, Renault H5Ht)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-mercedes-1-3-tce"
       ]
     },
     {
@@ -11736,6 +13114,28 @@
             "https://www.sikayetvar.com/mercedes-benz/mercedes-c200de-surekli-nox-sensoru-arizasi-ve-yuksek-masraf",
             "https://www.sikayetvar.com/mercedes-benz/kronik-sensor-arizasinda-mercedes-garanti-sozu-kirdi-80-bin-tl-talep-ediyor"
           ]
+        },
+        {
+          "sorun_adi": "Makyaj öncesi 136 PS OM626: piston ve blok kırması",
+          "etkilenen_parca": "Piston ve motor bloğu (OM626 1.6 dizel, 136 PS)",
+          "belirtiler": "Yazıda ayrıca bir belirti anlatılmıyor; piston ve blok kırılması sonucu motor hasarı.",
+          "tahmini_km_araligi": "100.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre makyaj öncesi W205 C Serisi'nde (C200d) kullanılan OM626 kodlu 136 PS motor, 100-150 bin km arasında piston ve blok kırmasıyla biliniyor ve kullanıcıların en çok şikâyet ettiği motor.",
+            "onlem": "Yazıda 2018 sonrası makyajlı C200d'lerde bilinen kronik sorunu olmayan OM654 kodlu 160 PS 1.6 litre Mercedes motorunun kullanıldığı belirtiliyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2015,
+              "bitis": 2018,
+              "durum": "Yaygın",
+              "not": "Makyaj öncesi OM626 (136 PS); makyajla OM654'e geçildiği belirtiliyor."
+            }
+          ]
         }
       ]
     },
@@ -11781,6 +13181,19 @@
             "https://www.sikayetvar.com/mercedes-benz/mercedes-yazilim-guncelleme-fahis-fiyat-talebi"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "CLA (C118, 2019-)",
+      "motor": "CLA 180 / CLA 200 1.3 turbo benzin (M282, Renault H5Ht)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-mercedes-1-3-tce"
       ]
     },
     {
@@ -11832,7 +13245,21 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "mercedes-om607-om608",
         "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Citan (W420, 2021-)",
+      "motor": "110 / 113 1.3 turbo benzin (M282, Renault H5Ht)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-mercedes-1-3-tce"
       ]
     },
     {
@@ -12120,6 +13547,19 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "GLA (H247, 2020-)",
+      "motor": "GLA 200 1.3 turbo benzin (M282, Renault H5Ht)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-mercedes-1-3-tce"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "GLA (X156, 2013-2019)",
       "motor": "GLA 180 d 1.5 (OM607, K9K, 7G-DCT)",
       "uretim_yillari": {
@@ -12128,6 +13568,7 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
+        "mercedes-om607-om608",
         "renault-k9k"
       ]
     },
@@ -12142,6 +13583,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLB (X247, 2019-)",
+      "motor": "GLB 200 1.3 turbo benzin (M282, Renault H5Ht)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-mercedes-1-3-tce"
       ]
     },
     {
@@ -12313,6 +13767,19 @@
     },
     {
       "marka": "Mini",
+      "model": "Clubman (F54, 2015-)",
+      "motor": "One D / Cooper D 1.5 üç silindir dizel (B37)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b37-1-5-dizel"
+      ]
+    },
+    {
+      "marka": "Mini",
       "model": "Cooper / One (F56, 2014-)",
       "motor": "1.5 üç silindir turbo (B38)",
       "uretim_yillari": {
@@ -12322,6 +13789,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "Mini",
+      "model": "Cooper / One (F56, 2014-)",
+      "motor": "One D / Cooper D 1.5 üç silindir dizel (B37)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b37-1-5-dizel"
       ]
     },
     {
@@ -12384,6 +13864,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-b48-2-0"
+      ]
+    },
+    {
+      "marka": "Mini",
+      "model": "Countryman (F60, 2017-)",
+      "motor": "One D / Cooper D 1.5 üç silindir dizel (B37)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b37-1-5-dizel"
       ]
     },
     {
@@ -13153,6 +14646,19 @@
     },
     {
       "marka": "Opel",
+      "model": "Adam (2013-2019)",
+      "motor": "1.0 Turbo 90/115 (B10XFL / B10XFT, SIDI)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "opel-sidi-turbo"
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Astra Electric (2023-2025)",
       "motor": "Elektrik (54 kWh, 115 kW / 156 PS)",
       "uretim_yillari": {
@@ -13579,6 +15085,19 @@
     {
       "marka": "Opel",
       "model": "Astra K (2015-2021)",
+      "motor": "1.0 Turbo 105 (B10XFT, SIDI)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "opel-sidi-turbo"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra K (2015-2021)",
       "motor": "1.4 Turbo 125/150 (B14XFL/B14XFT, 2019 sonrası D14XFL/D14XFT)",
       "uretim_yillari": {
         "baslangic": 2015,
@@ -13620,8 +15139,12 @@
               "durum": "Görülebilir",
               "not": "Alman bir rehbere göre 2018 sonundan itibaren OPF'li D10/D14 motorlarda yağ sıyırma segmanları yeniden tasarlandı ve LSPI riski belirgin düştü; ancak Şikâyetvar'da 2019-2020 araçlarda da piston kırılması bildirimi var."
             }
-          ]
+          ],
+          "aile_sorunu": "opel-sidi-turbo/piston-lspi"
         }
+      ],
+      "aileler": [
+        "opel-sidi-turbo"
       ]
     },
     {
@@ -13657,6 +15180,19 @@
       ],
       "aileler": [
         "opel-1-6-cdti"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra K (2015-2021)",
+      "motor": "1.6 Turbo 200 (B16SHT, SIDI)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "opel-sidi-turbo"
       ]
     },
     {
@@ -13894,6 +15430,19 @@
     },
     {
       "marka": "Opel",
+      "model": "Corsa E (2014-2019)",
+      "motor": "1.0 Turbo 90/115 (B10XFL / B10XFT, SIDI)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "opel-sidi-turbo"
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Corsa-e / Mokka-e (2020-)",
       "motor": "Elektrik (50 kWh, 136 PS; 2024 sonrası Mokka'da 54 kWh, 156 PS)",
       "uretim_yillari": {
@@ -14118,6 +15667,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "opel-a16xer-1-6"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Insignia A (2008-2017)",
+      "motor": "1.6 Turbo 170 (A16XHT, SIDI)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "opel-sidi-turbo"
       ]
     },
     {
@@ -15620,7 +17182,9 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "renault-edc"
+        "getrag-7dct300",
+        "renault-edc",
+        "renault-mercedes-1-3-tce"
       ]
     },
     {
@@ -15682,7 +17246,9 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "renault-edc"
+        "getrag-7dct300",
+        "renault-edc",
+        "renault-mercedes-1-3-tce"
       ]
     },
     {
@@ -16157,7 +17723,9 @@
         }
       ],
       "aileler": [
-        "renault-edc"
+        "getrag-7dct300",
+        "renault-edc",
+        "renault-mercedes-1-3-tce"
       ]
     },
     {
@@ -16515,7 +18083,9 @@
         }
       ],
       "aileler": [
-        "renault-edc"
+        "getrag-7dct300",
+        "renault-edc",
+        "renault-mercedes-1-3-tce"
       ]
     },
     {
@@ -16966,7 +18536,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "vag-dq200"
+        "vag-dq200",
+        "vag-ea211-1-0-tsi"
       ]
     },
     {
@@ -16992,7 +18563,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "vag-dq200"
+        "vag-dq200",
+        "vag-ea211-1-0-tsi"
       ]
     },
     {
@@ -17222,6 +18794,21 @@
             "https://www.sikayetvar.com/seat/leon/ses?page=2",
             "https://www.sikayetvar.com/seat/leon/kronik"
           ]
+        },
+        {
+          "sorun_adi": "Takata hava yastığı inflatörü: hatalı üretim nedeniyle gönüllü geri çağırma",
+          "etkilenen_parca": "Sürücü / yolcu hava yastığı şişiricisi (Takata, amonyum nitrat tabanlı inflatör)",
+          "belirtiler": "Patlama sırasında metal parçaların şarapnel gibi fırlaması; 2016 model Leon sahibi yıl başında gönüllü geri çağırma kapsamında hava yastığını değiştirdi.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre geri çağırmaların başladığı 2013'ten bu yana üretilen tüm otomobillerin %20'sinde Takata hava yastıkları var; kurutucu madde (desiccant) içermeyen amonyum nitrat tabanlı inflatörler zamanla bozulabiliyor. Dünya genelinde 30'dan fazla ölüm ve yüzlerce yaralanmaya yol açtığı belirtiliyor. Honda, Toyota, BMW, Ford, Nissan, Mazda ve GM gibi 20'den fazla markanın onlarca modeli etkilendi; yazıdaki örnek 2016 model Seat Leon.",
+            "teshis": "Şasi numarası (VIN) ile üreticinin geri çağırma sorgulama sayfasından ya da yetkili servisten kontrol edilebiliyor.",
+            "cozum": "Geri çağırma kapsamında hava yastığı ücretsiz değiştiriliyor. Yazıya göre değişimi reddedenlere servis firmanın sorumluluğu olmadığına dair bir belge imzalatıyor ve bu belge bakanlığa gönderiliyor.",
+            "onlem": "Hava yastığı değişimi ikinci elde 'büyük kaza geçmişi' algısı yaratıp satışı zorlaştırabiliyor; yazı değişimin nedenine dair kanıt sunulursa değer kaybı yaşanmayacağını ve hayati risk nedeniyle değişimin öncelikli olması gerektiğini savunuyor."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/aracnzn-hava-yastg-muhtemelen-hatal-uretim-52/"
+          ]
         }
       ]
     },
@@ -17354,7 +18941,8 @@
         }
       ],
       "aileler": [
-        "vag-dq200"
+        "vag-dq200",
+        "vag-ea211-1-0-tsi"
       ]
     },
     {
@@ -17623,6 +19211,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-pd-2-0-tdi-16v"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia (A5, 2004-2013)",
+      "motor": "1.6 FSI 115 (BLF)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-fsi"
       ]
     },
     {
@@ -18748,6 +20349,32 @@
     },
     {
       "marka": "Toyota",
+      "model": "Auris (E150 / E180, 2007-2018)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyon kutusunda (kolon) 'lakır-lukur' ses: direksiyon çevirirken ve çukur-kasislerde",
+          "etkilenen_parca": "Elektrikli direksiyon (EPS) kolonu: mafsal ve dişliler, solucan dişli yatağı",
+          "belirtiler": "Direksiyonu çevirirken ya da çukur-kasislerden geçerken 'lakır-lukur' bir ses; kilitlenme ya da direksiyonun dönmemesi gibi sorunlar oluşmuyor, sorun büyük oranda sesten ibaret.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre direksiyon kolonunun içindeki mafsal ve dişliler arasında zamanla aşınma ve yağlanma eksikliği sebebiyle ortaya çıkıyor; Toyota'nın hidrolik direksiyondan elektrikli sisteme (EPS) geçtiği 2000'lerin başından beri görülen bir problem. Yazıda sorunun görüldüğü diğer Toyota modelleri arasında 2005 sonrası Corolla / Auris sayılıyor.",
+            "cozum": "Garanti kapsamında yetkili serviste direksiyon kutusu değişimi; değişimden sonra bile ses birkaç yıl sonra yeniden başlayabiliyor. Bazı kullanıcılar mafsalı söküp gresleyerek ya da solucan dişli yatağının tapasını çıkartıp yatağı tornavidayla sıkarak kendileri onarım yoluna gidiyor.",
+            "maliyet": "Yazıya göre garanti kapsamı dışında kalırsa 40 bin TL ücret talep ediliyor (tarihsiz yazı beyanı, güncel fiyat olarak okumayın).",
+            "onlem": "Toyota'nın resmi sitesinde direksiyon kutusunun garanti kapsamına girdiği, Garanti ON varsa onarımın 10 yıl / 160 bin km'ye kadar garanti kapsamında yapılacağı belirtiliyor; ancak yazıya göre hibritlerde 1 yıl / 15 bin km, diğer modellerde 1 yıl / 10 bin km'lik bakım periyodu aşılırsa direksiyon kutusu garanti dışı sayılıyor ve toleransı yok denecek kadar az (15.000 km'yi 300 km geçince reddedilen müşteriler anlatılıyor)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/toyota-corolla-direksiyon-kutusu-arzas-61/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Toyota",
       "model": "Auris (E150, 2009-2012)",
       "motor": "1.33 Dual VVT-i 99 (1NR-FE)",
       "uretim_yillari": {
@@ -18828,6 +20455,21 @@
             "https://www.toyotaownersclub.com/forums/topic/219669-t27-avensis-electronic-parking-brake-issue/",
             "https://www.toyotaownersclub.com/forums/topic/186684-2012-toyota-avensis-parking-brake-actuator/",
             "https://www.toyotaownersclub.com/forums/topic/226633-c13a7-error-code-with-parking-brake-flashes-when-pb-applied/"
+          ]
+        },
+        {
+          "sorun_adi": "Direksiyon kutusunda (kolon) 'lakır-lukur' ses: direksiyon çevirirken ve çukur-kasislerde",
+          "etkilenen_parca": "Elektrikli direksiyon (EPS) kolonu: mafsal ve dişliler, solucan dişli yatağı",
+          "belirtiler": "Direksiyonu çevirirken ya da çukur-kasislerden geçerken 'lakır-lukur' bir ses; kilitlenme ya da direksiyonun dönmemesi gibi sorunlar oluşmuyor, sorun büyük oranda sesten ibaret.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre direksiyon kolonunun içindeki mafsal ve dişliler arasında zamanla aşınma ve yağlanma eksikliği sebebiyle ortaya çıkıyor; Toyota'nın hidrolik direksiyondan elektrikli sisteme (EPS) geçtiği 2000'lerin başından beri görülen bir problem. Yazıda sorunun görüldüğü diğer Toyota modelleri arasında 2009-2018 Avensis sayılıyor.",
+            "cozum": "Garanti kapsamında yetkili serviste direksiyon kutusu değişimi; değişimden sonra bile ses birkaç yıl sonra yeniden başlayabiliyor. Bazı kullanıcılar mafsalı söküp gresleyerek ya da solucan dişli yatağının tapasını çıkartıp yatağı tornavidayla sıkarak kendileri onarım yoluna gidiyor.",
+            "maliyet": "Yazıya göre garanti kapsamı dışında kalırsa 40 bin TL ücret talep ediliyor (tarihsiz yazı beyanı, güncel fiyat olarak okumayın).",
+            "onlem": "Toyota'nın resmi sitesinde direksiyon kutusunun garanti kapsamına girdiği, Garanti ON varsa onarımın 10 yıl / 160 bin km'ye kadar garanti kapsamında yapılacağı belirtiliyor; ancak yazıya göre hibritlerde 1 yıl / 15 bin km, diğer modellerde 1 yıl / 10 bin km'lik bakım periyodu aşılırsa direksiyon kutusu garanti dışı sayılıyor ve toleransı yok denecek kadar az (15.000 km'yi 300 km geçince reddedilen müşteriler anlatılıyor)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/toyota-corolla-direksiyon-kutusu-arzas-61/"
           ]
         }
       ]
@@ -18984,6 +20626,21 @@
             "https://forum.donanimhaber.com/2012-corolla-tavan-boyasi-kalkmasi-hakkinda--151656434",
             "https://forum.donanimhaber.com/corolla-tavan-boyasi-sorunu--113808401"
           ]
+        },
+        {
+          "sorun_adi": "Direksiyon kutusunda (kolon) 'lakır-lukur' ses: direksiyon çevirirken ve çukur-kasislerde",
+          "etkilenen_parca": "Elektrikli direksiyon (EPS) kolonu: mafsal ve dişliler, solucan dişli yatağı",
+          "belirtiler": "Direksiyonu çevirirken ya da çukur-kasislerden geçerken 'lakır-lukur' bir ses; kilitlenme ya da direksiyonun dönmemesi gibi sorunlar oluşmuyor, sorun büyük oranda sesten ibaret.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre direksiyon kolonunun içindeki mafsal ve dişliler arasında zamanla aşınma ve yağlanma eksikliği sebebiyle ortaya çıkıyor; Toyota'nın hidrolik direksiyondan elektrikli sisteme (EPS) geçtiği 2000'lerin başından beri görülen bir problem. Yazıda sorunun görüldüğü diğer Toyota modelleri arasında 2005 sonrası Corolla / Auris sayılıyor.",
+            "cozum": "Garanti kapsamında yetkili serviste direksiyon kutusu değişimi; değişimden sonra bile ses birkaç yıl sonra yeniden başlayabiliyor. Bazı kullanıcılar mafsalı söküp gresleyerek ya da solucan dişli yatağının tapasını çıkartıp yatağı tornavidayla sıkarak kendileri onarım yoluna gidiyor.",
+            "maliyet": "Yazıya göre garanti kapsamı dışında kalırsa 40 bin TL ücret talep ediliyor (tarihsiz yazı beyanı, güncel fiyat olarak okumayın).",
+            "onlem": "Toyota'nın resmi sitesinde direksiyon kutusunun garanti kapsamına girdiği, Garanti ON varsa onarımın 10 yıl / 160 bin km'ye kadar garanti kapsamında yapılacağı belirtiliyor; ancak yazıya göre hibritlerde 1 yıl / 15 bin km, diğer modellerde 1 yıl / 10 bin km'lik bakım periyodu aşılırsa direksiyon kutusu garanti dışı sayılıyor ve toleransı yok denecek kadar az (15.000 km'yi 300 km geçince reddedilen müşteriler anlatılıyor)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/toyota-corolla-direksiyon-kutusu-arzas-61/"
+          ]
         }
       ]
     },
@@ -18998,6 +20655,32 @@
       "kronik_sorunlar": [],
       "aileler": [
         "toyota-1nd-tv-1-4-d4d"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla (E170, 2013-2018)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyon kutusunda (kolon) 'lakır-lukur' ses: direksiyon çevirirken ve çukur-kasislerde",
+          "etkilenen_parca": "Elektrikli direksiyon (EPS) kolonu: mafsal ve dişliler, solucan dişli yatağı",
+          "belirtiler": "Direksiyonu çevirirken ya da çukur-kasislerden geçerken 'lakır-lukur' bir ses; kilitlenme ya da direksiyonun dönmemesi gibi sorunlar oluşmuyor, sorun büyük oranda sesten ibaret.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre direksiyon kolonunun içindeki mafsal ve dişliler arasında zamanla aşınma ve yağlanma eksikliği sebebiyle ortaya çıkıyor; Toyota'nın hidrolik direksiyondan elektrikli sisteme (EPS) geçtiği 2000'lerin başından beri görülen bir problem. Yazıda sorunun görüldüğü diğer Toyota modelleri arasında 2005 sonrası Corolla / Auris sayılıyor.",
+            "cozum": "Garanti kapsamında yetkili serviste direksiyon kutusu değişimi; değişimden sonra bile ses birkaç yıl sonra yeniden başlayabiliyor. Bazı kullanıcılar mafsalı söküp gresleyerek ya da solucan dişli yatağının tapasını çıkartıp yatağı tornavidayla sıkarak kendileri onarım yoluna gidiyor.",
+            "maliyet": "Yazıya göre garanti kapsamı dışında kalırsa 40 bin TL ücret talep ediliyor (tarihsiz yazı beyanı, güncel fiyat olarak okumayın).",
+            "onlem": "Toyota'nın resmi sitesinde direksiyon kutusunun garanti kapsamına girdiği, Garanti ON varsa onarımın 10 yıl / 160 bin km'ye kadar garanti kapsamında yapılacağı belirtiliyor; ancak yazıya göre hibritlerde 1 yıl / 15 bin km, diğer modellerde 1 yıl / 10 bin km'lik bakım periyodu aşılırsa direksiyon kutusu garanti dışı sayılıyor ve toleransı yok denecek kadar az (15.000 km'yi 300 km geçince reddedilen müşteriler anlatılıyor)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/toyota-corolla-direksiyon-kutusu-arzas-61/"
+          ]
+        }
       ]
     },
     {
@@ -19085,6 +20768,22 @@
             "https://www.sikayetvar.com/toyota/multimedya-ekranindaki-ses-kisma-tusu-calismiyor-yetkili-servis-cozum-sunamadi",
             "https://forum.donanimhaber.com/2020-corolla-multimedya-ses-sorunu--157682725",
             "https://forum.donanimhaber.com/2021-corolla-carplay-sorunu--159520052"
+          ]
+        },
+        {
+          "sorun_adi": "Direksiyon kutusunda (kolon) 'lakır-lukur' ses: direksiyon çevirirken ve çukur-kasislerde",
+          "etkilenen_parca": "Elektrikli direksiyon (EPS) kolonu: mafsal ve dişliler, solucan dişli yatağı",
+          "belirtiler": "Direksiyonu çevirirken ya da çukur-kasislerden geçerken 'lakır-lukur' bir ses; kilitlenme ya da direksiyonun dönmemesi gibi sorunlar oluşmuyor, sorun büyük oranda sesten ibaret.",
+          "tahmini_km_araligi": "80.000 - 100.000 km",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "And Çetin'in yazısına göre direksiyon kolonunun içindeki mafsal ve dişliler arasında zamanla aşınma ve yağlanma eksikliği sebebiyle ortaya çıkıyor; Toyota'nın hidrolik direksiyondan elektrikli sisteme (EPS) geçtiği 2000'lerin başından beri görülen bir problem. Yazıya göre 2018'de üretimine başlanan 12. nesil Corolla'larda genelde 80-100 bin km arasında başlıyor; henüz 20 bin km'de yaşayanlar da var.",
+            "cozum": "Garanti kapsamında yetkili serviste direksiyon kutusu değişimi; değişimden sonra bile ses birkaç yıl sonra yeniden başlayabiliyor. Bazı kullanıcılar mafsalı söküp gresleyerek ya da solucan dişli yatağının tapasını çıkartıp yatağı tornavidayla sıkarak kendileri onarım yoluna gidiyor.",
+            "maliyet": "Yazıya göre garanti kapsamı dışında kalırsa 40 bin TL ücret talep ediliyor (tarihsiz yazı beyanı, güncel fiyat olarak okumayın).",
+            "onlem": "Toyota'nın resmi sitesinde direksiyon kutusunun garanti kapsamına girdiği, Garanti ON varsa onarımın 10 yıl / 160 bin km'ye kadar garanti kapsamında yapılacağı belirtiliyor; ancak yazıya göre hibritlerde 1 yıl / 15 bin km, diğer modellerde 1 yıl / 10 bin km'lik bakım periyodu aşılırsa direksiyon kutusu garanti dışı sayılıyor ve toleransı yok denecek kadar az (15.000 km'yi 300 km geçince reddedilen müşteriler anlatılıyor)."
+          },
+          "kaynaklar": [
+            "https://andcetin.com/toyota-corolla-direksiyon-kutusu-arzas-61/"
           ]
         }
       ]
@@ -19385,6 +21084,19 @@
     },
     {
       "marka": "Volkswagen",
+      "model": "Amarok (2016-2022)",
+      "motor": "3.0 TDI V6 224 (DAVA)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-3-0-tdi-v6"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
       "model": "Arteon (2017-2023)",
       "motor": "1.5 TSI 150 (EA211 evo, ACT, DSG)",
       "uretim_yillari": {
@@ -19469,6 +21181,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-1-6-tdi-egr-dpf"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 5 (2003-2008)",
+      "motor": "1.6 FSI 115 (BAG / BLF)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2008
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-fsi"
       ]
     },
     {
@@ -20037,6 +21762,19 @@
     {
       "marka": "Volkswagen",
       "model": "Passat (B6, 2005-2010)",
+      "motor": "1.6 FSI 115 (BLF)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-fsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat (B6, 2005-2010)",
       "motor": "2.0 TDI PD 16V (BKP)",
       "uretim_yillari": {
         "baslangic": 2005,
@@ -20412,6 +22150,19 @@
     },
     {
       "marka": "Volkswagen",
+      "model": "Polo (6C, 2014-2017)",
+      "motor": "1.4 TDI 75/90 (3 silindir; CUS)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-4-tdi-3-silindir"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
       "model": "Polo (9N / 6R, 2002-2014)",
       "motor": "1.2 3 silindir (BMD / BME / CGPA)",
       "uretim_yillari": {
@@ -20435,6 +22186,19 @@
             "https://picoauto.com/support/viewtopic.php?p=35761"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Polo (9N, 2001-2009)",
+      "motor": "1.4 TDI 70/75/80 (3 silindir; AMF / BNM / BWB)",
+      "uretim_yillari": {
+        "baslangic": 2001,
+        "bitis": 2009
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-4-tdi-3-silindir"
       ]
     },
     {
@@ -20475,7 +22239,8 @@
         }
       ],
       "aileler": [
-        "vag-dq200"
+        "vag-dq200",
+        "vag-ea211-1-0-tsi"
       ]
     },
     {
@@ -20650,7 +22415,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "vag-dq200"
+        "vag-dq200",
+        "vag-ea211-1-0-tsi"
       ]
     },
     {
@@ -20694,7 +22460,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "vag-dq200"
+        "vag-dq200",
+        "vag-ea211-1-0-tsi"
       ]
     },
     {
@@ -20902,6 +22669,32 @@
             "https://forum.donanimhaber.com/volkswagen-tiguan-alinirmi--126098971"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touareg (CR7, 2018-)",
+      "motor": "3.0 TDI 286 (DBGC)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-3-0-tdi-v6"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touran (1T, 2003-2010)",
+      "motor": "1.6 FSI 115 (BAG / BLF)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-fsi"
       ]
     },
     {

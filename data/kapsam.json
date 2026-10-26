@@ -2092,10 +2092,10 @@
       "kademe": 3,
       "eslesme": {
         "model": [
-          "CLA"
+          "CLA (W176"
         ],
         "motor": [
-          ""
+          "180 CDI"
         ]
       }
     },
@@ -2172,7 +2172,7 @@
           "F20"
         ],
         "motor": [
-          "116d"
+          "116d 1.6"
         ]
       }
     },
@@ -2925,8 +2925,7 @@
           "1.6 Turbo"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı. Faz 15: 2.0 CDTI ayrı satırda kayıtlandı; bu satır yalnızca 1.6 Turbo'yu kapsar (kaynak çıkmadı)."
+      "not": "Faz 19: And Çetin'in Opel turbo yazısına göre 1.6T (A16XHT) SIDI ailesindedir; LSPI ile piston kırılması, yağ soğutucusu arızası ve supap uzaması aile kaydından gösterilir (◐). Önceki not: Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı."
     },
     {
       "marka": "Opel",
@@ -3301,8 +3300,7 @@
           "3.0 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "A6 C7'ye özgü kaynak bulunamadı; bulunan A6 2.0 TDI başlıkları C6 dönemine (2009-2011) ait. Faz 14: 2.0 TFSI ayrı satıra alındı."
+      "not": "Faz 19: And Çetin'in VAG motorları yazısına göre 3.0 TDI (CJGA / CRT / CMEA) için EGR-DPF-AdBlue, CRT'de common-rail / AdBlue, krank mili rulmanı, zincir gergisi ve yağ pompası sorunları aile kaydından gösterilir (◐). Önceki not: A6 C7'ye özgü kaynak bulunamadı; bulunan A6 2.0 TDI başlıkları C6 dönemine (2009-2011) ait. Faz 14: 2.0 TFSI ayrı satıra alındı."
     },
     {
       "marka": "Audi",
@@ -5461,11 +5459,11 @@
           "Amarok"
         ],
         "motor": [
-          ""
+          "BiTDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: DonanımHaber'de 2011 model 2.0 TDI 4x2 bir Amarok'ta yağ basıncı lambası ve yağ pompası değişimi (tek vaka), Şikâyetvar'da 2011 ve 2024 model turbo arızaları var; şanzıman kayıtları V6'ya ait; DPF için kayıt çıkmadı. Aynı sorun iki siteyle doğrulanmadı."
+      "not": "Faz 19: 3.0 TDI V6 (DAVA) ayrı satıra alındı. Önceki not: Faz 9'da arandı: DonanımHaber'de 2011 model 2.0 TDI 4x2 bir Amarok'ta yağ basıncı lambası ve yağ pompası değişimi (tek vaka), Şikâyetvar'da 2011 ve 2024 model turbo arızaları var; şanzıman kayıtları V6'ya ait; DPF için kayıt çıkmadı. Aynı sorun iki siteyle doğrulanmadı."
     },
     {
       "marka": "Opel",
@@ -5674,7 +5672,7 @@
       "kademe": 3,
       "eslesme": {
         "model": [
-          "B Serisi"
+          "B Serisi (W246"
         ],
         "motor": [
           "B200"
@@ -5799,21 +5797,20 @@
       "marka": "BMW",
       "model": "1 Serisi F40 / X1 F48",
       "yillar": "2015-",
-      "motor": "116d / sDrive16d / sDrive18d (B37 / B47)",
+      "motor": "116d / sDrive18d (B47)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "F40",
-          "F48"
+          "X1 (F48"
         ],
         "motor": [
           "116d",
-          "sDrive16d",
           "sDrive18d"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı (tek sorgu): Türkçe şikâyet ya da forum kaydı çıkmadı; bir Türkçe alım rehberi zincir / Valvetronic sorunlarının E84'ün 2.0 motoruna ait olduğunu, F48 18i'nin 1.5 üç silindirli turbo olduğunu yazıyor; AUTO BILD TÜV testi geri çağırmaları sıralıyor (EGR sızıntısı, airbag ateşleme, DKG bağlantıları). Faz 14: 118i (B38) ayrı satıra alındı."
+      "not": "Faz 19: sDrive16d (B37) ayrı satıra alındı; 116d (F40) ve sDrive18d (B47) için kayıt yok. Faz 9'da arandı (tek sorgu): Türkçe şikâyet ya da forum kaydı çıkmadı; bir Türkçe alım rehberi zincir / Valvetronic sorunlarının E84'ün 2.0 motoruna ait olduğunu, F48 18i'nin 1.5 üç silindirli turbo olduğunu yazıyor; AUTO BILD TÜV testi geri çağırmaları sıralıyor (EGR sızıntısı, airbag ateşleme, DKG bağlantıları). Faz 14: 118i (B38) ayrı satıra alındı."
     },
     {
       "marka": "Opel",
@@ -6448,19 +6445,17 @@
       "marka": "Mercedes-Benz",
       "model": "A Serisi W177",
       "yillar": "2018-",
-      "motor": "A180 1.3 / A200",
+      "motor": "A160 / A180 / A200 1.3 benzinli (M282)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "W177"
         ],
         "motor": [
-          "A180 1.3",
-          "A200"
+          "1.3 turbo"
         ]
       },
-      "not": "1.3 benzinli (M282) ve A200 için kaynak çıkmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin'in Mercedes'teki Renault motorları yazısına göre 1.3 TCe (M282) plastik termostat gövdesi çatlayıp sızıntı yapıyor; bu sorun aile kaydından gösterilir (◐). Önceki taramada Türkçe sitelerde M282'ye özgü kaynak çıkmamıştı."
     },
     {
       "marka": "Mercedes-Benz",
@@ -7300,8 +7295,7 @@
           "M282"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "CLA 180 (M282 1.33 turbo): Şikâyetvar'daki CLA 180 / 200 kayıtlarında turbo basıncı, soğutma suyu eksilmesi (2015 CLA 180 d, 40.000 km), direksiyon açı sensörü (CLA 180 d, yaklaşık 80.000 km) ve vites geçişi şikâyetleri var; çoğu önceki kasa ve dizel 180 d araçlara ait, M282'ye özgü kayıt çıkmadı. 200 d (OM654): Türkçe kaynaklarda OM654'e özgü kronik arıza yok; MB Club ve MBWorld'de E220d için külbütör / eksantrik aşınması (99 bin mil civarında bir vaka) ve erken enjektör contası sızıntısı (28 bin mil) tekil anlatılar olarak geçiyor, CLA için ayrı kaynak yok."
+      "not": "Faz 19: And Çetin'in Mercedes'teki Renault motorları yazısına göre CLA 180 / 200 (M282 1.3 TCe) plastik termostat gövdesi sorunu aile kaydından gösterilir (◐). Önceki not: Şikâyetvar kayıtlarında çoğu önceki kasa ve dizel 180 d araçlara ait, M282'ye özgü kayıt çıkmamıştı."
     },
     {
       "marka": "Mercedes-Benz",
@@ -7858,18 +7852,17 @@
       "marka": "Audi",
       "model": "Q7 4L / 4M",
       "yillar": "2006-",
-      "motor": "3.0 TDI",
+      "motor": "3.0 TDI 286 (DBGC)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Q7"
+          "Q7 (4M"
         ],
         "motor": [
-          ""
+          "3.0 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Ekşi Sözlük'te 3.0 TDI'ın üçüncü neslinde düşük devirde yağ basıncının düşük ayarlanması nedeniyle eksantrik mili dişlilerinin aşındığı ve bazı araçlarda 100 bin km'den önce zincir sesi çıktığı (zincir şanzıman tarafında olduğundan işçilik pahalı), ilk iki nesilde orijinal turbolarla 250 bin km'ye kadar gidildiği yazılıyor (kullanıcı görüşü). AudiWorld ve Audizine'da 4L 3.0 TDI için yüksek basınçlı yakıt pompası arızası (garanti kapsamında değişim), 110 bin milde arka ana keçe sızıntısı, zincir kapağı sızıntısı ve AdBlue pompası anlatılıyor. Anlatılar tekil olduğundan ve nesil / kilometre ayrımı yapılamadığından kayıt açılmadı."
+      "not": "Faz 19: And Çetin'in VAG motorları yazısına göre DBGC (286 PS, 2018-) için AdBlue / EGR / DPF ve CP4.2 yakıt pompası hassasiyeti aile kaydından gösterilir (◐); Q7 4L için kayıt yok. Önceki not: Ekşi Sözlük'te 3.0 TDI'ın üçüncü neslinde düşük devirde yağ basıncının düşük ayarlanması nedeniyle eksantrik mili dişlilerinin aşındığı ve bazı araçlarda 100 bin km'den önce zincir sesi çıktığı (zincir şanzıman tarafında olduğundan işçilik pahalı), ilk iki nesilde orijinal turbolarla 250 bin km'ye kadar gidildiği yazılıyor (kullanıcı görüşü). AudiWorld ve Audizine'da 4L 3.0 TDI için yüksek basınçlı yakıt pompası arızası (garanti kapsamında değişim), 110 bin milde arka ana keçe sızıntısı, zincir kapağı sızıntısı ve AdBlue pompası anlatılıyor. Anlatılar tekil olduğundan ve nesil / kilometre ayrımı yapılamadığından kayıt açılmadı."
     },
     {
       "marka": "Audi",
@@ -7941,18 +7934,17 @@
       "marka": "Volkswagen",
       "model": "Touareg",
       "yillar": "2010-",
-      "motor": "3.0 TDI",
+      "motor": "3.0 TDI 286 (DBGC)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Touareg"
+          "Touareg (CR7"
         ],
         "motor": [
-          ""
+          "3.0 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "NHTSA'daki VW servis kayıtları 2009-2016 model Touareg TDI'larda AdBlue ısıtıcısına sıvı bulaşıp motor arıza ışığının yanması (servis aksiyonu 26K2) ve 2008-2013 modellerde zincir kayması ile çalıştırma sonrası tıkırtıya ilişkin bültenler içeriyor; VWVortex'te enjektör keçelerinin 100-120 bin milde sızdırdığı, DPF tıkanması ve yüksek basınç pompası arızası anlatılıyor; DonanımHaber'de Touareg 3.0 TDI için EGR valfi sorunu geçiyor, Ekşi Sözlük'te 3.0 TDI'ın EGR soğutucusu ve yağ soğutucusunun zamanla sızdırabildiği ve üçüncü nesilde zincir sesi çıkabildiği yazılıyor. Kilometre aralığı verilen, ikinci kaynakla desteklenen tek bir sorun çıkmadı."
+      "not": "Faz 19: And Çetin'in VAG motorları yazısına göre DBGC (286 PS, 2018-) için AdBlue / EGR / DPF ve CP4.2 yakıt pompası hassasiyeti aile kaydından gösterilir (◐); önceki Touareg nesilleri için kayıt yok. Önceki not: NHTSA'daki VW servis kayıtları 2009-2016 model Touareg TDI'larda AdBlue ısıtıcısına sıvı bulaşıp motor arıza ışığının yanması (servis aksiyonu 26K2) ve 2008-2013 modellerde zincir kayması ile çalıştırma sonrası tıkırtıya ilişkin bültenler içeriyor; VWVortex'te enjektör keçelerinin 100-120 bin milde sızdırdığı, DPF tıkanması ve yüksek basınç pompası arızası anlatılıyor; DonanımHaber'de Touareg 3.0 TDI için EGR valfi sorunu geçiyor, Ekşi Sözlük'te 3.0 TDI'ın EGR soğutucusu ve yağ soğutucusunun zamanla sızdırabildiği ve üçüncü nesilde zincir sesi çıkabildiği yazılıyor. Kilometre aralığı verilen, ikinci kaynakla desteklenen tek bir sorun çıkmadı."
     },
     {
       "marka": "Volkswagen",
@@ -8251,7 +8243,8 @@
           "Karl"
         ],
         "motor": [
-          ""
+          "1.2",
+          "1.4"
         ]
       },
       "sonuc": "yetersiz-kanit",
@@ -12599,7 +12592,7 @@
           "500X"
         ],
         "motor": [
-          "FireFly"
+          "1.3 FireFly"
         ]
       },
       "not": "1.3 FireFly Turbo için kaynak çıkmadı. CarComplaints ve sınıf davası sonuçları ABD'deki 2.4 litre Tigershark motoruna ait olduğundan kullanılmadı.",
@@ -13462,19 +13455,17 @@
       "marka": "Alfa Romeo",
       "model": "Tonale",
       "yillar": "2022-",
-      "motor": "1.5 Hybrid 160 (TCT) / PHEV Q4",
+      "motor": "1.5 Hybrid 160 (7HDT300)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Tonale"
         ],
         "motor": [
-          "1.5",
-          "PHEV"
+          "1.5 Hybrid"
         ]
       },
-      "not": "Faz 14'te arandı: Şikâyetvar'da 12V akü boşalması (2022 ve 2023 modeller; servis düşük kilometreyi gerekçe göstererek garanti dışı değişim demiş), 1.5 Hybrid'de şanzıman uyarıları, PHEV'de şarj ünitesi arızası (parça İtalya'dan) ve elektrik arızası nedeniyle altı ay serviste kalma tekil; Ekşi Sözlük'te bir yorumcu Egea Cross ile ortak 1.5 hybrid motor ve şanzımanda 30.000 km dolmadan şanzıman arızası yaşadığını yazıyor (tekil). Kilometre bilgili ve ikinci siteyle doğrulanan bir sorun çıkmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin'in Fiat DCT yazısına göre 7HDT300 hibrit çift kavramalı şanzımanında vites sarsıntısı, elektrik-benzin geçişinde vuruntu, vites devre dışı kalması ve recovery mode aile kaydından gösterilir (◐). Önceki not: Faz 14'te arandı: Şikâyetvar'da 12V akü boşalması (2022 ve 2023 modeller; servis düşük kilometreyi gerekçe göstererek garanti dışı değişim demiş), 1.5 Hybrid'de şanzıman uyarıları, PHEV'de şarj ünitesi arızası (parça İtalya'dan) ve elektrik arızası nedeniyle altı ay serviste kalma tekil; Ekşi Sözlük'te bir yorumcu Egea Cross ile ortak 1.5 hybrid motor ve şanzımanda 30.000 km dolmadan şanzıman arızası yaşadığını yazıyor (tekil). Kilometre bilgili ve ikinci siteyle doğrulanan bir sorun çıkmadı."
     },
     {
       "marka": "Ssangyong",
@@ -13508,8 +13499,7 @@
           "B200"
         ]
       },
-      "not": "Faz 14'te arandı: W247'ye özgü kaynak çıkmadı; Şikâyetvar ve forumlardaki B 180 anlatıları W246 kasaya ait (ıslak kavramalı çift kavramalı şanzımanda sarsıntı, CVT onarımı).",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin'in Mercedes'teki Renault motorları yazısına göre B 180 / B 200 (M282 1.3 TCe) plastik termostat gövdesi sorunu aile kaydından gösterilir (◐). Önceki taramada W247'ye özgü kaynak çıkmamıştı; B 180 d (OM608) bu kayda dahil değildir."
     },
     {
       "marka": "Mercedes-Benz",
@@ -17011,8 +17001,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Faz 17: model geneli için Auris E150 arandı; iki siteli ortak bir model sorunu çıkmadı. DonanımHaber ve Şikâyetvar'da 2008-2011 model sahipleri ağırlıkla motor konularını anlatıyor (1.33 benzinli ve 1.4 D-4D'de yağ eksiltme, 1.6 Valvematic arızası, 2008 dizelde ilk kalkışta güç kaybı ve siyah duman, tekil vites atma / şanzıman arızası); bunlar motor satırlarında ele alındı. İngiltere kaynaklarında (What Car, Honest John, Toyota Owners Club) el freninin eğimde tutmaması, debriyaj arızaları, ön fren sesi, arka stop ve tampon contalarından su alma ve arka alt çerçeve / süspansiyon paslanması tekil olarak anılıyor; Türkçe sitelerde bu konular doğrulanmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin'in Corolla direksiyon kutusu yazısına göre Auris'te de görülen direksiyon kutusu sesi model geneli sorunu olarak eklendi (tek başına yeterli kaynak). Önceki not: Faz 17: model geneli için Auris E150 arandı; iki siteli ortak bir model sorunu çıkmadı. DonanımHaber ve Şikâyetvar'da 2008-2011 model sahipleri ağırlıkla motor konularını anlatıyor (1.33 benzinli ve 1.4 D-4D'de yağ eksiltme, 1.6 Valvematic arızası, 2008 dizelde ilk kalkışta güç kaybı ve siyah duman, tekil vites atma / şanzıman arızası); bunlar motor satırlarında ele alındı. İngiltere kaynaklarında (What Car, Honest John, Toyota Owners Club) el freninin eğimde tutmaması, debriyaj arızaları, ön fren sesi, arka stop ve tampon contalarından su alma ve arka alt çerçeve / süspansiyon paslanması tekil olarak anılıyor; Türkçe sitelerde bu konular doğrulanmadı."
     },
     {
       "marka": "Skoda",
@@ -17821,7 +17810,7 @@
       "marka": "Volkswagen",
       "model": "Golf 5",
       "yillar": "2003-2008",
-      "motor": "1.6 FSI 115 (BAG / BLF / BLP) ve 6 ileri Tiptronic (09G)",
+      "motor": "1.6 FSI 115 (BAG / BLF / BLP)",
       "kademe": 1,
       "eslesme": {
         "model": [
@@ -17831,8 +17820,7 @@
           "1.6 FSI"
         ]
       },
-      "not": "Faz 18: DonanımHaber'de 1.6 FSI için sensör hataları, yağ eksiltme (10W60 yağla azaldığı beyanı), LPG uyumu (görüşler çelişkili), bir sahipte motorda kayış vuruntusu, 'FSI motora neden sıcak bakılmıyor' başlığı ve Aisin Tiptronic (09G) vuruntusu; Ekşi Sözlük, Otopark ve Technopat'ta LPG uyumu, üç motor kodu (BAG, BLF, BLP) ve tek bir EGR valfi anlatısı geçiyor. Kilometre bilgili ve iki siteli ortak sorun çıkmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 19: And Çetin'in VAG motorları yazısına göre 1.6 FSI'da EGR / oksijen sensörü, değişken supap zamanlaması, buji-bobin, yakıt pompası-enjektör, karbon birikimi ve yüksek tüketim aile kaydından gösterilir (◐); Tiptronic (09G) için kayıt yok. Önceki not: Faz 18: DonanımHaber'de 1.6 FSI için sensör hataları, yağ eksiltme (10W60 yağla azaldığı beyanı), LPG uyumu (görüşler çelişkili), bir sahipte motorda kayış vuruntusu, 'FSI motora neden sıcak bakılmıyor' başlığı ve Aisin Tiptronic (09G) vuruntusu; Ekşi Sözlük, Otopark ve Technopat'ta LPG uyumu, üç motor kodu (BAG, BLF, BLP) ve tek bir EGR valfi anlatısı geçiyor. Kilometre bilgili ve iki siteli ortak sorun çıkmadı."
     },
     {
       "marka": "Volkswagen",
@@ -18184,6 +18172,424 @@
       },
       "not": "Faz 18: Şikâyetvar'da Palio ve Albea'da kilometre göstergesinin 399.999 km'den sonra sıfırlanıp çubuk gösterdiği (muayenede sorun) tekrar eden bir şikâyet, ikinci site yok; Albea 1.4'te motor lambası ve çekiş düşüklüğü ile kaza sonrası elektrik sorunları tekil; Technopat'ta Palio 1.2 8V'te bobin / buji kaynaklı tekleme; bazı kullanıcılar servislerin '10 yaş üstü araca bakmıyoruz' dediğini yazıyor. Ön takım ve kaporta / paslanma için kayıt çıkmadı. İki siteli ortak model sorunu çıkmadı.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 F48",
+      "yillar": "2015-2022",
+      "motor": "sDrive16d 1.5 dizel (B37)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X1 (F48"
+        ],
+        "motor": [
+          "B37"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in B37 yazısı (tek başına yeterli kaynak): mazot müşiri arızası (geri çağırma), EGR, zamanlama zinciri, DPF, ilk sürümlerde rölanti titreşimi ve turbo / emme kirlenmesi aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi F20 / F21",
+      "yillar": "2014-2019",
+      "motor": "114d / 116d 1.5 dizel (B37)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "1 Serisi (F20 / F21, 2014-2019)"
+        ],
+        "motor": [
+          "B37"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in B37 yazısı (tek başına yeterli kaynak): mazot müşiri arızası (geri çağırma), EGR, zamanlama zinciri, DPF, ilk sürümlerde rölanti titreşimi ve turbo / emme kirlenmesi aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "BMW",
+      "model": "2 Serisi Active Tourer / Gran Tourer",
+      "yillar": "2014-2021",
+      "motor": "214d / 216d 1.5 dizel (B37)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "2 Serisi Active Tourer / Gran Tourer"
+        ],
+        "motor": [
+          "B37"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in B37 yazısı (tek başına yeterli kaynak): mazot müşiri arızası (geri çağırma), EGR, zamanlama zinciri, DPF, ilk sürümlerde rölanti titreşimi ve turbo / emme kirlenmesi aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Mini",
+      "model": "Cooper / One F56",
+      "yillar": "2014-",
+      "motor": "One D / Cooper D 1.5 dizel (B37)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Cooper / One (F56"
+        ],
+        "motor": [
+          "B37"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in B37 yazısı (tek başına yeterli kaynak): mazot müşiri arızası (geri çağırma), EGR, zamanlama zinciri, DPF, ilk sürümlerde rölanti titreşimi ve turbo / emme kirlenmesi aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Mini",
+      "model": "Clubman F54",
+      "yillar": "2015-",
+      "motor": "One D / Cooper D 1.5 dizel (B37)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Clubman (F54"
+        ],
+        "motor": [
+          "B37"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in B37 yazısı (tek başına yeterli kaynak): mazot müşiri arızası (geri çağırma), EGR, zamanlama zinciri, DPF, ilk sürümlerde rölanti titreşimi ve turbo / emme kirlenmesi aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Mini",
+      "model": "Countryman F60",
+      "yillar": "2017-",
+      "motor": "One D / Cooper D 1.5 dizel (B37)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Countryman (F60"
+        ],
+        "motor": [
+          "B37"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in B37 yazısı (tek başına yeterli kaynak): mazot müşiri arızası (geri çağırma), EGR, zamanlama zinciri, DPF, ilk sürümlerde rölanti titreşimi ve turbo / emme kirlenmesi aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLA H247",
+      "yillar": "2020-",
+      "motor": "GLA 200 1.3 (M282)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "GLA (H247"
+        ],
+        "motor": [
+          "M282"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in Mercedes'teki Renault motorları yazısı (tek başına yeterli kaynak): M282 1.3 TCe'de plastik termostat gövdesinin çatlayıp sızıntı yapması aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "GLB X247",
+      "yillar": "2019-",
+      "motor": "GLB 200 1.3 (M282)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "GLB (X247"
+        ],
+        "motor": [
+          "M282"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in Mercedes'teki Renault motorları yazısı (tek başına yeterli kaynak): M282 1.3 TCe'de plastik termostat gövdesinin çatlayıp sızıntı yapması aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "Citan W420",
+      "yillar": "2021-",
+      "motor": "110 / 113 1.3 benzinli (M282)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Citan (W420"
+        ],
+        "motor": [
+          "M282"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in Mercedes'teki Renault motorları yazısı (tek başına yeterli kaynak): M282 1.3 TCe'de plastik termostat gövdesinin çatlayıp sızıntı yapması aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Opel",
+      "model": "Corsa E",
+      "yillar": "2014-2019",
+      "motor": "1.0 Turbo 90/115 (SIDI)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Corsa E (2014-2019)"
+        ],
+        "motor": [
+          "SIDI"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in Opel turbo yazısı (tek başına yeterli kaynak): SIDI turbo ailesinde LSPI ile piston ve segman kırılması aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Opel",
+      "model": "Adam",
+      "yillar": "2013-2019",
+      "motor": "1.0 Turbo 90/115 (SIDI)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Adam (2013-2019)"
+        ],
+        "motor": [
+          "SIDI"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in Opel turbo yazısı (tek başına yeterli kaynak): SIDI turbo ailesinde LSPI ile piston ve segman kırılması aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra K",
+      "yillar": "2015-2021",
+      "motor": "1.0 Turbo 105 (SIDI)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Astra K (2015-2021)"
+        ],
+        "motor": [
+          "1.0 Turbo"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in Opel turbo yazısı (tek başına yeterli kaynak): SIDI turbo ailesinde LSPI ile piston ve segman kırılması aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra K",
+      "yillar": "2015-2021",
+      "motor": "1.6 Turbo 200 (SIDI)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Astra K (2015-2021)"
+        ],
+        "motor": [
+          "1.6 Turbo"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in Opel turbo yazısı (tek başına yeterli kaynak): SIDI turbo ailesinde LSPI ile piston ve segman kırılması aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Tonale",
+      "yillar": "2022-",
+      "motor": "PHEV Q4",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tonale"
+        ],
+        "motor": [
+          "PHEV"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 12V akü boşalması (2022 ve 2023 modeller; servis düşük kilometreyi gerekçe göstererek garanti dışı değişim demiş), 1.5 Hybrid'de şanzıman uyarıları, PHEV'de şarj ünitesi arızası (parça İtalya'dan) ve elektrik arızası nedeniyle altı ay serviste kalma tekil; Ekşi Sözlük'te bir yorumcu Egea Cross ile ortak 1.5 hybrid motor ve şanzımanda 30.000 km dolmadan şanzıman arızası yaşadığını yazıyor (tekil). Kilometre bilgili ve ikinci siteyle doğrulanan bir sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Amarok",
+      "yillar": "2016-2022",
+      "motor": "3.0 TDI V6 224 (DAVA)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Amarok (2016-2022)"
+        ],
+        "motor": [
+          "DAVA"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in VAG motorları yazısı (tek başına yeterli kaynak); sorunlar aile kaydından gösterilir (◐). AdBlue / EGR / DPF ve CP4.2 yüksek basınç yakıt pompasının kötü mazota duyarlılığı."
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 C6",
+      "yillar": "2008-2011",
+      "motor": "3.0 TDI quattro 233/240 (CAS)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A6 (C6"
+        ],
+        "motor": [
+          "CAS"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in VAG motorları yazısı (tek başına yeterli kaynak); sorunlar aile kaydından gösterilir (◐). Erken CAS motorlarında DPF ve EGR sorunları."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Polo 9N",
+      "yillar": "2001-2009",
+      "motor": "1.4 TDI 70/75/80 (3 silindir)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Polo (9N"
+        ],
+        "motor": [
+          "1.4 TDI"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in VAG motorları yazısı (tek başına yeterli kaynak); sorunlar aile kaydından gösterilir (◐). BNM / BWB'de yağlama-turbo sorunları ve titreşim."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Polo 6C",
+      "yillar": "2014-2017",
+      "motor": "1.4 TDI 75/90 (3 silindir; CUS)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Polo (6C"
+        ],
+        "motor": [
+          "1.4 TDI"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in VAG motorları yazısı (tek başına yeterli kaynak); sorunlar aile kaydından gösterilir (◐). CUS'ta EGR valfi ve turbo dayanıksızlığı."
+    },
+    {
+      "marka": "Fiat",
+      "model": "500X",
+      "yillar": "2015-",
+      "motor": "1.0 FireFly Turbo 120",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "500X (2015-)"
+        ],
+        "motor": [
+          "1.0 FireFly"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in 1.0 turbo karşılaştırması (tek başına yeterli kaynak): supap kapağı diyaframı delinmesi ve yağ yakma, zincir kopması, motor takozu kırılması aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Egea",
+      "yillar": "2015-",
+      "motor": "1.0 FireFly Turbo 100/120",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Egea (2015-)"
+        ],
+        "motor": [
+          "1.0 FireFly"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in 1.0 turbo karşılaştırması (tek başına yeterli kaynak): FireFly 1.0 Turbo'nun Egea'da kullanıldığı yazıda belirtiliyor; aile sorunları aile kaydından gösterilir (◐). Türkiye'deki satış sürümleri ayrıca doğrulanmadı."
+    },
+    {
+      "marka": "Fiat",
+      "model": "500X Hybrid",
+      "yillar": "2022-",
+      "motor": "1.5 Hybrid 130 (7HDT300)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "500X Hybrid"
+        ],
+        "motor": [
+          "7HDT300"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in Fiat DCT yazısı (tek başına yeterli kaynak): 7HDT300 hibrit çift kavramalı şanzıman sorunları aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Alfa Romeo",
+      "model": "Tonale",
+      "yillar": "2022-",
+      "motor": "1.6 JTDm 130 (6 ileri DDCT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tonale"
+        ],
+        "motor": [
+          "1.6 JTDm"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in Fiat DCT yazısı (tek başına yeterli kaynak): Tonale 1.6 dizelde DDCT'nin sıkışık trafikte aşırı ısınması ve DDCT sorunları aile kaydından gösterilir (◐)."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla E170",
+      "yillar": "2013-2018",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Corolla (E170, 2013-2018)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in Corolla direksiyon kutusu yazısına göre 2005 sonrası Corolla / Auris'te görülen direksiyon kutusu sesi model geneli sorunu olarak eklendi (tek başına yeterli kaynak)."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat B6 / Touran 1T",
+      "yillar": "2003-2010",
+      "motor": "1.6 FSI 115 (BAG / BLF)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Passat (B6",
+          "Touran (1T"
+        ],
+        "motor": [
+          "1.6 FSI"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in VAG motorları yazısı (tek başına yeterli kaynak): 1.6 FSI aile kaydı (EGR / oksijen sensörü, değişken supap zamanlaması, buji-bobin, yakıt pompası-enjektör, karbon birikimi, yüksek tüketim) (◐)."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A5",
+      "yillar": "2004-2013",
+      "motor": "1.6 FSI 115 (BLF)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Octavia (A5"
+        ],
+        "motor": [
+          "1.6 FSI"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in VAG motorları yazısı (tek başına yeterli kaynak): 1.6 FSI aile kaydı (EGR / oksijen sensörü, değişken supap zamanlaması, buji-bobin, yakıt pompası-enjektör, karbon birikimi, yüksek tüketim) (◐)."
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 8P",
+      "yillar": "2003-2012",
+      "motor": "1.6 FSI 115 (BAG / BLF)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A3 (8P"
+        ],
+        "motor": [
+          "1.6 FSI"
+        ]
+      },
+      "not": "Faz 19: And Çetin'in VAG motorları yazısı (tek başına yeterli kaynak): 1.6 FSI aile kaydı (EGR / oksijen sensörü, değişken supap zamanlaması, buji-bobin, yakıt pompası-enjektör, karbon birikimi, yüksek tüketim) (◐)."
     }
   ]
 }

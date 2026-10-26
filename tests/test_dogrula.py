@@ -15,8 +15,12 @@ GERCEK_VERI = json.loads(dogrula.VARSAYILAN_DOSYA.read_text(encoding="utf-8"))
 SEMA = json.loads((KOK / "schema" / "araclar.schema.json").read_text(encoding="utf-8"))
 
 
+GUVENILIR = [a for a, b in KAYIT["siteler"].items() if b.get("tek_basina_yeterli")]
+
+
 def alan_adlari(tur):
-    return [a for a, b in KAYIT["siteler"].items() if b["tur"] == tur]
+    """Tek başına yeterli sayılan siteler hariç: iki site kuralı testleri sıradan sitelerle yazılır."""
+    return [a for a, b in KAYIT["siteler"].items() if b["tur"] == tur and not b.get("tek_basina_yeterli")]
 
 
 FORUM = alan_adlari("forum")[0]
@@ -209,6 +213,30 @@ class DogrulaTesti(unittest.TestCase):
         veri = ornek()
         sorun(veri)["kaynaklar"] = [f"https://{a}/x" for a in EDITORYAL]
         self.assertHata(veri, "resmî belge, forum")
+
+    def test_tek_basina_yeterli_site_tek_kaynak_yeter(self):
+        self.assertTrue(GUVENILIR, "kayıt defterinde tek_basina_yeterli işaretli site yok")
+        veri = ornek()
+        sorun(veri)["kaynaklar"] = [f"https://{GUVENILIR[0]}/yazi-1/"]
+        self.assertEqual(hatalar(veri), [])
+
+    def test_tek_basina_yeterli_sitede_km_istege_bagli(self):
+        veri = ornek()
+        sorun(veri)["kaynaklar"] = [f"https://{GUVENILIR[0]}/yazi-1/"]
+        del sorun(veri)["tahmini_km_araligi"]
+        self.assertEqual(hatalar(veri), [])
+
+    def test_sirada_site_icin_km_zorunlu_kalir(self):
+        veri = ornek()
+        del sorun(veri)["tahmini_km_araligi"]
+        self.assertHata(veri, "tahmini_km_araligi")
+
+    def test_tek_basina_yeterli_bayragi_yalniz_true_sayilir(self):
+        kayit = copy.deepcopy(KAYIT)
+        kayit["siteler"][GUVENILIR[0]]["tek_basina_yeterli"] = "evet"
+        veri = ornek()
+        sorun(veri)["kaynaklar"] = [f"https://{GUVENILIR[0]}/yazi-1/"]
+        self.assertTrue(dogrula.dogrula(veri, kayit)[0])
 
     def test_kayitsiz_site(self):
         veri = ornek()
