@@ -28,14 +28,14 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 
 ## İlerleme
 
-- Plan: **674** model/motor grubu (motor ve şanzıman düzeyi)
-- Tamamlanan (✓, modele özgü kaynaklı sorun var): **173**
+- Plan: **676** model/motor grubu (motor ve şanzıman düzeyi)
+- Tamamlanan (✓, modele özgü kaynaklı sorun var): **178**
 - Yalnızca ortak aile kaynağıyla kayıtlı (◐): **264**
-- Araştırılıp eklenmeyen (–): **237**
+- Araştırılıp eklenmeyen (–): **234**
 - Sırada (○): **0**
 - Kademe 1: **131/131** işlendi (✓, ◐ ya da –)
-- Model geneli taraması: **171** model nesli arandı (sorun bulunan ✓ **79**, kanıt yetersiz – **92**); 472 motor kaydından **211**'i taranmış bir modele ait, **261**'i henüz taranmadı
-- Veritabanı: **551** kayıt (**472** motor, **79** model geneli), **356** kayda özgü kronik sorun, **67** motor/şanzıman ailesi (**103** ortak sorun)
+- Model geneli taraması: **171** model nesli arandı (sorun bulunan ✓ **79**, kanıt yetersiz – **92**); 477 motor kaydından **213**'i taranmış bir modele ait, **264**'i henüz taranmadı
+- Veritabanı: **556** kayıt (**477** motor, **79** model geneli), **362** kayda özgü kronik sorun, **67** motor/şanzıman ailesi (**103** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
@@ -45,15 +45,15 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Fiat | 28 | 11 | 6 | 11 | 0 | 5/5 | 6 / 2 |
 | Hyundai | 42 | 11 | 16 | 15 | 0 | 14/14 | 2 / 6 |
 | Peugeot | 22 | 10 | 6 | 6 | 0 | 5/5 | 4 / 4 |
-| Opel | 40 | 14 | 14 | 12 | 0 | 5/5 | 6 / 7 |
+| Opel | 41 | 16 | 14 | 11 | 0 | 5/5 | 6 / 7 |
 | Citroen | 20 | 6 | 7 | 7 | 0 | 3/3 | 4 / 2 |
 | BYD | 3 | 1 | 0 | 2 | 0 | 1/1 | 0 / 1 |
 | Skoda | 29 | 9 | 14 | 6 | 0 | 6/6 | 5 / 6 |
-| Mercedes-Benz | 45 | 10 | 19 | 16 | 0 | 7/7 | 5 / 3 |
+| Mercedes-Benz | 45 | 11 | 19 | 15 | 0 | 7/7 | 5 / 3 |
 | Togg | 2 | 1 | 0 | 1 | 0 | 1/1 | 1 / 0 |
 | BMW | 54 | 5 | 38 | 11 | 0 | 17/17 | 7 / 4 |
 | Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 | 1 / 0 |
-| Nissan | 22 | 8 | 7 | 7 | 0 | 4/4 | 4 / 1 |
+| Nissan | 22 | 9 | 7 | 6 | 0 | 4/4 | 4 / 1 |
 | Chery | 2 | 0 | 0 | 2 | 0 | 0/0 | — |
 | Ford | 34 | 8 | 15 | 11 | 0 | 8/8 | 5 / 4 |
 | Kia | 36 | 9 | 12 | 15 | 0 | 6/6 | 2 / 4 |
@@ -62,7 +62,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Honda | 14 | 4 | 3 | 7 | 0 | 3/3 | 2 / 3 |
 | Seat | 13 | 3 | 8 | 2 | 0 | 2/2 | 1 / 2 |
 | Chevrolet | 1 | 0 | 0 | 1 | 0 | 0/0 | — |
-| Volvo | 17 | 1 | 6 | 10 | 0 | 4/4 | 2 / 2 |
+| Volvo | 18 | 2 | 6 | 10 | 0 | 4/4 | 2 / 2 |
 | Subaru | 6 | 1 | 2 | 3 | 0 | 0/0 | 0 / 1 |
 | Mini | 5 | 1 | 3 | 1 | 0 | 0/0 | 0 / 2 |
 | Jeep | 10 | 3 | 4 | 3 | 0 | 0/0 | 1 / 1 |
@@ -470,7 +470,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | Crossland / Corsa F | 2017- | 1.2 PureTech 83/100/110/130 | ✓ 1 sorun (+1 ortak aile), 1 yıl kırılımı |
 | 2 | Crossland X / Grandland X | 2017- | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da Grandland X için güneşlik bağlantı noktalarından ve cam tavandan su alma, multimedya ekranının kapanıp açılmaması, geri görüş kamerası ve sensör arızaları, direksiyon kaplamasının soyulması ve tavan boyası dökülmesi; Crossland X için sağa çekme, sol arka stop lambasında sürekli buğulanma, boya matlaşması, rüzgâr sesi ve multimedya şikâyetleri tekil kayıtlar halinde anlatılıyor. DonanımHaber ve Ekşi Sözlük'te Grandland X için güneşlik / cam tavan sızıntısı çıkmadı; multimedya için görüşler karışık (ergonomi iyi, arayüz vasat, geri görüş kamerasının çözünürlüğü eleştiriliyor) ve sistematik bir arıza bildirilmiyor. Ekşi Sözlük'te bir yorumcu direksiyon kaplamasının soyulmasının Grandland X ve Insignia'da da birçok kullanıcıda görüldüğünü yazıyor; ikinci bağımsız site ve model yılı ayrıntısı yok. Eksantrik zinciri, yağ pompası ve AdBlue konuları motor kayıtlarının alanıdır. |
 | 2 | Insignia A | 2014-2017 | 1.6 CDTI 136 | ✓ 2 sorun |
-| 2 | Insignia A | 2008-2017 | 2.0 CDTI / 1.6 Turbo | – eklenmedi: Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı. |
+| 2 | Insignia A | 2008-2017 | 1.6 Turbo | – eklenmedi: Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı. Faz 15: 2.0 CDTI ayrı satırda kayıtlandı; bu satır yalnızca 1.6 Turbo'yu kapsar (kaynak çıkmadı). |
 | 2 | Insignia A | 2008-2017 | 1.6 115 (A16XER) | ◐ 1 ortak aile sorunu — Insignia 1.6 benzinliye özgü kaynak aranmadı; gösterilen termostat gövdesi, soğutma suyu eksilmesi ve yağ soğutucu sorunu aynı A16XER motorunu kullanan Astra J kaydına dayanır. |
 | 2 | Insignia B | 2017-2022 | 1.5 Turbo / 2.0 CDTI | – eklenmedi: Şikâyetvar'da Insignia B 1.5 Grand Sport (2020) için 'motor gücü azaltıldı' uyarısı ve devirdaim pompası arızası ile garanti reddi anlatılıyor; aynı sayfada bir yorumcu bunun 1.5 dizelde kronik olduğunu yazıyor, benzinli 1.5 Turbo için kanıt değil. DonanımHaber'de 1.5T 165 BG için parça bulma endişesi dışında şikâyet yok. 2.0 CDTI için çıkan kaynaklar (Parkers, Vauxhall Owners Network) 2009-2017 Insignia A'nın yağ emme borusu kaynaklı yağ basıncı kaybını anlatıyor; B nesline özgü kayıt çıkmadı. |
 | 2 | Insignia B | 2017-2022 | 1.6 CDTI 136 | ◐ 2 ortak aile sorunu — Bu oturumdaki aramada Insignia B (GrandSport) 1.6 CDTI için DonanımHaber, Şikâyetvar ve Ekşi Sözlük'te turbo hortumunun bağlantı yerinden yırtılması (50 bin ve 72 bin km vakaları), enjektör şakırtısı ve zincir sesi anlatıları, otomatik şanzımanda titreme ve selenoid arızası (Şikâyetvar'da 187 bin km'de 202 bin TL'lik revizyon) çıktı; modele özgü kilometre bilgisi ve ikinci kaynakla doğrulanmış ayrı kayıt oluşmadı. Gösterilen triger zinciri ve turbo hortumu sorunları Astra J / K ve Insignia A kaynaklarına dayanır. |
@@ -492,14 +492,15 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Crossland | 2017- | 1.5 BlueHDi | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Crossland şikâyetleri motor beyni ve şanzıman tarafında tekil; gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır. |
 | 3 | Frontera Electric | 2025- | Elektrik | – eklenmedi: Şikâyetvar'da 112 şikâyet listeleniyor (batarya arızası, uzun servis bekleme, kalkışta geri kayma, fren diski korozyonu); tek taramada ikinci bağımsız site çıkmadı. |
 | 3 | Grandland X / Grandland | 2017- | 1.5 BlueHDi | ✓ 1 sorun (+2 ortak aile), 1 yıl kırılımı |
-| 3 | Insignia A | 2008-2017 | 2.0 CDTI (A20DTH) | – eklenmedi: A20DTH'ye özgü kronik sorun listesi çıkmadı; turbo hortumu şikâyetleri çoğunlukla 1.6 CDTI'a ait ve o kayıtta. |
+| 3 | Insignia A | 2008-2017 | 2.0 CDTI (A20DTJ / A20DTH / A20DTR) | ✓ 1 sorun — Faz 15 (parti 1): kayıt açıldı. Parkers, 2017 öncesi 2.0 CDTi motorlarda yağ emme contasının sertleşmesine bağlı yağ basıncı kaybını ikinci elde en büyük uyarı olarak anlatıyor; Vauxhall ve Astra Owners Network ile Insignia Drivers forumlarında aynı sorun anlatılıyor. Kilometre aralığı iki forum vakasından kaba tahmindir. |
 | 3 | Insignia A | 2008-2017 | 1.4 Turbo 140 (A14NET) | ◐ 1 ortak aile sorunu — Insignia 1.4 Turbo'ya özgü kaynak çıkmadı; gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır. |
 | 3 | Meriva B | 2010-2017 | 1.3 CDTI 95 (Multijet) | ◐ 5 ortak aile sorunu — Meriva 1.3 CDTI için forum yorumları eski ve genel (çoğunlukla olumlu); modele özgü sorun çıkmadı. Gösterilen enjektör, turbo, EGR ve zincir sorunları aynı Multijet motorunu kullanan Fiat ve Opel kaynaklarına dayanır. |
 | 3 | Meriva B | 2010-2017 | 1.4 Turbo 120 (A14NET) | ◐ 1 ortak aile sorunu — Meriva 1.4 Turbo için sonuç çıkmadı (şikâyetler hava yastığı geri çağırması ve kapı kaplamasında); gösterilen PCV diyaframı ve emme manifoldu valfi sorunu aynı A14NET motorunu kullanan Astra J kaydına dayanır. |
 | 3 | Meriva B | 2010-2017 | Tüm motorlar (model geneli) | – eklenmedi: DonanımHaber'de 'Opel Meriva Eps hatası' başlığında sola dönerken EPS ışığının yanması anlatılıyor (aküden gerilim düşüşü şüphesi, yaklaşık 1.500 TL'lik tork sensörü değişimi teklifi; nesil belirtilmemiş); Şikâyetvar'da 2014 model Meriva 1.6 dizelde direksiyon pompası / kutusu şüphesi tekil. Vauxhall Owners Network ve Honest John'da Meriva EPS arızası (ışık yanıp direksiyonun ağırlaşması, tork sensörü, C1500 kodu, BBC Watchdog yayınından söz eden bir yanıt, geri çağırma talepleri) ağırlıkla ilk kuşak Meriva A (2003-2010) için anlatılıyor; Meriva B için 2013 model bir sahibin 30.000 milin altında EPS'nin garantide komple değiştirilip yeniden arızalandığı tek kayıt var. Resmî geri çağırma doğrulanamadı. Bozuk yolda direksiyon kutusundan ses (burçların sabitlenmesiyle giderilmiş) tek forum kullanıcısı. |
 | 3 | Mokka / Mokka X (1. nesil) | 2012-2020 | Tüm motorlar (model geneli) | – eklenmedi: Faz 14'te arandı: Şikâyetvar'da 2017 model Mokka X 1.6 CDTI otomatikte P0741 şanzıman arızası (servis en az 70.000 TL demiş ve model grubunda sık olduğunu söylemiş), vites topuzunda çatlama, direksiyon kaplamasının sıcakta erimesi, el freni düğmesinin kırılması (çoğu 2013-2016 model), tavan boya atması, zincir sesi ve hararet arızası tekil; ikinci bağımsız site yok. |
 | 3 | Mokka B | 2021- | 1.5 BlueHDi 110 (DV5) | ◐ 3 ortak aile sorunu, 1 yıl kırılımı — Faz 9'da arandı (tek sorgu, PureTech ile birlikte): Mokka B 1.5 BlueHDi'ya özgü kaynak çıkmadı; forumlarda AdBlue ve DPF sorunları PSA 1.5 BlueHDi'nın geneli için anılıyor. Gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır. |
-| 3 | Zafira B | 2005-2014 | 1.6 / 1.9 CDTI | – eklenmedi: Honest John'un Zafira B incelemesi ve Vauxhall Owners Network konuları 1.9 CDTI (Z19DTH) için EGR valfinin kurumlanıp tıkanması (yaklaşık 350 sterlin), girdap kanatlarının kırılıp motora kaçması, çift kütleli volan ve debriyaj sorunları (103.000 mil civarında bir araçta), DPF tıkanması (yaklaşık 1.300 sterlin) ve kayışla tahrik edilen su pompasının kilitlenip motoru bozabilmesi (kayış ve pompanın 40.000 mil / 4 yılda yenilenmesi öneriliyor) anlatıyor; DonanımHaber'de bir Zafira sahibi EGR temizliğinin yarım saat sonra sorunu geri getirdiğini yazıyor. Tutarlı bir arıza kilometresi çıkmadığı için kayıt açılmadı; 1.6 benzinli için kaynak çıkmadı. |
+| 3 | Zafira B | 2005-2014 | 1.9 CDTI 120/150 (Z19DT / Z19DTH) | ✓ 1 sorun — Faz 15 (parti 1): kayıt açıldı. Vauxhall ve Astra Owners Network, İngiltere bayi forumu, İtalyan Ammirati forumu ve Honest John EGR tıkanması ile girdap kanadı arızasını anlatıyor; kilometre aralığı kaba tahmindir (detayda belirtildi). |
+| 3 | Zafira B | 2005-2014 | 1.6 benzinli | – eklenmedi: 1.6 benzinli için kaynak çıkmadı (Faz 9). 1.9 CDTI Faz 15'te ayrı satırda kayıtlandı. |
 
 ### Citroen
 
@@ -641,7 +642,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | S Serisi W222 | 2013-2020 | S 400 (M276 3.0 V6 biturbo benzin) | – eklenmedi: Şikâyetvar'daki S 400 kayıtları 2021 model (W223) araçlara ait (disk balansı, akü); W222 M276 için kilometreye bağlı kronik arıza çıkmadı. DonanımHaber'deki turbo başlığı model belirtmiyor. |
 | 3 | Sprinter | 2006-2018 | 209-316 CDI (OM651) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — Sprinter'a özgü ayrı kaynak yok; gösterilen piezo enjektör sorunu C ve E Serisi (OM651) kayıtlarına dayanır. |
 | 3 | Sprinter W907 | 2018- | 316 CDI (OM654) | – eklenmedi: Şikâyetvar'daki Sprinter şikâyetleri çoğunlukla 2022-2023 model araçlara ait tekil anlatılar (şaft titremesi 5.000 km'den sonra, 3. viteste atma 22 bin km, rölanti titremesi 50 bin km, diferansiyel vuruntusu yaklaşık 70 bin km, lambda sensörü arızasıyla gaz kesme); 2019-2021 316 CDI için kayıt yok. Parkers 907 kuşağının birkaç güvenlik geri çağırması olduğunu ve 140 / 143 PS motorların dik yokuşta 6. viteste zorlandığını yazıyor; OM654 için külbütör aşınması ve AdBlue (NOx sensörü, depo ısıtıcısı) anlatıları Sprinter'e değil E sınıfı ve V sınıfı forumlarına ait. |
-| 3 | Viano W639 | 2003-2014 | 2.2 CDI (OM646) | – eklenmedi: MB Club ve BenzWorld'de W639 Vito 2.2 CDI (OM646) için enjektör keçesi sızıntısı ('black death': enjektör yuvasında karbon, gaz kaçağı, onarımdan sonra yeniden sızdırma; bir vakada bayi onarımından yaklaşık 10 ay sonra) yaygın biçimde anlatılıyor, turbo aktüatör ve girdap kanadı arıza kodları da geçiyor. DonanımHaber'deki Viano 2.2 CDI incelemesi kronik başlıklar olarak enjektör, EGR valfi ve otomatik şanzıman arızalarını sayıyor. Kaynaklar arızanın hangi kilometrede çıktığını vermediği için kilometre aralığı çıkarılamadı ve kayıt açılmadı. |
+| 3 | Viano W639 | 2003-2010 | 2.2 CDI 109/111/115/120 (OM646) | ✓ 1 sorun — Faz 15 (parti 1): kayıt açıldı. MB Club ve BenzWorld'de Vito / Viano W639 için enjektör keçesi sızıntısı ('black death') yaygın anlatılıyor; DonanımHaber'deki bir Viano 2.2 CDI incelemesi enjektör arızalarını kronik sayıyor, Autoscore yaklaşık 150.000 km veriyor (kilometre aralığı bu tek noktalı tahminden kaba tahmindir). 2010 sonrası W639 makyajı OM651 motorludur ve bu kayda dahil değildir. |
 | 3 | Vito / V-Class | 2014- | 114 / 116 / 119 CDI (OM651) | ◐ 2 ortak aile sorunu, 1 yıl kırılımı — Vito ve Sprinter'a özgü ayrı kaynak yok; gösterilen piezo enjektör ve 7G-Tronic iletken plaka sorunları C ve E Serisi (OM651) kayıtlarına dayanır. |
 
 ### Togg
@@ -759,8 +760,8 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Navara | 2010- | 2.5 dCi | – eklenmedi: Enjektör ve turbo şikâyetleri yalnızca Şikâyetvar'da; ikinci bağımsız kaynak çıkmadı. |
 | 3 | Note | 2013- | 1.2 (benzinli) | – eklenmedi: Note 1.2 için ilgili şikâyet bulunamadı (aramada yalnızca X-Trail 1.6 dCi öne çıktı). |
 | 3 | Pulsar C13 | 2014-2018 | 1.2 DIG-T / 1.5 dCi | ◐ 4 ortak aile sorunu, 1 yıl kırılımı — Pulsar'a özgü ayrı kaynak çıkmadı; 1.2 DIG-T, Renault / Nissan 1.2 TCe - DIG-T ailesine (yağ tüketimi: DonanımHaber'de Qashqai, Pulsar ve diğer modeller için anlatılıyor), 1.5 dCi, K9K ailesine bağlandı. |
-| 3 | X-Trail T31 | 2007-2014 | 2.0 dCi | – eklenmedi: DonanımHaber'de 2011 model 2.0 dizel X-Trail'de 207.000 km civarında enjektör, üst kapak, devirdaim pompası ve şanzıman değişimi ile yağ yakma anlatılıyor; Honest John'da 2.0 dCi için 2007-2009 modellerde DPF arızaları (61.000 mil), 73.000 milde enjektör arızasından motor değişimi (motor kodu belirtilmemiş), 95.000 milde zincir kopması ve 35.700 milde yağ pompası arızasıyla motor kilitlenmesi tekil olarak geçiyor. Tutarlı bir kilometre aralığı çıkmadı. |
-| 3 | X-Trail T32 | 2014-2021 | 1.6 dCi (R9M, Xtronic CVT) | ✓ 1 sorun (+2 ortak aile) |
+| 3 | X-Trail T31 | 2007-2014 | 2.0 dCi (M9R) | ✓ 2 sorun — Faz 15 (parti 1): kayıt açıldı (DPF ve enjektör). Honest John okur yorumları ve forumu, DonanımHaber ve araclo aynı konuları anlatıyor; anlatılar çoğunlukla 2007-2010 modellere ait ve tekil olduğundan risk 'Orta', kilometre aralıkları kaba tahmindir. |
+| 3 | X-Trail T32 | 2014-2021 | 1.6 dCi (R9M, Xtronic CVT) | ✓ 1 sorun (+1 ortak aile) |
 
 ### Chery (ek kademe)
 
@@ -1013,7 +1014,8 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | XC90 (2015-2017) | 2015-2017 | T5 / T6 2.0 turbo benzin (B4204T, Drive-E) | ◐ 1 ortak aile sorunu — XC90 T5 / T6 için Türkçe kaynakta motora özgü yağ tüketimi kaydı çıkmadı (bir forum yorumu T6'da erken vites kaydırma ve güç kaybı anıyor, kuşak belirtilmemiş). Faz 14: bu satır Volvo B4204T ortak yağ tüketimi sorununu gösterir (NHTSA'daki Volvo ek garanti bülteni P10186 ve SwedeSpeed); Türkçe kaynak yok, Türkiye'deki araçlar için bülten kapsamı doğrulanamadı. |
 | 2 | XC90 / S90 / V90 (Sensus) | 2015- | Tüm motorlar (model geneli) | ✓ 1 sorun — Sensus ekranı donması / yeniden başlaması Şikâyetvar, Swedespeed ve Volvo Forums UK'te doğrulandı (yabancı başlıklar modelleri tam ayırmıyor; XC90 MY18 başlığı var). Şikâyetvar'da sol arka kapı camının açılmaması ve kapının zaman zaman kilitlenmemesi (S90), iki sıfır XC90'da ön tamponların 3 gün arayla düşmesi, yan basamak tıkırtısı ve V90 Cross Country'de titreme / zıplama tekil; XC40 Recharge (P6) sahibi ekranın her gün kapandığını yazıyor (elektrikli, ayrı satır). Cam tavan ve su alma için sonuç çıkmadı. |
 | 3 | S60 / V40 | 2011-2018 | 1.6 D DRIVe (Powershift) | ✓ 1 sorun (+5 ortak aile) |
-| 3 | S80 / V70 / XC70 | 2007-2016 | D5 2.4 / D4 | – eklenmedi: DonanımHaber'de S80 D5 için turbo hortumu sızıntısı, 150 bin km civarında otomatik şanzımanda sarsıntı (solenoid ve yağ değişimi, bazen hidrolik ünite revizyonu) ve enjektör başlıkları geçiyor; Şikâyetvar'da bir 2016 Volvo'da iki kez turbo hortumu yüzünden yolda kalma anlatılıyor. Volvo Owners Club forumunda D5 girdap kanadı değişimi (enjektörlerin sökülmesi gerekiyor), D5244T enjektör sızıntısı ve turbo basıncı düşüklüğü kodları tartışılıyor; kilometre bilgisi tutarlı değil ve D4 için kaynak çıkmadı. |
+| 3 | S80 / V70 / XC70 | 2007-2016 | D5 2.4 (D5244T) | ✓ 1 sorun — Faz 15 (parti 1): kayıt açıldı (enjektör arızası). Volvo Owners Club, Honest John, SwedeSpeed ve DonanımHaber enjektör sorunlarını anlatıyor; kilometre aralığı geniş ve kaba tahmindir, bazı kaynaklar 2007 öncesi D5'e aittir (aynı D5244T motoru). D4 (Drive-E) ayrı satırda. |
+| 3 | S80 / V70 / XC70 | 2012-2016 | D4 2.0 (Drive-E, D4204T) | – eklenmedi: D4 (Drive-E) için kaynak çıkmadı. D5 2.4 Faz 15'te ayrı satırda kayıtlandı. |
 | 3 | XC40 (2018-) | 2018- | Tüm motorlar (model geneli) | – eklenmedi: Faz 14'te arandı: Şikâyetvar'da tahrik sistemi arızası (2023 modelde 42.000 km'de altı ayda dört kez yolda kalma), 48V akü arızası (15-30 gün bekleme) ve kilitlerin açılmaması tekil; DonanımHaber'de bir T3 sahibi tek sorunu olarak fren gıcırtısını yazıyor. |
 | 3 | XC60 T8 | 2018- | T8 AWD plug-in hibrit (2.0 turbo + kompresör, elektrik) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — Faz 14: modele özgü kaynak çıkmadı; bu satır Volvo plug-in hibrit yüksek voltlu batarya ailesinin ortak sorununu (R10312 geri çağırması) gösterir. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; Şikâyetvar'daki T8 sahipleri uzaktan klima, SOS lambası ve ön panjur gibi konuları anlatıyor. |
 | 3 | XC90 T8 | 2016- | T8 AWD plug-in hibrit (2.0 turbo + kompresör, elektrik) | ◐ 1 ortak aile sorunu, 1 yıl kırılımı — Faz 14: modele özgü kaynak çıkmadı; bu satır Volvo plug-in hibrit yüksek voltlu batarya ailesinin ortak sorununu (R10312 geri çağırması) gösterir. Türkiye'deki araçlar için kampanya kapsamı doğrulanamadı; Şikâyetvar'daki T8 sahipleri uzaktan klima, SOS lambası ve ön panjur gibi konuları anlatıyor. |

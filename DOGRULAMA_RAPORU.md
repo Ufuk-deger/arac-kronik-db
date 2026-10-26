@@ -1537,6 +1537,27 @@ Yeni kayıtların marka dağılımı: BMW 17, Audi 12, Skoda 7, Toyota 7, Volksw
 - **Sıklık bilgisi yok.** Her sorun "sahipler bildirdi" düzeyindedir; risk seviyesi README'deki ölçeğe göre editoryal bir sınıflandırmadır.
 - **Kapsam soruları:** (1) 2011 öncesi model yılı penceresi hâlâ dışarıda. (2) Hibrit ve plug-in hibritler artık kapsamda; ticari araçlar (Transit Custom, Jumpy / Jumper, Expert / Boxer vb.) hâlâ yok.
 
+## 15. aşama: beşer beşer ekleme (onaylı partiler)
+
+Kullanıcı isteğiyle araçlar beşer kayıtlık partiler halinde ekleniyor ve her partiden sonra onay alınıyor. Kanıt kuralı değişmedi (her sorun için en az iki farklı site, biri deneyim ya da resmî türünde). Bu bölümdeki partiler eklendikçe büyür; güncel toplamlar [KAPSAM.md](KAPSAM.md)'dedir (14. aşamanın ve "Sonraki adımlar"ın sayıları o aşamanın sonunu gösterir).
+
+Önceki aşamalarda "kilometre aralığı çıkmadı" gerekçesiyle `–` kalan, ama birden çok sitede anlatılan sorunlar bu aşamada yeniden değerlendirildi: kilometre aralığı kaynaklardaki vakalardan kaba tahminle yazıldı ve ilgili sorunun ayrıntısında bu açıkça belirtildi (Faz 14'te Ford 2.0 TDCi ailesinde uygulanan yöntem).
+
+### Parti 1 (5 kayıt, 6 kayda özgü sorun)
+
+| Araç | Sorun | Km (kaba tahmin) | Risk | Site | Kanıt gücü |
+| --- | --- | --- | --- | ---: | --- |
+| Opel Insignia A (2008-2017) 2.0 CDTI | Yağ emme contasının sertleşmesi, yağ basıncı kaybı | 150.000 - 230.000 | Yüksek | 4 | İyi: Parkers bunu ikinci elde en büyük uyarı sayıyor, üç forum aynısını anlatıyor |
+| Opel Zafira B (2005-2014) 1.9 CDTI | EGR tıkanması ve girdap kanadı arızası | 100.000 - 180.000 | Orta | 6 | Orta-iyi: çok forum ve bir derleme, kilometre vakalara dayanıyor |
+| Mercedes Viano / Vito W639 (2003-2010) 2.2 CDI (OM646) | Enjektör keçesi sızıntısı ('black death') | 120.000 - 180.000 | Orta | 4 | İyi: iki forum çok sayıda başlık; kilometre tek noktalı bir derlemeden (Autoscore) |
+| Nissan X-Trail T31 (2007-2014) 2.0 dCi | DPF tıkanması; enjektör arızası | 50.000 - 100.000; 120.000 - 210.000 | Orta | 2; 3 | Orta-zayıf: Honest John, DonanımHaber ve araclo; anlatılar tekil ve 2007-2010 modellere ağırlıklı |
+| Volvo S80 / V70 / XC70 (2007-2016) D5 2.4 | Enjektör arızası ve geri dönüş kaçağı | 100.000 - 250.000 | Orta | 4 | Orta: çok sayıda başlık ama kilometre tutarsız, bazı kaynaklar 2007 öncesi D5'e ait |
+
+- **Plan:** Beş `–` satırı `✓` oldu; satırlar bölündüğünden üç yeni `–` satırı doğdu (Insignia A 1.6 Turbo, Zafira B 1.6 benzinli, S80 / V70 / XC70 D4). Sahibinden listesindeki "X-Trail T31 FL" nesli artık kayıtlı.
+- **Yeni kaynak siteleri (4):** Insignia Drivers, Car Dealer Magazine forumu, Ammirati forumu (İtalya) ve Autoscore (derleme; yalnızca destekleyici).
+- **Düzeltme:** Vito W447 OM651 satırı yeni W639 kaydına yanlışlıkla eşleşip `◐`'dan `✓`'a dönmüştü; satırın eşleşmesi W447 ile daraltıldı.
+- **Sınırlar:** Beş kaydın dördü ağırlıkla İngiltere / ABD kaynaklarına dayanıyor; Türkçe doğrulama X-Trail, Viano ve Volvo için DonanımHaber'deki tekil başlıklarla sınırlı. Kilometre aralıkları kaba tahmindir. Bu partideki kayıtların bir kısmı 2011 öncesi model yıllarını kapsıyor (Zafira B 1.9, Viano OM646, X-Trail T31); planda zaten satırları vardı.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.

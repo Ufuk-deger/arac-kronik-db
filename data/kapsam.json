@@ -2261,7 +2261,7 @@
       "kademe": 3,
       "eslesme": {
         "model": [
-          "X-Trail"
+          "X-Trail (T32"
         ],
         "motor": [
           ""
@@ -2915,19 +2915,18 @@
       "marka": "Opel",
       "model": "Insignia A",
       "yillar": "2008-2017",
-      "motor": "2.0 CDTI / 1.6 Turbo",
+      "motor": "1.6 Turbo",
       "kademe": 2,
       "eslesme": {
         "model": [
           "Insignia A"
         ],
         "motor": [
-          "2.0 CDTI",
           "1.6 Turbo"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı."
+      "not": "Turbo hortumu sorunu 1.6 CDTI kaydında var; 1.6 Turbo'da zincir ve yağ soğutucusu için motor sürümü belirsiz tekil yorumlar, 2.0 CDTI için tekil kayıt çıktı. Faz 15: 2.0 CDTI ayrı satırda kayıtlandı; bu satır yalnızca 1.6 Turbo'yu kapsar (kaynak çıkmadı)."
     },
     {
       "marka": "Opel",
@@ -3633,7 +3632,7 @@
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Vito"
+          "W447"
         ],
         "motor": [
           "CDI"
@@ -3978,18 +3977,17 @@
       "marka": "Opel",
       "model": "Insignia A",
       "yillar": "2008-2017",
-      "motor": "2.0 CDTI (A20DTH)",
+      "motor": "2.0 CDTI (A20DTJ / A20DTH / A20DTR)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Insignia"
+          "Insignia A"
         ],
         "motor": [
           "2.0 CDTI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "A20DTH'ye özgü kronik sorun listesi çıkmadı; turbo hortumu şikâyetleri çoğunlukla 1.6 CDTI'a ait ve o kayıtta."
+      "not": "Faz 15 (parti 1): kayıt açıldı. Parkers, 2017 öncesi 2.0 CDTi motorlarda yağ emme contasının sertleşmesine bağlı yağ basıncı kaybını ikinci elde en büyük uyarı olarak anlatıyor; Vauxhall ve Astra Owners Network ile Insignia Drivers forumlarında aynı sorun anlatılıyor. Kilometre aralığı iki forum vakasından kaba tahmindir."
     },
     {
       "marka": "Kia",
@@ -7357,8 +7355,8 @@
     {
       "marka": "Mercedes-Benz",
       "model": "Viano W639",
-      "yillar": "2003-2014",
-      "motor": "2.2 CDI (OM646)",
+      "yillar": "2003-2010",
+      "motor": "2.2 CDI 109/111/115/120 (OM646)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -7368,8 +7366,7 @@
           ""
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "MB Club ve BenzWorld'de W639 Vito 2.2 CDI (OM646) için enjektör keçesi sızıntısı ('black death': enjektör yuvasında karbon, gaz kaçağı, onarımdan sonra yeniden sızdırma; bir vakada bayi onarımından yaklaşık 10 ay sonra) yaygın biçimde anlatılıyor, turbo aktüatör ve girdap kanadı arıza kodları da geçiyor. DonanımHaber'deki Viano 2.2 CDI incelemesi kronik başlıklar olarak enjektör, EGR valfi ve otomatik şanzıman arızalarını sayıyor. Kaynaklar arızanın hangi kilometrede çıktığını vermediği için kilometre aralığı çıkarılamadı ve kayıt açılmadı."
+      "not": "Faz 15 (parti 1): kayıt açıldı. MB Club ve BenzWorld'de Vito / Viano W639 için enjektör keçesi sızıntısı ('black death') yaygın anlatılıyor; DonanımHaber'deki bir Viano 2.2 CDI incelemesi enjektör arızalarını kronik sayıyor, Autoscore yaklaşık 150.000 km veriyor (kilometre aralığı bu tek noktalı tahminden kaba tahmindir). 2010 sonrası W639 makyajı OM651 motorludur ve bu kayda dahil değildir."
     },
     {
       "marka": "Mercedes-Benz",
@@ -7550,7 +7547,7 @@
       "marka": "Volvo",
       "model": "S80 / V70 / XC70",
       "yillar": "2007-2016",
-      "motor": "D5 2.4 / D4",
+      "motor": "D5 2.4 (D5244T)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -7559,11 +7556,10 @@
           "XC70"
         ],
         "motor": [
-          ""
+          "D5 2.4"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "DonanımHaber'de S80 D5 için turbo hortumu sızıntısı, 150 bin km civarında otomatik şanzımanda sarsıntı (solenoid ve yağ değişimi, bazen hidrolik ünite revizyonu) ve enjektör başlıkları geçiyor; Şikâyetvar'da bir 2016 Volvo'da iki kez turbo hortumu yüzünden yolda kalma anlatılıyor. Volvo Owners Club forumunda D5 girdap kanadı değişimi (enjektörlerin sökülmesi gerekiyor), D5244T enjektör sızıntısı ve turbo basıncı düşüklüğü kodları tartışılıyor; kilometre bilgisi tutarlı değil ve D4 için kaynak çıkmadı."
+      "not": "Faz 15 (parti 1): kayıt açıldı (enjektör arızası). Volvo Owners Club, Honest John, SwedeSpeed ve DonanımHaber enjektör sorunlarını anlatıyor; kilometre aralığı geniş ve kaba tahmindir, bazı kaynaklar 2007 öncesi D5'e aittir (aynı D5244T motoru). D4 (Drive-E) ayrı satırda."
     },
     {
       "marka": "Land Rover",
@@ -8235,18 +8231,17 @@
       "marka": "Opel",
       "model": "Zafira B",
       "yillar": "2005-2014",
-      "motor": "1.6 / 1.9 CDTI",
+      "motor": "1.9 CDTI 120/150 (Z19DT / Z19DTH)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Zafira B"
         ],
         "motor": [
-          ""
+          "1.9 CDTI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Honest John'un Zafira B incelemesi ve Vauxhall Owners Network konuları 1.9 CDTI (Z19DTH) için EGR valfinin kurumlanıp tıkanması (yaklaşık 350 sterlin), girdap kanatlarının kırılıp motora kaçması, çift kütleli volan ve debriyaj sorunları (103.000 mil civarında bir araçta), DPF tıkanması (yaklaşık 1.300 sterlin) ve kayışla tahrik edilen su pompasının kilitlenip motoru bozabilmesi (kayış ve pompanın 40.000 mil / 4 yılda yenilenmesi öneriliyor) anlatıyor; DonanımHaber'de bir Zafira sahibi EGR temizliğinin yarım saat sonra sorunu geri getirdiğini yazıyor. Tutarlı bir arıza kilometresi çıkmadığı için kayıt açılmadı; 1.6 benzinli için kaynak çıkmadı."
+      "not": "Faz 15 (parti 1): kayıt açıldı. Vauxhall ve Astra Owners Network, İngiltere bayi forumu, İtalyan Ammirati forumu ve Honest John EGR tıkanması ile girdap kanadı arızasını anlatıyor; kilometre aralığı kaba tahmindir (detayda belirtildi)."
     },
     {
       "marka": "Opel",
@@ -8620,18 +8615,17 @@
       "marka": "Nissan",
       "model": "X-Trail T31",
       "yillar": "2007-2014",
-      "motor": "2.0 dCi",
+      "motor": "2.0 dCi (M9R)",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "X-Trail T31"
+          "X-Trail (T31"
         ],
         "motor": [
           ""
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "DonanımHaber'de 2011 model 2.0 dizel X-Trail'de 207.000 km civarında enjektör, üst kapak, devirdaim pompası ve şanzıman değişimi ile yağ yakma anlatılıyor; Honest John'da 2.0 dCi için 2007-2009 modellerde DPF arızaları (61.000 mil), 73.000 milde enjektör arızasından motor değişimi (motor kodu belirtilmemiş), 95.000 milde zincir kopması ve 35.700 milde yağ pompası arızasıyla motor kilitlenmesi tekil olarak geçiyor. Tutarlı bir kilometre aralığı çıkmadı."
+      "not": "Faz 15 (parti 1): kayıt açıldı (DPF ve enjektör). Honest John okur yorumları ve forumu, DonanımHaber ve araclo aynı konuları anlatıyor; anlatılar çoğunlukla 2007-2010 modellere ait ve tekil olduğundan risk 'Orta', kilometre aralıkları kaba tahmindir."
     },
     {
       "marka": "Nissan",
@@ -14079,6 +14073,42 @@
         ]
       },
       "not": "Faz 14: aile bağı kuruldu; bu satır Ford 2.0 TDCi (Duratorq DW10) ailesinin ortak enjektör sorununu gösterir (kaynaklar Parkers, Ford Owners Club, Honest John, DonanımHaber, Otopark); kilometre aralığı Türkçe forum yorumlarına dayanır, modele özgü ayrı kaynak çıkmadı. DonanımHaber'de bir S-Max sahibi 200.000-250.000 km arası enjektör revizyonu bekliyor, başka bir sahip 3,5 yılda sorun yaşamadığını yazıyor."
+    },
+    {
+      "marka": "Opel",
+      "model": "Zafira B",
+      "yillar": "2005-2014",
+      "motor": "1.6 benzinli",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Zafira B"
+        ],
+        "motor": [
+          "1.6"
+        ]
+      },
+      "not": "1.6 benzinli için kaynak çıkmadı (Faz 9). 1.9 CDTI Faz 15'te ayrı satırda kayıtlandı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volvo",
+      "model": "S80 / V70 / XC70",
+      "yillar": "2012-2016",
+      "motor": "D4 2.0 (Drive-E, D4204T)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "S80",
+          "V70",
+          "XC70"
+        ],
+        "motor": [
+          "D4"
+        ]
+      },
+      "not": "D4 (Drive-E) için kaynak çıkmadı. D5 2.4 Faz 15'te ayrı satırda kayıtlandı.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }

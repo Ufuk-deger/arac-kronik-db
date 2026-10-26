@@ -714,6 +714,38 @@
       "guven": "yüksek",
       "ana_sayfa": "https://www.mlit.go.jp/en/",
       "not": "Japonya'da resmî geri çağırma bildirimleri; Türkiye kapsamı ayrıca doğrulanmalıdır."
+    },
+    "insignia-drivers.uk": {
+      "ad": "Insignia Drivers Forum",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://insignia-drivers.uk/forum/",
+      "not": "Vauxhall / Opel Insignia sahiplerinin teknik atölye bölümü; yağ basıncı, motor ve şanzıman konuları. Kullanıcı deneyimi."
+    },
+    "cardealermagazine.co.uk": {
+      "ad": "Car Dealer Magazine Forum",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "düşük",
+      "ana_sayfa": "https://forum.cardealermagazine.co.uk/",
+      "not": "İngiltere'de bayi ve ikinci el satıcılarının forumu; model bazında alım-satım deneyimleri. Kullanıcı görüşü."
+    },
+    "ammirati.org": {
+      "ad": "Ammirati Forum",
+      "ulke": "IT",
+      "tur": "forum",
+      "guven": "düşük",
+      "ana_sayfa": "https://ammirati.org/forum/",
+      "not": "İtalyan oto tamircilerinin 'uzman yanıtlıyor' bölümü; hata kodu ve onarım vakaları. Kullanıcı deneyimi."
+    },
+    "autoscore.pro": {
+      "ad": "Autoscore",
+      "ulke": "Global",
+      "tur": "toplayici",
+      "guven": "düşük",
+      "ana_sayfa": "https://autoscore.pro/",
+      "not": "Motor kodu bazında arıza listesi ve kaba kilometre tahmini veren derleme site; kaynağı belirtilmiyor, yalnızca destekleyici olarak kullanıldı."
     }
   }
 }

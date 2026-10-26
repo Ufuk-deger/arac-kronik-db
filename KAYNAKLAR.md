@@ -42,15 +42,15 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 86 farklı site, 356 sorun için kullanıldı.
+Toplam 90 farklı site, 362 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 338 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
+| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 341 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
 | [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 323 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
-| [Araclo](https://www.araclo.com/) | TR | düşük | 141 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
+| [Araclo](https://www.araclo.com/) | TR | düşük | 143 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
 | [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 138 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
 | [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 97 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
 | [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 84 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. |
@@ -81,35 +81,38 @@ Toplam 86 farklı site, 356 sorun için kullanıldı.
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [Honest John](https://www.honestjohn.co.uk/) | UK | orta | 31 | Forum ve editör yanıtları ('Ask HJ'). Forum yazıları çoğunlukla 10 yıldan eski olabiliyor. |
+| [Honest John](https://www.honestjohn.co.uk/) | UK | orta | 35 | Forum ve editör yanıtları ('Ask HJ'). Forum yazıları çoğunlukla 10 yıldan eski olabiliyor. |
 | [Fiat Forum](https://www.fiatforum.com/) | UK | orta | 20 | Fiat sahipleri forumu (Dualogic, Multijet, Tipo). |
 | [French Car Forum](https://www.frenchcarforum.co.uk/) | UK | orta | 17 | Peugeot, Citroën ve Renault forumu. |
 | [Bimmerpost](https://f30.bimmerpost.com/) | US | orta | 16 | BMW F30 ve diğer kasa forumları. |
 | [Ford Owners Club](https://www.fordownersclub.com/) | UK | orta | 16 | Ford sahipleri forumu (Focus, Fiesta, EcoBoost). |
 | [BRISKODA](https://www.briskoda.net/forums/) | UK | orta | 14 | Škoda sahipleri forumu. |
+| [Vauxhall Owners Network](https://www.vauxhallownersnetwork.co.uk/) | UK | orta | 13 | Vauxhall/Opel sahipleri forumu. |
 | [VWVortex](https://www.vwvortex.com/) | US | orta | 12 | Volkswagen forumu. |
-| [Vauxhall Owners Network](https://www.vauxhallownersnetwork.co.uk/) | UK | orta | 11 | Vauxhall/Opel sahipleri forumu. |
 | [AudiWorld](https://www.audiworld.com/) | US | orta | 10 | Audi forumu ve rehber yazıları. |
 | [MBWorld](https://mbworld.org/) | US | orta | 9 | Mercedes-Benz forumu. |
-| [MB Club UK](https://forums.mbclub.co.uk/) | UK | orta | 7 | Mercedes-Benz sahipleri forumu. |
+| [MB Club UK](https://forums.mbclub.co.uk/) | UK | orta | 8 | Mercedes-Benz sahipleri forumu. |
+| [Astra Owners Network](https://www.astraownersnetwork.co.uk/) | UK | orta | 7 | Opel/Vauxhall Astra forumu. |
+| [BenzWorld](https://www.benzworld.org/) | US | orta | 6 | Mercedes-Benz forumu. |
 | [Toyota Owners Club](https://toyotaownersclub.com/) | UK | orta | 6 | Toyota sahipleri forumu (Auris/Corolla D-4D). |
-| [Astra Owners Network](https://www.astraownersnetwork.co.uk/) | UK | orta | 5 | Opel/Vauxhall Astra forumu. |
 | [Audizine](https://www.audizine.com/) | US | orta | 5 | Audi forumu. |
-| [BenzWorld](https://www.benzworld.org/) | US | orta | 5 | Mercedes-Benz forumu. |
 | [CivicX](https://www.civicx.com/) | US | orta | 5 | Honda Civic (10. nesil) forumu. |
 | [Nissan QashQai Forums](https://www.qashqaiforums.co.uk/) | UK | orta | 5 | Nissan Qashqai sahipleri forumu. |
+| [SwedeSpeed](https://www.swedespeed.com/) | US | orta | 5 | Volvo ve Saab sahipleri forumu (XC60, S60, V60 başlıkları). |
 | [Berlingo Forum](https://www.berlingoforum.com/) | UK | orta | 4 | Citroën Berlingo ve PSA dizel (HDi) forumu. |
 | [CruzeTalk](https://www.cruzetalk.com/) | US | orta | 4 | Chevrolet Cruze forumu. Konular çoğunlukla ABD'deki 1.4T ve 1.8 motorlar için. |
 | [SpeakEV](https://www.speakev.com/) | UK | orta | 4 | İngiltere merkezli elektrikli araç sahibi forumu; Zoe, Peugeot e-208, BYD gibi modellerde 12V akü, şarj ve tahrik arızası konuları. |
-| [SwedeSpeed](https://www.swedespeed.com/) | US | orta | 4 | Volvo ve Saab sahipleri forumu (XC60, S60, V60 başlıkları). |
 | [German Car Forum](https://www.germancarforum.com/) | Global | orta | 3 | Alman markaları forumu. |
 | [Planète Renault](https://www.planeterenault.com/forum/) | FR | orta | 3 | Fransızca Renault forumu. K9K yatak sorunu için moderatör yazısı bu sitede. |
+| [Volvo Owners Club Forum](https://www.volvoforums.org.uk/) | UK | orta | 3 | Volvo Owners Club forumu; XC60 / S60 / V60 teknik başlıkları. |
 | [E90Post](https://www.e90post.com/) | US | orta | 2 | BMW 3 Serisi E90/E92 forumu. |
 | [Forum Peugeot](https://www.forum-peugeot.com/) | FR | orta | 2 | Fransızca Peugeot forumu. |
-| [Volvo Owners Club Forum](https://www.volvoforums.org.uk/) | UK | orta | 2 | Volvo Owners Club forumu; XC60 / S60 / V60 teknik başlıkları. |
 | [8thCivic](https://www.8thcivic.com/) | US | orta | 1 | Honda Civic (8. nesil, FD) forumu. |
+| [Ammirati Forum](https://ammirati.org/forum/) | IT | düşük | 1 | İtalyan oto tamircilerinin 'uzman yanıtlıyor' bölümü; hata kodu ve onarım vakaları. Kullanıcı deneyimi. |
 | [AudiSRS](https://audisrs.com/) | UK | orta | 1 | Audi ve VAG forumu. |
+| [Car Dealer Magazine Forum](https://forum.cardealermagazine.co.uk/) | UK | düşük | 1 | İngiltere'de bayi ve ikinci el satıcılarının forumu; model bazında alım-satım deneyimleri. Kullanıcı görüşü. |
 | [ElectricVehicleForums](https://electricvehicleforums.com/) | US | düşük | 1 | Civic Hybrid forumu; Honda 08-001 bülteni aktarımı içeriyor. |
+| [Insignia Drivers Forum](https://insignia-drivers.uk/forum/) | UK | orta | 1 | Vauxhall / Opel Insignia sahiplerinin teknik atölye bölümü; yağ basıncı, motor ve şanzıman konuları. Kullanıcı deneyimi. |
 | [Kia Forums](https://www.kia-forums.com/) | US | orta | 1 | Kia sahipleri forumu; Sportage 3. nesil (2011-2016) dahil model bölümleri var. |
 | [PicoAuto Forum](https://www.picoauto.com/support/) | UK | düşük | 1 | Tanı cihazı üreticisinin destek forumu. |
 | [Tesla Motors Club](https://teslamotorsclub.com/) | US | orta | 1 | Tesla sahipleri ve meraklıları forumu (Model 3 / Model Y bölümleri). |
@@ -123,14 +126,15 @@ Toplam 86 farklı site, 356 sorun için kullanıldı.
 | [AustralianCar.Reviews](https://australiancar.reviews/) | AU | orta | 5 | Model bazında geri çağırma ve arıza listeleri. |
 | [Consumer Reports](https://www.consumerreports.org/) | US | yüksek | 4 | Sahip anketlerine dayalı güvenilirlik verisi ve kampanya haberleri. |
 | [CarChecker.pro](https://www.carchecker.pro/) | Global | düşük | 3 | Genel amaçlı model raporları; iddialar zayıf kaynaklıdır. |
-| [au7o](https://au7o.io/) | Global | düşük | 2 | Arıza kodu ve bilinen sorun derlemesi. |
+| [au7o](https://au7o.io/) | Global | düşük | 3 | Arıza kodu ve bilinen sorun derlemesi. |
+| [Autoscore](https://autoscore.pro/) | Global | düşük | 1 | Motor kodu bazında arıza listesi ve kaba kilometre tahmini veren derleme site; kaynağı belirtilmiyor, yalnızca destekleyici olarak kullanıldı. |
 | [RepairPal](https://repairpal.com/) | US | orta | 1 | Arıza belirtisi ve onarım maliyeti derlemesi. |
 
 ### Editör yazıları ve haberler
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [Parkers](https://www.parkers.co.uk/) | UK | orta | 22 | İkinci el alım rehberleri ve haberler. |
+| [Parkers](https://www.parkers.co.uk/) | UK | orta | 23 | İkinci el alım rehberleri ve haberler. |
 | [L'argus](https://www.largus.fr/) | FR | yüksek | 9 | Fransız otomotiv yayını. Güvenilirlik yazıları, tekrarlayan arıza listeleri ve geri çağırma haberleri. |
 | [InsideEVs](https://insideevs.com/) | US | orta | 7 | Elektrikli araç haberleri; geri çağırma ve yaygın arıza özetleri. |
 | [electrive.com](https://www.electrive.com/) | DE | orta | 6 | Elektrikli araç ve şarj haberleri; Avrupa geri çağırmaları ve KBA kayıtlarına atıflar. |

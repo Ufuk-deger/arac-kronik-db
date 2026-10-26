@@ -11139,6 +11139,41 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "Viano / Vito (W639, 2003-2010)",
+      "motor": "2.2 CDI 109/111/115/120 (OM646)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Enjektör keçesi (bakır pul) sızıntısı - 'black death'",
+          "etkilenen_parca": "Enjektör alt pulu ve silindir kapağındaki enjektör yuvası",
+          "belirtiler": "Motor kapağı altında dizel kokusu ya da üfleme sesi, enjektör çevresinde siyah katran benzeri kurum, rölanti dalgalanması ve duman; ihmal edilirse enjektörün sıkışıp sökülememesi",
+          "tahmini_km_araligi": "120.000 - 180.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Autoscore, OM646'da tipik enjektör keçesi sızıntısını yaklaşık 150.000 km'ye yerleştiriyor (genel tahmin) ve nedeni bakır ezilme pulunun bozulması, yanma gazının enjektörün yanından kaçıp silindir kapağında sert karbon bırakması olarak anlatıyor. MB Club ve BenzWorld'de Vito / Viano W639 sahipleri sızıntının egzoz gazı kaçağı olduğunu, enjektörün genleşip büzülmesinin pulu zamanla bozduğunu tartışıyor; onarımdan sonra yeniden sızdırma ('black death again') ve sıkışan ya da dişi sıyrılan enjektör vakaları geçiyor.",
+            "teshis": "Motor kapağının altında dizel kokusu ya da 'chuffing' (üfleme) sesi ve enjektör çevresinde siyah katran benzeri birikim. Vito 2.2 CDI'nin en uzak enjektörü gövde altında kaldığı için sökmenin zor olduğu MB Club'da yazılıyor; Autoscore, kontrol edilmezse karbonun enjektörleri ve kablo demetini gömüp sökümü çok pahalı hale getirebileceğini söylüyor.",
+            "cozum": "Enjektörün sökülüp yuvanın temizlenmesi, yeni pul ve tek kullanımlık gerdirme cıvatası takılması. Forumlarda Honda pulunun daha kalın ve yumuşak olduğu için daha iyi tuttuğunu söyleyen sahipler var (kullanıcı görüşü); iki pul üst üste koymak ya da cıvatayı kesmek sızıntıyı gidermiyor ve silindir kapağı dişini bozabiliyor.",
+            "maliyet": "MB Club'da 2015 dolayı bir mesajda gezgin servis için işin tamamı 390 sterlin; Autoscore 200-800 euro veriyor (genel). Fiyatlar eski ve yurt dışına ait; güncel teklif alın.",
+            "onlem": "İkinci elde enjektör çevresinde siyah kurum ve motor üstünde dizel kokusu kontrolü; servis kaydında enjektör pullarının yenilenip yenilenmediğini sorun. Doğru bakılan OM646'ların Mercedes'in en iyi motorlarından olduğunu yazan sahipler de var (kullanıcı görüşü). DonanımHaber'deki bir Viano 2.2 CDI incelemesi de enjektör, EGR valfi ve otomatik şanzıman arızalarını kronik sayıyor (kilometresiz). Kilometre aralığı Autoscore'un tek noktalı tahminine dayanan kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://forums.mbclub.co.uk/threads/w639-black-death-again-on-back-injector-advice-needed.219644/",
+            "https://forums.mbclub.co.uk/threads/how-to-remove-a-cdi-injector-with-black-death.160423/page-2",
+            "https://forums.mbclub.co.uk/threads/injector-seal-vito-639.255461/",
+            "https://forums.mbclub.co.uk/threads/some-questions-about-om646-longevity.306321/",
+            "https://www.benzworld.org/threads/vito-black-death-injector-seal-leaking.2011833/",
+            "https://www.benzworld.org/threads/leaking-injectors.1525945/",
+            "https://autoscore.pro/engine/om646",
+            "https://forum.donanimhaber.com/mercedes-viano-hakkinda-butce-50-bin-tl--81994086"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "Vito / V-Class (W447, 2014-)",
       "motor": "114 / 116 / 119 CDI 2.1 (OM651; manuel ve 7G-Tronic Plus)",
       "uretim_yillari": {
@@ -11774,6 +11809,56 @@
       "kronik_sorunlar": [],
       "aileler": [
         "nissan-e-power-aku"
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "X-Trail (T31, 2007-2014)",
+      "motor": "2.0 dCi (M9R)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "DPF (partikül filtresi) tıkanması ve arıza lambası",
+          "etkilenen_parca": "DPF, DPF basınç ve sıcaklık sensörleri, rejenerasyon yazılımı",
+          "belirtiler": "DPF uyarı lambası, zorunlu yenilemeyle geçmeyen tıkanıklık, güç kaybı; kısa mesafe kullanımında sık tekrar",
+          "tahmini_km_araligi": "50.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Honest John okurları 2007-2009 model X-Trail 2.0 dCi'larda DPF arızasının sürdüğünü anlatıyor: yaklaşık 33.000 milde (53.000 km) bayinin zorunlu yenilemesiyle açılmayan tıkanıklık, 61.000 millik (98.000 km) bir 2008 modelde yaklaşık 1.534 sterlinlik DPF değişim teklifi. Bir okur sorunun sürüş şekline bağlı olduğunu, yalnızca ilk 2007-2008 modellerde ışığın yandığını ve 2.000 devir üzerinde 20 dakikalık sürüşle kurumun yakılabildiğini, sonraki modellerde yazılım güncellemesi geldiğini yazıyor (kullanıcı anlatısı). araclo, kısa mesafede DPF'nin rejenere olamadığını ve şehir içi kullanımda 60.000-100.000 km'de sorun çıkabileceğini söylüyor.",
+            "teshis": "Işık yandığında uzun yolda yüksek devirle rejenerasyon denenir; geçmezse serviste zorunlu yenileme ve DPF basınç / sıcaklık sensörü okuması yapılır. Honest John'da yeni DPF takıldıktan yaklaşık 320 mil sonra ışığı yeniden yanan bir sahibe Nissan'ın bilgisayarda sorun olduğunu söylediği anlatılıyor.",
+            "cozum": "DPF temizliği ya da değişimi; bir okur 'eski DPF temizlenebilecekken yenisi için ödeme yaptım mı' diye soruyor, yani gereksiz değişim tartışması var. Sonraki modellerde yazılım güncellemesi geldiği yazılıyor (kullanıcı anlatısı).",
+            "maliyet": "Bir 2008 modelde DPF değişimi için 1.534 sterlin teklif edilmiş (eski, Birleşik Krallık fiyatı); güncel teklif alın.",
+            "onlem": "Ağırlıklı kısa mesafe kullanılmış araçlardan kaçının, servis kaydında DPF uyarısını ve yenilemesini sorun; zaman zaman uzun yolda yüksek devir sürüşü rejenerasyona yardım eder. Kilometre aralığı birkaç forum vakası ve araclo'daki aralığa dayanan kaba tahmindir; 2007-2009 modellere ait anlatılar ağırlıktadır."
+          },
+          "kaynaklar": [
+            "https://www.honestjohn.co.uk/askhj/answer/51164/should-i-have-paid-for-a-new-dpf-for-my-x-trail-when-the-old-one-could-have-been-cleaned-",
+            "https://www.honestjohn.co.uk/nissan/x-trail/2007/",
+            "https://www.araclo.com/vehicles/nissan-x-trail-2.0-dci/degerlendirmeler/kullanici-sorunlari"
+          ]
+        },
+        {
+          "sorun_adi": "Enjektör arızası (rölanti dalgalanması ve aşırı yakıtlama)",
+          "etkilenen_parca": "Common rail enjektörler",
+          "belirtiler": "Düzensiz rölanti, tekleme, soğuk çalıştırmada zorlanma ve titreme, güç kaybı, yakıt tüketimi artışı; uzun süre ihmalde piston ve silindir hasarı",
+          "tahmini_km_araligi": "120.000 - 210.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "araclo'ya göre piezo enjektörlerde geri dönüş kaçağı artıyor ve soğuk çalıştırmada zorlanma ile titreme görülüyor (120.000-180.000 km). Honest John okurlarından biri 2007 model 2.0 dCi'da 73.000 milde (117.000 km) enjektör arızasının aşırı yakıtlama yüzünden piston, subap ve silindir hasarına yol açtığını yazıyor; başka bir okur bayilerin 95.000 mil civarında düzensiz rölanti için enjektör değişimi (adet başına yaklaşık 250 sterlin + işçilik) önerdiğini, enjektör temizleyicisinin kalıcı etkisi olmadığını anlatıyor (tekil anlatılar). DonanımHaber'de 2011 model 2.0 dizel X-Trail'i 185.000 km'de alan bir sahip, 207.000 km'ye kadar enjektörlerin, üst kapağın, devirdaim pompasının ve şanzımanın değiştiğini yazıyor.",
+            "teshis": "Rölanti dalgalanması, duman ve çekiş kaybı varsa enjektör geri dönüş / kaçak testi; DonanımHaber'de belirtilerin kurum birikimiyle karışabildiği, karbon temizleyici kimyasalların enjektör deliklerine zarar verebileceği uyarısı da geçiyor.",
+            "cozum": "Enjektör değişimi ya da revizyonu. Aynı DonanımHaber başlığında motorun 'yağ yakma ve çekiş düşüşü yoksa sorunsuz' sayılabileceği, şüphede kompresyon testi yapılabileceği yazılıyor.",
+            "maliyet": "Honest John'da adet başına yaklaşık 250 sterlin + işçilik (eski, Birleşik Krallık); güncel teklif alın.",
+            "onlem": "İkinci elde rölanti, duman ve soğuk çalıştırma davranışına bakın, servis kaydında enjektör geçmişini sorun. Kilometre aralığı forum vakaları ile araclo'daki aralığa dayanan kaba tahmindir; arızanın yaygınlığını kanıtlayan bir istatistik yok."
+          },
+          "kaynaklar": [
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=84129",
+            "https://www.honestjohn.co.uk/nissan/x-trail/2007/",
+            "https://forum.donanimhaber.com/motor-uflemesi-hakkinda-yardimci-olurmusunuz--138685755",
+            "https://www.araclo.com/vehicles/nissan-x-trail-2.0-dci/degerlendirmeler/kullanici-sorunlari"
+          ]
+        }
       ]
     },
     {
@@ -12711,6 +12796,43 @@
     {
       "marka": "Opel",
       "model": "Insignia A (2008-2017)",
+      "motor": "2.0 CDTI 110/130/160/195 (A20DTJ / A20DTH / A20DTR)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağ emme (pikap) contasının sertleşmesi ve yağ basıncı kaybı (alt motor hasarı riski)",
+          "etkilenen_parca": "Karter ile blok arasındaki yağ emme contası, yağ pompası emişi",
+          "belirtiler": "Soğuk çalıştırmada ve bazen sıcakken rölantide \"düşük yağ basıncı\" uyarısı; uyarıyla sürülürse ana yatak ve turbo hasarı, motor kilitlenmesi",
+          "tahmini_km_araligi": "150.000 - 230.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Parkers, 2017 öncesi 2.0 CDTi motorların neredeyse tamamında yağ emme (pikap) tasarımından doğan bir yağ basıncı kaybı olduğunu, yağ pompası ile karter emişi arasındaki contanın zamanla sertleşip sızdırmazlığı yitirdiğini yazıyor. Vauxhall Owners Network'te sahipler contanın blok ile karter arasında sıkışan bir conta olduğunu (borudaki O-ring olmadığını) ve ilk Insignia'larda alt motor (ana yatak) kilitlenmelerinin yaygın nedeni sayıldığını anlatıyor. Kimileri başarısız DPF yenilemelerinin yağa yakıt karıştırıp contayı sertleştirdiğini düşünüyor (kullanıcı teorisi); başka bir yorum ilk motorlarda krank yatağı yağ kanallarının dar olduğunu öne sürüyor (tartışmalı).",
+            "teshis": "Parkers, ilk çalıştırmadaki düşük yağ basıncı uyarısını contanın değişmesi gerektiğinin erken işareti sayıyor; forumlarda uyarı önce soğuk çalıştırmada beliriyor. Basınç anahtarını suçlamadan önce manometreyle gerçek yağ basıncının ölçülmesi öneriliyor (bir sahip anahtarı değiştirdi, uyarı sürdü). Astra J 2.0 CDTI sahipleri aynı belirtiyi anlatıyor; Insignia Drivers'ta 122.000 ve 141.000 mil civarı araçlarda conta suçlanıyor.",
+            "cozum": "Contanın değiştirilmesi: karter sökülür; manuel şanzımanlı araçlarda çoğu zaman şanzıman indirilmesi gerekir, otomatiklerde karterin şanzıman yerindeyken çıkabildiği yazılıyor. Parkers bakım düzeninin bu parçayı etkilemediğini, arızadan önce değiştirmenin tek gerçek çare olduğunu söylüyor. Bir iletide plastik yerine daha yeni metal sürümün daha iyi olduğu belirtiliyor.",
+            "maliyet": "Forumlarda conta yaklaşık 13 sterlin; bir sahip 6,5 saat işçilikle 357 sterlin ödemiş, başka bir başlık yaklaşık 750 sterlin tahmin ediyor. Fiyatlar eski ve Birleşik Krallık'a ait; güncel teklif alın. Uyarıyı ihmal edip yatak ya da turbo hasarı oluşursa motor değişimi gerekebilir (forumda turbosu bozulan sahip var).",
+            "onlem": "Uyarı yanıyorsa aracı sürmeyin, yağ seviyesini kontrol edin ve basıncı manometreyle ölçtürün. İkinci elde conta değişiminin yapılıp yapılmadığını sorun; Parkers 2015 öncesi dizel Insignia'yı genelde önermiyor ve contayı alışta bütçeye katmayı söylüyor. Kilometre aralığı iki forum vakasından (122.000 ve 141.000 mil, yaklaşık 196.000 ve 227.000 km) kaba tahmindir; daha düşük kilometrede de uyarı bildirenler var."
+          },
+          "kaynaklar": [
+            "https://www.parkers.co.uk/vauxhall/insignia/hatchback/review/",
+            "https://www.parkers.co.uk/vauxhall/insignia/hatchback-2009/20-cdti-elite-nav-160bhp-5d/owner-reviews/20200519121932/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/insignia-cdti-bottom-end-failure.475811/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/cost-to-replace-oil-pickup-seal-in-sump.685201/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/low-oil-pressure-replacing-the-oil-pickup-seal.836617/page-2",
+            "https://www.vauxhallownersnetwork.co.uk/threads/insignia-2015-2-0-cdti-low-oil-pressure.809185/",
+            "https://www.astraownersnetwork.co.uk/threads/low-oil-pressure-warning-astra-j-2-0l-cdti.373553/",
+            "https://www.astraownersnetwork.co.uk/threads/2-0-diesel-oil-pressure-low-do-not-drive.377010/",
+            "https://insignia-drivers.uk/forum/insignia-ownership-technical-workshop/engine-drive-train-transmission/358463-oil-pressure-problems",
+            "https://insignia-drivers.uk/forum/insignia-ownership-technical-workshop/engine-drive-train-transmission/375287-issue-since-low-oil-pressure-warning"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Insignia A (2008-2017)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
         "baslangic": 2008,
@@ -12942,6 +13064,43 @@
             "https://eksisozluk.com/opel-mokka-sifir-aracta-boya-rezaleti--7841598?p=5",
             "https://eksisozluk.com/opel-mokka-sifir-aracta-boya-rezaleti--7841598?p=10",
             "https://eksisozluk.com/opel-mokka-sifir-aracta-boya-rezaleti--7841598?p=12"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Zafira B (2005-2014)",
+      "motor": "1.9 CDTI 120/150 (Z19DT / Z19DTH)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "EGR valfi tıkanması ve girdap kanadı (swirl flap) arızası",
+          "etkilenen_parca": "EGR valfi, emme manifoldundaki girdap kanatları ve plastik aktüatör bağlantısı",
+          "belirtiler": "Güç kaybı ve limp modu, motor arıza lambası, P2279 gibi emme havası kodları, siyah duman ve düzensiz çalışma; kanat bağlantı çubuğu kopup kanatları sıkıştırabilir",
+          "tahmini_km_araligi": "100.000 - 180.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Vauxhall ve Astra Owners Network başlıklarında girdap kanadı aktüatörünün kelebeklerinin kurumlanıp sıkıştığı, bağlantı çubuğunun çıkıp kanadı kilitleyebildiği anlatılıyor; takılan EGR valfi fazla kurum ürettiği için DPF de tıkanıyor. İngiltere'de bir bayi forumu 150 PS'lik 1.9'un 'korkulan girdap kanatları', tıkanan EGR ve DPF ile bilindiğini yazıyor. İtalyan bir forumda 140.000 km civarında bir Z19DTH'de EGR valfi iki kez, girdap kanadı aktüatörünün elektriksel arızası nedeniyle tüm emme grubu değiştirilmiş (1.000 euro üzeri parça). Girdap kanadı 150 PS (Z19DTH) sürümünde anlatılıyor; EGR tıkanması her iki sürüm için geçerli olabilir.",
+            "teshis": "P2279 (emme havası kaçağı) kodunun çoğu zaman EGR'nin açık kalmasından ya da DPF tıkanıklığının yarattığı karşı basınçtan geldiği, bu yüzden DPF basınç sensörünün ve hortumunun da bakılması gerektiği yazılıyor. Kanat çubuğunun ve aktüatörün durumu kontrol edilir; au7o kanat bağlantı çubuğu ve burçlarının aşınıp kırıldığını, bunun limp moduna ve P2279 / P207x kodlarına yol açtığını söylüyor.",
+            "cozum": "EGR temizliği ya da değişimi; girdap kanatları için temizlik geçici kalıyor ve çoğu zaman emme manifoldunun (kanat grubunun) değiştirilmesi gerekiyor. Forumlarda pirinç klips ya da kanat iptali ('deflap') kiti öneren ve EGR'yi kapatan, DPF'yi sildiren sahipler var; bunlar kullanıcı müdahalesidir ve muayene ya da yazılım sorunları doğurabilir.",
+            "maliyet": "au7o girdap kanadı onarımı için genel olarak 50-350 dolar veriyor (derleme, kesin değil); İtalyan forumdaki vakada parça maliyeti 1.000 euroyu aşmış. Güncel teklif alın.",
+            "onlem": "İkinci elde limp modu, P2279 kodu ve EGR / emme manifoldu değişimi geçmişini sorun; kısa mesafe kullanımı kurumu hızlandırıyor. Zafira B'nin diğer bilinen zayıflıkları (çift kütleli volan, DPF, kayışla tahrik edilen su pompası) ayrı konulardır. Kilometre aralığı kaynaklardaki birkaç vakadan (yaklaşık 140.000 km ve 100.000-107.000 mil civarı) kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://www.vauxhallownersnetwork.co.uk/threads/zafira-b-2007-571-9cdti-16v-150-z19dth-issues.438866/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/zafira-b-1-9-150-issues.713009/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/help-zafira-egr-valve.205870/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/zafira-b-egr-valve-1-9-cdti-150bhp.179245/",
+            "https://www.astraownersnetwork.co.uk/threads/zafira-1-9-cdti-egr-problems.157162/",
+            "https://www.astraownersnetwork.co.uk/threads/1-9cdti-egr-valve-boost-sensor-swirl-flap-problems.236290/",
+            "https://forum.cardealermagazine.co.uk/topic/5260-zafira-19-cdti-to-buy-or-not-to-buy",
+            "https://ammirati.org/forum/autoriparatori/esperto-risponde/opel-zafira-b-1-9-cdti-150cv-spia-motore-accesa-cod-dtc-p2279-t9518.html",
+            "https://au7o.io/known-issues/opel-zafira?year=2007",
+            "https://honestjohn.co.uk/carbycar/vauxhall/zafira-b-2005/good"
           ]
         }
       ]
@@ -18377,6 +18536,39 @@
       "kronik_sorunlar": [],
       "aileler": [
         "volvo-drive-e-b4204t"
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "S80 / V70 / XC70 (2007-2016)",
+      "motor": "D5 2.4 (D5244T)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Enjektör arızası ve geri dönüş kaçağı",
+          "etkilenen_parca": "Common rail enjektörler (5 adet) ve enjektör konnektörleri",
+          "belirtiler": "Zor çalışma, rölantide tekleme, duman, yakıt rayı basıncı hataları (VIDA), limp modu; arızalı enjektör geri kaçırarak motorun çalışmasını engelleyebilir",
+          "tahmini_km_araligi": "100.000 - 250.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Volvo Owners Club'da D5 sahipleri ile Honest John forumunda enjektör arızaları, geri dönüş (leak-back) kaçağı, yakıt basıncı fazlalığı ve 5. silindir enjektör sinyali hataları sık anlatılıyor. Bir forum yorumunda atölyecinin kuralı enjektör ömrünü yaklaşık 150.000 mil (240.000 km) olarak verirken bazı enjektörlerin çok daha uzun gittiği (371.000 millik bir vaka), bazılarının daha erken bozulduğu ve arızanın kilometreye bağlı olmayabileceği yazılıyor. DonanımHaber'de S80 D5 için genel bir değerlendirme enjektör, turbo ve otomatik şanzıman arızalarını yaygın sorun olarak sayıyor.",
+            "teshis": "Enjektör geri dönüş testi ve VIDA / Dice ile ray basıncı okuması. Bir vakada yedek enjektörün de geri kaçırıp basıncı bozarak motoru çalıştırmadığı, başka vakalarda enjektörlerin testten sağlam çıkıp sorunun mekanik olduğu anlatılıyor; konnektör ve kablo hasarı sık neden olarak sayılıyor, bu yüzden önce onlar kontrol ediliyor.",
+            "cozum": "Arızalı enjektörlerin değişimi ya da revizyonu. Girdap kanadı kitini değiştirmek için de 5 enjektör ve yüksek basınç borularının sökülmesi gerektiğinden iki iş çoğu zaman birlikte yapılıyor.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "İkinci elde zor çalışma, rölantide tekleme, duman ve yakıt basıncı hatası geçmişini sorun, enjektör test kaydını isteyin. Kilometre aralığı forumlardaki tekil vakalardan geniş bir kaba tahmindir; Volvo Owners Club kaynaklarının bir kısmı 2007 öncesi kuşakların alt bölümünden olup aynı D5244T motorunu anlatır."
+          },
+          "kaynaklar": [
+            "https://www.volvoforums.org.uk/forum/technical-topics/s80-06-16-v70-xc70-07-16-general/334036-v70-d5-injectors/page4?t=344093&page=4",
+            "https://www.volvoforums.org.uk/forum/technical-topics/s80-98-06-s60-00-09-v70-xc70-00-07-general/5004559-d5244t-fuel-pressure-too-high-faulty-injectors",
+            "https://www.volvoforums.org.uk/forum/technical-topics/s80-98-06-s60-00-09-v70-xc70-00-07-general/14458-spotting-the-d5-injector-problem?t=14531",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=35391",
+            "https://www.swedespeed.com/threads/2006-volvo-xc70-d5-injector-5-signal-too-high.677572/?tl=fr",
+            "https://forum.donanimhaber.com/volvo-s80-d5-hakkinda--124615642"
+          ]
+        }
       ]
     },
     {
