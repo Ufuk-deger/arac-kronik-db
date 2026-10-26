@@ -1410,17 +1410,144 @@ Nedenler beş grupta toplanıyor (bir grup birden çok nedene girebilir; örnekl
 - **Listede olmayan modeller** (12. aşamadaki liste: Ford Transit Custom / Tourneo Custom, Citroën Jumpy / Jumper, Peugeot Expert / Boxer, Tesla Model 3 ve hacmi düşük modeller) hâlâ geçerli.
 - **Kapsam soruları açık:** (1) 2011 öncesi model yılı penceresi hâlâ dışarıda. (2) Hibrit ve plug-in hibritler kapsam dışı.
 
+## 14. aşama: Sahibinden listesi karşılaştırması, motor aileleri ve hibrit / plug-in hibrit araçlar
+
+Tarih: 2026-10-26
+
+Bu aşamada önce paylaştığınız "Sahibinden'de son 15 yılda en çok ilan verilen 150 otomobil modeli" listesi (130 içten yanmalı / hibrit ve 20 elektrikli; başka bir yapay zekâ hazırlamış) veritabanıyla **nesil düzeyinde** karşılaştırıldı. Listenin sahibinden.com'dan alınmış bir döküm olduğunu ve sıra numarasının gerçek ilan adedine uyduğunu doğrulayamadım; sıra yalnızca yaklaşık öncelik olarak kullanıldı. Her giriş model-nesil çiftlerine ayrıldı (257 nesil) ve plan satırları ile kayıtlarla marka, model adı ve en az iki yıllık yıl örtüşmesiyle eşleştirildi (birkaç eşleşme elle düzeltildi; karşılaştırma betiği ve tablo bu repoda yoktur).
+
+Karşılaştırmanın ardından kararınız: "Bildiğin gibi devam et, listemiz ve kapsamımız güvenilir olarak artış göstersin. Plug-in hybrid modelleri de dahil edelim." Buna göre (1) tam hibritler, hafif (48V) hibritler ve plug-in hibritler kapsama alındı (önceki belgelerde kapsam dışı ifadesi tutarsızdı: KAPSAM.md yalnızca plug-in hibritleri, bu rapor hibritlerin hepsini dışarıda sayıyordu; plan ise zaten 19 hibrit / hafif hibrit satırı içeriyordu), (2) kanıt kuralı değişmedi: her sorun için en az iki farklı site, biri deneyim ya da resmî türünde; kilometre aralığı yalnızca kaynaklardaki bildirimlerden, geri çağırma kaynaklı sorunlarda ise yaşa göre kaba tahmin olarak ve bu `detay` içinde söylenerek yazıldı, (3) sırayla motor aileleri, listede planda olmayan nesiller, hibrit ve plug-in hibritler ve listenin zayıf kalan nesilleri işlendi. Her dilim ayrı commit ile gönderildi. Kayıt defterine iki site eklendi: bmwgroup.com (üretici basını) ve mlit.go.jp (Japonya Ulaştırma Bakanlığı geri çağırma bildirimi; `go.jp` iki parçalı uzantı olarak tanındı). Yeni marka: DS Automobiles.
+
+**Sahibinden listesi × veri tabanı (257 nesil):**
+
+| Durum | Karşılaştırma başında | 14. aşama sonunda |
+| --- | ---: | ---: |
+| ✓ nesilde kayda özgü sorunlu motor ya da model geneli kaydı var | 141 | 145 |
+| ✓ dolaylı (yalnızca önceki nesli de kapsayan açık uçlu satır) | 3 | 3 |
+| ◐ yalnızca ortak aile kaynaklı | 38 | 59 |
+| – araştırıldı, iki bağımsız site koşulunu geçen sorun çıkmadı | 58 | 49 |
+| ○ planda hiç yok | 16 | 0 |
+| kapsam dışı yıl (2011 öncesi) | 1 | 1 |
+| Kaydı olan nesil (✓ + dolaylı + ◐) | 182 | 207 |
+
+Listedeki 150 girişin 71'inin bütün nesilleri kayıtlı (bu oturumdaki ilk ölçümde 69). Liste modeli adlarını verir, motorları çoğu zaman vermez; bu yüzden "nesil ✓" o nesildeki her motorun kayıtlı olduğu anlamına gelmez (motor düzeyi için [KAPSAM.md](KAPSAM.md)).
+
+| | 13. aşama sonu | 14. aşama sonu |
+| --- | ---: | ---: |
+| Araç/motor kaydı | 467 (391 motor + 76 model geneli) | 551 (472 motor + 79 model geneli) |
+| Kayda özgü kronik sorun | 352 | 356 |
+| Motor / şanzıman ailesi | 55 (90 ortak sorun) | 67 (103 ortak sorun) |
+| Aileye bağlı kayıt | 347 | 427 |
+| Farklı kaynak sitesi | 84 | 86 |
+| Yalnızca iki siteyle desteklenen sorun | 133 | 138 |
+| Ayrıntısı (`detay`) olan sorun | 442 | 459 |
+| Plan satırı | 765 | 845 |
+| Kayda özgü sorunlu `✓` satırı | 248 (172 motor + 76 model geneli) | 252 (173 motor + 79 model geneli) |
+| Yalnızca ortak aile kaynaklı `◐` satırı | 186 | 264 |
+| Kanıtı yetersiz `–` satırı | 331 (253 motor + 78 model geneli) | 329 (237 motor + 92 model geneli) |
+| Taranan model nesli (model geneli) | 154 (✓ 76, – 78) | 171 (✓ 79, – 92) |
+| Taranmış bir modele ait motor kaydı | 164 / 391 | 211 / 472 |
+
+### Ne yapıldı
+
+- **Kapsam kararı (`e9937d7`).** KAPSAM.md üreteci, README, BYD pazar notu ve rapordaki eski ifadeler güncellendi.
+- **Dilim 1 (`ff81374`): VAG 2.0 TDI.** Yeni aile `vag-2-0-tdi-egr-sogutucu` (EA189 / EA288); Passat B7 / B8 / CC, Tiguan 5N, Octavia A7, Superb II / III, Karoq, A3 8V, A4 B9, Q3, Q5 8R, Scirocco ve Altea 2.0 TDI satırları `–` iken ◐ oldu; 14 yeni motor kaydı. 2019 sonrası EA288 evo sürümleri kapsam dışı bırakıldı ve plan notlarında belirtildi.
+- **Dilim 2 (`a768cf7`): BMW.** Yeni aileler `bmw-dizel-egr-sogutucu` (N47 / B47 / N57; 13 mevcut dizel kaydı bağlandı) ve `bmw-b48-2-0`; 14 yeni motor kaydı; birleşik B47 / B48 satırları motora göre bölündü.
+- **Dilim 3 (`196dd9d`): Mercedes.** Yeni aile `mercedes-om654` (C220d W205 makyajlı, E220d W213, CLA 200 d C118; GLC 220 d plana eklendi). M270 / M274 zincir gürültüsü ve 7G-DCT için kilometre verisi ve tekrar eden sorun kanıtı yetersiz bulundu, `–` kaldı.
+- **Dilim 4 (`7dabc52`): Volvo.** Yeni aile `volvo-drive-e-b4204t` (segman kaynaklı yağ tüketimi; S60 / V60 T5, XC60 T5 / T6, XC90 T5 / T6). Dizel Drive-E (D4 / D5) için tekrar eden sorun kanıtı bulunamadı.
+- **Dilim 5 (`8003d92`): listede olup planda olmayan 16 nesil.** Civic FE1, C Serisi W206, Duster 3. nesil, Fabia Mk4, X1 U11, 4 Serisi G22 / G26, Juke F16, X-Trail T33, DS 7 Crossback, DS 4, Cupra Leon, B Serisi W247, E Coupe / Cabrio, GLE V167, Alfa Tonale ve Torres EVX için 29 plan satırı; ortak aileye bağlanabilen 9 yeni motor kaydı; DS 7 için model geneli kayıt (arka stop lambasına su alması; Şikâyetvar, French Car Forum, Japonya MLIT bildirimi). Kalan nesiller yeni olduğundan tekil şikâyetlerle `–` belgelendi.
+- **Dilim 6 (`e6353ad`, `ebe04a6`): hibrit ve plug-in hibritler.** Toyota HSD ailesi (Corolla E210, C-HR, Yaris XP130 / XP210, Yaris Cross, RAV4 XA50, Auris E180 hibrit satırları ◐); Volvo T8 ve BMW X5 xDrive45e için geri çağırma kaynaklı plug-in hibrit aileleri; Nissan e-POWER ailesi (Qashqai J12, X-Trail T33); MG HS 1.5 T (DCT) için kayda özgü sorun (`–` iken ✓); Hyundai Kona / Tucson / Ioniq hibrit, Kia Niro / Sportage / Sorento hibrit, BYD Seal U DM-i, MG EHS / HS PHEV, Honda HR-V e:HEV ve Passat B9 e-Hybrid için belgelenmiş `–` satırları (10 satır).
+- **Dilim 7 (`e79d177`, `0a915dc`): listenin zayıf kalan nesilleri.** (a) Model geneli taramasının ilk turu: C Serisi W206 ve Astra L ✓; Civic FE1, Duster 3, Elantra CN7, C4 / C4 X, Mokka (1. nesil), Fabia Mk4, X3 G01, 4 Serisi G22, A5 F5, XC40, Arteon, Beetle, Mini F55 / F56 ve Yaris XP210 için `–` (14 satır). (b) Mevcut ailelerin kapsadığı ama bağlanmamış 14 kayıt (aşağıda). (c) Yeni aileler: VAG EA888 Gen3, Audi 2.0 TFSI elektrikli soğutma pompası, Ford 2.0 TDCi. (d) Birleşik satırlar (i20 GB, 1 Serisi F40 / X1 F48, A5 F5, A6 C7, A6 C8, Q5 FY, Mondeo, S-Max / Galaxy), bağlanmayan motor ✓ / ◐ ile gizlenmesin diye bölündü.
+
+### Eklenen kayıtlar (84 kayıt: 4 kayda özgü sorunlu, 80 aile bağlı; 12 yeni aile, 13 aile sorunu)
+
+Yeni kayıtların marka dağılımı: BMW 17, Audi 12, Skoda 7, Toyota 7, Volkswagen 6, Hyundai 5, Mercedes-Benz 5, Volvo 5, DS Automobiles 4, Ford 4, Dacia 2, Mini 2, Nissan 2, Seat 2, Cupra, Kia, MG ve Opel 1'er.
+
+**Kayda özgü sorunlar (4):**
+
+- **MG HS 1.5 T (DCT):** düşük hızda 1.-3. vites geçişlerinde gecikme ve sarsıntı, 0 - 30.000 km (kaba tahmin), Orta. Şikâyetvar, Ekşi Sözlük ve DonanımHaber; DonanımHaber'de yazılım güncellemesinin düzelttiği ve İngiltere / Avustralya forumlarında kronik şanzıman sorunu görülmediği de yazılıyor, resmî bülten yok.
+- **Model geneli (3, kilometre yok):** Mercedes C Serisi W206 MBUX orta ekran donması ve kapanması (Orta; Şikâyetvar, DonanımHaber, Otopark), Opel Astra L multimedya ekranı donması ve açılmaması (Orta; Şikâyetvar, DonanımHaber), DS 7 Crossback arka stop lambasına su alması (5. dilim).
+
+**Yeni aileler (12):**
+
+- **VAG 2.0 TDI EGR soğutucusu (EA189 / EA288, 2009-2019):** sızıntı ya da tıkanma, 80.000 - 160.000 km, Orta; 16 kayıt; 12 kaynak, 8 site (BRISKODA, VWVortex, Audizine, AudiWorld, Honest John, Fiches-Auto.fr, L'argus, DonanımHaber).
+- **BMW dizel EGR soğutucusu (N47 / B47 / N57):** iç sızıntı ve yangın riski (geri çağırma), 60.000 - 180.000 km, Yüksek; 20 kayıt; NHTSA (22V614, 25V700), Consumer Reports, BMW basın duyurusu, Şikâyetvar. Kampanyanın Türkiye'deki araçları kapsayıp kapsamadığı doğrulanamadı.
+- **BMW B48 (B46 / B48):** yağ filtresi yuvası çatlağı ve soğutma kaçakları, 60.000 - 120.000 km, Orta; 8 kayıt (BimmerPost beş başlık, FCP Euro, Şikâyetvar). Türkiye'deki 1.6 litre B48B16 sürümü de kapsandı.
+- **Mercedes OM654:** külbütör ve makara aşınması, 150.000 - 200.000 km, Orta; 4 kayıt (MB Club, MBWorld). Yaygınlık belirsiz, Türkçe kaynak yok.
+- **Volvo Drive-E B4204T:** segman kaynaklı yağ tüketimi (2015-2016 üretim), 90.000 - 140.000 km, Yüksek; 3 kayıt. Kaynaklar NHTSA'da yayımlanan Volvo ek garanti bülteni P10186 ve SwedeSpeed (ABD); Türkiye kapsamı doğrulanamadı.
+- **Toyota HSD hibrit (2 sorun):** 12V yardımcı akü boşalması ve hibrit sistem arızası uyarısı (10.000 - 80.000 km, Orta) ve yüksek voltlu batarya ömrü (100.000 - 200.000 km, Yüksek); 7 kayıt (NHTSA'daki Toyota bültenleri, Toyota Owners Club, Şikâyetvar, DonanımHaber, Honest John).
+- **Volvo plug-in hibrit (T8) yüksek voltlu batarya:** üretim sapması (NHTSA 25V-179 / Volvo R10312; yaklaşık 73.000 araç, 2020-2022 model yılı), park halinde termal olay riski, Yüksek; XC60 ve XC90 T8. NHTSA, Electrive, SwedeSpeed. Şikâyetvar'daki T8 sahipleri batarya değil klima, SOS lambası ve ön panjuru anlatıyor; Türkiye kapsamı doğrulanamadı.
+- **BMW plug-in hibrit yüksek voltlu batarya (20V-601):** şarj sırasında kısa devre ve nadir termal olay, Yüksek; X5 xDrive45e. NHTSA, InsideEVs, Electrive; Şikâyetvar'da bir X5 45e sahibi arızalı aracı haftalarca serviste beklediğini ve "batarya veya S-Box arızası olabilir" dendiğini yazıyor (tekil). Türkiye kapsamı doğrulanamadı.
+- **Nissan e-POWER akü boşalması:** akünün boşalması ve aracın çalışmaması, 0 - 40.000 km (kaba tahmin), Orta; Qashqai J12 ve X-Trail T33. Şikâyetvar ve DonanımHaber; akünün 12V mi yüksek voltlu mu olduğu bazı şikâyetlerde belirtilmiyor.
+- **VAG EA888 Gen3 su pompası ve termostat gövdesi:** plastik gövde çatlaması ve soğutma suyu eksilmesi, 40.000 - 100.000 km, Orta; A3 8V 1.8 TFSI, A4 B9, A5 F5, A6 C8, Q5 FY, TT 8S. VWVortex, Audizine, AudiWorld (B9 başlıkları dahil), Audi of America bülteni (NHTSA arşivi), DonanımHaber ve Şikâyetvar.
+- **Audi 2.0 TFSI elektrikli soğutma suyu pompası (NHTSA 18V-229):** pompanın aşırı ısınması ve kısa devresi, yangın riski, Yüksek; 2012-2017 model yılı A4, A5, A6, Q5 (A4 B8 / B9, A5 8T, A6 C7, Q5 8R). NHTSA ve DonanımHaber'deki bir A4 B9 konusu; ABD'de yaklaşık 342.867 araç, DonanımHaber'de bir kullanıcı dünya genelinde 1,16 milyon aracı anıyor (kullanıcı aktarımı). Türkiye kapsamı doğrulanamadı.
+- **Ford 2.0 TDCi (Duratorq DW10) enjektör arızası:** enjektör keçesi sızıntısı, kodlama ve sarsıntı, 200.000 - 250.000 km (Türkçe forum yorumları), Orta; Mondeo Mk4 (2.0 ve 1.6 TDCi), S-Max / Galaxy, Kuga 1. Parkers, Ford Owners Club, Honest John, DonanımHaber, Otopark.
+
+**Mevcut ailelere 14 yeni bağ (yeni kaynak eklenmeden, ◐):** Tucson NX4 1.6 T-GDI (7DCT), Accent Blue RB 1.6 CRDi, i30 GD 1.6 CRDi, i20 GB 1.4 CRDi, ix20 CRDi, Sportage SL 1.7 CRDi (Hyundai / Kia 7DCT ve U2 aileleri); BMW 1 Serisi F40 118i (B38); Seat Ibiza 6J 1.6 TDI, Passat CC 1.4 TSI, Audi A3 8V 1.0 TFSI (DQ200), Skoda Yeti (1.2 TSI, 1.4 TSI, 1.6 TDI); Dacia Jogger ECO-G (H4Dt). Her birinde plan notu "aile bağı kuruldu, modele özgü kaynak çıkmadı" der.
+
+### Kanıt durumu
+
+- **5 yeni sorun yalnızca iki siteyle desteklenen listeye girdi** (133 → 138): Mercedes OM654 külbütör, Volvo B4204T yağ tüketimi, Audi 2.0 TFSI pompa, Nissan e-POWER akü ve Astra L ekranı.
+- **Türkçe kaynağı olmayan ya da zayıf yeni sorunlar:** OM654, Volvo B4204T, Volvo T8 ve BMW PHEV batarya (Türkçe kayıt yok ya da tekil), Audi pompa (yalnızca bir DonanımHaber kullanıcı aktarımı). Bu sorunların Türkiye'deki araçlarda aynı sıklıkta görülüp görülmediği bilinmiyor.
+- **Geri çağırma ve ek garanti kaynaklı sorunlarda** (BMW dizel EGR, Volvo B4204T, Volvo T8, BMW PHEV, Audi pompa) kampanya kilometreye bağlı değildir; kilometre aralığı etkilenen araçların yaşına göre kaba tahmindir ve `detay` içinde söylenir. Hiçbirinde Türkiye kapsamı doğrulanamadı.
+- **EA888 Gen3 su pompası aralığı** ABD forum vakalarından (yaklaşık 23.000 - 56.000 mil; bir Jetta'da 129.000 mil) derlendi.
+- **Ford 2.0 TDCi aralığı** Türkçe forumdaki iki yorumdan (200.000 - 220.000 ve 200.000 - 250.000 km); aynı konuda bakımlı araçların 128.000 - 180.000 km'de sorunsuz gittiği de yazılıyor ve `detay` içinde belirtildi.
+- **Model–motor–şanzıman eşleşmeleri** (80 aile bağlı kayıt, 14 yeni bağ dahil) benim bilgime dayanıyor, üretici kataloglarıyla tek tek doğrulanmadı.
+- Sahibinden listesinin "kapsama dahil" sayılması bir kanıt değildir; her sorun kendi kaynaklarıyla girer.
+
+### Araştırılıp kaydı açılmayan gruplar
+
+**Hibrit ve plug-in hibritler (10 satır, `–`):** Hyundai Kona Hybrid, Tucson NX4 Hybrid, Ioniq Hybrid; Kia Niro Hybrid, Sportage NQ5 Hybrid, Sorento Hybrid; BYD Seal U DM-i; MG EHS / HS PHEV; Honda HR-V e:HEV; VW Passat B9 e-Hybrid. Türkiye'de plug-in hibrit satışı 2024-2025'te hızla büyüdüğü için kayıtlar Şikâyetvar'daki tekil vakalardan ibaret (ör. Seal U DM-i'de şarj ünitesi %25 görünürken aracın uyarısız durması, benzin moduna geçmemesi; EHS'te şarj olmama nedeniyle 22 gün serviste kalma; HR-V e:HEV'de akü bitmesi); ikinci bağımsız site çıkmadı. Kuga PHEV, Türkiye'de satılmadığı için plana alınmadı.
+
+**Model geneli (14 satır, `–`):** Civic FE1, Duster 3, Elantra CN7, C4 / C4 X, Mokka (1. nesil), Fabia Mk4, X3 G01, 4 Serisi G22 / G26, A5 F5, XC40, Arteon, Beetle, Mini F55 / F56 ve Yaris XP210. Hepsinde şikâyetler Şikâyetvar'da toplanıyor; forumlarda ya modele özgü konu çıkmadı ya da şikâyeti doğrulamadı (ör. C4 X ekran kapanması 2023 model araçlarda tekrar ediyor ama başka sitede yok).
+
+**Aile bağı kurulmayan ya da kayıt açılmayan motorlar (bu aşamada arandı):**
+
+- **Mercedes Vito W447 1.6 (OM622):** R9M ailesinin açıklaması OM622'yi R9M'den türetilmiş sayıyor, ama ailenin biyel yatağı kanıtı yalnızca Renault / Nissan araçlarına ait; Mercedes için kanıt olmadığından bağlanmadı.
+- **Renault K4M 1.6 16V bobin arızası:** Fransız forumlarında bilinen zayıf nokta (15.000 - 85.000 km) ama kaynaklar Megane II, Scenic I / II, Clio 2 için; DonanımHaber'de bir kullanıcı Megane 3'te duyulmadığını yazıyor; Megane 3 / Fluence / Scenic 3'e bağlanmadı.
+- **Opel 2.0 CDTI (A20DTH / B20DTH) zincir uzaması:** Vauxhall Owners Network'te B20DTH vakaları var, Türkçe tarafta tek site (Şikâyetvar, motor belirtilmemiş); Insignia, Zafira Tourer ve Astra J'ye bağlanmadı.
+- **Toyota Valvematic (1ZR-FAE / 2ZR-FAE) yağ tüketimi:** Toyota Owners Club'ta yaygın sorun sayılmıyor (yağ yakma 1.33 ve eski ZZ motorlarıyla anılıyor); kayıt açılmadı. 8NR-FTS 1.2 turbo (C-HR) emme supabı karbonu tek sitede (Toyota Owners Club).
+- **Honda 2.2 i-DTEC:** debriyaj / çift kütleli volan, DPF ve enjektör anlatıları yalnızca Honest John'da; kayıt açılmadı.
+- **EA888 Gen3 yağ tüketimi:** forumlarda çok değişken (çoğu sahip ölçülebilir tüketim görmüyor, ABD'de 2026 toplu dava iddiası var); kronik sorun yazılmadı.
+- **BMW iX / i4 geri çağırmaları** (22V-541: 83 araç, 23V-449: 69, 24V-135: 4) çok küçük popülasyonlu olduğundan `–` bırakıldı; Hyundai / Kia R-motoru (2.2 / 2.0 CRDi), Mercedes 7G-DCT (724) ve Mercedes M270 / M274 için de tutarlı kaynak çıkmadı.
+- **Chery Omoda 5 / Tiggo 7 Pro / Tiggo 8 Pro ve MG ZS:** Şikâyetvar'da şanzıman (22.000 km ve 20.000 km altında arıza, 550 km'de değişim), yağ soğutucusu ve akü şikâyetleri tekrarlıyor; Ekşi Sözlük'te sahipler şanzımanı sağlam buluyor, DonanımHaber'deki "1.6 TGDI motor sorunu" başlığı yağ yakma ya da turbo arızasını doğrulamadı. İkinci bağımsız site çıkmadığı için `–`.
+
+**Sahibinden listesinde `–` kalan 49 nesil:** Chery Omoda 5 / Tiggo 7 Pro / Tiggo 8 Pro, MG ZS; Suzuki Swift ve Vitara; Mazda 3 ve CX-5; Subaru Forester SK; Renault Koleos; VW Touareg ve CC; Mercedes GLA H247, GLC X254, B W247, E Coupe / Cabrio ve GLE V167; Honda Civic FE1, HR-V (3. nesil) ve CR-V RS; Hyundai Elantra MD / CN7, i10 ve Kona SX2; Kia Cerato; Nissan Juke F16 ve X-Trail T31 FL; Volvo S60 (3. nesil) ve XC40; Skoda Fabia Mk4; Alfa Romeo Tonale ve Stelvio; Toyota RAV4 XA40; ve dokuz elektrikli (Kona Electric, Megane E-Tech, MG ZS EV, iX3, i4, EX40 / XC40 Recharge, iX1, Mini Cooper SE, Torres EVX). Bunların bir kısmı bu aşamada yeniden arandı (yukarıdaki gruplar); Suzuki, Mazda, Alfa Romeo, Cerato, Mercedes GLA / GLC / B / E Coupe / GLE ve elektrikliler için önceki aşamaların notları geçerlidir.
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- **BMW X5 G05 dizel satırı** plug-in hibrit kaydına yanlışlıkla eşleşiyordu (boş motor parçası); eşleşme dar tutuldu ve satır `–` döndü. PHEV kaydının adı nesil adlandırmasına uydu (G05, 2018-).
+- **KAPSAM.md'deki PHEV örnekleri:** "Passat GTE, Kuga PHEV" yazılmıştı; Kuga PHEV Türkiye'de satılmadığı ve Passat GTE'nin satışı doğrulanmadığı için örnekler Türkiye'de kanıtlı modellerle (Volvo T8, BMW X5 xDrive45e, MG HS PHEV) değiştirildi ve Türkiye'de satıldığı gösterilemeyen modellerin plana alınmayacağı yazıldı.
+- **BMW PHEV ayrıntısı:** "ABD yönergesi" ifadesi "NHTSA belgelerindeki geçici yönerge" olarak, hücre tedarikçisi iddiası "muhtemelen" diye yumuşatıldı; kaynak özetiyle tek tek karşılaştırıldı.
+- **Passat B9 e-Hybrid ve Skoda Superb / Octavia iV:** VW Grubu'nun 2022 plug-in hibrit geri çağırması KBA'ya göre 2019-2022 üretimini kapsıyor; Passat B9 e-Hybrid bunun dışında görünüyor, Superb / Octavia iV'nin Türkiye'de satıldığı gösterilemedi; ikisi için de kayıt açılmadı (B9 e-Hybrid `–`).
+- **Kia "Niro / Cerato / Sorento" birleşik satırı** hibrit sürümler ayrıldığı için "Cerato / Sorento" olarak yeniden adlandırıldı; Ioniq notunda Consumer Reports verisinin ABD kaynaklı olduğu eklendi.
+- **Birleşik satır bölünmeleri:** i20 GB, F40 / F48, A5 F5, A6 C7 / C8, Q5 FY, Mondeo ve S-Max / Galaxy satırlarında ◐ alan motor, `–` kalan motoru gizlemesin diye satır ikiye ayrıldı.
+- **EA888 Gen3 ailesinde yağ tüketimi** önce ikinci sorun olarak taslaklanmıştı; kaynaklar çelişkili çıktığı için çıkarıldı.
+- **Geri çağırma sayıları:** Audi 18V-229'da ABD sayısı (342.867) ile DonanımHaber kullanıcısının dünya geneli rakamı (1,16 milyon) ayrı yazıldı; ikincisi kullanıcı aktarımı olarak işaretlendi.
+- **Hyundai / Kia / BYD hibrit satır notları ile Volvo T8 ve BMW PHEV ayrıntıları**, yazıldıktan sonra arama sonuçlarıyla tek tek karşılaştırıldı; tutarsız ya da belirsiz görülen anlatımlar (ör. 12V akünün hangi araca ait olduğu) notlarda sürüm belirtilmeden yazıldı.
+
+### Dikkat edilecek sınırlar
+
+- **Büyüme ağırlıklı olarak genişlik, derinlik değil:** `◐` satırları 186'dan 264'e çıktı (+78), kayda özgü sorunlu `✓` satırı yalnızca 248'den 252'ye (+4), kayda özgü sorun sayısı 352'den 356'ya. Yeni kayıtların 80'i yalnızca ortak aile kaynağına dayanıyor ve görüntüleyicide "Ortak aile" etiketiyle ayrılıyor; doğrudan kanıt olarak okunmamalı.
+- **Yabancı pazar kaynakları:** Volvo T8, BMW PHEV, BMW dizel EGR, Volvo B4204T, Audi pompa ve EA888 Gen3 sorunları ABD ve İngiltere kaynaklarına dayanıyor; Türkiye'deki araçlarda aynı kampanya, parti ya da sıklık doğrulanmadı.
+- **Hibritlerde veri çok az:** Türkiye'de plug-in hibrit ve yeni hibrit modeller yeni olduğundan Türkçe kaynaklar tekil şikâyetlerden ibaret; `–` satırları "sorun yok" değil "tutarlı kanıt yok" demektir.
+- **Sahibinden listesi doğrulanmış bir döküm değil;** sıra yalnızca öncelik olarak kullanıldı ve liste motor ayrımı yapmıyor.
+- **Doğrulama yine arama özetleriyle yapıldı; `WebFetch` kapalıydı.** Özetler, sayfaları yorumlayan bir araçtan geliyor; rakam ve alıntılar için asıl sayfaya bakmak gerekir. Bir bağlantıda iddiayı bulamazsanız o maddeyi bildirin.
+- **Model geneli taraması hâlâ kısmi:** 472 motor kaydından 261'i taranmamış bir modele ait görünüyor (eşleşme model adının tam metnine bakar). Satırı olmayan bir modelde bu sorunlar aranmamıştır.
+- **Sıklık bilgisi yok.** Her sorun "sahipler bildirdi" düzeyindedir; risk seviyesi README'deki ölçeğe göre editoryal bir sınıflandırmadır.
+- **Kapsam soruları:** (1) 2011 öncesi model yılı penceresi hâlâ dışarıda. (2) Hibrit ve plug-in hibritler artık kapsamda; ticari araçlar (Transit Custom, Jumpy / Jumper, Expert / Boxer vb.) hâlâ yok.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen 57 maddeye (3. aşama sonundaki 22, 4. aşamada eklenen 22, 5. aşamada eklenen 2; 6. aşamada üç madde eklendi, Citroën ë-C4 üçüncü kaynak alarak listeden çıktı; 7. aşamada Astra 1.3 CDTI Easytronic eklendi; 8. aşamada Leon KL 48V, Superb IV 48V, Karoq titreşimi ve Audi A3 8Y 48V eklendi; 9. aşamada Jetta DSG mekatroniği, Ceed 7DCT ve Qashqai 1.3 DIG-T'nin iki sorunu eklendi) üçüncü bir kaynak eklenebilir. 11. aşamada eklenen model geneli sorunların 51'i, 12. aşamada eklenenlerin 13'ü ve 13. aşamada eklenen altısı (Nemo / Bipper üst yatağı, Renegade / Compass turbo, Discovery 4 hava süspansiyonu, Prado enjektör, Pentastar'ın iki sorunu) yalnızca iki siteyle destekleniyor (doğrulayıcının bildirdiği toplam: 133).
-3. Kanıtı yetersiz bulunan 331 grup (253'ü motor ve şanzıman, 78'i model geneli) için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar (ör. Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Isuzu D-Max, Toyota Hilux, Fiat Ducato, Renault Megane E-Tech, Fiat 500e, Kia Niro EV, Peugeot e-3008, Alfa Romeo Junior Elettrica, Togg T10F, Kia EV9, Audi A6 C8, Mercedes Sprinter W907, Renault Austral) için Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur. Nedeni "kilometre yok ya da tutarsız" olanlar (ör. Mercedes Viano W639, Mitsubishi Pajero, Ford Kuga 1 Powershift, Opel Zafira B, Fiat Bravo ve Scudo) için arızanın çıktığı kilometreyi veren iki bağımsız kaynak yeterli olur.
-4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan 104 soruna güncel Türkiye fiyatı bulunursa eklenebilir.
-5. Elektrikli araçlarda geri çağırma kaydı bulunan ama Türkiye kapsamı doğrulanamayan aileler (Volvo EX30, VW ID. serisi, Mini Cooper SE, BMW iX / i4, Audi e-tron GT) için Türkiye distribütörlerinin duyuruları ya da Ticaret Bakanlığı geri çağırma kayıtları bulunursa kayıt açılabilir.
-6. Hibrit ve plug-in hibrit araçlar (Toyota hibritleri, BYD Seal U DM-i gibi) bu aşamada kapsam dışı bırakıldı; istenirse aynı kurallarla eklenebilir.
+2. Yalnızca iki siteyle desteklenen 138 maddeye üçüncü bir kaynak eklenebilir (13. aşama sonunda 133; 14. aşamada eklenenler: Mercedes OM654 külbütör, Volvo B4204T yağ tüketimi, Audi 2.0 TFSI pompa, Nissan e-POWER akü, Opel Astra L ekranı).
+3. Kanıtı yetersiz bulunan 329 grup (237'si motor ve şanzıman, 92'si model geneli) için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar için (ör. Chery Omoda 5 / Tiggo, MG ZS, Civic FE1, Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Toyota Hilux, Renault Megane E-Tech, Kia Niro EV, Togg T10F, Kia EV9, Mercedes Sprinter W907, Renault Austral, BYD Seal U DM-i, Hyundai / Kia hibritleri, Honda HR-V e:HEV) Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur. Nedeni "kilometre yok ya da tutarsız" olanlar (ör. Mercedes Viano W639, Mitsubishi Pajero, Opel Zafira B, Fiat Bravo ve Scudo) için arızanın çıktığı kilometreyi veren iki bağımsız kaynak yeterli olur.
+4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan sorunlara güncel Türkiye fiyatı bulunursa eklenebilir.
+5. Elektrikli araçlarda geri çağırma kaydı bulunan ama Türkiye kapsamı doğrulanamayan aileler (Volvo EX30, VW ID. serisi, Mini Cooper SE, Audi e-tron GT) ve plug-in hibritler (Volvo T8, BMW X5 xDrive45e, VW Grubu 2022 geri çağırması) için Türkiye distribütörlerinin duyuruları ya da Ticaret Bakanlığı geri çağırma kayıtları bulunursa kapsam doğrulanabilir.
+6. **Plug-in hibrit ve yeni hibritler:** Türkiye pazarı büyüdükçe (BYD Seal U DM-i, MG HS PHEV, Hyundai / Kia hibritleri, Honda e:HEV, Passat e-Hybrid, Mercedes ve BMW PHEV'leri) Şikâyetvar dışındaki ikinci kaynaklar çıkabilir; aynı kurallarla `–` satırları kayda çevrilir.
 7. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.
-8. **Aile bağlarının doğrulanması:** 347 kaydın hangi motor ve şanzımanla satıldığı üretici ya da distribütör kataloglarından tek tek kontrol edilebilir; özellikle Türkiye'de satılıp satılmadığı belirsiz kombinasyonlar (ör. Stonic 1.6 CRDi, Rio YB 1.0 T-GDI 7DCT, Yaris XP210 benzinli 1.5, Soul AM 1.6 CRDi, Optima 1.7 CRDi, XCeed 1.4 T-GDI, Proace City 1.5) için.
-9. **Aile sorunlarının güçlendirilmesi:** tek modelin kaynağına dayanan aile sorunları (ör. 7G-Tronic iletken plaka, Multitronic, Subaru FB20, A16XER) başka bir modelin kaynağıyla desteklenebilir; 2.0 TDI (EA189 / EA288) ve 1.0 TSI (EA211 üç silindir) gibi büyük ailelerin henüz sorunu yok. 13. aşamada kurulan Pentastar, N57 EGR soğutucusu, R9M biyel yatağı ve Prado enjektör sorunları yalnızca yabancı pazar kaynaklarına (ABD, Fransa, Avustralya) dayanıyor; Türkçe bir kaynak bulunursa güçlenir.
-10. **"Sırada" satırı kalmadı** (13. aşamada 88 satırın hepsi işlendi); yeni plan satırı eklenirse aynı döngü uygulanır (önce aile, sonra Türkçe arama, sonra yabancı ikinci kaynak). 13. aşamada `–` bırakılan 69 gruptan ikinci kaynak çıkabilecek olanlar (kabaca): Mitsubishi Outlander ve Eclipse Cross (CVT), Suzuki Jimny, Audi A6 C8 ve A7 4G, Mercedes Vito W447 ve Sprinter W907, Fiat Scudo / Talento ve Bravo, Ford Kuga 1 Powershift, Land Rover Evoque 2.2 SD4, Renault Austral ve Kangoo 3 1.3 TCe.
-11. **Model geneli taramasının sürdürülmesi:** 227 motor kaydı hâlâ taranmamış bir modele ait görünüyor (13. aşamada eklenen 63 motor kaydından 48'i bunlara dahil: Prado, Proace / Proace City, i40, Carens, Soul, Optima, XCeed, Smart 453, Jeep Cherokee KL / Grand Cherokee WK2 / Wrangler, BMW 7 Serisi F01 / X4 F26 / X6, Mercedes CLS C218 / ML-GLE W166 / S W222, VW Beetle / Golf Sportsvan / Scirocco vb.). Model geneli satırı olmayan modeller (kabaca): Audi A5 8T; Chevrolet Cruze; Citroën ë-C4; Cupra Formentor; Dacia Jogger ve Sandero (2021-); Fiat 500L, 500X ve 600e; Ford B-Max ve Transit Connect; Hyundai Ioniq 5 / 6 (EV6 ile birlikte `–`, motor satırları ayrı); Jeep Avenger Electric; Kia EV3; Mercedes Citan, Sprinter, Vito, GLK, EQA / EQB ve EQC; Opel Astra H, Corsa-e / Mokka-e ve Astra Electric; Peugeot 308 T7, e-208 ve e-308; Porsche Taycan; Renault Arkana, Scenic 4, Taliant, Zoe ve Laguna 3; Seat Toledo; Skoda Kamiq / Scala; VW Arteon, Jetta ve T-Cross / Taigo.
-12. **`–` kalan model geneli sorunlar:** Şikâyetvar'da tekrar eden konular (Passat B7 / B8 cam tavan çerçevesi, Kadjar yan aynaları, 301 / C-Elysée boyası, Rapid boyası, i30 GD cam tavan kasası, Tucson TL cam tavan perdesi ve direksiyon kilidi, Talisman R-Link 2, Insignia B deri direksiyon, Atto 3 amortisör sesi vb.) için DonanımHaber, Otopark ya da bir yabancı forumda ikinci kaynak bulunursa ✓'ye çevrilebilir. Türkçe kaynağı olmayan dört sorun (Q5 8R, Focus 3, Yeti, XC60) için Türkçe bir site kaydı bulunursa güçlenir.
+8. **Aile bağlarının doğrulanması:** 427 aile bağlı kaydın hangi motor ve şanzımanla satıldığı üretici ya da distribütör kataloglarından tek tek kontrol edilebilir; özellikle Türkiye'de satılıp satılmadığı belirsiz kombinasyonlar (ör. Stonic 1.6 CRDi, Rio YB 1.0 T-GDI 7DCT, Soul AM 1.6 CRDi, Optima 1.7 CRDi, XCeed 1.4 T-GDI, Proace City 1.5, Mondeo 1.6 TDCi, Skoda Yeti motorları, Polo Sedan) için.
+9. **Aile sorunlarının güçlendirilmesi:** tek modelin kaynağına dayanan aile sorunları (ör. 7G-Tronic iletken plaka, Multitronic, Subaru FB20, A16XER, OM654) başka bir modelin kaynağıyla desteklenebilir. Yabancı pazar kaynaklarına dayanan aileler (Pentastar, N57 / B47 EGR soğutucusu, R9M biyel yatağı, Prado enjektör, Volvo B4204T, EA888 Gen3, Audi pompa) için Türkçe bir kaynak bulunursa güçlenir. EA888 Gen3 ailesine Octavia / Superb / Kodiaq / Golf GTI gibi VW, Skoda ve Seat modelleri, Ford 2.0 TDCi ailesine Kuga 2'nin Euro 6 sürümleri, kaynaklarla eşleşirse eklenebilir.
+10. **Sahibinden listesinde `–` kalan 49 nesil** (yukarıdaki liste): ikinci bağımsız kaynak çıkarsa kayda çevrilir. Bu aşamada yeniden aranıp sonuç çıkmayanlar tekrar aranırsa yeni forum başlıkları çıkabilir.
+11. **Model geneli taramasının sürdürülmesi:** 261 motor kaydı hâlâ taranmamış bir modele ait görünüyor. Model geneli satırı olmayan modeller (kabaca): Chevrolet Cruze; Citroën ë-C4; Cupra Formentor; Dacia Sandero (2021-); Fiat 500L, 500X ve 600e; Ford B-Max ve Transit Connect; Hyundai Ioniq 5 / 6; Jeep Avenger Electric; Kia EV3; Mercedes Citan, Sprinter, Vito, GLK, EQA / EQB ve EQC; Opel Astra H, Corsa-e / Mokka-e ve Astra Electric; Peugeot 308 T7, e-208 ve e-308; Porsche Taycan; Renault Arkana, Scenic 4, Taliant, Zoe ve Laguna 3; Seat Toledo; Skoda Kamiq / Scala; VW Jetta ve T-Cross / Taigo.
+12. **`–` kalan model geneli sorunlar:** Şikâyetvar'da tekrar eden konular (Passat B7 / B8 cam tavan çerçevesi, Kadjar yan aynaları, 301 / C-Elysée boyası, Rapid boyası, i30 GD cam tavan kasası, Tucson TL cam tavan perdesi ve direksiyon kilidi, Talisman R-Link 2, Insignia B deri direksiyon, Atto 3 amortisör sesi, C4 X ekran kapanması vb.) için DonanımHaber, Otopark ya da bir yabancı forumda ikinci kaynak bulunursa ✓'ye çevrilebilir.

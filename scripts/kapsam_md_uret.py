@@ -158,6 +158,9 @@ def uret():
         "model, nesil ve motor düzeyinde yeniden karşılaştırıldı. Bir satırın `eslesme` parçalarından her biri en az bir kayda denk gelmelidir (test denetler); "
         "\"1.4 TSI / 1.6 TDI\" gibi birleşik bir satırın yalnızca bir parçası kayıtlıysa satır bölünür, böylece ✓ kayıtsız bir motoru gizleyemez. "
         "Aranıp eklenmeyen (–) gruplar ile sıraya alınmış (○) gruplar görüntüleyicide \"Kayıt açılmayan gruplar\" bölümünde gösterilir.",
+        "- **Sahibinden listesi karşılaştırması (14. aşama):** Paylaşılan 150 modellik liste (130 içten yanmalı / hibrit, 20 elektrikli; doğrulanmış bir sahibinden.com dökümü değildir, "
+        "sıra yalnızca öncelik olarak kullanıldı) nesil düzeyinde planla eşleştirildi. 14. aşama sonunda 257 neslin tamamı planda: 148'inde kayda özgü sorunlu kayıt, 59'unda yalnızca ortak aile kaydı, "
+        "49'u belgelenmiş `–`, 1'i kapsam dışı yıl (2011 öncesi). Ayrıntı: [rapor](DOGRULAMA_RAPORU.md#14-aşama-sahibinden-listesi-karşılaştırması-motor-aileleri-ve-hibrit--plug-in-hibrit-araçlar).",
         "- **Model geneli sorunlar (11. aşamadan itibaren):** Motordan bağımsız, modele (nesle) özgü sorunlar (cam tavan ve bagajdan su alma, far, kapı kilidi, multimedya, boya, "
         "ön takım gibi kasa, sızdırmazlık, iç mekân, elektronik ve süspansiyon sorunları) `motor` alanı \"Tüm motorlar (model geneli)\" olan ayrı bir kayıtta toplanır "
         "([README](README.md#model-geneli-kayıtlar)). Bu sorunlar yaşa ve kullanıma bağlı olduğundan kaynaklarda çoğunlukla kilometre bilgisi yoktur; "

@@ -230,6 +230,8 @@ Tam hibritler, hafif (48V) hibritler ve plug-in hibritler (PHEV) 14. aşamadan i
 - `motor` alanı içten yanmalı motoru ve hibrit sistemi birlikte yazar; plug-in sürümlerde `PHEV` ibaresi ve varsa batarya kapasitesi geçer.
 - İçten yanmalı motorun ve şanzımanın sorunları ilgili ortak aileye yazılır; hibrit sisteme özgü sorunlar (yüksek voltlu batarya, inverter, DC-DC dönüştürücü, şarj girişi ve şarj cihazı, 12V akü, yazılım) kayda ya da hibrit sistem ailesine yazılır.
 - Hafif hibrit sistemler (ör. VAG 48V eTSI / e-TEC) daha önceki aşamalardan beri kapsamdadır.
+- Türkiye'de plug-in hibrit satışı 2024-2025'te hızla büyüdüğünden Türkçe şikâyet verisi azdır. Volvo T8 ve BMW X5 xDrive45e kayıtları geri çağırma (NHTSA) belgelerine dayanan ortak aile kayıtlarıdır; Türkiye kapsamı doğrulanamadığı kayıtta ve plan notunda yazılıdır. Yeterli kanıt çıkmayan hibrit modeller (Hyundai / Kia hibritleri, BYD Seal U DM-i, MG HS PHEV, Honda HR-V e:HEV, Passat B9 e-Hybrid) [KAPSAM.md](KAPSAM.md) içinde `–` olarak nedenleriyle listelenir.
+- Türkiye'de satıldığı kaynakla gösterilemeyen modeller (ör. Kuga PHEV) plana alınmaz.
 
 ## Ayrıntılar (`detay`)
 
