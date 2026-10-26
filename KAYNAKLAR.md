@@ -42,7 +42,7 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 90 farklı site, 365 sorun için kullanıldı.
+Toplam 92 farklı site, 366 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
@@ -58,6 +58,7 @@ Toplam 90 farklı site, 365 sorun için kullanıldı.
 | [Carsece](https://www.carsece.com/) | TR | düşük | 10 | Araç rehberi ve bakım blogu. Maliyet tahminlerinin kaynağını göstermiyor; tek başına yeterli sayılmaz. |
 | [Drivisual](https://www.drivisual.tv/) | TR | düşük | 8 | Motor bazlı satın alma ve kronik sorun rehberleri (Türkçe ve İngilizce). Tek bir blog; bağımsız kaynakla karşılaştırılmalı. |
 | [arabam.com Blog](https://www.arabam.com/blog/) | TR | düşük | 7 | İlan sitesinin blog yazıları. Genel bilgi verir; bazı yazılar motorun 'büyük bir kronik sorunu yoktur' gibi genellemeler içeriyor. |
+| [YatırımX](https://www.yatirimx.com.tr/) | TR | düşük | 2 | Türkiye'de otomotiv ve ekonomi haberleri; PSA Grubu 1.5 BlueHDi eksantrik zinciri kampanyası haberi için. |
 | [Sözcü](https://www.sozcu.com.tr/) | TR | orta | 1 | Ulusal gazete. Burada yalnızca yabancı toplu dava ve geri çağırma haberlerinin Türkçe aktarımı için kullanıldı. |
 | [SıfırAraçAl](https://www.sifiraracal.com/) | TR | düşük | 1 | Türkiye'de yeni araç haberleri ve fiyat listeleri; model yenilemeleri ve motor/batarya verileri için. |
 
@@ -128,13 +129,14 @@ Toplam 90 farklı site, 365 sorun için kullanıldı.
 | [CarChecker.pro](https://www.carchecker.pro/) | Global | düşük | 3 | Genel amaçlı model raporları; iddialar zayıf kaynaklıdır. |
 | [au7o](https://au7o.io/) | Global | düşük | 3 | Arıza kodu ve bilinen sorun derlemesi. |
 | [Autoscore](https://autoscore.pro/) | Global | düşük | 1 | Motor kodu bazında arıza listesi ve kaba kilometre tahmini veren derleme site; kaynağı belirtilmiyor, yalnızca destekleyici olarak kullanıldı. |
+| [Car-Recalls.eu](https://car-recalls.eu/) | Global | düşük | 1 | Avrupa geri çağırma ve Safety Gate (Rapex) uyarılarını araç bazında derleyen site; resmî veritabanıyla karşılaştırılmadı. |
 | [RepairPal](https://repairpal.com/) | US | orta | 1 | Arıza belirtisi ve onarım maliyeti derlemesi. |
 
 ### Editör yazıları ve haberler
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [Parkers](https://www.parkers.co.uk/) | UK | orta | 23 | İkinci el alım rehberleri ve haberler. |
+| [Parkers](https://www.parkers.co.uk/) | UK | orta | 25 | İkinci el alım rehberleri ve haberler. |
 | [L'argus](https://www.largus.fr/) | FR | yüksek | 9 | Fransız otomotiv yayını. Güvenilirlik yazıları, tekrarlayan arıza listeleri ve geri çağırma haberleri. |
 | [InsideEVs](https://insideevs.com/) | US | orta | 7 | Elektrikli araç haberleri; geri çağırma ve yaygın arıza özetleri. |
 | [electrive.com](https://www.electrive.com/) | DE | orta | 6 | Elektrikli araç ve şarj haberleri; Avrupa geri çağırmaları ve KBA kayıtlarına atıflar. |

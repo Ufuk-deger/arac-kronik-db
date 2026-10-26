@@ -1580,6 +1580,30 @@ Kullanıcı bu partide 10 araç istedi. Güçlü ailelerde nesil ya da model kar
 - **Listeye alınmayanlar:** Skoda Octavia A7 1.8 TSI ve VW Tiguan 2.0 TSI (Türkiye'de satıldıkları aramalarla doğrulanamadı), Peugeot 5008 II 1.2 PureTech (satışı doğrulanamadı). Opel Astra J ve Zafira Tourer 2.0 CDTI (Insignia ile aynı yağ emme contası) sonraki partiye kaldı.
 - **Sınırlar:** On kaydın yedisi yalnızca ortak aile kaynağıyla duruyor ve doğrudan kanıt olarak okunmamalı. EA888 ve Volvo kaynakları ağırlıkla İngiltere / ABD forumları; Superb kaydının kilometre aralığı (40.000-110.000 km) tekil vakalardan kaba tahmindir.
 
+### Parti 3 (10 kayıt: 1 kayda özgü sorunlu, 9 yalnızca ortak aile; yeni aile yok)
+
+Kullanıcı bu partide 10 araç daha istedi. Her satırın motor ve model eşleşmesi Türkiye'de satıldığı aramalarla kontrol edildi; aile bağı yalnızca motor ve şanzımanın kaynaklarda aynı olduğu satırlara kuruldu, doğrulanamayanlar listeye alınmadı.
+
+| Araç | Aile | Durum | Dayanak ve not |
+| --- | --- | :-: | --- |
+| Fiat Doblo (2022-) 1.5 BlueHDi 100/130 | PSA DV5 + BlueHDi AdBlue | ✓ | Eksantrik zinciri servis çağrısı: car-recalls.eu (Safety Gate uyarısı derlemesi; Doblo için 19 Mayıs 2022 - 31 Ocak 2023 üretimi), YatırımX (Türkiye kampanyası, Doblo sayılıyor) ve Parkers (genel kampanya). Resmî veritabanından doğrulanamadı; Doblo Türkiye'ye 2023 ortasında geldiği için kapsamdaki araç sayısı belirsiz |
+| Opel Combo Life (E, 2018-) 1.5 BlueHDi 100/130 | PSA DV5 + BlueHDi AdBlue | ◐ | Combo Life'a özgü kaynak ve geri çağırma kapsamı doğrulanamadı |
+| Hyundai Kona SX2 (2023-) 1.0 T-GDI 120 7DCT | Hyundai / Kia 7DCT | ◐ | Kona'ya özgü şikâyet çıkmadı; Temmuz 2023'te satışa çıktı |
+| Toyota Corolla Cross (2022-) 1.8 Hybrid | Toyota HSD | ◐ | Türkçe kaynak çıkmadı; İngiliz ve Polonya kaynakları 12V akü sorununun Corolla Cross'ta da yaşanabileceğini yazıyor |
+| Toyota Camry (XV70, 2019-) 2.5 Hybrid | Toyota HSD | ◐ | Türkçe sahip anlatısı çıkmadı; aramadaki ABD sonuçları ilgisiz |
+| Honda Civic Hatchback (FK7, 2017-2021) 1.5 VTEC Turbo 182 | Honda 1.5 VTEC Turbo | ◐ | Hatchback'e özgü kaynak çıkmadı; ailenin kaynaklarında DonanımHaber ve Otopark başlıkları var |
+| DS 3 Crossback (2019-) 1.2 PureTech 130/155 | PureTech EB2 | ◐ | Türkçe sahip kaynağı çıkmadı; 2019 lansmanında satıldı, üretimi durdu |
+| Peugeot 408 (2022-) 1.2 PureTech 130 | PureTech EB2 | ◐ | DonanımHaber'de bir 408 GT sahibi motordan memnun, yalnızca elektronik arıza anlatıyor; kayış şikâyeti çıkmadı |
+| Hyundai Tucson (TL, 2015-2018) 1.6 GDI 132 | Hyundai / Kia Gamma GDI | ◐ | Yağ tüketimi şikâyeti arandı, çıkmadı |
+| Mercedes E Coupe / Cabrio (C207, 2009-2016) E250 CDI | Mercedes OM651 | ◐ | C207'ye özgü şikâyet çıkmadı; Türkiye'de resmî satış kaydı bulunamadı, dayanak arabam.com'daki bir coupe ilanı ve Sahibinden listesi |
+
+- **Aile metinleri:** PureTech, Toyota HSD, Gamma GDI, DV5 ve AdBlue ailelerinin açıklamalarına yeni modeller yazıldı. DV5 eksantrik zinciri çözüm metnindeki "(resmî doğrulama yok)" ifadesi, YatırımX'in Türkiye kampanyası haberi (50 binden fazla araç, 2023 öncesi üretim; yazılım yeniden kalibrasyonu, ses analizi, 8 mm zincir) ve Parkers'ın genel kampanya özetiyle (Ekim 2017 - Ocak 2023 üretimi) güncellendi, iki kaynak eklendi. Kapsam ve tarihler kaynaklarda tutarsız (bir Polonya kaynağı servis çağrısının yalnızca Fransa'yı kapsadığını yazıyor) ve resmî Türkiye duyurusu doğrulanamadı.
+- **Yeni kaynak siteler:** YatırımX (haber) ve car-recalls.eu (toplayıcı); toplam 92 site.
+- **Plan:** 13 yeni satır (9 `◐`, 1 `✓`, 3 `–`); Kona ve E Coupe / Cabrio `–` satırları OS / SX2 ve C207 / C238 olarak bölündü. Plan 699 satır: `✓` 182, `◐` 280, `–` 237.
+- **Listeye alınmayanlar:** Skoda Fabia IV 1.0 TSI 110 DSG (7 ileri DSG olduğu doğrulandı, kuru kavramalı DQ200 olduğu doğrulanamadı), Mercedes GLE V167 300 d (Türkiye'de yalnızca 2026 haberindeki makyajlı sürüm görüldü), Ford Kuga 2 1.5 TDCi Powershift (Türkiye'de satıldı ama DPS6 olduğu doğrulanamadı), Citroën Berlingo K9 1.2 PureTech 110 (yalnızca 2019 lansman haberinde var; ikinci kaynak yok). Kia Ceed JD 1.6 GDI, Skoda Octavia A8 2.0 TDI, VW Golf 8 2.0 TDI ve Peugeot Rifter 1.2 PureTech'in Türkiye'de satıldığı doğrulanamadı. Fabia, GLE, Kuga ve Berlingo nedenleriyle plan notlarına yazıldı.
+- **Görüntüleyici düzeltmesi:** "Camry" adı, "cam tavan" aramasındaki "cam"ı araç terimi yapıp sonucu boşalttı. Rakamsız ve en çok 4 harfli arama terimleri artık araç adında yalnızca ayrı bir kelime olarak geçerse araç terimi sayılıyor ("cam", "arka", "kam" artık Camry, Arkana, Kamiq adlarına takılmıyor).
+- **Sınırlar:** On kaydın dokuzu yalnızca ortak aile kaynağıyla duruyor ve doğrudan kanıt olarak okunmamalı. Doblo kaydı araca özgü bir geri çağırmaya dayanıyor ama resmî kaynaktan doğrulanamadı. Corolla Cross ve Camry kartlarında görünen yüksek voltlu batarya sorunu ailenin eski Yaris / Auris kayıtlarına dayanır (başlıkta belirtilmiş). DS 3 Crossback ve Civic hatchback satışı durmuş modellerdir.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.

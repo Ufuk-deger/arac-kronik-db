@@ -1011,20 +1011,20 @@
     },
     {
       "marka": "Hyundai",
-      "model": "Kona",
-      "yillar": "2018-",
+      "model": "Kona OS",
+      "yillar": "2018-2023",
       "motor": "1.0 T-GDI",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "Kona"
+          "Kona (OS"
         ],
         "motor": [
           "1.0 T-GDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Kona 1.0 T-GDI için ilgili sonuç çıkmadı."
+      "not": "Kona OS (2017-2023) 1.0 T-GDI için ilgili sonuç çıkmadı. Faz 15 (parti 3): 2023 sonrası Kona SX2 ayrı satırda kayıtlandı."
     },
     {
       "marka": "Peugeot",
@@ -13245,7 +13245,7 @@
           "1.0"
         ]
       },
-      "not": "Faz 14'te arandı: Şikâyetvar'da 2023 model 1.0 TSI'da titreme ve yüksek onarım ücreti, klima kademeleri, kısa kilometrede tekrarlayan şanzıman uyarısı (DSG), 2022 modelde turbo hortumu patlaması ve 2023 düz vites 1.0 TSI'nın yolda kalması tekil; DonanımHaber'de 1.0 TSI için zincir ve yağ tüketimi iddiası doğrulanmamış tek yorum. 1.0 MPI için yalnızca performans yorumları var.",
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2023 model 1.0 TSI'da titreme ve yüksek onarım ücreti, klima kademeleri, kısa kilometrede tekrarlayan şanzıman uyarısı (DSG), 2022 modelde turbo hortumu patlaması ve 2023 düz vites 1.0 TSI'nın yolda kalması tekil; DonanımHaber'de 1.0 TSI için zincir ve yağ tüketimi iddiası doğrulanmamış tek yorum. 1.0 MPI için yalnızca performans yorumları var. Faz 15 (parti 3): Türkiye'de 2022 lansmanından beri 1.0 TSI 110 PS 7 ileri DSG satılıyor (DonanımHaber, Ensonhaber fiyat haberleri) ama DSG'nin kuru kavramalı DQ200 olduğu bu arama sonuçlarında doğrulanamadı; bu yüzden DQ200 ailesine bağlanmadı. Şanzıman kodu bir kaynakla doğrulanırsa ◐ kayıt açılabilir.",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -13336,22 +13336,20 @@
     },
     {
       "marka": "Mercedes-Benz",
-      "model": "E Coupe / Cabrio C207 / C238",
-      "yillar": "2009-",
-      "motor": "E200 / E250 / E220 d",
+      "model": "E Coupe / Cabrio C238",
+      "yillar": "2017-",
+      "motor": "E200 / E220 d",
       "kademe": 3,
       "eslesme": {
         "model": [
-          "C207",
           "C238"
         ],
         "motor": [
           "E200",
-          "E250",
           "E220"
         ]
       },
-      "not": "Faz 14'te arandı: C207 / C238'e özgü şikâyet çıkmadı; sonuçlar sedan E200 (W213, W212, W211) kasalarına ait (yağ yakımı, SBC fren uyarısı, motor arıza ışığı).",
+      "not": "Faz 14'te arandı: C207 / C238'e özgü şikâyet çıkmadı; sonuçlar sedan E200 (W213, W212, W211) kasalarına ait (yağ yakımı, SBC fren uyarısı, motor arıza ışığı). Faz 15 (parti 3): C207 ayrı satırlara bölündü; bu satır C238 (2017-) E200 ve E220 d için '–' kaldı.",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -13369,7 +13367,7 @@
           "GLE 350"
         ]
       },
-      "not": "Faz 14'te arandı: GLE V167 için şikâyet ya da forum kaydı çıkmadı (sonuçlar GL, GLA, GLC, GLB ve EQE'ye ait); Ekşi Sözlük'te 2019-2021 M260 / M264 motorlarda supap yatağından karışım hatası (P219E77) iddiası dizel GLE için geçerli değil.",
+      "not": "Faz 14'te arandı: GLE V167 için şikâyet ya da forum kaydı çıkmadı (sonuçlar GL, GLA, GLC, GLB ve EQE'ye ait); Ekşi Sözlük'te 2019-2021 M260 / M264 motorlarda supap yatağından karışım hatası (P219E77) iddiası dizel GLE için geçerli değil. Faz 15 (parti 3): Sanayi Gazetesi ve sifiraracal'a göre GLE 300 d 4MATIC (2.0, 269 bg, 20 bg elektrik desteği, 9G-TRONIC) Türkiye'de satışta; bu makyajlı sürüm 2026 haberine dayanıyor, 2019-2022 arası V167'nin Türkiye satışı doğrulanamadığı için OM654 ailesine bağlanmadı.",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -14269,6 +14267,218 @@
         ]
       },
       "not": "Faz 15 (parti 2): yalnızca ortak aile kaydı. Briskoda'da bir Kodiaq sahibi termostat gövdesinden sızıntı (plastik gövdenin eğilmesi) anlatıyor; modele özgü ikinci site çıkmadı. Türkiye lansman verisinde 2.0 TSI 180 PS / 320 Nm geçiyor (DonanımHaber, Otopark); güncel listede 180 PS yok, yalnızca RS."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Kona SX2",
+      "yillar": "2023-",
+      "motor": "1.0 T-GDI 120 (7DCT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Kona (SX2"
+        ],
+        "motor": [
+          "1.0 T-GDI"
+        ]
+      },
+      "not": "Faz 15 (parti 3): yalnızca ortak aile kaydı (7DCT kuru kavrama titremesi). Kona SX2 1.0 T-GDI'ya özgü 2023-2024 şikâyeti çıkmadı: Araclo'nun Kona 1.0 T-GDI sayfası soğuk çalıştırma ve güç kaybına, aynı şanzımanlı i20 ve Bayon sayfaları kavrama titremesine odaklanıyor. Türkiye'de Temmuz 2023'te 1.0 T-GDI 120 PS 7 ileri DCT ile satışa çıktı (Motor1 Türkiye, Cumhuriyet, Log.com.tr)."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla Cross",
+      "yillar": "2022-",
+      "motor": "1.8 Hybrid 140 (e-CVT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Corolla Cross"
+        ],
+        "motor": [
+          "Hybrid"
+        ]
+      },
+      "not": "Faz 15 (parti 3): yalnızca ortak aile kaydı (Toyota hibrit 12V akü ve yüksek voltlu batarya). Corolla Cross'a özgü Türkçe kaynak çıkmadı. İngiliz ve Polonya kaynakları 12V akü sorununun ağırlıkla Yaris, Yaris Cross, C-HR ve Lexus LBX'te görüldüğünü, Corolla Cross ve RAV4'te de yaşanabileceğini yazıyor; Toyota Türkiye açıklaması bulunamadı. Türkiye'de 2022'de 1.8 Hybrid e-CVT ile satışa çıktı (DonanımHaber, Motor1 Türkiye, Ekonomist); Temmuz 2025'te makyajlı sürüm geldi."
+    },
+    {
+      "marka": "Toyota",
+      "model": "Camry XV70",
+      "yillar": "2019-",
+      "motor": "2.5 Hybrid (Dynamic Force, e-CVT)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Camry"
+        ],
+        "motor": [
+          "2.5 Hybrid"
+        ]
+      },
+      "not": "Faz 15 (parti 3): yalnızca ortak aile kaydı. Camry hibritine özgü Türkçe sahip anlatısı çıkmadı; aramada çıkanlar ABD kaynaklı (Consumer Reports yorumlarında 2015 modelde hibrit batarya değişimi ve 2019 modelde zamanlama kapağı yağ kaçağı tekil; NHTSA geri çağırması 2025-2026 modelde gösterge ekranı yazılımı). Türkiye'de 2019'dan itibaren yalnızca hibrit olarak satıldı (Motor1 Türkiye 2019 incelemesi)."
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic FK7 (Hatchback)",
+      "yillar": "2017-2021",
+      "motor": "1.5 VTEC Turbo 182",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Civic Hatchback (FK7"
+        ],
+        "motor": [
+          "1.5 VTEC"
+        ]
+      },
+      "not": "Faz 15 (parti 3): yalnızca ortak aile kaydı (yağa yakıt karışması). Hatchback'e özgü Türkçe kaynak çıkmadı; Araclo'nun Civic 1.5 turbo yazısı yağa yakıt karışmasını kısa mesafe ve soğuk havada belirginleşen bilinen sorun olarak anlatıyor. Honda'nın garanti uzatması ABD'de 2016-2018 Civic ve 2017-2018 CR-V için duyuruldu, Türkiye kapsamı doğrulanamadı. Türkiye'de hatchback 2017'de 182 PS 1.5 VTEC Turbo ile satışa çıktı (Log.com.tr haberi); sifiraracal sayfasında Sport 1.5 VTEC Turbo için üretimin durdurulduğu yazıyor."
+    },
+    {
+      "marka": "DS Automobiles",
+      "model": "DS 3 Crossback",
+      "yillar": "2019-",
+      "motor": "1.2 PureTech 130/155 (EB2, EAT8)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "DS 3 Crossback"
+        ],
+        "motor": [
+          "PureTech"
+        ]
+      },
+      "not": "Faz 15 (parti 3): yalnızca ortak aile kaydı (PureTech yağ banyolu triger kayışı ve yağ tüketimi). DS 3 Crossback'e özgü Türkçe sahip kaynağı çıkmadı. Türkiye'de 2019 lansmanında 130 ve 155 bg 1.2 PureTech 8 ileri otomatik ile satıldı (DonanımHaber); sifiraracal sayfasında üretimin durdurulduğu yazıyor."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "408",
+      "yillar": "2022-",
+      "motor": "1.2 PureTech 130 (EB2, EAT8)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "408 (2022"
+        ],
+        "motor": [
+          "PureTech"
+        ]
+      },
+      "not": "Faz 15 (parti 3): yalnızca ortak aile kaydı. 408'e özgü kayış / yağ şikâyeti çıkmadı: DonanımHaber'deki '1.2 PureTech 408 genel bakım ve değerlendirme' başlığında bir 408 GT sahibi motordan memnun olduğunu, yaşadığı sorunların ambiyans ışığı gibi elektronik arızalar olduğunu yazıyor. Türkiye'de 2023 lansmanında yalnızca 1.2 PureTech 130 EAT8 ile satıldı (Motor1 Türkiye, Cumhuriyet, DonanımHaber)."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Tucson (TL)",
+      "yillar": "2015-2018",
+      "motor": "1.6 GDI 132",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tucson (TL, 2015"
+        ],
+        "motor": [
+          "1.6 GDI"
+        ]
+      },
+      "not": "Faz 15 (parti 3): yalnızca ortak aile kaydı (Gamma GDI yağ tüketimi). Tucson 1.6 GDI için yağ tüketimi şikâyeti arandı, sonuç çıkmadı. Türkiye'de Style donanımıyla satıldı: Otopark'ın 2015 ve Nisan 2016 fiyat listelerinde 'Tucson 1.6 GDI Style', sifiraracal'ın 2018 haberinde 1.6 GDI 4x2 6 ileri manuel Style olarak geçiyor."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Coupe / Cabrio C207",
+      "yillar": "2009-2016",
+      "motor": "E200 / E250 benzinli (CGI)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C207"
+        ],
+        "motor": [
+          "E200",
+          "E250 CGI"
+        ]
+      },
+      "not": "Faz 15 (parti 3): C207 E250 CDI ayrı satırda kayıtlandı; benzinli C207 için coupe / cabrio'ya özgü kaynak çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Coupe / Cabrio C207",
+      "yillar": "2009-2016",
+      "motor": "E250 CDI 2.1 (OM651)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C207"
+        ],
+        "motor": [
+          "E250 CDI"
+        ]
+      },
+      "not": "Faz 15 (parti 3): yalnızca ortak aile kaydı (OM651 piezo enjektör arızası). C207 coupe / cabrio'ya özgü şikâyet çıkmadı. DonanımHaber'de OM651 kodlu 220 ve 250 CDI motorlarda enjektör arızası anlatan bir başlık var (bir E 250 CDI AMG sahibi servisin parçaları Almanya'dan getireceğini söylediğini yazıyor; kasa belirtilmemiş). Türkiye'de resmî satış kaydı bulunamadı; arabam.com'da 2010 model E 250 CDI BlueEFFICIENCY Avantgarde coupe ilanı ve Sahibinden listesindeki E Coupe / Cabriolet girişi nedeniyle eklendi (arabam.com E 250 CDI sonuçları ağırlıkla sedan)."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Doblo 2022",
+      "yillar": "2022-",
+      "motor": "1.5 BlueHDi 100/130 (DV5)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Doblo (2022"
+        ],
+        "motor": [
+          "1.5 BlueHDi"
+        ]
+      },
+      "not": "Faz 15 (parti 3): araca özgü eksantrik zinciri servis çağrısı kaydı (YatırımX, car-recalls.eu / Safety Gate uyarısı, Parkers) ve ortak aile kaydı (DV5 DPF, BlueHDi AdBlue). Doblo'ya özgü Türkçe sahip şikâyeti çıkmadı: Şikâyetvar Doblo sayfasındaki kayıtlar çoğunlukla başka model yıllarına ait ve motor arıza lambası, turbo, parça bekleme konularında. Türkiye'de 2023 ortasında 1.5 BlueHDi 100 ve 130 PS ile satışa çıktı (Ekonomist, Motor1 Türkiye)."
+    },
+    {
+      "marka": "Opel",
+      "model": "Combo Life E",
+      "yillar": "2018-",
+      "motor": "1.5 BlueHDi 100/130 (DV5)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Combo Life"
+        ],
+        "motor": [
+          "1.5 BlueHDi"
+        ]
+      },
+      "not": "Faz 15 (parti 3): yalnızca ortak aile kaydı (DV5 eksantrik zinciri ve DPF, BlueHDi AdBlue). Combo Life'a özgü Türkçe sahip kaynağı çıkmadı; Araclo'nun Combo sayfası eksantrik zinciri geri çağırmasını ve daha kalın zincire geçişi anlatıyor. Geri çağırma kapsamında Combo Life'ı sayan bir kaynak bulunamadı (kapsam şasi numarasıyla sorgulanmalı). Türkiye'de 1.5 Edition manuel (102 HP) ve otomatik (130 HP) sürümleri 2022-2023 fiyat listelerinde (arabalar.com.tr) ve ikinci el ilanlarında (arabam.com) görülüyor."
+    },
+    {
+      "marka": "Ford",
+      "model": "Kuga 2",
+      "yillar": "2013-2019",
+      "motor": "1.5 TDCi 120 (Powershift)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Kuga 2"
+        ],
+        "motor": [
+          "1.5 TDCi"
+        ]
+      },
+      "not": "Faz 15 (parti 3): Türkiye'de 1.5 TDCi 120 PS Powershift satıldı (Otopark testi, Sözcü 2018 testi, sifiraracal ST-Line sayfası) ama bu otomatiğin kuru kavramalı DPS6 olduğu kaynaklarda doğrulanamadı; DPS6 ailesi Kuga'yı kapsamıyor. İsveçli ve Litvanyalı ikinci el rehberleri Kuga 2'de Powershift ve dizel (DPF / EGR) konularını anıyor ama 1.5 TDCi + Powershift için ayrı veri vermiyor.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Citroen",
+      "model": "Berlingo K9",
+      "yillar": "2018-",
+      "motor": "1.2 PureTech 110 (EB2)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Berlingo (K9"
+        ],
+        "motor": [
+          "1.2 PureTech"
+        ]
+      },
+      "not": "Faz 15 (parti 3): DonanımHaber'in 2019 lansman haberinde 1.2 PureTech 110 benzinli seçeneğinin yalnızca Feel donanımıyla geldiği yazıyor; ikinci bir Türkiye kaynağı ve güncel listede benzinli sürüm bulunamadı (Rifter'da yalnızca 1.5 BlueHDi). Kayıt açılmadı.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }

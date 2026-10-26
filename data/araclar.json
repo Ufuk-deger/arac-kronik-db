@@ -1313,7 +1313,7 @@
       "id": "hyundai-kia-gamma-gdi",
       "ad": "Hyundai / Kia Gamma 1.6 GDI (direkt enjeksiyonlu benzin)",
       "tur": "motor",
-      "aciklama": "Hyundai ve Kia'nın 2010'dan itibaren i30, i40, Accent Blue, ix35, Elantra, Sportage, Carens ve Soul'da kullandığı 1.6 litre direkt enjeksiyonlu atmosferik benzinli motor (GDI, 132-140 PS).",
+      "aciklama": "Hyundai ve Kia'nın 2010'dan itibaren i30, i40, Accent Blue, ix35, Tucson (TL), Elantra, Sportage, Carens ve Soul'da kullandığı 1.6 litre direkt enjeksiyonlu atmosferik benzinli motor (GDI, 132-140 PS).",
       "kronik_sorunlar": [
         {
           "id": "yag-tuketimi",
@@ -1730,7 +1730,7 @@
       "id": "psa-bluehdi-adblue",
       "ad": "PSA BlueHDi AdBlue (SCR) sistemi",
       "tur": "sistem",
-      "aciklama": "Peugeot, Citroën, Opel ve Toyota'nın (Proace / Proace City) BlueHDi dizel motorlarında (1.6 DV6 ve 1.5 DV5) 2014'ten itibaren kullanılan AdBlue deposu, seviye sensörü, pompa ve SCR sistemi.",
+      "aciklama": "Peugeot, Citroën, Opel, Fiat (Doblo) ve Toyota'nın (Proace / Proace City) BlueHDi dizel motorlarında (1.6 DV6 ve 1.5 DV5) 2014'ten itibaren kullanılan AdBlue deposu, seviye sensörü, pompa ve SCR sistemi.",
       "kronik_sorunlar": [
         {
           "id": "adblue-sensor-pompa",
@@ -1762,7 +1762,7 @@
       "id": "psa-dv5-1-5-bluehdi",
       "ad": "PSA / Opel / Ford 1.5 BlueHDi - EcoBlue (DV5)",
       "tur": "motor",
-      "aciklama": "2017'den itibaren Peugeot, Citroën, Opel (Grandland, Crossland, Mokka B, Corsa F), Ford'un (Focus 4, Kuga 3 - 1.5 EcoBlue) ve Toyota'nın (Proace City - 1.5 D-4D) kullandığı 1.5 litre common rail dizel motor (DV5). Eksantrik zinciri 7 mm'lik dar zincirdir.",
+      "aciklama": "2017'den itibaren Peugeot, Citroën, Opel (Grandland, Crossland, Mokka B, Corsa F, Combo Life), Fiat (Doblo), Ford'un (Focus 4, Kuga 3 - 1.5 EcoBlue) ve Toyota'nın (Proace City - 1.5 D-4D) kullandığı 1.5 litre common rail dizel motor (DV5). Eksantrik zinciri 7 mm'lik dar zincirdir.",
       "kronik_sorunlar": [
         {
           "id": "eksantrik-zinciri",
@@ -1774,7 +1774,7 @@
           "detay": {
             "neden": "And Mehmet Çetin'e göre üretici 2023 başında zinciri 7 mm'den 8 mm'ye çıkaran bir güncelleme yaptı ve zincirle birlikte eksantrikler, gergi ve üst kapak revize edildi; Araclo 8 mm setin 2021 sonrası araçlarda fabrikadan çıktığını yazıyor, bir kullanıcı anlatımı 2022-2023 sonrasını gösteriyor. Geçiş yılı kaynaklarda tutarsız: şasi numarasıyla doğrulayın.",
             "teshis": "Soğuk çalıştırmada zincir şıkırtısı; Şikâyetvar'da çok düşük kilometrede de görüldüğü, zincir koptuğunda ağır onarım ücretinin çıktığı anlatılıyor.",
-            "cozum": "Bir kullanıcı anlatımına göre Stellantis'in 2019-2023 üretimi 1.5 BlueHDi araçları hedefleyen bir kampanyası var ve kapsamdaki araçlarda 7 mm zincir seti 8 mm ile ücretsiz değiştiriliyor (resmî doğrulama yok). Servis uygulaması tutarsız: And Mehmet Çetin zincir sesi tespit edilmezse garanti kapsamındaki araçta bile değişimin yapılmayabileceğini, Araclo yetkili serviste dinleme yapılıp 'ses yok' denerek talebin reddedildiğini, Şikâyetvar'daki bazı başvurular kampanya kapsamında olmasına rağmen değişimin yapılmadığını yazıyor.",
+            "cozum": "Stellantis'in zincir kampanyası var: YatırımX, PSA Grubu'nun Türkiye'de 50 binden fazla aracı kapsayan, 2023 öncesi üretimi hedefleyen ücretsiz bir kampanya başlattığını (motor yazılımı yeniden kalibre ediliyor, ses analiziyle zincir testi yapılıyor, riskli zincirler 8 mm zincirle değiştiriliyor), Parkers genel kampanyada kapsamı Ekim 2017 - Ocak 2023 üretimi olarak verdiğini yazıyor. Kapsam ve tarihler kaynaklarda tutarsız, resmî Türkiye duyurusu doğrulanamadı. Servis uygulaması tutarsız: And Mehmet Çetin zincir sesi tespit edilmezse garanti kapsamındaki araçta bile değişimin yapılmayabileceğini, Araclo yetkili serviste dinleme yapılıp 'ses yok' denerek talebin reddedildiğini, Şikâyetvar'daki bazı başvurular kampanya kapsamında olmasına rağmen değişimin yapılmadığını yazıyor.",
             "maliyet": "Şikâyetvar'da bir Peugeot yetkili servisinin eksantrik zincir kırılması için 162.000 TL masraf çıkardığı ve ücretsiz değişimi reddettiği bir başvuru var (tek vaka, tarih belirsiz).",
             "onlem": "Aracın kampanya kapsamını şasi numarasıyla markanın resmî kanallarından sorgulamak, değişimin yapıldığını servis kaydından teyit etmek ve soğuk çalıştırma sesini ilk duyulduğunda yazılı kayda geçirtmek."
           },
@@ -1792,7 +1792,9 @@
             "https://www.sikayetvar.com/ford/focus/ecoblue",
             "https://www.sikayetvar.com/ford/ford-kugada-kronik-eksantrik-zinciri-problemi-ve-yuksek-onarim-maliyeti",
             "https://www.sikayetvar.com/ford/ford-kuga-riskli-egzantrik-zincir-icin-ucretsiz-cozum-talebi",
-            "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi"
+            "https://www.araclo.com/blog/ford-focus-1.5-ecoblue-incelemesi-ne-kadar-yakar-alinir-mi",
+            "https://www.yatirimx.com.tr/otomobil/psa-grubunda-turkiye-ozelinde-zincir-sorunu-icin-geri-cagirma/13023",
+            "https://www.parkers.co.uk/car-news/stellantis-diesel-engines/"
           ],
           "donem_kirilimi": [
             {
@@ -1962,7 +1964,7 @@
       "id": "psa-puretech-eb2",
       "ad": "PSA / Opel PureTech 1.2 (EB2, 3 silindir)",
       "tur": "motor",
-      "aciklama": "Peugeot, Citroën ve Opel'in 2012'den itibaren kullandığı 1.2 litre üç silindirli PureTech benzinli motor (EB2; 82-130 PS). Yağ banyosunda çalışan triger kayışı kullanır. 208, 2008, 301, 308, 3008, C-Elysée, C3, C4 Cactus, C4, Corsa F, Crossland ve Mokka B'de bulunur.",
+      "aciklama": "Peugeot, Citroën, DS ve Opel'in 2012'den itibaren kullandığı 1.2 litre üç silindirli PureTech benzinli motor (EB2; 82-155 PS). Yağ banyosunda çalışan triger kayışı kullanır. 208, 2008, 301, 308, 408, 3008, C-Elysée, C3, C4 Cactus, C4, C5 Aircross, DS 3 Crossback, DS 4, Corsa F, Crossland, Mokka B, Grandland ve Astra L'de bulunur.",
       "kronik_sorunlar": [
         {
           "id": "yagli-triger-kayisi",
@@ -2513,7 +2515,7 @@
       "id": "toyota-hsd-hibrit",
       "ad": "Toyota hibrit sistemi (HSD): 12V akü ve yüksek voltlu batarya",
       "tur": "sistem",
-      "aciklama": "Toyota'nın Hybrid Synergy Drive (HSD) hibrit sistemi: 1.5 (Yaris), 1.8 (Auris, Corolla, C-HR) ve 2.5 litre (RAV4) benzinli motor, elektrik motorları, yüksek voltlu batarya ve 12V yardımcı akü. Yaris Hybrid, Yaris Cross, Auris Hybrid, Corolla Hybrid, C-HR Hybrid ve RAV4 Hybrid. Plug-in sürümler ve Lexus bu ailenin dışındadır.",
+      "aciklama": "Toyota'nın Hybrid Synergy Drive (HSD) hibrit sistemi: 1.5 (Yaris), 1.8 (Auris, Corolla, Corolla Cross, C-HR) ve 2.5 litre (RAV4, Camry) benzinli motor, elektrik motorları, yüksek voltlu batarya ve 12V yardımcı akü. Yaris Hybrid, Yaris Cross, Auris Hybrid, Corolla Hybrid, Corolla Cross Hybrid, C-HR Hybrid, RAV4 Hybrid ve Camry Hybrid. Plug-in sürümler ve Lexus bu ailenin dışındadır.",
       "kronik_sorunlar": [
         {
           "id": "aku-12v-hibrit-uyarisi",
@@ -6150,6 +6152,19 @@
     },
     {
       "marka": "DS Automobiles",
+      "model": "DS 3 Crossback (2019-)",
+      "motor": "1.2 PureTech 130/155 (EB2, EAT8)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "DS Automobiles",
       "model": "DS 4 (2021-)",
       "motor": "1.2 PureTech 130 (EB2, EAT8)",
       "uretim_yillari": {
@@ -6923,6 +6938,41 @@
             "https://forum.donanimhaber.com/doblo-merkezi-kilit-sorunu-kapilar-kendi-kendine-aciliyor--140014137"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Doblo (2022-)",
+      "motor": "1.5 BlueHDi 100/130 (DV5)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Eksantrik zinciri (7 mm) kopma riski ve servis çağrısı (1.5 BlueHDi, 2022-2023 üretimi)",
+          "etkilenen_parca": "Eksantrik (kam mili) zinciri, gergi ve motor kontrol yazılımı",
+          "belirtiler": "Soğuk çalıştırmada zincir şıkırtısı ve zamanlama hata kodları; zincir kopması halinde motorun durması ve ağır motor hasarı",
+          "tahmini_km_araligi": "20.000 - 120.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "car-recalls.eu sayfaları, Safety Gate (Rapex) uyarısına dayanarak DV5R motorunun 7 mm eksantrik zincirinin yağ kokslaşması ve yüksek temas basıncı yüzünden direncini yitirebildiğini, zincir kopmasının motor arızasına ve araç kontrolünün kaybına yol açabileceğini yazıyor; Doblo için kapsam 19 Mayıs 2022 - 31 Ocak 2023 arası üretim (Fiat kampanya kodu F511). Resmî veritabanından doğrulanamadı. YatırımX, PSA Grubu'nun Türkiye'de 50 binden fazla aracı kapsayan, 2023 öncesi üretilen 1.5 BlueHDi araçları hedefleyen bir kampanya başlattığını ve etkilenen modeller arasında Fiat Scudo ile Doblo'yu saydığını yazıyor.",
+            "teshis": "Soğuk çalıştırmada zincir sesi dinlenir; YatırımX'e göre kapsamdaki araçlarda motor kontrol ünitesi yeniden kalibre edilip ses analiziyle zincir testi yapılıyor. Kapsam şasi numarasıyla markanın resmî kanallarından sorgulanmalı.",
+            "cozum": "YatırımX'e göre işlem ücretsiz: riskli zincirler 8 mm eksantrik zinciriyle değiştiriliyor. Parkers genel 1.5 BlueHDi kampanyasında kapsamı Ekim 2017 - Ocak 2023 üretimi olarak veriyor ve kazaya ya da yaralanmaya bağlanmış bir vaka bildirilmediğini yazıyor (Doblo'ya özgü değil).",
+            "maliyet": "Güncel rakam bulunamadı; kampanya kapsamında işlem ücretsiz anlatılıyor.",
+            "onlem": "Aracın şasi numarasıyla kampanya kapsamını sorgulatın, işlemin yapıldığını servis kaydından teyit edin. Yeni nesil Doblo'nun Türk basınında 2023 ortasında bayilere geldiği yazılıyor (Ekonomist, Motor1 Türkiye); kampanya üretim penceresi bu tarihten önce bittiği için Türkiye'ye gelen araçların ne kadarının kapsamda olduğu doğrulanamadı. Kilometre aralığı ailenin genel aralığından kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://www.yatirimx.com.tr/otomobil/psa-grubunda-turkiye-ozelinde-zincir-sorunu-icin-geri-cagirma/13023",
+            "https://car-recalls.eu/pl/recall/fiat-doblo-2022-2023-bluehdi-failure/",
+            "https://www.parkers.co.uk/car-news/stellantis-diesel-engines/"
+          ],
+          "aile_sorunu": "psa-dv5-1-5-bluehdi/eksantrik-zinciri"
+        }
+      ],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
       ]
     },
     {
@@ -8647,6 +8697,19 @@
     },
     {
       "marka": "Honda",
+      "model": "Civic Hatchback (FK7, 2017-2021)",
+      "motor": "1.5 VTEC Turbo 182",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2021
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "honda-1-5-vtec-turbo"
+      ]
+    },
+    {
+      "marka": "Honda",
       "model": "HR-V (RU, 2015-2021)",
       "motor": "1.6 i-DTEC 120",
       "uretim_yillari": {
@@ -8935,6 +8998,19 @@
     },
     {
       "marka": "Hyundai",
+      "model": "Kona (SX2, 2023-)",
+      "motor": "1.0 T-GDI 120 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2023,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct"
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "Tucson (NX4, 2021-)",
       "motor": "1.6 CRDi 136 (7DCT)",
       "uretim_yillari": {
@@ -9040,6 +9116,19 @@
       "aileler": [
         "hyundai-kia-7dct",
         "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Tucson (TL, 2015-2018)",
+      "motor": "1.6 GDI 132",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-gamma-gdi"
       ]
     },
     {
@@ -11003,6 +11092,19 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "E Serisi Coupe / Cabrio (C207, 2009-2016)",
+      "motor": "E250 CDI 2.1 (OM651)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om651"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "EQA / EQB (H243 / X243, 2021-)",
       "motor": "Elektrik (EQA 250+ / EQB 250+; 70,5 kWh)",
       "uretim_yillari": {
@@ -12575,6 +12677,20 @@
     },
     {
       "marka": "Opel",
+      "model": "Combo Life (E, 2018-)",
+      "motor": "1.5 BlueHDi 100/130 (DV5)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-bluehdi-adblue",
+        "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Corsa D (2006-2014)",
       "motor": "1.2 / 1.3 CDTI (Easytronic robotize şanzıman)",
       "uretim_yillari": {
@@ -13898,6 +14014,19 @@
           "aile_sorunu": "psa-puretech-eb2/yag-tuketimi"
         }
       ],
+      "aileler": [
+        "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "408 (2022-)",
+      "motor": "1.2 PureTech 130 (EB2, EAT8)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
       "aileler": [
         "psa-puretech-eb2"
       ]
@@ -16863,6 +16992,19 @@
     },
     {
       "marka": "Toyota",
+      "model": "Camry (XV70, 2019-)",
+      "motor": "2.5 Hybrid (Dynamic Force, e-CVT)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-hsd-hibrit"
+      ]
+    },
+    {
+      "marka": "Toyota",
       "model": "Corolla (E150 FL / E170, 2009-2018)",
       "motor": "1.33 Dual VVT-i 99",
       "uretim_yillari": {
@@ -17061,6 +17203,19 @@
             "https://forum.donanimhaber.com/2021-corolla-carplay-sorunu--159520052"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla Cross (2022-)",
+      "motor": "1.8 Hybrid 140 (e-CVT)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-hsd-hibrit"
       ]
     },
     {

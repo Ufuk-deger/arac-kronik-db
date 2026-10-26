@@ -746,6 +746,22 @@
       "guven": "düşük",
       "ana_sayfa": "https://autoscore.pro/",
       "not": "Motor kodu bazında arıza listesi ve kaba kilometre tahmini veren derleme site; kaynağı belirtilmiyor, yalnızca destekleyici olarak kullanıldı."
+    },
+    "yatirimx.com.tr": {
+      "ad": "YatırımX",
+      "ulke": "TR",
+      "tur": "haber",
+      "guven": "düşük",
+      "ana_sayfa": "https://www.yatirimx.com.tr/",
+      "not": "Türkiye'de otomotiv ve ekonomi haberleri; PSA Grubu 1.5 BlueHDi eksantrik zinciri kampanyası haberi için."
+    },
+    "car-recalls.eu": {
+      "ad": "Car-Recalls.eu",
+      "ulke": "Global",
+      "tur": "toplayici",
+      "guven": "düşük",
+      "ana_sayfa": "https://car-recalls.eu/",
+      "not": "Avrupa geri çağırma ve Safety Gate (Rapex) uyarılarını araç bazında derleyen site; resmî veritabanıyla karşılaştırılmadı."
     }
   }
 }

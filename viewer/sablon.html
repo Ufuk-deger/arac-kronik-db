@@ -1374,8 +1374,20 @@
     // diğer terimler (motor kodu, parça, belirti) araç kimliğinde ya da sorun metninde aranır.
     const adSozlugu = [...new Set([...kayitlar.map((k) => k.adMetni), ...plan.map((o) => katla(`${o.marka} ${o.model}`))])];
     const aracTerimiOnbellek = new Map();
+    // Rakamsız kısa terimler (en çok 4 harf) araç adında yalnızca ayrı bir kelime olarak geçerse araç terimi sayılır:
+    // "cam", "arka", "kam" gibi arıza kelimeleri Camry, Arkana, Kamiq adlarının içinde bulunduğu için araç aramasına dönmez.
+    const KISA_KELIME = /^[a-z-]{1,4}$/;
+    function adTerimiUyar(ad, t) {
+      if (!KISA_KELIME.test(t)) return eslesir(ad, t);
+      for (let i = ad.indexOf(t); i !== -1; i = ad.indexOf(t, i + 1)) {
+        if (i !== 0 && /[a-z0-9]/.test(ad[i - 1])) continue;
+        if (/[a-z0-9]/.test(ad[i + t.length] || "")) continue;
+        return true;
+      }
+      return false;
+    }
     function aracTerimiMi(t) {
-      if (!aracTerimiOnbellek.has(t)) aracTerimiOnbellek.set(t, adSozlugu.some((m) => eslesir(m, t)));
+      if (!aracTerimiOnbellek.has(t)) aracTerimiOnbellek.set(t, adSozlugu.some((m) => adTerimiUyar(m, t)));
       return aracTerimiOnbellek.get(t);
     }
     function sorguAyir(ham) {
