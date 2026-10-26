@@ -2722,8 +2722,7 @@
           "2.0 TFSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "2.0 TFSI için B9 için doğrudan kronik sorun listesi çıkmadı; yağ eksiltme şikâyetleri çoğunlukla B8 dönemine ait (kayıtlı), B9'a özgü olanlar tekil (tahrik uyarısı, stop lambası çatlağı)."
+      "not": "2.0 TFSI için B9 için doğrudan kronik sorun listesi çıkmadı; yağ eksiltme şikâyetleri çoğunlukla B8 dönemine ait (kayıtlı), B9'a özgü olanlar tekil (tahrik uyarısı, stop lambası çatlağı). Faz 14: aile bağı kuruldu; bu satır VAG EA888 Gen3 ailesinin ortak su pompası / termostat gövdesi sızıntısı sorununu gösterir (kaynaklar VWVortex, Audizine, AudiWorld; B9 başlıkları dahil); modele özgü Türkçe kaynak çıkmadı. Gen3'te yağ tüketimi forumlarda çok değişken anlatılıyor (çoğu sahip ölçülebilir tüketim görmüyor, ABD'de 2026 toplu dava iddiası var) ve kronik sorun olarak yazılmadı. 2016-2017 model yılı 2.0 TFSI için ayrıca elektrikli soğutma pompası geri çağırması (18V-229) ortak aile sorunu olarak gösterilir."
     },
     {
       "marka": "Audi",
@@ -3293,19 +3292,18 @@
       "marka": "Audi",
       "model": "A6 C7",
       "yillar": "2011-2018",
-      "motor": "3.0 TDI / 2.0 TFSI",
+      "motor": "3.0 TDI",
       "kademe": 3,
       "eslesme": {
         "model": [
           "A6 (C7"
         ],
         "motor": [
-          "3.0 TDI",
-          "2.0 TFSI"
+          "3.0 TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "A6 C7'ye özgü kaynak bulunamadı; bulunan A6 2.0 TDI başlıkları C6 dönemine (2009-2011) ait."
+      "not": "A6 C7'ye özgü kaynak bulunamadı; bulunan A6 2.0 TDI başlıkları C6 dönemine (2009-2011) ait. Faz 14: 2.0 TFSI ayrı satıra alındı."
     },
     {
       "marka": "Audi",
@@ -3547,18 +3545,17 @@
       "marka": "Ford",
       "model": "Mondeo",
       "yillar": "2007-2019",
-      "motor": "2.0 / 1.6 TDCi",
+      "motor": "1.6 TDCi",
       "kademe": 3,
       "eslesme": {
         "model": [
           "Mondeo"
         ],
         "motor": [
-          "TDCi"
+          "1.6 TDCi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Mondeo için tekil direksiyon, enjektör ve DPF anlatıları var."
+      "not": "Mondeo için tekil direksiyon, enjektör ve DPF anlatıları var. Faz 14: aile bağı kuruldu; bu satır PSA / Ford DV6 1.6 TDCi ailesinin ortak enjektör, turbo yağ süzgeci ve EGR / DPF sorunlarını gösterir; Mondeo'ya özgü kaynak çıkmadı. 2.0 TDCi ayrı satıra alındı."
     },
     {
       "marka": "Ford",
@@ -7768,18 +7765,18 @@
       "marka": "Audi",
       "model": "Q5 FY",
       "yillar": "2017-",
-      "motor": "40 TDI 2.0 (quattro S tronic) / 45 TFSI",
+      "motor": "40 TDI 2.0 (quattro S tronic)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "Q5 (FY"
         ],
         "motor": [
-          ""
+          "TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "2017 Q5 2.0 TDI quattro için DonanımHaber'de kronik sorun iddiası kaynaksız, aynı başlıktaki kullanıcılar 2.0 TDI 177 hp ve S tronic'in sağlam olduğunu yazıyor; yağ tüketimi anlatıları TFSI'ya ait. Doğrulanmış bir sorun çıkmadı."
+      "not": "2017 Q5 2.0 TDI quattro için DonanımHaber'de kronik sorun iddiası kaynaksız, aynı başlıktaki kullanıcılar 2.0 TDI 177 hp ve S tronic'in sağlam olduğunu yazıyor; yağ tüketimi anlatıları TFSI'ya ait. Doğrulanmış bir sorun çıkmadı. Faz 14: TFSI sürümü ayrı satıra alındı (EA888 Gen3 ailesi)."
     },
     {
       "marka": "Audi",
@@ -7795,8 +7792,7 @@
           "1.8 TFSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Bu oturumdaki aramada 8V 2.0 TDI 150 için model ya da motora özgü şikâyet çıkmadı; forumlarda en çok konuşulan konu S tronic şanzıman (titreme ve vuruntuyla başlayıp mekatronik arızasıyla biten anlatılar; kullanım alışkanlığına bağlayan yorumlar), enjektör ve DPF anlatıları ise genel ya da eski (2006 model) araçlara ait. Bir forum kullanıcısı 2.0 TDI'larda 6 ileri DQ250 kullanıldığını ve nadiren sorun çıkardığını yazıyor; kuru kavramalı DQ200 kaydı 1.4 TFSI ve 1.6 TDI için ayrı."
+      "not": "Bu oturumdaki aramada 8V 2.0 TDI 150 için model ya da motora özgü şikâyet çıkmadı; forumlarda en çok konuşulan konu S tronic şanzıman (titreme ve vuruntuyla başlayıp mekatronik arızasıyla biten anlatılar; kullanım alışkanlığına bağlayan yorumlar), enjektör ve DPF anlatıları ise genel ya da eski (2006 model) araçlara ait. Bir forum kullanıcısı 2.0 TDI'larda 6 ileri DQ250 kullanıldığını ve nadiren sorun çıkardığını yazıyor; kuru kavramalı DQ200 kaydı 1.4 TFSI ve 1.6 TDI için ayrı. Faz 14: aile bağı kuruldu; bu satır VAG EA888 Gen3 ailesinin ortak su pompası / termostat gövdesi sızıntısı sorununu gösterir (kaynaklar VWVortex, Audizine, AudiWorld; B9 başlıkları dahil); modele özgü Türkçe kaynak çıkmadı. Gen3'te yağ tüketimi forumlarda çok değişken anlatılıyor (çoğu sahip ölçülebilir tüketim görmüyor, ABD'de 2026 toplu dava iddiası var) ve kronik sorun olarak yazılmadı."
     },
     {
       "marka": "Audi",
@@ -7835,35 +7831,35 @@
       "marka": "Audi",
       "model": "A6 C8",
       "yillar": "2018-",
-      "motor": "40 TDI 2.0 / 45 TFSI",
+      "motor": "40 TDI 2.0 (EA288 evo)",
       "kademe": 3,
       "eslesme": {
         "model": [
           "A6 (C8"
         ],
         "motor": [
-          ""
+          "TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da A6 C8 için tekil kayıtlar var: 2023 model 40 TDI Quattro'da yaklaşık 10.900 km'de direksiyon kilitlenmesi ve şanzıman arızası (bayi araç değişimini reddetmiş), 2025 modelde yaklaşık 28.000 km'de şanzıman ve quattro arızaları, 40 TDI'da 3.000 km'de yağ uyarısı. AudiWorld ve Audizine'da 48V kayış tahrikli marş-alternatör jeneratörü arızası (mild hibrit Audi'lerde uzun süredir anılan sorun, servis kampanyası olduğu yazılıyor) ve DL382 S tronic'te düşük hızda sarsıntı geçiyor; bir forum kullanıcısı 40 TDI'ın 12V sistem kullandığını ve bu sorunu yaşamadığını yazıyor. Kilometre aralığı verilen, ikinci kaynakla desteklenen bir motor sorunu çıkmadı."
+      "not": "Şikâyetvar'da A6 C8 için tekil kayıtlar var: 2023 model 40 TDI Quattro'da yaklaşık 10.900 km'de direksiyon kilitlenmesi ve şanzıman arızası (bayi araç değişimini reddetmiş), 2025 modelde yaklaşık 28.000 km'de şanzıman ve quattro arızaları, 40 TDI'da 3.000 km'de yağ uyarısı. AudiWorld ve Audizine'da 48V kayış tahrikli marş-alternatör jeneratörü arızası (mild hibrit Audi'lerde uzun süredir anılan sorun, servis kampanyası olduğu yazılıyor) ve DL382 S tronic'te düşük hızda sarsıntı geçiyor; bir forum kullanıcısı 40 TDI'ın 12V sistem kullandığını ve bu sorunu yaşamadığını yazıyor. Kilometre aralığı verilen, ikinci kaynakla desteklenen bir motor sorunu çıkmadı. Faz 14: TFSI sürümü ayrı satıra alındı (EA888 Gen3 ailesi)."
     },
     {
       "marka": "Audi",
       "model": "A5 F5",
       "yillar": "2017-",
-      "motor": "40 TDI / 40 TFSI 2.0",
+      "motor": "40 TDI 2.0",
       "kademe": 3,
       "eslesme": {
         "model": [
           "A5 (F5"
         ],
         "motor": [
-          ""
+          "TDI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "A5 F5'e özgü kaynak çıkmadı; A6 C8 ile ortak motor ve DL382 S tronic notları (48V marş-alternatör, düşük hızda sarsıntı) AudiWorld ve Audizine'daki C8 konularından geliyor."
+      "not": "A5 F5'e özgü kaynak çıkmadı; A6 C8 ile ortak motor ve DL382 S tronic notları (48V marş-alternatör, düşük hızda sarsıntı) AudiWorld ve Audizine'daki C8 konularından geliyor. Faz 14: TFSI sürümü ayrı satıra alındı (EA888 Gen3 ailesi)."
     },
     {
       "marka": "Audi",
@@ -7929,8 +7925,7 @@
           ""
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "TT 8S'e özgü kaynak çıkmadı. DonanımHaber'de 2.0 TFSI'ın yağ tüketimi ve zincir uzaması tartışılıyor, Audi'nin NHTSA'daki servis bültenleri 2009-2011 model EA888 motorlar için (karter havalandırma valfi) ve Gen3 TT 8S'i kapsamıyor."
+      "not": "TT 8S'e özgü kaynak çıkmadı. DonanımHaber'de 2.0 TFSI'ın yağ tüketimi ve zincir uzaması tartışılıyor, Audi'nin NHTSA'daki servis bültenleri 2009-2011 model EA888 motorlar için (karter havalandırma valfi) ve Gen3 TT 8S'i kapsamıyor. Faz 14: aile bağı kuruldu; bu satır VAG EA888 Gen3 ailesinin ortak su pompası / termostat gövdesi sızıntısı sorununu gösterir (kaynaklar VWVortex, Audizine, AudiWorld; B9 başlıkları dahil); modele özgü Türkçe kaynak çıkmadı. Gen3'te yağ tüketimi forumlarda çok değişken anlatılıyor (çoğu sahip ölçülebilir tüketim görmüyor, ABD'de 2026 toplu dava iddiası var) ve kronik sorun olarak yazılmadı."
     },
     {
       "marka": "Volkswagen",
@@ -8154,7 +8149,7 @@
       "marka": "Ford",
       "model": "S-Max / Galaxy",
       "yillar": "2006-2023",
-      "motor": "2.0 TDCi / 2.0 EcoBlue",
+      "motor": "2.0 EcoBlue (2019 sonrası)",
       "kademe": 2,
       "eslesme": {
         "model": [
@@ -8162,11 +8157,11 @@
           "Galaxy"
         ],
         "motor": [
-          ""
+          "EcoBlue"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "S-Max / Galaxy 2.0 TDCi'ya özgü kronik sorun kaynağı çıkmadı: bir forum yorumu 2.0 TDCi'da yakıt kalitesine bağlı enjektör ve volan sorunlarını anıyor, bir S-Max sahibi 3,5 yılda sorun yaşamadığını yazıyor; Powershift titremesi anlatıları modelsiz."
+      "not": "S-Max / Galaxy 2.0 TDCi'ya özgü kronik sorun kaynağı çıkmadı: bir forum yorumu 2.0 TDCi'da yakıt kalitesine bağlı enjektör ve volan sorunlarını anıyor, bir S-Max sahibi 3,5 yılda sorun yaşamadığını yazıyor; Powershift titremesi anlatıları modelsiz. Faz 14: 2.0 TDCi ayrı satıra alındı (Ford 2.0 TDCi ailesi)."
     },
     {
       "marka": "Ford",
@@ -8182,8 +8177,7 @@
           ""
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "DonanımHaber'de Kuga Powershift için tekil anlatılar (230 bin km'de sorun, 130 bin km'de geri vitesten D'ye geçişte sarsıntı, ıslak kavramalı şanzıman için 150-160 bin km'de kavrama değişiminin normal aşınma sayıldığı) ve enjektör tutma ayaklarının kırılması geçiyor. Parkers Mk1 Kuga'nın ıslak kavramalı 6DCT450 şanzımanının yaklaşık üç yılda bir yağ değişimi istediğini, ihmal edilirse sert vites ve mekatronik arızası çıkabildiğini yazıyor; Ford Owners Club'da 45.000 milde yağ ve filtre değişiminin sarsıntıyı giderdiği, kavrama değişiminin 1.200 sterlin olduğu anlatılıyor. Tutarlı bir kilometre aralığı çıkmadığı ve mevcut Powershift ailesi kuru kavramalı DPS6 olduğu için kayıt açılmadı."
+      "not": "DonanımHaber'de Kuga Powershift için tekil anlatılar (230 bin km'de sorun, 130 bin km'de geri vitesten D'ye geçişte sarsıntı, ıslak kavramalı şanzıman için 150-160 bin km'de kavrama değişiminin normal aşınma sayıldığı) ve enjektör tutma ayaklarının kırılması geçiyor. Parkers Mk1 Kuga'nın ıslak kavramalı 6DCT450 şanzımanının yaklaşık üç yılda bir yağ değişimi istediğini, ihmal edilirse sert vites ve mekatronik arızası çıkabildiğini yazıyor; Ford Owners Club'da 45.000 milde yağ ve filtre değişiminin sarsıntıyı giderdiği, kavrama değişiminin 1.200 sterlin olduğu anlatılıyor. Tutarlı bir kilometre aralığı çıkmadığı ve mevcut Powershift ailesi kuru kavramalı DPS6 olduğu için kayıt açılmadı. Faz 14: aile bağı kuruldu; bu satır Ford 2.0 TDCi (Duratorq DW10) ailesinin ortak enjektör sorununu gösterir (kaynaklar Parkers, Ford Owners Club, Honest John, DonanımHaber, Otopark); kilometre aralığı Türkçe forum yorumlarına dayanır, modele özgü ayrı kaynak çıkmadı. Kuga 1'de enjektör tutucu bacaklarının kırılması tek vaka olarak anlatılıyor."
     },
     {
       "marka": "Ford",
@@ -13988,6 +13982,103 @@
         ]
       },
       "not": "Faz 14: aile bağı kuruldu; bu satır BMW B38 1.5 üç silindir ailesinin ortak turbo manifoldu çatlaması sorununu gösterir (F20 LCI, F44, F48, U11, F39 ve Mini kayıtlarında aynı motor); F40'a özgü kaynak çıkmadı."
+    },
+    {
+      "marka": "Audi",
+      "model": "A5 F5",
+      "yillar": "2017-",
+      "motor": "40 TFSI 2.0 (EA888 Gen3)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A5 (F5"
+        ],
+        "motor": [
+          "TFSI"
+        ]
+      },
+      "not": "Faz 14: aile bağı kuruldu; bu satır VAG EA888 Gen3 ailesinin ortak su pompası / termostat gövdesi sızıntısı sorununu gösterir (kaynaklar VWVortex, Audizine, AudiWorld; B9 başlıkları dahil); modele özgü Türkçe kaynak çıkmadı. Gen3'te yağ tüketimi forumlarda çok değişken anlatılıyor (çoğu sahip ölçülebilir tüketim görmüyor, ABD'de 2026 toplu dava iddiası var) ve kronik sorun olarak yazılmadı."
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 C8",
+      "yillar": "2018-",
+      "motor": "45 TFSI 2.0 (EA888 Gen3)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A6 (C8"
+        ],
+        "motor": [
+          "TFSI"
+        ]
+      },
+      "not": "Faz 14: aile bağı kuruldu; bu satır VAG EA888 Gen3 ailesinin ortak su pompası / termostat gövdesi sızıntısı sorununu gösterir (kaynaklar VWVortex, Audizine, AudiWorld; B9 başlıkları dahil); modele özgü Türkçe kaynak çıkmadı. Gen3'te yağ tüketimi forumlarda çok değişken anlatılıyor (çoğu sahip ölçülebilir tüketim görmüyor, ABD'de 2026 toplu dava iddiası var) ve kronik sorun olarak yazılmadı."
+    },
+    {
+      "marka": "Audi",
+      "model": "Q5 FY",
+      "yillar": "2017-",
+      "motor": "45 TFSI 2.0 (EA888 Gen3, quattro S tronic)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Q5 (FY"
+        ],
+        "motor": [
+          "TFSI"
+        ]
+      },
+      "not": "Faz 14: aile bağı kuruldu; bu satır VAG EA888 Gen3 ailesinin ortak su pompası / termostat gövdesi sızıntısı sorununu gösterir (kaynaklar VWVortex, Audizine, AudiWorld; B9 başlıkları dahil); modele özgü Türkçe kaynak çıkmadı. Gen3'te yağ tüketimi forumlarda çok değişken anlatılıyor (çoğu sahip ölçülebilir tüketim görmüyor, ABD'de 2026 toplu dava iddiası var) ve kronik sorun olarak yazılmadı."
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 C7",
+      "yillar": "2011-2018",
+      "motor": "2.0 TFSI 180/252 (EA888)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A6 (C7"
+        ],
+        "motor": [
+          "2.0 TFSI"
+        ]
+      },
+      "not": "Faz 14: aile bağı kuruldu; bu satır Audi 2.0 TFSI elektrikli soğutma suyu pompası geri çağırmasının (NHTSA 18V-229, 2012-2017 A4 / A5 / A6 / Q5) ortak sorununu gösterir; Türkiye kapsamı doğrulanamadı, A6'ya özgü Türkçe kaynak çıkmadı."
+    },
+    {
+      "marka": "Ford",
+      "model": "Mondeo",
+      "yillar": "2007-2014",
+      "motor": "2.0 TDCi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Mondeo"
+        ],
+        "motor": [
+          "2.0 TDCi"
+        ]
+      },
+      "not": "Faz 14: aile bağı kuruldu; bu satır Ford 2.0 TDCi (Duratorq DW10) ailesinin ortak enjektör sorununu gösterir (kaynaklar Parkers, Ford Owners Club, Honest John, DonanımHaber, Otopark); kilometre aralığı Türkçe forum yorumlarına dayanır, modele özgü ayrı kaynak çıkmadı."
+    },
+    {
+      "marka": "Ford",
+      "model": "S-Max / Galaxy",
+      "yillar": "2006-2015",
+      "motor": "2.0 TDCi",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "S-Max",
+          "Galaxy"
+        ],
+        "motor": [
+          "2.0 TDCi"
+        ]
+      },
+      "not": "Faz 14: aile bağı kuruldu; bu satır Ford 2.0 TDCi (Duratorq DW10) ailesinin ortak enjektör sorununu gösterir (kaynaklar Parkers, Ford Owners Club, Honest John, DonanımHaber, Otopark); kilometre aralığı Türkçe forum yorumlarına dayanır, modele özgü ayrı kaynak çıkmadı. DonanımHaber'de bir S-Max sahibi 200.000-250.000 km arası enjektör revizyonu bekliyor, başka bir sahip 3,5 yılda sorun yaşamadığını yazıyor."
     }
   ]
 }
