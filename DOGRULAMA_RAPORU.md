@@ -1558,6 +1558,28 @@ Kullanıcı isteğiyle araçlar beşer kayıtlık partiler halinde ekleniyor ve 
 - **Düzeltme:** Vito W447 OM651 satırı yeni W639 kaydına yanlışlıkla eşleşip `◐`'dan `✓`'a dönmüştü; satırın eşleşmesi W447 ile daraltıldı.
 - **Sınırlar:** Beş kaydın dördü ağırlıkla İngiltere / ABD kaynaklarına dayanıyor; Türkçe doğrulama X-Trail, Viano ve Volvo için DonanımHaber'deki tekil başlıklarla sınırlı. Kilometre aralıkları kaba tahmindir. Bu partideki kayıtların bir kısmı 2011 öncesi model yıllarını kapsıyor (Zafira B 1.9, Viano OM646, X-Trail T31); planda zaten satırları vardı.
 
+### Parti 2 (10 kayıt: 3 kayda özgü sorunlu, 7 yalnızca ortak aile; 1 yeni aile)
+
+Kullanıcı bu partide 10 araç istedi. Güçlü ailelerde nesil ya da model kartı eksik kalan araçlar eklendi; her satırın motor ve model eşleşmesi Türkiye'de satıldığı aramalarla kontrol edildi, doğrulanamayanlar listeye alınmadı.
+
+| Araç | Aile | Durum | Dayanak |
+| --- | --- | :-: | --- |
+| Citroën C5 Aircross (2019-) 1.2 PureTech 130 | PureTech EB2 | ✓ | Şikâyetvar (2 başlık), Ekşi Sözlük, DonanımHaber; bir sahip 34.000 km'de kayış değiştirmiş |
+| Opel Grandland X / Grandland (2017-) 1.2 Turbo 130 | PureTech EB2 | ✓ | Şikâyetvar (3 başlık), Ekşi Sözlük, DonanımHaber; arızalar kabaca 30.000-65.000 km |
+| Skoda Superb III (2015-2023) 2.0 TSI | EA888 Gen3 | ✓ | Briskoda (2 başlık) ve VWVortex; Türkçe sahip anlatısı yok |
+| Peugeot 208 / 2008 II (2019-) 1.2 PureTech | PureTech EB2 | ◐ | 2021 model 208'de kayış çatlağı anlatısı kilometresiz |
+| Peugeot 308 III (2021-) 1.2 PureTech 130 | PureTech EB2 | ◐ | Şikâyetvar 308 başlıkları nesil ayırmıyor; yalnızca 2022 lansmanında satıldı |
+| Peugeot 3008 II (2016-) 1.2 PureTech 130 | PureTech EB2 | ◐ | 3008'e özgü kaynak çıkmadı |
+| Skoda Kodiaq (2017-) 2.0 TSI 180 | EA888 Gen3 | ◐ | Briskoda'da tek sahip anlatısı; güncel Türkiye listesinde 180 PS yok |
+| Volvo XC60 (2008-2017) D5 2.4 | Volvo D5244T (yeni) | ◐ | Aile kaynakları |
+| Volvo XC90 (2002-2014) 2.4 D5 | Volvo D5244T (yeni) | ◐ | Aile kaynakları |
+| Volvo S60 II / V60 (2010-2015) D5 2.4 | Volvo D5244T (yeni) | ◐ | Aile kaynakları |
+
+- **Yeni aile:** Volvo D5 2.4 (D5244T) dizel, enjektör arızası ve geri dönüş kaçağı (6 kaynak, 4 site). Parti 1'deki S80 / V70 / XC70 kaydının sorunu bu aileye bağlandı.
+- **Plan:** 5 satır `✓`, 5 satır `◐` oldu; bölünen satırlardan 3 yeni `–` satırı doğdu (XC60 D4, XC90 3.2, S60 / V60 D3 / D4 / T4).
+- **Listeye alınmayanlar:** Skoda Octavia A7 1.8 TSI ve VW Tiguan 2.0 TSI (Türkiye'de satıldıkları aramalarla doğrulanamadı), Peugeot 5008 II 1.2 PureTech (satışı doğrulanamadı). Opel Astra J ve Zafira Tourer 2.0 CDTI (Insignia ile aynı yağ emme contası) sonraki partiye kaldı.
+- **Sınırlar:** On kaydın yedisi yalnızca ortak aile kaynağıyla duruyor ve doğrudan kanıt olarak okunmamalı. EA888 ve Volvo kaynakları ağırlıkla İngiltere / ABD forumları; Superb kaydının kilometre aralığı (40.000-110.000 km) tekil vakalardan kaba tahmindir.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.

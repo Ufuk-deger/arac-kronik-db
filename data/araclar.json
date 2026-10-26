@@ -3197,6 +3197,37 @@
       ]
     },
     {
+      "id": "volvo-d5244t-2-4d",
+      "ad": "Volvo D5 2.4 (D5244T) dizel",
+      "tur": "motor",
+      "aciklama": "Volvo'nun 2001-2015 arasında S60, S80, V70, XC70, XC90 ve XC60'ta kullandığı 2.4 litre beş silindirli common rail dizel motor (D5244T; 163-215 PS). Enjektör arızası ve geri dönüş (leak-back) kaçağı bu motor için anlatılıyor. Kaynak anlatılarının bir kısmı 2007 öncesi V70 / S80 kuşaklarına aittir. 2013'ten sonraki 2.0 litre Drive-E dizeller (D3 / D4 / D5) bu aileye dahil değildir.",
+      "kronik_sorunlar": [
+        {
+          "id": "enjektor",
+          "sorun_adi": "Enjektör arızası ve geri dönüş kaçağı",
+          "etkilenen_parca": "Common rail enjektörler (5 adet) ve enjektör konnektörleri",
+          "belirtiler": "Zor çalışma, rölantide tekleme, duman, yakıt rayı basıncı hataları (VIDA), limp modu; arızalı enjektör geri kaçırarak motorun çalışmasını engelleyebilir",
+          "tahmini_km_araligi": "100.000 - 250.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Volvo Owners Club'da D5 sahipleri ile Honest John forumunda enjektör arızaları, geri dönüş (leak-back) kaçağı, yakıt basıncı fazlalığı ve 5. silindir enjektör sinyali hataları sık anlatılıyor. Bir forum yorumunda atölyecinin kuralı enjektör ömrünü yaklaşık 150.000 mil (240.000 km) olarak verirken bazı enjektörlerin çok daha uzun gittiği (371.000 millik bir vaka), bazılarının daha erken bozulduğu ve arızanın kilometreye bağlı olmayabileceği yazılıyor. DonanımHaber'de S80 D5 için genel bir değerlendirme enjektör, turbo ve otomatik şanzıman arızalarını yaygın sorun olarak sayıyor.",
+            "teshis": "Enjektör geri dönüş testi ve VIDA / Dice ile ray basıncı okuması. Bir vakada yedek enjektörün de geri kaçırıp basıncı bozarak motoru çalıştırmadığı, başka vakalarda enjektörlerin testten sağlam çıkıp sorunun mekanik olduğu anlatılıyor; konnektör ve kablo hasarı sık neden olarak sayılıyor, bu yüzden önce onlar kontrol ediliyor.",
+            "cozum": "Arızalı enjektörlerin değişimi ya da revizyonu. Girdap kanadı kitini değiştirmek için de 5 enjektör ve yüksek basınç borularının sökülmesi gerektiğinden iki iş çoğu zaman birlikte yapılıyor.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "İkinci elde zor çalışma, rölantide tekleme, duman ve yakıt basıncı hatası geçmişini sorun, enjektör test kaydını isteyin. Kilometre aralığı forumlardaki tekil vakalardan geniş bir kaba tahmindir; Volvo Owners Club kaynaklarının bir kısmı 2007 öncesi kuşakların alt bölümünden olup aynı D5244T motorunu anlatır."
+          },
+          "kaynaklar": [
+            "https://www.volvoforums.org.uk/forum/technical-topics/s80-06-16-v70-xc70-07-16-general/334036-v70-d5-injectors/page4?t=344093&page=4",
+            "https://www.volvoforums.org.uk/forum/technical-topics/s80-98-06-s60-00-09-v70-xc70-00-07-general/5004559-d5244t-fuel-pressure-too-high-faulty-injectors",
+            "https://www.volvoforums.org.uk/forum/technical-topics/s80-98-06-s60-00-09-v70-xc70-00-07-general/14458-spotting-the-d5-injector-problem?t=14531",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=35391",
+            "https://www.swedespeed.com/threads/2006-volvo-xc70-d5-injector-5-signal-too-high.677572/?tl=fr",
+            "https://forum.donanimhaber.com/volvo-s80-d5-hakkinda--124615642"
+          ]
+        }
+      ]
+    },
+    {
       "id": "volvo-drive-e-b4204t",
       "ad": "Volvo Drive-E B4204T 2.0 turbo benzin (T5 / T6)",
       "tur": "motor",
@@ -5884,6 +5915,42 @@
             "https://frenchcarforum.co.uk/forum/viewtopic.php?t=83174"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "C5 Aircross (2019-)",
+      "motor": "1.2 PureTech 130 (EB2, EAT8)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağ banyolu triger kayışının çatlaması ve dağılması",
+          "etkilenen_parca": "Yağ banyosunda çalışan triger kayışı, yağ pompası emiş süzgeci",
+          "belirtiler": "Yağ basıncı uyarısı, kayışta çatlama ve ufalanma, parçaların yağ süzgecini tıkaması; kayış kopması halinde ağır motor hasarı",
+          "tahmini_km_araligi": "30.000 - 90.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar'da C5 Aircross triger kayışı başlıkları kayışın yağ içinde çalışmasını temel sorun olarak tekrar ediyor; bir kullanıcı kayış malzemesinin yetersizliği yüzünden kopan ince lastik parçacıklarının yağa karıştığını, bir forum yorumu bu parçaların yağ pompası emişini ve filtresini tıkayıp motoru hasara uğratabildiğini yazıyor. Bir sahip 1.2 PureTech C5 Aircross'ta 34.000 km'de triger kayışını değiştirmek zorunda kaldığını, başka bir şikâyet motor arızasından sonra supap, triger, turbo ve bujilerin değiştiğini anlatıyor.",
+            "teshis": "Yağ basıncı uyarısı ve motor arıza ışığı; karter açıldığında kayış artıkları görülüyor. Kayışın durumu soğuk motorda yağ dolum kapağından gözle kontrol edilebiliyor (kullanıcı yorumu); servis kaydında kayış değişimi ve süzgeç temizliği sorulmalı.",
+            "cozum": "Kayış değişimi, karter ve yağ süzgeci temizliği. Kullanıcılar PSA onaylı B71 2297 yağ (Total HTC 5W30) kullanmayı öneriyor. Bir forumda PSA'nın bu motor için genişletilmiş garanti bildirimi yayımladığı yazılıyor (tek kullanıcı, doğrulanmadı).",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Değişim aralığı konusunda tek görüş yok: yetkili servise göre 6 yıl ya da 90.000 km, kullanıcılar 40.000-60.000 km öneriyor. Bazı kullanıcılar 2022 sonrası kayışın güçlendirildiğini söylüyor ama kaynak göstermiyor. Kilometre aralığı 34.000 km'lik tek vaka ile 90.000 km'lik servis aralığına dayanan kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/citroen/c5-aircross/triger-kayisi",
+            "https://www.sikayetvar.com/citroen/c5-aircross/triger",
+            "https://eksisozluk.com/citroen-c5-aircross--5343862?p=23",
+            "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384",
+            "https://www.sikayetvar.com/citroen/garanti/puretech"
+          ],
+          "aile_sorunu": "psa-puretech-eb2/yagli-triger-kayisi"
+        }
+      ],
+      "aileler": [
+        "psa-puretech-eb2"
       ]
     },
     {
@@ -12721,6 +12788,42 @@
     {
       "marka": "Opel",
       "model": "Grandland X / Grandland (2017-)",
+      "motor": "1.2 Turbo 130 (PureTech, EB2)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yağ banyolu triger kayışının çatlaması ve dağılması",
+          "etkilenen_parca": "Yağ banyosunda çalışan triger kayışı, yağ pompası emiş süzgeci",
+          "belirtiler": "Motor yağ basıncı uyarısı ve yağ kaybı, kayışta çatlama ve pullanma, parçaların süzgeci tıkaması; uyarısız durma ve motor hasarı",
+          "tahmini_km_araligi": "30.000 - 65.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar'daki Grandland X kayıtlarında arızalar 'motor yağ basıncı' uyarısı ve yağ kaybıyla başlıyor; sahipler servisin yağ içinde çalışan triger kayışından kopan parçacıkların yağ filtresini tıkadığını söylediğini aktarıyor. Bir sahip 59.000 km'de uyarı vermeden yolda giderken durduğunu, bir başkası karter açıldığında kayışın kopma aşamasında olduğunu, 2023 model bir araç 51.100 km'de kayışta çatlak çıktığını yazıyor. Ekşi Sözlük'te kayışta görünür yıpranma olmasa da pullanma ve çapak bulunabildiği, bunların süzgeci tıkayabildiği anlatılıyor.",
+            "teshis": "Yağ basıncı uyarısı ve yağ eksilmesi; karter ve süzgeçte kayış artıkları. Şikâyetvar'da garanti kapsamında triger değişim talebinin reddedildiği ve garanti süreçlerinin gecikmesi şikâyetleri de var.",
+            "cozum": "Kayış değişimi ve karter / süzgeç temizliği; PSA onaylı B71 2297 yağ (Total HTC 5W30) ve zamanında yağ değişimi öneriliyor.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Değişim aralığı: servise göre 6 yıl ya da 90.000 km, kullanıcılar 50.000-60.000 km öneriyor. İkinci elde kayış değişimi ve karter kapağı kontrolü kaydını isteyin. Kilometre aralığı Şikâyetvar'daki 30.000-65.000 km civarı vakalardan kaba tahmindir; bazı forum yorumları düzenli bakım ve doğru yağla sorun yaşamadıklarını yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/opel-grandland-x-triger-ve-motor-sorunu",
+            "https://www.sikayetvar.com/opel/grandland-x/kronik-sorun",
+            "https://www.sikayetvar.com/opel/opel-grandland-x-12-turbo-benzinli",
+            "https://eksisozluk.com/1-2-puretech--6399271?p=2",
+            "https://forum.donanimhaber.com/1-2-puretech-sorunlu-mu-cidden--158999384"
+          ],
+          "aile_sorunu": "psa-puretech-eb2/yagli-triger-kayisi"
+        }
+      ],
+      "aileler": [
+        "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Grandland X / Grandland (2017-)",
       "motor": "1.5 BlueHDi (DV5)",
       "uretim_yillari": {
         "baslangic": 2017,
@@ -13214,6 +13317,19 @@
     },
     {
       "marka": "Peugeot",
+      "model": "208 / 2008 (II, 2019-)",
+      "motor": "1.2 PureTech 100/130 (EB2)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "208 / 2008 / 308 / 3008 (2012-2021)",
       "motor": "1.6 e-HDi / BlueHDi 92/100/120 (DV6)",
       "uretim_yillari": {
@@ -13425,6 +13541,19 @@
     },
     {
       "marka": "Peugeot",
+      "model": "3008 (II, 2016-)",
+      "motor": "1.2 PureTech 130 (EB2, EAT6 / EAT8)",
+      "uretim_yillari": {
+        "baslangic": 2016,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "301 (2012-)",
       "motor": "1.2 VTi / PureTech 82 (EB2F)",
       "uretim_yillari": {
@@ -13546,6 +13675,19 @@
       "aileler": [
         "psa-bluehdi-adblue",
         "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "308 (III, 2021-)",
+      "motor": "1.2 PureTech 130 (EB2, EAT8)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-puretech-eb2"
       ]
     },
     {
@@ -15511,6 +15653,19 @@
     {
       "marka": "Skoda",
       "model": "Kodiaq (2017-)",
+      "motor": "2.0 TSI 180 (EA888 Gen3, 4x4 DSG)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea888-gen3"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Kodiaq (2017-)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
         "baslangic": 2017,
@@ -16144,6 +16299,41 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-1-6-tdi-egr-dpf"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb (III, 2015-2023)",
+      "motor": "2.0 TSI 220/265/280 (EA888 Gen3, DSG, 4x4)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Su pompası ve termostat gövdesi sızıntısı (soğutma suyu eksilmesi)",
+          "etkilenen_parca": "Su pompası ve termostat modülü (plastik gövde, contalar)",
+          "belirtiler": "Soğutma suyu seviyesinin düşmesi, düşük soğutma suyu uyarısı, gövde çevresinde beyaz kalıntı; sızıntı çoğu zaman görünmez",
+          "tahmini_km_araligi": "40.000 - 110.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Briskoda'da Superb III 2.0 TSI 280 sahipleri termostat gövdesi ve su pompası bölgesinden soğutma suyu kaybı bildiriyor; bir sahip 67.000 milde sızıntının gövdeden sürekli damladığını yazıyor. Sızıntının nedeni tartışmalı: termostat gövdesindeki plastik kaynak yerleri ya da gövde-blok contası, pompa-yağ soğutucusu bağlantısındaki O-ring, yanlış soğutma suyu oranı ya da gevşek cıvata torku. VWVortex'te EA888 Gen3 su pompalarının termostat gövdesinin eğilmesi yüzünden arızalandığı yönünde genel görüş aktarılıyor.",
+            "teshis": "Düşük soğutma suyu uyarısı, gövde çevresinde beyaz kalıntı; bir sahip bir yıldan uzun süre haftada yarım litre eksilttiğini yazıyor. Kaçak çoğu zaman görünmez; basınç testi ilk adım olarak öneriliyor.",
+            "cozum": "Gövde-blok contasının ve O-ring'lerin ya da tüm pompa-gövde grubunun değişimi; forumlar çoğunlukla komple grubu öneriyor. Bir sahip contayı değiştirip yaklaşık 1.000 sterline çıktığını ve yeniden bozulabileceğini, başka bir sahip iki garanti değişiminden sonra 11 ayda yeniden sızıntı başladığını yazıyor.",
+            "maliyet": "Bir Superb sahibi yaklaşık 900 sterlinlik onarım bildiriyor (İngiltere, eski); güncel teklif alın.",
+            "onlem": "Soğutma suyu seviyesini sık kontrol edin; ikinci elde bu parçanın değişip değişmediğini sorun. Türkiye'de 2.0 TSI 280 / 265 4x4 DSG Superb satıldı (sifiraracal fiyat sayfaları) ama Türkçe sahip anlatısı bulunamadı. Kilometre aralığı Briskoda'daki tek tek vakalardan ve ailenin aralığından kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://www.briskoda.net/forums/topic/502109-280-losing-coolant/",
+            "https://www.briskoda.net/forums/topic/525923-yet-another-water-pump-leaking/",
+            "https://www.vwvortex.com/threads/so-frustrated-with-vw-coolant-leak-from-faulty-water-pump-thermostat-housing-for-the-3rd-time.9490590/",
+            "https://www.vwvortex.com/threads/apparent-water-pump-failure-but-probably-not.9547077/"
+          ],
+          "aile_sorunu": "vag-ea888-gen3/su-pompasi-termostat"
+        }
+      ],
+      "aileler": [
+        "vag-ea888-gen3"
       ]
     },
     {
@@ -18540,6 +18730,19 @@
     },
     {
       "marka": "Volvo",
+      "model": "S60 II / V60 (2010-2015)",
+      "motor": "D5 2.4 215 (D5244T10)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "volvo-d5244t-2-4d"
+      ]
+    },
+    {
+      "marka": "Volvo",
       "model": "S80 / V70 / XC70 (2007-2016)",
       "motor": "D5 2.4 (D5244T)",
       "uretim_yillari": {
@@ -18567,8 +18770,12 @@
             "https://www.honestjohn.co.uk/forum/post/index.htm?t=35391",
             "https://www.swedespeed.com/threads/2006-volvo-xc70-d5-injector-5-signal-too-high.677572/?tl=fr",
             "https://forum.donanimhaber.com/volvo-s80-d5-hakkinda--124615642"
-          ]
+          ],
+          "aile_sorunu": "volvo-d5244t-2-4d/enjektor"
         }
+      ],
+      "aileler": [
+        "volvo-d5244t-2-4d"
       ]
     },
     {
@@ -18583,6 +18790,19 @@
       "aileler": [
         "ford-dps6-powershift",
         "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (2008-2017)",
+      "motor": "D5 2.4 (D5244T)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "volvo-d5244t-2-4d"
       ]
     },
     {
@@ -18639,6 +18859,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "volvo-phev-hv-batarya"
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC90 (2002-2014)",
+      "motor": "2.4 D5 (D5244T)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "volvo-d5244t-2-4d"
       ]
     },
     {

@@ -7406,18 +7406,17 @@
       "marka": "Volvo",
       "model": "XC60 (2008-2017)",
       "yillar": "2008-2017",
-      "motor": "2.4 D5 / D4 2.0 (Drive-E)",
+      "motor": "2.4 D5 (D5244T)",
       "kademe": 1,
       "eslesme": {
         "model": [
           "XC60 (2008"
         ],
         "motor": [
-          ""
+          "D5 2.4"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Bu oturumdaki aramada DonanımHaber'de 2011 model XC60 D5'te otomatik şanzımanda D'ye alırken sektirme (yağ değişiminin biraz iyileştirdiği) ve 2016 model D4'te yaklaşık 300.000 km'de blok çatlağı gibi tekil anlatılar çıktı; enjektör için kayıt yok. Tekrar eden bir sorun için iki bağımsız site çıkmadı."
+      "not": "Faz 15 (parti 2): yalnızca ortak aile kaydı (Volvo D5244T enjektör arızası). XC60'a özgü enjektör kaynağı çıkmadı; DonanımHaber'de 2011 model D5'te otomatik şanzımanda D'ye alırken sektirme ve 2016 model D4'te blok çatlağı tekil anlatılıyor. D4 (Drive-E) ayrı satırda."
     },
     {
       "marka": "Volvo",
@@ -7440,18 +7439,17 @@
       "marka": "Volvo",
       "model": "XC90 (2002-2014)",
       "yillar": "2002-2014",
-      "motor": "2.4 D5 / 3.2",
+      "motor": "2.4 D5 (D5244T)",
       "kademe": 2,
       "eslesme": {
         "model": [
           "XC90 (2002"
         ],
         "motor": [
-          ""
+          "2.4 D5"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Bu oturumdaki aramada DonanımHaber'de XC90 2.4 D5 için kronik sorunları da kapsayan bir inceleme başlığı ve 2007 model 2.4 D5 sorunları başlığı çıktı; bir kullanıcı T (benzinli) motorların arızalı olduğunu duyduğunu, 2.4 D motorlardan şikâyet duymadığını yazıyor (tekil yorum). Şanzımanda sorunun sık yaşandığı ama tamirden sonra yeniden çıkmadığı yazılıyor; Şikâyetvar'da bir şanzıman arızası, yüksek masraf ve uzun parça bekleme süresi şikâyeti var (tek vaka). 2.4 D5 enjektörü için doğrudan kayıt çıkmadı; kilometre bilgili, ikinci siteyle doğrulanmış sorun oluşmadı."
+      "not": "Faz 15 (parti 2): yalnızca ortak aile kaydı (Volvo D5244T enjektör arızası). DonanımHaber'de XC90 2.4 D5 için kronik sorunları da kapsayan bir inceleme ve 2007 model 2.4 D5 sorunları başlıkları var ama enjektöre özgü kayıt çıkmadı. 3.2 ayrı satırda."
     },
     {
       "marka": "Volvo",
@@ -7474,7 +7472,7 @@
       "marka": "Volvo",
       "model": "S60 II / V60",
       "yillar": "2010-2018",
-      "motor": "D3 / D4 / D5, T4",
+      "motor": "D3 / D4 (2.0), T4",
       "kademe": 1,
       "eslesme": {
         "model": [
@@ -7484,12 +7482,11 @@
         "motor": [
           "D3",
           "D4",
-          "D5",
           "T4"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Bu oturumdaki aramada Türkçe kaynakların çoğu S60'a ait ve en çok tekrarlanan konu D2 Powershift (ayrı kayıtta); V60 ve D3 / D4 / D5 Drive-E için özel veri az. 1.6 T4 EcoBoost için hararet, soğutma suyu eksilmesi ve silindir kapağı contası iddiaları var (Şikâyetvar ve DonanımHaber; 65-70 bin TL'lik blok değişimi teklifi gibi eski tarihli tekil vakalar), ancak kilometre bilgisi ve tekrar örüntüsü doğrulanamadı."
+      "not": "Bu oturumdaki aramada Türkçe kaynakların çoğu S60'a ait ve en çok tekrarlanan konu D2 Powershift (ayrı kayıtta); V60 ve D3 / D4 / D5 Drive-E için özel veri az. 1.6 T4 EcoBoost için hararet, soğutma suyu eksilmesi ve silindir kapağı contası iddiaları var (Şikâyetvar ve DonanımHaber; 65-70 bin TL'lik blok değişimi teklifi gibi eski tarihli tekil vakalar), ancak kilometre bilgisi ve tekrar örüntüsü doğrulanamadı. Faz 15: D5 2.4 (D5244T) ayrı satırda ortak aile kaydıyla eklendi; bu satır D3 / D4 (2.0) ve T4 için '–' kaldı."
     },
     {
       "marka": "Volvo",
@@ -7559,7 +7556,7 @@
           "D5 2.4"
         ]
       },
-      "not": "Faz 15 (parti 1): kayıt açıldı (enjektör arızası). Volvo Owners Club, Honest John, SwedeSpeed ve DonanımHaber enjektör sorunlarını anlatıyor; kilometre aralığı geniş ve kaba tahmindir, bazı kaynaklar 2007 öncesi D5'e aittir (aynı D5244T motoru). D4 (Drive-E) ayrı satırda."
+      "not": "Faz 15 (parti 1): kayıt açıldı (enjektör arızası). Volvo Owners Club, Honest John, SwedeSpeed ve DonanımHaber enjektör sorunlarını anlatıyor; kilometre aralığı geniş ve kaba tahmindir, bazı kaynaklar 2007 öncesi D5'e aittir (aynı D5244T motoru). D4 (Drive-E) ayrı satırda. Faz 15 (parti 2): enjektör sorunu Volvo D5244T ailesine bağlandı; XC60, XC90 ve S60 II / V60 aynı aileyle eklendi."
     },
     {
       "marka": "Land Rover",
@@ -14109,6 +14106,169 @@
       },
       "not": "D4 (Drive-E) için kaynak çıkmadı. D5 2.4 Faz 15'te ayrı satırda kayıtlandı.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (2008-2017)",
+      "yillar": "2013-2017",
+      "motor": "D4 2.0 (Drive-E)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "XC60 (2008"
+        ],
+        "motor": [
+          "D4"
+        ]
+      },
+      "not": "D4 (Drive-E) için kaynak çıkmadı. D5 2.4 Faz 15'te ayrı satırda kayıtlandı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC90 (2002-2014)",
+      "yillar": "2002-2014",
+      "motor": "3.2 benzinli",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "XC90 (2002"
+        ],
+        "motor": [
+          "3.2"
+        ]
+      },
+      "not": "3.2 için kaynak çıkmadı (DonanımHaber'de bir kullanıcı T motorların arızalı olduğunu duyduğunu yazıyor, tekil yorum). 2.4 D5 Faz 15'te ayrı satırda kayıtlandı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volvo",
+      "model": "S60 II / V60",
+      "yillar": "2010-2015",
+      "motor": "D5 2.4 (D5244T10)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "S60 II",
+          "V60"
+        ],
+        "motor": [
+          "D5 2.4"
+        ]
+      },
+      "not": "Faz 15 (parti 2): yalnızca ortak aile kaydı (Volvo D5244T enjektör arızası); S60 / V60'a özgü enjektör kaynağı çıkmadı."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C5 Aircross",
+      "yillar": "2019-",
+      "motor": "1.2 PureTech 130 (EB2, EAT8)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C5 Aircross (2019-)"
+        ],
+        "motor": [
+          "PureTech"
+        ]
+      },
+      "not": "Faz 15 (parti 2): kayıt açıldı. Şikâyetvar'da C5 Aircross triger kayışı başlıkları, Ekşi Sözlük ve DonanımHaber'de 1.2 PureTech konuları var; bir sahip 34.000 km'de kayış değiştirmiş. Kilometre aralığı kaba tahmindir. PureTech ailesine bağlı."
+    },
+    {
+      "marka": "Opel",
+      "model": "Grandland X / Grandland",
+      "yillar": "2017-",
+      "motor": "1.2 Turbo 130 (PureTech, EB2)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Grandland"
+        ],
+        "motor": [
+          "PureTech"
+        ]
+      },
+      "not": "Faz 15 (parti 2): kayıt açıldı. Şikâyetvar'da Grandland X triger / motor kayıtlarında arızalar kabaca 30.000-65.000 km arasında; Ekşi Sözlük ve DonanımHaber'de 1.2 PureTech konuları var. PureTech ailesine bağlı."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "208 / 2008",
+      "yillar": "2019-",
+      "motor": "1.2 PureTech 100/130 (EB2)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "208 / 2008 (II"
+        ],
+        "motor": [
+          "PureTech"
+        ]
+      },
+      "not": "Faz 15 (parti 2): yalnızca ortak aile kaydı. Şikâyetvar'da 2021 model bir 208'de kayış çatlağı anlatılıyor (kilometre yok) ve ikinci nesil motorlarda segmanların güncellendiği, yağ tüketiminin azaldığı yazılıyor (kullanıcı görüşü); nesle özgü kilometreli ve iki siteli bir vaka çıkmadı. 2008 II 1.2 PureTech 130 EAT8 güncel Türkiye listesinde var."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "308",
+      "yillar": "2021-",
+      "motor": "1.2 PureTech 130 (EB2, EAT8)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "308 (III"
+        ],
+        "motor": [
+          "PureTech"
+        ]
+      },
+      "not": "Faz 15 (parti 2): yalnızca ortak aile kaydı. Şikâyetvar'da 308 için triger kayışı ve yağ basıncı uyarısı başlıkları var ama nesil (T9 / III) ayrılamadı. Türkiye'de 1.2 PureTech 130 EAT8 2022 lansmanında satıldı (DonanımHaber fiyat haberi), sonraki listede yalnızca 1.5 BlueHDi var."
+    },
+    {
+      "marka": "Peugeot",
+      "model": "3008",
+      "yillar": "2016-",
+      "motor": "1.2 PureTech 130 (EB2, EAT6 / EAT8)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "3008 (II"
+        ],
+        "motor": [
+          "PureTech"
+        ]
+      },
+      "not": "Faz 15 (parti 2): yalnızca ortak aile kaydı. 3008'e özgü kaynak çıkmadı; sonuçlar 308 / 2008 / 408 kullanıcılarına ait. 3008 Active 1.2 PureTech 130 EAT8 Türkiye'de satıldı (sifiraracal), üretimi durdurulmuş. 5008 II bu kayda dahil değildir."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Superb III",
+      "yillar": "2015-2023",
+      "motor": "2.0 TSI 220/265/280 (EA888 Gen3, DSG, 4x4)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Superb (III"
+        ],
+        "motor": [
+          "2.0 TSI"
+        ]
+      },
+      "not": "Faz 15 (parti 2): kayıt açıldı. Briskoda'da Superb III 2.0 TSI 280 sahipleri su pompası / termostat gövdesi sızıntısı bildiriyor, VWVortex EA888 Gen3 için aynı sorunu anlatıyor; Türkçe sahip anlatısı bulunamadı. Türkiye'de 2.0 TSI 280 PS ve 265 PS 4x4 DSG Superb satıldı (sifiraracal fiyat sayfaları)."
+    },
+    {
+      "marka": "Skoda",
+      "model": "Kodiaq",
+      "yillar": "2017-",
+      "motor": "2.0 TSI 180 (EA888 Gen3, 4x4 DSG)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Kodiaq (2017-)"
+        ],
+        "motor": [
+          "2.0 TSI"
+        ]
+      },
+      "not": "Faz 15 (parti 2): yalnızca ortak aile kaydı. Briskoda'da bir Kodiaq sahibi termostat gövdesinden sızıntı (plastik gövdenin eğilmesi) anlatıyor; modele özgü ikinci site çıkmadı. Türkiye lansman verisinde 2.0 TSI 180 PS / 320 Nm geçiyor (DonanımHaber, Otopark); güncel listede 180 PS yok, yalnızca RS."
     }
   ]
 }

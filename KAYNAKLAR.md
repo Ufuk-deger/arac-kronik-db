@@ -42,17 +42,17 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 90 farklı site, 362 sorun için kullanıldı.
+Toplam 90 farklı site, 365 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 341 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
-| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 323 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
+| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 344 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
+| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 325 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
 | [Araclo](https://www.araclo.com/) | TR | düşük | 143 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
 | [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 138 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
-| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 97 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
+| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 99 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
 | [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 84 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. |
 | [Autopartia](https://autopartia.com/) | TR | düşük | 10 | Yedek parça satıcısı; motor bazlı blog ve 'uzman' sayfaları. Ticari site, belirli bir OEM parçayı sürekli öneriyor; tek başına yeterli sayılmaz. |
 | [Carsece](https://www.carsece.com/) | TR | düşük | 10 | Araç rehberi ve bakım blogu. Maliyet tahminlerinin kaynağını göstermiyor; tek başına yeterli sayılmaz. |
@@ -81,30 +81,30 @@ Toplam 90 farklı site, 362 sorun için kullanıldı.
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
-| [Honest John](https://www.honestjohn.co.uk/) | UK | orta | 35 | Forum ve editör yanıtları ('Ask HJ'). Forum yazıları çoğunlukla 10 yıldan eski olabiliyor. |
+| [Honest John](https://www.honestjohn.co.uk/) | UK | orta | 36 | Forum ve editör yanıtları ('Ask HJ'). Forum yazıları çoğunlukla 10 yıldan eski olabiliyor. |
 | [Fiat Forum](https://www.fiatforum.com/) | UK | orta | 20 | Fiat sahipleri forumu (Dualogic, Multijet, Tipo). |
 | [French Car Forum](https://www.frenchcarforum.co.uk/) | UK | orta | 17 | Peugeot, Citroën ve Renault forumu. |
 | [Bimmerpost](https://f30.bimmerpost.com/) | US | orta | 16 | BMW F30 ve diğer kasa forumları. |
 | [Ford Owners Club](https://www.fordownersclub.com/) | UK | orta | 16 | Ford sahipleri forumu (Focus, Fiesta, EcoBoost). |
-| [BRISKODA](https://www.briskoda.net/forums/) | UK | orta | 14 | Škoda sahipleri forumu. |
+| [BRISKODA](https://www.briskoda.net/forums/) | UK | orta | 15 | Škoda sahipleri forumu. |
+| [VWVortex](https://www.vwvortex.com/) | US | orta | 13 | Volkswagen forumu. |
 | [Vauxhall Owners Network](https://www.vauxhallownersnetwork.co.uk/) | UK | orta | 13 | Vauxhall/Opel sahipleri forumu. |
-| [VWVortex](https://www.vwvortex.com/) | US | orta | 12 | Volkswagen forumu. |
 | [AudiWorld](https://www.audiworld.com/) | US | orta | 10 | Audi forumu ve rehber yazıları. |
 | [MBWorld](https://mbworld.org/) | US | orta | 9 | Mercedes-Benz forumu. |
 | [MB Club UK](https://forums.mbclub.co.uk/) | UK | orta | 8 | Mercedes-Benz sahipleri forumu. |
 | [Astra Owners Network](https://www.astraownersnetwork.co.uk/) | UK | orta | 7 | Opel/Vauxhall Astra forumu. |
 | [BenzWorld](https://www.benzworld.org/) | US | orta | 6 | Mercedes-Benz forumu. |
+| [SwedeSpeed](https://www.swedespeed.com/) | US | orta | 6 | Volvo ve Saab sahipleri forumu (XC60, S60, V60 başlıkları). |
 | [Toyota Owners Club](https://toyotaownersclub.com/) | UK | orta | 6 | Toyota sahipleri forumu (Auris/Corolla D-4D). |
 | [Audizine](https://www.audizine.com/) | US | orta | 5 | Audi forumu. |
 | [CivicX](https://www.civicx.com/) | US | orta | 5 | Honda Civic (10. nesil) forumu. |
 | [Nissan QashQai Forums](https://www.qashqaiforums.co.uk/) | UK | orta | 5 | Nissan Qashqai sahipleri forumu. |
-| [SwedeSpeed](https://www.swedespeed.com/) | US | orta | 5 | Volvo ve Saab sahipleri forumu (XC60, S60, V60 başlıkları). |
 | [Berlingo Forum](https://www.berlingoforum.com/) | UK | orta | 4 | Citroën Berlingo ve PSA dizel (HDi) forumu. |
 | [CruzeTalk](https://www.cruzetalk.com/) | US | orta | 4 | Chevrolet Cruze forumu. Konular çoğunlukla ABD'deki 1.4T ve 1.8 motorlar için. |
 | [SpeakEV](https://www.speakev.com/) | UK | orta | 4 | İngiltere merkezli elektrikli araç sahibi forumu; Zoe, Peugeot e-208, BYD gibi modellerde 12V akü, şarj ve tahrik arızası konuları. |
+| [Volvo Owners Club Forum](https://www.volvoforums.org.uk/) | UK | orta | 4 | Volvo Owners Club forumu; XC60 / S60 / V60 teknik başlıkları. |
 | [German Car Forum](https://www.germancarforum.com/) | Global | orta | 3 | Alman markaları forumu. |
 | [Planète Renault](https://www.planeterenault.com/forum/) | FR | orta | 3 | Fransızca Renault forumu. K9K yatak sorunu için moderatör yazısı bu sitede. |
-| [Volvo Owners Club Forum](https://www.volvoforums.org.uk/) | UK | orta | 3 | Volvo Owners Club forumu; XC60 / S60 / V60 teknik başlıkları. |
 | [E90Post](https://www.e90post.com/) | US | orta | 2 | BMW 3 Serisi E90/E92 forumu. |
 | [Forum Peugeot](https://www.forum-peugeot.com/) | FR | orta | 2 | Fransızca Peugeot forumu. |
 | [8thCivic](https://www.8thcivic.com/) | US | orta | 1 | Honda Civic (8. nesil, FD) forumu. |
