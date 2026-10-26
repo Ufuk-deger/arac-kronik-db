@@ -762,6 +762,14 @@
       "guven": "düşük",
       "ana_sayfa": "https://car-recalls.eu/",
       "not": "Avrupa geri çağırma ve Safety Gate (Rapex) uyarılarını araç bazında derleyen site; resmî veritabanıyla karşılaştırılmadı."
+    },
+    "recharged.com": {
+      "ad": "Recharged",
+      "ulke": "US",
+      "tur": "editoryal",
+      "guven": "düşük",
+      "ana_sayfa": "https://recharged.com/",
+      "not": "Elektrikli araç ikinci el alım rehberleri ve model yazıları."
     }
   }
 }

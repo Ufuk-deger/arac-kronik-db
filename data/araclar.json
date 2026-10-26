@@ -5127,6 +5127,33 @@
     {
       "marka": "BMW",
       "model": "X1 (E84, 2009-2015)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "İç kapı kollarının kaplamasında erime, yapışkanlaşma ve dökülme",
+          "etkilenen_parca": "İç kapı kolu (yumuşak dokunuşlu kaplama)",
+          "belirtiler": "İç kapı kolu üst kaplamasının yapışkan, gummy bir kalıntıya dönüşmesi; kaplamanın bir kısmı eriyince altındaki düz sert plastik yüzeyin görünmesi (2013 model E84 sahibi).",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "BimmerPost'un E84 forumunda 2013 model bir X1 sahibi iç kapı kolunun üst katmanının yapışkanlaştığını, bir kısmının tamamen eriyip düz bir yüzeyi açıkta bıraktığını yazıyor; konudaki yanıtlarda yumuşak dokunuşlu (soft-touch) kaplamanın bozulması nedeni olarak gösteriliyor (cilt yağı, ter, el kremi, güneş kremi, temizleyiciler, ısı ve UV), buna katılmayanlar da var. Şikâyetvar'da BMW X1 kapı kolu sayfasında ve BMW kapı kolu tutamakları başlığında aynı kaplama şikâyetleri tekrar ediyor (Şikâyetvar X1 sayfası nesli ayırmıyor).",
+            "cozum": "BimmerPost'ta BMW iç kapı kolu başlıklarında yedek kol değişimi en yaygın yanıt; ucuz sert plastik kollar ve geçmeli kapaklar kullanılıyor, orijinal yedeklerin aynı yumuşak dokunuşlu malzemeden olduğu ve sorunun geri gelebildiği, alkolle silmenin yalnızca geçici temizlik sağladığı belirtiliyor.",
+            "maliyet": "E84 için güncel rakam bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw/x1/kapi-kolu",
+            "https://www.sikayetvar.com/bmw/bmw-kapi-kol-tutamaclari",
+            "https://e84.bimmerpost.com/forums/showthread/1758376/2013-bmw-x1-interior-door-handle"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X1 (E84, 2009-2015)",
       "motor": "sDrive18d / xDrive18d / xDrive20d 2.0 dizel (N47)",
       "uretim_yillari": {
         "baslangic": 2009,
@@ -6138,6 +6165,55 @@
     },
     {
       "marka": "Cupra",
+      "model": "Formentor (2020-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Tavan (sunroof) dokunmatik panelinin ve tavan ışık tuşlarının tepki vermemesi",
+          "etkilenen_parca": "Tavan konsolundaki dokunmatik sunroof / aydınlatma paneli, sunroof perdesi ve yazılımı",
+          "belirtiler": "Sunroof açma-kapama ve tavan ışık dokunmatik tuşlarının dokunuşu algılamaması (perde çalışırken), sıcak havada hareketin istenen hızda algılanmaması, sunroof perdesinin takılıp kalması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da birçok Formentor sahibi sunroof ve tavan dokunmatik panelinin çalışmadığını yazıyor; bir sahip tavan ışıkları ve sunroof açma panelinin dokunmatiklerinin çalışmamasını Formentor'un kronik arızası olarak tanımlıyor. DonanımHaber ve Ekşi Sözlük Formentor başlıklarında sahipler panelin dokunuşu hiç algılamadığını (perde çalışırken), tuşları kolonyalı mendille silince daha iyi algıladığını, sıcak havada özellikle sunroof tuşlarının hareketi algılamadığını, bir sahipte perdenin takılıp kaldığını ve sorunun yeni bir yazılım güncellemesindeki hatadan kaynaklandığını (serviste yazılım güncellenince düzeldiğini) yazıyor; bir sahip tavan sorununu videoya çekince aracın komple değiştirildiğini aktarıyor.",
+            "teshis": "Panel yumuşak bezle temizlenir; araç kapatılıp açılır ya da kilitlenip açılır; yazılım sürümü yetkili serviste sorulur; sorun tekrarlarsa km ve plaka görünecek şekilde video kaydedilir (forum önerileri).",
+            "cozum": "Forumlarda yazılım güncellemesi ve kalibrasyon bazı araçlarda sorunu gideriyor; panelin değişimi yapılmış; bir sahipte farklı bir yerden gelen parça ve yazılımla perde sorunu düzelmiş.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Test sürüşünde tavan tuşlarını farklı sıcaklıklarda deneyin; sorunu garanti süresinde video ile belgeleyip yazılı kayda geçirtin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/cupra/formentor/formentor-kronik",
+            "https://www.sikayetvar.com/cupra/formentor/formentor-ariza",
+            "https://forum.donanimhaber.com/cupra-formentor-ana-konu--154108882-86",
+            "https://forum.donanimhaber.com/cupra-formentor-ana-konu--154108882-73",
+            "https://eksisozluk.com/cupra-formentor--5969524?p=7"
+          ]
+        },
+        {
+          "sorun_adi": "Multimedya ekranının donması, yanıp sönmesi ve kendiliğinden kapanıp açılması",
+          "etkilenen_parca": "Multimedya ekranı ve yazılımı",
+          "belirtiler": "Ekranın donması, tamamen kapanmadan sürekli yanıp sönmesi ya da kendiliğinden kapanıp açılması; kameraların kapanmaması; yazılım güncellemesinden sonra sorunun tekrar etmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da Formentor sahipleri (1.5 TSI ve VZ Line hibrit dahil) multimedya ekranının donduğunu, yanıp sönmeye başladığını ve kendiliğinden kapanıp açıldığını yazıyor; bir sahip ilk serviste güncelleme yapıldığını ve arızanın tekrar ettiğini, başka bir şikâyette bayinin yazılım güncellemesi geleceğini ve tüm Formentor'larda bu şikâyetin olduğunu söylediği aktarılıyor; bir sahip kronik sorunlar yüzünden aracını 15 bin km'de sattığını belirtiyor. DonanımHaber Formentor ana konusunda sahipler ekran donması için kesin çözüm bulunmadığını, sunroof düğmeleri ve diğer sorunların aracı resetleyince geçtiğini, yazılım güncellemeleriyle giderilmesinin beklendiğini ve aracın birçok yazılım hatası olduğunu yazıyor.",
+            "teshis": "Aracı kapatıp açmak ya da kilitleyip açmak geçici çözüm; yazılım sürümü yetkili serviste sorulur.",
+            "cozum": "Yazılım güncellemesi bazı araçlarda sorunu gideriyor, bazılarında tekrarlıyor; DonanımHaber'de bir sahip yazılım yükseltmesinden sonra fabrika ayarlarına dönmenin faydalı olduğunu yazıyor.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Satın almadan önce ekranın uzun süre kapanmadan ve donmadan çalıştığını kontrol edin; yazılım sürümünü ve servis kaydını sorun."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/cupra/formentor/formentor-ariza",
+            "https://www.sikayetvar.com/cupra/0-cupra-formentor-multimedya-sorunu-video",
+            "https://forum.donanimhaber.com/cupra-formentor-ana-konu--154108882"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Cupra",
       "model": "Leon (2020-)",
       "motor": "1.5 eTSI 150 (EA211 evo, 48V hafif hibrit, DSG)",
       "uretim_yillari": {
@@ -6708,6 +6784,53 @@
       "kronik_sorunlar": [],
       "aileler": [
         "fiat-1-3-multijet"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "500L (2013-2022)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2013,
+        "bitis": 2022
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Arka dingilde (aks) çatlak",
+          "etkilenen_parca": "Arka dingil (aks) gövdesi ve kaynak dikişleri",
+          "belirtiler": "Periyodik bakımda ya da satın alma ekspertizinde arka dingilde çatlak bulunması (bir sahipte dört yerde), seyir halinde savrulma hissi, kaynakla yapılan geçici onarımın yeniden çatlaması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar'da 2013 model 500L sahipleri dingil çatlamasının kronik olduğunu ve yetkili servisin bunu söylemediğini yazıyor; bir sahip periyodik bakımda arka dingilde dört yerde çatlak bulunduğunu, bir başkası satın alma ekspertizinde 'dingilde çatlaklar var, acil onarılması gerekir' notu düştüğünü, bir diğeri çatlak nedeniyle seyir halinde savrulma hissi yaşadığını, bir başkası kaynakla yaptırdığı geçici onarımın tekrar gerektiğini anlatıyor. DonanımHaber'deki 'Fiat 500l aracımda dingil çatlaması yardım' başlığında 2014 model bir araçta dingil başlarında birden fazla çatlak olduğu ve bilirkişiye gidilirse üretim hatası çıkabileceği yorumu var (kullanıcı görüşü). Şikâyetler ağırlıkla 2013-2015 model yıllarında.",
+            "teshis": "Sahipler çatlağı periyodik bakımda ve ekspertizde fark ettiğini yazıyor; bu nedenle ikinci elde arka dingilin lifte alınıp çatlak açısından kontrol edilmesi önemli.",
+            "cozum": "Kaynaklarda kaynakla geçici onarım (çatlak tekrarlayabiliyor) ve dingil parçasının değişimi geçiyor. Fiat'ın resmi bir servis kampanyası ya da geri çağırması bu aramada bulunamadı.",
+            "maliyet": "Şikâyetvar'da bir sahip arka aks parçası için yaklaşık 145.000 TL fiyat teklif edildiğini yazıyor (tek vaka, tarihi belirsiz).",
+            "onlem": "İkinci el 500L'de (özellikle 2013-2015) arka dingili bağımsız ekspertizde lifte kontrol ettirin; çatlak varsa güvenlik riski ve pazarlık konusu olarak değerlendirin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/fiat-500-l-dingil-catlagi",
+            "https://www.sikayetvar.com/fiat/500-ailesi/kronik",
+            "https://forum.donanimhaber.com/fiat-500l-aracimda-dingil-catlamasi-yardim--139640269"
+          ]
+        },
+        {
+          "sorun_adi": "Direksiyonun takılması ve yüksek hızda geri çekmesi (direksiyon kutusu / kovanı değişimi)",
+          "etkilenen_parca": "Direksiyon kutusu ve direksiyon kovanı",
+          "belirtiler": "Yüksek hızda (bazı sahiplerde 80-100 km/s üzerinde) direksiyonun takılması ve sanki mıknatıs çekiyormuş gibi geri çekmesi, bazı araçlarda düşük hızda da görülmesi; direksiyon kutusundan ses.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'daki Fiat 500 ailesi direksiyon ve kronik sayfalarında 500L sahipleri (2013, 2014 ve 2020 model) direksiyonun düşük ve yüksek hızda takıldığını ya da geri çektiğini yazıyor; 2014 model bir sahibe direksiyon kovanının değişmesi gerektiği söylenmiş, kendisi bunun fabrika hatası olduğundan şüpheleniyor; bir sahip sorunun özellikle 2013 model 500L'lerde kronik olduğunu belirtiyor. DonanımHaber 500L kullanıcı başlığında bir sahip gürültü sonrası direksiyon kutusunun değiştirildiğini, bir başkası 100 km/s üzerinde benzer takılma hissini yazıyor.",
+            "teshis": "Kaynaklarda net bir teşhis yöntemi yok; sorun hız arttıkça ortaya çıkıyor ve test sürüşünde fark edilebiliyor.",
+            "cozum": "Bazı sahipler direksiyon kutusunu / kovanını değiştirmiş; bunun sorunu kalıcı giderip gidermediği kaynaklarda doğrulanmıyor. Bir DonanımHaber yorumcusu kovanın garanti kapsamında değişmesi gerektiğini savunuyor.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Test sürüşünde 80-120 km/s aralığında direksiyonun takılıp takılmadığını deneyin; garanti süresinde yazılı kayda geçirtin. Şikâyetvar 'Fiat 500 ailesi' sayfaları 500, 500L ve 500X'i birlikte listelediği için yalnızca 500L sahiplerinin anlatıları esas alındı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/500-ailesi/direksiyon",
+            "https://www.sikayetvar.com/fiat/500-ailesi/kronik",
+            "https://forum.donanimhaber.com/fiat-500l-kullanicilari-bilgi-paylasim-basligi--77314625-299"
+          ]
+        }
       ]
     },
     {
@@ -8971,6 +9094,34 @@
     },
     {
       "marka": "Hyundai",
+      "model": "Ioniq 5 / Ioniq 6 (2022-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Otoyol hızlarında direksiyon ve gövde titremesi",
+          "etkilenen_parca": "Direksiyon, tekerlek ve aks grubu (kaynaklarda kesin parça belirtilmemiş)",
+          "belirtiler": "100-120 km/s civarında direksiyonda titreme; balans ve lastik kontrolünün sorunu çözmemesi; ABD'de bazı sahiplerde 65-75 mph'de hafif sarsıntı (bayiler 'araç karakteristiği' demiş).",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da birden fazla Ioniq 5 sahibi 100 km/s'den itibaren başlayan (bir başvuruda 110-120 km/s'de belirginleşen) direksiyon titremesini, balans ve lastik kontrolünün çözmediğini yazıyor; bazıları bunu modelde kronik olarak tanımlıyor. Recharged, azınlık bir Ioniq 5 sahibi grubunun 65-75 mph (yaklaşık 105-120 km/s) aralığında hafif titreme bildirdiğini, bazı bayilerin bunu aracın karakteristiği saydığını ve satın almadan önce otoyol hızında test sürüşü önerdiğini yazıyor.",
+            "teshis": "Otoyol hızında test sürüşü; balans ve lastik kontrolü (sahipler bunun sorunu çözmediğini yazıyor).",
+            "cozum": "Kaynaklarda kalıcı bir çözüm ya da servis bülteni belirtilmiyor.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Satın almadan önce 100-120 km/s'de test sürüşü yapın. Recharged yazısı ABD pazarındaki araçlara ait; Türkiye araçlarıyla aynı olduğu doğrulanamadı. Ioniq 6 için ayrı kayıt bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-motor-ioniq-5-direksiyon-titreme-sorunu-video",
+            "https://recharged.com/articles/hyundai-ioniq-5-highway-noise-level/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "Kona (OS, 2017-2023)",
       "motor": "1.6 CRDi 115/136 (7DCT)",
       "uretim_yillari": {
@@ -10301,6 +10452,35 @@
       "kronik_sorunlar": [],
       "aileler": [
         "hyundai-kia-7dct"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "XCeed (2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Tavan (cam tavan) bölgesi ve iç trimden gıcırtı ve tıkırtı sesleri",
+          "etkilenen_parca": "Cam tavan çerçevesi, tavan kaplaması ve iç trim parçaları",
+          "belirtiler": "Tavan bölgesinden trim ve gıcırtı sesi (bazı araçlarda 11 bin km gibi düşük kilometrede başlıyor), cam tavandan rüzgâr sesi, iç trim tıkırtıları.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'daki XCeed başvurularında en sık geçen konu tavan (sunroof) bölgesinden gelen trim ve gıcırtı sesleri; bir sahip 11 bin km'deki araçta yaklaşık 1000 km'dir bu sesle uğraştığını yazıyor. DonanımHaber'deki 'Kia Xceed Yorumları' başlığında bir sahip aracın kronik trim seslerinden şikâyet ediyor ve eski bir Ceed'de de sunroof sesinin sorun olduğunu belirtiyor.",
+            "teshis": "Sesin hangi koşulda (kasis, viraj, soğuk, sıcak) çıktığı not edilerek yetkili servise gösterilir; kaynaklarda kesin neden verilmiyor.",
+            "cozum": "Kaynaklarda kalıcı bir çözüm belirtilmiyor; Şikâyetvar'da sesin servise rağmen sürdüğü ve garanti kapsamının belirsiz kaldığı başvurular var.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Satın almadan önce kasisli yolda ve yüksek hızda tavan çevresini dinleyin; sesi garanti süresi içinde yazılı kayda geçirtin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/kia/xceed",
+            "https://www.sikayetvar.com/kia/xceed/ariza",
+            "https://forum.donanimhaber.com/kia-xceed-alinir-mi--154000384-4"
+          ]
+        }
       ]
     },
     {
@@ -11982,6 +12162,36 @@
     },
     {
       "marka": "Nissan",
+      "model": "Qashqai (J12, 2021-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Ön ve arka park sensörlerinin geç devreye girmesi ya da çalışmaması (yazılım güncellemesi bekleniyor)",
+          "etkilenen_parca": "Park mesafe sensörleri ve kontrol yazılımı",
+          "belirtiler": "Park sensörlerinin ötmesi gereken yerde tepki vermemesi, ön sensörün yalnızca vites R konumuna alınınca çalışması, sensörlerin geç ya da hiç devreye girmemesi; yetkili servislerin bunu genel bir durum olarak tanımlaması ve yazılım güncellemesinin beklenmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'daki J12 sayfalarında en sık geçen sorun park sensörleri: sahipler sensörlerin geç devreye girdiğini ya da hiç çalışmadığını, bir sahip yetkili servislerin bunu genel bir durum olarak tanımladığını, birçok araçta yazılım güncellemesi beklendiğini ama zamanının belli olmadığını yazıyor. DonanımHaber'deki 'Qashqai J12 hafif hibrit kullanıcıları' başlığında bir sahip önden park sensörlerinin düzgün çalışmamasını temel sorunlar arasında sayıyor ve NissanConnect SIM kartları kapalı geldiği için araçta sistem güncellemesinin nereden yapılacağını soruyor; Şikâyetvar'da bir 2025 model sahibi de NissanConnect Services'in Türkiye'de devre dışı olduğunu belirtiyor.",
+            "teshis": "Kaynaklarda J12'ye özgü bir teşhis yöntemi yok; sahipler yetkili servisin sorunu genel bir durum olarak tanımladığını yazıyor.",
+            "cozum": "Kaynaklarda yazılım güncellemesi bekleniyor, zamanı belirsiz; NissanConnect SIM kartları kapalı olduğu için aracın kendi kendine güncellenemediği yazılıyor.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Test sürüşünde ön ve arka park sensörlerinin zamanında ötüp ötmediğini deneyin; yazılım sürümünü ve güncelleme planını yetkili servisten sorun."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/qashqai/park-sensoru",
+            "https://www.sikayetvar.com/nissan/qashqai/j12-qashqai",
+            "https://www.sikayetvar.com/nissan/qashqai/yazilim",
+            "https://forum.donanimhaber.com/2021-qashqai-j12-hafif-hibrit-kullanicilari--155195498"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Nissan",
       "model": "X-Trail (T31, 2007-2014)",
       "motor": "2.0 dCi (M9R)",
       "uretim_yillari": {
@@ -13446,6 +13656,36 @@
     },
     {
       "marka": "Peugeot",
+      "model": "208 / 2008 (II, 2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Multimedya ekranının donması, kendiliğinden kapanıp açılması ve dokunmatik tuşların yanıt vermemesi",
+          "etkilenen_parca": "Merkez dokunmatik multimedya ekranı ve yazılımı (i-Cockpit)",
+          "belirtiler": "Ekranın seyir halinde kendiliğinden kapanıp açılması ya da donması, sabah çalıştırınca radyo çalarken görüntünün gelmemesi, sürüş sırasında dokunmatik tuşların yanıt vermemesi, uygulama simgelerinin bozulması ve Android Auto bağlantısının sık kopması; sorunun yazılım güncellemesinden sonra da sürmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2021 model 208 sahipleri ekranın sürekli açılıp kapandığını yazıyor; bir sahip sıfır aracını ekran hatası için 4 kez servise bıraktığını, 3 güncelleme ve bir ekran değişimine rağmen sorunun sürdüğünü anlatıyor. DonanımHaber'deki 'Yeni Peugeot 208 Multimedya Sorunu' ve 2008 (2020) başlıklarında sahipler ekranın donduğunu, kendiliğinden düzelip yine dondurduğunu, 2020 model bir 2008'de sabah ekranın hiç gelmediğini (servisin ekranın değişeceğini söylediğini) ve bir 2022 modelde sürüş sırasında dokunmatik tuşların yanıt vermediğini yazıyor.",
+            "teshis": "MyPeugeot uygulamasında Araç > Araç dokunmatik ekranı menüsünden ekran yazılımı güncellemesi olup olmadığı kontrol edilir (DonanımHaber'de bir moderatörün önerisi). Aşırı güneşte kalan araçta ekran korumasının ekranı kendiliğinden kapatabildiği de aynı başlıkta belirtiliyor.",
+            "cozum": "Yazılım güncellemesi bazı araçlarda sorunu gideriyor, bazılarında gidermiyor (Şikâyetvar'daki sahipte üç güncelleme ve bir ekran değişiminden sonra da sürmüş). DonanımHaber'de bir sahip serviste ekranın değiştirileceğinin söylendiğini yazıyor.",
+            "maliyet": "Güncel rakam bulunamadı; Şikâyetvar başvurularında yazılım güncellemesi ve ekran değişiminin garanti kapsamında yapıldığı anlatılıyor.",
+            "onlem": "Satın almadan önce ekranın yeterince uzun süre kapanmadan çalıştığını, dokunmatik tuşların yanıt verdiğini ve yazılım sürümünün güncel olduğunu kontrol edin. Aynı ekran şikâyeti 308 (III) için de Şikâyetvar'da tekrar ediyor ama o model için ikinci site kaydı çıkmadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/208/ekran",
+            "https://www.sikayetvar.com/peugeot/peugeot-208-ekran-acilip-kapaniyor",
+            "https://forum.donanimhaber.com/yeni-peugeot-208-multimedya-sorunu--160126690",
+            "https://forum.donanimhaber.com/2020-model-2008-peugeot-gosterge-ekran-sorunu--150427411"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "208 / 2008 / 308 / 3008 (2012-2021)",
       "motor": "1.6 e-HDi / BlueHDi 92/100/120 (DV6)",
       "uretim_yillari": {
@@ -14029,6 +14269,52 @@
       "kronik_sorunlar": [],
       "aileler": [
         "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "408 (2022-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Sunroof'un tam kapanmaması, perdenin raydan çıkması ya da kırılması ve garanti tartışması",
+          "etkilenen_parca": "Sunroof (cam tavan) mekanizması ve güneşlik perdesi",
+          "belirtiler": "Sunroof'un hiç kapanmaması ya da yarım ve yamuk kapanması, az kullanılmasına rağmen tam kapanmaması, perdenin zorlanmadan kapatırken yerinden çıkması ya da otomatik çekilirken kırılması; arızanın 'kullanıcı hatası' denip garanti dışı bırakılması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da bir 408 sahibi 2024 model sıfır aracında 3.500 km'de sunroof'un hiç kapanmadığını, kapandığında yamuk kaldığını ve servisle genel merkezin bunu kullanıcı hatası saydığını yazıyor; başka bir sahip sunroof'u yalnızca 2-3 kez kullandığı halde tam kapanmadığını, bir diğeri perdenin zorlanmadan kapatırken yerinden çıktığını anlatıyor. DonanımHaber'de 'Peugeot 408 GT Sunroof ve Kapıdan Su Alma Sorunu' başlıklı bir sahip başlığı var.",
+            "cozum": "Kaynaklarda kalıcı çözüm yok; Şikâyetvar başvurularında en sık geçen konu garanti kapsamının reddedilmesi ve yetkili servisten gecikmeli dönüş (bir sahipte 20 gün).",
+            "maliyet": "Güncel rakam bulunamadı; Şikâyetvar'daki bir Peugeot cam tavan perdesi başvurusunda perde için 51.000 TL istendiği yazılıyor (tek vaka; aracın 408 olduğu doğrulanamadı).",
+            "onlem": "Satın almadan önce sunroof'u açıp kapatarak ve perdeyi çekerek deneyin, kapanma konumunu ve perdenin rayını kontrol edin; garanti durumunu yazılı olarak sorun."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/sifir-peugeot-408-sunroof-arizasi-kullanici-hatasi-denildi",
+            "https://www.sikayetvar.com/peugeot/408/ariza",
+            "https://forum.donanimhaber.com/peugeot-408-gt-sunroof-ve-kapidan-su-alma-sorunu--158679389"
+          ]
+        },
+        {
+          "sorun_adi": "Tabela okuma (trafik işareti tanıma) arızası uyarısının sürekli yanması",
+          "etkilenen_parca": "Ön kamera ve trafik işareti tanıma sistemi",
+          "belirtiler": "Göstergede sarı tabela okuma arızası işaretinin sürekli yanması (yeni araçta ilk günlerde ya da kısa süre sonra), ön kamera temiz olduğu ve tanılamada arıza çıkmadığı halde uyarının sürmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da birden fazla 408 sahibi (2025 model dahil) uyarının yeni araçta ilk günden ya da kısa süre sonra geldiğini yazıyor; bir sahip ön kameraya toz birikince uyarının geldiğini ve temizlemenin işe yaradığını, bir başkası saat dilimini değiştirmenin düzelttiğini söylüyor (tek kullanıcı anlatıları). DonanımHaber'deki 408 başlığında 2024 model Allure sahibi sarı tabela okuma işaretinin sürekli yandığını, bir başka sahip kamera temiz olduğu ve tanılamada arıza çıkmadığı halde uyarının sürdüğünü yazıyor.",
+            "teshis": "Önce ön kamera çevresi ve cam temizlenir; servis tanılama (hata kodu) okutur. Bir DonanımHaber yorumcusu sarı işaretin navigasyon haritası güncellemesiyle ilgili olabileceğini tahmin ediyor (doğrulanmamış).",
+            "cozum": "Kaynaklarda kalıcı çözüm belirtilmiyor: Şikâyetvar'da bir sahipte servis önce yazılım hatası deyip aküyü değiştirmiş, sorun sürmüş; kamera temizliği ve saat dilimi ayarı tek kullanıcı anlatısı.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Teslim alırken ve ikinci elde göstergede tabela okuma uyarısını kontrol edin; garanti süresinde yazılı arıza kaydı açtırın. Peugeot'nun resmi bir açıklaması ya da servis bülteni bu aramada bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-408-araclarda-surekli-tabela-okuma-arizasi",
+            "https://www.sikayetvar.com/peugeot/408/tabela-okuma-hatasi",
+            "https://forum.donanimhaber.com/peugeot-408--155274409-57"
+          ]
+        }
       ]
     },
     {
@@ -15549,6 +15835,36 @@
     },
     {
       "marka": "Seat",
+      "model": "Leon (KL, 2020-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2020,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "SOS (acil çağrı) sistemi arıza uyarısı ve hoparlörden aralıklı ses",
+          "etkilenen_parca": "Acil çağrı (SOS / eCall) modülü ve yazılımı",
+          "belirtiler": "Göstergede 'acil durum arama fonksiyonu hatası, servise gidin' ya da SOS arıza uyarısı, her çalıştırmada sesli uyarı, hoparlörden aralıklı 'pıt pıt' sesi; bazı araçlarda bayiden alındıktan yaklaşık 100 km sonra başlıyor, bazılarında uyarı kendiliğinden geçiyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2021 model Leon MK4 1.5 TSI sahipleri (biri ikinci el aldığı araçta 35.000 km'de) SOS arızasının kronikleştiğini ve her çalıştırmada sesli uyarı verdiğini, bir başkası aracı bayiden aldıktan yaklaşık 100 km sonra SOS arızasının yandığını, bir diğeri garantisi bitince değişimin ücretli olacağının söylendiğini yazıyor. DonanımHaber MK4 ana konusunda bir sahip hoparlörden aralıklı 'pıt pıt' sesi ve ekranda acil durum arama fonksiyonu hatası bildiriyor; başka bir sahip 1.5 eTSI FR Plus'ında en fazla üç kez SOS hatası aldığını, çoğunun bir saat içinde kendiliğinden düzeldiğini yazıyor.",
+            "teshis": "Uyarı ve ses servise anlatılır; yazılım sürümü ve modül durumu sorulur (DonanımHaber'de bazı servislerin SOS güncellemesinin belirli bir tarihten önce gelmeyeceğini söylediği aktarılıyor).",
+            "cozum": "DonanımHaber'de bir sahip sorunun modül değişimi ve yazılım güncellemesiyle giderildiğini, ardından ses ve arıza uyarısının kesildiğini yazıyor; Şikâyetvar'da garanti bitiminden sonra değişimin ücretli olduğu söylenen bir sahip var.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Satın almadan önce çalıştırma sırasında SOS / acil durum arama uyarısı çıkıp çıkmadığına bakın; garanti süresinde yazılı kayda geçirtin. Şikâyetvar kayıtları ağırlıkla 2021 model 1.5 TSI / eTSI Leon'lara ait; Golf 8 / 8.5 için benzer bir SOS kaydı ayrıca var."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/seat/kronik-sorunlu-seat-leon-15-tsi-sos-arizasi",
+            "https://www.sikayetvar.com/seat/leon/kronik",
+            "https://forum.donanimhaber.com/yeni-seat-leon-mk4-ana-konu--135484328-23",
+            "https://forum.donanimhaber.com/yeni-seat-leon-mk4-ana-konu--135484328-26"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Seat",
       "model": "Leon 5F (2013-2020)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
@@ -15631,6 +15947,35 @@
     },
     {
       "marka": "Skoda",
+      "model": "Fabia (Mk4, 2021-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Bileşen koruması ('Bileşen Koruma Etkin') uyarısı: multimedya ve park sensörünün devre dışı kalması",
+          "etkilenen_parca": "Multimedya ünitesi (bileşen koruma / Component Protection) ve yazılımı",
+          "belirtiler": "Ekranda 'Bileşen Koruma Etkin' uyarısının teslim gününden itibaren sürekli görünmesi, uyarı sırasında multimedya ekranının kilitlenmesi, müziğin dinlenememesi ve park sensörünün çalışmaması; yazılım güncellemesinden sonra hatanın tekrar etmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2023'te sıfır alınan bir Fabia sahibi 'Bileşen Koruma Etkin' uyarısının teslim gününden beri ekranda sürekli göründüğünü ve servise defalarca gitmesine rağmen kalıcı çözüm alamadığını, bir Scala sahibi servisin Scala, Kamiq ve Fabia'da bu sorunun olduğunu söylediğini yazıyor; sahipler uyarının ardından müzik dinlenemediğini ve park sensörünün çalışmadığını, güncellemeden sonra hatanın birkaç kez tekrar ettiğini bildiriyor. DonanımHaber'deki 'Skoda Scala 2023 SAFE CP hatası' başlığında bir Fabia sahibi güncellemeden sonra hatanın tekrar ettiğini yazıyor.",
+            "teshis": "Uyarı sırasında multimedya ünitesinin güç tuşuna yaklaşık 10 saniye basılı tutunca sistem yeniden başlıyor (DonanımHaber'de Scala sahipleri). Skoda'nın resmi bir açıklaması ya da servis bülteni bu aramada bulunamadı.",
+            "cozum": "Kaynaklarda kalıcı çözüm yok: yazılım güncellemesi sonrası uyarı bazı araçlarda tekrar ediyor; Şikâyetvar'daki sahip servise defalarca gitmiş.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Yeni teslimde ekranda bileşen koruma uyarısı çıkıp çıkmadığını kontrol edin; çıkarsa garanti süresinde tarih ve saatle yazılı kayda geçirtin. Kamiq / Scala için aynı konu ayrı kayıtta."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/fabia/sifir",
+            "https://www.sikayetvar.com/skoda/skoda-scala-guvenlik-uyarisi-ve-servis-tecrubem",
+            "https://forum.donanimhaber.com/skoda-scala-2023-safe-cp-hatasi--155577477"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Skoda",
       "model": "Fabia (NJ, 2015-2021)",
       "motor": "1.2 TSI 90/110 (EA211)",
       "uretim_yillari": {
@@ -15688,6 +16033,36 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-1-5-tsi-evo"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Kamiq / Scala (2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Bileşen koruması (Safe CP) hatası: multimedya ünitesinin kendini korumaya alması ve park sensörünün devre dışı kalması",
+          "etkilenen_parca": "Multimedya ünitesi (bileşen koruma / Component Protection) ve yazılımı",
+          "belirtiler": "Göstergede 'Safe CP', multimedya ünitesinde 'bileşen koruma hatası' mesajı; multimedya ekranının kilitlenmesi, müziğin dinlenememesi ve park sensörünün çalışmaması; ünitenin güç tuşuna yaklaşık 10 saniye basılı tutunca yeniden başlaması; yazılım güncellemesinden sonra tekrar etmesi; soğuk havalarda daha sık görülmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da iki sıfır Kamiq alan bir sahip daha 1 ayda ve 2.500 km'den önce CP uyarısı ve bileşen koruması arızası nedeniyle üçer kez servise gittiğini, bir Scala sahibi servisin Scala, Kamiq ve Fabia'da bu sorunun olduğunu ve yaklaşık 50 aracın bu sorunla geldiğini söylediğini, bir Kamiq sahibi yazılım güncellemesinden sonra uyarının bir hafta kesilip sonra multimedya ekranında geri geldiğini yazıyor. DonanımHaber'deki 'Skoda Scala 2023 SAFE CP hatası' başlığında sahipler teybi güç tuşuna basılı tutarak yeniden başlattığını, güncellemeye rağmen hatanın sürdüğünü ve hatayı soğuk havalarda (4 derecenin altında multimedya çalışmıyor) gördüklerini yazıyor; bir yorumcu hatanın bu araçların hepsinde çıkmadığını belirtiyor.",
+            "teshis": "Uyarı çıkınca multimedya ünitesinin güç tuşuna yaklaşık 10 saniye basılı tutmak sistemi yeniden başlatıyor (DonanımHaber'de sahipler). Şikâyetvar'daki bir Kamiq sahibine servis yazılımsal bir sorun olduğunu söylemiş. Skoda'dan resmi bir açıklama ya da servis bülteni bu aramada bulunamadı.",
+            "cozum": "Geçici çözüm ünitenin yeniden başlatılması. Yazılım güncellemesi bazı araçlarda sorunu gideriyor (Şikâyetvar'daki 2022 model Kamiq sahibinde servis yazılımsal sorunu giderip aracı geri vermiş), bazılarında hata tekrar ediyor.",
+            "maliyet": "Güncel rakam bulunamadı; Şikâyetvar başvurularında işlemler garanti kapsamında yapılmış.",
+            "onlem": "Yeni teslimde ve soğuk havada multimedya ünitesinin hatasız açıldığını kontrol edin; hatayı garanti süresinde tarih ve saatle yazılı kayda geçirtin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/skoda-kamiq-safe-cp-hatasi",
+            "https://www.sikayetvar.com/skoda/skoda-kamiq-cp-uyarisi-ve-bilesen-korumasi-arizasi",
+            "https://www.sikayetvar.com/skoda/skoda-scala-guvenlik-uyarisi-ve-servis-tecrubem",
+            "https://forum.donanimhaber.com/skoda-scala-2023-safe-cp-hatasi--155577477"
+          ]
+        }
       ]
     },
     {
@@ -16523,6 +16898,35 @@
     },
     {
       "marka": "Skoda",
+      "model": "Superb (IV, 2024-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yazılım kaynaklı uyarı zinciri: Front Assist, Lane Assist, Start-Stop ve tahrik sistemi arıza uyarıları",
+          "etkilenen_parca": "Sürüş destek sistemleri (Front Assist, Lane Assist), 12V akü yönetimi ve kontrol yazılımı",
+          "belirtiler": "Teslimden kısa süre sonra emniyet kemeri uyarısıyla başlayıp Front Assist, Lane Assist, Start-Stop ve tahrik sistemi arıza uyarılarının gelmesi; araç park halindeyken Front Assist uyarısı vermesi; gereksiz acil fren uyarıları; akü şarj arızası ya da 'tahrik sistemi arızası' ile yolda kalma; servisin yazılım ve kalibrasyonuna rağmen birkaç gün içinde geri dönmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2024 model yeni kasa Superb sahipleri teslim aldıkları günden beri hata kodları ve Front Assist uyarıları aldıklarını, servisin yazılım yükleyip kalibrasyon yapmasına rağmen sorunların birkaç gün içinde döndüğünü, bazılarının gereksiz acil fren uyarılarını, bazılarının akü şarj arızası ya da tahrik sistemi arızası uyarısıyla yolda kaldığını yazıyor. DonanımHaber'deki '2024 Skoda Superb mağdurları' başlığında bir sahip aracı aldıktan iki hafta sonra emniyet kemeri uyarısıyla başlayan, ardından Front Assist, Line Assist, Start&Stop ve tahrik uyarılarının geldiğini, uyarıların servisteki yazılım güncellemesiyle giderildiğini, bir keresinde kapalı garajda duran aracın Front Assist uyarısı verip yarım saat sonra kendiliğinden düzeldiğini anlatıyor.",
+            "teshis": "Forumdaki sahip uyarıları pasif arıza olarak tanımlıyor ve sürüşü etkilemediğini yazıyor; yabancı forumlara atıfla akü kutup başını 10-15 dakika sökmenin Front Assist benzeri hataları giderdiği belirtiliyor (doğrulanmamış anekdot).",
+            "cozum": "Servis yazılım güncellemesi ve kalibrasyon yapıyor; bazı araçlarda uyarılar gidiyor, bazılarında birkaç gün sonra geri dönüyor. Forumda büyük bir yazılım güncellemesinin beklendiği ve son sürümde sorunların rutin sıfırlamayla giderildiği yazılıyor.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Yeni Superb'i teslim alırken yazılım sürümünü ve bekleyen güncellemeleri sorun; uyarıları tarih ve saatle belgeleyin. Şikâyetler 2024 ve 2025 model yıllarında yoğun."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/skoda/sifir-skoda-superbde-tekrarlayan-kronik-sorunlar-ve-hayal-kirikligi",
+            "https://www.sikayetvar.com/skoda/skoda-yeni-superb-2024-yazilim-sorunlari-ve-musteri-magduriyeti",
+            "https://forum.donanimhaber.com/2024-skoda-superb-magdurlari--159293257"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Skoda",
       "model": "Superb III (2015-2023)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
@@ -17220,6 +17624,53 @@
     },
     {
       "marka": "Toyota",
+      "model": "Corolla Cross (2022-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Multimedya ekranı, Android Auto / CarPlay bağlantısı ve kablosuz şarj sorunları",
+          "etkilenen_parca": "Multimedya ekranı ve yazılımı, Android Auto / CarPlay bağlantısı, kablosuz şarj ünitesi, akıllı anahtar algılama",
+          "belirtiler": "Android Auto'nun bağlanmaması ya da kopması, kablosuz şarj ünitesinin bazı telefonları şarj etmemesi, ekranın bir süre çalışmaması (yazılım güncellemesiyle düzelmesi), akıllı anahtarın her zaman algılanmaması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da Corolla Cross sahipleri kablosuz şarj ünitesinin iPhone 15 ve üstü modelleri şarj etmediğini (yetkililer böyle açıklamış) ve Android telefonlarda Android Auto'nun bağlanmadığını, CarPlay'in sorunsuz çalıştığını yazıyor. Consumer Reports sahip yorumlarında ABD'deki 2022-2023 sahipleri ekranın bir süre çalışmadığını (serviste yazılım güncellemesiyle düzeldiğini), akıllı anahtarın her zaman algılanmadığını ve Bluetooth ses başlangıcının yavaşlığını bildiriyor.",
+            "teshis": "Telefonla kablosuz şarj ve Android Auto / CarPlay bağlantısı denenir; ekran sorunu varsa yetkili serviste yazılım sürümü sorulur.",
+            "cozum": "Consumer Reports sahip yorumuna göre ekran sorunu serviste yazılım güncellemesiyle giderilmiş. Kablosuz şarj uyumsuzluğu için Şikâyetvar'daki yanıtta ürün tarafında bir çözüm belirtilmemiş.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Satın almadan önce kendi telefonunuzla kablosuz şarjı ve Android Auto / CarPlay bağlantısını deneyin. Consumer Reports yorumları ABD'de satılan araçlara ait; Türkiye'de üretilen araçlarla aynı olduğu doğrulanamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/corolla-cross",
+            "https://www.sikayetvar.com/toyota/toyota-corolla-cross-hybrid-ust-model-telefonlarla-sarj-sorunu",
+            "https://www.consumerreports.org/cars/toyota/corolla-cross-hybrid/2023/reliability/",
+            "https://amp.consumerreports.org/cars/toyota/corolla-cross/2022/reliability"
+          ]
+        },
+        {
+          "sorun_adi": "Tavan rayı (çıtası) sallanması ve yerinden oynaması",
+          "etkilenen_parca": "Tavan rayları (tavan çıtaları) ve bağlantı noktaları",
+          "belirtiler": "Tavan raylarında sallanma ve ses, rayın yerinden oynaması; garanti kapsamında yeni ray takılması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 'Corolla Cross tavan çıtalarında yaşanan sorunlar ve beklenen çözümler' başlıklı bir başvuru ve tavan çıtası / rayı sallanması anlatan şikâyetler var. Consumer Reports sahip yorumlarında 2023 benzinli bir ABD sahibi tavan raylarının yerinden oynadığını ve garanti kapsamında yeni rayların sipariş edildiğini yazıyor.",
+            "teshis": "Kaynaklarda ayrıntılı teşhis yok; raylar elle sallanarak ve sürüşte rüzgâr sesi dinlenerek kontrol edilebilir.",
+            "cozum": "Consumer Reports yorumunda yeni raylar garanti kapsamında sipariş edilmiş; Şikâyetvar başvurusunda sonuç belirtilmemiş.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "İkinci elde tavan raylarını sallayarak ve yüksek hızda rüzgâr sesini dinleyerek kontrol edin, garanti durumunu sorun. Consumer Reports yorumu ABD aracına aittir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/toyota-corolla-cross-tavan-citalarinda-yasanan-sorunlar-ve-beklenen-cozumler",
+            "https://amp.consumerreports.org/cars/toyota/corolla-cross/2023/reliability"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Toyota",
       "model": "Land Cruiser Prado (J150, 2009-2015)",
       "motor": "3.0 D-4D (1KD-FTV)",
       "uretim_yillari": {
@@ -17286,6 +17737,36 @@
       "kronik_sorunlar": [],
       "aileler": [
         "toyota-hsd-hibrit"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "RAV4 (XA50, 2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Direksiyon bölgesinden gıcırtı ve ses, EPS (elektrikli direksiyon) uyarısı",
+          "etkilenen_parca": "Direksiyon kutusu, direksiyon kolonu ara mili ve elektrikli direksiyon (EPS) modülü",
+          "belirtiler": "Direksiyon çevrilirken kolon bölgesinden gıcırtı ya da inleme sesi, direksiyon kutusundan ses, soğuk bekleme sonrası çekme ya da sürüklenme hissi, EPS uyarı lambası (DTC C05D604).",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Toyota'nın 2019-2020 RAV4 ve RAV4 Hybrid için Tech Tip'i, direksiyon çevrilirken kolon bölgesinden gıcırtı ya da inleme sesi geldiğini anlatıyor ve ara mile ya da contaya yağ ya da su sıkılmamasını söylüyor; ayrı bültenler soğuk bekleme sonrası çekme / sürüklenme hissini ve EPS uyarı lambasını (DTC C05D604) kapsıyor (carcomplaints ve NHTSA'daki bülten kayıtları, ABD pazarı). Şikâyetvar'da bir RAV4 2.5 Hybrid sahibi garanti süresinde direksiyon kutusundan ses geldiğini, serviste kutuda sorun bulunduğunu, garanti kapsamında değişimin reddedilip yüksek ücret istendiğini yazıyor (152.922 km, garanti sınırı 160.000 km).",
+            "teshis": "Tech Tip sesi stetoskopla izole etmeyi ve etkilenen parçayı değiştirmeyi öneriyor.",
+            "cozum": "Tech Tip'e göre ses kaynağı izole edilip ilgili parça değiştiriliyor; bülten kayıtlarında garanti kapsamı ayrıntısı verilmiyor.",
+            "maliyet": "Güncel rakam bulunamadı; Şikâyetvar'daki sahip yüksek bir ücret istendiğini yazıyor (tutar belirtilmemiş).",
+            "onlem": "Aracın bülten kapsamını şasi numarasıyla Toyota yetkili servisine sorun ve sesi garanti süresi içinde yazılı kayda geçirtin. Bülten kayıtları ABD araçlarına aittir; Türkiye'de uygulanıp uygulanmadığı doğrulanamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/rav-4-hybrid",
+            "https://www.carcomplaints.com/Toyota/RAV4/2019/tsbs/index.shtml",
+            "https://www.carcomplaints.com/Toyota/RAV4/2020/tsbs/",
+            "https://static.nhtsa.gov/odi/tsbs/2019/MC-10169427-9999.pdf"
+          ]
+        }
       ]
     },
     {
@@ -18267,6 +18748,36 @@
     },
     {
       "marka": "Volkswagen",
+      "model": "Passat (B9, 2024-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Park ve sürüş destek sensörü arıza uyarıları, aşırı hassas park sensörleri (yazılım güncellemesiyle azalıyor)",
+          "etkilenen_parca": "Park mesafe sensörleri, sürüş destek sensörleri ve ilgili yazılım",
+          "belirtiler": "Yeni araçta sürekli sensör arızası uyarısı ve tekrar eden servis ziyaretleri, park sensörlerinin aşırı hassas ötmesi, yardım asistanı arızası uyarısı; yazılım güncellemesinden sonra büyük ölçüde azalması ama arada sürmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2024 model Passat sahipleri altı aylık sıfır araçta sürekli sensör arızası verdiğini ve hafta içi servise gitmek zorunda kaldıklarını, Eylül 2024'te alınan bir araçta garanti kapsamında çok kısa sürede defalarca arıza çıktığını, bir başka araçta yardım asistanı arızası yaşandığını yazıyor (Şikâyetvar Passat sayfaları B8 ve B7 kayıtlarıyla karışık). DonanımHaber B9 kullanıcı başlığında bir sahip sensör sorunlarının ilk zamanlar bayağı fazla olduğunu, yazılım güncellemesiyle büyük ölçüde çözüldüğünü, arada nadiren sürdüğünü, park sensörlerinin yazılım sürümü 2460'tan 2650'ye güncellenince eskisi kadar hassas olmadığını yazıyor.",
+            "teshis": "Servise giderken aracın yazılım sürümü ve uyarının hangi koşulda (yağmur, yıkama, geri vites) çıktığı not edilir; bir DonanımHaber yorumcusu park sensörü modülünün arıza kodunun OBD ile okunması gerektiğini belirtiyor.",
+            "cozum": "Yazılım güncellemesi (DonanımHaber'de 2460 → 2650 sürümü) sorunu büyük ölçüde gideriyor; yetkili servisin yağmur ve toz kaynaklı uyarılar için bir şey yapamayacağını söylediği de aktarılıyor.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Yeni B9 Passat'ta yazılım sürümünü ve bekleyen güncellemeleri sorun; uyarıları tarih ve koşullarıyla kaydedin. Passat B9'un 1.5 TSI DSG aşırı ısınma uyarısı gibi şanzıman konuları tek sitede kaldı (aşağıdaki plan notuna bakın)."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/passat/ariza",
+            "https://www.sikayetvar.com/volkswagen/passat/kronik-ariza",
+            "https://forum.donanimhaber.com/2024-passat-variant-b9-kullananlar--159824443-64",
+            "https://forum.donanimhaber.com/2024-passat-variant-b9-kullananlar--159824443"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Volkswagen",
       "model": "Passat CC (2009-2016)",
       "motor": "1.4 TSI 160 (EA111, DSG DQ200)",
       "uretim_yillari": {
@@ -18533,6 +19044,37 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "T-Cross / Taigo (2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kablosuz CarPlay / Android Auto bağlantı kopmaları ve multimedya ekranının donması ya da kapanması",
+          "etkilenen_parca": "Multimedya ünitesi ve yazılımı, kablosuz CarPlay / Android Auto bağlantısı",
+          "belirtiler": "Kablosuz CarPlay'in bazen hiç bağlanmaması ya da sürekli kopması, sesin kesilmesi, harita açıldığında ekranın donması, ekranın seyir halinde kendiliğinden kapanıp açılması, yazılım güncellemesinin sorunu çözmemesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'daki Taigo başvurularında kablosuz CarPlay'in bazen hiç bağlanmadığı ya da koptuğu, multimedya ekranının seyir halinde kapanıp açıldığı ve sıfır 2025 model araçta yazılım güncellemesinin sorunu çözmediği anlatılıyor; 2023 model bir sahip güncellemeye rağmen ekran değişimi için yaklaşık 80 bin TL istendiğini yazıyor. Ekşi Sözlük'te bir sahip kablosuz CarPlay'de sürekli ses kesilmesini ve harita açılınca ekranın donmasını, servisin Polo, Taigo ve T-Cross'ta bu özelliğin sonradan yazılımla açıldığını söylediğini aktarıyor. DonanımHaber T-Cross kulübünde Taigo'daki kablosuz CarPlay bağlantı sorununun çok kişi tarafından yazıldığı, T-Cross'ta olmadığı belirtiliyor (tarih eski).",
+            "teshis": "Şikâyetvar başvurularında sahipler sorunu video, tarih ve saatle belgeleyip yazılı arıza kaydı açtırıyor; bir sahip Bluetooth'u telefondan bağlamak yerine aracın telefonu kendisinin bulmasını bekleyerek geçici rahatlama sağladığını yazıyor (tek kullanıcı).",
+            "cozum": "Yazılım güncellemesi uygulanıyor ama bazı araçlarda sorun sürüyor (Şikâyetvar); resmî bir VW teknik servis bülteni bulunamadı.",
+            "maliyet": "Şikâyetvar'da bir 2023 model sahibi ekran değişimi için yaklaşık 80 bin TL istendiğini yazıyor (tek vaka; garanti durumuna bağlı olabilir).",
+            "onlem": "Satın almadan önce kablosuz bağlantıyı ve ekranın uzun süre kapanmadan çalışmasını deneyin, yazılım sürümünü ve servis kaydını sorun. Başvurular ağırlıkla Taigo'ya ait; T-Cross için aynı şiddette kayıt bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/volkswagen-taigoda-kablosuz-baglanti-sorunlari",
+            "https://www.sikayetvar.com/volkswagen/sifir-volkswagen-taigoda-carplay-ve-ekran-sorunu-yazilim-guncellemesiyle-cozulmedi",
+            "https://www.sikayetvar.com/volkswagen/volkswagen-taigo-multimedya-ekrani-aniden-arizalandi-ve-80-bin-tl-ucret-itirazi",
+            "https://eksisozluk.com/ankara-dogus-oto-volkswagen-rezaleti--7904450",
+            "https://forum.donanimhaber.com/t-cross-kullanici-kulubu--153163549"
+          ]
+        }
       ]
     },
     {
@@ -19014,6 +19556,36 @@
       "kronik_sorunlar": [],
       "aileler": [
         "volvo-phev-hv-batarya"
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC60 (2018-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Sensus ekranının kendiliğinden yeniden başlaması, kararması ve donması",
+          "etkilenen_parca": "Merkez dokunmatik ekran (Sensus) ve bilgi-eğlence ünitesi yazılımı",
+          "belirtiler": "Ekranın seyir halinde kendiliğinden yeniden başlaması, kararması ya da dim kalması, aralıklı donup yeşile dönüp tamamen kararması, yazılım güncellemesinden sonra bir süre düzelip yeniden başlaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Volvo Owners Club Forum'da 'MY19 XC60 - Sensus Rebooting' ve 'Rebooting Sensus' başlıklarında, Swedespeed'de 'Center display blackout' ve benzer başlıklarda 2018-2021 XC60 sahipleri Sensus ekranının yeniden başladığını, karardığını ya da dim kaldığını yazıyor; 2020 T5 Inscription'da ekran önce aralıklı donmuş, yeşile dönmüş ve tamamen kararmış, 2021 Inscription'da bayi yazılım güncellemesinden sonra ekran 3 kez yeniden başlayıp durulmuş. Bir bayi çalışanı Volvo'nun sorundan haberdar olduğunu ve bilgi-eğlence ünitesinden USB ile yeniden başlatma kayıtları aldıklarını yazmış. Ekşi Sözlük'te bir yorumcu 2023-2024 XC60 için bu arızaların son zamanlarda sık görüldüğünü belirtiyor.",
+            "teshis": "Forumlarda sorunu video ile belgelemek ve yazılım sürümünü not etmek öneriliyor; bir Volvo teknisyeninin Sensus'u bilgisayar tam açılmadan kullanınca olabileceğini söylediği aktarılıyor (tek kullanıcı aktarımı).",
+            "cozum": "Yazılım güncellemesi bazı araçlarda sorunu bir süre gideriyor, bazılarında sorun yeniden başlıyor. Ana ekran tuşunu yaklaşık 30 saniye basılı tutmak sistemi yeniden başlatıyor (forum ve Ekşi Sözlük). Donanım kaynaklı bir vakada ekran değişimi bir ay sürmüş.",
+            "maliyet": "Güncel rakam bulunamadı.",
+            "onlem": "Satın almadan önce ekranın çalıştırma sonrası kararmadan ve yeniden başlamadan çalıştığını, yazılım sürümünün güncel olduğunu kontrol edin. Forum kayıtları ağırlıkla ABD ve İngiltere araçlarına aittir; Türkiye için doğrudan kanıt Ekşi Sözlük'teki tek yorumla sınırlıdır."
+          },
+          "kaynaklar": [
+            "https://www.volvoforums.org.uk/showthread.php?t=287058",
+            "https://www.volvoforums.org.uk/forum/technical-topics/s60-v60-18-xc60-17-s90-v90-16-xc90-15-general/315914-rebooting-sensus",
+            "https://www.swedespeed.com/threads/center-display-blackout.585301/",
+            "https://eksisozluk.com/volvo-xc60--1592603?p=10"
+          ]
+        }
       ]
     },
     {
