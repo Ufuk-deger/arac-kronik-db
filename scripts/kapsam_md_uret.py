@@ -135,7 +135,13 @@ def uret():
         "## Ölçüt",
         "",
         "- **Zaman penceresi:** Son 10-15 yılın araçları, yani yaklaşık 2011 model yılı ve sonrası. "
-        "Daha eski yıllar yalnızca ilk aşamada eklenmiş kayıtlarda kaldı (aşağıda ayrıca listelenir).",
+        "Daha eski yıllar yalnızca ilk aşamada eklenmiş kayıtlarda kaldı (aşağıda ayrıca listelenir). "
+        "17. aşamadan itibaren Peugeot, Renault, Ford ve Toyota için pencere 2006'ya çekildi: üretimi 2006 ve sonrasına uzanan yaygın nesiller "
+        "(ör. Megane II, Clio 3, Scenic II, Peugeot 307 / 207 / 407, Focus 2, Corolla E150, Avensis) kapsamdadır. "
+        "\"Yaygın\" ölçütü TÜİK araç parkı sıralaması (nesil ayrımı yok) ile Türkiye'de resmî satış ve Türkçe sahip kaynağı hacmidir. "
+        "Kaynaklar çoğunlukla model yılına göre ayrım yapmadığından bu nesillerde sorunlar nesil geneli için yazılır; "
+        "2006 öncesi başlayan nesillerde (Megane II, 307, Focus 2 gibi) 2006 sonrası model yılı kısmı için ayrı kanıt yoktur. "
+        "Diğer markalarda pencere 2011 olarak kalır.",
         "- **Marka seçimi:** Türkiye'de en çok satılan markalar (aşağıdaki tablo). İlk dört aşamada elektrikli ya da 2023 sonrası girmiş markalar "
         "(BYD, Togg, Tesla, Chery) \"motor grubu ve ikinci el geçmişi yok\" gerekçesiyle dışarıda bırakılmıştı; 5. aşamada elektrikli araçlar kapsama alındı ve bu markalar plana girdi. "
         "Bu listenin dışındaki markalar (`ek` kapsamı) ikinci el yaygınlığı ve kaynak bulunabilirliği gözetilerek editoryal olarak eklendi; satış adetleri doğrulanamadı.",

@@ -1666,17 +1666,103 @@ Her satırın nedeni [KAPSAM.md](KAPSAM.md) plan notunda ayrıntılı yazılıd�
 - Yeni 22 sorunun 18'i iki, 4'ü üç siteyle destekleniyor; hiçbirinde resmî (üretici ya da kamu) kayıt yok, yalnızca RAV4 için Toyota'nın ABD bülten kayıtları var. Risk seviyeleri README'deki ölçeğe göre verilmiş yargı kararlarıdır.
 - `–` satırlarının bir kısmı (ör. Peugeot 308 III ekran ve sunroof, Taliant, Cupra Leon, MG HS, Kia EV3) Şikâyetvar'da çok sayıda başvuru bulunmasına rağmen ikinci site bulunamadığı için kayıt dışı kaldı; ikinci site çıkarsa kayda çevrilebilir.
 
+## 17. aşama: Peugeot, Renault, Ford ve Toyota — 2006 sonrası yaygın nesiller
+
+Kullanıcı "Peugeot, renault, ford ve toyota markalarini 2006 sonrasi olacak sekilde ekleyelim. Dogruluktan sasmayalim simdilik. Yani sadece 2006 sonrasi yaygin modelleri alalim simdilik" dedi. İstek şöyle yorumlandı:
+
+- **Zaman penceresi:** bu dört marka için pencere 2011'den 2006'ya çekildi; üretimi 2006 ve sonrasına uzanan nesiller kapsamdadır. Diğer markalarda pencere 2011 olarak kaldı (KAPSAM.md "Zaman penceresi" maddesi ve README girişi güncellendi).
+- **"Yaygın":** TÜİK araç parkı ilk 10 (haber sitelerinin arama özetlerinden: Corolla yaklaşık 628 bin, Megane 538 bin, Clio 536 bin, Focus 399 bin, Symbol 382 bin; nesil ayrımı yok), arabam.com ilan sıralaması (Clio, Megane, Corolla, Focus ilk 10) ve diğer modeller için Türkiye'de resmî satış ile Türkçe sahip kaynağı hacmi. Az satan nesiller (Twingo 2, Laguna 2, 1007, Fusion, Camry XV40, Aygo 1, Kuga 1 model geneli vb.) bu aşamada taranmadı.
+- **Kanıt kuralı değişmedi:** her sorun için en az iki farklı site, en az biri deneyim ya da resmî türünde; adresler arama sonuçlarında aynen geçmeli (yazım sırasında otomatik denetlendi); kilometre uydurulmaz. "Tek kaynak" için ayrı bir katman açılmadı. Aranıp kanıtı çıkmayan nesiller `–` satırı olarak nedeniyle yazıldı.
+- **Yöntem:** önce Türkçe sahip kaynakları (Şikâyetvar, DonanımHaber, Ekşi Sözlük, Otopark, Technopat), tekrar eden konular için ikinci bağımsız site (Planète Renault, French Car Forum, Honest John, Ford Owners Club, Toyota Owners Club). Sayfalar doğrudan okunamadı; kanıt arama sonuçlarının özetleridir.
+
+### Eklenen model geneli sorunlar (9 model nesli, 16 sorun)
+
+| Araç | Sorun | Risk | Site | Kaynaklar ve not |
+| --- | --- | --- | ---: | --- |
+| Renault Megane II (2002-2010) | Anahtar kartı (el serbest kart) arızası | Orta | 3 | DonanımHaber, Planète Renault, Technopat |
+| Renault Megane II (2002-2010) | Fren pedalı müşürü arızası: ani gaz kesme, ivmelenmede boşluk | Orta | 2 | DonanımHaber, Planète Renault; anlatılar dCi araçlara ait |
+| Renault Megane II (2002-2010) | Döner kondaktör (airbag sargısı) arızası: airbag ışığı, hız sabitleyici | Orta | 4 | DonanımHaber, Technopat, Şikâyetvar, Planète Renault |
+| Renault Megane II (2002-2010) | Elektrikli cam mekanizması (kriko) arızası | Düşük | 2 | DonanımHaber, Honest John (İngiltere) |
+| Renault Scenic II / Grand Scenic II (2003-2009) | Elektronik park freni arızası | Yüksek | 3 | DonanımHaber, Honest John, Planète Renault |
+| Renault Scenic II / Grand Scenic II (2003-2009) | Gösterge paneli arızası: sıfırlanma, kilometre sayacı | Orta | 4 | DonanımHaber, Şikâyetvar, Honest John, Planète Renault |
+| Renault Scenic II / Grand Scenic II (2003-2009) | Sürgülü orta konsolun kilitli kalması | Düşük | 2 | DonanımHaber, Planète Renault |
+| Renault Scenic II / Grand Scenic II (2003-2009) | Anahtar kartı arızası ('kart okunamadı') | Orta | 2 | French Car Forum, Planète Renault; Türkçe kaynak yok |
+| Renault Clio 3 (2005-2012) | Silecek / kumanda kolu (commodo) bölgesinde duman, yanık kokusu, yangın başlangıcı | Yüksek | 2 | Şikâyetvar, Planète Renault; resmî geri çağırma ya da Renault açıklaması bulunamadı |
+| Renault Clio 3 (2005-2012) | Elektrikli direksiyon (EPS) arızası | Orta | 2 | DonanımHaber, Planète Renault; anlatılar 2007-2009 model yıllarına dağılıyor |
+| Peugeot 307 (2001-2008) | BSI (kasa elektroniği ünitesi) arızası | Orta | 4 | DonanımHaber, Şikâyetvar, Honest John, French Car Forum |
+| Peugeot 207 (2006-2014) | Kaput–ön cam arası tahliye kanalı tıkanması, ayak boşluğuna su alma | Orta | 2 | DonanımHaber, French Car Forum; bakım ve tasarım kaynaklı |
+| Ford Focus 2 (2004-2011) | Gösterge paneli (kadran) arızası | Orta | 2 | DonanımHaber, Ford Owners Club |
+| Ford Transit Connect / Tourneo Connect (I, 2002-2013) | Kapı kilit motoru ve merkezi kilit arızası | Düşük | 3 | DonanımHaber, Ekşi Sözlük, Şikâyetvar |
+| Toyota Corolla (E150, 2007-2013) | Tavan, bagaj kapağı ve kaputta boya kalkması (2010-2013 model yılları) | Düşük | 2 | DonanımHaber, Şikâyetvar |
+| Toyota Avensis (T27, 2009-2018) | Elektronik park freni (EPB) arızası | Orta | 3 | Şikâyetvar, Technopat, Toyota Owners Club (İngiltere) |
+
+Kilometre alanı hepsinde boş; 16 sorunun 9'u iki, 4'ü üç, 3'ü dört siteyle destekleniyor. Hiçbirinde üretici ya da kamu kaydı yok. Risk seviyeleri README'deki ölçeğe göre verilmiş yargı kararlarıdır.
+
+### Eklenen ortak motor ve şanzıman aile sorunları (5 yeni aile, 5 sorun)
+
+| Aile | Sorun | Risk | Site | Kilometre | Kaynaklar ve not |
+| --- | --- | --- | ---: | --- | --- |
+| `renault-k4m-1-6-16v` (motor) | Eksantrik kasnağında (VVT açı kaydırıcı) tıkırtı, soğuk marşta gürültü | Orta | 3 | 50.000 - 90.000 km | DonanımHaber, Honest John, Planète Renault; vakalar yaklaşık 52 / 85 / 86 bin km |
+| `psa-renault-al4-dp0` (şanzıman) | Basınç düzenleme selenoidlerinin arızası: 3. vitese kilitlenme, vuruntu | Orta | 4 | 40.000 - 100.000 km | DonanımHaber, French Car Forum, Honest John, Planète Renault; vakalar 44 bin ve yaklaşık 100 bin km |
+| `psa-hdi-cift-kutleli-volan` (sistem) | Çift kütleli volan ve debriyaj takımının arızalanması | Orta | 4 | 65.000 - 100.000 km | Honest John, French Car Forum, Otopark, DonanımHaber; aralık İngiltere'deki sahiplerin 40.000-60.000 mil beyanından |
+| `toyota-ad-ftv-2-0-2-2-d4d` (motor) | Silindir kapak contası arızası ve soğutma suyu kaybı | Yüksek | 2 | 80.000 - 150.000 km | Honest John, Toyota Owners Club (İngiltere); 49.000-93.000 mil beyanından |
+| `toyota-1kd-ftv-3-0-d4d` (motor) | Enjektör arızası ve enjektör yuvasından sızıntı | Yüksek | 2 | 75.000 - 140.000 km | Australian Car Reviews, Toyota Owners Club (Avustralya, İngiltere) |
+
+Kilometre aralıkları hiçbir yerde istatistik değil, sahip beyanlarından (mil kilometreye çevrilerek) türetilmiştir; her birinin `onlem` alanında bu uyarı yazılıdır. Mevcut `psa-dv6-hdi-tdci` ailesinin açıklamasına 307 ve 407 eklendi. Prado J150 kaydının kendi enjektör sorunu yeni 1KD-FTV aile sorununa bağlandı.
+
+### Aileye bağlanan kayıtlar (◐; 15 yeni motor kaydı)
+
+Bu kayıtların kayda özgü sorunu yok, yalnızca ortak aile kaynaklarıyla duruyor ve doğrudan kanıt olarak okunmamalı.
+
+- **Renault:** Megane II / Scenic II 1.6 16V 110/113 (K4M, manuel ve AL4 otomatik) ve Clio 3 1.6 16V 110 (K4M) → K4M ailesi; Megane II / Scenic II 1.5 dCi (K9K) → mevcut K9K ailesi.
+- **Peugeot:** 307 1.6 HDi 90/110, 407 1.6 HDi 110 → DV6 ve çift kütleli volan aileleri; 407 2.0 HDi 136 (DW10) → çift kütleli volan; 307 ve 207 otomatik şanzımanlı benzinliler → AL4 ailesi.
+- **Ford:** C-Max (2003-2010) 1.6 TDCi 90/109 → DV6 ailesi.
+- **Toyota:** Avensis 2.0 / 2.2 D-4D ve RAV4 XA30 2.2 D-4D → AD-FTV ailesi; Hilux Vigo 3.0 D-4D ve Prado J120 3.0 D-4D (ve J150) → 1KD-FTV ailesi; Yaris XP90 1.4 D-4D → mevcut 1ND-TV ailesi; Auris E150 1.33 → mevcut 1NR-FE ailesi.
+
+### Araştırılıp kaydı açılmayan 18 satır (`–`)
+
+Her satırın nedeni [KAPSAM.md](KAPSAM.md) plan notunda ayrıntılı yazılıdır.
+
+**Motor ve şanzıman düzeyi (9):** Megane II / Scenic II 1.9 dCi (F9Q; motoru belirtmeyen başlıklar çoğunlukla 1.5 dCi), Peugeot 206 / 206+ 1.4 HDi ve 1.4 benzinli (tekil anlatılar; "dizel 206'da kronik sorun yok" diyenler de var), Focus 2 1.6 Ti-VCT (tekleme ve VVT aktüatörü farklı kaynaklarda, tekrar eden sorun yok), 1.8 TDCi (Focus 2 / C-Max / Mondeo / Connect; enjektör ve volan tek kaynakta, bir servis bülteni doğrulanamadı), Fiesta Mk6 (Türkçe kaynakta Mk6'ya özgü kayıt yok), Avensis T27 makyajlı 1.6 / 2.0 D-4D, Corolla E120 1.4 / 1.6 VVT-i (aşırı yağ tüketimi Temmuz 2005 öncesi üretimde; 2006-2007 model yılı için ayrı kayıt yok), Auris E150 1.6 Valvematic (kontrol ünitesi arızası yalnızca Toyota Owners Club'ta) ve Hilux Vigo 2.5 D-4D.
+
+**Model geneli (9):** Peugeot 407 (volan dışındaki konular tek sitede), Peugeot 308 T7 (Şikâyetvar ve Ekşi Sözlük sayfaları 2011 sonrası araçlara ait), Ford C-Max (I) (panoramik tavan perdesi C-Max II kaydında), Renault Symbol II, Toyota Hilux Vigo, Land Cruiser Prado J120, RAV4 XA30 (geri çağırmalar İngiltere için anılıyor, Türkiye kapsamı doğrulanamadı), Yaris XP90 ve Auris E150 (Türkçe sitelerde ağırlıkla motor konuları; İngiltere kaynaklarında el freni, debriyaj, arka stop contası ve paslanma tekil).
+
+**Mevcut `–` satırlarına eklenen notlar:** Megane III / Fluence 1.6 K4M (kasnak sorunu Megane II / Scenic II / Clio III kaynaklarıyla ailede; Megane III'e özgü kaynak yok), Peugeot 207 / 206 1.6 VTi (EP6), Ford Transit 2.2 TDCi, Ford Mondeo model geneli (Mk4 Powershift 6DCT450 şanzımanı DPS6 ailesine dahil değil; Türkiye'de hangi sürümlerde kullanıldığı doğrulanamadı) ve Peugeot 207 model geneli (motor bölmesi sigorta kutusu: DonanımHaber'de kesin teşhis yok, French Car Forum başlıkları su ve korozyon konusunda; ortak arıza olarak doğrulanmadı). Kangoo (2008-2021), Laguna 3, Partner ve 3008 I / 5008 I için önceki aşamalardaki `–` satırları bu aşamada değişmedi.
+
+### Plan ve sayımlar
+
+- **Plan:** 969 → 1008 satır. Motor ve şanzıman düzeyi 699 → 722 (`✓` 182 → 182, `◐` 280 → 295, `–` 237 → 245); model geneli 270 → 286 (`✓` 97 → 106, `–` 173 → 180). Bu aşamada motor düzeyinde yeni `✓` satırı açılmadı: yeni motor kayıtlarının hepsi aileye bağlı (`◐`), kayda özgü sorunlar model geneli kayıtlarda.
+- **Plan düzeltmeleri:** Peugeot 207 model geneli satırı `–` iken `✓` oldu. "Clio 3 / Symbol" `–` satırı ikiye bölündü: Clio 3 (2005-2012) `✓`, Symbol II (2008-2013) `–`. "Avensis 2011-2018 2.0 D-4D" `–` satırı yerine Avensis T25 FL / T27 (2006-2012) `◐` ve makyajlı T27 `–` satırları açıldı. Prado 3.0 D-4D satırı J150'ye daraltıldı, J120 ayrı satır oldu.
+- **Veritabanı:** 594 → 618 kayıt (motor 497 → 512, model geneli 97 → 106), 388 → 404 kayda özgü sorun, 68 → 73 aile (ortak sorun 104 → 109), aile bağlı kayıt 448 → 464, 93 → 94 site (yeni: Technopat, forum).
+- **Model geneli taraması:** 512 motor kaydının 506'sı taranmış bir modele ait; kalan 6'sı: Ford Kuga 1, Honda Civic FD6, Nissan X-Trail T31, Opel Astra H, VW Passat B6, Volvo XC90 I. Peugeot 308 T7 ve Corolla E150 artık taranmış sayılıyor.
+- **Doğrulama:** `dogrula.py` geçerli; 169 sorun yalnızca iki siteyle destekleniyor (158'den; yeni 11); 82 birim testi ve 234 görüntüleyici kontrolü geçti.
+
+### Yazım sırasında çıkarılan ya da düzeltilen iddialar
+
+- Fren pedalı müşürü maliyetinde geçen belirsiz bir "22 €" rakamı ve Corolla E150 boya kaydındaki "Türkiye'de üretildi" yönündeki varsayım yazılmadı. Kaynağa fazla özgül atfedilen birkaç cümle arama özetleriyle karşılaştırılarak düzeltildi ya da "sahipler" olarak genelleştirildi.
+- Peugeot 407 için Şikâyetvar ve Ekşi Sözlük sayfa iddiaları arama sonuçlarında doğrulanamadığı için alınmadı.
+- Sorun olarak yazılmayan konular: Clio 3 Quickshift 5 şanzıman uyarısı (kilometre yalnızca tek vakada, yaklaşık 80.000 km), K4M bobin arızası (tek yorum, yaklaşık 60.000 km), Peugeot 206 torsiyon konusu (yalnızca DonanımHaber; plan notunda ayrıca yazılmadı), Mondeo Mk4 Powershift 6DCT450, Hilux Vigo'da DonanımHaber'deki tek kullanıcı anlatıları (piston delinmesi, deri direksiyon kaplaması, şaft sesi). Torsiyon dışındakiler ilgili plan notlarında da geçiyor.
+
+### Dikkat edilecek sınırlar
+
+- Kanıtlar arama sonuçlarının özetlerine dayanıyor; sayfalar doğrudan okunamadı. Ayrıntılardaki rakamlar ve alıntılar sahip anlatılarıdır, doğrulanmış teknik tespit değildir.
+- **Nesil geneli kanıt:** Megane II (2002), Scenic II (2003), Peugeot 307 (2001), Focus 2 (2004), Transit Connect (2002) ve Corolla E120 gibi 2006 öncesi başlayan nesillerde kaynaklar çoğunlukla model yılına göre ayrım yapmıyor; sorunlar nesil geneli için yazıldı, 2006 sonrası model yılı kısmı için ayrı kanıt yok. Kayıt başlığındaki yıl aralığı nesli gösterir.
+- **Yabancı kaynaklar:** Toyota AD-FTV ve 1KD-FTV aileleri yalnızca İngiltere ve Avustralya kaynaklarına dayanıyor, Türkiye'de hangi sürümlerin satıldığı doğrulanamadı. K4M, AL4 ve çift kütleli volan ailelerinde Türkçe kaynak (DonanımHaber, Otopark) var ama kilometre aralıkları büyük ölçüde İngiltere ve Fransa'daki sahip beyanlarından türetildi.
+- Clio 3 silecek / kumanda kolu kaydı yüksek riskli bir konu olduğu halde yalnızca sahip anlatılarına dayanıyor; bir geri çağırma ya da Renault açıklaması bulunamadı.
+- 2006'ya çekilen pencere yalnızca bu dört marka için geçerli; diğer markalarda 2011 öncesi nesiller hâlâ kapsam dışı.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
-2. Yalnızca iki siteyle desteklenen 138 maddeye üçüncü bir kaynak eklenebilir (13. aşama sonunda 133; 14. aşamada eklenenler: Mercedes OM654 külbütör, Volvo B4204T yağ tüketimi, Audi 2.0 TFSI pompa, Nissan e-POWER akü, Opel Astra L ekranı).
-3. Kanıtı yetersiz bulunan 329 grup (237'si motor ve şanzıman, 92'si model geneli) için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar için (ör. Chery Omoda 5 / Tiggo, MG ZS, Civic FE1, Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Toyota Hilux, Renault Megane E-Tech, Kia Niro EV, Togg T10F, Kia EV9, Mercedes Sprinter W907, Renault Austral, BYD Seal U DM-i, Hyundai / Kia hibritleri, Honda HR-V e:HEV) Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur. Nedeni "kilometre yok ya da tutarsız" olanlar (ör. Mercedes Viano W639, Mitsubishi Pajero, Opel Zafira B, Fiat Bravo ve Scudo) için arızanın çıktığı kilometreyi veren iki bağımsız kaynak yeterli olur.
+2. Yalnızca iki siteyle desteklenen 169 maddeye üçüncü bir kaynak eklenebilir (16. aşama sonunda 158; 17. aşamada eklenen 11'i: Clio 3 silecek kumanda kolu ve elektrikli direksiyon, Megane II fren müşürü ve cam mekanizması, Scenic II orta konsol ve anahtar kartı, Peugeot 207 su alma, Focus 2 gösterge paneli, Corolla E150 boya, Toyota AD-FTV silindir kapak contası ve 1KD-FTV enjektör).
+3. Kanıtı yetersiz bulunan 425 grup (245'i motor ve şanzıman, 180'i model geneli) için [KAPSAM.md](KAPSAM.md) içinde nedenleriyle yazılı; yeni kaynak çıkarsa eklenebilir. Nedeni "ikinci bağımsız kaynak yok" olanlar için (ör. Chery Omoda 5 / Tiggo, MG ZS, Civic FE1, Hyundai Kona, Opel Mokka 1.6 CDTI, Honda City, Ford Transit Custom ve Ranger, Nissan Navara, Toyota Hilux, Renault Megane E-Tech, Kia Niro EV, Togg T10F, Kia EV9, Mercedes Sprinter W907, Renault Austral, BYD Seal U DM-i, Hyundai / Kia hibritleri, Honda HR-V e:HEV) Şikâyetvar dışında bir forum ya da haber kaynağı bulunması yeterli olur. Nedeni "kilometre yok ya da tutarsız" olanlar (ör. Mercedes Viano W639, Mitsubishi Pajero, Opel Zafira B, Fiat Bravo ve Scudo) için arızanın çıktığı kilometreyi veren iki bağımsız kaynak yeterli olur.
 4. "Kanıtı sınırlı ayrıntılar" listelerindeki maddeler Türkçe servis ya da forum kaynağıyla güçlendirilebilir; maliyet alanı boş kalan sorunlara güncel Türkiye fiyatı bulunursa eklenebilir.
 5. Elektrikli araçlarda geri çağırma kaydı bulunan ama Türkiye kapsamı doğrulanamayan aileler (Volvo EX30, VW ID. serisi, Mini Cooper SE, Audi e-tron GT) ve plug-in hibritler (Volvo T8, BMW X5 xDrive45e, VW Grubu 2022 geri çağırması) için Türkiye distribütörlerinin duyuruları ya da Ticaret Bakanlığı geri çağırma kayıtları bulunursa kapsam doğrulanabilir.
 6. **Plug-in hibrit ve yeni hibritler:** Türkiye pazarı büyüdükçe (BYD Seal U DM-i, MG HS PHEV, Hyundai / Kia hibritleri, Honda e:HEV, Passat e-Hybrid, Mercedes ve BMW PHEV'leri) Şikâyetvar dışındaki ikinci kaynaklar çıkabilir; aynı kurallarla `–` satırları kayda çevrilir.
 7. Kaynaklar ayırt ettikçe yeni motor versiyonları ayrı kayıt olabilir (ör. N47 177 / 184 bg); eklemek istenen yeni marka, model ve motor için plana satır eklenip aynı döngü uygulanır.
-8. **Aile bağlarının doğrulanması:** 427 aile bağlı kaydın hangi motor ve şanzımanla satıldığı üretici ya da distribütör kataloglarından tek tek kontrol edilebilir; özellikle Türkiye'de satılıp satılmadığı belirsiz kombinasyonlar (ör. Stonic 1.6 CRDi, Rio YB 1.0 T-GDI 7DCT, Soul AM 1.6 CRDi, Optima 1.7 CRDi, XCeed 1.4 T-GDI, Proace City 1.5, Mondeo 1.6 TDCi, Skoda Yeti motorları, Polo Sedan) için.
-9. **Aile sorunlarının güçlendirilmesi:** tek modelin kaynağına dayanan aile sorunları (ör. 7G-Tronic iletken plaka, Multitronic, Subaru FB20, A16XER, OM654) başka bir modelin kaynağıyla desteklenebilir. Yabancı pazar kaynaklarına dayanan aileler (Pentastar, N57 / B47 EGR soğutucusu, R9M biyel yatağı, Prado enjektör, Volvo B4204T, EA888 Gen3, Audi pompa) için Türkçe bir kaynak bulunursa güçlenir. EA888 Gen3 ailesine Octavia / Superb / Kodiaq / Golf GTI gibi VW, Skoda ve Seat modelleri, Ford 2.0 TDCi ailesine Kuga 2'nin Euro 6 sürümleri, kaynaklarla eşleşirse eklenebilir.
+8. **Aile bağlarının doğrulanması:** 464 aile bağlı kaydın hangi motor ve şanzımanla satıldığı üretici ya da distribütör kataloglarından tek tek kontrol edilebilir; özellikle Türkiye'de satılıp satılmadığı belirsiz kombinasyonlar (ör. Stonic 1.6 CRDi, Rio YB 1.0 T-GDI 7DCT, Soul AM 1.6 CRDi, Optima 1.7 CRDi, XCeed 1.4 T-GDI, Proace City 1.5, Mondeo 1.6 TDCi, Skoda Yeti motorları, Polo Sedan, Avensis 2.0 / 2.2 D-4D, RAV4 XA30 2.2 D-4D, Hilux Vigo 3.0 D-4D, Prado J120 3.0 D-4D) için.
+9. **Aile sorunlarının güçlendirilmesi:** tek modelin kaynağına dayanan aile sorunları (ör. 7G-Tronic iletken plaka, Multitronic, Subaru FB20, A16XER, OM654) başka bir modelin kaynağıyla desteklenebilir. Yabancı pazar kaynaklarına dayanan aileler (Pentastar, N57 / B47 EGR soğutucusu, R9M biyel yatağı, Toyota 1KD-FTV enjektör (Prado, Hilux Vigo), Toyota AD-FTV silindir kapak contası, Volvo B4204T, EA888 Gen3, Audi pompa) için Türkçe bir kaynak bulunursa güçlenir. EA888 Gen3 ailesine Octavia / Superb / Kodiaq / Golf GTI gibi VW, Skoda ve Seat modelleri, Ford 2.0 TDCi ailesine Kuga 2'nin Euro 6 sürümleri, kaynaklarla eşleşirse eklenebilir.
 10. **Sahibinden listesinde `–` kalan 49 nesil** (yukarıdaki liste): ikinci bağımsız kaynak çıkarsa kayda çevrilir. Bu aşamada yeniden aranıp sonuç çıkmayanlar tekrar aranırsa yeni forum başlıkları çıkabilir.
-11. **Model geneli taraması (16. aşama sonrası):** model geneli satırı olmayan yalnızca 8 motor kaydı kaldı (hepsi 2011 öncesi nesiller: Ford Kuga 1, Honda Civic FD6, Nissan X-Trail T31, Opel Astra H, Peugeot 308 T7, Toyota Corolla E150, VW Passat B6, Volvo XC90 I). İstenirse bu nesiller için de satır açılabilir; kapsam penceresi (2011 ve sonrası) dışında kalıyorlar.
+11. **Model geneli taraması (17. aşama sonrası):** model geneli satırı olmayan yalnızca 6 motor kaydı kaldı (hepsi 2011 öncesi nesiller: Ford Kuga 1, Honda Civic FD6, Nissan X-Trail T31, Opel Astra H, VW Passat B6, Volvo XC90 I). Ford Kuga 1 (2008-2012) Ford'un 2006 penceresine girer, istenirse hemen taranabilir; diğer beşi 2011 penceresinin dışında kalıyor.
 12. **`–` kalan model geneli sorunlar:** Şikâyetvar'da tekrar eden konular (Passat B7 / B8 cam tavan çerçevesi, Kadjar yan aynaları, 301 / C-Elysée boyası, Rapid boyası, i30 GD cam tavan kasası, Tucson TL cam tavan perdesi ve direksiyon kilidi, Talisman R-Link 2, Insignia B deri direksiyon, Atto 3 amortisör sesi, C4 X ekran kapanması vb.) için DonanımHaber, Otopark ya da bir yabancı forumda ikinci kaynak bulunursa ✓'ye çevrilebilir.
+13. **17. aşama sonrası:** (a) `–` kalan Peugeot, Renault, Ford ve Toyota satırları (Symbol II, Peugeot 407 ve 308 T7 model geneli, Focus 2 1.6 Ti-VCT, Ford 1.8 TDCi, Fiesta Mk6, Auris E150 1.6 Valvematic, Hilux Vigo 2.5 D-4D, Avensis T27 makyajlı, RAV4 XA30) için ikinci bağımsız site çıkarsa kayda çevrilir; kilometresi tek vakada kalan konular (Clio 3 Quickshift 5 uyarısı, K4M bobin) iki bağımsız kilometreli kaynakla yazılabilir; Mondeo Mk4 Powershift 6DCT450 için Türkiye'de hangi sürümlerde kullanıldığı doğrulanırsa ayrı bir şanzıman ailesi açılabilir. (b) Toyota AD-FTV ve 1KD-FTV aileleri için Türkçe kaynak ya da distribütör kaydı; K4M, AL4 ve çift kütleli volan ailelerindeki kilometre aralıkları Türkiye'deki araçlardan gelen vakalarla doğrulanabilir. (c) Aday listesindeki daha az yaygın nesiller (Twingo 2, Laguna 2, Peugeot 1007, Ford Fusion, Kuga 1 model geneli, Camry XV40, Aygo 1) istenirse aynı kurallarla taranabilir.

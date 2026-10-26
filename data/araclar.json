@@ -1843,7 +1843,7 @@
       "id": "psa-dv6-hdi-tdci",
       "ad": "PSA / Ford 1.6 HDi - e-HDi - BlueHDi - TDCi (DV6)",
       "tur": "motor",
-      "aciklama": "Peugeot, Citroën, Ford (1.6 TDCi), Volvo (D2 / D DRIVe), Mazda'nın (1.6 MZ-CD) kullandığı 1.6 litre common rail dizel motor (DV6). 207, 208, 301, 308, 3008, C3, C4, C-Elysée, Berlingo, Partner, Toyota Proace, Focus, Fiesta, C-Max, Transit Connect, V40, S60 ve V60'ta bulunur.",
+      "aciklama": "Peugeot, Citroën, Ford (1.6 TDCi), Volvo (D2 / D DRIVe), Mazda'nın (1.6 MZ-CD) kullandığı 1.6 litre common rail dizel motor (DV6). 207, 208, 301, 307, 308, 407, 3008, C3, C4, C-Elysée, Berlingo, Partner, Toyota Proace, Focus, Fiesta, C-Max, Transit Connect, V40, S60 ve V60'ta bulunur.",
       "kronik_sorunlar": [
         {
           "id": "enjektor",
@@ -1930,6 +1930,39 @@
             "https://forum.donanimhaber.com/eski-kasa-makyajli-1-6-bluehdi-peugeot-3008-alinir-mi--144842900",
             "https://www.fordownersclub.com/forums/topic/82756-blocked-dpf-regeneration-help-16-tdci-2008/",
             "https://www.honestjohn.co.uk/askhj/answer/28172/ford-focus-dpf-problems"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psa-hdi-cift-kutleli-volan",
+      "ad": "Peugeot 307 / 407 HDi çift kütleli volan ve debriyaj takımı",
+      "tur": "sistem",
+      "aciklama": "Peugeot 307 ve 407'de 1.6 HDi (DV6TED4) ve 2.0 HDi (DW10) dizellerle kullanılan çift kütleli volan ve debriyaj takımı. Honest John ve French Car Forum'da 307 / 406 sahipleri volan arızasını yaygın anlatıyor; Otopark ve DonanımHaber'de 407 sahipleri debriyaj takımının volanla birlikte değiştiğini yazıyor. Kaynaklar güç sürümünü her zaman belirtmiyor; bir sahip 2.0 HDi'nin 110 PS sürümünde çift kütleli volan olduğunu söylüyor.",
+      "kronik_sorunlar": [
+        {
+          "id": "cift-kutleli-volan",
+          "sorun_adi": "Çift kütleli volan ve debriyaj takımının arızalanması: marşta tıkırtı, kalkışta titreme",
+          "etkilenen_parca": "Çift kütleli volan, debriyaj baskı balatası ve diski",
+          "belirtiler": "Çalıştırma sırasında ve rölantide yay tıkırtısı, kalkışta titreme ve sarsıntı, debriyajda kaydırma; ender anlatılarda volandan bir parçanın kopup motoru kilitlemesi.",
+          "tahmini_km_araligi": "65.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Honest John'da 307 / 406 sahipleri çift kütleli volan arızasını Peugeot dizellerinde yaygın sorun olarak anlatıyor; bir okuyucu bazı taksi sürücülerinin bunu 40.000-50.000 milde bir yenilenen rutin arıza saydığını yazıyor, başka vakalar 2002 model 2.0 HDi'de 53.000 mil ve bir 307'de 59.995 milde. French Car Forum'da 307 SW 1.6 HDi ve DV6TED4 için volan arızası başlıkları var. Otopark ve DonanımHaber'de 407 2.0 HDi ve 1.6 HDi sahipleri debriyaj takımının oynar volanla birlikte değiştiğini yazıyor.",
+            "teshis": "Başlangıç belirtisi marşta ve rölantide yay tıkırtısı; Honest John'da bir vakada volandan kopan parçanın motoru kilitlediği anlatılıyor.",
+            "cozum": "Volan ve debriyaj takımının birlikte değiştirilmesi; birçok sahip sabit (tek kütleli) volan taktırıyor, kaynaklar bunun sürüşü sertleştirdiğini ve şanzımana zarar verebileceğini uyarıyor; bir sahip Valeo'nun yeni volan ve debriyaj kitini anıyor.",
+            "maliyet": "DonanımHaber'de kullanıcı beyanı (eski, güncel fiyat olarak okumayın): 407 1.6 HDi'de baskı balata ve volan birlikte yaklaşık 1.500 TL; Otopark'ta maliyetin servis ile sanayi arasında ciddi farklılık gösterdiği yazılıyor.",
+            "onlem": "Kilometre aralığı İngiltere'deki sahiplerin mil cinsinden beyanlarından (yaklaşık 40.000-60.000 mil) türetilmiştir, istatistik değildir; Türkiye'deki araçlar için doğrulanmadı. Marşta tıkırtı başlarsa volanı erken kontrol ettirmek."
+          },
+          "kaynaklar": [
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=65572",
+            "https://www.honestjohn.co.uk/askhj/answer/8894/is-dual-mass-flywheel-failure-a-common-fault-on-peugeot-diesels-like-my-307-glx-",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=74412",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=27817",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=29919",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=54045",
+            "https://otopark.com/forum/threads/peugeot-407-2-0-hdi-debriyaj-sorunu.3084/",
+            "https://forum.donanimhaber.com/peugeot-407-1-6-hdi-sahibi-icini-dokmus--38470545-3"
           ]
         }
       ]
@@ -2034,6 +2067,49 @@
             "https://www.sikayetvar.com/motor/vti",
             "https://www.sikayetvar.com/peugeot/peugeot-12-puretech-aracim-yag-sorunu",
             "https://eksisozluk.com/peugeot-puretech-1-2-rezaleti--5458201?p=8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "psa-renault-al4-dp0",
+      "ad": "PSA / Renault AL4 (DP0) 4 ileri hidrolik otomatik şanzıman",
+      "tur": "sanziman",
+      "aciklama": "Peugeot ve Citroën'in (206, 307, 207, 308, 406, 807, C5) ile Renault'nun (Megane II, Scenic II, Modus) kullandığı 4 ileri hidrolik otomatik şanzıman (PSA'da AL4, Renault'ta DP0). French Car Forum, Honest John, Planète Renault ve DonanımHaber'de basınç düzenleme selenoidleri (elektrovanlar) ve şanzıman yazılımı konuları anlatılıyor. Türkiye'de hangi motorlarla satıldığı kaynaklarda ayrıca doğrulanmadı.",
+      "kronik_sorunlar": [
+        {
+          "id": "selenoid-basinc",
+          "sorun_adi": "Basınç düzenleme selenoidlerinin arızası: 3. vitese kilitlenme, vuruntu ve 'Automatic Gear Fault' uyarısı",
+          "etkilenen_parca": "Basınç düzenleme ve kilitleme selenoidleri (elektrovanlar), hidrolik valf gövdesi, basınç sensörü, şanzıman yazılımı",
+          "belirtiler": "Göstergede şanzıman arıza uyarısı ('Automatic Gear Fault', 'vites kutusunu kontrol ettirin'); aracın 3. viteste kilitlenmesi (acil durum modu); 1. vitesten 2. vitese geçişte sert vuruntu; vites geçmeme ve yokuşta güç alamama; motoru kapatıp açınca geçici düzelme.",
+          "tahmini_km_araligi": "40.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "French Car Forum'da sahipler basınç düzenleme selenoidlerinin arızalandığını, 2003 civarına kadar erken tip selenoid ve yazılımla üretildiğini ve yeni tip (Borg Warner) selenoidlerin güncellenmiş şanzıman yazılımıyla çalışması gerektiğini yazıyor. DonanımHaber'de 307 ve Megane 2 / Scenic 2 sahipleri selenoid arızasını tekrar eden bir sorun olarak anlatıyor, aşırı ısınmayı ve atlanan yağ değişimini suçluyor; Planète Renault'ta DP0 için 'hastalığın elektrovanlar' olduğu, bazı vuruntuların delikleri çok küçük elektrovanlardan geldiği yazılıyor.",
+            "teshis": "Arıza kodları (ör. P0006, P1167 basınç düzenleme) ve basınç değerleri okunmadan selenoid değiştirmek yetmeyebiliyor; forumlarda basınç sensörü, yağ pompası, yağ seviyesi ve kalitesi, hatta bir Modus'ta arka stop lambalarındaki nem de aynı belirtiyi vermiş.",
+            "cozum": "Forumlarda yağ ve filtre değişimi, ardından iki selenoidin (gerekirse conta setiyle) değiştirilmesi ve yeni tip selenoidlerde şanzıman yazılımının güncellenmesi anlatılıyor; selenoid değişiminin her vakada sorunu çözmediği, vakaların bir kısmında valf gövdesinin de değişmesi gerektiği belirtiliyor.",
+            "maliyet": "Kullanıcı beyanları (tarihleri değişken, güncel fiyat olarak okumayın): DonanımHaber'de selenoid değişimi için yaklaşık 300-500 TL; bir Scenic sahibi 5 yılda 7 kez selenoid değiştirdiğini yazıyor.",
+            "onlem": "Kilometre aralığı iki sahip beyanına (307'de yaklaşık 44.000 km, Scenic'te yaklaşık 100.000 km) dayanır, bir eşik değildir. Şanzıman yağını düzenli değiştirmek; 3. vitese kilitlenen araçta motoru kapatıp yeniden çalıştırmanın geçici çözüm olduğu anlatılıyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/peugeot-307-otomatik-vites-sorunu--36214083",
+            "https://forum.donanimhaber.com/automatic-gear-fault-arizasi-2004-model-307--27422183",
+            "https://forum.donanimhaber.com/peugeot-307-otomatik-vites-arizasi-cozuldu--135413550",
+            "https://forum.donanimhaber.com/megane-2-otomatik-vites-sorunu--68402924",
+            "https://forum.donanimhaber.com/scenic-otomatik-vites-arizasi--24511021",
+            "https://forum.donanimhaber.com/peugeot-207-otomatik-vites-kutusu-arizasi--128969526",
+            "https://forum.donanimhaber.com/peugeot-citroen-grubuna-ait-all4-bva-4-ileri-tam-otomatik-sanziman-sorunu--123647470",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=72781",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=70287",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=47617",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=75213",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=63754",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=26877",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=86666",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=41280",
+            "https://www.honestjohn.co.uk/forum/post/?t=84272",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=81030",
+            "https://www.planeterenault.com/forum/megane-i-quelle-bva-sur-notre-megane-tuto-changement-electrovannes-regle-t53224.html"
           ]
         }
       ]
@@ -2291,6 +2367,41 @@
       ]
     },
     {
+      "id": "renault-k4m-1-6-16v",
+      "ad": "Renault K4M 1.6 16V (atmosferik benzin)",
+      "tur": "motor",
+      "aciklama": "Renault'nun 1.6 litre 16 supaplı atmosferik benzinli motoru (K4M; yaklaşık 110-115 PS; LPG'ye çevrilmiş araçlarda da yaygın). Planète Renault'ta Clio II, Kangoo, Megane II, Scenic II, Laguna II ve Modus başlıklarında geçer; DonanımHaber'de Clio 3 ve Megane 2 sahipleri ortak başlıkta anlatıyor. Eksantrik kasnağı (VVT açı kaydırıcı) sorunu en çok Megane II / Scenic II (2002-2010) sahiplerince anlatılıyor; Megane III / Fluence için ayrı kaynak çıkmadı.",
+      "kronik_sorunlar": [
+        {
+          "id": "aci-kaydirici",
+          "sorun_adi": "Eksantrik kasnağında (VVT açı kaydırıcı) tıkırtı, soğuk marşta gürültü ve arıza",
+          "etkilenen_parca": "Emme eksantrik kasnağı (değişken supap zamanlaması açı kaydırıcısı), kasnak içi kama ve keçe, elektrovana",
+          "belirtiler": "Özellikle sabah ilk marşta 2-4 saniye süren tırıltı ya da dizel benzeri vuruntu; zamanla her çalıştırmada ses; arıza ışığı, güç kaybı ve yakıt tüketiminde artış; ender anlatılarda motorun stop edip yeniden çalışmaması.",
+          "tahmini_km_araligi": "50.000 - 90.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de sahipler sesi eksantrik kasnağının (açı kaydırıcı) ilk marşta yeterince yağlanamamasına bağlıyor; bir sahip kasnak içindeki kamanın kırılıp kaydığını, bir başkası keçeyle birlikte orijinal parça taktırmasına rağmen parçanın bazen yeniden arızalandığını yazıyor. Planète Renault'ta Megane II 1.6 16V sahipleri sert tıkırtıyı kasnağa (déphaseur) bağlıyor, kasnak arızalanınca marşta seri tıkırtı çıktığı yazılıyor; Honest John'da 2005 model bir Megane II'de aynı marş tıkırtısı için kasnak ya da eksantrik sensörü anılıyor, kasnak bozulunca güç ve yakıt tüketimi kötüleşiyor.",
+            "teshis": "Hangi parçanın sorumlu olduğu forumlarda tartışmalı: Planète Renault'ta bir Renault ustası eksantrik sensörünü değiştirmiş ve ses sürmüş; başka bir başlıkta sebep soğukta boşalan hidrolik itici olarak anlatılıyor. DonanımHaber'de krank keçesi, krank / eksantrik sensörü, bobin ve yağlı kasnak aynı belirtiyle karıştırılıyor ve bayide bilgisayarla tespitin zor olduğu yazılıyor. Parça değiştirmeden önce arıza kodlarının okunması önerilir.",
+            "cozum": "Planète Renault'ta kasnak değişiminde triger setinin de yenilendiği yazılıyor. DonanımHaber'de bir sahip kasnağı ve triger setini birlikte yaklaşık 1.000 TL'ye yaptırmış, bir başkası kasnak içindeki kama parçasını 159 TL'ye değiştirip sorunu gidermiş.",
+            "maliyet": "Kullanıcı beyanları (tarihleri değişken, güncel fiyat olarak okumayın): kasnak ile triger seti birlikte yaklaşık 1.000 TL; kasnak içi kama parçası 159 TL (DonanımHaber).",
+            "onlem": "Kilometre aralığı yalnızca birkaç sahip beyanından (Planète Renault'ta 52.000 km, DonanımHaber'de 85.000 ve 86.000 km) türetilmiştir; aynı forumda 130.000 km üzerinde sorunsuz motorlar da anlatılıyor, istatistik değildir. Soğuk marşta uzayan tıkırtıyı erken kontrol ettirmek ve triger bakımını aksatmamak."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/aci-kaydirici-yada-egzantrik-kasnagi-problem--48583457",
+            "https://forum.donanimhaber.com/megane-ii-scenic-ii-1-6-16v-gec-calisma-problemi-ve-olasi-sorunlar--87602220",
+            "https://forum.donanimhaber.com/clio-3-megane-2-1-6-k4m-kronik-arizasi-bitmeyen-motor--158028045",
+            "https://forum.donanimhaber.com/megane2-kasnak-problemi-ses-dosyasiyla-beraber--12814225",
+            "https://www.planeterenault.com/forum/megane-ii-probleme-de-dephasage-persistant-sur-le-1-6-16v-k4m-760-t51651.html",
+            "https://www.planeterenault.com/forum/megane-ii-tres-gros-claquement-1-6-16v-115cv-regle-t32943.html",
+            "https://www.planeterenault.com/forum/megane-ii-bruit-demarrage-a-froid-t31757.html",
+            "https://www.planeterenault.com/forum/megane-ii-distribution-poulie-dephasage-t49001.html",
+            "https://www.planeterenault.com/forum/modus-i-claquements-au-demarrage-sur-1-6-16v-resolu-t18947.html",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=54116"
+          ]
+        }
+      ]
+    },
+    {
       "id": "renault-k9k",
       "ad": "Renault K9K 1.5 dCi (common rail dizel)",
       "tur": "motor",
@@ -2420,6 +2531,36 @@
       ]
     },
     {
+      "id": "toyota-1kd-ftv-3-0-d4d",
+      "ad": "Toyota 3.0 D-4D (1KD-FTV, common rail dizel)",
+      "tur": "motor",
+      "aciklama": "Toyota'nın Hilux (Vigo), Land Cruiser Prado (J120, J150) ve Land Cruiser serisinde kullandığı 3.0 litre common rail dizel motor (1KD-FTV; yaklaşık 170 PS). Enjektör arızası ve enjektör yuvası sızıntısı bu motor için anlatılıyor. Kaynaklar ağırlıkla Avustralya ve İngiltere'den (Australian Car Reviews, Toyota Owners Club); Türkiye'de hangi sürümlerin satıldığı bu kaynaklarla doğrulanmadı.",
+      "kronik_sorunlar": [
+        {
+          "id": "enjektor",
+          "sorun_adi": "Enjektör arızası ve enjektör yuvasından sızıntı (yağ emme kafesinin tıkanma riski)",
+          "etkilenen_parca": "Common rail enjektörleri, bakır contalar ve karter yağ emme kafesi",
+          "belirtiler": "Soğukken motordan belirgin tıkırtı (vuruntu) sesi, yakıt tüketiminde artış, düzensiz rölanti, yük altında kaba çalışma ve güç kaybı; yuva sızıntısında kaçak gazların yağı kirletmesi, beyaz ya da gri duman.",
+          "tahmini_km_araligi": "75.000 - 140.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Australian Car Reviews 1KD-FTV enjektörlerinin 120.000-140.000 km civarında arızalanmasını nadir görmüyor; bildirimler yaklaşık 75.000 km'den başlıyor, bazı enjektörler 250.000 km'ye dayanıyor; kısa ömrü yüksek yakıt basıncına (30-160 MPa), yanma başına çoklu püskürtmeye ve dar toleranslara bağlıyor. Aynı kaynak 2005-2007 motorlarda enjektör tabanındaki bakır yuvaların yanma gazını kaçırabildiğini yazıyor. Toyota Owners Club'un Hilux ve Land Cruiser bölümlerinde enjektör O-halkası / pul sızıntısı nedeniyle yağa mazot karışması, beyaz duman ve yağ emme süzgecinin tıkanması anlatılıyor; bir sahip bunu özellikle 2005-2007 Hilux / Prado'ya bağlıyor.",
+            "teshis": "Australian Car Reviews: soğukken tıkırtı, kötü yakıt tüketimi, düzensiz rölanti ve yük altında kaba çalışma. Toyota Owners Club'ta Prado D4D'de gaz verirken tereddüt ve güç kaybı için önce EGR temizliği ve gaz kelebeği sensörü kontrolü deneniyor; sorun sürerse enjektörlerin tezgâhta test ettirilmesi öneriliyor.",
+            "cozum": "Arızalı enjektörlerin değiştirilmesi; Australian Car Reviews önlem olarak enjektörlerin her 100.000 km'de yenilenmesini öneriyor; bir forum rehberine göre Toyota ezilebilir pulları değiştirmiş ama geri çağırma yapmamış.",
+            "onlem": "Enjektörleri yaklaşık her 100.000 km'de yenilemek (kaynak önerisi); yağda mazot kokusu ya da seviye artışı varsa hemen kontrol ettirmek; ikinci elde enjektör değişim kaydını sormak. Kaynaklar ağırlıkla Avustralya ve İngiltere'dendir, Türkiye'deki araçlar için doğrulanmadı."
+          },
+          "kaynaklar": [
+            "https://www.australiancar.reviews/1kd-ftv-toyota-engine/",
+            "https://au.toyotaownersclub.com/forums/topic/37989-injector-leaks-and-engine-siezure/",
+            "https://au.toyotaownersclub.com/forums/topic/44758-1kd-ftv-whitegrey-smoke/",
+            "https://www.toyotaownersclub.com/forums/topic/153417-1kd-ftv-whitegrey-smoke/",
+            "https://www.toyotaownersclub.com/forums/topic/152685-1kd-ftv-engine-dpf-white-smoke/",
+            "https://www.toyotaownersclub.com/forums/topic/108766-prado-d4d-hesitation-during-acceleration/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "toyota-1nd-tv-1-4-d4d",
       "ad": "Toyota 1ND-TV 1.4 D-4D (common rail dizel)",
       "tur": "motor",
@@ -2507,6 +2648,38 @@
             "https://www.sikayetvar.com/toyota/corolla/kronik",
             "https://forum.donanimhaber.com/toyota-1-33-motorlar-hakkinda-dusunceniz--140675919",
             "https://forum.donanimhaber.com/2014-toyota-corolla-1-33-life-benzinli-arac-memnuniyetsizligim--107393403"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "toyota-ad-ftv-2-0-2-2-d4d",
+      "ad": "Toyota 2.0 / 2.2 D-4D (1AD-FTV / 2AD-FTV, common rail dizel)",
+      "tur": "motor",
+      "aciklama": "Toyota'nın 2006'dan itibaren Avensis, Auris, Verso ve RAV4'te kullandığı 2.0 (1AD-FTV) ve 2.2 litre (2AD-FTV) common rail dizel motor (D-4D; AD serisi). Silindir kapak contası arızası ağırlıkla 2.2'de, daha seyrek 2.0'da anlatılıyor. Kaynakların çoğu İngiltere'den (Toyota Owners Club, Honest John); Türkiye'de hangi model ve motor kombinasyonlarının satıldığı bu kaynaklarla doğrulanmadı.",
+      "kronik_sorunlar": [
+        {
+          "id": "silindir-kapak-contasi",
+          "sorun_adi": "Silindir kapak contası arızası ve soğutma suyu kaybı (2.2 D-4D ağırlıklı)",
+          "etkilenen_parca": "Silindir kapak contası, silindir kapağı ve blok yüzeyi, soğutma suyu genleşme kabı",
+          "belirtiler": "Genleşme kabındaki soğutma suyunun kararması ve eksilmesi, rölantide genleşme kabından su taşması, yağ doldurma kapağının altında beyaz emülsiyon, tekleme; yağ tüketiminin 1.000 km'de yaklaşık 0,5 litreyi aşması.",
+          "tahmini_km_araligi": "80.000 - 150.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Toyota Owners Club'ta sahipler sorunu 2.2 D-4D'de (2AD) belirgin, 2.0'da (1AD) daha seyrek olarak anlatıyor; conta malzemesinin soğutma suyuyla tepkimesine ve piston üstündeki karbon birikimiyle yağ tüketimine bağlanıyor. Bir sahip Toyota'nın Şubat 2007'de önlem aldığını, Şubat 2009 sonrası üretimde tasarım değişikliği yapıldığını yazıyor (doğrulanmadı). Honest John'da 2003-2008 Avensis için garanti dışı kapak contası onarımı başlığı var.",
+            "teshis": "Başlıklarda ilk işaret olarak genleşme kabının kararması, sebepsiz soğutma suyu kaybı ve 1.000 km'de 0,5 litreyi aşan yağ tüketimi sayılıyor; Toyota'nın iyi niyet politikasında karbonla ilişkili arızalar için piston fotoğrafı istendiği yazılıyor.",
+            "cozum": "Kapağın planyalanmaması gerektiği (Toyota bildirimi olarak aktarılıyor) ve kapak ya da bloğun hasar görmüş olabileceği, onarımın yalnızca conta değişimiyle bitmeyebileceği anlatılıyor; bir sahip Toyota'nın çözümünün 3/4 motor değişimi olduğunu yazıyor.",
+            "maliyet": "Kullanıcı beyanları (İngiltere, tarihleri değişken, güncel fiyat olarak okumayın): onarım teklifleri yaklaşık 1.100 sterlinden 4.500 sterlinin üzerine kadar, Toyota'nın motor değişimi çözümü perakende yaklaşık 6.000 sterlin; iyi niyet kapsamı genelde 7 yıl / yaklaşık 112.000 mil ve yalnızca karşı önlem öncesi üretilen araçlar için.",
+            "onlem": "Kilometre aralığı İngiltere'deki sahiplerin mil cinsinden beyanlarının (yaklaşık 49.000-93.000 mil, çoğu 60.000-90.000 mil) kilometreye çevrilmesidir. Toyota Türkiye'nin benzer bir iyi niyet politikası olup olmadığı kaynaklarda bulunmadı. Genleşme kabını ve yağ seviyesini düzenli izlemek."
+          },
+          "kaynaklar": [
+            "https://www.toyotaownersclub.com/forums/topic/174565-avensis-2007-2-litre-d4d-head-gasket-failure-options/",
+            "https://www.toyotaownersclub.com/forums/topic/105938-definitive-22-d4d-head-gasket-stance-by-toyota/",
+            "https://www.toyotaownersclub.com/forums/topic/124326-22-head-gasket-issue/",
+            "https://www.toyotaownersclub.com/forums/topic/166238-avensis-estate-t180-d4d-head-gasket-problems/",
+            "https://www.toyotaownersclub.com/forums/topic/167852-22-d4d-head-gasket-cost-to-repair/",
+            "https://www.toyotaownersclub.com/forums/topic/132178-charliefarlies-guide-to-the-toyota-2ad-diesel-engine-and-its-issues/",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=75981"
           ]
         }
       ]
@@ -7716,6 +7889,19 @@
     },
     {
       "marka": "Ford",
+      "model": "C-Max (2003-2010)",
+      "motor": "1.6 TDCi 90/109 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Ford",
       "model": "C-Max / Grand C-Max (2010-2019)",
       "motor": "1.0 EcoBoost 100/125",
       "uretim_yillari": {
@@ -8157,6 +8343,38 @@
     },
     {
       "marka": "Ford",
+      "model": "Focus 2 (2004-2011)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Gösterge paneli (kadran) arızası: göstergelerin gidip gelmesi, devir saatinin sıfırlanması ve immobilizer uyarıları",
+          "etkilenen_parca": "Gösterge paneli devre kartı (ana konnektör pimlerinin lehimleri), GEM modülü, hız sensörü bağlantısı",
+          "belirtiler": "Hız göstergesi ve devir saati ibrelerinin aniden sıfıra düşüp geri gelmesi, kilometre sayacında '---', sıcaklık göstergesinin sıfırda kalması, kontak açıldığında göstergelerin birlikte kararması; immobilizer (PATS) uyarısı, uyarı lambaları ve bazı vakalarda aracın çalışmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Ford Owners Club'ta Focus Mk2 ve Mk2.5 sahipleri sorunu gösterge kartının ana konnektör pimlerindeki çatlak lehimlere bağlıyor; kurşunsuz lehimin zamanla kırılganlaştığı ve titreşimle çatladığı, immobilizer arızasının sık görülen bir işaret olduğu yazılıyor. DonanımHaber'de sahipler hız göstergesinin gidip gelmesini hız sensörüne, aküye ve gösterge panelinin soket lehimlerine bağlıyor; bir sahip soket lehimlerini yenileyince arızanın bittiğini ve veri yolu hatası (U0155) gördüğünü, bir başkası GEM modülünü kronik sayılabilecek bir arıza olarak anıyor.",
+            "teshis": "Forumlarda önce aküyü ve gösterge konnektöründeki üç ayrı beslemenin gerilimini kontrol etmek, ardından hız sensörünü ve konnektörleri incelemek öneriliyor; hata kodlarında U-kodları (U0155, U1900) görülebiliyor, tek başına U1900'ün tanı koymaya yetmediği belirtiliyor.",
+            "cozum": "Göstergenin sökülüp devre kartındaki konnektör pimlerinin (yaklaşık 32 pim) yeniden lehimlenmesi anlatılıyor; bazı sahipler eski lehimi alıp kurşunlu lehimle yenilemenin kalıcı olduğunu, basit yeniden ısıtmanın zamanla yine bozulabildiğini yazıyor. Kullanılmış gösterge takmanın immobilizer yeniden programlaması gerektirebildiği ve önerilmediği belirtiliyor.",
+            "maliyet": "Kullanıcı beyanları (tarihleri değişken, güncel fiyat olarak okumayın): Ford Owners Club'ta İngiltere'deki gösterge onarım servisleri için yaklaşık 50-100 sterlin; DonanımHaber'de hız sensörü değişimi için yaklaşık 110 TL işçilik.",
+            "onlem": "Gösterge ibreleri arada sıfırlanıyorsa önce akü ve konnektörleri, ardından kart lehimlerini kontrol ettirmek. Ford Owners Club başlıkları Mk2 ve Mk2.5 (2008-2011 makyajlı) göstergelerine aittir."
+          },
+          "kaynaklar": [
+            "https://www.fordownersclub.com/forums/topic/17744-mk2-focus-instrument-cluster/",
+            "https://www.fordownersclub.com/forums/topic/47539-problem-with-instrument-cluster/",
+            "https://www.fordownersclub.com/forums/topic/155258-intermittent-instrument-custer-fault-not-usual-pcb-fault/",
+            "https://www.fordownersclub.com/forums/topic/152575-cluster-problems-ford-focus-cc3-mk2-petrol-09/",
+            "https://forum.donanimhaber.com/ford-focus-hiz-gostergesi-gidip-geliyor--15301130",
+            "https://forum.donanimhaber.com/ford-focus-2-c-max-1-6-benzin-lpg-gosterge-paneli-hatasi-yesil-ekran-karincalaniyor--160448616"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Ford",
       "model": "Focus 3 (2011-2018)",
       "motor": "1.6 Ti-VCT (Powershift DPS6)",
       "uretim_yillari": {
@@ -8505,6 +8723,35 @@
       "kronik_sorunlar": [],
       "aileler": [
         "psa-dv6-hdi-tdci"
+      ]
+    },
+    {
+      "marka": "Ford",
+      "model": "Transit Connect / Tourneo Connect (I, 2002-2013)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kapı kilit motoru ve merkezi kilit arızası: kayar kapının açılmaması, kumandayla kilitlenememe ve kapıların kendiliğinden açılması",
+          "etkilenen_parca": "Kapı kilit motorları (özellikle kayar kapı), merkezi kilit ve kapı sensörleri",
+          "belirtiler": "Kumandayla kilitlemenin ardından kapıların kendiliğinden yeniden açılması ve 'kapı açık' uyarısının yanması; kilitleme tuşuna iki kez basılmadan kapıların kilitlenmemesi; kumandayla açarken sol arka kayar kapının açılmaması; sürüş sırasında kayar kapı uyarısının yanıp sönmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2010-2012 model Connect sahipleri kumandayla kilitlenen kapıların kendiliğinden yeniden açıldığını, kapı kapalıyken 'kapı açık' uyarısının yandığını ve sol arka kayar kapının açılmadığını yazıyor; Ekşi Sözlük'te bir sahip kapı kilit motorlarının bozulmasını en kritik kronik sorun olarak tanımlıyor; Başka bir yorumcu sorunun 2004 ve 2010 modellerde de yaşandığını, bir kez başlayınca kolay kolay durmadığını yazıyor. Kök neden kaynaklarda doğrulanmadı.",
+            "teshis": "Kaynaklarda kilit motoru, kablolama, kapı sensörü ve merkezi kilit modülü olasılıkları birbirinden ayrılmıyor; bir sahip sağ kayar kapının 4 yıl önce ciddi bir masrafla değiştirildiğini ama sorunun 3-4 yıldır sürdüğünü yazıyor.",
+            "onlem": "Anlatılar 2004-2013 arası farklı model yıllarına ait; Şikâyetvar sayfalarında servis bülteni ya da kampanya kaydına rastlanmadı. Kilit tekrarlıyorsa yalnızca motoru değil kablolama ve sensörleri de kontrol ettirmek."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/connect-kilit-sorunu--135393049",
+            "https://forum.donanimhaber.com/connect-basit-ama-kronik-bir-sorun--47151069",
+            "https://eksisozluk.com/ford-tourneo-connect--376266?p=7",
+            "https://www.sikayetvar.com/ford/tourneo-connect/ariza",
+            "https://www.sikayetvar.com/ford/ford-merkezi-kilit-sorunu"
+          ]
+        }
       ]
     },
     {
@@ -13637,6 +13884,47 @@
     },
     {
       "marka": "Peugeot",
+      "model": "207 (2006-2014)",
+      "motor": "Otomatik şanzımanlı benzinli (AL4)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-renault-al4-dp0"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "207 (2006-2014)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kaput–ön cam arası tahliye kanallarının tıkanması: ayak boşluğuna, kalorifer ve fan direnç kartı bölgesine su alma",
+          "etkilenen_parca": "Ön cam altı (kaput arkası) su tahliye kanalları ve kapakçıkları, kalorifer hava girişi, fan direnç kartı",
+          "belirtiler": "Yağmurda ya da yıkamadan sonra sürücü ve yolcu ayak boşluğunda ıslaklık, halı altında su birikmesi; kalorifer fanı ve direnç kartının arızalanması; sağanakta tahliye temiz olsa bile su alma anlatıları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir 207 sahibi tahliye kanallarının tıkanması sonucu su almanın 207'lerde yaygın ve en önemli şikâyetlerden biri olduğunu, kanal temiz tutuldukça sorunun çıkmadığını yazıyor; kanaldan taşan su kalorifer sistemi ve ayak havalandırması yoluyla içeri giriyor. French Car Forum'da 207 sahipleri tekerlek yuvası astarı sökülünce görünen küçük kapakçığı açıp temizlemeyi öneriyor; bir sahip yıllarca biriken yaprak ve çamuru temizlemesine rağmen sağanakta ayak boşluğunun yine su aldığını yazıyor, bir yanıtta su kalorifer hava girişinden fan direnç kartına ulaşıp kartı bozabiliyor.",
+            "teshis": "Forumlarda diğer olası kaynaklar olarak cam altı fitil / conta çatlağı, sunroof tahliye hortumları, kapı tahliye delikleri ve kalorifer radyatörü sızıntısı (soğutma suyu kokusu) sayılıyor; tahliye temizlense de sorun sürüyorsa su testiyle giriş yeri aranması öneriliyor.",
+            "cozum": "Kaput ile cam arasındaki ızgaranın altındaki kanalları, şasi altındaki tahliye deliklerini ve tekerlek yuvası arkasındaki kapakçığı telle ya da plastik bir araçla açmak ve bol suyla yıkamak forumlarda anlatılıyor.",
+            "onlem": "Ağaç altında park etmemek; sonbaharda yaprak ve toz birikimini temizlemek; tahliye kanallarını düzenli kontrol etmek. Anlatılar farklı model yıllarını (2007-2012) kapsıyor, 207'ye özgü tek bir parça arızası değil bakım ve tasarım kaynaklı bir sorundur."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/peugeot-207--7275740-145",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=88227",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=32586"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "208 / 2008 (2012-2019)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
@@ -14065,6 +14353,65 @@
     },
     {
       "marka": "Peugeot",
+      "model": "307 (2001-2008)",
+      "motor": "1.6 HDi 90/110 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2001,
+        "bitis": 2008
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci",
+        "psa-hdi-cift-kutleli-volan"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "307 (2001-2008)",
+      "motor": "Otomatik şanzımanlı benzinli (AL4)",
+      "uretim_yillari": {
+        "baslangic": 2001,
+        "bitis": 2008
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-renault-al4-dp0"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "307 (2001-2008)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2001,
+        "bitis": 2008
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "BSI (kasa elektroniği ünitesi, 'beyin') arızası: elektrik aksamının çalışmaması, marş sorunları ve sıfırlanan ekranlar",
+          "etkilenen_parca": "BSI (yerleşik sistemler arayüzü) ünitesi, içindeki röleler ve konnektörleri",
+          "belirtiler": "Araç çalışmama ya da marş sorunları, aydınlatma ve gösterge paneli arızaları, elektrikli aksesuarların (cam, kilit) çalışmaması, saat ve ekran ayarlarının sıfırlanması, 'anti pollution' ve ESP uyarıları; çoğu zaman bilgisayarda arıza kodu çıkmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de 307 sahipleri nedenin çoğunlukla BSI'ya su ve nem girmesi olduğunu yazıyor; bir kullanıcı LPG tüpü bölgesindeki nemin geri park sensörü üzerinden BSI'da kısa devre yaptığını öne sürüyor. Honest John'da bir sahipte BSI konnektörleri temizlenmesine rağmen 'anti-pollution' ve ESP uyarıları geri geliyor, bayi korozyonun ünitenin içine yayılmış olabileceğini söylüyor; Honest John ve French Car Forum'da BSI içindeki rölelerin yanmış kontaklarının uzaktan kilitleme arızasına yol açtığı ve aküyü uzun süre ayırınca BSI kodlamasının kaybolabildiği yazılıyor.",
+            "teshis": "DonanımHaber'de servislerin bilgisayara bağlayınca arıza kodu bulamadığı vakalar anlatılıyor; French Car Forum'da arızalı ünite suçlanmadan önce BSI ve motor sigorta kutusundaki toprak (şase) ve besleme bağlantılarının kontrol edilmesi öneriliyor.",
+            "cozum": "Konnektörlerin temizlenmesi, BSI'nın bölünebilir yapısı sayesinde yalnızca röle kartının değiştirilmesi, ünite onarımı ya da değişimi ve ardından kodlama anlatılıyor.",
+            "maliyet": "DonanımHaber'de kullanıcı beyanları (eski, güncel fiyat olarak okumayın): BSI değişimi için birkaç yüz TL ile birkaç bin TL arasında rakamlar geçiyor.",
+            "onlem": "Su sızıntısı ve nem kaynaklarını gidermek (tavan, kaput altı tahliye kanalı, bagaj, LPG tüpü bölgesi); aküyü uzun süre ayırmamak; elektrik arızalarında önce toprak bağlantılarını kontrol ettirmek."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/peugeot-307-bsi-beyin-sorunu--47250903",
+            "https://forum.donanimhaber.com/307-bsi-beyin-problemi--14600177",
+            "https://forum.donanimhaber.com/peugeot-307-bsi-beyni-yardim-lutfen--145445262",
+            "https://www.sikayetvar.com/peugeot/307",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=67262",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=52126"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Peugeot",
       "model": "308 (III, 2021-)",
       "motor": "1.2 PureTech 130 (EB2, EAT8)",
       "uretim_yillari": {
@@ -14286,6 +14633,33 @@
       ],
       "aileler": [
         "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "407 (2004-2010)",
+      "motor": "1.6 HDi 110 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci",
+        "psa-hdi-cift-kutleli-volan"
+      ]
+    },
+    {
+      "marka": "Peugeot",
+      "model": "407 (2004-2010)",
+      "motor": "2.0 HDi 136 (DW10)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-hdi-cift-kutleli-volan"
       ]
     },
     {
@@ -14695,6 +15069,70 @@
             "https://www.sikayetvar.com/renault/captur/2023",
             "https://www.sikayetvar.com/renault/captur/kronik",
             "https://forum.donanimhaber.com/2020-model-captur-2-ve-basima-gelenler--150666002"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Clio 3 (2005-2012)",
+      "motor": "1.6 16V 110 (K4M)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k4m-1-6-16v"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Clio 3 (2005-2012)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Silecek / kumanda kolu (commodo) bölgesinde duman, yanık kokusu ve yangın başlangıcı",
+          "etkilenen_parca": "Silecek kumanda kolu (commodo) modülü, cam yıkama pompası devresi ve direksiyon altı kablo tesisatı",
+          "belirtiler": "Silecekler çalıştırılırken ya da yağmurda kumanda kolundan ve kontak bölgesinden duman, yanık plastik kokusu, küçük alev; saat, sıcaklık göstergesi ve klimanın kesilmesi; silecek ve yıkama arızaları.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar'da 2007 ve 2008 model Clio 3 sahipleri silecek kolundan ve kontak bölümünden duman geldiğini, bir araçta küçük alev oluştuğunu yazıyor; bir kullanıcı bunu yaşayan yüzlerce kişi gördüğünü söylüyor (kişisel iddia, resmî bir geri çağırma ya da Renault açıklaması bulunamadı). Planète Renault'ta bir Clio III sahibi kumanda kolundan keskin duman ve yanık plastik kokusu geldiğini, kol değiştirilince modülün kısmen yanmış çıktığını ve yıkama pompası devresinin yeniden bağlandığını anlatıyor; bir yanıt kısa devre aranmasını (pompaya giden kablolar, sigortalar) ve kablo demetinin erimiş olabileceğini öneriyor.",
+            "teshis": "Planète Renault'ta yanık bir şeyin olduğu yerde kısa devre aranması, yıkama pompasına giden kabloların ve sigortaların kontrol edilmesi öneriliyor; Bir forum kullanıcısı sigortanın silecek kolunu attırdığını yazıyor.",
+            "cozum": "Kumanda kolunun / modülün değiştirilmesi ve yıkama pompası devresinin onarımı anlatılıyor; yalnızca kolu değiştirmenin yeterli olmayabileceği (kablo demeti) belirtiliyor.",
+            "onlem": "Duman ya da yanık kokusunda aracı güvenli yerde durdurup kontağı kapatmak, aküyü ayırmak ve kablo tesisatını kontrol ettirmek; bazı kullanıcılar servisin sorunu 'kullanıcı hatası' diye nitelediğini yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/renault-clio-3-silecek-ve-kontaktan-duman-cikmasi-ve-alev-almasi",
+            "https://www.sikayetvar.com/renault/renault-silecek-kolundan-duman-yukseldi",
+            "https://www.sikayetvar.com/renault/clio/silecek?page=2",
+            "https://www.planeterenault.com/forum/clio-iii-debut-incendie-commodo-essuie-glace-t39773.html",
+            "https://www.planeterenault.com/forum/clio-iii-problemes-commodos-regle-t39000.html",
+            "https://www.planeterenault.com/forum/clio-iii-essuie-glace-clio-iii-t50815.html"
+          ]
+        },
+        {
+          "sorun_adi": "Elektrikli direksiyon arızası: 'direksiyon yardımı arızası' uyarısı, direksiyonun birden sertleşmesi ve kolonda tıkırtı",
+          "etkilenen_parca": "Elektrikli direksiyon (EPS) kolonu, yardım motoru, tork sensörü ve kontrol ünitesi",
+          "belirtiler": "Göstergede direksiyon yardımı arıza mesajı ve uyarı lambaları; direksiyonun birdenbire ağırlaşması; direksiyon çevrilirken 'klak' ya da tıkırtı sesi; bazı anlatılarda servisin elektronik kontrolde sorun bulamaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de 2007 model bir Clio 3 HB 1.5 dCi sahibi direksiyonun birdenbire çok sertleştiğini ve uyarıların araç yeniden çalıştırılınca da döndüğünü, serviste bilgisayarın direksiyon beynine bağlanmadığını, parça sökülünce elektronik arıza bulunamadığını ama takılınca aracın çalışmadığını yazıyor; aynı başlıkta elektrik takviyeli direksiyon beyninin arızalı çıktığı ve parça fiyatının yaklaşık 2.800 TL olduğu anlatılıyor. Planète Renault'ta Clio III sahipleri 'direksiyon yardımı arızası' mesajının zaman zaman çıktığını, bir vakada sıcaklıkla artan boşluğu olan kolonun garanti kapsamında değiştirilmesiyle sorunun bittiğini, bir 2008 modelde kolon ve yardım motoru çevresinde pas oluştuğunu anlatıyor.",
+            "teshis": "Planète Renault'ta bir vakada direksiyon kontrol ünitesine ulaşılamaması ve aküyü ayırınca antidemarraj (immobilizer) lambasının sabit kalıp aracın çalışmaması anlatılıyor; gürültülü ve ağır direksiyonun bazen bozuk amortisör üst yuvasından da gelebildiği yazılıyor.",
+            "cozum": "Planète Renault'ta kolon garanti kapsamında değiştirilmiş; DonanımHaber'de direksiyon kutusu ve servo beyninin birlikte değişmesi gerektiği söylenen sahip var; çözümler vakaya göre değişiyor.",
+            "onlem": "Direksiyon yardımı uyarısı geldiğinde okuyucuyla arıza kodlarının okutulması; ağırlaşan direksiyonla yüksek hızda sürmekten kaçınmak. Anlatılar farklı model yıllarına (2007-2009) dağılıyor, kilometre bilgisi yok."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/clio-3-hb-direksiyon-ve-araba-calimiyo-lutfen-yardim--30902727",
+            "https://www.planeterenault.com/forum/clio-iii-probleme-de-direction-alourdie-et-qui-emet-un-claquement-t26403.html",
+            "https://www.planeterenault.com/forum/clio-iii-direction-assistee-hs-t30295.html",
+            "https://www.planeterenault.com/forum/clio-iii-cause-du-probleme-de-defaillance-de-la-direction-t45347.html",
+            "https://www.planeterenault.com/forum/clio-iii-cloc-dans-la-direction-qui-revient-regle-t36633.html",
+            "https://www.planeterenault.com/forum/clio-iii-bruit-dans-la-direction-t18294.html"
           ]
         }
       ]
@@ -15165,6 +15603,128 @@
     },
     {
       "marka": "Renault",
+      "model": "Megane 2 (2002-2010)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Anahtar kartı (el serbest kart) arızası: 'kart pilini değiştirin' uyarısı, kapıların açılıp kilitlenmemesi ve marş alınamaması",
+          "etkilenen_parca": "El serbest anahtar kartı (kart içi bobin ve lehim noktaları, pil) ve kart okuyucu",
+          "belirtiler": "Göstergede 'kart pilini değiştirin' ya da 'kart okunamadı' uyarısı; kartla kapıların açılıp kilitlenmemesi; kartı okuyucuya takınca bile aracın marş almaması ya da kartın yuvada eğilince çalışması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de sahipler kartın içindeki küçük lehim noktalarının zamanla koptuğunu, kartın düşmesinin lehimleri kırabildiğini, kartı açanların üç soğuk lehim bulup yenileyince kartın düzeldiğini yazıyor; 'kart pilini değiştirin' uyarısı yeni pil takıldıktan sonra da sürebiliyor. Planète Renault'ta Megane II / Scenic II sahipleri arızayı kart içindeki bobinin kopan lehimlerine, bazı vakalarda kapı kolu sensörüne ve kasa elektroniği ünitesine (UCH) bağlıyor; Megane II'nin ilk serisinde pil aşınmasının gösterge yerine yalnızca 'kart tespit edilmedi' olarak bildirildiği yazılıyor.",
+            "teshis": "Planète Renault'ta kartı okuyucuya takıp marş denemek, aküyü yaklaşık 10 dakika ayırıp yeniden bağlamak ve yedek anahtarı kullanmak, DonanımHaber'de kartı yuvada hafifçe bükmek ayırt edici test ya da geçici çözüm olarak anlatılıyor.",
+            "cozum": "Kartın açılıp lehimlerinin yenilenmesi, kart tamiri yapan anahtarcı ya da yeni kartın sipariş edilip aracın şasi numarasıyla kodlattırılması anlatılıyor.",
+            "maliyet": "DonanımHaber'de kullanıcı beyanları (yaklaşık 6 yıl öncesine ait, güncel değil): tamir yaklaşık 100 TL, yedek kart ya da kart değişimi yaklaşık 250-300 TL üzeri.",
+            "onlem": "Yedek kartı hazır tutmak ve kartı düşürmemek; kartı açarken falçatayı fazla içeri sokmamak ve yapıştırıcıyı dikkatli kullanmak gerektiği forumlarda uyarı olarak geçiyor."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/megane-ii-karti--31935525",
+            "https://forum.donanimhaber.com/megane-2-kart-tamiri--141592251",
+            "https://forum.donanimhaber.com/megane-2-kart-arizasi-nasil-sokulur-videolu-pili-degistirin-kapilari-acma-kapama-yapmamasi--95078612",
+            "https://forum.donanimhaber.com/renault-megan-2-kart-pilini-degistir-arzasinin-kesin-cozumu--129568937",
+            "https://forum.donanimhaber.com/megane-2-kart-kilitleyip-acmiyor--145195211",
+            "https://www.planeterenault.com/forum/megane-ii-pb-avec-la-carte-main-libre-t3610.html",
+            "https://www.technopat.net/sosyal/konu/megane-2-kart-kapilari-acip-kapatmiyor.1131741/"
+          ]
+        },
+        {
+          "sorun_adi": "Fren pedalı müşürü arızası: ani gaz kesme ve ivmelenmede boşluk (1.5 / 1.9 dCi anlatıları)",
+          "etkilenen_parca": "Fren pedalı (stop lambası) müşürü ve bağlantısı",
+          "belirtiler": "Sürüş sırasında ani güç kaybı ya da gaz kesme, her frenlemede ivmelenme boşluğu; stop lambalarının sürekli yanması ve ampul patlaması; çoğu vakada arıza ışığı olmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir sahip arızalı fren müşürünün beyne sürekli 'fren basıldı' sinyali gönderdiğini ve aracın aniden gaz kestiğini, orijinal müşürle sorunun bittiğini yazıyor; bir başka serviste müşürün plastik tırnakları kaymış, ayarı bozulmuş ve pedal basılı sanıldığı için stop lambaları sürekli yanıp patlamış. Planète Renault'ta 1.5 dCi sahibi her frenlemede ivmelenme boşluğunu fren müşürüne bağlıyor, bir başka başlıkta kullanıcılar gazla frene aynı anda basılınca gazın güvenlik gereği kesildiğini anlatıyor.",
+            "teshis": "Araç okuyucuyla fren müşürü devresi (Planète Renault başlıklarında DF050), gaz pedalı potansiyometresi ve devir sensörü kodları okunmalı; fren pedalı bırakılmışken stop lambalarının sönüp sönmediği kontrol edilmeli. Forumlarda aynı belirtinin gaz pedalı, enjektör, gaz kelebeği ve (bir vakada) debriyaj pedalı burçlarından da gelebildiği yazılıyor.",
+            "cozum": "Müşürün orijinal parçayla değişimi ve pedal ayarı anlatılıyor; DonanımHaber'de müşür değişiminden sonra gaz pedalı arızası kaydı çıkan sahipler de var.",
+            "onlem": "Anlatılan vakalar dCi'lere (1.5 ve 1.9) aittir; benzinli Megane II'de doğrulanmadı. Stop lambaları sürekli yanıyorsa ya da gaz kesme tekrarlıyorsa önce müşürü ve ayarını kontrol ettirmek."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/megane-2-1-5-dci-gaz-kesme--95241854",
+            "https://forum.donanimhaber.com/megane-2-1-5-dci-gaz-kesme--95241854-2",
+            "https://www.planeterenault.com/forum/megane-ii-trou-d-acceleration-sur-megane-1-9-dci-t39239.html",
+            "https://www.planeterenault.com/forum/megane-ii-trou-a-l-acceleration-t29537.html"
+          ]
+        },
+        {
+          "sorun_adi": "Döner kondaktör (airbag sargısı) arızası: airbag ışığı, hız sabitleyicinin çalışmaması ve direksiyonda çıtırtı",
+          "etkilenen_parca": "Direksiyon altındaki döner kondaktör (airbag sargısı / spiral kablo) ve soket bağlantıları",
+          "belirtiler": "Direksiyon çevrilirken airbag (bazen servis) ışığının yanıp sönmesi ya da sürekli yanması; hız sabitleyicinin devre dışı kalması; direksiyon çevrilirken 'kâğıt' ya da 'klik' sesi; bazı vakalarda direksiyon kilidinin kilitlenmemesi ve sürüşte merkezi kilidin devreye girmemesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de Megane II sahipleri direksiyonu çevirince airbag ışığının yanıp sönmesini ve hız sabitleyicinin çalışmamasını döner kondaktörün bozulmasına bağlıyor. Planète Renault'ta sargının sürücü airbag'i, kornayı ve hız sabitleyiciyi direksiyon ile sabit kısım arasında bağladığı, airbag ışığının direksiyonda 'klik' sesiyle birlikte geldiği yazılıyor; arızalı sargının direksiyon kilidinin kilitlenmemesine ve sürüşte merkezi kilidin devreye girmemesine yol açtığı da anlatılıyor.",
+            "teshis": "Aynı ışık koltuk altındaki konnektörlerin kötü teması, yolcu airbag devre dışı bırakma anahtarı ya da sensör fişinden de gelebiliyor (Planète Renault); okuyucuyla arıza kodlarının okunması öneriliyor. Forumlarda sargının tek başına diğer parçalardan daha sık bozulduğunu gösteren bir veri yok.",
+            "cozum": "Döner kondaktörün değiştirilmesi; bazı sahipler kabloyu lehimleyerek ya da soketi temizleyerek geçici çözüm bulmuş, bir Planète Renault kullanıcısı sargının dikkatle onarılabildiğini yazıyor ama başkaları güvenlik organı olduğu için değişimi öneriyor. DonanımHaber'de ışığı susturmak için airbag hattına direnç takmanın kazada airbag'in açılmamasına yol açabileceği uyarısı var.",
+            "maliyet": "Kullanıcı beyanları (tarihleri değişken, güncel fiyat olarak okumayın): DonanımHaber'de 350-500 TL arası tahminler; Şikâyetvar'da parça ve işçiliğin yüksek bulunduğu yazılıyor. Şikâyetvar'da Renault'nun arızayı ücretsiz giderdiği yönünde iddialar var, resmî bir garanti politikası olarak doğrulanmadı.",
+            "onlem": "Airbag ışığını direnç takarak ya da kablo sökerek susturmamak; ışık ve hız sabitleyici arızası birlikte geliyorsa kondaktörü ve koltuk altı konnektörlerini kontrol ettirmek."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/megane-2-doner-kondaktor-airbag-sargisi-sorunu-cozumu--99458554",
+            "https://forum.donanimhaber.com/megane-ii-doner-kondaktor-airbag-makarasi-sorunu--43595919",
+            "https://forum.donanimhaber.com/megane-ii-airbag-hatasi--46154886",
+            "https://forum.donanimhaber.com/megane-2-aracimda-hava-yastigi-lambasi-yaniyor--59484029",
+            "https://www.technopat.net/sosyal/konu/saglam-airbagli-olan-megane-2de-airbag-ikaz-isigi-yandi.3904426/",
+            "https://www.sikayetvar.com/renault/airbag/megane?page=4",
+            "https://www.planeterenault.com/forum/megane-ii-voyant-service-airbag-allume-bruit-dans-le-volants-t51000.html",
+            "https://www.planeterenault.com/forum/megane-ii-voyant-airbag-allume-t6395.html",
+            "https://www.planeterenault.com/forum/megane-ii-installation-regulateur-vitesse-t28331.html",
+            "https://www.planeterenault.com/forum/megane-ii-direction-non-verrouillee-t37232.html"
+          ]
+        },
+        {
+          "sorun_adi": "Elektrikli cam mekanizması (kriko) arızası: camın inmemesi / çıkmaması, plastik taşıyıcının kırılması",
+          "etkilenen_parca": "Elektrikli cam mekanizması (plastik taşıyıcı, halat ve makara), kriko motoru ve cam düğmesi",
+          "belirtiler": "Camın aşağı inip yukarı çıkmaması, tuşla indirilen camın yeniden kalkmaması; camın sürtünerek ve yavaş hareket etmesi; camın açık kalması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Honest John'da bir okuyucu Megane II'de cam mekanizması sorununun o kadar yaygın olduğunu, Renault müşteri hizmetlerinin cam sorunu olan sahipler için kayıtlı bir mesaj bulundurduğunu yazıyor; sahipler kırılgan plastik taşıyıcının ayrı satılmadığını, bu yüzden mekanizmanın ve motorun birlikte değiştiğini anlatıyor; bir sahip Phase 2 Megane'de mekanizmaların değiştirildiğini, değiştirilmiş parçaların Phase 1 araçlara bozulunca takıldığını aktarıyor. DonanımHaber'de sahipler camcıda kenardaki beyaz plastik parçaların kırılıp çatladığını ve telin değişmesi gerektiğini, bir ustanın kriko yatağının kaymış olduğunu söylediğini yazıyor.",
+            "cozum": "Mekanizmanın değiştirilmesi anlatılıyor; bir DonanımHaber sahibi camı kendi sabitleyip internetten halat ve makara tamir seti sipariş etmiş.",
+            "maliyet": "Kullanıcı beyanları (tarihleri değişken, güncel fiyat olarak okumayın): DonanımHaber'de kriko değişimi için 130-150 TL (YTL); Honest John'da bir tahminde iki ön cam için bayi yaklaşık 900 sterlin.",
+            "onlem": "Honest John'da Phase 2 (makyajlı) Megane'de mekanizmaların değiştirildiği, bozulan Phase 1 araçlara bu yeni parçaların takıldığı yazılıyor; cam yavaşlayıp sürtünmeye başlarsa erken kontrol etmek."
+          },
+          "kaynaklar": [
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=72487",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=66333",
+            "https://www.honestjohn.co.uk/renault/megane/2002/",
+            "https://forum.donanimhaber.com/megane-ii-on-cam-krikosu-yatak-sarmis--68593238",
+            "https://forum.donanimhaber.com/megane-2-on-sol-arka-sag-cam-acilmiyor--60639369"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Megane 2 / Scenic 2 (2002-2010)",
+      "motor": "1.5 dCi 82/86/100/105 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Megane 2 / Scenic 2 (2002-2010)",
+      "motor": "1.6 16V 110/113 (K4M, manuel ve AL4 otomatik)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-renault-al4-dp0",
+        "renault-k4m-1-6-16v"
+      ]
+    },
+    {
+      "marka": "Renault",
       "model": "Megane 3 / Fluence (2009-2016)",
       "motor": "1.5 dCi (K9K, EDC)",
       "uretim_yillari": {
@@ -15415,6 +15975,100 @@
             "https://www.sikayetvar.com/renault/renault-multimedya-ekrani-sorunu-video",
             "https://forum.donanimhaber.com/yeni-sorun-renault-megane-4-ve-yasadigim-problemler-yeni-guncelleme-c-led-sararmasi--134898560",
             "https://forum.donanimhaber.com/megane-4-bluetooth-baglanti-sorunu--145390496"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Scenic 2 / Grand Scenic 2 (2003-2009)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2009
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektronik park freni arızası: 'park freni arızalı' uyarısı, bırakmama / uygulamama ve bazı vakalarda aracın çalışmaması",
+          "etkilenen_parca": "Elektronik park freni düğmesi ve kontrol ünitesi, arka kaliper motorları ve fren kabloları",
+          "belirtiler": "Göstergede park freni uyarısı, düğmede yanıp sönme; park freninin uygulanmaması ya da bırakılmaması; bazı anlatılarda aracın çalışmaması ya da yerinden kıpırdamaması; orta konsolun kilitli kalması.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Honest John'da sahipler arka kaliper motorlarının neme maruz kalmasını ve ünitenin yaklaşık 4 yaşında arızalanabildiğini anlatıyor. Planète Renault'ta Scénic II sahipleri kaliper kablosunun kılavuzundan çıkmasını ya da kılıfının kesilmesini, kaliper motoru hata kodunu (DF043) ve karttaki küçük bir röleyi, fren pedalı sensörünün yanlış bilgi vermesini, düşük akü gerilimini ve koltuk altındaki fişin oksitlenmesini neden olarak gösteriyor; bir kullanıcı 2003 - Haziran 2005 arası Scénic II için park freni bilgisayarı güncellemesi geri çağırmasından söz ediyor (doğrulanmadı). DonanımHaber'de kontrol kartına su girmesi ve deforme olan fren telinin lastiklere sürtmesi anlatılıyor.",
+            "teshis": "Planète Renault'ta arıza kodlarının (DF043, DF049) okunması öneriliyor; bagajdaki manuel gevşetme kolunu kullanmanın kendiliğinden hata kaydı oluşturduğu yazılıyor. Balata değişiminden sonra 'park freni kontrol' uyarısı çıkabildiği Honest John'da ayrı bir başlıkta anlatılıyor.",
+            "cozum": "Kablo ve kaliper kontrolü, gerektiğinde kablo ya da kaliper motoru değişimi; bir Planète Renault kullanıcısı karttaki küçük röleyi değiştirip eğim sensörü öğrenmesi yapmış. DonanımHaber'de yedek lastik bölmesindeki butonla frenlerin boşaltılması ve ardından servise gidilmesi öneriliyor; uygulamadan önce kullanım kılavuzunu doğrulayın.",
+            "maliyet": "Kullanıcı beyanları (tarihleri değişken, güncel fiyat olarak okumayın): Honest John'da ünite değişimi için normal bedel yaklaşık 536 sterlin (Renault servisli araçta maliyetin yarısını Renault üstlenebiliyor); DonanımHaber'de ünite değişiminin o dönem yaklaşık 4.500 TL olduğu yazılıyor.",
+            "onlem": "Akü gerilimini ve koltuk altındaki fişi kontrol etmek, balata değişimi sonrası park freni uyarısını servise bildirmek; 2003-2005 üretimi araçlarda geri çağırma durumunu şasi numarasıyla Renault'dan sormak."
+          },
+          "kaynaklar": [
+            "https://www.planeterenault.com/forum/scenic-ii-panne-frein-de-parking-automatique-t46764.html",
+            "https://www.planeterenault.com/forum/scenic-ii-frein-de-parking-defaillant-t25940.html",
+            "https://www.planeterenault.com/forum/scenic-ii-probleme-frein-de-parking-automatique-t33804.html",
+            "https://www.planeterenault.com/forum/scenic-ii-frein-de-parking-electrique-t12751.html",
+            "https://www.planeterenault.com/forum/scenic-ii-pas-de-demarrage-frein-parking-defaillant-t25566.html",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=66679",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=69925",
+            "https://www.honestjohn.co.uk/askhj/answer/4892/is-it-normal-for-the-renault-scenic-s-electric-parking-brake-to-fail-after-70-000-miles-",
+            "https://forum.donanimhaber.com/scenic-park-fren-ve-orta-konsol-sorunu-cozumu--141621435"
+          ]
+        },
+        {
+          "sorun_adi": "Gösterge paneli (kadran) arızası: göstergelerin sıfırlanması, kilometre sayacının bozulması ve ekranın kararması",
+          "etkilenen_parca": "Gösterge paneli devre kartı (güç transistörü ve lehimler), ekran ve EEPROM belleği",
+          "belirtiler": "Hız, devir ve yakıt göstergelerinin birlikte sıfıra düşmesi; kilometre sayacının bir yolculukta binlerce km ileri gidip gelmesi ya da sıfırlanması; saat ve yolculuk verilerinin silinmesi; gösterge ekranının kararması ve sesli uyarı.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Planète Renault'taki uzun 'Tableau de bord en panne' konusunda Scénic II sahipleri sorunu kart üzerindeki güç transistörüne (MOSFET), sigortaya, transformatör ve dirençler çevresinde yorulan lehimlere, EEPROM belleğinin bozulmasına ve ana ekranın ölmesine bağlıyor. Honest John'da göstergenin yaklaşık 4 yaşında tamamen arızalanabildiği, saat ve yolculuk verilerinin silindiği anlatılıyor. DonanımHaber ve Şikâyetvar'da sahipler 2005 model araçlarda ekran kararmasının 'kronik' olduğunu, yetkili ve özel servislerin aynısını söylediğini yazıyor.",
+            "teshis": "DonanımHaber'de bir yanıtta kilometre sorununun hız sensörü ya da kablo bağlantılarından da gelebileceği belirtiliyor; Planète Renault'ta bir kullanıcı gösterge arızalarının büyük çoğunluğunun donanım, yaklaşık beşte birinin bellek bozulması olduğunu yazıyor (tek kişinin tahmini).",
+            "cozum": "Kart lehimlerinin yenilenmesi ya da panelin değiştirilmesi; DonanımHaber'de dışarıdaki oto elektroniği onarımının kısa sürede yeniden arıza verebildiği yazılıyor. Panel değişiminden sonra kilometrenin sıfırlanabildiği anlatılıyor.",
+            "maliyet": "Kullanıcı beyanları (tarihleri değişken, güncel fiyat olarak okumayın): Honest John'da yeni gösterge için yaklaşık 500 sterlin; DonanımHaber'de yetkili serviste yaklaşık 1.000 TL.",
+            "onlem": "İkinci el alırken göstergenin değiştirilip değiştirilmediğini (ilanlarda yetkili servis belgesi anılıyor) ve kilometrenin tutarlılığını sorgulamak."
+          },
+          "kaynaklar": [
+            "https://www.planeterenault.com/forum/scenic-ii-topic-unique-tableau-de-bord-en-panne-t21643-1760.html",
+            "https://www.planeterenault.com/forum/scenic-ii-topic-unique-tableau-de-bord-en-panne-t21643-320.html",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=63657",
+            "https://www.honestjohn.co.uk/renault/scenic/2003/cabin/",
+            "https://forum.donanimhaber.com/scenic-2-gosterge-arizasi--122303498",
+            "https://forum.donanimhaber.com/scenic-hiz-gostergesi-km-arizasi--54751940",
+            "https://www.sikayetvar.com/renault/renault-scenic-ii-aracimin-gosterge-panel-arizali",
+            "https://www.sikayetvar.com/renault/scenic/gosterge"
+          ]
+        },
+        {
+          "sorun_adi": "Sürgülü orta konsolun (kolçak altı saklama gözü) kilitli kalması ve açılmaması",
+          "etkilenen_parca": "Sürgülü orta konsol kilit mekanizması, kilit motoru, kumanda düğmesi ve sigortası",
+          "belirtiler": "Düğmeye basınca 'tık' sesi gelmesine rağmen konsolun kaymaması; konsolun kilitli kalması; bazı anlatılarda konsolun altındaki teşhis (OBD) fişine erişimin engellenmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Planète Renault'ta Scénic II sahipleri sürücü koltuğu altındaki 10 A sigortayı (kilit motorunu besleyen), kumanda düğmesindeki yayın fırlamasını, kırılan kilit mekanizmasını ve konsolun içine sıkışan cisimleri neden olarak gösteriyor; 2004 model bir araçta birden fazla işlevin birlikte bozulması kasa elektroniği ünitesine (UCH) bağlanmış (doğrulanmadı). DonanımHaber'de sahipler orta konsolun kilitli kalıp hareket etmemesini Scenic'in bilinen kronik sorunlarından biri olarak sayıyor ve konsolu tutan dilin takıldığını yazıyor.",
+            "teshis": "Önce sigortalar ve düğme, ardından konsolun içindeki yabancı cisim ve mekanizma kontrol edilmeli; Planète Renault'ta konsola ulaşmak için kolçakların, Torx vidaların ve koltukların sökülmesinin gerektiği ve işin yaklaşık 1,5 saat sürdüğü yazılıyor.",
+            "cozum": "Kırık kilit mekanizmasının parça sipariş edilerek değiştirilmesi (bir sahip yaklaşık 126 euro ödemiş); DonanımHaber'de bir sahip ilk araçta onarımın 85 TL tuttuğunu, ikinci araçta sorunun küçük bir müdahaleyle ücretsiz çözüldüğünü yazıyor."
+          },
+          "kaynaklar": [
+            "https://www.planeterenault.com/forum/scenic-ii-rangement-central-bloque-t6460.html",
+            "https://www.planeterenault.com/forum/scenic-ii-rangement-central-coulissant-bloque-t3690.html",
+            "https://www.planeterenault.com/forum/scenic-ii-l-accoudoir-central-coulissant-hs-t43497.html",
+            "https://forum.donanimhaber.com/surgulu-orta-konsol-problemi-scenic-ii-megane-ii--38919107",
+            "https://forum.donanimhaber.com/scenic-park-fren-ve-orta-konsol-sorunu-cozumu--141621435"
+          ]
+        },
+        {
+          "sorun_adi": "Anahtar kartı (el serbest kart) arızası: 'kart okunamadı' uyarısı, kapıların açılmaması ve marş alınamaması",
+          "etkilenen_parca": "El serbest anahtar kartı (kart içi bobin ve lehim noktaları, pil), kapı kolu sensörleri ve kart okuyucu",
+          "belirtiler": "Göstergede 'kart tespit edilmedi' uyarısı; kartla kapıların açılıp kilitlenmemesi; marş sırasında kartın tanınmaması; bazı anlatılarda kartla ilgili uyarıya rağmen aracın çalışması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Planète Renault'ta Scénic II / Megane II sahipleri arızayı kart içindeki bobinin kopan lehimlerine (bir kullanıcı üç lehimden ikisinin kırık olduğunu bulmuş), kapı kolundaki optik sensör anahtarına ya da kasa elektroniği ünitesine (UCH) bağlıyor; bir kullanıcı 'iki karttan birinin' pil çevrilse bile sorun çıkardığını yazıyor.",
+            "teshis": "Forumlarda kartı okuyucuya takıp marş denemek, aküyü yaklaşık 10 dakika ayırıp yeniden bağlamak ve yedek anahtarı kullanmak geçici çözüm ya da ayırt edici test olarak anlatılıyor.",
+            "cozum": "Kart içindeki lehimlerin yenilenmesi, kapı kolu sensörünün değiştirilmesi ya da UCH'nin sıfırlanması / yeniden programlanması anlatılıyor; etkileri değişken.",
+            "onlem": "Yedek kartı ayrı tutmak; arıza tekrarlıyorsa kartı değil kapı kolu sensörlerini ve UCH'yi de kontrol ettirmek."
+          },
+          "kaynaklar": [
+            "https://www.planeterenault.com/forum/scenic-ii-carte-non-detectee-t9754.html",
+            "https://www.planeterenault.com/forum/scenic-ii-carte-mains-libres-non-detectee-t16468.html",
+            "https://www.planeterenault.com/forum/scenic-ii-probleme-de-carte-mains-libres-demarrage-toujours-autorise-t34370.html",
+            "https://frenchcarforum.co.uk/forum/viewtopic.php?t=26560"
           ]
         }
       ]
@@ -17387,6 +18041,19 @@
     },
     {
       "marka": "Toyota",
+      "model": "Auris (E150, 2009-2012)",
+      "motor": "1.33 Dual VVT-i 99 (1NR-FE)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-1nr-fe-1-33"
+      ]
+    },
+    {
+      "marka": "Toyota",
       "model": "Auris (E180, 2013-2018)",
       "motor": "1.33 Dual VVT-i 99 (1NR-FE)",
       "uretim_yillari": {
@@ -17409,6 +18076,53 @@
       "kronik_sorunlar": [],
       "aileler": [
         "toyota-hsd-hibrit"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Avensis (T25 FL / T27, 2006-2012)",
+      "motor": "2.0 D-4D (1AD-FTV) / 2.2 D-4D (2AD-FTV)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-ad-ftv-2-0-2-2-d4d"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Avensis (T27, 2009-2018)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2018
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektronik park freni (EPB) arızası: 'park freni sistemini kontrol edin' uyarısı, el freninin bırakmaması / hiç devreye girmemesi",
+          "etkilenen_parca": "Elektronik park freni aktüatörü, arka kaliperler ve kabloları, kontrol ünitesi",
+          "belirtiler": "Göstergede 'park freni sistemini kontrol edin' uyarısı; el freninin devreye girmemesi ya da bırakmaması; bir sahipte vites boştayken gaza basınca frenin kendiliğinden bırakması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2012 model bir Avensis sahibi el freninin hiç devreye girmediğini, başka bir sahip el fren tesisatını komple yenilettikten 9 ay sonra sol arka kaliperin değiştirildiğini yazıyor; Technopat'ta 2016 model bir Avensis'te uyarı hava akış metresi ve oksijen sensörü değişiminden sonra tekrarlıyor. Toyota Owners Club'ta T27 sahipleri aktüatörün gerçekten arızalanabildiğini ama bayilerin çoğu zaman aktüatörü suçladığını, asıl nedenin sıkışmış arka kaliper pimi / pistonu, kopan ya da sıkışan kablo, balata değişiminde pistonların yanlış geri çevrilmesi, vites konum sensörü, zayıf akü ya da ünitenin içine su girmesi olabildiğini yazıyor.",
+            "teshis": "Toyota Owners Club'ta genel bir okuyucuyla sıfırlamanın kalibrasyonları (ör. debriyaj stroku ve G sensörü sıfır noktaları) silebildiği, Techstream ya da Delphi gibi uygun bir cihazla tanı ve kalibrasyon yapılması gerektiği; C13A7 kodunun motor sıkışması ya da aktüatör kablolarından birinin ya da ikisinin kaliperden ayrılması koşullarını belirttiği yazılıyor.",
+            "cozum": "Aktüatör değiştirmeden önce arka kaliperlerin serbest hareketi, balata ve pistonların doğru takılması, vites konum sensörü ve akü kontrol edilmeli; kullanılmış aktüatör takıldığında uyumsuzluk uyarısı çıkıp yeniden programlama gerekebildiği anlatılıyor.",
+            "maliyet": "Kullanıcı beyanları (tarihleri değişken, güncel fiyat olarak okumayın): Toyota Owners Club'ta bayi teklifleri montaj ve KDV dahil yaklaşık 1.590 euro, bir başka sahipte 1.510 sterlin.",
+            "onlem": "Balata değişiminden sonra pistonların doğru geri çevrildiğini ve kalibrasyonun yapıldığını servisten istemek; uyarı tekrarlıyorsa akü gerilimini kontrol ettirmek."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/toyota-avensis-t27-kronik-el-fren-sorunu",
+            "https://www.sikayetvar.com/avensis/kronik",
+            "https://www.technopat.net/sosyal/konu/toyota-avensis-t27-park-freni-sistemini-kontrol-edin-uyarisi.4146806/",
+            "https://www.toyotaownersclub.com/forums/topic/180965-electronic-parking-brake-problem/",
+            "https://www.toyotaownersclub.com/forums/topic/178012-epb-fault-check-parking-brake-system-returns/",
+            "https://www.toyotaownersclub.com/forums/topic/219669-t27-avensis-electronic-parking-brake-issue/",
+            "https://www.toyotaownersclub.com/forums/topic/186684-2012-toyota-avensis-parking-brake-actuator/",
+            "https://www.toyotaownersclub.com/forums/topic/226633-c13a7-error-code-with-parking-brake-flashes-when-pb-applied/"
+          ]
+        }
       ]
     },
     {
@@ -17535,6 +18249,35 @@
       ],
       "aileler": [
         "toyota-1nd-tv-1-4-d4d"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla (E150, 2007-2013)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2007,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Tavan, bagaj kapağı ve kaputta boya kalkması (2010-2013 model yılları)",
+          "etkilenen_parca": "Dış boya (tavan, bagaj kapağı, kaput)",
+          "belirtiler": "Tavan ve bagaj kapağında kabarma, katman halinde kalkma ve dökülme; yeniden boyanan bölgede sorunun tekrarlaması; anlatılan araçların bir kısmı beyaz renk.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da çok sayıda sahip 2011-2012 model Corolla'larda tavan, bagaj kapağı ve kaputta boya atmasını fabrikasyon kaynaklı sayıyor ve servislerin 'kronik' dediğini yazıyor; bir sahip Toyota'nın 2010-2012 model beyaz araçlarını masrafsız boyadığını öne sürüyor (kullanıcı iddiası, resmî kaynakla doğrulanmadı). DonanımHaber'de 2012 model beyaz bir 1.33'ün tavan boyasının kalktığı ve bayinin tavanı yeniden boyayacağını söylediği, bazı sahiplerde boyanın yeniden atmasının sürdüğü anlatılıyor; başka bir başlıkta Corolla boya sorununun uzun süredir bilindiği yazılıyor.",
+            "cozum": "Şikâyetvar ve DonanımHaber'de bazı sahipler garanti ya da ücretsiz boya kapsamında yeniden boyandığını, bir kısmı talebin reddedildiğini ya da uzun süre beklediğini yazıyor; bir sahip Türkiye genelinde bu işlemlerin durdurulduğunun kendisine söylendiğini aktarıyor (tek müşteri hizmetleri görüşmesine dayanıyor). Ücretsiz boyanmasına rağmen değer kaybı şikâyeti var.",
+            "onlem": "Satın alırken tavan, bagaj kapağı ve kaput boyasını kabarma ve katman ayrılması açısından incelemek; kaynaklarda resmî bir Toyota Türkiye boya kampanyası duyurusuna rastlanmadı, kampanya durumunu Toyota Türkiye'den sormak."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/corolla/boya-atmasi",
+            "https://www.sikayetvar.com/toyota/toyota-corolla-2012-kronik-boya-atmasi-sorunu-ucretsiz-tamir-talebi",
+            "https://www.sikayetvar.com/toyota/toyota-fabrikasyon-kaynakli-boya-atmasi",
+            "https://forum.donanimhaber.com/2012-corolla-tavan-boyasi-kalkmasi-hakkinda--151656434",
+            "https://forum.donanimhaber.com/corolla-tavan-boyasi-sorunu--113808401"
+          ]
+        }
       ]
     },
     {
@@ -17701,6 +18444,32 @@
     },
     {
       "marka": "Toyota",
+      "model": "Hilux (Vigo, 2005-2015)",
+      "motor": "3.0 D-4D 171 (1KD-FTV)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-1kd-ftv-3-0-d4d"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Land Cruiser Prado (J120, 2002-2009)",
+      "motor": "3.0 D-4D (1KD-FTV)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2009
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-1kd-ftv-3-0-d4d"
+      ]
+    },
+    {
+      "marka": "Toyota",
       "model": "Land Cruiser Prado (J150, 2009-2015)",
       "motor": "3.0 D-4D (1KD-FTV)",
       "uretim_yillari": {
@@ -17725,8 +18494,12 @@
             "https://www.australiancar.reviews/recalls-faults-toyota-150-series-landcruiser-prado-2009-23/",
             "https://au.toyotaownersclub.com/forums/topic/37989-injector-leaks-and-engine-siezure/",
             "https://www.toyotaownersclub.com/forums/topic/108766-prado-d4d-hesitation-during-acceleration/"
-          ]
+          ],
+          "aile_sorunu": "toyota-1kd-ftv-3-0-d4d/enjektor"
         }
+      ],
+      "aileler": [
+        "toyota-1kd-ftv-3-0-d4d"
       ]
     },
     {
@@ -17754,6 +18527,19 @@
       "aileler": [
         "psa-bluehdi-adblue",
         "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "RAV4 (XA30, 2006-2012)",
+      "motor": "2.2 D-4D (2AD-FTV)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-ad-ftv-2-0-2-2-d4d"
       ]
     },
     {
@@ -17862,6 +18648,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "toyota-hsd-hibrit"
+      ]
+    },
+    {
+      "marka": "Toyota",
+      "model": "Yaris (XP90, 2006-2011)",
+      "motor": "1.4 D-4D 90 (1ND-TV)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "toyota-1nd-tv-1-4-d4d"
       ]
     },
     {

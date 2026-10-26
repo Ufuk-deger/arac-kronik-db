@@ -2,8 +2,8 @@
 
 Türkiye'de yaygın olarak kullanılan otomobillerin bilinen kronik sorunlarını
 marka, model ve motor bazında listeleyen, her maddesi kaynaklı JSON veritabanı.
-Kapsam son 10-15 yılın araçlarıdır (yaklaşık 2011 model yılı ve sonrası); elektrikli
-araçlar da kapsamdadır. Sorunlar, kaynaklar destekliyorsa üretim yılına göre kırılır
+Kapsam son 10-15 yılın araçlarıdır (yaklaşık 2011 model yılı ve sonrası); Peugeot, Renault, Ford ve Toyota
+için üretimi 2006 ve sonrasına uzanan yaygın nesiller de kapsamdadır. Elektrikli araçlar da kapsamdadır. Sorunlar, kaynaklar destekliyorsa üretim yılına göre kırılır
 (ör. revizyon öncesi ve sonrası). Motor ve şanzıman sorunlarının yanında, motordan bağımsız
 modele (nesle) özgü sorunlar da (cam tavandan su alma, kapı kilidi, boya vb.) "model geneli" kayıtlarda toplanır.
 

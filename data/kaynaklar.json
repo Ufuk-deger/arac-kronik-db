@@ -770,6 +770,14 @@
       "guven": "düşük",
       "ana_sayfa": "https://recharged.com/",
       "not": "Elektrikli araç ikinci el alım rehberleri ve model yazıları."
+    },
+    "technopat.net": {
+      "ad": "Technopat Sosyal",
+      "ulke": "TR",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.technopat.net/sosyal/",
+      "not": "Teknoloji ve otomobil başlıkları olan Türk forumu; marka ve model bazlı 'kronik sorun var mı' / 'alınır mı' konuları. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor."
     }
   }
 }
