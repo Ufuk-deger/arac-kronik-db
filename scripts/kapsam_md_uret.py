@@ -134,14 +134,15 @@ def uret():
         "",
         "## Ölçüt",
         "",
-        "- **Zaman penceresi:** Son 10-15 yılın araçları, yani yaklaşık 2011 model yılı ve sonrası. "
-        "Daha eski yıllar yalnızca ilk aşamada eklenmiş kayıtlarda kaldı (aşağıda ayrıca listelenir). "
+        "- **Zaman penceresi:** Son 10-15 yılın araçları. Başlangıçta pencere yaklaşık 2011 model yılıydı (daha eski yıllar yalnızca ilk aşamada eklenmiş kayıtlarda kaldı; aşağıda ayrıca listelenir). "
         "17. aşamadan itibaren Peugeot, Renault, Ford ve Toyota için pencere 2006'ya çekildi: üretimi 2006 ve sonrasına uzanan yaygın nesiller "
         "(ör. Megane II, Clio 3, Scenic II, Peugeot 307 / 207 / 407, Focus 2, Corolla E150, Avensis) kapsamdadır. "
+        "18. aşamadan itibaren diğer markalarda da pencere 2008'e çekildi: üretimi 2008 ve sonrasına uzanan, Türkiye'de çok bilinen ve satışı olan nesiller "
+        "(ör. Passat B6, Octavia A5, Leon 1P, BMW E90 / E60, Mercedes W211, Astra H, Civic FD6, Accent Era, Micra K12, Panda 169) kapsamdadır. "
         "\"Yaygın\" ölçütü TÜİK araç parkı sıralaması (nesil ayrımı yok) ile Türkiye'de resmî satış ve Türkçe sahip kaynağı hacmidir. "
         "Kaynaklar çoğunlukla model yılına göre ayrım yapmadığından bu nesillerde sorunlar nesil geneli için yazılır; "
-        "2006 öncesi başlayan nesillerde (Megane II, 307, Focus 2 gibi) 2006 sonrası model yılı kısmı için ayrı kanıt yoktur. "
-        "Diğer markalarda pencere 2011 olarak kalır.",
+        "pencereden önce başlayan nesillerde (Megane II, 307, Focus 2, Passat B6, Octavia A5 gibi) pencere sonrası model yılı kısmı için ayrı kanıt yoktur. "
+        "Üretimi 2008'de biten nesillerde (Golf 5, Vectra C gibi) yalnızca son model yılı pencereye girdiği için araştırma dar tutuldu.",
         "- **Marka seçimi:** Türkiye'de en çok satılan markalar (aşağıdaki tablo). İlk dört aşamada elektrikli ya da 2023 sonrası girmiş markalar "
         "(BYD, Togg, Tesla, Chery) \"motor grubu ve ikinci el geçmişi yok\" gerekçesiyle dışarıda bırakılmıştı; 5. aşamada elektrikli araçlar kapsama alındı ve bu markalar plana girdi. "
         "Bu listenin dışındaki markalar (`ek` kapsamı) ikinci el yaygınlığı ve kaynak bulunabilirliği gözetilerek editoryal olarak eklendi; satış adetleri doğrulanamadı.",

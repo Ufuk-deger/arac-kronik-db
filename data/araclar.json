@@ -41,7 +41,7 @@
       "id": "audi-multitronic-0aw",
       "ad": "Audi Multitronic (0AW) sürekli değişken şanzıman",
       "tur": "sanziman",
-      "aciklama": "Audi'nin 2008-2014 arasında ön çekişli A4 (B8), A5 (8T) ve A6 (C7) modellerinde benzinli ve dizel motorlarla kullandığı Multitronic (0AW) zincirli sürekli değişken şanzıman (CVT).",
+      "aciklama": "Audi'nin 2004-2014 arasında ön çekişli A6 (C6 ve C7), A4 (B8) ve A5 (8T) modellerinde benzinli ve dizel motorlarla kullandığı Multitronic (0AW) zincirli sürekli değişken şanzıman (CVT).",
       "kronik_sorunlar": [
         {
           "id": "multitronic-arizasi",
@@ -552,7 +552,7 @@
       "id": "bmw-xdrive-aktarma",
       "ad": "BMW xDrive transfer kutusu (ATC)",
       "tur": "sistem",
-      "aciklama": "Boyuna motorlu BMW xDrive modellerinde (X1 E84, X3 F25, X5 E70 / F15 ve 3, 5 Serisi xDrive) tork dağıtan transfer kutusu: servo motor ve çok plakalı kavrama. X1 F48 gibi enine motorlu modellerin xDrive sistemi farklıdır ve bu aileye dahil değildir.",
+      "aciklama": "Boyuna motorlu BMW xDrive modellerinde (X1 E84, X3 E83 / F25, X5 E70 / F15 ve 3, 5 Serisi xDrive) tork dağıtan transfer kutusu: servo motor ve çok plakalı kavrama. X1 F48 gibi enine motorlu modellerin xDrive sistemi farklıdır ve bu aileye dahil değildir.",
       "kronik_sorunlar": [
         {
           "id": "transfer-kutusu",
@@ -658,7 +658,7 @@
       "id": "fiat-1-3-multijet",
       "ad": "Fiat / Opel 1.3 Multijet - CDTI (common rail dizel, zincirli)",
       "tur": "motor",
-      "aciklama": "Fiat'ın 1.3 litre common rail dizel motoru (Multijet; Opel'de CDTI). Fiat Punto, Linea, Egea, Doblo, Fiorino, Qubo, Panda, 500L ile Opel Corsa D / E, Astra H / J, Combo D ve Meriva B'de 75-95 PS.",
+      "aciklama": "Fiat'ın 1.3 litre common rail dizel motoru (Multijet; Opel'de CDTI). Fiat Palio, Punto, Linea, Albea, Egea, Doblo (I ve II), Fiorino, Qubo, Panda, 500L ile Opel Corsa D / E, Astra H / J, Combo D ve Meriva B'de 75-95 PS.",
       "kronik_sorunlar": [
         {
           "id": "enjektor",
@@ -1451,6 +1451,38 @@
       ]
     },
     {
+      "id": "mercedes-722-8-cvt",
+      "ad": "Mercedes Autotronic CVT (722.8) sürekli değişken şanzıman (A Serisi W169 / B Serisi W245)",
+      "tur": "sanziman",
+      "aciklama": "Mercedes'in 2004-2012 arasında A Serisi (W169) ve B Serisi (W245) otomatik sürümlerinde kullandığı Autotronic sürekli değişken şanzıman (CVT, 722.8). Kontrol ünitesi, hız sensörü ve valf gövdesi arızaları anlatılıyor; kaynaklar Ekşi Sözlük ve DonanımHaber'deki Türk sahipler ile MBWorld ve PistonHeads gibi yabancı forumlar. Hangi motor sürümlerinin CVT ile Türkiye'de satıldığı bu kaynaklarla ayrıştırılamadı.",
+      "kronik_sorunlar": [
+        {
+          "id": "kontrol-unitesi-valf-govdesi",
+          "sorun_adi": "Autotronic CVT'nin kontrol ünitesi, hız sensörü ve valf gövdesi arızaları: acil mod, ilerlememe",
+          "etkilenen_parca": "722.8 CVT kontrol ünitesi (üzerindeki hız sensörleri), valf gövdesi, tork konvertörü ve çelik kayış",
+          "belirtiler": "Göstergede şanzıman arıza uyarısı ve acil (limp) moda geçiş; hız ve vites oranı sensörü hata kodları; aracın ilerlememesi ya da güç aktaramaması; sert ya da titreşimli kalkış.",
+          "tahmini_km_araligi": "140.000 - 200.000 km",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Ekşi Sözlük'te B Serisi (2005-2010) sahipleri otomatik sürümün CVT olduğunu, o dönemin CVT'lerinin hepsinin sorunlu sayıldığını ama 200.000 km'ye kadar sorunsuz giden örnekler de bulunduğunu, bir sahibin şanzıman kartının arızalandığını ve onarımın pahalı olduğunu yazıyor; DonanımHaber'deki W169 incelemesinde sahipler aracı genel olarak sorunsuz bulurken tek tük şanzıman beyni arızasını anlatıyor. MBWorld'de bir W169 sahibi bayinin CVT'nin nadiren 140.000 km'yi geçtiğini söylediğini aktarıyor; başka başlıklarda hız (0722, 0793) ve vites oranı (0896) kodları, valf gövdesi, tork konvertörü ve kayış sorunları anlatılıyor.",
+            "teshis": "MBWorld'de acil moda geçişte çoğunlukla hız ya da vites oranı sensörü kodlarının kaydedildiği, mekanik arızanın daha seyrek olduğu yazılıyor; kontrol ünitesi üzerindeki hız sensörünün arızasını bir bayi komple şanzıman değişimi olarak teklif etmiş. Aracın ilerlememesinde şanzımandan önce tahrik milinin (aks) kırık olup olmadığına bakılması öneriliyor (vites P'de, el freni açık, araç itilerek).",
+            "cozum": "Moderatör yanıtlarında düzenli şanzıman yağı değişimi ve yazılım güncellemesi öneriliyor; kontrol ünitesi ya da valf gövdesi onarımı yapılıyor, bazı vakalarda komple şanzıman değişimi teklif ediliyor. Ekşi Sözlük'te yağ değişiminin yetkili serviste yaklaşık 60.000 km'de bir yaptırılmasını öneren bir yorum var.",
+            "maliyet": "Ekşi Sözlük'te şanzıman kartı onarımının mümkün ama pahalı olduğu yazılıyor, net Türkiye fiyatı çıkmadı. PistonHeads'te bir katılımcı büyük bir şanzıman arızasının onarımı ekonomik olmaktan çıkarabileceğini yazıyor.",
+            "onlem": "Kilometre aralığı bir bayi yorumundan (yaklaşık 140.000 km) ve Ekşi Sözlük'te anılan 200.000 km'ye kadar sorunsuz örneklerden alınmıştır, istatistik değildir. İkinci elde şanzıman yağı değişim kayıtlarına ve acil mod / sensör hata geçmişine bakın."
+          },
+          "kaynaklar": [
+            "https://eksisozluk.com/mercedes-b-serisi--974628?p=4",
+            "https://eksisozluk.com/mercedes-b-serisi--974628?p=7",
+            "https://eksisozluk.com/w169--1107451",
+            "https://forum.donanimhaber.com/w169-mercedes-a-serisi-inceleme--144599152",
+            "https://mbworld.org/forums/class-w168-w169/816867-w169-automatic-transmission-reliable-not.html",
+            "https://mbworld.org/forums/class-w168-w169/792578-w169-cvt-gearbox-issues-valve-body-torque-converter-belts.html",
+            "https://www.pistonheads.com/gassing/topic.asp?h=0&f=23&t=1204698"
+          ]
+        }
+      ]
+    },
+    {
       "id": "mercedes-7g-tronic",
       "ad": "Mercedes 7G-Tronic (722.9) otomatik şanzıman",
       "tur": "sanziman",
@@ -1727,6 +1759,47 @@
       ]
     },
     {
+      "id": "opel-z19dt-1-9-cdti",
+      "ad": "Opel 1.9 CDTI (Z19DT / Z19DTH, 100 / 120 / 150 PS)",
+      "tur": "motor",
+      "aciklama": "Opel'in Vectra C, Astra H ve Zafira B'de kullandığı 1.9 litre common rail dizel (Fiat kökenli; 8 supaplı Z19DT 100 / 120 PS, 16 supaplı Z19DTH 150 PS). EGR tıkanması ve emme manifoldundaki girdap kanadı (swirl flap) arızası bu motor için anlatılıyor; sorun özellikle 150 PS sürümde belirgin. Kaynaklar ağırlıkla İngiltere'deki sahiplerden; Türkiye'de hangi sürümlerin satıldığı bu kaynaklarla ayrıştırılamadı.",
+      "kronik_sorunlar": [
+        {
+          "id": "swirl-egr",
+          "sorun_adi": "EGR valfi tıkanması ve girdap kanadı (swirl flap) arızası",
+          "etkilenen_parca": "EGR valfi, emme manifoldundaki girdap kanatları ve plastik aktüatör bağlantısı",
+          "belirtiler": "Güç kaybı ve limp modu, motor arıza lambası, P2279 gibi emme havası kodları, siyah duman ve düzensiz çalışma; kanat bağlantı çubuğu kopup kanatları sıkıştırabilir",
+          "tahmini_km_araligi": "100.000 - 185.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Vauxhall ve Astra Owners Network başlıklarında girdap kanadı aktüatörünün kelebeklerinin kurumlanıp sıkıştığı, bağlantı çubuğunun çıkıp kanadı kilitleyebildiği anlatılıyor; takılan EGR valfi fazla kurum ürettiği için DPF de tıkanıyor. Astra H 1.9 CDTI (150 PS) sahipleri emme manifoldunun kanat mekanizması bozulduğu için değiştirildiğini, kopan kanatların motora emilip ağır hasar yapabileceğini, parçanın yaklaşık 180-200 sterlin ve 3-5 saat işçilik olduğunu yazıyor; PistonHeads'te 115.000 mil yapmış bir Astra H 150'de aktüatör kolunun düştüğü anlatılıyor. İtalyan bir forumda 140.000 km civarında bir Zafira B Z19DTH'de EGR valfi iki kez, kanat aktüatörünün arızası nedeniyle emme grubu değiştirilmiş.",
+            "teshis": "P2279 (emme havası kaçağı) kodunun çoğu zaman EGR'nin açık kalmasından ya da DPF tıkanıklığının yarattığı karşı basınçtan geldiği, bu yüzden DPF basınç sensörünün ve hortumunun da bakılması gerektiği yazılıyor. Kanat çubuğunun ve aktüatörün durumu kontrol edilir; au7o kanat bağlantı çubuğu ve burçlarının aşınıp kırıldığını, bunun limp moduna ve P2279 / P207x kodlarına yol açtığını söylüyor.",
+            "cozum": "EGR temizliği ya da değişimi; girdap kanatları için temizlik geçici kalıyor ve çoğu zaman emme manifoldunun (kanat grubunun) değiştirilmesi gerekiyor. Forumlarda kanat çubuğunu ve kanatları söküp delikleri kapatma ('deflap') ve EGR'yi iptal etme uygulamaları anlatılıyor; bunlar kullanıcı müdahalesidir ve muayene ya da yazılım sorunları doğurabilir.",
+            "maliyet": "Kullanıcı beyanları (tarihleri değişken, güncel fiyat olarak okumayın): İngiltere'de manifold yaklaşık 180-200 sterlin artı 3-5 saat işçilik; au7o girdap kanadı onarımı için genel olarak 50-350 dolar veriyor (derleme); İtalyan forumdaki Zafira vakasında parça maliyeti 1.000 euroyu aşmış.",
+            "onlem": "Kilometre aralığı kaynaklardaki birkaç vakadan (yaklaşık 140.000 km, 100.000-107.000 mil ve 115.000 mil) kaba tahmindir. İkinci elde limp modu, P2279 kodu ve EGR / emme manifoldu değişimi geçmişini sorun; kısa mesafe kullanımı kurumu hızlandırıyor. 120 PS sürümün daha sorunsuz, 150 PS'nin çift kütleli volan ve şanzımana da daha ağır geldiği forumlarda yazılıyor."
+          },
+          "kaynaklar": [
+            "https://www.vauxhallownersnetwork.co.uk/threads/zafira-b-2007-571-9cdti-16v-150-z19dth-issues.438866/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/zafira-b-1-9-150-issues.713009/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/help-zafira-egr-valve.205870/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/zafira-b-egr-valve-1-9-cdti-150bhp.179245/",
+            "https://www.astraownersnetwork.co.uk/threads/zafira-1-9-cdti-egr-problems.157162/",
+            "https://www.astraownersnetwork.co.uk/threads/1-9cdti-egr-valve-boost-sensor-swirl-flap-problems.236290/",
+            "https://forum.cardealermagazine.co.uk/topic/5260-zafira-19-cdti-to-buy-or-not-to-buy",
+            "https://ammirati.org/forum/autoriparatori/esperto-risponde/opel-zafira-b-1-9-cdti-150cv-spia-motore-accesa-cod-dtc-p2279-t9518.html",
+            "https://au7o.io/known-issues/opel-zafira?year=2007",
+            "https://honestjohn.co.uk/carbycar/vauxhall/zafira-b-2005/good",
+            "https://www.vauxhallownersnetwork.co.uk/threads/cdti-swirl-flap-issues-questions.356115/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/swirl-flaps-replaced-or-not.653665/",
+            "https://www.vauxhallownersnetwork.co.uk/threads/astr-h-1-9tdci-sri-turbo-and-inlet-manifold-problems.354432/",
+            "https://www.pistonheads.com/gassing/topic.asp?h=0&f=23&t=1099124",
+            "https://www.pistonheads.com/gassing/topic.asp?h=0&f=104&t=1391127",
+            "https://www.pistonheads.com/gassing/topic.asp?h=0&f=23&t=1513684"
+          ]
+        }
+      ]
+    },
+    {
       "id": "psa-bluehdi-adblue",
       "ad": "PSA BlueHDi AdBlue (SCR) sistemi",
       "tur": "sistem",
@@ -1843,7 +1916,7 @@
       "id": "psa-dv6-hdi-tdci",
       "ad": "PSA / Ford 1.6 HDi - e-HDi - BlueHDi - TDCi (DV6)",
       "tur": "motor",
-      "aciklama": "Peugeot, Citroën, Ford (1.6 TDCi), Volvo (D2 / D DRIVe), Mazda'nın (1.6 MZ-CD) kullandığı 1.6 litre common rail dizel motor (DV6). 207, 208, 301, 307, 308, 407, 3008, C3, C4, C-Elysée, Berlingo, Partner, Toyota Proace, Focus, Fiesta, C-Max, Transit Connect, V40, S60 ve V60'ta bulunur.",
+      "aciklama": "Peugeot, Citroën, Ford (1.6 TDCi), Volvo (D2 / D DRIVe), Mazda'nın (1.6 MZ-CD) kullandığı 1.6 litre common rail dizel motor (DV6). 207, 208, 301, 307, 308, 407, 3008, C3, C4, C-Elysée, Berlingo, Partner, Toyota Proace, Focus, Fiesta, C-Max, Transit Connect, V40, S40, V50, S60 ve V60 ile Suzuki SX4'te (1.6 DDiS) bulunur.",
       "kronik_sorunlar": [
         {
           "id": "enjektor",
@@ -2405,7 +2478,7 @@
       "id": "renault-k9k",
       "ad": "Renault K9K 1.5 dCi (common rail dizel)",
       "tur": "motor",
-      "aciklama": "Renault, Dacia, Nissan ve Mercedes'in (A / B / CLA / GLA 180 CDI, Citan) kullandığı 1.5 litre common rail dizel motor (K9K; Mercedes'te OM607 / OM608). Clio, Megane, Symbol, Fluence, Scenic, Captur, Kadjar, Sandero, Logan, Duster, Dokker, Lodgy, Kangoo, Qashqai, Juke ve Note'ta bulunur.",
+      "aciklama": "Renault, Dacia, Nissan ve Mercedes'in (A / B / CLA / GLA 180 CDI, Citan) kullandığı 1.5 litre common rail dizel motor (K9K; Mercedes'te OM607 / OM608). Clio, Megane, Symbol, Fluence, Scenic, Captur, Kadjar, Sandero, Logan, Duster, Dokker, Lodgy, Kangoo, Qashqai, Juke, Micra (K12) ve Note'ta bulunur.",
       "kronik_sorunlar": [
         {
           "id": "enjektor",
@@ -3372,6 +3445,38 @@
       ]
     },
     {
+      "id": "vag-pd-2-0-tdi-16v",
+      "ad": "VAG 2.0 TDI PD 16V (BKD / BMP / BMN / BKP, pompa-enjektör)",
+      "tur": "motor",
+      "aciklama": "VW, Skoda ve Seat'ta 2004-2008 arasında kullanılan 2.0 litre 16 supaplı pompa-enjektörlü (Pumpe-Düse) TDI motorları (BKD, BMP, BMN, BKP; 140 ve 170 PS). Passat B6, Octavia (A5) ve Leon (1P) kayıtlarına bağlıdır. Enjektör ve silindir kapağındaki enjektör kablo demeti arızası bu motor için anlatılıyor; 2008 ortasından sonra yerini common rail 2.0 TDI (EA189) aldı. Kaynaklar ağırlıkla Passat B6 sahiplerinden; hangi modelde hangi motor kodunun Türkiye'de satıldığı bu kaynaklarla ayrıştırılamadı.",
+      "kronik_sorunlar": [
+        {
+          "id": "enjektor-kablo-demeti",
+          "sorun_adi": "Enjektör ve enjektör kablo demeti (loom) arızası: tekleme, güç kaybı, ani limp modu",
+          "etkilenen_parca": "Pompa-enjektörler (Bosch / Siemens piezo) ve silindir kapağı içindeki enjektör kablo demeti",
+          "belirtiler": "Tek silindirde (çoğunlukla 3. silindir) kesik kesik tekleme ve güç kaybı, motor arıza lambası ve acil (limp) mod, yük altında sarsıntı; bazı anlatılarda araç yolda aniden stop ediyor. Bazı vakalarda arıza kodu üretmeden aralıklı bağlantı kaybı görülüyor.",
+          "tahmini_km_araligi": "110.000 - 230.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de Passat B6 (2005-2008) 2.0 TDI PD sahipleri 170 PS ve bazı 140 PS sürümlerde enjektör arızasının kronik olduğunu, VW'nin bunu Avrupa'da kabul ettiğini yazıyor; bir sahip aracın 141.000 km'de kendisini dört kez yolda bıraktığını, bir başkası 4 enjektör, kablo ve adaptörlerin garanti kapsamında ücretsiz değiştirildiğini, bir üçüncüsü 2006 model manuel bir Passat'ta enjektörlerin 227.000 km'de değiştiğini anlatıyor. Honest John ve PistonHeads'te İngiltere'deki 2005-2006 Passat sahipleri piezo enjektörlerin yaklaşık 67.000-104.000 mil arasında arızalandığını ve kablo demetinin çatladığını yazıyor; 140 PS'de hangi enjektörün (Bosch ya da Siemens piezo) kullanıldığı kaynaklarda tutarlı değil.",
+            "teshis": "Tekleme çoğunlukla bir silindirde (en çok 3. silindir) görülüyor; VCDS'te enjektör miktar sapması ve aralıklı sinyal ölçülüyor. İngiltere'de bir katılımcı kablo demetinin silindir kapağının içinde olduğunu ve arızanın çoğunlukla aralıklı bağlantı kaybı olduğunu, arıza kodu üretmeden de ortaya çıkabildiğini yazıyor; bir başlıkta kablo demeti değişince de 3. silindir teklemesi sürmüş, yani her vaka demet kaynaklı değil.",
+            "cozum": "Kablo demetinin ve/veya enjektörlerin değiştirilmesi. İngiltere'de birkaç sahip VW'nin şikâyet sonrası goodwill ile dört enjektörü ve kablo demetini ücretsiz değiştirdiğini, bir bayinin parçayı ve işçiliğin yarısını karşıladığını anlatıyor; sahipler bunun geri çağırma olmadığını belirtiyor. DonanımHaber'de bir başlık, PD motorlar için '23H9' kampanya kodu görünüyorsa yetkili serviste ücretsiz kontrol ve gerekirse ücretsiz değişim yapıldığını yazıyor (kullanıcı anlatısı; resmî duyuru doğrulanamadı).",
+            "maliyet": "Kullanıcı beyanları (tarihleri değişken, güncel fiyat olarak okumayın): DonanımHaber'de bir enjektör yaklaşık 1.500 TL, bir takımın değişimi 5.300-7.000 TL civarı (bir vakada garanti kapsamında ücretsiz); İngiltere'de bir bayi tek enjektör için yaklaşık 800 sterlin, bir sahip kablo demeti için yaklaşık 90 sterlin yazıyor.",
+            "onlem": "Kilometre aralığı Türkiye'den birkaç ve İngiltere'den birkaç sahip beyanından (mil kilometreye çevrilerek) türetilmiştir, istatistik değildir; kaynaklarda PD motorların 2008 ortasına kadar üretildiği, sonrasında common rail geldiği yazılıyor. İkinci elde şasi numarasıyla VW yetkili servisinden kampanya ve goodwill kaydını sorun; tekleme başlarsa önce enjektör kablo demetini ve 3. silindir enjektörünü kontrol ettirin."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/passat-2-0-tdi-170-hp-enjektor-turbo-problemi--68508443",
+            "https://forum.donanimhaber.com/vw-passat-jetta-ve-golf-pd-motorlar-icin-ucretsiz-enjektor-degisimi--72228674",
+            "https://forum.donanimhaber.com/b6-2005-2-0-tdi-passat-enjektor-sorunu--131820397",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=86615",
+            "https://www.honestjohn.co.uk/forum/post/index.htm?t=63904",
+            "https://www.pistonheads.com/gassing/topic.asp?h=0&f=23&t=1039343",
+            "https://www.pistonheads.com/gassing/topic.asp?h=0&f=86&t=882290"
+          ]
+        }
+      ]
+    },
+    {
       "id": "volvo-d5244t-2-4d",
       "ad": "Volvo D5 2.4 (D5244T) dizel",
       "tur": "motor",
@@ -4144,6 +4249,19 @@
     },
     {
       "marka": "Audi",
+      "model": "A6 (C6, 2004-2011)",
+      "motor": "2.0 TDI 140/170 (Multitronic 0AW, ön çekişli)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "audi-multitronic-0aw"
+      ]
+    },
+    {
+      "marka": "Audi",
       "model": "A6 (C7, 2011-2014)",
       "motor": "2.0 TDI 177 (Multitronic)",
       "uretim_yillari": {
@@ -4403,6 +4521,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-ea888-gen3"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi (E81 / E87, 2004-2011)",
+      "motor": "118d / 120d 2.0 dizel (N47D20, 2007 sonrası)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n47"
       ]
     },
     {
@@ -4740,6 +4871,37 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi (E90 / E91, 2005-2011)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "İç kapı kolu kaplamasının erimesi, yapışkanlaşması",
+          "etkilenen_parca": "İç kapı kolları (yumuşak dokunuşlu kaplama) ve kapı kolu plastikleri",
+          "belirtiler": "Kapı kollarının yüzeyinin yapış yapış olması, elin siyaha boyanması ve kaplamanın erimiş gibi dökülmesi; genellikle ön yolcu tarafında başlayıp diğer kollara yayılıyor.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2010 model bir E90 320d sahibi sağ taraftaki iki kapı kolunun kendiliğinden erimeye ve yapış yapış olmaya başladığını, başka bir 320d sahibi kapı kollarının iç plastiklerinin eriyip ellerini siyaha boyadığını ve bunun kronik olduğunu yazıyor. E90Post'ta E90 / E91 / E92 sahipleri sorunu çok yaygın sayıyor, en çok ön yolcu kolunda başladığını anlatıyor; nedeni kimi sahipler ısıya, kimileri el kremi, güneş kremi ve vücut yağlarının kimyasal etkisine bağlıyor.",
+            "cozum": "Kaplamanın alkol ya da terebentin gibi bir çözücüyle sökülmesi (bir sahip terebentinin plastiğe zarar vermeden kaplamayı kolayca aldığını, bir başkası bazı temizleyicilerin boyayı aşındırdığını yazıyor), kolların değiştirilmesi (yedek kollar vidalı; kapı kartının sökülmesi gerekiyor) ya da kılıfla kaplama. Şikâyetvar'da bazı sahipler BMW Türkiye'nin sorunu kronik kabul edip ücretsiz değişim yaptığını yazıyor (bireysel anlatı; resmî bir kampanya doğrulanamadı).",
+            "maliyet": "E90Post'ta yedek kollar için yaklaşık 20-40 dolar (ABD, kullanıcı beyanı); Türkiye fiyatı çıkmadı. Bir sahip kolun garanti kapsamında değiştirildiğini yazıyor, diğer katılımcılar bu kapsamdan şüphe ediyor.",
+            "onlem": "E90Post'ta kolların el kremi, güneş kremi ve yağlı bakım ürünleriyle temas ettirilmemesi ve düzenli temizlenmesi öneriliyor. Anlatılar E90 / E91 / E92 serisinin farklı yıllarını kapsıyor, 2011 sonrası üretim için ayrı kanıt yok."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/bmw/kapi-kolu-erimesi",
+            "https://www.sikayetvar.com/bmw/320d/ic-kapi-kolu",
+            "https://www.sikayetvar.com/bmw/bmw-3-serisi-kapi-kolu-erime-sorunu-1",
+            "https://www.e90post.com/forums/showthread.php?t=1292407",
+            "https://www.e90post.com/forums/showthread.php?t=1567254",
+            "https://www.e90post.com/forums/showthread.php?t=839915"
+          ]
+        }
       ]
     },
     {
@@ -5135,6 +5297,19 @@
     },
     {
       "marka": "BMW",
+      "model": "5 Serisi (E60 / E61, 2003-2010)",
+      "motor": "520d 2.0 dizel (N47D20, 2007-2010)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n47"
+      ]
+    },
+    {
+      "marka": "BMW",
       "model": "5 Serisi (F10, 2010-2015)",
       "motor": "520d 2.0 dizel (N47D20)",
       "uretim_yillari": {
@@ -5431,6 +5606,20 @@
       "kronik_sorunlar": [],
       "aileler": [
         "bmw-b38-1-5"
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 (E83, 2003-2010)",
+      "motor": "2.0d xDrive 177 (N47D20, 2007 sonrası)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-n47",
+        "bmw-xdrive-aktarma"
       ]
     },
     {
@@ -6011,6 +6200,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "psa-puretech-eb2"
+      ]
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 (I, 2004-2010)",
+      "motor": "1.6 HDi 90/110 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
       ]
     },
     {
@@ -6795,6 +6997,19 @@
     },
     {
       "marka": "Dacia",
+      "model": "Logan / Sandero (I, 2005-2012)",
+      "motor": "1.5 dCi 68/85 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Dacia",
       "model": "Sandero / Logan / Symbol (2013-2020)",
       "motor": "0.9 TCe 90 (H4Bt)",
       "uretim_yillari": {
@@ -7093,6 +7308,19 @@
     },
     {
       "marka": "Fiat",
+      "model": "Albea (2002-2012)",
+      "motor": "1.3 Multijet 70/75",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-3-multijet"
+      ]
+    },
+    {
+      "marka": "Fiat",
       "model": "Bravo (2007-2014)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
@@ -7299,6 +7527,19 @@
       "aileler": [
         "psa-bluehdi-adblue",
         "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Doblo (I, 2001-2010)",
+      "motor": "1.3 Multijet 70/75",
+      "uretim_yillari": {
+        "baslangic": 2001,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-3-multijet"
       ]
     },
     {
@@ -7752,6 +7993,64 @@
             "https://www.sikayetvar.com/fiat/linea/kronik",
             "https://www.fiatforum.com/threads/a-crack-in-the-dashboard.358328/",
             "https://www.fiatforum.com/threads/aussie-fiat-owners-with-crack-in-dashboard-near-airbag.461862/"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Palio / Palio Weekend (2004-2011)",
+      "motor": "1.3 Multijet 70/75",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-1-3-multijet"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Panda (169, 2003-2012)",
+      "motor": "1.2 Fire 69 (Dualogic robotize şanzıman)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "fiat-dualogic"
+      ]
+    },
+    {
+      "marka": "Fiat",
+      "model": "Panda (169, 2003-2012)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2003,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli direksiyon arızası: direksiyon arıza lambası ve direksiyonun aniden sertleşmesi",
+          "etkilenen_parca": "Elektrikli direksiyon kolonu (tork / konum sensörü, motor kontrol ünitesi ve motoru); akü ve şarj sistemi gerilimi",
+          "belirtiler": "Göstergede direksiyon arıza lambasının yanması; direksiyonun aniden (düşük hızda, rölantide ya da belli bir hızdan sonra) sertleşmesi; kontak kapatılıp açılınca yardımın geçici olarak geri gelmesi; bilgisayarda kolon hata kodları (Fiat Forum'da C1001 ve C1002).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Fiat Forum'da 2003-2012 Panda (169) direksiyon kolonunun tork / konum sensörü ile motor kontrol ünitesinden oluştuğu, en sık arızanın tork sensörü olduğu (C1002), kontrol ünitesi arızasının (C1001) ise aralıklı ağır direksiyon ve lamba olarak başlayıp kolonun değişimini gerektirdiği yazılıyor (bu açıklama bir parça satıcısı sitesinden alıntı). Birkaç yazıda zayıf ya da eski akünün hata verdirdiği, akü değişince düzeldiği anlatılıyor. Şikâyetvar ve DonanımHaber'de 2005, 2007 ve 2011 model Panda 1.2 sahipleri direksiyon lambasının yandığını ve direksiyonun sertleştiğini yazıyor (2005 model sahip kontak kapatılıp açılınca sorunun geçici düzeldiğini ekliyor); 2011 model sahip bunun kronik bir sorun olarak bilindiğini belirtiyor.",
+            "teshis": "Bilgisayarla hata kodu okunur (Fiat Forum'da C1002 tork sensörü, C1001 kontrol ünitesi); önce akü gerilimi ve şarj sistemi kontrol edilir.",
+            "cozum": "Tork sensörü tek başına değiştirilebiliyor ancak kontrol ünitesinin yeniden kalibre edilmesi gerekiyor; kontrol ünitesi arızasında kolon komple değişiyor (Fiat Forum). Birkaç anlatıda yalnızca akü değişimi sorunu gidermiş.",
+            "onlem": "Kodlar ve 'en sık arıza' ifadesi tek bir yazıdan alıntı olarak Fiat Forum'da geçiyor; Türkçe anlatılar az sayıda sahibe aittir ve yaygınlık oranı yoktur. Direksiyon yardımının sürüş sırasında kesilmesi güvenlik riskidir; ikinci elde direksiyon lambasını, hata kaydını ve akü durumunu kontrol edin. Fiat servis bülteni ya da geri çağırma kaydı bulunamadı."
+          },
+          "kaynaklar": [
+            "https://www.fiatforum.com/threads/panda-steering-column-problems.448437/",
+            "https://www.fiatforum.com/threads/panda-steering-problem.457578",
+            "https://www.fiatforum.com/threads/powersteering-another-question.517207/",
+            "https://www.sikayetvar.com/fiat/panda/kronik",
+            "https://www.sikayetvar.com/fiat/direksiyon-arizasi",
+            "https://forum.donanimhaber.com/fiat-panda-kulubu-83uye--24075535-283",
+            "https://forum.donanimhaber.com/fiat-panda-kulubu-83uye--24075535-286"
           ]
         }
       ]
@@ -9097,6 +9396,34 @@
     },
     {
       "marka": "Honda",
+      "model": "Civic (FD6, 2006-2011)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Fren diskleri çabuk deforme oluyor, ABS erken devreye giriyor",
+          "etkilenen_parca": "Ön fren diskleri, balatalar ve ABS kontrolü",
+          "belirtiler": "Frenlemede (özellikle yüksek hızda) direksiyonda ve pedalda titreme; disk ve balatanın hızlı aşınması; hafif ya da orta sertlikte frende, özellikle kasislerde ABS'nin erken devreye girmesi; frenin normalden zayıf hissedilmesi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Ekşi Sözlük'te 2011 model 1.6 i-VTEC Elegance sahibi fren disklerinin çok çabuk deforme olduğunu, yetkili servisin Belçika'daki yedek parça deposundan daha dayanıklı bir disk getirerek sorunu çözdüğünü yazıyor; aynı yazar kasisten geçerken hafif sert frende bile ABS'nin çalıştığını anlatıyor, başka bir yorumcu kasislerde ABS'nin devreye girmesini FD6 için kronik arızalar listesine yazmış. DonanımHaber'deki FD6 başlıklarında da kullanıcılar frenlerin zayıf hissettirdiğini, ani ve sert frende ABS'nin erken devreye girdiğini, yüksek hızda frenlemede direksiyon titremesini ve disk / balataların hızlı aştığını yazıyor.",
+            "cozum": "Ekşi Sözlük'te anlatılan vakada servis daha dayanıklı bir disk takarak sorunu gidermiş; aynı yazar disk ve balatayı yenilediğinde fark olmadığını da yazıyor. Kaynaklarda kalıcı bir üretici çözümü ya da servis bülteni anılmıyor.",
+            "onlem": "Kaynaklar kullanıcı anlatımıdır; yaygınlık oranı yoktur ve yabancı kaynaklarda (CarComplaints, Honda forumları) 2006-2011 Civic için sistematik bir ön disk kusuru çıkmadı. İkinci elde disk yüzeyini ve balata kalınlığını kontrol edin, fren testinde titreme ve ABS davranışına bakın."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/fd6-yi-nasil-bilirsiniz--132519227",
+            "https://forum.donanimhaber.com/fd6-yi-nasil-bilirsiniz--132519227-2",
+            "https://eksisozluk.com/honda-civic-fd6--5501686",
+            "https://eksisozluk.com/kronik-otomobil-arizalari--6830878?p=9"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Honda",
       "model": "Civic Hatchback (FK7, 2017-2021)",
       "motor": "1.5 VTEC Turbo 182",
       "uretim_yillari": {
@@ -9182,6 +9509,37 @@
       "aileler": [
         "hyundai-kia-7dct",
         "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Accent Era (2006-2012)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli direksiyon (EPS) arızası: direksiyonun aniden sertleşmesi, EPS ışığı",
+          "etkilenen_parca": "Elektrikli direksiyon kolonu (EPS), direksiyon açı / tork sensörü ve kontrol ünitesi",
+          "belirtiler": "Seyir halinde direksiyonun aniden ağırlaşması ve EPS arıza ışığının yanması; kontak kapatılıp açılınca bazen normale dönmesi; bazı anlatılarda sürüş sırasında direksiyonun kilitlenmesi; bilgisayarda açı sensörü arıza kodu (C1292).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Şikâyetvar'da Accent Era sahipleri, özellikle 2006-2007 modellerde, seyir halinde direksiyonun aniden sertleştiğini ve EPS ışığının yandığını yazıyor; bazıları arızanın 2006 model araçlarda kronik olduğunu ve kullanıcı hatasından kaynaklanmadığını belirtiyor. Bir 2007 1.5 CRDi sahibi bilgisayara bağlandığında c1292 kodlu açı sensörü arızası çıktığını, bir 2007 model sahibi parça değişiminden 2 yıl 1 ay sonra aynı sorunun geri geldiğini yazıyor. Ekşi Sözlük'te bir yorumcu ilk dönemlerde elektronik direksiyonlarda problem çıktığını ama yetkili servislerin direksiyon ünitelerini yenilediğini yazıyor; başka bir yorumcu modelde genel bir kronik sorun olmadığını söylüyor.",
+            "teshis": "Bilgisayarla arıza kodu okunuyor (bir sahipte açı sensörü kodu C1292 çıkmış); Şikâyetvar'da arızanın açı sensöründen mi yoksa kolon / tork sensöründen mi olduğunun servislerde netleşmediği, 2008 model bir 1.5 dizelde özel servisin ve yetkili servisin kolon arızası teşhisi koyduğu yazılıyor.",
+            "cozum": "Direksiyon kolonunun (EPS ünitesinin) ya da sensörünün değiştirilmesi. Şikâyetvar'da bazı sahipler başlangıçta '10 yaş üzeri' gerekçesiyle garanti dışı denildiğini, sonra kapsama alındığını anlatıyor; bir şikâyette Hyundai'nin sorunu 2007 yılının hatalı üretimi olarak kabul edip ömür boyu garanti verdiği iddia ediliyor (resmî kaynaktan doğrulanamadı).",
+            "maliyet": "Şikâyetvar'da 2008 model bir 1.5 dizel sahibi yetkili serviste yaklaşık 45.000 TL tutar çıktığını yazıyor (kullanıcı beyanı; tarih ve parça kapsamı belirsiz, güncel fiyat olarak okumayın).",
+            "onlem": "Kontağı kapatıp açmak direksiyon yardımını geçici olarak geri getirebiliyor ama arızanın bittiği anlamına gelmiyor; yüksek hızda direksiyon yardımının ani kaybı güvenlik riski taşır. Anlatılar ağırlıkla 2006-2007 modellere ait, sonraki yıllar için kanıt sınırlı. İkinci elde EPS arıza geçmişini ve parça değişimini sorun."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/accent-era/kronik",
+            "https://www.sikayetvar.com/accent-era/direksiyon",
+            "https://www.sikayetvar.com/accent-era/direksiyon?page=2",
+            "https://www.sikayetvar.com/hyundai-motor/hyundai-accent-erada-eps-arizasi-nedeniyle-yuksek-onarim-maliyeti-magduriyeti",
+            "https://eksisozluk.com/hyundai-accent-era--1427426?p=7"
+          ]
+        }
       ]
     },
     {
@@ -10957,6 +11315,19 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "A Serisi (W169, 2004-2012)",
+      "motor": "A150 / A170 (CVT Autotronic 722.8)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-722-8-cvt"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "A Serisi (W176, 2012-2018)",
       "motor": "A200 CDI / A220 CDI 2.1 (OM651, 7G-DCT)",
       "uretim_yillari": {
@@ -11036,6 +11407,48 @@
             "https://www.sikayetvar.com/mercedes-benz/a-180",
             "https://www.sikayetvar.com/mercedes-benz/gla",
             "https://forum.donanimhaber.com/mercedes-pre-safe-arizasi-a-cla-c-gla-e--93069197-2"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "B Serisi (W245, 2005-2011)",
+      "motor": "B170 (CVT Autotronic 722.8)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-722-8-cvt"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "B Serisi (W245, 2005-2011)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Cam tavan (sunroof) arızası: giderlerin tıkanması, tavandan su alma, ray ve mekanizma sorunları",
+          "etkilenen_parca": "Sürgülü cam tavan mekanizması, rayları ve su tahliye kanalları",
+          "belirtiler": "Cam tavanlı araçta tavan döşemesine ve içeriye su sızması; dışarıdan fazla ses alınması; cam tavanın düzgün açılıp kapanmaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Ekşi Sözlük'te B serisi yorumcuları cam tavanlı modelin arızaya çok meyilli olduğunu, su kanalları tıkanınca tavan döşemesine su sızdırdığını ve dışarıdan çok ses aldığını, fitil aralarına kaçan toz ve tortunun kronik su almaya yol açtığını ve bu yüzden cam tavanlı modellerin tercih edilmemesi gerektiğini yazıyor. Şikâyetvar'da 2006 model bir B150 sahibi sunroof sorunlarının kronik arızaların başında geldiğini, orijinal parça bulmanın zor ve onarımın pahalı olduğunu belirtiyor.",
+            "onlem": "Şikâyetvar'daki B 160 sayfasında alıntılanan bir Mercedes-Benz AG bildirimi sürgülü cam tavanın kontrol edilip gerekirse değiştirilmesini istiyor (bildirimin kapsamı ve tarihi doğrulanamadı; VIN ile yetkili servisten sorgulanabilir). Kaynaklar sahip anlatımıdır, yaygınlık oranı yoktur. İkinci elde tavan döşemesinde su lekesini, kapı çevresinde nemi ve cam tavanın düzgün çalışıp çalışmadığını kontrol edin."
+          },
+          "kaynaklar": [
+            "https://eksisozluk.com/mercedes-b-serisi--974628?p=4",
+            "https://eksisozluk.com/mercedes-b-serisi--974628?p=6",
+            "https://eksisozluk.com/mercedes-b-serisi--974628?p=7",
+            "https://www.sikayetvar.com/mercedes-benz/mercedes-b150-modelinde-yasanan-buyuk-sorunlar",
+            "https://www.sikayetvar.com/mercedes-benz/mercedes-b150-boyut-kronik-arizalari",
+            "https://www.sikayetvar.com/mercedes-benz/b-160"
           ]
         }
       ]
@@ -11424,6 +11837,66 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "E Serisi (W211, 2002-2009)",
+      "motor": "E 320 CDI 3.0 V6 (OM642, 2005 sonrası)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2009
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om642"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Serisi (W211, 2002-2009)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2009
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "SBC (Sensotronic) fren sisteminin arızası: 'servis fren' uyarısı, sertleşen pedal, yedek hidrolik moda geçiş",
+          "etkilenen_parca": "SBC hidrolik ünitesi (pompa ve basınç akümülatörü), SBC kontrol ünitesi ve fren pedalı simülatörü",
+          "belirtiler": "Göstergede fren uyarısı ('Servis fren!'), pedalın sertleşmesi ve fren mesafesinin uzaması; sistem yedek (hidrolik) moda geçer. Bazı anlatılarda uyarı geldiği halde ünite değiştirilmeyip uyarı iptal ettiriliyor.",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "Ekşi Sözlük'te W211 sahipleri SBC fren sistemini makyajsız kasanın (2002-2006) kronik ve masraflı sorunu olarak anlatıyor; Türkçe forum yorumlarında arızanın yaklaşık 85.000 km'de geldiği, SBC beyninin yaklaşık 150.000 km civarında değişim istediği yazılıyor. MBWorld ve BenzWorld'de sahipler SBC pompasını yoğun kullanımda aşınan, 'zaman bombası' gibi bir parça olarak niteliyor; bir sahip fren sisteminin hidrolik yedek moda geçtiğini ve bayinin komple SBC değişimi teşhisi koyduğunu anlatıyor. Bir forum yazısında 2004-2005'te yüz binlerce E Serisi'ni kapsayan bir geri çağırmadan söz ediliyor (resmî kaynaktan doğrulanamadı).",
+            "teshis": "MBWorld'de arızalı araçta 'servis fren' uyarısı ve yedek hidrolik moda geçiş görüldüğü, bir bayinin komple SBC değişimi teşhisi koyduğu, bazı sahiplerin işlemin bayide garanti kapsamında ücretsiz yapıldığını yazdığı anlatılıyor. Ekşi Sözlük'te uyarının pahalı olduğu için iptal ettirildiği, uyarı kalmayınca ünitenin bir süre sonra bozulup fren tutmama riski doğurduğu yazılıyor.",
+            "cozum": "Komple SBC ünitesinin değiştirilmesi; MBWorld'de SBC'nin değiştirilmesi ya da kaldırılıp klasik hidrolik frene geçilmesinin tartışıldığı başlıklar var. Ekşi Sözlük'te bir yorum makyajlı kasada SBC'nin komple kaldırılarak sorunun giderildiğini yazıyor.",
+            "maliyet": "Türkçe kaynaklarda onarımın çok masraflı olduğu yazılıyor, net fiyat çıkmadı; MBWorld'de bazı sahipler işlemin bayi tarafından garanti kapsamında ücretsiz yapıldığını yazıyor.",
+            "onlem": "Sorun makyajsız (2002-2006) W211'e özgüdür; kaynaklar 2006 sonrası makyajlı kasanın (2007-2009 modeller) büyük ölçüde bu sorundan arındığını yazıyor. Makyajsız bir araçta SBC uyarı geçmişini ve şasi numarasıyla Mercedes'in SBC geri çağırma / servis kampanya kaydını sorun; fren uyarısını iptal ettirmeyin."
+          },
+          "kaynaklar": [
+            "https://eksisozluk.com/sensormatic-brake-control--6104464",
+            "https://eksisozluk.com/w211--578197",
+            "https://forum.donanimhaber.com/w211-mercedes-yardim--100990700",
+            "https://mbworld.org/forums/e-class-w211/46060-summary-w211-problems-fixes.html",
+            "https://mbworld.org/forums/e-class-w211/787770-what-actually-happens-when-sbc-fails.html",
+            "https://mbworld.org/forums/mercedes-tech-talk/131262-w211-replace-sbc-not.html",
+            "https://www.benzworld.org/threads/seeking-advice-on-buying-a-w211-with-sbc-failure.3080939/"
+          ],
+          "donem_kirilimi": [
+            {
+              "baslangic": 2002,
+              "bitis": 2006,
+              "durum": "Yaygın",
+              "not": "SBC'li makyajsız kasa; sorun ağırlıkla bu dönemde anlatılıyor"
+            },
+            {
+              "baslangic": 2007,
+              "bitis": 2009,
+              "durum": "Seyrek",
+              "not": "Makyajlı kasada SBC kaldırıldığı için sorun büyük ölçüde görülmüyor (Ekşi Sözlük yorumu)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "E Serisi (W212, 2009-2016)",
       "motor": "E200 / E250 CGI 1.8 turbo (M271 EVO)",
       "uretim_yillari": {
@@ -11713,6 +12186,19 @@
     },
     {
       "marka": "Mercedes-Benz",
+      "model": "ML (W164, 2005-2011)",
+      "motor": "ML 320 CDI / ML 350 CDI 3.0 V6 (OM642)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2011
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om642"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
       "model": "ML / GLE (W166, 2011-2018)",
       "motor": "ML 250 BlueTEC / GLE 250 d 2.1 (OM651)",
       "uretim_yillari": {
@@ -11731,6 +12217,19 @@
       "uretim_yillari": {
         "baslangic": 2011,
         "bitis": 2018
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "mercedes-om642"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "S Serisi (W221, 2005-2013)",
+      "motor": "S 320 CDI 3.0 V6 (OM642)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2013
       },
       "kronik_sorunlar": [],
       "aileler": [
@@ -12020,6 +12519,52 @@
     },
     {
       "marka": "Nissan",
+      "model": "Micra (K12, 2002-2010)",
+      "motor": "1.5 dCi 82 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "Micra (K12, 2002-2010)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Elektrikli direksiyon (EPS / P/S) arızası: PS ışığı ve direksiyonun aniden sertleşmesi",
+          "etkilenen_parca": "Elektrikli direksiyon kolonu (EPS motoru ve kontrol ünitesi), kolon ve sigorta / güç dağıtım kutusu bağlantıları",
+          "belirtiler": "Göstergede PS (güç direksiyonu) ışığının yanması; direksiyon yardımının kesilip direksiyonun çok sertleşmesi; kontak kapatılıp açılınca yardımın bazen geri gelmesi; bilgisayarda EPS arıza kodu (bir sahipte C1606).",
+          "risk_seviyesi": "Yüksek",
+          "detay": {
+            "neden": "DonanımHaber'de 'Nissan Micra K12 P/S Power Steering Hatası ÇÖZÜMÜ' başlığı ve Micra Club sayfalarında sahipler PS ışığının yanıp direksiyonun aşırı sertleştiğini yazıyor (bir 2004 Tekna'da EPS motoru arızası, bir 2004 modelde C1606 hatası). Şikâyetvar'da 2005 model Micra'da elektrikli direksiyonun devre dışı kalıp direksiyonun çok sertleştiği, Ekşi Sözlük'te 2006 modelde direksiyonun önce sertleşip sonra zor döner hale geldiği ve elektrikli sistemin değiştirildiği anlatılıyor. Micra.org.uk'ta (İngiltere) K12'de PS ışığı ve yardımın kesilmesi, kolon ve sigorta kutusu bağlantılarının bilinen zayıf nokta olduğu yazılıyor.",
+            "teshis": "Bilgisayarla EPS hata kodu okunur. Micra.org.uk'ta sürekli ağır direksiyonun EPS motoru ya da kontrol ünitesi arızasına, aralıklı ağırlaşmanın arızanın başlangıcına işaret ettiği; kontak kapatılıp açılınca ünitenin yeniden başlatıldığı, arıza ardışık kontaklarda tekrarlarsa kaydın kilitlendiği ve temizlenmesi için cihaz gerektiği; değiştirmeden önce kolon bağlantılarının, sigorta kutusunun ve akü geriliminin kontrol edilmesi gerektiği yazılıyor.",
+            "cozum": "Kolonun (EPS ünitesinin) değiştirilmesi ya da onarılması; Micra.org.uk'ta kolonun çoğunlukla komple değiştiği, bazen hata kaydı silinince yardımın geri geldiği anlatılıyor. Bir forumda hata kodunu silip EEPROM çipini söken yöntem öneriliyor; bu doğrulanmış bir çözüm değildir, bir kullanıcı denemesinin işe yaramadığını yazıyor ve güvenlik riski taşır.",
+            "maliyet": "Micra Club'da bir 2004 Tekna sahibi orijinal EPS motoru için 4.700 TL, onarım için 1.500 TL istendiğini yazıyor (tarih belirsiz, güncel fiyat olarak okumayın). İngiltere'de bayilerin yüksek teşhis ücreti istediği, yenilenmiş kolonların dayanıklılığının belirsiz olduğu yazılıyor.",
+            "onlem": "Kaynaklar sahip anlatımıdır, yaygınlık oranı yoktur; Nissan servis bülteni ya da geri çağırma kaydı bulunamadı. Ekşi Sözlük'te bir sahip elektrikli sistemin genel ömrünü yaklaşık 10 yıl olarak değerlendiriyor. Direksiyon yardımı sürüş sırasında kesilebilir; ikinci elde PS ışığını, hata kaydını ve kolon değişim geçmişini sorun, akü ve şarj sistemini kontrol ettirin."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/nissan-micra-k12-p-s-power-steering-hatasi-cozumu--137595755",
+            "https://forum.donanimhaber.com/nissan-micra-club--24321896-128",
+            "https://www.sikayetvar.com/nissan/micra/kronik",
+            "https://eksisozluk.com/direksiyon-sertlesmesi--6649712?p=4",
+            "https://micra.org.uk/threads/k12-electric-steering-gone-very-light-no-ps-light.72908",
+            "https://micra.org.uk/goto/post?id=775635",
+            "https://micra.org.uk/goto/post?id=794886"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Nissan",
       "model": "Micra (K13, 2010-2017)",
       "motor": "1.2 (CVT otomatik)",
       "uretim_yillari": {
@@ -12068,6 +12613,19 @@
       "kronik_sorunlar": [],
       "aileler": [
         "renault-h4bt-h4dt"
+      ]
+    },
+    {
+      "marka": "Nissan",
+      "model": "Note (E11, 2006-2013)",
+      "motor": "1.5 dCi 86/103 (K9K)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-k9k"
       ]
     },
     {
@@ -12721,6 +13279,69 @@
             "https://www.astraownersnetwork.co.uk/threads/oil-cooler-leak.346970/",
             "https://forum.donanimhaber.com/yag-sogutucusu-arizasi-ustam-beni-mi-kekledi--149970222",
             "https://forum.donanimhaber.com/yag-sogutucu-ariza--111835776"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra H (2004-2010)",
+      "motor": "1.9 CDTI 100/120/150 (Z19DT / Z19DTH)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "opel-z19dt-1-9-cdti"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra H (2004-2010)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "CIM (gövde elektroniği) modülü arızası: far, korna, cam, kilit ve gösterge sorunları",
+          "etkilenen_parca": "CIM modülü (direksiyon altındaki gövde elektroniği ve konfor ünitesi) ve kart üzerindeki fiş bağlantıları",
+          "belirtiler": "Farların aralıklı yanması ya da hiç yanmaması, sinyal arızası, kornanın çalmaması (örneğin farlar yanarken), elektrikli camların ve klima kontrolünün çalışmaması, direksiyondaki ses kumandalarının devre dışı kalması, yağmur sensörünün far açıkken kapanması, uzaktan kumandanın çalışmayıp aracın kilitlenmemesi ve göstergede uyarı lambaları.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'deki 'Astra H'da kronik CIM arızası' başlığında bir ustanın arızayı modülün içindeki kartta bulunan üç fişin zamanla (çukurlara girip çıkma ve direksiyon çevirme etkisiyle) gevşeyip temassızlık yapmasına bağladığı ve lehimle onardığı yazılıyor. Technopat ve Ekşi Sözlük'te CIM modülü arızası Astra H'nin kronik sorunları arasında anılıyor; Technopat'ta farlar yanarken kornanın çalmadığı bir örnek var.",
+            "teshis": "DonanımHaber'deki bir rehber B3900, B3901 ve B3902 arıza kodlarını CIM arızalarıyla ilişkili olarak sayıyor.",
+            "cozum": "Modülün lehimle onarılması ya da değiştirilmesi; bir sahibe yeni modülde de aynı gevşemenin olabileceği söylenmiş.",
+            "maliyet": "DonanımHaber'de bir sahip serviste 650 TL parça ve 200 TL işçilik istendiğini, bir diğeri onarım için 300 TL ödediğini yazıyor (tarihsiz kullanıcı beyanı, güncel fiyat olarak okumayın).",
+            "onlem": "Kaynaklar sahip anlatımıdır, yaygınlık oranı yoktur; Opel servis bülteni bulunamadı. Korna, far ve cam gibi birbirinden bağımsız görünen işlevler birlikte aksıyorsa CIM modülünden şüphelenilir. Korna ve farın aralıklı çalışmaması güvenlik açısından önemlidir; ikinci elde bu işlevleri ve uzaktan kumandayı deneyin."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/astra-h-da-kronik-cim-arizasi--14718388",
+            "https://www.technopat.net/sosyal/konu/opel-astra-h-nasil.702883/",
+            "https://www.technopat.net/sosyal/konu/opel-astra-h-nasil.702883/page-3",
+            "https://eksisozluk.com/opel-astra-h--2439851?p=5",
+            "https://eksisozluk.com/opel-astra-h--2439851?p=4"
+          ]
+        },
+        {
+          "sorun_adi": "Soğutma suyu seviye sensörü ve genleşme kabı arızası: seviye normalken sürekli uyarı",
+          "etkilenen_parca": "Soğutma suyu seviye sensörü ve yedek su deposu (genleşme kabı)",
+          "belirtiler": "Soğutma suyu seviyesi yeterliyken göstergede soğutma suyu seviyesi uyarısının sürekli yanması; hararet ya da su eksilmesi olmaması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "DonanımHaber'de sahipler bu sorunu en sık anılan arızalardan biri olarak yazıyor: sensör yedek su deposunun altında bozuluyor, yeterli sıvı olsa da uyarı çıkıyor; hararet ya da su eksiltme yoksa suçlunun sensör olduğu söyleniyor. Ekşi Sözlük'te bir yorumcu bunu 'kronik arıza' diye gösterip 'neredeyse her araçta var, değiştirince geçiyor' yazıyor; başka bir sahip uyarının seviye normalken bile sürekli geldiğini belirtiyor.",
+            "cozum": "Sensörün ve gerekirse genleşme kabının değiştirilmesi; bir DonanımHaber yorumcusu ekonomik yöntem olarak haznenin içinin temizlenmesini öneriyor.",
+            "maliyet": "DonanımHaber'de bir sahip kap ve sensörün yaklaşık 200 TL'ye değiştirildiğini yazıyor (tarihsiz kullanıcı beyanı, güncel fiyat olarak okumayın).",
+            "onlem": "Uyarı geldiğinde seviyeyi gözle kontrol edin: hararet ya da su eksilmesi varsa sorun sensör değil kaçaktır (bu araçta yağ soğutucusu ve devir daim pompası da sık anılıyor). Kaynaklar sahip anlatımıdır; yaygınlık oranı yoktur."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/astra-h-sogutma-suyu-seviyesi-arizasi--38504036",
+            "https://forum.donanimhaber.com/opel-astra-h-2005-sogutma-suyu-ve-silecek-suyu-seviyesi-sensoru--129316305",
+            "https://forum.donanimhaber.com/opel-astra-h-kasa-2012-model-motor-suyu-seviyesi-uyarisi-cikti-ne-yapmam-lazim--148899792",
+            "https://eksisozluk.com/opel-astra-h--2439851?p=5",
+            "https://eksisozluk.com/opel-astra-h--2439851?p=4"
           ]
         }
       ]
@@ -13776,6 +14397,19 @@
     },
     {
       "marka": "Opel",
+      "model": "Vectra C (2002-2008)",
+      "motor": "1.9 CDTI 120 / 150 (Z19DT / Z19DTH)",
+      "uretim_yillari": {
+        "baslangic": 2002,
+        "bitis": 2008
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "opel-z19dt-1-9-cdti"
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Zafira B (2005-2014)",
       "motor": "1.9 CDTI 120/150 (Z19DT / Z19DTH)",
       "uretim_yillari": {
@@ -13807,8 +14441,12 @@
             "https://ammirati.org/forum/autoriparatori/esperto-risponde/opel-zafira-b-1-9-cdti-150cv-spia-motore-accesa-cod-dtc-p2279-t9518.html",
             "https://au7o.io/known-issues/opel-zafira?year=2007",
             "https://honestjohn.co.uk/carbycar/vauxhall/zafira-b-2005/good"
-          ]
+          ],
+          "aile_sorunu": "opel-z19dt-1-9-cdti/swirl-egr"
         }
+      ],
+      "aileler": [
+        "opel-z19dt-1-9-cdti"
       ]
     },
     {
@@ -16409,6 +17047,19 @@
     },
     {
       "marka": "Seat",
+      "model": "Leon (1P, 2005-2012)",
+      "motor": "2.0 TDI PD 140 (BKD; manuel ve DSG, 2008 öncesi)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-pd-2-0-tdi-16v"
+      ]
+    },
+    {
+      "marka": "Seat",
       "model": "Leon (5F FL, 2017-2020)",
       "motor": "1.5 TSI 130/150 (EA211 evo, ACT)",
       "uretim_yillari": {
@@ -16959,6 +17610,49 @@
       "kronik_sorunlar": [],
       "aileler": [
         "vag-ea888-gen2"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia (A5, 2004-2009)",
+      "motor": "2.0 TDI PD 140 (BKD; manuel ve DQ250 DSG)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2009
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-pd-2-0-tdi-16v"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia (A5, 2004-2013)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2013
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Klima kompresörü kontrol valfi (N280) arızası: kompresör çalışıyor ama klima soğutmuyor",
+          "etkilenen_parca": "Değişken hacimli klima kompresörünün kontrol valfi (N280) ve kompresör",
+          "belirtiler": "Klima gazı yenilenmesine rağmen soğutmama ya da yalnızca bazı devirlerde soğutma; kompresör kavraması devreye girmesine rağmen sistem basıncının oluşmaması; VCDS'te klima kompresörü kontrol devresi hatası ('kapatma kodu 16' gibi); bazı vakalarda kompresörün içten kırılıp mili döndüğü halde sıkıştırma yapmaması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "DonanımHaber'de bir Octavia (1Z5) dizel sahibi gazı yenilemesine rağmen soğutmama sorunu yaşadığını, araştırmasında 2004-2007 arası VAG araçlarında sorun çıkaran hatalı üretim bir kompresör markasının 'AC Compressor Selenoid Valve' denen parçasının devir yükselince basıncı sabitleyemediğini bulduğunu yazıyor. BRISKODA'da Octavia II sahipleri kompresörün değişken hacmini evaporatör sıcaklığına göre ayarlayan N280 kontrol valfinin sık sıkıştığını, çoğu zaman yeni kompresör önerilse de valfin tek başına değiştirilebildiğini ve kompresörün bazen içten kırıldığını anlatıyor.",
+            "teshis": "Okuyucuyla canlı değerlerin (kompresör akımı, kapatma kodu, sıcaklıklar) izlenmesi öneriliyor; BRISKODA'da valf bozulurken arıza kodlarının her zaman görünmediği yazılıyor. Kompresör kavramasının devreye girip girmediği (A/C tuşunda), sistem basıncı ve kaçak kontrolü de ilk adımlar arasında sayılıyor.",
+            "cozum": "N280 valfinin tek başına değiştirilmesi ya da kompresörün komple değişimi; kaçak (kondenser, kurutucu tapası, evaporatör) varsa ayrıca giderilmesi. Kaynaklarda evaporatör kaçağının torpido arkasında olup torpidonun sökülmesini gerektirdiği yazılıyor.",
+            "maliyet": "Türkçe ve İngilizce kaynaklarda net bir fiyat çıkmadı; kompresörün komple değişiminin valf değişiminden belirgin biçimde pahalı olduğu anlatılıyor.",
+            "onlem": "DonanımHaber'deki anlatı 2004-2007 üretim araçları, BRISKODA ise Octavia II nesli (2004-2013) için; makyajlı (2009-2013) kasa için ayrı kanıt yok. Klima gaz basıp geçici soğutma sağlamak yerine önce kompresör kontrol valfini ve kaçakları kontrol ettirin."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/klima-sogutmuyor-yeni-gaz-koydurmama-ragmen--149526286",
+            "https://www.briskoda.net/forums/topic/136230-octavia-2-ac-compressor-cure/",
+            "https://www.briskoda.net/forums/topic/348453-no-cold-air-from-climatronic-air-con-regassed/",
+            "https://www.briskoda.net/forums/topic/450096-aircon-not-working/"
+          ]
+        }
       ]
     },
     {
@@ -17787,6 +18481,19 @@
       ],
       "aileler": [
         "subaru-fb20"
+      ]
+    },
+    {
+      "marka": "Suzuki",
+      "model": "SX4 (2006-2014)",
+      "motor": "1.6 DDiS 90 (DV6, DLD-416)",
+      "uretim_yillari": {
+        "baslangic": 2006,
+        "bitis": 2014
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
       ]
     },
     {
@@ -19370,6 +20077,77 @@
             "https://australiancar.reviews/?p=47961"
           ]
         }
+      ],
+      "aileler": [
+        "vag-pd-2-0-tdi-16v"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat (B6, 2005-2010)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2005,
+        "bitis": 2010
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Cam, kapı ve el freni düğmelerinin yumuşak dokunuşlu kaplamasının silinmesi, yapışkanlaşması",
+          "etkilenen_parca": "Cam / kapı kilit düğmeleri, el freni tuşu ve iç kapı kolları ile orta konsol plastiğindeki kauçuk (soft-touch) boya",
+          "belirtiler": "Düğmelerin üzerindeki siyah kaplamanın zamanla silinip beyaz plastiğin ortaya çıkması; düğme, kapı kolu ve konsol yüzeyinin yapış yapış olması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "DonanımHaber'de bir B6 sahibi iç kapıdaki ve tavandaki kontrol tuşlarının zamanla silindiğini, cam açma ve el freni tuşlarının silinmesinin 'kronik' olduğunu yazıyor. PassatWorld ve VWVortex'te B6 sahipleri düğmelerin ve kapı kollarının siyah kaplamasının döküldüğünü anlatıyor; bir bayinin bunu 'daha yumuşak dokunuş için kauçuk boya kullanıldığı' diye açıkladığı aktarılıyor. Bir PassatWorld katılımcısı kaplamanın yaklaşık 11-12 yıl sonra bozulacak şekilde tasarlandığını öne sürüyor (kullanıcı iddiası, VW şartnamesi değil).",
+            "cozum": "Düğmelerin değiştirilmesi ya da kaplamanın temizlenip yeniden boyanması (bir sahip sıcak su ve süngerle kaplamayı sökmüş); bazı sahipler lastik kaplama (Plasti Dip) uyguluyor, bunlar geçici. PassatWorld'de garanti ya da CPO kapsamında düğmelerin ve bir kapı kolunun ücretsiz değiştirildiği anlatılıyor (ABD).",
+            "maliyet": "Kaynaklarda net bir Türkiye fiyatı yok; İngilizce kaynaklarda yedek düğmeler ve kapı kolları için küçük tutarlar anlatılıyor.",
+            "onlem": "Yüzeyi araç bakım ürünleriyle (yağlı koruyucular, el kremi artıkları) silmemek; bir katılımcı sorunun çoğunun bu ürünlerden geldiğini yazıyor. İngilizce kaynaklar çoğunlukla ABD araçlarına ait, Avrupa B6 ile iç mekân plastikleri ortaktır."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/passat-b6-kasa-sizce-alinir-mi--141463675",
+            "https://passatworld.com/forums/volkswagen-passat-b6-discussion/342713-yep-another-my-interior-peeling-thread.html",
+            "https://www.passatworld.com/threads/interior-plastic-getting-sticky.456489/",
+            "https://www.passatworld.com/threads/color-coming-up-on-interior-trim-center-console-and-sticky-clearcoat-plasti-dip.355289/",
+            "https://www.vwvortex.com/threads/interior-window-door-lock-switch-paint-peeling.5790343/",
+            "https://www.vwvortex.com/threads/button-peeling.5372202/"
+          ]
+        },
+        {
+          "sorun_adi": "Tavan döşemesinin ve kapı döşemelerinin sarkması",
+          "etkilenen_parca": "Tavan kaplaması (kumaş ve sünger) ve kapı döşemeleri",
+          "belirtiler": "Tavan kumaşının kenarlarda ve lamba çevresinde sarkması, kabarması ya da başa değmesi; kapı döşemesinin suyla silindikten sonra yerinden çıkması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "DonanımHaber'de bir B6 sahibi tavan ve kapı döşemelerinin sarkmasını tekrar eden bir sorun olarak anıyor. PassatWorld ve VWVortex'te sahipler kumaşın arkasındaki sünger tabakanın zamanla çözülerek tavanın düştüğünü, sıcak iklimde hızlandığını yazıyor.",
+            "cozum": "Kenarların sprey yapıştırıcıyla yeniden yapıştırılması ya da tavan kaplamasının döşemeci tarafından yenilenmesi; bir B6 Variant sahibi yerel bir işte yaklaşık 350 dolar ödediğini yazıyor (ABD).",
+            "maliyet": "Kullanıcı beyanı (tarihli ve ABD'ye ait): yenileme için yaklaşık 350 dolar.",
+            "onlem": "Tavanı ıslak bezle silmemek; kaynaklardaki anlatılar B6'nın farklı yıllarını ve iklimlerini kapsıyor, Türkiye'ye özgü bir istatistik yoktur."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/passat-b6-kasa-sizce-alinir-mi--141463675",
+            "https://www.passatworld.com/threads/08-passat-headliner-falling-off-to-the-point-it-hits-my-head.537721/",
+            "https://www.vwvortex.com/threads/headliner-and-trim-fabric-sagging-or-peeling.7703489/"
+          ]
+        },
+        {
+          "sorun_adi": "Elektronik park freni (EPB) arızası: 'park freni arızası' uyarısı, frenin uygulanmaması ya da bırakmaması",
+          "etkilenen_parca": "Elektronik park freni düğmesi, arka kaliper motorları ve fren kontrol modülü",
+          "belirtiler": "Göstergede park freni arıza uyarısı; el frenin devreye girmemesi ya da bırakmaması; bazı anlatılarda uyarının akü değişince ya da kontak kapatılıp açılınca kaybolması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "PassatWorld'de B6 sahipleri 'Parking Brake Fault' uyarısını ve el frenin uygulanmaması ya da bırakmaması şikâyetini en sık anlatılan sorun olarak yazıyor; şüpheli parçalar olarak düğme, arka kaliper motorları, fren kontrol modülü ve akü sayılıyor. Bir sahip B6'daki EPB arızasının çoğunlukla su girişi nedeniyle sıkışan EPB motorundan geldiğini, bir başkası akü değişince hatanın gittiğini yazıyor. DonanımHaber'de de bir B6 sahibi 'elektronik el freni hatası' başlığı açmış.",
+            "teshis": "Arıza kodlarının okunması ve düğme ile kaliper motorlarının ayrı ayrı sınanması; PassatWorld'de önce akü geriliminin kontrol edilmesi öneriliyor, çünkü zayıf akü de hataya yol açabiliyor.",
+            "cozum": "Düğmenin, kaliper motorunun ya da modülün değiştirilmesi; bazı sahipler yalnızca aküyü değiştirerek hatayı gidermiş.",
+            "maliyet": "PassatWorld'de (ABD, dolar) kullanıcı beyanları: düğme için yaklaşık 15 dolardan bayi onarımında yaklaşık 750 dolara kadar; Türkiye fiyatı çıkmadı.",
+            "onlem": "Park freni uyarısı yanıyorsa aracı eğimli yerde yalnızca el freniyle bırakmamak, vitesi (otomatikte P) de kullanmak; PassatWorld anlatıları ağırlıkla ABD araçlarına aittir, Avrupa B6'da EPB donanıma bağlıdır ve belirtiler farklı olabilir."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/b6-passat-elektronik-el-freni-hatasi--118757877",
+            "https://www.passatworld.com/threads/electronic-parking-brake-fault-fix.445785/",
+            "https://www.passatworld.com/threads/b6-parking-brake-fault.404665/",
+            "https://www.passatworld.com/threads/electronic-parking-brake-problem.278836/",
+            "https://www.passatworld.com/threads/electronic-parking-brake-fault-2007-3-6l-4motion-variant.354043/"
+          ]
+        }
       ]
     },
     {
@@ -20203,6 +20981,19 @@
             "https://vans.honestjohn.co.uk/volkswagen/t5-transporter/"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Volvo",
+      "model": "S40 / V50 (2004-2012)",
+      "motor": "1.6D 109 (DV6)",
+      "uretim_yillari": {
+        "baslangic": 2004,
+        "bitis": 2012
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "psa-dv6-hdi-tdci"
       ]
     },
     {

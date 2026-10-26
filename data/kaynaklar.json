@@ -778,6 +778,30 @@
       "guven": "orta",
       "ana_sayfa": "https://www.technopat.net/sosyal/",
       "not": "Teknoloji ve otomobil başlıkları olan Türk forumu; marka ve model bazlı 'kronik sorun var mı' / 'alınır mı' konuları. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor."
+    },
+    "pistonheads.com": {
+      "ad": "PistonHeads",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.pistonheads.com/gassing/",
+      "not": "İngiltere'de genel otomobil forumu; Audi / Seat / Skoda / VW bölümünde eski dizel sorunları. Başlıkların çoğu 5-15 yıllık."
+    },
+    "passatworld.com": {
+      "ad": "PassatWorld",
+      "ulke": "US",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://www.passatworld.com/",
+      "not": "VW Passat sahipleri forumu (ağırlıkla ABD pazarı; iç mekân ve gövde konuları Avrupa araçlarıyla ortaktır)."
+    },
+    "micra.org.uk": {
+      "ad": "Micra.org.uk",
+      "ulke": "UK",
+      "tur": "forum",
+      "guven": "orta",
+      "ana_sayfa": "https://micra.org.uk/",
+      "not": "Nissan Micra sahipleri forumu (İngiltere); K11 / K12 / K13 elektrikli direksiyon, motor ve elektrik başlıkları. Başlıkların çoğu 5-15 yıllık."
     }
   }
 }

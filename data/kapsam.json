@@ -721,7 +721,7 @@
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Doblo"
+          "Doblo (2010-2022)"
         ],
         "motor": [
           "Multijet"
@@ -3588,7 +3588,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Captiva 2.0 D ve Aveo 1.4 zincir iddiaları tek rehber sitesine dayanıyor; Lacetti için sonuç çıkmadı."
+      "not": "Captiva 2.0 D ve Aveo 1.4 zincir iddiaları tek rehber sitesine dayanıyor; Lacetti için sonuç çıkmadı. Faz 18: Captiva için tekrar arandı: DonanımHaber'de otomatik şanzıman selenoid valfleri, turbo hortumu yırtılması / siyah duman ve direksiyon mafsalı tıkırtısı; Honest John'da 2011 2.0 VCDi otomatikte DPF arızası kaynaklı yağ seyrelmesi ve hidrolik kilit vakası, Parkers'ta 43.000 km'de turbo arızası (2.2) ve Chevrolet Forum'da 2012 model elektrik arızaları anlatılıyor; kilometre bilgili iki siteli ortak sorun çıkmadı. Aveo T250 için DonanımHaber ve Ekşi Sözlük'te ön takım (z-rot, kaliper pimi) sesleri, motor takozu, 1.4'te yağ kaçağı ve 6T40 otomatikte geçiş sarsıntısı tekil ve T300 ile karışık; Lacetti için sonuç çıkmadı."
     },
     {
       "marka": "Volkswagen",
@@ -3772,7 +3772,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "L200 DPF ve turbo anlatıları rehber siteleri ve tekil Şikâyetvar kayıtları; ASX 1.6 MIVEC sıcak marş sorunu yalnızca Ekşi'de."
+      "not": "L200 DPF ve turbo anlatıları rehber siteleri ve tekil Şikâyetvar kayıtları; ASX 1.6 MIVEC sıcak marş sorunu yalnızca Ekşi'de. Faz 18: Lancer X (2007-2017) 1.6 / 1.8 CVT için tekrar arandı: DonanımHaber ve Technopat'ta CVT görüşleri çelişkili (çoğu kronik sorun yok diyor, bir kullanıcı ses duyulursa uzak durulmasını öneriyor); Ekşi Sözlük'te 1.5 motorda erken yağ yakma ve saat ayarının kendiliğinden değişmesi tekil; kayıt açılmadı."
     },
     {
       "marka": "Land Rover",
@@ -4006,7 +4006,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da turbo ve hortum şikâyetleri var; 2.2 ve 3.2 TDCi'ye özgü ikinci bağımsız kaynak çıkmadı."
+      "not": "Şikâyetvar'da turbo ve hortum şikâyetleri var; 2.2 ve 3.2 TDCi'ye özgü ikinci bağımsız kaynak çıkmadı. Faz 18: 2008-2012 Ranger için DonanımHaber'de 2.2 TDCi'de soğuk çalıştırmada geç çalışma, yük altında devir yükselmemesi ve otomatik şanzımanda takılma sonrası motor arızası tekil; 2.5 TDCi için bir 'kronik sorun var mı' başlığı yanıtsız; Şikâyetvar kayıtları AdBlue, bagaj perdesi ve servis ücretleri gibi yeni modellere ait."
     },
     {
       "marka": "Nissan",
@@ -8290,7 +8290,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Bu oturumdaki aramada 2.0 HDi / BlueHDi için kronik enjektör ya da DPF kaynağı çıkmadı; Şikâyetvar'da Expert 2.0 BlueHDi için geç marş ve şanzıman sesi, Jumpy için 2022 model bir araçta garanti kapsamında motor değişimi gibi tekil şikâyetler var; DonanımHaber'deki bir başlıkta eski 2.0 HDi'ların ilk sürümlerinin önerilmediği yazılıyor (yaklaşık 15 yıllık yorum)."
+      "not": "Bu oturumdaki aramada 2.0 HDi / BlueHDi için kronik enjektör ya da DPF kaynağı çıkmadı; Şikâyetvar'da Expert 2.0 BlueHDi için geç marş ve şanzıman sesi, Jumpy için 2022 model bir araçta garanti kapsamında motor değişimi gibi tekil şikâyetler var; DonanımHaber'deki bir başlıkta eski 2.0 HDi'ların ilk sürümlerinin önerilmediği yazılıyor (yaklaşık 15 yıllık yorum). Faz 18: 2008-2011 Expert / Jumpy için DonanımHaber'de bir filo işletmecisi Boxer, Jumper, Ducato ve Master'ın şanzıman ve debriyaj baskı balatası sorunlarını, 2011 Boxer'larında 30.000 km'den önce iki kez baskı balata değişimini yazıyor (tekil, model karışık); Şikâyetvar şikâyetleri 2018 sonrası modellere ait."
     },
     {
       "marka": "Peugeot",
@@ -8307,7 +8307,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da Boxer / Jumper için tekrar eden konular enjektör şakırtısı (enjektör değişiminden sonra da süren), debriyaj alt merkezi / hidrolik boru sızıntısı ve pedalın takılı kalması (bazı kullanıcılarda ilk 25.000 km'de), tek vaka turbo arızası ve AdBlue uyarıları; şikâyetlerin çoğu 2023 sonrası 2.2 BlueHDi 140 / 180 araçlara ait. Anlatılar tek siteye (Şikâyetvar) dayanıyor ve kilometre bilgisi kullanıcı beyanı; ikinci bağımsız kaynak çıkmadı."
+      "not": "Şikâyetvar'da Boxer / Jumper için tekrar eden konular enjektör şakırtısı (enjektör değişiminden sonra da süren), debriyaj alt merkezi / hidrolik boru sızıntısı ve pedalın takılı kalması (bazı kullanıcılarda ilk 25.000 km'de), tek vaka turbo arızası ve AdBlue uyarıları; şikâyetlerin çoğu 2023 sonrası 2.2 BlueHDi 140 / 180 araçlara ait. Anlatılar tek siteye (Şikâyetvar) dayanıyor ve kilometre bilgisi kullanıcı beyanı; ikinci bağımsız kaynak çıkmadı. Faz 18: 2008-2011 Boxer için DonanımHaber'de bir filo işletmecisi debriyaj baskı balatası ve şanzıman sorunlarını anlatıyor (2011 modelde 30.000 km'den önce iki kez); Şikâyetvar'daki enjektör tıkırtısı, yağ eksiltme ve debriyaj şikâyetleri 2018 sonrası modellere ait. İki siteli, kilometre bilgili ortak sorun çıkmadı."
     },
     {
       "marka": "Peugeot",
@@ -8434,7 +8434,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Panda ("
+          "Panda (2012-2020)"
         ],
         "motor": [
           "1.3 Multijet"
@@ -8639,7 +8639,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da 1.6 D-4D için krank kasnağının kırılması (yolda kalma, yaklaşık 4.500 TL onarım ve garanti reddi) iki ayrı kullanıcıda geçiyor; bir forumda Toyota Türkiye'nin 1.6 dizel iddialarını doğrulamadığı yazılıyor. 1.8 Valvematic / Multidrive için çıkan şikâyetler 2004-2007 MMT'li Verso'lara ait. Kilometre bilgisi ve ikinci bağımsız doğrulama yetersiz olduğundan kayıt açılmadı."
+      "not": "Şikâyetvar'da 1.6 D-4D için krank kasnağının kırılması (yolda kalma, yaklaşık 4.500 TL onarım ve garanti reddi) iki ayrı kullanıcıda geçiyor; bir forumda Toyota Türkiye'nin 1.6 dizel iddialarını doğrulamadığı yazılıyor. 1.8 Valvematic / Multidrive için çıkan şikâyetler 2004-2007 MMT'li Verso'lara ait. Kilometre bilgisi ve ikinci bağımsız doğrulama yetersiz olduğundan kayıt açılmadı. Faz 18: DonanımHaber'de Verso başlığında debriyaj uğultusu (debriyaj setinin garanti kapsamında değişmesi), koltuk döşemesi ve yan kapı derisi aşınması ile dizel MMT şanzımanda 1-2 geçişte sarsıntı tekil; Şikâyetvar Verso sayfaları ağırlıkla Proace Verso (yeni)."
     },
     {
       "marka": "Toyota",
@@ -9401,7 +9401,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Panda ("
+          "Panda (2012-2020)"
         ],
         "motor": [
           "Dualogic"
@@ -11037,7 +11037,7 @@
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Octavia A5"
+          "Octavia (A5, 2004-2013)"
         ],
         "motor": [
           "Tüm motorlar"
@@ -11046,8 +11046,7 @@
           "Octavia (A5"
         ]
       },
-      "not": "Briskoda'da Octavia Mk2 (2004-2013) için bagaj ve yedek lastik yuvasına su alması (bagaj fitilindeki tahliye deliklerinin yetersizliği, arka cam yıkama borusunun bağlantıdan kopması), ön cam altı (plenum) tahliyelerinin tıkanması ve ayak boşluğuna su gelmesi çok sayıda başlıkta anlatılıyor; ama Parkers'ın Octavia rehberi 2013-2020 (A7) kasaya ait, Şikâyetvar'da yalnızca 2014 Octavia'da stepne yuvasında su birikmesi ve nesil belirtmeyen bir 'her yağmurda su alıyor' kaydı çıktı, DonanımHaber'da Octavia'ya özgü başlık yok. İkinci bağımsız site A5'e bağlanamadığı için kayıt açılmadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Faz 18: klima kompresörü kontrol valfi (N280) arızası DonanımHaber ve BRISKODA'yla doğrulandı. Honest John'da 2007 modellerde kapı fitillerinden su girişi, arka cam yıkama hortumunun kış aylarında kopması ve gaz pedalı altına çakıl girmesi tekil; Türkçe sitelerde Octavia II'ye özgü başka ortak sorun çıkmadı. Su alma için önceki tarama sonucu değişmedi: Briskoda'da Octavia Mk2 (2004-2013) için bagaj ve yedek lastik yuvasına su alması (bagaj fitilindeki tahliye deliklerinin yetersizliği, arka cam yıkama borusunun bağlantıdan kopması), ön cam altı (plenum) tahliyelerinin tıkanması ve ayak boşluğuna su gelmesi çok sayıda başlıkta anlatılıyor; ama Parkers'ın Octavia rehberi 2013-2020 (A7) kasaya ait, Şikâyetvar'da yalnızca 2014 Octavia'da stepne yuvasında su birikmesi ve nesil belirtmeyen bir 'her yağmurda su alıyor' kaydı çıktı, DonanımHaber'da Octavia'ya özgü başlık yok. İkinci bağımsız site A5'e bağlanamadığı için kayıt açılmadı."
     },
     {
       "marka": "Toyota",
@@ -11793,7 +11792,7 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Panda ("
+          "Panda (2012-2020)"
         ],
         "motor": [
           "Tüm motorlar"
@@ -12004,7 +12003,8 @@
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Micra",
+          "Micra (K13",
+          "Micra (K14",
           "Note"
         ],
         "motor": [
@@ -17012,6 +17012,1177 @@
         ]
       },
       "not": "Faz 17: model geneli için Auris E150 arandı; iki siteli ortak bir model sorunu çıkmadı. DonanımHaber ve Şikâyetvar'da 2008-2011 model sahipleri ağırlıkla motor konularını anlatıyor (1.33 benzinli ve 1.4 D-4D'de yağ eksiltme, 1.6 Valvematic arızası, 2008 dizelde ilk kalkışta güç kaybı ve siyah duman, tekil vites atma / şanzıman arızası); bunlar motor satırlarında ele alındı. İngiltere kaynaklarında (What Car, Honest John, Toyota Owners Club) el freninin eğimde tutmaması, debriyaj arızaları, ön fren sesi, arka stop ve tampon contalarından su alma ve arka alt çerçeve / süspansiyon paslanması tekil olarak anılıyor; Türkçe sitelerde bu konular doğrulanmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A5",
+      "yillar": "2004-2009",
+      "motor": "2.0 TDI PD 140 (BKD)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Octavia (A5, 2004-2009)"
+        ],
+        "motor": [
+          "2.0 TDI PD"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; 2.0 TDI PD enjektör ve kablo demeti sorunu ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'de bir sahip 2008 model Octavia'yı TDI 140 PS ve 6 ileri DSG olarak tanımlıyor; BRISKODA'da 140 PS BKD'li Octavia sahibi anılıyor. DQ250 DSG ve çift kütleli volan için Octavia'ya özgü iki siteli kayıt çıkmadı."
+    },
+    {
+      "marka": "Seat",
+      "model": "Leon 1P",
+      "yillar": "2005-2012",
+      "motor": "2.0 TDI PD 140 (BKD)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Leon (1P"
+        ],
+        "motor": [
+          "2.0 TDI PD"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; 2.0 TDI PD enjektör ve kablo demeti sorunu ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'de Leon 2.0 TDI DSG (2008 model) sahipleri sorunsuz kullanım anlatıyor; 2009 sonrası araçlar common rail motorludur ve bu ailenin dışındadır."
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 C6",
+      "yillar": "2004-2011",
+      "motor": "2.0 TDI 140/170 (Multitronic)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A6 (C6"
+        ],
+        "motor": [
+          "2.0 TDI"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; Multitronic (0AW) arızası ortak aile kaynaklarıyla kayıtlıdır (◐): DonanımHaber'de 'Audi Multitronic vites sorunu' başlığı, AudiWorld ve Audi-Sport.net'te C6 Multitronic arızaları anlatılıyor. 2.0 TDI'da aşırı yağ tüketimi (2010 model, tek vaka), DPF ve enjektör anlatıları tekil."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat B6",
+      "yillar": "2005-2010",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Passat (B6, 2005-2010)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: iç mekân düğme ve kapı kolu kaplamasının silinmesi, tavan / kapı döşemesi sarkması ve elektronik park freni arızası DonanımHaber ile PassatWorld / VWVortex'le doğrulandı. PassatWorld'deki konfor ünitesi (CCM) kablo sorunları ve klima kompresörü başlıkları ABD sürümlerine ait; Türkçe sitelerde B6'ya özgü karşılığı çıkmadı."
+    },
+    {
+      "marka": "Seat",
+      "model": "Leon 1P",
+      "yillar": "2005-2012",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Leon (1P"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de Leon 2.0 TDI DSG (2008) sahipleri sorunsuz kullanım ve sert süspansiyon anlatıyor; Honest John'un Leon 2005-2012 sayfasında 2.0 litreden küçük motorlarda DQ200 mekatroniğinin sık arızalandığı, 2.0 TDI'da DPF ve karbon birikimi anılıyor (İngiltere); Şikâyetvar DSG şikâyetleri ağırlıkla yeni Leon'lara ait. Leon 1P'ye özgü iki siteli model geneli sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 8P",
+      "yillar": "2003-2012",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A3 (8P"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: Technopat ve DonanımHaber'de 2009-2012 A3 için S tronic (DQ200) kavrama / mekatronik, 1.4 TFSI turbo basınç ayarı ve 1.6 FSI yüksek basınç regülatörü kaynaklı tekleme tekil başlıklarda geçiyor; Audi-Sport.net ve Audizine'de 8P için su pompası / termostat, 2.0 TDI enjektör geri çağırması anlatılıyor (İngiltere / ABD). İki siteli ortak model sorunu çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Audi",
+      "model": "A6 C6",
+      "yillar": "2004-2011",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A6 (C6"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: Technopat ve DonanımHaber'de 2007-2011 A6 C6 2.0 TDI için elektronik arızalar, yağ kaçağı, DPF ve enjektör anılıyor; AudiWorld'de hava süspansiyonu, 2.7 / 3.0 TDI enjektör ve Multitronic konuşuluyor. MMI'ye özgü kayıt çıkmadı. İki siteli ortak model sorunu çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A5",
+      "yillar": "2004-2009",
+      "motor": "1.6 MPI 102 (BSE / BSF)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Octavia (A5"
+        ],
+        "motor": [
+          "1.6 MPI"
+        ]
+      },
+      "not": "Faz 18: BRISKODA'da BSE için PCV / yağ çubuğu kaynaklı yağ tüketimi (bir Caddy sahibinde 120.000 km civarında, 10.000 km'de yaklaşık 1 litre), çatlak vakum hortumu ve bobin kaynaklı düzensiz rölanti ve çift fan farkı anlatılıyor; DonanımHaber'de Golf 5 1.6'da 100.000 km sonrası yağ yakma iddiası tekil. Kilometre bilgili ve iki siteli ortak sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Octavia A5",
+      "yillar": "2004-2009",
+      "motor": "1.9 TDI 105 (BXE / BLS, pompa-enjektör)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Octavia (A5"
+        ],
+        "motor": [
+          "1.9 TDI"
+        ]
+      },
+      "not": "Faz 18: BRISKODA'da 1.9 TDI PD (BXE / BLS) için eksantrik yatağı arızası, BXE'de biyel kolu kırılması, çift kütleli volan (yaklaşık 250.000 km) ve turbo anılıyor; Türkçe sitelerde (DonanımHaber) volan 50.000-250.000 km arasında değişen tekil beyanlarla, bir Octavia 1.9 TDI 700.000 km haberiyle geçiyor. İki siteli, kilometre bilgili ortak sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "3 Serisi E90",
+      "yillar": "2005-2011",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "3 Serisi (E90 / E91"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: iç kapı kolu kaplamasının erimesi Şikâyetvar ve E90Post'la doğrulandı. Şikâyetvar'da ön cam fitilinin parçalanması (bir kayıt), E90Post'ta cam kriko plastik bağlantısının kırılması, valf kapağı çatlağı / yağ kaçağı ve termostat / su pompası başlıkları var; Türkçe sitelerde karşılığı çıkmadı. 320d zincir sorunu N47 ailesinde, benzinli N46 / N52 ayrı '–' satırında."
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi E60",
+      "yillar": "2003-2010",
+      "motor": "520d 2.0 dizel (N47D20)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "5 Serisi (E60"
+        ],
+        "motor": [
+          "520d"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; N47 zincir uzaması ve EGR soğutucusu sorunu ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'de E60 520d (177 bg) sahipleri zincir değişiminin yaklaşık 120.000 km'de yapıldığını ve emme manifoldundaki girdap kapaklarının sorun çıkardığını yazıyor; Bimmerfest'te E60 N47 için zincir, girdap kanadı motoru, yüksek basınç pompası kırıntısı ve yağ kaçağı başlıkları var."
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi E87",
+      "yillar": "2004-2011",
+      "motor": "118d / 120d 2.0 dizel (N47D20)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "1 Serisi (E81"
+        ],
+        "motor": [
+          "118d"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; N47 zincir uzaması ve EGR soğutucusu sorunu ortak aile kaynaklarıyla kayıtlıdır (◐). Türkçe forumlarda 1 Serisi dizel sahipleri belli bir km sonra zincir değişiminin pahalı olduğunu yazıyor; 1addicts ve Bimmerfest'te E81 / E82 / E87 / E88 116d / 118d / 120d için N47 zincir geri çağırma / goodwill başlıkları var."
+    },
+    {
+      "marka": "BMW",
+      "model": "5 Serisi E60",
+      "yillar": "2003-2010",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "5 Serisi (E60"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: Şikâyetvar'da iç kapı kolu şikâyetleri F10 / G30'a ait, E60 için çıkmadı; DonanımHaber'de airbag ve park sensörü (PDC) arızaları 'bilinen sorun' diye anılıyor ama tek kullanıcı; benzinli E60'larda soğutma sistemi (radyatör, hortumlar) tekil. Ortak model sorunu için iki siteli kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi E87",
+      "yillar": "2004-2011",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "1 Serisi (E81"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: Şikâyetvar'da E87 116i / 116d için içeri su alma (sağ A sütunu, sağ arka stop bölgesi, sunroof gideri, arka paspaslar) çok sayıda kayıtta geçiyor, park sensörü ve lamba hataları buna bağlanıyor; ikinci bağımsız site yok (Bimmerfest ve E90Post'taki sunroof gideri / A sütunu sızıntısı başlıkları E90, F30 ve X5 gibi başka kasalara ait).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Serisi W211",
+      "yillar": "2002-2009",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "E Serisi (W211"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: SBC fren arızası Ekşi Sözlük, DonanımHaber, MBWorld ve BenzWorld'le doğrulandı (makyajsız kasa 2002-2006; makyajlıda SBC yok). Airmatic (hava süspansiyonu) ve OM646 turbo / enjektör başlıkları Türkçe sitelerde tekil, M271 zincir gevşemesi (E200 Kompressor, yaklaşık 100.000 km) tekil yorumlarda ve MBWorld'de geçiyor; iki siteli ayrı kayıt çıkmadı."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "A Serisi W169",
+      "yillar": "2004-2012",
+      "motor": "A150 / A170 (CVT Autotronic 722.8)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A Serisi (W169"
+        ],
+        "motor": [
+          "CVT"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; CVT kontrol ünitesi ve valf gövdesi arızası ortak aile kaynaklarıyla kayıtlıdır (◐): DonanımHaber'de W169 incelemesi, Ekşi Sözlük'te w169 başlığı, MBWorld'de W169 CVT başlıkları. A180 CDI / A200 CDI (OM640) enjektör verisi çıkmadı."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "B Serisi W245",
+      "yillar": "2005-2011",
+      "motor": "B170 (CVT Autotronic 722.8)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "B Serisi (W245"
+        ],
+        "motor": [
+          "CVT"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; CVT arızası ortak aile kaynaklarıyla kayıtlıdır (◐): Ekşi Sözlük'te B Serisi (2005-2010) otomatik sahipleri, PistonHeads'te 'Mercedes CVT' başlığı. B180 CDI / B200 CDI için ayrı kayıt açılmadı."
+    },
+    {
+      "marka": "Volvo",
+      "model": "S40 / V50",
+      "yillar": "2004-2012",
+      "motor": "1.6D 109 (DV6)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "S40 / V50"
+        ],
+        "motor": [
+          "1.6D"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; DV6 enjektör, turbo ve DPF sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'de S40 / V50 1.6D sahipleri turboyu (bir 2008 S40'ta 55.000 km), turbo hortumunu ve DPF tıkanmasını; Volvo Owners Club Forum ve PistonHeads'te V50 1.6D için DPF basınç sensörü / hortumları, yanmış enjektör uçları ve DPF rejenerasyonu kaynaklı yağ seviyesi yükselmesi anlatılıyor (İngiltere)."
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra H",
+      "yillar": "2004-2010",
+      "motor": "1.9 CDTI 100/120/150 (Z19DT / Z19DTH)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Astra H (2004-2010)"
+        ],
+        "motor": [
+          "1.9 CDTI"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; EGR tıkanması ve girdap kanadı (swirl flap) arızası ortak aile kaynaklarıyla kayıtlıdır (◐; Zafira B 1.9 CDTI kaydındaki sorun aileye bağlandı). Vauxhall Owners Network ve PistonHeads'te Astra H 1.9 CDTI 150 için kanat çubuğu / emme manifoldu arızası, EGR iptali, VNT turbo aktüatörü, çift kütleli volan (150 PS'de daha ağır) ve M32 şanzıman 6. vites rulmanı anlatılıyor (İngiltere); DonanımHaber'de Astra H dizel sahipleri güç kaybı, turbo solenoid valfi (2011'e kadar tüm Astra H dizellerinde sorunlu olduğu iddiası) ve volan sesini yazıyor (motor hacmi çoğunlukla belirtilmemiş)."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Doblo I",
+      "yillar": "2001-2010",
+      "motor": "1.3 Multijet 70/75",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Doblo (I, 2001-2010)"
+        ],
+        "motor": [
+          "1.3 Multijet"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; 1.3 Multijet enjektör, turbo, EGR ve DPF sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'de '1.3 Multijet motor kronik sorunları: Fiat, Palio, Doblo ve daha fazlası' ve Doblo 1.3 duman atma / tekleme başlıkları, Şikâyetvar'da Doblo Multijet sayfası; FiatForum'da 1.9 JTD EGR sıkışması ve DPF anlatılıyor (İngiltere). Ön takım (rotbaşı, burçlar), klima ve sürgülü kapı için Doblo I'e özgü iki siteli kayıt çıkmadı."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Albea",
+      "yillar": "2002-2012",
+      "motor": "1.3 Multijet 70/75",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Albea ("
+        ],
+        "motor": [
+          "1.3 Multijet"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; 1.3 Multijet sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'deki '1.3 Multijet motor kronik sorunları' başlığı Albea'yı da (EGR valfi arızası) anıyor. Albea'ya özgü başka kayıt çıkmadı; 1.4 benzinli sürüm için kaynak aranmadı."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Accent Era",
+      "yillar": "2006-2012",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Accent Era (2006-2012)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: elektrikli direksiyon (EPS) arızası Şikâyetvar ve Ekşi Sözlük'le doğrulandı (Ekşi'deki yorum kısmi doğrulama: ilk dönemde EPS sorunu olduğunu, yetkili servislerin üniteleri yenilediğini söylüyor; başka bir yorumcu genel kronik sorun olmadığını yazıyor). 1.6 benzinli otomatikte fren boşluğu ve silindir kapak contasında küçük kaçak ile konsol tıkırtısı tekil."
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Accent Era",
+      "yillar": "2006-2012",
+      "motor": "1.5 CRDi 110 (D4FA)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Accent Era"
+        ],
+        "motor": [
+          "1.5 CRDi"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de 2008 model 1.5 CRDi'de güç kaybı (EGR tıkanıklığı, oksijen sensörü ve yağ kalitesi farklı teşhisler olarak konuşuluyor) ve düşük viskoziteli yağ sonrası turbo ötmesi, Ekşi Sözlük'te turbo arızası sonrası enjektörlerin sıkışması tekil; soğuk çalıştırmada marşın iki üç kez çevrilmesi Şikâyetvar'da tek kayıt. Kilometre bilgili ve iki siteli ortak sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 I",
+      "yillar": "2004-2010",
+      "motor": "1.6 HDi 90/110 (DV6)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C4 (I, 2004-2010)"
+        ],
+        "motor": [
+          "1.6 HDi"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; DV6 enjektör, turbo yağ süzgeci ve EGR / DPF sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). Otopark'ta '2009 Citroen C4 kasa 1.6 HDi alınır mı' ve DonanımHaber'de C4 1.6 HDi motor arızası başlıkları var; French Car Forum'da 1.6 HDi'nin 'turbo katili' ünü (küçük yağ hacmi, tam boşalmayan karter tapası) birinci ve ikinci nesil C4 için anlatılıyor (İngiltere)."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 I",
+      "yillar": "2004-2010",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C4 (I, 2004-2010)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de C4 cam kontrol sorunu (2008 model 1.6, merkezi kilit / cam kontrolünde kablolama şüphesi), Ekşi Sözlük'te BSI arızası ve yağ uyarısı, Otopark'ta direksiyon kontaktörü; French Car Forum'da motor bölmesi sigorta kutusu (BSM) kaynaklı rastgele elektrik arızaları, kumanda anahtarı kırılması, 'depollution' uyarısı ve ESP / el freni hataları tekil. İki siteli ortak model sorunu çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Suzuki",
+      "model": "SX4",
+      "yillar": "2006-2014",
+      "motor": "1.6 DDiS 90 (DV6, DLD-416)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "SX4 (2006-2014)"
+        ],
+        "motor": [
+          "1.6 DDiS"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; DV6 sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'de 'SUZUKİ SX4 1.6 DİZEL MOTOR HAKKINDA' başlığında bir kullanıcı motorun (DLD-416) Ford, Volvo, PSA ve Mazda'da da kullanılan 1.6 HDi olduğunu, bakımı aksatılmadıkça sorunsuz olduğunu ve 'kronik' bir yağ sızdırma konusunun ucuza giderildiğini yazıyor."
+    },
+    {
+      "marka": "Suzuki",
+      "model": "SX4 / Grand Vitara",
+      "yillar": "2006-2014",
+      "motor": "1.6 benzinli (M16A) ve otomatik şanzıman",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "SX4 (2006"
+        ],
+        "motor": [
+          "M16A"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de SX4 / Grand Vitara otomatik şanzımanında elektrik şalteri (NSS) kaynaklı vites geçiş arızası ve yağ değişimi sonrası sapıtma tekil, Grand Vitara 1.6'da 'kronik sorun yok' yorumları var; kilometre bilgili ve iki siteli ortak sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Dacia",
+      "model": "Logan / Sandero I",
+      "yillar": "2005-2012",
+      "motor": "1.5 dCi 68/85 (K9K)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Logan / Sandero (I"
+        ],
+        "motor": [
+          "1.5 dCi"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; K9K enjektör ve EGR sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'de 'Dacia Logan 1.5 dizel hakkında görüşleriniz' başlığında sahipler motorun uzun ömürlü olduğunu ve parça / servis giderlerinin düşük olduğunu yazıyor; Şikâyetvar'da Logan'da 2009 modelde hararet lambası / motor dalgalanması, 2011 modelde şanzıman parçasının bulunamaması ve Sandero'da 20.000-50.000 km'de baskı balata / volan değişimi tekil."
+    },
+    {
+      "marka": "Dacia",
+      "model": "Logan / Sandero I",
+      "yillar": "2005-2012",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Logan / Sandero (I"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: Şikâyetvar'da Sandero direksiyon ve kronik titreme / baskı balata şikâyetleri nesil belirtmiyor; Carbuyer ve DaciaForum'da elektrik şikâyetleri ikinci nesil Sandero'ya (2013-2020) ait. İlk nesil Logan / Sandero için ön kapı kilidi, ön takım ve 1.4 / 1.6 MPI LPG supap yuvası kanıtı çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Nissan",
+      "model": "Note E11",
+      "yillar": "2006-2013",
+      "motor": "1.5 dCi 86/103 (K9K)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Note (E11"
+        ],
+        "motor": [
+          "1.5 dCi"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; K9K sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'deki Nissan NOTE başlığında bir sahip 2008-2010 arasında aracının defalarca yağ kaybettiğini (Nissan'ın bunu normal bulduğunu), bir başka Note sahibinde bu nedenle motor bloğunun değiştiğini yazıyor; sert vites geçişlerinin şanzıman yağı değişimiyle yumuşadığı, bagaj kapağı kablolarının metal yorgunluğuyla kopması (2007 1.6 otomatik) ve 2008 LPG'li otomatikte gaz kesilmesi tekil."
+    },
+    {
+      "marka": "Honda",
+      "model": "CR-V RE",
+      "yillar": "2007-2012",
+      "motor": "2.0 i-VTEC / 2.2 i-CTDi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "CR-V (RE"
+        ],
+        "motor": [
+          "2.2 i-CTDi"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber ve Şikâyetvar'da 2007-2011 CR-V 2.2 i-CTDi için EGR valfi, turbo ve DPF genel bir yazıda sayılıyor (sahip deneyimi değil); kızdırma bujisi rölesi hatası (P1384) ve üst turbo hortumunun kelepçeden çıkması tek başlıklarda, 155.000 km sorunsuz gidenler de var. 2.0 i-VTEC için kaynak çıkmadı. Kapı camı çıtaları ve krem koltuk derisi aşınması kozmetik ve tekil.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Nissan",
+      "model": "Tiida",
+      "yillar": "2007-2012",
+      "motor": "1.6 / 1.5 dCi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Tiida"
+        ],
+        "motor": [
+          "1.6"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber, Şikâyetvar ve Ekşi Sözlük'te Tiida'ya özgü kayıt çıkmadı (aramalar Note ve Almera'ya yönlendi).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Renault",
+      "model": "Trafic II",
+      "yillar": "2001-2014",
+      "motor": "1.9 dCi / 2.0 dCi (F9Q / M9R)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Trafic"
+        ],
+        "motor": [
+          "F9Q"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber ve Technopat'ta Trafic 2 için turbo (175.000 km'de sorunsuz kullananlar ve 'turbosu çabuk bozuluyor' söylentisi), 1.9 dCi'de kızdırma bujisi lambası ve araç devrilince gaz kesme tekil; Şikâyetvar Trafic sayfaları ağırlıkla yeni nesil. İki siteli, kilometre bilgili ortak sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Renault",
+      "model": "Master II / III",
+      "yillar": "2003-2019",
+      "motor": "2.5 dCi / 2.3 dCi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Master"
+        ],
+        "motor": [
+          "2.5 dCi"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de Master 3 için turbo, EGR valfi ve DPF genel bir derlemede sayılıyor; Master Klübü'nde bazı 2011 Master'larda şanzıman ve balata sorunu servis beyanı olarak geçiyor; Ekşi Sözlük'te yüksek kilometreli 2.5 dCi'de güç düşüşü tekil. Volan / turbo / enjektör için model yılına bağlanabilen kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Renault",
+      "model": "Twingo II",
+      "yillar": "2007-2014",
+      "motor": "1.2 16V / 1.5 dCi",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Twingo II ("
+        ],
+        "motor": [
+          "1.2 16V"
+        ]
+      },
+      "not": "Faz 18: Twingo 2'ye özgü kayıt çıkmadı; sonuçlar Twingo 1, Megane 2 ve Symbol'e ait (1.5 dCi enjektör / turbo anlatıları K9K ailesinde).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic FD6",
+      "yillar": "2006-2011",
+      "motor": "1.6 i-VTEC 125 (R16A)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Civic (FD6"
+        ],
+        "motor": [
+          "1.6 i-VTEC"
+        ]
+      },
+      "not": "Faz 18: ilk aşamada yabancı kaynaklarla (CarComplaints, 8thCivic, Consumer Reports) eklenmiş kayıt; arka lastik aşınması Honda'nın 2006-2007 ABD servis bültenine dayanır ve Türkiye'ye uygulandığı doğrulanmamıştır. Türkçe kaynaklara dayanan sorun model geneli satırdadır."
+    },
+    {
+      "marka": "Chevrolet",
+      "model": "Cruze",
+      "yillar": "2009-2016",
+      "motor": "1.6 benzin (F16D4)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Cruze (2009-2016)"
+        ],
+        "motor": [
+          "F16D4"
+        ]
+      },
+      "not": "Faz 18: plansız kalan kayıt plana bağlandı (kaynaklar ilk aşamadaki kayıttır)."
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra H",
+      "yillar": "2004-2010",
+      "motor": "1.6 Twinport (Z16XEP / Z16XER, Easytronic)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Astra H (2004-2010)"
+        ],
+        "motor": [
+          "1.6 Twinport"
+        ]
+      },
+      "not": "Faz 18: plansız kalan kayıt plana bağlandı (kaynaklar ilk aşamadaki kayıttır)."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat B6",
+      "yillar": "2005-2010",
+      "motor": "2.0 TDI PD 140 / 170 (BKP, pompa-enjektör)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Passat (B6, 2005-2010)"
+        ],
+        "motor": [
+          "2.0 TDI PD 16V"
+        ]
+      },
+      "not": "Faz 18: plansız kalan kayıt plana bağlandı; enjektör ve kablo demeti sorunu ortak aile kaynaklarıyla da kayıtlıdır (vag-pd-2-0-tdi-16v)."
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Polo 9N",
+      "yillar": "2002-2014",
+      "motor": "1.2 3 silindir (BMD / BME / CGPA)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Polo (9N / 6R"
+        ],
+        "motor": [
+          "1.2 3 silindir"
+        ]
+      },
+      "not": "Faz 18: plansız kalan kayıt plana bağlandı (kaynaklar ilk aşamadaki kayıttır)."
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic FD6",
+      "yillar": "2006-2011",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Civic (FD6, 2006-2011)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: fren diskinin çabuk deforme olması ve ABS'nin erken devreye girmesi Ekşi Sözlük ve DonanımHaber'deki FD6 başlıklarında anlatıldı (kullanıcı beyanı; yabancı kaynakla doğrulanamadı). Yalnızca DonanımHaber'de geçtiği için eklenmeyenler: direksiyon kutusu tıkırtısı (revizyon 250-1.250 TL, garantide ücretsiz değişim beyanı), motor takozu / motor kulağı (bir sahipte 90.000 km'de değişim), arka amortisör ve arka süspansiyon sesi, ön amortisör üst kule yatağı gıcırtısı. Yalnızca Otopark'ta geçen: 2010 model FD6'da elektrikli direksiyon uyarısı ve ağır direksiyon (parça değişimleri sonrası tork sensörü arızası, 17.000 TL; sahibin anlatımı). Honda'nın ABD'deki elektrikli direksiyon (EPS) uzatılmış garantisi aramada Civic Hybrid, Si ve Fit'i kapsıyor; 1.6 Civic'in kapsandığı görülmedi."
+    },
+    {
+      "marka": "Opel",
+      "model": "Vectra C",
+      "yillar": "2002-2008",
+      "motor": "1.9 CDTI 120 / 150 (Z19DT / Z19DTH)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Vectra C ("
+        ],
+        "motor": [
+          "1.9 CDTI"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; EGR tıkanması ve girdap kanadı arızası ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'de Vectra C 1.9 CDTI alım rehberi, test yazısı ve 2007 model otomatikte aşırı yakıt tüketimi başlıkları var; bir sahip iki üç kez EGR valfi arızası yaşadığını, bir başkası 165.000 km'de EGR temizliği ve enjektör bakımı yaptırdığını yazıyor (hangi başlıkta olduğu ayrıştırılamadı). Yağ eksiltme (2003-2005 modellerde yaygın iddiası, benzinlilerde de geçiyor) ve otomatikte Active Select riski tekil; çift kütleli volan için sonuç çıkmadı."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Palio",
+      "yillar": "2004-2011",
+      "motor": "1.3 Multijet 70/75",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Palio / Palio Weekend ("
+        ],
+        "motor": [
+          "1.3 Multijet"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; 1.3 Multijet enjektör, turbo, EGR ve DPF sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). arabam.com ilanlarında 1.3 Multijet Palio 2004-2011 model yıllarında görülüyor. DonanımHaber'de 'Fiat Palio 1.3 Multijet kronik sorunları' ve '1.3 Multijet motor kronik sorunları: Fiat, Palio, Doblo' başlıkları, Otopark'ta 1.3 Multijet ısıtma bujisi başlığı (Euro 4 araçlarda kızdırma rölesi), Technopat'ta 2007 Palio'da yüksek tüketim ve çekiş düşüklüğü anlatılıyor; bir forumda kısa mesafe kullanımda emme manifoldu, gaz kelebeği ve EGR'de kurum birikiminin tüketimi artırabileceği yazılıyor. Sahipler motorun bakımla uzun ömürlü olduğunu da yazıyor. Palio'ya özgü iki siteli ve kilometre bilgili başka sorun çıkmadı; benzinli sürümler aranmadı."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "ML W164",
+      "yillar": "2005-2011",
+      "motor": "ML 320 CDI / ML 350 CDI 3.0 V6 (OM642)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "ML (W164"
+        ],
+        "motor": [
+          "OM642"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; yağ soğutucusu contası sızıntısı OM642 ailesinin kaynaklarıyla kayıtlıdır (◐). DonanımHaber'deki 'ML 320 CDI - W164 İlk İzlenimler' başlığı ve Ekşi Sözlük'teki ML girdileri Türkiye'de ML 320 / 350 CDI'yi gösteriyor (2008-2009 modellerin ikinci elde çoğunlukla Airmatic'li olduğu bir forumda soruluyor). Ekşi Sözlük'te OM642 için turbo, emme manifoldu flapları (EGR kurumu), NOx sensörü ve krank mili rulmanı da anılıyor; tek site olduğu için aileye eklenmedi."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "S Serisi W221",
+      "yillar": "2005-2013",
+      "motor": "S 320 CDI 3.0 V6 (OM642)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "S Serisi (W221"
+        ],
+        "motor": [
+          "OM642"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; yağ soğutucusu contası sızıntısı OM642 ailesinin kaynaklarıyla kayıtlıdır (◐). DonanımHaber'deki 'Mercedes 2006 ve üzeri S 320' başlığında 3.0 L, 235 PS S 320 CDI'nin en yaygın sürümlerden olduğu yazılıyor; Technopat'ta S320 CDI karşılaştırması var."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "E Serisi W211",
+      "yillar": "2002-2009",
+      "motor": "E 320 CDI 3.0 V6 (OM642, 2005 sonrası)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "E Serisi (W211"
+        ],
+        "motor": [
+          "E 320 CDI"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; yağ soğutucusu contası sızıntısı OM642 ailesinin kaynaklarıyla kayıtlıdır (◐). Ekşi Sözlük'teki 'mercedes e320 cdi' ve 'w211' girdileri ile DonanımHaber'deki 'Dizel w211 önerisi' başlığı Türkiye'de E 320 CDI'yi gösteriyor; bir forumda 70.000 km civarında turbo arızası yazılıyor (tekil). 2005 öncesi 3.2 L sıralı 6 silindir OM648 bu kayıt ve aileye dahil değildir."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "ML W164",
+      "yillar": "2005-2011",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "ML (W164"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: Ekşi Sözlük'te direksiyon kaplamasının soyulması gibi küçük sorunlar ve 7G-Tronic'te yokuş inişinde kararsızlık tekil; DonanımHaber'de ML 320 / 350 CDI ikinci el sorusu ve ilk izlenimler başlığı var. İki siteli ortak model sorunu çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "S Serisi W221",
+      "yillar": "2005-2013",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "S Serisi (W221"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber ve Ekşi Sözlük'te Airmatic (hava süspansiyonu körükleri, seviye sensörleri, kompresör) en çok anılan masraf; ancak başlıklar W220 ve W221'i karıştırıyor, kimi yorumlar bakımı yapılan sistemin sorun çıkarmadığını yazıyor ve kilometre aralığı tutarlı değil (Airmatic başlıklarında bir yorumda körük 100.000 km'de patlamış, bir diğerinde 400.000 km'de ilk günkü gibi). W221'e bağlanabilen iki siteli kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 5",
+      "yillar": "2003-2008",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Golf 5"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de 'Golf 5 şanzıman sorunu', 'GOLF 5 şanzuman vuruntusu?' ve 'Golf 5 1.6 otomatik vites' başlıkları (Tiptronic / DSG vuruntusu, mekatronik selenoid, ısındıkça vuruntu), Şikâyetvar'da 2005 model Golf 5'te 200.000 km'de şanzıman arızası, 2004 model Golf 5'te sürekli yanan motor arıza lambası, Ekşi Sözlük, Otopark ve Technopat'ta 1.4 TSI'nin yüksek güçlü sürümlerinde piston ve süperşarj kavraması ile iç mekân kaplamasının soyulması anılıyor; hepsi tekil ya da şanzıman ve motor sürümü karışık. Üretimi 2008'de biten bir nesil olduğundan yalnızca son model yılı pencerededir.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 5",
+      "yillar": "2003-2008",
+      "motor": "1.6 FSI 115 (BAG / BLF / BLP) ve 6 ileri Tiptronic (09G)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Golf 5"
+        ],
+        "motor": [
+          "1.6 FSI"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de 1.6 FSI için sensör hataları, yağ eksiltme (10W60 yağla azaldığı beyanı), LPG uyumu (görüşler çelişkili), bir sahipte motorda kayış vuruntusu, 'FSI motora neden sıcak bakılmıyor' başlığı ve Aisin Tiptronic (09G) vuruntusu; Ekşi Sözlük, Otopark ve Technopat'ta LPG uyumu, üç motor kodu (BAG, BLF, BLP) ve tek bir EGR valfi anlatısı geçiyor. Kilometre bilgili ve iki siteli ortak sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Golf 5",
+      "yillar": "2003-2008",
+      "motor": "1.9 TDI 105 / 2.0 TDI 140 (pompa-enjektör)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Golf 5"
+        ],
+        "motor": [
+          "TDI"
+        ]
+      },
+      "not": "Faz 18: Golf 5 1.9 ve 2.0 TDI için DonanımHaber, Otopark ve Technopat aramalarında Golf 5'e özgü sonuç çıkmadı (TDI'ların yağ eksilttiği yorumu tekil). 2.0 TDI pompa-enjektör sorunu 'vag-pd-2-0-tdi-16v' ailesinde Passat B6, Octavia A5 ve Leon 1P'ye bağlıdır; Golf 5'in Türkiye'de satıldığı bu aramalarla gösterilemediği için bağlanmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touran 1T1 / 1T2",
+      "yillar": "2003-2010",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Touran (1T1"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de '11 yıldır çözülmeyen Volkswagen Touran problemim' başlığında direksiyon, DSG, elektrik, motor ve süspansiyon arızaları ile tazminat davası iddiası anlatılıyor (doğrulanmadı); Technopat'ta 2.0 TDI'da enjektör ve pompa değişimi ile DSG revizyonu tek yorumda geçiyor. Touran 1T1 / 1T2'ye özgü iki siteli kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Touran 1T1 / 1T2",
+      "yillar": "2003-2010",
+      "motor": "1.9 TDI 105 / 2.0 TDI 140 (BKC / BXE / BKD)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Touran (1T1"
+        ],
+        "motor": [
+          "TDI"
+        ]
+      },
+      "not": "Faz 18: Touran 1T1 / 1T2 dizelleri için Türkçe kaynakta nesle ve motora bağlanabilen kayıt çıkmadı (genel Touran başlıkları yukarıdaki model geneli satırda).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Getz",
+      "yillar": "2002-2011",
+      "motor": "1.5 CRDi (VGT)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Getz"
+        ],
+        "motor": [
+          "1.5 CRDi"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber ('Getz'in kronik sorunları', 'Getz kronik sorunlar & sıkıntılar', '2007 1.5 diesel yorumlar'), Technopat ('Getz 1.5 CRDi VGT alınır mı') ve Otopark ('Turbodan ıslık sesi') başlıkları ile 1.5 / 1.6 CRDi EGR iptali başlığında turbo arızası, EGR iptali sonrası turbo kesmesi, enjektör tamir takımı (150 TL) ve yüksek kilometrede zincir değişimi (200.000-250.000 km) anılıyor; Accent Era 1.5 CRDi sahibi yaklaşık 210.000 km'de rölantide sıkışma ve çekiç sesinin EGR temizliğiyle geçici düzeldiğini yazıyor. Turbo tekrar eden konu ama kilometre bilgisi tekil ve tutarsız; ortak aile sorunu olarak kayıt açılmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Tucson JM",
+      "yillar": "2004-2010",
+      "motor": "2.0 CRDi",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Tucson (JM"
+        ],
+        "motor": [
+          "2.0 CRDi"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de 'Tucson 2007 2008 2.0 CRDi alınır mı?' başlığı ve yaklaşık 12 yıl önceki bir derleme enjektör, turbo ve DPF tıkanmasını sayıyor (kaynak zayıf, kilometre yok); Şikâyetvar Tucson sayfaları yeni nesillere ait. İki siteli, kilometre bilgili ortak sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Kia",
+      "model": "Rio JB",
+      "yillar": "2005-2011",
+      "motor": "1.5 CRDi",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Rio (JB"
+        ],
+        "motor": [
+          "1.5 CRDi"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de 'Hyundai Getz 1.5 CRDI ve Kia Rio 1.5' başlığı var; Rio JB'ye özgü kullanıcı deneyimi çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Nissan",
+      "model": "Micra K12",
+      "yillar": "2002-2010",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Micra (K12, 2002-2010)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: elektrikli direksiyon (EPS / P/S) arızası DonanımHaber, Şikâyetvar, Ekşi Sözlük ve Micra.org.uk (İngiltere) ile doğrulandı. Şikâyetvar'daki 2011-2013 Micra otomatik şanzıman şikâyetleri K13 kuşağına aittir (K13 CVT kaydı ayrıdır)."
+    },
+    {
+      "marka": "Nissan",
+      "model": "Micra K12",
+      "yillar": "2002-2010",
+      "motor": "1.5 dCi 82 (K9K)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Micra (K12"
+        ],
+        "motor": [
+          "1.5 dCi"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; K9K enjektör ve EGR sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'deki 'Nissan Micra 2005-2006 1.5 dCi nasıl bilirsiniz?' ve 'Micra 1.5 dCi (Renault 1.5 82 hp dCi motor) bakım tavsiyesi' başlıkları Türkiye'de K12 1.5 dCi'yi gösteriyor; bir sahip kronik sorun bilmediğini, triger zincirinin 150.000 km civarında değişebileceğini ve ilk marşta zincir sesine dikkat edilmesi gerektiğini yazıyor (tekil)."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Panda 169",
+      "yillar": "2003-2012",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Panda (169, 2003-2012)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: elektrikli direksiyon arızası Fiat Forum, Şikâyetvar ve DonanımHaber Panda Kulübü ile doğrulandı."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Panda 169",
+      "yillar": "2003-2012",
+      "motor": "1.2 Fire 69 (Dualogic robotize şanzıman)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Panda (169"
+        ],
+        "motor": [
+          "Dualogic"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; Dualogic hidrolik ünite, aktüatör ve kavrama sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber Panda Kulübü'nde iki 2005 model Panda 1.2 Dualogic sahibi şanzıman sorunlarını yazıyor (vitesin kendiliğinden N'ye geçmesi ve motor arıza lambası; servo motor şüphesi); Panda 169'un Türkiye'de Dualogic'li 1.2 ile satıldığı bu başlıklarla görülüyor. Manuel 1.2 Fire için kaynak aranmadı."
+    },
+    {
+      "marka": "Fiat",
+      "model": "Panda 169",
+      "yillar": "2003-2012",
+      "motor": "1.3 Multijet 70/75",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Panda (169"
+        ],
+        "motor": [
+          "1.3 Multijet"
+        ]
+      },
+      "not": "Faz 18: Panda 169'a özgü 1.3 Multijet kaydı çıkmadı; DonanımHaber ve Şikâyetvar sonuçları Palio, Doblo ve Egea ağırlıklı ve Türkiye'de Panda 169 1.3 Multijet satışı bu aramalarla gösterilemedi (ortak 1.3 Multijet sorunları ailede).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 E83",
+      "yillar": "2003-2010",
+      "motor": "2.0d xDrive 177 (N47D20, 2007 sonrası) ve xDrive aktarma",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X3 (E83"
+        ],
+        "motor": [
+          "N47D20"
+        ]
+      },
+      "not": "Faz 18: kayda özgü sorun yok; N47 zinciri ve xDrive transfer kutusu servo motoru ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'deki 'Bmw X3 (e83) 2.0d xdrive hakkında' başlığında 177 hp 2.0d anlatılıyor, bir sahip N47'de zincir sesi gelmese de 170.000 km'de zinciri değiştirdiğini yazıyor; DonanımHaber'deki VTG arızası başlığında 2006 model 2.0d X3 sahibi servo motor dişlisini üç kez değiştirdiğini yazıyor (aile kaynağı). Tomorrow's Technician'da 65.000 mil yapmış 2007 X3'te servo motorun plastik dişlisinin kısmen aştığı anlatılıyor. 2007 öncesi M47 2.0d (150 PS) bu kayıt ve aileye dahil değildir."
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 E83",
+      "yillar": "2003-2010",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X3 (E83"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: Ekşi Sözlük'te 2004-2010 yüksek kilometreli dizellerden uzak durulması (yağ damlatma, klima ve el freni arızaları, pahalı parça) tek yorum; DonanımHaber'de 2008 model X3'te 190.000 km civarında çekiş problemi, tork konvertörü değişimi, şanzıman revizyonu ve solenoid değişimi tekil. İki siteli ortak model sorunu çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mazda",
+      "model": "Mazda 3 BK",
+      "yillar": "2003-2009",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Mazda 3 (BK"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de 'Mazda 3 kronik sorunları' ve 2004-2006 kullanıcı yorumu başlıklarında bobin arızası, ateşleme sorunu ve otomatik şanzıman sarsıntısı sayılıyor (genel liste, kaynağı belirsiz); Otopark'ta bir yorumcu motorun Ford Focus ile ortak olduğu için bobinlerin hassas olabileceğini ve ön göğüste kabarma sorununu yazıyor, bir 2006 sahibi yalnızca hidrolik direksiyon lambasından söz ediyor; Şikâyetvar Mazda şikâyetleri çoğunlukla 2011 sonrası. Yabancı kaynaklarda BK'ya özgü bobin arızası kilometresi çıkmadı. Kilometre bilgili ve iki siteli ortak sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Kia",
+      "model": "Cerato LD",
+      "yillar": "2004-2009",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Cerato (LD"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de 2006 model CRDi sahibi 70.000 km'de aracını sağlam bulduğunu ama 'Cerato'larda kronik debriyaj sorunu' olduğunu, 2008 model otomatik sahibi yıkama sonrası motor lambasının yandığını (bujilere su kaçması şüphesi) yazıyor; genel başlıklarda krank mili sensörü, otomatik şanzıman ve ön süspansiyon aşınması sayılıyor (kaynağı belirsiz derleme). Şikâyetvar'daki Cerato kronik su alma (stop ve bagaj) şikâyetleri ağırlıkla yeni nesillere ait görünüyor. İki siteli ortak sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Kia",
+      "model": "Sportage JE",
+      "yillar": "2004-2010",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Sportage (JE"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de '2007-2009 Sportage nasıldır?' başlığı ve bir derleme 2.0 CRDi'de DPF tıkanması, uzun kullanımda turbo arızası ve süspansiyon gürültüsü sayıyor (kilometre ve sahip anlatısı yok, tek site). İki siteli, kilometre bilgili ortak sorun çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra H",
+      "yillar": "2004-2010",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Astra H (2004-2010)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: CIM (gövde elektroniği) modülü arızası DonanımHaber, Technopat ve Ekşi Sözlük'le; soğutma suyu seviye sensörü / genleşme kabı arızası DonanımHaber ve Ekşi Sözlük'le doğrulandı. Eklenmeyenler: koltuk altı kablo temassızlığı kaynaklı airbag ışığı (Ekşi Sözlük'te 'en kronik ve sinir bozucu' deniyor; DonanımHaber'deki başlık Opel genelini anlatıyor, Technopat'ta Astra H'ye özgü kalıcı bir arıza görünmüyor; Şikâyetvar'daki Takata geri çağırma şikâyetleri ayrı bir konu), bagaj kilidi (tek DonanımHaber yorumu: 2013 modelde üç kez değişti), tavan çıtası solması ve klima kompresör bobini (tek yorum). Yağ soğutucusu sızıntısı 1.6 Twinport kaydındadır; 1.6 benzinlide bobin arızası Ekşi Sözlük ve Technopat'ta anılıyor ama kilometre bilgisi yok."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "B Serisi W245",
+      "yillar": "2005-2011",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "B Serisi (W245"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: cam tavan (sunroof) arızası ve su alma Ekşi Sözlük ve Şikâyetvar'la doğrulandı. Eklenmeyenler: aks mili arızası (Şikâyetvar'da tek B150 sahibi, yetkili serviste yüksek bedel), direksiyon kutusu ve park sensörü hataları (yalnızca DonanımHaber), yol bilgisayarı / gösterge yazılarının ısınınca okunamaması (Şikâyetvar B150 şikâyetlerinde geçiyor, ikinci site yok). Şanzıman kartı (kontrol ünitesi) arızası CVT 722.8 ailesinde kayıtlıdır."
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "A Serisi W169",
+      "yillar": "2004-2012",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "A Serisi (W169"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: DonanımHaber'de A150 başlığında sunroof mekanizmasının bozulmaya yatkın olduğu, ESP arızasında hızın sınırlandığı ve motora ulaşmanın zor olduğu (arızalarda motorun indirilmesi) yazılıyor (tek site); Ekşi Sözlük W169 girdisi yalnızca nesil ve makyaj yıllarını veriyor, W245'teki cam tavan su alma sorunu için W169'a ait kayıt çıkmadı. İki siteli ortak model sorunu çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Fiat",
+      "model": "Doblo I",
+      "yillar": "2001-2010",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Doblo (I, 2001-2010)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: Şikâyetvar'da 2007 model 1.4'te kontrol ünitesi (beyin) arızası ve yeni beyin bulunamaması ile 2004 model 1.9 JTD'de gaz tepkisizliği tekil; 2010 model araçlardaki anlatıların (1. vitese zor geçiş, ön amortisör takozlarının dört kez değişmesi, yolcu airbag bölgesinde şişme) hangi nesle ait olduğu belirsiz (Premio donanımı ikinci nesildir). Ön takım rotbaşı, kayar kapı ve klima için 2001-2010'a özgü iki siteli kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Fiat",
+      "model": "Palio / Albea",
+      "yillar": "2002-2012",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Palio / Palio Weekend (",
+          "Albea ("
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 18: Şikâyetvar'da Palio ve Albea'da kilometre göstergesinin 399.999 km'den sonra sıfırlanıp çubuk gösterdiği (muayenede sorun) tekrar eden bir şikâyet, ikinci site yok; Albea 1.4'te motor lambası ve çekiş düşüklüğü ile kaza sonrası elektrik sorunları tekil; Technopat'ta Palio 1.2 8V'te bobin / buji kaynaklı tekleme; bazı kullanıcılar servislerin '10 yaş üstü araca bakmıyoruz' dediğini yazıyor. Ön takım ve kaporta / paslanma için kayıt çıkmadı. İki siteli ortak model sorunu çıkmadı.",
       "sonuc": "yetersiz-kanit"
     }
   ]
