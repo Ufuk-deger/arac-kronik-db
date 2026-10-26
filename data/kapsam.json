@@ -910,8 +910,7 @@
           "1.6 CRDi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; model/motor bazında tekrar eden sorun için iki bağımsız site bulunamadı. Faz 7'de yeniden arandı: İngiltere forumlarında EGR tereddüdü ve çift kütleli volan, Türkçe kaynaklarda ise 'kronik sorun yok' yorumları ile tekil titreme, DPF ve DCT anıları var; Tucson 1.6 CRDi şikâyetleri i30'a taşınamaz, iki bağımsız site aynı sorunu doğrulamadı."
+      "not": "Turbo, DPF ve DCT anıları nesilleri karıştırıyor ve dağınık; model/motor bazında tekrar eden sorun için iki bağımsız site bulunamadı. Faz 7'de yeniden arandı: İngiltere forumlarında EGR tereddüdü ve çift kütleli volan, Türkçe kaynaklarda ise 'kronik sorun yok' yorumları ile tekil titreme, DPF ve DCT anıları var; Tucson 1.6 CRDi şikâyetleri i30'a taşınamaz, iki bağımsız site aynı sorunu doğrulamadı. Faz 14: aile bağı kuruldu; bu satır Hyundai / Kia U2 CRDi ailesinin ortak DPF / yağa mazot karışması ve enjektör kodlama sorunlarını gösterir, modele özgü kaynak çıkmadı."
     },
     {
       "marka": "Hyundai",
@@ -1552,8 +1551,7 @@
           ""
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "1.2 TSI zincir iddiaları eski ve tekil (ayrıntısı Octavia A5 1.2 TSI kaydında); DSG görüşleri çelişkili."
+      "not": "1.2 TSI zincir iddiaları eski ve tekil (ayrıntısı Octavia A5 1.2 TSI kaydında); DSG görüşleri çelişkili. Faz 14: aile bağı kuruldu; bu satır VAG EA111 TSI (zincir), EA189 1.6 TDI (enjektör) ve 1.6 TDI EGR / DPF ailelerinin ortak sorunlarını gösterir (aynı motorlar Octavia A5, Fabia 5J ve Roomster kayıtlarında); Yeti'ye özgü kaynak çıkmadı."
     },
     {
       "marka": "Volkswagen",
@@ -3028,8 +3026,7 @@
           "1.0 TFSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "1.0 TFSI için yalnızca tekil anekdotlar (start-stop sonrası kalkış, far)."
+      "not": "1.0 TFSI için yalnızca tekil anekdotlar (start-stop sonrası kalkış, far). Faz 14: aile bağı kuruldu; bu satır VAG DQ200 S tronic ailesinin ortak sorunlarını gösterir (1.0 TFSI motoru için ailede kayıt yok); manuel şanzımanlı 1.0 TFSI bu aileye dahil değildir."
     },
     {
       "marka": "Mercedes-Benz",
@@ -3209,8 +3206,7 @@
           "ECO-G"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "LPG / ECO-G şikâyetleri tekil ve Jogger'a özgü değil (Dacia Eco-G genelinde); ikinci bağımsız kaynak bulunamadı."
+      "not": "LPG / ECO-G şikâyetleri tekil ve Jogger'a özgü değil (Dacia Eco-G genelinde); ikinci bağımsız kaynak bulunamadı. Faz 14: aile bağı kuruldu; bu satır Renault / Nissan H4Bt-H4Dt (TCe 3 silindir) ailesinin ortak sorununu gösterir (aynı motor Duster ECO-G kaydında); LPG sistemi ayrıca değerlendirilmedi."
     },
     {
       "marka": "Honda",
@@ -3291,8 +3287,7 @@
           "1.6 TDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Ibiza 1.6 TDI için yalnızca tekil bir direksiyon (EPS) şikâyeti çıktı. Zincir iddiası Ibiza'ya özgü değil."
+      "not": "Ibiza 1.6 TDI için yalnızca tekil bir direksiyon (EPS) şikâyeti çıktı. Zincir iddiası Ibiza'ya özgü değil. Faz 14: aile bağı kuruldu; bu satır VAG EA189 1.6 TDI (enjektör) ve 1.6 TDI EGR / DPF ailelerinin ortak sorunlarını gösterir (aynı motor Polo 6R, Toledo, Altea ve Fabia 5J kayıtlarında); Ibiza'ya özgü kaynak çıkmadı."
     },
     {
       "marka": "Audi",
@@ -5149,8 +5144,7 @@
           "T-GDI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: DonanımHaber'de 2025 model 1.6 DCT'li bir Tucson'da 35 bin km'de dişli kırılması anlatılıyor (tek vaka, motor tipi belirtilmiyor); Şikâyetvar'daki Tucson şanzıman şikâyetlerinin çoğu dizel araçlara ait; yağ yakma iddiaları 1.6 GDi ve 6 ileri otomatik konusunda. T-GDI'ya özgü tekrar eden sorun çıkmadı. 7DCT titremesi Tucson NX4 1.6 CRDi kaydında ele alındı."
+      "not": "Faz 9'da arandı: DonanımHaber'de 2025 model 1.6 DCT'li bir Tucson'da 35 bin km'de dişli kırılması anlatılıyor (tek vaka, motor tipi belirtilmiyor); Şikâyetvar'daki Tucson şanzıman şikâyetlerinin çoğu dizel araçlara ait; yağ yakma iddiaları 1.6 GDi ve 6 ileri otomatik konusunda. T-GDI'ya özgü tekrar eden sorun çıkmadı. 7DCT titremesi Tucson NX4 1.6 CRDi kaydında ele alındı. Faz 14: aile bağı kuruldu; bu satır Hyundai / Kia 7DCT ailesinin ortak kavrama titremesi sorununu gösterir (aynı şanzıman Tucson TL, Kona, Sportage, Bayon, i20 BC3 ve Ceed kayıtlarında); NX4 T-GDI'ya özgü kaynak çıkmadı."
     },
     {
       "marka": "Citroen",
@@ -5299,8 +5293,7 @@
           "1.7 CRDi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: 1.7 CRDi'ya özgü kronik arıza çıkmadı; turbo mili, enjektör ve DPF vakaları 1.6 CRDi ve 2020 sonrası araçlara ait (7DCT titremesi Sportage 1.6 CRDi kaydında)."
+      "not": "Faz 9'da arandı: 1.7 CRDi'ya özgü kronik arıza çıkmadı; turbo mili, enjektör ve DPF vakaları 1.6 CRDi ve 2020 sonrası araçlara ait (7DCT titremesi Sportage 1.6 CRDi kaydında). Faz 14: aile bağı kuruldu; bu satır Hyundai / Kia U2 CRDi ailesinin ortak DPF / yağa mazot karışması ve enjektör kodlama sorunlarını gösterir, modele özgü kaynak çıkmadı. QL döneminin 1.7 CRDi (141 PS) kaydı ayrı."
     },
     {
       "marka": "Kia",
@@ -5348,8 +5341,7 @@
           "1.6 CRDi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: tekil vakalar (2013 model 1.6 CRDi'da yağ seviyesinin yükselmesi ve enjektör temizliği; LPG sonrası enjektör arızası); DPF ve turbo için yıla özgü güvenilir kaynak yok, DPF konusunda forumlarda görüş ayrılığı var. Şikâyetlerin çoğu otomatik ve 2015-2016 DCT'li sürümlere ait (DCT sorunu Accent Blue 2015-2019 kaydında)."
+      "not": "Faz 9'da arandı: tekil vakalar (2013 model 1.6 CRDi'da yağ seviyesinin yükselmesi ve enjektör temizliği; LPG sonrası enjektör arızası); DPF ve turbo için yıla özgü güvenilir kaynak yok, DPF konusunda forumlarda görüş ayrılığı var. Şikâyetlerin çoğu otomatik ve 2015-2016 DCT'li sürümlere ait (DCT sorunu Accent Blue 2015-2019 kaydında). Faz 14: aile bağı kuruldu; bu satır Hyundai / Kia U2 CRDi ailesinin ortak DPF / yağa mazot karışması ve enjektör kodlama sorunlarını gösterir, modele özgü kaynak çıkmadı."
     },
     {
       "marka": "Hyundai",
@@ -5428,8 +5420,7 @@
           "1.4 TSI"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: Passat CC'ye özgü kaynak çıkmadı; DSG kavrama / mekatronik, 2.0 TDI yağ tüketimi (2015 model, yaklaşık 500 km'de 1 litre) ve yağ pompası değişimi anlatıları B7 ve sonrası Passat'lara ait (DSG sorunları Passat B8 ve B6 kayıtlarında)."
+      "not": "Faz 9'da arandı: Passat CC'ye özgü kaynak çıkmadı; DSG kavrama / mekatronik, 2.0 TDI yağ tüketimi (2015 model, yaklaşık 500 km'de 1 litre) ve yağ pompası değişimi anlatıları B7 ve sonrası Passat'lara ait (DSG sorunları Passat B8 ve B6 kayıtlarında). Faz 14: aile bağı kuruldu; bu satır VAG EA111 TSI (zincir) ve DQ200 DSG ailelerinin ortak sorunlarını gösterir (aynı motor ve şanzıman Scirocco, Beetle ve Golf 6 kayıtlarında); Passat CC'ye özgü kaynak çıkmadı."
     },
     {
       "marka": "Volkswagen",
@@ -5646,7 +5637,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: Şikâyetvar'da Tiggo 8 Pro için yağ soğutucusu arızası ve motor suyuna yağ karışması (30.116 km ve 1.500 km gibi tek tek vakalar) ile Tiggo 8 Pro Max'te 30.000 km sonrası şanzıman vuruntusu anlatılıyor; DonanımHaber ve Ekşi Sözlük'te bu iddialar doğrulanmadı (Tiggo 7 Pro 7DCT için olumlu yorumlar, 1.6 TGDI için yakıt tüketimi tartışması; motor suyuna yağ karışmasını anlatan bir DonanımHaber başlığı model belirtmiyor)."
+      "not": "Faz 9'da arandı: Şikâyetvar'da Tiggo 8 Pro için yağ soğutucusu arızası ve motor suyuna yağ karışması (30.116 km ve 1.500 km gibi tek tek vakalar) ile Tiggo 8 Pro Max'te 30.000 km sonrası şanzıman vuruntusu anlatılıyor; DonanımHaber ve Ekşi Sözlük'te bu iddialar doğrulanmadı (Tiggo 7 Pro 7DCT için olumlu yorumlar, 1.6 TGDI için yakıt tüketimi tartışması; motor suyuna yağ karışmasını anlatan bir DonanımHaber başlığı model belirtmiyor). Faz 14'te yeniden arandı: Şikâyetvar'da Omoda 5'te 22.000 km ve 20.000 km altında şanzıman arızası (servis 'fabrikasyon hata olabilir' demiş), Tiggo 7 Pro Max'te 550 km'de şanzıman arızası (parça değişimi) ve seyir halinde elektrik kesilmesi tekil; Ekşi Sözlük'te sahipler şanzımanı (Getrag 7DCT300) sağlam buluyor; DonanımHaber'deki 'Chery 1.6 TGDI Motor Sorunu' başlığının sayfalarında yağ yakma ya da turbo arızası bildirimi çıkmadı (yakıt tüketimi ve start-stop tartışılıyor)."
     },
     {
       "marka": "Seat",
@@ -5735,18 +5726,18 @@
       "marka": "Hyundai",
       "model": "i20 (GB)",
       "yillar": "2014-2020",
-      "motor": "1.25 / 1.4 MPI, 1.4 CRDi",
+      "motor": "1.25 / 1.4 MPI",
       "kademe": 1,
       "eslesme": {
         "model": [
           "i20 (GB"
         ],
         "motor": [
-          ""
+          "MPI"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı: i20 şikâyetleri otomatik şanzımanda toplanıyor (tork konvertörlü şanzıman çoğu yorumda sorunsuz, DCT'li BC3 kaydında); 1.4 MPI için forum yorumları sorunsuz diyor, 1.4 CRDi için enjektör, turbo ve silindir kapağı sıralaması genel bir forum listesinden geliyor. Kayıt açılacak kanıt çıkmadı."
+      "not": "Faz 9'da arandı: i20 şikâyetleri otomatik şanzımanda toplanıyor (tork konvertörlü şanzıman çoğu yorumda sorunsuz, DCT'li BC3 kaydında); 1.4 MPI için forum yorumları sorunsuz diyor, 1.4 CRDi için enjektör, turbo ve silindir kapağı sıralaması genel bir forum listesinden geliyor. Kayıt açılacak kanıt çıkmadı. Faz 14: 1.4 CRDi ayrı satıra alındı (U2 ailesi)."
     },
     {
       "marka": "Nissan",
@@ -5830,7 +5821,7 @@
       "marka": "BMW",
       "model": "1 Serisi F40 / X1 F48",
       "yillar": "2015-",
-      "motor": "116d / 118i / sDrive16d / sDrive18d",
+      "motor": "116d / sDrive16d / sDrive18d (B37 / B47)",
       "kademe": 3,
       "eslesme": {
         "model": [
@@ -5839,13 +5830,12 @@
         ],
         "motor": [
           "116d",
-          "118i",
           "sDrive16d",
           "sDrive18d"
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Faz 9'da arandı (tek sorgu): Türkçe şikâyet ya da forum kaydı çıkmadı; bir Türkçe alım rehberi zincir / Valvetronic sorunlarının E84'ün 2.0 motoruna ait olduğunu, F48 18i'nin 1.5 üç silindirli turbo olduğunu yazıyor; AUTO BILD TÜV testi geri çağırmaları sıralıyor (EGR sızıntısı, airbag ateşleme, DKG bağlantıları)."
+      "not": "Faz 9'da arandı (tek sorgu): Türkçe şikâyet ya da forum kaydı çıkmadı; bir Türkçe alım rehberi zincir / Valvetronic sorunlarının E84'ün 2.0 motoruna ait olduğunu, F48 18i'nin 1.5 üç silindirli turbo olduğunu yazıyor; AUTO BILD TÜV testi geri çağırmaları sıralıyor (EGR sızıntısı, airbag ateşleme, DKG bağlantıları). Faz 14: 118i (B38) ayrı satıra alındı."
     },
     {
       "marka": "Opel",
@@ -8965,7 +8955,7 @@
         ]
       },
       "sonuc": "yetersiz-kanit",
-      "not": "Şikâyetvar'da MG ZS için en çok akü ve yazılım / multimedya şikâyetleri geçiyor (çoğu 2021 sonrası modeller ve ZS EV); tekleme ve geri vitese geçişte takılma tekil. Honest John'da 1.5 VTi-Tech Exclusive'de radyo arızasının aküyü boşalttığı (bayi 'bilinen sorun' demiş) tekil olarak anlatılıyor; Parkers gürültülü şanzımanları sık görülen arıza olarak sayıyor (kilometre vermiyor) ve güvenilirliğe 2.5 / 5 veriyor. Kilometre aralığı verilen tutarlı bir motor ya da şanzıman sorunu çıkmadı."
+      "not": "Şikâyetvar'da MG ZS için en çok akü ve yazılım / multimedya şikâyetleri geçiyor (çoğu 2021 sonrası modeller ve ZS EV); tekleme ve geri vitese geçişte takılma tekil. Honest John'da 1.5 VTi-Tech Exclusive'de radyo arızasının aküyü boşalttığı (bayi 'bilinen sorun' demiş) tekil olarak anlatılıyor; Parkers gürültülü şanzımanları sık görülen arıza olarak sayıyor (kilometre vermiyor) ve güvenilirliğe 2.5 / 5 veriyor. Kilometre aralığı verilen tutarlı bir motor ya da şanzıman sorunu çıkmadı. Faz 14'te yeniden arandı: Ekşi Sözlük ve DonanımHaber'de ZS'te hızlanırken, yokuşta ve dönüşte 'su taşınır gibi' ses duyulduğu birçok sahip tarafından yazılıyor, çoğu kişi bunu zararsız buluyor; Şikâyetvar'da sabah akünün boşalması (2023 Kasım'da alınan araçta iki ayda iki kez; 2024 modelde bir yıl dolmadan dört kez, akü değişiminden sonra tekrar) ve multimedya donmaları tekrar ediyor (çoğu kayıtta sürüm belirtilmiyor)."
     },
     {
       "marka": "Ssangyong",
@@ -11102,8 +11092,7 @@
           "CRDi"
         ]
       },
-      "sonuc": "yetersiz-kanit",
-      "not": "DonanımHaber'de 1.4 CRDi (77 PS) sahibi motor performansından memnun; bir forum özetinde (yaklaşık 13 yıl önceki tek başlık) 1.4 CRDi'de enjektör, turbo ve silindir kapağı sorunları geçiyor; Şikâyetvar'da 2016 model 1.4 CRDi'de klima kompresörü kaçırması tek şikâyet. Honest John'da anılan Which? 2014 anketinde 2010-2014 ix20 dizeline %75,2 güvenilirlik puanı verilmiş. Kilometre bilgisi ve ikinci bağımsız site yok."
+      "not": "DonanımHaber'de 1.4 CRDi (77 PS) sahibi motor performansından memnun; bir forum özetinde (yaklaşık 13 yıl önceki tek başlık) 1.4 CRDi'de enjektör, turbo ve silindir kapağı sorunları geçiyor; Şikâyetvar'da 2016 model 1.4 CRDi'de klima kompresörü kaçırması tek şikâyet. Honest John'da anılan Which? 2014 anketinde 2010-2014 ix20 dizeline %75,2 güvenilirlik puanı verilmiş. Kilometre bilgisi ve ikinci bağımsız site yok. Faz 14: aile bağı kuruldu; bu satır Hyundai / Kia U2 CRDi ailesinin ortak DPF / yağa mazot karışması ve enjektör kodlama sorunlarını gösterir, modele özgü kaynak çıkmadı."
     },
     {
       "marka": "Toyota",
@@ -13696,6 +13685,309 @@
       },
       "not": "Faz 14'te arandı: DonanımHaber'de Passat B9 e-Hybrid kullanıcı konusu var (Türkiye'de satışı doğrulandı); sahibin yazdığına göre 19,7 kWh batarya, AC 11 kW ve DC 50 kW şarj, DQ400e şanzıman. Sorun bildirimi çıkmadı; Şikâyetvar'daki Passat tahrik sistemi hatası şikâyeti PHEV olduğunu belirtmiyor. VW Grubu'nun 2022 PHEV geri çağırması KBA'ya göre 2019-2022 üretimini kapsıyor; B9 e-Hybrid'in kapsamda olduğuna dair kaynak çıkmadı.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi W206",
+      "yillar": "2021-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "C Serisi (W206"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14: MBUX orta ekran sorunu Şikâyetvar, DonanımHaber ve Otopark'ta doğrulandı. Şikâyetvar'da 48V akü arızası (garanti süresinde 12V akü değişmiş, uyarı tekrarlamış; garanti sonrası 114.240 TL talep) tek siteli kaldı."
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra L",
+      "yillar": "2022-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Astra L (2022"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14: multimedya ekranı sorunu Şikâyetvar ve DonanımHaber'de doğrulandı. Şikâyetvar'da start-stop ve koltuk ısıtma arızaları ile akü açıklaması, motor arıza ışığı (2023 modelde yağ kaçağı ve motor değişimi önerisi) tek siteli."
+    },
+    {
+      "marka": "Honda",
+      "model": "Civic FE1",
+      "yillar": "2022-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Civic (FE1"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da FE1 için akü (yaklaşık 29.000 km'de tamamen bitme, yedek akü bulunamaması), direksiyon kutusu arızası ve değişimden sonra sağa çekme, kapı ve kaput çevresinden rüzgar ve yol sesi, park sensörü arızası ve boya atması tekrar ediyor; DonanımHaber, Otopark ve Ekşi Sözlük'te FE1'e özgü doğrulama çıkmadı (sonuçlar eski nesil Civic'lere ait).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Dacia",
+      "model": "Duster (3. nesil)",
+      "yillar": "2024-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Duster (2024"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da Duster için akü (yaklaşık 22.000 km'de yolda kalma, garanti reddi), multimedya ekranının kapanması ile Bluetooth ve CarPlay kopması, 2024 model 1.3 TCe 150 Essential'da altı ayda motor risk uyarısı ve EDC'de vites sesi ve silkelenme geçiyor; nesil ve sürüm çoğu kayıtta belirtilmiyor, hibrit Duster için kayıt çıkmadı; DonanımHaber, Otopark ve Ekşi Sözlük'te yeni Duster'a özgü konu çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Hyundai",
+      "model": "Elantra CN7",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Elantra (CN7"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2021 model Elantra'larda geri görüş kamerası arızası (kronik, siyah ekran ve titreme), ön takımdan gıcırtı (garanti kapsamında çözülmemiş), arka kapılarda ses ile vites topuzu ve park sensörü sorunları, 2023 modelde direksiyon derisi soyulması ve bagaj kapağında boya çatlağı tekil; IVT şanzıman için kayıt çıkmadı; forumlarda CN7'ye özgü kayıt yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Citroen",
+      "model": "C4 (3. nesil) / C4 X",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "C4 (2020"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2023 model C4 X'lerde multimedya ve gösterge ekranlarının yolculukta kendiliğinden kapanması tekrar ediyor (bir sahipte 17-18 kez; bayi yazılım güncellemesi beklemiş; akü kutup başını sök-tak geçici çözüm olarak öneriliyor), 2025 sonunda teslim alınan C4 X Max'te dokunmatik ekranın kilitlenmesi anlatılıyor. Ekşi Sözlük'te bir sahip 1.2 PureTech 130 EAT8'i 2023'ün ikinci yarısından sonra üretilen araçlarda daha kararlı buluyor, triger kayışının üç kez güncellendiğini ve multimedya sisteminin değiştiğini yazıyor; ekran sorunu için ikinci bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Mokka / Mokka X (1. nesil)",
+      "yillar": "2012-2020",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Mokka / Mokka X (2012"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2017 model Mokka X 1.6 CDTI otomatikte P0741 şanzıman arızası (servis en az 70.000 TL demiş ve model grubunda sık olduğunu söylemiş), vites topuzunda çatlama, direksiyon kaplamasının sıcakta erimesi, el freni düğmesinin kırılması (çoğu 2013-2016 model), tavan boya atması, zincir sesi ve hararet arızası tekil; ikinci bağımsız site yok.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Skoda",
+      "model": "Fabia Mk4",
+      "yillar": "2021-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Fabia (Mk4"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2023 model Fabia'da ekran hatası (medya, radyo, CarPlay ve park desteğinin aralıklı çalışmaması; servis bilgi güncellemesi beklemiş), 'Bileşen Koruma Etkin' uyarısının sürekli görünmesi, 10. ayda akü arızası, ilk gün şanzımandan ses ve 1.0 TSI düz vitesli araçta uyarısız yolda kalma tekil; DonanımHaber ve diğer forumlarda Fabia 4'e özgü kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "X3 G01",
+      "yillar": "2017-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "X3 (G01"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2018 model X3'te klima kazanı arızası (ön koltuk altından sıcak hava), acil çağrı sistemi arızası ve pil değişimi talebi, 2020 modelde ikinci elden alındıktan sonra geri görüş kamerasının kararması ve 2024 modelde My BMW özelliğinin çalışmaması tekil; kapı kolu ve iç döşeme erimesi şikâyetleri çoğunlukla G01 öncesi nesillere ait; DonanımHaber ve Ekşi Sözlük'te G01'e özgü kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "BMW",
+      "model": "4 Serisi G22 / G26",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "4 Serisi (G22"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2023 model 420i'lerde ekranda dalgalanma (tekrarlanmadığı için servis çözememiş), Connected Drive uygulamasının çalışmaması ve birden fazla kişide 'aküyü değiştirin' uyarısı, 2022 modelde sıfırdan beri su eksiltme, 27.000 km'de ön tekerleklerden çıtırtı ve rulman arızası tekil; Ekşi Sözlük'te 75.000 km'deki bir 420i'de kabin sesleri ve yakıt tüketimi eleştirisi var; ortak bir sorun için ikinci bağımsız site çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Audi",
+      "model": "A5 F5",
+      "yillar": "2017-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "A5 (F5"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: F5'e özgü kayıt çıkmadı; forum sonuçları 8T kasa A5'e ait (TFSI yağ tüketimi, Multitronic zinciri, DSG). Şikâyetvar'da 2024 model bir 2.0 TFSI A5'te navigasyon lisans uyarısı ve sürüş destek özelliklerinin çalışmaması (servis yazılım sorunu demiş) tekil; nesil belirtilmemiş.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volvo",
+      "model": "XC40 (2018-)",
+      "yillar": "2018-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "XC40 (2018"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da tahrik sistemi arızası (2023 modelde 42.000 km'de altı ayda dört kez yolda kalma), 48V akü arızası (15-30 gün bekleme) ve kilitlerin açılmaması tekil; DonanımHaber'de bir T3 sahibi tek sorunu olarak fren gıcırtısını yazıyor.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Arteon",
+      "yillar": "2017-2023",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Arteon (20"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2020 model Arteon'da cam tavan yan çıtalarının kendiliğinden çatlaması tekil; DSG şikâyetleri VW genelinde ('mikro şalter' parçası) ve Arteon'a özgü değil; DonanımHaber'deki bir inceleme elektrik, yazılım ve şanzıman sorunlarını kaynaksız ve genel olarak sayıyor. DCC süspansiyon ve Discover Pro ekranı için kayıt çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Beetle",
+      "yillar": "2011-2019",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Beetle (A5"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2013 model Beetle'larda DSG kavrama değişimi (30.000 km'de; 120.000 km civarında kalkışta titreme ve yaklaşık 25 bin TL teklif) ve garanti dışı kalan 12 bin TL şanzıman-volan faturası, kontak anahtarının direksiyondan çıkmaması tekil; DonanımHaber'de 1.2 TSI ve DSG genel tartışmaları var, su alma ve klima için Beetle'a özgü kayıt çıkmadı. DSG kavraması DQ200 ailesinde kayıtlıdır.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Mini",
+      "model": "Cooper F55 / F56",
+      "yillar": "2014-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F55",
+          "F56"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da 2015 model F55'te tekleme ve çiğ yakıt kokusu, 2015-2016 dizel Mini'lerde 'beyne mazot kaçması' ve güç kaybı uyarısı tekil; Ekşi Sözlük'te bir kullanıcı 1.5 üç silindirli motorun yağ kaçırıp yakabildiğini yazıyor (tek yorum); DonanımHaber'de F56'ya özgü konu çıkmadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Toyota",
+      "model": "Yaris XP210",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Yaris (XP210"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 14'te arandı: Şikâyetvar'da Yaris Hybrid için 12V akü boşalması (2021 model araçta yaklaşık bir ay akü beklemesi; servis 'normal' demiş), hibrit motor arızası nedeniyle yolda kalma ve arka hoparlör gıcırtısı tekil; kasa koduna göre ayrım yapan kaynak yok. Akü boşalması Toyota HSD ailesinde ortak sorun olarak kayıtlıdır.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i20 (GB)",
+      "yillar": "2014-2020",
+      "motor": "1.4 CRDi 75/90 (U2)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "i20 (GB"
+        ],
+        "motor": [
+          "CRDi"
+        ]
+      },
+      "not": "Faz 14: aile bağı kuruldu; bu satır Hyundai / Kia U2 CRDi ailesinin ortak DPF / yağa mazot karışması ve enjektör kodlama sorunlarını gösterir, modele özgü kaynak çıkmadı. 1.4 CRDi için enjektör, turbo ve silindir kapağı sıralaması genel bir forum listesinden geliyor (Faz 9)."
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi F40",
+      "yillar": "2019-",
+      "motor": "118i 1.5 turbo (B38)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "F40"
+        ],
+        "motor": [
+          "118i"
+        ]
+      },
+      "not": "Faz 14: aile bağı kuruldu; bu satır BMW B38 1.5 üç silindir ailesinin ortak turbo manifoldu çatlaması sorununu gösterir (F20 LCI, F44, F48, U11, F39 ve Mini kayıtlarında aynı motor); F40'a özgü kaynak çıkmadı."
     }
   ]
 }

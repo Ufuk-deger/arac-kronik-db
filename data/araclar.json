@@ -3392,6 +3392,19 @@
     {
       "marka": "Audi",
       "model": "A3 (8V, 2012-2020)",
+      "motor": "1.0 TFSI 115 (EA211, S tronic DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Audi",
+      "model": "A3 (8V, 2012-2020)",
       "motor": "1.2 TFSI 105 (EA211)",
       "uretim_yillari": {
         "baslangic": 2012,
@@ -4284,6 +4297,19 @@
             "https://forum.donanimhaber.com/bmw-f20-kronik-sorunlari--149134695"
           ]
         }
+      ]
+    },
+    {
+      "marka": "BMW",
+      "model": "1 Serisi (F40, 2019-)",
+      "motor": "118i 1.5 turbo (B38)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "bmw-b38-1-5"
       ]
     },
     {
@@ -6148,6 +6174,19 @@
       "motor": "1.0 TCe 100 ECO-G (H4Dt)",
       "uretim_yillari": {
         "baslangic": 2024,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "renault-h4bt-h4dt"
+      ]
+    },
+    {
+      "marka": "Dacia",
+      "model": "Jogger (2022-)",
+      "motor": "1.0 TCe 100 ECO-G (H4Dt, LPG)",
+      "uretim_yillari": {
+        "baslangic": 2022,
         "bitis": null
       },
       "kronik_sorunlar": [],
@@ -8304,6 +8343,19 @@
     },
     {
       "marka": "Hyundai",
+      "model": "Accent Blue (RB, 2011-2015)",
+      "motor": "1.6 CRDi 128 (U2, manuel / 6 ileri otomatik)",
+      "uretim_yillari": {
+        "baslangic": 2011,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "Accent Blue (RB, 2011-2017)",
       "motor": "1.6 GDI 132/140",
       "uretim_yillari": {
@@ -8625,6 +8677,19 @@
     },
     {
       "marka": "Hyundai",
+      "model": "Tucson (NX4, 2021-)",
+      "motor": "1.6 T-GDI 180 (7DCT)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-7dct"
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "Tucson (TL FL, 2018-2020)",
       "motor": "1.6 CRDi 136 (7DCT)",
       "uretim_yillari": {
@@ -8842,6 +8907,19 @@
     },
     {
       "marka": "Hyundai",
+      "model": "i20 (GB, 2014-2020)",
+      "motor": "1.4 CRDi 75/90 (U2)",
+      "uretim_yillari": {
+        "baslangic": 2014,
+        "bitis": 2020
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
       "model": "i20 (PB / GB, 2009-2020)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
@@ -8968,6 +9046,19 @@
     {
       "marka": "Hyundai",
       "model": "i30 (GD, 2012-2017)",
+      "motor": "1.6 CRDi 110/128 (U2)",
+      "uretim_yillari": {
+        "baslangic": 2012,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "i30 (GD, 2012-2017)",
       "motor": "1.6 GDI 135",
       "uretim_yillari": {
         "baslangic": 2012,
@@ -9024,6 +9115,19 @@
       "motor": "1.7 CRDi 115/136/141",
       "uretim_yillari": {
         "baslangic": 2011,
+        "bitis": 2019
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
+      ]
+    },
+    {
+      "marka": "Hyundai",
+      "model": "ix20 (2010-2019)",
+      "motor": "1.4 / 1.6 CRDi dizel (D4FC / D4FB, U2)",
+      "uretim_yillari": {
+        "baslangic": 2010,
         "bitis": 2019
       },
       "kronik_sorunlar": [],
@@ -9674,6 +9778,19 @@
       ],
       "aileler": [
         "hyundai-kia-gamma-gdi"
+      ]
+    },
+    {
+      "marka": "Kia",
+      "model": "Sportage (SL, 2010-2015)",
+      "motor": "1.7 CRDi 115 (U2)",
+      "uretim_yillari": {
+        "baslangic": 2010,
+        "bitis": 2015
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "hyundai-kia-u2-crdi"
       ]
     },
     {
@@ -10357,6 +10474,37 @@
       "kronik_sorunlar": [],
       "aileler": [
         "mercedes-om654"
+      ]
+    },
+    {
+      "marka": "Mercedes-Benz",
+      "model": "C Serisi (W206, 2021-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2021,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "MBUX orta ekranın donması, karıncalanması ve kendiliğinden kapanıp açılması",
+          "etkilenen_parca": "MBUX multimedya ekranı ve yazılımı",
+          "belirtiler": "Orta ekranda donma ve karıncalanma, sürüş sırasında ekranın kapanıp birkaç dakika sonra geri gelmesi, başlangıçta ekranın açılmaması; ekran kapalıyken park sensörü, klima ve şerit takip işlevlerinin devre dışı kalması; kablosuz CarPlay bağlantısının kopması",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Resmî servis bülteni bulunamadı. Forum sahipleri sorunu MBUX yazılımına bağlıyor: DonanımHaber'de bir sahip karıncalanmanın MBUX güncellemesiyle ilgili olduğunu, bir diğeri eski yazılımdaki donma ve karıncalanmanın yeni yazılımda giderildiğini yazıyor; sık tekrarında ekran değişimi gerekebildiği anlatılıyor. Şikâyetvar'da ekranların ısınıp kapanıp açıldığı ve güncellemeden sonra yeni bir CarPlay sorunu çıktığı belirtiliyor. Donanım arızası olasılığı da dile getiriliyor.",
+            "teshis": "Tipik belirti ekranın sürüş sırasında kapanıp park sensörü, klima ve şerit takip işlevlerinin devre dışı kalmasıdır. Forumda akü kutup başını bir süre söküp takmak geçici çözüm olarak öneriliyor. Servis kaydında MBUX yazılım sürümü ve güncelleme geçmişi sorgulanabilir.",
+            "cozum": "MBUX yazılım güncellemesi (bazı sahiplere göre donma ve karıncalanmayı giderdi, bir sahipte CarPlay sorunu çıktı); sık tekrarında ekran değişimi.",
+            "maliyet": "Garanti kapsamında ücretsiz. Şikâyetvar'da garanti dışında yazılım güncellemesi için yaklaşık 6.000 TL + KDV istendiğini anlatan bir kayıt var (model belirtilmemiş).",
+            "onlem": "İkinci elde MBUX yazılımının güncel olduğunu servis kaydından doğrulamak; ekranı soğuk ve sıcak çalıştırmada, kapanma ve donma açısından denemek."
+          },
+          "kaynaklar": [
+            "https://otopark.com/forum/threads/w206-kasa-mercedes-orta-ekran-sorunu.15231/",
+            "https://forum.donanimhaber.com/2021-w206-c-serisi-ana-konu--148053818-14",
+            "https://forum.donanimhaber.com/w206-mercedes-c-serisi-ana-konu-c200-4matic-c200-c43--156049049",
+            "https://www.sikayetvar.com/mercedes-benz/c-200/w206",
+            "https://www.sikayetvar.com/mercedes-benz/mercedes-yazilim-guncelleme-fahis-fiyat-talebi"
+          ]
+        }
       ]
     },
     {
@@ -11977,6 +12125,37 @@
       "aileler": [
         "psa-bluehdi-adblue",
         "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Astra L (2022-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2022,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Multimedya ekranının donması, kapanıp açılması ve açılmaması",
+          "etkilenen_parca": "Multimedya ekranı ve yazılımı",
+          "belirtiler": "Ekranın donması, sürüş sırasında kapanıp yeniden başlaması, çalıştırmada açılmaması (düzelmesi için 30-60 dakika beklemek gerekebiliyor); bazı araçlarda aynı anda merkezi kilidin çalışmaması",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Resmî servis bülteni bulunamadı. DonanımHaber'de bir sahip servisin ekran sorununu kabul ettiğini ve yazılım güncellemesi beklendiğini yazıyor; bir satış temsilcisinin aracında aynı sorunun zayıf akü ile ilişkilendirildiği anlatılıyor. Şikâyetvar'da 2022 modelde yaklaşık bir yıldır süren ekran ve merkezi kilit sorunu, 2023 GS'de yazılım yüklemesine rağmen süren donma ve akü değişiminden sonra radyonun çalışmaması anlatılıyor.",
+            "teshis": "Kaynaklarda kesin teşhis yöntemi anlatılmıyor. Servis kaydında ekran yazılım sürümü ve akü testi sorgulanabilir; sahipler akü zayıflığıyla ilişki kurulduğunu yazıyor.",
+            "cozum": "Yazılım güncellemesi bekleniyor ya da uygulanıyor, ancak Şikâyetvar'daki 2023 GS sahibinde donma güncellemeye rağmen sürmüş; bir 2023 araçta akü değişimi yapılmış. Kalıcı çözüm doğrulanmadı.",
+            "maliyet": "Fiyat bilgisi çıkmadı; anlatılan vakalar garanti kapsamındaki 2022-2023 araçlara ait.",
+            "onlem": "İkinci elde ekranın soğuk çalıştırmada açıldığını ve merkezi kilitle birlikte çalıştığını denemek; yazılım güncellemesinin yapıldığını servis kaydından doğrulamak."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/astra/astra-l",
+            "https://www.sikayetvar.com/opel/opel-astra-l-2023-ariza",
+            "https://forum.donanimhaber.com/opel-astra-l-2022--149490207-37",
+            "https://forum.donanimhaber.com/opel-astra-l-2022--149490207-53",
+            "https://forum.donanimhaber.com/opel-astra-l-2022--149490207-91"
+          ]
+        }
       ]
     },
     {
@@ -14566,6 +14745,20 @@
     },
     {
       "marka": "Seat",
+      "model": "Ibiza (6J / 6P, 2008-2017)",
+      "motor": "1.6 TDI 75/90/105 (EA189 CAYC; 6P'de EA288)",
+      "uretim_yillari": {
+        "baslangic": 2008,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
+      ]
+    },
+    {
+      "marka": "Seat",
       "model": "Leon (5F FL, 2017-2020)",
       "motor": "1.5 TSI 130/150 (EA211 evo, ACT)",
       "uretim_yillari": {
@@ -15624,6 +15817,46 @@
             "https://www.briskoda.net/forums/topic/465902-water-leakage-from-sunroof/"
           ]
         }
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Yeti (2009-2017)",
+      "motor": "1.2 TSI 105 (EA111 CBZB)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Yeti (2009-2017)",
+      "motor": "1.4 TSI 122 (EA111 CAXA)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-ea111-tsi"
+      ]
+    },
+    {
+      "marka": "Skoda",
+      "model": "Yeti (2009-2017)",
+      "motor": "1.6 TDI 105 (EA189 CAYC)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2017
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-1-6-tdi-egr-dpf",
+        "vag-ea189-1-6-tdi"
       ]
     },
     {
@@ -17276,6 +17509,20 @@
       "aileler": [
         "vag-1-5-tsi-evo",
         "vag-48v-etsi"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat CC (2009-2016)",
+      "motor": "1.4 TSI 160 (EA111, DSG DQ200)",
+      "uretim_yillari": {
+        "baslangic": 2009,
+        "bitis": 2016
+      },
+      "kronik_sorunlar": [],
+      "aileler": [
+        "vag-dq200",
+        "vag-ea111-tsi"
       ]
     },
     {
