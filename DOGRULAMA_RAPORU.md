@@ -1913,6 +1913,14 @@ Veritabanı sahibi, motor ve şanzıman dışındaki modele özgü sorunların (
 - Kaynakların hepsi kullanıcı anlatımıdır; sıklık ya da resmî doğrulama (servis bülteni, geri çağırma) bulunamadı.
 - Taranan model sayısı sınırlıdır: model geneli kaydında yalnızca bir sorunu olan 81 model kaydı var (başta Clio 5, Megane 3, Juke, Puma, Leon KL, Fabia IV, Corolla E170, Civic FB7, Astra J ve Insignia A); bunlar sonraki turlarda aynı yöntemle taranabilir.
 
+## Yayın hazırlığı: sorun adı ve belirti metinlerinin temizlenmesi
+
+Veritabanı sahibinin kararıyla sitede ve uygulamada yalnızca sorun adı, belirtiler, risk ve kilometre gösterilecek; kaynak bağlantıları yayınlanmayacak ama veritabanında dayanak olarak kalacak. Kaynaklar sorunların tespiti için kullanıldı; yayınlanacak her cümle kendi ifademiz olmalı. Bu nedenle:
+
+- **Kaynak göndermeleri çıkarıldı:** sorun adı ya da belirtilerde site adı ya da anlatıcı geçen 70 metin ("bir sahip … yazıyor", "Şikâyetvar'da …", "BimmerPost'ta …", "yazıda ayrıca bir belirti anlatılmıyor" gibi) bilgi korunarak tarafsız cümlelere çevrildi. Kaynakta belirti verilmeyen sorunlarda "(ayrı belirti bilgisi yok)" yazıldı; belirti uydurulmadı.
+- **And Çetin listelerinden gelen metinler yeniden yazıldı:** And Çetin kaynaklı sorunların adı ve belirtileri yazının metniyle beşer kelimelik dizilerle karşılaştırıldı; en az 8 kelimelik olup dizilerinin %30'undan fazlası yazıdakiyle aynı olan 235 alan (102 sorun adı, 211 belirti satırı; aynı metin birden çok kayıtta geçtiği için toplam 313 değişiklik) sırası ve ifadesi değiştirilerek yeniden yazıldı. Karşılaştırmada eşiği aşan 9 alan kaldı; bunlar ekranda çıkan uyarı mesajı (ör. "Geçici olarak devre dışı – ön radar kapalı") ya da kısa teknik ifadelerdir (ör. "CP4.2 yakıt pompası").
+- Uzun açıklamalar (`detay`: neden, teşhis, çözüm, maliyet, önlem) kaynak anlatımlarını özetlediği için yayına alınmayacak; veritabanında olduğu gibi kaldı.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
