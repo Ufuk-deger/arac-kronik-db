@@ -34,18 +34,18 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 - Araştırılıp eklenmeyen (–): **241**
 - Sırada (○): **0**
 - Kademe 1: **141/141** işlendi (✓, ◐ ya da –)
-- Model geneli taraması: **344** model nesli arandı (sorun bulunan ✓ **157**, kanıt yetersiz – **187**); 642 motor kaydından **566**'i taranmış bir modele ait, **76**'i henüz taranmadı
+- Model geneli taraması: **349** model nesli arandı (sorun bulunan ✓ **157**, kanıt yetersiz – **192**); 642 motor kaydından **571**'i taranmış bir modele ait, **71**'i henüz taranmadı
 - Veritabanı: **801** kayıt (**642** motor, **159** model geneli), **674** kayda özgü kronik sorun, **103** motor/şanzıman ailesi (**243** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
 | --- | ---: | ---: | ---: | ---: | ---: | ---: | ---: |
 | Renault | 48 | 15 | 14 | 19 | 0 | 10/10 | 11 / 11 |
-| Volkswagen | 67 | 22 | 32 | 13 | 0 | 14/14 | 8 / 16 |
+| Volkswagen | 67 | 22 | 32 | 13 | 0 | 14/14 | 8 / 17 |
 | Toyota | 39 | 5 | 22 | 12 | 0 | 6/6 | 10 / 12 |
 | Fiat | 40 | 13 | 16 | 11 | 0 | 5/5 | 8 / 7 |
 | Hyundai | 48 | 12 | 18 | 18 | 0 | 14/14 | 6 / 8 |
 | Peugeot | 38 | 11 | 20 | 7 | 0 | 7/7 | 8 / 9 |
-| Opel | 54 | 19 | 26 | 9 | 0 | 5/5 | 8 / 9 |
+| Opel | 54 | 19 | 26 | 9 | 0 | 5/5 | 8 / 10 |
 | Citroen | 26 | 8 | 11 | 7 | 0 | 3/3 | 5 / 7 |
 | BYD | 3 | 1 | 0 | 2 | 0 | 1/1 | 0 / 1 |
 | Skoda | 35 | 10 | 18 | 7 | 0 | 6/6 | 9 / 5 |
@@ -53,9 +53,9 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Togg | 2 | 1 | 0 | 1 | 0 | 1/1 | 2 / 0 |
 | BMW | 63 | 7 | 46 | 10 | 0 | 17/17 | 9 / 15 |
 | Tesla | 2 | 1 | 0 | 1 | 0 | 1/1 | 2 / 0 |
-| Nissan | 25 | 9 | 9 | 7 | 0 | 4/4 | 8 / 2 |
+| Nissan | 25 | 9 | 9 | 7 | 0 | 4/4 | 8 / 3 |
 | Chery | 2 | 0 | 0 | 2 | 0 | 0/0 | 1 / 0 |
-| Ford | 41 | 8 | 18 | 15 | 0 | 9/9 | 9 / 8 |
+| Ford | 41 | 8 | 18 | 15 | 0 | 9/9 | 9 / 9 |
 | Kia | 37 | 10 | 11 | 16 | 0 | 6/6 | 3 / 10 |
 | Dacia | 15 | 8 | 4 | 3 | 0 | 4/4 | 3 / 5 |
 | Audi | 41 | 7 | 30 | 4 | 0 | 7/7 | 3 / 13 |
@@ -68,7 +68,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 | Jeep | 13 | 3 | 7 | 3 | 0 | 0/0 | 1 / 5 |
 | Alfa Romeo | 12 | 1 | 7 | 4 | 0 | 0/0 | 3 / 1 |
 | Mazda | 5 | 2 | 0 | 3 | 0 | 0/0 | 2 / 1 |
-| Suzuki | 6 | 0 | 1 | 5 | 0 | 0/0 | 4 / 0 |
+| Suzuki | 6 | 0 | 1 | 5 | 0 | 0/0 | 4 / 1 |
 | Mitsubishi | 4 | 0 | 0 | 4 | 0 | 0/0 | 0 / 1 |
 | Land Rover | 9 | 0 | 5 | 4 | 0 | 0/0 | 3 / 2 |
 | Cupra | 5 | 1 | 3 | 1 | 0 | 0/0 | 1 / 1 |
@@ -310,6 +310,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Arteon | 2017-2023 | Tüm motorlar (model geneli) | – eklenmedi: Faz 14'te arandı: Şikâyetvar'da 2020 model Arteon'da cam tavan yan çıtalarının kendiliğinden çatlaması tekil; DSG şikâyetleri VW genelinde ('mikro şalter' parçası) ve Arteon'a özgü değil; DonanımHaber'deki bir inceleme elektrik, yazılım ve şanzıman sorunlarını kaynaksız ve genel olarak sayıyor. DCC süspansiyon ve Discover Pro ekranı için kayıt çıkmadı. |
 | 3 | Beetle | 2011-2019 | 1.2 TSI / 1.4 TSI | ◐ 10 ortak aile sorunu, 5 yıl kırılımı — Beetle'a özgü kaynak çıkmadı; 1.2 TSI, EA111 / EA211 1.2 TSI ve DQ200 ailelerine, 1.4 TSI 160 (EA111), EA111 TSI ve DQ200 ailelerine bağlandı. |
 | 3 | Beetle | 2011-2019 | Tüm motorlar (model geneli) | – eklenmedi: Faz 14'te arandı: Şikâyetvar'da 2013 model Beetle'larda DSG kavrama değişimi (30.000 km'de; 120.000 km civarında kalkışta titreme ve yaklaşık 25 bin TL teklif) ve garanti dışı kalan 12 bin TL şanzıman-volan faturası, kontak anahtarının direksiyondan çıkmaması tekil; DonanımHaber'de 1.2 TSI ve DSG genel tartışmaları var, su alma ve klima için Beetle'a özgü kayıt çıkmadı. DSG kavraması DQ200 ailesinde kayıtlıdır. |
+| 3 | Caddy 5 | 2020- | Tüm motorlar (model geneli) | – eklenmedi: Faz 20: Şikâyetvar'da vitese takınca hareket etmeme, multimedya ekranı, airbag lambası, su alma ve garanti sonrası yüksek onarım ücreti şikâyetleri var; DonanımHaber sonuçları eski kuşak Caddy'lerle ilgili. VAG yazılım ve işçilik sorunları 19. aşamada And Çetin yazısından (Caddy 5 motor kaydında) işlendi; modelden bağımsız ek bir sorun için ikinci bağımsız site bulunamadı. |
 | 3 | Golf Sportsvan | 2014-2020 | 1.2 / 1.4 TSI, 1.6 TDI | ◐ 9 ortak aile sorunu — Golf Sportsvan'a özgü kaynak çıkmadı; Golf 7 ile ortak EA211 1.2 / 1.4 TSI, EA288 1.6 TDI ve DQ200 ailelerine bağlandı. |
 | 3 | Golf Sportsvan | 2014-2020 | Tüm motorlar (model geneli) | – eklenmedi: Faz 16: Sportsvan'a özgü Şikâyetvar kategorisi ve forum başlığı çıkmadı; sonuçlar Golf 7 / 7.5 / 8'e ait (cam tavan çerçevesinde soyulma / çatlak, DSG, yağ tüketimi) ve Golf 7 / 7.5 model geneli kaydında ele alındı. |
 | 3 | Passat B9 | 2024- | 1.5 eTSI (48V hafif hibrit, DSG) | ◐ 4 ortak aile sorunu — B9 için bulunan başlıklar plug-in hibrit (E-Hybrid) sürümüne ait; 1.5 eTSI (48V hafif hibrit) için B9'a özgü Şikâyetvar ya da forum kaydı çıkmadı. Gösterilen sorunlar aynı motor ve 48V sistemini kullanan Superb IV, Octavia A8, Golf 8 kayıtlarına dayanır. |
@@ -647,6 +648,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Meriva B | 2010-2017 | Tüm motorlar (model geneli) | – eklenmedi: DonanımHaber'de 'Opel Meriva Eps hatası' başlığında sola dönerken EPS ışığının yanması anlatılıyor (aküden gerilim düşüşü şüphesi, yaklaşık 1.500 TL'lik tork sensörü değişimi teklifi; nesil belirtilmemiş); Şikâyetvar'da 2014 model Meriva 1.6 dizelde direksiyon pompası / kutusu şüphesi tekil. Vauxhall Owners Network ve Honest John'da Meriva EPS arızası (ışık yanıp direksiyonun ağırlaşması, tork sensörü, C1500 kodu, BBC Watchdog yayınından söz eden bir yanıt, geri çağırma talepleri) ağırlıkla ilk kuşak Meriva A (2003-2010) için anlatılıyor; Meriva B için 2013 model bir sahibin 30.000 milin altında EPS'nin garantide komple değiştirilip yeniden arızalandığı tek kayıt var. Resmî geri çağırma doğrulanamadı. Bozuk yolda direksiyon kutusundan ses (burçların sabitlenmesiyle giderilmiş) tek forum kullanıcısı. |
 | 3 | Mokka / Mokka X (1. nesil) | 2012-2020 | Tüm motorlar (model geneli) | – eklenmedi: Faz 14'te arandı: Şikâyetvar'da 2017 model Mokka X 1.6 CDTI otomatikte P0741 şanzıman arızası (servis en az 70.000 TL demiş ve model grubunda sık olduğunu söylemiş), vites topuzunda çatlama, direksiyon kaplamasının sıcakta erimesi, el freni düğmesinin kırılması (çoğu 2013-2016 model), tavan boya atması, zincir sesi ve hararet arızası tekil; ikinci bağımsız site yok. |
 | 3 | Mokka B | 2021- | 1.5 BlueHDi 110 (DV5) | ◐ 4 ortak aile sorunu, 1 yıl kırılımı — Faz 9'da arandı (tek sorgu, PureTech ile birlikte): Mokka B 1.5 BlueHDi'ya özgü kaynak çıkmadı; forumlarda AdBlue ve DPF sorunları PSA 1.5 BlueHDi'nın geneli için anılıyor. Gösterilen eksantrik zinciri sorunu aynı DV5 motorunu kullanan Peugeot, Citroën, Opel Grandland ve Ford kaynaklarına, AdBlue sorunu Peugeot kaynaklarına dayanır. |
+| 3 | Vectra C | 2002-2008 | Tüm motorlar (model geneli) | – eklenmedi: Faz 20: DonanımHaber'de kapı kolu ve iç plastiklerin soyulması, klima düğmesi arızası ve bagaj amortisörü; Ekşi Sözlük'te B1 kasa egzoz manifoldu çatlağı; Şikâyetvar'da gösterge aydınlatması ve ateşleme bobini anlatılıyor. Aynı konuyu iki farklı sitede, Vectra C'ye özgü ve doğrulanabilir biçimde veren bir eşleşme bulunamadı (gösterge aydınlatmasında DonanımHaber sonucu Vectra C'ye ve konuya doğrulanamadı). |
 | 3 | Zafira B | 2005-2014 | 1.9 CDTI 120/150 (Z19DT / Z19DTH) | ✓ 1 sorun — Faz 15 (parti 1): kayıt açıldı. Vauxhall ve Astra Owners Network, İngiltere bayi forumu, İtalyan Ammirati forumu ve Honest John EGR tıkanması ile girdap kanadı arızasını anlatıyor; kilometre aralığı kaba tahmindir (detayda belirtildi). |
 | 3 | Zafira B | 2005-2014 | 1.6 benzinli | – eklenmedi: 1.6 benzinli için kaynak çıkmadı (Faz 9). 1.9 CDTI Faz 15'te ayrı satırda kayıtlandı. |
 
@@ -996,6 +998,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Pulsar C13 | 2014-2018 | 1.2 DIG-T / 1.5 dCi | ◐ 4 ortak aile sorunu, 1 yıl kırılımı — Pulsar'a özgü ayrı kaynak çıkmadı; 1.2 DIG-T, Renault / Nissan 1.2 TCe - DIG-T ailesine (yağ tüketimi: DonanımHaber'de Qashqai, Pulsar ve diğer modeller için anlatılıyor), 1.5 dCi, K9K ailesine bağlandı. |
 | 3 | Tiida | 2007-2012 | 1.6 / 1.5 dCi | – eklenmedi: Faz 18: DonanımHaber, Şikâyetvar ve Ekşi Sözlük'te Tiida'ya özgü kayıt çıkmadı (aramalar Note ve Almera'ya yönlendi). |
 | 3 | X-Trail T31 | 2007-2014 | 2.0 dCi (M9R) | ✓ 2 sorun — Faz 15 (parti 1): kayıt açıldı (DPF ve enjektör). Honest John okur yorumları ve forumu, DonanımHaber ve araclo aynı konuları anlatıyor; anlatılar çoğunlukla 2007-2010 modellere ait ve tekil olduğundan risk 'Orta', kilometre aralıkları kaba tahmindir. |
+| 3 | X-Trail T31 | 2007-2014 | Tüm motorlar (model geneli) | – eklenmedi: Faz 20: Şikâyetvar ve DonanımHaber'de X-Trail şanzıman (CVT), enjektör ve klima şikâyetleri var; sonuçlar T31 nesline ayrıştırılamadı (çoğu 2014 sonrası T32 modellerine ait). Nesle özgü model geneli sorun için iki bağımsız site bulunamadı. |
 | 3 | X-Trail T32 | 2014-2021 | 1.6 dCi (R9M, Xtronic CVT) | ✓ 1 sorun (+1 ortak aile) |
 
 ### Chery (ek kademe)
@@ -1061,6 +1064,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Fiesta Mk6 | 2002-2008 | 1.25 / 1.4 Duratec ve 1.4 TDCi | – eklenmedi: Faz 17: Türkçe kaynaklarda Mk6'ya özgü kayıt çıkmadı; Ford Owners Club'ta 1.4 TDCi için enjektör keçesi sızıntısı, EGR valfi, GEM (sigorta kutusu modülü) bölgesine su girmesi, 1.4 Duratec için rölanti / hava debisi sensörü ve soğukta tereddüt anlatılıyor (tekil başlıklar, Türkiye kapsamı doğrulanmadı). |
 | 3 | Ka | 2008-2016 | 1.2 benzinli | – eklenmedi: Ka (Mk2) için Ekşi Sözlük ve DonanımHaber'de rölanti valfi / sensörü kaynaklı stop ve rölanti sorunu, debriyaj balatası aşınması ve termostat bağlantısından su kaçırma tekil olarak anlatılıyor; Ford Owners Club'da hidrolik debriyaj ana silindiri, kavrama ayırma çatalı ve triger kayışı değişimi sonrası misfire konuları var (kayış aralığı 5 yıl / 62.500 mil). Kilometre aralığı verilen ve ikinci kaynakla desteklenen tutarlı bir sorun çıkmadı. |
 | 3 | Kuga 1 | 2008-2012 | 2.0 TDCi (Powershift) | ◐ 1 ortak aile sorunu — DonanımHaber'de Kuga Powershift için tekil anlatılar (230 bin km'de sorun, 130 bin km'de geri vitesten D'ye geçişte sarsıntı, ıslak kavramalı şanzıman için 150-160 bin km'de kavrama değişiminin normal aşınma sayıldığı) ve enjektör tutma ayaklarının kırılması geçiyor. Parkers Mk1 Kuga'nın ıslak kavramalı 6DCT450 şanzımanının yaklaşık üç yılda bir yağ değişimi istediğini, ihmal edilirse sert vites ve mekatronik arızası çıkabildiğini yazıyor; Ford Owners Club'da 45.000 milde yağ ve filtre değişiminin sarsıntıyı giderdiği, kavrama değişiminin 1.200 sterlin olduğu anlatılıyor. Tutarlı bir kilometre aralığı çıkmadığı ve mevcut Powershift ailesi kuru kavramalı DPS6 olduğu için kayıt açılmadı. Faz 14: aile bağı kuruldu; bu satır Ford 2.0 TDCi (Duratorq DW10) ailesinin ortak enjektör sorununu gösterir (kaynaklar Parkers, Ford Owners Club, Honest John, DonanımHaber, Otopark); kilometre aralığı Türkçe forum yorumlarına dayanır, modele özgü ayrı kaynak çıkmadı. Kuga 1'de enjektör tutucu bacaklarının kırılması tek vaka olarak anlatılıyor. |
+| 3 | Kuga 1 | 2008-2012 | Tüm motorlar (model geneli) | – eklenmedi: Faz 20: Şikâyetvar'da birinci nesil Kuga için hararet ve conta yanması anlatılıyor ama anlatılan araçlar çoğunlukla 2013-2016 model 1.5 / 1.6 EcoBoost (motor ailesine özgü) ve kullanıcı yorumu düzeyinde; 2008-2012 Kuga 1'e özgü, modelden bağımsız bir sorun için ikinci bağımsız site bulunamadı. |
 | 3 | Mondeo | 2007-2019 | 1.6 TDCi | ◐ 3 ortak aile sorunu — Mondeo için tekil direksiyon, enjektör ve DPF anlatıları var. Faz 14: aile bağı kuruldu; bu satır PSA / Ford DV6 1.6 TDCi ailesinin ortak enjektör, turbo yağ süzgeci ve EGR / DPF sorunlarını gösterir; Mondeo'ya özgü kaynak çıkmadı. 2.0 TDCi ayrı satıra alındı. |
 | 3 | Mondeo | 2007-2014 | 2.0 TDCi | ◐ 1 ortak aile sorunu — Faz 14: aile bağı kuruldu; bu satır Ford 2.0 TDCi (Duratorq DW10) ailesinin ortak enjektör sorununu gösterir (kaynaklar Parkers, Ford Owners Club, Honest John, DonanımHaber, Otopark); kilometre aralığı Türkçe forum yorumlarına dayanır, modele özgü ayrı kaynak çıkmadı. |
 | 3 | Mondeo | 2007-2019 | Tüm motorlar (model geneli) | – eklenmedi: Şikâyetvar'da Mondeo şikâyetlerinin ağırlığı motor (1.5 EcoBoost blok çatlağı, su eksiltme) ve Powershift şanzımanda; 2016 model araçlarda geri görüş kamerası arızası ('kronik' deniyor) ve bir şikâyette sağ ön–arka kapılar ile iç aydınlatmanın çalışmaması tekil kayıt; bir forum kullanıcısı direksiyon kutusundan yağ kaçağı ve ses sorununun Mondeo'larda tekrarladığını yazıyor. El freni ve SYNC için sonuç çıkmadı. Ağırlıkla tekil Şikâyetvar kayıtları; ikinci bağımsız site yok. Faz 17: Mondeo Mk4 (2007-2014) için Parkers, Honest John ve Ford Owners Club'ta Powershift (2010 sonrası 2.0 TDCi'de yağlı kavramalı 6DCT450) güvenilmez sayılıyor (dört haneli onarım bedeli, 3 yıl / 40.000 mil yağ değişimi önerisi, 1. - 2. vites sarsıntısı, 'transmission limited function' ve acil durum modu); bu şanzıman DPS6 ailesine dahil değildir, Türkiye'de hangi Mk4 sürümlerinde kullanıldığı doğrulanamadı (DonanımHaber'de bir yorum Mondeo otomatiğinin tork konvertörlü ve sorunsuz olduğunu yazıyor). Mk4 elektronik el freni için güvenilirlik kaydı çıkmadı. |
@@ -1415,6 +1419,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 3 | Baleno / Ignis | 2016- | 1.2 Dualjet | – eklenmedi: Honest John Ignis'in güvenilirlik itibarının güçlü olduğunu yazıyor; en somut şikâyetler robotize AGS şanzımanda (Ignis'te yaklaşık 4.000 milde kavrama ve volan sorunu, 600 sterlinlik kavrama değişimi, tekil) ve bunlar CVT'li 1.2 Dualjet için geçerli değil. DonanımHaber'de bir kullanıcı CVT'nin sağlamlığıyla bilindiğini, Baleno'da sorun görmediğini yazıyor; Şikâyetvar'da Baleno 1.2 Tekno otomatikte ekran / geri görüş kamerası ve direksiyon takılması şikâyetleri var. Kilometre verilen bir motor ya da CVT arızası çıkmadı. |
 | 3 | Jimny | 2018- | 1.5 | – eklenmedi: Parkers güvenilirliğe 4.5 / 5 veriyor ve iki geri çağırma sayıyor (küçük bir partide yakıt pompası, hava yastığı kablolaması); Australian Car Reviews 2018-19 GJ / JJ Jimny'de yakıt pompası çarkının şişmesine bağlı 2024 geri çağırmasını anıyor ve yaygın arıza bilgisinin olmadığını yazıyor. Şikâyetvar'da ikinci elden yaklaşık 11 bin km'de alınan araçta körük arızasının garanti dışı bırakılması ve serviste çözülemeyen şanzıman sesi (yaklaşık 20 bin km sonra tekrarladı) tekil olarak anlatılıyor; DonanımHaber ve Otopark yorumları kabin darlığı, sert sürüş ve yol gürültüsü üzerinde. Kronik motor ya da şanzıman sorunu çıkmadı. |
 | 3 | SX4 | 2006-2014 | 1.6 DDiS 90 (DV6, DLD-416) | ◐ 3 ortak aile sorunu — Faz 18: kayda özgü sorun yok; DV6 sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'de 'SUZUKİ SX4 1.6 DİZEL MOTOR HAKKINDA' başlığında bir kullanıcı motorun (DLD-416) Ford, Volvo, PSA ve Mazda'da da kullanılan 1.6 HDi olduğunu, bakımı aksatılmadıkça sorunsuz olduğunu ve 'kronik' bir yağ sızdırma konusunun ucuza giderildiğini yazıyor. |
+| 3 | SX4 | 2006-2014 | Tüm motorlar (model geneli) | – eklenmedi: Faz 20: DonanımHaber kulübünde ve Şikâyetvar'da SX4 / S-Cross şikâyetleri (4WD uyarısı, akü, multimedya tuşları, bagaj plastiği) var; sonuçlar eski SX4 ile 2013 sonrası S-Cross arasında ayrıştırılamadı. SX4'e özgü model geneli sorun için iki bağımsız site bulunamadı. |
 | 3 | SX4 / Grand Vitara | 2006-2014 | 1.6 benzinli (M16A) ve otomatik şanzıman | – eklenmedi: Faz 18: DonanımHaber'de SX4 / Grand Vitara otomatik şanzımanında elektrik şalteri (NSS) kaynaklı vites geçiş arızası ve yağ değişimi sonrası sapıtma tekil, Grand Vitara 1.6'da 'kronik sorun yok' yorumları var; kilometre bilgili ve iki siteli ortak sorun çıkmadı. |
 | 3 | SX4 S-Cross / Vitara / Swift | 2014- | 1.4 BoosterJet / 1.6 DDiS | – eklenmedi: Bulgular tek rehber sitesi (Araclo) ve Şikâyetvar'ın elektronik / multimedya şikâyetleriyle sınırlı. |
 | 3 | Vitara | 2015- | Tüm motorlar (model geneli) | ✓ 4 sorun — Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Vitara (2015-): koltuk başlığı / ray paslanması, ekran donması, V kayışı kopması sonucu hararet ve K14D enjektör kırılması (96. yazı). Önceki not: Şikâyetvar'da geri görüş kamerasına su alması (bayi kronik olabildiğini söylemiş) ve multimedya donması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te ikinci site çıkmadı. |

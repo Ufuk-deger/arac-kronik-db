@@ -19833,6 +19833,91 @@
         ]
       },
       "not": "Faz 19: And Çetin yazıları (tek başına yeterli kaynak): 2.5–3 milyon TL arası en sorunsuz arabalar."
+    },
+    {
+      "marka": "Ford",
+      "model": "Kuga 1",
+      "yillar": "2008-2012",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Kuga 1"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 20: Şikâyetvar'da birinci nesil Kuga için hararet ve conta yanması anlatılıyor ama anlatılan araçlar çoğunlukla 2013-2016 model 1.5 / 1.6 EcoBoost (motor ailesine özgü) ve kullanıcı yorumu düzeyinde; 2008-2012 Kuga 1'e özgü, modelden bağımsız bir sorun için ikinci bağımsız site bulunamadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Nissan",
+      "model": "X-Trail T31",
+      "yillar": "2007-2014",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "X-Trail (T31"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 20: Şikâyetvar ve DonanımHaber'de X-Trail şanzıman (CVT), enjektör ve klima şikâyetleri var; sonuçlar T31 nesline ayrıştırılamadı (çoğu 2014 sonrası T32 modellerine ait). Nesle özgü model geneli sorun için iki bağımsız site bulunamadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Vectra C",
+      "yillar": "2002-2008",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Vectra C"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 20: DonanımHaber'de kapı kolu ve iç plastiklerin soyulması, klima düğmesi arızası ve bagaj amortisörü; Ekşi Sözlük'te B1 kasa egzoz manifoldu çatlağı; Şikâyetvar'da gösterge aydınlatması ve ateşleme bobini anlatılıyor. Aynı konuyu iki farklı sitede, Vectra C'ye özgü ve doğrulanabilir biçimde veren bir eşleşme bulunamadı (gösterge aydınlatmasında DonanımHaber sonucu Vectra C'ye ve konuya doğrulanamadı).",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Suzuki",
+      "model": "SX4",
+      "yillar": "2006-2014",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "SX4"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 20: DonanımHaber kulübünde ve Şikâyetvar'da SX4 / S-Cross şikâyetleri (4WD uyarısı, akü, multimedya tuşları, bagaj plastiği) var; sonuçlar eski SX4 ile 2013 sonrası S-Cross arasında ayrıştırılamadı. SX4'e özgü model geneli sorun için iki bağımsız site bulunamadı.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Caddy 5",
+      "yillar": "2020-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 3,
+      "eslesme": {
+        "model": [
+          "Caddy (5"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ]
+      },
+      "not": "Faz 20: Şikâyetvar'da vitese takınca hareket etmeme, multimedya ekranı, airbag lambası, su alma ve garanti sonrası yüksek onarım ücreti şikâyetleri var; DonanımHaber sonuçları eski kuşak Caddy'lerle ilgili. VAG yazılım ve işçilik sorunları 19. aşamada And Çetin yazısından (Caddy 5 motor kaydında) işlendi; modelden bağımsız ek bir sorun için ikinci bağımsız site bulunamadı.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }
