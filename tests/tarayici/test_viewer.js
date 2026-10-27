@@ -24,6 +24,35 @@ function eslesir(metin, terim) {
   return false;
 }
 const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d{4}-(?:\d{4})?\)/, ')');
+const tabanAdi = (m) => m.replace(/\s*\([^()]*\)\s*$/, '').trim() || m;
+// Model kartı (görüntüleyiciden bağımsız yeniden hesaplanır): adın ilk parçası aynı olan kayıtlar birlikte ele alınır,
+// model geneli kayıtlar nesil çapasıdır; motor kaydı yılları en çok örtüşen çapaya girer, çapasızlar örtüştükçe birleşir.
+function grupla(kayitlar) {
+  const SIMDI = new Date().getFullYear();
+  const ilk = (x) => x.split(' / ')[0].trim();
+  const markaIlk = new Map();
+  for (const k of kayitlar) { if (!markaIlk.has(k.a.marka)) markaIlk.set(k.a.marka, new Set()); markaIlk.get(k.a.marka).add(ilk(tabanAdi(k.a.model))); }
+  const kok = (k) => { const i = ilk(tabanAdi(k.a.model)); const m = /^(.*\S)\s+([A-Z]{1,3}\d{1,3})$/.exec(i); return m && markaIlk.get(k.a.marka).has(m[1]) ? m[1] : i; };
+  const yb = (k) => k.a.uretim_yillari.baslangic; const ye = (k) => k.a.uretim_yillari.bitis;
+  const ort = (x, y) => Math.min(ye(x) ?? SIMDI, ye(y) ?? SIMDI) - Math.max(yb(x), yb(y)) + 1;
+  const kokler = new Map();
+  for (const k of kayitlar) { const a = `${k.a.marka}|${kok(k)}`; if (!kokler.has(a)) kokler.set(a, []); kokler.get(a).push(k); }
+  let n = 0;
+  for (const liste of kokler.values()) {
+    liste.sort((x, y) => yb(x) - yb(y) || (ye(x) ?? 1e9) - (ye(y) ?? 1e9));
+    const capalar = liste.filter((k) => k.a.motor.startsWith('Tüm motorlar'));
+    for (const c of capalar) c.grup = `g${n++}`;
+    let g = null; let son = 0;
+    for (const k of liste) {
+      if (k.a.motor.startsWith('Tüm motorlar')) continue;
+      let en = null; let d0 = 0;
+      for (const c of capalar) { const d = ort(k, c); if (d > d0) { en = c; d0 = d; } }
+      if (en) { k.grup = en.grup; continue; }
+      if (g && yb(k) < son) { son = Math.max(son, ye(k) ?? 1e9); } else { g = `g${n++}`; son = ye(k) ?? 1e9; }
+      k.grup = g;
+    }
+  }
+}
 
 (async () => {
   const browser = await chromium.launch();
@@ -51,6 +80,8 @@ const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d
   const adSozlugu = [...new Set(kayitlar.map((k) => k.adMetni).concat(veri.plan.map((o) => katla(`${o.marka} ${o.model}`))))];
   const aracTerimi = (t) => adSozlugu.some((m) => eslesir(m, t));
   const toplamSatir = kayitlar.reduce((t, k) => t + k.sorunlar.length, 0);
+  grupla(kayitlar);
+  const grupSay = (liste) => new Set(liste.map((k) => k.grup)).size;
 
   // ---------- yardımcılar ----------
   const bekle = (ms) => p.waitForTimeout(ms);
@@ -73,18 +104,22 @@ const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d
     return p.evaluate(() => {
       const cikti = { kartlar: [], sonuc: document.getElementById('sonuc').textContent.trim(), cipler: {} };
       let marka = '';
+      cikti.modeller = [];
       for (const e of document.getElementById('liste').children) {
         if (e.matches('h2.marka-baslik')) { marka = e.firstChild.textContent; continue; }
-        if (!e.matches('article.arac')) continue;
-        const satirlar = [...e.querySelectorAll('li.sorun')].map((li) => ({
-          baslik: li.querySelector('h4').textContent,
-          risk: li.dataset.risk,
-          km: li.querySelector('.km-etiket').textContent,
-          durum: (li.querySelector('.durum') || {}).textContent || '',
-          acik: li.querySelector('details').open,
-        }));
-        cikti.kartlar.push({ marka, ad: e.querySelector('h3').textContent, motor: e.querySelector('.motor').textContent,
-          yil: e.querySelector('.arac-yil').textContent, tur: e.dataset.tur || 'motor', satirlar });
+        if (!e.matches('article.model-kart')) continue;
+        cikti.modeller.push({ marka, ad: e.querySelector('h3').textContent, grup: e.dataset.grup, bolum: e.querySelectorAll('section.arac').length });
+        for (const b of e.querySelectorAll('section.arac')) {
+          const satirlar = [...b.querySelectorAll('li.sorun')].map((li) => ({
+            baslik: li.querySelector('h4').textContent,
+            risk: li.dataset.risk,
+            km: li.querySelector('.km-etiket').textContent,
+            durum: (li.querySelector('.durum') || {}).textContent || '',
+            acik: li.querySelector('details').open,
+          }));
+          cikti.kartlar.push({ marka, ad: e.querySelector('h3').textContent, model: b.dataset.model, grup: e.dataset.grup,
+            motor: b.querySelector('.motor').textContent, yil: b.querySelector('.arac-yil').textContent, tur: b.dataset.tur || 'motor', satirlar });
+        }
       }
       for (const s of document.querySelectorAll('[data-say]')) cikti.cipler[s.dataset.say] = Number(s.textContent);
       return cikti;
@@ -98,11 +133,19 @@ const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d
     const dom = await p.evaluate(() => document.getElementsByTagName('*').length);
     kontrol('ilk DOM boyutu küçük (< 12.000 düğüm)', dom < 12000, `dom=${dom}`);
     const o = await oku();
-    kontrol('ilk sayfada en çok 24 kart', o.kartlar.length > 0 && o.kartlar.length <= 24, `kart=${o.kartlar.length}`);
-    kontrol('sonuç satırı tüm kayıtları söylüyor', o.sonuc.startsWith(`${kayitlar.length} kayıt · ${toplamSatir} sorun satırı`), o.sonuc);
+    const sonBolum = o.modeller.length ? o.modeller[o.modeller.length - 1].bolum : 0;
+    kontrol('ilk sayfa yaklaşık 24 bölümle sınırlı (model kartı bölünmez)', o.modeller.length > 0 && o.kartlar.length - sonBolum < 24, `model=${o.modeller.length} bölüm=${o.kartlar.length}`);
+    kontrol('sonuç satırı tüm modelleri ve kayıtları söylüyor', o.sonuc.startsWith(`${grupSay(kayitlar)} model · ${kayitlar.length} kayıt · ${toplamSatir} sorun satırı`), o.sonuc);
     await hepsiniYukle();
     const t = await oku();
-    kontrol('sayfalama sonunda tüm kartlar yüklenir', t.kartlar.length === kayitlar.length, `kart=${t.kartlar.length}`);
+    kontrol('sayfalama sonunda tüm kartlar yüklenir', t.kartlar.length === kayitlar.length && t.modeller.length === grupSay(kayitlar), `bölüm=${t.kartlar.length} model=${t.modeller.length}`);
+    const modelBirKez = new Set(t.modeller.map((m) => m.grup)).size === t.modeller.length;
+    kontrol('her model tek kartta (aynı model iki kez listelenmez)', modelBirKez);
+    const ilkGenel = t.modeller.every((m) => { const b = t.kartlar.filter((k) => k.grup === m.grup); return b.findIndex((k) => k.tur === 'motor') === -1 || b.slice(b.findIndex((k) => k.tur === 'motor')).every((k) => k.tur === 'motor'); });
+    kontrol('kartta genel sorunlar motora özgü bölümlerden önce', ilkGenel);
+    kontrol('kart başlığında kasa kodu ve yıl parantezi yok', t.modeller.every((m) => !/\(/.test(m.ad)), t.modeller.filter((m) => /\(/.test(m.ad)).slice(0, 3).map((m) => m.ad).join(' | '));
+    const giu = t.modeller.filter((m) => m.marka === 'Alfa Romeo' && m.ad === 'Giulietta');
+    kontrol('Giulietta tek kartta genel + motor bölümleriyle', giu.length === 1 && giu[0].bolum >= 3, JSON.stringify(giu));
     kontrol('sayfalama sonunda tüm satırlar yüklenir', satirSay(t) === toplamSatir, `satir=${satirSay(t)} beklenen=${toplamSatir}`);
     kontrol('satırlar kapalı gelir', t.kartlar.every((k) => k.satirlar.every((s) => !s.acik)));
     kontrol('risk çipi sayıları toplamı tüm satırlar', t.cipler[''] === toplamSatir && t.cipler.yuksek + t.cipler.orta + t.cipler.dusuk === toplamSatir, JSON.stringify(t.cipler));
@@ -128,13 +171,13 @@ const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d
         const metin = katla([s.sorun_adi, s.etkilenen_parca, s.belirtiler, s.risk_seviyesi, ...Object.values(s.detay || {}), aile ? aile.ad : ''].join(' '));
         return genelT.every((t) => eslesir(k.kimlik, t) || eslesir(metin, t));
       }));
-    const gorunenAdlar = o.kartlar.map((k) => `${k.marka}|${k.ad}|${k.motor}`).sort();
-    const beklenenAdlar = beklenen.map((k) => `${k.a.marka}|${k.ad}|${k.a.motor.startsWith('Tüm motorlar') ? 'Tüm motorlar' : k.a.motor}`).sort();
+    const gorunenAdlar = o.kartlar.map((k) => `${k.marka}|${k.model}|${k.motor}`).sort();
+    const beklenenAdlar = beklenen.map((k) => `${k.a.marka}|${k.a.model}|${k.a.motor.startsWith('Tüm motorlar') ? 'Tüm motorlar' : k.a.motor}`).sort();
     kontrol(`"${q}": sonuçlar beklenen kayıt kümesiyle aynı (${beklenen.length})`, JSON.stringify(gorunenAdlar) === JSON.stringify(beklenenAdlar),
       `görünen=${gorunenAdlar.length} beklenen=${beklenenAdlar.length}`);
     if (aracT.length) {
-      const yabanci = o.kartlar.filter((k) => !aracT.every((t) => eslesir(katla(`${k.marka} ${k.ad}`), t)));
-      kontrol(`"${q}": başka araç görünmez`, yabanci.length === 0, yabanci.slice(0, 3).map((k) => k.marka + ' ' + k.ad).join(' ## '));
+      const yabanci = o.kartlar.filter((k) => !aracT.every((t) => eslesir(katla(`${k.marka} ${modelAdi(k.model)}`), t)));
+      kontrol(`"${q}": başka araç görünmez`, yabanci.length === 0, yabanci.slice(0, 3).map((k) => k.marka + ' ' + k.model).join(' ## '));
     }
   }
 
@@ -170,19 +213,19 @@ const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d
     await yaz('#ara', 'tucson');
     const gorunur = await p.evaluate(() => !document.getElementById('ikincil').hidden);
     const say = await p.textContent('#ikincil-say');
-    kontrol('"tucson": ikincil bölüm görünür ve sayı gösterir', gorunur && /^\d+ kayıt$/.test(say.trim()), say);
+    kontrol('"tucson": ikincil bölüm görünür ve sayı gösterir', gorunur && /^\d+ model · \d+ kayıt$/.test(say.trim()), say);
     const kapali = await p.evaluate(() => ({ acik: document.getElementById('ikincil').open, ic: document.querySelectorAll('#ikincil-liste .arac').length }));
     kontrol('"tucson": ikincil bölüm kapalı ve içi boş gelir', !kapali.acik && kapali.ic === 0, JSON.stringify(kapali));
     await p.click('#ikincil > summary');
     await bekle(100);
-    const ic = await p.evaluate(() => [...document.querySelectorAll('#ikincil-liste .arac')].map((e) => e.querySelector('h3').textContent));
+    const ic = await p.evaluate(() => [...document.querySelectorAll('#ikincil-liste section.arac')].map((e) => e.dataset.model));
     kontrol('"tucson": bölüm açılınca kartlar yüklenir', ic.length > 0, `kart=${ic.length}`);
     kontrol('"tucson": ikincil kartlar Tucson değil', ic.every((a) => !/tucson/i.test(a)), ic.slice(0, 5).join(' | '));
     const beklenenIkincil = kayitlar.filter((k) => !eslesir(k.adMetni, 'tucson') && k.sorunlar.some(({ s, aile }) => {
       const metin = katla([s.sorun_adi, s.etkilenen_parca, s.belirtiler, s.risk_seviyesi, ...Object.values(s.detay || {}), aile ? aile.ad : ''].join(' '));
       return eslesir(k.kimlik, 'tucson') || eslesir(metin, 'tucson');
     })).length;
-    kontrol('"tucson": ikincil sayı beklenenden az değil', Number(say.trim().split(' ')[0]) >= beklenenIkincil, `${say} beklenen>=${beklenenIkincil}`);
+    kontrol('"tucson": ikincil sayı beklenenden az değil', Number(/(\d+) kayıt/.exec(say)[1]) >= beklenenIkincil, `${say} beklenen>=${beklenenIkincil}`);
     // olmayan araç adı: birincil boş, ikincil ya da boş durum
     await sifirla();
     await yaz('#ara', 'zzzzqq');
@@ -259,8 +302,10 @@ const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d
       await bekle(60);
       await hepsiniYukle();
       const o2 = await oku();
-      const beklenen2 = kayitlar.filter((k) => `${k.a.marka}|${k.ad}` === modelDegeri && k.sorunlar.length).length;
-      kontrol(`marka ${marka}, model ${modelDegeri.split('|')[1]}: kart sayısı (${beklenen2})`, o2.kartlar.length === beklenen2, `kart=${o2.kartlar.length}`);
+      const ornek = o.kartlar.find((k) => k.grup === modelDegeri);
+      const grupKimligi = ornek ? kayitlar.find((k) => k.a.marka === ornek.marka && k.a.model === ornek.model && (ornek.motor === 'Tüm motorlar' ? k.a.motor.startsWith('Tüm motorlar') : k.a.motor === ornek.motor)).grup : null;
+      const beklenen2 = kayitlar.filter((k) => k.grup === grupKimligi && k.sorunlar.length).length;
+      kontrol(`marka ${marka}, model ${modelDegeri.split('|')[1]}: bölüm sayısı (${beklenen2}) ve tek kart`, o2.kartlar.length === beklenen2 && o2.modeller.length === 1, `bölüm=${o2.kartlar.length} model=${o2.modeller.length}`);
       // markayı değiştirince model sıfırlanır
       await p.selectOption('#marka', '');
       await bekle(60);
@@ -271,7 +316,7 @@ const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d
     // marka sayıları: marka sayısı toplamı kart sayısı
     await sifirla();
     const toplam = await p.evaluate(() => [...document.getElementById('marka').options].filter((o) => o.value).reduce((t, o) => t + Number(/\((\d+)\)$/.exec(o.textContent)[1]), 0));
-    kontrol('marka seçenekleri sayıları toplamı tüm kayıtlar', toplam === kayitlar.length, `toplam=${toplam}`);
+    kontrol('marka seçenekleri sayıları toplamı tüm model kartları', toplam === grupSay(kayitlar.filter((k) => k.sorunlar.length)), `toplam=${toplam}`);
     // marka + arama
     await p.selectOption('#marka', 'Fiat');
     await yaz('#ara', 'dpf');
@@ -330,7 +375,7 @@ const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d
     await yaz('#km', '');
     const ipucu = await p.evaluate(() => !document.getElementById('km-ipucu').hidden);
     const t = await oku();
-    kontrol('km boşken filtre uygulanmaz ve ipucu görünür', ipucu && t.sonuc.startsWith(`${kayitlar.length} kayıt`), t.sonuc);
+    kontrol('km boşken filtre uygulanmaz ve ipucu görünür', ipucu && t.sonuc.includes(` · ${kayitlar.length} kayıt · `), t.sonuc);
     await sifirla();
     // km olmadan filtreyi işaretlemek km alanına odaklanır
     await p.check('#kmfiltre');
@@ -387,7 +432,7 @@ const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, '').replace(/,\s*\d
     await bekle(100);
     const t = await oku();
     const durumlar = await p.evaluate(() => ({ ara: document.getElementById('ara').value, marka: document.getElementById('marka').value, yil: document.getElementById('yil').value, km: document.getElementById('km').value, risk: document.querySelector('input[name=risk]:checked').value }));
-    kontrol('temizle her filtreyi sıfırlar', t.sonuc.startsWith(`${kayitlar.length} kayıt`) && Object.values(durumlar).every((v) => v === ''), JSON.stringify(durumlar) + t.sonuc);
+    kontrol('temizle her filtreyi sıfırlar', t.sonuc.includes(` · ${kayitlar.length} kayıt · `) && Object.values(durumlar).every((v) => v === ''), JSON.stringify(durumlar) + t.sonuc);
     // çip ile tek filtre kaldırma
     await p.selectOption('#marka', 'Fiat');
     await yaz('#yil', '2018');

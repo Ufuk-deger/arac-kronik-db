@@ -458,13 +458,46 @@
     letter-spacing: 0;
     color: var(--muted);
   }
-  .arac {
-    display: grid;
-    grid-template-columns: 15rem minmax(0, 1fr);
-    margin-bottom: 12px;
+  .model-kart {
+    margin-bottom: 14px;
     background: var(--surface);
     border: 1px solid var(--line);
     border-radius: var(--radius);
+    overflow: hidden;
+  }
+  .model-baslik {
+    padding: 14px 18px 12px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 2px 14px;
+    border-bottom: 1px solid var(--line);
+  }
+  .model-baslik h3 {
+    margin: 0;
+    font-family: var(--font-display);
+    font-weight: 600;
+    font-size: 1.5rem;
+    line-height: 1.15;
+    text-wrap: balance;
+  }
+  .model-yil {
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    font-variant-numeric: tabular-nums;
+  }
+  .model-say {
+    margin: 0;
+    font-size: 0.86rem;
+    color: var(--muted);
+  }
+  .arac {
+    display: grid;
+    grid-template-columns: 15rem minmax(0, 1fr);
+  }
+  .arac + .arac {
+    border-top: 1px solid var(--line);
   }
   .arac-kimlik {
     padding: 16px 18px;
@@ -474,17 +507,22 @@
     justify-items: start;
     gap: 6px;
   }
-  .arac-kimlik h3 {
+  .bolum-model {
     margin: 0;
-    font-family: var(--font-display);
+    font-size: 0.86rem;
     font-weight: 600;
-    font-size: 1.35rem;
-    line-height: 1.15;
-    text-wrap: balance;
+  }
+  .bolum-tur {
+    margin: 0;
+    font-size: 0.74rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--muted);
   }
   .motor {
     margin: 0;
-    font-size: 0.98rem;
+    font-size: 1.02rem;
     font-weight: 600;
     line-height: 1.3;
     font-variant-numeric: tabular-nums;
@@ -912,7 +950,7 @@
     display: grid;
     gap: 16px;
   }
-  .ikincil-ic .arac {
+  .ikincil-ic .model-kart {
     margin-bottom: 0;
   }
   .kapsam-not {
@@ -1106,7 +1144,17 @@
       gap: 0;
     }
     .arac-kimlik {
-      padding: 14px 16px;
+      padding: 12px 16px;
+      display: flex;
+      flex-wrap: wrap;
+      align-items: baseline;
+      gap: 2px 10px;
+    }
+    .bolum-tur {
+      flex-basis: 100%;
+    }
+    .model-baslik {
+      padding-inline: 16px;
     }
     .arac-not {
       padding-inline: 16px;
@@ -1148,8 +1196,8 @@
           <p>Aynı motor ya da şanzıman birden çok modelde aynı sorunu yaşıyorsa sorun her modelde "ortak aile" olarak gösterilir. Kesikli çerçeveli etiket bu modele özgü bildirimin ayrıca doğrulanmadığını, düz çerçeveli etiket modelde de bildirildiğini gösterir. Modelin bu motor ya da şanzımanla satıldığı bilgisi de kaynaklarla tek tek doğrulanmadı; motor kodunu ruhsattan kontrol edin. Ortak sorunlar her modelde ayrı satır olarak gösterildiğinden satır sayısı benzersiz sorun sayısından büyüktür.</p>
         </div>
         <div class="yardim-oge">
-          <h2>Model geneli kartlar</h2>
-          <p>Kasa, sızdırmazlık (cam tavan, bagaj, far), iç mekân, elektronik ve süspansiyon gibi motordan bağımsız sorunlar koyu kenarlı "Model geneli" kartlarındadır. Yaşa ve kullanıma bağlı oldukları için kaynaklarda çoğunlukla kilometre yoktur; uydurulmadı.</p>
+          <h2>Model kartları</h2>
+          <p>Her model (üretim yıllarıyla) tek kartta toplanır. Kartın başında koyu kenarlı "Genel" bölümde kasa, sızdırmazlık (cam tavan, bagaj, far), iç mekân, elektronik ve süspansiyon gibi motordan bağımsız sorunlar; altında her motor ve şanzıman sürümüne özgü sorunlar yer alır. Genel sorunlar yaşa ve kullanıma bağlı olduğu için kaynaklarda çoğunlukla kilometre yoktur; uydurulmadı.</p>
         </div>
         <div class="yardim-oge">
           <h2>Dönem</h2>
@@ -1293,6 +1341,9 @@
     }
     const yilMetni = (b, e) => (e == null ? `${b}–` : b === e ? `${b}` : `${b}–${e}`);
     const modelAdi = (m) => m.replace(/\s*\(\d{4}-(?:\d{4})?\)/, "").replace(/,\s*\d{4}-(?:\d{4})?\)/, ")");
+    // Görünen ad: sondaki parantez (kasa kodu ve yıllar) atılır; yıllar ayrıca yazılır.
+    const tabanAdi = (m) => m.replace(/\s*\([^()]*\)\s*$/, "").trim() || m;
+    const yilEtiketi = (b, e) => (e == null ? `${b}–günümüz` : b === e ? `${b}` : `${b}–${e}`);
     const katla = (s) => s.toLocaleLowerCase("tr-TR").normalize("NFD").replace(/[̀-ͯ]/g, "").replace(/ı/g, "i");
     // "q3", "x5", "a4" gibi kısa model kodları kelime başında aranır ("DQ381" içindeki "q3" eşleşmesin); harf + tek rakamlı kodların ("x2", "s6") ardından rakam da gelmez ("X243", "S60" gelmesin).
     // Diğer terimler alt dizgi olarak aranır.
@@ -1353,8 +1404,8 @@
       sorunlar.forEach((s, j) => { s.idx = j; });
       const ad = modelAdi(arac.model);
       return {
-        id, arac, marka: arac.marka, ad, aileler, sorunlar,
-        modelAnahtari: `${arac.marka}|${ad}`,
+        id, arac, marka: arac.marka, ad, taban: tabanAdi(arac.model), aileler, sorunlar, grup: null,
+        modelAnahtari: "",
         modelGeneli: arac.motor.startsWith("Tüm motorlar"),
         elektrik: arac.motor.startsWith("Elektrik"),
         yb: arac.uretim_yillari.baslangic,
@@ -1364,10 +1415,79 @@
       };
     });
 
-    const markaModelleri = new Map();
+    // Model kartları. Adın ilk parçası (ör. "Egea / Egea Cross" → "Egea", "Octavia A7" → "Octavia") aynı olan kayıtlar
+    // birlikte ele alınır; model geneli kayıtları nesil çapasıdır: her motor kaydı yılları en çok örtüşen çapanın kartına
+    // girer (ör. Giulietta genel, dizel ve benzinli kayıtları tek kart). Çapası olmayan kayıtlar yılları örtüştükçe birleşir.
+    const SIMDI = new Date().getFullYear();
+    const ilkParca = (t) => t.split(" / ")[0].trim();
+    const markaIlkler = new Map();
     for (const k of kayitlar) {
-      if (!markaModelleri.has(k.marka)) markaModelleri.set(k.marka, new Map());
-      markaModelleri.get(k.marka).set(k.modelAnahtari, k.ad);
+      if (!markaIlkler.has(k.marka)) markaIlkler.set(k.marka, new Set());
+      markaIlkler.get(k.marka).add(ilkParca(k.taban));
+    }
+    function kokAd(k) {
+      const ilk = ilkParca(k.taban);
+      const m = /^(.*\S)\s+([A-Z]{1,3}\d{1,3})$/.exec(ilk);
+      return m && markaIlkler.get(k.marka).has(m[1]) ? m[1] : ilk;
+    }
+    const ortusme = (b1, e1, b2, e2) => Math.min(e1 ?? SIMDI, e2 ?? SIMDI) - Math.max(b1, b2) + 1;
+    const SONSUZ = 1e9;
+    const kokler = new Map();
+    for (const k of kayitlar) {
+      const anahtar = `${k.marka}|${kokAd(k)}`;
+      if (!kokler.has(anahtar)) kokler.set(anahtar, []);
+      kokler.get(anahtar).push(k);
+    }
+    const gruplar = [];
+    for (const liste of kokler.values()) {
+      liste.sort((a, b) => a.yb - b.yb || (a.ye ?? SONSUZ) - (b.ye ?? SONSUZ));
+      const capalar = liste.filter((k) => k.modelGeneli).map((k) => ({ marka: k.marka, kayitlar: [k], capa: k }));
+      const serbest = [];
+      for (const k of liste) {
+        if (k.modelGeneli) continue;
+        let en = null; let enDeger = 0;
+        for (const c of capalar) {
+          const d = ortusme(k.yb, k.ye, c.capa.yb, c.capa.ye);
+          if (d > enDeger) { en = c; enDeger = d; }
+        }
+        if (en) en.kayitlar.push(k); else serbest.push(k);
+      }
+      let g = null;
+      for (const k of serbest) {
+        const ye = k.ye ?? SONSUZ;
+        if (g && k.yb < g.yeSon) { g.kayitlar.push(k); g.yeSon = Math.max(g.yeSon, ye); }
+        else { g = { marka: k.marka, kayitlar: [k], capa: null, yeSon: ye }; capalar.push(g); }
+      }
+      gruplar.push(...capalar);
+    }
+    for (const g of gruplar) {
+      g.yb = Math.min(...g.kayitlar.map((k) => k.yb));
+      g.ye = g.kayitlar.some((k) => k.ye == null) ? null : Math.max(...g.kayitlar.map((k) => k.ye));
+      // Başlıkta kasa kodu gösterilmez: "Octavia A7" gibi kodlu adlar kök ada ("Octavia") indirilir.
+      if (g.capa) g.taban = kokAd(g.capa) !== ilkParca(g.capa.taban) ? kokAd(g.capa) : g.capa.taban;
+      else {
+        const say = new Map();
+        for (const k of g.kayitlar) say.set(k.taban, (say.get(k.taban) || 0) + 1);
+        g.taban = [...say.entries()].sort((x, y) => y[1] - x[1] || x[0].length - y[0].length)[0][0];
+      }
+    }
+    gruplar.sort((a, b) => a.marka.localeCompare(b.marka, "tr") ||
+      a.taban.localeCompare(b.taban, "tr", { numeric: true }) || a.yb - b.yb);
+    gruplar.forEach((g, i) => {
+      g.sira = i;
+      g.anahtar = `${g.marka}|${g.taban}|${g.yb}|${i}`;
+      g.etiket = `${g.taban} · ${yilEtiketi(g.yb, g.ye)}`;
+      g.kayitlar.sort((a, b) => (b.modelGeneli - a.modelGeneli) || a.yb - b.yb ||
+        a.arac.motor.localeCompare(b.arac.motor, "tr", { numeric: true }));
+      for (const k of g.kayitlar) { k.grup = g; k.modelAnahtari = g.anahtar; }
+    });
+    // Liste sırası: kart sırası, kart içinde önce genel bölüm.
+    kayitlar.splice(0, kayitlar.length, ...gruplar.flatMap((g) => g.kayitlar));
+
+    const markaModelleri = new Map();
+    for (const g of gruplar) {
+      if (!markaModelleri.has(g.marka)) markaModelleri.set(g.marka, new Map());
+      markaModelleri.get(g.marka).set(g.anahtar, g.etiket);
     }
 
     // Araç adı sözlüğü: marka ve model adlarında geçen terimler "araç terimi" sayılır ve yalnızca araç kimliğinde aranır;
@@ -1474,8 +1594,9 @@
       const kmFiltreAktif = d.kmFiltre && d.km != null;
       const s = {
         birincil: [], ikincil: [], satir: 0, icinde: 0, yakin: 0,
-        riskSay: { "": 0, yuksek: 0, orta: 0, dusuk: 0 }, markaSay: new Map(), modelSay: new Map(),
+        riskSay: { "": 0, yuksek: 0, orta: 0, dusuk: 0 }, markaSay: new Map(), modelSay: new Map(), kartSay: 0,
       };
+      const markaGruplari = new Map();
       for (const k of kayitlar) {
         if (d.yil != null && !(d.yil >= k.yb && (k.ye == null || d.yil <= k.ye))) continue;
         if (d.elektrik && !k.elektrik) continue;
@@ -1493,7 +1614,8 @@
         const riskli = d.risk ? adaylar.filter((a) => a.s.risk === d.risk) : adaylar;
         if (siki) {
           if (riskli.length) {
-            s.markaSay.set(k.marka, (s.markaSay.get(k.marka) || 0) + 1);
+            if (!markaGruplari.has(k.marka)) markaGruplari.set(k.marka, new Set());
+            markaGruplari.get(k.marka).add(k.modelAnahtari);
             if (markaUyar) s.modelSay.set(k.modelAnahtari, (s.modelSay.get(k.modelAnahtari) || 0) + 1);
           }
           if (markaUyar && modelUyar) {
@@ -1504,6 +1626,8 @@
           s.ikincil.push({ k, satirlar: sirala(riskli, d.km) });
         }
       }
+      for (const [m, kume] of markaGruplari) s.markaSay.set(m, kume.size);
+      s.kartSay = new Set(s.birincil.map((g) => g.k.modelAnahtari)).size;
       for (const g of s.birincil) {
         s.satir += g.satirlar.length;
         for (const a of g.satirlar) {
@@ -1689,17 +1813,17 @@
       return li;
     }
 
-    function kartOlustur(k, satirlar) {
-      const kart = el("article", "arac");
-      if (k.modelGeneli) kart.dataset.tur = "model";
+    function bolumOlustur(k, satirlar, eksenli) {
+      const bolum = el("section", "arac");
+      bolum.dataset.tur = k.modelGeneli ? "model" : "motor";
+      bolum.dataset.model = k.arac.model;
       const kimlik = el("header", "arac-kimlik");
-      kimlik.append(el("h3", null, k.ad), el("p", "motor", k.modelGeneli ? "Tüm motorlar" : k.arac.motor),
-        el("p", "arac-yil", `Üretim ${yilMetni(k.yb, k.ye).replace(/–$/, "–günümüz")}`));
-      if (k.modelGeneli) {
-        const cip = el("span", "model-cip", "Model geneli");
-        cip.title = "Motordan bağımsız, bu modele (nesle) özgü sorunlar: kasa, sızdırmazlık, iç mekân, elektronik, süspansiyon.";
-        kimlik.append(cip);
-      }
+      kimlik.append(el("p", "bolum-tur", k.modelGeneli ? "Genel sorunlar" : "Motora özgü"));
+      // Kayıt kartın adından farklı bir adla (ör. "Clio 4 / Captur", "Fiesta / Focus") yazılmışsa o ad ayrıca gösterilir.
+      if (k.taban !== k.grup.taban) kimlik.append(el("p", "bolum-model", k.taban));
+      kimlik.append(
+        el("p", "motor", k.modelGeneli ? "Tüm motorlar" : k.arac.motor),
+        el("p", "arac-yil", `Üretim ${yilEtiketi(k.yb, k.ye)}`));
       if (k.aileler.length) {
         const aileSatiri = el("p", "aile-satir");
         aileSatiri.append(document.createTextNode("Aile: "));
@@ -1720,37 +1844,62 @@
       }
       const ul = el("ul", "sorunlar");
       for (const a of satirlar) ul.append(satirOlustur(k, a));
-      alan.append(eksenOlustur(), ul);
-      kart.append(kimlik, alan);
+      if (eksenli) alan.append(eksenOlustur());
+      alan.append(ul);
+      bolum.append(kimlik, alan);
+      return bolum;
+    }
+
+    function kartOlustur(g, ogeler) {
+      const kart = el("article", "model-kart");
+      kart.dataset.grup = g.anahtar;
+      const bas = el("header", "model-baslik");
+      const satirSay = ogeler.reduce((t, o) => t + o.satirlar.length, 0);
+      const genel = ogeler.some((o) => o.k.modelGeneli);
+      const motorSay = ogeler.length - (genel ? 1 : 0);
+      const parca = [genel ? "genel" : "", motorSay ? `${motorSay} motor` : ""].filter(Boolean).join(" + ");
+      bas.append(el("h3", null, g.taban), el("p", "model-yil", yilEtiketi(g.yb, g.ye)),
+        el("p", "model-say", `${parca} · ${satirSay} sorun`));
+      kart.append(bas);
+      ogeler.forEach((o, i) => kart.append(bolumOlustur(o.k, o.satirlar, i === 0)));
       return kart;
     }
 
     function listeKur(kap, dahaKutu, dahaBtn) {
-      const o = { ogeler: [], i: 0, sonMarka: null, toplam: new Map() };
+      const o = { ogeler: [], kartlar: [], i: 0, sonMarka: null, toplam: new Map() };
       o.devam = () => {
-        const bitis = Math.min(o.ogeler.length, o.i + KART_SAYFA);
         const parca = document.createDocumentFragment();
-        for (; o.i < bitis; o.i += 1) {
-          const g = o.ogeler[o.i];
-          if (g.k.marka !== o.sonMarka) {
-            const baslik = el("h2", "marka-baslik", g.k.marka);
-            baslik.append(el("span", "say", `${o.toplam.get(g.k.marka)} kayıt`));
+        let eklenen = 0;
+        // Bir sayfada yaklaşık KART_SAYFA bölüm (kayıt) gösterilir; bir model kartı bölünmez.
+        while (o.i < o.kartlar.length && (eklenen === 0 || eklenen < KART_SAYFA)) {
+          const kart = o.kartlar[o.i];
+          if (kart.g.marka !== o.sonMarka) {
+            const baslik = el("h2", "marka-baslik", kart.g.marka);
+            baslik.append(el("span", "say", `${o.toplam.get(kart.g.marka)} model`));
             parca.append(baslik);
-            o.sonMarka = g.k.marka;
+            o.sonMarka = kart.g.marka;
           }
-          parca.append(kartOlustur(g.k, g.satirlar));
+          parca.append(kartOlustur(kart.g, kart.ogeler));
+          eklenen += kart.ogeler.length;
+          o.i += 1;
         }
         kap.append(parca);
-        const kalan = o.ogeler.length - o.i;
+        const kalan = o.kartlar.length - o.i;
         dahaKutu.hidden = kalan <= 0;
-        if (kalan > 0) dahaBtn.textContent = `Daha fazla göster · kalan ${kalan} kayıt`;
+        if (kalan > 0) dahaBtn.textContent = `Daha fazla göster · kalan ${kalan} model`;
       };
       o.sifirla = (ogeler) => {
         o.ogeler = ogeler;
+        o.kartlar = [];
+        for (const og of ogeler) {
+          const son = o.kartlar[o.kartlar.length - 1];
+          if (son && son.g === og.k.grup) son.ogeler.push(og);
+          else o.kartlar.push({ g: og.k.grup, ogeler: [og] });
+        }
         o.i = 0;
         o.sonMarka = null;
         o.toplam = new Map();
-        for (const g of ogeler) o.toplam.set(g.k.marka, (o.toplam.get(g.k.marka) || 0) + 1);
+        for (const kart of o.kartlar) o.toplam.set(kart.g.marka, (o.toplam.get(kart.g.marka) || 0) + 1);
         kap.textContent = "";
         o.devam();
       };
@@ -1827,7 +1976,7 @@
     }
 
     function ozetiYaz(s) {
-      let metin = `${s.birincil.length} kayıt · ${s.satir} sorun satırı`;
+      let metin = `${s.kartSay} model · ${s.birincil.length} kayıt · ${s.satir} sorun satırı`;
       if (durum.km != null) metin += ` · ${s.icinde} bu kilometrede · ${s.yakin} yaklaşıyor`;
       sonucEl.textContent = metin;
     }
@@ -1902,7 +2051,7 @@
     function ikincilGuncelle() {
       const adet = sonuc.ikincil.length;
       ikincilKutu.hidden = adet === 0;
-      $("ikincil-say").textContent = `${adet} kayıt`;
+      $("ikincil-say").textContent = `${new Set(sonuc.ikincil.map((g) => g.k.modelAnahtari)).size} model · ${adet} kayıt`;
       if (adet && sonuc.birincil.length === 0) ikincilKutu.open = true;
       if (adet === 0) ikincilKutu.open = false;
       if (ikincilKutu.open) ikincilListe.sifirla(sonuc.ikincil);
@@ -2031,8 +2180,9 @@
     const modelKart = kayitlar.filter((k) => k.modelGeneli).length;
     const ozet = $("ozet");
     const parcalar = [
+      `<b>${gruplar.length}</b> model`,
       `<b>${kayitlar.length - modelKart}</b> motor kaydı`,
-      modelKart ? `<b>${modelKart}</b> model geneli kart` : "",
+      modelKart ? `<b>${modelKart}</b> genel sorun bölümü` : "",
       `<b>${ozelSorun + ailelerSorun}</b> sorun (${ozelSorun} kayda özgü` + (ailelerSorun ? ` + ${ailelerSorun} ortak aile` : "") + ")",
       `<b>${tumSiteler.size}</b> kaynak sitesi`,
     ].filter(Boolean);

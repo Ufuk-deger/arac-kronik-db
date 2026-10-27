@@ -152,7 +152,7 @@ Bunlar motor kayıtlarına tek tek yazılmak yerine, aynı modelin **model genel
                          "kaynaklar": ["https://...", "https://..."] } ] }
 ```
 
-- `motor` alanı sabit olarak `Tüm motorlar (model geneli)` yazılır; görüntüleyicide koyu kenarlı, "Model geneli" etiketli ayrı kart olarak görünür.
+- `motor` alanı sabit olarak `Tüm motorlar (model geneli)` yazılır; görüntüleyicide modelin kartında en üstte, koyu kenarlı "Genel sorunlar" bölümü olarak görünür.
   Model geneli kayıt motor/şanzıman ailesine bağlanamaz (`aileler` yazılamaz) ve en az bir sorunu olmalıdır.
 - Sorunlar aynı kaynak kuralına uyar: en az iki farklı site ve en az biri deneyim ya da resmî türünde (şikâyet, forum, anket, haber, dava haberi).
 - **`tahmini_km_araligi` bu kayıtlarda isteğe bağlıdır.** Sızdırmazlık, boya, iç mekân ve elektronik sorunları yaşa ve kullanıma bağlıdır;
@@ -293,7 +293,13 @@ python3 scripts/viewer_uret.py
   ("Tucson" yazınca ortak sorun metninde Tucson'dan söz eden Accent Blue gibi) "Yalnızca metninde geçen kayıtlar" bölümünde
   ayrıca sayılır. "Egea 2018" gibi aramalarda model yılı filtre olarak okunur. "Q3", "X5" gibi kısa model kodları kelime
   başında aranır (ör. "DQ381" içindeki "q3" eşleşmez).
-- **Seçim:** marka ve model (marka seçilince model listesi açılır); seçeneklerin yanındaki sayılar diğer filtrelere göre güncellenir.
+- **Model kartları:** her model tek kartta gösterilir; başlıkta kasa kodu yerine üretim yılları yazar (ör. "Qashqai 2014–2021").
+  Kartta önce motordan bağımsız "Genel sorunlar", altında her motor / şanzıman sürümüne özgü sorunlar listelenir. Aynı adın ilk
+  parçasını taşıyan kayıtlar ("Clio 4" ve "Clio 4 / Captur", "Octavia" ve "Octavia A7") birlikte ele alınır; model geneli kayıt
+  nesil çapasıdır ve motor kaydı yılları en çok örtüşen çapanın kartına girer. Model geneli kaydı olmayan nesillerde yılları
+  örtüşen kayıtlar tek kartta birleşir. Kasa kodu aramada kullanılmaya devam eder ("j11", "e90" gibi).
+- **Seçim:** marka ve model (marka seçilince model listesi açılır; model seçenekleri "Ad · yıllar" biçimindedir). Marka
+  seçeneğinin yanındaki sayı model kartı, model seçeneğinin yanındaki sayı kayıt (bölüm) sayısıdır; diğer filtrelere göre güncellenir.
 - **Model yılı ve kilometre:** model yılı girilince yalnızca o yılı kapsayan kayıtlar kalır ve yıl kırılımı olan sorunlarda
   yılınızın dönemi işaretlenir. Kilometre girilince sorunlar "Bu kilometrede" ve "Yaklaşıyor" (aralığın başlangıcına en fazla
   20.000 km kala) olarak işaretlenir ve satırlar buna göre sıralanır; "Yalnızca kilometreme uyanlar" kutusu bunların dışındakileri
@@ -301,7 +307,7 @@ python3 scripts/viewer_uret.py
 - **Risk** çipleri, **elektrikli** filtresi ve etkin filtre çipleri (tek tıkla kaldırılır).
 - **Satırlar kapalı gelir:** başlık, risk, kilometre çubuğu ve belirti özeti görünür; satıra tıklayınca parça, belirtiler, dönem,
   ayrıntılar (neden, teşhis, çözüm, maliyet, önlem) ve kaynaklar açılır. "Hepsini aç / kapat" görünen satırlara uygulanır.
-  Liste 24 kartlık sayfalarla yüklenir ("Daha fazla göster").
+  Liste yaklaşık 24 bölümlük sayfalarla yüklenir; bir model kartı sayfalar arasında bölünmez ("Daha fazla göster").
 - **Telefon:** filtreler "Filtreler" düğmesinin arkasındadır; arama kutusu yapışkan çubukta kalır.
 
 Sayfanın altındaki "Kayıt açılmayan gruplar" bölümü, `data/kapsam.json` içinde kaydı olmayan satırları gösterir:
