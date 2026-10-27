@@ -10049,7 +10049,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar'da (çoğu Corsa F) multimedya ekranı kararması / CarPlay kesintisi ve siyah tavanda boya atması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te Corsa E / F'ye özgü ikinci site çıkmadı.",
+      "not": "Şikâyetvar'da (çoğu Corsa F) multimedya ekranı kararması / CarPlay kesintisi ve siyah tavanda boya atması tekrar ediyor; DonanımHaber ve Ekşi Sözlük'te Corsa E / F'ye özgü ikinci site çıkmadı. Faz 20: Corsa F siyah tavan boyası ayrı ✓ satırına alındı; Corsa E için ayrı kanıt yok.",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -10156,7 +10156,7 @@
           "301 ("
         ]
       },
-      "not": "Şikâyetvar'da en çok tekrarlanan konu kapı içi, bagaj kapağı ve tavanda boya kabarması ve paslanma (301 ve C-Elysée'de, orijinal boyada; bir kullanıcıya yetkili servis her C-Elysée'nin %10'unda görüldüğünü söylemiş), ön / alt takım sesi (amortisör değişimine rağmen), cam sıyırıcı fitil erimesi ve C-Elysée'de arka stop farlarına su kaçağı tekrar ediyor; DonanımHaber'de yalnızca 2013 tarihli genel başlıklar var, ikinci bağımsız site çıkmadı.",
+      "not": "Şikâyetvar'da en çok tekrarlanan konu kapı içi, bagaj kapağı ve tavanda boya kabarması ve paslanma (301 ve C-Elysée'de, orijinal boyada; bir kullanıcıya yetkili servis her C-Elysée'nin %10'unda görüldüğünü söylemiş), ön / alt takım sesi (amortisör değişimine rağmen), cam sıyırıcı fitil erimesi ve C-Elysée'de arka stop farlarına su kaçağı tekrar ediyor; DonanımHaber'de yalnızca 2013 tarihli genel başlıklar var, ikinci bağımsız site çıkmadı. Faz 20: Şikâyetvar'da 301 ve C-Elysée için tavan, kapı içi ve bagaj kapağında boya kabarması / atması ve paslanma çok sayıda (2013-2021 modeller); DonanımHaber'de 301 ve C-Elysée'ye özgü başlık çıkmadı (sonuçlar C5 Aircross ve genel boya konularına ait). İkinci bağımsız site yok.",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -11637,20 +11637,19 @@
     },
     {
       "marka": "Opel",
-      "model": "Crossland X / Grandland X",
+      "model": "Crossland X",
       "yillar": "2017-",
       "motor": "Tüm motorlar (model geneli)",
       "kademe": 2,
       "eslesme": {
         "model": [
-          "Crossland",
-          "Grandland"
+          "Crossland"
         ],
         "motor": [
           "Tüm motorlar"
         ]
       },
-      "not": "Şikâyetvar'da Grandland X için güneşlik bağlantı noktalarından ve cam tavandan su alma, multimedya ekranının kapanıp açılmaması, geri görüş kamerası ve sensör arızaları, direksiyon kaplamasının soyulması ve tavan boyası dökülmesi; Crossland X için sağa çekme, sol arka stop lambasında sürekli buğulanma, boya matlaşması, rüzgâr sesi ve multimedya şikâyetleri tekil kayıtlar halinde anlatılıyor. DonanımHaber ve Ekşi Sözlük'te Grandland X için güneşlik / cam tavan sızıntısı çıkmadı; multimedya için görüşler karışık (ergonomi iyi, arayüz vasat, geri görüş kamerasının çözünürlüğü eleştiriliyor) ve sistematik bir arıza bildirilmiyor. Ekşi Sözlük'te bir yorumcu direksiyon kaplamasının soyulmasının Grandland X ve Insignia'da da birçok kullanıcıda görüldüğünü yazıyor; ikinci bağımsız site ve model yılı ayrıntısı yok. Eksantrik zinciri, yağ pompası ve AdBlue konuları motor kayıtlarının alanıdır.",
+      "not": "Şikâyetvar'da Grandland X için güneşlik bağlantı noktalarından ve cam tavandan su alma, multimedya ekranının kapanıp açılmaması, geri görüş kamerası ve sensör arızaları, direksiyon kaplamasının soyulması ve tavan boyası dökülmesi; Crossland X için sağa çekme, sol arka stop lambasında sürekli buğulanma, boya matlaşması, rüzgâr sesi ve multimedya şikâyetleri tekil kayıtlar halinde anlatılıyor. DonanımHaber ve Ekşi Sözlük'te Grandland X için güneşlik / cam tavan sızıntısı çıkmadı; multimedya için görüşler karışık (ergonomi iyi, arayüz vasat, geri görüş kamerasının çözünürlüğü eleştiriliyor) ve sistematik bir arıza bildirilmiyor. Ekşi Sözlük'te bir yorumcu direksiyon kaplamasının soyulmasının Grandland X ve Insignia'da da birçok kullanıcıda görüldüğünü yazıyor; ikinci bağımsız site ve model yılı ayrıntısı yok. Eksantrik zinciri, yağ pompası ve AdBlue konuları motor kayıtlarının alanıdır. Faz 20: Grandland ayrı ✓ satırına alındı. Crossland X için Şikâyetvar'da siyah tavan boyası atması çok sayıda (2020-2022 modellerde) ama DonanımHaber / Ekşi Sözlük'te Crossland'a özgü başlık çıkmadı (sonuçlar Grandland X ve Mokka'ya ait); ikinci bağımsız site yok.",
       "sonuc": "yetersiz-kanit"
     },
     {
@@ -19918,6 +19917,66 @@
       },
       "not": "Faz 20: Şikâyetvar'da vitese takınca hareket etmeme, multimedya ekranı, airbag lambası, su alma ve garanti sonrası yüksek onarım ücreti şikâyetleri var; DonanımHaber sonuçları eski kuşak Caddy'lerle ilgili. VAG yazılım ve işçilik sorunları 19. aşamada And Çetin yazısından (Caddy 5 motor kaydında) işlendi; modelden bağımsız ek bir sorun için ikinci bağımsız site bulunamadı.",
       "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Opel",
+      "model": "Corsa F",
+      "yillar": "2019-",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Corsa F (2019"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ],
+        "tarama": [
+          "Corsa F (FL",
+          "Crossland / Corsa F"
+        ]
+      },
+      "not": "Faz 20: siyah tavan boyası atması Şikâyetvar ve DonanımHaber'de bulundu (✓)."
+    },
+    {
+      "marka": "Opel",
+      "model": "Grandland X / Grandland",
+      "yillar": "2017-2024",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "Grandland X / Grandland (2017-2024)"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ],
+        "tarama": [
+          "Grandland X / Grandland (2017-)",
+          "Grandland (B"
+        ]
+      },
+      "not": "Faz 20: tavan boyası atması Şikâyetvar ve DonanımHaber'de bulundu (✓)."
+    },
+    {
+      "marka": "Citroen",
+      "model": "C3 Aircross",
+      "yillar": "2017-2024",
+      "motor": "Tüm motorlar (model geneli)",
+      "kademe": 2,
+      "eslesme": {
+        "model": [
+          "C3 Aircross (2017"
+        ],
+        "motor": [
+          "Tüm motorlar"
+        ],
+        "tarama": [
+          "C3 / C3 Aircross (2016-)",
+          "C3 Aircross (III"
+        ]
+      },
+      "not": "Faz 20: tavan boyası atması Şikâyetvar ve Ekşi Sözlük'te bulundu (✓)."
     }
   ]
 }

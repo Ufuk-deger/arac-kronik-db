@@ -8798,6 +8798,33 @@
     },
     {
       "marka": "Citroen",
+      "model": "C3 Aircross (2017-2024)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2024
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Çift renkli (siyah tavanlı) araçlarda tavan boyasının atması",
+          "etkilenen_parca": "Tavan boyası (siyah tavan) ve tavan bar uçları",
+          "belirtiler": "Sıfır araçta ilk yıkamada ya da ilk kırk günde tavan boyasının atması, tavan barının bitim yerlerinde boya kalkması; servisin kuş pisliği ya da tazyikli yıkama gerekçesiyle garantiyi reddetmesi",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da C3 Aircross sahipleri sıfır araçta ilk yıkamada tavanda boya atması ve araç kırk günlükken tavan barının bitim yerlerinde boya kalkması bildiriyor; servislerin kuş pisliği ya da tazyikli suyu gerekçe gösterdiği yazılıyor. Ekşi Sözlük'te bir kullanıcı 2021 üretimi C3'lerde tavan boyasının sorunlu olduğunu ve şirket kiralamalarındaki C3 Aircross'ların neredeyse hepsinde boyanın kazındığını yazıyor (tek anlatım); çift renk tavanlarda ikinci kat boyanın zamanla atabildiği öne sürülüyor. Aynı sorun C5 Aircross'ta ayrı bir kayıtla yer alıyor. Hangi başlıkta hangi anlatımın geçtiği ayrıştırılamadı.",
+            "onlem": "İkinci elde çift renkli (siyah tavanlı) aracın tavanını ve tavan çıtası çevresini ışıkta inceleyin; boya kalınlığı ölçtürün. Garantideki araçlarda sorun fark edilirse fotoğraflı ve tarihli yazılı başvuru yapın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/citroen/aircross-c3/c3-aircross-shine",
+            "https://www.sikayetvar.com/citroen/aracin-tavanindaki-boya-atmalarinin-tekrar-incelenmesi-talebi",
+            "https://eksisozluk.com/citroen-c3--287502?p=16",
+            "https://eksisozluk.com/citroen-c3--287502?p=13"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Citroen",
       "model": "C3 Aircross (III, 2024-)",
       "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
       "uretim_yillari": {
@@ -12074,6 +12101,21 @@
             "https://www.fordownersclub.com/forums/topic/70704-possible-mk3-boot-leak/page/9/",
             "https://www.carcomplaints.com/Ford/Focus/2012/body_paint/water_leaking_into_vehicle.shtml",
             "https://www.carcomplaints.com/Ford/Focus/2013/body_paint/water_leaks_into_interior.shtml"
+          ]
+        },
+        {
+          "sorun_adi": "Direksiyon kutusu arızası ve sesi",
+          "etkilenen_parca": "Direksiyon kutusu (elektrikli servo)",
+          "belirtiler": "Direksiyon çevrilirken ses ve sertlik, direksiyon kutusunun arızalanması; servislerin sesi kronik sorun olarak nitelendirmesi",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'de bir kullanıcı Focus 3'te çok sayıda direksiyon kutusu arızası şikâyeti olduğunu yazıyor; Ekşi Sözlük'te bir sahip servisin direksiyon kutusu sesi için 'kronik sorun' dediğini aktarıyor. Hangi başlıkta hangi anlatımın geçtiği ayrıştırılamadı; kaynaklar kullanıcı yorumu düzeyinde, kilometre ve maliyet verilmiyor.",
+            "onlem": "İkinci el Focus 3'te direksiyonu dururken ve düşük hızda tam kilitten kilide çevirerek ses ve tutukluk kontrolü yapın; servis kaydında direksiyon kutusu değişimi olup olmadığını sorun."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/kronik-ford-focus-arizasi--128934636",
+            "https://forum.donanimhaber.com/ford-focus-3-hakkinda-ne-dusunuyorsunuz--148977442",
+            "https://eksisozluk.com/ford-focus--94570?p=78"
           ]
         }
       ]
@@ -17882,6 +17924,22 @@
             "https://www.qashqaiforums.co.uk/viewtopic.php?t=11996",
             "https://www.qashqaiforums.co.uk/viewtopic.php?p=111242"
           ]
+        },
+        {
+          "sorun_adi": "Akü boşalması, start-stop kaynaklı akü zorlanması ve 'sistem hatası' / ESP uyarıları",
+          "etkilenen_parca": "Akü, start-stop sistemi ve elektrik / kontrol sistemi uyarıları",
+          "belirtiler": "Akünün kısa sürede bitmesi, akü ve ESP uyarıları, 'sistem hatası' mesajı ve ABS kontrol ünitesi arızası; forumda start-stop'un sürekli kapalı tutulmasının önerilmesi",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da Qashqai sahipleri akü, ESP ve 'sistem hatası' uyarılarını ve ABS beyni arızalarını sık bildiriyor; DonanımHaber ve Ekşi Sözlük'te bir kullanıcı 'bu kasada kronik akü sorunu var, start-stop'u sürekli kapalı tutun' diyor, bir diğeri start-stop'un aküyü yıprattığını yazıyor. Hangi başlıkta hangi anlatımın geçtiği ayrıştırılamadı; model yılı ve motor karışık, kaynaklar kullanıcı yorumu.",
+            "onlem": "Akü yaşını ve voltajını kontrol ettirin; ikinci elde akü değişim tarihini sorun, sürekli arıza uyarısı varsa bilgisayarla hata kodlarını okutun."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/nissan/qashqai/kronik?page=6",
+            "https://www.sikayetvar.com/nissan/qashqai/qashqai-sistem-hatasi",
+            "https://forum.donanimhaber.com/nissan-qashqai-kullanan-kullanmis-olanlar-gorus--138800896",
+            "https://eksisozluk.com/nissan-qashqai--830724?p=67"
+          ]
         }
       ]
     },
@@ -19016,6 +19074,32 @@
     },
     {
       "marka": "Opel",
+      "model": "Corsa F (2019-)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Çift renkli (siyah tavanlı) araçlarda tavan boyasının kabarması ve atması",
+          "etkilenen_parca": "Tavan boyası (siyah tavan)",
+          "belirtiler": "Siyah tavan boyasının kabarması, pullanması ve dökülmesi; servislerin sorunu çoğunlukla taş ya da kuş pisliği gibi dış etkene bağlayıp garantiyi reddetmesi",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da Corsa sahipleri (çoğunlukla 2020-2024 modeller) siyah tavan boyasının zamanla döküldüğünü ya da kalktığını yazıyor; servislerin taş izi gibi dış etkenleri gerekçe gösterdiği, bazı sahiplerin sorunu üretim kaynaklı sayıp Tüketici Hakem Heyeti'ne başvurduğu anlatılıyor. DonanımHaber'de 2023 model çift renkli Corsa için aynı sorun tartışılıyor. Kullanıcılar nedeni siyah rengin gövde rengi üzerine ikinci kat boyanmasına bağlıyor (görüş, doğrulanmış teknik bilgi değil).",
+            "cozum": "Bir DonanımHaber kullanıcısı Opel'in tavanın yeniden boyanması ve yaklaşık 70 bin TL değer kaybı önerdiğini yazıyor (tek anlatım); tam tavan boyamanın ikinci el satışta değer kaybı yaratacağı uyarısı da yapılıyor.",
+            "onlem": "İkinci elde çift renkli (siyah tavanlı) aracın tavanını ve tavan çıtası çevresini ışıkta inceleyin; boya kalınlığı ölçtürün. Garantideki araçlarda sorun fark edilirse fotoğraflı ve tarihli yazılı başvuru yapın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/corsa/boya",
+            "https://forum.donanimhaber.com/corsa-2023-siyah-tavan-boya-atmasi-kararsizligim--159784795"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Opel",
       "model": "Corsa F (FL, 2023-)",
       "motor": "1.2 PureTech Hybrid 136 (48V, zincirli, e-DCS6)",
       "uretim_yillari": {
@@ -19351,6 +19435,34 @@
       "aileler": [
         "psa-bluehdi-adblue",
         "psa-dv5-1-5-bluehdi"
+      ]
+    },
+    {
+      "marka": "Opel",
+      "model": "Grandland X / Grandland (2017-2024)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2017,
+        "bitis": 2024
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Tavan boyasının kabarması, çatlaması ve atması",
+          "etkilenen_parca": "Tavan boyası (siyah tavan) ve tavan çıtaları",
+          "belirtiler": "Tavanda boya kalkması ve çatlaması, 2020 model Enjoy'da tavan çıtalarında vernik atması; garantideki araçlarda bile servisin dış etken gerekçesi ve tekrarlanan fotoğraf talepleri",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2023 model Grandland sahipleri (biri 25.000 km'de) tavanda boya atması bildiriyor ve araç garantideyken çözüm alamadıklarını yazıyor; DonanımHaber'de 'Opel Grandland X tavan boyası atma sorunu' başlığı var. Bir şikâyette genel müdürlüğün kusuru kabul ettiği ama 110 bin TL ve tavan boyaması önerdiği anlatılıyor (tek anlatım). İkinci el alan sahipler Opel Türkiye'den destek alamadıklarını yazıyor.",
+            "cozum": "Garanti kapsamında tavanın yeniden boyanması ya da değer kaybı ödemesi bazı sahiplere sunulmuş; sonuç vakaya göre değişiyor.",
+            "onlem": "İkinci elde çift renkli (siyah tavanlı) aracın tavanını ve tavan çıtası çevresini ışıkta inceleyin; boya kalınlığı ölçtürün. Garantideki araçlarda sorun fark edilirse fotoğraflı ve tarihli yazılı başvuru yapın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/opel/opel-grandland-tavan-boya-sorunu-ikinci-el-aracta-deger-kaybi-telafisi-talebi",
+            "https://www.sikayetvar.com/opel/garanti-kapsamindaki-tavan-boyasi-sorunu-icin-tekrarlanan-fotograf-talepleri-ve-zaman-kaybi",
+            "https://forum.donanimhaber.com/opel-grandland-x-tavan-boyasi-atma-sorunu--151103371",
+            "https://forum.donanimhaber.com/opel-grandland-x-tavan-boyasi-atma-sorunu--151103371-4"
+          ]
+        }
       ]
     },
     {
@@ -19998,6 +20110,21 @@
           "kaynaklar": [
             "https://andcetin.com/tutulmayan-en-iyi-arabalar-5000001000000tl-72/"
           ]
+        },
+        {
+          "sorun_adi": "Tavan, kaput ve kapı içlerinde boya atması",
+          "etkilenen_parca": "Tavan, kaput ve kapı içi boyası",
+          "belirtiler": "Yeni araçta kaput ve tavanda boya astarı görünecek kadar kalkma, kapı içlerinde boya atması ve paslanma, teslimde boya çapağı; servisin sorunu kullanıcı hatasına ya da dış etkene bağlayıp garantiyi reddetmesi",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2008 sahipleri 2.400 km'de kaput ve tavanda boya astarının görünecek kadar kalktığını, bir ayda tavanda boya atması olduğunu ve 2023 model araçta kapı içlerinde paslanma ve boya atması olduğunu yazıyor; birkaçı sıfır araçta kaputun sökülüp takıldığı ve mikron farkı boya olduğunu ekspertizde gördüğünü bildiriyor. DonanımHaber'de 'Peugeot 2008 boya dökülmesi / atması sorunu' başlığı ve bayinin dış etken gerekçesiyle garantiyi reddettiği bir olay var. Bu sorun, aynı kayıttaki And Çetin kaynaklı mikron farkı boya sorunundan ayrı olarak bildirilen boya atmasıdır.",
+            "onlem": "İkinci elde çift renkli (siyah tavanlı) aracın tavanını ve tavan çıtası çevresini ışıkta inceleyin; boya kalınlığı ölçtürün. Garantideki araçlarda sorun fark edilirse fotoğraflı ve tarihli yazılı başvuru yapın. Sıfır teslimde boya kalınlığını ölçtürmek önerilir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-2008de-boya-capasi-kusuru-ve-yetkili-bayinin-cozum-saglamamasi",
+            "https://www.sikayetvar.com/peugeot/2008/kaput",
+            "https://forum.donanimhaber.com/peugeot-2008-boya-dokulmesi-atmasi-sorunu--158467087"
+          ]
         }
       ]
     },
@@ -20208,6 +20335,22 @@
             "https://www.sikayetvar.com/peugeot/3008/arac-multimedya-ekran",
             "https://forum.donanimhaber.com/peugeot-3008-allure-ekran-telematik-alici-sorunu--149755934",
             "https://eksisozluk.com/peugeot-3008--1272630?p=11"
+          ]
+        },
+        {
+          "sorun_adi": "Siyah tavan boyasının (GT / GT Line) soyulması",
+          "etkilenen_parca": "Tavan boyası (siyah tavan)",
+          "belirtiler": "Siyah tavan boyasının katman katman soyulması ve altındaki açık renk / bakır tonlu katın görünmesi; kuş pisliği temizliğinde bile boyanın inmesi; servisin dış etken gerekçesiyle garantiyi reddetmesi",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2023 model 3008 GT'de tavan boyasının parça parça soyulduğu (yetkili servisin üretici kaynaklı bulduğu ama değer kaybı teklifinin düşük kaldığı) ve 2018 GT Line'da siyah tavanın soyulup bakır tonlu katın göründüğü yazılıyor. Forum yorumlarında 2021 3008 GT'de tek temizlikte boyanın ana renge kadar indiği ve Peugeot'nun bunu dış etken sayıp reddettiği anlatılıyor; bir kullanıcı sorunun PSA grubundaki siyah tavanlı modellerde (3008, 5008, 2008, 208, Grandland X, Crossland, Corsa, C3) görüldüğünü yazıyor (doğrulanmamış). Hangi forum başlığında hangi anlatımın geçtiği ayrıştırılamadı.",
+            "cozum": "Garanti kapsamında tavan boyanması ve değer kaybı ödemesi bazı sahiplere sunulmuş; birçok başvuruda dış etken gerekçesiyle ret bildiriliyor.",
+            "onlem": "İkinci elde çift renkli (siyah tavanlı) aracın tavanını ve tavan çıtası çevresini ışıkta inceleyin; boya kalınlığı ölçtürün. Garantideki araçlarda sorun fark edilirse fotoğraflı ve tarihli yazılı başvuru yapın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/peugeot/peugeot-3008-gtde-garanti-kapsaminda-boya-sorunu-ve-deger-kaybi",
+            "https://forum.donanimhaber.com/peugeot-3008-uretim-kalitesi--150110391",
+            "https://eksisozluk.com/6-eylul-2022-peugeot-tavan-boyasi-rezaleti--7399814"
           ]
         }
       ]
@@ -21310,6 +21453,23 @@
             "https://www.sikayetvar.com/renault/captur/kronik",
             "https://forum.donanimhaber.com/2020-model-captur-2-ve-basima-gelenler--150666002"
           ]
+        },
+        {
+          "sorun_adi": "Yüksek rakımda ilk çalıştırmada devir kaybı, stop etme ve marş almama",
+          "etkilenen_parca": "Motor kontrol yazılımı (yüksek rakım)",
+          "belirtiler": "Van, Kars ve Nemrut gibi yüksek rakımlı yerlerde sabah ilk çalıştırmada devir kaybı, motorun kısa sürede stop etmesi ve arıza ışıkları; hibritte marş almama; yetkili servisin 'rakım yüksek, yazılım bekliyoruz' demesi",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Ekşi Sözlük'te 'Renault Captur yüksek rakımda çalışmama rezaleti' başlığı çok sayfalı; bir sahip Van'da aracın sabahları ilk çalıştırmada devir kaybedip durduğunu, bayinin yüksek rakımdan kaynaklanan benzer araçlar olduğunu ve yazılımsal bir sorun bulunduğunu söylediğini anlatıyor. Şikâyetvar'da 2022 hibrit bir Captur'un Van'da marş almadığı ve servis teknisyeninin 'rakım yüksek olduğu için bu problem var, yazılım bekliyoruz' dediği, 2021 model bir Captur'un Nemrut Dağı'nda (2150 m) çalıştırılınca iki saniyede stop edip arıza ışıklarını yaktığı yazılıyor. Kesin neden ve Renault'nun onayladığı bir çözüm kaynaklarda yok; sorunun hangi motor sürümlerini kapsadığı da belirsiz.",
+            "teshis": "Yetkili servise arıza kaydı açtırıp yüksek rakım şikâyetini yazılı belgelemek ve bekleyen yazılım güncellemesini sormak (kullanıcı anlatımlarına göre).",
+            "onlem": "Yüksek rakımlı bölgelerde (Doğu Anadolu) kullanılacak ya da oradan ikinci el alınacak Captur'da yazılım güncellemelerinin yapılıp yapılmadığını servis kaydından kontrol edin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/renault-captur-stop-etme-sorunu",
+            "https://www.sikayetvar.com/yasarlar-dim-pa/yasarlar-dim-pa-renault-captur-2022-hibrit-mars-almama-sorunu",
+            "https://eksisozluk.com/renault-captur-yuksek-rakimda-calismama-rezaleti--7857485",
+            "https://eksisozluk.com/renault-captur-yuksek-rakimda-calismama-rezaleti--7857485?p=20"
+          ]
         }
       ]
     },
@@ -21524,6 +21684,23 @@
             "https://www.sikayetvar.com/renault/renault-clio-4-kapi-sensor-sorunu",
             "https://forum.donanimhaber.com/renault-clio-4-bagaj-acik-uyarisi-veriyor-kapilar-kilitlenmiyor--155143617",
             "https://forum.donanimhaber.com/2014-clio-4-icon-aracimin-sag-arka-kapisi-acilmiyor--151610501"
+          ]
+        },
+        {
+          "sorun_adi": "Ön kelebek camdan yüksek hızda rüzgar sesi (ıslık)",
+          "etkilenen_parca": "Ön kelebek cam, cam fitilleri ve kapı çıtası",
+          "belirtiler": "80-90 km/s sonrasında ön camlar ve kelebek cam çevresinden rüzgar / ıslık sesi; sesin kapının camı tam kapalıyken ortaya çıkıp camı birkaç milimetre indirince kesilmesi",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "DonanımHaber'de Clio 4 sahipleri ön kelebek cam çevresinden gelen rüzgar sesini kronik olarak tanımlıyor; nedeni olarak camın tam kapanırken geriye kayıp kelebek fitilinde boşluk bırakması, kapı içindeki kaldıraç çubuğunun montaj kayması ve fitil üretim / montaj hatası öne sürülüyor (kullanıcı görüşleri). Şikâyetvar'da da Clio 4 için ayrı bir 'rüzgar sesi' şikâyet sayfası var; bazı kullanıcılar bunu tüm Clio 4'lerde fabrika kaynaklı sayıyor. Bir yorumda 2014 sonrası modellerde sesin azaldığı, başka bir yorumda faz 1 araçlarda daha belirgin olduğu yazılıyor.",
+            "cozum": "Forumlarda camı tam kapalıyken birkaç milimetre indirmek (geçici), kelebek camın dış kapağını silikonla sabitleyip kenarlarını kapatmak ve içindeki boşluğu pu mastik ya da süngerle doldurmak anlatılıyor; garanti sonrası servisin ücretsiz yapmadığı, bir servisin 'bu araçlarda normal' dediği yazılıyor.",
+            "onlem": "Satın almadan önce 90-110 km/s'de test sürüşü yapıp kapı camı ve kelebek cam çevresinden gelen sesi dinleyin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/clio/clio-4-ruzgar-sesi",
+            "https://forum.donanimhaber.com/clio-4-ruzgar-sesi-cozum--119661756",
+            "https://forum.donanimhaber.com/clio-ruzgar-sesi-problemi--149024174",
+            "https://forum.donanimhaber.com/clio-4-kullanan-var-mi-kronik-sorunlari--144475304"
           ]
         }
       ]

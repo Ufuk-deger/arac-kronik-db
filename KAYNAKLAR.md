@@ -42,18 +42,18 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 97 farklı site, 674 sorun için kullanıldı.
+Toplam 97 farklı site, 683 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
 | [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 494 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. Veritabanı sahibinin kararıyla (19. aşama) bu sitede yazılan sorunlar tek başına yeterli sayılır. |
-| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 388 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
-| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 358 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
+| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 395 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
+| [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 366 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
 | [Araclo](https://www.araclo.com/) | TR | düşük | 143 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
 | [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 139 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
-| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 111 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
+| [Ekşi Sözlük](https://eksisozluk.com/) | TR | düşük | 116 | Kısa kullanıcı girdileri. İpucu olarak kullanılır, tek başına kanıt sayılmaz. |
 | [Autopartia](https://autopartia.com/) | TR | düşük | 10 | Yedek parça satıcısı; motor bazlı blog ve 'uzman' sayfaları. Ticari site, belirli bir OEM parçayı sürekli öneriyor; tek başına yeterli sayılmaz. |
 | [Carsece](https://www.carsece.com/) | TR | düşük | 10 | Araç rehberi ve bakım blogu. Maliyet tahminlerinin kaynağını göstermiyor; tek başına yeterli sayılmaz. |
 | [Drivisual](https://www.drivisual.tv/) | TR | düşük | 8 | Motor bazlı satın alma ve kronik sorun rehberleri (Türkçe ve İngilizce). Tek bir blog; bağımsız kaynakla karşılaştırılmalı. |
