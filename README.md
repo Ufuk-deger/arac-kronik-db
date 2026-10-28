@@ -320,6 +320,27 @@ Arayüz testi (isteğe bağlı; Node.js ve Playwright gerekir): `node tests/tara
 filtreleri gerçek tarayıcıda sürer (arama, yıl, risk, marka ve model, kilometre, düzen, koyu tema);
 `tests/tarayici/fuzz_viewer.js` rastgele filtre kombinasyonlarını bağımsız hesaplanan beklentiyle satır satır karşılaştırır.
 
+## Web sitesi (statik)
+
+`scripts/site_uret.py` herkese açık web sitesini `site/` klasörüne üretir (klasör git'e eklenmez, her yayında yeniden üretilir):
+
+```bash
+python3 scripts/site_uret.py                       # site/ klasörünü üretir
+python3 -m http.server 8000 --directory site       # yerelde önizleme: http://localhost:8000
+```
+
+- **Sayfalar:** her model ve nesil için ayrı sayfa (`/renault/clio-4-2013-2019/`), marka sayfaları, markalar dizini, model aramalı
+  ana sayfa, hakkında / yöntem, gizlilik, `sitemap.xml`, `robots.txt` ve `404.html`. Model sayfalarındaki gruplama görüntüleyicideki
+  model kartlarıyla aynıdır (önce genel sorunlar, sonra motora özgü bölümler).
+- **Yayınlanan alanlar:** marka, model, üretim yılları, motor, sorun adı, belirtiler, risk ve tahmini kilometre; motor / şanzıman ailesinin adı.
+  **Yayınlanmayanlar:** kaynak bağlantıları, kaynak site adları ve uzun açıklamalar (`detay`); bunlar veritabanında dayanak olarak kalır.
+  `tests/test_site.py` üretilen sayfalarda hiçbir kaynak alan adının ya da site adının geçmediğini, dış bağlantı olmadığını ve
+  ayrıntı metinlerinin siteye girmediğini denetler.
+- **Ayarlar:** site adı, adresi (canonical, site haritası), slogan ve iletişim e-postası `data/site.json` içindedir; isim ve alan adı
+  kesinleşince yalnızca bu dosya değişir.
+- **Yayın:** çıktı tamamen statik HTML ve CSS olduğu için Cloudflare Pages, Netlify ya da GitHub Pages ile ücretsiz barındırılabilir.
+  Derleme komutu `python3 scripts/site_uret.py`, yayın klasörü `site`. Çerez ve ziyaretçi takibi yoktur.
+
 ## Doğrulama
 
 ```sh
