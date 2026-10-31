@@ -348,7 +348,7 @@ def uret(hedef=VARSAYILAN_HEDEF):
     yaz("hakkinda", sayfa(ayar, 1, f"Hakkında ve yöntem | {ayar['ad']}", "Sorunların nasıl derlendiği ve nasıl okunacağı.", f"""
 <h1>Hakkında ve yöntem</h1>
 <div class="metin">
-<p>{e(ayar['ad'])}, ikinci el ya da sıfır araç bakan biri için Türkiye'de yaygın araçların bilinen kronik sorunlarını tek yerde toplar.</p>
+<p>{e(ayar.get('tanitim') or ayar['ad'] + ", ikinci el ya da sıfır araç bakan biri için Türkiye'de yaygın araçların bilinen kronik sorunlarını tek yerde toplar.")}</p>
 <h2>Sorunlar nasıl belirlendi?</h2>
 <p>Kullanıcı şikâyetleri, sürücü forumları, servis duyuruları ve uzman yazıları tarandı. Çoğu sorun en az iki farklı kaynakta tekrar eden bildirimlere dayanır. Her sorun kendi ifademizle yazıldı; kilometre bilgisi kaynaklarda yoksa uydurulmadı.</p>
 <h2>Nasıl okunur?</h2>
