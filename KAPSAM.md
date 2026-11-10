@@ -34,7 +34,7 @@ Model ve motor seçimi 2025 satış sıralaması ve ikinci el pazarındaki yayg�
 - Araştırılıp eklenmeyen (–): **243**
 - Sırada (○): **2**
 - Kademe 1: **144/146** işlendi (✓, ◐ ya da –)
-- Model geneli taraması: **352** model nesli arandı (sorun bulunan ✓ **162**, kanıt yetersiz – **190**); 643 motor kaydından **570**'i taranmış bir modele ait, **73**'i henüz taranmadı
+- Model geneli taraması: **352** model nesli arandı (sorun bulunan ✓ **162**, kanıt yetersiz – **190**); 643 motor kaydından **571**'i taranmış bir modele ait, **72**'i henüz taranmadı
 - Veritabanı: **807** kayıt (**643** motor, **164** model geneli), **701** kayda özgü kronik sorun, **104** motor/şanzıman ailesi (**245** ortak sorun)
 
 | Marka | Plan | ✓ | ◐ | – | ○ | Kademe 1 işlenen | Model geneli (✓ / –) |
@@ -1322,7 +1322,7 @@ Durum: **✓** veritabanında kayıtlı ve modele özgü kaynaklı sorunu var, *
 | 2 | XC90 (II, 2015-2024) | 2015-2024 | D5 / B5 2.0 dizel (D5 225-235 PS; B5 hafif hibrit-dizel 235 PS) | ◐ 3 ortak aile sorunu — Faz 19: And Çetin yazıları (tek başına yeterli kaynak): Volvo XC60 sorunları; Volvo XC90 kronik sorunları. |
 | 2 | XC90 / S90 / V90 (Sensus) | 2015- | Tüm motorlar (model geneli) | ✓ 8 sorun — Sensus ekranı donması / yeniden başlaması Şikâyetvar, Swedespeed ve Volvo Forums UK'te doğrulandı (yabancı başlıklar modelleri tam ayırmıyor; XC90 MY18 başlığı var). Şikâyetvar'da sol arka kapı camının açılmaması ve kapının zaman zaman kilitlenmemesi (S90), iki sıfır XC90'da ön tamponların 3 gün arayla düşmesi, yan basamak tıkırtısı ve V90 Cross Country'de titreme / zıplama tekil; XC40 Recharge (P6) sahibi ekranın her gün kapandığını yazıyor (elektrikli, ayrı satır). Cam tavan ve su alma için sonuç çıkmadı. |
 | 3 | S40 / V50 | 2004-2012 | 1.6D 109 (DV6) | ◐ 3 ortak aile sorunu — Faz 18: kayda özgü sorun yok; DV6 enjektör, turbo ve DPF sorunları ortak aile kaynaklarıyla kayıtlıdır (◐). DonanımHaber'de S40 / V50 1.6D sahipleri turboyu (bir 2008 S40'ta 55.000 km), turbo hortumunu ve DPF tıkanmasını; Volvo Owners Club Forum ve PistonHeads'te V50 1.6D için DPF basınç sensörü / hortumları, yanmış enjektör uçları ve DPF rejenerasyonu kaynaklı yağ seviyesi yükselmesi anlatılıyor (İngiltere). |
-| 3 | S60 / V40 | 2011-2018 | 1.6 D DRIVe (Powershift) | ✓ 1 sorun (+7 ortak aile) |
+| 3 | S60 / V40 | 2011-2018 | 1.6 D DRIVe (Powershift) | ✓ 1 sorun (+13 ortak aile), 1 yıl kırılımı |
 | 3 | S80 / V70 / XC70 | 2007-2016 | D5 2.4 (D5244T) | ✓ 1 sorun — Faz 15 (parti 1): kayıt açıldı (enjektör arızası). Volvo Owners Club, Honest John, SwedeSpeed ve DonanımHaber enjektör sorunlarını anlatıyor; kilometre aralığı geniş ve kaba tahmindir, bazı kaynaklar 2007 öncesi D5'e aittir (aynı D5244T motoru). D4 (Drive-E) ayrı satırda. Faz 15 (parti 2): enjektör sorunu Volvo D5244T ailesine bağlandı; XC60, XC90 ve S60 II / V60 aynı aileyle eklendi. |
 | 3 | S80 / V70 / XC70 | 2012-2016 | D4 2.0 (Drive-E, D4204T) | – eklenmedi: D4 (Drive-E) için kaynak çıkmadı. D5 2.4 Faz 15'te ayrı satırda kayıtlandı. |
 | 3 | S80 / V70 / XC70 | 2007-2016 | Tüm motorlar (model geneli) | – eklenmedi: Faz 16: Forum ve şikâyet sitelerinde XC70 2.5T yağ tüketimi (PCV tıkanması ve turbo hortumundan yağ terlemesi önerilmiş), otomatik şanzıman (Geartronic) kronik sorunu iddiası (makyajlı modellerde iyileştirildiği yazılmış), 2005 S80'de 'Şanzıman Acil Servis' uyarısı ve 2009 S80 D5'te sabah çalıştırma zorluğu tek tek geçiyor; bunlar motor / şanzıman katmanı ya da 2007 öncesi araçlar. Model geneli bir sorun için ikinci bağımsız site çıkmadı. |

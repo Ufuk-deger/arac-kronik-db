@@ -1487,8 +1487,9 @@
       gruplar.push(...capalar);
     }
     for (const g of gruplar) {
-      g.yb = Math.min(...g.kayitlar.map((k) => k.yb));
-      g.ye = g.kayitlar.some((k) => k.ye == null) ? null : Math.max(...g.kayitlar.map((k) => k.ye));
+      // Çapalı grupta nesil yılları model geneli kayıttan gelir; çapasızda kayıtların birleşimidir.
+      g.yb = g.capa ? g.capa.yb : Math.min(...g.kayitlar.map((k) => k.yb));
+      g.ye = g.capa ? g.capa.ye : (g.kayitlar.some((k) => k.ye == null) ? null : Math.max(...g.kayitlar.map((k) => k.ye)));
       // Başlıkta kasa kodu gösterilmez: "Octavia A7" gibi kodlu adlar kök ada ("Octavia") indirilir.
       if (g.capa) g.taban = kokAd(g.capa) !== ilkParca(g.capa.taban) ? kokAd(g.capa) : g.capa.taban;
       else {

@@ -123,8 +123,12 @@ def grupla(kayitlar):
     for g in gruplar:
         ks = g["kayitlar"]
         g["marka"] = ks[0]["marka"]
-        g["yb"] = min(k["yb"] for k in ks)
-        g["ye"] = None if any(k["ye"] is None for k in ks) else max(k["ye"] for k in ks)
+        # çapalı grupta nesil yılları model geneli kayıttan gelir; çapasızda kayıtların birleşimidir
+        if g["capa"]:
+            g["yb"], g["ye"] = g["capa"]["yb"], g["capa"]["ye"]
+        else:
+            g["yb"] = min(k["yb"] for k in ks)
+            g["ye"] = None if any(k["ye"] is None for k in ks) else max(k["ye"] for k in ks)
         if g["capa"]:
             c = g["capa"]
             g["taban"] = kok(c) if kok(c) != ilk_parca(c["taban"]) else c["taban"]
@@ -152,6 +156,7 @@ LOGOLAR = json.loads((KOK / "data" / "logolar" / "logolar.json").read_text(encod
 GORSELLER = json.loads((KOK / "data" / "gorseller" / "gorseller.json").read_text(encoding="utf-8"))
 GORSEL_KLASORU = KOK / "data" / "gorseller"
 LOGO_KLASORU = KOK / "data" / "logo"
+FONT_KLASORU = KOK / "data" / "fontlar"
 
 
 def adres_ek(yol):
@@ -271,9 +276,7 @@ def sayfa(ayar, derinlik, baslik, aciklama, govde, kanonik, ekbas="", sinif="", 
 <meta property="og:description" content="{e(aciklama)}">
 <meta property="og:url" content="{e(kanonik)}">
 <meta property="og:locale" content="tr_TR">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
+<link rel="preload" href="{kok}fontlar/inter-latin.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="{kok}stil.css">
 {ekbas}</head>
 <body class="{sinif}" data-kok="{kok}" data-onizleme="{'1' if ONIZLEME else ''}">
@@ -287,7 +290,7 @@ def sayfa(ayar, derinlik, baslik, aciklama, govde, kanonik, ekbas="", sinif="", 
 </main>
 <footer class="alt"><div class="kap alt-ic">
   <div><p class="alt-ad">{e(ayar['ad'])}</p>
-  <p>Bilgiler kullanıcı bildirimleri ve uzman anlatımları taranarak derlendi ve kendi ifademizle özetlendi; servis görüşü değildir.</p></div>
+  <p>Bilgiler sürücü deneyimleri ve usta yazılarından derlenip kendi sözlerimizle özetlendi. Servis görüşü değildir.</p></div>
   <p class="alt-baglanti"><a href="{adres_ek(kok + 'markalar/')}">Markalar</a><a href="{adres_ek(kok + 'hakkinda/')}">Hakkında ve yöntem</a><a href="{adres_ek(kok + 'gizlilik/')}">Gizlilik</a></p>
   <p class="alt-iletisim">{iletisim_html(ayar)}</p>
   <p class="alt-not">Marka adları ve logoları sahiplerinin tescilli markalarıdır; yalnızca aracı tanıtmak için kullanılır.</p>
@@ -326,9 +329,9 @@ def dizinlenir(g):
 def ince_notu(g):
     if g["ozgu_say"] == 0:
         metin = ("Bu model henüz derinlemesine taranmadı. Aşağıdaki sorunlar aynı motoru ya da şanzımanı kullanan "
-                 "başka modellerde de görülen ortak sorunlardır; modele özgü sorunlar eklendikçe liste genişleyecek.")
+                 "başka modellerde de görülen ortak sorunlardır. Modele özgü sorunlar eklendikçe liste genişleyecek.")
     elif g["ozgu_say"] == 1:
-        metin = "Bu model için tarama sürüyor; liste eksik olabilir."
+        metin = "Bu model için tarama sürüyor, liste eksik olabilir."
     else:
         return ""
     return f'<p class="ince">{e(metin)}</p>'
@@ -420,8 +423,8 @@ def suzgec_html(motorlar, grup_taban):
 </form>"""
 
 
-UYARI = ("Bu sayfadaki bilgiler internetteki kullanıcı bildirimleri, forumlar ve uzman yazıları taranarak derlendi ve "
-         "kendi ifademizle özetlendi; servis görüşü değildir. Sorunlar her araçta görülmez, kilometre aralıkları tahminidir. "
+UYARI = ("Bu sayfadaki bilgiler sürücü deneyimleri, araç forumları ve usta yazılarından derlenip kendi sözlerimizle "
+         "özetlendi. Servis görüşü değildir. Sorunlar her araçta görülmez, kilometre aralıkları yaklaşıktır. "
          "Satın almadan önce ekspertiz ve yetkili servis kontrolü yaptırın.")
 
 NESIL_EKI = re.compile(r"^(\d+(\.\d+)?|[IVX]+|[A-Z]|[A-Z]?\d+[A-Z]?|Mk\d+)$")
@@ -480,7 +483,8 @@ def uret(hedef=VARSAYILAN_HEDEF):
     if hedef.exists():
         shutil.rmtree(hedef)
     hedef.mkdir(parents=True)
-    (hedef / "stil.css").write_text(STIL, encoding="utf-8")
+    (hedef / "stil.css").write_text((FONT_KLASORU / "fontlar.css").read_text(encoding="utf-8") + STIL, encoding="utf-8")
+    shutil.copytree(FONT_KLASORU, hedef / "fontlar", ignore=shutil.ignore_patterns("*.css"))
     (hedef / "site.js").write_text(SITE_JS, encoding="utf-8")
     for ad in ("favicon.svg", "favicon-32.png", "apple-touch-icon.png", "icon-192.png", "icon-512.png", "og.png"):
         if (LOGO_KLASORU / ad).exists():
@@ -591,7 +595,7 @@ def uret(hedef=VARSAYILAN_HEDEF):
                     f'<div class="mkartlar">{"".join(model_karti(g, "") for g in pop)}</div></section>')
     govde = f"""<section class="kahraman">
   <h1>Aracın kronik sorunlarını almadan önce öğren</h1>
-  <p class="giris">Model, yıl ve motoruna göre bilinen arızalar; ne kadar ciddi olduğu ve hangi kilometrede çıktığıyla.</p>
+  <p class="giris">Model, yıl ve motora göre bilinen arızalar. Hangisi ciddi, hangi kilometrede çıkıyor, burada gör.</p>
   <div class="ana-ara" role="search">
     <label for="ana-ara-kutu" class="gizli">Marka ve model ara</label>
     <svg class="ara-ikon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
@@ -620,18 +624,18 @@ def uret(hedef=VARSAYILAN_HEDEF):
 <div class="metin">
 <p>{e(ayar.get('tanitim') or ayar['ad'] + ", ikinci el ya da sıfır araç bakan biri için Türkiye'de yaygın araçların bilinen kronik sorunlarını tek yerde toplar.")}</p>
 <h2>Sorunlar nasıl belirlendi?</h2>
-<p>Kullanıcı şikâyetleri, sürücü forumları, servis duyuruları ve uzman yazıları tarandı. Çoğu sorun en az iki farklı kaynakta tekrar eden bildirimlere dayanır. Her sorun kendi ifademizle yazıldı; kilometre bilgisi kaynaklarda yoksa uydurulmadı.</p>
+<p>Sürücü deneyimleri, araç forumları, servis duyuruları, geri çağırma kayıtları ve usta yazıları tarandı. Bir sorun buraya çoğunlukla en az iki farklı yerde tekrar ettiği için girdi. Her sorun kendi sözlerimizle yazıldı. Kilometre bilgisi bulunamadıysa tahmin yazılmadı.</p>
 <h2>Nasıl okunur?</h2>
 <ul>
 <li><b>Tüm motorlar</b> etiketi: kasa, sızdırmazlık, iç mekân, elektronik ve süspansiyon gibi motordan bağımsız sorunlar.</li>
-<li><b>Motor etiketi</b>: belirli bir motor ya da şanzıman sürümüne ait sorunlar. "Ortak sorun" notu, aynı motoru ya da şanzımanı kullanan başka modellerde de görüldüğünü belirtir; aracınızın motor kodunu ruhsattan kontrol edin.</li>
+<li><b>Motor etiketi</b>: belirli bir motor ya da şanzıman sürümüne ait sorunlar. "Ortak sorun" notu, aynı motoru ya da şanzımanı kullanan başka modellerde de görüldüğünü gösterir. Aracınızın motor kodunu ruhsattan kontrol edin.</li>
 <li><b>Risk</b>: yüksek (güvenlik, motor ya da kontrol ünitesi hasarı), orta (onarım gerektiren arıza), düşük (konfor ve kozmetik). Bu bizim değerlendirmemizdir, istatistik değildir.</li>
-<li><b>Kilometre</b>: sorunun bildirildiği yaklaşık aralık; kullanım ve bakıma göre değişir.</li>
+<li><b>Kilometre</b>: sorunun genelde görüldüğü yaklaşık aralık. Kullanıma ve bakıma göre değişir.</li>
 </ul>
 <h2>Sınırlar</h2>
-<p>Burada yazan sorunların aracınızda olacağı anlamına gelmez; listede olmayan bir sorunun görülmeyeceği anlamına da gelmez. Karar vermeden önce ekspertiz ve yetkili servis kontrolü yaptırın.</p>
+<p>Burada yazan bir sorun aracınızda mutlaka çıkacak demek değildir. Listede olmayan bir sorun da görülebilir. Karar vermeden önce ekspertiz ve yetkili servis kontrolü yaptırın.</p>
 <h2>Görseller</h2>
-<p>Marka logoları Simple Icons koleksiyonundan alınmıştır ve markaların tescilli ticari markalarıdır; yalnızca markayı tanıtmak için kullanılır. Fotoğrafı olmayan modellerde kasa tipini gösteren bir çizim kullanılır.</p>
+<p>Marka logoları Simple Icons koleksiyonundan alındı. Logolar markaların tescilli ticari markalarıdır ve yalnızca markayı tanıtmak için kullanılır. Fotoğrafı olmayan modellerde kasa tipini gösteren bir çizim kullanılır.</p>
 <h2>Hata bildirimi</h2>
 <p>{iletisim_html(ayar)}.</p>
 </div>""", adres + "hakkinda/"))
@@ -648,8 +652,29 @@ def uret(hedef=VARSAYILAN_HEDEF):
     (hedef / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                        + "".join(f"<url><loc>{e(u)}</loc><lastmod>{bugun}</lastmod></url>\n" for u in sayfalar)
                                        + "</urlset>\n", encoding="utf-8")
+    # Cloudflare Pages ve Netlify aynı biçimi okur: güvenlik başlıkları ve önbellek süreleri.
+    (hedef / "_headers").write_text(BASLIKLAR, encoding="utf-8")
     (hedef / "robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {adres}sitemap.xml\n", encoding="utf-8")
     return {"model": len(gruplar), "marka": len(markalar), "sayfa": len(sayfalar)}
+
+
+BASLIKLAR = """/*
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
+  X-Frame-Options: DENY
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), interest-cohort=()
+  Content-Security-Policy: default-src 'self'; img-src 'self' data:; style-src 'self'; script-src 'self'; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self'
+  Cache-Control: public, max-age=600
+
+/fontlar/*
+  Cache-Control: public, max-age=31536000, immutable
+
+/*.png
+  Cache-Control: public, max-age=86400
+
+/*.svg
+  Cache-Control: public, max-age=86400
+"""
 
 
 SITE_JS = r"""

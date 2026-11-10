@@ -124,7 +124,7 @@ def paylasim_metni(g, kart, ayar):
     return (f'{g["marka"]} {g["taban"]} ({g["yil"]}) bakıyorsan bunu bil: {s["sorun_adi"]}.\n\n'
             f'{s["belirtiler"]}\n\n'
             f'Modelin bilinen tüm kronik sorunları {ayar["adres"].replace("https://", "")} adresinde. '
-            f'Bilgiler kullanıcı bildirimleri ve uzman anlatımlarından derlendi; ekspertiz yerine geçmez.\n\n{etiketler}\n')
+            f'Bilgiler sürücü deneyimleri ve usta yazılarından derlendi. Ekspertiz yerine geçmez.\n\n{etiketler}\n')
 
 
 def main():

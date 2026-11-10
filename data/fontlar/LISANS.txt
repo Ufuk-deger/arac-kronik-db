@@ -1,0 +1,8 @@
+Bu klasördeki yazı tipleri SIL Open Font License 1.1 ile dağıtılır:
+https://openfontlicense.org/open-font-license-official-text/
+
+Inter — Copyright 2016 The Inter Project Authors (https://github.com/rsms/inter)
+Manrope — Copyright 2018 The Manrope Project Authors (https://github.com/sharanda/manrope)
+
+Dosyalar Google Fonts'tan latin ve latin-ext alt kümeleri olarak alındı ve değiştirilmedi.
+Sitede ziyaretçinin tarayıcısı üçüncü taraf bir yazı tipi sunucusuna bağlanmasın diye kendi sunucumuzdan verilir.

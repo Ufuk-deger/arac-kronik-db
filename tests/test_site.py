@@ -105,3 +105,54 @@ class SiteTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class BaglantiTest(unittest.TestCase):
+    """Yayına hazır sitenin iç bağlantıları ve dağıtım dosyaları."""
+
+    @classmethod
+    def setUpClass(cls):
+        cls.gecici = tempfile.TemporaryDirectory()
+        cls.hedef = Path(cls.gecici.name) / "site"
+        site_uret.uret(cls.hedef)
+
+    @classmethod
+    def tearDownClass(cls):
+        cls.gecici.cleanup()
+
+    def test_ic_baglantilar_kirik_degil(self):
+        kirik = []
+        for sayfa in self.hedef.rglob("*.html"):
+            html = sayfa.read_text(encoding="utf-8")
+            for adres in re.findall(r'(?:href|src)="([^"]+)"', html):
+                if re.match(r"^(https?:|mailto:|tel:|#|data:)", adres):
+                    continue
+                yol = adres.split("#")[0].split("?")[0]
+                hedef = (sayfa.parent / yol).resolve()
+                if hedef.is_dir():
+                    hedef = hedef / "index.html"
+                if not hedef.exists():
+                    kirik.append(f"{sayfa.relative_to(self.hedef)} -> {adres}")
+        self.assertEqual(kirik[:20], [])
+
+    def test_stil_dosyasindaki_fontlar_var(self):
+        css = (self.hedef / "stil.css").read_text(encoding="utf-8")
+        fontlar = re.findall(r"url\(([^)]+\.woff2)\)", css)
+        self.assertTrue(fontlar)
+        for f in fontlar:
+            self.assertTrue((self.hedef / f).exists(), f)
+
+    def test_ucuncu_taraf_istek_yok(self):
+        """Sayfalar başka bir sunucudan yazı tipi, betik ya da stil çekmez (gizlilik sayfasındaki söz)."""
+        for sayfa in self.hedef.rglob("*.html"):
+            html = sayfa.read_text(encoding="utf-8")
+            for etiket in re.findall(r"<(?:link|script|img)\b[^>]*>", html):
+                if 'rel="canonical"' in etiket or 'type="application/ld+json"' in etiket:
+                    continue
+                self.assertNotRegex(etiket, r'(?:href|src)="https?://', f"{sayfa}: {etiket}")
+
+    def test_dagitim_dosyalari(self):
+        for ad in ("_headers", "robots.txt", "sitemap.xml", "404.html", "site.webmanifest", "favicon.svg", "og.png"):
+            self.assertTrue((self.hedef / ad).exists(), ad)
+        basliklar = (self.hedef / "_headers").read_text(encoding="utf-8")
+        self.assertIn("Content-Security-Policy", basliklar)

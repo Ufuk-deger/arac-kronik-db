@@ -11991,7 +11991,7 @@
     },
     {
       "marka": "Ford",
-      "model": "Focus (2008-2018)",
+      "model": "Focus 3 / Focus 2 FL (2008-2018)",
       "motor": "1.6 TDCi (DV6)",
       "uretim_yillari": {
         "baslangic": 2008,
@@ -23324,7 +23324,7 @@
     },
     {
       "marka": "Seat",
-      "model": "Leon 5F (2013-2020)",
+      "model": "Leon (5F, 2013-2020)",
       "motor": "Tüm motorlar (model geneli)",
       "uretim_yillari": {
         "baslangic": 2013,
@@ -27671,7 +27671,7 @@
     },
     {
       "marka": "Volkswagen",
-      "model": "Polo (6C, 2014-2017)",
+      "model": "Polo 6R / 6C (2014-2017)",
       "motor": "1.4 TDI 75/90 (3 silindir; CUS)",
       "uretim_yillari": {
         "baslangic": 2014,
@@ -28629,7 +28629,7 @@
     },
     {
       "marka": "Volvo",
-      "model": "S60 II / V60 (2010-2015)",
+      "model": "S60 / V60 (2010-2015)",
       "motor": "D5 2.4 215 (D5244T10)",
       "uretim_yillari": {
         "baslangic": 2010,
@@ -28679,7 +28679,7 @@
     },
     {
       "marka": "Volvo",
-      "model": "V60 (2013-2018)",
+      "model": "S60 / V60 (2013-2018)",
       "motor": "D2 1.6 D DRIVe (Powershift DPS6)",
       "uretim_yillari": {
         "baslangic": 2013,
