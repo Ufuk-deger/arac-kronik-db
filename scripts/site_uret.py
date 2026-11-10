@@ -151,6 +151,7 @@ ONIZLEME = False            # True: bağlantılar klasör yerine açıkça index
 LOGOLAR = json.loads((KOK / "data" / "logolar" / "logolar.json").read_text(encoding="utf-8"))
 GORSELLER = json.loads((KOK / "data" / "gorseller" / "gorseller.json").read_text(encoding="utf-8"))
 GORSEL_KLASORU = KOK / "data" / "gorseller"
+LOGO_KLASORU = KOK / "data" / "logo"
 
 
 def adres_ek(yol):
@@ -256,6 +257,14 @@ def sayfa(ayar, derinlik, baslik, aciklama, govde, kanonik, ekbas="", sinif="", 
 <title>{e(baslik)}</title>
 <meta name="description" content="{e(aciklama)}">
 <link rel="canonical" href="{e(kanonik)}">
+<link rel="icon" href="{kok}favicon.svg" type="image/svg+xml">
+<link rel="icon" href="{kok}favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="{kok}apple-touch-icon.png">
+<link rel="manifest" href="{kok}site.webmanifest">
+<meta name="theme-color" content="#0f172a">
+<meta property="og:image" content="{e(ayar['adres'].rstrip('/'))}/og.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="{e(ayar['ad'])}">
 <meta property="og:title" content="{e(baslik)}">
@@ -269,7 +278,7 @@ def sayfa(ayar, derinlik, baslik, aciklama, govde, kanonik, ekbas="", sinif="", 
 {ekbas}</head>
 <body class="{sinif}" data-kok="{kok}" data-onizleme="{'1' if ONIZLEME else ''}">
 <header class="ust"><div class="kap ust-ic">
-  <a class="logo" href="{adres_ek(kok) or './'}"><span class="logo-isaret" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 13l2-5.5A2 2 0 0 1 8.9 6h6.2a2 2 0 0 1 1.9 1.5L19 13M4 13h16v4a1 1 0 0 1-1 1h-1.5a1 1 0 0 1-1-1v-1h-9v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/></svg></span>{e(ayar['ad'])}</a>
+  <a class="logo" href="{adres_ek(kok) or './'}"><span class="logo-isaret" aria-hidden="true"><svg viewBox="0 0 48 48" aria-hidden="true"><path d="M33.9 14.1A14 14 0 1 0 33.9 33.9" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round"/><path d="M24 24l7.5-6.5" stroke="#f59e0b" stroke-width="3" stroke-linecap="round"/><circle cx="24" cy="24" r="2.8" fill="#f59e0b"/><path d="M13 31.5l1.8-1M10.6 24h2M13 16.5l1.8 1M18.5 11.5l1 1.8" stroke="#94a3b8" stroke-width="1.6" stroke-linecap="round"/></svg></span>{e(ayar['ad'])}</a>
   {ara_html}
   <nav class="ust-nav" aria-label="Ana menü"><a href="{adres_ek(kok + 'markalar/')}">Markalar</a><a href="{adres_ek(kok + 'hakkinda/')}">Nasıl okunur</a></nav>
 </div></header>
@@ -473,6 +482,14 @@ def uret(hedef=VARSAYILAN_HEDEF):
     hedef.mkdir(parents=True)
     (hedef / "stil.css").write_text(STIL, encoding="utf-8")
     (hedef / "site.js").write_text(SITE_JS, encoding="utf-8")
+    for ad in ("favicon.svg", "favicon-32.png", "apple-touch-icon.png", "icon-192.png", "icon-512.png", "og.png"):
+        if (LOGO_KLASORU / ad).exists():
+            shutil.copy(LOGO_KLASORU / ad, hedef / ad)
+    (hedef / "site.webmanifest").write_text(json.dumps({
+        "name": ayar["ad"], "short_name": ayar["ad"], "start_url": "/", "display": "standalone", "background_color": "#f5f7fa",
+        "theme_color": "#0f172a", "lang": "tr", "icons": [{"src": "/icon-192.png", "sizes": "192x192", "type": "image/png"},
+                                                          {"src": "/icon-512.png", "sizes": "512x512", "type": "image/png"}]},
+        ensure_ascii=False, indent=1), encoding="utf-8")
     if any(GORSELLER.values()):
         (hedef / "img").mkdir()
         for f in GORSELLER.values():
@@ -731,7 +748,7 @@ SITE_JS = r"""
 })();
 """
 
-STIL = r"""/* Bilmiş Usta: modern uygulama görünümü. Beyaz üst şerit + arama, gri zemin, beyaz kartlar, tek mavi vurgu. */
+STIL = r"""/* Caronic: modern uygulama görünümü. Beyaz üst şerit + arama, gri zemin, beyaz kartlar, tek mavi vurgu. */
 :root {
   --zemin: #f5f7fa; --yuzey: #ffffff; --yuzey-2: #f2f4f7; --yazi: #101828; --soluk: #667085; --cizgi: #e4e7ec; --cizgi-koyu: #d0d5dd;
   --ana: #2563eb; --ana-koyu: #1d4ed8; --ana-acik: #eef4ff; --ana-yazi: #ffffff;
@@ -787,8 +804,8 @@ body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-a
 .ust-ic { display: flex; align-items: center; gap: 12px 24px; min-height: 64px; flex-wrap: wrap; padding-block: 8px; }
 .logo { display: inline-flex; align-items: center; gap: 10px; font-family: var(--f-baslik); font-weight: 800; font-size: 1.15rem; color: var(--yazi); white-space: nowrap; }
 .logo:hover { text-decoration: none; }
-.logo-isaret { width: 32px; height: 32px; border-radius: 9px; background: var(--ana); display: inline-grid; place-items: center; }
-.logo-isaret svg { width: 20px; height: 20px; fill: none; stroke: var(--ana-yazi); stroke-width: 1.8; stroke-linejoin: round; }
+.logo-isaret { width: 34px; height: 34px; border-radius: 9px; background: #0f172a; display: inline-grid; place-items: center; box-shadow: inset 0 0 0 1px rgba(255,255,255,.08); }
+.logo-isaret svg { width: 34px; height: 34px; }
 .ust-ara { position: relative; flex: 1 1 18rem; min-width: 0; max-width: 28rem; }
 .ust-nav { display: flex; gap: 22px; margin-left: auto; font-weight: 600; font-size: 0.93rem; }
 .ust-nav a { color: var(--soluk); }

@@ -83,7 +83,7 @@ def ozellik(g, kart, ayar):
     }
 
 
-def seslendir(g, kart, oz, klasor, ad):
+def seslendir(g, kart, oz, klasor, ad, ayar):
     """Cümle cümle seslendirir, görüntü zamanlarını sese göre yeniden kurar ve birleşik WAV yazar."""
     s = kart["s"]
     model = f'{g["marka"]} {su.ilk_parca(g["taban"])}'
@@ -96,7 +96,7 @@ def seslendir(g, kart, oz, klasor, ad):
     km_cumle = (f"Genelde {km[0]:,} – {km[1]:,} km arasında, {yer} görülüyor.".replace(",", ".") if km
                 else f"{yer[0].upper() + yer[1:]} görülüyor.")
     metinler = [f"{model} bakıyorsan şuna dikkat et.", s["sorun_adi"].rstrip(".") + "."] + oz["cumleler"] + [km_cumle,
-                f"{model} için bilinen tüm kronik sorunlar Bilmiş Usta'da."]
+                f"{model} için bilinen tüm kronik sorunlar {ayar.get('ad_bulunma', ayar['ad'])}."]
     wavlar = [ses.sentezle(ses.okunur(m)) for m in metinler]
     sureler = [ses.sure(w) for w in wavlar]
     bas, t0, ara = [], 0.5, 0.35
@@ -120,7 +120,7 @@ def paylasim_metni(g, kart, ayar):
     s = kart["s"]
     etiket = lambda x: "#" + re.sub(r"[^0-9a-zçğıöşü]", "", x.lower().replace("İ", "i"))
     etiketler = " ".join(dict.fromkeys([etiket(g["marka"]), etiket(g["marka"] + su.ilk_parca(g["taban"])), etiket(su.ilk_parca(g["taban"])),
-                                        "#kroniksorun", "#ikinciel", "#arabaalırken", "#bilmişusta"]))
+                                        "#kroniksorun", "#ikinciel", "#arabaalırken", "#" + ayar["ad"].lower()]))
     return (f'{g["marka"]} {g["taban"]} ({g["yil"]}) bakıyorsan bunu bil: {s["sorun_adi"]}.\n\n'
             f'{s["belirtiler"]}\n\n'
             f'Modelin bilinen tüm kronik sorunları {ayar["adres"].replace("https://", "")} adresinde. '
@@ -147,7 +147,7 @@ def main():
         kart = g["kartlar"][i - 1]
         ad = f"{i:02d}-{su.kisalt(kart['s']['sorun_adi'])[:60]}"
         oz = ozellik(g, kart, ayar)
-        wav = seslendir(g, kart, oz, klasor, ad) if a.ses else None
+        wav = seslendir(g, kart, oz, klasor, ad, ayar) if a.ses else None
         with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as f:
             json.dump(oz, f, ensure_ascii=False)
         sessiz = klasor / f"{ad}.sessiz.mp4" if wav else klasor / f"{ad}.mp4"

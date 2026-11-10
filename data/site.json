@@ -1,9 +1,9 @@
 {
-  "ad": "Bilmiş Usta",
-  "adres": "https://bilmisusta.com",
+  "ad": "Caronic",
+  "adres": "https://caronic.com",
   "eposta": "",
-  "slogan": "Almadan önce Bilmiş Usta'ya sor: araçların kronik sorunları",
-  "tanitim": "Bilmiş Usta, araç bakan herkesin yanında olmasını istediği o usta: hangi motorun hangi kilometrede ne çıkardığını, hangi modelin nereden su aldığını bilir, lafı dolandırmaz. Türkiye'de yaygın araçların bilinen kronik sorunlarını model, yıl ve motora göre tek yerde toplar.",
+  "slogan": "Almadan önce aracın kronik sorunlarını öğren",
+  "tanitim": "Caronic, Türkiye'de yaygın araçların bilinen kronik sorunlarını model, yıl ve motora göre bir arada gösterir. Amaç, araba bakan herkesin ekspertizde neye baktıracağını ve satıcıya ne soracağını önceden bilmesi.",
   "bildirim_formu": "",
   "populer": [
     "Fiat|Egea",
@@ -18,5 +18,6 @@
     "Dacia|Duster",
     "Peugeot|3008",
     "Opel|Astra K"
-  ]
+  ],
+  "ad_bulunma": "Caronic'te"
 }
