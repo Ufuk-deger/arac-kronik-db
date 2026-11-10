@@ -144,11 +144,13 @@ def dogal(metin):
 
 # ---------------------------------------------------------------- HTML parçaları
 #
-# Yerleşim: üstte her sayfada arama; ana sayfada arama + marka seçici + çok bakılanlar; model sayfasında özet çubuğu,
-# motor ve kilometre süzgeci ve risk sırasına dizilmiş tek sorun listesi (her kartta hangi motorda görüldüğü ve km sayacı).
+# Tasarım "modern uygulama": beyaz üst şerit + sabit arama, mavi vurgu, yumuşak kartlar. Ana sayfa: arama, çok bakılan modeller,
+# logolu marka ızgarası. Model sayfası: görsel + başlık + risk özeti, motor ve kilometre süzgeci, riske göre sıralı sorun kartları.
 
-KM_OLCEK = 250_000          # km sayacının sağ ucu
 ONIZLEME = False            # True: bağlantılar klasör yerine açıkça index.html'e gider (dosya olarak gezilebilen önizleme)
+LOGOLAR = json.loads((KOK / "data" / "logolar" / "logolar.json").read_text(encoding="utf-8"))
+GORSELLER = json.loads((KOK / "data" / "gorseller" / "gorseller.json").read_text(encoding="utf-8"))
+GORSEL_KLASORU = KOK / "data" / "gorseller"
 
 
 def adres_ek(yol):
@@ -160,12 +162,90 @@ def adres_ek(yol):
     return yol
 
 
+def logo_html(marka, sinif="logo-m"):
+    """Marka logosu (Simple Icons, CC0) ya da logosu olmayan markalarda baş harfler."""
+    l = LOGOLAR.get(marka)
+    if l:
+        return (f'<span class="{sinif}" role="img" aria-label="{e(marka)} logosu"><svg viewBox="0 0 24 24" aria-hidden="true">'
+                f'<path d="{l["yol"]}"/></svg></span>')
+    harf = "".join(p[0] for p in re.split(r"[\s-]+", marka) if p)[:2].upper()
+    return f'<span class="{sinif} harfli" role="img" aria-label="{e(marka)}">{e(harf)}</span>'
+
+
+# ---- kasa tipi çizimleri (fotoğrafı olmayan modeller için)
+KASA_ANAHTAR = [
+    ("pikap", r"hilux|amarok|ranger|navara|l200|fullback"),
+    ("ticari", r"transit(?! connect)|transporter|sprinter|vito|viano|v-class|master|trafic|boxer|ducato|jumper|crafter|proace(?! city)|expert|jumpy|vivaro|movano"),
+    ("hafif-ticari", r"doblo|fiorino|qubo|kangoo|berlingo|partner|rifter|combo|caddy|connect|courier|citan|proace city|nemo|bipper|dokker|lodgy"),
+    ("mpv", r"scenic|touran|zafira|meriva|c-max|s-max|galaxy|jogger|picasso|sportsvan|carens|ix20|altea|500l|b serisi|2 serisi active|freemont|note|verso|roomster"),
+    ("coupe", r"scirocco|beetle|\btt\b|rx-8|4 serisi|cls|coupe|cabrio|e serisi coupe|giulia|taycan|model 3"),
+    ("suv", r"duster|captur|kadjar|austral|arkana|koleos|tucson|sportage|qashqai|x-trail|juke|kuga|ecosport|puma|t-roc|t-cross|tiguan|touareg|taigo|tayron|karoq|kodiaq|kamiq|ateca|arona|formentor|tarraco|q2|q3|q5|q7|q8|q\d e-tron|\bx[1-7]\b|\bix\d?\b|3008|5008|2008|c3 aircross|c5 aircross|crossland|grandland|mokka|frontera|compass|renegade|avenger|cherokee|wrangler|c-hr|rav4|corolla cross|yaris cross|land cruiser|cr-v|hr-v|cx-\d|kona|bayon|santa fe|ix35|stonic|xceed|niro|ev\d|sorento|vitara|s-cross|sx4|forester|xv|hs\b|zs\b|tiggo|t10|evoque|velar|discovery|range rover|gla|glb|glc|glk|gle|ml\b|eqa|eqb|eqc|xc\d0|enyaq|elroq|id\.4|id\.5|tonale|junior|macan|lbx|atto|model y|tavascan|terios|countryman|ds 7|ds 3 crossback|n°8|c4 x|ë-c4|e-c4|tourneo|ioniq 5"),
+    ("sedan", r"egea(?! hb)|linea|symbol|taliant|logan|301|c-elysee|jetta|passat|octavia|superb|rapid|toledo|civic|elantra|accent|camry|optima|i40|insignia|mondeo|avensis|corolla|3 serisi|5 serisi|7 serisi|c serisi|e serisi|s serisi|a4|a5|a6|a8|cla|cruze|megane 4 / sedan|fluence|talisman|408|508|407|s40|s60|s80|s90|model s|eqe|eqs|i5|i7|arteon|albea|aveo|accord|cerato|giulietta"),
+]
+
+
+def kasa_tipi(g):
+    ad = katla_py(ilk_parca(g["taban"]))
+    if "hatchback" in ad:
+        return "hatchback"
+    for tip, desen in KASA_ANAHTAR:
+        if re.search(desen, ad):
+            return tip
+    return "hatchback"
+
+
+def katla_py(s):
+    return s.lower().replace("İ", "i").replace("ı", "i")
+
+
+KASA_SVG = {
+    # 160x64 kutuda yandan kasa çizgisi: gövde + camlar + iki teker
+    "hatchback": ("M14 47 C14 41 17 38 25 37 L44 34 C52 24 60 19 72 18 L118 18 C124 18 128 22 130 28 L134 36 C140 37 144 41 144 47 L144 50 L14 50 Z",
+                  "M50 34 C56 26 63 22 72 22 L92 22 L92 34 Z M96 22 L116 22 C120 22 123 25 125 30 L126 34 L96 34 Z", 38, 122, 9, 50),
+    "sedan": ("M6 47 C6 42 10 39 18 38 L42 36 C50 27 60 22 74 22 L100 22 C110 22 117 27 124 34 L148 36 C153 37 156 41 156 46 L156 50 L6 50 Z",
+              "M48 36 C55 29 63 26 74 26 L92 26 L92 36 Z M96 26 L100 26 C108 26 114 30 118 34 L118 36 L96 36 Z", 34, 128, 9, 50),
+    "suv": ("M12 44 L12 33 C12 29 15 27 21 26 L38 24 C44 15 50 10 62 10 L118 10 C126 10 131 14 134 22 L136 26 C144 27 148 30 148 35 L148 46 L12 46 Z",
+            "M44 24 C49 17 54 14 62 14 L90 14 L90 24 Z M94 14 L116 14 C123 14 127 18 129 24 L94 24 Z", 38, 122, 10.5, 48),
+    "mpv": ("M12 46 L12 36 C12 32 15 30 22 29 L34 27 C42 16 52 11 68 11 L124 11 C132 11 137 15 140 24 L144 30 C148 32 150 35 150 38 L150 50 L12 50 Z",
+            "M40 27 C47 18 55 15 68 15 L96 15 L96 27 Z M100 15 L122 15 C128 15 132 19 134 27 L100 27 Z", 38, 124, 9, 50),
+    "hafif-ticari": ("M10 46 L10 34 C10 30 13 28 20 27 L30 26 C36 16 44 10 56 10 L140 10 C146 10 150 14 150 20 L150 50 L10 50 Z",
+                     "M36 26 C41 18 47 14 56 14 L76 14 L76 26 Z", 36, 124, 9, 50),
+    "ticari": ("M8 46 L8 32 C8 28 11 26 18 25 L26 24 C32 12 38 6 50 6 L148 6 C152 6 154 9 154 13 L154 50 L8 50 Z",
+               "M32 24 C37 14 42 10 50 10 L66 10 L66 24 Z", 34, 128, 9, 50),
+    "pikap": ("M10 45 L10 35 C10 31 13 29 20 28 L36 26 C42 17 48 13 58 13 L88 13 C94 13 98 19 100 26 L100 29 L152 29 L152 47 L10 47 Z",
+              "M42 26 C47 19 52 17 58 17 L84 17 C88 17 92 21 94 26 Z", 38, 126, 10.5, 48),
+    "coupe": ("M10 47 C10 42 14 39 22 38 L50 36 C60 28 70 25 84 25 L100 25 C112 25 122 29 132 36 L146 38 C152 39 154 42 154 46 L154 50 L10 50 Z",
+              "M60 36 C66 31 74 29 84 29 L96 29 L96 36 Z M100 29 C108 29 116 31 124 36 L100 36 Z", 38, 128, 9, 50),
+}
+KASA_AD = {"hatchback": "hatchback", "sedan": "sedan", "suv": "SUV", "mpv": "MPV", "hafif-ticari": "hafif ticari", "ticari": "ticari",
+           "pikap": "pikap", "coupe": "coupe"}
+
+
+def kasa_svg(tip):
+    govde, cam, t1, t2, r, y = KASA_SVG[tip]
+    tek = "".join(f'<circle class="kasa-teker" cx="{x}" cy="{y}" r="{r}"/><circle class="kasa-jant" cx="{x}" cy="{y}" r="{r * 0.4:.1f}"/>' for x in (t1, t2))
+    return (f'<svg class="kasa" viewBox="0 0 160 64" aria-hidden="true"><path class="kasa-govde" d="{govde}"/>'
+            f'<path class="kasa-cam" d="{cam}"/>{tek}</svg>')
+
+
+def gorsel_html(g, kok, buyuk=False):
+    """Modelin fotoğrafı (data/gorseller) ya da kasa tipi çizimi; fotoğrafta lisans gereği yazar ve lisans yazılır."""
+    f = GORSELLER.get(g["yol"])
+    if f:
+        alt = f'{g["marka"]} {g["taban"]} ({g["yil"]})'
+        kredi = f'<figcaption class="kredi">Fotoğraf: {e(f["yazar"])}, {e(f["lisans"])}</figcaption>' if buyuk else ""
+        return (f'<figure class="gorsel foto"><img src="{kok}img/{e(f["dosya"])}" alt="{e(alt)}" loading="lazy" decoding="async">{kredi}</figure>')
+    tip = kasa_tipi(g)
+    return f'<figure class="gorsel cizim" data-kasa="{tip}">{kasa_svg(tip)}</figure>'
+
+
 def sayfa(ayar, derinlik, baslik, aciklama, govde, kanonik, ekbas="", sinif="", ust_ara=True):
     kok = "../" * derinlik
     ara_html = ""
     if ust_ara:
         ara_html = ('<div class="ust-ara" role="search"><label class="gizli" for="ust-ara-kutu">Araç ara</label>'
-                    '<input id="ust-ara-kutu" class="ara-girdi" type="search" placeholder="Araç ara: Clio 5, Egea 2018…" '
+                    '<svg class="ara-ikon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>'
+                    '<input id="ust-ara-kutu" class="ara-girdi" type="search" placeholder="Marka, model ya da motor ara" '
                     'autocomplete="off" enterkeyhint="search" data-ara>'
                     '<ul class="oneriler" data-oneriler hidden></ul></div>')
     return f"""<!doctype html>
@@ -184,12 +264,12 @@ def sayfa(ayar, derinlik, baslik, aciklama, govde, kanonik, ekbas="", sinif="", 
 <meta property="og:locale" content="tr_TR">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,500..900&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600&display=swap">
 <link rel="stylesheet" href="{kok}stil.css">
 {ekbas}</head>
 <body class="{sinif}" data-kok="{kok}" data-onizleme="{'1' if ONIZLEME else ''}">
 <header class="ust"><div class="kap ust-ic">
-  <a class="logo" href="{adres_ek(kok) or './'}"><span class="logo-lamba" aria-hidden="true"></span>{e(ayar['ad'])}</a>
+  <a class="logo" href="{adres_ek(kok) or './'}"><span class="logo-isaret" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M5 13l2-5.5A2 2 0 0 1 8.9 6h6.2a2 2 0 0 1 1.9 1.5L19 13M4 13h16v4a1 1 0 0 1-1 1h-1.5a1 1 0 0 1-1-1v-1h-9v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/></svg></span>{e(ayar['ad'])}</a>
   {ara_html}
   <nav class="ust-nav" aria-label="Ana menü"><a href="{adres_ek(kok + 'markalar/')}">Markalar</a><a href="{adres_ek(kok + 'hakkinda/')}">Nasıl okunur</a></nav>
 </div></header>
@@ -197,9 +277,11 @@ def sayfa(ayar, derinlik, baslik, aciklama, govde, kanonik, ekbas="", sinif="", 
 {govde}
 </main>
 <footer class="alt"><div class="kap alt-ic">
-  <p class="alt-ad">{e(ayar['ad'])}</p>
-  <p>Bilgiler kullanıcı bildirimleri ve uzman anlatımları taranarak derlendi ve kendi ifademizle özetlendi; servis görüşü değildir.</p>
-  <p><a href="{adres_ek(kok + 'hakkinda/')}">Hakkında ve yöntem</a> · <a href="{adres_ek(kok + 'gizlilik/')}">Gizlilik</a> · {iletisim_html(ayar)}</p>
+  <div><p class="alt-ad">{e(ayar['ad'])}</p>
+  <p>Bilgiler kullanıcı bildirimleri ve uzman anlatımları taranarak derlendi ve kendi ifademizle özetlendi; servis görüşü değildir.</p></div>
+  <p class="alt-baglanti"><a href="{adres_ek(kok + 'markalar/')}">Markalar</a><a href="{adres_ek(kok + 'hakkinda/')}">Hakkında ve yöntem</a><a href="{adres_ek(kok + 'gizlilik/')}">Gizlilik</a></p>
+  <p class="alt-iletisim">{iletisim_html(ayar)}</p>
+  <p class="alt-not">Marka adları ve logoları sahiplerinin tescilli markalarıdır; yalnızca aracı tanıtmak için kullanılır.</p>
 </div></footer>
 <script src="{kok}dizin.js"></script>
 <script src="{kok}site.js"></script>
@@ -247,22 +329,14 @@ def nokta_say(n):
     return f"{n:,}".replace(",", ".")
 
 
-def risk_rozeti(risk):
-    return f'<span class="risk" data-risk="{RISK_ANAHTAR[risk]}"><span class="lamba" aria-hidden="true"></span>{e(risk)} risk</span>'
-
-
-def km_sayaci(km):
-    """Kilometre sayacı: 0-250.000 km çizgisi üzerinde sorunun bildirildiği aralık."""
-    if not km:
-        return '<div class="km km-yok">Kilometre bilgisi yok</div>'
+def km_kisa(km):
     a, b = km
-    sol = min(a, KM_OLCEK) / KM_OLCEK * 100
-    gen = max(1.5, (min(b, KM_OLCEK) - min(a, KM_OLCEK)) / KM_OLCEK * 100)
-    tasma = ' <span class="km-tasma">(250.000 km üstüne uzanıyor)</span>' if b > KM_OLCEK else ""
-    return (f'<div class="km"><div class="km-yazi"><span class="km-sayi">{nokta_say(a)} – {nokta_say(b)}</span> km{tasma}</div>'
-            f'<div class="km-cizgi" aria-hidden="true"><span class="km-aralik" style="left:{sol:.1f}%;width:{gen:.1f}%"></span>'
-            f'<span class="km-isaret" hidden></span></div>'
-            f'<div class="km-olcek" aria-hidden="true"><span>0</span><span>50</span><span>100</span><span>150</span><span>200</span><span>250 bin</span></div></div>')
+    f = lambda n: f"{n // 1000}" if n % 1000 == 0 else f"{n / 1000:.1f}".replace(".", ",")
+    return f"{f(a)}–{f(b)} bin km"
+
+
+def risk_rozeti(risk):
+    return f'<span class="risk" data-risk="{RISK_ANAHTAR[risk]}">{e(risk)}</span>'
 
 
 def kart_listesi(g):
@@ -298,49 +372,41 @@ def kart_html(c, motorlar, grup_taban):
     s = c["s"]
     km = km_araligi(s.get("tahmini_km_araligi"))
     if "genel" in c["etiketler"]:
-        yer = '<span class="yer yer-genel">Tüm motorlar</span>'
+        yer = '<span class="etk">Tüm motorlar</span>'
     else:
-        yer = "".join(f'<span class="yer">{e(motor_adi(motorlar[int(t[1:])], grup_taban))}</span>' for t in c["etiketler"])
+        yer = "".join(f'<span class="etk etk-motor">{e(motor_adi(motorlar[int(t[1:])], grup_taban))}</span>' for t in c["etiketler"])
+    km_html = f'<span class="etk etk-km">{km_kisa(km)}</span>' if km else '<span class="etk etk-bos">Kilometre bilgisi yok</span>'
     ortak = ""
     if c["aile"] is not None:
-        ortak = (f'<p class="ortak-not"><span class="ortak-etiket">Ortak sorun</span> {e(c["aile"]["ad"])} kullanan '
-                 f'başka modellerde de görülür.</p>')
+        ortak = (f'<p class="ortak-not">Ortak sorun: {e(c["aile"]["ad"])} kullanan başka modellerde de görülür.</p>')
     veri = (f'data-risk="{RISK_ANAHTAR[s["risk_seviyesi"]]}" data-yer="{" ".join(c["etiketler"])}"'
             + (f' data-kma="{km[0]}" data-kmb="{km[1]}"' if km else ""))
     return f"""<li class="kart" {veri}>
-  <div class="kart-ust">{risk_rozeti(s['risk_seviyesi'])}<span class="km-uyar" hidden>Bu kilometrede</span></div>
-  <h3>{e(s['sorun_adi'])}</h3>
+  <div class="kart-bas"><h3>{e(s['sorun_adi'])}</h3>{risk_rozeti(s['risk_seviyesi'])}</div>
   <p class="belirti">{e(s['belirtiler'])}</p>
-  <div class="kart-alt"><div class="yerler">{yer}</div>{km_sayaci(km)}</div>
+  <div class="etiketler">{km_html}{yer}<span class="etk etk-uyar" hidden>Kilometrenize uyuyor</span></div>
   {ortak}
 </li>"""
 
 
-def risk_cubugu(kartlar):
+def risk_ozeti(kartlar):
     say = {r: sum(1 for c in kartlar if c["s"]["risk_seviyesi"] == r) for r in RISK_SIRA}
-    top = max(1, len(kartlar))
-    parcalar = "".join(f'<span class="rc-parca" data-risk="{RISK_ANAHTAR[r]}" style="flex-grow:{n}"></span>' for r, n in say.items() if n)
-    etiket = "".join(f'<li><span class="lamba" data-risk="{RISK_ANAHTAR[r]}" aria-hidden="true"></span><b>{n}</b> {r.lower()} risk</li>'
-                     for r, n in say.items())
-    return (f'<div class="risk-ozet"><div class="rc" role="img" aria-label="{len(kartlar)} sorun: '
-            f'{say["Yüksek"]} yüksek, {say["Orta"]} orta, {say["Düşük"]} düşük risk">{parcalar}</div>'
-            f'<ul class="rc-etiket">{etiket}</ul></div>') if top else ""
+    return ('<ul class="ozet" aria-label="Risk dağılımı">' + "".join(
+        f'<li data-risk="{RISK_ANAHTAR[r]}"><b>{n}</b><span>{r.lower()} risk</span></li>' for r, n in say.items()) + "</ul>")
 
 
 def suzgec_html(motorlar, grup_taban):
     motor_dugme = ""
     if len(motorlar) > 1:
-        dugmeler = '<button type="button" class="cip" data-motor="" aria-pressed="true">Tümü</button>' + "".join(
+        dugmeler = '<button type="button" class="cip" data-motor="" aria-pressed="true">Tüm motorlar</button>' + "".join(
             f'<button type="button" class="cip" data-motor="m{i}" aria-pressed="false">{e(motor_adi(k, grup_taban))}</button>'
             for i, k in enumerate(motorlar))
-        motor_dugme = (f'<fieldset class="suz-grup"><legend>Motorunuz</legend><div class="cipler">{dugmeler}</div>'
-                       f'<p class="suz-not">Motor kodu ruhsatta ve motor etiketinde yazar. Tüm motorlar için geçerli sorunlar her zaman gösterilir.</p></fieldset>')
+        motor_dugme = (f'<fieldset class="suz-grup"><legend>Motor</legend><div class="cipler">{dugmeler}</div></fieldset>')
     return f"""<form class="suzgec" data-suzgec hidden>
   {motor_dugme}
-  <fieldset class="suz-grup suz-km"><legend>Kilometreniz</legend>
-    <div class="km-girdi"><input id="km-kutu" type="text" inputmode="numeric" placeholder="ör. 120.000" autocomplete="off" aria-describedby="km-not"><span>km</span></div>
+  <fieldset class="suz-grup suz-km"><legend>Kilometre</legend>
+    <div class="km-girdi"><input id="km-kutu" type="text" inputmode="numeric" placeholder="ör. 120.000" autocomplete="off"><span>km</span></div>
     <label class="kutucuk"><input id="km-yalniz" type="checkbox"> Yalnızca bu kilometreye uyanlar</label>
-    <p class="suz-not" id="km-not">Girdiğiniz kilometrenin içine düştüğü sorunlar işaretlenir.</p>
   </fieldset>
 </form>"""
 
@@ -348,7 +414,6 @@ def suzgec_html(motorlar, grup_taban):
 UYARI = ("Bu sayfadaki bilgiler internetteki kullanıcı bildirimleri, forumlar ve uzman yazıları taranarak derlendi ve "
          "kendi ifademizle özetlendi; servis görüşü değildir. Sorunlar her araçta görülmez, kilometre aralıkları tahminidir. "
          "Satın almadan önce ekspertiz ve yetkili servis kontrolü yaptırın.")
-
 
 NESIL_EKI = re.compile(r"^(\d+(\.\d+)?|[IVX]+|[A-Z]|[A-Z]?\d+[A-Z]?|Mk\d+)$")
 
@@ -364,17 +429,19 @@ def aile_adi(taban):
 def populer_gruplar(ayar, gruplar):
     secim = []
     for ad in ayar.get("populer", []):
-        marka, taban = ad.split("|")
-        aday = [g for g in gruplar if g["marka"] == marka and (g["taban"] == taban or aile_adi(g["taban"]) == taban)]
+        marka, taban, *yil = ad.split("|")
+        aday = [g for g in gruplar if g["marka"] == marka and (g["taban"] == taban or ilk_parca(g["taban"]) == taban or aile_adi(g["taban"]) == taban)
+                and (not yil or g["yb"] == int(yil[0]))]
         if aday:
             secim.append(max(aday, key=lambda g: (g["ozgu_say"] > 0, g["sorun_say"], g["yb"])))
     return secim
 
 
-def model_karti(g, kok):
-    return (f'<a class="mkart" href="{adres_ek(kok + g["yol"] + "/")}"><span class="mkart-marka">{e(g["marka"])}</span>'
-            f'<span class="mkart-ad">{e(g["taban"])}</span><span class="mkart-yil">{e(g["yil"])}</span>'
-            f'<span class="mkart-say">{g["sorun_say"]} sorun</span></a>')
+def model_karti(g, kok, marka_goster=True):
+    marka = f'<span class="mkart-marka">{logo_html(g["marka"], "logo-k")}{e(g["marka"])}</span>' if marka_goster else ""
+    return (f'<a class="mkart" href="{adres_ek(kok + g["yol"] + "/")}">{gorsel_html(g, kok)}<span class="mkart-govde">{marka}'
+            f'<span class="mkart-ad">{e(g["taban"])}</span><span class="mkart-alt"><span>{e(g["yil"])}</span>'
+            f'<span>{g["sorun_say"]} sorun</span></span></span></a>')
 
 
 def uret(hedef=VARSAYILAN_HEDEF):
@@ -406,6 +473,10 @@ def uret(hedef=VARSAYILAN_HEDEF):
     hedef.mkdir(parents=True)
     (hedef / "stil.css").write_text(STIL, encoding="utf-8")
     (hedef / "site.js").write_text(SITE_JS, encoding="utf-8")
+    if any(GORSELLER.values()):
+        (hedef / "img").mkdir()
+        for f in GORSELLER.values():
+            shutil.copy(GORSEL_KLASORU / f["dosya"], hedef / "img" / f["dosya"])
     dizin = [{"a": f"{g['marka']} {g['taban']}", "b": g["marka"], "y": g["yil"], "yb": g["yb"], "ye": g["ye"] or 9999,
               "u": g["yol"] + "/", "s": g["sorun_say"],
               "m": " ".join(k["arac"]["motor"] for k in g["kayitlar"] if not k["genel"]) + " " + " ".join(k["arac"]["model"] for k in g["kayitlar"])}
@@ -430,26 +501,28 @@ def uret(hedef=VARSAYILAN_HEDEF):
         kardes = [x for x in markalar[g["marka"]]["gruplar"] if x is not g and aile_adi(x["taban"]) == aile_adi(g["taban"])]
         kardes_html = ""
         if kardes:
-            kardes_html = ('<section class="kardes"><h2>Diğer nesiller ve kardeş modeller</h2><div class="mkartlar">'
-                           + "".join(model_karti(x, "../../") for x in sorted(kardes, key=lambda x: -x["yb"])) + "</div></section>")
-        motor_say = len(motorlar)
-        meta = []
-        if motor_say:
-            meta.append(f"<span>{motor_say} motor seçeneği</span>")
+            kardes_html = ('<section class="blok"><h2>Diğer nesiller</h2><div class="mkartlar">'
+                           + "".join(model_karti(x, "../../", False) for x in sorted(kardes, key=lambda x: -x["yb"])) + "</div></section>")
+        meta = [f"<span>{e(g['yil'])}</span>"]
+        if motorlar:
+            meta.append(f"<span>{len(motorlar)} motor seçeneği</span>")
         meta.append(f"<span>{g['sorun_say']} kronik sorun</span>")
-        yol_izi = (f'<nav class="iz" aria-label="Konum"><a href="{adres_ek("../../")}">Ana sayfa</a><span aria-hidden="true">/</span>'
-                   f'<a href="{adres_ek("../")}">{e(g["marka"])}</a><span aria-hidden="true">/</span><span>{e(g["taban"])} {e(g["yil"])}</span></nav>')
+        yol_izi = (f'<nav class="iz" aria-label="Konum"><a href="{adres_ek("../../")}">Ana sayfa</a><span aria-hidden="true">›</span>'
+                   f'<a href="{adres_ek("../")}">{e(g["marka"])}</a><span aria-hidden="true">›</span><span>{e(g["taban"])}</span></nav>')
         liste = "\n".join(kart_html(c, motorlar, g["taban"]) for c in kartlar)
         govde = f"""{yol_izi}
 <header class="model-bas">
-  <p class="model-marka">{e(g['marka'])}</p>
-  <h1>{e(g['taban'])} <span class="h1-yil">{e(g['yil'])}</span></h1>
-  <p class="model-meta">{''.join(meta)}</p>
+  {gorsel_html(g, "../../", True)}
+  <div class="model-bilgi">
+    <a class="model-marka" href="{adres_ek("../")}">{logo_html(g['marka'], 'logo-k')}{e(g['marka'])}</a>
+    <h1>{e(g['taban'])}</h1>
+    <p class="model-meta">{''.join(meta)}</p>
+    {risk_ozeti(kartlar)}
+  </div>
 </header>
-{risk_cubugu(kartlar)}
 {ince_notu(g)}
 {suzgec_html(motorlar, g['taban'])}
-<p class="liste-durum" data-durum aria-live="polite">{g['sorun_say']} sorun, riske göre sıralı</p>
+<div class="liste-bas"><h2>Kronik sorunlar</h2><p class="liste-durum" data-durum aria-live="polite">{g['sorun_say']} sorun · riske göre sıralı</p></div>
 <ol class="kartlar" data-kartlar>
 {liste}
 </ol>
@@ -472,68 +545,61 @@ def uret(hedef=VARSAYILAN_HEDEF):
         aileler = {}
         for g in b["gruplar"]:
             aileler.setdefault(aile_adi(g["taban"]), []).append(g)
-        bloklar = ""
-        for kok_ad in sorted(aileler, key=dogal):
-            nesiller = sorted(aileler[kok_ad], key=lambda g: -g["yb"])
-            satirlar = "".join(
-                f'<li><a class="nesil" href="{adres_ek("../" + g["yol"] + "/")}"><span class="nesil-ad">{e(g["taban"])}</span>'
-                f'<span class="nesil-yil">{e(g["yil"])}</span><span class="nesil-say">{g["sorun_say"]} sorun</span>'
-                f'<span class="nesil-ok" aria-hidden="true">›</span></a></li>' for g in nesiller)
-            bloklar += f'<section class="model-blok"><h2>{e(kok_ad)}</h2><ul class="nesiller">{satirlar}</ul></section>'
-        govde = (f'<nav class="iz" aria-label="Konum"><a href="{adres_ek("../")}">Ana sayfa</a><span aria-hidden="true">/</span><span>{e(marka)}</span></nav>'
-                 f'<header class="model-bas"><p class="model-marka">Marka</p><h1>{e(marka)}</h1>'
-                 f'<p class="model-meta"><span>{len(b["gruplar"])} model ve nesil</span><span>{sum(g["sorun_say"] for g in b["gruplar"])} sorun kaydı</span></p></header>'
+        sirali = [g for kok_ad in sorted(aileler, key=dogal) for g in sorted(aileler[kok_ad], key=lambda g: -g["yb"])]
+        bloklar = '<div class="mkartlar">' + "".join(model_karti(g, "../", False) for g in sirali) + "</div>"
+        govde = (f'<nav class="iz" aria-label="Konum"><a href="{adres_ek("../")}">Ana sayfa</a><span aria-hidden="true">›</span><span>{e(marka)}</span></nav>'
+                 f'<header class="marka-bas">{logo_html(marka, "logo-b")}<div><h1>{e(marka)}</h1>'
+                 f'<p class="model-meta"><span>{len(b["gruplar"])} model ve nesil</span><span>{sum(g["sorun_say"] for g in b["gruplar"])} sorun kaydı</span></p></div></header>'
                  f'<div class="model-bloklar">{bloklar}</div>')
         yaz(b["yol"], sayfa(ayar, 1, f"{marka} kronik sorunları: model ve yıla göre | {ayar['ad']}",
                             f"{marka} modellerinin bilinen kronik sorunları, model ve üretim yılına göre.", govde, adres + b["yol"] + "/"))
 
-    # markalar dizini
-    marka_listesi = "".join(
-        f'<li><a href="{adres_ek("../" + b["yol"] + "/")}"><span class="mrk-ad">{e(m)}</span><span class="mrk-say">{len(b["gruplar"])} model</span></a></li>'
-        for m, b in sorted(markalar.items(), key=lambda x: x[0].lower()))
+    def marka_izgara(kok):
+        return '<ul class="markalar">' + "".join(
+            f'<li><a href="{adres_ek(kok + b["yol"] + "/")}">{logo_html(m, "logo-m")}<span class="mrk-ad">{e(m)}</span>'
+            f'<span class="mrk-say">{len(b["gruplar"])} model</span></a></li>'
+            for m, b in sorted(markalar.items(), key=lambda x: x[0].lower())) + "</ul>"
+
     yaz("markalar", sayfa(ayar, 1, f"Markalar | {ayar['ad']}", "Kronik sorunları listelenen tüm markalar.",
-                          f'<header class="model-bas"><h1>Markalar</h1><p class="model-meta"><span>{len(markalar)} marka</span><span>{len(gruplar)} model ve nesil</span></p></header>'
-                          f'<ul class="markalar">{marka_listesi}</ul>', adres + "markalar/"))
+                          f'<header class="sayfa-bas"><h1>Markalar</h1><p class="model-meta"><span>{len(markalar)} marka</span><span>{len(gruplar)} model ve nesil</span></p></header>'
+                          f'{marka_izgara("../")}', adres + "markalar/"))
 
     # ana sayfa
     toplam_sorun = sum(len(a["kronik_sorunlar"]) for a in veri["arac_listesi"]) + sum(len(f["kronik_sorunlar"]) for f in veri.get("aileler", []))
     pop = populer_gruplar(ayar, gruplar)
+    cipler = "".join(f'<a class="cip" href="{adres_ek(g["yol"] + "/")}">{e(g["marka"])} {e(g["taban"])}</a>' for g in pop[:6])
     pop_html = ""
     if pop:
-        pop_html = f'<section class="blok"><h2>Çok bakılanlar</h2><div class="mkartlar">{"".join(model_karti(g, "") for g in pop)}</div></section>'
-    marka_sec = "".join(f'<option value="{e(m)}">{e(m)}</option>' for m in sorted(markalar, key=str.lower))
-    sayac = "".join(f'<span class="tek">{c}</span>' if c.isdigit() else f'<span class="ayr">{c}</span>' for c in nokta_say(toplam_sorun))
-    govde = f"""<div class="ana-ust"><section class="kahraman">
-  <h1>Almadan önce <span class="vurgu">ustaya sor.</span></h1>
-  <p class="giris">Türkiye'de yaygın araçların bilinen kronik sorunları: hangi motorda, kaç kilometrede, ne kadar ciddi.</p>
+        pop_html = (f'<section class="blok"><div class="blok-bas"><h2>Çok bakılan modeller</h2></div>'
+                    f'<div class="mkartlar">{"".join(model_karti(g, "") for g in pop)}</div></section>')
+    govde = f"""<section class="kahraman">
+  <h1>Aracın kronik sorunlarını almadan önce öğren</h1>
+  <p class="giris">Model, yıl ve motoruna göre bilinen arızalar; ne kadar ciddi olduğu ve hangi kilometrede çıktığıyla.</p>
   <div class="ana-ara" role="search">
-    <label for="ana-ara-kutu" class="ana-ara-etiket">Aracınızın marka ve modelini yazın</label>
-    <input id="ana-ara-kutu" class="ara-girdi buyuk" type="search" placeholder="Clio 5, Egea 2018, Golf 7, 1.5 dCi…" autocomplete="off" enterkeyhint="search" data-ara data-genis>
+    <label for="ana-ara-kutu" class="gizli">Marka ve model ara</label>
+    <svg class="ara-ikon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+    <input id="ana-ara-kutu" class="ara-girdi buyuk" type="search" placeholder="Clio 5, Egea 2018, Golf 7, 1.5 dCi…" autocomplete="off" enterkeyhint="search" data-ara>
+    <button type="button" class="ara-dugme" data-ara-git>Ara</button>
     <ul class="oneriler genis" data-oneriler hidden></ul>
   </div>
-  <div class="sayac-satir"><div class="sayac" aria-label="{nokta_say(toplam_sorun)} kronik sorun">{sayac}</div><p>kronik sorun · {len(gruplar)} model ve nesil · {len(markalar)} marka</p></div>
+  <div class="cipler hizli">{cipler}</div>
+  <ul class="sayilar"><li><b>{len(gruplar)}</b> model ve nesil</li><li><b>{nokta_say(toplam_sorun)}</b> kronik sorun</li><li><b>{len(markalar)}</b> marka</li></ul>
 </section>
-<section class="secici" data-secici hidden>
-  <h2>Ya da markadan seçin</h2>
-  <label class="gizli" for="marka-sec">Marka</label>
-  <select id="marka-sec" class="marka-sec"><option value="">Marka seçin</option>{marka_sec}</select>
-  <div class="secici-liste" data-secici-liste><p class="suz-not">Marka seçince modelleri ve nesilleri burada listelenir.</p></div>
-</section></div>
 {pop_html}
-<section class="blok nasil">
+<section class="blok"><div class="blok-bas"><h2>Markalar</h2><a class="blok-link" href="{adres_ek('markalar/')}">Tümünü gör</a></div>{marka_izgara("")}</section>
+<section class="blok">
   <h2>Nasıl okunur?</h2>
   <div class="nasil-ic">
-    <div><span class="lamba buyuk" data-risk="yuksek" aria-hidden="true"></span><h3>Risk</h3><p>Kırmızı: güvenlik ya da motor hasarı. Sarı: onarım gerektiren arıza. Yeşil: konfor ve kozmetik.</p></div>
-    <div><span class="mini-sayac" aria-hidden="true"><span class="tek">8</span><span class="tek">0</span><span class="ayr">.</span><span class="tek">0</span><span class="tek">0</span><span class="tek">0</span></span><h3>Kilometre</h3><p>Sorunun bildirildiği yaklaşık aralık. Kendi kilometrenizi girin, o aralığa düşenler işaretlensin.</p></div>
-    <div><span class="motor-ikon" aria-hidden="true">1.5 dCi</span><h3>Motor</h3><p>Sorunların çoğu belirli bir motora ya da şanzımana aittir. Model sayfasında motorunuzu seçin.</p></div>
+    <div><span class="nasil-ikon" aria-hidden="true">1</span><h3>Aracını bul</h3><p>Marka ve modelini yaz ya da markadan seç. Her nesil ayrı sayfadadır.</p></div>
+    <div><span class="nasil-ikon" aria-hidden="true">2</span><h3>Motorunu seç</h3><p>Sorunların çoğu belirli bir motora ya da şanzımana aittir. Motor kodu ruhsatta yazar.</p></div>
+    <div><span class="nasil-ikon" aria-hidden="true">3</span><h3>Kilometreni gir</h3><p>O kilometrede çıkması beklenen sorunlar işaretlenir. Ekspertizde bunlara özellikle baktır.</p></div>
   </div>
-</section>
-<section class="blok"><h2>Tüm markalar</h2><ul class="markalar kisa">{"".join(f'<li><a href="{adres_ek(b["yol"] + "/")}"><span class="mrk-ad">{e(m)}</span><span class="mrk-say">{len(b["gruplar"])}</span></a></li>' for m, b in sorted(markalar.items(), key=lambda x: x[0].lower()))}</ul></section>"""
+</section>"""
     yaz("", sayfa(ayar, 0, f"{ayar['ad']}: araçların kronik sorunları", f"{ayar['slogan']}. Model, yıl ve motora göre bilinen sorunlar.", govde, adres, "", "s-ana", ust_ara=False))
 
     # sabit sayfalar
     yaz("hakkinda", sayfa(ayar, 1, f"Hakkında ve yöntem | {ayar['ad']}", "Sorunların nasıl derlendiği ve nasıl okunacağı.", f"""
-<header class="model-bas"><h1>Hakkında ve yöntem</h1></header>
+<header class="sayfa-bas"><h1>Hakkında ve yöntem</h1></header>
 <div class="metin">
 <p>{e(ayar.get('tanitim') or ayar['ad'] + ", ikinci el ya da sıfır araç bakan biri için Türkiye'de yaygın araçların bilinen kronik sorunlarını tek yerde toplar.")}</p>
 <h2>Sorunlar nasıl belirlendi?</h2>
@@ -547,21 +613,20 @@ def uret(hedef=VARSAYILAN_HEDEF):
 </ul>
 <h2>Sınırlar</h2>
 <p>Burada yazan sorunların aracınızda olacağı anlamına gelmez; listede olmayan bir sorunun görülmeyeceği anlamına da gelmez. Karar vermeden önce ekspertiz ve yetkili servis kontrolü yaptırın.</p>
+<h2>Görseller</h2>
+<p>Marka logoları Simple Icons koleksiyonundan alınmıştır ve markaların tescilli ticari markalarıdır; yalnızca markayı tanıtmak için kullanılır. Fotoğrafı olmayan modellerde kasa tipini gösteren bir çizim kullanılır.</p>
 <h2>Hata bildirimi</h2>
 <p>{iletisim_html(ayar)}.</p>
 </div>""", adres + "hakkinda/"))
     yaz("gizlilik", sayfa(ayar, 1, f"Gizlilik | {ayar['ad']}", "Gizlilik bilgilendirmesi.", f"""
-<header class="model-bas"><h1>Gizlilik</h1></header>
+<header class="sayfa-bas"><h1>Gizlilik</h1></header>
 <div class="metin">
 <p>Bu site çerez kullanmaz, üyelik istemez ve ziyaretçilerden kişisel veri toplamaz. Arama kutusuna ve kilometre alanına yazdıklarınız yalnızca tarayıcınızda işlenir, bize gönderilmez.</p>
 <p>Barındırma hizmeti, tüm web sitelerinde olduğu gibi teknik güvenlik amacıyla standart sunucu kayıtları tutabilir.</p>
 <p>{iletisim_html(ayar)}.</p>
 </div>""", adres + "gizlilik/"))
     (hedef / "404.html").write_text(sayfa(ayar, 0, f"Sayfa bulunamadı | {ayar['ad']}", "Sayfa bulunamadı.",
-                                          '<header class="model-bas"><h1>Sayfa bulunamadı</h1></header><p>Aradığınız sayfa taşınmış ya da hiç olmamış olabilir. Yukarıdaki kutudan aracınızı arayın.</p>', adres), encoding="utf-8")
-    if ONIZLEME:
-        for p in hedef.rglob("*.html"):
-            p.write_text(p.read_text(encoding="utf-8").replace('href="/"', 'href="index.html"'), encoding="utf-8")
+                                          '<header class="sayfa-bas"><h1>Sayfa bulunamadı</h1></header><p>Aradığınız sayfa taşınmış ya da hiç olmamış olabilir. Yukarıdaki kutudan aracınızı arayın.</p>', adres), encoding="utf-8")
     bugun = date.today().isoformat()
     (hedef / "sitemap.xml").write_text('<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
                                        + "".join(f"<url><loc>{e(u)}</loc><lastmod>{bugun}</lastmod></url>\n" for u in sayfalar)
@@ -593,7 +658,8 @@ SITE_JS = r"""
     return s.sort((a, b) => puan(b) - puan(a) || b.yb - a.yb).slice(0, 12);
   }
   for (const girdi of document.querySelectorAll("[data-ara]")) {
-    const liste = girdi.parentElement.querySelector("[data-oneriler]");
+    const kutu = girdi.parentElement;
+    const liste = kutu.querySelector("[data-oneriler]");
     let secili = -1, sonuc = [];
     const ciz = () => {
       sonuc = bul(girdi.value); secili = -1; liste.textContent = "";
@@ -613,32 +679,19 @@ SITE_JS = r"""
       liste.hidden = false;
     };
     const isaretle = () => liste.querySelectorAll("a").forEach((a, i) => a.classList.toggle("aktif", i === secili));
+    const ilkeGit = () => { if (sonuc.length) location.href = git(sonuc[Math.max(0, secili)].u); else { ciz(); girdi.focus(); } };
     girdi.addEventListener("input", ciz);
     girdi.addEventListener("focus", () => { if (girdi.value.trim()) ciz(); });
     girdi.addEventListener("keydown", (ev) => {
       const n = liste.querySelectorAll("a").length;
       if (ev.key === "ArrowDown" && n) { secili = (secili + 1) % n; isaretle(); ev.preventDefault(); }
       else if (ev.key === "ArrowUp" && n) { secili = (secili - 1 + n) % n; isaretle(); ev.preventDefault(); }
-      else if (ev.key === "Enter" && sonuc.length) { location.href = git(sonuc[Math.max(0, secili)].u); ev.preventDefault(); }
+      else if (ev.key === "Enter") { ilkeGit(); ev.preventDefault(); }
       else if (ev.key === "Escape") { liste.hidden = true; }
     });
-    document.addEventListener("click", (ev) => { if (!girdi.parentElement.contains(ev.target)) liste.hidden = true; });
-  }
-
-  // ---- ana sayfa: markadan seç
-  const secici = document.querySelector("[data-secici]");
-  if (secici) {
-    secici.hidden = false;
-    const sec = secici.querySelector("select"), hedef = secici.querySelector("[data-secici-liste]");
-    sec.addEventListener("change", () => {
-      hedef.textContent = "";
-      for (const d of dizin.filter((x) => x.b === sec.value).sort((a, b) => a.a.localeCompare(b.a, "tr", { numeric: true }) || b.yb - a.yb)) {
-        const a = document.createElement("a"); a.className = "mkart"; a.href = git(d.u);
-        a.innerHTML = '<span class="mkart-ad"></span><span class="mkart-yil"></span><span class="mkart-say"></span>';
-        a.children[0].textContent = d.a.slice(d.b.length + 1); a.children[1].textContent = d.y; a.children[2].textContent = d.s + " sorun";
-        hedef.append(a);
-      }
-    });
+    const dugme = kutu.querySelector("[data-ara-git]");
+    if (dugme) dugme.addEventListener("click", () => { sonuc = bul(girdi.value); ilkeGit(); });
+    document.addEventListener("click", (ev) => { if (!kutu.contains(ev.target)) liste.hidden = true; });
   }
 
   // ---- model sayfası: motor ve kilometre süzgeci
@@ -655,16 +708,13 @@ SITE_JS = r"""
       for (const k of kartlar) {
         const yer = k.dataset.yer.split(" ");
         const motorUyar = !motor || yer.includes("genel") || yer.includes(motor);
-        const a = +k.dataset.kma, b = +k.dataset.kmb, kmVar = "kma" in k.dataset;
-        const kmUyar = km !== null && kmVar && km >= a && km <= b;
-        k.querySelector(".km-uyar").hidden = !kmUyar;
+        const kmUyar = km !== null && "kma" in k.dataset && km >= +k.dataset.kma && km <= +k.dataset.kmb;
+        k.querySelector(".etk-uyar").hidden = !kmUyar;
         k.classList.toggle("km-icinde", kmUyar);
-        const isaret = k.querySelector(".km-isaret");
-        if (isaret) { isaret.hidden = km === null; if (km !== null) isaret.style.left = Math.min(100, km / 2500) + "%"; }
         const goster = motorUyar && (!yalniz.checked || km === null || kmUyar);
         k.hidden = !goster; if (goster) gorunen++; if (goster && kmUyar) uyan++;
       }
-      durum.textContent = gorunen + " sorun gösteriliyor" + (km !== null ? " · " + uyan + " tanesi " + km.toLocaleString("tr-TR") + " km'ye uyuyor" : ", riske göre sıralı");
+      durum.textContent = gorunen + " sorun" + (km !== null ? " · " + uyan + " tanesi " + km.toLocaleString("tr-TR") + " km'ye uyuyor" : " · riske göre sıralı");
       bos.hidden = gorunen > 0;
     }
     for (const b of suz.querySelectorAll("[data-motor]")) {
@@ -674,233 +724,229 @@ SITE_JS = r"""
         uygula();
       });
     }
-    kmKutu.addEventListener("input", () => {
-      const n = kmOku(); if (n !== null) { kmKutu.value = n.toLocaleString("tr-TR"); }
-      uygula();
-    });
+    kmKutu.addEventListener("input", () => { const n = kmOku(); if (n !== null) kmKutu.value = n.toLocaleString("tr-TR"); uygula(); });
     yalniz.addEventListener("change", uygula);
     suz.addEventListener("submit", (ev) => ev.preventDefault());
   }
 })();
 """
 
-STIL = r"""/* Bilmiş Usta: gösterge paneli lambaları ve usta sarısı. Yerleşim: üst şerit + arama, tek sütun içerik (en fazla 68rem). */
+STIL = r"""/* Bilmiş Usta: modern uygulama görünümü. Beyaz üst şerit + arama, gri zemin, beyaz kartlar, tek mavi vurgu. */
 :root {
-  --zemin: #f3f4f1; --yuzey: #ffffff; --yuzey-2: #e9ebe6; --murekkep: #14181b; --soluk: #565e64; --cizgi: #d9ddd6;
-  --usta: #f2b200; --usta-yazi: #7a5800; --usta-zemin: #fff4cc;
-  --yuksek: #b3261e; --yuksek-z: #fbe4e1; --yuksek-l: #e0402f;
-  --orta: #8f5a00; --orta-z: #fff0d1; --orta-l: #eea021;
-  --dusuk: #23693f; --dusuk-z: #e1f1e6; --dusuk-l: #35a061;
-  --golge: 0 1px 2px rgba(20, 24, 27, .06), 0 4px 16px rgba(20, 24, 27, .06);
-  --ust-zemin: #14181b; --ust-yazi: #f3f4f1;
-  --f-baslik: "Archivo", "Arial Narrow", "Helvetica Neue", Arial, sans-serif;
+  --zemin: #f5f7fa; --yuzey: #ffffff; --yuzey-2: #f2f4f7; --yazi: #101828; --soluk: #667085; --cizgi: #e4e7ec; --cizgi-koyu: #d0d5dd;
+  --ana: #2563eb; --ana-koyu: #1d4ed8; --ana-acik: #eef4ff; --ana-yazi: #ffffff;
+  --yuksek: #b42318; --yuksek-z: #fef3f2; --yuksek-c: #fda29b;
+  --orta: #b54708; --orta-z: #fffaeb; --orta-c: #fec84b;
+  --dusuk: #067647; --dusuk-z: #ecfdf3; --dusuk-c: #75e0a7;
+  --kasa: #d0d5dd; --kasa-cam: #f2f4f7; --kasa-teker: #475467;
+  --golge: 0 1px 2px rgba(16, 24, 40, .05);
+  --golge-2: 0 12px 24px -6px rgba(16, 24, 40, .12), 0 2px 6px rgba(16, 24, 40, .05);
+  --f-baslik: "Manrope", "Inter", "Segoe UI", system-ui, sans-serif;
   --f-govde: "Inter", "Segoe UI", Roboto, system-ui, sans-serif;
-  --f-sayi: "IBM Plex Mono", ui-monospace, Menlo, Consolas, monospace;
   color-scheme: light;
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --zemin: #101315; --yuzey: #181c1f; --yuzey-2: #22272b; --murekkep: #eceee9; --soluk: #a5acb1; --cizgi: #2c3236;
-    --usta: #f2b200; --usta-yazi: #f5c94a; --usta-zemin: #2e2508;
-    --yuksek: #ff9a8f; --yuksek-z: #3a1714; --yuksek-l: #f05a48;
-    --orta: #f7c35f; --orta-z: #33260b; --orta-l: #eea021;
-    --dusuk: #86d6a5; --dusuk-z: #112c1c; --dusuk-l: #3fb36d;
-    --golge: 0 1px 2px rgba(0, 0, 0, .3);
+    --zemin: #0c111d; --yuzey: #161b26; --yuzey-2: #1f242f; --yazi: #f5f5f6; --soluk: #94969c; --cizgi: #252b37; --cizgi-koyu: #333741;
+    --ana: #4f8cff; --ana-koyu: #6ea1ff; --ana-acik: #172554; --ana-yazi: #ffffff;
+    --yuksek: #fda29b; --yuksek-z: #3b1210; --yuksek-c: #912018;
+    --orta: #fec84b; --orta-z: #3a2606; --orta-c: #93370d;
+    --dusuk: #75e0a7; --dusuk-z: #0b2e1e; --dusuk-c: #085d3a;
+    --kasa: #333741; --kasa-cam: #1f242f; --kasa-teker: #94969c;
+    --golge: 0 1px 2px rgba(0, 0, 0, .3); --golge-2: 0 12px 24px -6px rgba(0, 0, 0, .5);
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --zemin: #101315; --yuzey: #181c1f; --yuzey-2: #22272b; --murekkep: #eceee9; --soluk: #a5acb1; --cizgi: #2c3236;
-  --usta: #f2b200; --usta-yazi: #f5c94a; --usta-zemin: #2e2508;
-  --yuksek: #ff9a8f; --yuksek-z: #3a1714; --yuksek-l: #f05a48;
-  --orta: #f7c35f; --orta-z: #33260b; --orta-l: #eea021;
-  --dusuk: #86d6a5; --dusuk-z: #112c1c; --dusuk-l: #3fb36d;
-  --golge: 0 1px 2px rgba(0, 0, 0, .3);
+  --zemin: #0c111d; --yuzey: #161b26; --yuzey-2: #1f242f; --yazi: #f5f5f6; --soluk: #94969c; --cizgi: #252b37; --cizgi-koyu: #333741;
+  --ana: #4f8cff; --ana-koyu: #6ea1ff; --ana-acik: #172554; --ana-yazi: #ffffff;
+  --yuksek: #fda29b; --yuksek-z: #3b1210; --yuksek-c: #912018;
+  --orta: #fec84b; --orta-z: #3a2606; --orta-c: #93370d;
+  --dusuk: #75e0a7; --dusuk-z: #0b2e1e; --dusuk-c: #085d3a;
+  --kasa: #333741; --kasa-cam: #1f242f; --kasa-teker: #94969c;
+  --golge: 0 1px 2px rgba(0, 0, 0, .3); --golge-2: 0 12px 24px -6px rgba(0, 0, 0, .5);
   color-scheme: dark;
 }
 * { box-sizing: border-box; }
 html { -webkit-text-size-adjust: 100%; }
-body { margin: 0; background: var(--zemin); color: var(--murekkep); font-family: var(--f-govde); font-size: 17px; line-height: 1.6; }
+body { margin: 0; background: var(--zemin); color: var(--yazi); font-family: var(--f-govde); font-size: 16px; line-height: 1.6; }
 [hidden] { display: none !important; }
-a { color: inherit; text-decoration-color: color-mix(in srgb, currentColor 35%, transparent); text-underline-offset: 3px; }
-a:hover { text-decoration-color: currentColor; }
-:focus-visible { outline: 3px solid var(--usta); outline-offset: 2px; border-radius: 4px; }
+a { color: var(--ana); text-decoration: none; }
+a:hover { text-decoration: underline; }
+:focus-visible { outline: 3px solid color-mix(in srgb, var(--ana) 45%, transparent); outline-offset: 2px; border-radius: 6px; }
 .gizli { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
-.kap { max-width: 68rem; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
-h1, h2, h3 { font-family: var(--f-baslik); line-height: 1.1; text-wrap: balance; margin: 0; }
-h1 { font-size: clamp(2.1rem, 6vw, 3.4rem); font-weight: 800; font-stretch: 112%; letter-spacing: -0.01em; }
-h2 { font-size: clamp(1.35rem, 3vw, 1.7rem); font-weight: 750; font-stretch: 108%; }
-h3 { font-size: 1.15rem; font-weight: 700; }
+.kap { max-width: 72rem; margin-inline: auto; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); }
+h1, h2, h3 { font-family: var(--f-baslik); line-height: 1.2; letter-spacing: -0.015em; text-wrap: balance; margin: 0; color: var(--yazi); }
+h1 { font-size: clamp(1.75rem, 4vw, 2.4rem); font-weight: 800; }
+h2 { font-size: 1.3rem; font-weight: 700; }
+h3 { font-size: 1.02rem; font-weight: 700; }
 
 /* üst şerit */
-.ust { background: var(--ust-zemin); color: var(--ust-yazi); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; }
-body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 21; background: var(--ust-zemin); }
-.ust-ic { display: flex; align-items: center; gap: 12px 20px; padding-block: 10px; flex-wrap: wrap; }
-.logo { display: inline-flex; align-items: center; gap: 10px; font-family: var(--f-baslik); font-weight: 800; font-stretch: 115%; font-size: 1.35rem; text-decoration: none; color: inherit; white-space: nowrap; }
-.logo-lamba { width: 14px; height: 14px; border-radius: 50%; background: var(--usta); box-shadow: 0 0 0 3px color-mix(in srgb, var(--usta) 30%, transparent), 0 0 14px var(--usta); }
-.ust-ara { position: relative; flex: 1 1 18rem; min-width: 0; max-width: 30rem; }
-.ust-nav { display: flex; gap: 18px; margin-left: auto; font-weight: 600; font-size: 0.95rem; }
-.ust-nav a { text-decoration: none; opacity: .85; }
-.ust-nav a:hover { opacity: 1; }
-.ara-girdi { width: 100%; font: inherit; font-size: 1rem; padding: 9px 14px; min-height: 42px; border-radius: 10px; border: 1px solid transparent; background: color-mix(in srgb, var(--ust-yazi) 12%, transparent); color: inherit; }
-.ust .ara-girdi::placeholder { color: color-mix(in srgb, var(--ust-yazi) 60%, transparent); }
-.ust .ara-girdi:focus { background: var(--yuzey); color: var(--murekkep); outline: none; border-color: var(--usta); }
-.oneriler { position: absolute; left: 0; right: 0; top: calc(100% + 6px); list-style: none; margin: 0; padding: 6px; background: var(--yuzey); color: var(--murekkep); border: 1px solid var(--cizgi); border-radius: 12px; box-shadow: var(--golge), 0 12px 32px rgba(0,0,0,.14); max-height: min(70vh, 30rem); overflow-y: auto; z-index: 30; }
-.oneriler a { display: grid; grid-template-columns: 1fr auto; gap: 0 12px; padding: 9px 12px; border-radius: 8px; text-decoration: none; }
-.oneriler a:hover, .oneriler a.aktif { background: var(--usta-zemin); }
+.ust { background: var(--yuzey); border-bottom: 1px solid var(--cizgi); position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; }
+body::before { content: ""; position: fixed; inset: 0 0 auto; height: env(safe-area-inset-top, 0px); z-index: 21; background: var(--yuzey); }
+.ust-ic { display: flex; align-items: center; gap: 12px 24px; min-height: 64px; flex-wrap: wrap; padding-block: 8px; }
+.logo { display: inline-flex; align-items: center; gap: 10px; font-family: var(--f-baslik); font-weight: 800; font-size: 1.15rem; color: var(--yazi); white-space: nowrap; }
+.logo:hover { text-decoration: none; }
+.logo-isaret { width: 32px; height: 32px; border-radius: 9px; background: var(--ana); display: inline-grid; place-items: center; }
+.logo-isaret svg { width: 20px; height: 20px; fill: none; stroke: var(--ana-yazi); stroke-width: 1.8; stroke-linejoin: round; }
+.ust-ara { position: relative; flex: 1 1 18rem; min-width: 0; max-width: 28rem; }
+.ust-nav { display: flex; gap: 22px; margin-left: auto; font-weight: 600; font-size: 0.93rem; }
+.ust-nav a { color: var(--soluk); }
+.ust-nav a:hover { color: var(--yazi); text-decoration: none; }
+.ara-ikon { position: absolute; left: 12px; top: 50%; width: 18px; height: 18px; transform: translateY(-50%); fill: none; stroke: var(--soluk); stroke-width: 2; stroke-linecap: round; pointer-events: none; }
+.ara-girdi { width: 100%; font: inherit; font-size: 0.95rem; padding: 9px 12px 9px 38px; min-height: 42px; border-radius: 10px; border: 1px solid var(--cizgi-koyu); background: var(--yuzey-2); color: var(--yazi); }
+.ara-girdi::placeholder { color: var(--soluk); }
+.ara-girdi:focus { outline: none; background: var(--yuzey); border-color: var(--ana); box-shadow: 0 0 0 4px color-mix(in srgb, var(--ana) 18%, transparent); }
+.oneriler { position: absolute; left: 0; right: 0; top: calc(100% + 6px); list-style: none; margin: 0; padding: 6px; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 12px; box-shadow: var(--golge-2); max-height: min(70vh, 30rem); overflow-y: auto; z-index: 30; text-align: left; }
+.oneriler a { display: grid; grid-template-columns: 1fr auto; gap: 0 12px; padding: 9px 12px; border-radius: 8px; color: var(--yazi); }
+.oneriler a:hover, .oneriler a.aktif { background: var(--ana-acik); text-decoration: none; }
 .o-ad { font-weight: 600; }
-.o-yil { font-family: var(--f-sayi); font-size: 0.85rem; color: var(--soluk); grid-column: 1; }
-.o-say { grid-row: 1 / span 2; grid-column: 2; align-self: center; font-size: 0.85rem; color: var(--soluk); }
+.o-yil { font-size: 0.84rem; color: var(--soluk); grid-column: 1; }
+.o-say { grid-row: 1 / span 2; grid-column: 2; align-self: center; font-size: 0.84rem; color: var(--soluk); }
 .oneri-yok { padding: 10px 12px; color: var(--soluk); }
 
-main { padding-block: 24px 56px; display: grid; gap: 20px; }
+main { padding-block: 24px 64px; display: grid; gap: 28px; }
 main > * { min-width: 0; }
 
 /* ana sayfa */
-.kahraman { padding-block: 28px 8px; display: grid; gap: 16px; }
-.kahraman h1 { font-size: clamp(2.4rem, 8vw, 4.6rem); max-width: 14ch; }
-.vurgu { background: linear-gradient(transparent 62%, var(--usta) 62%, var(--usta) 92%, transparent 92%); padding-inline: 2px; }
-.giris { font-size: 1.15rem; color: var(--soluk); max-width: 52ch; margin: 0; }
-.ana-ara { position: relative; max-width: 44rem; display: grid; gap: 8px; margin-top: 4px; }
-.ana-ara-etiket { font-weight: 600; font-size: 0.95rem; }
-.ara-girdi.buyuk { font-size: 1.2rem; min-height: 60px; padding: 14px 18px; background: var(--yuzey); border: 2px solid var(--murekkep); color: var(--murekkep); box-shadow: 4px 4px 0 var(--usta); }
-.ara-girdi.buyuk:focus { outline: none; box-shadow: 4px 4px 0 var(--usta), 0 0 0 4px color-mix(in srgb, var(--usta) 35%, transparent); }
-.sayac-satir { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; color: var(--soluk); margin-top: 6px; }
-.sayac-satir p { margin: 0; }
-.sayac, .mini-sayac { display: inline-flex; gap: 2px; font-family: var(--f-sayi); font-weight: 500; }
-.sayac .tek, .mini-sayac .tek { background: var(--murekkep); color: var(--zemin); padding: 2px 6px; border-radius: 3px; font-size: 1.05rem; }
-.sayac .ayr, .mini-sayac .ayr { align-self: end; padding-inline: 1px; color: var(--murekkep); }
-.blok { display: grid; gap: 14px; padding-top: 12px; }
-.ana-ust { display: grid; gap: 24px 40px; grid-template-columns: minmax(0, 1fr); align-items: start; }
-@media (min-width: 960px) { .ana-ust { grid-template-columns: minmax(0, 1.5fr) minmax(0, 1fr); } .secici { margin-top: 40px; } }
-.secici { background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 14px; padding: 18px; display: grid; gap: 12px; }
-.secici-liste { display: grid; gap: 0; max-height: 26rem; overflow-y: auto; }
-.secici-liste .mkart { border: 0; border-top: 1px solid var(--cizgi); border-radius: 0; padding: 10px 4px; grid-template-columns: minmax(0, 1fr) auto; }
-.secici-liste .mkart:hover { transform: none; background: var(--usta-zemin); }
-.secici-liste .mkart-ad { font-size: 1.05rem; }
-.secici-liste .mkart-yil { grid-row: 2; }
-.secici-liste .mkart-say { grid-column: 2; grid-row: 1 / span 2; align-self: center; margin: 0; }
-.marka-sec { width: 100%; font: inherit; padding: 10px 14px; min-height: 46px; border-radius: 10px; border: 1px solid var(--cizgi); background: var(--yuzey); color: var(--murekkep); max-width: 22rem; }
-.mkartlar { display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 14rem), 1fr)); }
-.mkart { display: grid; gap: 2px; padding: 14px 16px; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 12px; text-decoration: none; transition: border-color .15s, transform .15s; }
-.mkart:hover { border-color: var(--murekkep); transform: translateY(-1px); }
-.mkart-marka { font-size: 0.8rem; font-weight: 600; letter-spacing: .05em; text-transform: uppercase; color: var(--soluk); }
-.mkart-ad { font-family: var(--f-baslik); font-weight: 750; font-stretch: 108%; font-size: 1.2rem; line-height: 1.2; }
-.mkart-yil { font-family: var(--f-sayi); font-size: 0.85rem; color: var(--soluk); }
-.mkart-say { font-size: 0.85rem; font-weight: 600; margin-top: 4px; }
-.nasil-ic { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 17rem), 1fr)); }
-.nasil-ic > div { background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 12px; padding: 18px; display: grid; gap: 8px; align-content: start; }
-.nasil-ic p { margin: 0; color: var(--soluk); font-size: 0.97rem; }
-.motor-ikon { justify-self: start; font-family: var(--f-sayi); font-size: 0.85rem; border: 2px solid var(--murekkep); border-radius: 6px; padding: 1px 8px; }
-.markalar { list-style: none; margin: 0; padding: 0; display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 12rem), 1fr)); }
-.markalar a { display: flex; justify-content: space-between; align-items: baseline; gap: 10px; padding: 12px 14px; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 10px; text-decoration: none; font-weight: 600; }
-.markalar a:hover { border-color: var(--murekkep); }
-.mrk-say { font-family: var(--f-sayi); font-size: 0.85rem; color: var(--soluk); font-weight: 500; }
+.kahraman { display: grid; gap: 14px; justify-items: center; text-align: center; padding: 40px 24px 34px; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 20px; box-shadow: var(--golge); }
+.kahraman h1 { font-size: clamp(1.9rem, 5vw, 2.8rem); max-width: 20ch; }
+.giris { margin: 0; color: var(--soluk); font-size: 1.08rem; max-width: 52ch; }
+.ana-ara { position: relative; width: 100%; max-width: 42rem; margin-top: 8px; }
+.ana-ara .ara-ikon { left: 18px; width: 20px; height: 20px; }
+.ara-girdi.buyuk { font-size: 1.08rem; min-height: 58px; padding: 14px 108px 14px 48px; border-radius: 14px; background: var(--yuzey); box-shadow: var(--golge); }
+.ara-dugme { position: absolute; right: 7px; top: 7px; bottom: 7px; padding: 0 22px; font: inherit; font-weight: 600; border: 0; border-radius: 10px; background: var(--ana); color: var(--ana-yazi); cursor: pointer; }
+.ara-dugme:hover { background: var(--ana-koyu); }
+.cipler { display: flex; flex-wrap: wrap; gap: 8px; }
+.cipler.hizli { justify-content: center; }
+.cip { display: inline-flex; align-items: center; font: inherit; font-size: 0.88rem; font-weight: 500; padding: 6px 13px; min-height: 36px; border-radius: 999px; border: 1px solid var(--cizgi-koyu); background: var(--yuzey); color: var(--yazi); cursor: pointer; text-align: left; }
+.cip:hover { border-color: var(--ana); color: var(--ana); text-decoration: none; }
+.cip[aria-pressed="true"] { background: var(--ana); border-color: var(--ana); color: var(--ana-yazi); }
+.sayilar { list-style: none; margin: 8px 0 0; padding: 0; display: flex; flex-wrap: wrap; justify-content: center; gap: 6px 28px; color: var(--soluk); font-size: 0.92rem; }
+.sayilar b { color: var(--yazi); font-family: var(--f-baslik); font-size: 1.05rem; margin-right: 4px; font-variant-numeric: tabular-nums; }
+.blok { display: grid; gap: 14px; }
+.blok-bas { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+.blok-link { font-weight: 600; font-size: 0.93rem; }
 
-/* lambalar ve risk */
-.lamba { display: inline-block; width: 10px; height: 10px; border-radius: 50%; flex: none; background: var(--soluk); }
-.lamba.buyuk { width: 18px; height: 18px; }
-[data-risk="yuksek"] .lamba, .lamba[data-risk="yuksek"] { background: var(--yuksek-l); box-shadow: 0 0 8px color-mix(in srgb, var(--yuksek-l) 60%, transparent); }
-[data-risk="orta"] .lamba, .lamba[data-risk="orta"] { background: var(--orta-l); box-shadow: 0 0 8px color-mix(in srgb, var(--orta-l) 55%, transparent); }
-[data-risk="dusuk"] .lamba, .lamba[data-risk="dusuk"] { background: var(--dusuk-l); }
-.risk { display: inline-flex; align-items: center; gap: 7px; font-size: 0.82rem; font-weight: 700; letter-spacing: .02em; padding: 3px 10px 3px 8px; border-radius: 999px; white-space: nowrap; }
+/* model kartları (görselli) */
+.mkartlar { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 14.5rem), 1fr)); }
+.mkart { display: grid; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 14px; overflow: hidden; color: var(--yazi); box-shadow: var(--golge); transition: box-shadow .15s, transform .15s, border-color .15s; }
+.mkart:hover { text-decoration: none; box-shadow: var(--golge-2); transform: translateY(-2px); border-color: var(--cizgi-koyu); }
+.mkart-govde { display: grid; gap: 2px; padding: 12px 14px 14px; }
+.mkart-marka { display: inline-flex; align-items: center; gap: 6px; font-size: 0.8rem; color: var(--soluk); font-weight: 500; }
+.mkart-ad { font-family: var(--f-baslik); font-weight: 700; font-size: 1.05rem; line-height: 1.3; }
+.mkart-alt { display: flex; justify-content: space-between; gap: 8px; font-size: 0.84rem; color: var(--soluk); }
+.gorsel { margin: 0; background: linear-gradient(180deg, var(--yuzey-2), var(--yuzey)); aspect-ratio: 16 / 9; max-width: 100%; display: grid; place-items: center; overflow: hidden; }
+.gorsel img { width: 100%; height: 100%; object-fit: cover; }
+.gorsel.cizim .kasa { width: 66%; max-width: 15rem; height: auto; }
+.mkartlar .gorsel { aspect-ratio: 2 / 1; }
+.kasa-govde { fill: var(--kasa); }
+.kasa-cam { fill: var(--kasa-cam); }
+.kasa-teker { fill: var(--kasa-teker); }
+.kasa-jant { fill: var(--kasa); }
+.foto { position: relative; }
+.kredi { position: absolute; right: 0; bottom: 0; padding: 2px 8px; font-size: 0.7rem; background: rgba(0,0,0,.55); color: #fff; border-top-left-radius: 6px; }
+
+/* logolar */
+.logo-m, .logo-k, .logo-b { display: inline-grid; place-items: center; flex: none; }
+.logo-m svg, .logo-k svg, .logo-b svg { fill: currentColor; width: 100%; height: 100%; }
+.logo-k { width: 16px; height: 16px; color: var(--soluk); }
+.logo-m { width: 40px; height: 40px; color: var(--yazi); }
+.logo-b { width: 64px; height: 64px; color: var(--yazi); padding: 12px; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 16px; box-shadow: var(--golge); }
+.harfli { font-family: var(--f-baslik); font-weight: 800; letter-spacing: .02em; background: var(--yuzey-2); border-radius: 50%; color: var(--soluk); }
+.logo-k.harfli { font-size: 0.5rem; }
+.logo-m.harfli { font-size: 0.85rem; }
+.logo-b.harfli { font-size: 1.25rem; border-radius: 16px; }
+.markalar { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 9.5rem), 1fr)); }
+.markalar a { display: grid; justify-items: center; gap: 8px; padding: 18px 10px 14px; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 14px; color: var(--yazi); text-align: center; box-shadow: var(--golge); transition: border-color .15s, box-shadow .15s; }
+.markalar a:hover { text-decoration: none; border-color: var(--ana); box-shadow: var(--golge-2); }
+.mrk-ad { font-weight: 600; font-size: 0.93rem; line-height: 1.3; }
+.mrk-say { font-size: 0.8rem; color: var(--soluk); margin-top: -6px; }
+
+.nasil-ic { display: grid; gap: 14px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 16rem), 1fr)); }
+.nasil-ic > div { background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 14px; padding: 20px; display: grid; gap: 6px; align-content: start; box-shadow: var(--golge); }
+.nasil-ic p { margin: 0; color: var(--soluk); font-size: 0.94rem; }
+.nasil-ikon { width: 32px; height: 32px; border-radius: 50%; display: grid; place-items: center; background: var(--ana-acik); color: var(--ana); font-weight: 700; margin-bottom: 4px; }
+
+/* model sayfası */
+.iz { display: flex; flex-wrap: wrap; align-items: center; gap: 4px 8px; font-size: 0.88rem; color: var(--soluk); }
+.iz a { color: var(--soluk); }
+.model-bas { display: grid; grid-template-columns: minmax(0, 22rem) minmax(0, 1fr); gap: 20px 28px; align-items: center; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 20px; padding: 18px; box-shadow: var(--golge); }
+.model-bas .gorsel { border-radius: 14px; }
+.model-bilgi { display: grid; gap: 8px; align-content: center; }
+.model-marka { display: inline-flex; align-items: center; gap: 8px; font-weight: 600; font-size: 0.92rem; color: var(--soluk); justify-self: start; }
+.model-marka .logo-k { width: 20px; height: 20px; color: var(--yazi); }
+.model-meta { margin: 0; display: flex; flex-wrap: wrap; color: var(--soluk); font-size: 0.95rem; }
+.model-meta span + span::before { content: "·"; margin-inline: 8px; }
+.ozet { list-style: none; margin: 6px 0 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 7.5rem)); gap: 10px; }
+.ozet li { min-width: 0; padding: 10px 14px; border-radius: 12px; background: var(--yuzey-2); border: 1px solid var(--cizgi); display: grid; }
+.ozet b { font-family: var(--f-baslik); font-size: 1.5rem; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.ozet span { font-size: 0.82rem; color: var(--soluk); }
+.ozet li[data-risk="yuksek"] b { color: var(--yuksek); }
+.ozet li[data-risk="orta"] b { color: var(--orta); }
+.ozet li[data-risk="dusuk"] b { color: var(--dusuk); }
+.ince { margin: 0; padding: 12px 16px; background: var(--ana-acik); border-radius: 12px; font-size: 0.93rem; color: var(--yazi); }
+.suzgec { display: flex; flex-wrap: wrap; gap: 16px 32px; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 16px; padding: 16px 18px; box-shadow: var(--golge); }
+.suz-grup { border: 0; margin: 0; padding: 0; min-width: 0; display: grid; gap: 8px; align-content: start; flex: 1 1 22rem; }
+.suz-km { flex: 0 1 18rem; }
+.suz-grup legend { font-weight: 600; font-size: 0.82rem; letter-spacing: .04em; text-transform: uppercase; color: var(--soluk); padding: 0; margin-bottom: 8px; }
+.km-girdi { display: flex; align-items: center; border: 1px solid var(--cizgi-koyu); border-radius: 10px; background: var(--yuzey); }
+.km-girdi:focus-within { border-color: var(--ana); box-shadow: 0 0 0 4px color-mix(in srgb, var(--ana) 18%, transparent); }
+.km-girdi input { flex: 1; min-width: 0; font: inherit; font-variant-numeric: tabular-nums; padding: 9px 12px; border: 0; background: transparent; color: var(--yazi); outline: none; }
+.km-girdi span { padding-right: 12px; color: var(--soluk); }
+.kutucuk { display: inline-flex; gap: 8px; align-items: center; font-size: 0.9rem; cursor: pointer; }
+.kutucuk input { width: 17px; height: 17px; accent-color: var(--ana); }
+.liste-bas { display: flex; flex-wrap: wrap; align-items: baseline; justify-content: space-between; gap: 4px 16px; margin-bottom: -14px; }
+.liste-durum { margin: 0; font-size: 0.9rem; color: var(--soluk); }
+.kartlar { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
+.kart { background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 14px; padding: 16px 18px; display: grid; gap: 8px; box-shadow: var(--golge); }
+.kart.km-icinde { border-color: var(--ana); box-shadow: 0 0 0 3px color-mix(in srgb, var(--ana) 18%, transparent); }
+.kart-bas { display: flex; align-items: flex-start; justify-content: space-between; gap: 12px; }
+.kart h3 { font-size: 1.05rem; }
+.risk { flex: none; display: inline-flex; align-items: center; gap: 6px; font-size: 0.78rem; font-weight: 600; padding: 3px 10px; border-radius: 999px; white-space: nowrap; }
+.risk::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
 .risk[data-risk="yuksek"] { color: var(--yuksek); background: var(--yuksek-z); }
 .risk[data-risk="orta"] { color: var(--orta); background: var(--orta-z); }
 .risk[data-risk="dusuk"] { color: var(--dusuk); background: var(--dusuk-z); }
-
-/* model sayfası */
-.iz { display: flex; flex-wrap: wrap; gap: 4px 8px; font-size: 0.9rem; color: var(--soluk); }
-.model-bas { display: grid; gap: 6px; }
-.model-marka { margin: 0; font-weight: 700; font-size: 0.85rem; letter-spacing: .08em; text-transform: uppercase; color: var(--usta-yazi); }
-.h1-yil { font-family: var(--f-sayi); font-weight: 500; font-size: 0.42em; letter-spacing: 0; color: var(--soluk); white-space: nowrap; vertical-align: middle; }
-.model-meta { margin: 0; display: flex; flex-wrap: wrap; gap: 4px 0; color: var(--soluk); }
-.model-meta span + span::before { content: "·"; margin-inline: 10px; }
-.model-meta:empty { display: none; }
-.risk-ozet { display: grid; gap: 10px; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 12px; padding: 16px; }
-.rc { display: flex; height: 12px; border-radius: 6px; overflow: hidden; gap: 3px; }
-.rc-parca { flex-basis: 0; min-width: 6px; }
-.rc-parca[data-risk="yuksek"] { background: var(--yuksek-l); }
-.rc-parca[data-risk="orta"] { background: var(--orta-l); }
-.rc-parca[data-risk="dusuk"] { background: var(--dusuk-l); }
-.rc-etiket { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; gap: 6px 20px; font-size: 0.95rem; }
-.rc-etiket li { display: inline-flex; align-items: center; gap: 8px; }
-.ince { margin: 0; padding: 12px 16px; background: var(--usta-zemin); border-radius: 10px; font-size: 0.95rem; }
-.suzgec { display: grid; gap: 14px 28px; grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 12px; padding: 16px 18px; }
-.suzgec:not(:has(.suz-grup + .suz-grup)) { grid-template-columns: minmax(0, 28rem); }
-.suz-grup { border: 0; margin: 0; padding: 0; min-width: 0; display: grid; gap: 8px; align-content: start; }
-.suz-grup legend { font-weight: 700; font-size: 0.95rem; padding: 0; margin-bottom: 8px; }
-.cipler { display: flex; flex-wrap: wrap; gap: 8px; }
-.cip { font: inherit; font-size: 0.92rem; padding: 7px 14px; min-height: 38px; border-radius: 999px; border: 1px solid var(--cizgi); background: var(--zemin); color: var(--murekkep); cursor: pointer; text-align: left; }
-.cip:hover { border-color: var(--murekkep); }
-.cip[aria-pressed="true"] { background: var(--murekkep); color: var(--zemin); border-color: var(--murekkep); }
-.suz-not { margin: 0; font-size: 0.85rem; color: var(--soluk); }
-.km-girdi { display: flex; align-items: center; border: 1px solid var(--cizgi); border-radius: 10px; background: var(--zemin); max-width: 16rem; }
-.km-girdi:focus-within { border-color: var(--murekkep); }
-.km-girdi input { flex: 1; min-width: 0; font-family: var(--f-sayi); font-size: 1.05rem; padding: 9px 12px; border: 0; background: transparent; color: var(--murekkep); outline: none; }
-.km-girdi span { padding-right: 12px; color: var(--soluk); }
-.kutucuk { display: inline-flex; gap: 8px; align-items: center; font-size: 0.92rem; cursor: pointer; }
-.kutucuk input { width: 18px; height: 18px; accent-color: var(--murekkep); }
-.liste-durum { margin: 0; font-size: 0.92rem; color: var(--soluk); }
-.kartlar { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; }
-.kart { background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 14px; padding: 18px 20px; display: grid; gap: 10px; }
-.kart.km-icinde { border-color: var(--usta); box-shadow: 0 0 0 2px var(--usta); }
-.kart-ust { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-.km-uyar { font-size: 0.8rem; font-weight: 700; padding: 3px 10px; border-radius: 999px; background: var(--usta); color: #1c1600; }
-.kart h3 { font-size: clamp(1.1rem, 2.4vw, 1.3rem); }
-.belirti { margin: 0; max-width: 72ch; }
-.kart-alt { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 18rem); gap: 10px 24px; align-items: end; padding-top: 10px; border-top: 1px solid var(--cizgi); }
-.yerler { display: flex; flex-wrap: wrap; gap: 6px; }
-.yer { font-size: 0.82rem; font-family: var(--f-sayi); padding: 2px 8px; border-radius: 6px; background: var(--yuzey-2); }
-.yer-genel { font-family: var(--f-govde); font-weight: 600; }
-.km { display: grid; gap: 4px; }
-.km-yazi { font-size: 0.88rem; color: var(--soluk); }
-.km-sayi { font-family: var(--f-sayi); color: var(--murekkep); font-weight: 500; }
-.km-tasma { font-size: 0.8rem; }
-.km-cizgi { position: relative; height: 8px; border-radius: 4px; background: repeating-linear-gradient(90deg, var(--cizgi) 0 1px, var(--yuzey-2) 1px 20%); }
-.km-aralik { position: absolute; top: 0; bottom: 0; border-radius: 4px; background: var(--murekkep); }
-.kart[data-risk="yuksek"] .km-aralik { background: var(--yuksek-l); }
-.kart[data-risk="orta"] .km-aralik { background: var(--orta-l); }
-.kart[data-risk="dusuk"] .km-aralik { background: var(--dusuk-l); }
-.km-isaret { position: absolute; top: -4px; bottom: -4px; width: 3px; margin-left: -1px; background: var(--murekkep); border-radius: 2px; }
-.km-olcek { display: flex; justify-content: space-between; font-family: var(--f-sayi); font-size: 0.7rem; color: var(--soluk); }
-.km-yok { font-size: 0.88rem; color: var(--soluk); }
-.ortak-not { margin: 0; font-size: 0.88rem; color: var(--soluk); }
-.ortak-etiket { font-weight: 700; color: var(--murekkep); margin-right: 4px; }
-.bos { margin: 0; padding: 18px; text-align: center; color: var(--soluk); background: var(--yuzey); border: 1px dashed var(--cizgi); border-radius: 12px; }
-.bildir { margin: 0; padding: 14px 18px; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 12px; }
-.uyari { margin: 0; font-size: 0.88rem; color: var(--soluk); max-width: 80ch; }
-.kardes { display: grid; gap: 12px; padding-top: 8px; }
+.belirti { margin: 0; color: var(--soluk); max-width: 78ch; }
+.etiketler { display: flex; flex-wrap: wrap; gap: 6px; }
+.etk { font-size: 0.8rem; padding: 3px 9px; border-radius: 7px; background: var(--yuzey-2); color: var(--soluk); font-variant-numeric: tabular-nums; }
+.etk-km { color: var(--yazi); font-weight: 500; }
+.etk-bos { font-style: italic; }
+.etk-uyar { background: var(--ana); color: var(--ana-yazi); font-weight: 600; }
+.ortak-not { margin: 0; font-size: 0.84rem; color: var(--soluk); padding-top: 8px; border-top: 1px dashed var(--cizgi); }
+.bos { margin: 0; padding: 20px; text-align: center; color: var(--soluk); background: var(--yuzey); border: 1px dashed var(--cizgi-koyu); border-radius: 14px; }
+.bildir { margin: 0; padding: 14px 18px; background: var(--ana-acik); border-radius: 14px; }
+.uyari { margin: 0; font-size: 0.85rem; color: var(--soluk); max-width: 90ch; }
 
 /* marka sayfası */
-.model-bloklar { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 20rem), 1fr)); align-items: start; }
-.model-blok { background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 12px; padding: 14px 16px; display: grid; gap: 8px; }
-.model-blok h2 { font-size: 1.35rem; }
-.nesiller { list-style: none; margin: 0; padding: 0; }
-.nesil { display: grid; grid-template-columns: minmax(0, 1fr) auto auto; gap: 0 12px; align-items: baseline; padding: 9px 4px; border-top: 1px solid var(--cizgi); text-decoration: none; }
-.nesil:hover .nesil-ad { text-decoration: underline; }
-.nesil-ad { font-weight: 600; }
-.nesil-yil { font-family: var(--f-sayi); font-size: 0.85rem; color: var(--soluk); grid-row: 2; }
-.nesil-say { font-size: 0.85rem; color: var(--soluk); grid-row: 1 / span 2; align-self: center; }
-.nesil-ok { grid-row: 1 / span 2; align-self: center; font-size: 1.3rem; color: var(--soluk); }
+.marka-bas, .sayfa-bas { display: flex; align-items: center; gap: 18px; }
+.sayfa-bas { display: grid; gap: 6px; }
+.model-bloklar { display: grid; gap: 30px; }
+.model-blok { display: grid; gap: 12px; }
 
 /* metin sayfaları ve alt şerit */
-.metin { max-width: 68ch; }
-.metin h2 { margin: 28px 0 8px; }
-.alt { border-top: 1px solid var(--cizgi); background: var(--yuzey); font-size: 0.9rem; color: var(--soluk); }
-.alt-ic { padding-block: 24px 32px; }
-.alt p { margin: 4px 0; }
-.alt-ad { font-family: var(--f-baslik); font-weight: 800; font-stretch: 112%; color: var(--murekkep); font-size: 1.05rem; }
+.metin { max-width: 70ch; background: var(--yuzey); border: 1px solid var(--cizgi); border-radius: 16px; padding: 8px 24px 20px; }
+.metin h2 { margin: 24px 0 6px; }
+.alt { border-top: 1px solid var(--cizgi); background: var(--yuzey); font-size: 0.88rem; color: var(--soluk); }
+.alt-ic { padding-block: 28px 36px; display: grid; gap: 10px; }
+.alt p { margin: 0; }
+.alt-ad { font-family: var(--f-baslik); font-weight: 800; color: var(--yazi); font-size: 1rem; margin-bottom: 4px !important; }
+.alt-baglanti { display: flex; flex-wrap: wrap; gap: 6px 20px; }
+.alt-baglanti a { color: var(--yazi); font-weight: 500; }
+.alt-not { font-size: 0.8rem; }
 .secilebilir { user-select: all; }
 
-@media (max-width: 720px) {
-  body { font-size: 16px; }
+@media (max-width: 760px) {
   .ust-ara { order: 3; flex-basis: 100%; max-width: none; }
-  .ust-ic { gap: 10px 14px; }
-  .ust-nav { gap: 14px; font-size: 0.88rem; }
-  .logo { font-size: 1.2rem; }
-  .suzgec { grid-template-columns: minmax(0, 1fr); }
-  .kart { padding: 16px; }
-  .kart-alt { grid-template-columns: minmax(0, 1fr); }
+  .ust-nav { gap: 16px; font-size: 0.88rem; }
+  .kahraman { padding: 28px 16px 24px; border-radius: 16px; }
+  .ara-girdi.buyuk { padding-right: 84px; }
+  .ara-dugme { padding: 0 16px; }
+  .model-bas { grid-template-columns: minmax(0, 1fr); padding: 14px; }
+  .kart { padding: 14px; }
+  .kart-bas { flex-direction: column; gap: 6px; }
+  .metin { padding: 4px 16px 16px; }
 }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 """

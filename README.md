@@ -330,6 +330,9 @@ python3 -m http.server 8000 --directory site       # yerelde önizleme: http://l
 python3 scripts/site_uret.py HEDEF --onizleme      # bağlantıları index.html'e giden, dosya olarak gezilebilen önizleme
 ```
 
+- **Görseller:** marka logoları `data/logolar/logolar.json` (Simple Icons, CC0; 29 marka, olmayanlarda baş harf rozeti).
+  Model fotoğrafları `data/gorseller/gorseller.json` ile eklenir (yalnızca açık lisanslı; yazar ve lisans fotoğrafın altında yazar);
+  fotoğrafı olmayan modelde kasa tipine göre çizim gösterilir. Ayrıntı: `data/gorseller/BENIOKU.md`.
 - **Tasarım:** her sayfada üstte araç arama (yazdıkça öneri; "clio5", "egea 2018" gibi yazımlar da tutar); ana sayfada büyük arama,
   marka seçici ve "çok bakılanlar" (`data/site.json` → `populer`); model sayfasında risk özet çubuğu, motor ve kilometre süzgeci ve
   riske göre sıralı tek sorun listesi (her kartta hangi motorda görüldüğü ve 0-250.000 km'lik kilometre çizgisi). Süzgeç JavaScript
