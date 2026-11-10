@@ -1994,6 +1994,24 @@ Motor kayıtları, yılları en çok örtüşen model geneli kaydının kartına
 
 `data/site.json` içine `bildirim_formu` alanı eklendi. Bir form adresi verilince her model sayfasının sonunda model adıyla "Eksik sorunu bildirin" bağlantısı, yalnızca e-posta verilince adres çıkar; ikisi de boşken gösterilmez (`tests/test_site.py`).
 
+## 24. aşama: dil, Caronic adı ve yayın hazırlığı
+
+### Metinlerin yeniden yazımı
+
+Sitede görünen 946 sorunun (kendi kayıtlar ve aile sorunları) adı ve belirtisi `YAZIM.md` kurallarına göre tek tek elden geçirildi. Kaldırılanlar: kaynak ve meta dil ("sahipler bildiriyor", "vakalar var", "şikâyet", "garanti reddi", "ayrı belirti bilgisi yok"), noktalı virgülle dizilmiş isim-fiil listeleri ve 60 karakteri aşan başlıklar. Belirtiler 1–3 tam cümle, geniş zamanla yazıldı. Eski metindeki noktalı her kilometre ve tutar sayısının yeni metinde de geçtiği her partide denetlendi, yeni bilgi eklenmedi. Yazım sırasında yanlış kopyalanmış birkaç belirti düzeltildi. `tests/test_yazim.py` bu kuralları kalıcı olarak denetler. Site, hakkında ve video paylaşım metinleri de aynı dille yeniden yazıldı.
+
+### Ad ve görünüm
+
+Site adı Caronic oldu (`data/site.json`). Gösterge biçimli logo işareti, favicon, uygulama simgeleri ve 1200×630 paylaşım görseli `data/logo` altında; üç konsept çizimi aynı klasörde duruyor.
+
+### Yayın hazırlığı
+
+- Google Fonts yerine Inter ve Manrope siteden veriliyor (`data/fontlar`, OFL). Gizlilik sayfasındaki "ziyaretçi verisi toplanmaz" sözüyle çelişen üçüncü taraf istek kalmadı.
+- `_headers`: CSP (yalnızca kendi dosyaları), nosniff, referrer, çerçeve engeli ve önbellek süreleri.
+- Yeni testler: kırık iç bağlantı, eksik font dosyası, dış sunucuya giden istek, dağıtım dosyaları.
+- `YAYIN.md`: Cloudflare Pages kurulumu, alan adı, kontrol listesi ve yayından önce kullanıcının vermesi gereken kararlar.
+- Gruplama: "Focus (2008-2018)", "Leon 5F", "Polo (6C)" ve Volvo S60 II / V60 / V60 D2 kayıt adları diğer kayıtlarla aynı biçime getirildi, her nesil tek sayfada. Çapası olan grupta sayfa yılları artık model geneli kayıttan geliyor (önce motor kaydı nesil dışına taşınca yıl aralığı da taşıyordu). 455 yerine 450 model sayfası.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
@@ -2014,4 +2032,5 @@ Motor kayıtları, yılları en çok örtüşen model geneli kaydının kartına
 16. **20. aşama sonrası:** (a) Peugeot 301 / C-Elysée ve Crossland X boya atması için ikinci bağımsız site bulunursa kayda çevrilir. (b) Stellantis siyah tavan boyası atması bu aşamada yalnızca arama özetleriyle, sayfalar okunmadan eklendi; Citroën'in ücretsiz onarım ya da değer kaybı tutumuna dair bir forum iddiası (doğrulanmadı) kayıtlara alınmadı.
 17. **21. aşama sonrası:** (a) Derin taramaya sıradaki popüler modellerle devam (ör. Fiat Linea, Renault Symbol / Taliant, Hyundai i30, Toyota C-HR, Peugeot 208 / 2008, Opel Astra K, Skoda Octavia A7, Honda Civic FC5, Nissan Qashqai J11); ilk dalga 188 noindex sayfadan Türkiye'de en çok ilanı olanlarla başlamalı. (b) Clio 5 1.5 Blue dCi ve E-Tech satırları (`sırada`) aranacak. (c) 3008 II cam tavan su alması ve direksiyon kutusu sesi için ikinci bağımsız site bulunursa eklenir. (d) Sitede "eksik sorun bildir" bağlantısı, iletişim adresi açılınca eklenecek.
 18. **22. aşama sonrası:** (a) Derin tarama modele özgü sorunu hiç olmayan 188 sayfaya kaydırılmalı (Türkiye'de ilanı çok olanlardan başlayarak); bu sayfalar şu an dizine kapalı. (b) DonanımHaber model ana konuları sayfa sayfa okunarak (curl ile düz okunabiliyor) tekrar eden şikâyetler çıkarılabilir; yöneticilerin özet mesajları (ör. Astra K kolon kilidi bülteni E172113370) iyi bir ikinci kaynak. (c) Sandero II far / sinyal kolu, Taliant SOS uyarısı ve i30 PD fren desteği geri çağırması için nesle ve Türkiye'ye özgü ikinci kaynak aranabilir.
-19. **23. aşama sonrası:** (a) Yayında gelen "eksik sorun" bildirimleri aynı iki bağımsız kaynak kuralıyla doğrulanıp eklenmeli; bu, aramayla bulunamayan sorunlara ulaşmanın en verimli yolu. (b) Volvo S60 / V60 ve Polo 6C kayıtlarının adları da tek karta girecek biçime getirilebilir (Polo 6C için plan satırlarının eşleşmesi birlikte değiştirilmeli). (c) DonanımHaber model ana konuları `oku.py dh` ile sayfa sayfa okunarak devam edilebilir.
+19. **23. aşama sonrası:** (a) Yayında gelen "eksik sorun" bildirimleri aynı iki bağımsız kaynak kuralıyla doğrulanıp eklenmeli; bu, aramayla bulunamayan sorunlara ulaşmanın en verimli yolu. (b) (24. aşamada yapıldı.) (c) DonanımHaber model ana konuları `oku.py dh` ile sayfa sayfa okunarak devam edilebilir.
+20. **24. aşama sonrası:** (a) Alan adı, iletişim adresi ve bildirim formu `YAYIN.md` tablosundaki gibi verilince site yayına hazır. (b) Kia Sportage QL (2015-2018) ve QL makyaj / NQ5 (2018-) ayrı sayfalarda; bir QL model geneli kaydı açılırsa birleşir. (c) Lisanslı model fotoğrafları eklenene kadar kasa tipi çizimi gösteriliyor.

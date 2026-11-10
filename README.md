@@ -352,7 +352,11 @@ python3 scripts/site_uret.py HEDEF --onizleme      # bağlantıları index.html'
 - **Ayarlar:** site adı, adresi (canonical, site haritası), slogan ve iletişim e-postası `data/site.json` içindedir; isim ve alan adı
   kesinleşince yalnızca bu dosya değişir.
 - **Yayın:** çıktı tamamen statik HTML ve CSS olduğu için Cloudflare Pages, Netlify ya da GitHub Pages ile ücretsiz barındırılabilir.
-  Derleme komutu `python3 scripts/site_uret.py`, yayın klasörü `site`. Çerez ve ziyaretçi takibi yoktur.
+  Derleme komutu `python3 scripts/site_uret.py`, yayın klasörü `site`. Çerez ve ziyaretçi takibi yoktur. Adım adım kurulum ve
+  yayın sonrası kontrol listesi: `YAYIN.md`.
+- **Dağıtım dosyaları:** `_headers` (CSP ve güvenlik başlıkları, önbellek), yerel yazı tipleri (`data/fontlar`, OFL; üçüncü taraf
+  istek yok), favicon ve paylaşım görseli (`data/logo`). `tests/test_site.py` kırık iç bağlantı, eksik font dosyası ve dış sunucuya
+  giden istek olmadığını denetler; `tests/test_yazim.py` sorun adı ve belirtilerin `YAZIM.md` kurallarına uyduğunu denetler.
 
 ## Doğrulama
 
