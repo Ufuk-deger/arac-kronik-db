@@ -20023,6 +20023,23 @@
           "E-Tech"
         ]
       }
+    },
+    {
+      "marka": "Fiat",
+      "model": "Egea",
+      "yillar": "2015-2021",
+      "motor": "1.6 E-torQ 110 (6 ileri tam otomatik)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Egea ("
+        ],
+        "motor": [
+          "1.6 E-torQ"
+        ]
+      },
+      "not": "Faz 21 derin tarama: Şikâyetvar ve DonanımHaber'de 1.6 E-torQ otomatik için yaygın bir kronik arıza görünmüyor; forumlarda şanzımanın sorunsuz ve uzun ömürlü olduğu yazılıyor. Tekil şikâyetler: 14.000 km'de yağ eksilmesi, akış keçesinden kaçak, yokuşta frenden ayak çekince öne atılma, LPG ayarına bağlı arıza kodları.",
+      "sonuc": "yetersiz-kanit"
     }
   ]
 }

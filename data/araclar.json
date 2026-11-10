@@ -3870,7 +3870,7 @@
       "id": "renault-mercedes-1-3-tce",
       "ad": "Renault / Mercedes 1.3 TCe (Renault H5Ht, Mercedes M282)",
       "tur": "motor",
-      "aciklama": "Renault-Mercedes ortaklığıyla geliştirilen 1.3 litre turbo benzinli motor (Renault H5Ht, Mercedes M282; 136-163 PS). Renault ve Dacia 1.3 TCe modellerinde ve Mercedes A, B, CLA, GLA, GLB ile Citan'ın benzinli sürümlerinde bulunur. Sorun And Çetin'in Mercedes'teki Renault motorları yazısından derlenmiştir.",
+      "aciklama": "Renault-Mercedes ortaklığıyla geliştirilen 1.3 litre turbo benzinli motor (Renault H5Ht, Mercedes M282; 136-163 PS). Renault ve Dacia 1.3 TCe modellerinde ve Mercedes A, B, CLA, GLA, GLB ile Citan'ın benzinli sürümlerinde bulunur. Termostat gövdesi ve su pompası kaynaklı soğutma suyu kaçakları birden çok modelde bildiriliyor.",
       "kronik_sorunlar": [
         {
           "id": "termostat-govdesi",
@@ -3885,6 +3885,26 @@
           "kaynaklar": [
             "https://andcetin.com/renault-motorlu-mercedesler-ve-uzak-durulmas-gerekenler-45/",
             "https://andcetin.com/kronigin-elli-tonu-107/"
+          ]
+        },
+        {
+          "id": "su-pompasi",
+          "sorun_adi": "Su pompası (devirdaim) kaçağı ve arızası: soğutma suyu eksilmesi ve hararet",
+          "etkilenen_parca": "Su pompası, termostat ve soğutma hattı",
+          "belirtiler": "Soğutma suyunun sürekli azalması, hararet göstergesinin ara ara yükselip düşmesi, kaynama sesi; pompanın kaçırması ya da patlaması; değişimden sonra yeniden arızalanan ve garanti kapsamı dışında bırakılan vakalar.",
+          "tahmini_km_araligi": "20.000 - 100.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da Megane 4 1.3 TCe sahipleri su pompasının patlayıp motorun hararet yaptığını (2023 model bir araçta motor değişimi için yüksek ücret istendiği ve garantinin 'kullanıcı hatası' denilerek reddedildiği), 75.000 km'de kaçırmaya başlayan pompanın 21.000 km sonra yeniden patladığını ve 2020 model bir araçta 20.000 km'den beri suyun eksildiğini yazıyor. Clio 5 1.3 TCe'de de termostat ve su pompası birlikte değişiyor. DonanımHaber'deki Megane 4 kronik sorunlar başlığında bu motorun su pompasının dayanıksız olduğu yazılıyor; Ekşi Sözlük'te 65.000 km'de su pompası ve termostat değişen bir Clio 5 1.3 TCe anlatılıyor.",
+            "teshis": "Soğutma sistemi basınç testi; su pompası contası, termostat gövdesi ve hortum bağlantılarında kaçak izi kontrolü.",
+            "onlem": "Soğutma suyu seviyesini her bakımda ve uzun yol öncesi kontrol edin; hararet uyarısında motoru hemen durdurun (motor hasarı riski). Kilometre aralığı kaynaklardaki 20.000, 65.000, 75.000 ve 96.000 km vakalarından kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/renault-megane-4-su-pompasi-garanti-sorunu",
+            "https://www.sikayetvar.com/renault/renault-megane-su-pompasi-arizasi-garanti-kapsami-reddi-ve-asiri-ucret-talebi",
+            "https://www.sikayetvar.com/renault/renault-clio-5te-kronik-termostat-arizasi-icin-yuksek-tespit-ucreti-magduriyeti",
+            "https://forum.donanimhaber.com/renault-megane-4-alacaklar-okusun--151709162",
+            "https://eksisozluk.com/renault-clio-5--5922223?p=18"
           ]
         }
       ]
@@ -10987,6 +11007,40 @@
           },
           "kaynaklar": [
             "https://andcetin.com/500-bin1-milyon-tl-aras-en-sorunsuz-arabalar-92/"
+          ]
+        },
+        {
+          "sorun_adi": "Cam krikosu / cam mekanizması arızası: camın kapı içine düşmesi",
+          "etkilenen_parca": "Elektrikli cam krikosu, camı tutan plastik ve metal bağlantı parçaları",
+          "belirtiler": "Camın kapı içine düşmesi ya da yerinden kayması; elle yerine takılsa da tutmaması; camlar çalışırken ses; soğuk havada kriko plastiğinin kırılması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da Egea sahipleri sağ ve sol camın kapı içine düştüğünü, bir camcının camı tutan plastik parçanın zamanla sıyrıldığını ve bunun Egea'larda bilinen bir sorun olduğunu söylediğini yazıyor; 2017 model bir araçta sorunun yeni modellerde mekanizma değişikliğiyle giderildiği aktarılıyor. Ekşi Sözlük'te bir sahip camın içe düştüğünü ve servisin, içeri giren yağmur suyunun camı tutan metal parçayı paslandırıp kopardığını söylediğini anlatıyor. DonanımHaber'de ön camların çalışırken ses yaptığı şikâyeti var.",
+            "onlem": "İkinci el alırken tüm camları birkaç kez tam açıp kapatın; camın yamuk ya da sesli çalışması mekanizma yıpranmasına işaret edebilir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/cam/egea",
+            "https://www.sikayetvar.com/fiat/fiat-egea-sag-ve-sol-cam-kapi-icine-dustu",
+            "https://eksisozluk.com/fiat-egea-hatchback--5053142?p=2",
+            "https://forum.donanimhaber.com/egea-forumu-karismis-egea-nin-bitmek-bilmeyen-sorunlari--140158367"
+          ]
+        },
+        {
+          "sorun_adi": "Direksiyon kutusundan tıkırtı ve ses",
+          "etkilenen_parca": "Direksiyon kutusu, z rot ve ön takım bağlantıları",
+          "belirtiler": "Direksiyon çevrilirken ve çukurdan geçerken tıkırtı ya da takırtı; bazı araçlarda direksiyonun sertleşmesi; yaklaşık 19.000-40.000 km'de başlayan ve garanti kapsamında direksiyon kutusu değişimiyle giderilen vakalar.",
+          "tahmini_km_araligi": "19.000 - 40.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da Egea ve Egea Cross sahipleri 19.000-40.000 km'de direksiyon kutusundan ses geldiğini, yetkili servislerin bir kısmının kutuyu arızalı bulup değiştirdiğini, bir kısmının sesi başka parçalara bağladığını yazıyor. DonanımHaber'de 2017 Egea'da direksiyon sertleşmesi ve takırtı (salıncak değişimi önerilmiş) ve başka bir araçta z rottan kaynaklanan boşluk sesi anlatılıyor; ön takım sesinin kaynağı araçtan araca değişiyor.",
+            "teshis": "Araç kaldırılarak direksiyon kutusu bağlantıları, z rot, rotil ve salıncak burçları ayrı ayrı kontrol edilmeli.",
+            "onlem": "Test sürüşünde direksiyonu dururken ve düşük hızda tam kilitten kilide çevirip ses dinleyin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/fiat/egea/direksiyon-arizasi",
+            "https://www.sikayetvar.com/fiat/egea-cross/direksiyon-kutusu",
+            "https://forum.donanimhaber.com/egea-2017-direksiyon-sertlesmesi-ve-takirti-sesi--160418963",
+            "https://forum.donanimhaber.com/egea-sol-onden-gelen-ses-hk--161686900"
           ]
         }
       ]
@@ -21910,7 +21964,7 @@
             "https://www.sikayetvar.com/renault/clio/termostat",
             "https://eksisozluk.com/renault-clio-5--5922223?p=18"
           ],
-          "aile_sorunu": "renault-mercedes-1-3-tce/termostat-govdesi"
+          "aile_sorunu": "renault-mercedes-1-3-tce/su-pompasi"
         }
       ],
       "aileler": [
@@ -22521,6 +22575,37 @@
             "https://www.sikayetvar.com/renault/renault-multimedya-ekrani-sorunu-video",
             "https://forum.donanimhaber.com/yeni-sorun-renault-megane-4-ve-yasadigim-problemler-yeni-guncelleme-c-led-sararmasi--134898560",
             "https://forum.donanimhaber.com/megane-4-bluetooth-baglanti-sorunu--145390496"
+          ]
+        },
+        {
+          "sorun_adi": "Bagaja ve stepne yuvasına su girmesi",
+          "etkilenen_parca": "Arka stop lambası contaları, bagaj fitili ve stepne havuzu tahliyesi",
+          "belirtiler": "Yağmurdan ya da yıkamadan sonra bagajda ve stepne havuzunda su birikmesi; ıslak bagaj halısı ve koku; garanti bittikten sonra onarımın ücretli yapılması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2018-2025 model Megane 4 sahipleri bagajda ve stepne havuzunda su birikmesini bildiriyor; bir sahip bunun Megane 4'lerde kronik olduğunu yazıyor, birine garanti bitiminden bir ay sonra fark edildiği için onarım ücretli önerilmiş. DonanımHaber'deki Megane 4 bagaj su alma başlığında suyun en sık arka stop contalarından ve tıkanan stepne havuzu tahliyelerinden girdiği anlatılıyor.",
+            "teshis": "Bagaj boşaltılıp araç yıkanarak suyun girdiği yer izlenir; önce stop lambası contaları ve tahliye delikleri kontrol edilir.",
+            "onlem": "İkinci el alırken stepne havuzunu kaldırıp nem, pas ve su izi kontrol edin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/renault-megane-4te-bagaj-su-almasi-ve-ekran-sorunu-yetkili-servisten-yardim-alinamiyor",
+            "https://www.sikayetvar.com/renault/megane/kronik",
+            "https://forum.donanimhaber.com/megane-4-bagaj-su-aliyor--155506009"
+          ]
+        },
+        {
+          "sorun_adi": "Kabine rüzgar sesi ve trim sesleri",
+          "etkilenen_parca": "Kapı fitilleri, iç trim parçaları (kapılar, tavan, ön cam çevresi, gösterge paneli)",
+          "belirtiler": "100 km/s üzerinde kapı fitillerinden belirgin rüzgar sesi; kötü yolda düşük hızda bile kapılar, tavan, iç dikiz aynası çevresi ve gösterge panelinden tıkırtı; servislerin sesi kısmen azaltıp çözmemesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2019-2023 model Megane 4 sahipleri 100 km/s sonrasında rüzgar ve motor sesinden, kapı fitillerinden rüzgar girmesinden ve kapı, tavan ve ön cam çevresinden gelen trim seslerinden yakınıyor; bazı bayiler bunu normal saymış. DonanımHaber'de Megane 4'ün kalite sorunları başlığında trim sesleri, rüzgar sesi ve zayıf yalıtım sık tekrarlanıyor.",
+            "onlem": "Test sürüşünü bozuk yolda ve otoyol hızında yapın."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/renault-megane-4-ruzgar-ve-motor-sesi-problemi",
+            "https://www.sikayetvar.com/renault/megane/trim",
+            "https://forum.donanimhaber.com/megane-4-cok-mu-kalitesiz--148182826"
           ]
         }
       ]
