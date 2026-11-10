@@ -186,6 +186,23 @@ def iletisim_html(ayar):
     return "İletişim adresi yakında eklenecek"
 
 
+def dizinlenir(g):
+    """Arama motorlarına yalnızca modele özgü en az bir sorunu olan sayfalar verilir; yalnızca ortak motor / şanzıman
+    sorunlarından oluşan sayfalar başka sayfaların tekrarı olduğu için noindex ve site haritası dışında kalır."""
+    return g["ozgu_say"] > 0
+
+
+def ince_notu(g):
+    if g["ozgu_say"] == 0:
+        metin = ("Bu model henüz derinlemesine taranmadı. Aşağıdaki sorunlar aynı motoru ya da şanzımanı kullanan "
+                 "başka modellerde de görülen ortak sorunlardır; modele özgü sorunlar eklendikçe liste genişleyecek.")
+    elif g["ozgu_say"] == 1:
+        metin = "Bu model için tarama sürüyor; liste eksik olabilir."
+    else:
+        return ""
+    return f'<p class="ince">{e(metin)}</p>'
+
+
 def risk_rozeti(risk):
     return f'<span class="risk" data-risk="{RISK_ANAHTAR[risk]}">{e(risk)} risk</span>'
 
@@ -263,6 +280,7 @@ def uret(hedef=VARSAYILAN_HEDEF):
         g["yol"] = aday
         g["yil"] = yil_etiketi(g["yb"], g["ye"])
         g["sorun_say"] = sum(len(k["sorunlar"]) for k in g["kayitlar"])
+        g["ozgu_say"] = sum(1 for k in g["kayitlar"] for _, f in k["sorunlar"] if f is None)
         markalar.setdefault(g["marka"], {"yol": m, "gruplar": []})["gruplar"].append(g)
 
     if hedef.exists():
@@ -271,11 +289,12 @@ def uret(hedef=VARSAYILAN_HEDEF):
     (hedef / "stil.css").write_text(STIL, encoding="utf-8")
     sayfalar = []
 
-    def yaz(yol, icerik):
+    def yaz(yol, icerik, dizinle=True):
         p = hedef / yol / "index.html" if yol else hedef / "index.html"
         p.parent.mkdir(parents=True, exist_ok=True)
         p.write_text(icerik, encoding="utf-8")
-        sayfalar.append(adres + (yol + "/" if yol else ""))
+        if dizinle:
+            sayfalar.append(adres + (yol + "/" if yol else ""))
 
     # model sayfaları
     for g in gruplar:
@@ -304,6 +323,7 @@ def uret(hedef=VARSAYILAN_HEDEF):
         govde = f"""{yol_izi}
 <h1>{e(g['marka'])} {e(g['taban'])} <span class="h1-yil">{e(g['yil'])}</span> kronik sorunları</h1>
 {ozet}
+{ince_notu(g)}
 {icindekiler}
 {bolumler}
 <p class="uyari">{e(UYARI)}</p>
@@ -313,8 +333,10 @@ def uret(hedef=VARSAYILAN_HEDEF):
             {"@type": "ListItem", "position": 2, "name": g["marka"], "item": adres + markalar[g["marka"]]["yol"] + "/"},
             {"@type": "ListItem", "position": 3, "name": f"{g['taban']} {g['yil']}", "item": adres + g["yol"] + "/"}]}, ensure_ascii=False)
         iz_ld = iz_ld.replace("</", "<\\/")
-        yaz(g["yol"], sayfa(ayar, 2, baslik, aciklama, govde, adres + g["yol"] + "/",
-                            f'<script type="application/ld+json">{iz_ld}</script>\n'))
+        ekbas = f'<script type="application/ld+json">{iz_ld}</script>\n'
+        if not dizinlenir(g):
+            ekbas = '<meta name="robots" content="noindex, follow">\n' + ekbas
+        yaz(g["yol"], sayfa(ayar, 2, baslik, aciklama, govde, adres + g["yol"] + "/", ekbas), dizinle=dizinlenir(g))
 
     # marka sayfaları
     for marka, b in markalar.items():
@@ -489,6 +511,7 @@ h2 { font-size: 1.6rem; margin: 32px 0 12px; }
 .ortak[open] > summary { margin-bottom: 4px; }
 .ortak-bas { margin: 10px 0 0; padding-top: 10px; border-top: 1px solid var(--line); font-weight: 600; font-size: 0.95rem; color: var(--muted); }
 .uyari { margin-top: 22px; padding: 12px 16px; border: 1px dashed var(--line); border-radius: 10px; font-size: 0.92rem; color: var(--muted); }
+.ince { margin: 4px 0 16px; padding: 10px 14px; border-left: 4px solid var(--accent); background: var(--accent-soft); border-radius: 6px; font-size: 0.95rem; }
 .kardes ul, .model-liste, .marka-liste, .marka-kisa, .sonuclar { list-style: none; padding: 0; margin: 0; }
 .kardes li { display: inline-block; margin: 0 10px 8px 0; }
 .model-liste, .marka-liste, .sonuclar { display: grid; gap: 8px; grid-template-columns: repeat(auto-fill, minmax(min(100%, 17rem), 1fr)); }
@@ -516,7 +539,7 @@ h2 { font-size: 1.6rem; margin: 32px 0 12px; }
 def main():
     hedef = Path(sys.argv[1]) if len(sys.argv) > 1 else VARSAYILAN_HEDEF
     o = uret(hedef)
-    print(f"{hedef} yazıldı: {o['model']} model sayfası, {o['marka']} marka, toplam {o['sayfa']} sayfa.")
+    print(f"{hedef} yazıldı: {o['model']} model sayfası, {o['marka']} marka; site haritasında (dizinlenen) {o['sayfa']} sayfa.")
 
 
 if __name__ == "__main__":

@@ -72,6 +72,22 @@ class SiteTest(unittest.TestCase):
         harita = (self.hedef / "sitemap.xml").read_text(encoding="utf-8")
         self.assertEqual(harita.count("<loc>"), self.ozet["sayfa"])
 
+    def test_ince_sayfalar_dizinlenmez(self):
+        """Modele özgü sorunu olmayan sayfa noindex taşır ve site haritasında yer almaz; diğerleri tersine."""
+        harita = (self.hedef / "sitemap.xml").read_text(encoding="utf-8")
+        gruplar = site_uret.grupla(site_uret.kayitlari_kur(self.veri))
+        ince = 0
+        for p, html in self.sayfalar.items():
+            parca = p.relative_to(self.hedef).parts
+            if len(parca) != 3:
+                continue
+            yol = "/".join(parca[:2]) + "/"
+            noindex = 'name="robots" content="noindex' in html
+            self.assertEqual(noindex, f"/{yol}</loc>" not in harita, p)
+            self.assertEqual(noindex, 'class="ince"' in html and "derinlemesine taranmadı" in html, p)
+            ince += noindex
+        self.assertEqual(ince, sum(1 for g in gruplar if not any(f is None for k in g["kayitlar"] for _, f in k["sorunlar"])))
+
 
 if __name__ == "__main__":
     unittest.main()

@@ -811,6 +811,14 @@
       "guven": "orta",
       "ana_sayfa": "https://carverif.fr/",
       "not": "Fransızca güvenilirlik incelemeleri (motor ve nesil bazında puan ve bilinen sorunlar). Editoryal derleme; tek tek vaka anlatımı değil."
+    },
+    "autodoc.co.uk": {
+      "ad": "AUTODOC (İngiltere)",
+      "ulke": "GB",
+      "tur": "editoryal",
+      "guven": "orta",
+      "ana_sayfa": "https://www.autodoc.co.uk/",
+      "not": "Yedek parça satıcısının model bazlı bilinen sorun ve bakım rehberleri. Editoryal derleme; tek tek vaka anlatımı değil, satıcı olduğu için tek başına yeterli sayılmaz."
     }
   }
 }

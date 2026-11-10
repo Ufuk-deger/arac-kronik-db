@@ -26890,6 +26890,36 @@
             "https://forum.donanimhaber.com/golf-7-bagaj-gol-olma-sorunu--121546108",
             "https://www.sikayetvar.com/volkswagen/golf/kronik"
           ]
+        },
+        {
+          "sorun_adi": "Far ve sis farlarında buğulanma; bi-xenon far merceklerinde lekelenme ve matlaşma",
+          "etkilenen_parca": "Far gövdesi contaları ve havalandırması, bi-xenon projektör merceği",
+          "belirtiler": "Yağmur ya da yıkama sonrası far ve sis farı içinde buğu; bi-xenon farlı araçlarda mercekte leke, bulanıklık ve zamanla zayıflayan ışık.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "DonanımHaber'deki Golf 7 sorun listesinde far ve sislerde buğulanma ile 2015 model bi-xenon farlarda mercek lekelenmesi / kararması ayrı maddeler olarak geçiyor. Almanya'da AutoBild, Golf 7 sahiplerinin bi-xenon farlarda mercek ve camların bulanıklaştığını bildirdiğini yazıyor ve merceğin nasıl temizlendiğini anlatıyor.",
+            "teshis": "Farın içinde nem damlacığı, mercekte leke ya da sarımsı bulanıklık olup olmadığına gün ışığında bakın.",
+            "onlem": "Bi-xenon farlı araçta far gövdesi pahalıdır; satın alırken iki farı karşılaştırın."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/golf-7-nin-kronik-sorunlari-27-kronik-sorun--139238714",
+            "https://www.autobild.de/artikel/vw-golf-7-probleme-mit-flecken-beim-xenon-licht-16323573.html",
+            "https://www.autobild.de/artikel/golf-7-probleme-mit-bi-xenon-scheinwerfern---und-wie-man-linsen-reinigt-16379616.html"
+          ]
+        },
+        {
+          "sorun_adi": "Arka akstan ve süspansiyondan gelen tıkırtı, 'lok lok' sesi (soğukta artan)",
+          "etkilenen_parca": "Çok bağlantılı arka aks, arka amortisörler ve süspansiyon burçları",
+          "belirtiler": "Bozuk yolda ve kasiste arka taraftan tıkırtı ve 'lok lok' sesi; havalar soğuyunca artan süspansiyon gıcırtısı; servisin burçları yağlayarak ya da amortisör değiştirerek çözmeye çalışması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "DonanımHaber'deki Golf 7 sorun listesinde soğukta artan süspansiyon sesleri (serviste burçlara özel yağ sürüldüğü) ve arka taraftan gelen 'lok lok' sesler ayrı maddeler; başlıkta Golf ve Passat kullanıcıları arka taraftan gelen sesi doğruluyor. AUTODOC'un Golf 7 rehberi, çok bağlantılı arka akslı Golf 7'lerde arka akstan gelen tıkırtının yaygın olduğunu ve çoğunlukla arka amortisörlerden kaynaklandığını, üreticinin bunu araç karakteristiği saydığını yazıyor.",
+            "onlem": "Test sürüşünde bozuk zeminde camlar kapalıyken arka tarafı dinleyin. Ses çoğu zaman güvenlik sorunu değildir, konfor sorunudur."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/golf-7-nin-kronik-sorunlari-27-kronik-sorun--139238714",
+            "https://www.autodoc.co.uk/info/vw-golf-7-rear-axle-making-noises"
+          ]
         }
       ]
     },
