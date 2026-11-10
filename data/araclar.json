@@ -1645,6 +1645,33 @@
       ]
     },
     {
+      "id": "ford-8f-8-ileri-otomatik",
+      "ad": "Ford 8 ileri tork konvertörlü otomatik şanzıman (8F35 / 8F24)",
+      "tur": "sanziman",
+      "aciklama": "Ford'un 2018 sonrası Focus 4 ve Kuga 3'ün otomatik sürümlerinde (1.5 EcoBoost ve 1.5 EcoBlue) kullandığı 8 ileri tork konvertörlü otomatik şanzıman. Yalnızca otomatik şanzımanlı araçları ilgilendirir; manuel sürümlerde bu sorun yoktur.",
+      "kronik_sorunlar": [
+        {
+          "id": "tork-konvertor-dalgalanma",
+          "sorun_adi": "Tork konvertörü kaynaklı devir dalgalanması, vites geçişlerinde vuruntu ve titreme",
+          "etkilenen_parca": "Tork konvertörü ve şanzıman kontrol yazılımı",
+          "belirtiler": "Düşük hızlarda ve dur-kalk trafikte vites geçişlerinde vuruntu, sarsıntı ve titreme; sabit hızda devir dalgalanması; bazı araçlarda sıfırken ilk günden başlıyor; serviste tork konvertörü ya da komple şanzıman değişimi.",
+          "tahmini_km_araligi": "0 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da Focus sahipleri 8 ileri 8F35 şanzımanın tork konvertörünün kronik sorunlu olduğunu, parçanın işçilik hariç 42.000 TL tuttuğunu, 2024 model sıfır 1.5 EcoBlue otomatikte ilk günden düşük hız vites geçişlerinde vuruntu olduğunu ve özel servislerin bunu Focus'larda kronik saydığını yazıyor. DonanımHaber'deki Focus 4 ana konusunda ilk 8 ilerilerde dalgalanmanın kronik olduğu, garantideki araçlarda çoğu servisin şanzımanı değiştirdiği ve tork konvertörünün sorunlu bulunduğu anlatılıyor; bazı araçlarda yağ değişimi fayda etmiş.",
+            "teshis": "Yol testinde düşük hızda ve hafif gazda vites geçişleri ile sabit hızda devir dalgalanmasının izlenmesi; şanzıman hata kodları.",
+            "onlem": "İkinci el otomatik Focus 4 / Kuga 3'te servis kaydında şanzıman ya da tork konvertörü değişimi olup olmadığını sorun. Kilometre aralığı kaba tahmindir: şikâyetler sıfır araçtan birkaç yıllık araçlara kadar uzanıyor."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/ford/focus/focus-8-ileri-sanziman",
+            "https://www.sikayetvar.com/ford/ford-focusta-tork-konvektor-sorunu-ve-musteri-magduriyeti",
+            "https://www.sikayetvar.com/ford/ford-focus-2019-sanziman-sorunu",
+            "https://forum.donanimhaber.com/ford-focus-4-focus-mk4-2018-ve-sonrasi--104503682"
+          ]
+        }
+      ]
+    },
+    {
       "id": "ford-dps6-powershift",
       "ad": "Ford / Volvo DPS6 Powershift (6 ileri kuru çift kavramalı)",
       "tur": "sanziman",
@@ -9781,6 +9808,60 @@
     },
     {
       "marka": "Dacia",
+      "model": "Duster (2018-2024)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2018,
+        "bitis": 2024
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Kabine su girmesi (gaz pedalı bölgesi, arka kapılar, kapı ve cam çıtaları)",
+          "etkilenen_parca": "Kapı ve cam fitilleri, kapı çıtaları, ön bölme geçişleri",
+          "belirtiler": "Yağmurda gaz pedalı tarafında ve arka kapılardan kabine su girmesi; ıslak taban halısı; servise rağmen sızıntının sürmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2018 sonrası Duster sahipleri yağmurda gaz pedalı bölgesinden ve arka kapılardan su girdiğini, servisin garanti kapsamında sorunu çözemediğini yazıyor. DonanımHaber'deki yeni Duster başlığında aracın genel olarak içeri su alma sorunu olduğu ve bunun kapı ve cam çıtalarından kaynaklandığı belirtiliyor.",
+            "onlem": "Satın almadan önce taban halısını ve stepne havuzunu nem ve su izi için kontrol edin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/dacia/dacia-dusterta-su-sizmasi-ve-elektrik-sesleri",
+            "https://www.sikayetvar.com/dacia/duster/su",
+            "https://forum.donanimhaber.com/yeni-dacia-duster-hakkinda--151732489"
+          ]
+        },
+        {
+          "sorun_adi": "Tavan ile bagaj birleşiminde boya çatlağı ve kapı fitili altında pas",
+          "etkilenen_parca": "Tavan su oluğu, tavan-bagaj kapağı birleşimi ve kapı altı sacları",
+          "belirtiler": "Arka tavan ile bagaj birleşim yerinde ve tavan su oluğunda boya çatlakları; kapı fitillerinin altında pas başlangıcı.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2018 model Duster'larda tavan su oluğunda boya çatlakları bildiriliyor. DonanımHaber'deki bir sahibin açtığı dava sürecinde arka tavan ile bagaj birleşim yerindeki boya çatlakları ve kapı fitili altındaki paslanma kronik sorun olarak anılıyor.",
+            "onlem": "Bagaj kapağının üst kenarını ve kapı fitillerinin altını kaldırarak kontrol edin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/dacia/duster/kronik",
+            "https://forum.donanimhaber.com/sorunu-cozemeyen-yetkili-servis-dacia-duster-dava-acildi-bilirkisi-raporu-geldi--124529419"
+          ]
+        },
+        {
+          "sorun_adi": "Manuel şanzımanda 3.-6. viteslerde uğultu (özellikle 4x4)",
+          "etkilenen_parca": "Manuel şanzıman ve aktarma organları",
+          "belirtiler": "90-130 km/s aralığında ve 3., 4., 5., 6. viteslerde belirgin uğultu; servisin sesi normal saydığı vakalar; bir sıfır araçta 5.000 km'de başlayıp bilirkişinin gizli ayıp saydığı uğultu.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2018 sonrası 4x4 Duster sahipleri özellikle 90-130 km/s aralığında vites / şanzıman uğultusundan yakınıyor ve servisin bunu normal kabul ettiğini yazıyor. DonanımHaber'deki dava başlığında sıfır bir Duster'da 5.000 km civarında 3.-6. viteslerde başlayan uğultu için açılan davada bilirkişinin aracı gizli ayıplı bulduğu anlatılıyor.",
+            "onlem": "Test sürüşünde her viteste 90-130 km/s aralığında uğultu olup olmadığını dinleyin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/dacia/4x4/ses",
+            "https://forum.donanimhaber.com/sorunu-cozemeyen-yetkili-servis-dacia-duster-dava-acildi-bilirkisi-raporu-geldi--124529419"
+          ]
+        }
+      ]
+    },
+    {
+      "marka": "Dacia",
       "model": "Duster (2019-2024)",
       "motor": "1.3 TCe 130/150 (EDC)",
       "uretim_yillari": {
@@ -12197,7 +12278,8 @@
       },
       "kronik_sorunlar": [],
       "aileler": [
-        "ford-1-5-ecoboost"
+        "ford-1-5-ecoboost",
+        "ford-8f-8-ileri-otomatik"
       ]
     },
     {
@@ -12255,6 +12337,7 @@
         }
       ],
       "aileler": [
+        "ford-8f-8-ileri-otomatik",
         "psa-dv5-1-5-bluehdi"
       ]
     },
@@ -13921,6 +14004,20 @@
           },
           "kaynaklar": [
             "https://andcetin.com/hyundai-i20-bayon-kronik-sorunlar-79/"
+          ]
+        },
+        {
+          "sorun_adi": "Akünün sebepsiz boşalması (özellikle 2023 makyajlı kasa)",
+          "etkilenen_parca": "Akü ve elektrik sistemi (park halinde tüketim)",
+          "belirtiler": "Bir süre park halinde kalan aracın akünün bitmesi yüzünden çalışmaması; tekrarlayan akü boşalması; servislerin kalıcı çözüm bulamaması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Ekşi Sözlük'te '2023 Hyundai i20 makyajlı kasa akü bitme sorunu' başlığında birden çok sahip aracın sebepsiz yere aküyü boşalttığını ve Hyundai Türkiye'nin adım atmadığını yazıyor. Şikâyetvar'ın i20 kronik sorun sayfalarında da akü boşalması sık tekrarlanan şikâyetler arasında.",
+            "onlem": "Uzun süre park edilecekse aküyü takip edin; ikinci elde akü değişim geçmişini ve park halinde boşalma şikâyeti olup olmadığını sorun."
+          },
+          "kaynaklar": [
+            "https://eksisozluk.com/2023-hyundai-i20-makyajli-kasa-aku-bitme-sorunu--7739535",
+            "https://www.sikayetvar.com/hyundai-motor/i20/kronik"
           ]
         }
       ]
