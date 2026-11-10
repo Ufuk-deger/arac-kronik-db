@@ -4,5 +4,19 @@
   "eposta": "",
   "slogan": "Almadan önce Bilmiş Usta'ya sor: araçların kronik sorunları",
   "tanitim": "Bilmiş Usta, araç bakan herkesin yanında olmasını istediği o usta: hangi motorun hangi kilometrede ne çıkardığını, hangi modelin nereden su aldığını bilir, lafı dolandırmaz. Türkiye'de yaygın araçların bilinen kronik sorunlarını model, yıl ve motora göre tek yerde toplar.",
-  "bildirim_formu": ""
+  "bildirim_formu": "",
+  "populer": [
+    "Fiat|Egea",
+    "Renault|Clio 5",
+    "Renault|Clio 4",
+    "Renault|Megane 4",
+    "Toyota|Corolla",
+    "Volkswagen|Golf 7",
+    "Volkswagen|Passat",
+    "Ford|Focus 4",
+    "Hyundai|i20",
+    "Dacia|Duster",
+    "Peugeot|3008",
+    "Opel|Astra K"
+  ]
 }

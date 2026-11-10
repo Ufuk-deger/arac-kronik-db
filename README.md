@@ -327,8 +327,13 @@ filtreleri gerçek tarayıcıda sürer (arama, yıl, risk, marka ve model, kilom
 ```bash
 python3 scripts/site_uret.py                       # site/ klasörünü üretir
 python3 -m http.server 8000 --directory site       # yerelde önizleme: http://localhost:8000
+python3 scripts/site_uret.py HEDEF --onizleme      # bağlantıları index.html'e giden, dosya olarak gezilebilen önizleme
 ```
 
+- **Tasarım:** her sayfada üstte araç arama (yazdıkça öneri; "clio5", "egea 2018" gibi yazımlar da tutar); ana sayfada büyük arama,
+  marka seçici ve "çok bakılanlar" (`data/site.json` → `populer`); model sayfasında risk özet çubuğu, motor ve kilometre süzgeci ve
+  riske göre sıralı tek sorun listesi (her kartta hangi motorda görüldüğü ve 0-250.000 km'lik kilometre çizgisi). Süzgeç JavaScript
+  olmadan gizlenir, tüm sorunlar yine görünür.
 - **Sayfalar:** her model ve nesil için ayrı sayfa (`/renault/clio-4-2013-2019/`), marka sayfaları, markalar dizini, model aramalı
   ana sayfa, hakkında / yöntem, gizlilik, `sitemap.xml`, `robots.txt` ve `404.html`. Model sayfalarındaki gruplama görüntüleyicideki
   model kartlarıyla aynıdır (önce genel sorunlar, sonra motora özgü bölümler).
