@@ -25966,6 +25966,24 @@
             "https://andcetin.com/tutulmayan-en-iyi-arabalar-115-milyon-tl-75/",
             "https://andcetin.com/115-milyon-tl-aras-en-sorunsuz-arabalar-96/"
           ]
+        },
+        {
+          "sorun_adi": "Frenlerde ıslık ve gıcırtı (balata kaynaklı)",
+          "etkilenen_parca": "Ön fren balataları ve diskler",
+          "belirtiler": "Araç yeniyken ya da ilk aylarda frenlerden ıslık ve gıcırtı; frenden ayak çekerken de duyulabilen ses; balata temizliğinden sonra sesin geri dönmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2019-2021 model Corolla sahipleri araç birkaç günlükken ya da ilk aylarda frenlerin ıslık çaldığını, servislerin balata tozunu temizleyip ya da balataya oluk açıp kalıcı çözüm sağlayamadığını yazıyor; bazılarında garanti kapsamında havalandırma kanallı balatalarla değişim yapılmış. DonanımHaber'deki 2019 Corolla sedan başlığında ıslığın kronik olduğu ve balata değişiminden sonra hafif sürdüğü, Ekşi Sözlük'te deliksiz balata tasarımının sesin kaynağı olduğu yazılıyor (kullanıcı görüşü).",
+            "cozum": "Garanti kapsamında havalandırma kanallı balatalarla değişim; disk kenarındaki setin tornalanması.",
+            "onlem": "Test sürüşünde düşük hızda birkaç kez yumuşak fren yapıp ses dinleyin; servis kaydında balata değişimi olup olmadığını sorun."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/toyota/2020-toyota-corolla-fren-balatasi-sorunu",
+            "https://www.sikayetvar.com/toyota/2021-model-toyota-corolla-balata-sesi",
+            "https://www.sikayetvar.com/toyota/toyota-corolla-2019-balata-sesi",
+            "https://forum.donanimhaber.com/2019-toyota-corolla-sedan--135859281-300",
+            "https://eksisozluk.com/toyota-corolla--37167?p=202"
+          ]
         }
       ]
     },
@@ -27393,6 +27411,32 @@
       "aileler": [
         "vag-1-6-tdi-egr-dpf",
         "vag-dq200"
+      ]
+    },
+    {
+      "marka": "Volkswagen",
+      "model": "Passat (B8, 2015-2023)",
+      "motor": "Tüm motorlar (model geneli)",
+      "uretim_yillari": {
+        "baslangic": 2015,
+        "bitis": 2023
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Yakıt deposu kapağının açılmaması (kapak kilidi motoru arızası, donma)",
+          "etkilenen_parca": "Yakıt deposu kapağı ve kapak kilidi motoru (aktüatör)",
+          "belirtiler": "Benzinlikte yakıt deposu kapağının açılmaması; soğuk havada su alan kilit motorunun donması; araçta elle açma imkânı bulunmadığından kapağın zorlanması ya da kırılması; onarımda kapak ve motorun birlikte değişmesi.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da 2015 model 1.4 TSI ve 2017 model Passat sahipleri depo kapağının benzinlikte açılmadığını, kapağı kilitleyen motorun su alıp donduğunu ve araçta elle açma düzeneği olmadığı için yakıt alamadıklarını yazıyor; bir sahipte motor ayrı satılmadığından kapakla birlikte değişmiş. DonanımHaber'de 'Passat B8 depo kapağı açılmıyor' başlığı var.",
+            "onlem": "Soğuk havada yıkamadan sonra kapağı birkaç kez açıp kapatın; kapak açılmıyorsa zorlamadan yetkili servise başvurun."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/volkswagen/2014-model/depo-kapagi",
+            "https://www.sikayetvar.com/volkswagen/passat?page=12",
+            "https://forum.donanimhaber.com/acil-passat-b8-depo-kapagi-acilmiyor--150902602"
+          ]
+        }
       ]
     },
     {

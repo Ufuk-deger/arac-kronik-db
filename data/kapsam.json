@@ -9617,7 +9617,7 @@
       "kademe": 1,
       "eslesme": {
         "model": [
-          "Passat B8"
+          "Passat (B8, 2015-2023)"
         ],
         "motor": [
           "Tüm motorlar"
@@ -9626,8 +9626,7 @@
           "Passat (B8"
         ]
       },
-      "not": "Şikâyetvar'da cam tavan çerçevesinin kendiliğinden çatlaması ve su sızması (üç yıl sonra aynı sorunun yeniden çıkması, yaklaşık 35 bin TL parça bedeli), tavan kenar çıtası çatlağı, tavan ile ön cam birleşiminde boya atması ve 2015 modelde multimedya Bluetooth ses sorunu çok sayıda şikâyette geçiyor. DonanımHaber'de B8'e özgü ikinci kaynak çıkmadı (2021 Passat'ta 25 bin km'de cam tavan tıkırtısı tek başlık); bu yüzden kayıt açılmadı. VWVortex'te panoramik cam tavan su sızıntısı başlıkları var ama çoğu ABD'deki Passat'a ait ve B8 Avrupa kasasına bağlanamadı; tahliye hortumu tıkanması en sık neden olarak anılıyor. ABD'deki VW cam tavan sızıntısı davası haberleri ve CarComplaints'in Passat servis bülteni listeleri ABD pazarındaki araçlara ait; Avrupa B8'e bağlanamadı.",
-      "sonuc": "yetersiz-kanit"
+      "not": "Şikâyetvar'da cam tavan çerçevesinin kendiliğinden çatlaması ve su sızması (üç yıl sonra aynı sorunun yeniden çıkması, yaklaşık 35 bin TL parça bedeli), tavan kenar çıtası çatlağı, tavan ile ön cam birleşiminde boya atması ve 2015 modelde multimedya Bluetooth ses sorunu çok sayıda şikâyette geçiyor. DonanımHaber'de B8'e özgü ikinci kaynak çıkmadı (2021 Passat'ta 25 bin km'de cam tavan tıkırtısı tek başlık); bu yüzden kayıt açılmadı. VWVortex'te panoramik cam tavan su sızıntısı başlıkları var ama çoğu ABD'deki Passat'a ait ve B8 Avrupa kasasına bağlanamadı; tahliye hortumu tıkanması en sık neden olarak anılıyor. ABD'deki VW cam tavan sızıntısı davası haberleri ve CarComplaints'in Passat servis bülteni listeleri ABD pazarındaki araçlara ait; Avrupa B8'e bağlanamadı. Faz 21 derin tarama: yakıt deposu kapağının açılmaması Şikâyetvar ve DonanımHaber'de doğrulandı (✓). Cam tavan çerçevesi çatlağı hâlâ yalnızca Şikâyetvar'da B8'e özgü; DonanımHaber'deki kayıt 2014 model (B7)."
     },
     {
       "marka": "Volkswagen",
@@ -20039,6 +20038,23 @@
         ]
       },
       "not": "Faz 21 derin tarama: Şikâyetvar ve DonanımHaber'de 1.6 E-torQ otomatik için yaygın bir kronik arıza görünmüyor; forumlarda şanzımanın sorunsuz ve uzun ömürlü olduğu yazılıyor. Tekil şikâyetler: 14.000 km'de yağ eksilmesi, akış keçesinden kaçak, yokuşta frenden ayak çekince öne atılma, LPG ayarına bağlı arıza kodları.",
+      "sonuc": "yetersiz-kanit"
+    },
+    {
+      "marka": "Toyota",
+      "model": "Corolla E210",
+      "yillar": "2019-2022",
+      "motor": "1.6 Valvematic 132 (1ZR-FAE, Multidrive S CVT)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Corolla (E210"
+        ],
+        "motor": [
+          "1.6 Valvematic"
+        ]
+      },
+      "not": "Faz 21 derin tarama: Şikâyetvar ve DonanımHaber'de 1.6 Multidrive S için tekrarlayan, belgelenmiş bir motor ya da şanzıman arızası bulunmadı; forumlarda CVT genel olarak sorunsuz sayılıyor. Tekil şikâyetler: gazdan çekince süzülme / vuruntu hissi, motor bölmesinden ıslık, tekrarlayan elektronik uyarı (akü sökülünce geçiyor), akü sorunları, yüksek şehir içi tüketim.",
       "sonuc": "yetersiz-kanit"
     }
   ]
