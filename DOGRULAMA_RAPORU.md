@@ -1957,6 +1957,23 @@ Toplam: 16 kayda özgü sorun, 1 yeni aile (1 sorun), 1 aileye eklenen sorun, 3 
 - Sayfalar okunamadı (proxy birçok siteyi engelliyor); kanıt arama sonuçlarının özetlerine ve DonanımHaber'in düz okunabilen sayfalarına dayanıyor. Golf 7 için DonanımHaber'deki 27 maddelik liste başlıkta itiraz gören bir kullanıcı derlemesidir; yalnızca ikinci bağımsız siteyle desteklenen iki maddesi alındı.
 - Focus 4 8 ileri ve Clio 5 kilometre aralıkları kaba tahmindir; ayrıntılarda yazılı.
 
+## 22. aşama: ikinci 10 modelde derin tarama
+
+Aynı parça listesi ve iki bağımsız site kuralıyla Fiat Linea, Dacia Sandero / Logan / Symbol (2013-2020), Renault Taliant, Hyundai i30 (GD / PD), Toyota C-HR, Peugeot 208 / 2008 (2012-2019), Opel Astra K, Skoda Octavia A7, Honda Civic FC5 ve Nissan Qashqai J11 tarandı. Önceki aşamalarda tek sitede kalan adaylar için de ikinci kaynak arandı.
+
+| Model | Eklenen | Not |
+|---|---|---|
+| Honda Civic FC5 | 1 | 2017 üretiminde kaporta göçükleri (C sütunu, kapı birleşimleri); Honda Türkiye'nin açıklaması ve çözüm duyurusu haberlerde |
+| Opel Astra K | 1 | IntelliLux LED matris far arızası (tek segment arızasında komple far değişimi; yalnızca bu farlı donanımlar). DonanımHaber mesajı sayfa okunarak doğrulandı |
+| Dacia Sandero / Logan / Symbol II | 0 | far / sinyal kolu arızası yalnızca L'argus'ta nesle özgü; Şikâyetvar başlığı nesil belirtmiyor |
+| Renault Taliant | 0 | "SOS sistemi arızası" uyarısı yalnızca Araclo'da (düşük güven) ve model belirtmeyen bir başvuruda |
+| Hyundai i30 PD | 0 | AB fren desteği geri çağırması (2018-2020 üretimi) ve Avustralya cam tavan motoru geri çağırması; Türkiye kapsamı ve motor bağlantısı doğrulanamadı |
+| Fiat Linea, Toyota C-HR, Peugeot 208 I, Skoda Octavia A7, Nissan Qashqai J11 | 0 | adaylar tek sitede kaldı ya da zaten bir aile sorununda vardı (208: PureTech kayışı kaynaklı fren desteği kaybı) |
+
+Toplam 2 sorun; 3 yeni kaynak sitesi (Motor1 Türkiye, Posta, A Haber). Her modelin plan satırına aranan ve eklenmeyen konular yazıldı.
+
+**Değerlendirme:** Getiri 21. aşamadaki model başına 1-2 sorundan 0,2'ye düştü. Bu on modelin çoğunda daha önce 1-4 modele özgü sorun vardı ve kalan adaylar tek sitede kalıyor. Arama özetleri üzerinden yapılan taramanın sınırına gelindi: yeni sorunlar ya sayfaların kendisi okunarak (DonanımHaber gibi okunabilen siteler) ya da hiç modele özgü sorunu olmayan 188 sayfaya odaklanarak çıkabilir.
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
@@ -1976,3 +1993,4 @@ Toplam: 16 kayda özgü sorun, 1 yeni aile (1 sorun), 1 aileye eklenen sorun, 3 
 15. **19. aşama sonrası:** (a) andcetin yazılarında kilometre bilgisi bulunmayan 381 sorun için bağımsız kilometreli kaynak bulunursa `tahmini_km_araligi` eklenebilir. (b) Yazar yeni yazı yayımladıkça aynı kurallarla (yazıda geçen her sorun, kilometre uydurulmadan) eklenebilir; `andcetin/liste.txt` adresleri yalnızca bu liste üzerinden doğrulanıyor. (c) Yaklaşık yazılan model yıllarına (Stellantis 1.2 hibrit 136, VAG / Stellantis elektrikli kayıtları, Boreal) üretici ya da distribütör kataloğundan kesin yıl yazılabilir. (d) 1.6 FSI ailesinde BSE / BSF kodlarının MPI olduğu üretici verisiyle doğrulanıp yazının motor kodu listesi düzeltilebilir.
 16. **20. aşama sonrası:** (a) Peugeot 301 / C-Elysée ve Crossland X boya atması için ikinci bağımsız site bulunursa kayda çevrilir. (b) Stellantis siyah tavan boyası atması bu aşamada yalnızca arama özetleriyle, sayfalar okunmadan eklendi; Citroën'in ücretsiz onarım ya da değer kaybı tutumuna dair bir forum iddiası (doğrulanmadı) kayıtlara alınmadı.
 17. **21. aşama sonrası:** (a) Derin taramaya sıradaki popüler modellerle devam (ör. Fiat Linea, Renault Symbol / Taliant, Hyundai i30, Toyota C-HR, Peugeot 208 / 2008, Opel Astra K, Skoda Octavia A7, Honda Civic FC5, Nissan Qashqai J11); ilk dalga 188 noindex sayfadan Türkiye'de en çok ilanı olanlarla başlamalı. (b) Clio 5 1.5 Blue dCi ve E-Tech satırları (`sırada`) aranacak. (c) 3008 II cam tavan su alması ve direksiyon kutusu sesi için ikinci bağımsız site bulunursa eklenir. (d) Sitede "eksik sorun bildir" bağlantısı, iletişim adresi açılınca eklenecek.
+18. **22. aşama sonrası:** (a) Derin tarama modele özgü sorunu hiç olmayan 188 sayfaya kaydırılmalı (Türkiye'de ilanı çok olanlardan başlayarak); bu sayfalar şu an dizine kapalı. (b) DonanımHaber model ana konuları sayfa sayfa okunarak (curl ile düz okunabiliyor) tekrar eden şikâyetler çıkarılabilir; yöneticilerin özet mesajları (ör. Astra K kolon kilidi bülteni E172113370) iyi bir ikinci kaynak. (c) Sandero II far / sinyal kolu, Taliant SOS uyarısı ve i30 PD fren desteği geri çağırması için nesle ve Türkiye'ye özgü ikinci kaynak aranabilir.

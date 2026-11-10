@@ -819,6 +819,30 @@
       "guven": "orta",
       "ana_sayfa": "https://www.autodoc.co.uk/",
       "not": "Yedek parça satıcısının model bazlı bilinen sorun ve bakım rehberleri. Editoryal derleme; tek tek vaka anlatımı değil, satıcı olduğu için tek başına yeterli sayılmaz."
+    },
+    "motor1.com": {
+      "ad": "Motor1 Türkiye",
+      "ulke": "TR",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://tr.motor1.com/",
+      "not": "Otomotiv haber sitesinin Türkiye baskısı; üretici açıklamaları ve kampanya haberleri."
+    },
+    "posta.com.tr": {
+      "ad": "Posta",
+      "ulke": "TR",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://www.posta.com.tr/",
+      "not": "Ulusal gazete; otomobil haberleri ve üretici açıklamaları."
+    },
+    "ahaber.com.tr": {
+      "ad": "A Haber",
+      "ulke": "TR",
+      "tur": "haber",
+      "guven": "orta",
+      "ana_sayfa": "https://www.ahaber.com.tr/",
+      "not": "Ulusal haber kanalı sitesi; otomobil şikâyet haberleri."
     }
   }
 }

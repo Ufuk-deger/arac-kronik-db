@@ -13002,6 +13002,22 @@
             "https://www.civicx.com/forum/threads/paint-already-flaking-chipping.48862/page-5",
             "https://www.civicx.com/forum/threads/paint-already-flaking-chipping.48862/page-7"
           ]
+        },
+        {
+          "sorun_adi": "Kaportada küçük göçükler ve dalgalanma (C sütunu, kapı birleşimleri; 2017 üretimi)",
+          "etkilenen_parca": "Kaporta sacı (C sütunu, kapı ve çamurluk birleşim bölgeleri)",
+          "belirtiler": "Darbe almadan C sütunu bölgesinde ve kapı-çamurluk birleşimlerinde küçük göçükler ve dalgalanma; sahiplerin ancak yakından ya da ışık altında fark ettiği kaporta izleri.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "2017'de çok sayıda FC5 Civic sahibi C sütunu ve kapı birleşim bölgelerinde darbe olmadan oluşan küçük göçüklerden şikâyet etti; haber siteleri konuyu duyurdu. Honda Türkiye önce sorunun sınırlı sayıda araçta küçük kaporta göçükleri olduğunu açıkladı, Aralık 2017'de ise 18 Aralık'tan itibaren çözüm uygulanacağını duyurdu. Onarım yönteminin ve kapsamın ayrıntısı kaynaklarda net değil.",
+            "teshis": "Gün ışığında ya da floresan altında C sütununu, kapı ve çamurluk birleşimlerini yandan bakarak kontrol edin; boya kalınlığı ölçümüyle onarım izi olup olmadığına bakın.",
+            "onlem": "2017 üretimi bir FC5 alırken yetkili servisten bu konuda işlem kaydı olup olmadığını sorun; ekspertizde boyasız göçük düzeltme izi kaza onarımıyla karıştırılabilir."
+          },
+          "kaynaklar": [
+            "https://tr.motor1.com/news/183365/hondadan-gocuklu-civic-aciklamasi-geldi/",
+            "https://www.posta.com.tr/honda-civic-fc5-teki-gocuk-sorunu-18-aralik-tan-itibaren-cozulecek-haberi-1359823",
+            "https://www.ahaber.com.tr/Otomobil/2017/10/14/japon-otomobil-devi-honda-binlerce-musterisini-magdur-etti"
+          ]
         }
       ]
     },
@@ -19028,6 +19044,22 @@
             "https://forum.donanimhaber.com/2016-model-astra-k-tavanda-boya-atmasi--130478526",
             "https://www.sikayetvar.com/opel/astra/kronik",
             "https://www.sikayetvar.com/opel/opel-astra-kronik-problemleri"
+          ]
+        },
+        {
+          "sorun_adi": "IntelliLux LED matris far arızası (tek LED segmenti yanmayınca far komple değişiyor)",
+          "etkilenen_parca": "IntelliLux LED matris far ünitesi ve kontrol elektroniği (yalnızca bu farla gelen donanımlar)",
+          "belirtiler": "Farın bir bölümünün yanmaması ya da uzun far ışık deseninde boşluk; far arıza uyarısı; bazı araçlarda yazılım güncellemesi, çoğunda komple far değişimi.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "DonanımHaber'deki Astra K ana konusunda bir yönetici, IntelliLux LED matris farlarla ilgili şikâyetler olduğunu, içindeki tek bir LED arızalansa bile farın komple değiştiğini ve bazen yazılım güncellemesi gerektiğini yazıyor; aynı mesajda Dynamic paketin bu farla değil mercekli halojen farla geldiği belirtiliyor. İngiliz yedek parça satıcısı Autopartspro'nun Astra K rehberi de IntelliLux sisteminin arızaya yatkın olduğunu, LED elemanlarının tek tek erken bozulduğunu yazıyor.",
+            "teshis": "Araç duvara karşı çalıştırılıp kısa ve uzun farda ışık deseni karşılaştırılır; far arıza kaydı arıza tespit cihazıyla okunur.",
+            "maliyet": "Far ünitesi komple değiştiği için pahalıdır; güncel Türkiye fiyatı bulunamadı.",
+            "onlem": "Yalnızca IntelliLux farlı (üst donanım) Astra K'ları ilgilendirir; satın alırken iki farın da tüm segmentlerinin yandığını kontrol edin."
+          },
+          "kaynaklar": [
+            "https://forum.donanimhaber.com/yeni-opel-astra-k-ana-konu--82219537-1957",
+            "https://www.autopartspro.co.uk/tips-advice/problems-with-the-opel-astra-k-3884"
           ]
         }
       ]

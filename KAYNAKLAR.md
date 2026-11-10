@@ -42,14 +42,14 @@ Bu yüzden kaynaklar web araması sonuçlarından toplandı. Her bağlantı, ara
 
 İlk istekte "Mehmet Çetin'in sitesi" diye anılan kaynak için `andcetin.com` ("And Mehmet Çetin") kullanıldı. Kastedilen site farklıysa `data/kaynaklar.json` güncellenmelidir.
 
-Toplam 99 farklı site, 699 sorun için kullanıldı.
+Toplam 102 farklı site, 701 sorun için kullanıldı.
 
 ## Türkçe kaynaklar
 
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
 | [And Mehmet Çetin](https://andcetin.com/) | TR | orta | 494 | Motor ve şanzıman sorunlarını model ailesi bazında anlatan yazılar. Tek yazarın görüşü; okur yorumları ek bilgi veriyor. Veritabanı sahibinin kararıyla (19. aşama) bu sitede yazılan sorunlar tek başına yeterli sayılır. |
-| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 411 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
+| [DonanımHaber Forum](https://forum.donanimhaber.com/) | TR | orta | 412 | Çok sayıda 'kronik sorun var mı' başlığı. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
 | [Şikâyetvar](https://www.sikayetvar.com/) | TR | orta | 382 | Kullanıcıların kendi bildirdiği şikâyetler. Oran göstermez; kilometre ve servis yanıtları işe yarıyor. |
 | [Araclo](https://www.araclo.com/) | TR | düşük | 143 | Model ve motor başına 'kronik sorunlar' sayfaları. Ticari bir site; sayfalar birbirine çok benziyor, tek başına yeterli sayılmaz. |
 | [OTOPARK.COM Forum](https://otopark.com/forum/) | TR | orta | 139 | Marka ve model bazında 'nasıldır / kronik problemleri var mı' başlıkları. Kullanıcı deneyimi; bazı başlıklar eski veya kapalı. |
@@ -60,6 +60,9 @@ Toplam 99 farklı site, 699 sorun için kullanıldı.
 | [arabam.com Blog](https://www.arabam.com/blog/) | TR | düşük | 7 | İlan sitesinin blog yazıları. Genel bilgi verir; bazı yazılar motorun 'büyük bir kronik sorunu yoktur' gibi genellemeler içeriyor. |
 | [Technopat Sosyal](https://www.technopat.net/sosyal/) | TR | orta | 4 | Teknoloji ve otomobil başlıkları olan Türk forumu; marka ve model bazlı 'kronik sorun var mı' / 'alınır mı' konuları. Kullanıcı deneyimi; doğruluk başlığa göre değişiyor. |
 | [YatırımX](https://www.yatirimx.com.tr/) | TR | düşük | 2 | Türkiye'de otomotiv ve ekonomi haberleri; PSA Grubu 1.5 BlueHDi eksantrik zinciri kampanyası haberi için. |
+| [A Haber](https://www.ahaber.com.tr/) | TR | orta | 1 | Ulusal haber kanalı sitesi; otomobil şikâyet haberleri. |
+| [Motor1 Türkiye](https://tr.motor1.com/) | TR | orta | 1 | Otomotiv haber sitesinin Türkiye baskısı; üretici açıklamaları ve kampanya haberleri. |
+| [Posta](https://www.posta.com.tr/) | TR | orta | 1 | Ulusal gazete; otomobil haberleri ve üretici açıklamaları. |
 | [Sözcü](https://www.sozcu.com.tr/) | TR | orta | 1 | Ulusal gazete. Burada yalnızca yabancı toplu dava ve geri çağırma haberlerinin Türkçe aktarımı için kullanıldı. |
 | [SıfırAraçAl](https://www.sifiraracal.com/) | TR | düşük | 1 | Türkiye'de yeni araç haberleri ve fiyat listeleri; model yenilemeleri ve motor/batarya verileri için. |
 
@@ -168,7 +171,7 @@ Toplam 99 farklı site, 699 sorun için kullanıldı.
 | Site | Ülke | Güvenilirlik | Kullanıldığı sorun sayısı | Not |
 | --- | --- | --- | ---: | --- |
 | [FCP Euro](https://www.fcpeuro.com/blog) | US | orta | 7 | Parça satıcısının adım adım onarım rehberleri. Ticari çıkarı olan bir kaynak. |
-| [AutoPartsPro](https://www.autopartspro.co.uk/) | UK | düşük | 3 | Parça satıcısının genel arıza yazıları (SEO ağırlıklı); tek başına yeterli sayılmaz. |
+| [AutoPartsPro](https://www.autopartspro.co.uk/) | UK | düşük | 4 | Parça satıcısının genel arıza yazıları (SEO ağırlıklı); tek başına yeterli sayılmaz. |
 | [BimmerWorld](https://www.bimmerworld.com/) | US | düşük | 2 | Parça satıcısı. Ürün sayfalarındaki arıza anlatımları ticari amaçlı. |
 | [Foreign Automotive](https://foreignautomotive.ca/) | CA | düşük | 2 | Kanada'da BMW atölyesi; blog yazıları pazarlama dilindedir. |
 | [Mercedes Medic](https://www.mercedesmedic.com/) | US | düşük | 2 | Mercedes şanzıman onarım atölyesi blogu. |
