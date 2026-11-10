@@ -197,10 +197,8 @@ def km_metni(s):
     return '<span class="km km-yok">Kilometre bilgisi yok</span>'
 
 
-def sorun_html(s, aile):
+def sorun_html(s, aile=None):
     ek = ""
-    if aile:
-        ek = f'<p class="aile-not">Ortak sorun: {e(aile["ad"])} kullanan diğer modellerde de görülür.</p>'
     return f"""<li class="sorun" data-risk="{RISK_ANAHTAR[s['risk_seviyesi']]}">
   <div class="sorun-bas"><h4>{e(s['sorun_adi'])}</h4>{risk_rozeti(s['risk_seviyesi'])}</div>
   <p class="belirti">{e(s['belirtiler'])}</p>
@@ -221,9 +219,21 @@ def bolum_html(k, grup_taban):
         not_ = ""
         if k["aileler"]:
             not_ = '<p class="bolum-not">Motor / şanzıman ailesi: ' + ", ".join(e(f["ad"]) for f in k["aileler"]) + "</p>"
-    liste = "\n".join(sorun_html(s, f) for s, f in k["sorunlar"])
+    ozgu = [s for s, f in k["sorunlar"] if f is None]
+    ortak = [s for s, f in k["sorunlar"] if f is not None]
+    govde = ""
+    if ozgu:
+        govde += '<ul class="sorunlar">' + "\n".join(sorun_html(s) for s in ozgu) + "</ul>"
+    if ortak:
+        liste = '<ul class="sorunlar">' + "\n".join(sorun_html(s) for s in ortak) + "</ul>"
+        if ozgu:
+            # Modele özgü sorunlar önde; aynı motoru / şanzımanı kullanan tüm araçlarda görülen sorunlar ayrı ve kapalı blokta.
+            govde += (f'<details class="ortak"><summary>Bu motoru / şanzımanı kullanan tüm araçlarda görülenler '
+                      f'<span class="ortak-say">{len(ortak)} sorun</span></summary>{liste}</details>')
+        else:
+            govde += f'<p class="ortak-bas">Bu motoru / şanzımanı kullanan tüm araçlarda görülenler</p>{liste}'
     tur = "genel" if k["genel"] else "motor"
-    return f'<section class="bolum" data-tur="{tur}">{bas}{not_}<ul class="sorunlar">{liste}</ul></section>'
+    return f'<section class="bolum" data-tur="{tur}">{bas}{not_}{govde}</section>'
 
 
 UYARI = ("Bu sayfadaki bilgiler internetteki kullanıcı bildirimleri, forumlar ve uzman yazıları taranarak derlendi ve "
@@ -473,7 +483,11 @@ h2 { font-size: 1.6rem; margin: 32px 0 12px; }
 .sorun-alt { font-size: 0.9rem; }
 .km { font-family: var(--font-mono); font-size: 0.86rem; }
 .km-yok { font-family: var(--font-body); color: var(--muted); }
-.aile-not { margin: 4px 0 0; font-size: 0.86rem; color: var(--muted); }
+.ortak { border-top: 1px solid var(--line); padding: 10px 0 4px; }
+.ortak > summary { cursor: pointer; font-weight: 600; color: var(--accent); padding: 4px 0; }
+.ortak-say { font-weight: 400; color: var(--muted); font-size: 0.9rem; margin-left: 6px; }
+.ortak[open] > summary { margin-bottom: 4px; }
+.ortak-bas { margin: 10px 0 0; padding-top: 10px; border-top: 1px solid var(--line); font-weight: 600; font-size: 0.95rem; color: var(--muted); }
 .uyari { margin-top: 22px; padding: 12px 16px; border: 1px dashed var(--line); border-radius: 10px; font-size: 0.92rem; color: var(--muted); }
 .kardes ul, .model-liste, .marka-liste, .marka-kisa, .sonuclar { list-style: none; padding: 0; margin: 0; }
 .kardes li { display: inline-block; margin: 0 10px 8px 0; }

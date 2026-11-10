@@ -950,6 +950,30 @@
     display: grid;
     gap: 16px;
   }
+  .ortak {
+    border-top: 1px solid var(--line);
+  }
+  .ortak > summary {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 4px 10px;
+    padding: 10px 20px 10px 34px;
+    cursor: pointer;
+    font-weight: 600;
+    color: var(--accent);
+  }
+  .ortak-say,
+  .ortak-bas {
+    font-size: 0.86rem;
+    font-weight: 500;
+    color: var(--muted);
+  }
+  .ortak-bas {
+    margin: 0;
+    padding: 10px 20px 4px 34px;
+    border-top: 1px solid var(--line);
+  }
   .ikincil-ic .model-kart {
     margin-bottom: 0;
   }
@@ -1842,10 +1866,30 @@
       } else if (!k.arac.kronik_sorunlar.length) {
         alan.append(el("p", "arac-not", "Ortak aile kaydı: bu modele özgü bildirim ayrıca doğrulanmadı; aracınızın motor kodunu ruhsattan kontrol edin."));
       }
-      const ul = el("ul", "sorunlar");
-      for (const a of satirlar) ul.append(satirOlustur(k, a));
+      // Modele özgü sorunlar önde; aynı motoru / şanzımanı kullanan tüm araçlarda görülen ortak aile sorunları ayrı blokta.
+      // Blok, modele özgü sorun yoksa, kilometreye uyan bir ortak sorun varsa ya da "Hepsini aç" açıksa açık gelir.
+      const ozgu = satirlar.filter((a) => !a.s.aile);
+      const ortak = satirlar.filter((a) => a.s.aile);
       if (eksenli) alan.append(eksenOlustur());
-      alan.append(ul);
+      if (ozgu.length) {
+        const ul = el("ul", "sorunlar");
+        for (const a of ozgu) ul.append(satirOlustur(k, a));
+        alan.append(ul);
+      }
+      if (ortak.length) {
+        const ul = el("ul", "sorunlar");
+        for (const a of ortak) ul.append(satirOlustur(k, a));
+        if (ozgu.length) {
+          const blok = el("details", "ortak");
+          const ozet = el("summary");
+          ozet.append(document.createTextNode("Bu motoru / şanzımanı kullanan tüm araçlarda görülenler"), el("span", "ortak-say", `${ortak.length} sorun`));
+          blok.append(ozet, ul);
+          blok.open = durum.ayrinti || ortak.some((a) => a.kmd);
+          alan.append(blok);
+        } else {
+          alan.append(el("p", "ortak-bas", "Bu motoru / şanzımanı kullanan tüm araçlarda görülenler"), ul);
+        }
+      }
       bolum.append(kimlik, alan);
       return bolum;
     }
@@ -2108,7 +2152,7 @@
     function satirlariAcKapat(ac) {
       durum.ayrinti = ac;
       if (!ac) acikSatirlar.clear();
-      for (const d of document.querySelectorAll("details.sorun-d")) d.open = ac;
+      for (const d of document.querySelectorAll("details.sorun-d, details.ortak")) d.open = ac;
     }
 
     const aramaBekle = bekle(guncelle, 140);

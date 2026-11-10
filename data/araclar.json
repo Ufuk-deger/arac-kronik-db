@@ -13188,7 +13188,8 @@
               "durum": "Seyrek",
               "not": "Bayon'da 2024 makyajıyla büyük oranda çözüldüğü yazılıyor (tek kaynak)."
             }
-          ]
+          ],
+          "aile_sorunu": "hyundai-i20-bayon-yakit-pompasi/yakit-pompasi"
         }
       ],
       "aileler": [
@@ -13240,7 +13241,8 @@
               "durum": "Seyrek",
               "not": "Bayon'da 2024 makyajıyla büyük oranda çözüldüğü yazılıyor (tek kaynak)."
             }
-          ]
+          ],
+          "aile_sorunu": "hyundai-i20-bayon-yakit-pompasi/yakit-pompasi"
         },
         {
           "sorun_adi": "6 ileri tork konvertörlü şanzımanda yağ ısınmasına bağlı vızıltı sesi ve çekiş kaybı",
@@ -13773,7 +13775,8 @@
               "durum": "Seyrek",
               "not": "i20'de 2023 makyajıyla büyük oranda çözüldüğü yazılıyor (tek kaynak)."
             }
-          ]
+          ],
+          "aile_sorunu": "hyundai-i20-bayon-yakit-pompasi/yakit-pompasi"
         }
       ],
       "aileler": [
@@ -13825,7 +13828,8 @@
               "durum": "Seyrek",
               "not": "i20'de 2023 makyajıyla büyük oranda çözüldüğü yazılıyor (tek kaynak)."
             }
-          ]
+          ],
+          "aile_sorunu": "hyundai-i20-bayon-yakit-pompasi/yakit-pompasi"
         }
       ],
       "aileler": [
@@ -21148,7 +21152,8 @@
               "durum": "Görülebilir",
               "not": "Makyajlı 54 kWh / 115 kW (156 PS) sürüm; Türkiye'de e-2008'in 156 PS sürümü satışta. Şikâyetvar'daki 2025-2026 tarihli e-2008 şikâyetleri bu sürümle uyumlu, ancak şikâyetlerde batarya kapasitesi yazmıyor."
             }
-          ]
+          ],
+          "aile_sorunu": "stellantis-ev-tahrik-arizasi/tahrik-arizasi"
         }
       ],
       "aileler": [
@@ -28025,7 +28030,8 @@
           },
           "kaynaklar": [
             "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/"
-          ]
+          ],
+          "aile_sorunu": "vag-3-0-tdi-v6/cp4-yakit-pompasi"
         },
         {
           "sorun_adi": "EGR soğutucusunda sızıntı, DPF tıkanması ve AdBlue deposu, ısıtıcısı ile pompasının arızalanması",
@@ -28037,7 +28043,8 @@
           },
           "kaynaklar": [
             "https://andcetin.com/tutulmayan-en-iyi-arabalar-225-milyon-tl-80/"
-          ]
+          ],
+          "aile_sorunu": "vag-3-0-tdi-v6/egr-dpf-adblue"
         },
         {
           "sorun_adi": "Havalı süspansiyonların pompa ve körüklerinin bozulması",

@@ -111,6 +111,7 @@ function grupla(kayitlar) {
         cikti.modeller.push({ marka, ad: e.querySelector('h3').textContent, grup: e.dataset.grup, bolum: e.querySelectorAll('section.arac').length });
         for (const b of e.querySelectorAll('section.arac')) {
           const satirlar = [...b.querySelectorAll('li.sorun')].map((li) => ({
+            liste: [...b.querySelectorAll('ul.sorunlar')].indexOf(li.parentElement),
             baslik: li.querySelector('h4').textContent,
             risk: li.dataset.risk,
             km: li.querySelector('.km-etiket').textContent,
@@ -356,7 +357,7 @@ function grupla(kayitlar) {
     // sıralama: kartlarda "Bu kilometrede" olanlar önde
     const siraBozuk = o.kartlar.filter((k) => {
       const rank = (s) => (s.durum === 'Bu kilometrede' ? 0 : s.durum === 'Yaklaşıyor' ? 1 : s.km.startsWith('Kaynaklarda') ? 2 : 3);
-      for (let i = 1; i < k.satirlar.length; i++) if (rank(k.satirlar[i]) < rank(k.satirlar[i - 1])) return true;
+      for (let i = 1; i < k.satirlar.length; i++) if (k.satirlar[i].liste === k.satirlar[i - 1].liste && rank(k.satirlar[i]) < rank(k.satirlar[i - 1])) return true;
       return false;
     });
     kontrol('km girilince satırlar kilometreye göre sıralanır', siraBozuk.length === 0, siraBozuk.slice(0, 2).map((k) => k.ad).join(' | '));
