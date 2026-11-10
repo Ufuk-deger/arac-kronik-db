@@ -80,7 +80,7 @@ window.ciz = (t) => {
   const n = V.baslik.length, kb = Math.min(1, Math.max(0, (t - Z.baslik) / Z.yazma));
   $('u-baslik').textContent = V.baslik.slice(0, Math.round(n * kb));
   $('u-imlec').style.opacity = (t >= Z.baslik && (kb < 1 || Math.floor(t * 2) % 2 === 0) && t < Z.belirti + 0.5) ? 1 : 0;
-  [...$('u-belirtiler').children].forEach((p, i) => gir(p, t, Z.belirti + i * Z.cumle_arasi, 30));
+  [...$('u-belirtiler').children].forEach((p, i) => gir(p, t, Z.belirti_t ? Z.belirti_t[i] : Z.belirti + i * Z.cumle_arasi, 30));
   [...$('u-cipler').children].forEach((c, i) => gir(c, t, Z.cip + i * 0.25, 20));
   const s = ara(t, Z.son, Z.son + 0.5); $('son').style.opacity = s; $('icerik').style.opacity = 1 - s;
   gir($('s-ad'), t, Z.son + 0.2); gir($('s-cagri'), t, Z.son + 0.5); gir($('s-adres'), t, Z.son + 0.8);

@@ -19,6 +19,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 import site_uret as su  # noqa: E402
+import seslendirme as ses  # noqa: E402
 
 KOK = su.KOK
 CIKTI = KOK / "videolar"
@@ -82,6 +83,39 @@ def ozellik(g, kart, ayar):
     }
 
 
+def seslendir(g, kart, oz, klasor, ad):
+    """Cümle cümle seslendirir, görüntü zamanlarını sese göre yeniden kurar ve birleşik WAV yazar."""
+    s = kart["s"]
+    model = f'{g["marka"]} {su.ilk_parca(g["taban"])}'
+    km = su.km_araligi(s.get("tahmini_km_araligi"))
+    if "genel" in kart["etiketler"]:
+        yer = "tüm motorlarda"
+    else:
+        adlar = [re.sub(r"\s*\(.*", "", su.motor_adi(g["motorlar"][int(e[1:])], g["taban"])) for e in kart["etiketler"]]
+        yer = (", ".join(adlar[:2])) + " motorda"
+    km_cumle = (f"Genelde {km[0]:,} – {km[1]:,} km arasında, {yer} görülüyor.".replace(",", ".") if km
+                else f"{yer[0].upper() + yer[1:]} görülüyor.")
+    metinler = [f"{model} bakıyorsan şuna dikkat et.", s["sorun_adi"].rstrip(".") + "."] + oz["cumleler"] + [km_cumle,
+                f"{model} için bilinen tüm kronik sorunlar Bilmiş Usta'da."]
+    wavlar = [ses.sentezle(ses.okunur(m)) for m in metinler]
+    sureler = [ses.sure(w) for w in wavlar]
+    bas, t0, ara = [], 0.5, 0.35
+    for d in sureler:
+        bas.append(t0); t0 += d + ara
+    n = len(oz["cumleler"])
+    z = oz["zaman"]
+    z["etiket"] = bas[0] + 0.3
+    z["baslik"], z["yazma"] = bas[1], max(0.8, sureler[1] * 0.9)
+    z["belirti_t"] = bas[2:2 + n]
+    z["belirti"] = bas[2]
+    z["cip"] = bas[2 + n]
+    z["son"] = bas[3 + n] - 0.2
+    z["toplam"] = round(bas[-1] + sureler[-1] + 1.0, 2)
+    wav = klasor / f"{ad}.wav"
+    ses.birlestir(list(zip(bas, wavlar)), wav, z["toplam"])
+    return wav
+
+
 def paylasim_metni(g, kart, ayar):
     s = kart["s"]
     etiket = lambda x: "#" + re.sub(r"[^0-9a-zçğıöşü]", "", x.lower().replace("İ", "i"))
@@ -98,6 +132,7 @@ def main():
     ap.add_argument("model", help="model sayfasının yolu, ör. renault/clio-5-2019-gunumuz")
     ap.add_argument("--sira", type=int, default=1, help="riske göre sıradaki sorun (1 = en riskli)")
     ap.add_argument("--hepsi", action="store_true")
+    ap.add_argument("--ses", action="store_true", help="Google Cloud Text-to-Speech ile seslendir")
     a = ap.parse_args()
     ayar = json.loads(su.AYAR_DOSYASI.read_text(encoding="utf-8"))
     gruplar = gruplar_ve_yollar()
@@ -111,9 +146,16 @@ def main():
     for i in siralar:
         kart = g["kartlar"][i - 1]
         ad = f"{i:02d}-{su.kisalt(kart['s']['sorun_adi'])[:60]}"
+        oz = ozellik(g, kart, ayar)
+        wav = seslendir(g, kart, oz, klasor, ad) if a.ses else None
         with tempfile.NamedTemporaryFile("w", suffix=".json", delete=False, encoding="utf-8") as f:
-            json.dump(ozellik(g, kart, ayar), f, ensure_ascii=False)
-        subprocess.run(["node", str(KOK / "scripts" / "video" / "kaydet.js"), f.name, str(klasor / f"{ad}.mp4")], check=True)
+            json.dump(oz, f, ensure_ascii=False)
+        sessiz = klasor / f"{ad}.sessiz.mp4" if wav else klasor / f"{ad}.mp4"
+        subprocess.run(["node", str(KOK / "scripts" / "video" / "kaydet.js"), f.name, str(sessiz)], check=True)
+        if wav:
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", str(sessiz), "-i", str(wav), "-c:v", "copy", "-c:a", "aac",
+                            "-b:a", "160k", "-shortest", "-movflags", "+faststart", str(klasor / f"{ad}.mp4")], check=True)
+            sessiz.unlink(); wav.unlink()
         (klasor / f"{ad}.txt").write_text(paylasim_metni(g, kart, ayar), encoding="utf-8")
         print(klasor / f"{ad}.mp4")
 

@@ -404,6 +404,10 @@ python3 scripts/video_uret.py renault/clio-5-2019-gunumuz --sira 3   # riske gö
 python3 scripts/video_uret.py renault/clio-5-2019-gunumuz --hepsi    # modelin tüm sorunları
 ```
 
+`--ses` eklenirse video Google Cloud Text-to-Speech ile Türkçe seslendirilir (sakin erkek sesi, `scripts/seslendirme.py`).
+Ses cümle cümle üretilir ve her yazı, ses o cümleye geldiğinde ekrana gelir. API anahtarı koda yazılmaz; ortamın ağ ayarlarında
+`texttospeech.googleapis.com` için `X-Goog-Api-Key` başlığıyla saklanır. Üretilen sesler `.seslendirme/` klasöründe önbelleğe alınır.
+
 Çıktı `videolar/` klasörüne yazılır (git'e eklenmez). Müzik videoya gömülmez; telif sorunu olmaması için Instagram ve TikTok'un
 uygulama içi müzik kütüphanesinden eklenmelidir. Video şablonu `scripts/video/sablon.html`, kaydedici `scripts/video/kaydet.js`.
 
