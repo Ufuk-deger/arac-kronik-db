@@ -52,8 +52,9 @@ class SiteTest(unittest.TestCase):
                 self.assertNotIn(alan, kucuk, f"{yol}: {alan}")
             for ad in YASAK_ADLAR:
                 self.assertNotIn(ad, kucuk, f"{yol}: {ad}")
-            disari = [u for u in re.findall(r'href="(https?://[^"]+)"', metin)
-                      if not u.startswith(("https://fonts.googleapis.com", "https://fonts.gstatic.com", site_uret.json.loads(site_uret.AYAR_DOSYASI.read_text(encoding="utf-8"))["adres"]))]
+            ayar = site_uret.json.loads(site_uret.AYAR_DOSYASI.read_text(encoding="utf-8"))
+            izinli = ("https://fonts.googleapis.com", "https://fonts.gstatic.com", ayar["adres"]) + ((ayar["bildirim_formu"],) if ayar.get("bildirim_formu") else ())
+            disari = [u for u in re.findall(r'href="(https?://[^"]+)"', metin) if not u.startswith(izinli)]
             self.assertEqual(disari, [], yol)
 
     def test_ayrintilar_siteye_girmez(self):
@@ -71,6 +72,19 @@ class SiteTest(unittest.TestCase):
     def test_site_haritasi(self):
         harita = (self.hedef / "sitemap.xml").read_text(encoding="utf-8")
         self.assertEqual(harita.count("<loc>"), self.ozet["sayfa"])
+
+    def test_eksik_sorun_bildirimi(self):
+        """Ayar boşken çağrı çıkmaz; form adresi verilince bağlantı, yalnız e-posta verilince adres yazılır."""
+        self.assertEqual(site_uret.bildir_html({"bildirim_formu": "", "eposta": ""}, "Renault Clio 5"), "")
+        form = site_uret.bildir_html({"bildirim_formu": "https://forms.example/x", "eposta": ""}, "Renault Clio 5")
+        self.assertIn('href="https://forms.example/x"', form)
+        self.assertIn("Renault Clio 5", form)
+        eposta = site_uret.bildir_html({"bildirim_formu": "", "eposta": "bilgi@ornek.com"}, "Renault Clio 5")
+        self.assertIn("bilgi@ornek.com", eposta)
+        self.assertNotIn("href", eposta)
+        ayar = json.loads(site_uret.AYAR_DOSYASI.read_text(encoding="utf-8"))
+        if not ayar.get("bildirim_formu") and not ayar.get("eposta"):
+            self.assertFalse(any('class="bildir"' in h for h in self.sayfalar.values()))
 
     def test_ince_sayfalar_dizinlenmez(self):
         """Modele özgü sorunu olmayan sayfa noindex taşır ve site haritasında yer almaz; diğerleri tersine."""

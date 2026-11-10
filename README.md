@@ -339,6 +339,8 @@ python3 -m http.server 8000 --directory site       # yerelde önizleme: http://l
 - **İndeksleme eşiği:** modele özgü sorunu olmayan (yalnızca ortak motor / şanzıman sorunları gösteren) sayfalar
   `noindex, follow` taşır, site haritasına girmez ve başında "henüz derinlemesine taranmadı" notu çıkar; tek özgü sorunu olanlarda
   "liste eksik olabilir" notu çıkar. Modele özgü sorun eklendikçe sayfa kendiliğinden dizine açılır.
+- **Eksik sorun bildirimi:** `data/site.json` içinde `bildirim_formu` (ör. bir Google Forms adresi) verilirse her model sayfasının
+  sonunda "Eksik sorunu bildirin" bağlantısı çıkar; yalnızca `eposta` verilirse adres yazılır; ikisi de boşsa çağrı gösterilmez.
 - **Ayarlar:** site adı, adresi (canonical, site haritası), slogan ve iletişim e-postası `data/site.json` içindedir; isim ve alan adı
   kesinleşince yalnızca bu dosya değişir.
 - **Yayın:** çıktı tamamen statik HTML ve CSS olduğu için Cloudflare Pages, Netlify ya da GitHub Pages ile ücretsiz barındırılabilir.

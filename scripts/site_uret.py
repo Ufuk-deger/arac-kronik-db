@@ -188,6 +188,18 @@ def iletisim_html(ayar):
     return "İletişim adresi yakında eklenecek"
 
 
+def bildir_html(ayar, ad_tam):
+    """Model sayfasının sonunda eksik sorun bildirme çağrısı: bir form adresi varsa bağlantı, yoksa e-posta adresi; ikisi de yoksa hiçbir şey."""
+    soru = "Bu modelde listede olmayan bir kronik sorun mu yaşadınız?"
+    if ayar.get("bildirim_formu"):
+        return (f'<p class="bildir">{e(soru)} <a href="{e(ayar["bildirim_formu"])}" rel="nofollow">Eksik sorunu bildirin</a> '
+                f'(model: {e(ad_tam)}).</p>')
+    if ayar.get("eposta"):
+        return (f'<p class="bildir">{e(soru)} Konu satırına <b>{e(ad_tam)}</b> yazarak '
+                f'<span class="secilebilir">{e(ayar["eposta"])}</span> adresine bildirin.</p>')
+    return ""
+
+
 def dizinlenir(g):
     """Arama motorlarına yalnızca modele özgü en az bir sorunu olan sayfalar verilir; yalnızca ortak motor / şanzıman
     sorunlarından oluşan sayfalar başka sayfaların tekrarı olduğu için noindex ve site haritası dışında kalır."""
@@ -329,6 +341,7 @@ def uret(hedef=VARSAYILAN_HEDEF):
 {icindekiler}
 {bolumler}
 <p class="uyari">{e(UYARI)}</p>
+{bildir_html(ayar, ad_tam)}
 {kardes_html}"""
         iz_ld = json.dumps({"@context": "https://schema.org", "@type": "BreadcrumbList", "itemListElement": [
             {"@type": "ListItem", "position": 1, "name": "Ana sayfa", "item": adres},
@@ -513,6 +526,7 @@ h2 { font-size: 1.6rem; margin: 32px 0 12px; }
 .ortak[open] > summary { margin-bottom: 4px; }
 .ortak-bas { margin: 10px 0 0; padding-top: 10px; border-top: 1px solid var(--line); font-weight: 600; font-size: 0.95rem; color: var(--muted); }
 .uyari { margin-top: 22px; padding: 12px 16px; border: 1px dashed var(--line); border-radius: 10px; font-size: 0.92rem; color: var(--muted); }
+.bildir { margin-top: 14px; padding: 12px 16px; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; font-size: 0.95rem; }
 .ince { margin: 4px 0 16px; padding: 10px 14px; border-left: 4px solid var(--accent); background: var(--accent-soft); border-radius: 6px; font-size: 0.95rem; }
 .kardes ul, .model-liste, .marka-liste, .marka-kisa, .sonuclar { list-style: none; padding: 0; margin: 0; }
 .kardes li { display: inline-block; margin: 0 10px 8px 0; }

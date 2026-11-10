@@ -1974,6 +1974,26 @@ Toplam 2 sorun; 3 yeni kaynak sitesi (Motor1 Türkiye, Posta, A Haber). Her mode
 
 **Değerlendirme:** Getiri 21. aşamadaki model başına 1-2 sorundan 0,2'ye düştü. Bu on modelin çoğunda daha önce 1-4 modele özgü sorun vardı ve kalan adaylar tek sitede kalıyor. Arama özetleri üzerinden yapılan taramanın sınırına gelindi: yeni sorunlar ya sayfaların kendisi okunarak (DonanımHaber gibi okunabilen siteler) ya da hiç modele özgü sorunu olmayan 188 sayfaya odaklanarak çıkabilir.
 
+## 23. aşama: gruplama düzeltmesi, sayfa okuyarak tarama ve eksik sorun bildirimi
+
+### Gruplama düzeltmesi (site ve görüntüleyici)
+
+Motor kayıtları, yılları en çok örtüşen model geneli kaydının kartına giriyordu; sınırda tek bir yıl değmesi de yetiyordu. Bu yüzden farklı nesiller tek kartta toplanıyor ve bir neslin sorunları ötekinin sayfasında görünüyordu (ör. BMW 1 Serisi E87 + F20 + F40, Tiguan 5N + AD1, Passat B6 + B7, Peugeot 308 T7 + T9 + III, i30 FD + GD, Seat Leon 5F + KL, Fabia NJ + Mk4). Kural değişti: kaydın yıllarının yarısından fazlası ya da en az 3 yılı örtüşmüyorsa çapaya girmez, kendi nesil kartını oluşturur. Aynı kural `viewer/sablon.html`, `scripts/site_uret.py` ve tarayıcı testinde uygulandı. Ayrıca "Golf 7.5 (2017-2020)" ve "Superb III (2015-2023)" kayıt adları diğer kayıtlarla aynı biçime getirildi (tek kart). Sonuç: 428 yerine 455 model sayfası; modele özgü sorunu olmayan sayfa sayısı 188'den 205'e çıktı, çünkü önceden başka bir neslin sorunlarını gösteren sayfalar artık yalnızca kendi kayıtlarını gösteriyor.
+
+### Sayfa okuyarak tarama
+
+Şikâyetvar şikâyet sayfaları ve DonanımHaber konu sayfaları düz istekle okunabiliyor (Ekşi Sözlük bot korumasıyla engelliyor; aşılmadı). `scripts/oku.py` yardımcısı (önbelleği git dışı `.indir/` klasöründe) model ve konu sayfalarındaki şikâyetleri indirip metindeki model yılına göre süzüyor ve DonanımHaber konularında anahtar kelime geçen mesajları çıkarıyor. Toyota Yaris XP130, Seat Ibiza 6J / 6F ve Kia Rio YB üzerinde denendi:
+
+- Yaris XP130: Şikâyetvar'daki şikâyetler tekil (yağ tüketimi 2012 / 110.000 km, 2017 sıfır araçta pas davası, kapı kolu parça bekleme); tekrar eden sorun çıkmadı.
+- Ibiza 6J: DonanımHaber kulüp konusunda (897 sayfa; son 28 sayfa okundu) birkaç sahip kliması için "kronik sorunlu" diyor; Şikâyetvar'da ya da başka bir sitede karşılığı bulunamadı, eklenmedi. 6F için konu bulunamadı.
+- Rio YB: DonanımHaber'de tek mesajlık "yol bilgisayarı ve saat sıfırlanıyor" konusu; tekrar eden şikâyet yok.
+
+Şikâyetvar'ın model / konu sayfaları çoğunlukla son iki yılın şikâyetlerini listelediği için eski nesillerde getirisi düşük. Modele özgü sorunu olmayan sayfaların önemli bir kısmı büyük olasılıkla gerçekten modele özgü kronik sorunu bilinmeyen (ya da sorunları motor / şanzıman ailesinden gelen) araçlardır.
+
+### Eksik sorun bildirimi
+
+`data/site.json` içine `bildirim_formu` alanı eklendi. Bir form adresi verilince her model sayfasının sonunda model adıyla "Eksik sorunu bildirin" bağlantısı, yalnızca e-posta verilince adres çıkar; ikisi de boşken gösterilmez (`tests/test_site.py`).
+
 ## Sonraki adımlar
 
 1. Ağ erişimi verilirse `KAYNAKLAR.md` içindeki sayfalar doğrudan okunarak her bağlantının iddiayı gerçekten içerdiği, ayrıntılardaki rakam ve alıntıların doğru olduğu kontrol edilebilir.
@@ -1994,3 +2014,4 @@ Toplam 2 sorun; 3 yeni kaynak sitesi (Motor1 Türkiye, Posta, A Haber). Her mode
 16. **20. aşama sonrası:** (a) Peugeot 301 / C-Elysée ve Crossland X boya atması için ikinci bağımsız site bulunursa kayda çevrilir. (b) Stellantis siyah tavan boyası atması bu aşamada yalnızca arama özetleriyle, sayfalar okunmadan eklendi; Citroën'in ücretsiz onarım ya da değer kaybı tutumuna dair bir forum iddiası (doğrulanmadı) kayıtlara alınmadı.
 17. **21. aşama sonrası:** (a) Derin taramaya sıradaki popüler modellerle devam (ör. Fiat Linea, Renault Symbol / Taliant, Hyundai i30, Toyota C-HR, Peugeot 208 / 2008, Opel Astra K, Skoda Octavia A7, Honda Civic FC5, Nissan Qashqai J11); ilk dalga 188 noindex sayfadan Türkiye'de en çok ilanı olanlarla başlamalı. (b) Clio 5 1.5 Blue dCi ve E-Tech satırları (`sırada`) aranacak. (c) 3008 II cam tavan su alması ve direksiyon kutusu sesi için ikinci bağımsız site bulunursa eklenir. (d) Sitede "eksik sorun bildir" bağlantısı, iletişim adresi açılınca eklenecek.
 18. **22. aşama sonrası:** (a) Derin tarama modele özgü sorunu hiç olmayan 188 sayfaya kaydırılmalı (Türkiye'de ilanı çok olanlardan başlayarak); bu sayfalar şu an dizine kapalı. (b) DonanımHaber model ana konuları sayfa sayfa okunarak (curl ile düz okunabiliyor) tekrar eden şikâyetler çıkarılabilir; yöneticilerin özet mesajları (ör. Astra K kolon kilidi bülteni E172113370) iyi bir ikinci kaynak. (c) Sandero II far / sinyal kolu, Taliant SOS uyarısı ve i30 PD fren desteği geri çağırması için nesle ve Türkiye'ye özgü ikinci kaynak aranabilir.
+19. **23. aşama sonrası:** (a) Yayında gelen "eksik sorun" bildirimleri aynı iki bağımsız kaynak kuralıyla doğrulanıp eklenmeli; bu, aramayla bulunamayan sorunlara ulaşmanın en verimli yolu. (b) Volvo S60 / V60 ve Polo 6C kayıtlarının adları da tek karta girecek biçime getirilebilir (Polo 6C için plan satırlarının eşleşmesi birlikte değiştirilmeli). (c) DonanımHaber model ana konuları `oku.py dh` ile sayfa sayfa okunarak devam edilebilir.
