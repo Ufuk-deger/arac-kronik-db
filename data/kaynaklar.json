@@ -803,6 +803,14 @@
       "guven": "orta",
       "ana_sayfa": "https://micra.org.uk/",
       "not": "Nissan Micra sahipleri forumu (İngiltere); K11 / K12 / K13 elektrikli direksiyon, motor ve elektrik başlıkları. Başlıkların çoğu 5-15 yıllık."
+    },
+    "carverif.fr": {
+      "ad": "CarVerif",
+      "ulke": "FR",
+      "tur": "editoryal",
+      "guven": "orta",
+      "ana_sayfa": "https://carverif.fr/",
+      "not": "Fransızca güvenilirlik incelemeleri (motor ve nesil bazında puan ve bilinen sorunlar). Editoryal derleme; tek tek vaka anlatımı değil."
     }
   }
 }

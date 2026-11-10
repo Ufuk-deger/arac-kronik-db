@@ -21861,10 +21861,62 @@
           "kaynaklar": [
             "https://andcetin.com/en-sorunlu-sfr-arabalar-97/"
           ]
+        },
+        {
+          "sorun_adi": "'Enjeksiyonu kontrol ettirin' ve 'egzoz emisyonu' uyarısıyla çekiş kaybı",
+          "etkilenen_parca": "Motor yönetimi sensörleri (fark basınç sensörü, egzoz gaz sıcaklık sensörü, kelebek gövdesi), katalizör ve bağlantı soketleri",
+          "belirtiler": "Göstergede 'enjeksiyonu kontrol ettirin' ve 'egzoz emisyonunu kontrol ettirin' uyarıları ve arıza lambası; belirgin çekiş kaybı (yokuşta hızın çok düşmesi); arıza kodlarında fark basınç sensörü, egzoz gaz sıcaklık sensörü ya da kelebek gövdesi pozisyon hatası; onarımdan sonra bir yıl içinde tekrarlayabiliyor.",
+          "tahmini_km_araligi": "10.000 - 80.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2021 sonrası Clio 5 1.0 TCe sahipleri enjeksiyon ve egzoz emisyonu uyarılarını birlikte aldıklarını, çekişin yokuşta 10 km/s'ye kadar düştüğünü yazıyor; serviste fark basınç sensörü, gaz sıcaklık sensörü ve kelebek gövdesi hataları okunmuş, bazı araçlarda sensör ya da katalizör hortumu değişimi, birinde yalnızca soketin yerine oturtulması sorunu çözmüş. Fabrika çıkışlı LPG'li araçlarda yazılım güncellemesi beklendiği aktarılıyor. DonanımHaber'de 1.0 TCe 90 sahibi aynı uyarıyı zaman zaman aldığını yazıyor. Fransız CarVerif incelemesi H4D 90 motorunda enjeksiyon uyarısı ve güç kaybını ayrı bir başlık olarak sayıyor. Kesin kök neden kaynaklarda yok.",
+            "teshis": "Renault teşhis cihazıyla arıza kodlarının okunması; akü geriliminin ölçülmesi (zayıf akü de benzer uyarılar verebiliyor); sensör soketleri ve emme hortumlarının kontrolü.",
+            "onlem": "İkinci el alırken arıza kodu taraması yaptırın ve servis kaydında sensör, katalizör ya da kelebek gövdesi değişimi olup olmadığını sorun. Kaynaklarda kilometre verilmiyor; aralık şikâyetlerin araç yaşına (birkaç aylık ile dört yıllık araçlar) göre kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/clio/enjeksiyonu-kontrol-ettirin-uyarisi",
+            "https://www.sikayetvar.com/renault/renault-clio-5-enjeksiyon-ve-egzoz-emisyon-arizasi",
+            "https://www.sikayetvar.com/renault/clio/basinc",
+            "https://forum.donanimhaber.com/renault-clio-5-sorun-yardim--150308347",
+            "https://carverif.fr/blogs/fiabilite-voitures/renault-clio-v-1-0-tce-90-h4d"
+          ]
         }
       ],
       "aileler": [
         "renault-h4bt-h4dt"
+      ]
+    },
+    {
+      "marka": "Renault",
+      "model": "Clio 5 (2019-)",
+      "motor": "1.3 TCe 130 (H5Ht, EDC)",
+      "uretim_yillari": {
+        "baslangic": 2019,
+        "bitis": null
+      },
+      "kronik_sorunlar": [
+        {
+          "sorun_adi": "Su pompası (devirdaim) arızası ve termostattan su kaçağı: su eksilmesi ve hararet",
+          "etkilenen_parca": "Su pompası, termostat gövdesi ve ek su pompası",
+          "belirtiler": "Soğutma suyu eksilmesi, hararet göstergesinin kısa süreli yükselmesi, kaynama sesi; serviste termostat ve su pompasının (bazen ek su pompası ve kayışla birlikte) değişmesi.",
+          "tahmini_km_araligi": "50.000 - 90.000 km",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2020-2021 Clio 5 1.3 TCe sahipleri termostattan su kaçağı ve su pompası arızası bildiriyor; bir sahipte termostat, su pompası, ek su pompası ve kayış birlikte değişmiş (yaklaşık 18.000 TL), başka bir sahipten yalnızca arıza tespiti için 5.500 TL istenmiş. Ekşi Sözlük'te 65.000 km'deki bir 1.3 TCe'de hararet ve kaynama sesi sonrası su pompası ve termostatın değiştiği, aynı arızayı yaşayan başka sahipler olduğu yazılıyor. Aynı motorun plastik termostat gövdesi sorunu motor ailesinde ayrıca kayıtlı.",
+            "onlem": "Soğutma suyu seviyesini düzenli kontrol edin; hararet uyarısında aracı hemen durdurun. Kilometre aralığı tek bir vakaya (65.000 km) ve 2020-2021 araçların yaşına göre kaba tahmindir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/renault-clio-5te-kronik-termostat-arizasi-icin-yuksek-tespit-ucreti-magduriyeti",
+            "https://www.sikayetvar.com/renault/clio/termostat",
+            "https://eksisozluk.com/renault-clio-5--5922223?p=18"
+          ],
+          "aile_sorunu": "renault-mercedes-1-3-tce/termostat-govdesi"
+        }
+      ],
+      "aileler": [
+        "getrag-7dct300",
+        "renault-edc",
+        "renault-mercedes-1-3-tce"
       ]
     },
     {
@@ -21891,6 +21943,38 @@
             "https://www.sikayetvar.com/clio-5/ekran",
             "https://www.sikayetvar.com/renault/renault-sifir-clio-5-aracimin-multimedya-ekrani-calismiyor",
             "https://forum.donanimhaber.com/clio-5-ekran-multimedya-sorunu--151377648"
+          ]
+        },
+        {
+          "sorun_adi": "Far ve stoplara su girmesi ve buğulanma",
+          "etkilenen_parca": "Ön far ve stop lambası gövdesi, conta ve havalandırma",
+          "belirtiler": "Yağmurda ya da yıkamadan sonra farın içinde su birikmesi ve yoğun buğulanma; stoplarda nem; garanti kapsamında değişen farda sorunun kısa sürede yeniden başlaması.",
+          "risk_seviyesi": "Düşük",
+          "detay": {
+            "neden": "Şikâyetvar'da Clio 5 sahipleri yağmurlu havada farın üst kısmından LED bölümüne kadar su girdiğini ve yoğun buğulanma olduğunu yazıyor; servislerin bir kısmı hasar bulamadığını ya da buğuyu 'ışık kırılması' diye açıkladığını, bazı araçlarda değişen farın bir haftada yeniden su aldığını bildiriyor. DonanımHaber'deki Clio 5 kronik sorunlar başlığında far ve stoplarda nem sık dile getirilenler arasında.",
+            "onlem": "Satın almadan önce farların içini buğu ve su izi için kontrol edin; buğulu far muayenede sorun çıkarabilir."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/clio/clio-5-far",
+            "https://www.sikayetvar.com/renault/renault-clio-5-far-bugulanmasi-video",
+            "https://forum.donanimhaber.com/clio5-kronik-arizasi-bol-sorunlu-bir-arac-mi--146973632"
+          ]
+        },
+        {
+          "sorun_adi": "Klima kompresörü arızası ve klimanın soğutmaması",
+          "etkilenen_parca": "Klima kompresörü, klima boruları ve kontrol yazılımı",
+          "belirtiler": "Klimanın soğutmaması ya da hiç çalışmaması; yetkili serviste kompresör değişimi ve parça için haftalarca bekleme; bazı araçlarda kompresör değişiminden sonra sorunun tekrarlaması ya da klima borusunda kaçak bulunması.",
+          "risk_seviyesi": "Orta",
+          "detay": {
+            "neden": "Şikâyetvar'da 2020 model Clio 5 sahipleri klimanın çalışmaması üzerine kompresörün değiştirildiğini, parçanın iki aya kadar beklendiğini ve bazılarında sorunun tekrarladığını yazıyor; bir sahipte değişimden sonra start-stop arızası başlayıp UPC beyni değişmiş. DonanımHaber'de Clio 4 / 5 Stepway ve Duster için ayrı bir kronik klima başlığı var; Clio 5 ana konusunda servisin sorunu kısmen yazılımsal saydığı ve bir araçta klima borusunda iki delik bulunduğu anlatılıyor.",
+            "teshis": "Klima basınç ölçümü ve arıza kodu okuması; kaçak testi (gaza katkı maddesiyle).",
+            "onlem": "İkinci el alırken klimayı en düşük sıcaklıkta birkaç dakika çalıştırıp çıkış havasını kontrol edin."
+          },
+          "kaynaklar": [
+            "https://www.sikayetvar.com/renault/clio/klima-kompresoru",
+            "https://www.sikayetvar.com/renault/clio/klima",
+            "https://forum.donanimhaber.com/clio-4-5-stepway-duster-kronik-klima-problemi-olanlar--144940796",
+            "https://forum.donanimhaber.com/2020-renault-clio-5-ana-konu--136922052-71"
           ]
         }
       ]

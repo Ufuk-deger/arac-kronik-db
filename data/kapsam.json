@@ -9700,7 +9700,7 @@
           "Tüm motorlar"
         ]
       },
-      "not": "Multimedya ekranı şikâyeti iki sitede doğrulandı. Tavan döşemesinde lekelenme (2020 model, garanti kapsamında değişti) tek şikâyet."
+      "not": "Multimedya ekranı şikâyeti iki sitede doğrulandı. Tavan döşemesinde lekelenme (2020 model, garanti kapsamında değişti) tek şikâyet. Faz 21 derin tarama: far / stop su alma ve klima kompresörü eklendi. Akü zayıflaması ('akü şarj öncelik', start-stop devre dışı) Şikâyetvar'da çok sayıda ama ikinci sitede Clio 5'e özgü doğrulanamadı; fren vakum pompası sesi yalnızca DonanımHaber'de; trim sesleri yalnızca Şikâyetvar'da."
     },
     {
       "marka": "Dacia",
@@ -19977,6 +19977,52 @@
         ]
       },
       "not": "Faz 20: tavan boyası atması Şikâyetvar ve Ekşi Sözlük'te bulundu (✓)."
+    },
+    {
+      "marka": "Renault",
+      "model": "Clio 5",
+      "yillar": "2019-",
+      "motor": "1.3 TCe 130 (H5Ht, EDC)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Clio 5 ("
+        ],
+        "motor": [
+          "1.3 TCe"
+        ]
+      },
+      "not": "Faz 21 derin tarama: termostat / su pompası Şikâyetvar ve Ekşi Sözlük'te; EDC ve 1.3 TCe aileleri bağlı."
+    },
+    {
+      "marka": "Renault",
+      "model": "Clio 5",
+      "yillar": "2019-",
+      "motor": "1.5 Blue dCi 85/115",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Clio 5 ("
+        ],
+        "motor": [
+          "1.5 Blue dCi"
+        ]
+      }
+    },
+    {
+      "marka": "Renault",
+      "model": "Clio 5",
+      "yillar": "2020-",
+      "motor": "E-Tech 140 / 145 (tam hibrit)",
+      "kademe": 1,
+      "eslesme": {
+        "model": [
+          "Clio 5 ("
+        ],
+        "motor": [
+          "E-Tech"
+        ]
+      }
     }
   ]
 }
