@@ -391,3 +391,19 @@ kontrol eder. Hata bulunursa sıfırdan farklı bir çıkış koduyla sonlanır;
    kesin olan modelleri aileye bağlayın (kayıt yoksa `kronik_sorunlar: []` ile yalnızca aileli kayıt açın) ve plan
    satırına modele özgü kaynak aranmadığını ya da bulunmadığını not edin. Motor kodu, model yılı ya da piyasa
    (Türkiye'de satılıp satılmadığı) belirsizse bağ kurmayın.
+
+## Sosyal medya videoları
+
+`scripts/video_uret.py` her sorun için Instagram Reels ve TikTok'a uygun dikey video (1080×1920, 30 kare/sn, H.264) üretir:
+arka planda aracın fotoğrafı (yoksa kasa tipi çizimi), üstte marka logosu ve model, sorun adı yazılarak gelir, belirtiler cümle
+cümle, sonra kilometre ve motor, kapanışta site adresi. Yanına paylaşım metni (açıklama ve etiketler) `.txt` olarak yazılır.
+
+```bash
+python3 scripts/video_uret.py renault/clio-5-2019-gunumuz            # en riskli sorun
+python3 scripts/video_uret.py renault/clio-5-2019-gunumuz --sira 3   # riske göre 3. sorun
+python3 scripts/video_uret.py renault/clio-5-2019-gunumuz --hepsi    # modelin tüm sorunları
+```
+
+Çıktı `videolar/` klasörüne yazılır (git'e eklenmez). Müzik videoya gömülmez; telif sorunu olmaması için Instagram ve TikTok'un
+uygulama içi müzik kütüphanesinden eklenmelidir. Video şablonu `scripts/video/sablon.html`, kaydedici `scripts/video/kaydet.js`.
+

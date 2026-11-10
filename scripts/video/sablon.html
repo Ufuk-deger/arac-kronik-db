@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="tr"><head><meta charset="utf-8">
+<style>
+/* 1080x1920 dikey video karesi. Metinler Reels/TikTok güvenli alanında (üst %12 ve alt %22 boş, sağda 140 px pay). */
+:root { --zemin: #0b1020; --zemin-2: #111a33; --yazi: #f5f7fb; --soluk: #a9b3c9; --ana: #3b82f6; --ana-acik: #93c5fd;
+  --yuksek: #f87171; --yuksek-z: rgba(248,113,113,.16); --orta: #fbbf24; --orta-z: rgba(251,191,36,.16); --dusuk: #34d399; --dusuk-z: rgba(52,211,153,.16);
+  --f: "Inter", "DejaVu Sans", sans-serif; --f-b: "Inter Display", "Inter", sans-serif; }
+* { box-sizing: border-box; margin: 0; }
+html, body { width: 1080px; height: 1920px; overflow: hidden; background: var(--zemin); color: var(--yazi); font-family: var(--f); }
+#sahne { position: relative; width: 1080px; height: 1920px; overflow: hidden;
+  background: radial-gradient(900px 700px at 80% 30%, rgba(59,130,246,.28), transparent 70%), radial-gradient(700px 600px at 10% 85%, rgba(59,130,246,.14), transparent 70%), linear-gradient(180deg, var(--zemin-2), var(--zemin)); }
+#arka { position: absolute; left: 50%; top: 1240px; width: 1500px; transform-origin: center; opacity: .0; }
+#arka svg { width: 100%; height: auto; }
+#arka svg .kasa-govde { fill: #1e2a4a; } #arka svg .kasa-cam { fill: #0f1730; } #arka svg .kasa-teker { fill: #2d3b63; } #arka svg .kasa-jant { fill: #1e2a4a; }
+#arka img { width: 100%; height: auto; border-radius: 24px; filter: saturate(.9) brightness(.55); }
+#icerik { position: absolute; left: 90px; right: 150px; top: 250px; display: flex; flex-direction: column; gap: 34px; }
+.ust { display: flex; align-items: center; gap: 22px; }
+.logo { width: 84px; height: 84px; border-radius: 22px; background: rgba(255,255,255,.08); display: grid; place-items: center; }
+.logo svg { width: 52px; height: 52px; fill: var(--yazi); }
+.logo b { font-family: var(--f-b); font-size: 32px; color: var(--soluk); }
+.model { font-family: var(--f-b); font-weight: 800; font-size: 64px; line-height: 1.05; letter-spacing: -0.02em; }
+.yil { font-size: 34px; color: var(--soluk); margin-top: 6px; }
+.etiket { display: flex; gap: 16px; align-items: center; }
+.kronik { font-size: 30px; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--ana-acik); }
+.risk { font-size: 30px; font-weight: 700; padding: 8px 22px; border-radius: 999px; display: inline-flex; align-items: center; gap: 12px; }
+.risk::before { content: ""; width: 16px; height: 16px; border-radius: 50%; background: currentColor; box-shadow: 0 0 18px currentColor; }
+.risk[data-risk="yuksek"] { color: var(--yuksek); background: var(--yuksek-z); }
+.risk[data-risk="orta"] { color: var(--orta); background: var(--orta-z); }
+.risk[data-risk="dusuk"] { color: var(--dusuk); background: var(--dusuk-z); }
+.baslik { font-family: var(--f-b); font-weight: 800; font-size: 82px; line-height: 1.08; letter-spacing: -0.02em; min-height: 180px; }
+.imlec { display: inline-block; width: 6px; height: .9em; background: var(--ana); margin-left: 6px; vertical-align: -0.08em; }
+.belirtiler { display: flex; flex-direction: column; gap: 22px; }
+.belirtiler p { font-size: 42px; line-height: 1.35; color: #dbe2f0; padding-left: 34px; border-left: 6px solid var(--ana); }
+.cipler { display: flex; flex-wrap: wrap; gap: 16px; }
+.cip { font-size: 32px; font-weight: 600; padding: 12px 24px; border-radius: 16px; background: rgba(255,255,255,.08); color: var(--yazi); }
+.cip.km { background: var(--ana); }
+#son { position: absolute; inset: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 30px; opacity: 0;
+  background: radial-gradient(800px 800px at 50% 45%, rgba(59,130,246,.35), transparent 70%), var(--zemin); }
+.marka-isaret { width: 150px; height: 150px; border-radius: 40px; background: var(--ana); display: grid; place-items: center; }
+.marka-isaret svg { width: 92px; height: 92px; fill: none; stroke: #fff; stroke-width: 1.8; stroke-linejoin: round; }
+.site-ad { font-family: var(--f-b); font-weight: 800; font-size: 86px; }
+.site-cagri { font-size: 44px; color: var(--soluk); text-align: center; max-width: 820px; line-height: 1.35; }
+.site-adres { font-size: 50px; font-weight: 700; color: var(--ana-acik); }
+.kredi { position: absolute; left: 90px; bottom: 300px; font-size: 22px; color: rgba(255,255,255,.45); }
+</style></head>
+<body><div id="sahne">
+  <div id="arka"></div>
+  <div id="icerik">
+    <div class="ust" id="u-ust"><div class="logo" id="u-logo"></div><div><div class="model" id="u-model"></div><div class="yil" id="u-yil"></div></div></div>
+    <div class="etiket" id="u-etiket"><span class="kronik">Kronik sorun</span><span class="risk" id="u-risk"></span></div>
+    <h1 class="baslik"><span id="u-baslik"></span><span class="imlec" id="u-imlec"></span></h1>
+    <div class="belirtiler" id="u-belirtiler"></div>
+    <div class="cipler" id="u-cipler"></div>
+  </div>
+  <div class="kredi" id="u-kredi"></div>
+  <div id="son"><div class="marka-isaret"><svg viewBox="0 0 24 24"><path d="M5 13l2-5.5A2 2 0 0 1 8.9 6h6.2a2 2 0 0 1 1.9 1.5L19 13M4 13h16v4a1 1 0 0 1-1 1h-1.5a1 1 0 0 1-1-1v-1h-9v1a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1z"/></svg></div>
+    <div class="site-ad" id="s-ad"></div><div class="site-cagri" id="s-cagri"></div><div class="site-adres" id="s-adres"></div></div>
+</div>
+<script>
+// Kareyi zamana göre deterministik çizen işlev: kaydedici her kare için ciz(t) çağırır (t saniye).
+const V = window.VIDEO;
+const $ = (id) => document.getElementById(id);
+const kolay = (x) => 1 - Math.pow(1 - Math.min(1, Math.max(0, x)), 3);
+const ara = (t, a, b) => kolay((t - a) / (b - a));
+$('u-logo').innerHTML = V.logo ? `<svg viewBox="0 0 24 24"><path d="${V.logo}"/></svg>` : `<b>${V.harf}</b>`;
+$('u-model').textContent = V.model; $('u-yil').textContent = V.yil;
+$('u-risk').textContent = V.risk + ' risk'; $('u-risk').dataset.risk = V.risk_anahtar;
+$('arka').innerHTML = V.arka;
+$('u-kredi').textContent = V.kredi || '';
+for (const c of V.cumleler) { const p = document.createElement('p'); p.textContent = c; $('u-belirtiler').append(p); }
+for (const c of V.cipler) { const s = document.createElement('span'); s.className = 'cip' + (c.km ? ' km' : ''); s.textContent = c.yazi; $('u-cipler').append(s); }
+$('s-ad').textContent = V.site; $('s-cagri').textContent = V.cagri; $('s-adres').textContent = V.adres;
+const Z = V.zaman;
+function gir(el, t, a, dy = 40) { const k = ara(t, a, a + 0.6); el.style.opacity = k; el.style.transform = `translateY(${(1 - k) * dy}px)`; }
+window.ciz = (t) => {
+  const arka = $('arka'); const k = t / Z.toplam;
+  arka.style.opacity = 0.9 * ara(t, 0, 1.2);
+  arka.style.transform = `translateX(${-50 - 6 * k}%) scale(${1.02 + 0.08 * k})`;
+  gir($('u-ust'), t, 0.2); gir($('u-etiket'), t, Z.etiket);
+  const n = V.baslik.length, kb = Math.min(1, Math.max(0, (t - Z.baslik) / Z.yazma));
+  $('u-baslik').textContent = V.baslik.slice(0, Math.round(n * kb));
+  $('u-imlec').style.opacity = (t >= Z.baslik && (kb < 1 || Math.floor(t * 2) % 2 === 0) && t < Z.belirti + 0.5) ? 1 : 0;
+  [...$('u-belirtiler').children].forEach((p, i) => gir(p, t, Z.belirti + i * Z.cumle_arasi, 30));
+  [...$('u-cipler').children].forEach((c, i) => gir(c, t, Z.cip + i * 0.25, 20));
+  const s = ara(t, Z.son, Z.son + 0.5); $('son').style.opacity = s; $('icerik').style.opacity = 1 - s;
+  gir($('s-ad'), t, Z.son + 0.2); gir($('s-cagri'), t, Z.son + 0.5); gir($('s-adres'), t, Z.son + 0.8);
+};
+window.ciz(0);
+</script></body></html>
