@@ -1011,7 +1011,7 @@
           "id": "enjektor",
           "sorun_adi": "Enjektör arızası",
           "etkilenen_parca": "Common-rail enjektörleri (kaynaklar özellikle 1.6 Multijet'i anıyor)",
-          "belirtiler": "Çekiş kaybı, tekleme, siyah duman, zor çalışma, motor arıza lambası; bazı sahipler arızanın garanti kapsamı dışında bırakıldığını bildiriyor",
+          "belirtiler": "Araç çekişten düşer, tekler, egzozdan siyah duman çıkar. Zor çalışır, motor arıza lambası yanar.",
           "tahmini_km_araligi": "40.000 - 150.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -1037,7 +1037,7 @@
           "id": "turbo",
           "sorun_adi": "Turbo arızası",
           "etkilenen_parca": "Turboşarj",
-          "belirtiler": "Güç kaybı, ıslık sesi, motor arıza lambası; değişimden sonra tekrarlayan arıza ve yüksek parça maliyeti bildiriliyor",
+          "belirtiler": "Güç kaybı olur, turbodan ıslık sesi gelir, motor arıza lambası yanar. Turbo değiştikten sonra arıza tekrar edebiliyor, parça pahalıdır.",
           "tahmini_km_araligi": "50.000 - 150.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -1122,7 +1122,7 @@
           "id": "triger-zinciri",
           "sorun_adi": "Triger zinciri uzaması",
           "etkilenen_parca": "Triger zinciri ve zincir gergisi",
-          "belirtiler": "Soğuk çalıştırmada birkaç saniye süren metalik hışırtı, kam/krank senkron hatası ile arıza lambası",
+          "belirtiler": "Soğuk çalıştırmada birkaç saniye metalik bir hışırtı gelir. Zincir uzadıkça arıza lambası yanar.",
           "tahmini_km_araligi": "150.000 - 250.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -1215,7 +1215,7 @@
           "id": "vites-sarsintisi",
           "sorun_adi": "Vites geçişlerinde sarsıntı",
           "etkilenen_parca": "Şanzıman (hibrit DCT)",
-          "belirtiler": "Vites geçişlerinde sarsıntı.",
+          "belirtiler": "Vites değişirken araç sarsılır.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "And Çetin'in DCT yazısında 7HDT300'ün sorunları arasında sayılıyor."
@@ -1226,9 +1226,9 @@
         },
         {
           "id": "elektrik-benzin-gecis-vurmasi",
-          "sorun_adi": "Elektrikli-benzinli geçişlerinde vuruntu",
+          "sorun_adi": "Elektrikten benzine geçerken vuruntu",
           "etkilenen_parca": "Şanzıman / elektrik motoru geçişi",
-          "belirtiler": "Elektrik ve benzinli sürüş arasındaki geçişlerde vuruntu.",
+          "belirtiler": "Araç elektrikli sürüşten benzinli motora ya da tersine geçerken vuruntu hissedilir.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "Yazıda 7HDT300'ün sorunları arasında sayılıyor."
@@ -1239,9 +1239,9 @@
         },
         {
           "id": "vites-devre-disi",
-          "sorun_adi": "'Şanzımanı kontrol ettirin' uyarısı, acil moda geçme ve bazı viteslerin kullanılamaması",
+          "sorun_adi": "'Şanzımanı kontrol ettirin' uyarısı ve acil mod",
           "etkilenen_parca": "Şanzıman kontrol sistemi",
-          "belirtiler": "'Şanzımanı kontrol ettirin' uyarısı, şanzımanın acil (recovery) moda geçmesi ve bazı viteslerin kullanılamaması.",
+          "belirtiler": "Göstergede 'Şanzımanı kontrol ettirin' uyarısı çıkar, şanzıman acil moda geçer ve bazı vitesler kullanılamaz.",
           "risk_seviyesi": "Yüksek",
           "detay": {
             "neden": "Yazıda 7HDT300'ün sorunları arasında sayılıyor."
@@ -1283,9 +1283,9 @@
         },
         {
           "id": "eco-mod-vites-kararsizligi",
-          "sorun_adi": "Eco modunda vites geçişlerinde kararsızlık",
+          "sorun_adi": "Eco modunda kararsız vites geçişleri",
           "etkilenen_parca": "Şanzıman kontrol yazılımı",
-          "belirtiler": "Özellikle Eco modunda vites geçişlerinde kararsızlık.",
+          "belirtiler": "Eco modunda vites geçişleri kararsızdır, şanzıman vites seçerken bocalar.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "And Çetin'in DCT yazısında FPT C635 DDCT'nin muadili DCT'lerle paylaştığı çalışma düzensizlikleri arasında sayılıyor. Aynı yazı bu şanzımanın kuru kavramalı DCT'ler arasında en masrafsızı olduğunu, çoğu kullanıcının aynı baskı balatayla 150-200 bin km yaptığını belirtiyor."
@@ -1296,9 +1296,9 @@
         },
         {
           "id": "soguk-mekanik-ses",
-          "sorun_adi": "1. ve 2. vitesten mekanik ses (özellikle soğuk havada)",
+          "sorun_adi": "Birinci ve ikinci viteste mekanik ses",
           "etkilenen_parca": "Şanzıman dişlileri / kavrama",
-          "belirtiler": "1. ve 2. viteste, özellikle soğuk havada mekanik ses.",
+          "belirtiler": "Birinci ve ikinci viteste mekanik bir ses gelir. Soğuk havada daha belirgindir.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "Yazıda muadili DCT'lerle paylaşılan çalışma düzensizlikleri arasında sayılıyor."
@@ -1309,9 +1309,9 @@
         },
         {
           "id": "gec-gaz-tepkisi",
-          "sorun_adi": "Şehir içinde gaz tepkisinin gecikmesi, ardından ani kavrama ve hamle",
+          "sorun_adi": "Şehir içinde gaza geç tepki, ardından ani hamle",
           "etkilenen_parca": "Kavrama adaptasyonu / kontrol yazılımı",
-          "belirtiler": "Şehir içinde ısınma nedeniyle gaza geç tepki: bir süre gaz almayıp sonra aniden kavrayarak hızlanma.",
+          "belirtiler": "Şanzıman ısındığında gaza bir süre cevap vermez, sonra aniden kavrayıp öne atılır. En çok şehir içi dur-kalkta olur.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "Yazıya göre şehir içinde sürekli devirsiz ve kısa mesafe sürmek bu davranışa yol açıyor.",
@@ -1323,9 +1323,9 @@
         },
         {
           "id": "asiri-isinma",
-          "sorun_adi": "Sıkışık trafikte aşırı ısınma (özellikle 1.6 dizel Alfa Romeo Tonale)",
+          "sorun_adi": "Sıkışık trafikte şanzımanın aşırı ısınması",
           "etkilenen_parca": "Kuru çift kavrama takımı",
-          "belirtiler": "Sıkışık trafikteki dur-kalklarda şanzımanın aşırı ısınması; kenara çekilmek gerekebilmesi.",
+          "belirtiler": "Uzun dur-kalk trafikte şanzıman aşırı ısınır, kenara çekip beklemek gerekebilir. En çok 1.6 dizel Alfa Romeo Tonale'de görülür.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "Yazıya göre 1.6 dizel motorlu Alfa Romeo Tonale'de bu şanzıman sıkışık trafikte aşırı ısınabiliyor; diğer kuru kavramalı DCT'lerde olduğu gibi bu sorun genelde frene tam basılmadan sık sık yarım kavrama kullanıldığında ortaya çıkıyor."
@@ -1336,9 +1336,9 @@
         },
         {
           "id": "egea-vites-kutusu-uyarisi",
-          "sorun_adi": "Sarsıntılı vites düşüşü, devir dalgalanması ve 'Vites kutusunu kontrol ettirin' uyarısı (Egea)",
+          "sorun_adi": "Sarsıntılı vites düşüşü ve şanzıman uyarısı",
           "etkilenen_parca": "Şanzıman ve robot yağı",
-          "belirtiler": "Sarsıntılı vites küçültme ve devir dalgalanması; ardından 'Vites kutusunu kontrol ettirin' uyarısı.",
+          "belirtiler": "Vites küçültürken sarsar, devir dalgalanır. Ardından göstergede 'Vites kutusunu kontrol ettirin' uyarısı çıkar.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "Yazıda Egea'larda karşılaşılan bir sorun olarak anlatılıyor.",
@@ -1409,9 +1409,9 @@
       "kronik_sorunlar": [
         {
           "id": "supap-kapagi-diyafram",
-          "sorun_adi": "Supap kapağı diyaframı delinmesi: yağ yakma",
+          "sorun_adi": "Supap kapağı diyaframı delinir, motor yağ yakar",
           "etkilenen_parca": "Supap kapağı (PCV) diyaframı",
-          "belirtiler": "Diyaframın delinmesi sonucu motorun yağ yakması.",
+          "belirtiler": "Supap kapağındaki diyafram delinince motor yağ yakmaya başlar. Yağ seviyesi bakımlar arasında düşer.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "And Çetin'in yazısında bazı kullanıcıların supap kapağı diyaframı delinmesi sonucu yağ yakmadan şikâyetçi olduğu belirtiliyor."
@@ -1422,9 +1422,9 @@
         },
         {
           "id": "zincir-kopmasi",
-          "sorun_adi": "Zincir kopması",
+          "sorun_adi": "Triger zincirinin kopması",
           "etkilenen_parca": "Triger zinciri",
-          "belirtiler": "Zincirin kopması.",
+          "belirtiler": "Triger zinciri kopabiliyor.",
           "risk_seviyesi": "Yüksek",
           "detay": {
             "neden": "Yazıda bazı kullanıcıların zincir kopmasından şikâyetçi olduğu belirtiliyor."
@@ -1437,7 +1437,7 @@
           "id": "motor-takozu",
           "sorun_adi": "Motor takozlarının kırılması",
           "etkilenen_parca": "Motor takozları",
-          "belirtiler": "Motor takozlarının kırılması.",
+          "belirtiler": "Motor takozları kırılabiliyor.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "Yazıda bazı kullanıcıların motor takozlarının kırılmasından şikâyetçi olduğu belirtiliyor."
@@ -1815,9 +1815,9 @@
       "kronik_sorunlar": [
         {
           "id": "kavrama-volan-sesi",
-          "sorun_adi": "Kavrama ve volan aşınması: 3. vitesten 4. vitese geçişte 'vuup' sürtünme sesi",
+          "sorun_adi": "Üçten dörde geçerken sürtünme sesi",
           "etkilenen_parca": "Çift kavrama takımı ve volan",
-          "belirtiler": "Yaklaşık 70.000 km'den sonra 3. vitesten 4. vitese geçerken 'vuup' benzeri sürtünme sesi.",
+          "belirtiler": "70.000 km civarından sonra üçüncü vitesten dördüncüye geçerken 'vuup' gibi bir sürtünme sesi gelir. Sebebi kavrama ve volan aşınmasıdır.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "And Çetin'in yazısına göre 7DCT300'de yaklaşık 70 bin km'den itibaren 3. vitesten 4. vitese geçerken sürtünme sesi başlıyor.",
@@ -1830,9 +1830,9 @@
         },
         {
           "id": "yavas-vites-gecisi",
-          "sorun_adi": "Yavaş vites geçişi",
+          "sorun_adi": "Vites geçişlerinde gecikme",
           "etkilenen_parca": "Şanzıman (vites geçişleri)",
-          "belirtiler": "Bazı modellerde vites değişiminde gecikme.",
+          "belirtiler": "Bazı araçlarda vites değişimi gecikir.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "Yazıda ıslak kavramalı şanzımanlarda bazı modellerde vites değişiminde gecikme görülebildiği belirtiliyor."
@@ -1843,9 +1843,9 @@
         },
         {
           "id": "kontrol-unitesi",
-          "sorun_adi": "Şanzıman kontrol ünitesi (elektronik) arızaları",
+          "sorun_adi": "Şanzıman beyni arızası",
           "etkilenen_parca": "Şanzıman kontrol ünitesi",
-          "belirtiler": "Elektronik kaynaklı şanzıman arızaları.",
+          "belirtiler": "Şanzımanın elektronik kontrol ünitesi arızalanabiliyor.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "Yazıda ıslak kavramalı sistemlerin ısı dağılımında genellikle daha iyi olduğu ama elektronik sorunların yaşanabildiği belirtiliyor."
@@ -1856,9 +1856,9 @@
         },
         {
           "id": "yag-sizintisi",
-          "sorun_adi": "Şanzıman sıvı (yağ) sızıntısı",
+          "sorun_adi": "Şanzımandan yağ sızıntısı",
           "etkilenen_parca": "Şanzıman contaları ve sıvı hatları",
-          "belirtiler": "Islak kavramalı sistemde sıvı sızıntısı.",
+          "belirtiler": "Islak kavramalı şanzımandan yağ sızabiliyor.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "Yazıda ıslak kavramalı sistemlerde sıvı sızıntıları meydana gelebildiği belirtiliyor."
@@ -3597,9 +3597,9 @@
       "kronik_sorunlar": [
         {
           "id": "vites-gecis-sesi-kavrama",
-          "sorun_adi": "EDC şanzıman vites geçiş sesi ve kavrama silkelemesi",
+          "sorun_adi": "EDC şanzımanda kalkışta silkeleme ve vites sesi",
           "etkilenen_parca": "EDC 6/7 ileri çift kavramalı şanzıman: kavrama ve yazılım",
-          "belirtiler": "Düşük hızda titreme, vites geçişlerinde sarsıntı ve ses, kalkışta silkeleme veya stop etme; yazılım güncellemesi kısmen çözüyor, mekanik aşınma ilerleyen kilometrede sürebiliyor",
+          "belirtiler": "Düşük hızda titrer, vites geçişlerinde sarsıntı ve ses olur, kalkışta silkeler ya da stop eder. Yazılım güncellemesi bir kısmını düzeltir, kilometre ilerledikçe kavrama aşınması sürebilir.",
           "tahmini_km_araligi": "30.000 - 120.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -3628,9 +3628,9 @@
         },
         {
           "id": "kontrol-unitesi",
-          "sorun_adi": "EDC şanzıman beyni arızası ('vites kutusunu kontrol ettirin')",
+          "sorun_adi": "EDC şanzıman beyni arızası",
           "etkilenen_parca": "EDC çift kavramalı şanzıman: kontrol ünitesi (beyin), kavrama ve aktüatör",
-          "belirtiler": "Gösterge panelinde 'vites kutusunu kontrol ettirin' uyarısı, aracın yolda kalması, düşük kilometrede vites geçişlerinde ses ve sarsıntı",
+          "belirtiler": "Göstergede 'Vites kutusunu kontrol ettirin' uyarısı çıkar, araç yolda kalabilir. Düşük kilometrede bile vites geçişlerinde ses ve sarsıntı olur.",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Yüksek",
           "detay": {
@@ -3656,9 +3656,9 @@
         },
         {
           "id": "kuru-kavrama-isinma",
-          "sorun_adi": "Yoğun trafikte kuru kavramanın (6DCT250) aşırı ısınması",
+          "sorun_adi": "Yoğun trafikte kavramanın aşırı ısınması (6DCT250)",
           "etkilenen_parca": "Kuru çift kavrama takımı (6DCT250)",
-          "belirtiler": "Sık dur-kalk trafikte kavramanın aşırı ısınması; şanzıman arızalarına yol açması.",
+          "belirtiler": "Sık dur-kalk trafikte kuru kavrama aşırı ısınır. Bu zamanla şanzıman arızalarına yol açar.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "And Çetin'in EDC-Powershift yazısına göre 6DCT250 kuru kavramada yoğun trafikte aşırı ısınma görülüyor ve şanzıman arızalarına yol açabiliyor. Yazı 6DCT250'nin en eski tip olduğunu, 2010 öncesi 6 ileri araçların neredeyse hepsinde bulunduğunu ve 6DCT250'den mümkün olduğunca uzak durulması gerektiğini belirtiyor."
@@ -3708,9 +3708,9 @@
         },
         {
           "id": "silkeleme-vuruntu-buji",
-          "sorun_adi": "Silkeleme, vuruntu, rölantide aşırı titreşim ve buji erimesi (özellikle CVT'li 100 PS Clio 5)",
+          "sorun_adi": "Silkeleme, vuruntu ve buji erimesi",
           "etkilenen_parca": "Motor (yanma), bujiler ve turbo",
-          "belirtiler": "Silkeleme, vuruntu, rölantide sert titreşim ve buji elektrotunun erimesi.",
+          "belirtiler": "Araç silkeler ve vuruntu yapar, rölantide sert titreşim olur. Bujilerin ucu erir. En çok CVT otomatik şanzımanlı 100 PS Clio 5'te görülür.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "And Çetin'in 1.0 turbo karşılaştırmasına göre özellikle CVT (X-tronic) şanzımanlı ve 100 PS'lik Clio 5 1.0 TCe'lerde silkeleme, vuruntu, rölantide aşırı titreşimli çalışma ve buji eritme görülüyor. Bu ünitenin 90 ve 100 PS'liklerinin endirekt enjeksiyonlu ve LPG uyumlu, 115 PS ve üstünün direkt enjeksiyonlu olduğu belirtiliyor.",
@@ -3722,9 +3722,9 @@
         },
         {
           "id": "yuksek-yakit-tuketimi",
-          "sorun_adi": "Yakıt tüketiminin fabrika verilerinden belirgin yüksek olması",
+          "sorun_adi": "Yakıt tüketimi fabrika değerinden çok yüksek",
           "etkilenen_parca": "Motor (genel)",
-          "belirtiler": "Yakıt tüketiminin fabrika verilerinden belirgin ölçüde yüksek olması.",
+          "belirtiler": "Araç katalogda yazandan belirgin şekilde fazla yakıt yakar.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "And Çetin'in 1.0 turbo karşılaştırmasında Renault / Dacia / Nissan 1.0 TCe için belirtiliyor."
@@ -3901,9 +3901,9 @@
       "kronik_sorunlar": [
         {
           "id": "termostat-govdesi",
-          "sorun_adi": "Plastik termostat gövdesinin çatlaması ve soğutma suyu sızıntısı",
+          "sorun_adi": "Plastik termostat gövdesi çatlar, su kaçırır",
           "etkilenen_parca": "Plastik termostat gövdesi",
-          "belirtiler": "Termostat gövdesinde çatlama ya da birleşme noktasından sızıntı; sızan soğutma sıvısının motora kadar gidip hararete yol açması.",
+          "belirtiler": "Termostat gövdesi çatlar ya da birleşim yerinden su sızdırır. Sızan su motorun üstüne gider, su eksildikçe hararet yapar.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "And Çetin'in yazısına göre M282 kodlu 1.3 TCe'de termostat gövdesi plastikten yapılmış; zamanla çatlıyor ya da birleşme noktasından sızıntı yapıyor, sızan soğutma sıvısı motora kadar gidip hararete yol açıyor. Yazı aynı sorunun Renault modellerinde de görüldüğünü belirtiyor.",
@@ -4626,7 +4626,7 @@
           "id": "yag-eksiltme",
           "sorun_adi": "Yağ eksiltme ve düşük yağ uyarısı",
           "etkilenen_parca": "1.5 TSI motor: segman, supap sapı keçeleri ve yağ sistemi (kaynaklarda neden netleşmiyor)",
-          "belirtiler": "İlk bakımdan önce 'yağ seviyesi düşük' uyarısı; yetkili servis eksilmeyi normal sayıp yağ takviyesi için ücret istiyor",
+          "belirtiler": "İlk bakım gelmeden 'Yağ seviyesi düşük' uyarısı yanar. Servis bu eksilmeyi normal sayabiliyor.",
           "tahmini_km_araligi": "5.000 - 60.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -4652,9 +4652,9 @@
         },
         {
           "id": "act-titresim",
-          "sorun_adi": "Düşük devirde titreşim ve düzensiz rölanti (ACT silindir kapatma)",
+          "sorun_adi": "Düşük devirde titreşim (ACT silindir kapatma)",
           "etkilenen_parca": "ACT (2. ve 3. silindir kapatma) geçişi, motor takozları, karter havalandırma (PCV) hattı ve emme tarafı kurumu, volan (kaynaklarda neden netleşmiyor)",
-          "belirtiler": "1.000 devir altında ve araç dururken düzensiz titreşim, soğuk çalıştırmada sesli çalışma; ACT iki silindir moduna geçince düşük devirde hırıltılı sürekli titreme (ACT devreden çıkınca kesilebiliyor)",
+          "belirtiler": "1.000 devrin altında ve araç dururken düzensiz titreşim olur, soğuk çalıştırmada motor sesli çalışır. ACT iki silindire geçtiğinde düşük devirde hırıltılı bir titreme sürer, ACT devreden çıkınca kesilebilir.",
           "tahmini_km_araligi": "5.000 - 60.000 km",
           "risk_seviyesi": "Düşük",
           "detay": {
@@ -4669,9 +4669,9 @@
         },
         {
           "id": "kanguru-etkisi",
-          "sorun_adi": "Düşük devirde 'kanguru etkisi' (2020 öncesi DADA, manuel vites)",
+          "sorun_adi": "Düşük devirde sarsıntı ('kanguru etkisi')",
           "etkilenen_parca": "Motor / manuel şanzıman uyumu",
-          "belirtiler": "Düz (manuel) vitesle düşük devirlerde sarsıntılı çalışma.",
+          "belirtiler": "Manuel vitesli araçta düşük devirde motor sarsıntılı çalışır, araç ileri geri tekler gibi gider. 2020 öncesi DADA motorlarda görülür.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "And Çetin'in yazısına göre 1.5 TSI'ların 2020 öncesi (DADA) örneklerinde düz vitesle kullanıldığında düşük devirlerde 'kanguru etkisi' denen sarsıntılı çalışma var; sonraki Evo2 sürümlerinde bu sıkıntı büyük oranda giderildi."
@@ -5013,7 +5013,7 @@
           "id": "kuru-kavrama-asinmasi",
           "sorun_adi": "Kuru kavrama aşınması",
           "etkilenen_parca": "DQ200 kuru çift kavrama",
-          "belirtiler": "Kalkışta silkeleme, yokuşta geri kayma hissi, düşük hızda sarsıntılı vites geçişleri",
+          "belirtiler": "Kalkışta silkeler, yokuşta geri kaçıyormuş gibi hissettirir, düşük hızda vites geçişleri sarsıntılıdır.",
           "tahmini_km_araligi": "60.000 - 140.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -5193,9 +5193,9 @@
       "kronik_sorunlar": [
         {
           "id": "enjektor",
-          "sorun_adi": "Enjektör arızası (şakırdama ve soğuk çalıştırmada düzensiz rölanti)",
+          "sorun_adi": "Enjektör arızası, soğukta düzensiz rölanti",
           "etkilenen_parca": "Common-rail enjektörleri (piezo tip), enjektör kodlaması",
-          "belirtiler": "Enjektör şakırdaması, soğuk ilk çalıştırmada rölantide dalgalanma ve titreme, tekleme, beyaz duman, yakıt tüketiminde artış",
+          "belirtiler": "Enjektörler şakırdar. Soğuk motoru ilk çalıştırınca rölanti dalgalanır ve motor titrer, tekler, beyaz duman çıkar. Yakıt tüketimi artar.",
           "tahmini_km_araligi": "80.000 - 200.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -10840,7 +10840,7 @@
         {
           "sorun_adi": "EGR valfi tıkanması",
           "etkilenen_parca": "EGR valfi",
-          "belirtiler": "Çekiş kaybı, motor arıza lambası, rölantide stop etme",
+          "belirtiler": "Araç çekişten düşer, motor arıza lambası yanar, rölantide stop edebilir.",
           "tahmini_km_araligi": "80.000 - 150.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -10863,9 +10863,9 @@
           "aile_sorunu": "fiat-1-3-multijet/egr-valfi"
         },
         {
-          "sorun_adi": "DPF tıkanması ve yağa yakıt karışması",
+          "sorun_adi": "Partikül filtresi (DPF) tıkanması, yağa yakıt karışması",
           "etkilenen_parca": "Dizel partikül filtresi (DPF), motor yağı",
-          "belirtiler": "DPF uyarısı, güç kısıtlaması, tamamlanamayan rejenerasyonlar nedeniyle yağ seviyesinin yükselmesi",
+          "belirtiler": "DPF uyarısı yanar, motor gücü kısılır. Filtre temizlenemedikçe yakıt yağa karışır ve yağ seviyesi yükselir.",
           "tahmini_km_araligi": "80.000 - 160.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -10904,7 +10904,7 @@
         {
           "sorun_adi": "Aşırı yağ tüketimi",
           "etkilenen_parca": "Piston segmanları, yağ buharlaşması (motorda yağ soğutucusu yok)",
-          "belirtiler": "Bakımlar arasında yağ eksilmesi, yağ seviyesi uyarısı; yağ azaldığında yağ lambası geç yanabiliyor",
+          "belirtiler": "Motor bakımlar arasında yağ eksiltir, yağ seviyesi uyarısı yanar. Yağ lambası geç yanabildiği için seviyeyi elle kontrol etmek gerekir.",
           "tahmini_km_araligi": "20.000 - 80.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -10935,7 +10935,7 @@
         {
           "sorun_adi": "Çift kütleli volan arızası",
           "etkilenen_parca": "Çift kütleli volan (manuel şanzımanlı versiyon)",
-          "belirtiler": "Kalkışta titreme, rölantide tıkırtı, kontak kapatılırken sarsıntı",
+          "belirtiler": "Kalkışta titreme, rölantide tıkırtı olur. Kontak kapatılırken araç sarsılır.",
           "tahmini_km_araligi": "100.000 - 180.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -10956,7 +10956,7 @@
         {
           "sorun_adi": "EGR ve DPF tıkanması",
           "etkilenen_parca": "EGR valfi, dizel partikül filtresi (DPF)",
-          "belirtiler": "Çekiş kaybı, DPF uyarısı, sık rejenerasyon, motor arıza lambası",
+          "belirtiler": "Araç çekişten düşer, DPF uyarısı yanar ve filtre sık sık kendini temizlemeye çalışır. Motor arıza lambası yanabilir.",
           "tahmini_km_araligi": "80.000 - 160.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -10977,9 +10977,9 @@
           "aile_sorunu": "fiat-1-6-multijet-ii/egr-dpf"
         },
         {
-          "sorun_adi": "DCT şanzıman kavrama aşınması ve yazılım sorunları",
+          "sorun_adi": "Çift kavramalı (DCT) şanzımanda silkeleme",
           "etkilenen_parca": "Çift kavramalı şanzıman (DCT) kavrama takımı ve şanzıman beyni",
-          "belirtiler": "Düşük hızda silkeleme, kalkışta gecikme ve ani hamle, vites geçişlerinde sarsıntı",
+          "belirtiler": "Düşük hızda silkeler, kalkışta önce gecikir sonra hamle yapar. Vites geçişlerinde sarsıntı hissedilir.",
           "tahmini_km_araligi": "40.000 - 120.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -11014,9 +11014,9 @@
       },
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Hibrit geçişlerinde sarsıntı ve start-stop hissi",
+          "sorun_adi": "Hibrit geçişlerinde sarsıntı",
           "etkilenen_parca": "48 V hafif hibrit sistem (kayış tahrikli marş jeneratörü), dahili elektrik motorlu çift kavramalı şanzıman ve yazılımı",
-          "belirtiler": "Elektrikten benzine geçerken silkeleme ve ani yavaşlama, klima açıkken elektrikle giderken sarsıntı, soğuk motorda düşük viteslerde kararsızlık, motorun 70-90 km/s'de kapanıp açılması",
+          "belirtiler": "Elektrikten benzine geçerken silkeler ve bir an yavaşlar. Klima açıkken elektrikle giderken sarsıntı olur, soğuk motorda düşük viteslerde kararsızdır. 70-90 km/s arasında motor kapanıp açılabilir.",
           "tahmini_km_araligi": "1.000 - 40.000 km",
           "risk_seviyesi": "Düşük",
           "detay": {
@@ -11046,9 +11046,9 @@
       },
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Klima açıkken kompresörden uğultu (özellikle 1.4 sürümler)",
+          "sorun_adi": "Klima açıkken uğultu (çoğunlukla 1.4)",
           "etkilenen_parca": "Klima kompresörü",
-          "belirtiler": "Klima açıkken kabine yansıyan, gaza basınca artan uğultu; özellikle 1.4 sürümlerde görülüyor, garanti dışında onarım bedeli yüksek.",
+          "belirtiler": "Klima açıkken kabine bir uğultu gelir, gaza bastıkça artar. En çok 1.4 benzinli sürümlerde görülür. Kaynağı klima kompresörüdür ve onarımı pahalıdır.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "Bir kullanıcının aktardığına göre yetkili servis kompresörün fabrikasyon olarak yağsız olduğunu ve bu yüzden ses yaptığını söylemiş; genel forum açıklamalarında uğultunun yaygın nedenleri kompresör rulmanı, düşük gaz seviyesi ve motor titreşimi olarak sayılıyor (Egea'ya özgü teşhis değil).",
@@ -11064,9 +11064,9 @@
           ]
         },
         {
-          "sorun_adi": "Tavan, kaput ve çamurluklarda boya atması / pullanma",
+          "sorun_adi": "Tavan, kaput ve çamurluklarda boya atması",
           "etkilenen_parca": "Boya (tavan, kaput, çamurluk)",
-          "belirtiler": "Tavan, kaput ve çamurluklarda boyanın pullanması, çatlaması ya da yıkama sırasında atması; servisler çoğunlukla kuş pisliği ya da asit gibi dış etkenleri gerekçe gösterip garantiyi reddediyor.",
+          "belirtiler": "Boya pul pul kalkar, çatlar ya da yıkarken parça parça atar. En çok tavanda, kaputta ve çamurluklarda görülür.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "Kaynaklarda kesin neden yok: servisler dış etken (kuş pisliği, asit) diyor, sahipler boya hatası olduğunu düşünüyor; foruma yazan bir yorumcu başka bir araçta kimyasal sıçramasını olası görüyor.",
@@ -11079,9 +11079,9 @@
           ]
         },
         {
-          "sorun_adi": "Bagajdan su alma; direksiyonda takılma ve kasılma",
+          "sorun_adi": "Bagaja su girmesi ve direksiyonda takılma",
           "etkilenen_parca": "Bagaj sızdırmazlığı ve direksiyon",
-          "belirtiler": "Bagajdan su alma; direksiyonda takılma ve kasılma.",
+          "belirtiler": "Yağmurdan sonra bagajda su birikebilir. Direksiyon dönerken yer yer takılır ya da kasılır.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "And Çetin'in '500 bin–1 milyon TL arası en sorunsuz arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor. 'En sorunsuz arabalar' yazısında (Mart 2026) Egea için 'Dikkat' olarak, 1.4 Fire'da yağ eksiltme, dizellerde AdBlue ve DPF tıkanması ve DCT kararsızlık / arızaları ile birlikte sayılıyor."
@@ -11091,9 +11091,9 @@
           ]
         },
         {
-          "sorun_adi": "Cam krikosu / cam mekanizması arızası: camın kapı içine düşmesi",
+          "sorun_adi": "Cam krikosu arızası, cam kapının içine düşer",
           "etkilenen_parca": "Elektrikli cam krikosu, camı tutan plastik ve metal bağlantı parçaları",
-          "belirtiler": "Camın kapı içine düşmesi ya da yerinden kayması; elle yerine takılsa da tutmaması; camlar çalışırken ses; soğuk havada kriko plastiğinin kırılması.",
+          "belirtiler": "Cam kapının içine düşer ya da rayından çıkar. Elle yerine oturtulsa da tutmaz. Çalışırken ses yapar, soğukta krikonun plastik parçası kırılabilir.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "Şikâyetvar'da Egea sahipleri sağ ve sol camın kapı içine düştüğünü, bir camcının camı tutan plastik parçanın zamanla sıyrıldığını ve bunun Egea'larda bilinen bir sorun olduğunu söylediğini yazıyor; 2017 model bir araçta sorunun yeni modellerde mekanizma değişikliğiyle giderildiği aktarılıyor. Ekşi Sözlük'te bir sahip camın içe düştüğünü ve servisin, içeri giren yağmur suyunun camı tutan metal parçayı paslandırıp kopardığını söylediğini anlatıyor. DonanımHaber'de ön camların çalışırken ses yaptığı şikâyeti var.",
@@ -11107,9 +11107,9 @@
           ]
         },
         {
-          "sorun_adi": "Direksiyon kutusundan tıkırtı ve ses",
+          "sorun_adi": "Direksiyon kutusundan tıkırtı",
           "etkilenen_parca": "Direksiyon kutusu, z rot ve ön takım bağlantıları",
-          "belirtiler": "Direksiyon çevrilirken ve çukurdan geçerken tıkırtı ya da takırtı; bazı araçlarda direksiyonun sertleşmesi; yaklaşık 19.000-40.000 km'de başlayan ve garanti kapsamında direksiyon kutusu değişimiyle giderilen vakalar.",
+          "belirtiler": "Direksiyonu çevirirken ve çukura girerken tıkırtı ya da takırtı gelir. Bazı araçlarda direksiyon sertleşir. Genelde 19.000-40.000 km arasında başlar, çözüm direksiyon kutusunun değişmesidir.",
           "tahmini_km_araligi": "19.000 - 40.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -21965,9 +21965,9 @@
       },
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Turbo wastegate sesi ve arızası",
+          "sorun_adi": "Turbodan cızırtı sesi (wastegate)",
           "etkilenen_parca": "Turbo wastegate (atık gaz) valfi ve aktüatörü",
-          "belirtiler": "Gazdan çekilince cızırtı veya zırıltı sesi, turbo değişiminden sonra sesin geri dönmesi, güç dalgalanması",
+          "belirtiler": "Gazdan ayağınızı çekince turbodan cızırtı ya da zırıltı gelir, çekişte dalgalanma olur. Turbo değiştikten sonra ses geri dönebiliyor.",
           "tahmini_km_araligi": "20.000 - 80.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -21990,9 +21990,9 @@
           "aile_sorunu": "renault-h4bt-h4dt/turbo-wastegate"
         },
         {
-          "sorun_adi": "Motor takozu yıpranması",
+          "sorun_adi": "Motor takozunun yıpranması",
           "etkilenen_parca": "Motor ve şanzıman takozları (3 silindir titreşimi)",
-          "belirtiler": "Rölantide ve düşük devirde titreşim, vites değişiminde vuruntu",
+          "belirtiler": "Rölantide ve düşük devirde titreşim olur, vites değiştirirken vuruntu hissedilir.",
           "tahmini_km_araligi": "40.000 - 80.000 km",
           "risk_seviyesi": "Düşük",
           "detay": {
@@ -22010,9 +22010,9 @@
           ]
         },
         {
-          "sorun_adi": "Motor titreşimi, sık motor kulağı değişimi, rölanti dalgalanması, buji erimesi, klima açılınca tekleme, enjeksiyon-katalizör hataları ve yüksek yakıt tüketimi",
+          "sorun_adi": "Titreşim, rölanti dalgalanması ve buji erimesi",
           "etkilenen_parca": "Motor, motor takozları, bujiler, enjeksiyon ve katalizör",
-          "belirtiler": "Motor titreşimi; Sık motor kulağı değişimi; Rölantide dalgalanma; Buji eritme; Klimayı açınca tekleme; Enjeksiyon-katalizör hataları; Yüksek yakıt tüketimi.",
+          "belirtiler": "Motor titrer, rölanti dalgalanır, klima açılınca tekler. Motor takozları sık değişir, bujiler erir. Enjeksiyon ve katalizör hataları görülür, yakıt tüketimi yüksektir.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
@@ -22022,9 +22022,9 @@
           ]
         },
         {
-          "sorun_adi": "Turbo wastegate'inden tıkırtı ve turbo değişimi; termostat ve su pompası değişimi",
+          "sorun_adi": "Turbo tıkırtısı, termostat ve su pompası arızası",
           "etkilenen_parca": "Turboşarj, termostat ve devirdaim pompası",
-          "belirtiler": "Turbo wastegate tıkırtısı ve turbo değişimi; termostat ile su pompasının değişmesi.",
+          "belirtiler": "Turbodan (wastegate) tıkırtı gelir ve turbo değişebilir. Termostat ile su pompası da arızalanıp değişmesi gerekebilir.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
@@ -22034,9 +22034,9 @@
           ]
         },
         {
-          "sorun_adi": "Alternatör-akü-şarj dinamosu arızaları, kaputu bırakınca farların kırılması, far buğusu, ön tekerlek bilyası",
+          "sorun_adi": "Şarj sistemi, far ve ön bilya arızaları",
           "etkilenen_parca": "Alternatör / akü, farlar ve ön tekerlek bilyası",
-          "belirtiler": "Alternatör arızası; Alternatör-akü-şarj dinamosu arızaları; Kaputu bırakınca farların kırılması; Far buğusu; Ön tekerlek bilyası.",
+          "belirtiler": "Alternatör ve akü arızalanabilir, şarj sorunu çıkar. Kaput sertçe kapanınca far kırılabiliyor, farlar buğulanır. Ön tekerlek bilyası da arızalanabiliyor.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "And Çetin'in 'En sorunlu sıfır arabalar' yazısında bu aracın / sistemin sorunları arasında sayılıyor."
@@ -22046,9 +22046,9 @@
           ]
         },
         {
-          "sorun_adi": "'Enjeksiyonu kontrol ettirin' ve 'egzoz emisyonu' uyarısıyla çekiş kaybı",
+          "sorun_adi": "'Enjeksiyonu kontrol ettirin' uyarısı ve çekiş kaybı",
           "etkilenen_parca": "Motor yönetimi sensörleri (fark basınç sensörü, egzoz gaz sıcaklık sensörü, kelebek gövdesi), katalizör ve bağlantı soketleri",
-          "belirtiler": "Göstergede 'enjeksiyonu kontrol ettirin' ve 'egzoz emisyonunu kontrol ettirin' uyarıları ve arıza lambası; belirgin çekiş kaybı (yokuşta hızın çok düşmesi); arıza kodlarında fark basınç sensörü, egzoz gaz sıcaklık sensörü ya da kelebek gövdesi pozisyon hatası; onarımdan sonra bir yıl içinde tekrarlayabiliyor.",
+          "belirtiler": "Göstergede 'Enjeksiyonu kontrol ettirin' ve 'Egzoz emisyonunu kontrol ettirin' uyarıları ile arıza lambası yanar, araç belirgin şekilde çekişten düşer ve yokuşta hız çok azalır. Arıza kodu çoğunlukla bir sensörü ya da gaz kelebeğini gösterir. Onarımdan sonra bir yıl içinde tekrar edebiliyor.",
           "tahmini_km_araligi": "10.000 - 80.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -22079,9 +22079,9 @@
       },
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Su pompası (devirdaim) arızası ve termostattan su kaçağı: su eksilmesi ve hararet",
+          "sorun_adi": "Su pompası ve termostat kaçağı, hararet",
           "etkilenen_parca": "Su pompası, termostat gövdesi ve ek su pompası",
-          "belirtiler": "Soğutma suyu eksilmesi, hararet göstergesinin kısa süreli yükselmesi, kaynama sesi; serviste termostat ve su pompasının (bazen ek su pompası ve kayışla birlikte) değişmesi.",
+          "belirtiler": "Soğutma suyu eksilir, hararet göstergesi kısa süreliğine yükselir, kaynama sesi gelebilir. Genelde termostat ile su pompası birlikte değişir.",
           "tahmini_km_araligi": "50.000 - 90.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -22112,9 +22112,9 @@
       },
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Multimedya ekranında 'Sistem kilitlendi' uyarısı, kendiliğinden kapanma ve CarPlay kopması",
+          "sorun_adi": "Multimedya ekranı kilitleniyor ya da kapanıyor",
           "etkilenen_parca": "Fabrika multimedya ekranı (EASY LINK) ve yazılımı",
-          "belirtiler": "Ekranda 'Sistem kilitlendi, satıcınıza başvurunuz' uyarısı, ekranın çalıştırmadan 10-20 saniye sonra kendiliğinden kapanması, açılmaması; Apple CarPlay bağlıyken bağlantının kopması ve ekranın kararması.",
+          "belirtiler": "Ekranda 'Sistem kilitlendi, satıcınıza başvurunuz' uyarısı çıkar. Ekran açıldıktan 10-20 saniye sonra kendiliğinden kapanır ya da hiç açılmaz. Apple CarPlay bağlıyken bağlantı kopar, ekran kararır.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "Bazı şikâyetler fabrika ekranı yerine sonradan takılan Android ekranlarla (Necvox, Avgo ve benzeri) ilgili; bu kayıt fabrika ekran anlatılarına dayanır. Kaynaklarda kesin neden yok.",
@@ -22129,9 +22129,9 @@
           ]
         },
         {
-          "sorun_adi": "Far ve stoplara su girmesi ve buğulanma",
+          "sorun_adi": "Farlara ve stoplara su girmesi",
           "etkilenen_parca": "Ön far ve stop lambası gövdesi, conta ve havalandırma",
-          "belirtiler": "Yağmurda ya da yıkamadan sonra farın içinde su birikmesi ve yoğun buğulanma; stoplarda nem; garanti kapsamında değişen farda sorunun kısa sürede yeniden başlaması.",
+          "belirtiler": "Yağmurdan ya da yıkamadan sonra farın içinde su birikir ve far buğulanır, stoplarda da nem olur. Far değişse bile sorun kısa sürede geri dönebiliyor.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "Şikâyetvar'da Clio 5 sahipleri yağmurlu havada farın üst kısmından LED bölümüne kadar su girdiğini ve yoğun buğulanma olduğunu yazıyor; servislerin bir kısmı hasar bulamadığını ya da buğuyu 'ışık kırılması' diye açıkladığını, bazı araçlarda değişen farın bir haftada yeniden su aldığını bildiriyor. DonanımHaber'deki Clio 5 kronik sorunlar başlığında far ve stoplarda nem sık dile getirilenler arasında.",
@@ -22144,9 +22144,9 @@
           ]
         },
         {
-          "sorun_adi": "Klima kompresörü arızası ve klimanın soğutmaması",
+          "sorun_adi": "Klima kompresörü arızası, klima soğutmuyor",
           "etkilenen_parca": "Klima kompresörü, klima boruları ve kontrol yazılımı",
-          "belirtiler": "Klimanın soğutmaması ya da hiç çalışmaması; yetkili serviste kompresör değişimi ve parça için haftalarca bekleme; bazı araçlarda kompresör değişiminden sonra sorunun tekrarlaması ya da klima borusunda kaçak bulunması.",
+          "belirtiler": "Klima soğutmaz ya da hiç çalışmaz. Çözüm genelde kompresör değişimidir, parça beklemesi uzun sürebilir. Bazı araçlarda değişimden sonra sorun geri döner ya da klima borusunda kaçak çıkar.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "Şikâyetvar'da 2020 model Clio 5 sahipleri klimanın çalışmaması üzerine kompresörün değiştirildiğini, parçanın iki aya kadar beklendiğini ve bazılarında sorunun tekrarladığını yazıyor; bir sahipte değişimden sonra start-stop arızası başlayıp UPC beyni değişmiş. DonanımHaber'de Clio 4 / 5 Stepway ve Duster için ayrı bir kronik klima başlığı var; Clio 5 ana konusunda servisin sorunu kısmen yazılımsal saydığı ve bir araçta klima borusunda iki delik bulunduğu anlatılıyor.",
@@ -26730,7 +26730,7 @@
         {
           "sorun_adi": "Aşırı yağ tüketimi",
           "etkilenen_parca": "Piston segmanları, valf sapı keçeleri, turbo",
-          "belirtiler": "Yağ seviyesinin sık düşmesi (bazı araçlarda 1.000-3.000 km'de 1 litre), yağ seviyesi uyarısı",
+          "belirtiler": "Yağ seviyesi sık düşer, bazı araçlar 1.000-3.000 km'de bir litre yağ eksiltir. Yağ seviyesi uyarısı yanar.",
           "tahmini_km_araligi": "40.000 - 120.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -26764,7 +26764,7 @@
         {
           "sorun_adi": "Devirdaim pompası ve termostat gövdesi kaçağı",
           "etkilenen_parca": "Plastik gövdeli su pompası ve termostat modülü",
-          "belirtiler": "Antifriz eksilmesi, ısı göstergesinde dalgalanma, park yerinde antifriz damlaması",
+          "belirtiler": "Antifriz eksilir, hararet göstergesi oynar, araç park ettiği yerde antifriz damlatır.",
           "tahmini_km_araligi": "60.000 - 120.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -26786,9 +26786,9 @@
           "aile_sorunu": "vag-ea211-1-4-tsi/devirdaim-termostat"
         },
         {
-          "sorun_adi": "DQ200 kuru kavrama aşınması ve mekatronik arızası",
+          "sorun_adi": "DSG (DQ200) kavrama aşınması ve mekatronik arızası",
           "etkilenen_parca": "DQ200 7 ileri kuru kavrama ve mekatronik ünite",
-          "belirtiler": "Düşük hızda sarsıntı, geç kavrama, vites geçişlerinde vuruntu, şanzımanın acil moda geçmesi",
+          "belirtiler": "Düşük hızda sarsar, geç kavrar, vites geçişlerinde vuruntu olur. İlerlerse şanzıman acil moda geçer.",
           "tahmini_km_araligi": "60.000 - 150.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -26837,7 +26837,7 @@
         {
           "sorun_adi": "EGR valfi ve DPF tıkanması",
           "etkilenen_parca": "EGR valfi, dizel partikül filtresi (DPF)",
-          "belirtiler": "Motor arıza lambası, çekiş kaybı (yaklaşık 70.000 km civarında bildiriliyor), sık rejenerasyon; temizlik geçici çözüm, kalıcı çözüm valf değişimi olabiliyor",
+          "belirtiler": "Motor arıza lambası yanar, araç çekişten düşer, filtre sık sık kendini temizlemeye çalışır. Genelde 70.000 km civarında başlar. Temizlik geçici çözümdür, kalıcı çözüm çoğu zaman valf değişimidir.",
           "tahmini_km_araligi": "60.000 - 130.000 km",
           "risk_seviyesi": "Orta",
           "detay": {
@@ -26873,9 +26873,9 @@
       },
       "kronik_sorunlar": [
         {
-          "sorun_adi": "Cam tavan çerçevesinde çatlak ve içeri su sızması",
+          "sorun_adi": "Cam tavan çerçevesi çatlar, içeri su girer",
           "etkilenen_parca": "Cam tavan (sunroof) plastik çerçevesi, siyah tavan çıtası",
-          "belirtiler": "Çerçevenin (özellikle ön köşelerde) ve siyah tavan çıtasının darbe olmadan kendiliğinden çatlaması ya da soyulması; çatlak büyüdükçe yağmurda ve yıkamada tavandan kabine su sızması.",
+          "belirtiler": "Cam tavanın çerçevesi (en çok ön köşelerden) ve siyah tavan çıtası darbe almadan çatlar ya da soyulur. Çatlak büyüdükçe yağmurda ve yıkamada kabine su girer.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "Kullanıcılar çatlağın darbe olmadan kendiliğinden oluştuğunu ve üretim hatasından şüphelendiklerini yazıyor; üreticinin açıklaması bulunamadı. Çatlak sızdırmazlığı bozduğunda su tavan içine ve kabine geçebiliyor.",
@@ -26908,9 +26908,9 @@
           ]
         },
         {
-          "sorun_adi": "Bagaja su alma (arka tampon altı hava kanalları)",
+          "sorun_adi": "Bagaja su girmesi",
           "etkilenen_parca": "Arka hava tahliye kanalı çerçevesi, bagaj tabanı",
-          "belirtiler": "Yağmurda ya da yıkamada bagaj tabanında su birikmesi; su arka koltuk altına ve ön yer döşemesine kadar yayılabiliyor.",
+          "belirtiler": "Yağmurda ya da yıkamada bagaj tabanında su birikir. Su arka koltukların altına, oradan ön tabana kadar yayılabilir. Kaynağı arka tampon altındaki hava kanallarıdır.",
           "risk_seviyesi": "Orta",
           "detay": {
             "neden": "Bir forum kullanıcısına göre su, arka tamponun altındaki hava kanallarının sabitlendiği çerçevenin kenarlarından giriyor; Şikâyetvar'daki bir kullanıcı bunu üretim hatası olarak görüyor.",
@@ -26924,9 +26924,9 @@
           ]
         },
         {
-          "sorun_adi": "Far ve sis farlarında buğulanma; bi-xenon far merceklerinde lekelenme ve matlaşma",
+          "sorun_adi": "Far buğulanması, xenon far merceğinde leke",
           "etkilenen_parca": "Far gövdesi contaları ve havalandırması, bi-xenon projektör merceği",
-          "belirtiler": "Yağmur ya da yıkama sonrası far ve sis farı içinde buğu; bi-xenon farlı araçlarda mercekte leke, bulanıklık ve zamanla zayıflayan ışık.",
+          "belirtiler": "Yağmurdan ya da yıkamadan sonra far ve sis farının içi buğulanır. Bi-xenon farlarda mercek lekelenir, bulanıklaşır ve ışık zamanla zayıflar.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "DonanımHaber'deki Golf 7 sorun listesinde far ve sislerde buğulanma ile 2015 model bi-xenon farlarda mercek lekelenmesi / kararması ayrı maddeler olarak geçiyor. Almanya'da AutoBild, Golf 7 sahiplerinin bi-xenon farlarda mercek ve camların bulanıklaştığını bildirdiğini yazıyor ve merceğin nasıl temizlendiğini anlatıyor.",
@@ -26940,9 +26940,9 @@
           ]
         },
         {
-          "sorun_adi": "Arka akstan ve süspansiyondan gelen tıkırtı, 'lok lok' sesi (soğukta artan)",
+          "sorun_adi": "Arka süspansiyondan tıkırtı ve 'lok lok' sesi",
           "etkilenen_parca": "Çok bağlantılı arka aks, arka amortisörler ve süspansiyon burçları",
-          "belirtiler": "Bozuk yolda ve kasiste arka taraftan tıkırtı ve 'lok lok' sesi; havalar soğuyunca artan süspansiyon gıcırtısı; servisin burçları yağlayarak ya da amortisör değiştirerek çözmeye çalışması.",
+          "belirtiler": "Bozuk yolda ve kasiste arkadan tıkırtı ve 'lok lok' sesi gelir. Havalar soğuyunca süspansiyon gıcırtısı artar. Burçların yağlanması ya da amortisör değişimiyle giderilmeye çalışılır.",
           "risk_seviyesi": "Düşük",
           "detay": {
             "neden": "DonanımHaber'deki Golf 7 sorun listesinde soğukta artan süspansiyon sesleri (serviste burçlara özel yağ sürüldüğü) ve arka taraftan gelen 'lok lok' sesler ayrı maddeler; başlıkta Golf ve Passat kullanıcıları arka taraftan gelen sesi doğruluyor. AUTODOC'un Golf 7 rehberi, çok bağlantılı arka akslı Golf 7'lerde arka akstan gelen tıkırtının yaygın olduğunu ve çoğunlukla arka amortisörlerden kaynaklandığını, üreticinin bunu araç karakteristiği saydığını yazıyor.",
