@@ -1470,9 +1470,11 @@
       for (const k of liste) {
         if (k.modelGeneli) continue;
         let en = null; let enDeger = 0;
+        const kendi = (k.ye ?? SIMDI) - k.yb + 1;
         for (const c of capalar) {
           const d = ortusme(k.yb, k.ye, c.capa.yb, c.capa.ye);
-          if (d > enDeger) { en = c; enDeger = d; }
+          // sınırda tek yıllık değme yetmez: kaydın yıllarının yarısından fazlası ya da en az 3 yıl örtüşmeli
+          if ((d * 2 > kendi || d >= 3) && d > enDeger) { en = c; enDeger = d; }
         }
         if (en) en.kayitlar.push(k); else serbest.push(k);
       }

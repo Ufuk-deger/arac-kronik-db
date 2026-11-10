@@ -46,7 +46,8 @@ function grupla(kayitlar) {
     for (const k of liste) {
       if (k.a.motor.startsWith('Tüm motorlar')) continue;
       let en = null; let d0 = 0;
-      for (const c of capalar) { const d = ort(k, c); if (d > d0) { en = c; d0 = d; } }
+      const kendi = (ye(k) ?? SIMDI) - yb(k) + 1;
+      for (const c of capalar) { const d = ort(k, c); if ((d * 2 > kendi || d >= 3) && d > d0) { en = c; d0 = d; } }
       if (en) { k.grup = en.grup; continue; }
       if (g && yb(k) < son) { son = Math.max(son, ye(k) ?? 1e9); } else { g = `g${n++}`; son = ye(k) ?? 1e9; }
       k.grup = g;

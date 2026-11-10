@@ -79,7 +79,7 @@ def kayitlari_kur(veri):
 
 def grupla(kayitlar):
     """Model kartlarıyla aynı kural (viewer/sablon.html): adın ilk parçası aynı olan kayıtlar birlikte ele alınır,
-    model geneli kayıtlar nesil çapasıdır; motor kaydı yılları en çok örtüşen çapaya girer, çapasızlar örtüştükçe birleşir."""
+    model geneli kayıtlar nesil çapasıdır; motor kaydı yılları en çok (ve yeterince) örtüşen çapaya girer, çapasızlar örtüştükçe birleşir."""
     markailk = {}
     for k in kayitlar:
         markailk.setdefault(k["marka"], set()).add(ilk_parca(k["taban"]))
@@ -104,9 +104,11 @@ def grupla(kayitlar):
             if k["genel"]:
                 continue
             en, en_d = None, 0
+            kendi = (k["ye"] or SIMDI) - k["yb"] + 1
             for c in capalar:
                 d = ortusme(k, c["capa"])
-                if d > en_d:
+                # sınırda tek yıllık değme yetmez: kaydın yıllarının yarısından fazlası ya da en az 3 yıl çapayla örtüşmeli
+                if (d * 2 > kendi or d >= 3) and d > en_d:
                     en, en_d = c, d
             (en["kayitlar"].append(k) if en else serbest.append(k))
         g = None
